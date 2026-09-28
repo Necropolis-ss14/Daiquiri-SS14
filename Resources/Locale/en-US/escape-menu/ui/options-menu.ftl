@@ -90,27 +90,25 @@ ui-options-hud-layout-separated = Раздельный
 ui-options-vp-stretch = Растягивать область просмотра под окно игры
 ui-options-vp-scale = Фиксированный масштаб области просмотра:
 ui-options-vp-scale-value = x{ $scale }
-ui-options-vp-integer-scaling = Использовать целочисленный масштаб (может вызвать чёрные полосы или обрезание)
-ui-options-vp-integer-scaling-tooltip = Если эта настройка включена, область просмотра будет масштабироваться с использованием целого числа
-    на определённых разрешениях. Это обеспечивает чёткие текстуры, однако часто
-    приводит к появлению чёрных полос сверху/снизу экрана либо к тому, что часть
-    области просмотра становится невидимой.
-ui-options-filter-label = Фильтр масштабирования:
-ui-options-filter-nearest = Ближайший (без сглаживания)
-ui-options-filter-bilinear = Билинейный (сглаженный)
-ui-options-trace = Показывать траекторию пули
-ui-options-trace-tooltip = Если у вас возникают лаги при стрельбе, снимите эту галочку,
-    и hitscan не будет отображать текстуру дыма позади летящей пули.
-ui-options-vp-vertical-fit = Вертикальная подгонка области просмотра
-ui-options-vp-vertical-fit-tooltip = При включении этой настройки основная область просмотра полностью игнорирует горизонтальную ось
-    при подгонке под экран. Если ваш экран меньше области просмотра, это
-    приведёт к обрезанию области просмотра по горизонтали.
-ui-options-vp-low-res = Область просмотра в низком разрешении
-ui-options-parallax-low-quality = Параллакс низкого качества (фон)
-ui-options-ambient-occlusion = Показывать затенение окружающей среды
-ui-options-fps-counter = Показывать счётчик FPS
-ui-options-vp-width = Ширина области просмотра:
-ui-options-hud-layout = Раскладка HUD:
+
+ui-options-vp-integer-scaling = Prefer integer scaling (might cause black bars/clipping)
+ui-options-vp-integer-scaling-tooltip = If this option is enabled, the viewport will be scaled using an integer value
+                                        at specific resolutions. While this results in crisp textures, it also often
+                                        means that black bars appear at the top/bottom of the screen or that part
+                                        of the viewport is not visible.
+ui-options-filter-label = Scaling filter:
+ui-options-filter-nearest = Nearest (no smoothing)
+ui-options-filter-bilinear = Bilinear (smoothed)
+ui-options-vp-vertical-fit = Vertical viewport fitting
+ui-options-vp-vertical-fit-tooltip = When enabled, the main viewport will ignore the horizontal axis entirely when
+                                     fitting to your screen. If your screen is smaller than the viewport, then this
+                                     will cause the viewport to be cut off on the horizontal axis.
+ui-options-vp-low-res = Low-resolution viewport
+ui-options-parallax-low-quality = Low-quality Parallax (background)
+ui-options-ambient-occlusion = Show Ambient Occlusion
+ui-options-fps-counter = Show FPS counter
+ui-options-vp-width = Viewport width:
+ui-options-hud-layout = HUD layout:
 
 ## Controls menu
 
