@@ -226,7 +226,8 @@ public sealed partial class GraphicsTab : Control
         protected override int Value
         {
             get => _dropDown.Button.SelectedId;
-            set => _dropDown.Button.SelectId(value);
+            // Starlight: clamp stale/out-of-range saved values to avoid KeyNotFound crash.
+            set => _dropDown.Button.SelectId(Math.Clamp(value, (int) SpriteQualityLevel.Low, (int) SpriteQualityLevel.High));
         }
 
         public OptionSpriteQuality(
