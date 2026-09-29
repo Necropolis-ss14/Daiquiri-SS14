@@ -21,7 +21,9 @@ public partial class GlassPanel : PanelContainer
     [Dependency] private IConfigurationManager _cfg = default!;
 
     private Color _glassColor = Color.Transparent;
-    private Action<bool>? _onGlassChanged;
+    private Action<bool>? _onGlassBool;
+    private Action<int>? _onGlassInt;
+    private Action<string>? _onGlassString;
 
     /// <summary>
     /// Base (opaque) background color, settable from XAML.
@@ -54,15 +56,27 @@ public partial class GlassPanel : PanelContainer
     public GlassPanel()
     {
         IoCManager.InjectDependencies(this);
-        _onGlassChanged = _ => UpdateBox();
-        _cfg.OnValueChanged(StarlightCCVars.UIGlassTheme, _onGlassChanged, true);
+        _onGlassBool = _ => UpdateBox();
+        _onGlassInt = _ => UpdateBox();
+        _onGlassString = _ => UpdateBox();
+        _cfg.OnValueChanged(StarlightCCVars.UIGlassTheme, _onGlassBool, true);
+        _cfg.OnValueChanged(StarlightCCVars.UIGlassTransparency, _onGlassInt);
+        _cfg.OnValueChanged(StarlightCCVars.UIGlassAccentEnabled, _onGlassBool);
+        _cfg.OnValueChanged(StarlightCCVars.UIGlassAccent, _onGlassString);
     }
 
     protected override void ExitedTree()
     {
         base.ExitedTree();
-        if (_onGlassChanged != null)
-            _cfg.UnsubValueChanged(StarlightCCVars.UIGlassTheme, _onGlassChanged);
+        if (_onGlassBool != null)
+        {
+            _cfg.UnsubValueChanged(StarlightCCVars.UIGlassTheme, _onGlassBool);
+            _cfg.UnsubValueChanged(StarlightCCVars.UIGlassAccentEnabled, _onGlassBool);
+        }
+        if (_onGlassInt != null)
+            _cfg.UnsubValueChanged(StarlightCCVars.UIGlassTransparency, _onGlassInt);
+        if (_onGlassString != null)
+            _cfg.UnsubValueChanged(StarlightCCVars.UIGlassAccent, _onGlassString);
     }
 
     private void UpdateBox()
@@ -71,7 +85,7 @@ public partial class GlassPanel : PanelContainer
             return;
 
         var box = _cfg.GetCVar(StarlightCCVars.UIGlassTheme)
-            ? new StyleBoxFlat(GlassTheme.GlassifyPanel(_glassColor))
+            ? new StyleBoxFlat(GlassTheme.GlassifyPanel(_glassColor, GlassTheme.ReadParams(_cfg)))
             : new StyleBoxFlat(_glassColor);
         if (_glassContentMargin >= 0f)
         {

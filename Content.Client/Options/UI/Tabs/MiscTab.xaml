@@ -10,6 +10,9 @@
                        StyleClasses="LabelKeyText"/>
                 <CheckBox Name="AutoPunctuate" Text="{Loc 'ui-options-auto-punctuate'}" Margin="0 0 0 5" />
                 <CheckBox Name="GlassThemeCheckBox" Text="{Loc 'ui-options-glass-theme'}" Margin="0 0 0 5" />
+                <ui:OptionSlider Name="GlassAlphaSlider" Title="{Loc 'ui-options-glass-transparency'}" Margin="0 0 0 5" />
+                <CheckBox Name="GlassAccentCheckBox" Text="{Loc 'ui-options-glass-accent'}" Margin="0 0 0 5" />
+                <ui:OptionColorSlider Name="GlassAccentSlider" Title="{Loc 'ui-options-glass-accent-color'}" Margin="0 0 0 5" />
                 <CheckBox Name="WieldBeforeRack" Text="{Loc 'ui-options-wield-before-rack'}"  ToolTip="{Loc 'ui-options-wield-before-rack-tooltip'}" Margin="0 0 0 5" />
                 <!-- Starlight End -->
                 <Label Text="{Loc 'ui-options-general-discord'}"

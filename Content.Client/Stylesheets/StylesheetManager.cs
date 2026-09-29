@@ -7,6 +7,7 @@ using Robust.Client.ResourceManagement;
 using Robust.Client.UserInterface;
 using Robust.Shared.Configuration;
 using Robust.Shared.Reflection;
+using Timer = Robust.Shared.Timing.Timer;
 
 #region Starlight
 using Content.Client._Starlight;
@@ -54,6 +55,26 @@ namespace Content.Client.Stylesheets
             _userInterfaceManager.Stylesheet = enabled ? SheetGlassNanotrasen : SheetNanotrasen;
         }
 
+        private int _glassBuildId;
+
+        private Stylesheet RebuildGlass(out int glassified)
+        {
+            return GlassTheme.MakeGlass(SheetNanotrasen, GlassTheme.ReadParams(_cfg), out glassified);
+        }
+
+        private void RequestGlassRebuild()
+        {
+            var id = ++_glassBuildId;
+            Timer.Spawn(120, () =>
+            {
+                if (id != _glassBuildId)
+                    return;
+                SheetGlassNanotrasen = RebuildGlass(out _);
+                if (_cfg.GetCVar(StarlightCCVars.UIGlassTheme))
+                    _userInterfaceManager.Stylesheet = SheetGlassNanotrasen;
+            });
+        }
+
         public HashSet<Type> UnusedSheetlets { get; private set; } = [];
 
         public void Initialize()
@@ -72,10 +93,14 @@ namespace Content.Client.Stylesheets
             SheetNano = new StyleNano(_resCache).Stylesheet; // TODO: REMOVE (obsolete)
             SheetSpace = new StyleSpace(_resCache).Stylesheet; // TODO: REMOVE (obsolete)
             Starlight = new StyleStarlight(_resCache).Stylesheet; //🌟Starlight🌟 TODO: REMOVE (obsolete)
-            SheetGlassNanotrasen = GlassTheme.MakeGlass(SheetNanotrasen, out var glassified);
+            SheetGlassNanotrasen = RebuildGlass(out var glassified);
             sawmill.Debug($"Glass theme variant: {glassified} panels glassified.");
             // Applies the saved theme immediately and live-swaps on CVar change.
             _cfg.OnValueChanged(StarlightCCVars.UIGlassTheme, SetGlassTheme, true);
+            // Transparency/accent sliders rebuild the glass sheet live (debounced).
+            _cfg.OnValueChanged(StarlightCCVars.UIGlassTransparency, _ => RequestGlassRebuild());
+            _cfg.OnValueChanged(StarlightCCVars.UIGlassAccentEnabled, _ => RequestGlassRebuild());
+            _cfg.OnValueChanged(StarlightCCVars.UIGlassAccent, _ => RequestGlassRebuild());
 
             // warn about unused sheetlets
             if (UnusedSheetlets.Count > 0)

@@ -42,6 +42,24 @@ public sealed partial class StarlightCCVars
         CVarDef.Create("ui.glass_theme", true, CVar.CLIENTONLY | CVar.ARCHIVE);
 
     /// <summary>
+    /// Glass transparency strength, 0-100 percent.
+    /// </summary>
+    public static readonly CVarDef<int> UIGlassTransparency =
+        CVarDef.Create("ui.glass_transparency", 20, CVar.CLIENTONLY | CVar.ARCHIVE);
+
+    /// <summary>
+    /// Whether the glass accent color tint is applied.
+    /// </summary>
+    public static readonly CVarDef<bool> UIGlassAccentEnabled =
+        CVarDef.Create("ui.glass_accent_enabled", false, CVar.CLIENTONLY | CVar.ARCHIVE);
+
+    /// <summary>
+    /// Glass accent tint color (hex).
+    /// </summary>
+    public static readonly CVarDef<string> UIGlassAccent =
+        CVarDef.Create("ui.glass_accent", "#7fb2ff", CVar.CLIENTONLY | CVar.ARCHIVE);
+
+    /// <summary>
     /// Whether the first-run liquid glass prompt was already shown.
     /// </summary>
     public static readonly CVarDef<bool> UIGlassThemeSeen =

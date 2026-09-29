@@ -40,10 +40,18 @@ public sealed partial class MiscTab : Control
         // Starlight-start
         Control.AddOptionCheckBox(StarlightCCVars.AutoPunctuate, AutoPunctuate);
         Control.AddOptionCheckBox(StarlightCCVars.UIGlassTheme, GlassThemeCheckBox);
+        Control.AddOptionSlider(StarlightCCVars.UIGlassTransparency, GlassAlphaSlider, 0, 100, (_, value) => $"{value}%");
+        Control.AddOptionCheckBox(StarlightCCVars.UIGlassAccentEnabled, GlassAccentCheckBox);
+        Control.AddOptionColorSlider(StarlightCCVars.UIGlassAccent, GlassAccentSlider);
         Control.AddOptionCheckBox(StarlightCCVars.WieldBeforeRack, WieldBeforeRack);
         Control.AddOptionCheckBox(StarlightCCVars.ForceTestersTab, ForceTestersTab);
         // Starlight-end
 
+        // Daiquiri: sliders appear only when their checkbox is on.
         Control.Initialize();
+        GlassAlphaSlider.Visible = GlassThemeCheckBox.Pressed;
+        GlassAccentSlider.Visible = GlassAccentCheckBox.Pressed;
+        GlassThemeCheckBox.OnToggled += args => GlassAlphaSlider.Visible = args.Pressed;
+        GlassAccentCheckBox.OnToggled += args => GlassAccentSlider.Visible = args.Pressed;
     }
 }
