@@ -1,4 +1,5 @@
 <DefaultWindow xmlns="https://spacestation14.io"
+               xmlns:ui="clr-namespace:Content.Client.Options.UI"
                Title="{Loc 'ui-glass-prompt-title'}"
                MinSize="380 0">
     <BoxContainer Orientation="Vertical" Margin="8" SeparationOverride="8">
@@ -7,7 +8,9 @@
         <Label Text="{Loc 'ui-glass-prompt-line3'}" />
         <CheckBox Name="GlassCheckBox" Access="Public" Text="{Loc 'ui-options-glass-theme'}" />
         <CheckBox Name="TransparencyCheckBox" Access="Public" Text="{Loc 'ui-options-glass-transparency-enable'}" />
+        <ui:OptionSlider Name="TransparencySlider" Access="Public" Title="{Loc 'ui-options-glass-transparency'}" />
         <CheckBox Name="AccentCheckBox" Access="Public" Text="{Loc 'ui-options-glass-accent'}" />
+        <ui:OptionColorSlider Name="AccentSlider" Access="Public" Title="{Loc 'ui-options-glass-accent-color'}" />
         <Button Name="ConfirmButton" Access="Public" Text="{Loc 'ui-glass-prompt-confirm'}"
                 HorizontalAlignment="Right" />
     </BoxContainer>

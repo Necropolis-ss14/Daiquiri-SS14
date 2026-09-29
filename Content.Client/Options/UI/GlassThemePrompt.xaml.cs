@@ -4,6 +4,7 @@ using Robust.Client.UserInterface.CustomControls;
 using Robust.Client.UserInterface.XAML;
 using Robust.Shared.Configuration;
 using Robust.Shared.IoC;
+using Robust.Shared.Maths;
 
 namespace Content.Client.Options.UI;
 
@@ -23,9 +24,33 @@ public sealed partial class GlassThemePrompt : DefaultWindow
         GlassCheckBox.Pressed = _cfg.GetCVar(StarlightCCVars.UIGlassTheme);
         GlassCheckBox.OnToggled += args => _cfg.SetCVar(StarlightCCVars.UIGlassTheme, args.Pressed);
         TransparencyCheckBox.Pressed = _cfg.GetCVar(StarlightCCVars.UIGlassTransparencyEnabled);
-        TransparencyCheckBox.OnToggled += args => _cfg.SetCVar(StarlightCCVars.UIGlassTransparencyEnabled, args.Pressed);
+        TransparencyCheckBox.OnToggled += args =>
+        {
+            _cfg.SetCVar(StarlightCCVars.UIGlassTransparencyEnabled, args.Pressed);
+            TransparencySlider.Visible = args.Pressed;
+        };
         AccentCheckBox.Pressed = _cfg.GetCVar(StarlightCCVars.UIGlassAccentEnabled);
-        AccentCheckBox.OnToggled += args => _cfg.SetCVar(StarlightCCVars.UIGlassAccentEnabled, args.Pressed);
+        AccentCheckBox.OnToggled += args =>
+        {
+            _cfg.SetCVar(StarlightCCVars.UIGlassAccentEnabled, args.Pressed);
+            AccentSlider.Visible = args.Pressed;
+        };
+
+        TransparencySlider.Slider.MinValue = 0;
+        TransparencySlider.Slider.MaxValue = 100;
+        TransparencySlider.Slider.SetValueWithoutEvent(_cfg.GetCVar(StarlightCCVars.UIGlassTransparency));
+        TransparencySlider.ValueLabel.Text = $"{_cfg.GetCVar(StarlightCCVars.UIGlassTransparency)}%";
+        TransparencySlider.Slider.OnValueChanged += args =>
+        {
+            var value = (int) args.Value;
+            _cfg.SetCVar(StarlightCCVars.UIGlassTransparency, value);
+            TransparencySlider.ValueLabel.Text = $"{value}%";
+        };
+        TransparencySlider.Visible = TransparencyCheckBox.Pressed;
+
+        AccentSlider.Slider.Color = Color.FromHex(_cfg.GetCVar(StarlightCCVars.UIGlassAccent));
+        AccentSlider.Slider.OnColorChanged += color => _cfg.SetCVar(StarlightCCVars.UIGlassAccent, color.ToHex());
+        AccentSlider.Visible = AccentCheckBox.Pressed;
         ConfirmButton.OnPressed += _ =>
         {
             _cfg.SetCVar(StarlightCCVars.UIGlassThemeSeen, true);
