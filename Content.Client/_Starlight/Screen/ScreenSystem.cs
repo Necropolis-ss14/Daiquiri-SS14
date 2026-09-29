@@ -449,6 +449,15 @@ public sealed partial class ScreenSystem : VisualizerSystem<ScreenVisualsCompone
     }
 
     /// <summary>
+    /// Cyrillic letters that share a glyph file with another letter.
+    /// </summary>
+    private static readonly Dictionary<char, string> CyrillicAliases = new()
+    {
+        { 'й', "и" },
+        { 'ё', "е" },
+    };
+
+    /// <summary>
     ///     Returns the Effects/text.rsi state string based on <paramref name="character"/>, or null if none available.
     /// </summary>
     public static string? GetStateFromChar(char? character)
@@ -460,9 +469,18 @@ public sealed partial class ScreenSystem : VisualizerSystem<ScreenVisualsCompone
         if (CharStatePairs.TryGetValue(character.Value, out var value))
             return value;
 
-        // Or else it checks if its a normal letter or digit
-        if (char.IsLetterOrDigit(character.Value))
-            return character.Value.ToString().ToLower();
+        // Or else it checks if its a normal letter or digit.
+        // Daiquiri: text.rsi has latin and Cyrillic glyphs; anything else is skipped.
+        var str = character.Value.ToString().ToLowerInvariant();
+        if (str.Length == 1)
+        {
+            if (CyrillicAliases.TryGetValue(str[0], out var alias))
+                return alias;
+            if ((str[0] >= 'a' && str[0] <= 'z') || (str[0] >= '0' && str[0] <= '9'))
+                return str;
+            if (str[0] >= 'а' && str[0] <= 'я' || str[0] == 'ё')
+                return str;
+        }
 
         return null;
     }
