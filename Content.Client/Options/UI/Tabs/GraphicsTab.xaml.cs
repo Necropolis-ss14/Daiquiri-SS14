@@ -230,7 +230,7 @@ public sealed partial class GraphicsTab : Control
         protected override int Value
         {
             get => _dropDown.Button.SelectedId;
-            // Starlight: clamp stale/out-of-range saved values to avoid KeyNotFound crash.
+            // Daiquiri: clamp stale/out-of-range saved values to avoid KeyNotFound crash.
             set => _dropDown.Button.SelectId(Math.Clamp(value, (int) SpriteQualityLevel.Low, (int) SpriteQualityLevel.High));
         }
 
@@ -332,7 +332,7 @@ public sealed partial class GraphicsTab : Control
 
         public override void LoadValue()
         {
-            // Starlight: clamp stale/out-of-range saved values (e.g. 4) to avoid KeyNotFound crash.
+            // Daiquiri: clamp stale/out-of-range saved values (e.g. 4) to avoid KeyNotFound crash.
             _dropDown.Button.SelectId(Math.Clamp(_cfg.GetCVar(CCVars.ParticleQuality), QualityOff, QualityHigh));
         }
 

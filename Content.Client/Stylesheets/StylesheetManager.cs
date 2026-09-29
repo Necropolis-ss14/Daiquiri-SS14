@@ -19,7 +19,7 @@ namespace Content.Client.Stylesheets
         [Dependency] private ILogManager _logManager = default!;
         [Dependency] private IUserInterfaceManager _userInterfaceManager = default!;
         [Dependency] private IReflectionManager _reflection = default!;
-        [Dependency] private IConfigurationManager _cfg = default!; // Starlight glass theme toggle
+        [Dependency] private IConfigurationManager _cfg = default!; // Daiquiri glass theme toggle
 
         [Dependency]
         private IResourceCache
@@ -28,7 +28,7 @@ namespace Content.Client.Stylesheets
         public Stylesheet SheetNanotrasen { get; private set; } = default!;
         public Stylesheet SheetSystem { get; private set; } = default!;
 
-        public Stylesheet SheetGlassNanotrasen { get; private set; } = default!; // Starlight glass theme
+        public Stylesheet SheetGlassNanotrasen { get; private set; } = default!; // Daiquiri glass theme
 
         [Obsolete("Update to use SheetNanotrasen instead")]
         public Stylesheet SheetNano { get; private set; } = default!;
@@ -47,7 +47,7 @@ namespace Content.Client.Stylesheets
         }
 
         /// <summary>
-        /// Starlight: live swap between the opaque and translucent ("liquid glass") interface theme.
+        /// Daiquiri: live swap between the opaque and translucent ("liquid glass") interface theme.
         /// </summary>
         public void SetGlassTheme(bool enabled)
         {

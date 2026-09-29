@@ -77,7 +77,7 @@ public sealed partial class ContrabandSystem : EntitySystem
         }
         else
         {
-            // Starlight: pass fallback color and type, some locales use {$color} and {$type} in severity text.
+            // Daiquiri: pass fallback color and type, some locales use {$color} and {$type} in severity text.
             departmentExamineMessage = Loc.GetString(severity.ExamineText,
                 ("type", ContrabandItemType.Item),
                 ("color", Color.Red.ToHex()));
@@ -132,7 +132,7 @@ public sealed partial class ContrabandSystem : EntitySystem
     private FormattedMessage GetContrabandExamine(String deptMessage, String carryMessage)
     {
         var msg = new FormattedMessage();
-        // Starlight: permissive parsing so a broken locale string can never crash the client again.
+        // Daiquiri: permissive parsing so a broken locale string can never crash the client again.
         msg.AddMarkupPermissive(deptMessage, out _);
         msg.PushNewline();
         msg.AddMarkupPermissive(carryMessage, out _);

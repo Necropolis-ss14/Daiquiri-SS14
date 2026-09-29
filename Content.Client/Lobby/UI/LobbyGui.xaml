@@ -56,7 +56,7 @@
 
                     <!-- Left Bot Panel -->
                     <BoxContainer Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Bottom">
-                        <lobbyUi:LobbyMusicSwitcher Name="MusicSwitcher" Access="Public" /> <!-- Starlight: music switcher instead of servers hub -->
+                        <lobbyUi:LobbyMusicSwitcher Name="MusicSwitcher" Access="Public" /> <!-- Daiquiri: music switcher instead of servers hub -->
                         <PanelContainer StyleClasses="BackgroundPanel" Margin="3 3 3 3">
                             <BoxContainer Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="3 3 3 3">
                                 <RichTextLabel Name="LobbySong" Access="Public" HorizontalAlignment="Left" />

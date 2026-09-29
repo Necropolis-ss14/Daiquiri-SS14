@@ -4,12 +4,12 @@ using Content.Client.Audio;
 using Content.Client.GameTicking.Managers;
 using Content.Client.Lobby.UI;
 using Content.Client.Message;
-using Content.Client.Options.UI; // Starlight glass prompt
+using Content.Client.Options.UI; // Daiquiri glass prompt
 using Content.Client.Playtime;
 using Content.Client.UserInterface.Systems.Chat;
 using Content.Client.Voting;
 using Content.Shared.CCVar;
-using Content.Shared._Starlight.CCVar; // Starlight glass prompt
+using Content.Shared._Starlight.CCVar; // Daiquiri glass prompt
 using Robust.Client;
 using Robust.Client.Console;
 using Robust.Client.ResourceManagement;
@@ -95,7 +95,7 @@ namespace Content.Client.Lobby
 
             _userInterfaceManager.GetUIController<LobbyUIController>().OnAnyCharacterOrJobChange += UpdateReadyAllowed;
 
-            // Starlight: first-run liquid glass prompt with live preview.
+            // Daiquiri: first-run liquid glass prompt with live preview.
             // Shown only to newcomers (no characters yet), veterans are marked silently.
             if (!_cfg.GetCVar(StarlightCCVars.UIGlassThemeSeen))
             {

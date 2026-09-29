@@ -23,7 +23,7 @@ public sealed partial class AudioTab : Control
         RobustXamlLoader.Load(this);
         IoCManager.InjectDependencies(this);
 
-        // Starlight start: audio output device selection.
+        // Daiquiri start: audio output device selection.
         var deviceOptions = new List<OptionDropDownCVar<string>.ValueOption>
         {
             new(string.Empty, Loc.GetString("ui-options-audio-device-default")),
@@ -36,7 +36,7 @@ public sealed partial class AudioTab : Control
         }
         Control.AddOptionDropDown(CVars.AudioDevice, DropDownAudioDevice, deviceOptions);
         Control.AddOptionCheckBox(CVars.AudioHrtf, HrtfCheckBox);
-        // Starlight end
+        // Daiquiri end
 
         var masterVolume = Control.AddOptionPercentSlider(
             CVars.AudioMasterVolume,
