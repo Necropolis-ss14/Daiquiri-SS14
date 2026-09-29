@@ -9,10 +9,10 @@ namespace Content.Client._Starlight.Glass;
 /// <summary>
 /// Opens the liquid glass prompt when the server asks for it (glassshow command).
 /// </summary>
-public sealed class GlassPromptSystem : EntitySystem
+public sealed partial class GlassPromptSystem : EntitySystem
 {
-    [Dependency] private readonly INetManager _net = default!;
-    [Dependency] private readonly IUserInterfaceManager _ui = default!;
+    [Dependency] private INetManager _net = default!;
+    [Dependency] private IUserInterfaceManager _ui = default!;
 
     public override void Initialize()
     {
