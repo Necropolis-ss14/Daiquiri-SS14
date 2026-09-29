@@ -5,7 +5,6 @@ using Content.Shared.Localizations;
 using Content.Shared.Roles;
 using Content.Shared.Verbs;
 using Robust.Shared.Configuration;
-using Robust.Shared.Maths;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Utility;
 using System.Linq;
@@ -77,10 +76,7 @@ public sealed partial class ContrabandSystem : EntitySystem
         }
         else
         {
-            // Daiquiri: pass fallback color and type, some locales use {$color} and {$type} in severity text.
-            departmentExamineMessage = Loc.GetString(severity.ExamineText,
-                ("type", ContrabandItemType.Item),
-                ("color", Color.Red.ToHex()));
+            departmentExamineMessage = Loc.GetString(severity.ExamineText);
         }
 
         // text based on ID card
@@ -123,19 +119,15 @@ public sealed partial class ContrabandSystem : EntitySystem
         var list = ContentLocalizationManager.FormatList(localizedDepartments.Concat(localizedJobs).ToList());
 
         // department restricted text
-        return Loc.GetString("contraband-examine-text-Restricted-department",
-            ("departments", list),
-            ("type", itemType),
-            ("color", Color.Red.ToHex()));
+        return Loc.GetString("contraband-examine-text-Restricted-department", ("departments", list), ("type", itemType));
     }
 
     private FormattedMessage GetContrabandExamine(String deptMessage, String carryMessage)
     {
         var msg = new FormattedMessage();
-        // Daiquiri: permissive parsing so a broken locale string can never crash the client again.
-        msg.AddMarkupPermissive(deptMessage, out _);
+        msg.AddMarkupOrThrow(deptMessage);
         msg.PushNewline();
-        msg.AddMarkupPermissive(carryMessage, out _);
+        msg.AddMarkupOrThrow(carryMessage);
         return msg;
     }
 
