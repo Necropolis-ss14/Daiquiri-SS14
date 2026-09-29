@@ -67,8 +67,12 @@ public sealed partial class MarqueeLabel : Label
         }
 
         _offset %= loop.Length;
+        if (_offset < 0)
+            _offset += loop.Length;
         Text = loop[_offset..] + loop[.._offset];
-        _offset = (_offset + 1) % loop.Length;
+        _offset--;
+        if (_offset < 0)
+            _offset += loop.Length;
     }
 
     private bool NeedsScroll()

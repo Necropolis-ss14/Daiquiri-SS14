@@ -50,8 +50,14 @@ public sealed partial class MiscTab : Control
         // Daiquiri: sliders appear only when their checkbox is on.
         Control.Initialize();
         GlassAlphaSlider.Visible = GlassThemeCheckBox.Pressed;
-        GlassAccentSlider.Visible = GlassAccentCheckBox.Pressed;
-        GlassThemeCheckBox.OnToggled += args => GlassAlphaSlider.Visible = args.Pressed;
-        GlassAccentCheckBox.OnToggled += args => GlassAccentSlider.Visible = args.Pressed;
+        GlassAccentCheckBox.Visible = GlassThemeCheckBox.Pressed;
+        GlassAccentSlider.Visible = GlassThemeCheckBox.Pressed && GlassAccentCheckBox.Pressed;
+        GlassThemeCheckBox.OnToggled += args =>
+        {
+            GlassAlphaSlider.Visible = args.Pressed;
+            GlassAccentCheckBox.Visible = args.Pressed;
+            GlassAccentSlider.Visible = args.Pressed && GlassAccentCheckBox.Pressed;
+        };
+        GlassAccentCheckBox.OnToggled += args => GlassAccentSlider.Visible = args.Pressed && GlassThemeCheckBox.Pressed;
     }
 }
