@@ -15,6 +15,14 @@ public sealed partial class GlassShowCommand : LocalizedEntityCommands
 
     public override string Command => "glassshow";
 
+    public override CompletionResult GetCompletion(IConsoleShell shell, string[] args)
+    {
+        if (args.Length == 1)
+            return CompletionResult.FromHintOptions(CompletionHelper.SessionNames(true, _player), "username");
+
+        return CompletionResult.Empty;
+    }
+
     public override void Execute(IConsoleShell shell, string argStr, string[] args)
     {
         if (args.Length < 1)
