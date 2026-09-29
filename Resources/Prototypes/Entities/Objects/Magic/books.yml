@@ -2,7 +2,7 @@
   abstract: true
   parent: [ BaseItem, BaseMagicalContraband ]
   id: BaseSpellbook
-name: ent-BaseSpellbook
+  name: ent-BaseSpellbook
   components:
     - type: Sprite
       sprite: Objects/Misc/books.rsi
@@ -84,7 +84,7 @@ name: ent-BaseSpellbook
 - type: entity
   parent: BaseSpellbook
   id: SpawnSpellbook
-name: ent-SpawnSpellbook
+  name: ent-SpawnSpellbook
   components:
     - type: Spellbook
       spellActions:
@@ -93,7 +93,7 @@ name: ent-SpawnSpellbook
 - type: entity
   parent: BaseSpellbook
   id: ForceWallSpellbook
-name: ent-ForceWallSpellbook
+  name: ent-ForceWallSpellbook
   components:
     - type: Sprite
       sprite: Objects/Misc/books.rsi
@@ -116,7 +116,7 @@ name: ent-ForceWallSpellbook
 - type: entity
   parent: BaseSpellbook
   id: BlinkBook
-name: ent-BlinkBook
+  name: ent-BlinkBook
   components:
     - type: Sprite
       sprite: Objects/Misc/books.rsi
@@ -137,7 +137,7 @@ name: ent-BlinkBook
 - type: entity
   parent: BaseSpellbook
   id: SmiteBook
-name: ent-SmiteBook
+  name: ent-SmiteBook
   components:
     - type: Sprite
       sprite: Objects/Misc/books.rsi
@@ -160,7 +160,7 @@ name: ent-SmiteBook
 - type: entity
   parent: BaseSpellbook
   id: KnockSpellbook
-name: ent-KnockSpellbook
+  name: ent-KnockSpellbook
   components:
     - type: Sprite
       sprite: Objects/Misc/books.rsi
@@ -182,7 +182,7 @@ name: ent-KnockSpellbook
 - type: entity
   parent: BaseSpellbook
   id: FireballSpellbook
-name: ent-FireballSpellbook
+  name: ent-FireballSpellbook
   components:
     - type: Sprite
       sprite: Objects/Misc/books.rsi
@@ -206,7 +206,7 @@ name: ent-FireballSpellbook
 - type: entity
   parent: BaseSpellbook
   id: ScrollRunes
-name: ent-ScrollRunes
+  name: ent-ScrollRunes
   components:
   - type: Item
     size: Normal
