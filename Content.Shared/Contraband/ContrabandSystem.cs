@@ -5,6 +5,7 @@ using Content.Shared.Localizations;
 using Content.Shared.Roles;
 using Content.Shared.Verbs;
 using Robust.Shared.Configuration;
+using Robust.Shared.Maths;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Utility;
 using System.Linq;
@@ -76,7 +77,8 @@ public sealed partial class ContrabandSystem : EntitySystem
         }
         else
         {
-            departmentExamineMessage = Loc.GetString(severity.ExamineText);
+            // Starlight: pass a fallback color, some locales use {$color} in severity text.
+            departmentExamineMessage = Loc.GetString(severity.ExamineText, ("color", Color.Red.ToHex()));
         }
 
         // text based on ID card
