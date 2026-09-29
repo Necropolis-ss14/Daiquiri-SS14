@@ -61,6 +61,7 @@ ui-starlight = Daiquiri
 ui-options-auto-punctuate = Automatically punctuate in-character messages
 ui-options-glass-theme = Translucency (Beta)
 ui-options-glass-transparency = Transparency strength
+ui-options-glass-transparency-enable = Adjust transparency strength
 ui-options-glass-accent = Accent tint
 ui-options-glass-accent-color = Accent color
 ui-glass-prompt-title = Interface translucency

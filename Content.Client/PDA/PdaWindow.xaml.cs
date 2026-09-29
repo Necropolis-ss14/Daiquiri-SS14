@@ -61,6 +61,7 @@ public partial class PdaWindow : BaseWindow
         _onGlassBool = _ => ApplyBorder();
         _onGlassInt = _ => ApplyBorder();
         _cfg.OnValueChanged(StarlightCCVars.UIGlassTheme, _onGlassBool, true);
+        _cfg.OnValueChanged(StarlightCCVars.UIGlassTransparencyEnabled, _onGlassBool);
         _cfg.OnValueChanged(StarlightCCVars.UIGlassTransparency, _onGlassInt);
 
         CloseButton.OnPressed += _ => Close();
@@ -74,7 +75,10 @@ public partial class PdaWindow : BaseWindow
     {
         base.ExitedTree();
         if (_onGlassBool != null)
+        {
             _cfg.UnsubValueChanged(StarlightCCVars.UIGlassTheme, _onGlassBool);
+            _cfg.UnsubValueChanged(StarlightCCVars.UIGlassTransparencyEnabled, _onGlassBool);
+        }
         if (_onGlassInt != null)
             _cfg.UnsubValueChanged(StarlightCCVars.UIGlassTransparency, _onGlassInt);
     }

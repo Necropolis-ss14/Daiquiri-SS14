@@ -48,7 +48,11 @@ public static class GlassTheme
 
     public static GlassParams ReadParams(IConfigurationManager cfg)
     {
-        var alpha = TransparencyToAlpha(cfg.GetCVar(Content.Shared._Starlight.CCVar.StarlightCCVars.UIGlassTransparency));
+        var star = Content.Shared._Starlight.CCVar.StarlightCCVars.UIGlassTransparency;
+        var percent = cfg.GetCVar(Content.Shared._Starlight.CCVar.StarlightCCVars.UIGlassTransparencyEnabled)
+            ? cfg.GetCVar(star)
+            : star.DefaultValue;
+        var alpha = TransparencyToAlpha(percent);
         Color? accent = null;
         if (cfg.GetCVar(Content.Shared._Starlight.CCVar.StarlightCCVars.UIGlassAccentEnabled))
             accent = ParseAccent(cfg.GetCVar(Content.Shared._Starlight.CCVar.StarlightCCVars.UIGlassAccent));

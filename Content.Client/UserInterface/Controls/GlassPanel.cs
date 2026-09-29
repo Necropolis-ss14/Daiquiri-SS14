@@ -60,6 +60,7 @@ public partial class GlassPanel : PanelContainer
         _onGlassInt = _ => UpdateBox();
         _onGlassString = _ => UpdateBox();
         _cfg.OnValueChanged(StarlightCCVars.UIGlassTheme, _onGlassBool, true);
+        _cfg.OnValueChanged(StarlightCCVars.UIGlassTransparencyEnabled, _onGlassBool);
         _cfg.OnValueChanged(StarlightCCVars.UIGlassTransparency, _onGlassInt);
         _cfg.OnValueChanged(StarlightCCVars.UIGlassAccentEnabled, _onGlassBool);
         _cfg.OnValueChanged(StarlightCCVars.UIGlassAccent, _onGlassString);
@@ -71,6 +72,7 @@ public partial class GlassPanel : PanelContainer
         if (_onGlassBool != null)
         {
             _cfg.UnsubValueChanged(StarlightCCVars.UIGlassTheme, _onGlassBool);
+            _cfg.UnsubValueChanged(StarlightCCVars.UIGlassTransparencyEnabled, _onGlassBool);
             _cfg.UnsubValueChanged(StarlightCCVars.UIGlassAccentEnabled, _onGlassBool);
         }
         if (_onGlassInt != null)

@@ -40,6 +40,7 @@ public sealed partial class MiscTab : Control
         // Starlight-start
         Control.AddOptionCheckBox(StarlightCCVars.AutoPunctuate, AutoPunctuate);
         Control.AddOptionCheckBox(StarlightCCVars.UIGlassTheme, GlassThemeCheckBox);
+        Control.AddOptionCheckBox(StarlightCCVars.UIGlassTransparencyEnabled, GlassTransparencyCheckBox);
         Control.AddOptionSlider(StarlightCCVars.UIGlassTransparency, GlassAlphaSlider, 0, 100, (_, value) => $"{value}%");
         Control.AddOptionCheckBox(StarlightCCVars.UIGlassAccentEnabled, GlassAccentCheckBox);
         Control.AddOptionColorSlider(StarlightCCVars.UIGlassAccent, GlassAccentSlider);
@@ -49,15 +50,19 @@ public sealed partial class MiscTab : Control
 
         // Daiquiri: sliders appear only when their checkbox is on.
         Control.Initialize();
-        GlassAlphaSlider.Visible = GlassThemeCheckBox.Pressed;
+        GlassTransparencyCheckBox.Visible = GlassThemeCheckBox.Pressed;
+        GlassAlphaSlider.Visible = GlassThemeCheckBox.Pressed && GlassTransparencyCheckBox.Pressed;
         GlassAccentCheckBox.Visible = GlassThemeCheckBox.Pressed;
         GlassAccentSlider.Visible = GlassThemeCheckBox.Pressed && GlassAccentCheckBox.Pressed;
         GlassThemeCheckBox.OnToggled += args =>
         {
-            GlassAlphaSlider.Visible = args.Pressed;
+            GlassTransparencyCheckBox.Visible = args.Pressed;
+            GlassAlphaSlider.Visible = args.Pressed && GlassTransparencyCheckBox.Pressed;
             GlassAccentCheckBox.Visible = args.Pressed;
             GlassAccentSlider.Visible = args.Pressed && GlassAccentCheckBox.Pressed;
         };
+        GlassTransparencyCheckBox.OnToggled += args =>
+            GlassAlphaSlider.Visible = args.Pressed && GlassThemeCheckBox.Pressed;
         GlassAccentCheckBox.OnToggled += args => GlassAccentSlider.Visible = args.Pressed && GlassThemeCheckBox.Pressed;
     }
 }

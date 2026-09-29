@@ -42,6 +42,12 @@ public sealed partial class StarlightCCVars
         CVarDef.Create("ui.glass_theme", true, CVar.CLIENTONLY | CVar.ARCHIVE);
 
     /// <summary>
+    /// Whether manual transparency strength adjustment is enabled.
+    /// </summary>
+    public static readonly CVarDef<bool> UIGlassTransparencyEnabled =
+        CVarDef.Create("ui.glass_transparency_enabled", false, CVar.CLIENTONLY | CVar.ARCHIVE);
+
+    /// <summary>
     /// Glass transparency strength, 0-100 percent.
     /// </summary>
     public static readonly CVarDef<int> UIGlassTransparency =

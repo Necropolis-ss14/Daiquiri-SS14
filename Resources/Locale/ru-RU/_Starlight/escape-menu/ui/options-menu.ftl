@@ -40,6 +40,7 @@ ui-starlight = Daiquiri
 ui-options-auto-punctuate = Автоматически ставить знаки препинания во внутриигровых сообщениях
 ui-options-glass-theme = Полупрозрачность (Beta)
 ui-options-glass-transparency = Степень прозрачности
+ui-options-glass-transparency-enable = Регулировать степень прозрачности
 ui-options-glass-accent = Цветной акцент
 ui-options-glass-accent-color = Цвет акцента
 ui-glass-prompt-title = Полупрозрачность интерфейса

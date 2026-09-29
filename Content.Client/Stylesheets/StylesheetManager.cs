@@ -99,6 +99,7 @@ namespace Content.Client.Stylesheets
             _cfg.OnValueChanged(StarlightCCVars.UIGlassTheme, SetGlassTheme, true);
             // Transparency/accent sliders rebuild the glass sheet live (debounced).
             _cfg.OnValueChanged(StarlightCCVars.UIGlassTransparency, _ => RequestGlassRebuild());
+            _cfg.OnValueChanged(StarlightCCVars.UIGlassTransparencyEnabled, _ => RequestGlassRebuild());
             _cfg.OnValueChanged(StarlightCCVars.UIGlassAccentEnabled, _ => RequestGlassRebuild());
             _cfg.OnValueChanged(StarlightCCVars.UIGlassAccent, _ => RequestGlassRebuild());
 
