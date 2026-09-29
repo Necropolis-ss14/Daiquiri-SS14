@@ -77,8 +77,10 @@ public sealed partial class ContrabandSystem : EntitySystem
         }
         else
         {
-            // Starlight: pass a fallback color, some locales use {$color} in severity text.
-            departmentExamineMessage = Loc.GetString(severity.ExamineText, ("color", Color.Red.ToHex()));
+            // Starlight: pass fallback color and type, some locales use {$color} and {$type} in severity text.
+            departmentExamineMessage = Loc.GetString(severity.ExamineText,
+                ("type", ContrabandItemType.Item),
+                ("color", Color.Red.ToHex()));
         }
 
         // text based on ID card
@@ -121,15 +123,19 @@ public sealed partial class ContrabandSystem : EntitySystem
         var list = ContentLocalizationManager.FormatList(localizedDepartments.Concat(localizedJobs).ToList());
 
         // department restricted text
-        return Loc.GetString("contraband-examine-text-Restricted-department", ("departments", list), ("type", itemType));
+        return Loc.GetString("contraband-examine-text-Restricted-department",
+            ("departments", list),
+            ("type", itemType),
+            ("color", Color.Red.ToHex()));
     }
 
     private FormattedMessage GetContrabandExamine(String deptMessage, String carryMessage)
     {
         var msg = new FormattedMessage();
-        msg.AddMarkupOrThrow(deptMessage);
+        // Starlight: permissive parsing so a broken locale string can never crash the client again.
+        msg.AddMarkupPermissive(deptMessage, out _);
         msg.PushNewline();
-        msg.AddMarkupOrThrow(carryMessage);
+        msg.AddMarkupPermissive(carryMessage, out _);
         return msg;
     }
 
