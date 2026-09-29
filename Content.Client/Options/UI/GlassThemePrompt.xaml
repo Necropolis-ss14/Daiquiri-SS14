@@ -6,6 +6,8 @@
         <Label Text="{Loc 'ui-glass-prompt-line2'}" />
         <Label Text="{Loc 'ui-glass-prompt-line3'}" />
         <CheckBox Name="GlassCheckBox" Access="Public" Text="{Loc 'ui-options-glass-theme'}" />
+        <CheckBox Name="TransparencyCheckBox" Access="Public" Text="{Loc 'ui-options-glass-transparency-enable'}" />
+        <CheckBox Name="AccentCheckBox" Access="Public" Text="{Loc 'ui-options-glass-accent'}" />
         <Button Name="ConfirmButton" Access="Public" Text="{Loc 'ui-glass-prompt-confirm'}"
                 HorizontalAlignment="Right" />
     </BoxContainer>

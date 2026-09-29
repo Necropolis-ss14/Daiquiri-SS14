@@ -22,6 +22,10 @@ public sealed partial class GlassThemePrompt : DefaultWindow
 
         GlassCheckBox.Pressed = _cfg.GetCVar(StarlightCCVars.UIGlassTheme);
         GlassCheckBox.OnToggled += args => _cfg.SetCVar(StarlightCCVars.UIGlassTheme, args.Pressed);
+        TransparencyCheckBox.Pressed = _cfg.GetCVar(StarlightCCVars.UIGlassTransparencyEnabled);
+        TransparencyCheckBox.OnToggled += args => _cfg.SetCVar(StarlightCCVars.UIGlassTransparencyEnabled, args.Pressed);
+        AccentCheckBox.Pressed = _cfg.GetCVar(StarlightCCVars.UIGlassAccentEnabled);
+        AccentCheckBox.OnToggled += args => _cfg.SetCVar(StarlightCCVars.UIGlassAccentEnabled, args.Pressed);
         ConfirmButton.OnPressed += _ =>
         {
             _cfg.SetCVar(StarlightCCVars.UIGlassThemeSeen, true);
