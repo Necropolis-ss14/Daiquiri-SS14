@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: PartCyclorite
   parent: [BaseItem, BasePart]
-  name: "cyclorite body part"
+  name: ent-PartCyclorite
   abstract: true
   components:
   - type: Extractable
@@ -14,7 +14,7 @@
 
 - type: entity
   id: TorsoCyclorite
-  name: "cyclorite torso"
+  name: ent-TorsoCyclorite
   parent: [PartCyclorite, BaseTorso]
   components:
     - type: Sprite
@@ -33,7 +33,7 @@
 
 - type: entity
   id: HeadCyclorite
-  name: "cyclorite head"
+  name: ent-HeadCyclorite
   parent: [PartCyclorite, BaseHead]
   components:
     - type: Sprite
@@ -52,7 +52,7 @@
 
 - type: entity
   id: LeftArmCyclorite
-  name: "left cyclorite arm"
+  name: ent-LeftArmCyclorite
   parent: [PartCyclorite, BaseLeftArm]
   components:
     - type: Sprite
@@ -64,7 +64,7 @@
 
 - type: entity
   id: RightArmCyclorite
-  name: "right cyclorite arm"
+  name: ent-RightArmCyclorite
   parent: [PartCyclorite, BaseRightArm]
   components:
     - type: Sprite
@@ -76,7 +76,7 @@
 
 - type: entity
   id: LeftHandCyclorite
-  name: "left cyclorite hand"
+  name: ent-LeftHandCyclorite
   parent: [PartCyclorite, BaseLeftHand]
   components:
     - type: Sprite
@@ -88,7 +88,7 @@
 
 - type: entity
   id: RightHandCyclorite
-  name: "right cyclorite hand"
+  name: ent-RightHandCyclorite
   parent: [PartCyclorite, BaseRightHand]
   components:
     - type: Sprite
@@ -100,7 +100,7 @@
 
 - type: entity
   id: LeftLegCyclorite
-  name: "left cyclorite leg"
+  name: ent-LeftLegCyclorite
   parent: [PartCyclorite, BaseLeftLeg]
   components:
     - type: Sprite
@@ -115,7 +115,7 @@
 
 - type: entity
   id: RightLegCyclorite
-  name: "right cyclorite leg"
+  name: ent-RightLegCyclorite
   parent: [PartCyclorite, BaseRightLeg]
   components:
     - type: Sprite
@@ -130,7 +130,7 @@
 
 - type: entity
   id: LeftFootCyclorite
-  name: "left cyclorite foot"
+  name: ent-LeftFootCyclorite
   parent: [PartCyclorite, BaseLeftFoot]
   components:
     - type: Sprite
@@ -142,7 +142,7 @@
 
 - type: entity
   id: RightFootCyclorite
-  name: "right cyclorite foot"
+  name: ent-RightFootCyclorite
   parent: [PartCyclorite, BaseRightFoot]
   components:
     - type: Sprite

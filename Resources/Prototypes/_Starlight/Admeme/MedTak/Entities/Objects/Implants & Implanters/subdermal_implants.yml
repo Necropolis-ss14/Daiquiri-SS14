@@ -1,8 +1,8 @@
 - type: entity
   parent: DeathRattleImplant
   id: TrackingImplantMedTak
-  name: MedTak beacon
-  description: This implant will inform the nearest MedTak unit should the user fall into critical condition or die.
+  name: ent-TrackingImplantMedTak
+  description: ent-TrackingImplantMedTak-desc
   abstract: true
   components:
     - type: IconImplant
@@ -28,7 +28,7 @@
 - type: entity
   parent: TrackingImplantMedTak
   id: TrackingImplantMedTakBronze
-  name: MedTak bronze beacon
+  name: ent-TrackingImplantMedTakBronze
   categories: [ HideSpawnMenu ]
   components:
     - type: IconImplant
@@ -41,7 +41,7 @@
 - type: entity
   parent: TrackingImplantMedTak
   id: TrackingImplantMedTakSilver
-  name: MedTak silver beacon
+  name: ent-TrackingImplantMedTakSilver
   categories: [ HideSpawnMenu ]
   components:
     - type: IconImplant
@@ -54,7 +54,7 @@
 - type: entity
   parent: TrackingImplantMedTak
   id: TrackingImplantMedTakGold
-  name: MedTak gold beacon
+  name: ent-TrackingImplantMedTakGold
   categories: [ HideSpawnMenu ]
   components:
     - type: IconImplant
@@ -67,7 +67,7 @@
 - type: entity
   parent: TrackingImplantMedTak
   id: TrackingImplantMedTakTeam
-  name: MedTak team beacon
+  name: ent-TrackingImplantMedTakTeam
   categories: [ HideSpawnMenu ]
   components:
     - type: RattleOnTrigger
@@ -78,8 +78,8 @@
 - type: entity
   parent: MindShieldImplant
   id: MedTakMindShieldImplant
-  name: MedTak mindshield implant
-  description: This implant protects operators from mind control devices.
+  name: ent-MedTakMindShieldImplant
+  description: ent-MedTakMindShieldImplant-desc
   categories: [ HideSpawnMenu ]
   components:
   - type: MindShieldImplant

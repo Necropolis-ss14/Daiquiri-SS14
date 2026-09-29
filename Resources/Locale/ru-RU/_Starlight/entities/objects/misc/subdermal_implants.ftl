@@ -1,0 +1,47 @@
+# Admeme/MedTak/Entities/Objects/Implants & Implanters/subdermal_implants.yml
+ent-TrackingImplantMedTak = маячок МедТак
+ent-TrackingImplantMedTak-desc = Этот имплант оповестит ближайшее подразделение МедТак, если пользователь окажется в критическом состоянии или умрёт.
+ent-TrackingImplantMedTakBronze = бронзовый маячок МедТак
+ent-TrackingImplantMedTakSilver = серебряный маячок МедТак
+ent-TrackingImplantMedTakGold = золотой маячок МедТак
+ent-TrackingImplantMedTakTeam = командный маячок МедТак
+ent-MedTakMindShieldImplant = имплант «Щит разума» МедТак
+ent-MedTakMindShieldImplant-desc = Этот имплант защищает оперативников от устройств контроля разума.
+# Admeme/SyndicateCommand/Entities/ImplantParaphernalia/subdermal_implants.yml
+ent-SyndicateMindShieldImplant = синдикатовский имплант «Щит разума»
+ent-SyndicateMindShieldImplant-desc = Этот имплант обеспечит лояльность Синдикату. Нарушает торговую марку «Щита разума».
+# Entities/Objects/Misc/subdermal_implants.yml
+ent-USSPUplinkImplant = аплинк-имплант USSP
+ent-USSPUplinkImplant-desc = Подкожный имплант, содержащий радио аплинка USSP.
+ent-MagillitisSerumImplant = имплант сыворотки магиллита
+ent-MagillitisSerumImplant-desc = Экспериментальный биочип, вызывающий необратимый быстрый рост мышц у гоминид. Побочные эффекты могут включать гипертрихоз, вспышки ярости и бесконечную любовь к бананам.
+ent-TSFMindShieldImplant = имплант «Щит разума» ТСФ
+ent-TSFMindShieldImplant-desc = Этот имплант обеспечит лояльность Солгов и защитит от устройств контроля разума.
+ent-DeathRattleImplantTSF = имплант «предсмертный хрип» ТСФ
+ent-DeathRattleImplantTSF-desc = Этот имплант сообщит по радиоканалу ТСФ, если пользователь окажется в критическом состоянии или умрёт.
+ent-DeathRattleImplantSalvage = утилизаторский имплант «предсмертный хрип»
+ent-DeathRattleImplantSalvage-desc = Этот имплант сообщит по радиоканалу Экспедиции, если пользователь окажется в критическом состоянии или умрёт.
+ent-BluespaceImplant = блюспейс-имплант
+ent-BluespaceImplant-desc = Продвинутый подкожный имплант, который при активации телепортирует пользователя далеко прочь.
+ent-RedspaceImplant = редспейс-имплант
+ent-RedspaceImplant-desc = Продвинутый подкожный имплант, который при активации телепортирует пользователя далеко прочь.
+ent-GearAcidifierImplant = имплант-растворитель снаряжения
+ent-GearAcidifierImplant-desc = Этот имплант при смерти расплавляет снаряжение пользователя, оставляя тело целым.
+ent-BluespaceStorageImplant = блюспейс-имплант «хранилище»
+ent-BluespaceStorageImplant-desc = Этот имплант обеспечивает скрытое хранилище в теле человека с помощью блюспейс-технологий.
+ent-TerminatorDeathAcidifierImplant = терминаторский имплант самоуничтожения
+ent-TerminatorDeathAcidifierImplant-desc = Этот имплант расплавляет пользователя и его снаряжение при ручной активации. Не срабатывает во время трансформации.
+ent-TerminatorMicroBombImplant = терминаторский имплант-микробомба
+ent-TerminatorMicroBombImplant-desc = Этот имплант взрывает пользователя при активации или после смерти.
+ent-MindControlImplant = имплант контроля разума
+ent-MindControlImplant-desc = Дешёвая подделка Щита разума. Этот имплант ставит пользователя на сторону Синдиката.
+ent-RadioImplantNanoTrasen = радиоимплант НаноТрейзен
+ent-RadioImplantNanoTrasen-desc = Этот имплант даёт доступ к каналу НаноТрейзен без гарнитуры. Разрешён только персоналу НаноТрейзен.
+ent-DeathRattleImplantNanoTrasen = имплант «предсмертный хрип» НаноТрейзен
+ent-DeathRattleImplantNanoTrasen-desc = Этот имплант сообщит по радиоканалу НаноТрейзен, если пользователь окажется в критическом состоянии или умрёт.
+ent-CommandTrackingImplant = командный имплант-трекер
+ent-CommandTrackingImplant-desc = Этот имплант оснащён устройством слежения, подключённым к сети датчиков костюма, а также монитором состояния для радиоканалов охраны и командования.
+ent-XenoroachSelfDestructImplant = имплант самоуничтожения ксенотаракана
+ent-XenoroachSelfDestructImplant-desc = Растворяет шасси ксенотаракана и все удерживаемые предметы при ручной активации.
+ent-ITGTrackingImplant = имплант-трекер МТГ
+ent-ITGTrackingImplant-desc = Этот имплант оснащён устройством слежения, подключённым к сети датчиков костюма, а также монитором состояния для канала Экспедиции.

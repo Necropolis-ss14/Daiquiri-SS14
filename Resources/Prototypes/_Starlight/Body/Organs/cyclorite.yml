@@ -24,9 +24,9 @@
 - type: entity
   id: OrganCycloriteBrain
   parent: [BaseOrganBrain, BaseCycloriteOrgan]
-  name: cyclorite brain
+  name: ent-OrganCycloriteBrain
   suffix: Cyclorite
-  description: "The source of incredible, unending intelligence. Honk."
+  description: ent-OrganCycloriteBrain-desc
   components:
   - type: Sprite
     state: brain
@@ -34,9 +34,9 @@
 - type: entity
   id: OrganCycloriteEye
   parent: [BaseCycloriteOrgan, BaseOrganEyes]
-  name: cyclorite eye
+  name: ent-OrganCycloriteEye
   suffix: Cyclorite
-  description: "Cyclorites see the world slightly differently."
+  description: ent-OrganCycloriteEye-desc
   components:
   - type: Sprite
     layers:
@@ -54,9 +54,9 @@
 - type: entity
   id: OrganCycloriteTongue
   parent: [BaseCycloriteOrgan, BaseOrganTongue]
-  name: cyclorite tongue
+  name: ent-OrganCycloriteTongue
   suffix: Cyclorite
-  description: "A fleshy muscle mostly used for lying."
+  description: ent-OrganCycloriteTongue-desc
   components:
   - type: OrganTongue
     sounds:
@@ -69,9 +69,9 @@
 - type: entity
   id: OrganCycloriteEars
   parent: [BaseCycloriteOrgan, BaseOrganEars]
-  name: cyclorite ears
+  name: ent-OrganCycloriteEars
   suffix: Cyclorite
-  description: "There are three parts to the ear: inner, middle and outer. Only one of these parts should normally be visible."
+  description: ent-OrganCycloriteEars-desc
   components:
   - type: Sprite
     state: ears
@@ -79,9 +79,9 @@
 - type: entity
   id: OrganCycloriteLungs
   parent: [BaseCycloriteOrgan, BaseOrganLungs]
-  name: cyclorite lungs
+  name: ent-OrganCycloriteLungs
   suffix: Cyclorite
-  description: "Cyclorite lungs filter nitrogen from the atmosphere to breathe."
+  description: ent-OrganCycloriteLungs-desc
   components:
   - type: Sprite
     layers:
@@ -101,9 +101,9 @@
 - type: entity
   id: OrganCycloriteHeart
   parent: [BaseCycloriteOrgan, BaseOrganHeart]
-  name: cyclorite heart
+  name: ent-OrganCycloriteHeart
   suffix: Cyclorite
-  description: "I feel bad for the heartless bastard who lost this."
+  description: ent-OrganCycloriteHeart-desc
   components:
   - type: Sprite
     state: heart-on
@@ -117,9 +117,9 @@
 - type: entity
   id: OrganCycloriteStomach
   parent: [BaseCycloriteOrgan, BaseOrganStomach]
-  name: cyclorite stomach
+  name: ent-OrganCycloriteStomach
   suffix: Cyclorite
-  description: "Gross. This is hard to stomach."
+  description: ent-OrganCycloriteStomach-desc
   components:
   - type: Sprite
     state: stomach
@@ -141,9 +141,9 @@
 - type: entity
   id: OrganCycloriteLiver
   parent: [BaseCycloriteOrgan, BaseOrganLiver]
-  name: cyclorite liver
+  name: ent-OrganCycloriteLiver
   suffix: Cyclorite
-  description: "Pairing suggestion: chianti and fava beans."
+  description: ent-OrganCycloriteLiver-desc
   components:
   - type: Sprite
     state: liver
@@ -154,9 +154,9 @@
 - type: entity
   id: OrganCycloriteKidneys
   parent: [BaseCycloriteOrgan, BaseOrganKidneys]
-  name: cyclorite kidneys
+  name: ent-OrganCycloriteKidneys
   suffix: Cyclorite
-  description: "Filters toxins from the bloodstream."
+  description: ent-OrganCycloriteKidneys-desc
   components:
   - type: Sprite
     layers:

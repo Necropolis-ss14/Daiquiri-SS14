@@ -1,0 +1,12 @@
+ent-FoodSnackChocolate = chocolate bar
+ent-FoodSnackChocolate-desc = Tastes like cardboard.
+ent-FoodSnackChocolateBar = chocolate bar
+ent-FoodSnackChocolateBar-desc = Tastes like cardboard.
+ent-FoodSnackEnergy = energy bar
+ent-FoodSnackEnergy-desc = An energy bar with a lot of punch.
+ent-FoodSnackEnergyBar = energy bar
+ent-FoodSnackEnergyBar-desc = An energy bar with a lot of punch.
+ent-FoodSnackSwirlLollipop = swirl lollipop
+ent-FoodSnackSwirlLollipop-desc = A swirly circle of pure concentrated sugar. Who's the biggest kid on the playground now?
+ent-FoodPacketChocolateTrash = chocolate wrapper
+ent-FoodPacketEnergyTrash = energybar wrapper

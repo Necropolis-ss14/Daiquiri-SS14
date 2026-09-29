@@ -1,9 +1,9 @@
 - type: entity
   id: OrganThavenBrain
   parent: [BaseItem, OrganHumanBrain]
-  name: thaven brain
+  name: ent-OrganThavenBrain
   suffix: Thaven
-  description: "An organic positronic brain. Quite remarkable, really."
+  description: ent-OrganThavenBrain-desc
   components:
     - type: BorgBrain
     - type: Sprite
@@ -13,9 +13,9 @@
 - type: entity
   id: OrganThavenEyes
   parent: OrganHumanEyes
-  name: thaven eyes
+  name: ent-OrganThavenEyes
   suffix: Thaven
-  description: "The eyes of a Thaven."
+  description: ent-OrganThavenEyes-desc
   components:
   - type: OrganVisualization
     layer: Eyes

@@ -1,7 +1,7 @@
 - type: entity
   id: PartAbductor
   parent: [BaseItem, BasePart]
-  name: "Abductor body part"
+  name: ent-PartAbductor
   abstract: true
   components:
   - type: Extractable
@@ -14,7 +14,7 @@
 
 - type: entity
   id: TorsoAbductor
-  name: "Abductor torso"
+  name: ent-TorsoAbductor
   parent: [PartAbductor, BaseTorso]
   components:
   - type: Sprite
@@ -30,7 +30,7 @@
 
 - type: entity
   id: HeadAbductor
-  name: "Abductor head"
+  name: ent-HeadAbductor
   parent: [PartAbductor, BaseHead]
   components:
   - type: Sprite
@@ -46,7 +46,7 @@
 
 - type: entity
   id: LeftArmAbductor
-  name: "left Abductor arm"
+  name: ent-LeftArmAbductor
   parent: [PartAbductor, BaseLeftArm]
   components:
   - type: Sprite
@@ -55,7 +55,7 @@
 
 - type: entity
   id: RightArmAbductor
-  name: "right Abductor arm"
+  name: ent-RightArmAbductor
   parent: [PartAbductor, BaseRightArm]
   components:
   - type: Sprite
@@ -64,7 +64,7 @@
 
 - type: entity
   id: LeftHandAbductor
-  name: "left Abductor hand"
+  name: ent-LeftHandAbductor
   parent: [PartAbductor, BaseLeftHand]
   components:
   - type: Sprite
@@ -73,7 +73,7 @@
 
 - type: entity
   id: RightHandAbductor
-  name: "right Abductor hand"
+  name: ent-RightHandAbductor
   parent: [PartAbductor, BaseRightHand]
   components:
   - type: Sprite
@@ -82,7 +82,7 @@
 
 - type: entity
   id: LeftLegAbductor
-  name: "left Abductor leg"
+  name: ent-LeftLegAbductor
   parent: [PartAbductor, BaseLeftLeg]
   components:
   - type: Sprite
@@ -91,7 +91,7 @@
 
 - type: entity
   id: RightLegAbductor
-  name: "right Abductor leg"
+  name: ent-RightLegAbductor
   parent: [PartAbductor, BaseRightLeg]
   components:
   - type: Sprite
@@ -100,7 +100,7 @@
 
 - type: entity
   id: LeftFootAbductor
-  name: "left Abductor foot"
+  name: ent-LeftFootAbductor
   parent: [PartAbductor, BaseLeftFoot]
   components:
   - type: Sprite
@@ -109,7 +109,7 @@
 
 - type: entity
   id: RightFootAbductor
-  name: "right Abductor foot"
+  name: ent-RightFootAbductor
   parent: [PartAbductor, BaseRightFoot]
   components:
   - type: Sprite

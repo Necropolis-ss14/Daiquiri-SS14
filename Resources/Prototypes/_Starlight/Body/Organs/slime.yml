@@ -49,9 +49,9 @@
 - type: entity
   id: OrganSlimeHeart
   parent: [BaseHumanOrgan, BaseOrganHeart]
-  name: slime circulator
+  name: ent-OrganSlimeHeart
   suffix: Slime
-  description: "A little circulator what makes the fluid move through the slime body."
+  description: ent-OrganSlimeHeart-desc
   components:
   - type: Sprite
     sprite: Mobs/Species/Slime/organs.rsi
@@ -68,9 +68,9 @@
 - type: entity
   id: OrganSlimePeepoids
   parent: [BaseHumanOrgan, BaseOrganEyes]
-  name: peepoids
+  name: ent-OrganSlimePeepoids
   suffix: Slime
-  description: "Primitive and goopy, but more or less just as good as the human equivalent."
+  description: ent-OrganSlimePeepoids-desc
   components:
   - type: Sprite
     sprite: _Starlight/Mobs/Species/Slime/organs.rsi
@@ -86,9 +86,9 @@
 - type: entity
   id: OrganSlimeSlurpoid
   parent: OrganHumanTongue
-  name: slurpoid
+  name: ent-OrganSlimeSlurpoid
   suffix: Slime
-  description: "It has all the consistency of gelatin."
+  description: ent-OrganSlimeSlurpoid-desc
   components:
   - type: OrganTongue
     allowedEmotes: ['Squish', 'Bubble', 'Pop']

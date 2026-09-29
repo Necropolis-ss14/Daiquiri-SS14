@@ -1,0 +1,20 @@
+# Body/Organs/cyber_organs.yml
+ent-OrganCyber = киберорган
+ent-CyberEyeNightVision = киберглаза ночного видения
+ent-CyberEyeNightVision-desc = Позволяют видеть в темноте.
+ent-CyberEyeThermal = киберглаза теплового видения
+ent-CyberEyeThermal-desc = Позволяют видеть в темноте и обнаруживать тёплые объекты сквозь стены.
+ent-BudgetCyberEyes = бюджетные киберглаза
+ent-BudgetCyberEyes-desc = Холодные и бездушные. Смотреть сквозь них так же тоскливо, как и в них.
+ent-BudgetCyberTongue = бюджетный киберъязык
+ent-BudgetCyberTongue-desc = Искусственный язык с полной подвижностью. Вкусовые рецепторы не включены.
+ent-VocalCyberTongue = вокальный киберъязык
+ent-VocalCyberTongue-desc = Искусственный язык с полной подвижностью. Позволяет издавать все голосовые звуки.
+ent-BudgetCyberLiver = бюджетная киберпечень
+ent-BudgetCyberLiver-desc = Конструкция настолько надёжна, что не менялась последние 237 лет! Внимание: продукт не предназначен для увеселительного распития алкоголя!
+ent-BudgetCyberStomach = бюджетный кибержелудок
+ent-BudgetCyberStomach-desc = Искусственный желудок. Отсутствие эластичности — желанная особенность для тех, кто хочет контролировать пищевые привычки.
+ent-BudgetCyberKidneys = бюджетные киберпочки
+ent-BudgetCyberKidneys-desc = Пара искусственных почек. Из-за дешёвых материалов тратят значительно больше воды, чем органические.
+ent-CyberRebreather = киберреспиратор
+ent-CyberRebreather-desc = Искусственные лёгкие со встроенной системой газового баллона. Можно заправлять любой дыхательной газовой смесью.

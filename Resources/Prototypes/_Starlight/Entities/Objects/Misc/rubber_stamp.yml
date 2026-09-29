@@ -109,10 +109,10 @@
 
 # CC Division Stamps
 - type: entity
-  name: central administration division rubber stamp
+  name: ent-RubberStampCAD
   parent: RubberStampBase
   id: RubberStampCAD
-  description: A rubber stamp for stamping important documents. Somebody is getting fired.
+  description: ent-RubberStampCAD-desc
   categories: [ DoNotMap ]
   components:
   - type: Stamp
@@ -123,10 +123,10 @@
     state: stamp-cap
 
 - type: entity
-  name: central cargo division rubber stamp
+  name: ent-RubberStampCCD
   parent: RubberStampBase
   id: RubberStampCCD
-  description: A rubber stamp for stamping important documents. Used to deny the urgent medical supplies request and send over a pizza party instead.
+  description: ent-RubberStampCCD-desc
   categories: [ DoNotMap ]
   components:
   - type: Stamp
@@ -137,10 +137,10 @@
     state: stamp-detective
 
 - type: entity
-  name: central engineering division rubber stamp
+  name: ent-RubberStampCED
   parent: RubberStampBase
   id: RubberStampCED
-  description: A rubber stamp for stamping important documents. Use when another multi-trillion dollar station was lost.
+  description: ent-RubberStampCED-desc
   categories: [ DoNotMap ]
   components:
   - type: Stamp
@@ -151,10 +151,10 @@
     state: stamp-ce
 
 - type: entity
-  name: central intelligence division rubber stamp
+  name: ent-RubberStampCID
   parent: RubberStampBase
   id: RubberStampCID
-  description: A rubber stamp for stamping important documents. NT-ISD will always be scarier.
+  description: ent-RubberStampCID-desc
   categories: [ DoNotMap ]
   components:
   - type: Stamp
@@ -165,10 +165,10 @@
     state: stamp-rd
 
 - type: entity
-  name: central medical division rubber stamp
+  name: ent-RubberStampCMD
   parent: RubberStampBase
   id: RubberStampCMD
-  description: A rubber stamp for stamping important documents. For when the REAL doctor is in.
+  description: ent-RubberStampCMD-desc
   categories: [ DoNotMap ]
   components:
   - type: Stamp
@@ -179,10 +179,10 @@
     state: stamp-cmo
 
 - type: entity
-  name: central research division rubber stamp
+  name: ent-RubberStampCRD
   parent: RubberStampBase
   id: RubberStampCRD
-  description: A rubber stamp for stamping important documents. Every bit as exploded as it's non-CC counterpart.
+  description: ent-RubberStampCRD-desc
   categories: [ DoNotMap ]
   components:
   - type: Stamp
@@ -193,10 +193,10 @@
     state: stamp-wizard
 
 - type: entity
-  name: central domestic division rubber stamp
+  name: ent-RubberStampCDD
   parent: RubberStampBase
   id: RubberStampCDD
-  description: A rubber stamp for stamping important documents. What do you even do again?
+  description: ent-RubberStampCDD-desc
   categories: [ DoNotMap ]
   components:
   - type: Stamp
@@ -207,10 +207,10 @@
     state: stamp-centcom
 
 - type: entity
-  name: central special operations division rubber stamp
+  name: ent-RubberStampCSOD
   parent: RubberStampBase
   id: RubberStampCSOD
-  description: A rubber stamp for stamping important documents. For when something is too hot for CSD.
+  description: ent-RubberStampCSOD-desc
   suffix: DO NOT MAP
   components:
   - type: Stamp
@@ -222,10 +222,10 @@
     state: stamp-magistrate
 
 - type: entity
-  name: central security division rubber stamp
+  name: ent-RubberStampCSD
   parent: RubberStampBase
   id: RubberStampCSD
-  description: A rubber stamp for stamping important documents. They fought the law, and the law won.
+  description: ent-RubberStampCSD-desc
   categories: [ DoNotMap ]
   components:
   - type: Stamp
@@ -236,10 +236,10 @@
     state: stamp-hos
 
 - type: entity
-  name: cc department stamps box
+  name: ent-BoxStampsCCDepartments
   parent: BoxCardboard
   id: BoxStampsCCDepartments
-  description: A small box containing stamps. You would think by the 26th century there would be something more sophisticated than a rubber stamp.
+  description: ent-BoxStampsCCDepartments-desc
   components:
     - type: Storage
       maxItemSize: Small
@@ -270,10 +270,10 @@
 
 # CC Administrative Stamps
 - type: entity
-  name: ACKNOWLEDGED rubber stamp
+  name: ent-RubberStampAcknowledged
   parent: RubberStampBase
   id: RubberStampAcknowledged
-  description: A rubber stamp for stamping important documents. Yes we hear you. No, we will not do anything.
+  description: ent-RubberStampAcknowledged-desc
   suffix: DO NOT MAP
   components:
   - type: Stamp
@@ -285,10 +285,10 @@
     state: stamp-acknowledged
 
 - type: entity
-  name: MISSING STAMPS rubber stamp
+  name: ent-RubberStampMissingStamps
   parent: RubberStampBase
   id: RubberStampMissingStamps
-  description: A rubber stamp for stamping important documents. Next time, get the clown's stamp!
+  description: ent-RubberStampMissingStamps-desc
   suffix: DO NOT MAP
   components:
   - type: Stamp
@@ -300,10 +300,10 @@
     state: stamp-missingstamps
 
 - type: entity
-  name: INCORRECT STAMPS rubber stamp
+  name: ent-RubberStampIncorrectStamps
   parent: RubberStampBase
   id: RubberStampIncorrectStamps
-  description: A rubber stamp for stamping important documents. Next time, don't get the clown's stamp!
+  description: ent-RubberStampIncorrectStamps-desc
   suffix: DO NOT MAP
   components:
   - type: Stamp
@@ -315,10 +315,10 @@
     state: stamp-missingstamps
 
 - type: entity
-  name: INCORRECT FORM rubber stamp
+  name: ent-RubberStampIncorrectForm
   parent: RubberStampBase
   id: RubberStampIncorrectForm
-  description: A rubber stamp for stamping important documents. They needed the OTHER document. No, the OTHER OTHER document.
+  description: ent-RubberStampIncorrectForm-desc
   suffix: DO NOT MAP
   components:
   - type: Stamp
@@ -330,10 +330,10 @@
     state: stamp-incorrectform
 
 - type: entity
-  name: INCOMPLETE FORM rubber stamp
+  name: ent-RubberStampIncompleteForm
   parent: RubberStampBase
   id: RubberStampIncompleteForm
-  description: A rubber stamp for stamping important documents. If they aren't going to finish this form, then I'm not going to f
+  description: ent-RubberStampIncompleteForm-desc
   suffix: DO NOT MAP
   components:
   - type: Stamp
@@ -345,10 +345,10 @@
     state: stamp-incorrectform
 
 - type: entity
-  name: SENT TO ATS rubber stamp
+  name: ent-RubberStampSentToATS
   parent: RubberStampBase
   id: RubberStampSentToATS
-  description: A rubber stamp for stamping important documents. Especially useful if the cargo shuttle is still intact.
+  description: ent-RubberStampSentToATS-desc
   suffix: DO NOT MAP
   components:
   - type: Stamp
@@ -360,10 +360,10 @@
     state: stamp-senttoATS
 
 - type: entity
-  name: DEFER TO COMMAND rubber stamp
+  name: ent-RubberStampDeferToCommand
   parent: RubberStampBase
   id: RubberStampDeferToCommand
-  description: A rubber stamp for stamping important documents. Passing the buck, the CC way.
+  description: ent-RubberStampDeferToCommand-desc
   suffix: DO NOT MAP
   components:
   - type: Stamp
@@ -375,10 +375,10 @@
     state: stamp-ntrep
 
 - type: entity
-  name: STANDBY rubber stamp
+  name: ent-RubberStampStandby
   parent: RubberStampBase
   id: RubberStampStandby
-  description: A rubber stamp for stamping important documents. You will do something. Maybe.
+  description: ent-RubberStampStandby-desc
   suffix: DO NOT MAP
   components:
   - type: Stamp
@@ -390,10 +390,10 @@
     state: stamp-standby
 
 - type: entity
-  name: cc administrative stamps box
+  name: ent-BoxStampsCCAdministrative
   parent: BoxCardboard
   id: BoxStampsCCAdministrative
-  description: A small box containing stamps. You would think by the 26th century there would be something more sophisticated than a rubber stamp.
+  description: ent-BoxStampsCCAdministrative-desc
   components:
     - type: Storage
       maxItemSize: Small

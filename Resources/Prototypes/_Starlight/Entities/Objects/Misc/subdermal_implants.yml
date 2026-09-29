@@ -1,7 +1,7 @@
 - type: entity
   id: USSPUplinkImplant
-  name: USSP uplink implant
-  description: A subdermal implant containing the USSP uplink radio.
+  name: ent-USSPUplinkImplant
+  description: ent-USSPUplinkImplant-desc
   parent: [ BaseSubdermalImplant, StorePresetUSSP ]
   categories: [ HideSpawnMenu ]
   components:
@@ -22,8 +22,8 @@
 - type: entity
   parent: BaseSubdermalImplant
   id: MagillitisSerumImplant
-  name: magillitis serum implant
-  description: An experimental biochip which causes irreversable rapid muscular growth in Hominidae. Side-affects may include hypertrichosis, violent outbursts, and an unending affinity for bananas.
+  name: ent-MagillitisSerumImplant
+  description: ent-MagillitisSerumImplant-desc
   categories: [HideSpawnMenu]
   components:
     - type: SubdermalImplant
@@ -39,8 +39,8 @@
 - type: entity
   parent: MindShieldImplant
   id: TSFMindShieldImplant
-  name: TSF mindshield implant
-  description: This implant will ensure loyalty to SolGov and prevent mind control devices.
+  name: ent-TSFMindShieldImplant
+  description: ent-TSFMindShieldImplant-desc
   categories: [ HideSpawnMenu ]
   components:
   - type: MindShieldImplant
@@ -49,8 +49,8 @@
 - type: entity
   parent: DeathRattleImplant
   id: DeathRattleImplantTSF
-  name: TSF death rattle implant
-  description: This implant will inform the TSF radio channel should the user fall into critical condition or die.
+  name: ent-DeathRattleImplantTSF
+  description: ent-DeathRattleImplantTSF-desc
   categories: [ HideSpawnMenu ]
   components:
   - type: RattleOnTrigger
@@ -60,8 +60,8 @@
 - type: entity
   parent: DeathRattleImplant
   id: DeathRattleImplantSalvage
-  name: Salvage death rattle implant
-  description: This implant will inform the Expedition radio channel should the user fall into critical condition or die.
+  name: ent-DeathRattleImplantSalvage
+  description: ent-DeathRattleImplantSalvage-desc
   categories: [ HideSpawnMenu ]
   components:
     - type: RattleOnTrigger
@@ -71,8 +71,8 @@
 - type: entity
   parent: BaseSubdermalImplant
   id: BluespaceImplant
-  name: bluespace implant
-  description: An advanced subdermal implant that, when activated, teleports the user far away.
+  name: ent-BluespaceImplant
+  description: ent-BluespaceImplant-desc
   categories: [ HideSpawnMenu ]
   components:
   - type: SubdermalImplant
@@ -90,8 +90,8 @@
 - type: entity
   parent: BaseSubdermalImplant
   id: RedspaceImplant
-  name: redspace implant
-  description: An advanced subdermal implant that, when activated, teleports the user far away.
+  name: ent-RedspaceImplant
+  description: ent-RedspaceImplant-desc
   categories: [ HideSpawnMenu ]
   components:
   - type: SubdermalImplant
@@ -110,8 +110,8 @@
 - type: entity
   parent: BaseSubdermalImplant
   id: GearAcidifierImplant
-  name: gear-acidifier implant
-  description: This implant melts the user's equipment upon death, leaving the body intact.
+  name: ent-GearAcidifierImplant
+  description: ent-GearAcidifierImplant-desc
   categories: [ HideSpawnMenu ]
   components:
   - type: SubdermalImplant
@@ -144,8 +144,8 @@
 - type: entity
   parent: BaseSubdermalImplant
   id: BluespaceStorageImplant
-  name: bluespace storage implant
-  description: This implant grants hidden storage within a person's body using bluespace technology.
+  name: ent-BluespaceStorageImplant
+  description: ent-BluespaceStorageImplant-desc
   categories: [ HideSpawnMenu ]
   components:
     - type: StorageImplant
@@ -170,8 +170,8 @@
 - type: entity
   parent: BaseSubdermalImplant
   id: TerminatorDeathAcidifierImplant
-  name: terminator self-destruct implant
-  description: This implant melts the user and their equipment upon manual activation. Will not trigger during transformation.
+  name: ent-TerminatorDeathAcidifierImplant
+  description: ent-TerminatorDeathAcidifierImplant-desc
   categories: [ HideSpawnMenu ]
   components:
   - type: SubdermalImplant
@@ -193,8 +193,8 @@
 - type: entity
   parent: MicroBombImplant
   id: TerminatorMicroBombImplant
-  name: terminator micro bomb implant
-  description: This implant detonates the user upon activation or upon death.
+  name: ent-TerminatorMicroBombImplant
+  description: ent-TerminatorMicroBombImplant-desc
   categories: [ HideSpawnMenu ]
   components:
   - type: Explosive
@@ -208,8 +208,8 @@
 - type: entity
   parent: BaseSubdermalImplant
   id: MindControlImplant
-  name: mind control implant
-  description: A knock-off of the Mindshield. this Implant ensures the user is on the side of the syndicate.
+  name: ent-MindControlImplant
+  description: ent-MindControlImplant-desc
   categories: [ HideSpawnMenu ]
   components:
     - type: MindControlImplant
@@ -218,8 +218,8 @@
 - type: entity
   parent: BaseSubdermalImplant
   id: RadioImplantNanoTrasen
-  name: nanotrasen radio implant
-  description: This implant grants access to the NanoTrasen channel without a headset. Only authorized for NanoTrasen personnel.
+  name: ent-RadioImplantNanoTrasen
+  description: ent-RadioImplantNanoTrasen-desc
   categories: [ HideSpawnMenu ]
   components:
   - type: SubdermalImplant
@@ -230,8 +230,8 @@
 - type: entity
   parent: DeathRattleImplant
   id: DeathRattleImplantNanoTrasen
-  name: nanotrasen death rattle implant
-  description: This implant will inform the NanoTrasen radio channel should the user fall into critical condition or die.
+  name: ent-DeathRattleImplantNanoTrasen
+  description: ent-DeathRattleImplantNanoTrasen-desc
   categories: [ HideSpawnMenu ]
   components:
   - type: RattleOnTrigger
@@ -242,8 +242,8 @@
 - type: entity
   parent: TrackingImplant
   id: CommandTrackingImplant
-  name: command tracking implant
-  description: This implant has a tracking device attached to the suit sensor network, as well as a condition monitor for the security and command radio channels.
+  name: ent-CommandTrackingImplant
+  description: ent-CommandTrackingImplant-desc
   categories: [ HideSpawnMenu ]
   components:
     - type: RattleOnTrigger
@@ -256,8 +256,8 @@
 - type: entity
   parent: BaseSubdermalImplant
   id: XenoroachSelfDestructImplant
-  name: xenoroach self-destruct implant
-  description: Dissolves the xenoroach chassis and any held items on manual activation.
+  name: ent-XenoroachSelfDestructImplant
+  description: ent-XenoroachSelfDestructImplant-desc
   categories: [ HideSpawnMenu ]
   components:
   - type: SubdermalImplant
@@ -279,8 +279,8 @@
 - type: entity
   parent: TrackingImplant
   id: ITGTrackingImplant
-  name: itg tracking implant
-  description: This implant has a tracking device attached to the suit sensor network, as well as a condition monitor for the expedition channel.
+  name: ent-ITGTrackingImplant
+  description: ent-ITGTrackingImplant-desc
   categories: [ HideSpawnMenu ]
   components:
     - type: RattleOnTrigger

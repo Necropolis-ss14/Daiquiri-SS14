@@ -3,10 +3,10 @@
 # Not technically meant to be food so not adding them to random food spawner
 
 - type: entity
-  name: smokesicle
+  name: ent-FoodFrozenPopsicleNicotine
   parent: FoodFrozenBase
   id: FoodFrozenPopsicleNicotine
-  description: A nitrogen-chilled popsicle infused with nicotine.
+  description: ent-FoodFrozenPopsicleNicotine-desc
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Consumable/Food/frozen.rsi
@@ -28,10 +28,10 @@
         Quantity: 10
 
 - type: entity
-  name: spicy smokesicle
+  name: ent-FoodFrozenPopsicleNicotineSpicy
   parent: FoodFrozenBase
   id: FoodFrozenPopsicleNicotineSpicy
-  description: A nitrogen-chilled popsicle infused with nicotine and capsaicin.
+  description: ent-FoodFrozenPopsicleNicotineSpicy-desc
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Consumable/Food/frozen.rsi
@@ -56,10 +56,10 @@
         Quantity: 2
 
 - type: entity
-  name: legendsicle
+  name: ent-FoodFrozenPopsicleNicotineLegend
   parent: [SolutionTiny, FoodFrozenBase]
   id: FoodFrozenPopsicleNicotineLegend
-  description: I AM LEGEND
+  description: ent-FoodFrozenPopsicleNicotineLegend-desc
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Consumable/Food/frozen.rsi
@@ -87,8 +87,8 @@
 - type: entity
   parent: BaseItem
   id: FoodFrozenPopsicleNicotinePackaged
-  name: smokesicle
-  description: A nitrogen-chilled popsicle infused with nicotine.
+  name: ent-FoodFrozenPopsicleNicotinePackaged
+  description: ent-FoodFrozenPopsicleNicotinePackaged-desc
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Consumable/Food/frozen.rsi
@@ -103,8 +103,8 @@
 - type: entity
   parent: BaseItem
   id: FoodFrozenPopsicleNicotineSpicyPackaged
-  name: spicy smokesicle
-  description: A nitrogen-chilled popsicle infused with nicotine and capsaicin.
+  name: ent-FoodFrozenPopsicleNicotineSpicyPackaged
+  description: ent-FoodFrozenPopsicleNicotineSpicyPackaged-desc
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Consumable/Food/frozen.rsi
@@ -119,8 +119,8 @@
 - type: entity
   parent: BaseItem
   id: FoodFrozenPopsicleNicotineLegendPackaged
-  name: legendsicle
-  description: A mostly unmarked popsicle. It has a green and yellow sticker and the words "i am legend" scrawled on it with black marker.
+  name: ent-FoodFrozenPopsicleNicotineLegendPackaged
+  description: ent-FoodFrozenPopsicleNicotineLegendPackaged-desc
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Consumable/Food/frozen.rsi
@@ -135,8 +135,8 @@
 - type: entity
   parent: BaseItem
   id: FoodFrozenPopsicleOrangePackaged
-  name: orange creamsicle
-  description: A classic orange creamsicle. A sunny frozen treat.
+  name: ent-FoodFrozenPopsicleOrangePackaged
+  description: ent-FoodFrozenPopsicleOrangePackaged-desc
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Consumable/Food/frozen.rsi
@@ -151,8 +151,8 @@
 - type: entity
   parent: BaseItem
   id: FoodFrozenPopsicleBerryPackaged
-  name: berry creamsicle
-  description: A vibrant berry creamsicle. A berry good frozen treat.
+  name: ent-FoodFrozenPopsicleBerryPackaged
+  description: ent-FoodFrozenPopsicleBerryPackaged-desc
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Consumable/Food/frozen.rsi
@@ -167,8 +167,8 @@
 - type: entity
   parent: BaseItem
   id: FoodFrozenCornutoPackaged
-  name: cornuto
-  description: A Neapolitan vanilla and chocolate ice-cream cone. It menaces with a sprinkling of caramelized nuts.
+  name: ent-FoodFrozenCornutoPackaged
+  description: ent-FoodFrozenCornutoPackaged-desc
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Consumable/Food/frozen.rsi
@@ -183,8 +183,8 @@
 - type: entity
   parent: BaseItem
   id: FoodFrozenPopsicleJumboPackaged
-  name: jumbo ice-cream
-  description: A luxurious ice-cream covered in rich chocolate. It's smaller than you remember.
+  name: ent-FoodFrozenPopsicleJumboPackaged
+  description: ent-FoodFrozenPopsicleJumboPackaged-desc
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Consumable/Food/frozen.rsi
@@ -202,7 +202,7 @@
   categories: [ HideSpawnMenu ]
   parent: FoodPacketTrash
   id: FoodFrozenPopsicleNicotineTrash
-  name: smokesicle wrapper
+  name: ent-FoodFrozenPopsicleNicotineTrash
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Consumable/Food/frozen.rsi
@@ -212,7 +212,7 @@
   categories: [ HideSpawnMenu ]
   parent: FoodPacketTrash
   id: FoodFrozenPopsicleNicotineSpicyTrash
-  name: spicy smokesicle wrapper
+  name: ent-FoodFrozenPopsicleNicotineSpicyTrash
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Consumable/Food/frozen.rsi
@@ -222,8 +222,8 @@
   categories: [ HideSpawnMenu ]
   parent: FoodPacketTrash
   id: FoodFrozenPopsicleNicotineLegendTrash
-  description: Someone's legend.
-  name: legendsicle wrapper
+  description: ent-FoodFrozenPopsicleNicotineLegendTrash-desc
+  name: ent-FoodFrozenPopsicleNicotineLegendTrash
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Consumable/Food/frozen.rsi
@@ -233,7 +233,7 @@
   categories: [ HideSpawnMenu ]
   parent: FoodPacketTrash
   id: FoodFrozenPopsicleOrangeTrash
-  name: orange creamsicle wrapper
+  name: ent-FoodFrozenPopsicleOrangeTrash
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Consumable/Food/frozen.rsi
@@ -243,7 +243,7 @@
   categories: [ HideSpawnMenu ]
   parent: FoodPacketTrash
   id: FoodFrozenPopsicleBerryTrash
-  name: berry creamsicle wrapper
+  name: ent-FoodFrozenPopsicleBerryTrash
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Consumable/Food/frozen.rsi
@@ -253,7 +253,7 @@
   categories: [ HideSpawnMenu ]
   parent: FoodPacketTrash
   id: FoodFrozenCornutoTrash
-  name: cornuto wrapper
+  name: ent-FoodFrozenCornutoTrash
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Consumable/Food/frozen.rsi
@@ -263,17 +263,17 @@
   categories: [ HideSpawnMenu ]
   parent: FoodPacketTrash
   id: FoodFrozenPopsicleJumboTrash
-  name: jumbo ice-cream wrapper
+  name: ent-FoodFrozenPopsicleJumboTrash
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Consumable/Food/frozen.rsi
     state: jumbo-trash
 
 - type: entity
-  name: smokesicle stick
+  name: ent-FoodFrozenPopsicleNicotineTrashStick
   parent: BaseItem
   id: FoodFrozenPopsicleNicotineTrashStick
-  description: Once held a disgusting treat. Now, 'tis barren.
+  description: ent-FoodFrozenPopsicleNicotineTrashStick-desc
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Consumable/Food/frozen.rsi

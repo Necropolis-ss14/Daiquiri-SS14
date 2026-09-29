@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: BaseStructure
   id: BaseCellBars
-  name: cell bars
-  description: A sturdy set of metal bars.
+  name: ent-BaseCellBars
+  description: ent-BaseCellBars-desc
   abstract: true
   components:
   - type: Sprite
@@ -47,8 +47,8 @@
 - type: entity
   parent: BaseCellBars
   id: CellBarsBroken
-  name: broken cell bars
-  description: Someone got real mad at an inanimate object.
+  name: ent-CellBarsBroken
+  description: ent-CellBarsBroken-desc
   components:
   - type: Sprite
     layers:
@@ -200,8 +200,8 @@
 - type: entity
   parent: BaseCellBars
   id: CellBarsGate
-  name: cell bars gate
-  description: You could use the door, if only.
+  name: ent-CellBarsGate
+  description: ent-CellBarsGate-desc
   components:
   - type: Sprite
     layers:

@@ -1,9 +1,9 @@
 - type: entity
   id: OrganNeoKinEyes
   parent: OrganNeocyteEyes
-  name: shadekin cybernetic eyes
+  name: ent-OrganNeoKinEyes
   suffix: NeoKin
-  description: "Cybernetic eyes of a Black-eye Shadekin that can never see their home reality again. These eyes have excellent night vision, but are very sensitive to bright flashes as a result."
+  description: ent-OrganNeoKinEyes-desc
   components:
   - type: FunctionalOrgan
     comps:

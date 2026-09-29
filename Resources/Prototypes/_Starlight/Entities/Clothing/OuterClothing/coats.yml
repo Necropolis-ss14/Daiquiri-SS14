@@ -515,8 +515,8 @@
 - type: entity
   parent: [ClothingOuterStorageBase, ClothingOuterBaseWinter, AllowSuitStorageClothing, BaseCentcommContraband]
   id: ClothingOuterCoatWardenCentcomm
-  name: central command armored winter coat
-  description: A extremely durable, stylish winter coat made for central command Operators to survive even in the coldest of winter
+  name: ent-ClothingOuterCoatWardenCentcomm
+  description: ent-ClothingOuterCoatWardenCentcomm-desc
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/OuterClothing/Coats/Centcomm_coatWarden.rsi
@@ -603,8 +603,8 @@
 - type: entity
   parent: [ClothingOuterStorageBase, ClothingOuterBaseWarm]
   id: ClothingOuterCoatChefCentComm
-  name: centcomm chef's jacket
-  description: A distinct white and green jacket worn by the chefs at Central Command. Turns you into a walking advertisement.
+  name: ent-ClothingOuterCoatChefCentComm
+  description: ent-ClothingOuterCoatChefCentComm-desc
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/OuterClothing/Coats/chef-centcomm.rsi

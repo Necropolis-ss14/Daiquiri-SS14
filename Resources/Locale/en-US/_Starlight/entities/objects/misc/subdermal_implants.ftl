@@ -1,0 +1,47 @@
+# Admeme/MedTak/Entities/Objects/Implants & Implanters/subdermal_implants.yml
+ent-TrackingImplantMedTak = MedTak beacon
+ent-TrackingImplantMedTak-desc = This implant will inform the nearest MedTak unit should the user fall into critical condition or die.
+ent-TrackingImplantMedTakBronze = MedTak bronze beacon
+ent-TrackingImplantMedTakSilver = MedTak silver beacon
+ent-TrackingImplantMedTakGold = MedTak gold beacon
+ent-TrackingImplantMedTakTeam = MedTak team beacon
+ent-MedTakMindShieldImplant = MedTak mindshield implant
+ent-MedTakMindShieldImplant-desc = This implant protects operators from mind control devices.
+# Admeme/SyndicateCommand/Entities/ImplantParaphernalia/subdermal_implants.yml
+ent-SyndicateMindShieldImplant = Syndicate mindshield implant
+ent-SyndicateMindShieldImplant-desc = This implant will ensure loyalty to the Syndicate. Infringes on the mindshield trademark.
+# Entities/Objects/Misc/subdermal_implants.yml
+ent-USSPUplinkImplant = USSP uplink implant
+ent-USSPUplinkImplant-desc = A subdermal implant containing the USSP uplink radio.
+ent-MagillitisSerumImplant = magillitis serum implant
+ent-MagillitisSerumImplant-desc = An experimental biochip which causes irreversable rapid muscular growth in Hominidae. Side-affects may include hypertrichosis, violent outbursts, and an unending affinity for bananas.
+ent-TSFMindShieldImplant = TSF mindshield implant
+ent-TSFMindShieldImplant-desc = This implant will ensure loyalty to SolGov and prevent mind control devices.
+ent-DeathRattleImplantTSF = TSF death rattle implant
+ent-DeathRattleImplantTSF-desc = This implant will inform the TSF radio channel should the user fall into critical condition or die.
+ent-DeathRattleImplantSalvage = Salvage death rattle implant
+ent-DeathRattleImplantSalvage-desc = This implant will inform the Expedition radio channel should the user fall into critical condition or die.
+ent-BluespaceImplant = bluespace implant
+ent-BluespaceImplant-desc = An advanced subdermal implant that, when activated, teleports the user far away.
+ent-RedspaceImplant = redspace implant
+ent-RedspaceImplant-desc = An advanced subdermal implant that, when activated, teleports the user far away.
+ent-GearAcidifierImplant = gear-acidifier implant
+ent-GearAcidifierImplant-desc = This implant melts the user's equipment upon death, leaving the body intact.
+ent-BluespaceStorageImplant = bluespace storage implant
+ent-BluespaceStorageImplant-desc = This implant grants hidden storage within a person's body using bluespace technology.
+ent-TerminatorDeathAcidifierImplant = terminator self-destruct implant
+ent-TerminatorDeathAcidifierImplant-desc = This implant melts the user and their equipment upon manual activation. Will not trigger during transformation.
+ent-TerminatorMicroBombImplant = terminator micro bomb implant
+ent-TerminatorMicroBombImplant-desc = This implant detonates the user upon activation or upon death.
+ent-MindControlImplant = mind control implant
+ent-MindControlImplant-desc = A knock-off of the Mindshield. this Implant ensures the user is on the side of the syndicate.
+ent-RadioImplantNanoTrasen = nanotrasen radio implant
+ent-RadioImplantNanoTrasen-desc = This implant grants access to the NanoTrasen channel without a headset. Only authorized for NanoTrasen personnel.
+ent-DeathRattleImplantNanoTrasen = nanotrasen death rattle implant
+ent-DeathRattleImplantNanoTrasen-desc = This implant will inform the NanoTrasen radio channel should the user fall into critical condition or die.
+ent-CommandTrackingImplant = command tracking implant
+ent-CommandTrackingImplant-desc = This implant has a tracking device attached to the suit sensor network, as well as a condition monitor for the security and command radio channels.
+ent-XenoroachSelfDestructImplant = xenoroach self-destruct implant
+ent-XenoroachSelfDestructImplant-desc = Dissolves the xenoroach chassis and any held items on manual activation.
+ent-ITGTrackingImplant = itg tracking implant
+ent-ITGTrackingImplant-desc = This implant has a tracking device attached to the suit sensor network, as well as a condition monitor for the expedition channel.

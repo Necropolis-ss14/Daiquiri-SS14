@@ -25,9 +25,9 @@
 - type: entity
   id: OrganNeocyteBrain
   parent: [BaseOrganBrain, BaseNeocyteOrgan]
-  name: cybernetic brain
+  name: ent-OrganNeocyteBrain
   suffix: Neocyte
-  description: The source of incredible, unending intelligence. 01201020 02102111 01201210 02121012 20121210
+  description: ent-OrganNeocyteBrain-desc
   components:
   - type: Sprite
     state: brain
@@ -35,9 +35,9 @@
 - type: entity
   id: OrganNeocyteEyes
   parent: [BaseNeocyteOrgan, BaseOrganEyes]
-  name: cybernetic eyes
+  name: ent-OrganNeocyteEyes
   suffix: Neocyte
-  description: It's still focusing on you.. Creepy.
+  description: ent-OrganNeocyteEyes-desc
   components:
   - type: Sprite
     layers:
@@ -62,9 +62,9 @@
 - type: entity
   id: OrganNeocyteTongue
   parent: [BaseNeocyteOrgan, BaseOrganTongue]
-  name: cybernetic tongue
+  name: ent-OrganNeocyteTongue
   suffix: Neocyte
-  description: A completely glowing organ commonly used for lying or self-expression. Sometimes both. #  Starlight, quotation marks removed
+  description: ent-OrganNeocyteTongue-desc
   components:
   - type: OrganTongue
     allowedEmotes: ['Chirp', 'Hisses', 'Squish', 'Bubble', 'Pop', 'Bubble', 'Pop', 'Purr', 'Growl', 'Trill', 'Scree', 'Call', 'Squawk', 'Bark', 'Snarl', 'Whine', 'Howl', 'Yip', 'Mew', 'Meow', 'Liss', 'Lurr', 'Rattle', "Marr", "Wurble", 'Chitter', 'Squeak', 'Click', 'Beep', 'Ping', 'Buzz', 'Buzz-Two', 'Chime', 'Honk', 'ThavenHum', 'ThavenGlub', 'Squee', 'Snort', 'Sneeze', 'LagomorphSnore']
@@ -86,9 +86,9 @@
 - type: entity
   id: OrganNeocyteTongueForked
   parent: [BaseNeocyteOrgan, BaseOrganTongue]
-  name: forked cybernetic tongue
+  name: ent-OrganNeocyteTongueForked
   suffix: Neocyte
-  description: A completely glowing organ commonly used for lying or self-expression. Sometimes both. Now split in two. #  Starlight, quotation marks removed
+  description: ent-OrganNeocyteTongueForked-desc
   components:
   - type: OrganTongue
     allowedEmotes: ['Chirp', 'Hisses', 'Squish', 'Bubble', 'Pop', 'Bubble', 'Pop', 'Purr', 'Growl', 'Trill', 'Scree', 'Call', 'Squawk', 'Bark', 'Snarl', 'Whine', 'Howl', 'Yip', 'Mew', 'Meow', 'Liss', 'Lurr', 'Rattle', "Marr", "Wurble", 'Chitter', 'Squeak', 'Click', 'Beep', 'Ping', 'Buzz', 'Buzz-Two', 'Chime', 'Honk', 'ThavenHum', 'ThavenGlub', 'Squee', 'Snort', 'Sneeze', 'LagomorphSnore']
@@ -102,9 +102,9 @@
 - type: entity
   id: OrganNeocyteEars
   parent: [BaseNeocyteOrgan, BaseOrganEars]
-  name: cybernetic ears
+  name: ent-OrganNeocyteEars
   suffix: Neocyte
-  description: Process audio at a higher quality than most humanoids, allowing for greater appreciation of techno music #  Starlight, quotation marks removed
+  description: ent-OrganNeocyteEars-desc
   components:
   - type: Sprite
     state: ears
@@ -112,9 +112,9 @@
 - type: entity
   id: OrganNeocyteLungs
   parent: [BaseNeocyteOrgan, BaseOrganLungs]
-  name: cybernetic lungs
+  name: ent-OrganNeocyteLungs
   suffix: Neocyte
-  description: Filters oxygen from an atmosphere, which is then sent into the bloodstream to be used as an electron carrier. Entirely cybernetic in nature, working in tandem with the visor's filtration system. #  Starlight, quotation marks removed
+  description: ent-OrganNeocyteLungs-desc
   components:
   - type: Sprite
     layers:
@@ -144,9 +144,9 @@
 - type: entity
   id: OrganNeocyteHeart
   parent: [BaseNeocyteOrgan, BaseOrganHeart]
-  name: cybernetic heart
+  name: ent-OrganNeocyteHeart
   suffix: Neocyte
-  description: Doesn't actually need to beat, simply mimics the movement to provide comfort for the user.
+  description: ent-OrganNeocyteHeart-desc
   components:
   - type: Sprite
     state: heart-on
@@ -169,9 +169,9 @@
 - type: entity
   id: OrganNeocyteStomach
   parent: [OrganAnimalStomach, BaseOrganStomach]
-  name: biological reactor
+  name: ent-OrganNeocyteStomach
   suffix: Neocyte
-  description: Some call it over-engineered, but it's vital to the function of a neocyte. Turns organic matter into organic and electrical energy to power the neocyte's cybernetics and flesh. #  Starlight, quotation marks removed
+  description: ent-OrganNeocyteStomach-desc
   components:
   - type: Sprite
     sprite: _FarHorizons/Mobs/Species/Protogen/organs.rsi
@@ -201,9 +201,9 @@
 - type: entity
   id: OrganNeocyteLiver
   parent: [BaseNeocyteOrgan, BaseOrganLiver]
-  name: cybernetic liver
+  name: ent-OrganNeocyteLiver
   suffix: Neocyte
-  description: Pairing suggestion, a side of fermented RAM sticks and a nice CPU.
+  description: ent-OrganNeocyteLiver-desc
   components:
   - type: Sprite
     state: liver
@@ -226,9 +226,9 @@
 - type: entity
   id: OrganNeocyteKidneys
   parent: [BaseNeocyteOrgan, BaseOrganKidneys]
-  name: cybernetic kidneys
+  name: ent-OrganNeocyteKidneys
   suffix: Neocyte
-  description: Pumps toxins out of the bloodstream and serves as a minor biological battery for electrical components #  Starlight, quotation marks removed
+  description: ent-OrganNeocyteKidneys-desc
   components:
   - type: Sprite
     layers:

@@ -1,0 +1,20 @@
+# Body/Organs/cyber_organs.yml
+ent-OrganCyber = cyber organ
+ent-CyberEyeNightVision = night vision cyber eyes
+ent-CyberEyeNightVision-desc = Enables you to see in the dark.
+ent-CyberEyeThermal = thermal vision cyber eyes
+ent-CyberEyeThermal-desc = Enables you to see in the dark and detect warm objects through walls.
+ent-BudgetCyberEyes = budget cyber eyes
+ent-BudgetCyberEyes-desc = Cold and soulless. Just as depressing to look out of as to look into.
+ent-BudgetCyberTongue = budget cyber tongue
+ent-BudgetCyberTongue-desc = An artificial tongue with full range of movement. Taste buds not included.
+ent-VocalCyberTongue = vocal cyber tongue
+ent-VocalCyberTongue-desc = An artificial tongue with full range of movement. Allows using all vocal sounds.
+ent-BudgetCyberLiver = budget cyber liver
+ent-BudgetCyberLiver-desc = Design so reliable, it didn't have to be changed for the last 237 years! Warning: This product isn't meant for recreational drinking!
+ent-BudgetCyberStomach = budget cyber stomach
+ent-BudgetCyberStomach-desc = An artifical stomach. Its lack of elasticity is a desired feature for those who want to control their eating habits.
+ent-BudgetCyberKidneys = budget cyber kidneys
+ent-BudgetCyberKidneys-desc = A pair of artificial kidneys. Due to cheap materials used, they waste significantly more water than organic ones.
+ent-CyberRebreather = cyber rebreather
+ent-CyberRebreather-desc = Artificial lungs with an integrated gas tank system. Can be filled with any breathable gas mixture.

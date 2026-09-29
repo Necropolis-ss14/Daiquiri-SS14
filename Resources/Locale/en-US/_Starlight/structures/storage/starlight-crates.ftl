@@ -1,0 +1,16 @@
+ent-CrateInternalsO2N2 = emergency crate
+ent-CrateSoviet = SSF marine crate
+ent-CrateSoviet-desc = A sturdy crate adorned with the insignia of the USSP marine forces.
+ent-CrateRDSecure = RD crate
+ent-CrateRoboticsSecure = secure robotics crate
+ent-CrateSalvageContrabandStorageSecure = salvage storage crate
+ent-CrateSalvageContrabandStorageSecure-desc = A security and salvage access locked crate for storing contraband.
+ent-CrateCentralCommandSecure = central command crate
+ent-CrateCentralCommandSecureStrong = central command crate
+ent-CrateCentralCommandSecureStrong-desc = A large container for items. Made with plastitanium to drastically improve durability.
+ent-RecordMilkCrate = record crate
+ent-RecordMilkCrate-desc = A sturdy plastic milk crate repurposed for filing away sleeved vinyls. It won't hold anything else.
+ent-MilkCrate = milk crate
+ent-MilkCrate-desc = A sturdy plastic crate for hauling milk cartons. It won't hold anything else.
+ent-SyndicateMilkCrate = syndicate milk crate
+ent-SyndicateMilkCrate-desc = A blood-red plastic milk crate for filing away sleeved vinyls. Nanotrasen would rather you didn't listen to these.

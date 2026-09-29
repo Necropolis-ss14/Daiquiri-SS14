@@ -637,8 +637,8 @@
   parent: BasePDA
   categories: [ DoNotMap ]
   id: CentCommGreenShieldPDA
-  name: greenshield PDA
-  description: Comes with all the bells and whistles for all those times you do more than walk slowly next to someone who thinks they are way too important.
+  name: ent-CentCommGreenShieldPDA
+  description: ent-CentCommGreenShieldPDA-desc
   components:
     - type: Sprite
       sprite: _Starlight/Objects/Devices/pda.rsi
@@ -950,8 +950,8 @@
 - type: entity
   parent: BasePDA
   id: CentCommServiceWorkerPDA
-  name: CentComm service worker PDA
-  description: The crappy version they give to the people who make their food, mop their floors, and serve their drinks.
+  name: ent-CentCommServiceWorkerPDA
+  description: ent-CentCommServiceWorkerPDA-desc
   components:
   - type: Pda
     id: CentCommIDCardServiceWorker
@@ -982,8 +982,8 @@
 - type: entity
   parent: CentCommServiceWorkerPDA
   id: CentCommChefPDA
-  name: CentComm chef PDA
-  description: It's slick with the oil of the fat steak you're supposed to be cooking.
+  name: ent-CentCommChefPDA
+  description: ent-CentCommChefPDA-desc
   components:
   - type: Pda
     id: CentCommIDCardChef
@@ -991,8 +991,8 @@
 - type: entity
   parent: CentCommServiceWorkerPDA
   id: CentCommBartenderPDA
-  name: CentComm bartender PDA
-  description: The trappings of a glorified cocktail waiter.
+  name: ent-CentCommBartenderPDA
+  description: ent-CentCommBartenderPDA-desc
   components:
   - type: Pda
     id: CentCommIDCardBartender
@@ -1000,8 +1000,8 @@
 - type: entity
   parent: CentCommServiceWorkerPDA
   id: CentCommJanitorPDA
-  name: CentComm janitor PDA
-  description: Why are you reading this instead of mopping floors?
+  name: ent-CentCommJanitorPDA
+  description: ent-CentCommJanitorPDA-desc
   components:
   - type: Pda
     id: CentCommIDCardJanitor

@@ -1,8 +1,8 @@
 - type: entity
-  name: handheld engineering monitor
+  name: ent-HandheldEngineeringMonitor
   parent: [ PowerCellSlotMediumItem, BaseHandheldComputer ] # Medium battery
   id: HandheldEngineeringMonitor
-  description: A hand-held diagnostic slate. It switches between mapping the station's power network and paging through atmospheric alarms.
+  description: ent-HandheldEngineeringMonitor-desc
   components:
   # ItemSwitch sets a held prefix per mode, and tablets.rsi has no power-inhand-left etc to match.
   - type: Item

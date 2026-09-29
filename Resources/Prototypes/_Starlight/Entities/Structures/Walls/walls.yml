@@ -1,9 +1,9 @@
 #shuttle walls
 - type: entity
   id: WallAbductorDiagonal
-  name: shuttle wall
+  name: ent-WallAbductorDiagonal
   suffix: Diagonal
-  description: Keeps the air in and the assistants out.
+  description: ent-WallAbductorDiagonal-desc
   placement:
     mode: SnapgridCenter
     snap:
@@ -62,7 +62,7 @@
 - type: entity
   parent: BaseWall
   id: WallAbductor
-  name: shuttle wall
+  name: ent-WallAbductor
   suffix: Reinforced, Exterior
   components:
   - type: Damageable
@@ -90,7 +90,7 @@
 - type: entity
   parent: BaseWall
   id: WallConcrete
-  name: concrete wall
+  name: ent-WallConcrete
   suffix: Reinforced
   components:
   - type: Damageable
@@ -127,7 +127,7 @@
 - type: entity
   parent: WallSolid
   id: WallXenoborgRCD
-  name: light xenoborg wall
+  name: ent-WallXenoborgRCD
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Walls/xenoborglight.rsi
@@ -140,7 +140,7 @@
 - type: entity
   parent: WallWood
   id: WallDarkWood
-  name: dark wood wall
+  name: ent-WallDarkWood
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Walls/gray_wood.rsi
@@ -157,9 +157,9 @@
 - type: entity
   parent: WallPlastitanium
   id: WallReinforcedPlastitanium
-  name: reinforced plastitanium wall
+  name: ent-WallReinforcedPlastitanium
   suffix: reinforced
-  description: A plastitanium wall reinforced with an additional structural lattice, doubling its resistance to damage.
+  description: ent-WallReinforcedPlastitanium-desc
   components:
     - type: Destructible
       thresholds:
@@ -178,9 +178,9 @@
 - type: entity
   parent: WallPlastitaniumDiagonal
   id: WallReinforcedPlastitaniumDiagonal
-  name: reinforced plastitanium wall
+  name: ent-WallReinforcedPlastitaniumDiagonal
   suffix: reinforced, diagonal
-  description: A diagonal plastitanium wall reinforced with an additional structural lattice, doubling its resistance to damage.
+  description: ent-WallReinforcedPlastitaniumDiagonal-desc
   components:
   - type: Destructible
     thresholds:
@@ -206,9 +206,9 @@
 - type: entity
   parent: WallShuttleDiagonal
   id: WallReinforcedShuttleDiagonal
-  name: reinforced shuttle wall
+  name: ent-WallReinforcedShuttleDiagonal
   suffix: reinforced, diagonal
-  description: A diagonal shuttle wall with extra bracing, making it significantly harder to breach.
+  description: ent-WallReinforcedShuttleDiagonal-desc
   components:
   - type: Destructible
     thresholds:
@@ -236,9 +236,9 @@
 - type: entity
   parent: WallShuttle
   id: WallReinforcedShuttle
-  name: reinforced shuttle wall
+  name: ent-WallReinforcedShuttle
   suffix: reinforced
-  description: A shuttle wall with extra bracing, making it significantly harder to breach.
+  description: ent-WallReinforcedShuttle-desc
   components:
   - type: Destructible
     thresholds:

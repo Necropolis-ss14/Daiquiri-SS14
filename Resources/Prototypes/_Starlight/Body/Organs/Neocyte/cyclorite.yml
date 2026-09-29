@@ -1,9 +1,9 @@
 - type: entity
   id: OrganNeoCycloriteLungs
   parent: OrganNeocyteLungs
-  name: cyclorite cybernetic lungs
+  name: ent-OrganNeoCycloriteLungs
   suffix: Neo-Cyclorite
-  description: Filters nitrogen from an atmosphere, which is then sent into the bloodstream to be used as an electron carrier. Entirely cybernetic in nature, working in tandem with the visor's filtration system.
+  description: ent-OrganNeoCycloriteLungs-desc
   components:
   - type: Lung
     alert: LowNitrogen
@@ -13,9 +13,9 @@
 - type: entity
   id: OrganNeoCycloriteEye
   parent: OrganNeocyteEyes
-  name: cyclorite cybernetic eye
+  name: ent-OrganNeoCycloriteEye
   suffix: Neo-Cyclorite
-  description: "Cyclorites see the world slightly differently."
+  description: ent-OrganNeoCycloriteEye-desc
   components:
   - type: Sprite
     sprite: _Starlight/Mobs/Species/Cyclorite/organs.rsi
@@ -34,7 +34,7 @@
 - type: entity
   id: OrganNeoCycloriteHeart
   parent: OrganNeocyteHeart
-  name: cyclorite cybernetic heart
+  name: ent-OrganNeoCycloriteHeart
   suffix: Neo-Cyclorite
   components:
   - type: Metabolizer

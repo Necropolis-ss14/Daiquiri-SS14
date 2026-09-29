@@ -1,8 +1,8 @@
 ﻿- type: entity
   id: OrganExperimentStomach
   parent: [OrganAnimalStomach]
-  name: stomach
-  description: "Gross. This is hard to stomach."
+  name: ent-OrganExperimentStomach
+  description: ent-OrganExperimentStomach-desc
   components:
   - type: Stomach
   - type: SolutionManager
@@ -16,8 +16,8 @@
 - type: entity
   id: OrganExperimentHeart
   parent: [BaseAnimalOrgan, BaseOrganHeart]
-  name: heart
-  description: "Skips a beat at the sight of landmines."
+  name: ent-OrganExperimentHeart
+  description: ent-OrganExperimentHeart-desc
   components:
   - type: Sprite
     state: heart-on
@@ -34,7 +34,7 @@
 - type: entity
   id: OrganExperimentLiver
   parent: [ BaseAnimalOrgan, BaseOrganLiver]
-  name: liver
+  name: ent-OrganExperimentLiver
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -51,9 +51,9 @@
 - type: entity
   id: OrganExperimentEyes
   parent: OrganHumanEyes
-  name: eyes
+  name: ent-OrganExperimentEyes
   suffix: Experiment
-  description: "Couldn't have seen that one coming."
+  description: ent-OrganExperimentEyes-desc
   components:
   - type: OrganVisualization
     layer: Eyes
@@ -69,9 +69,9 @@
 - type: entity
   id: OrganExperimentTongue
   parent: OrganHumanTongue
-  name: tongue
+  name: ent-OrganExperimentTongue
   suffix: Experiment
-  description: "A fleshy muscle mostly used for lying."
+  description: ent-OrganExperimentTongue-desc
   components:
   - type: OrganTongue
     sounds:

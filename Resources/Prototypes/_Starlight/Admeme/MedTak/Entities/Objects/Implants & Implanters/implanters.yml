@@ -1,7 +1,7 @@
 - type: entity
   id: MedTakImplanter
   parent: BaseImplantOnlyImplanter
-  description: A compact disposable implanter meant to quickly and (mostly) painlessly place an implant below the skin.
+  description: ent-MedTakImplanter-desc
   abstract: true
   components:
   - type: Sprite
@@ -21,7 +21,7 @@
 
 - type: entity
   id: MedTakImplanterMindShield
-  name: MedTak mindshield implanter
+  name: ent-MedTakImplanterMindShield
   parent: MedTakImplanter
   components:
   - type: Implanter
@@ -30,7 +30,7 @@
 # Tracker tiers
 - type: entity
   id: MedTakImplanterTrackingBronze
-  name: MedTak bronze tracker
+  name: ent-MedTakImplanterTrackingBronze
   parent: MedTakImplanter
   components:
   - type: Implanter
@@ -38,7 +38,7 @@
 
 - type: entity
   id: MedTakImplanterTrackingSilver
-  name: MedTak silver tracker
+  name: ent-MedTakImplanterTrackingSilver
   parent: MedTakImplanter
   components:
   - type: Implanter
@@ -46,7 +46,7 @@
 
 - type: entity
   id: MedTakImplanterTrackingGold
-  name: MedTak gold tracker
+  name: ent-MedTakImplanterTrackingGold
   parent: MedTakImplanter
   components:
   - type: Sprite
@@ -64,7 +64,7 @@
 
 - type: entity
   id: MedTakImplanterTrackingTeam
-  name: MedTak tracker
+  name: ent-MedTakImplanterTrackingTeam
   parent: MedTakImplanter
   components:
   - type: Implanter

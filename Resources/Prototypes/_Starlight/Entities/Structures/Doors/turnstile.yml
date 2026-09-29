@@ -120,7 +120,7 @@
 - type: entity
   id: TurnstileCentCommCentralCommand
   parent: TurnstileCentComm
-  name: central command turnstile
+  name: ent-TurnstileCentCommCentralCommand
   suffix: Central Command
   components:
   - type: ContainerFill
@@ -138,7 +138,7 @@
 - type: entity
   id: TurnstileCentCommDebrief
   parent: TurnstileCentComm
-  name: central command turnstile
+  name: ent-TurnstileCentCommDebrief
   suffix: Debrief
   components:
     - type: ContainerFill

@@ -1,8 +1,8 @@
 - type: entity
   parent: MindShieldImplant
   id: SyndicateMindShieldImplant
-  name: Syndicate mindshield implant
-  description: This implant will ensure loyalty to the Syndicate. Infringes on the mindshield trademark.
+  name: ent-SyndicateMindShieldImplant
+  description: ent-SyndicateMindShieldImplant-desc
   categories: [ HideSpawnMenu ]
   components:
   - type: MindShieldImplant

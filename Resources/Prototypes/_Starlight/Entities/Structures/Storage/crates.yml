@@ -1,7 +1,7 @@
 - type: entity
   parent: CrateInternals
   id: CrateInternalsO2N2
-  name: emergency crate
+  name: ent-CrateInternalsO2N2
   components:
   - type: Icon
     sprite: _Starlight/Structures/Storage/Crates/o2n2.rsi
@@ -11,8 +11,8 @@
 - type: entity
   parent: CrateGenericSteel
   id: CrateSoviet
-  name: SSF marine crate
-  description: A sturdy crate adorned with the insignia of the USSP marine forces.
+  name: ent-CrateSoviet
+  description: ent-CrateSoviet-desc
   components:
   - type: Icon
     sprite: _Starlight/Structures/Storage/USSP/soviet-crate.rsi
@@ -22,7 +22,7 @@
 - type: entity
   parent: CrateBaseSecure
   id: CrateRDSecure
-  name: RD crate
+  name: ent-CrateRDSecure
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/command.rsi
@@ -34,7 +34,7 @@
 - type: entity
   parent: CrateBaseSecure
   id: CrateRoboticsSecure
-  name: secure robotics crate
+  name: ent-CrateRoboticsSecure
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/scicrate_secure.rsi
@@ -47,8 +47,8 @@
   parent: CrateBaseSecure
   suffix: Salvage, Secure
   id: CrateSalvageContrabandStorageSecure
-  name: salvage storage crate
-  description: A security and salvage access locked crate for storing contraband.
+  name: ent-CrateSalvageContrabandStorageSecure
+  description: ent-CrateSalvageContrabandStorageSecure-desc
   components:
   - type: Icon
     sprite: _Starlight/Structures/Storage/Crates/salvagecontra_secure.rsi
@@ -60,7 +60,7 @@
 - type: entity
   parent: CrateBaseSecure
   id: CrateCentralCommandSecure
-  name: central command crate
+  name: ent-CrateCentralCommandSecure
   components:
     - type: Icon
       sprite: _Starlight/Structures/Storage/Crates/centralcommand.rsi
@@ -72,9 +72,9 @@
 - type: entity
   parent: CrateCentralCommandSecure
   id: CrateCentralCommandSecureStrong
-  name: central command crate
+  name: ent-CrateCentralCommandSecureStrong
   suffix: Secure, Strong
-  description: A large container for items. Made with plastitanium to drastically improve durability.
+  description: ent-CrateCentralCommandSecureStrong-desc
   components:
     - type: Destructible
       thresholds:

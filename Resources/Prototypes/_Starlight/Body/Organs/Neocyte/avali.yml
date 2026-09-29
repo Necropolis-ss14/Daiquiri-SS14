@@ -1,7 +1,7 @@
 - type: entity
   id: OrganNeoAvaliStomach
   parent: OrganNeocyteStomach
-  name: avali biological reactor
+  name: ent-OrganNeoAvaliStomach
   suffix: Neo-Avali
   components:
   - type: Stomach
@@ -17,7 +17,7 @@
 - type: entity
   id: OrganNeoAvaliHeart
   parent: OrganNeocyteHeart
-  name: avali cybernetic heart
+  name: ent-OrganNeoAvaliHeart
   suffix: Neo-Avali
   components:
   - type: Metabolizer
@@ -27,7 +27,7 @@
 - type: entity
   id: OrganNeoAvaliLiver
   parent: OrganNeocyteLiver
-  name: avali cybernetic liver
+  name: ent-OrganNeoAvaliLiver
   suffix: Neo-Avali
   components:
   - type: Metabolizer

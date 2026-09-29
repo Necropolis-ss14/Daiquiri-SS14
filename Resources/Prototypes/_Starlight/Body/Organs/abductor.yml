@@ -24,9 +24,9 @@
 - type: entity
   id: OrganAbductorBrain
   parent: [BaseOrganBrain, BaseAbductorOrgan]
-  name: strange brain
+  name: ent-OrganAbductorBrain
   suffix: Abductor
-  description: "The source of incredible yet strange intelligence."
+  description: ent-OrganAbductorBrain-desc
   components:
   - type: Sprite
     state: brain
@@ -34,9 +34,9 @@
 - type: entity
   id: OrganAbductorEyes
   parent: [BaseAbductorOrgan, BaseOrganEyes]
-  name: strange eyes
+  name: ent-OrganAbductorEyes
   suffix: Abductor
-  description: "These large beady eyes silently stare at you."
+  description: ent-OrganAbductorEyes-desc
   components:
   - type: Sprite
     layers:
@@ -49,9 +49,9 @@
 - type: entity
   id: OrganAbductorEars
   parent: [BaseAbductorOrgan, BaseOrganEars]
-  name: strange ears
+  name: ent-OrganAbductorEars
   suffix: Abductor
-  description: "There are three parts to the ear: inner, middle and outer. Only one of these parts should normally be visible."
+  description: ent-OrganAbductorEars-desc
   components:
   - type: Sprite
     state: ears
@@ -59,9 +59,9 @@
 - type: entity
   id: OrganAbductorLungs
   parent: [BaseAbductorOrgan, BaseOrganLungs]
-  name: strange lungs
+  name: ent-OrganAbductorLungs
   suffix: Abductor
-  description: "Filters oxygen from an atmosphere, which is then sent into the bloodstream to be used as an electron carrier."
+  description: ent-OrganAbductorLungs-desc
   components:
   - type: Sprite
     layers:
@@ -71,9 +71,9 @@
 - type: entity
   id: OrganAbductorHeart
   parent: [BaseAbductorOrgan, BaseOrganHeart]
-  name: strange heart
+  name: ent-OrganAbductorHeart
   suffix: Abductor
-  description: "Doesn't look like this one was experimented on."
+  description: ent-OrganAbductorHeart-desc
   components:
   - type: Sprite
     state: heart-on
@@ -87,9 +87,9 @@
 - type: entity
   id: OrganAbductorStomach
   parent: [BaseAbductorOrgan, BaseOrganStomach]
-  name: strange stomach
+  name: ent-OrganAbductorStomach
   suffix: Abductor
-  description: "May yearn for grilled cheese."
+  description: ent-OrganAbductorStomach-desc
   components:
   - type: Sprite
     state: stomach
@@ -111,9 +111,9 @@
 - type: entity
   id: OrganAbductorLiver
   parent: [BaseAbductorOrgan, BaseOrganLiver]
-  name: strange liver
+  name: ent-OrganAbductorLiver
   suffix: Abductor
-  description: "This odd liver is rather poor at breaking down alcohol."
+  description: ent-OrganAbductorLiver-desc
   components:
   - type: Sprite
     state: liver
@@ -124,9 +124,9 @@
 - type: entity
   id: OrganAbductorKidneys
   parent: [BaseAbductorOrgan, BaseOrganKidneys]
-  name: strange kidneys
+  name: ent-OrganAbductorKidneys
   suffix: Abductor
-  description: "Filters strange toxins from its strange bloodstream."
+  description: ent-OrganAbductorKidneys-desc
   components:
   - type: Sprite
     layers:

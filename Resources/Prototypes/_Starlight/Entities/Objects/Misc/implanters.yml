@@ -3,8 +3,8 @@
 - type: entity
   id: BaseImplantOnlyImplanterSyndi_StarLight
   parent: [BaseImplantOnlyImplanter, BaseSovietContraband]
-  name: syndicate implanter
-  description: A compact disposable syringe exclusively designed for the injection of subdermal implants.
+  name: ent-BaseImplantOnlyImplanterSyndi_StarLight
+  description: ent-BaseImplantOnlyImplanterSyndi_StarLight-desc
   abstract: true
   components:
     - type: Item
@@ -36,8 +36,8 @@
   id: USSPUplinkImplanterEmpty
   suffix: Empty
   parent: BaseImplantOnlyImplanterSyndi_StarLight
-  name: SKB implanter
-  description: A brittle disposable syringe exclusively designed for the injection of subdermal implants for SKB agents.
+  name: ent-USSPUplinkImplanterEmpty
+  description: ent-USSPUplinkImplanterEmpty-desc
   components:
   - type: Implanter
     drawTime: 5
@@ -76,8 +76,8 @@
   id: USSPUplinkImplanter
   suffix: USSP uplink
   parent: BaseImplantOnlyImplanterSyndi_StarLight
-  name: SKB implanter
-  description: A brittle disposable syringe exclusively designed for the injection of subdermal implants for SKB agents. Dissolves on use.
+  name: ent-USSPUplinkImplanter
+  description: ent-USSPUplinkImplanter-desc
   components:
   - type: Implanter
     implant: USSPUplinkImplant
@@ -97,7 +97,7 @@
 
 - type: entity
   id: MagillitisSerumImplanter
-  name: magillitis serum implanter
+  name: ent-MagillitisSerumImplanter
   parent: BaseImplantOnlyImplanterSyndi
   components:
     - type: Implanter
@@ -105,7 +105,7 @@
 
 - type: entity
   id: TSFMindShieldImplanter
-  name: TSF mindshield implanter
+  name: ent-TSFMindShieldImplanter
   parent: MindShieldImplanter
   components:
   - type: Implanter
@@ -113,7 +113,7 @@
 
 - type: entity
   id: DeathRattleImplanterTSF
-  name: TSF death rattle implanter
+  name: ent-DeathRattleImplanterTSF
   parent: BaseImplantOnlyImplanter
   components:
   - type: Implanter
@@ -121,7 +121,7 @@
 
 - type: entity
   id: DeathRattleImplanterSalvage
-  name: Salvage death rattle implanter
+  name: ent-DeathRattleImplanterSalvage
   parent: BaseImplantOnlyImplanter
   components:
     - type: Implanter
@@ -129,7 +129,7 @@
 
 - type: entity
   id: BluespaceImplanter
-  name: bluespace implanter
+  name: ent-BluespaceImplanter
   parent: BaseImplantOnlyImplanter
   components:
     - type: Implanter
@@ -137,7 +137,7 @@
 
 - type: entity
   id: RedspaceImplanter
-  name: redspace implanter
+  name: ent-RedspaceImplanter
   parent: BaseImplantOnlyImplanterSyndi
   components:
     - type: Implanter
@@ -146,7 +146,7 @@
 # Gear Acidifier
 - type: entity
   id: GearAcidifierImplanter
-  name: gear acidifier implanter
+  name: ent-GearAcidifierImplanter
   parent: BaseImplantOnlyImplanterSyndi
   components:
   - type: Implanter
@@ -155,7 +155,7 @@
 #SELF
 - type: entity
   id: BluespaceStorageImplanter
-  name: bluespace storage implanter
+  name: ent-BluespaceStorageImplanter
   parent: BaseImplantOnlyImplanterSyndi
   components:
   - type: Implanter
@@ -163,7 +163,7 @@
 # Traitor Mind control
 - type: entity
   id: MindControlImplanter
-  name: mind control implanter
+  name: ent-MindControlImplanter
   parent: BaseImplantOnlyImplanterSyndi
   components:
     - type: Implanter
@@ -172,7 +172,7 @@
 #Station
 - type: entity
   id: CommandTrackerImplanter
-  name: command tracker implanter
+  name: ent-CommandTrackerImplanter
   parent: BaseImplantOnlyImplanter
   components:
   - type: Implanter
@@ -181,7 +181,7 @@
 #ITG
 - type: entity
   id: ITGTrackerImplanter
-  name: ITG tracker implanter
+  name: ent-ITGTrackerImplanter
   parent: BaseImplantOnlyImplanter
   components:
   - type: Implanter

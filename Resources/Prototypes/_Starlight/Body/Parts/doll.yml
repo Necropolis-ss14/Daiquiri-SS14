@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: PartDoll
   parent: [BaseItem, BasePart]
-  name: "doll body part"
+  name: ent-PartDoll
   abstract: true
   components:
   - type: Extractable
@@ -16,7 +16,7 @@
 
 - type: entity
   id: TorsoDoll
-  name: "doll torso"
+  name: ent-TorsoDoll
   parent: [PartDoll, BaseTorso]
   components:
     - type: Sprite
@@ -37,7 +37,7 @@
 
 - type: entity
   id: HeadDoll
-  name: "doll head"
+  name: ent-HeadDoll
   parent: [PartDoll, BaseHead]
   components:
     - type: Sprite
@@ -58,7 +58,7 @@
 
 - type: entity
   id: LeftArmDoll
-  name: "left doll arm"
+  name: ent-LeftArmDoll
   parent: [PartDoll, BaseLeftArm]
   components:
     - type: Sprite
@@ -70,7 +70,7 @@
 
 - type: entity
   id: RightArmDoll
-  name: "right doll arm"
+  name: ent-RightArmDoll
   parent: [PartDoll, BaseRightArm]
   components:
     - type: Sprite
@@ -82,7 +82,7 @@
 
 - type: entity
   id: LeftHandDoll
-  name: "left doll hand"
+  name: ent-LeftHandDoll
   parent: [PartDoll, BaseLeftHand]
   components:
     - type: Sprite
@@ -94,7 +94,7 @@
 
 - type: entity
   id: RightHandDoll
-  name: "right doll hand"
+  name: ent-RightHandDoll
   parent: [PartDoll, BaseRightHand]
   components:
     - type: Sprite
@@ -106,7 +106,7 @@
 
 - type: entity
   id: LeftLegDoll
-  name: "left doll leg"
+  name: ent-LeftLegDoll
   parent: [PartDoll, BaseLeftLeg]
   components:
     - type: Sprite
@@ -118,7 +118,7 @@
 
 - type: entity
   id: RightLegDoll
-  name: "right doll leg"
+  name: ent-RightLegDoll
   parent: [PartDoll, BaseRightLeg]
   components:
     - type: Sprite
@@ -130,7 +130,7 @@
 
 - type: entity
   id: LeftFootDoll
-  name: "left doll foot"
+  name: ent-LeftFootDoll
   parent: [PartDoll, BaseLeftFoot]
   components:
     - type: Sprite
@@ -142,7 +142,7 @@
 
 - type: entity
   id: RightFootDoll
-  name: "right doll foot"
+  name: ent-RightFootDoll
   parent: [PartDoll, BaseRightFoot]
   components:
     - type: Sprite

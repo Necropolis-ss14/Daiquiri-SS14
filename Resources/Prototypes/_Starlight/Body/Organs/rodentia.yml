@@ -1,9 +1,9 @@
 - type: entity
   id: OrganRodentiaEyes
   parent: OrganHumanEyes
-  name: rodentia eyes
+  name: ent-OrganRodentiaEyes
   suffix: Rodentia
-  description: "The beady eyes of a Rodentia."
+  description: ent-OrganRodentiaEyes-desc
   components:
   - type: OrganVisualization
     layer: Eyes
@@ -13,9 +13,9 @@
 - type: entity
   id: OrganRodentiaStomach
   parent: OrganHumanStomach
-  name: rodentia stomach
+  name: ent-OrganRodentiaStomach
   suffix: Rodentia
-  description: "The resistant stomach of a Rodentia."
+  description: ent-OrganRodentiaStomach-desc
   components:
     - type: Metabolizer
       metabolizerTypes: [ Rodentia ]
@@ -23,9 +23,9 @@
 - type: entity
   id: OrganRodentiaHeart
   parent: OrganHumanHeart
-  name: rodentia heart
+  name: ent-OrganRodentiaHeart
   suffix: Rodentia
-  description: "The animal-like heart of a Rodentia."
+  description: ent-OrganRodentiaHeart-desc
   components:
     - type: Metabolizer
       metabolizerTypes: [ Rodentia ]

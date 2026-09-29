@@ -1,9 +1,9 @@
 - type: entity
   id: OrganResomiEyes
   parent: OrganHumanEyes
-  name: resomi eyes
+  name: ent-OrganResomiEyes
   suffix: Resomi
-  description: "Resomi eyes have great night vision for hunting prey in maintenance tunnels, but are very sensitive to bright flashes."
+  description: ent-OrganResomiEyes-desc
   components:
   - type: OrganVisualization
     layer: Eyes
@@ -19,9 +19,9 @@
 - type: entity # Starlight
   id: OrganResomiHeart
   parent: OrganHumanHeart
-  name: resomi heart
+  name: ent-OrganResomiHeart
   suffix: Resomi
-  description: "The heart of a Resomi."
+  description: ent-OrganResomiHeart-desc
   components:
   - type: Metabolizer
     maxReagents: 2
@@ -34,9 +34,9 @@
 - type: entity
   id: OrganResomiLiver
   parent: OrganHumanLiver
-  name: resomi liver
+  name: ent-OrganResomiLiver
   suffix: Resomi
-  description: "The liver of a Resomi."
+  description: ent-OrganResomiLiver-desc
   components:
   - type: Sprite
     sprite: _Starlight/Mobs/Species/Resomi/organs.rsi
@@ -45,9 +45,9 @@
 - type: entity
   id: OrganResomiKidneys
   parent: OrganHumanKidneys
-  name: resomi kidney
+  name: ent-OrganResomiKidneys
   suffix: Resomi
-  description: "The kidneys of a Resomi."
+  description: ent-OrganResomiKidneys-desc
   components:
   - type: Sprite
     sprite: _Starlight/Mobs/Species/Resomi/organs.rsi
@@ -58,9 +58,9 @@
 - type: entity
   id: OrganResomiLungs
   parent: OrganHumanLungs
-  name: resomi lungs
+  name: ent-OrganResomiLungs
   suffix: Resomi
-  description: "The lungs of a Resomi."
+  description: ent-OrganResomiLungs-desc
   components:
   - type: Metabolizer
     metabolizerTypes: [ Resomi, Human ] #They get both so they can still breathe oxygen without us needing to add Resomi everywhere Human is listed
@@ -74,9 +74,9 @@
 - type: entity
   id: OrganResomiBrain
   parent: OrganHumanBrain
-  name: resomi brain
+  name: ent-OrganResomiBrain
   suffix: Resomi
-  description: "Where Resomi think evil thoughts."
+  description: ent-OrganResomiBrain-desc
   components:
   - type: Sprite
     sprite: _Starlight/Mobs/Species/Resomi/organs.rsi
@@ -85,9 +85,9 @@
 - type: entity
   id: OrganResomiStomach
   parent: OrganHumanStomach
-  name: resomi stomach
+  name: ent-OrganResomiStomach
   suffix: Resomi
-  description: "The dual chamber stomach of a Resomi."
+  description: ent-OrganResomiStomach-desc
   components:
   - type: Sprite
     sprite: _Starlight/Mobs/Species/Resomi/organs.rsi

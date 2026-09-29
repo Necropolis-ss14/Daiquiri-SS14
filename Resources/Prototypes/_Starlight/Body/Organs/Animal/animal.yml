@@ -138,7 +138,7 @@
 - type: entity
   id: OrganAnimalEyes
   parent: [BaseAnimalOrgan, BaseOrganEyes]
-  name: animal eyes
+  name: ent-OrganAnimalEyes
   categories: [ HideSpawnMenu ]
   components:
     - type: Sprite

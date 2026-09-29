@@ -1,9 +1,9 @@
 - type: entity
   id: OrganCorgiLungs
   parent: OrganAnimalLungs
-  name: corgi lungs
+  name: ent-OrganCorgiLungs
   suffix: Corgi
-  description: "Used for barking."
+  description: ent-OrganCorgiLungs-desc
   components:
   - type: Lung
     alert: CorgiLowOxygen

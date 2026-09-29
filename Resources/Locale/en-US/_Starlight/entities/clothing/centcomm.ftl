@@ -1,0 +1,13 @@
+ent-ClothingOuterCoatWardenCentcomm = central command armored winter coat
+ent-ClothingOuterCoatWardenCentcomm-desc = A extremely durable, stylish winter coat made for central command Operators to survive even in the coldest of winter
+ent-ClothingOuterCoatChefCentComm = centcomm chef's jacket
+ent-ClothingOuterCoatChefCentComm-desc = A distinct white and green jacket worn by the chefs at Central Command. Turns you into a walking advertisement.
+ent-ClothingOuterVestWebEliteCentcomm = central command web vest
+ent-ClothingOuterVestWebEliteCentcomm-desc = A synthetic armor vest redesignated for use by the Corporate Consortium, webbing and heat resistant fibers included.
+ent-ClothingBackpackSatchelCentcomm = central command operator satchel
+ent-ClothingBackpackSatchelCentcomm-desc = A rather stylish satchel plated with real gold, issued to Central Command Operators.
+ent-CentcommVibrobladeSheath = CentComm vibroblade sheath
+ent-CentcommVibrobladeSheath-desc = Vulcan Industries believed that maintenance of the Vibroweapons should be delayed as much as possible and the quality of the blades to be at top notch at all times; for the Corporate Consortium, specially designed sheaths were made where the subsonic piercing qualities would have it degradation slowed when not at use.
+ent-CentcommVibrobladeSheathFilled = CentComm vibroblade sheath
+ent-CentcommVibrobladeSheathFilled-desc = { ent-CentcommVibrobladeSheath-desc }
+    .suffix = Filled

@@ -1,7 +1,7 @@
 - type: entity
   id: PartLagomorph
   parent: [BaseItem, BasePart]
-  name: "lagomorph body part"
+  name: ent-PartLagomorph
   abstract: true
   components:
   - type: Extractable
@@ -14,7 +14,7 @@
 
 - type: entity
   id: TorsoLagomorph
-  name: "lagomorph torso"
+  name: ent-TorsoLagomorph
   parent: [PartLagomorph, BaseTorso]
   components:
   - type: Sprite
@@ -30,7 +30,7 @@
 
 - type: entity
   id: HeadLagomorph
-  name: "lagomorph head"
+  name: ent-HeadLagomorph
   parent: [PartLagomorph, BaseHead]
   components:
   - type: Sprite
@@ -46,7 +46,7 @@
 
 - type: entity
   id: LeftArmLagomorph
-  name: "left lagomorph arm"
+  name: ent-LeftArmLagomorph
   parent: [PartLagomorph, BaseLeftArm]
   components:
   - type: Sprite
@@ -55,7 +55,7 @@
 
 - type: entity
   id: RightArmLagomorph
-  name: "right lagomorph arm"
+  name: ent-RightArmLagomorph
   parent: [PartLagomorph, BaseRightArm]
   components:
   - type: Sprite
@@ -64,7 +64,7 @@
 
 - type: entity
   id: LeftHandLagomorph
-  name: "left lagomorph hand"
+  name: ent-LeftHandLagomorph
   parent: [PartLagomorph, BaseLeftHand]
   components:
   - type: Sprite
@@ -73,7 +73,7 @@
 
 - type: entity
   id: RightHandLagomorph
-  name: "right lagomorph hand"
+  name: ent-RightHandLagomorph
   parent: [PartLagomorph, BaseRightHand]
   components:
   - type: Sprite
@@ -82,7 +82,7 @@
 
 - type: entity
   id: LeftLegLagomorph
-  name: "left lagomorph leg"
+  name: ent-LeftLegLagomorph
   parent: [PartLagomorph, BaseLeftLeg]
   components:
   - type: Sprite
@@ -91,7 +91,7 @@
 
 - type: entity
   id: RightLegLagomorph
-  name: "right lagomorph leg"
+  name: ent-RightLegLagomorph
   parent: [PartLagomorph, BaseRightLeg]
   components:
   - type: Sprite
@@ -100,7 +100,7 @@
 
 - type: entity
   id: LeftFootLagomorph
-  name: "left lagomorph foot"
+  name: ent-LeftFootLagomorph
   parent: [PartLagomorph, BaseLeftFoot]
   components:
   - type: Sprite
@@ -109,7 +109,7 @@
 
 - type: entity
   id: RightFootLagomorph
-  name: "right lagomorph foot"
+  name: ent-RightFootLagomorph
   parent: [PartLagomorph, BaseRightFoot]
   components:
   - type: Sprite

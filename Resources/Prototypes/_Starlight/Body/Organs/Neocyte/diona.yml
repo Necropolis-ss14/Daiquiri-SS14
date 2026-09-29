@@ -1,9 +1,9 @@
 - type: entity
   id: OrganNeoDionaStomach
   parent: OrganDionaStomach
-  name: augmented stomach
+  name: ent-OrganNeoDionaStomach
   suffix: Neo-Diona
-  description: "The diona's equivalent of a stomach, it reeks of asparagus and vinegar."
+  description: ent-OrganNeoDionaStomach-desc
   components:
   - type: Stomach
     specialDigestible:
@@ -26,9 +26,9 @@
 - type: entity
   id: OrganNeoDionaLungs
   parent: OrganDionaLungs
-  name: diona augmented lungs
+  name: ent-OrganNeoDionaLungs
   suffix: Neo-Diona
-  description: "A spongy mess of slimy, leaf-like structures. Capable of breathing both carbon dioxide and oxygen."
+  description: ent-OrganNeoDionaLungs-desc
   components:
   - type: OrganDamage
     damage:
@@ -43,9 +43,9 @@
   id: OrganNeoDionaStomachNymph
   categories: [ HideSpawnMenu ]
   parent: OrganNeoDionaStomach
-  name: neo-diona nymph stomach
+  name: ent-OrganNeoDionaStomachNymph
   suffix: Neo-Diona Nymph
-  description: "Gross. This is hard to stomach."
+  description: ent-OrganNeoDionaStomachNymph-desc
   components:
   - type: Nymph
     entityPrototype: OrganNeoDionaNymphStomach
@@ -54,9 +54,9 @@
   id: OrganNeoDionaNymphStomach
   categories: [ HideSpawnMenu ]
   parent: MobDionaNymphAccent
-  name: neo-diona nymph stomach
+  name: ent-OrganNeoDionaNymphStomach
   suffix: Neo-Diona Nymph
-  description: Contains the stomach of a formerly fully-formed Neo-Diona. It doesn't taste any better for it.
+  description: ent-OrganNeoDionaNymphStomach-desc
   components:
   - type: IsDeadIC
   - type: Body
@@ -66,9 +66,9 @@
   id: OrganNeoDionaLungsNymph
   categories: [ HideSpawnMenu ]
   parent: OrganNeoDionaLungs
-  name: neo-diona nymph lungs
+  name: ent-OrganNeoDionaLungsNymph
   suffix: Neo-Diona Nymph
-  description: "Filters oxygen from an atmosphere, which is then sent into the bloodstream to be used as an electron carrier."
+  description: ent-OrganNeoDionaLungsNymph-desc
   components:
   - type: Nymph
     entityPrototype: OrganNeoDionaNymphLungs
@@ -77,9 +77,9 @@
   id: OrganNeoDionaNymphLungs
   categories: [ HideSpawnMenu ]
   parent: MobDionaNymphAccent
-  name: neo-diona nymph lungs
+  name: ent-OrganNeoDionaNymphLungs
   suffix: Neo-Diona Nymph
-  description: Contains the lungs of a formerly fully-formed Neo-Diona. Breathtaking.
+  description: ent-OrganNeoDionaNymphLungs-desc
   components:
   - type: IsDeadIC
   - type: Body

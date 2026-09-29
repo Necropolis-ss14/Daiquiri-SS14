@@ -107,8 +107,8 @@
 - type: entity
   id: OrganDollBrain
   parent: [BaseDollOrgan]
-  name: brain
-  description: "A strange mass of meat somehow equivalent to a brain."
+  name: ent-OrganDollBrain
+  description: ent-OrganDollBrain-desc
   components:
   - type: Sprite
     state: brain
@@ -138,8 +138,8 @@
 - type: entity
   id: OrganDollEyes
   parent: [BaseDollOrgan, BaseOrganEyes]
-  name: eyes
-  description: "There are too many of these..."
+  name: ent-OrganDollEyes
+  description: ent-OrganDollEyes-desc
   components:
   - type: Sprite
     layers:
@@ -156,8 +156,8 @@
 - type: entity
   id: OrganDollTongue
   parent: [BaseDollOrgan, BaseOrganTongue]
-  name: tongue
-  description: "A fleshy muscle mostly used for whispering secrets from the dark."
+  name: ent-OrganDollTongue
+  description: ent-OrganDollTongue-desc
   components:
   - type: OrganTongue
     sounds:
@@ -170,8 +170,8 @@
 - type: entity
   id: OrganDollEars
   parent: [BaseDollOrgan, BaseOrganEars]
-  name: ears
-  description: "There are three parts to the ear. Inner, middle and outer. You don't want to see any of it. Or for it to see you."
+  name: ent-OrganDollEars
+  description: ent-OrganDollEars-desc
   components:
   - type: Sprite
     state: ears
@@ -179,8 +179,8 @@
 - type: entity
   id: OrganDollLungs
   parent: [BaseDollOrgan, BaseOrganLungs]
-  name: lungs
-  description: "Dolls use these to breathe... somehow."
+  name: ent-OrganDollLungs
+  description: ent-OrganDollLungs-desc
   components:
   - type: Sprite
     layers:
@@ -199,8 +199,8 @@
 - type: entity
   id: OrganDollHeart
   parent: [BaseDollOrgan, BaseOrganHeart]
-  name: heart
-  description: "Is this even a heart?"
+  name: ent-OrganDollHeart
+  description: ent-OrganDollHeart-desc
   components:
   - type: Sprite
     state: heart-on
@@ -218,8 +218,8 @@
 - type: entity
   id: OrganDollStomach
   parent: [BaseDollOrgan, BaseOrganStomach]
-  name: stomach
-  description: "Surprisingly large."
+  name: ent-OrganDollStomach
+  description: ent-OrganDollStomach-desc
   components:
   - type: Sprite
     state: stomach
@@ -248,8 +248,8 @@
 - type: entity
   id: OrganDollLiver
   parent: [BaseDollOrgan, BaseOrganLiver]
-  name: liver
-  description: "Indistinct mass of flesh. Probably the liver."
+  name: ent-OrganDollLiver
+  description: ent-OrganDollLiver-desc
   components:
   - type: Sprite
     state: liver
@@ -261,8 +261,8 @@
 - type: entity
   id: OrganDollKidneys
   parent: [BaseDollOrgan, BaseOrganKidneys]
-  name: kidneys
-  description: "Ew, why does it have eyes?!?"
+  name: ent-OrganDollKidneys
+  description: ent-OrganDollKidneys-desc
   components:
   - type: Sprite
     layers:
@@ -276,8 +276,8 @@
 - type: entity
   id: ShellFragmentDoll
   parent: [BaseKnife]
-  name: doll shell fragment
-  description: A shell piece, broken off of a doll. Sharp, and looks quite sturdy.
+  name: ent-ShellFragmentDoll
+  description: ent-ShellFragmentDoll-desc
   components:
   - type: Sprite
     sprite: _Starlight/Mobs/Species/Doll/organs.rsi

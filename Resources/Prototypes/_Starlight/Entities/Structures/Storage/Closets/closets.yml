@@ -5,8 +5,8 @@
 - type: entity
   id: ClosetPirateBase
   parent: LockerSyndicate
-  name: pirate closet
-  description: A blood-red closet reeking of saltwater. Basic pirate crew kit.
+  name: ent-ClosetPirateBase
+  description: ent-ClosetPirateBase-desc
   suffix: Pirate, Base
   components:
   - type: EntityTableContainerFill
@@ -25,8 +25,8 @@
 - type: entity
   id: ClosetPirateCaptain
   parent: LockerSyndicate
-  name: pirate captain closet
-  description: A blood-red closet reeking of saltwater. Captain's outfit with coat and energy cutlass.
+  name: ent-ClosetPirateCaptain
+  description: ent-ClosetPirateCaptain-desc
   suffix: Pirate, Captain
   components:
   - type: EntityTableContainerFill
@@ -48,8 +48,8 @@
 - type: entity
   id: ClosetPirateFirstmate
   parent: LockerSyndicate
-  name: pirate first mate closet
-  description: A blood-red closet reeking of saltwater. First mate's tricord and gentleman's coat.
+  name: ent-ClosetPirateFirstmate
+  description: ent-ClosetPirateFirstmate-desc
   suffix: Pirate, First Mate
   components:
   - type: EntityTableContainerFill
@@ -69,8 +69,8 @@
 - type: entity
   id: ClosetPirateScoonerA
   parent: LockerSyndicate
-  name: schooner pirate closet
-  description: A blood-red closet reeking of saltwater. Standard schooner crew kit with cutlass and flintlock.
+  name: ent-ClosetPirateScoonerA
+  description: ent-ClosetPirateScoonerA-desc
   suffix: Pirate, Schooner Alt A
   components:
   - type: EntityTableContainerFill
@@ -92,8 +92,8 @@
 - type: entity
   id: ClosetPirateScoonerAltB
   parent: LockerSyndicate
-  name: schooner pirate closet (alt B)
-  description: A blood-red closet reeking of saltwater. Schooner crew with tricord and gentleman's coat.
+  name: ent-ClosetPirateScoonerAltB
+  description: ent-ClosetPirateScoonerAltB-desc
   suffix: Pirate, Schooner Alt B
   components:
   - type: EntityTableContainerFill
@@ -116,8 +116,8 @@
 - type: entity
   id: ClosetPirateScoonerAltC
   parent: LockerSyndicate
-  name: schooner pirate closet (alt C)
-  description: A blood-red closet reeking of saltwater. Schooner crew armed with blunderbuss.
+  name: ent-ClosetPirateScoonerAltC
+  description: ent-ClosetPirateScoonerAltC-desc
   suffix: Pirate, Schooner Alt C
   components:
   - type: EntityTableContainerFill
@@ -139,8 +139,8 @@
 - type: entity
   id: ClosetPirateScoonerAltD
   parent: LockerSyndicate
-  name: schooner pirate closet (alt D)
-  description: A blood-red closet reeking of saltwater. Schooner crew with tricord and revolver.
+  name: ent-ClosetPirateScoonerAltD
+  description: ent-ClosetPirateScoonerAltD-desc
   suffix: Pirate, Schooner Alt D
   components:
   - type: EntityTableContainerFill
@@ -162,8 +162,8 @@
 - type: entity
   id: ClosetPirateCaptainScooner
   parent: LockerSyndicate
-  name: schooner pirate captain closet
-  description: A blood-red closet reeking of saltwater. Captain's schooner kit with cape, web vest and revolver.
+  name: ent-ClosetPirateCaptainScooner
+  description: ent-ClosetPirateCaptainScooner-desc
   suffix: Pirate, Schooner Captain
   components:
   - type: EntityTableContainerFill

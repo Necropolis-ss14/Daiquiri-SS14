@@ -1,9 +1,9 @@
 - type: entity
   id: OrganLagomorphEyes
   parent: OrganHumanEyes
-  name: lagomorph eyes
+  name: ent-OrganLagomorphEyes
   suffix: Lagomorph
-  description: "Couldn't have seen that one coming."
+  description: ent-OrganLagomorphEyes-desc
   components:
   - type: OrganVisualization
     layer: Eyes
@@ -13,9 +13,9 @@
 - type: entity
   id: OrganLagomorphStomach
   parent: [OrganAnimalStomach, BaseOrganStomach]
-  name: lagomorph stomach
+  name: ent-OrganLagomorphStomach
   suffix: Lagomorph
-  description: "Yearns for fresh produce."
+  description: ent-OrganLagomorphStomach-desc
   components:
   - type: Sprite
     sprite: Mobs/Species/Human/organs.rsi
@@ -34,9 +34,9 @@
 - type: entity
   id: OrganLagomorphHeart
   parent: OrganAnimalHeart
-  name: lagomorph heart
+  name: ent-OrganLagomorphHeart
   suffix: Lagomorph
-  description: "The rapidly beating heart of a Lagomorph."
+  description: ent-OrganLagomorphHeart-desc
   components:
   - type: Sprite
     sprite: Mobs/Species/Human/organs.rsi

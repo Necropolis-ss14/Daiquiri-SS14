@@ -1,8 +1,8 @@
 - type: entity
   parent: FoodSnackBase
   id: FoodSnackGumballWhite
-  name: gumball
-  description: So many flavors of sugar!
+  name: ent-FoodSnackGumballWhite
+  description: ent-FoodSnackGumballWhite-desc
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Consumable/Food/gumball.rsi

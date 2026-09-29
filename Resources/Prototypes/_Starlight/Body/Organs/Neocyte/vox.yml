@@ -1,7 +1,7 @@
 - type: entity
   id: OrganNeoVoxStomach
   parent: OrganNeocyteStomach
-  name: vox biological reactor
+  name: ent-OrganNeoVoxStomach
   suffix: Neo-Vox
   components:
   - type: Metabolizer
@@ -20,7 +20,7 @@
 - type: entity
   id: OrganNeoVoxHeart
   parent: [BaseNeocyteOrgan, OrganNeocyteHeart]
-  name: vox cybernetic heart
+  name: ent-OrganNeoVoxHeart
   suffix: Neo-Vox
   components:
   - type: Sprite
@@ -34,9 +34,9 @@
 - type: entity
   id: OrganNeoVoxLungs
   parent: OrganNeocyteLungs
-  name: vox cybernetic lungs
+  name: ent-OrganNeoVoxLungs
   suffix: Neo-Vox
-  description: Filters nitrogen from an atmosphere, which is then sent into the bloodstream to be used as an electron carrier. Entirely cybernetic in nature, working in tandem with the visor's filtration system. #  Starlight, quotation marks removed
+  description: ent-OrganNeoVoxLungs-desc
   components:
   - type: Metabolizer
     metabolizerTypes: [ Slime, NeoVox ]

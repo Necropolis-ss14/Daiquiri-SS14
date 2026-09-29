@@ -1,7 +1,7 @@
 - type: entity
   id: PartThaven
   parent: [BaseItem, BasePart]
-  name: "thaven body part"
+  name: ent-PartThaven
   abstract: true
   components:
   - type: Extractable
@@ -14,7 +14,7 @@
 
 - type: entity
   id: TorsoThaven
-  name: "thaven torso"
+  name: ent-TorsoThaven
   parent: [PartThaven, BaseTorso]
   components:
   - type: Sprite
@@ -30,7 +30,7 @@
 
 - type: entity
   id: HeadThaven
-  name: "thaven head"
+  name: ent-HeadThaven
   parent: [PartThaven, BaseHead]
   components:
   - type: Sprite
@@ -46,7 +46,7 @@
 
 - type: entity
   id: LeftArmThaven
-  name: "left thaven arm"
+  name: ent-LeftArmThaven
   parent: [PartThaven, BaseLeftArm]
   components:
   - type: Sprite
@@ -55,7 +55,7 @@
 
 - type: entity
   id: RightArmThaven
-  name: "right thaven arm"
+  name: ent-RightArmThaven
   parent: [PartThaven, BaseRightArm]
   components:
   - type: Sprite
@@ -64,7 +64,7 @@
 
 - type: entity
   id: LeftHandThaven
-  name: "left thaven hand"
+  name: ent-LeftHandThaven
   parent: [PartThaven, BaseLeftHand]
   components:
   - type: Sprite
@@ -73,7 +73,7 @@
 
 - type: entity
   id: RightHandThaven
-  name: "right thaven hand"
+  name: ent-RightHandThaven
   parent: [PartThaven, BaseRightHand]
   components:
   - type: Sprite
@@ -82,7 +82,7 @@
 
 - type: entity
   id: LeftLegThaven
-  name: "left thaven leg"
+  name: ent-LeftLegThaven
   parent: [PartThaven, BaseLeftLeg]
   components:
   - type: Sprite
@@ -91,7 +91,7 @@
 
 - type: entity
   id: RightLegThaven
-  name: "right thaven leg"
+  name: ent-RightLegThaven
   parent: [PartThaven, BaseRightLeg]
   components:
   - type: Sprite
@@ -100,7 +100,7 @@
 
 - type: entity
   id: LeftFootThaven
-  name: "left thaven foot"
+  name: ent-LeftFootThaven
   parent: [PartThaven, BaseLeftFoot]
   components:
   - type: Sprite
@@ -109,7 +109,7 @@
 
 - type: entity
   id: RightFootThaven
-  name: "right thaven foot"
+  name: ent-RightFootThaven
   parent: [PartThaven, BaseRightFoot]
   components:
   - type: Sprite

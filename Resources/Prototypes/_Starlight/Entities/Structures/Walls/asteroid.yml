@@ -48,7 +48,7 @@
 
 - type: entity
   id: WallRockDark
-  name: darkstone
+  name: ent-WallRockDark
   parent: WallRock
   components:
   - type: Icon
@@ -118,7 +118,7 @@
 
 - type: entity
   id: WallTrash
-  name: trash
+  name: ent-WallTrash
   parent: WallRock
   components:
   - type: Icon
@@ -166,7 +166,7 @@
 
 - type: entity
   id: WallMeatroid
-  name: meatroid
+  name: ent-WallMeatroid
   parent: WallMeat
   components:
   - type: Pinata

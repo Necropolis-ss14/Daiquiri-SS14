@@ -1,9 +1,9 @@
 - type: entity
   id: OrganAvaliStomach
   parent: OrganAnimalStomach
-  name: avali stomach
+  name: ent-OrganAvaliStomach
   suffix: Avali
-  description: "On closer inspection, actually consists of two stomachs."
+  description: ent-OrganAvaliStomach-desc
   components:
   - type: Stomach
     specialDigestible:
@@ -27,9 +27,9 @@
 - type: entity
   id: OrganAvaliHeart
   parent: OrganHumanHeart
-  name: avali heart
+  name: ent-OrganAvaliHeart
   suffix: Avali
-  description: "The heart of an Avali."
+  description: ent-OrganAvaliHeart-desc
   components:
   - type: Metabolizer
     maxReagents: 2
@@ -42,9 +42,9 @@
 - type: entity
   id: OrganAvaliLiver
   parent: OrganHumanLiver
-  name: avali liver
+  name: ent-OrganAvaliLiver
   suffix: Avali
-  description: "The liver of an Avali."
+  description: ent-OrganAvaliLiver-desc
   components:
   - type: Metabolizer # The liver metabolizes certain chemicals only, like alcohol.
     maxReagents: 1
@@ -57,9 +57,9 @@
 - type: entity
   id: OrganAvaliKidneys
   parent: OrganHumanKidneys
-  name: avali kidneys
+  name: ent-OrganAvaliKidneys
   suffix: Avali
-  description: "The kidneys of an Avali."
+  description: ent-OrganAvaliKidneys-desc
   components:
   - type: Sprite
     sprite: _Starlight/Mobs/Species/Avali/organs.rsi
@@ -70,9 +70,9 @@
 - type: entity
   id: OrganAvaliLungs
   parent: OrganHumanLungs
-  name: avali lungs
+  name: ent-OrganAvaliLungs
   suffix: Avali
-  description: "The lungs of an Avali."
+  description: ent-OrganAvaliLungs-desc
   components:
   - type: Metabolizer
     metabolizerTypes: [ Resomi, Human ] #They get both so they can still breathe oxygen without us needing to add Resomi everywhere Human is listed
@@ -86,9 +86,9 @@
 - type: entity
   id: OrganAvaliEyes
   parent: OrganHumanEyes
-  name: avali eyes
+  name: ent-OrganAvaliEyes
   suffix: Avali
-  description: "The eyes of an Avali."
+  description: ent-OrganAvaliEyes-desc
   components:
   - type: OrganVisualization
     layer: Eyes
@@ -98,9 +98,9 @@
 - type: entity
   id: OrganAvaliBrain
   parent: OrganHumanBrain
-  name: avali brain
+  name: ent-OrganAvaliBrain
   suffix: Avali
-  description: "Where Avali think evil thoughts."
+  description: ent-OrganAvaliBrain-desc
   components:
   - type: Sprite
     sprite: _Starlight/Mobs/Species/Avali/organs.rsi

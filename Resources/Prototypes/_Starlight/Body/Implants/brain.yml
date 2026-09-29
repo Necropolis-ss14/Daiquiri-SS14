@@ -13,8 +13,8 @@
 
 - type: entity
   id: BrainImplantTranslator
-  name: translator implant
-  description: Translates from your language to galactic common right in your brain!
+  name: ent-BrainImplantTranslator
+  description: ent-BrainImplantTranslator-desc
   parent: BaseEntityBrainImplant
   components:
   - type: Sprite
@@ -29,8 +29,8 @@
 
 - type: entity
   id: BrainImplantCommsExpedition
-  name: expedition radio implant
-  description: A handy implant for the salvager of the modern age.
+  name: ent-BrainImplantCommsExpedition
+  description: ent-BrainImplantCommsExpedition-desc
   parent: BaseEntityBrainImplant
   components:
   - type: Sprite
@@ -48,8 +48,8 @@
 
 - type: entity
   id: BrainImplantComms
-  name: integrated radio implant
-  description: A headset, right in your brain!
+  name: ent-BrainImplantComms
+  description: ent-BrainImplantComms-desc
   parent: BaseEntityBrainImplant
   components:
   - type: Sprite
@@ -71,8 +71,8 @@
 
 - type: entity
   id: BrainImplantNexus
-  name: Nexus uplink
-  description: A weird piece of Avali tech... Gives you access to the Nexus!
+  name: ent-BrainImplantNexus
+  description: ent-BrainImplantNexus-desc
   parent: BaseEntityBrainImplant
   components:
   - type: Sprite
@@ -87,8 +87,8 @@
 
 - type: entity
   id: BrainImplantExpiScan
-  name: health scanner implant
-  description: An implant the provides a readout of your present physical health.
+  name: ent-BrainImplantExpiScan
+  description: ent-BrainImplantExpiScan-desc
   parent: BaseEntityBrainImplant
   components:
   - type: Sprite

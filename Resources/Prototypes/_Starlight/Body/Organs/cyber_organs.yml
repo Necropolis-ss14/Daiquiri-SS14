@@ -1,7 +1,7 @@
 - type: entity
   id: OrganCyber
   parent: BaseItem
-  name: "cyber organ"
+  name: ent-OrganCyber
   abstract: true
   components:
   - type: Sprite
@@ -20,8 +20,8 @@
 
 - type: entity
   id: CyberEyeNightVision
-  name: night vision cyber eyes
-  description: Enables you to see in the dark.
+  name: ent-CyberEyeNightVision
+  description: ent-CyberEyeNightVision-desc
   parent: [OrganCyber, BaseOrganEyes]
   components:
   - type: Sprite
@@ -47,8 +47,8 @@
 
 - type: entity
   id: CyberEyeThermal
-  name: thermal vision cyber eyes
-  description: Enables you to see in the dark and detect warm objects through walls.
+  name: ent-CyberEyeThermal
+  description: ent-CyberEyeThermal-desc
   parent: [OrganCyber, BaseOrganEyes]
   components:
   - type: Sprite
@@ -74,8 +74,8 @@
 
 - type: entity
   id: BudgetCyberEyes
-  name: budget cyber eyes
-  description: Cold and soulless. Just as depressing to look out of as to look into.
+  name: ent-BudgetCyberEyes
+  description: ent-BudgetCyberEyes-desc
   parent: [OrganCyber, BaseOrganEyes]
   components:
   - type: Sprite
@@ -113,8 +113,8 @@
 
 - type: entity
   id: BudgetCyberTongue
-  name: budget cyber tongue
-  description: An artificial tongue with full range of movement. Taste buds not included.
+  name: ent-BudgetCyberTongue
+  description: ent-BudgetCyberTongue-desc
   parent: [OrganCyber, BaseOrganTongue]
   components:
   - type: Sprite
@@ -126,8 +126,8 @@
 
 - type: entity
   id: VocalCyberTongue
-  name: vocal cyber tongue
-  description: An artificial tongue with full range of movement. Allows using all vocal sounds.
+  name: ent-VocalCyberTongue
+  description: ent-VocalCyberTongue-desc
   parent: [OrganCyber, BaseOrganTongue]
   components:
     - type: Sprite
@@ -142,8 +142,8 @@
 
 - type: entity
   id: BudgetCyberLiver
-  name: budget cyber liver
-  description: "Design so reliable, it didn't have to be changed for the last 237 years! Warning: This product isn't meant for recreational drinking!"
+  name: ent-BudgetCyberLiver
+  description: ent-BudgetCyberLiver-desc
   parent: [OrganCyber, OrganHumanLiver]
   components:
   - type: Sprite
@@ -155,8 +155,8 @@
     stages: [ Metabolites ]
 - type: entity
   id: BudgetCyberStomach
-  name: budget cyber stomach
-  description: An artifical stomach. Its lack of elasticity is a desired feature for those who want to control their eating habits.
+  name: ent-BudgetCyberStomach
+  description: ent-BudgetCyberStomach-desc
   parent: [OrganCyber, OrganHumanStomach]
   components:
   - type: Sprite
@@ -174,8 +174,8 @@
 
 - type: entity
   id: BudgetCyberKidneys
-  name: budget cyber kidneys
-  description: A pair of artificial kidneys. Due to cheap materials used, they waste significantly more water than organic ones.
+  name: ent-BudgetCyberKidneys
+  description: ent-BudgetCyberKidneys-desc
   parent: [OrganCyber, OrganHumanKidneys]
   components:
   - type: Sprite
@@ -190,8 +190,8 @@
 
 - type: entity
   id: CyberRebreather
-  name: cyber rebreather
-  description: Artificial lungs with an integrated gas tank system. Can be filled with any breathable gas mixture.
+  name: ent-CyberRebreather
+  description: ent-CyberRebreather-desc
   parent: [OrganCyber, OrganHumanLungs]
   components:
   - type: Sprite

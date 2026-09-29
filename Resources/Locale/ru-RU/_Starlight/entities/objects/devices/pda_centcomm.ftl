@@ -1,0 +1,10 @@
+ent-CentCommGreenShieldPDA = КПК зелёного щита
+ent-CentCommGreenShieldPDA-desc = Со всеми наворотами — на те случаи, когда вы делаете нечто большее, чем медленно ходите рядом с тем, кто считает себя слишком важным.
+ent-CentCommServiceWorkerPDA = КПК работника ЦК
+ent-CentCommServiceWorkerPDA-desc = Дешёвая версия для тех, кто готовит им еду, моет полы и разносит напитки.
+ent-CentCommChefPDA = КПК повара ЦК
+ent-CentCommChefPDA-desc = Лоснится от жира того самого стейка, который вы должны готовить.
+ent-CentCommBartenderPDA = КПК бармена ЦК
+ent-CentCommBartenderPDA-desc = Атрибуты прославленного разносчика коктейлей.
+ent-CentCommJanitorPDA = КПК уборщика ЦК
+ent-CentCommJanitorPDA-desc = Почему вы это читаете вместо того, чтобы мыть полы?

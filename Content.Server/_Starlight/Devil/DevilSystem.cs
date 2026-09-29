@@ -66,7 +66,9 @@ public sealed partial class DevilSystem : SharedDevilSystem
             // adds true name to the required patterns, as this dynamically changes between devils
             // this is also shit, preferably this would somehow be able to exist entirely in yaml
             var regexSanitisedTruename = NameSanitizeRegex().Replace(devilComp.TrueName, "");
-            parsableComp.RequiredPatterns.Add($"(?<={Regex.Escape(regexSanitisedTruename)}, an agent of hell.).*");
+            // Daiquiri: single alternation pattern (IsPaperValid requires ALL patterns,
+            // so en and ru clauses must live in one). Victims may sign in either language.
+            parsableComp.RequiredPatterns.Add($"{Regex.Escape(regexSanitisedTruename)}, (an agent of hell\\.|агентом ада\\.).*");
         }
 
         var content = Loc.GetString("infernal-contract-base", ("truename", devilComp.TrueName));
@@ -77,7 +79,8 @@ public sealed partial class DevilSystem : SharedDevilSystem
         return paper;
     }
 
-    [GeneratedRegex("^[-, a-zA-Z0-9]")]
+    // Daiquiri: allow Cyrillic so Russian true names survive sanitizing.
+    [GeneratedRegex("^[-, a-zA-Z0-9А-Яа-яЁё]")]
     private static partial Regex NameSanitizeRegex();
 
     private void OnSummonDemonicContract(EntityUid uid, DevilComponent devilComp, ref SummonDemonicContractEvent args)

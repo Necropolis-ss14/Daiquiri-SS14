@@ -1,0 +1,16 @@
+ent-CrateInternalsO2N2 = аварийный ящик
+ent-CrateSoviet = ящик морской пехоты СССП
+ent-CrateSoviet-desc = Прочный ящик с эмблемой морской пехоты СССП.
+ent-CrateRDSecure = ящик научного руководителя
+ent-CrateRoboticsSecure = защищённый ящик робототехники
+ent-CrateSalvageContrabandStorageSecure = складской ящик утилизаторов
+ent-CrateSalvageContrabandStorageSecure-desc = Ящик с доступом службы безопасности и утилизаторов для хранения контрабанды.
+ent-CrateCentralCommandSecure = ящик центрального командования
+ent-CrateCentralCommandSecureStrong = ящик центрального командования
+ent-CrateCentralCommandSecureStrong-desc = Большой контейнер для предметов. Изготовлен из пластатитана для значительного повышения прочности.
+ent-RecordMilkCrate = ящик для пластинок
+ent-RecordMilkCrate-desc = Прочный пластиковый молочный ящик, приспособленный для хранения виниловых пластинок в конвертах. Больше ничего не вмещает.
+ent-MilkCrate = молочный ящик
+ent-MilkCrate-desc = Прочный пластиковый ящик для перевозки пакетов молока. Больше ничего не вмещает.
+ent-SyndicateMilkCrate = молочный ящик Синдиката
+ent-SyndicateMilkCrate-desc = Кроваво-красный пластиковый молочный ящик для хранения виниловых пластинок в конвертах. NanoTrasen предпочла бы, чтобы вы это не слушали.

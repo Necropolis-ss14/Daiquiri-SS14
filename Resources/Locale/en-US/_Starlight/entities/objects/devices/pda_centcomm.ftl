@@ -1,0 +1,10 @@
+ent-CentCommGreenShieldPDA = greenshield PDA
+ent-CentCommGreenShieldPDA-desc = Comes with all the bells and whistles for all those times you do more than walk slowly next to someone who thinks they are way too important.
+ent-CentCommServiceWorkerPDA = CentComm service worker PDA
+ent-CentCommServiceWorkerPDA-desc = The crappy version they give to the people who make their food, mop their floors, and serve their drinks.
+ent-CentCommChefPDA = CentComm chef PDA
+ent-CentCommChefPDA-desc = It's slick with the oil of the fat steak you're supposed to be cooking.
+ent-CentCommBartenderPDA = CentComm bartender PDA
+ent-CentCommBartenderPDA-desc = The trappings of a glorified cocktail waiter.
+ent-CentCommJanitorPDA = CentComm janitor PDA
+ent-CentCommJanitorPDA-desc = Why are you reading this instead of mopping floors?

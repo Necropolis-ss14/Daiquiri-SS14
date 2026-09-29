@@ -1,7 +1,7 @@
 - type: entity
   id: OrganNeoLagomorphStomach
   parent: OrganNeocyteStomach
-  name: lagomorph biological reactor
+  name: ent-OrganNeoLagomorphStomach
   suffix: Neo-Lagomorph
   components:
   - type: Metabolizer
@@ -12,7 +12,7 @@
 - type: entity
   id: OrganNeoLagomorphHeart
   parent: OrganNeocyteHeart
-  name: lagomorph cybernetic heart
+  name: ent-OrganNeoLagomorphHeart
   suffix: Neo-Lagomorph
   components:
   - type: Metabolizer

@@ -1,9 +1,9 @@
 - type: entity
   id: OrganNeoDwarfHeart
   parent: OrganNeocyteHeart
-  name: dwarf cybernetic heart
+  name: ent-OrganNeoDwarfHeart
   suffix: Neo-Dwarf
-  description: Doesn't actually need to beat, simply mimics the movement to provide comfort for the user.
+  description: ent-OrganNeoDwarfHeart-desc
   components:
   - type: Metabolizer
     metabolizerTypes: [Dwarf, Neocyte]
@@ -11,9 +11,9 @@
 - type: entity
   id: OrganNeoDwarfLiver
   parent: OrganNeocyteLiver
-  name: dwarf cybernetic liver
+  name: ent-OrganNeoDwarfLiver
   suffix: Neo-Dwarf
-  description: Pairing suggestion, a side of fermented RAM sticks and a nice CPU.
+  description: ent-OrganNeoDwarfLiver-desc
   components:
   - type: Metabolizer
     metabolizerTypes: [Dwarf]
@@ -21,9 +21,9 @@
 - type: entity
   id: OrganNeoDwarfStomach
   parent: OrganNeocyteStomach
-  name: dwarf biological reactor
+  name: ent-OrganNeoDwarfStomach
   suffix: Neo-Dwarf
-  description: Some call it over-engineered, but it's vital to the function of a neocyte. Turns organic matter into organic and electrical energy to power the neocyte's cybernetics and flesh.
+  description: ent-OrganNeoDwarfStomach-desc
   components:
   - type: Sprite
     sprite: _FarHorizons/Mobs/Species/Protogen/organs.rsi

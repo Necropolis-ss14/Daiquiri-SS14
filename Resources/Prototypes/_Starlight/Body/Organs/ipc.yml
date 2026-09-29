@@ -54,9 +54,9 @@
 - type: entity
   id: OrganIPCTongue
   parent: [BaseIPCOrganUnGibbable, BaseOrganTongue]
-  name: vocal modulator
+  name: ent-OrganIPCTongue
   suffix: IPC
-  description: "A vocal modulator, typically used for lying."
+  description: ent-OrganIPCTongue-desc
   components:
   - type: OrganTongue
     allowedEmotes: ['Beep', 'Ping', 'Buzz', 'Buzz-Two', 'Chime', 'Honk']
@@ -70,9 +70,9 @@
 - type: entity
   id: OrganIPCEars
   parent: [BaseIPCOrganUnGibbable, BaseOrganEars]
-  name: robotic ears
+  name: ent-OrganIPCEars
   suffix: IPC
-  description: "Process audio at the same quality of station-side cyborgs"
+  description: ent-OrganIPCEars-desc
   components:
   - type: Sprite
     state: ears
@@ -80,9 +80,9 @@
 - type: entity
   id: OrganIPCHeart
   parent: [BaseIPCOrganUnGibbable, BaseOrganHeart]
-  name: micro pump
+  name: ent-OrganIPCHeart
   suffix: IPC
-  description: "Circulates coolant in a sickingly familiar way."
+  description: ent-OrganIPCHeart-desc
   components:
   - type: Sprite
     state: heart-on

@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: PartFelionoid
   parent: [BaseItem, BasePart]
-  name: "felionoid body part"
+  name: ent-PartFelionoid
   abstract: true
   components:
   - type: Damageable
@@ -26,7 +26,7 @@
 
 - type: entity
   id: TorsoFelionoid
-  name: "felionoid torso"
+  name: ent-TorsoFelionoid
   parent: [PartFelionoid, BaseTorso]
   components:
     - type: Sprite
@@ -47,7 +47,7 @@
 
 - type: entity
   id: HeadFelionoid
-  name: "felionoid head"
+  name: ent-HeadFelionoid
   parent: [PartFelionoid, BaseHead]
   components:
     - type: Sprite
@@ -74,7 +74,7 @@
 
 - type: entity
   id: LeftArmFelionoid
-  name: "left felionoid arm"
+  name: ent-LeftArmFelionoid
   parent: [PartFelionoid, BaseLeftArm]
   components:
     - type: Sprite
@@ -89,7 +89,7 @@
 
 - type: entity
   id: RightArmFelionoid
-  name: "right felionoid arm"
+  name: ent-RightArmFelionoid
   parent: [PartFelionoid, BaseRightArm]
   components:
     - type: Sprite
@@ -104,7 +104,7 @@
 
 - type: entity
   id: LeftHandFelionoid
-  name: "left felionoid hand"
+  name: ent-LeftHandFelionoid
   parent: [PartFelionoid, BaseLeftHand]
   components:
     - type: Sprite
@@ -119,7 +119,7 @@
 
 - type: entity
   id: RightHandFelionoid
-  name: "right felionoid hand"
+  name: ent-RightHandFelionoid
   parent: [PartFelionoid, BaseRightHand]
   components:
     - type: Sprite
@@ -134,7 +134,7 @@
 
 - type: entity
   id: LeftLegFelionoid
-  name: "left felionoid leg"
+  name: ent-LeftLegFelionoid
   parent: [PartFelionoid, BaseLeftLeg]
   components:
     - type: Sprite
@@ -154,7 +154,7 @@
 
 - type: entity
   id: RightLegFelionoid
-  name: "right felionoid leg"
+  name: ent-RightLegFelionoid
   parent: [PartFelionoid, BaseRightLeg]
   components:
     - type: Sprite
@@ -174,7 +174,7 @@
 
 - type: entity
   id: LeftFootFelionoid
-  name: "left felionoid foot"
+  name: ent-LeftFootFelionoid
   parent: [PartFelionoid, BaseLeftFoot]
   components:
     - type: Sprite
@@ -189,7 +189,7 @@
 
 - type: entity
   id: RightFootFelionoid
-  name: "right felionoid foot"
+  name: ent-RightFootFelionoid
   parent: [PartFelionoid, BaseRightFoot]
   components:
     - type: Sprite

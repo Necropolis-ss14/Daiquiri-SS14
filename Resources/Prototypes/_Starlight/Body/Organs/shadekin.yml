@@ -1,9 +1,9 @@
 - type: entity
   id: OrganShadekinBrain
   parent: OrganHumanBrain
-  name: shadekin brain
+  name: ent-OrganShadekinBrain
   suffix: Shadekin
-  description: "The source of incredible, unending intelligence. Marr."
+  description: ent-OrganShadekinBrain-desc
   components:
   - type: Sprite
     sprite: _Starlight/Mobs/Species/Shadekin/organs.rsi
@@ -12,9 +12,9 @@
 - type: entity
   id: OrganShadekinEyes
   parent: OrganHumanEyes
-  name: shadekin eyes
+  name: ent-OrganShadekinEyes
   suffix: Shadekin
-  description: "Eyes of a Black-eye Shadekin that can never see their home reality again. These eyes have excellent night vision, but are very sensitive to bright flashes as a result."
+  description: ent-OrganShadekinEyes-desc
   components:
   - type: Sprite
     sprite: _Starlight/Mobs/Species/Shadekin/organs.rsi
@@ -37,9 +37,9 @@
 - type: entity
   id: OrganShadekinTongue
   parent: OrganHumanTongue
-  name: shadekin tongue
+  name: ent-OrganShadekinTongue
   suffix: Shadekin
-  description: "Used to marr and occasionally wurble."
+  description: ent-OrganShadekinTongue-desc
   components:
   - type: OrganTongue
     allowedEmotes: ["Marr", "Wurble", "Hisses", "Growl", "Purr"]
@@ -54,7 +54,7 @@
 - type: entity
   id: OrganShadekinAppendix
   parent: OrganHumanAppendix
-  name: shadekin appendix
+  name: ent-OrganShadekinAppendix
   suffix: Shadekin
   components:
   - type: Sprite
@@ -65,7 +65,7 @@
 - type: entity
   id: OrganShadekinHeart
   parent: OrganHumanHeart
-  name: shadekin heart
+  name: ent-OrganShadekinHeart
   suffix: Shadekin
   components:
   - type: Sprite
@@ -75,7 +75,7 @@
 - type: entity
   id: OrganShadekinStomach
   parent: OrganHumanStomach
-  name: shadekin stomach
+  name: ent-OrganShadekinStomach
   suffix: Shadekin
   components:
   - type: Sprite
@@ -90,7 +90,7 @@
 - type: entity
   id: OrganShadekinLiver
   parent: OrganHumanLiver
-  name: shadekin liver
+  name: ent-OrganShadekinLiver
   suffix: Shadekin
   components:
   - type: Sprite
@@ -100,7 +100,7 @@
 - type: entity
   id: OrganShadekinKidneys
   parent: OrganHumanKidneys
-  name: shadekin kidneys
+  name: ent-OrganShadekinKidneys
   suffix: Shadekin
   components:
   - type: Sprite
@@ -111,9 +111,9 @@
 - type: entity
   id: OrganShadekinCore
   parent: BaseItem
-  name: shadekin core
+  name: ent-OrganShadekinCore
   suffix: Shadekin
-  description: A core of a Shadekin, a mysterious and powerful organ that seems to be the source of their energy.
+  description: ent-OrganShadekinCore-desc
   components:
   - type: OrganShadekinCore
   - type: Organ
@@ -131,7 +131,7 @@
 - type: entity
   id: OrganShadekinCoreUndamaged
   parent: OrganShadekinCore
-  name: bright-eye core
+  name: ent-OrganShadekinCoreUndamaged
   suffix: Bright-eye
   components:
   - type: OrganShadekinCore

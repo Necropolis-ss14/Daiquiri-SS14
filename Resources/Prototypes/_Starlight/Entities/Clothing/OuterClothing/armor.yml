@@ -290,8 +290,8 @@
   parent:
     [BaseCentcommContraband, ClothingOuterVestWeb]
   id: ClothingOuterVestWebEliteCentcomm
-  name: central command web vest
-  description: A synthetic armor vest redesignated for use by the Corporate Consortium, webbing and heat resistant fibers included.
+  name: ent-ClothingOuterVestWebEliteCentcomm
+  description: ent-ClothingOuterVestWebEliteCentcomm-desc
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/OuterClothing/Vests/cc_webvest.rsi

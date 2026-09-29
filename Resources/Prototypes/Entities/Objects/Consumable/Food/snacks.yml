@@ -103,8 +103,8 @@
 - type: entity
   parent: BaseItem
   id: FoodSnackChocolate
-  name: chocolate bar
-  description: Tastes like cardboard.
+  name: ent-FoodSnackChocolate
+  description: ent-FoodSnackChocolate-desc
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/snacks.rsi
@@ -131,8 +131,8 @@
 - type: entity
   parent: FoodSnackBase
   id: FoodSnackChocolateBar
-  name: chocolate bar
-  description: Tastes like cardboard.
+  name: ent-FoodSnackChocolateBar
+  description: ent-FoodSnackChocolateBar-desc
   components:
   - type: FlavorProfile
     flavors:
@@ -159,8 +159,8 @@
 - type: entity
   parent: FoodSnackBase
   id: FoodSnackEnergy
-  name: energy bar
-  description: An energy bar with a lot of punch.
+  name: ent-FoodSnackEnergy
+  description: ent-FoodSnackEnergy-desc
   components:
   - type: Sprite
     state: energybar
@@ -178,8 +178,8 @@
 - type: entity
   parent: FoodSnackBase
   id: FoodSnackEnergyBar
-  name: energy bar
-  description: An energy bar with a lot of punch.
+  name: ent-FoodSnackEnergyBar
+  description: ent-FoodSnackEnergyBar-desc
   components:
   - type: FlavorProfile
     flavors:
@@ -546,8 +546,8 @@
 - type: entity
   parent: FoodSnackBase
   id: FoodSnackSwirlLollipop
-  name: swirl lollipop
-  description: A swirly circle of pure concentrated sugar. Who's the biggest kid on the playground now?
+  name: ent-FoodSnackSwirlLollipop
+  description: ent-FoodSnackSwirlLollipop-desc
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/candy.rsi
@@ -682,7 +682,7 @@
   categories: [ HideSpawnMenu ]
   parent: FoodPacketTrash
   id: FoodPacketChocolateTrash
-  name: chocolate wrapper
+  name: ent-FoodPacketChocolateTrash
   components:
   - type: Sprite
     state: chocolatebar-trash
@@ -699,7 +699,7 @@
   categories: [ HideSpawnMenu ]
   parent: FoodPacketTrash
   id: FoodPacketEnergyTrash
-  name: energybar wrapper
+  name: ent-FoodPacketEnergyTrash
   components:
   - type: Sprite
     state: energybar-trash

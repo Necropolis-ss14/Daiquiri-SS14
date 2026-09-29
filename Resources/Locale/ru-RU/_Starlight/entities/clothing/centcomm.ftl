@@ -1,0 +1,13 @@
+ent-ClothingOuterCoatWardenCentcomm = бронированная зимняя куртка Центрального командования
+ent-ClothingOuterCoatWardenCentcomm-desc = Чрезвычайно прочная, стильная зимняя куртка для оперативников Центрального командования — выжить даже в самую холодную зиму.
+ent-ClothingOuterCoatChefCentComm = куртка повара Центкома
+ent-ClothingOuterCoatChefCentComm-desc = Характерная бело-зелёная куртка поваров Центрального командования. Превращает вас в ходячую рекламу.
+ent-ClothingOuterVestWebEliteCentcomm = разгрузочный жилет Центрального командования
+ent-ClothingOuterVestWebEliteCentcomm-desc = Синтетический бронежилет, переоборудованный для Корпоративного консорциума, с разгрузкой и жаростойкими волокнами.
+ent-ClothingBackpackSatchelCentcomm = сумка оперативника Центрального командования
+ent-ClothingBackpackSatchelCentcomm-desc = Довольно стильная сумка с покрытием из настоящего золота, выдаваемая оперативникам Центрального командования.
+ent-CentcommVibrobladeSheath = ножны для виброклинка ЦК
+ent-CentcommVibrobladeSheath-desc = «Вулкан Индастриз» считали, что обслуживание виброоружия нужно откладывать как можно дольше, а качество клинков держать на высоте всегда; специально для Корпоративного консорциума были созданы ножны, в которых дозвуковые свойства клинка замедляют его деградацию, пока он не используется.
+ent-CentcommVibrobladeSheathFilled = ножны для виброклинка ЦК
+ent-CentcommVibrobladeSheathFilled-desc = { ent-CentcommVibrobladeSheath-desc }
+    .suffix = С клинком

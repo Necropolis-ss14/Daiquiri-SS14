@@ -2,7 +2,7 @@
 - type: entity
   id: LockerSteelLarge
   parent: LockerLargeBaseSecure
-  name: large secure closet
+  name: ent-LockerSteelLarge
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -15,7 +15,7 @@
 - type: entity
   id: LockerSecurityLarge
   parent: LockerLargeBaseSecure
-  name: large security officer's locker
+  name: ent-LockerSecurityLarge
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -29,7 +29,7 @@
 - type: entity
   id: LockerBrigmedicLarge
   parent: LockerLargeBaseSecure
-  name: large brigmedic's locker
+  name: ent-LockerBrigmedicLarge
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -44,7 +44,7 @@
 - type: entity
   id: LockerBlueshield
   parent: LockerBaseSecure
-  name: blueshield officer's locker
+  name: ent-LockerBlueshield
   components:
   - type: Appearance
   - type: Sprite
@@ -62,7 +62,7 @@
 - type: entity
   id: LockerMagistrate
   parent: LockerBaseSecure
-  name: magistrate's locker
+  name: ent-LockerMagistrate
   components:
   - type: Appearance
   - type: Sprite
@@ -80,7 +80,7 @@
 - type: entity
   id: LockerIAA
   parent: LockerBaseSecure
-  name: internal affairs agent's locker
+  name: ent-LockerIAA
   components:
   - type: Appearance
   - type: Sprite
@@ -98,7 +98,7 @@
 - type: entity
   id: LockerNCT
   parent: LockerBaseSecure
-  name: NanoTrasen career trainer's locker
+  name: ent-LockerNCT
   components:
   - type: Appearance
   - type: Sprite
@@ -117,7 +117,7 @@
 - type: entity
   id: LockerSalvageLead
   parent: LockerBaseSecure
-  name: salvage lead's locker
+  name: ent-LockerSalvageLead
   components:
     - type: Appearance
     - type: Sprite
@@ -134,7 +134,7 @@
 - type: entity
   id: LockerSalvageSpecialistLarge
   parent: LockerLargeBaseSecure
-  name: large salvage specialist's locker
+  name: ent-LockerSalvageSpecialistLarge
   components:
   - type: Appearance
   - type: Sprite
@@ -150,7 +150,7 @@
 - type: entity
   id: LockerMiningSpecialist
   parent: LockerBaseSecure
-  name: mining specialist's locker
+  name: ent-LockerMiningSpecialist
   components:
   - type: Appearance
   - type: Sprite
@@ -165,7 +165,7 @@
 - type: entity
   id: LockerMiningSpecialistLarge
   parent: LockerLargeBaseSecure
-  name: large mining specialist's locker
+  name: ent-LockerMiningSpecialistLarge
   components:
   - type: Appearance
   - type: Sprite
@@ -180,7 +180,7 @@
 # Cargo Technician
 - type: entity
   id: LockerCargo
-  name: cargo technician's locker
+  name: ent-LockerCargo
   parent: LockerBaseSecure
   components:
     - type: Appearance
@@ -196,7 +196,7 @@
 - type: entity
   id: LockerCargoLarge
   parent: LockerLargeBaseSecure
-  name: large cargo technician's locker
+  name: ent-LockerCargoLarge
   components:
   - type: Appearance
   - type: Sprite
@@ -211,7 +211,7 @@
 # Mail Technician
 - type: entity
   id: LockerMail
-  name: mail technician's locker
+  name: ent-LockerMail
   parent: LockerBaseSecure
   components:
     - type: Appearance
@@ -227,7 +227,7 @@
 - type: entity
   id: LockerMailLarge
   parent: LockerLargeBaseSecure
-  name: large mail technician's locker
+  name: ent-LockerMailLarge
   components:
   - type: Appearance
   - type: Sprite
@@ -243,7 +243,7 @@
 # Surgeon
 - type: entity
   id: LockerSurgeon
-  name: surgeon's locker
+  name: ent-LockerSurgeon
   parent: LockerBaseSecure
   components:
     - type: Appearance
@@ -259,7 +259,7 @@
 # Coroner
 - type: entity
   id: LockerCoroner
-  name: coroner's locker
+  name: ent-LockerCoroner
   parent: LockerBaseSecure
   components:
     - type: Appearance
@@ -275,7 +275,7 @@
 # Virologist
 - type: entity
   id: LockerVirologist
-  name: virologist's locker
+  name: ent-LockerVirologist
   parent: LockerBaseSecure
   components:
     - type: Appearance
@@ -291,7 +291,7 @@
 # Geneticist
 - type: entity
   id: LockerGeneticist
-  name: geneticist's locker
+  name: ent-LockerGeneticist
   parent: LockerBaseSecure
   components:
     - type: Appearance
@@ -308,7 +308,7 @@
 # Roboticist
 - type: entity
   id: LockerRoboticist
-  name: roboticist's locker
+  name: ent-LockerRoboticist
   parent: LockerBaseSecure
   components:
     - type: Appearance
@@ -325,7 +325,7 @@
 # Janitor
 - type: entity
   id: LockerJanitor
-  name: janitorial locker
+  name: ent-LockerJanitor
   parent: LockerBaseSecure
   components:
     - type: Appearance
@@ -353,7 +353,7 @@
 - type: entity
   id: LockerSalvageLeadITG
   parent: LockerBaseSecure
-  name: salvage lead's locker
+  name: ent-LockerSalvageLeadITG
   components:
     - type: Appearance
     - type: Sprite
@@ -368,8 +368,8 @@
 - type: entity
   id: LockerSalvageSpecialistITG
   parent: LockerBase
-  name: salvage specialist's equipment
-  description: Nevermind the pickaxe.
+  name: ent-LockerSalvageSpecialistITG
+  description: ent-LockerSalvageSpecialistITG-desc
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -384,7 +384,7 @@
 - type: entity
   id: LockerSalvageSpecialistLargeITG
   parent: LockerLargeBaseSecure
-  name: large salvage specialist's locker
+  name: ent-LockerSalvageSpecialistLargeITG
   components:
   - type: Appearance
   - type: Sprite
@@ -400,7 +400,7 @@
 - type: entity
   id: LockerSalvageMedic
   parent: LockerBaseSecure
-  name: salvage medic's locker
+  name: ent-LockerSalvageMedic
   components:
     - type: Appearance
     - type: Sprite

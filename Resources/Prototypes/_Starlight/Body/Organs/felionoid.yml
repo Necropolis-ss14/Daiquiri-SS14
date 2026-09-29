@@ -1,9 +1,9 @@
 - type: entity
   id: OrganFelionoidEyes
   parent: OrganHumanEyes
-  name: felionoid eyes
+  name: ent-OrganFelionoidEyes
   suffix: Felionoid
-  description: "The eyes of a Felionoid."
+  description: ent-OrganFelionoidEyes-desc
   components:
   - type: OrganVisualization
     layer: Eyes

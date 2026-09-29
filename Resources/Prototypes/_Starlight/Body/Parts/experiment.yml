@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: PartExperiment
   parent: [BaseItem, BasePart]
-  name: "experiment body part"
+  name: ent-PartExperiment
   abstract: true
   components:
   - type: Damageable
@@ -26,7 +26,7 @@
 
 - type: entity
   id: TorsoExperiment
-  name: "experiment torso"
+  name: ent-TorsoExperiment
   parent: [PartExperiment, BaseTorso]
   components:
     - type: Sprite
@@ -47,7 +47,7 @@
 
 - type: entity
   id: HeadExperiment
-  name: "experiment head"
+  name: ent-HeadExperiment
   parent: [PartExperiment, BaseHead]
   components:
     - type: Sprite
@@ -74,7 +74,7 @@
 
 - type: entity
   id: LeftArmExperiment
-  name: "left experiment arm"
+  name: ent-LeftArmExperiment
   parent: [PartExperiment, BaseLeftArm]
   components:
     - type: Sprite
@@ -89,7 +89,7 @@
 
 - type: entity
   id: RightArmExperiment
-  name: "right experiment arm"
+  name: ent-RightArmExperiment
   parent: [PartExperiment, BaseRightArm]
   components:
     - type: Sprite
@@ -104,7 +104,7 @@
 
 - type: entity
   id: LeftHandExperiment
-  name: "left experiment hand"
+  name: ent-LeftHandExperiment
   parent: [PartExperiment, BaseLeftHand]
   components:
     - type: Sprite
@@ -119,7 +119,7 @@
 
 - type: entity
   id: RightHandExperiment
-  name: "right experiment hand"
+  name: ent-RightHandExperiment
   parent: [PartExperiment, BaseRightHand]
   components:
     - type: Sprite
@@ -134,7 +134,7 @@
 
 - type: entity
   id: LeftLegExperiment
-  name: "left experiment leg"
+  name: ent-LeftLegExperiment
   parent: [PartExperiment, BaseLeftLeg]
   components:
     - type: Sprite
@@ -152,7 +152,7 @@
 
 - type: entity
   id: RightLegExperiment
-  name: "right experiment leg"
+  name: ent-RightLegExperiment
   parent: [PartExperiment, BaseRightLeg]
   components:
     - type: Sprite
@@ -170,7 +170,7 @@
 
 - type: entity
   id: LeftFootExperiment
-  name: "left experiment foot"
+  name: ent-LeftFootExperiment
   parent: [PartExperiment, BaseLeftFoot]
   components:
     - type: Sprite
@@ -185,7 +185,7 @@
 
 - type: entity
   id: RightFootExperiment
-  name: "right experiment foot"
+  name: ent-RightFootExperiment
   parent: [PartExperiment, BaseRightFoot]
   components:
     - type: Sprite

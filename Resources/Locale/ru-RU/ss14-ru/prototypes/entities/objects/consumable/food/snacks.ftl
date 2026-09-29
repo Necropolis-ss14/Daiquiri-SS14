@@ -85,3 +85,11 @@ ent-FoodCookieFortune = печенье с предсказанием
     .desc = Предсказание гласит: Конец близок... и это всё ваша вина.
 ent-FoodPacketMRETrash = обёртка от ИРП
     .desc = Обёртка широкого назначения для различных военных продуктов питания.
+# Starlight: new-format keys used by loc-keyed prototypes (description: ent-ID-desc)
+ent-FoodSnackChocolate-desc = На вкус как картон.
+ent-FoodSnackChocolateBar-desc = На вкус как картон.
+ent-FoodSnackEnergy-desc = Энергетический батончик с большим запасом энергии.
+ent-FoodSnackEnergyBar-desc = Энергетический батончик с большим запасом энергии.
+ent-FoodSnackSwirlLollipop-desc = Спираль чистого концентрированного сахара. Кто сейчас самый большой ребенок в песочнице?
+ent-FoodPacketChocolateTrash-desc = { ent-FoodPacketTrash.desc }
+ent-FoodPacketEnergyTrash-desc = { ent-FoodPacketTrash.desc }

@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: FoodSnackHardCandy
-  name: hard candy
-  description: So many flavors of sugar!
+  name: ent-FoodSnackHardCandy
+  description: ent-FoodSnackHardCandy-desc
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Consumable/Food/hardcandy.rsi
@@ -25,8 +25,8 @@
 - type: entity
   parent: FoodSnackBase
   id: FoodSnackHardCandyOpen
-  name: hard candy
-  description: So many flavors of sugar! Tastes even better with the skin off.
+  name: ent-FoodSnackHardCandyOpen
+  description: ent-FoodSnackHardCandyOpen-desc
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Consumable/Food/hardcandy.rsi
@@ -52,7 +52,7 @@
   categories: [ HideSpawnMenu ]
   parent: FoodPacketTrash
   id: FoodPacketHardCandyTrash
-  name: candy wrapper
+  name: ent-FoodPacketHardCandyTrash
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Consumable/Food/hardcandy.rsi
@@ -67,8 +67,8 @@
 - type: entity
   parent: FoodInjectableBase
   id: FoodLollipopPlain
-  name: lollipop
-  description: A sugary treat on a stick. Make sure to add some flavoring!
+  name: ent-FoodLollipopPlain
+  description: ent-FoodLollipopPlain-desc
   components:
   - type: FlavorProfile
     flavors:
@@ -113,8 +113,8 @@
 - type: entity
   id: FoodPacketCheeseBox
   parent: FoodSnackNutribrick
-  name: cheese box
-  description: A randomly selected piece of cheese from the NanoTrasen galactic cheese vault. Calorie dense and irresistible to rodents!
+  name: ent-FoodPacketCheeseBox
+  description: ent-FoodPacketCheeseBox-desc
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Consumable/Food/cheese.rsi
@@ -148,8 +148,8 @@
 - type: entity
   id: FoodPacketCheeseBoxTrash
   parent: FoodPacketMRETrash
-  name: cheese box
-  description: A box that once held delicious cheese, is now a crumbled mess.
+  name: ent-FoodPacketCheeseBoxTrash
+  description: ent-FoodPacketCheeseBoxTrash-desc
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Consumable/Food/cheese.rsi
@@ -158,8 +158,8 @@
 - type: entity
   id: FoodNutriCheeseEdam
   parent: FoodRodentiaCheeseBase
-  name: edam
-  description: A delicate and nutty cheese, wrapped in a thin red wax for it's protection.
+  name: ent-FoodNutriCheeseEdam
+  description: ent-FoodNutriCheeseEdam-desc
   components:
   - type: Sprite
     state: edam
@@ -171,8 +171,8 @@
 - type: entity
   id: FoodNutriCheeseBrie
   parent: FoodRodentiaCheeseBase
-  name: brie
-  description: Soft and creamy, like butter.
+  name: ent-FoodNutriCheeseBrie
+  description: ent-FoodNutriCheeseBrie-desc
   components:
   - type: Sprite
     state: brie
@@ -184,8 +184,8 @@
 - type: entity
   id: FoodNutriCheeseMozzarellaSticks
   parent: FoodRodentiaCheeseBase
-  name: mozzarella sticks
-  description: Stringy cheese sticks! Yum!
+  name: ent-FoodNutriCheeseMozzarellaSticks
+  description: ent-FoodNutriCheeseMozzarellaSticks-desc
   components:
   - type: Sprite
     state: mozzarella-sticks
@@ -197,8 +197,8 @@
 - type: entity
   id: FoodNutriCheeseGorgonzola
   parent: FoodRodentiaCheeseBase
-  name: gorgonzola
-  description: The stinkiest cheese for the stinkiest of mice!
+  name: ent-FoodNutriCheeseGorgonzola
+  description: ent-FoodNutriCheeseGorgonzola-desc
   components:
   - type: Sprite
     state: gorgonzola
@@ -210,8 +210,8 @@
 - type: entity
   parent: BaseItem
   id: FoodSnackBloodBrick
-  name: haemobrick
-  description: A carefully synthesized brick of condensed blood. Tastes like you would expect.
+  name: ent-FoodSnackBloodBrick
+  description: ent-FoodSnackBloodBrick-desc
   components:
   - type: Item
     size: Small
@@ -236,8 +236,8 @@
 - type: entity
   parent: FoodSnackBase
   id: FoodSnackBloodBrickOpen
-  name: haemobrick
-  description: A carefully synthesized brick of condensed blood. Tastes like you would expect.
+  name: ent-FoodSnackBloodBrickOpen
+  description: ent-FoodSnackBloodBrickOpen-desc
   components:
   - type: FlavorProfile
     flavors:
@@ -265,8 +265,8 @@
 - type: entity
   parent: FoodSnackBase
   id: FoodSnackCandyApple
-  name: toffee apple
-  description: A crisp apple encased in a hard shell of sugar. A carnival classic.
+  name: ent-FoodSnackCandyApple
+  description: ent-FoodSnackCandyApple-desc
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/candy.rsi
@@ -294,8 +294,8 @@
 - type: entity
   parent: FoodSnackBase
   id: FoodSnackRiceBarPacket
-  name: crispy rice bar
-  description: A legally distinct bar of crispy rice held together with marshmallow.
+  name: ent-FoodSnackRiceBarPacket
+  description: ent-FoodSnackRiceBarPacket-desc
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Consumable/Food/crispy_rice_bars.rsi
@@ -318,8 +318,8 @@
 - type: entity
   parent: FoodSnackBase
   id: FoodSnackRiceBar
-  name: crispy rice bar
-  description: A legally distinct bar of crispy rice held together with marshmallow.
+  name: ent-FoodSnackRiceBar
+  description: ent-FoodSnackRiceBar-desc
   components:
   - type: FlavorProfile
     flavors:
@@ -341,7 +341,7 @@
   categories: [ HideSpawnMenu ]
   parent: FoodPacketTrash
   id: FoodPacketRiceBarTrash
-  name: crispy rice bar wrapper
+  name: ent-FoodPacketRiceBarTrash
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Consumable/Food/crispy_rice_bars.rsi
