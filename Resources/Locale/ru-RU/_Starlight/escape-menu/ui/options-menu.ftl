@@ -1,8 +1,28 @@
 ui-options-function-open-m-help = Открыть помощь ментора
+ui-options-function-jump = Прыгать
+ui-options-function-latch-struggle = Вырываться (когда схвачен)
 ui-escape-connect-discord = Привязать Discord
 server-info-connect-discord-button = Привязать Discord
 ui-escape-connect-steam = Привязать Steam
 server-info-connect-steam-button = Привязать Steam
+
+## Graphics
+
+ui-options-trace = Показывать траекторию пули
+ui-options-trace-tooltip = Если у вас возникают лаги при стрельбе, снимите эту галочку,
+    и хитскан не будет отображать текстуру дыма позади летящей пули.
+
+ui-options-holes = Показывать пробоины от пуль
+ui-options-holes-tooltip = Если у вас возникают лаги при стрельбе, снимите эту галочку,
+    и хитскан не будет отображать текстуру пробоин от пуль.
+
+ui-options-sparks = Показывать искры
+ui-options-sparks-tooltip = Если у вас возникают лаги при стрельбе, снимите эту галочку,
+    и хитскан не будет отображать искры при попадании пули в поверхность.
+
+ui-options-hitscan-prediction = Предсказывать собственные выстрелы
+ui-options-hitscan-prediction-tooltip = Пули отрисовываются в момент выстрела, не дожидаясь сервера.
+    Попадания по-прежнему определяет сервер.
 
 ## Accessibility
 
@@ -25,6 +45,10 @@ ui-options-tab-ui = Интерфейс
 ui-options-ui-style = Стиль интерфейса
 ui-options-ui-sight-hash = Строка настроек прицела
 ui-options-sight-rotation = Поворот прицела
+ui-options-wield-before-rack = Взять в обе руки перед передёргиванием
+ui-options-wield-before-rack-tooltip = Использование пушки в руке сначала берёт её в обе руки; передёргивание затвора случится при следующем нажатии.
+ui-options-ranged-sight-rotation = Поворот прицела дальнего боя
+ui-options-melee-sight-rotation = Поворот прицела ближнего боя
 ui-options-chat-width = Ширина отдельного чата
 ui-options-ui-ranged-sight = Прицелы
 ui-options-ranged-sight = Прицел дальнего боя
@@ -82,6 +106,7 @@ ui-options-admin-ghost-script-tooltip =
 ui-options-hud-theme-mpurp = М-Фиол
 
 # Graphics
+ui-options-show-stains = Показывать пятна на одежде
 # Technically this is a more general Sprite Effects option, but right now it's literally only used for weather, so I'm just going to label it that for now
 ui-options-sprite-quality = Качество погоды:
 ui-options-sprite-quality-low = Низкое

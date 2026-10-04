@@ -6,4 +6,3 @@ parcel-wrap-popup-being-wrapped = {CAPITALIZE(THE($user))} is trying to parcel w
 parcel-wrap-popup-being-wrapped-self = You start parcel wrapping yourself.
 
 # Shown when parcel wrap is examined in details range
-}.
