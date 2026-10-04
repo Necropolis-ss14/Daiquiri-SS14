@@ -1,3 +1,4 @@
+using System.Linq;
 using Content.Shared._Starlight.Glass;
 using Content.Shared.Administration;
 using Robust.Server.Player;
@@ -18,7 +19,11 @@ public sealed partial class GlassShowCommand : LocalizedEntityCommands
     public override CompletionResult GetCompletion(IConsoleShell shell, string[] args)
     {
         if (args.Length == 1)
-            return CompletionResult.FromHintOptions(CompletionHelper.SessionNames(true, _player), "username");
+        {
+            var options = CompletionHelper.SessionNames(true, _player).ToList();
+            options.Insert(0, new CompletionOption("all"));
+            return CompletionResult.FromHintOptions(options, "username or all");
+        }
 
         return CompletionResult.Empty;
     }
@@ -27,17 +32,29 @@ public sealed partial class GlassShowCommand : LocalizedEntityCommands
     {
         if (args.Length < 1)
         {
-            shell.WriteLine("Usage: glassshow <username> - open the liquid glass prompt on the player's screen.");
+            shell.WriteLine("Usage: glassshow <username|all> - open the liquid glass prompt on player screen(s).");
             return;
         }
 
-        if (!_player.TryGetSessionByUsername(args[0], out var session))
+        if (args[0] == "all")
+        {
+            var count = 0;
+            foreach (var session in _player.Sessions)
+            {
+                _net.ServerSendMessage(new GlassPromptShowMessage(), session.Channel);
+                count++;
+            }
+            shell.WriteLine($"Glass prompt shown to {count} player(s).");
+            return;
+        }
+
+        if (!_player.TryGetSessionByUsername(args[0], out var targetSession))
         {
             shell.WriteError($"No player found with username '{args[0]}'.");
             return;
         }
 
-        _net.ServerSendMessage(new GlassPromptShowMessage(), session.Channel);
+        _net.ServerSendMessage(new GlassPromptShowMessage(), targetSession.Channel);
         shell.WriteLine($"Glass prompt shown to {args[0]}.");
     }
 }
