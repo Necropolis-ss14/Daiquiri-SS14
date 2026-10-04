@@ -1,6 +1,7 @@
 using Content.Shared._Starlight.Glass;
 using Robust.Shared.Console;
 using Robust.Shared.IoC;
+using Robust.Shared.Log;
 using Robust.Shared.Network;
 
 namespace Content.Client._Starlight.Glass;
@@ -21,6 +22,7 @@ public sealed partial class GlassPromptSystem : EntitySystem
 
     private void OnShowPrompt(GlassPromptShowMessage message)
     {
+        Logger.InfoS("glassprompt", "Received GlassPromptShowMessage, executing local glassprompt command.");
         _console.ExecuteCommand("glassprompt");
     }
 }
