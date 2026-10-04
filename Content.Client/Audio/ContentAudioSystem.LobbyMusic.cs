@@ -357,6 +357,12 @@ public sealed partial class ContentAudioSystem
             return;
         }
 
+        // Daiquiri: never auto-advance while paused.
+        if (LobbyMusicPaused)
+        {
+            return;
+        }
+
         var finished = _timing.CurTime >= _lobbySoundtrackInfo.NextTrackOn;
         if (!finished
             && (!TryComp(_lobbySoundtrackInfo.MusicStreamEntityUid, out AudioComponent? comp) || !comp.Playing))

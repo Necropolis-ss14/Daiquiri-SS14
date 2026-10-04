@@ -84,19 +84,19 @@ public sealed partial class LobbyMusicSwitcher : BoxContainer
         switch (step)
         {
             case 0:
-                VinylRect.Margin = new Thickness(0f, -20f, 0f, 20f);
+                VinylRect.Margin = new Thickness(0f, -28f, 0f, 28f);
                 break;
             case 1:
-                VinylRect.Margin = new Thickness(0f, -44f, 0f, 44f);
+                VinylRect.Margin = new Thickness(0f, -70f, 0f, 70f);
                 break;
             case 2:
-                VinylRect.Margin = new Thickness(0f, -16f, 0f, 16f);
+                VinylRect.Margin = new Thickness(0f, -24f, 0f, 24f);
                 break;
             case 3:
                 VinylRect.Margin = new Thickness(0f);
                 break;
             case 4:
-                VinylRect.Margin = new Thickness(0f, -10f, 0f, 10f);
+                VinylRect.Margin = new Thickness(0f, -14f, 0f, 14f);
                 break;
             default:
                 VinylRect.Margin = new Thickness(0f);

@@ -5,6 +5,7 @@ using Robust.Client.UserInterface.Controls;
 using Robust.Shared.Configuration;
 using Robust.Shared.GameObjects;
 using Robust.Shared.IoC;
+using Robust.Shared.Maths;
 
 namespace Content.Client.Info
 {
@@ -33,7 +34,7 @@ namespace Content.Client.Info
             buttons.AddChild(creditsButton);
 
             // Daiquiri: small lobby music play/pause button right after authors.
-            var musicButton = new Button { Text = "■", MinWidth = 32 };
+            var musicButton = new Button { Text = "■", MinWidth = 32, Margin = new Thickness(6, 0, 0, 0) };
             musicButton.ToolTip = Loc.GetString("ui-lobby-music-pause-tooltip");
             musicButton.OnPressed += _ =>
             {
