@@ -17,7 +17,7 @@ public sealed partial class GhostThemeCommand : LocalizedEntityCommands
     [Dependency] private IGhostThemeGrantManager _grants = default!;
     [Dependency] private IPrototypeManager _protos = default!;
 
-    public override string Command => "ghosttheme";
+    public override string Command => "grantghosttheme";
 
     public override CompletionResult GetCompletion(IConsoleShell shell, string[] args)
     {
@@ -33,7 +33,7 @@ public sealed partial class GhostThemeCommand : LocalizedEntityCommands
     {
         if (args.Length < 2)
         {
-            shell.WriteLine("Usage: ghosttheme <username> <themeId> - unlock a ghost theme for the player.");
+            shell.WriteLine("Usage: grantghosttheme <username> <themeId> - unlock a ghost theme for the player.");
             return;
         }
 
