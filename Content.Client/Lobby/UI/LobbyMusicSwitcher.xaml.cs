@@ -92,7 +92,7 @@ public sealed partial class LobbyMusicSwitcher : BoxContainer
     // Clicks are ignored until the whole sequence finishes.
     private static readonly float[] BounceHeights =
     {
-        -10f, -24f, -40f, -56f, -70f, -54f, -36f, -18f, 0f, -12f, -4f, 0f,
+        -10f, -24f, -40f, -56f, -70f, -54f, -36f, -18f, 0f, -26f, -10f, 0f,
     };
     private const int BounceMs = 60;
 

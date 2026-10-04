@@ -88,6 +88,7 @@ namespace Content.Client.Info
                 MinValue = 0,
                 MaxValue = 100,
                 MinWidth = 100,
+                Margin = new Thickness(6, 0, 0, 0),
                 ToolTip = Loc.GetString("ui-lobby-music-seek-tooltip"),
             };
             seekSlider.OnValueChanged += _ =>
