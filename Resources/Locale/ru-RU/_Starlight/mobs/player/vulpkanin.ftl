@@ -1,1 +1,0 @@
-ent-MobVulpkanin = Урист МакВулп
