@@ -8,8 +8,7 @@
       state: ghost-narsie
     color: "#ffffff"
   requirements:
-  - !type:DiscordRolesRequirement
-    requirement: MentorRolesReq
+  - !type:MentorRequirement
   category: Mentor
 
 - type: ghostTheme
@@ -22,6 +21,5 @@
       state: ghost-daemon
     color: "#ffffff"
   requirements:
-  - !type:DiscordRolesRequirement
-    requirement: MentorRolesReq
+  - !type:MentorRequirement
   category: Mentor

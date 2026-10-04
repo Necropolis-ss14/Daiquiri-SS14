@@ -8,8 +8,8 @@
       state: ghost-king
     color: "#ffffff"
   requirements:
-  - !type:DiscordRolesRequirement
-    requirement: GoldEventWinnerReq
+  - !type:GrantedGhostThemeRequirement
+    theme: King
   category: Event
 
 - type: ghostTheme
@@ -22,8 +22,8 @@
       state: ghost-carpman
     color: "#ffffff"
   requirements:
-  - !type:DiscordRolesRequirement
-    requirement: CarpGamesReq
+  - !type:GrantedGhostThemeRequirement
+    theme: CarpGames
   category: Event
 
 - type: ghostTheme
@@ -36,6 +36,6 @@
       state: ghost-mage
     color: "#ffffff"
   requirements:
-  - !type:DiscordRolesRequirement
-    requirement: FirstWritingContestReq
+  - !type:GrantedGhostThemeRequirement
+    theme: FirstWritingContest
   category: Event

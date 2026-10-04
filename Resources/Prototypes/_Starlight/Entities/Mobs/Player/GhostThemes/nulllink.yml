@@ -8,8 +8,6 @@
       state: ghost_jellyfish
     color: "#ffffff"
   requirements:
-  - !type:NullLinkPlayTimeRequirement
-    server: TRIESTEPORT.main
-    tracker: Overall
-    time: 36000 # 10h
+  - !type:GrantedGhostThemeRequirement
+    theme: jellyfish
   category: NullLink
