@@ -93,7 +93,7 @@
     shader: NightSkyTrail
   requirements:
   - !type:ServerPlaytimeRequirement
-    time: 126000 # 35h
+    time: 162000 # 45h
   category: Patron
 
 - type: ghostTheme
