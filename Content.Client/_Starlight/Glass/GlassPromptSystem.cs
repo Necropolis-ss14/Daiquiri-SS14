@@ -18,7 +18,14 @@ public sealed partial class GlassPromptSystem : EntitySystem
     public override void Initialize()
     {
         base.Initialize();
-        _net.RegisterNetMessage<GlassPromptShowMessage>(OnShowPrompt);
+        _net.RegisterNetMessage<GlassPromptShowMessage>();
+        SubscribeNetworkEvent<GlassPromptShowEvent>(OnShowPromptEvent);
+    }
+
+    private void OnShowPromptEvent(GlassPromptShowEvent ev)
+    {
+        Logger.InfoS("glassprompt", "Received GlassPromptShowEvent, opening prompt window.");
+        _ui.CreateWindow<GlassThemePrompt>().OpenCentered();
     }
 
     private void OnShowPrompt(GlassPromptShowMessage message)

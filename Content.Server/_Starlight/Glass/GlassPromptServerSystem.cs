@@ -1,11 +1,12 @@
 using Content.Shared._Starlight.Glass;
 using Robust.Shared.IoC;
 using Robust.Shared.Network;
+using Robust.Shared.Player;
 
 namespace Content.Server._Starlight.Glass;
 
 /// <summary>
-/// Registers the glass prompt network message on the server side.
+/// Sends the liquid glass prompt event to players (see glassshow command).
 /// </summary>
 public sealed partial class GlassPromptServerSystem : EntitySystem
 {
@@ -15,5 +16,10 @@ public sealed partial class GlassPromptServerSystem : EntitySystem
     {
         base.Initialize();
         _net.RegisterNetMessage<GlassPromptShowMessage>();
+    }
+
+    public void ShowPromptTo(ICommonSession session)
+    {
+        RaiseNetworkEvent(new GlassPromptShowEvent(), session.Channel);
     }
 }

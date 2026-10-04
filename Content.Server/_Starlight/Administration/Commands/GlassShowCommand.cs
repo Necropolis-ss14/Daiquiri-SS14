@@ -1,8 +1,10 @@
 using System.Linq;
+using Content.Server._Starlight.Glass;
 using Content.Shared._Starlight.Glass;
 using Content.Shared.Administration;
 using Robust.Server.Player;
 using Robust.Shared.Console;
+using Robust.Shared.GameObjects;
 using Robust.Shared.Network;
 using Robust.Shared.Player;
 
@@ -12,7 +14,7 @@ namespace Content.Server.Administration.Commands;
 public sealed partial class GlassShowCommand : LocalizedEntityCommands
 {
     [Dependency] private IPlayerManager _player = default!;
-    [Dependency] private INetManager _net = default!;
+    [Dependency] private IEntitySystemManager _systems = default!;
 
     public override string Command => "glassshow";
 
@@ -38,10 +40,11 @@ public sealed partial class GlassShowCommand : LocalizedEntityCommands
 
         if (args[0] == "all")
         {
+            var prompt = _systems.GetEntitySystem<GlassPromptServerSystem>();
             var count = 0;
             foreach (var session in _player.Sessions)
             {
-                _net.ServerSendMessage(new GlassPromptShowMessage(), session.Channel);
+                prompt.ShowPromptTo(session);
                 count++;
             }
             shell.WriteLine($"Glass prompt shown to {count} player(s).");
@@ -54,7 +57,7 @@ public sealed partial class GlassShowCommand : LocalizedEntityCommands
             return;
         }
 
-        _net.ServerSendMessage(new GlassPromptShowMessage(), targetSession.Channel);
+        _systems.GetEntitySystem<GlassPromptServerSystem>().ShowPromptTo(targetSession);
         shell.WriteLine($"Glass prompt shown to {args[0]}.");
     }
 }
