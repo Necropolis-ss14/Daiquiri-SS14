@@ -16,8 +16,8 @@
     decayInterval: 0.15
     shader: HolyStarsTrail
   requirements:
-  - !type:DiscordRolesRequirement
-    requirement: PatronReq
+  - !type:ServerPlaytimeRequirement
+    time: 36000
   category: Patron
 
 - type: ghostTheme
@@ -30,8 +30,8 @@
       state: clown
     color: "#ffffff"
   requirements:
-  - !type:DiscordRolesRequirement
-    requirement: PatronReq
+  - !type:ServerPlaytimeRequirement
+    time: 36000
   category: Patron
 
 - type: ghostTheme
@@ -44,8 +44,8 @@
       state: faithless
     color: "#ffffff"
   requirements:
-  - !type:DiscordRolesRequirement
-    requirement: PatronReq
+  - !type:ServerPlaytimeRequirement
+    time: 36000
   category: Patron
 
 - type: ghostTheme
@@ -58,8 +58,8 @@
       state: mushroom
     color: "#ffffff"
   requirements:
-  - !type:DiscordRolesRequirement
-    requirement: PatronReq
+  - !type:ServerPlaytimeRequirement
+    time: 36000
   category: Patron
 
 - type: ghostTheme
@@ -72,8 +72,8 @@
       state: walker
     color: "#ffffff"
   requirements:
-  - !type:DiscordRolesRequirement
-    requirement: PatronReq
+  - !type:ServerPlaytimeRequirement
+    time: 36000
   category: Patron
 
 - type: ghostTheme
@@ -92,8 +92,8 @@
     minDistance: 0.10
     shader: NightSkyTrail
   requirements:
-  - !type:DiscordRolesRequirement
-    requirement: PatronReq
+  - !type:ServerPlaytimeRequirement
+    time: 36000
   category: Patron
 
 - type: ghostTheme
@@ -107,6 +107,6 @@
       state: alive
     color: "#ffffff"
   requirements:
-  - !type:DiscordRolesRequirement
-    requirement: WizdenPatronReq
+  - !type:ServerPlaytimeRequirement
+    time: 36000
   category: Patron

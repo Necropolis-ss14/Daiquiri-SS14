@@ -1,31 +1,31 @@
 - type: ghostThemeCategory
   id: Public
-  name: Public
+  name: Общие
   priority: 0
 
 - type: ghostThemeCategory
   id: Patron
-  name: Patron
+  name: Время
   priority: 1
 
 - type: ghostThemeCategory
   id: Mentor
-  name: Mentor
+  name: Кураторы
   priority: 2
 
 - type: ghostThemeCategory
   id: Staff
-  name: Staff
+  name: Админские
   priority: 3
 
 - type: ghostThemeCategory
   id: NullLink
-  name: NullLink
+  name: Запрос
   priority: 4
 
 - type: ghostThemeCategory
   id: Event
-  name: Event
+  name: Ивент
   priority: 5
 
 - type: ghostThemeCategory

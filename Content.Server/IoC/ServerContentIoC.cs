@@ -122,8 +122,8 @@ internal static class ServerContentIoC
         deps.Register<IActorRouter, ActorRouter>();
         deps.Register<NullLinkPlayerManager>();
         deps.Register<INullLinkPlayerManager, NullLinkPlayerManager>();
-        deps.Register<INullLinkPlayTimeManager, NullLinkPlayTimeManager>();
-        deps.Register<INullLinkEventBusManager, NullLinkEventBusManager>();
+                deps.Register<INullLinkPlayTimeManager, NullLinkPlayTimeManager>();
+        deps.Register<Content.Shared._Starlight.Playtime.IServerPlaytimeManager, Content.Server._Starlight.Playtime.ServerPlaytimeManager>();        deps.Register<INullLinkEventBusManager, NullLinkEventBusManager>();
         deps.Register<ISharedNullLinkPlayerRolesReqManager, PlayerRolesReqManager>();
         deps.Register<ISharedNullLinkPlayerResourcesManager, NullLinkPlayerResourcesManager>();
 
