@@ -19,3 +19,4 @@ ui-lobby-lock-priorities-checkbox-tooltip = Allow dragging and dropping of job p
 ui-lobby-lock-priorities-checkbox-label = Allow dragging
 ui-lobby-music-queue-title = Music queue
 ui-lobby-music-queue-tooltip = Show queue
+ui-lobby-music-pause-tooltip = Pause / resume music

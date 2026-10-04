@@ -19,3 +19,4 @@ ui-lobby-lock-priorities-checkbox-tooltip = Разрешить перетаск�
 ui-lobby-lock-priorities-checkbox-label = Разрешить перетаскивание
 ui-lobby-music-queue-title = Очередь музыки
 ui-lobby-music-queue-tooltip = Показать очередь
+ui-lobby-music-pause-tooltip = Пауза / продолжить музыку

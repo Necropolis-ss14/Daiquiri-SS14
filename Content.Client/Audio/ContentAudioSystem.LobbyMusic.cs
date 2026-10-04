@@ -104,6 +104,43 @@ public sealed partial class ContentAudioSystem
 
     #region Starlight
 
+    /// <summary>
+    /// Whether lobby music is currently paused.
+    /// </summary>
+    public bool LobbyMusicPaused => _lobbyPauseStarted != null;
+    private TimeSpan? _lobbyPauseStarted;
+
+    /// <summary>
+    /// Pause or resume the current lobby track, keeping autoplay timing intact.
+    /// </summary>
+    public void SetLobbyMusicPaused(bool paused)
+    {
+        if (_lobbySoundtrackInfo == null)
+            return;
+        if (!TryComp(_lobbySoundtrackInfo.MusicStreamEntityUid, out AudioComponent? comp))
+            return;
+        if (paused == LobbyMusicPaused)
+            return;
+
+        if (paused)
+        {
+            comp.Pause();
+            _lobbyPauseStarted = _timing.CurTime;
+        }
+        else
+        {
+            if (_lobbyPauseStarted != null)
+            {
+                _lobbySoundtrackInfo = _lobbySoundtrackInfo with
+                {
+                    NextTrackOn = _lobbySoundtrackInfo.NextTrackOn + (_timing.CurTime - _lobbyPauseStarted)
+                };
+                _lobbyPauseStarted = null;
+            }
+            comp.StartPlaying();
+        }
+    }
+
     private void OnRoundEndCancelMessage(RoundEndCancelMessageEvent ev) => EndLobbyMusic();
 
     /// <summary>
@@ -279,6 +316,7 @@ public sealed partial class ContentAudioSystem
 
         _audio.Stop(_lobbySoundtrackInfo.MusicStreamEntityUid);
         _lobbySoundtrackInfo = null;
+        _lobbyPauseStarted = null;
         var lobbySongChangedEvent = new LobbySoundtrackChangedEvent();
         _lobbySoundtrackChanged?.Invoke(lobbySongChangedEvent);
     }
