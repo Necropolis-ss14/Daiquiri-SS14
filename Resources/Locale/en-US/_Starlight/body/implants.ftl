@@ -1,36 +1,36 @@
 # Body/Implants/brain.yml
 ent-BrainImplantTranslator = translator implant
-ent-BrainImplantTranslator-desc = Translates from your language to galactic common right in your brain!
+ent-BrainImplantTranslator-desc = A surgically-installed brain implant that allows you to speak and understand Galactic Common.
 ent-BrainImplantCommsExpedition = expedition radio implant
-ent-BrainImplantCommsExpedition-desc = A handy implant for the salvager of the modern age.
+ent-BrainImplantCommsExpedition-desc = A surgically-installed brain implant that grants you access to the expedition radio channel, even without a headset.
 ent-BrainImplantComms = integrated radio implant
-ent-BrainImplantComms-desc = A headset, right in your brain!
+ent-BrainImplantComms-desc = A surgically-installed brain implant that grants you access to whatever radio channels you insert the encryption keys for. It has room for four keys.
 ent-BrainImplantNexus = Nexus uplink
-ent-BrainImplantNexus-desc = A weird piece of Avali tech... Gives you access to the Nexus!
+ent-BrainImplantNexus-desc = A surgically-installed brain implant that grants you access to the Nexus, a technological network that allows you to communicate with anyone else who also has a Nexus implant. Avali and Resomi are given this implant at birth.
 ent-BrainImplantExpiScan = health scanner implant
-ent-BrainImplantExpiScan-desc = An implant the provides a readout of your present physical health.
+ent-BrainImplantExpiScan-desc = A surgically-installed brain implant that provides a readout of your present physical health.
 # Body/Implants/eye.yml
 ent-EyeImplantWelding = welding implant
-ent-EyeImplantWelding-desc = Protects eyes from welding flashes.
+ent-EyeImplantWelding-desc = A surgically-installed eye implant that protects your eyes from bright flashes.
 ent-EyeImplantDiagnostic = diagnostic implant
-ent-EyeImplantDiagnostic-desc = Enables you to see information about mechanisms without diagnostic glasses.
+ent-EyeImplantDiagnostic-desc = A surgically-installed eye implant that allows you to see the health of machinery such as cyborgs and IPCs.
 ent-EyeImplantMedical = medical implant
-ent-EyeImplantMedical-desc = Enables you to see information about humanoids without medical glasses.
+ent-EyeImplantMedical-desc = A surgically-installed eye implant that allows you to see the health of organic beings.
 ent-EyeImplantChemistry = chemistry implant
-ent-EyeImplantChemistry-desc = Enables you to see information about solutions without chemical analysis goggles.
+ent-EyeImplantChemistry-desc = A surgically-installed eye implant that allows you to see the chemical contents of a container in detail.
 ent-EyeImplantSecurity = security implant
-ent-EyeImplantSecurity-desc = Enables you to see information about station crew without security glasses.
+ent-EyeImplantSecurity-desc = A surgically-installed eye implant that allows you to see the security information of station crew, including their job, their mindshield status, and their wanted status.
 ent-EyeImplantSyndie = syndie implant
-ent-EyeImplantSyndie-desc = Enables you to see information about station crew, humanoids and syndie without any glasses.
+ent-EyeImplantSyndie-desc = A shady surgically-installed eye implant that allows you to see the security information and health of organic crew, as well as highlight syndicate allies.
 # Body/Implants/hand.yml
 ent-HandImplantInsulated = insulation implant
-ent-HandImplantInsulated-desc = Protects your hands from electric currents!
+ent-HandImplantInsulated-desc = A surgically-installed hand implant that insulates against electricity.
 ent-HandImplantForensics = forensics implant
-ent-HandImplantForensics-desc = Removes your fingerprints! Great for forensics, at the cost of your mail.
+ent-HandImplantForensics-desc = A surgically-installed hand implant that removes your fingerprints, meaning you'll leave no trace at the scene of the crime... as long as you don't mind not being able to open your mail.
 ent-HandImplantClaws = claws implant
-ent-HandImplantClaws-desc = Gives you retractable claws!
+ent-HandImplantClaws-desc = A surgically-installed hand implant that provides sharp retractable claws.
 ent-HandImplantThrusters = thruster implant
-ent-HandImplantThrusters-desc = Wrist-mounted micro-thrusters to help you maneuver in space.
+ent-HandImplantThrusters-desc = A surgically-installed hand implant that allows the user to maneuver in space as if they had a jetpack, thanks to wrist-mounted micro-thrusters.
 # Body/Implants/nose.yml
 ent-NoseImplantOlfactory = olfactory implant
 ent-NoseImplantOlfactory-desc = Enables you to perceive and track scents.

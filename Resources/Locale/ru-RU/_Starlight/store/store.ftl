@@ -6,3 +6,4 @@ store-preset-name-pai = Загрузка личного ИИ
 store-preset-name-cantrips = Кантрипы выживания для путешественников
 
 store-listing-late = ПОЗДНО
+store-search = Поиск

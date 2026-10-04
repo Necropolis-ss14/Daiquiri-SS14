@@ -1,5 +1,6 @@
 ## General stuff
 
+<<<<<<< HEAD
 ui-options-title = Игровые настройки
 ui-options-tab-accessibility = Специальные возможности
 ui-options-tab-admin = Администрирование
@@ -8,6 +9,15 @@ ui-options-tab-controls = Управление
 ui-options-tab-audio = Аудио
 ui-options-tab-network = Сеть
 ui-options-tab-misc = Общие
+=======
+ui-options-title = Game Options
+ui-options-tab-accessibility = Accessibility
+ui-options-tab-admin = Admin
+ui-options-tab-graphics = Graphics
+ui-options-tab-controls = Controls
+ui-options-tab-audio = Audio
+ui-options-tab-misc = General
+>>>>>>> upstream/starlight-dev
 
 ui-options-apply = Сохранить и применить
 ui-options-reset-all = Сбросить изменённые
@@ -17,6 +27,7 @@ ui-options-value-percent = { TOSTRING($value, "P0") }
 
 # Misc/General menu
 
+<<<<<<< HEAD
 ui-options-discordrich = Включить расширенное присутствие Discord
 ui-options-general-ui-style = Стиль интерфейса
 ui-options-general-discord = Discord
@@ -24,6 +35,13 @@ ui-options-general-cursor = Курсор
 ui-options-general-speech = Речь
 ui-options-general-storage = Хранилища
 ui-options-general-accessibility = Специальные возможности
+=======
+ui-options-discordrich = Enable Discord Rich Presence
+ui-options-general-discord = Discord
+ui-options-general-cursor = Cursor
+ui-options-general-speech = Speech
+ui-options-general-storage = Storage
+>>>>>>> upstream/starlight-dev
 
 ## Audio menu
 
@@ -52,6 +70,7 @@ ui-options-quality-label = Качество
 ui-options-misc-label = Разное
 ui-options-interface-label = Интерфейс
 
+<<<<<<< HEAD
 ui-options-auto-fill-highlights = Автоматически заполнять список подсветки на основе имени и профессии персонажа
 ui-options-highlights-color = Цвет подсветки:
 ui-options-highlights-color-example = Это выделенный текст.
@@ -71,6 +90,27 @@ ui-options-lighting-medium = Среднее
 ui-options-lighting-high = Высокое
 ui-options-scale-label = Масштаб интерфейса:
 ui-options-scale-auto = Автоматически ({ TOSTRING($scale, "P0") })
+=======
+ui-options-auto-fill-highlights = Automatically set the highlights list based on your character's name and job
+ui-options-highlights-color = Highlights color:
+ui-options-highlights-color-example = This is highlighted text.
+ui-options-show-held-item = Show held item next to cursor
+ui-options-show-combat-mode-indicators = Show combat mode indicators with cursor
+ui-options-opaque-storage-window = Opaque storage window
+ui-options-show-ooc-patron-color = Show OOC Patreon color
+ui-options-show-looc-on-head = Show LOOC chat above characters head
+ui-options-fancy-speech = Show names in speech bubbles
+ui-options-fancy-name-background = Add background to speech bubble names
+ui-options-vsync = VSync
+ui-options-fullscreen = Fullscreen
+ui-options-lighting-label = Lighting Quality:
+ui-options-lighting-very-low = Very Low
+ui-options-lighting-low = Low
+ui-options-lighting-medium = Medium
+ui-options-lighting-high = High
+ui-options-scale-label = UI Scale:
+ui-options-scale-auto = Automatic ({ TOSTRING($scale, "P0") })
+>>>>>>> upstream/starlight-dev
 ui-options-scale-75 = 75%
 ui-options-scale-100 = 100%
 ui-options-scale-125 = 125%
@@ -330,6 +370,7 @@ ui-options-function-text-complete-prev = Предыдущий вариант д�
 
 ## Network menu
 
+<<<<<<< HEAD
 ui-options-net-predict = Предсказание на стороне клиента
 
 ui-options-net-interp-ratio = Размер буфера состояния
@@ -361,6 +402,8 @@ ui-options-net-pvs-leave-tooltip = Ограничивает скорость, с
     уменьшить подёргивания при перемещении, но иногда может
     привести к рассинхронизации предсказания и другим проблемам.
 
+=======
+>>>>>>> upstream/starlight-dev
 ## Toggle window console command
 
 cmd-options-desc = Открывает меню настроек, при необходимости выбирая конкретную вкладку.

@@ -28,13 +28,13 @@
                     Name="ToggleViewButton"
                     MinWidth="64"
                     HorizontalAlignment="Right"
-                    Text="Grid" />
+                    Text="{Loc 'store-view-grid'}" />
             </BoxContainer>
             <LineEdit
                 Name="SearchBar"
                 Margin="4"
                 HorizontalExpand="True"
-                PlaceHolder="Search" />
+                PlaceHolder="{Loc 'store-search'}" />
             <controls:GlassPanel VerticalExpand="True" GlassColor="#000000FF">
                 <BoxContainer Orientation="Horizontal" VerticalExpand="True">
                     <controls:GlassPanel VerticalExpand="True" GlassColor="#80808005">
