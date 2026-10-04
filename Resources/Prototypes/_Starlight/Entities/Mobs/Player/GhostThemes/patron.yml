@@ -17,7 +17,7 @@
     shader: HolyStarsTrail
   requirements:
   - !type:ServerPlaytimeRequirement
-    time: 36000
+    time: 36000 # 10h
   category: Patron
 
 - type: ghostTheme
@@ -31,7 +31,7 @@
     color: "#ffffff"
   requirements:
   - !type:ServerPlaytimeRequirement
-    time: 36000
+    time: 54000 # 15h
   category: Patron
 
 - type: ghostTheme
@@ -45,7 +45,7 @@
     color: "#ffffff"
   requirements:
   - !type:ServerPlaytimeRequirement
-    time: 36000
+    time: 72000 # 20h
   category: Patron
 
 - type: ghostTheme
@@ -59,7 +59,7 @@
     color: "#ffffff"
   requirements:
   - !type:ServerPlaytimeRequirement
-    time: 36000
+    time: 90000 # 25h
   category: Patron
 
 - type: ghostTheme
@@ -73,7 +73,7 @@
     color: "#ffffff"
   requirements:
   - !type:ServerPlaytimeRequirement
-    time: 36000
+    time: 108000 # 30h
   category: Patron
 
 - type: ghostTheme
@@ -93,7 +93,7 @@
     shader: NightSkyTrail
   requirements:
   - !type:ServerPlaytimeRequirement
-    time: 36000
+    time: 126000 # 35h
   category: Patron
 
 - type: ghostTheme
@@ -108,5 +108,5 @@
     color: "#ffffff"
   requirements:
   - !type:ServerPlaytimeRequirement
-    time: 36000
+    time: 144000 # 40h
   category: Patron

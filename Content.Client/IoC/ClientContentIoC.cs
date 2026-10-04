@@ -47,6 +47,7 @@ namespace Content.Client.IoC
         {
             SharedContentIoC.Register(collection);
             collection.Register<IParallaxManager, ParallaxManager>();
+            collection.Register<Content.Shared._Starlight.Playtime.IServerPlaytimeManager, Content.Client._Starlight.Playtime.ClientPlaytimeManager>();
             collection.Register<GeneratedParallaxCache>();
             collection.Register<IChatManager, ChatManager>();
             collection.Register<ISharedChatManager, ChatManager>();
