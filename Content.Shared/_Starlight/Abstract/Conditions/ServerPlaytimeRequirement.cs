@@ -16,7 +16,15 @@ public sealed partial class ServerPlaytimeRequirement : BaseRequirement
     {
         base.GetRequirementDescription();
 
-        return Loc.GetString("requirements-server-playtime", ("time", Time.ToString(@"hh\:mm\:ss")));
+        var hours = (int) Time.TotalHours;
+        var lastTwo = hours % 100;
+        var lastOne = hours % 10;
+        var form = lastOne == 1 && lastTwo != 11
+            ? "час"
+            : lastOne >= 2 && lastOne <= 4 && (lastTwo < 12 || lastTwo > 14)
+                ? "часа"
+                : "часов";
+        return Loc.GetString("requirements-server-playtime", ("hours", hours), ("form", form));
     }
 
     public override bool Handle(ICommonSession user)
