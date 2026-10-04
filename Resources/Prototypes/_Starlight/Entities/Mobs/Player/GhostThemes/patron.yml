@@ -17,7 +17,7 @@
     shader: HolyStarsTrail
   requirements:
   - !type:ServerPlaytimeRequirement
-    time: 36000 # 10h
+    time: 180000 # 50h
   category: Patron
 
 - type: ghostTheme
