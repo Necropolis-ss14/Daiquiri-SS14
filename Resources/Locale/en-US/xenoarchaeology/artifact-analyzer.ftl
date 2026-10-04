@@ -11,11 +11,20 @@ analysis-console-info-id-value = [font="Monospace" size=11][color=yellow]{$id}[/
 analysis-console-info-class = [font="Monospace" size=11]Class:[/font]
 analysis-console-info-class-value = [font="Monospace" size=11]{$class}[/font]
 analysis-console-info-locked = [font="Monospace" size=11]Status:[/font]
-analysis-console-info-locked-value = [font="Monospace" size=11][color={ $state -> [0] red]Locked [1] lime]Unlocked *[2] plum]Active }[/color][/font]
+analysis-console-info-locked-value =
+    { $state ->
+        [0] [font="Monospace" size=11][color=red]Locked[/color][/font]
+        [1] [font="Monospace" size=11][color=lime]Unlocked[/color][/font]
+        *[2] [font="Monospace" size=11][color=plum]Active[/color][/font]
+    }
 analysis-console-info-durability = [font="Monospace" size=11]Durability:[/font]
 analysis-console-info-durability-value = [font="Monospace" size=11][color={$color}]{$current}/{$max}[/color][/font]
 analysis-console-info-effect = [font="Monospace" size=11]Effect:[/font]
-analysis-console-info-effect-value = [font="Monospace" size=11][color=gray]{ $state -> [true] {$info} *[false] Unlock nodes to gain info }[/color][/font]
+analysis-console-info-effect-value =
+    { $state ->
+        [true] [font="Monospace" size=11][color=gray]{$info}[/color][/font]
+        *[false] [font="Monospace" size=11][color=gray]Unlock nodes to gain info[/color][/font]
+    }
 analysis-console-info-trigger = [font="Monospace" size=11]Triggers:[/font]
 analysis-console-info-triggered-value = [font="Monospace" size=11][color=gray]{$triggers}[/color][/font]
 
