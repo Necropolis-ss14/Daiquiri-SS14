@@ -1,3 +1,4 @@
+using System;
 using Content.Client.GameTicking.Managers;
 using Content.Client.Lobby;
 using Content.Shared.Audio.Events;
@@ -109,6 +110,46 @@ public sealed partial class ContentAudioSystem
     /// </summary>
     public bool LobbyMusicPaused => _lobbyPauseStarted != null;
     private TimeSpan? _lobbyPauseStarted;
+
+    /// <summary>
+    /// Current track length in seconds, if any.
+    /// </summary>
+    public float? LobbyTrackLengthSeconds { get; private set; }
+
+    /// <summary>
+    /// Current playback position in seconds, if any.
+    /// </summary>
+    public float? LobbyTrackPositionSeconds
+    {
+        get
+        {
+            if (_lobbySoundtrackInfo == null)
+                return null;
+            if (!TryComp(_lobbySoundtrackInfo.MusicStreamEntityUid, out AudioComponent? comp))
+                return null;
+            return comp.PlaybackPosition;
+        }
+    }
+
+    /// <summary>
+    /// Seek the current lobby track, keeping autoplay timing intact.
+    /// </summary>
+    public void SeekLobbyTrack(float seconds)
+    {
+        if (_lobbySoundtrackInfo == null || LobbyTrackLengthSeconds is not { } length)
+            return;
+        if (!TryComp(_lobbySoundtrackInfo.MusicStreamEntityUid, out AudioComponent? comp))
+            return;
+
+        var clamped = Math.Clamp(seconds, 0f, length);
+        comp.PlaybackPosition = clamped;
+        if (LobbyMusicPaused)
+            _lobbyPauseStarted = _timing.CurTime;
+        _lobbySoundtrackInfo = _lobbySoundtrackInfo with
+        {
+            NextTrackOn = _timing.CurTime + TimeSpan.FromSeconds(Math.Max(0.0, length - clamped))
+        };
+    }
 
     /// <summary>
     /// Pause or resume the current lobby track, keeping autoplay timing intact.
@@ -303,6 +344,7 @@ public sealed partial class ContentAudioSystem
 
         var nextTrackOn = _timing.CurTime + audio.AudioStream.Length;
         _lobbySoundtrackInfo = new LobbySoundtrackInfo(soundtrackFilename, nextTrackOn, playResult.Value.Entity);
+        LobbyTrackLengthSeconds = (float) audio.AudioStream.Length.TotalSeconds;
 
         var lobbySongChangedEvent = new LobbySoundtrackChangedEvent(soundtrackFilename);
         _lobbySoundtrackChanged?.Invoke(lobbySongChangedEvent);
@@ -318,6 +360,7 @@ public sealed partial class ContentAudioSystem
         _audio.Stop(_lobbySoundtrackInfo.MusicStreamEntityUid);
         _lobbySoundtrackInfo = null;
         _lobbyPauseStarted = null;
+        LobbyTrackLengthSeconds = null;
         var lobbySongChangedEvent = new LobbySoundtrackChangedEvent();
         _lobbySoundtrackChanged?.Invoke(lobbySongChangedEvent);
     }

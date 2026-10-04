@@ -1,4 +1,6 @@
 using Robust.Client.UserInterface.Controls;
+using Robust.Shared.GameObjects;
+using Robust.Shared.IoC;
 using Timer = Robust.Shared.Timing.Timer;
 
 namespace Content.Client.Lobby.UI;
@@ -14,6 +16,20 @@ public sealed partial class MarqueeLabel : Label
     private string _fullText = string.Empty;
     private int _offset;
     private bool _running;
+    private Content.Client.Audio.ContentAudioSystem? _audio;
+
+    private bool AnimPaused()
+    {
+        try
+        {
+            _audio ??= IoCManager.Resolve<IEntitySystemManager>().GetEntitySystem<Content.Client.Audio.ContentAudioSystem>();
+        }
+        catch
+        {
+            return false;
+        }
+        return _audio?.LobbyMusicPaused ?? false;
+    }
 
     /// <summary>
     /// Full text. Scrolls automatically when it does not fit.
@@ -46,7 +62,8 @@ public sealed partial class MarqueeLabel : Label
     {
         if (!_running)
             return;
-        UpdateScroll();
+        if (!AnimPaused())
+            UpdateScroll();
         Timer.Spawn(ScrollMs, Tick);
     }
 

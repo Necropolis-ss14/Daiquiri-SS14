@@ -6,11 +6,49 @@ using Robust.Shared.Configuration;
 using Robust.Shared.GameObjects;
 using Robust.Shared.IoC;
 using Robust.Shared.Maths;
+using Timer = Robust.Shared.Timing.Timer;
 
 namespace Content.Client.Info
 {
     public sealed class DevInfoBanner : BoxContainer
     {
+        private Slider? _seekSlider;
+        private bool _seekRefreshing;
+        private bool _seekUpdating;
+
+        protected override void EnteredTree()
+        {
+            base.EnteredTree();
+            _seekRefreshing = true;
+            RefreshSeek();
+        }
+
+        protected override void ExitedTree()
+        {
+            base.ExitedTree();
+            _seekRefreshing = false;
+        }
+
+        private void RefreshSeek()
+        {
+            if (!_seekRefreshing || _seekSlider is not { Disposed: false })
+                return;
+
+            var audio = IoCManager.Resolve<IEntitySystemManager>()
+                .GetEntitySystem<Content.Client.Audio.ContentAudioSystem>();
+            var length = audio.LobbyTrackLengthSeconds;
+            _seekSlider.Disabled = length is not > 0f;
+            if (length is > 0f)
+            {
+                // Guard against MaxValue clamping firing a spurious seek.
+                _seekUpdating = true;
+                _seekSlider.MaxValue = length.Value;
+                _seekSlider.SetValueWithoutEvent(audio.LobbyTrackPositionSeconds ?? 0f);
+                _seekUpdating = false;
+            }
+            Timer.Spawn(500, RefreshSeek);
+        }
+
         public DevInfoBanner() {
             var buttons = new BoxContainer
             {
@@ -43,7 +81,25 @@ namespace Content.Client.Info
                 audio.SetLobbyMusicPaused(!audio.LobbyMusicPaused);
                 musicButton.Text = audio.LobbyMusicPaused ? "▶" : "■";
             };
+            // Daiquiri: lobby track seek bar right after the pause button.
             buttons.AddChild(musicButton);
+            var seekSlider = new Slider
+            {
+                MinValue = 0,
+                MaxValue = 100,
+                MinWidth = 100,
+                ToolTip = Loc.GetString("ui-lobby-music-seek-tooltip"),
+            };
+            seekSlider.OnValueChanged += _ =>
+            {
+                if (_seekUpdating)
+                    return;
+                var audioSeek = IoCManager.Resolve<IEntitySystemManager>()
+                    .GetEntitySystem<Content.Client.Audio.ContentAudioSystem>();
+                audioSeek.SeekLobbyTrack(seekSlider.Value);
+            };
+            buttons.AddChild(seekSlider);
+            _seekSlider = seekSlider;
         }
     }
 }

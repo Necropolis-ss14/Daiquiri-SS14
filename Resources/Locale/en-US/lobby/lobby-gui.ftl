@@ -20,3 +20,4 @@ ui-lobby-lock-priorities-checkbox-label = Allow dragging
 ui-lobby-music-queue-title = Music queue
 ui-lobby-music-queue-tooltip = Show queue
 ui-lobby-music-pause-tooltip = Pause / resume music
+ui-lobby-music-seek-tooltip = Seek track
