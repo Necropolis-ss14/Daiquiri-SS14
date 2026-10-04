@@ -63,12 +63,12 @@ soviet-commissariat-sender = Soviet People's Commissariat
 rev-headrev-count = {$initialCount ->
     [one] There was one agent of [color=Yellow]USSP[/color]:
     *[other] There were {$initialCount} agents of USSP:
-    }
+}
 
 rev-headrev-name-user = [color=#5e9cff]{$name}[/color] ([color=gray]{$username}[/color]) recruited {$count} {$count ->
     [one] contractor
     *[other] contractors
-    }
+}
 
 ## Deconverted window
 
