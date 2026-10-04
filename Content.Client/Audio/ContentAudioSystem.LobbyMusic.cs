@@ -129,11 +129,12 @@ public sealed partial class ContentAudioSystem
         }
         else
         {
-            if (_lobbyPauseStarted != null)
+            var pausedAt = _lobbyPauseStarted;
+            if (pausedAt != null)
             {
                 _lobbySoundtrackInfo = _lobbySoundtrackInfo with
                 {
-                    NextTrackOn = _lobbySoundtrackInfo.NextTrackOn + (_timing.CurTime - _lobbyPauseStarted)
+                    NextTrackOn = _lobbySoundtrackInfo.NextTrackOn + (_timing.CurTime - pausedAt.Value)
                 };
                 _lobbyPauseStarted = null;
             }
