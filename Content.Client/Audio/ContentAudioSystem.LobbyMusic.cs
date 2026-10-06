@@ -110,6 +110,7 @@ public sealed partial class ContentAudioSystem
     /// </summary>
     public bool LobbyMusicPaused => _lobbyPauseStarted != null;
     private TimeSpan? _lobbyPauseStarted;
+    private float _lobbyPausePosition;
 
     /// <summary>
     /// Current track length in seconds, if any.
@@ -117,7 +118,7 @@ public sealed partial class ContentAudioSystem
     public float? LobbyTrackLengthSeconds { get; private set; }
 
     /// <summary>
-    /// Current playback position in seconds, if any.
+    /// Current playback position in seconds, if any. Never throws (dead audio device safe).
     /// </summary>
     public float? LobbyTrackPositionSeconds
     {
@@ -125,9 +126,16 @@ public sealed partial class ContentAudioSystem
         {
             if (_lobbySoundtrackInfo == null)
                 return null;
-            if (!TryComp(_lobbySoundtrackInfo.MusicStreamEntityUid, out AudioComponent? comp))
+            try
+            {
+                if (!TryComp(_lobbySoundtrackInfo.MusicStreamEntityUid, out AudioComponent? comp))
+                    return null;
+                return comp.PlaybackPosition;
+            }
+            catch
+            {
                 return null;
-            return comp.PlaybackPosition;
+            }
         }
     }
 
@@ -165,22 +173,44 @@ public sealed partial class ContentAudioSystem
 
         if (paused)
         {
-            comp.Pause();
+            try
+            {
+                if (TryComp(_lobbySoundtrackInfo.MusicStreamEntityUid, out AudioComponent? pauseComp))
+                {
+                    _lobbyPausePosition = pauseComp.PlaybackPosition;
+                    pauseComp.Pause();
+                }
+            }
+            catch
+            {
+                // Dead audio device: keep pause state, stream gets rebuilt on resume.
+            }
             _lobbyPauseStarted = _timing.CurTime;
         }
         else
         {
-            var pausedAt = _lobbyPauseStarted;
-            if (pausedAt != null)
-            {
-                _lobbySoundtrackInfo = _lobbySoundtrackInfo with
-                {
-                    NextTrackOn = _lobbySoundtrackInfo.NextTrackOn + (_timing.CurTime - pausedAt.Value)
-                };
-                _lobbyPauseStarted = null;
-            }
-            comp.StartPlaying();
+            // Daiquiri: always rebuild the stream on resume. Long-paused OpenAL sources
+            // can die silently (device sleep, driver cleanup) and StartPlaying won't revive them.
+            _lobbyPauseStarted = null;
+            var file = _lobbySoundtrackInfo.Filename;
+            var pos = _lobbyPausePosition;
+            EndLobbyMusicSilent();
+            PlaySoundtrack(file);
+            if (_lobbySoundtrackInfo != null)
+                SeekLobbyTrack(pos);
         }
+    }
+
+    /// <summary>
+    /// Stops the current stream without firing change events or clearing pause position.
+    /// </summary>
+    private void EndLobbyMusicSilent()
+    {
+        if (_lobbySoundtrackInfo == null)
+            return;
+        _audio.Stop(_lobbySoundtrackInfo.MusicStreamEntityUid);
+        _lobbySoundtrackInfo = null;
+        LobbyTrackLengthSeconds = null;
     }
 
     private void OnRoundEndCancelMessage(RoundEndCancelMessageEvent ev) => EndLobbyMusic();

@@ -1,3 +1,5 @@
+using System;
+using System.Linq;
 using Robust.Client.UserInterface.Controls;
 using Robust.Shared.GameObjects;
 using Robust.Shared.IoC;
@@ -69,34 +71,24 @@ public sealed partial class MarqueeLabel : Label
 
     private void UpdateScroll()
     {
-        if (!NeedsScroll())
-        {
-            if (Text != _fullText)
-                Text = _fullText;
-            return;
-        }
-
-        var loop = _fullText + Gap;
-        if (loop.Length == 0)
+        if (string.IsNullOrEmpty(_fullText))
         {
             Text = _fullText;
             return;
         }
 
-        _offset %= loop.Length;
+        // Daiquiri: tile the text to fill the whole width so there is never an empty gap.
+        var unit = _fullText + Gap;
+        var need = unit.Length;
+        if (Size.X > 0)
+            need = Math.Max(need, (int) (Size.X / 6.6f) + unit.Length);
+        var tiled = string.Concat(Enumerable.Repeat(unit, (need + unit.Length - 1) / unit.Length));
+        _offset %= unit.Length;
         if (_offset < 0)
-            _offset += loop.Length;
-        Text = loop[_offset..] + loop[.._offset];
+            _offset += unit.Length;
+        Text = tiled[_offset..] + tiled[.._offset];
         _offset--;
         if (_offset < 0)
-            _offset += loop.Length;
-    }
-
-    private bool NeedsScroll()
-    {
-        if (string.IsNullOrEmpty(_fullText) || Size.X <= 0)
-            return false;
-        // Always scroll: classic player feel even for short titles.
-        return true;
+            _offset += unit.Length;
     }
 }
