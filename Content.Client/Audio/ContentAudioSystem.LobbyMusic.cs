@@ -146,13 +146,16 @@ public sealed partial class ContentAudioSystem
     {
         if (_lobbySoundtrackInfo == null || LobbyTrackLengthSeconds is not { } length)
             return;
-        if (!TryComp(_lobbySoundtrackInfo.MusicStreamEntityUid, out AudioComponent? comp))
-            return;
 
         var clamped = Math.Clamp(seconds, 0f, length);
-        comp.PlaybackPosition = clamped;
+        if (TryComp(_lobbySoundtrackInfo.MusicStreamEntityUid, out AudioComponent? comp))
+            comp.PlaybackPosition = clamped;
         if (LobbyMusicPaused)
+        {
+            // Daiquiri: store even if the stream entity is already evicted from memory.
+            _lobbyPausePosition = clamped;
             _lobbyPauseStarted = _timing.CurTime;
+        }
         _lobbySoundtrackInfo = _lobbySoundtrackInfo with
         {
             NextTrackOn = _timing.CurTime + TimeSpan.FromSeconds(Math.Max(0.0, length - clamped))
@@ -165,8 +168,6 @@ public sealed partial class ContentAudioSystem
     public void SetLobbyMusicPaused(bool paused)
     {
         if (_lobbySoundtrackInfo == null)
-            return;
-        if (!TryComp(_lobbySoundtrackInfo.MusicStreamEntityUid, out AudioComponent? comp))
             return;
         if (paused == LobbyMusicPaused)
             return;
@@ -189,15 +190,32 @@ public sealed partial class ContentAudioSystem
         }
         else
         {
-            // Daiquiri: always rebuild the stream on resume. Long-paused OpenAL sources
-            // can die silently (device sleep, driver cleanup) and StartPlaying won't revive them.
+            // Daiquiri: always rebuild the stream on resume and never depend on the old
+            // entity: a long-paused source can be evicted from memory (OS pressure,
+            // device sleep, driver cleanup) and StartPlaying won't revive it.
             _lobbyPauseStarted = null;
             var file = _lobbySoundtrackInfo.Filename;
             var pos = _lobbyPausePosition;
-            EndLobbyMusicSilent();
-            PlaySoundtrack(file);
-            if (_lobbySoundtrackInfo != null)
-                SeekLobbyTrack(pos);
+            try
+            {
+                EndLobbyMusicSilent();
+                PlaySoundtrack(file);
+                if (_lobbySoundtrackInfo != null)
+                {
+                    SeekLobbyTrack(pos);
+                    return;
+                }
+                _sawmill.Warning("Lobby resume failed: stream did not start.");
+            }
+            catch (Exception e)
+            {
+                _sawmill.Error($"Lobby resume failed: {e}");
+                _lobbySoundtrackInfo = null;
+                LobbyTrackLengthSeconds = null;
+            }
+            // Resume failed: tell the UI the music is stopped so the button state
+            // resets and the user can restart via skip/track select.
+            _lobbySoundtrackChanged?.Invoke(new LobbySoundtrackChangedEvent());
         }
     }
 
