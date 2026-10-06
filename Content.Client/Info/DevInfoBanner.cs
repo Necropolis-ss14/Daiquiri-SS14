@@ -13,6 +13,7 @@ namespace Content.Client.Info
     public sealed class DevInfoBanner : BoxContainer
     {
         private Slider? _seekSlider;
+        private Button? _musicButton;
         private bool _seekRefreshing;
         private bool _seekUpdating;
 
@@ -36,6 +37,8 @@ namespace Content.Client.Info
 
             var audio = IoCManager.Resolve<IEntitySystemManager>()
                 .GetEntitySystem<Content.Client.Audio.ContentAudioSystem>();
+            if (_musicButton is { Disposed: false })
+                _musicButton.Text = audio.LobbyMusicPaused ? "▶" : "■";
             var length = audio.LobbyTrackLengthSeconds;
             _seekSlider.Disabled = length is not > 0f;
             if (length is > 0f)
@@ -76,13 +79,13 @@ namespace Content.Client.Info
             musicButton.ToolTip = Loc.GetString("ui-lobby-music-pause-tooltip");
             musicButton.OnPressed += _ =>
             {
-                var audio = IoCManager.Resolve<IEntitySystemManager>()
+                var audioPause = IoCManager.Resolve<IEntitySystemManager>()
                     .GetEntitySystem<Content.Client.Audio.ContentAudioSystem>();
-                audio.SetLobbyMusicPaused(!audio.LobbyMusicPaused);
-                musicButton.Text = audio.LobbyMusicPaused ? "▶" : "■";
+                audioPause.SetLobbyMusicPaused(!audioPause.LobbyMusicPaused);
+                musicButton.Text = audioPause.LobbyMusicPaused ? "▶" : "■";
             };
-            // Daiquiri: lobby track seek bar right after the pause button.
             buttons.AddChild(musicButton);
+            _musicButton = musicButton;
             var seekSlider = new Slider
             {
                 MinValue = 0,

@@ -344,6 +344,7 @@ public sealed partial class ContentAudioSystem
 
         var nextTrackOn = _timing.CurTime + audio.AudioStream.Length;
         _lobbySoundtrackInfo = new LobbySoundtrackInfo(soundtrackFilename, nextTrackOn, playResult.Value.Entity);
+        _lobbyPauseStarted = null;
         LobbyTrackLengthSeconds = (float) audio.AudioStream.Length.TotalSeconds;
 
         var lobbySongChangedEvent = new LobbySoundtrackChangedEvent(soundtrackFilename);

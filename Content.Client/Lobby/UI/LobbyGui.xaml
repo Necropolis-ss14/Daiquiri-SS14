@@ -63,7 +63,7 @@
                                 <RichTextLabel Name="LobbyBackground" Access="Public" HorizontalAlignment="Left" />
                             </BoxContainer>
                         </PanelContainer>
-                        <info:DevInfoBanner Name="DevInfoBanner" VerticalExpand="false" Margin="3 3 3 3" />
+                        <info:DevInfoBanner Name="DevInfoBanner" VerticalExpand="false" Margin="3 3 3 3" SizeFlagsHorizontal="ShrinkBegin" />
                     </BoxContainer>
                     <!-- NullLink end -->
                 </Control>
