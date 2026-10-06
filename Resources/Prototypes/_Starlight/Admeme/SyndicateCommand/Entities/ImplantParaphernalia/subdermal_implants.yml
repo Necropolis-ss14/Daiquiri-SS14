@@ -1,9 +1,0 @@
-- type: entity
-  parent: MindShieldImplant
-  id: SyndicateMindShieldImplant
-  name: ent-SyndicateMindShieldImplant
-  description: ent-SyndicateMindShieldImplant-desc
-  categories: [ HideSpawnMenu ]
-  components:
-  - type: MindShieldImplant
-    mindShieldStatusIcon: SyndicateMindShieldIcon

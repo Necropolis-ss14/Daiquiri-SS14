@@ -20,8 +20,6 @@ lawboard-desc = The USSP is open to everyone, even the AI! Do keep in mind that 
 
 # Telebonds
 # Weapons
-akms-weapon-name = AKMS Rifle
-akms-weapon-desc = Discontinued but a reliable assault rifle still in broad use today. Uses .30 ammo.
 makarov-name = Makarov
 makarov-desc = Cho? Gun is gun comrade. Uses .35 auto ammo.
 finka-name = Finka (SNKVD)
@@ -40,7 +38,6 @@ toz-desc = Aim at head and eyes. Uses .42 ammo, comes with extended magazine.
 # Wearables
 soviet-eva-name = Soviet EVA Suit
 soviet-eva-desc = A rugged space suit with the hammer and sickle emblazoned on the back. Space cold resistant.
-soviet-eva-helm-desc = A sturdy EVA helmet with a red star emblazoned on the front. Glory to the workers of space!
 soviet-bandolier-name = Marine bandolier (SSF)
 soviet-bandolier-desc = The marines have surplus bandoliers that can hold ammo, knives and radio.
 soviet-chest-rig-name = Marine chest rig (SSF)
@@ -65,8 +62,6 @@ SKB-implant-rattler-name = SKB Death Rattle
 SKB-implant-rattler-desc = An implant specialized in informing agents of your death.
 SKB-implant-radio-name = SKB Radio Implant
 SKB-implant-radio-desc = An implant specialized in allowing communication between SKB agents.
-SKB-stolen-shield-name = Stolen Fake Shield
-SKB-stolen-shield-desc = Very rare item to see, we were able to steal it from a passing transport. Use it wisely.
 
 # Deception
 soviet-encryption-key-name = Soviet encryption key
@@ -113,3 +108,6 @@ zapo-name = Zaporozhian sich bundle
 zapo-desc = Cossacks- have gone to space, and have earned respect within the union.
 vodkizine-name = vodkizine bottle
 vodkizine-desc = The best cure for and cause of a hangover.
+
+rev-supply-rift-listing-charging = Supply rift (Charging: { $charge }% - Placed by comrade { $name } { $location })
+rev-supply-rift-unknown-placer = Unknown

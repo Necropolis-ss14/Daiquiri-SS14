@@ -22,4 +22,5 @@ station-radio-server-examine-recording = Сервер станции не вед
 station-radio-server-examine-not-recording = Сервер станции сейчас ведёт запись.
 
 station-radio-server-microphone-on-use = Микрофон { $radioState }.
+ui-options-radio-music-volume = Музыка радио:
 # Starlight - End
