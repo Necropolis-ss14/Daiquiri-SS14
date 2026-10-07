@@ -16,11 +16,11 @@ public sealed partial class LobbyTrackPrototype : IPrototype
     /// The title of the track to be displayed in the lobby.
     /// </summary>
     [DataField]
-    public LocId Title = "lobby-track-unknown-title";
+    public string Title = "Unknown Track";
 
     /// <summary>
     /// The artist who made the track.
     /// </summary>
     [DataField]
-    public LocId Artist = "lobby-track-unknown-artist";
+    public string Artist = "Unknown Artist";
 }

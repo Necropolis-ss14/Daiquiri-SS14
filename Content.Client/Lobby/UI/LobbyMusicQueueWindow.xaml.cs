@@ -98,9 +98,7 @@ public sealed partial class LobbyMusicQueueWindow : DefaultWindow
     {
         if (_prototypeManager.Index<LobbyTrackPrototype>(filename) is { } proto)
         {
-            var title = Loc.GetString(proto.Title);
-            var artist = Loc.GetString(proto.Artist);
-            return $"{title} — {artist}";
+            return $"{proto.Title} — {proto.Artist}";
         }
 
         return filename;
