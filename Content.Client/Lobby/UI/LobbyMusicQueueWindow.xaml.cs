@@ -70,6 +70,7 @@ public sealed partial class LobbyMusicQueueWindow : DefaultWindow
     private void BuildUI()
     {
         _buildId++;
+        _removedTracks.Clear();
         TrackList.RemoveAllChildren();
         _rows.Clear();
         _trackChecks.Clear();
