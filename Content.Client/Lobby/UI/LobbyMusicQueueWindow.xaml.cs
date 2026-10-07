@@ -58,6 +58,9 @@ public sealed partial class LobbyMusicQueueWindow : DefaultWindow
     private void BuildUI()
     {
         _buildId++;
+        TrackList.RemoveAllChildren();
+        _rows.Clear();
+        _trackChecks.Clear();
         BuildPlaylistButtons();
         var tracks = GetViewTracks(_selectedView);
         _pendingTracks = new List<string>(tracks);
