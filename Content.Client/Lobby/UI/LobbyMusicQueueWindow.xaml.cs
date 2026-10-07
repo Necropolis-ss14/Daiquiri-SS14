@@ -25,6 +25,7 @@ public sealed partial class LobbyMusicQueueWindow : DefaultWindow
     private ContentAudioSystem? _audio;
     private readonly Dictionary<string, Button> _playlistButtons = new();
     private readonly Dictionary<string, CheckBox> _trackChecks = new();
+    private readonly Dictionary<string, HashSet<string>> _removedTracks = new();
     private readonly List<(Button Button, string Filename)> _rows = new();
     private string _selectedView = "Queue";
     private int _buildId;
@@ -130,6 +131,21 @@ public sealed partial class LobbyMusicQueueWindow : DefaultWindow
         {
             var filename = _pendingTracks[0];
             _pendingTracks.RemoveAt(0);
+
+            if (filename == "__empty__")
+            {
+                var emptyLabel = new Label
+                {
+                    Text = "Ничего не выбрано",
+                    HorizontalExpand = true,
+                    VerticalExpand = true,
+                    HorizontalAlignment = HAlignment.Center,
+                    VerticalAlignment = VAlignment.Center,
+                };
+                TrackList.AddChild(emptyLabel);
+                return;
+            }
+
             var name = TrackDisplayName(filename);
             var row = new BoxContainer
             {
@@ -155,7 +171,7 @@ public sealed partial class LobbyMusicQueueWindow : DefaultWindow
                 HorizontalExpand = true,
                 Disabled = filename == current,
             };
-            button.OnPressed += _ => _audio?.PlayLobbyTrack(filename);
+            button.OnPressed += _ => OnTrackSelected(filename);
             row.AddChild(button);
             TrackList.AddChild(row);
             _rows.Add((button, filename));
@@ -167,15 +183,52 @@ public sealed partial class LobbyMusicQueueWindow : DefaultWindow
         }
     }
 
+    private void OnTrackSelected(string filename)
+    {
+        if (_audio == null)
+            return;
+
+        if (_selectedView != "Queue")
+        {
+            if (!IsTrackInPlaylist(filename, _selectedView))
+            {
+                if (!_removedTracks.TryGetValue(_selectedView, out var set))
+                {
+                    set = new HashSet<string>();
+                    _removedTracks[_selectedView] = set;
+                }
+                set.Remove(filename);
+                _audio.SetTrackMembership(_selectedView, filename, true);
+            }
+        }
+
+        _audio.PlayLobbyTrack(filename);
+    }
+
     private void OnTrackMembershipToggled(string filename, bool pressed)
     {
         if (_audio == null || _selectedView == "Queue")
             return;
+
+        if (!_removedTracks.TryGetValue(_selectedView, out var set))
+        {
+            set = new HashSet<string>();
+            _removedTracks[_selectedView] = set;
+        }
+
+        if (pressed)
+            set.Remove(filename);
+        else
+            set.Add(filename);
+
         _audio.SetTrackMembership(_selectedView, filename, pressed);
     }
 
     private bool IsTrackInPlaylist(string filename, string playlistId)
     {
+        if (_removedTracks.TryGetValue(playlistId, out var removed) && removed.Contains(filename))
+            return false;
+
         if (_prototypeManager.TryIndex<LobbyPlaylistPrototype>(playlistId, out var proto))
             return proto.Tracks.Any(t => t.ToString() == filename);
         return false;
@@ -184,7 +237,12 @@ public sealed partial class LobbyMusicQueueWindow : DefaultWindow
     private List<string> GetViewTracks(string view)
     {
         if (view == "Queue")
-            return _audio?.LobbyPlaylistTracks?.ToList() ?? new List<string>();
+        {
+            var tracks = _audio?.LobbyPlaylistTracks?.ToList() ?? new List<string>();
+            if (tracks.Count == 0)
+                return new List<string> { "__empty__" };
+            return tracks;
+        }
 
         if (_prototypeManager.TryIndex<LobbyPlaylistPrototype>(view, out var proto))
             return proto.Tracks.Select(t => t.ToString()).ToList();
