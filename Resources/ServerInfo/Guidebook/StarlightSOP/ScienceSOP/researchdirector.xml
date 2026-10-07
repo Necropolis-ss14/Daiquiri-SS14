@@ -1,11 +1,11 @@
 <Document>
-# Research Director
+# Научный руководитель
 
 <GuideEntityEmbed Entity="ToyFigurineResearchDirector" Caption="Research Director"/>
 
-1. The Research Director should ensure that research is being done.
+1. Научный руководитель должен следить за выполнением исследований.
 
-2. The Research Director is permitted to change the station AI's lawset, according to the Command SOP.
+2. Научному руководителю разрешено изменять набор законов станционного ИИ согласно СОП командования.
 
-3.  The Research Director is to be held accountable alongside the responsible science personnel for any accidents that harm crew members.
+3. Научный руководитель несёт ответственность наряду с ответственным научным персоналом за любые несчастные случаи, причинившие вред членам экипажа.
 </Document>

@@ -1,12 +1,12 @@
 <Document>
-  # Networking
-  On the station, devices need to communicate to each other to preform their functions.
-  [textlink="Air alarms" link="AirAlarms"] need to talk to their respective devices, [textlink="doors" link="Airlocks"] need to be linked to form proper airlocks, and much more.
+  # Сети
+  На станции устройствам нужно общаться друг с другом, чтобы выполнять свои функции.
+  [textlink="Воздушным тревогам" link="AirAlarms"] нужно говорить со своими устройствами, [textlink="дверям" link="Airlocks"] нужно связывать для правильных шлюзов, и многое другое.
 
-  This is done through two systems, the Link system and the List system.
+  Это делается через две системы: систему связей и списочную систему.
 
-  You can use either the Multitool or Network Configurator to interact with these systems.
-  You can switch between the different systems using [color=yellow][bold][keybind="AltActivateItemInHand"][/bold][/color] or by hovering your cursor over the device and using [color=yellow][bold][keybind="AltActivateItemInWorld"][/bold][/color].
+  Для работы с этими системами можно использовать мультитул или сетевой конфигуратор.
+  Переключаться между системами можно через [color=yellow][bold][keybind="AltActivateItemInHand"][/bold][/color] или наведя курсор на устройство и использовав [color=yellow][bold][keybind="AltActivateItemInWorld"][/bold][/color].
 
   <Box HorizontalAlignment="Stretch">
     <Box>
@@ -17,12 +17,12 @@
     </Box>
   </Box>
 
-  Some devices will require access to link devices to them.
-  For example, you need Atmospherics access to link devices to an [textlink="air alarm" link="AirAlarms"].
-  For doors, you'll need the access level of the door you're linking to.
+  Некоторым устройствам для привязки нужен доступ.
+  Например, нужен доступ атмосферного отсека, чтобы привязывать устройства к [textlink="воздушной тревоге" link="AirAlarms"].
+  Для дверей нужен уровень доступа привязываемой двери.
 
-  ## Link System
-  The link system is used for explicitly linking two devices, such as linking a door to another door.
+  ## Система связей
+  Система связей используется для явного связывания двух устройств, например привязки двери к другой двери.
 
   <Box>
     <GuideEntityEmbed Entity="AirlockExternal"/>
@@ -31,13 +31,13 @@
     <GuideEntityEmbed Entity="SignalButton"/>
   </Box>
 
-  Under the link system, devices have [bold]ports[/bold] that are capable of either sending or receiving signals.
+  В системе связей у устройств есть [bold]порты[/bold], способные либо отправлять, либо получать сигналы.
 
-  Hovering over a port using your cursor will show a tooltip that tells you what the port does.
-  For example, output ports will state the conditions under which they will invoke a signal, and input ports will state what the device will do if it receives a signal.
+  Наведение курсора на порт покажет подсказку, рассказывающую, что делает порт.
+  Например, выходные порты сообщают, при каких условиях вызовут сигнал, а входные порты сообщают, что устройство сделает при получении сигнала.
 
-  ## List System
-  The list system is used for linking multiple devices to a single primary device, such as linking multiple atmospherics devices to an air alarm.
+  ## Списочная система
+  Списочная система используется для привязки нескольких устройств к одному главному устройству, например привязки нескольких атмосферных устройств к воздушной тревоге.
 
   <Box>
     <GuideEntityEmbed Entity="AirAlarm" Caption=""/>
@@ -47,18 +47,18 @@
     <GuideEntityEmbed Entity="Firelock" Caption=""/>
   </Box>
 
-  Each device has its own unique address, which is used to identify it in the list system. When you link a device to a primary device, you are adding the device's address to a list of devices that the primary device will communicate with.
+  У каждого устройства есть собственный уникальный адрес, используемый для его опознания в списочной системе. Привязывая устройство к главному устройству, вы добавляете адрес устройства в список устройств, с которыми главное устройство будет общаться.
 
-  You can save a device's address to your tool by interacting with the device using [color=yellow][bold][keybind="Use"][/bold][/color].
+  Адрес устройства можно сохранить в инструмент, взаимодействуя с устройством через [color=yellow][bold][keybind="Use"][/bold][/color].
 
-  Once you have a list of devices saved to your tool, you can link them to a primary device by interacting with the primary device using [color=yellow][bold][keybind="Use"][/bold][/color], which will bring up a UI.
+  Сохранив список устройств в инструмент, можно привязать их к главному устройству, взаимодействуя с главным устройством через [color=yellow][bold][keybind="Use"][/bold][/color], что откроет интерфейс.
 
-  The UI has multiple options:
-  - Set: Overwrites the current list of linked devices with the devices saved on the tool.
-  - Add: Adds the devices saved on the tool to the current list of linked devices.
-  - Clear: Removes all linked devices from the air alarm.
-  - Copy: Copies the list of currently linked devices to the tool.
-  - Show: Draws a line between the primary device and all linked devices. This is useful for visualizing the area the air alarm covers.
+  В интерфейсе несколько вариантов:
+  - Set: перезаписывает текущий список привязанных устройств устройствами, сохранёнными в инструменте.
+  - Add: добавляет устройства, сохранённые в инструменте, к текущему списку привязанных устройств.
+  - Clear: удаляет все привязанные устройства из воздушной тревоги.
+  - Copy: копирует список привязанных в данный момент устройств в инструмент.
+  - Show: рисует линию между главным устройством и всеми привязанными устройствами. Это полезно для визуализации зоны, охватываемой воздушной тревогой.
 
-  If you need to clear your tool, you can press [color=yellow][bold][keybind="Use"][/bold][/color] on the tool or use [color=yellow][bold][keybind="ActivateItemInHand"][/bold][/color] to bring up a list of saved devices, and then press the "Clear" button.
+  Если нужно очистить инструмент, можно нажать [color=yellow][bold][keybind="Use"][/bold][/color] на инструменте или использовать [color=yellow][bold][keybind="ActivateItemInHand"][/bold][/color], чтобы открыть список сохранённых устройств, а затем нажать кнопку «Clear».
 </Document>

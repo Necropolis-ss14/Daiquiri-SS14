@@ -1,5 +1,5 @@
 <Document>
-  # Traitors
+  # Предатели
 
   <Box>
     [color=#999999][italic]"WHISKEY. ECHO. WHISKEY. LIMA. ALPHA. DELTA. AGENT, YOU HAVE BEEN ACTIVATED."[/italic][/color]
@@ -7,28 +7,28 @@
   <Box>
     <GuideEntityEmbed Entity="PosterContrabandSyndicateRecruitment" Caption=""/>
   </Box>
-  Traitors are antagonists employed by the [color=#ff0000]Syndicate.[/color] You are a sleeper agent who has access to various tools and weapons through your [bold]uplink[/bold].
-  You also receive [bold]codewords[/bold] to identify other agents, and a coordinated team of traitors can have [italic]brutal results.[/italic]
+  Предатели — антагонисты, нанятые [color=#ff0000]Синдикатом.[/color] Вы — спящий агент, у которого есть доступ к различным инструментам и оружию через ваш [bold]аплинк[/bold].
+  Вы также получаете [bold]кодовые слова[/bold] для опознания других агентов, а скоординированная команда предателей может иметь [italic]сокрушительные результаты.[/italic]
 
-  Anyone besides [textlink="department heads" link="Command"] or members of [textlink="Security" link="Security"] can be a traitor.
+  Любой, кроме [textlink="глав отделов" link="Command"] или членов [textlink="службы безопасности" link="Security"], может быть предателем.
 
-  ## Uplink & Activation
-  The [color=cyan]uplink[/color] is your most important tool as a traitor. You can exchange the 20 [color=red]telecrystals[/color] (TC) you start with for items that will help you with your objectives.
+  ## Аплинк и активация
+  [color=cyan]Аплинк[/color] — ваш самый важный инструмент как предателя. Вы можете обменять 20 [color=red]телекристаллов[/color] (TC), с которыми начинаете, на предметы, которые помогут вам с задачами.
 
-  By pressing [color=yellow][bold][keybind="OpenCharacterMenu"][/bold][/color], you'll see your personal uplink code. [bold]Setting your PDA's ringtone as this code will open the uplink.[/bold]
-  Pressing [color=yellow][bold][keybind="OpenCharacterMenu"][/bold][/color] also lets you view your objectives and the codewords.
+  Нажав [color=yellow][bold][keybind="OpenCharacterMenu"][/bold][/color], вы увидите свой личный код аплинка. [bold]Установка рингтона вашего КПК на этот код откроет аплинк.[/bold]
+  Нажатие [color=yellow][bold][keybind="OpenCharacterMenu"][/bold][/color] также позволяет просмотреть ваши задачи и кодовые слова.
 
-  If you do not have a PDA when you are activated, an [color=cyan]uplink implant[/color] is provided [bold]for the full [color=red]TC[/color] price of the implant.[/bold]
-  It can be accessed from your hotbar.
+  Если при активации у вас нет КПК, [color=cyan]имплант аплинка[/color] выдаётся [bold]за полную цену импланта в [color=red]телекристаллах[/color].[/bold]
+  К нему можно получить доступ с вашего хотбара.
   <Box>
     <GuideEntityEmbed Entity="AssistantPDA" Caption="PDA"/>
     <GuideEntityEmbed Entity="Telecrystal" Caption="Telecrystals"/>
     <GuideEntityEmbed Entity="BaseUplinkRadio" Caption="Uplink Implant"/>
   </Box>
 
-  [bold]Make sure to close your PDA uplink to prevent anyone else from seeing it.[/bold] You don't want [color=#cb0000]Security[/color] to notice you have it and confiscate it from you!
+  [bold]Обязательно закрывайте аплинк КПК, чтобы никто другой его не увидел.[/bold] Вы же не хотите, чтобы [color=#cb0000]служба безопасности[/color] заметила его у вас и конфисковала!
 
-  Implanted uplinks are not normally accessible to other people, so they do not have any security measures. They can, however, be removed from you with an empty implanter.
+  Вживлённые аплинки обычно недоступны другим людям, поэтому у них нет никаких мер защиты. Однако их можно извлечь из вас пустым имплантером.
 
   <Box>
     <GuideEntityEmbed Entity="WeaponPistolCobra" Caption="Weaponry"/>
@@ -45,101 +45,101 @@
     <GuideEntityEmbed Entity="ClothingEyesGlassesOutlawGlasses" Caption="Pointless"/>
   </Box>
 
-  The purchases that you make should be to help you with your objectives. Some gear may not be of use to you, and you'll have to choose between being sneaky or going loud.
+  Покупки, которые вы совершаете, должны помогать вам с вашими задачами. Часть снаряжения может быть вам бесполезна, и вам придётся выбирать между скрытностью и громким штурмом.
 
-  ## Coordination
-  Codewords are words or phrases that every traitor will know. They provide a discreet way to identify or establish contact with a fellow traitor, which can be useful if your objectives include [italic][color=cyan]helping them with their objectives.[/color][/italic]
+  ## Координация
+  Кодовые слова — это слова или фразы, которые будет знать каждый предатель. Они дают скрытный способ опознать товарища-предателя или установить с ним контакт, что может пригодиться, если ваши задачи включают [italic][color=cyan]помощь им с их задачами.[/color][/italic]
 
-  When you find some friends, [bold]you can withdraw [color=red]telecrystals[/color] from your uplink to give to them.[/bold] They can put these in their own uplink to spend for themselves.
+  Когда найдёте друзей, [bold]вы можете снять [color=red]телекристаллы[/color] со своего аплинка, чтобы отдать им.[/bold] Они могут положить их в свой аплинк и потратить сами.
 
-  Some offers available on your uplink require more than 20 TC to purchase, so if you want them you'll have to share.
+  Некоторые предложения в вашем аплинке требуют больше 20 TC для покупки, так что если хотите их — придётся делиться.
 
-  ## Assassination
-  One of your objectives may be to [italic][color=cyan]kill or maroon a crewmember.[/color][/italic]
+  ## Убийство
+  Одной из ваших задач может быть [italic][color=cyan]убить или бросить члена экипажа.[/color][/italic]
 
-  You can [color=cyan]maroon[/color] your target by [bold]preventing them from reaching CentComm[/bold] via the evacuation shuttle or an escape pod.
+  Вы можете [color=cyan]бросить[/color] свою цель, [bold]помешав ей добраться до Central Command[/bold] на эвакуационном шаттле или в спасательной капсуле.
 
-  If you can't maroon your target or they're too important to leave alive, you'll have to get your hands dirty and [color=cyan]murder[/color] them. Make sure your target is not alive when the [bold]evacuation shuttle gets to CentComm,[/bold] and don't let them be resuscitated.
+  Если вы не можете бросить цель или она слишком важна, чтобы оставить её в живых, вам придётся запачкать руки и [color=cyan]убить[/color] её. Убедитесь, что ваша цель не жива, когда [bold]эвакуационный шаттл доберётся до Central Command,[/bold] и не дайте её реанимировать.
 
-  Remember, the Syndicate want only your targets dead. [color=red]Try to avoid mass murder or major damage to the station,[/color] as the more innocent lives you take, the more of a liability you become.
+  Помните, Синдикату нужны мёртвыми только ваши цели. [color=red]Старайтесь избегать массовых убийств или серьёзного урона станции,[/color] так как чем больше невинных жизней вы заберёте, тем большей обузой станете.
 
-  ## Evasion & Self-Termination
-  Your objectives may require you to [italic][color=cyan]make it to CentComm without being killed or captured.[/color][/italic] Don't let [color=#cb0000]Security[/color] stop you, complete your other objectives and [bold]come back alive.[/bold]
+  ## Уклонение и самотерминация
+  Ваши задачи могут требовать [italic][color=cyan]добраться до Central Command не убитым и не пленённым.[/color][/italic] Не дайте [color=#cb0000]службе безопасности[/color] себя остановить, выполните остальные задачи и [bold]вернитесь живым.[/bold]
 
-  Alternatively, your objectives may require you to [italic][color=cyan]die a glorious death.[/color][/italic] [bold]Make sure you don't come back from the dead,[/bold] or else you may wake up in cuffs.
+  Либо ваши задачи могут требовать [italic][color=cyan]умереть славной смертью.[/color][/italic] [bold]Убедитесь, что вы не вернётесь из мёртвых,[/bold] иначе можете очнуться в наручниках.
 
-  DAGD allows a lot of things that are normally banned, but you can never loose the Tesla. If you aren't sure if what you want to do is allowed, Ahelp it!
+  DAGD позволяет многое из того, что обычно запрещено, но Теслу терять всё равно нельзя. Если не уверены, разрешено ли то, что вы хотите сделать, — спросите через Ahelp!
 
-  ## Appropriation
-  More often than not, you'll have to [italic][color=cyan]steal a possession of a department head.[/color][/italic]
+  ## Присвоение
+  Чаще всего вам придётся [italic][color=cyan]украсть вещь главы отдела.[/color][/italic]
 
-  The target may be in their office, or on their person. It may become necessary to kill whoever is carrying it, if you cannot pickpocket them.
+  Цель может быть в их офисе или при них. Может стать необходимым убить того, кто её несёт, если вы не можете обчистить его карманы.
 
-  Some of the things you may be tasked with include:
-  - Stealing the [color=yellow]Captain[/color]'s [bold]ID Card[/bold], [bold]antique laser pistol[/bold], [bold]jetpack[/bold], or [bold]nuclear authentication disk[/bold].
+  Среди вещей, которые вам могут поручить, есть:
+  - Кража у [color=yellow]Капитана[/color] [bold]ID-карты[/bold], [bold]антикварного лазерного пистолета[/bold], [bold]джетпака[/bold] или [bold]диска ядерной аутентификации[/bold].
   <Box>
     <GuideEntityEmbed Entity="CaptainIDCard" Caption=""/>
     <GuideEntityEmbed Entity="WeaponAntiqueLaser" Caption=""/>
     <GuideEntityEmbed Entity="JetpackCaptainFilled" Caption=""/>
     <GuideEntityEmbed Entity="NukeDisk" Caption=""/>
   </Box>
-  - Stealing the [color=#5b97bc]Chief Medical Officer[/color]'s [bold]hypospray[/bold] or [bold]handheld crew monitor[/bold].
+  - Кража у [color=#5b97bc]Главного врача[/color] [bold]гипоспрея[/bold] или [bold]ручного монитора экипажа[/bold].
   <Box>
     <GuideEntityEmbed Entity="Hypospray" Caption=""/>
     <GuideEntityEmbed Entity="HandheldCrewMonitorEmpty" Caption=""/>
   </Box>
-  - Stealing the [color=#c96dbf]Research Director[/color]'s [bold]experimental hardsuit[/bold] or [bold]hand teleporter[/bold].
+  - Кража у [color=#c96dbf]Научного руководителя[/color] [bold]экспериментального хардсьюта[/bold] или [bold]ручного телепортера[/bold].
   <Box>
     <GuideEntityEmbed Entity="ClothingOuterHardsuitRd" Caption=""/>
     <GuideEntityEmbed Entity="HandTeleporter" Caption=""/>
   <!-- Starlight Start - Energy Shotgun and SMG as objectives -->
   </Box>
-  - Stealing the [color=#cb0000]Head of Security[/color]'s [bold]Proto-5x[/bold].
+  - Кража у [color=#cb0000]Главы службы безопасности[/color] [bold]Прото-5x[/bold].
   <Box>
     <GuideEntityEmbed Entity="WeaponEnergyMagnum" Caption=""/>
   </Box>
-  - Stealing the [color=#cb0000]Warden[/color]'s [bold]energy shotgun[/bold].
+  - Кража у [color=#cb0000]Смотрителя[/color] [bold]энергетического дробовика[/bold].
   <Box>
     <GuideEntityEmbed Entity="WeaponEnergyMagnum" Caption=""/>
   <!-- Starlight End - Energy Shotgun and SMG as objectives -->
   </Box>
-  - Stealing the [color=#cb0000]Detective[/color]'s [bold]energy magnum[/bold]. <!-- Starlight - moved magnum to detective -->
+  - Кража у [color=#cb0000]Детектива[/color] [bold]энергетического магнума[/bold]. <!-- Starlight - moved magnum to detective -->
   <Box>
     <GuideEntityEmbed Entity="WeaponEnergyMagnum" Caption=""/>
   </Box>
-  - Stealing the [color=#f39f27]Chief Engineer[/color]'s [bold]advanced magboots[/bold].
+  - Кража у [color=#f39f27]Главного инженера[/color] [bold]продвинутых магбутсов[/bold].
   <Box>
     <GuideEntityEmbed Entity="ClothingShoesBootsMagAdv" Caption=""/>
   </Box>
-  - Stealing the [color=#b18644]Quartermaster[/color]'s [bold]requisition digi-board[/bold].
+  - Кража у [color=#b18644]Квартирмейстера[/color] [bold]реквизиционной диги-панели[/bold].
   <Box>
     <GuideEntityEmbed Entity="BoxFolderQmClipboard" Caption=""/>
   </Box>
-  - Butchering Ian, the [color=#9fed58]Head of Personnel[/color]'s dog, and obtaining the [bold]corgi meat[/bold].
+  - Зарезать Иана, пса [color=#9fed58]Главы персонала[/color], и добыть [bold]мясо корги[/bold].
   <Box>
     <GuideEntityEmbed Entity="MobCorgiIan" Caption=""/>
     <GuideEntityEmbed Entity="FoodMeatCorgi" Caption=""/>
   </Box>
 
-  ## Roleplay and Story Objectives
-  There are a number of ways to do your job as an antagonist, but some objectives are much more open ended than others. [bold]Story Objectives[/bold] are objectives that are designed to be more free-form and encourage you to complete them however you see fit. They are also often things that would be hard or impossible to track mechanically.
+  ## Ролевые и сюжетные задачи
+  Есть много способов выполнять свою работу антагониста, но некоторые задачи гораздо более открыты, чем другие. [bold]Сюжетные задачи[/bold] — это задачи, задуманные более свободными и побуждающие вас выполнять их так, как вы считаете нужным. Также это часто вещи, которые было бы сложно или невозможно отследить механически.
 
-  Because of this, all Story Objectives require you to [italic][color=cyan]make it to CentComm without being killed or captured.[/color][/italic]
+  Из-за этого все сюжетные задачи требуют от вас [italic][color=cyan]добраться до Central Command не убитым и не пленённым.[/color][/italic]
 
-  All Story Objectives are denoted by a bold green  [bold][color=green]'RP'[/bold][/color]  icon
+  Все сюжетные задачи помечены жирным зелёным значком [bold][color=green]'RP'[/bold][/color]
 
-  Story Objectives may ask you to:
-  - Recover captured Contraband from the Armory in [color=#cb0000]Security[/color]. Security often gathers a large amount of Contraband that they lock in the Armory, much of it being Syndicate in origin. Deprive the enemy of material, and recover it.
-  - Interrogate the [color=#1f78ff]NanoTrasen Representative[/color] and other Department Heads for [color=#9819ff]Corporate Secrets[/color]. A very risky objective, making using of disguises and Security gear to detain may be needed. Remember to turn off their coordinates or take them off-station to prevent trackers from finding them.
-  - Challenge people to duels, to the death or otherwise. Remember you need to escape to Central Command still, so murder isn't advised- unless you use this as a guise to get to a kill target that is. Consensual duels are the best excuse.
-  - Many many more!
+  Сюжетные задачи могут попросить вас:
+  - Вернуть захваченную контрабанду из оружейной [color=#cb0000]службы безопасности[/color]. Служба безопасности часто собирает большое количество контрабанды, которую запирает в оружейной, и многое из неё — синдикатовского происхождения. Лишите врага материальных средств и верните их.
+  - Допросить [color=#1f78ff]представителя NanoTrasen[/color] и других глав отделов ради [color=#9819ff]корпоративных секретов[/color]. Очень рискованная задача, может понадобиться использование маскировки и снаряжения службы безопасности для задержания. Не забудьте выключить их координаты или увезти их со станции, чтобы трекеры их не нашли.
+  - Вызывать людей на дуэли, до смерти или иначе. Помните, что вам всё ещё нужно сбежать на Central Command, так что убийства не советуются — разве что вы используете это как предлог добраться до цели на убийство. Дуэли по согласию — лучший предлог.
+  - И многое-многое другое!
 
 
-  [bold]A few more tips:[/bold]
-  - What makes fun roleplay always reigns supreme.
-  - If you aren't sure if you would be allowed to do something, Ahelp it. Admins will usually allow things that border on or even cross the line, if its done in an MRP way that makes good Roleplay!
-  - You can [bold]EMAG[/bold] any Fax Machine to unlock the Syndicate Fax. If you need to pass information on to the Syndicate for an objective but won't make it out alive, this can be an alternative way to do that.
-  - Other antagonists aren't always trustworthy, even fellow Traitors. They could be assigned to kill [bold]you[/bold].
+  [bold]Ещё несколько советов:[/bold]
+  - Весёлый отыгрыш всегда превыше всего.
+  - Если не уверены, разрешено ли вам что-то сделать, спросите через Ahelp. Администраторы обычно разрешают вещи на грани или даже за гранью, если это сделано MRP-шно и создаёт хороший отыгрыш!
+  - Вы можете [bold]взломать ЕМАГом[/bold] любой факс, чтобы разблокировать факс Синдиката. Если вам нужно передать информацию Синдикату для задачи, но вы не выберетесь живым, это может быть альтернативным способом сделать это.
+  - Другим антагонистам не всегда можно доверять, даже товарищам-предателям. Им могут поручить убить [bold]вас[/bold].
 
 
 </Document>

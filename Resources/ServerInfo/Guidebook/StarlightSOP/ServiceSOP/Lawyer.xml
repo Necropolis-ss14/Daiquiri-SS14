@@ -1,15 +1,15 @@
 <Document>
-# Lawyer
+# Юрист
 
 <GuideEntityEmbed Entity="ToyFigurineLawyer" Caption="Lawyer"/>
 
-1. Lawyers report directly to the Head of Personnel.
+1. Юристы подчиняются напрямую Главе персонала.
 
-2. Lawyers must report to court when summoned for a trial, and are expected to provide legal counsel to their clients, and other duties as assigned.
+2. Юристы должны являться в суд при вызове на процесс, оказывать юридическую помощь клиентам и выполнять другие назначенные обязанности.
 
-3. When arbitrating petty disputes between Central Command-employed personnel, Lawyers are expected to be impartial and provide fair mediation to all parties involved.
+3. При арбитраже мелких споров между сотрудниками, нанятыми Central Command, юристы должны быть беспристрастны и обеспечивать честное посредничество всем сторонам.
 
-4. Unless requested by a member of Security or Command, Lawyers are not expected to involve themselves in the legal matters of prisoners outside of plea bargains, and must defer to Internal Affairs Agents in these matters.
+4. Если не попросит член службы безопасности или командования, юристы не должны вмешиваться в юридические дела заключённых вне сделок о признании вины и должны уступать агентам внутренних дел в этих вопросах.
 
-5. The Head of Personnel retains the right to dismiss a Lawyer from their position immediately, without need for justification or a dismissal form.
+5. Глава персонала сохраняет право немедленно уволить юриста с должности без необходимости обоснования или формы увольнения.
 </Document>

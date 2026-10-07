@@ -21,7 +21,7 @@ marking-SlimeLungs-lungs = Lungs
 
 # Head
 
-marking-FadingStars = Fading Starlight
+marking-FadingStars = Fading Daiquiri
 marking-FadingStars-fadingstars1 = Brightest
 marking-FadingStars-fadingstars2 = Middling
 marking-FadingStars-fadingstars3 = Darkest

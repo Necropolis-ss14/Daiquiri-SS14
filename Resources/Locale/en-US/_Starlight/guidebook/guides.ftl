@@ -1,4 +1,4 @@
-guide-entry-sl-rules = Server rules: STARLIGHT
+guide-entry-sl-rules = Server rules: DAIQUIRI
 guide-entry-sl-rule-1 = Rule 1
 guide-entry-sl-rule-2 = Rule 2
 guide-entry-sl-rule-3 = Rule 3

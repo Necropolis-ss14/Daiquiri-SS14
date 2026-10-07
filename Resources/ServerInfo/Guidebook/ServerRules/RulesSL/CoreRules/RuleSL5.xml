@@ -1,32 +1,32 @@
 <Document>
- # Rule 5 – Antagonists Must Follow MRP Logic
- Antagonists should only take antagonistic actions that directly advance their objectives.
- [color=red]Failure to do so may be considered a breach of MRP logic and result in punishment.[/color]
- Team antagonists [bold]must[/bold] work with their team, and follow the orders of their leaders where possible (Revolutionaries, Terror spiders, etc…).
+ # Правило 5 — Антагонисты обязаны следовать логике MRP
+  Антагонисты должны совершать лишь те антагонистические действия, которые напрямую продвигают их цели.
+  [color=red]Несоблюдение может считаться нарушением логики MRP и привести к наказанию.[/color]
+  Командные антагонисты [bold]обязаны[/bold] работать с командой и по возможности выполнять приказы лидеров (революционеры, террор-пауки и т.д.).
 
-Antagonists are required to follow escalation rules when not dealing with named objective targets, and should [italic]attempt[/italic] to remain hidden and undiscovered throughout the shift if they have the “Escape to CentComm alive and unrestrained” or similar objective.
+Антагонисты обязаны следовать правилам эскалации, когда дело не касается именных целей, и должны [italic]пытаться[/italic] оставаться скрытыми и необнаруженными всю смену при цели «Сбежать на Central Command живым и несвязанным» или подобной.
 
-Should an antagonist have been discovered by accident or by admission of another antagonist, they are not required to remain hidden any longer, however they should not use this as an excuse to mass RDM or break other server rules. “Going Loud” as a traditionally stealth antagonist doesn’t mean hunting all of security - rather, enables public self-defense.
+Если антагонист раскрыт случайно или по признанию другого антагониста, скрываться больше не обязан, однако нельзя использовать это как повод для массового RDM и нарушения других правил. «Выход в громкий режим» за традиционно скрытного антагониста — не охота на всю службу безопасности, а возможность публичной самообороны.
 
-Antagonists that may play openly from the start of the round, and are not required to escalate their actions are listed below. These antagonists should not deviate from their objectives to murder everyone on station,[bold] but should follow their objectives: [/bold]
-- Space Dragon
-- Nuclear Operatives / Lone Operatives
-- Wizard
-- Rat King
-- Conversion Antagonists (such as Revolutionaries, Xenoborgs, and Cultists) after gaining sufficient strength to overthrow the station
+Антагонисты, которые могут играть открыто с начала раунда и не обязаны эскалировать действия, перечислены ниже. Эти антагонисты не должны отклоняться от целей ради убийства всех на станции, [bold]а должны следовать своим целям: [/bold]
+- Космический дракон
+- Ядерные оперативники / Одинокие оперативники
+- Волшебник
+- Крысиный король
+- Конверсионные антагонисты (такие как революционеры, ксеноборги и культисты) после набора достаточной силы для свержения станции
 
-Antagonists may not take actions that directly counter their core mechanics or objectives.
-A dragon should not intentionally light a plasma/tritium fire, Wizards should not make every effort to stay hidden, Traitors without DAGD must not align with Nuclear/Lone Operatives.
+Антагонисты не вправе совершать действия, прямо противоречащие их механикам или целям.
+Дракон не должен намеренно устраивать плазменный/тритиевый пожар, волшебники не должны изо всех сил прятаться, предатели без DAGD не должны объединяться с ядерными/одинокими оперативниками.
 
-Evacuation Shuttle bombing, ramming, or otherwise mass sabotage is forbidden.
-However, antagonists may attempt to complete their objectives on the shuttle before it launches.
-Once the end of round screen has appeared, all antagonistic activity must cease, and they should attempt to escape or blend in with the crew.
-Exception provided for Nuclear/Lone Operatives when the Nuke Disk is on the shuttle.
+Взрыв, таран эвакуационного шаттла и иной массовый саботаж запрещены.
+Однако антагонисты могут пытаться выполнить цели на шаттле до его запуска.
+После появления экрана конца раунда вся антагонистическая активность должна прекратиться, следует попытаться сбежать или затеряться среди экипажа.
+Исключение — ядерные/одинокие оперативники, когда диск на шаттле.
 
-## Zombies
-Initial Infected are allowed to sabatoge the station as long as they follow all server rules. However, once you are a zombie:
-- You may only destroy the station to reach living organisms you can see or hear.
-- You may not attack lights, power infrastructure, atmos pipes or devices
-- Cyborgs are not valid targets unless they are attacking you or pulling food away from you.
+## Зомби
+Первоначальным заражённым разрешено саботировать станцию при соблюдении всех правил сервера. Однако став зомби:
+- Вы можете разрушать станцию только чтобы добраться до живых существ, которых видите или слышите.
+- Нельзя атаковать освещение, энергоинфраструктуру, атмосферные трубы и устройства
+- Киборги — невалидные цели, если они не атакуют вас и не утаскивают еду от вас.
 
 </Document>

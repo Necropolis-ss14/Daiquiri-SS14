@@ -1,10 +1,10 @@
 <Document>
-  # Engineering
-  [color=#f39f27]Engineering[/color] is a combination of [textlink="construction" link="Construction"] work, [textlink="repair" link="ExpandingRepairingStation"] work, maintaining a death machine that happens to produce [textlink="power" link="Power"], and making sure the station contains [textlink="breathable air" link="Atmospherics"].
+  # Инженерия
+  [color=#f39f27]Инженерия[/color] — это сочетание [textlink="строительных" link="Construction"] работ, [textlink="ремонтных" link="ExpandingRepairingStation"] работ, обслуживания машины смерти, которая по случаю производит [textlink="энергию" link="Power"], и обеспечения того, чтобы на станции был [textlink="пригодный для дыхания воздух" link="Atmospherics"].
 
-  ## Personnel
-  [color=#f39f27]Engineering[/color]'s staff is made up of Technical Assistants, Station Engineers and Atmospheric Technicians.
-  Engineering is run by the Chief Engineer.
+  ## Персонал
+  Персонал [color=#f39f27]инженерии[/color] состоит из технических ассистентов, инженеров станции и атмосферных техников.
+  Инженерией руководит старший инженер.
 
   <Box>
     <GuideEntityEmbed Entity="ToyFigurineEngineer" Caption="Engineer"/>
@@ -12,7 +12,7 @@
     <GuideEntityEmbed Entity="ToyFigurineChiefEngineer" Caption="CE"/>
   </Box>
 
-  ## Tools
+  ## Инструменты
   <Box>
     <GuideEntityEmbed Entity="Wrench"/>
     <GuideEntityEmbed Entity="Crowbar"/>
@@ -24,8 +24,8 @@
     <GuideEntityEmbed Entity="Multitool"/>
     <GuideEntityEmbed Entity="NetworkConfigurator"/>
   </Box>
-  Your core toolset is a small variety of tools.
-  If you're an engineer, then you should have a belt on your waist containing one of each; if not, you can likely find them in maintenance shafts and in tool storage within assorted toolboxes and vending machines.
+  Ваш базовый набор инструментов — это небольшой набор инструментов.
+  Если вы инженер, то на поясе у вас должен быть ремень с каждым из них; если нет, их, скорее всего, можно найти в технических тоннелях и в хранилищах инструментов в разных ящиках и автоматах.
 
-  Most tasks will have explainers for how to perform them on examination; for example, if you're [textlink="constructing" link="Construction"] a wall, it'll tell you the next step if you look at it a bit closer.
+  У большинства задач будут пояснения по выполнению при осмотре; например, если вы [textlink="строите" link="Construction"] стену, она подскажет следующий шаг, если присмотреться повнимательнее.
 </Document>

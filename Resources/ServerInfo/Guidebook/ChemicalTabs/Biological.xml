@@ -1,8 +1,8 @@
 <Document>
 
-# Biological
+# Биологические
 
-These reagents include chemicals that you can get from certain materials and from living things. To get the other chemicals you have to use machines like the electrolyzer and the centrifuge.
+Сюда входят реагенты, которые можно получить из определённых материалов и живых существ. Чтобы получить остальные химикаты, придётся использовать такие машины, как электролизёр и центрифуга.
 
 <GuideReagentGroupEmbed Group="Biological"/>
 

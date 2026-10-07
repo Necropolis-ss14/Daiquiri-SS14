@@ -1,7 +1,7 @@
 <Document>
-  # Species
+  # Виды
 
-  NanoTrasen employs a variety of sapient species.
+  NanoTrasen нанимает разнообразные разумные виды.
 
 <!-- Starlight start, reorganizing all of this alphabetically-->
   <Box>
@@ -32,7 +32,7 @@
   <GuideEntityEmbed Entity="AppearanceVox" Caption="Vox"/>
   <GuideEntityEmbed Entity="AppearanceVulpkanin" Caption="Vulpkanin"/>
   <GuideEntityEmbed Entity="AppearanceNeocyte" Caption="Neocyte"/> <!--FH-->
-  <GuideEntityEmbed Entity="AppearanceIPC" Caption="IPC"/> <!--FH-->
+  <GuideEntityEmbed Entity="AppearanceIPC" Caption="КПБ"/> <!--FH-->
   </Box>
 <!-- Starlight end, reorganizing all of this alphabetically-->
 </Document>

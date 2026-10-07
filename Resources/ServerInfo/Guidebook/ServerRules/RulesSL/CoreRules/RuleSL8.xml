@@ -1,30 +1,30 @@
 <Document>
- # Rule 8 – No Validhunting
- Non-security personnel should not attempt to stop or hunt down antagonists on their own.
- This goes against a character’s logical roleplay expectations. Security officers and ERT are responsible for protecting the station, and should be contacted whenever reasonable.
- Officer "Blue Shields" are [bold]not[/bold] considered Security Officers, and may not go out of their way to chase potential threats to the detriment of their charges.
+ # Правило 8 — Запрещён валидхант
+  Не сотрудники службы безопасности не должны сами останавливать или выслеживать антагонистов.
+  Это противоречит логичным ролевым ожиданиям от персонажа. Офицеры безопасности и ОБР отвечают за защиту станции, к ним следует обращаться всегда, когда разумно.
+  Офицеры «Синие щиты» [bold]не[/bold] считаются офицерами безопасности и не вправе гнаться за потенциальными угрозами в ущерб подзащитным.
 
-Exceptions will be made for life-or-death scenarios, station-wide threats such as nuclear operatives, and self-defense.
+Исключения делаются для сценариев жизни и смерти, общестанционных угроз вроде ядерных оперативников и самообороны.
 
-Artificial Intelligence (AI) should not actively hunt antagonists or immediately attempt to shut them down unless their laws permit it or immediate crew harm has been detected.
-AI behavior should remain reactive rather than proactively searching for threats.
+Искусственный интеллект (ИИ) не должен активно охотиться на антагонистов или сразу пытаться их отключить, если законы не позволяют или не обнаружен немедленный вред экипажу.
+Поведение ИИ должно оставаться реактивным, а не проактивно искать угрозы.
 
-Command should not facilitate valid hunting outside of necessity and should ask security regarding such.
+Командование не должно способствовать валидханту вне необходимости и должно спрашивать об этом службу безопасности.
 
-[bold]Examples of Validhunting:[/bold]
+[bold]Примеры валидханта:[/bold]
 
-- As a Salvage Specialist, buying guns and boarding the station to eliminate Traitors/Changelings/Vampire without orders to do so from Command.
-- As an Officer "Blue Shield", chasing an antagonist through maintenance, leaving Command or NT Employees unprotected.
-- As an Officer "Blue Shield", chasing a wizard who has not harmed any command members into space.
-- As Research Director, ordering a Scientist to hunt a traitor who just killed the Head of Personnel when Security is fully manned and able to handle the situation.
-- As an assistant, chasing a traitor into maintenance who you saw attack someone else 10 minutes ago.
-- As an assistant, chasing a traitor into maintenance who you saw wearing syndicate contraband.
+- Будучи специалистом по утилизации, покупать оружие и высаживаться на станцию, чтобы устранить предателей/генокрадов/вампиров без приказов командования.
+- Будучи офицером «Синий щит», гнаться за антагонистом по техтоннелям, оставляя командование и сотрудников NanoTrasen без защиты.
+- Будучи офицером «Синий щит», гнаться в космос за волшебником, не навредившим членам командования.
+- Будучи научным руководителем, приказывать учёному охотиться на предателя, только что убившего Главу персонала, когда служба безопасности полностью укомплектована и способна справиться.
+- Будучи ассистентом, гнаться за предателем в техтоннели, которого видели атакующим кого-то 10 минут назад.
+- Будучи ассистентом, гнаться за предателем в техтоннели, на котором видели синдикатскую контрабанду.
 
-[bold] Examples of this rule being followed:[/bold]
-- As a Salvage Specialist, boarding the station to eliminate station-wide threats ONLY after being asked to assist.
-- As an Officer "Blue Shield", defending a command or NT employee from an antagonist until they retreat or you crit them.
-- As an Officer "Blue Shield", chasing a wizard into space who has stolen the body of a command member to their ship.
-- As an assistant, reporting a person you saw wearing contraband over the radio.
-- As an assistant, defending yourself or another person from an attacker until they retreat or you crit them.
+[bold] Примеры соблюдения правила:[/bold]
+- Будучи специалистом по утилизации, высаживаться на станцию для устранения общестанционных угроз ТОЛЬКО после просьбы помочь.
+- Будучи офицером «Синий щит», защищать члена командования или сотрудника NanoTrasen от антагониста, пока тот не отступит или не впадёт в крит.
+- Будучи офицером «Синий щит», гнаться в космос за волшебником, укравшим тело члена командования на свой корабль.
+- Будучи ассистентом, сообщать по радио о человеке в контрабанде.
+- Будучи ассистентом, защищать себя или другого от нападающего, пока тот не отступит или не впадёт в крит.
 
 </Document>

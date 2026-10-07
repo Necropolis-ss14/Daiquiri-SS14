@@ -1,19 +1,19 @@
 <Document>
 
-  ## Implantation
-  Any prisoner in custody can be subjected to implantation or implant removal procedures, so long as it's within reason Check [textlink="Metashield" link="Metashield"]. The process of adding an implant should not prolong the detainees sentence, meaning you can not hold them longer to administer the implant, unless stated otherwise. A former inmate can be requested to undergo implantation at a later point in time if they fit the circumstances during their confinement, they must comply. The following have been listed out with special circumstances, anything not in this list can still be applied, given proper legal context. A prisoner can still receive implantation procedures without meeting the circumstances if they give their clear permission.
+  ## Имплантация
+  Любой заключённый под стражей может быть подвергнут процедурам имплантации или удаления имплантов, пока это в разумных пределах. Проверь [textlink="метащит" link="Metashield"]. Процесс добавления импланта не должен продлевать приговор задержанного, то есть ты не можешь держать его дольше, чтобы поставить имплант, если не указано иное. Бывшего заключённого могут попросить пройти имплантацию позже, если во время заключения он подходил под обстоятельства, он обязан подчиниться. Ниже перечислены особые обстоятельства, всё не из этого списка всё равно может применяться при надлежащем правовом основании. Заключённый всё равно может пройти процедуры имплантации без соответствия обстоятельствам, если даст своё чёткое разрешение.
 
-  [color=#a4885c]Illegal Implants:[/color] Applied without proper authorization, these implants may justify extensions if removal is required.
+  [color=#a4885c]Нелегальные импланты:[/color] Установленные без надлежащего разрешения, эти импланты могут оправдать продление срока, если требуется удаление.
 
-  [color=#a4885c]Tracking Implants:[/color] Trackers can be applied to any suspect that has been convicted of a violent crime (the red linked crimes).
-  - If voluntary or deemed necessary Command Staff should be given Tracking Implants.
-  - If voluntary and approved by Warden or Head of Security, normal members of the crew may also be granted Tracking Implants.
+  [color=#a4885c]Отслеживающие импланты:[/color] Трекеры могут применяться к любому подозреваемому, осуждённому за насильственное преступление (красные связанные преступления).
+  - Если добровольно или признано необходимым, командному составу должны выдаваться отслеживающие импланты.
+  - Если добровольно и одобрено Смотрителем или Главой службы безопасности, обычным членам экипажа также могут выдаваться отслеживающие импланты.
 
-  [color=#a4885c]Mind Shields:[/color] Shields can be administered to any inmate who has been clearly mind controlled, lost control of themselves, or a suspect charged with unlawful control. Unlike standard implantation you may hold a prisoner until you finish issuing Mind Shields, so long as it's done in a timely fashion.
-  - If a suspect refuses to cooperate or the implant fails to function they can be charged with Refusal of Mental Shielding.
-  - All promoted members of Security, Command, and Salvage must undergo Mind Shielding before they are formally promoted and granted accesses. Anyone given ID access to secure areas, such as the Bridge, must also undergo Mind Shielding.
+  [color=#a4885c]Ментальные щиты:[/color] Щиты могут выдаваться любому заключённому, который явно находился под контролем разума, потерял контроль над собой, или подозреваемому, обвинённому в незаконном контроле. В отличие от стандартной имплантации, ты можешь держать заключённого, пока не закончишь выдачу ментальных щитов, пока это делается своевременно.
+  - Если подозреваемый отказывается сотрудничать или имплант не работает, его можно обвинить в Отказе от ментального экранирования.
+  - Все повышенные члены Службы безопасности, Командования и Сальважа должны пройти ментальное экранирование до формального повышения и выдачи доступов. Любой, кому выдан доступ по ID в защищённые зоны, такие как мостик, также должен пройти ментальное экранирование.
 
-  A suspect can be forced to receive implant removal if there is strong, reasonable proof that they have been implanted, such as an officer seeing them use one or identifying information is found on a discarded injector. Unlike the implantation procedure, a prisoner can have their sentence entirely delayed or extended until they comply with the procedure with authorization from the Captain, Head of Security, Magistrate, or Warden. Akin to implanting, if an inmate gives their clear permission, implant removal can proceed without proof.
+  Подозреваемого можно заставить пройти удаление импланта, если есть веские разумные доказательства, что он был имплантирован, например офицер видел, как он его использует, или опознавательная информация найдена на выброшенном инъекторе. В отличие от процедуры имплантации, приговор заключённого может быть полностью отложен или продлён, пока он не подчинится процедуре, с разрешения Капитана, Главы службы безопасности, Магистрата или Смотрителя. Подобно имплантации, если заключённый даёт своё чёткое разрешение, удаление импланта может проводиться без доказательств.
 
-  During a confirmed Revolution, the Head of Security or Warden are permitted to authorize execution of an individual if a Mind Shielding fails or is refused. No other officers are granted this authorization. Execution of those charged with Refusal of Mental Shielding outside of a confirmed Revolution must be authorized by the Captain or Central Command on a case by case basis every time it happens.
+  Во время подтверждённой революции Главе службы безопасности или Смотрителю разрешено санкционировать казнь человека, если ментальное экранирование не сработало или от него отказались. Никаким другим офицерам это разрешение не даётся. Казнь тех, кто обвинён в Отказе от ментального экранирования вне подтверждённой революции, должна разрешаться Капитаном или Central Command в каждом отдельном случае каждый раз, когда это происходит.
 </Document>

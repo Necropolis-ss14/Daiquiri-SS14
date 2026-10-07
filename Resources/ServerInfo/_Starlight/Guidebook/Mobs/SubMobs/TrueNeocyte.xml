@@ -1,16 +1,16 @@
 <Document>
-  # True Neocyte
+  # Истинный неоцит
 
   <Box>
     <GuideEntityEmbed Entity="AppearanceNeocyte" Caption=""/>
   </Box>
 
-  What's a "True Neocyte", you ask? At what point of replaced limbs and organs do you no longer consider yourself to be the same as when you started?
-  Whatever your original species actually was, you've long cast it away, and embraced your current self as your own successor.
+  Что такое «Истинный неоцит», спросите вы? На каком этапе заменённых конечностей и органов вы перестаёте считать себя тем же, кем были в начале?
+  Каким бы ни был ваш исходный вид на самом деле, вы давно отбросили его и приняли своё нынешнее я как собственного преемника.
 
-  Search for a hope and a future. Find your own answer.
+  Ищите надежду и будущее. Найдите свой собственный ответ.
 
-  ## Resistances
-  - Receive [color=#ffa500]20% more heat damage[/color], [color=#8147ff]25% more shock damage[/color], and [color=#FF3636]10% more blunt damage[/color].
-  - Receive [color=#1e90ff]50% less cold damage[/color].
+  ## Сопротивления
+  - Получают [color=#ffa500]на 20% больше теплового урона[/color], [color=#8147ff]на 25% больше урона шоком[/color] и [color=#FF3636]на 10% больше тупого урона[/color].
+  - Получают [color=#1e90ff]на 50% меньше урона от холода[/color].
 </Document>

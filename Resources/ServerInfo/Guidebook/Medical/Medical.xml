@@ -1,9 +1,9 @@
 <Document>
-# Medical
-This is the department where people go to when they're hurt, it's up to the folks working here to fix them.
+# Медицина
+Это отдел, куда идут люди, когда им больно, и задача работающих здесь — их чинить.
 
-## Personnel
-[color=#5b97bc]Medical[/color]'s staff is made up of Medical Interns, Medical Doctors, Paramedics and Chemists. [color=#5b97bc]Medical[/color] is run by the Chief Medical Officer.
+## Персонал
+Персонал [color=#5b97bc]медицины[/color] состоит из интернов, врачей, парамедиков и химиков. [color=#5b97bc]Медициной[/color] руководит главный врач.
 
   <Box>
     <GuideEntityEmbed Entity="ToyFigurineMedicalDoctor" Caption="Doctor"/>
@@ -12,9 +12,9 @@ This is the department where people go to when they're hurt, it's up to the folk
     <GuideEntityEmbed Entity="ToyFigurineChiefMedicalOfficer" Caption="CMO"/>
   </Box>
 
-Right now, medbay is divided into two different sets of care:
+Прямо сейчас медбей разделён на два разных вида помощи:
 
-## Medical Treatment
+## Лечение
   <Box>
     <GuideEntityEmbed Entity="Brutepack"/>
     <GuideEntityEmbed Entity="Bloodpack"/>
@@ -22,7 +22,7 @@ Right now, medbay is divided into two different sets of care:
     <GuideEntityEmbed Entity="Gauze"/>
     <GuideEntityEmbed Entity="HandheldHealthAnalyzer"/>
   </Box>
-## Chemical Production
+## Производство химикатов
   <Box>
     <GuideEntityEmbed Entity="ChemDispenser"/>
     <GuideEntityEmbed Entity="LargeBeaker"/>

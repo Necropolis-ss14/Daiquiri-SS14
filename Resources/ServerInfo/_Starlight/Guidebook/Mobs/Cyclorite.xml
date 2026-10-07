@@ -1,39 +1,39 @@
 <Document>
-  # Cyclorite
+  # Циклорит
 
   <Box>
     <GuideEntityEmbed Entity="MobCyclorite" Caption=""/>
   </Box>
 
-These intelligent inhabitants of the Abyss are emotionally reserved and have a single large eye instead of a face. They are strong but slow.
+Эти разумные обитатели Бездны эмоционально сдержанны и имеют один большой глаз вместо лица. Они сильные, но медленные.
 
-  ## Racial Features
-  - Their punches deal [color=red]13[/color] blunt and [color=red]10[/color] structural, however they can only swing half as fast as humans.
-  - They can disarm with their punches twice as likely for 50 stamina damage, but still only twice as slow.
-  - They walk [color=red]15%[/color] slower than that of humans.
-  - They fall into a critical state at [color=lightgreen]150[/color] points of damage.
-  - They die at [color=lightgreen]300[/color] points of damage.
-  - They breathe nitrogen.
-  - They take [color=#ffa500]15% less blunt damage[/color] and [color=#ffa500]30% less slash damage[/color] than a comparable human.
-  - They take twice as long to stand up from prone and double the stamina to push themselves up.
-  - Due to their size, they stretch external clothing to such an extent that they can fit [color=yellow]two suit items[/color] on their back.
-  - Their eyes are less sensitive to red colors but provide better vision in the dark.
+  ## Расовые особенности
+  - Их удары наносят [color=red]13[/color] тупого и [color=red]10[/color] структурного урона, однако они могут бить лишь вдвое медленнее людей.
+  - Они могут обезоруживать своими ударами с удвоенным шансом на 50 урона выносливости, но всё равно вдвое медленнее.
+  - Они ходят на [color=red]15%[/color] медленнее людей.
+  - Они впадают в критическое состояние при [color=lightgreen]150[/color] единицах урона.
+  - Они умирают при [color=lightgreen]300[/color] единицах урона.
+  - Они дышат азотом.
+  - Они получают [color=#ffa500]на 15% меньше тупого урона[/color] и [color=#ffa500]на 30% меньше режущего урона[/color], чем сопоставимый человек.
+  - Им требуется вдвое больше времени, чтобы встать из лежачего положения, и вдвое больше выносливости, чтобы подняться.
+  - Из-за своего размера они растягивают внешнюю одежду до такой степени, что могут надеть [color=yellow]два предмета костюма[/color] на спину.
+  - Их глаза менее чувствительны к красным цветам, но обеспечивают лучшее зрение в темноте.
 
-  ## Poison and Medicine Changes
-  Cyclorites suffer from metabolism issues that hinder them when injected with either medicines or toxins.
+  ## Изменения ядов и лекарств
+  Циклориты страдают от проблем с метаболизмом, которые мешают им при введении лекарств или токсинов.
 
-  - Medicine is metabolised at [color=yellow]half strength[/color] meaning making medicines leave the bloodstream twice as fast.
+  - Лекарства метаболизируются с [color=yellow]половинной силой[/color], то есть лекарства выводятся из кровотока вдвое быстрее.
 
-  [color=#999999][italic]Medicine that metabolise at [bold]0.5 units[/bold] per tick will instead metabolise [bold]1 unit[/bold] per tick. Healing amounts are not changed.[italic][/color]
-  - Poisons metabolise at [color=yellow]double strength[/color] making them last in their bloodstreams twice as long.
+  [color=#999999][italic]Лекарства, которые метаболизируют по [bold]0.5 единиц[/bold] за тик, вместо этого будут метаболизировать по [bold]1 единице[/bold] за тик. Объёмы лечения не изменены.[italic][/color]
+  - Яды метаболизируются с [color=yellow]двойной силой[/color], из-за чего они остаются в их кровотоке вдвое дольше.
 
-  [color=#999999][italic]Poisons that metabolise at [bold]0.5 units[/bold] per tick will instead metabolise [bold]0.25 units[/bold] per tick. Poison damage or effects are not changed.[italic][/color]
+  [color=#999999][italic]Яды, которые метаболизируют по [bold]0.5 единиц[/bold] за тик, вместо этого будут метаболизировать по [bold]0.25 единиц[/bold] за тик. Урон или эффекты яда не изменены.[italic][/color]
 
-  ## Resistance to Movement Speed Changes
-  Cyclorites being heavy and strong are [color=yellow]50%[/color] less affected by ailments and clothing that [color=yellow]increase or decrease[/color] their speed. Cyclorites are still slowed [color=yellow]100%[/color] from damage.
+  ## Сопротивление изменениям скорости передвижения
+  Циклориты, будучи тяжёлыми и сильными, на [color=yellow]50%[/color] меньше подвержены недугам и одежде, которые [color=yellow]увеличивают или уменьшают[/color] их скорость. Циклориты всё равно замедляются на [color=yellow]100%[/color] от урона.
 
-  [color=#999999][italic]Speed decreases such as a hardsuit that slows them down by [bold]30%[/bold] only slows them down by [bold]15%[/bold][/color][/italic]
+  [color=#999999][italic]Замедления, такие как скафандр, замедляющий их на [bold]30%[/bold], замедляет их только на [bold]15%[/bold][/color][/italic]
 
-  [color=#999999][italic]Speed increases such as speed boots that speed you up by [bold]50%[/bold] only speed you up by [bold]25%[/bold][/color][/italic]
+  [color=#999999][italic]Ускорения, такие как скоростные ботинки, ускоряющие вас на [bold]50%[/bold], ускоряют их только на [bold]25%[/bold][/color][/italic]
 
 </Document>

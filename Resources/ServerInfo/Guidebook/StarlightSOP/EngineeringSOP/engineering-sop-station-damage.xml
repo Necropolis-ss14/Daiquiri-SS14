@@ -1,13 +1,13 @@
 <Document>
-# Station Damage
+# Повреждения станции
 
 <GuideEntityEmbed Entity="MeteorLarge" Caption="A big scary meteor!"/>
 
-1. Damage to the bridge, evac, arrivals and secure areas should be prioritized for repairs. Following these areas is the medical and the security departments.
+1. Повреждения мостика, эвакуации, прибытия и охраняемых зон должны ремонтироваться в первую очередь. После этих зон следуют медицинский отдел и отдел безопасности.
 
-2. Should repairs be required with no appropriate personnel around, engineering personnel may hack doors to repair the area. These doors must be returned to their original condition once repairs are complete.
+2. Если требуется ремонт при отсутствии соответствующего персонала, инженерный персонал может взламывать двери для ремонта участка. Эти двери должны быть возвращены в исходное состояние после завершения ремонта.
 
-3. Should no station damage be present, Engineers may take on solo projects, reconstructions or shuttle building.
+3. При отсутствии повреждений станции инженеры могут заниматься одиночными проектами, реконструкцией или строительством шаттлов.
 
-4. Security should be contacted to establish a perimeter around especially damaged areas of the station.
+4. Следует связаться со службой безопасности для установления периметра вокруг особо повреждённых участков станции.
 </Document>

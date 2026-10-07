@@ -1,10 +1,10 @@
 <Document>
-# Brigmedic
+# Бригмедик
 
 <GuideEntityEmbed Entity="ToyFigurineSecurity" Caption="Brigmedic"/>
 
 - 1.\n
-Standard [color=#00a933]Code Green[/color] equipment is:
+Стандартное снаряжение при [color=#00a933]Зелёном коде[/color]:
 
 <Box>
 	<GuideEntityEmbed Entity="MedkitAdvancedFilled"/>
@@ -22,7 +22,7 @@ Standard [color=#00a933]Code Green[/color] equipment is:
 </Box>
 <Box>
 	<GuideEntityEmbed Entity="CombatKnife"/>
-	in
+	в
 	<GuideEntityEmbed Entity="ClothingShoesBootsJack"/>
 </Box>
 <Box>
@@ -31,17 +31,17 @@ Standard [color=#00a933]Code Green[/color] equipment is:
 </Box>
 
 - 2.\n
-The Brigmedic is not to perform the duties of the Security Officer, but may engage if transgressions occur in their immediate vicinity.
+Бригмедик не должен выполнять обязанности офицера службы безопасности, но может вмешиваться при нарушениях в непосредственной близости.
 
 - 3.\n
-The Brigmedic is obligated to lend medical assistance to the following Crew Assets, in order of importance:\n\n
-3.1 Members of Command\n
-3.2 Members of Security\n
-3.3 Prisoners and detainees
+Бригмедик обязан оказывать медицинскую помощь следующим активам экипажа в порядке важности:\n\n
+3.1 Члены командования\n
+3.2 Сотрудники службы безопасности\n
+3.3 Заключённые и задержанные
 
 - 4.\n
-The Brigmedic is not obligated to lend aid to regular crew, but may do so if they have the time and resources.
+Бригмедик не обязан помогать обычному экипажу, но может делать это при наличии времени и ресурсов.
 
 - 5.\n
-The Brigmedic is not to put themselves in harm's way unless there is no other choice.
+Бригмедик не должен подвергать себя опасности, если нет иного выбора.
 </Document>

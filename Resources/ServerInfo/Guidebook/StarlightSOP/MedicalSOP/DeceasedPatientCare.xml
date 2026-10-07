@@ -1,22 +1,22 @@
 <Document>
-# Deceased Patient Care
+# Уход за умершими пациентами
 
 <GuideEntityEmbed Entity="Morgue" Caption="Deceased Patient Care"/>
 
-1. Patients should be triaged by level of rot.
+1. Пациентов следует сортировать по уровню разложения.
 
-2. Patients who are in advanced stages of rot should be placed into stasis beds or body bags.
+2. Пациенты на поздних стадиях разложения должны помещаться в стазис-кровати или мешки для трупов.
 
-3. Patients who are not being treated should be stored in the morgue until sufficient resources can be diverted to revive them.
+3. Пациенты, не получающие лечения, должны храниться в морге до тех пор, пока не удастся выделить достаточно ресурсов для их оживления.
 
-4. Patients who become unrevivable or are deemed unrevivable require a [italic]morgue report[/italic] filled out with:
-- 1. Patient name.
-- 2. Patient job.
-- 3. Approximate time of death/DNR approval.
-- 4. Reason for DNR status (only if DNR).
-- 5. Chief Medical Officer's stamp for approval.
+4. Пациенты, ставшие невосстановимыми или признанные невосстановимыми, требуют заполненного [italic]отчёта морга[/italic] с указанием:
+- 1. Имя пациента.
+- 2. Должность пациента.
+- 3. Приблизительное время смерти/одобрение DNR.
+- 4. Причина статуса DNR (только если DNR).
+- 5. Штамп Главного врача для одобрения.
 
-5. Should a corpse become unclonable, it must be annotated on the appropriate DNR sheet and then stamped by the Chief Medical Officer.
+5. Если труп становится неклонируемым, это должно быть отмечено в соответствующем листе DNR и заверено штампом Главного врача.
 
-6. Unclonable corpses, including those whose soul has moved on, may be operated on or placed into the biomass reclaimer.
+6. Неклонируемые трупы, включая те, чья душа отошла, могут оперироваться или помещаться в переработчик биомассы.
 </Document>

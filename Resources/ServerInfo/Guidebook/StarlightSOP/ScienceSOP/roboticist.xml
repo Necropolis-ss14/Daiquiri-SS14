@@ -1,31 +1,31 @@
 <Document>
-# Roboticist
+# Робототехник
 
 <GuideEntityEmbed Entity="ToyFigurineRoboticist" Caption="Roboticist"/>
 
-1. Roboticists report directly to the Research Director.
+1. Робототехники подчиняются напрямую Научному руководителю.
 
-2. Roboticists must obtain permission from the Hos or Captain, and the Research Director, before any combat oriented mechs or cyborgs can be created.
+2. Робототехники должны получить разрешение ГСБ или Капитана и Научного руководителя, прежде чем могут создаваться боевые мехи или киборги.
 
-3. Roboticists should prioritize having an empty cyborg chassis at all times, in case of unplanned MMI insertion.
+3. Робототехники должны всегда иметь пустое шасси киборга на случай незапланированной установки ММИ.
 
-4.  Roboticists must have an appropriately stamped and signed "Cyborg Conversion Form" before transferring a crew member into a cyborg.
+4. Робототехники должны иметь надлежащим образом заверенную и подписанную «Форму конверсии в киборга», прежде чем переносить члена экипажа в киборга.
 
-5. Roboticists, at the direction of the Captain, HoS, or Research Director, may omit this form for prisoners, or the CMO and Research Director for bloated corpses.
+5. Робототехники по указанию Капитана, ГСБ или Научного руководителя могут опускать эту форму для заключённых, либо ГВ и Научного руководителя для раздутых трупов.
 
-6. Roboticists should never leave the robotics console unlocked, and should always lock it after use.
+6. Робототехники никогда не должны оставлять консоль робототехники разблокированной и всегда должны блокировать её после использования.
 
-7. Roboticists can, if a cyborg has proven themselves to be dangerous to the crew, remotely disable the cyborg, as long as they get permission from the RD or, under extreme circumstances, inform the RD after the fact.
+7. Робототехники могут, если киборг оказался опасен для экипажа, удалённо отключить киборга, получив разрешение НР или, в экстремальных обстоятельствах, сообщив НР post factum.
 
-8. Roboticists should not under any circumstance detonate a cyborg using the robotics console, unless directly ordered by the Captain or the RD.
+8. Робототехники ни при каких обстоятельствах не должны подрывать киборга с консоли робототехники, если это не приказано напрямую Капитаном или НР.
 
-9. Any disabled or detonated cyborg should be retrieved as soon as possible, so that they may be relocated into a new chassis.
+9. Любого отключённого или подорванного киборга следует забрать как можно скорее, чтобы переместить его в новое шасси.
 
-10. Roboticists should follow the "patient care" section of the medical standard operating procedures when treating IPCs.
+10. Робототехники должны следовать разделу «уход за пациентами» медицинских стандартных рабочих процедур при лечении СПЕ.
 
-11. Patients must fill out and sign a surgery consent form for any elective surgeries. This form must be stamped by the CMO or the RD.
+11. Пациенты должны заполнить и подписать форму согласия на операцию для любых плановых операций. Эта форма должна быть заверена штампом ГВ или НР.
 
-12. Roboticists should follow the "deceased patient care" section of the medical standard operating procedures when treating dead IPCs.
+12. Робототехники должны следовать разделу «уход за умершими пациентами» медицинских стандартных рабочих процедур при лечении мёртвых СПЕ.
 
-13. Roboticists should only treat IPCs and, if the medbay cannot handle the patient load, alive neocytes.
+13. Робототехники должны лечить только СПЕ и, если медотсек не справляется с потоком пациентов, живых неоцитов.
 </Document>

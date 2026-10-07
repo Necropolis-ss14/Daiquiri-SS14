@@ -1,23 +1,23 @@
 <Document>
-  # Neocytes
+  # Неоциты
 
   <Box>
     <GuideEntityEmbed Entity="AppearanceNeocyte" Caption=""/>
   </Box>
 
-  [color=#ffa500]Warning! This species is not recommended for new players due to major gameplay changes![/color]
+  [color=#ffa500]Внимание! Этот вид не рекомендуется новым игрокам из-за значительных изменений геймплея![/color]
 
-  Neocytes are not technically a species, but rather a broad term for a person that has modified themselves extensively with cybernetic enhancements that they can no longer be considered their own species anymore.
+  Неоциты технически не являются видом, а скорее общим термином для человека, настолько модифицировавшего себя кибернетическими улучшениями, что его уже нельзя считать представителем своего вида.
 
-  Despite "Cyborg" already existing as a term, it was coined for machines that had organic brains, and as such a distinction needed to be made.
+  Несмотря на то что термин «Киборг» уже существует, он был придуман для машин с органическим мозгом, и поэтому потребовалось разграничение.
 
-  ## Racial Features
+  ## Расовые особенности
 
-  - Receive [color=#ffa500]more heat damage[/color], [color=#8147ff]more shock damage[/color], [color=#FF3636]more blunt damage[/color] and [color=#1e90ff]less cold damage[/color], depending on your subspecies.
-  - Variable [color=#B9BF93]resistances[/color] depending on your cybernetic frame. (Access your species specific loadout from the Appearance tab)
-  - Healing sources are [color=red]50% less effective[/color] on you, but you can benefit from both chemical and mechanical repairs.
-  - You can heal [color=#64ffe6]poison damage[/color] and [color=#C8FF75]genetic damage[/color] with Uranium Glass and Reinforced Uranium Glass.
-  - EMPs are [color=red]dangerous[/color] to your cybernetics! Don't let yourself get hit, or you'll be immobilised for quite a while.
-  - Subspeces selections - You can choose between being an artifically made neocyte with no original species, or Neo-(Species). They inherit their original species traits and have modified resistances, combining them together into something new.
-  - You can modify your Neocyte frames and lights in Markings.
+  - Получают [color=#ffa500]больше теплового урона[/color], [color=#8147ff]больше урона шоком[/color], [color=#FF3636]больше тупого урона[/color] и [color=#1e90ff]меньше урона от холода[/color], в зависимости от вашего подвида.
+  - Переменные [color=#B9BF93]сопротивления[/color] в зависимости от вашего кибернетического каркаса. (Откройте специфичное для вида снаряжение во вкладке Внешность)
+  - Источники лечения на [color=red]50% менее эффективны[/color] на вас, но вам подходят как химический, так и механический ремонт.
+  - Вы можете лечить [color=#64ffe6]урон ядом[/color] и [color=#C8FF75]генетический урон[/color] с помощью уранового стекла и армированного уранового стекла.
+  - ЭМИ [color=red]опасны[/color] для вашей кибернетики! Не позволяйте себя задеть, иначе будете обездвижены довольно надолго.
+  - Выбор подвидов - Вы можете выбрать между искусственно созданным неоцитом без исходного вида или Нео-(Вид). Они наследуют черты исходного вида и имеют изменённые сопротивления, объединяя их во что-то новое.
+  - Вы можете изменить свои каркасы и огоньки неоцита в Маркировках.
 </Document>

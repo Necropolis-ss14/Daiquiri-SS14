@@ -1,15 +1,15 @@
 <Document>
-# Scientist
+# Учёный
 
 <GuideEntityEmbed Entity="ToyFigurineScientist" Caption="Scientist"/>
 
-1. Scientists report directly to the Research Director.
+1. Учёные подчиняются напрямую Научному руководителю.
 
-2. Scientists should follow basic safety protocols when performing research, such as: wearing internals for gas release, wearing a bomb suit for potential explosions, hazardous material containment.
+2. Учёные должны соблюдать базовые протоколы безопасности при исследованиях, такие как: ношение дыхательного аппарата при выбросе газа, ношение бомбового костюма при возможных взрывах, удержание опасных материалов.
 
-3. Scientists should communicate any potential hazards to the crew, such as: anomaly generation, potential explosions, loose artifacts, and other hazards.
+3. Учёные должны сообщать экипажу о любых потенциальных опасностях, таких как: генерация аномалий, возможные взрывы, свободные артефакты и другие опасности.
 
-4.  Scientists should instruct any Research assistants near them, and are responsible for their safety.
+4. Учёные должны обучать находящихся рядом научных ассистентов и отвечают за их безопасность.
 
-5. Scientists should provide closer supervision to Research Assistants when interacting with riskier assignments and give more detailed guidance to ensure no unintended hazardous outcomes occur.
+5. Учёные должны обеспечить более строгий надзор за научными ассистентами при рискованных заданиях и давать более подробные указания, чтобы избежать непреднамеренных опасных последствий.
 </Document>

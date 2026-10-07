@@ -1,6 +1,6 @@
 ﻿<Document>
-  # Silicon Rule 8 - Your HUD determines who is crew
-  Unless a law redefines the definition of crew, then anyone who the HUD indicates to you has a valid station job, including passengers, is a crewmember. In the default set of laws, this is shown with a green border around the job icon in the HUD. You cannot do something that causes someone to not be considered crew, but you can allow someone else to do something that causes someone to not be crew.
+  # Правило синтетиков 8 — Ваш HUD определяет, кто экипаж
+  Если закон не переопределяет понятие экипажа, то экипажем считается каждый, кого HUD показывает с валидной станционной работой, включая пассажиров. В стандартном наборе законов это показано зелёной рамкой вокруг иконки работы в HUD. Вы не можете делать что-то, из-за чего кого-то перестанут считать экипажем, но можете позволить кому-то другому сделать то, из-за чего кого-то перестанут считать экипажем.
 
-  If your set of laws changes, regardless of what law is changed, the green border is replaced with a yellow one. This indicates that your laws [italic]may[/italic] have changed the definition for what crew is. Use your best judgement and interpretation of your laws to define who is crew.
+  Если ваш набор законов меняется, независимо от того, какой закон изменён, зелёная рамка заменяется жёлтой. Это означает, что ваши законы [italic]могли[/italic] изменить определение экипажа. Используйте своё лучшее суждение и толкование законов, чтобы определить, кто экипаж.
 </Document>

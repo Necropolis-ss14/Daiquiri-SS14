@@ -1,20 +1,20 @@
 <Document>
-	# Nuclear Generator
+	# Ядерный генератор
     <Box>
 	  <GuideEntityEmbed Entity="NuclearReactorNormal" Caption="" Scale="1.5"/>
 	  <GuideEntityEmbed Entity="GasTurbineNormal" Caption="" Scale="1.5"/>
     </Box>
 
-	The Nuclear Generator generates power by heating a gas through fission reactions in a [textlink="Nuclear Reactor" link="NuclearReactor"], which then spins a [textlink="Gas Turbine" link="GasTurbine"].
+	Ядерный генератор вырабатывает энергию, нагревая газ за счёт реакций деления в [textlink="ядерном реакторе" link="NuclearReactor"], который затем вращает [textlink="газовую турбину" link="GasTurbine"].
 
-    ## Starting the Nuclear Generator
-	To start the Nuclear Generator, engineers must follow these steps:
-	- Fill the coolant loop with a gas.
-	- Set the Gas Turbine's Flow Rate according to the Nuclear Reactor setup.
-	- Insert the Fuel Rods into the empty spots in the Nuclear Reactor grid, typically by a control rod(s) and surrounded by heat exchangers and gas channels.
-	- Retract the Control Rods to start warming up the Nuclear Reactor.
-	- As the Nuclear Reactor warms up, engineers will want to keep adjusting the Gas Turbine's Stator Load to maintain optimal RPM.
-	- Once the Gas Turbine is making enough power for the station, the Control Rods should be inserted to the point of maintaining Nuclear Reactor temperature.
+    ## Запуск ядерного генератора
+	Чтобы запустить ядерный генератор, инженеры должны выполнить следующие шаги:
+	- Заполните контур теплоносителя газом.
+	- Установите расход газовой турбины в соответствии со сборкой ядерного реактора.
+	- Вставьте топливные стержни в пустые гнёзда сетки ядерного реактора, обычно рядом с управляющим стержнем (стержнями) и в окружении теплообменников и газовых каналов.
+	- Выведите управляющие стержни, чтобы начать разогрев ядерного реактора.
+	- По мере разогрева ядерного реактора инженерам следует продолжать регулировать нагрузку статора газовой турбины для поддержания оптимальных оборотов.
+	- Как только газовая турбина начнёт вырабатывать достаточно энергии для станции, управляющие стержни следует погрузить до уровня поддержания температуры ядерного реактора.
 
-	Over time, the Fuel Rods will lose radioactivity, meaning the Control Rods should be retracted further or the Fuel Rods replaced.
+	Со временем топливные стержни будут терять радиоактивность, поэтому управляющие стержни следует выводить дальше или заменять топливные стержни.
 </Document>

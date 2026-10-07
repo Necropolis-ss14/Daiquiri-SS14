@@ -1,90 +1,90 @@
 <Document>
-	# The Gas Turbine
+	# Газовая турбина
 	<Box>
 		<GuideEntityEmbed Entity="GasTurbineNormal" Scale="1.5"/>
 	</Box>
 
-	The Gas Turbine is where the power actually gets made.
+	Газовая турбина — это место, где энергия производится на самом деле.
 
-	It takes in hot gas from the [textlink="Nuclear Reactor" link="NuclearReactor"] and outputs electricity and sends colder gas back to the Reactor.
+	Она принимает горячий газ из [textlink="ядерного реактора" link="NuclearReactor"], выдаёт электричество и возвращает более холодный газ обратно в реактор.
 
-	The amount of energy made by the Turbine is affected by its RPM, which is adjusted through Flow Rate and Stator Load.
+	Количество энергии, вырабатываемой турбиной, зависит от её оборотов, которые регулируются расходом и нагрузкой статора.
 
-	### Flow Rate
-	The Flow Rate determines how much gas goes through the Turbine every second.
+	### Расход
+	Расход определяет, сколько газа проходит через турбину каждую секунду.
 
-	The higher the Flow Rate, the higher the RPM of the Turbine.
+	Чем выше расход, тем выше обороты турбины.
 
-	Flow Rate is usually set to allow maximum flow through the Reactor core, which can be found by the following equation:
+	Расход обычно устанавливается так, чтобы обеспечить максимальный поток через активную зону реактора, который находится по следующему уравнению:
     <Box>
-        [italic][protodata="SteelReactorGasChannel" comp="ReactorPart" member="GasVolume"/] * number of gas channels + [protodata="NuclearReactorNormal" comp="NuclearReactor" member="ReactorVesselGasVolume"/] L/s[/italic]
+        [italic][protodata="SteelReactorGasChannel" comp="ReactorPart" member="GasVolume"/] * количество газовых каналов + [protodata="NuclearReactorNormal" comp="NuclearReactor" member="ReactorVesselGasVolume"/] л/с[/italic]
     </Box>
 
-	### Stator Load
-	The Stator Load determines how much power is made by each revolution of the Turbine.
+	### Нагрузка статора
+	Нагрузка статора определяет, сколько энергии производится за каждый оборот турбины.
 
-	The higher the Stator Load, the lower the RPM of the Turbine.
+	Чем выше нагрузка статора, тем ниже обороты турбины.
 
-	Stator Load is usually adjusted to ensure the Turbine stays at optimal RPM.
+	Нагрузка статора обычно регулируется так, чтобы турбина оставалась на оптимальных оборотах.
 
-	### RPM
-	The RPM (Rotations Per Minute) represents how fast the Turbine is spinning.
+	### Обороты
+	Обороты (обороты в минуту) показывают, как быстро вращается турбина.
 
-	The Turbine has an optimal RPM, where it will produce the most power.
+	У турбины есть оптимальные обороты, при которых она производит больше всего энергии.
 
-	Going faster or slower than optimal will result in poor performance.
+	Работа быстрее или медленнее оптимума приведёт к плохой производительности.
 
-	## Turbine Status Indicators
-	The Turbine has a set of status indicators to warn operators of dangerous conditions or faults.
+	## Индикаторы состояния турбины
+	У турбины есть набор индикаторов состояния, предупреждающих операторов об опасных условиях или неисправностях.
 
-	### Overspeed
-	The Turbine RPM is too high.
+	### Превышение скорости
+	Обороты турбины слишком высоки.
 
-	If the Turbine RPM gets too high, it will start to take damage.
+	Если обороты турбины станут слишком высокими, она начнёт получать повреждения.
 
-	Prolonged time spent at overspeed or excessive overspeed will cause the Turbine to [color=red]tear itself apart[/color].
+	Длительная работа на превышении скорости или чрезмерное превышение скорости приведут к тому, что турбина [color=red]разорвёт саму себя[/color].
 
-	Damage to the Turbine can be repaired with a [color=yellow]welder[/color], though it will likely take multiple attempts to fully repair it.
+	Повреждения турбины можно чинить [color=yellow]сварочником[/color], хотя, скорее всего, потребуется несколько попыток для полного ремонта.
 
-	### Overtemp
-	The gas going into the Turbine is too hot.
+	### Перегрев
+	Газ, поступающий в турбину, слишком горячий.
 
-	If the gas coming into the Turbine is hotter than [color=orange][protodata="GasTurbineNormal" comp="GasTurbine" member="MaxTemp"/]k[/color], it will trigger an emergency purge valve and dump the gas into the room.
+	Если газ, поступающий в турбину, горячее [color=orange][protodata="GasTurbineNormal" comp="GasTurbine" member="MaxTemp"/]К[/color], сработает аварийный клапан сброса и выбросит газ в помещение.
 
-	This hot gas can cause serious burns to personnel or even a fire, if the gas is flammable.
+	Этот горячий газ может вызвать серьёзные ожоги у персонала или даже пожар, если газ горючий.
 
-	### Stalling
-	The gas is not hot enough for the set stator load.
+	### Срыв
+	Газ недостаточно горячий для установленной нагрузки статора.
 
-	Stalling is where the gas going into the Turbine isn't "pushing" hard enough to overcome the stator load's resistance.
+	Срыв — это когда газ, поступающий в турбину, «давит» недостаточно сильно, чтобы преодолеть сопротивление нагрузки статора.
 
-	### Undertemp
-	The gas going into the Turbine is too cold.
+	### Недогрев
+	Газ, поступающий в турбину, слишком холодный.
 
-	If the gas is at or below [color=orange][protodata="GasTurbineNormal" comp="GasTurbine" member="MinTemp"/]k[/color], there is no energy for the Turbine to take out of it.
+	Если газ имеет температуру на уровне или ниже [color=orange][protodata="GasTurbineNormal" comp="GasTurbine" member="MinTemp"/]К[/color], турбине нечего из него извлечь.
 
-	## Turbine Parts
+	## Детали турбины
 	<Box>
 		<GuideEntityEmbed Entity="NuclearFabricator"/>
 	</Box>
 	<Box>
-		<GuideEntityEmbed Entity="SteelGasTurbineBlade" Caption="turbine blade"/>
-		<GuideEntityEmbed Entity="SteelGasTurbineStator" Caption="stator"/>
+		<GuideEntityEmbed Entity="SteelGasTurbineBlade" Caption="лопасть турбины"/>
+		<GuideEntityEmbed Entity="SteelGasTurbineStator" Caption="статор"/>
 	</Box>
 
-	Turbine parts are what define how well the turbine functions.
+	Детали турбины определяют, насколько хорошо работает турбина.
 
-	Turbine parts are made in the Nuclear Fabricator from a set of [textlink="materials" link="NuclearMaterials"].
+	Детали турбины изготавливаются в ядерном фабрикаторе из набора [textlink="материалов" link="NuclearMaterials"].
 
-	The Turbine is capable of accepting two different types of parts: Blades and Stators
+	Турбина может принимать два разных типа деталей: лопасти и статоры
 
-	### Turbine Blades
-	Turbine blades govern the integrity and inertia of the turbine.
+	### Лопасти турбины
+	Лопасти турбины определяют прочность и инерцию турбины.
 
-	Higher integrity means it can take more damage before failing, making it generally safer.
+	Более высокая прочность означает, что она выдержит больше повреждений до отказа, что в целом безопаснее.
 
-	Higher inertia means it will take more energy to change the RPM, which leads to smoother operation.
+	Более высокая инерция означает, что потребуется больше энергии для изменения оборотов, что ведёт к более плавной работе.
 
-	### Stators
-	Stators affect the power efficiency and output of the Turbine.
+	### Статоры
+	Статоры влияют на эффективность и выработку энергии турбины.
 </Document>

@@ -1,36 +1,36 @@
 ﻿<Document>
-  # Gasses 5
-  Rare, incredibly niche gasses and materials that are primarily novelties for the advanced atmosians.
+  # Газы 5
+  Редкие, невероятно нишевые газы и материалы, которые в основном являются диковинками для продвинутых атмосферщиков.
 
-  ## Anti-Noblium
+  ## Анти-ноблий
   <Box>
     <GuideEntityEmbed Entity="AntiNobliumCanister" Caption=""/>
   </Box>
 
-  An incredibly light gas that interacts with absolutely nothing.
+  Невероятно лёгкий газ, который ни с чем не взаимодействует.
 
-  Anti-noblium can be made by electrolyzing hyper-noblium.
+  Анти-ноблий можно получить электролизом гипер-ноблия.
 
-  ## Zauker
+  ## Заукер
   <Box>
     <GuideEntityEmbed Entity="ZaukerCanister" Caption=""/>
   </Box>
 
-  An incredibly difficult to synthesize gas that is highly unstable and incredibly toxic.
+  Невероятно сложный в синтезе газ, крайне нестабильный и невероятно токсичный.
 
-  Although lethality is largely limited by zauker's propensity to decay in presence of nitrogen, directly breathing it rapidly destroys one's life expectancy.
+  Хотя летальность в основном ограничена склонностью заукера к распаду в присутствии азота, прямое его вдыхание быстро разрушает твою ожидаемую продолжительность жизни.
 
-  Zauker can be made by combining 50 nitrium with 1 hyper-noblium at between 50000 K and 100000 K.
+  Заукер можно получить соединением 50 нитриума с 1 гипер-ноблием при температуре от 50000 К до 100000 К.
 
-  ## Metal Hydrogen
+  ## Металлический водород
   <Box>
     <GuideEntityEmbed Entity="MetalHydrogen" Caption=""/>
   </Box>
 
-  Impossibly dense hydrogen kept stable by BZ.
+  Невозможно плотный водород, удерживаемый стабильным с помощью БЗ.
 
-  Though dense, metal hydrogen is malleable enough to be worked with common tools into incredibly durable items.
+  Хотя плотный, металлический водород достаточно ковкий, чтобы обрабатываться обычными инструментами в невероятно прочные предметы.
 
-  Metal hydrogen ingots are formed by combining 300 mols hydrogen and 50 mols BZ on a tile at over 10000 kpa and under 273 K.
+  Слитки металлического водорода формируются соединением 300 молей водорода и 50 молей БЗ на тайле при давлении более 10000 кПа и температуре ниже 273 К.
 
 </Document>

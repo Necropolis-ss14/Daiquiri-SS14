@@ -1,362 +1,362 @@
 <Document>
-# Metashields
-The metashield can be complex, and is best experienced on the wiki, where formatting options are better.
+# Метащиты
+Метащит может быть сложным, и лучше изучать его на вики, где возможности форматирования лучше.
 
-## What is the 'Metashield'?
-The [bold]Metashield[/bold] is the system that determines what your character can know at the start of every round, and is used in conjunction with the Continuity Guideline rule. Something that is "shielded" can not be known by your character unless they meet certain criteria. This also means your character can not do things based on "shielded" information.
+## Что такое «Метащит»?
+[bold]Метащит[/bold] — система, определяющая, что ваш персонаж может знать в начале каждого раунда, и используется вместе с правилом гайдлайнов непрерывности. То, что «под щитом», не может быть известно вашему персонажу без соответствия критериям. Это также означает, что персонаж не может действовать на основе информации «под щитом».
 
-The Metashield is enforced via administrative measure, via server rule #14.
+Метащит обеспечивается административными мерами, через правило сервера №14.
 
-This system is broken up into core pillars:
+Эта система разбита на основные столпы:
 
-- [bold][color=#ff6200]Unknown Information[/color][/bold] is not known by anyone, or is only known by a very small group of people which is defined specifically.
-- [bold][color=#9819ff]Corporate Secrets[/color][/bold] are only known by high value members of the corporation.
-- [bold][color=#f00000]Secure Knowledge[/color][/bold] is only known by members of Security, Internal Affairs Agents, and everyone who knows Corporate Secrets.
-- [bold][color=#0af024]Background[/color][/bold] is a system that allows any characters to know specific pieces of ordinarily Metashielded knowledge.
+- [bold][color=#ff6200]Неизвестная информация[/color][/bold] неизвестна никому или известна лишь очень малой группе людей, определённой конкретно.
+- [bold][color=#9819ff]Корпоративные секреты[/color][/bold] известны лишь высокопоставленным членам корпорации.
+- [bold][color=#f00000]Охраняемые знания[/color][/bold] известны лишь членам службы безопасности, агентам внутренних дел и всем, кто знает корпоративные секреты.
+- [bold][color=#0af024]Предыстория[/color][/bold] — система, позволяющая любым персонажам знать конкретные куски обычно закрытых метащитом знаний.
 
-Additionally, there are some pieces of information that exist as rumors or as pieces of pop culture and media that are not believed to be real by most people. These pieces of information will be listed near the bottom of the page, as additive worldbuilding information.
+Дополнительно есть куски информации в виде слухов и поп-культуры и медиа, в реальность которых большинство не верит. Эта информация будет перечислена внизу страницы как дополнительная информация для построения мира.
 
-### Common Sense Clause
-It should not need stated, but it will be anyway: If your role is a piece of Metashielded information, or lets you purchase Metashielded items, you know that you exist, and you know that anything you can purchase also exists. If you are told a piece of Metashielded information, you are now aware of that information for the duration of the shift.
+### Оговорка здравого смысла
+Не нужно было бы говорить, но скажем: если ваша роль — кусок информации под метащитом или позволяет покупать предметы под метащитом, вы знаете о своём существовании и знаете, что всё покупаемое существует. Если вам сообщили кусок информации под метащитом, вы знаете её на протяжении смены.
 
-If you witness something, you know about it to the extent that you witnessed it. If you watch someone hollow someone's corpse out then turn into them, you can tell its a Changeling. If you see a group of people in Blood-Red Hardsuits you can assume it's Nuclear Operatives. Use common sense.
+Если вы что-то видели, вы знаете об этом в той мере, в какой видели. Если вы видели, как кто-то выпотрошил труп и превратился в него, вы понимаете, что это подменыш. Если видите группу в кроваво-красных хардсьютах, можете считать их ядерными оперативниками. Руководствуйтесь здравым смыслом.
 
-Examples:
-- Abductors know that Abductors are real.
-- Thieves know how to use their Chameleon items, and their other tools with secret uses.
-- Traitors know that everything in the Uplink exists and how to use it.
-- Traitors and Thieves know that their steal objective targets exist.
-- Nuclear Operatives know that Nukies are real.
-- NTSF Decimus Task Force members know that Code Epsilon exists.
-- If you as a Janitor watch someone in a Blood-Red Hardsuit murder someone with an Energy Sword, you now know that those things exist.
-- If you as a Chemist are told by the Chief Medical Officer about Romerol and are told how to make Ambuzol, you now know that Romerol is real and how to make Ambuzol.
+Примеры:
+- Похитители знают, что похитители реальны.
+- Воры умеют пользоваться хамелеонными предметами и другими инструментами с тайными функциями.
+- Предатели знают, что всё в аплинке существует и как этим пользоваться.
+- Предатели и воры знают, что их цели кражи существуют.
+- Ядерные оперативники знают, что нюки реальны.
+- Члены оперативной группы NTSF Decimus знают, что код Эпсилон существует.
+- Если вы уборщиком видели, как кто-то в кроваво-красном хардсьюте убил кого-то энергомечом, вы теперь знаете, что эти вещи существуют.
+- Если вам химику Главный врач рассказал о ромероле и как делать амбузол, вы теперь знаете, что ромерол реален и как делать амбузол.
 
-[color=#db1200]Traitors[/color] do not know that [color=#db1200]Nuclear Operatives[/color] are real, nor do they gain any Metashielded information beyond what the Common Sense Clause implies.
+[color=#db1200]Предатели[/color] не знают, что [color=#db1200]ядерные оперативники[/color] реальны, и не получают информации под метащитом сверх подразумеваемой оговоркой здравого смысла.
 
-[color=#db1200]Nuclear Operatives[/color] may know any [color=#f00000]Secure Knowledge[/color], and are specifically allowed to know that [color=#9819ff]NTSF Decimus Squad[/color] and [color=#9819ff]Code Epsilon[/color] are real.
-
-
-## Unknown Information
-[color=#ff6200]Unknown Information[/color] is not known by anyone, or is only known by a very small group of people which is defined specifically. This section covers everything from Metagaming to niche information that so few people know that it might as well not be known by anybody.
-
-[bold][color=#ff6200]Meta Information || [/color][/bold]
-Meta Information such as the current game-mode and the possible antagonists there may be in play, events you experienced as a different character, information about a player instead of their character, etc is all considered Meta and is never allowed to be known by anybody. Checking headsets without cause is considered meta-gaming.
-
-Examples:
-- You may never know that the player Gregman69 only ever plays Security, and thus since he is an Assistant this shift he must be an Antagonist
-- You may never know that the last round was Nukies, or any other Metashielded game-mode, per Continuity Rules.
-- You may never know anything that you did not learn in character, such as things witnessed while observing as a ghost before spawning, things you were told by a friend out of game, etc.
+[color=#db1200]Ядерные оперативники[/color] могут знать любые [color=#f00000]охраняемые знания[/color] и вправе знать, что [color=#9819ff]отряд NTSF Decimus[/color] и [color=#9819ff]код Эпсилон[/color] реальны.
 
 
-[bold][color=#ff6200]Unconscious Information || [/color][/bold]
-You may not remember any information learned while critical, asleep, dead or ghosted. If any of these happen to you, you also forget the last ~5 minutes leading up to the event causing the aforementioned state, with the exception of clearly expected cases of sleep. Silicon memory is chassis-specific, and destruction of the chassis causes total memory loss of everything experienced in said chassis.
+## Неизвестная информация
+[color=#ff6200]Неизвестная информация[/color] неизвестна никому или известна лишь очень малой группе людей, определённой конкретно. Этот раздел охватывает всё от метагейминга до нишевой информации, которую знает так мало людей, что её как бы не знает никто.
 
-Examples:
-- You [italic]can never[/italic] remember anything about your death or drugging.
-- You [italic]may[/italic] make conclusions based off the state you're in when you wake up, same as anyone else.
-- You [italic]may[/italic] remember talking with the surgeon before turning on the anaesthesia.
-- You [italic]can not[/italic] remember witnessing acts done by yourself or others when killed/drugged within ~5 minutes of witnessing the act.
+[bold][color=#ff6200]Мета-информация || [/color][/bold]
+Мета-информация вроде текущего режима игры и возможных антагонистов в игре, событий, пережитых другим персонажем, информации об игроке вместо персонажа и т.д. — всё это считается метой и никогда не может быть известно никому. Проверка гарнитур без причины считается метагеймингом.
 
-The Cosmic Cult induced plane shift of your soul may be remembered as a dream, but the sleep induced amnesia still is in effect.
-
-
-## Corporate Secrets
-[color=#9819ff]Corporate Secrets[/color] are only known by high value members of the corporation.
-
-These are;
-- All of Command
-- the Station AI
-- NanoTrasen Representative
-- Blue Shield Officer
-- Magistrate
-- Assistant Manager
-- Central Command roles such as ERT, OPs, CBURN, etc.
-
-Corporate Secrets should be kept secret until it is necessary to reveal them, revealing them frivolously is frowned upon by Central Command. This information is considered sensitive and liable to cause mass panic if learned by the Crew.
-
-Corporate Secrets may be revealed to individuals, departments, or the station as a whole if deemed necessary. You should have a good reason to do so however, and expect your reasoning to be cross examined and scrutinized heavily by Central Command. Revealing Corporate Secrets to Security is generally deemed more acceptable, better for them to clean up an issue without panicking the rest of the Crew.
+Примеры:
+- Вы никогда не можете знать, что игрок Gregman69 всегда играет в безопасности, и раз в этой смене он ассистент, значит он антагонист
+- Вы никогда не можете знать, что прошлый раунд был с нюками или любым другим режимом под метащитом, по правилам непрерывности.
+- Вы никогда не можете знать ничего, что не узнали в персонаже, например увиденное призраком-наблюдателем до спавна, рассказанное другом вне игры и т.д.
 
 
-[bold][color=#9819ff]Ninjas || [/color][/bold]
-Ninjas are a collective of Clans that seek to steal research and disrupt NT-CC operations. They possess access-breaking technology, and predominately target our research servers. Hostile ninjas are to be treated as boarders, and dealt with accordingly.
+[bold][color=#ff6200]Информация без сознания || [/color][/bold]
+Вы не можете помнить информацию, узнанную в крите, сне, смерти или призраком. Если что-то из этого случилось, вы также забываете последние ~5 минут перед событием, вызвавшим это состояние, кроме явно ожидаемых случаев сна. Память синтетиков привязана к корпусу, уничтожение корпуса вызывает полную потерю памяти обо всём пережитом в нём.
 
-Knowledge of Ninjas is unshielded for other crew by:
-    - Being directly told by somebody who already knows
-    - Witnessing a Ninja
-    - Seeing a Ninja's equipment, such as their suit or energy katana
+Примеры:
+- Вы [italic]никогда не можете[/italic] помнить ничего о своей смерти или накачке препаратами.
+- Вы [italic]можете[/italic] делать выводы из состояния, в котором проснулись, как и все остальные.
+- Вы [italic]можете[/italic] помнить разговор с хирургом до включения анестезии.
+- Вы [italic]не можете[/italic] помнить наблюдение действий себя или других при убийстве/накачке в пределах ~5 минут от наблюдения.
 
-[italic]- Ninjas are popular in certain genres of pop culture, but normal crew don't know they exist outside of cosplay.[/italic]
-
-
-[bold][color=#9819ff]Abductors || [/color][/bold]
-Abductors are mysterious aliens with cloaking and advanced teleporting technology. Their modus-operandi consists of kidnapping other sentient species and implanting them with tracking organs. Abductors engaging in this are to be treated as boarders, and dealt with accordingly.
-
-Knowledge of Abductors is unshielded for other crew by:
-    - Being directly told by somebody who already knows
-    - Witnessing an Abductor
-    - Seeing an Abductor's equipment, such as their Wonderprod or Handcuffs, or seeing their Shuttle
-    - Discovering a surgically implanted Gland or seeing their effects
-
-[italic]- Abductors and their iconography has leaked into pop culture, and dates back over 500 years to Silicon Age Earth. Where they come from, what they want, and why they do what they do is mostly unknown. [/italic]
+Вызванный космическим культом сдвиг плоскости души можно помнить как сон, но амнезия от сна всё равно действует.
 
 
-[bold][color=#9819ff]Romerol Virus || [/color][/bold]
-Romerol is a highly violent contagion that pilots the dead to facilitate its own spread. Where it comes from is unknown, but it is spread intentionally by certain organisations, such as the Syndicate. Ambuzol is a publicly known strong rotting reversal chem, but its use to cure Romerol is not known publicly.
+## Корпоративные секреты
+[color=#9819ff]Корпоративные секреты[/color] известны лишь высокопоставленным членам корпорации.
 
-Knowledge of Romerol/Zombies is unshielded for other crew by:
-    - Being directly told by somebody who already knows
-    - Witnessing the dead rising
+Это:
+- Всё командование
+- ИИ станции
+- Представитель NanoTrasen
+- Офицер «Синий щит»
+- Магистрат
+- Заместитель управляющего
+- Роли Central Command вроде ОБР, ОП, CBURN и т.д.
 
-[italic]- Zombies are popular in movies and other media, but are viewed as fiction by normal crew.[/italic]
+Корпоративные секреты следует хранить в тайне до необходимости раскрытия, легкомысленное раскрытие порицается Central Command. Эта информация считается чувствительной и способной вызвать массовую панику при узнавании экипажем.
 
-
-[bold][color=#9819ff]Interdimensional Intruders || [/color][/bold]
-[italic]Paradox Clones, Exterminators, etc.[/italic]
-Cracks in reality sometimes result in intrusions from other parallel worlds. This phenomenon is exclusive to sectors near the Null Scar, and is a matter of great interest to NanoTrasen. Should an interdimensional intruder be discovered it should be observed and studied, and only terminated if it proves to be hostile.
-
-Knowledge of interdimensionals is unshielded for other crew by:
-    - Being directly told by somebody who already knows
-    - Witnessing an intruder attempting to eliminate their target
-
-[italic]- Other dimensions are popular in fictional media in-universe, as are stories of people from them. Nobody knows why these beings are here or what they are here to do, and in the case of Paradox Clones, nobody can tell them apart and all memory around them is hazy.[/italic]
+Корпоративные секреты могут раскрываться отдельным лицам, отделам или станции целиком при необходимости. Для этого должна быть веская причина, и ожидайте, что доводы будут перепроверены и тщательно изучены Central Command. Раскрытие корпоративных секретов службе безопасности обычно считается более приемлемым — пусть разберутся с проблемой без паники остального экипажа.
 
 
-[bold][color=#9819ff]Cults || [/color][/bold]
-While most cults are harmless superstition, some are in contact with very real entities, often extradimensional. These cults sometimes sneak onto NT-CC stations to convert them into secretive bases from which to perform forbidden rituals. Obviously, this is bad for efficiency, and must be stopped.
+[bold][color=#9819ff]Ниндзя || [/color][/bold]
+Ниндзя — коллектив кланов, стремящихся красть исследования и срывать операции NT-CC. Они владеют технологиями взлома доступов и в основном целятся в наши исследовательские серверы. Враждебных ниндзя следует считать нарушителями границ и разбираться соответственно.
 
-The [bold]Chaplain[/bold] specifically knows of these cults, despite not being part of the Corporate Secret list.
+Знание о ниндзя снимается с других членов экипажа через:
+    - Прямой рассказ от знающего
+    - Наблюдение ниндзя
+    - Видение снаряжения ниндзя, например костюма или энергокатаны
 
-Knowledge of these cults is unshielded for other crew by:
-    - Being directly told by somebody who already knows
-    - Witnessing a conversion
-    - Witnessing occult gear
-    - Witnessing occult structures
-    - Witnessing manifestations of occult will
-
-[italic]- While tales of magic and cults are considered just that, wild tales, when you see cultists roaming the halls with blades you don't need to believe in their god to know things are going down in a bad way.[/italic]
+[italic]- Ниндзя популярны в отдельных жанрах поп-культуры, но обычный экипаж не знает об их существовании вне косплея.[/italic]
 
 
-[bold][color=#9819ff]Nuclear Operatives || [/color][/bold]
-Despite being a shell of their former selves, the Syndicate does sometimes mount assaults on the station, aiming to use its self-destruction measures against it.
+[bold][color=#9819ff]Похитители || [/color][/bold]
+Похитители — таинственные пришельцы с маскировкой и продвинутой телепортацией. Их образ действий — похищение разумных видов и имплантация следящих органов. Занимающихся этим похитителей следует считать нарушителями границ и разбираться соответственно.
 
- Knowledge of Nuclear Operatives is unshielded for other crew by:
-    - Being directly told by somebody who already knows
-    - Discovering a Nuclear Operative's Shuttle
-    - Declaration of War
-    - Witnessing Nuclear Operatives (Not every Blood-Red is a Nukie, but if there are multiple they might be)
+Знание о похитителях снимается с других членов экипажа через:
+    - Прямой рассказ от знающего
+    - Наблюдение похитителя
+    - Видение снаряжения похитителя, например вондерпрода или наручников, или их шаттла
+    - Обнаружение хирургически имплантированной железы или её эффектов
 
-[italic]- The image of the Blood-Red hard-suit is featured in a whole genre of war-movies about the pod wars, but today they are viewed as distant history, long gone.[/italic]
+[italic]- Похитители и их символика просочились в поп-культуру и восходят на 500+ лет к синтетиковой эпохе Земли. Откуда они, чего хотят и зачем это делают — в основном неизвестно. [/italic]
+
+
+[bold][color=#9819ff]Вирус ромерол || [/color][/bold]
+Ромерол — крайне агрессивная зараза, управляющая мёртвыми ради собственного распространения. Откуда она — неизвестно, но её распространяют намеренно отдельные организации вроде Синдиката. Амбузол — публично известный сильный хим против гниения, но его применение против ромерола публично неизвестно.
+
+Знание о ромероле/зомби снимается с других членов экипажа через:
+    - Прямой рассказ от знающего
+    - Наблюдение восстания мёртвых
+
+[italic]- Зомби популярны в фильмах и медиа, но обычный экипаж считает их выдумкой.[/italic]
+
+
+[bold][color=#9819ff]Межпространственные вторженцы || [/color][/bold]
+[italic]Парадокс-клоны, истребители и т.д.[/italic]
+Трещины в реальности иногда приводят к вторжениям из параллельных миров. Это явление свойственно лишь секторам у Null Scar и представляет большой интерес для NanoTrasen. Обнаруженного межпространственного вторженца следует наблюдать и изучать и уничтожать лишь при доказанной враждебности.
+
+Знание о межпространственных снимается с других членов экипажа через:
+    - Прямой рассказ от знающего
+    - Наблюдение попытки вторженца устранить цель
+
+[italic]- Другие измерения популярны в вымышленных медиа во вселенной, как и истории о людях оттуда. Никто не знает, почему эти существа здесь и зачем, а в случае парадокс-клонов никто не отличит их и все воспоминания о них туманны.[/italic]
+
+
+[bold][color=#9819ff]Культы || [/color][/bold]
+Хотя большинство культов — безвредные суеверия, некоторые контактируют с вполне реальными сущностями, часто из других измерений. Эти культы иногда проникают на станции NT-CC, превращая их в тайные базы для запретных ритуалов. Очевидно, это плохо для эффективности и должно быть остановлено.
+
+[bold]Капеллан[/bold] в частности знает об этих культах, несмотря на отсутствие в списке корпоративных секретов.
+
+Знание об этих культах снимается с других членов экипажа через:
+    - Прямой рассказ от знающего
+    - Наблюдение конверсии
+    - Наблюдение оккультного снаряжения
+    - Наблюдение оккультных структур
+    - Наблюдение проявлений оккультной воли
+
+[italic]- Хотя рассказы о магии и культах считаются лишь дикими байками, видя культистов с клинками в коридорах, не нужно верить в их бога, чтобы понять, что дело плохо.[/italic]
+
+
+[bold][color=#9819ff]Ядерные оперативники || [/color][/bold]
+Несмотря на то, что Синдикат — лишь тень прежнего себя, он иногда устраивает нападения на станцию, стремясь использовать её меры самоуничтожения против неё.
+
+ Знание о ядерных оперативниках снимается с других членов экипажа через:
+    - Прямой рассказ от знающего
+    - Обнаружение шаттла ядерных оперативников
+    - Объявление войны
+    - Наблюдение ядерных оперативников (не каждый кроваво-красный — нюка, но если их несколько — возможно они)
+
+[italic]- Образ кроваво-красного хардсьюта показан в целом жанре военных фильмов о под-войнах, но сегодня они считаются далёкой историей, давно ушедшей.[/italic]
 
 
 [bold][color=#9819ff]NTSF Decimus || [/color][/bold]
-The existence of NanoTrasen Special Forces is common, and recruitment drives for them everywhere on NT-CC stations. Decimus, however, and it's associated Epsilon alert level, are highly illegal procedures that the consortium keeps secret. Even those in the know will believe it to have never been used.
+Существование спецназа NanoTrasen общеизвестно, наборы идут везде на станциях NT-CC. Decimus же и связанный уровень тревоги Эпсилон — крайне незаконные процедуры, скрываемые консорциумом. Даже знающие будут считать, что их никогда не применяли.
 
- Knowledge of NTSF Decimus is unshielded for other crew by:
-    - Being directly told by somebody who already knows
-    - Witnessing Decimus Squad perform crew executions
+ Знание о NTSF Decimus снимается с других членов экипажа через:
+    - Прямой рассказ от знающего
+    - Наблюдение казней экипажа отрядом Decimus
 
-[italic]- It would surprise nobody that NanoTrasen, which keeps nuclear warheads on their stations for self-destruction, had some sort of deathsquad for rogue station. It remains the realm of conspiracy theory, however.[/italic]
+[italic]- Никого бы не удивило, что NanoTrasen, держащий ядерные боеголовки на станциях для самоуничтожения, имеет отряд смерти для станций-ренегатов. Однако это остаётся областью теорий заговора.[/italic]
 
 
-## Secure Knowledge
-[color=#f00000]Secure Knowledge[/color] is only known by members of Security, Internal Affairs Agents, and everyone who knows Corporate Secrets. This includes the Brig Medic, Warden, Security Cadets- all Security jobs. Secure Knowledge should be kept secret until necessary, but may be revealed in order to preserve Crew lives at the discretion of the Head of Security.
+## Охраняемые знания
+[color=#f00000]Охраняемые знания[/color] известны лишь членам службы безопасности, агентам внутренних дел и всем, кто знает корпоративные секреты. Сюда входят бригмедик, смотритель, кадеты безопасности — все работы безопасности. Охраняемые знания следует держать в тайне до необходимости, но можно раскрывать ради спасения жизней экипажа по усмотрению Главы службы безопасности.
 
 
-[bold][color=#f00000]Revolutionary Methods || [/color][/bold]
-Nobody would ever betray NT-CC to become a communist by choice, obviously, and so the United Soviet Socialist Planets utilises agents armed with mind-altering devices, disguised as flashes, to convert the crew by force. The agents that bring these aboard also have teleportation technology to bring in equipment needed for their revolution.
+[bold][color=#f00000]Методы революции || [/color][/bold]
+Никто бы не предал NT-CC ради коммунизма по своей воле, очевидно, поэтому Объединённые Советские Социалистические Планеты используют агентов с устройствами изменения разума под видом вспышек для насильственной конверсии экипажа. Агенты, проносящие их на борт, также имеют телепортацию для доставки снаряжения революции.
 
-Knowledge of these methods is unshielded for other crew by:
-    - Being directly told by somebody who already knows
-    - Witnessing a successful conversion directly
-    - Witnessing a Mindshield Implanter fail
+Знание об этих методах снимается с других членов экипажа через:
+    - Прямой рассказ от знающего
+    - Наблюдение успешной конверсии напрямую
+    - Наблюдение неудачи имплантера миншилда
 
-De-converted Revolutionaries forget what happened while they were brainwashed.
+Деконвертированные революционеры забывают случившееся под промывкой мозгов.
 
-[italic]- While the concept of mind control exists, and Mindshields are publicly known to prevent such things, the fact that Revolutionaries use flashes to mind control people isn't known to crew.[/italic]
+[italic]- Хотя концепция контроля разума существует и миншилды публично известны как защита, факт использования революционерами вспышек для контроля разума экипажу неизвестен.[/italic]
 
 
-[bold][color=#f00000]Changelings || [/color][/bold]
-Changelings are an parasitic species associated with radical elements of the Syndicate. They are able to change their shape down to the genetic level, and are known to consume their victims in a distinctive inside-out manner, leaving their bodies hollow.
+[bold][color=#f00000]Подменыши || [/color][/bold]
+Подменыши — паразитический вид, связанный с радикальными элементами Синдиката. Они меняют форму вплоть до генетического уровня и, как известно, пожирают жертв характерным образом наизнанку, оставляя полые тела.
 
-Knowledge of Changelings is unshielded for other crew by:
-    - Being directly told by somebody who already knows
-    - Witnessing someone using any changeling abilities
-    - Discovering a Hollow corpse
+Знание о подменышах снимается с других членов экипажа через:
+    - Прямой рассказ от знающего
+    - Наблюдение использования способностей подменыша
+    - Обнаружение полого трупа
 
-[italic]- The concept of shapeshifters exists in media in universe, but the fact that they are real, how they function, and how to test for one is unknown to most crew.[/italic]
+[italic]- Концепция оборотней существует в медиа во вселенной, но факт их реальности, функционирования и проверки на них большинству экипажа неизвестен.[/italic]
 
 
-[bold][color=#f00000]Suspected Syndicate Corporations || [/color][/bold]
-While nobody is able to prove anything, Central Command maintains a small curated list of corporations they believe to be backing the Syndicate. Security is made privy to this list so they may observe and report any connections to Syndicate activity onboard stations. Their products should be viewed with suspicion but may or may not be considered contraband. Consult with Corporate Law for more information.
+[bold][color=#f00000]Подозреваемые корпорации Синдиката || [/color][/bold]
+Хотя доказать ничего нельзя, Central Command ведёт малый отобранный список корпораций, подозреваемых в поддержке Синдиката. Службу безопасности знакомят со списком для наблюдения и докладов о связях с активностью Синдиката на станциях. К их продукции следует относиться с подозрением, но она может считаться или не считаться контрабандой. См. Корпоративный закон.
 
-Knowledge of the Syndicate is unshielded for other crew by:
-    - Being directly told by somebody who already knows
+Знание о Синдикате снимается с других членов экипажа через:
+    - Прямой рассказ от знающего
 
-[italic]- The fact that the Syndicate exists is known to the public, only which corporations back them and work with them is secret. The war between the corporations is an underground cold war in most shifts.[/italic]
+[italic]- Факт существования Синдиката публично известен, тайна лишь в том, какие корпорации его поддерживают и сотрудничают. Война корпораций — подпольная холодная война в большинстве смен.[/italic]
 
 
-[bold][color=#f00000]Non-NanoTrasen Implants || [/color][/bold]
-The world of implants is wide and varied, and the specifics of the implants utilised by hostile organisations is only known to those taught.
+[bold][color=#f00000]Импланты не-NanoTrasen || [/color][/bold]
+Мир имплантов широк и разнообразен, и тонкости имплантов враждебных организаций известны лишь обученным.
 
-Knowledge of a particular implant is unshielded for other crew by:
-    - Being directly told by somebody who already knows
-    - Witnessing use of said non-NT Implant by anyone, such as cuffs being broken, or someone emitting an EMP, etc
-    - Discovering a used or unused non-NT Implanter or Implanter Box
-    - Experiencing a situation where absolutely no other explanation is possible, such as someone who was stripped completely suddenly having an object
-    - Finding an unlocked uplink unshields all syndicate implants, as they are listed in it
+Знание о конкретном импланте снимается с других членов экипажа через:
+    - Прямой рассказ от знающего
+    - Наблюдение использования этого не-НТ импланта кем-либо, например сломанных наручников или ЭМИ и т.д.
+    - Обнаружение использованного или неиспользованного не-НТ имплантера или коробки
+    - Ситуация без иного объяснения, например внезапно появившийся предмет у полностью раздетого
+    - Находка разблокированного аплинка снимает все импланты синдиката, так как они в нём перечислены
 
-[italic]- Most crew don't even know how NT implants work, and they zero clue about non-NT ones.[/italic]
+[italic]- Большинство экипажа даже не знает, как работают НТ-импланты, и понятия не имеет о не-НТ.[/italic]
 
 
-[bold][color=#f00000]Vampires || [/color][/bold]
-Where Vampires come from is poorly understood, but rigorous interrogation has confirmed that they belong to some kind of vampire organisation intent on expanding their influence. These organisations frequently send their kind to infiltrate our stations.
+[bold][color=#f00000]Вампиры || [/color][/bold]
+Откуда вампиры — плохо понятно, но тщательные допросы подтвердили их принадлежность к вампирской организации ради расширения влияния. Эти организации часто засылают своих для проникновения на наши станции.
 
-Knowledge of Vampires is unshielded for other crew by:
-    - Being directly told by somebody who already knows
-    - Witnessing someone drinking blood from someone else
-    - Witnessing someone use any Vampire abilities
+Знание о вампирах снимается с других членов экипажа через:
+    - Прямой рассказ от знающего
+    - Наблюдение питья крови у другого
+    - Наблюдение использования вампирских способностей
 
-[italic]- Vampires are considered fake monsters from old cheesy horror movies by most crew. Knowledge of the Vampire Elders is completely unknown even to Security and Command, and is only known by Vampires.[/italic]
+[italic]- Вампиры считаются выдуманными монстрами из старых дешёвых хорроров большинством экипажа. Знание о старейшинах вампиров полностью неизвестно даже безопасности и командованию и известно лишь вампирам.[/italic]
 
 
-[bold][color=#f00000]Wizards || [/color][/bold]
-The Wizard Federation is very outspoken about their so-called 'magic'. Whether that they do is actually 'magic' or not, they are a danger and Security has been briefed on them. Security knows they may have access to strange abilities, but they do not know the extent of the Wizard's capabilities.
+[bold][color=#f00000]Волшебники || [/color][/bold]
+Федерация волшебников весьма открыто заявляет о своей так называемой «магии». Магия это или нет, они опасны, и безопасность проинструктирована о них. Безопасность знает о возможных странных способностях, но не знает масштаба возможностей волшебника.
 
- Knowledge of Wizards is unshielded for other crew by:
-    - Being directly told by somebody who already knows
-    - Witnessing a magical ability
-    - A Wizard making an announcement with their Communications Console
-    - Finding a Wizard Shuttle
+ Знание о волшебниках снимается с других членов экипажа через:
+    - Прямой рассказ от знающего
+    - Наблюдение магической способности
+    - Объявление волшебника через консоль связи
+    - Находка шаттла волшебника
 
-[italic]- Most consider 'Wizards' to be nutjobs roleplaying in space. That their powers are real, how they function, and any alleged connections to Bluespace is unknown to all.[/italic]
+[italic]- Большинство считает «волшебников» психами, отыгрывающими в космосе. Что их силы реальны, как функционируют и предполагаемые связи с блюспейсом — неизвестно никому.[/italic]
 
 
-[bold][color=#f00000]Xenoborgs || [/color][/bold]
-Xenoborgs are rogue Silicons that have started assimilating organics to grow their number. They are known to harvest the brains of unfortunate crew members, whose bodies they destroy before they turn them into more Xenoborgs. Preventing crew from being abducted is imperative to prevent a critical mass of hostile borgs.
+[bold][color=#f00000]Ксеноборги || [/color][/bold]
+Ксеноборги — синтетики-ренегаты, начавшие ассимилировать органику ради роста числа. Известно, что они извлекают мозги несчастных членов экипажа, тела которых уничтожают до превращения в новых ксеноборгов. Предотвращение похищений экипажа обязательно для предотвращения критической массы враждебных боргов.
 
- Knowledge of Xenoborgs is unshielded for other crew by:
-    - Being directly told by somebody who already knows
-    - Witnessing a kidnapping or attack from the distinctly looking xenoborgs
-    - Finding the Xenoborg Mothership
+ Знание о ксеноборгах снимается с других членов экипажа через:
+    - Прямой рассказ от знающего
+    - Наблюдение похищения или атаки от характерно выглядящих ксеноборгов
+    - Находка материнского корабля ксеноборгов
 
-[bold][color=#f00000]Syndicate Equipment || [/color][/bold]
-Security is aware of some specific equipment associated with the Syndicate. They are not aware of all or even most of the items within the uplink, however they do get foreknowledge of:
-- Syndicate Hardsuits, EVA Suits, Jetpacks, Mag Boots, Chest Rigs, and Web Vests
-- Syndicate Guns and Energy Swords
-- Basic tools; Syndicate Jaws of Life, EMAG, Access Breaker, Suspicious Toolbox and its contents, and Radio Jammer
-- The Syndicate Number Station, and that something bad will happen if it finishes playing
+[bold][color=#f00000]Снаряжение Синдиката || [/color][/bold]
+Безопасность знает о некотором конкретном снаряжении Синдиката. Им неизвестны все или даже большинство предметов аплинка, однако они заранее знают о:
+- Синдикатских хардсьютах, EVA-костюмах, джетпаках, магбутсах, разгрузках и веб-жилетах
+- Синдикатских пушках и энергомечах
+- Базовых инструментах; синдикатских челюстях жизни, емаге, взломщике доступов, подозрительном ящике и содержимом, глушителе радио
+- Номерной станции Синдиката и том, что случится плохое при окончании проигрывания
 
-Security and above also know that things called [bold]'Uplinks'[/bold] exist which allow the Syndicate to access their tools, but you do not know how they work or are accessed unless you find one open.
+Безопасность и выше также знают, что существуют вещи [bold]«Аплинки»[/bold], дающие Синдикату доступ к инструментам, но не знают, как они работают и открываются, без находки открытого.
 
-Knowledge of a particular piece of equipment is unshielded for other crew by:
-    - Being directly told by somebody who already knows
-    - Seeing a Syndicate item physically
-    - Finding an unlocked Uplink unshields all syndicate equipment, as it is all listed within
+Знание о конкретном снаряжении снимается с других членов экипажа через:
+    - Прямой рассказ от знающего
+    - Видение предмета Синдиката вживую
+    - Находка разблокированного аплинка снимает всё снаряжение синдиката, так как всё перечислено внутри
 
-[italic]- The idea that the Syndicate might have illegal tools and equipment isn't Metashielded, but what that equipment is specifically is. If you see someone do something with a tool they shouldn't be able to or that you don't recognize, it's safe to bet it is an illegal item of some kind.[/italic]
+[italic]- Идея, что у Синдиката могут быть нелегальные инструменты и снаряжение, не под метащитом, но что это за снаряжение конкретно — да. Если видите, как кто-то делает инструментом то, чего не должен бы, или незнакомое, смело считайте это нелегальным предметом.[/italic]
 
 
-[bold][color=#f00000]High Value Targets || [/color][/bold]
-All items that can be targets of theft by the Syndicate are known to Security. This includes the CE's Mag Boots, Captain's Gun, RD's Hardsuit, etc. While normal crew know they are valuable, they do not know that they are deliberately targeted for theft by Syndicate Agents.
+[bold][color=#f00000]Ценные цели || [/color][/bold]
+Все предметы, могущие быть целями кражи Синдиката, известны безопасности. Сюда входят магбутсы Главного инженера, пушка Капитана, скафандр научного руководителя и т.д. Хотя обычный экипаж знает их ценность, он не знает, что они целенаправленно выбраны для кражи агентами Синдиката.
 
-Knowledge of a particular objective is unshielded for other crew by
-    - Being directly told by somebody who already knows
-    - Witnessing an antagonist attempting to pursue said objective
+Знание о конкретной цели снимается с других членов экипажа через
+    - Прямой рассказ от знающего
+    - Наблюдение попытки антагониста преследовать цель
 
-[italic]- It is safe to assume thieves might want to steal anything on the Station that is of high value. Only the information that Syndicate Agents are sent with these specific targets is shielded.[/italic]
+[italic]- Безопасно считать, что воры могут хотеть украсть всё ценное на станции. Щитом закрыта лишь информация, что агенты Синдиката посланы с этими конкретными целями.[/italic]
 
 
-## Backgrounds
-[color=#0af024]Background[/color] is a system that allows any characters to know specific pieces of ordinarily Metashielded knowledge. Every character may only have one Background, which is picked during Character Creation as a Trait and can not be changed mid-round or frequently at all. Your Background should reflect the life your character has lives, and act in complement to their characterization and backstory. These are additive Roleplay features, and do not impact gameplay directly.
+## Предыстории
+[color=#0af024]Предыстория[/color] — система, позволяющая любым персонажам знать конкретные куски обычно закрытых метащитом знаний. У каждого персонажа может быть лишь одна предыстория, выбираемая при создании персонажа как черта и не меняемая в раунде и вообще часто. Ваша предыстория должна отражать жизнь персонажа и дополнять его характеристику и бэкстори. Это дополнительные ролевые особенности, напрямую не влияющие на геймплей.
 
-Your backstory does not have to line up 1:1 with these descriptions, but should be similar in scope and not imply that you know more than your chosen Background allows. For example, you may have been an emergency responder to the aftermath of a Romerol Disaster, or you have have been a chef on a mercenary base to gain Former Soldier knowledge. As long as it does not imply you know more than your Background allows, it is fine.
+Ваш бэкстори не обязан совпадать 1:1 с описаниями, но должен быть схож по масштабу и не подразумевать знание сверх разрешённого выбранной предысторией. Например, вы могли быть спасателем после катастрофы с ромеролом или поваром на базе наёмников ради знаний бывшего солдата. Пока это не подразумевает знание сверх разрешённого предысторией, всё хорошо.
 
 
-[bold][color=#0af024]Civilian || [/color][/bold]
-You are a civilian, and have no background covered by this system.
+[bold][color=#0af024]Гражданский || [/color][/bold]
+Вы гражданский без предыстории в этой системе.
 
-[italic]- Grants no Metashielded knowledge.[/italic]
+[italic]- Не даёт знаний под метащитом.[/italic]
 
 
-[bold][color=#0af024]Former Soldier || [/color][/bold]
-As a former member of a Mercenary Company, the NanoTrasen Naval Corps, or a Sector Militia, you have passing familiarity with all firearms. While you may not know who uses them or that their typical users are even real, such as Nuclear Operatives with the China Lake, you do know that the gun itself exists. You may pick and choose how far this knowledge goes, and choose to simply know nothing about certain guns.
+[bold][color=#0af024]Бывший солдат || [/color][/bold]
+Как бывший член наёмной компании, морского корпуса NanoTrasen или секторной милиции, вы поверхностно знакомы со всем огнестрелом. Вы можете не знать, кто им пользуется и реальны ли его типичные пользователи, например ядерные оперативники с China Lake, но знаете о существовании самого ствола. Вы можете сами решать глубину знаний и просто ничего не знать об отдельных стволах.
 
-[italic]- Grants limited Syndicate Equipment knowledge, for guns exclusively.[/italic]
+[italic]- Даёт ограниченные знания снаряжения Синдиката, только по пушкам.[/italic]
 
 
-[bold][color=#0af024]Romerol Disaster Survivor || [/color][/bold]
-You are one of a few survivors of a Romerol outbreak, from before the implementation of the PSO Cloning System. You know that the undead are real, and some of how they behave. Of course nobody would ever believe you if you told them.
+[bold][color=#0af024]Выживший в катастрофе с ромеролом || [/color][/bold]
+Вы один из немногих выживших во вспышке ромерола до внедрения системы клонирования PSO. Вы знаете, что нежить реальна, и отчасти её повадки. Конечно, вам никто не поверит.
 
-[italic]- Grants full Romerol Virus knowledge.[/italic]
+[italic]- Даёт полные знания вируса ромерол.[/italic]
 
 
-[bold][color=#0af024]Xenos Disaster Survivor || [/color][/bold]
-You are one of a few survivors from a Xenos attack. You know what types of Xenos there are, and how they operate in general terms. Most people have never even seen a real Xenos, and surviving an encounter is rare. You have seen horrible things that very few others have. Does not refer to Xenoborgs.
+[bold][color=#0af024]Выживший в катастрофе с ксеносами || [/color][/bold]
+Вы один из немногих выживших после атаки ксеносов. Вы знаете виды ксеносов и их действия в общих чертах. Большинство никогда не видело настоящего ксеноса, пережить встречу — редкость. Вы видели ужасы, виденные немногими. Не относится к ксеноборгам.
 
-[italic]- Grants no Metashielded knowledge, but gives full right to know about Xenos without question.[/italic]
+[italic]- Не даёт знаний под метащитом, но даёт полное право знать о ксеносах без вопросов.[/italic]
 
 
-[bold][color=#0af024]Deific Encounter || [/color][/bold]
-You have experienced something that you are certain was a miracle. Something that could only have been an act of a God.
+[bold][color=#0af024]Божественная встреча || [/color][/bold]
+Вы пережили нечто, в чём уверены как в чуде. То, что могло быть лишь деянием бога.
 
-[italic]- Grants no Metashielded knowledge, but gives full right to know at least one God is real.[/italic]
+[italic]- Не даёт знаний под метащитом, но даёт полное право знать, что реален хотя бы один бог.[/italic]
 
 
-[bold][color=#0af024]Magical Encounter || [/color][/bold]
-You survived an encounter with something that you can only describe as magic. Something you can not explain rationally. Maybe those Wizard Federation people are only partially insane.
+[bold][color=#0af024]Магическая встреча || [/color][/bold]
+Вы пережили встречу с чем-то, описываемым лишь как магия. Необъяснимым рационально. Может, эти люди из Федерации волшебников лишь частично безумны.
 
-[italic]- Grants full Wizards knowledge.[/italic]
+[italic]- Даёт полные знания о волшебниках.[/italic]
 
 
-[bold][color=#0af024]Abducted || [/color][/bold]
-You were once the unfortunate recipient of a probing. The Grays are real! They have a fork-sword that makes you fall asleep, and they teleported you to a shuttle, and made you lay eggs! No, not alien eggs, chicken eggs! Why won't anyone believe you!? - You may choose which gland you had, but the goal is crazy alien story tone.
+[bold][color=#0af024]Похищенный || [/color][/bold]
+Вы некогда были несчастной жертвой зондирования. Серые реальны! У них вилка-меч, усыпляющая вас, они телепортировали вас на шаттл и заставили нести яйца! Нет, не яйца чужих, куриные! Почему никто не верит!? — Вы можете выбрать, какая у вас была железа, но цель — тон безумной истории про пришельцев.
 
-[italic]- Grants full Abductors knowledge.[/italic]
+[italic]- Даёт полные знания о похитителях.[/italic]
 
 
-[bold][color=#0af024]Petty Criminal || [/color][/bold]
-While reformed, more or less, you used to get involved in the types of crowds and businesses you really shouldn't have. Because of these connections, you are aware of what items on the station are likely to be worth a lot, and that they are probably targeted by the Syndicate and other Thieves. You know what all the Steal Objective Targets are.
+[bold][color=#0af024]Мелкий преступник || [/color][/bold]
+Хотя вы исправились, более-менее, вы водились с компаниями и делами, с которыми не следовало. Благодаря связям вы знаете, какие предметы на станции вероятно стоят дорого и вероятно являются целями Синдиката и других воров. Вы знаете все цели кражи.
 
-[italic]- Grants full High Value Targets knowledge.[/italic]
+[italic]- Даёт полные знания ценных целей.[/italic]
 
 
-## Additional Information
-### Rumors and Pop Culture
-Over the years a number of things have slipped through the cracks. While they are generally not believed by sane people, none the less the image and rumor persists. Think of it like how in the real world, we have a concept of what a Vampire is. Vampires are obviously not real, but we have a conception of what they should be like if they were. This carries into roleplay as well.
+## Дополнительная информация
+### Слухи и поп-культура
+За годы кое-что просочилось через щели. Хотя вменяемые люди в это обычно не верят, образ и слухи сохраняются. Как в реальном мире есть концепция вампира. Вампиры очевидно не реальны, но есть представление, какими они должны быть, если бы были. Это переносится и в отыгрыш.
 
-- [bold]Nukies:[/bold] Based on old rumors from the [color=#f00000]Pod Wars[/color], the image of the [color=#f00000]Blood-Red[/color] has persisted into the century that followed and to the modern day. Some history buffs might know the actual origin, being a simple space suit worn back in that old war. It has become associated with the idea of [color=#f00000]'Nuclear Operatives'[/color] in recent times as rumors of stations and military outposts being nuked have begun to spread. These rumors are fringe, but have been adopted back into pop culture, with plushies and figures based on the myths.
-- [bold]Supernatural Entities:[/bold] The concept of Shapechangers, Wizards, Vampires, and even Abductors have existing in Human culture for many centuries. Of course, in the age of enlightenment that is the space age, belief in such things is very fringe. Some conspirators may associate them now with 'aliens' given extraterrestrial life is confirmed, but they are considered crazy people.
-- [bold]Parallel Realities:[/bold] A staple of sci-fi and bad superhero franchises for centuries now, the idea of a multiverse is known to the public. The idea of interlopers coming from a parallel world is common enough in movies, usually used to spark [color=#f00000]Red Scare[/color] fears of [color=#f00000]Communist[/color] infiltration in the public following the formation of the [color=#f00000]USSP[/color]- although this use is outdated and considered hooky in the modern day. More recently, those in the Starlight Sector began hearing many rumors related to 'clones' from another world, rumors that were fanned by leaked documents about an ocean world found in the Null Scar. Still, it's all movie nonsense at the end of the day, right?
+- [bold]Нюки:[/bold] По старым слухам о [color=#f00000]под-войнах[/color], образ [color=#f00000]кроваво-красных[/color] сохранился в последовавшее столетие и до наших дней. Некоторые историки могут знать реальное происхождение — простой скафандр той старой войны. В последнее время он стал ассоциироваться с идеей [color=#f00000]«ядерных оперативников»[/color], так как начали распространяться слухи о взорванных станциях и военных аванпостах. Эти слухи маргинальны, но вернулись в поп-культуру с плюшами и фигурками по мифам.
+- [bold]Сверхъестественные сущности:[/bold] Концепция оборотней, волшебников, вампиров и даже похитителей существует в человеческой культуре многие века. Конечно, в эпоху просвещения космической эры вера в такое весьма маргинальна. Некоторые конспирологи могут связывать их теперь с «пришельцами», раз внеземная жизнь подтверждена, но их считают психами.
+- [bold]Параллельные реальности:[/bold] Постоянная тема сай-фая и плохих супергеройских франшиз веками, идея мультивселенной публично известна. Идея вторженцев из параллельного мира достаточно обычна в фильмах, обычно для разжигания страхов [color=#f00000]красной угрозы[/color] и [color=#f00000]коммунистического[/color] проникновения в обществе после образования [color=#f00000]USSP[/color] — хотя это устарело и считается натяжкой в наши дни. В последнее время в секторе Daiquiri начали слышать много слухов о «клонах» из другого мира, слухов, раздутых утёкшими документами об океанском мире в Null Scar. Но всё это киношная чушь в конце концов, да?
 
 
-### Metafriending and Metagrudging
-Giving a person or character preferential treatment based on something that your character should not know is considered metafriending. Treating a person or character negatively based on something that your character should not know is considered metagrudging.
+### Метадружба и метавражда
+Предпочтительное отношение к человеку или персонажу на основе того, чего ваш персонаж знать не должен, считается метадружбой. Негативное отношение к человеку или персонажу на основе того, чего ваш персонаж знать не должен, считается метавраждой.
 
-Friendships between characters may grow and develop and carry over between rounds, so long as they are not based solely on knowing someone out of character and this friendship does not impede or prevent you from fulfilling traitor objectives that harm them.
+Дружба между персонажами может расти, развиваться и переноситься между раундами, пока она основана не только на знании кого-то вне персонажа и не мешает выполнять цели предателя во вред им.
 
-Metafriending Examples
-- Doing any of the following because you are friends with the player who is playing a character or because you have made friends in character in a previous shift or during a previous life:
-- Giving a character additional access or a job beyond what makes sense
-- Trusting a character beyond what makes sense
-- Refusing to fight a character when it would otherwise make sense
-- Ignoring your objective to kill a character
+Примеры метадружбы
+- Делать что-то из ниже, потому что вы дружите с игроком персонажа или подружились в персонаже в прошлой смене/прошлой жизни:
+- Выдача персонажу дополнительного доступа или работы сверх разумного
+- Доверие персонажу сверх разумного
+- Отказ сражаться с персонажем, когда это разумно
+- Игнорирование цели убить персонажа
 
-Metagrudging Examples
-- Doing any of the following because of out of character reasons or something that happened in a previous round or during a previous life:
-- Not giving a character additional access or a job when it would otherwise make sense
-- Not trusting a character when it would otherwise make sense
-- Starting a fight with a character without in-character reason
-- Targeting or harassing a character without in-character reason
+Примеры метавражды
+- Делать что-то из ниже по внеперсонажным причинам или из-за прошлого раунда/прошлой жизни:
+- Невыдача персонажу дополнительного доступа или работы, когда это разумно
+- Недоверие персонажу, когда это разумно
+- Начало драки с персонажем без внутриперсонажной причины
+- Преследование или травля персонажа без внутриперсонажной причины
 
 
-### Explicitly Not Shielded
-The following is a list of things that are explicitly not shielded. If something is not on this list, it doesn’t mean that it is shielded, but if something is on it then it definitely is not shielded.
+### Явно не под щитом
+Ниже список явно не под щитом. Если чего-то нет в списке, это не значит, что оно под щитом, но если оно в нём — то точно не под щитом.
 
-- The existence of the nuke disk and the fact that it must be protected and could be used by a bad actor to try to destroy the station.
-- The fact that alternative law sets for a Cyborg or AI exist, and could be used to alter the Silicon’s behavior. This includes the antimov lawset.
-- The idea that any Syndicate Agent or bad actor has goals or objectives that they are attempting to accomplish. They must have been sent here for a reason.
-- The fact that the Syndicate exist and are enemies of NanoTrasen, and that they regularly attempt to send covert agents to spy on, sabotage, or attack NanoTrasen.
-- A character’s typical appearance, though you should keep in mind that multiple characters can share the same name or features.
-- The existence of Space Dragons, Space Carps, Pirates, Thieves, and Xenos. Specific information on hostile fauna is limited. Does your doctor need to know how a Goliath works?
+- Существование диска и факт его защиты и возможного использования злоумышленником для уничтожения станции.
+- Факт существования альтернативных наборов законов для киборга или ИИ и их использования для изменения поведения синтетика. Включая набор antimov.
+- Идея, что любой агент Синдиката или злоумышленник имеет цели, которых пытается достичь. Их должны были послать сюда не просто так.
+- Факт существования Синдиката как врагов NanoTrasen и регулярных попыток засылать тайных агентов для шпионажа, саботажа и атак на NanoTrasen.
+- Типичная внешность персонажа, хотя помните, что несколько персонажей могут делить имя или черты.
+- Существование космических драконов, космических карпов, пиратов, воров и ксеносов. Конкретная информация о враждебной фауне ограничена. Нужно ли вашему врачу знать устройство голиафа?
 
 </Document>

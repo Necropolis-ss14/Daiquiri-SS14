@@ -1,15 +1,15 @@
 <Document>
-  # Neo-Resomi
+  # Нео-резоми
 
   <Box>
     <GuideEntityEmbed Entity="AppearanceNeoResomi" Caption=""/>
   </Box>
 
-  Parts of the romantic movement within resomi society have embraced full cybernetic augmentation like some of their Avali forbearers did before them. Although even within their own movement this is seen as the more extreme and rather opulent kind of veneration. Other resomi outside of the movement of course view this practice as highly vain. The [color=#ffbc48]Nexus[/color] is the only exception to this.
+  Часть романтического движения внутри общества резоми приняла полную кибернетическую аугментацию, как это сделали до них некоторые из их предшественников-авали. Хотя даже внутри их собственного движения это считается более экстремальным и довольно вычурным видом почитания. Другие резоми вне движения, конечно, считают эту практику крайне тщеславной. Единственное исключение — [color=#ffbc48]Нексус[/color].
 
-  ## Resistances
-  - Receive [color=#ffa500]25% more heat damage[/color], [color=#8147ff]25% more shock damage[/color], and [color=#FF3636]10% more blunt damage[/color].
-  - Receive [color=#1e90ff]45% less cold damage[/color].
+  ## Сопротивления
+  - Получают [color=#ffa500]на 25% больше теплового урона[/color], [color=#8147ff]на 25% больше урона шоком[/color] и [color=#FF3636]на 10% больше тупого урона[/color].
+  - Получают [color=#1e90ff]на 45% меньше урона от холода[/color].
 
-  [color=red]Oxygen/Water-Based medical chemicals remain a lethal danger for them.[/color]
+  [color=red]Медицинские химикаты на основе кислорода/воды остаются для них смертельной опасностью.[/color]
 </Document>

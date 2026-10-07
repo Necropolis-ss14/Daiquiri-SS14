@@ -1,22 +1,22 @@
 ﻿<Document>
-  # Roleplay Rule 5 - Do not interfere with arrivals
-  The arrivals terminal/station, the arrivals shuttle, at the area immediately around the arrivals shuttle at the station ("arrivals") are off-limits to antagonistic activity or damage (even to antagonists). Do not prevent people from safely arriving to the station. Do not cause people to die immediately after arriving at the station.
+  # Правило отыгрыша 5 — Не мешайте прибывающим
+  Терминал/станция прибытия, шаттл прибытия и область непосредственно вокруг шаттла прибытия на станции («прибытие») закрыты для антагонистической деятельности и урона (даже для антагонистов). Не мешайте людям безопасно прибывать на станцию. Не убивайте людей сразу после прибытия на станцию.
 
-  There is an exemption for antagonists that are allowed to perform mass station sabotage if there is no reasonable way to limit the damage of the mass station sabotage. This exemption only applies to damage that is a direct result of the mass station sabotage.
+  Есть исключение для антагонистов, которым разрешён массовый саботаж станции, если нет разумного способа ограничить урон от него. Это исключение применяется только к урону, являющемуся прямым результатом массового саботажа.
 
-  ## Examples
-  Acceptable:
-  - Redecorating arrivals or the arrivals shuttle.
-  - Remodeling arrivals or the arrivals shuttle as long as you do not make the area more dangerous both during and after the remodel.
-  - Setting up a safe security checkpoint between arrivals and the rest of the station.
-  - Killing someone who has been at arrivals for a long time, or who left arrivals and came back. (This may violate other rules depending on the situation)
-  - Releasing a singularity which damages arrivals. (This may violate other rules depending on the situation)
-  - Causing a station-wide atmospheric issue which also affects arrivals. (This may violate other rules depending on the situation)
+  ## Примеры
+  Допустимо:
+  - Переоформление прибытия или шаттла прибытия.
+  - Перестройка прибытия или шаттла прибытия, если вы не делаете зону опаснее как во время, так и после перестройки.
+  - Установка безопасного КПП службы безопасности между прибытием и остальной станцией.
+  - Убийство того, кто давно находится на прибытии или кто ушёл с прибытия и вернулся. (Может нарушать другие правила в зависимости от ситуации)
+  - Выпуск сингулярности, повредившей прибытие. (Может нарушать другие правила в зависимости от ситуации)
+  - Общестанционная атмосферная проблема, затронувшая и прибытие. (Может нарушать другие правила в зависимости от ситуации)
 
-  Prohibited:
-  - Making arrivals or the arrivals shuttle uninhabitable.
-  - Attacking or killing someone at the arrivals station.
-  - Killing someone very shortly after they arrive at the station.
-  - Disassembling all the firelocks at arrivals.
-  - Electrifying the arrivals docking airlocks.
+  Запрещено:
+  - Делать прибытие или шаттл прибытия непригодными для жизни.
+  - Атаковать или убивать кого-то на станции прибытия.
+  - Убивать кого-то вскоре после прибытия на станцию.
+  - Разбирать все пожарные створки на прибытии.
+  - Электрифицировать стыковочные шлюзы прибытия.
 </Document>

@@ -1,19 +1,19 @@
 <Document>
-  # Electric Sheep
+  # Электрические овцы
 
   <Box>
     <GuideEntityEmbed Entity="MobEeep" Caption=""/>
 
   </Box>
-  Electric sheep, or Eeeps, are spacefaring creatures sometimes farmed for the power they naturally produce.
+  Электрические овцы, или ипсы, — космические существа, которых иногда разводят ради энергии, которую они естественным образом производят.
 
-  Eeeplets are the adolescent form of the Eeep, little creatures with a love for feeding on electrical energy, [color=yellow]easily draining any power source.[/color]
+  Ипсёнки — подростковая форма ипса, маленькие существа, любящие питаться электрической энергией, [color=yellow]легко осушающие любой источник питания.[/color]
 
-  They are more annoying than harmful [color=red]unless allowed to consume enough power to grow up;[/color] if so, better hope you have insuls...
+  Они скорее раздражают, чем вредны, [color=red]если им не дать потребить достаточно энергии, чтобы вырасти;[/color] если это случится, лучше надеяться, что у вас есть изоляционки...
     <GuideEntityEmbed Entity="MobEeeplet" Caption=""/>
-  - They can 'pry' open any door by overcharging it.
-  - Eeeplets can be examined to see their internal charge; they will transform when it reaches 100%, alerting the entire station to their presence.
-  - Eeeps have a [color=green]powerful passive regen[/color] but can be fully killed by [color=yellow]butchering.[/color]
-  - Adult Eeeps have an electric aura that harms on touch and are able to shoot tiny Tesla-like projectiles which have embed damage even if the target is immune to shock.
-  - As an Electric sheep avoid looses. The station can't make yummy power with no engine!
+  - Они могут «вскрывать» любую дверь, перегружая её.
+  - Ипсёнка можно осмотреть, чтобы увидеть его внутренний заряд; при достижении 100% он преобразится, оповестив всю станцию о своём присутствии.
+  - Ипсы обладают [color=green]мощной пассивной регенерацией[/color], но их можно окончательно убить [color=yellow]разделкой.[/color]
+  - Взрослые ипсы имеют электрическую ауру, ранящую при касании, и способны стрелять крошечными снарядами, похожими на теслу, которые наносят встраиваемый урон, даже если цель невосприимчива к шоку.
+  - Как электрической овце, избегайте поражений. Станция не сможет делать вкусную энергию без двигателя!
 </Document>

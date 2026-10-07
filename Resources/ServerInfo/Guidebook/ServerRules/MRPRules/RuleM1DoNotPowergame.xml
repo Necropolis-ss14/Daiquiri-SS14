@@ -1,24 +1,24 @@
 <Document>
-  # Do not Powergame
+  # Не пауэргеймьте
 
-  You must have an In-Character justification for your actions. The Research Director does not need a gun when the station is code-green. The Head of Security does not need All Access at shift start when no threat is identified.
+  У ваших действий должно быть внутриигровое обоснование. Научному руководителю не нужен пистолет, когда на станции зелёный код. Главе службы безопасности не нужен полный доступ в начале смены, когда угроза не выявлена.
 
-  ## Examples
+  ## Примеры
 
- Acceptable:
- - Command carrying non-lethals when there is a plausible threat
- - Command carrying lethals when there is a confirmed threat
- - Command carrying (non-)lethals they start with in their rooms at any time
- - Captain hiding the spare ID in a properly secure location
- - Increasing security (such as bolting doors, adding walls, etc) during Red or Blue alert
- - Several minutes into the round, Captain promotes Warden to HoS because there isn’t one on station
- - General situations where a character is reacting to information during a round in a way that makes logical sense
+  Допустимо:
+  - Командование носит нелетальное оружие при правдоподобной угрозе
+  - Командование носит летальное оружие при подтверждённой угрозе
+  - Командование носит (не)летальное оружие из своих комнат в любое время
+  - Капитан прячет запасную ID-карту в должным образом защищённом месте
+  - Усиление безопасности (закрытие дверей на болты, добавление стен и т.д.) при красном или синем уровне угрозы
+  - Через несколько минут после начала раунда Капитан назначает Смотрителя Главой службы безопасности, потому что его нет на станции
+  - Общие ситуации, когда персонаж реагирует на информацию в раунде логичным образом
 
-  Not Acceptable:
-  - Roundstart Captain granting all heads AA
-  - Roundstart HoP takes Ian to ATS because “He’s a high profile target”
-  - Creating duplicates of high-value or unique items to hand off to others
-  - Bolting doors to areas to increase their security before a threat is confirmed that makes that security inefficient
-  - Setting the alert level to Blue or Red when the situation does not have a need for the severity implied (this includes maintaining these levels far past when said threats have been confirmed as no longer in play)
-  - General situations where a character is preemptively preparing for situations that have yet to happen in ways that logically do not make sense
+  Недопустимо:
+  - Капитан в начале раунда выдаёт всем главам полный доступ
+  - Глава персонала в начале раунда тащит Яна в АТС, потому что «он важная цель»
+  - Создание копий ценных или уникальных предметов для раздачи другим
+  - Закрытие дверей на болты для усиления безопасности до подтверждения угрозы, при которой такая безопасность неэффективна
+  - Установка синего или красного уровня угрозы, когда ситуация не требует такой серьёзности (включая поддержание этих уровней долго после того, как угрозы уже нет)
+  - Общие ситуации, когда персонаж заранее готовится к событиям, которые ещё не произошли, нелогичным образом
 </Document>

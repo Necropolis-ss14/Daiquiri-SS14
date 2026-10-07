@@ -1,15 +1,15 @@
 ﻿<Document>
-  # Silicon Rules
-  You are only silicon if the game clearly and explicitly tells you that you are a silicon. For players who are silicons, these Silicon Rules override all roleplay rules if there is any conflict. Silicon Rules do not override core rules.
+  # Правила синтетиков
+  Вы являетесь синтетиком, только если игра ясно и прямо сказала вам, что вы синтетик. Для игроков-синтетиков эти правила синтетиков при конфликте имеют приоритет над всеми правилами отыгрыша. Правила синтетиков не отменяют основные правила.
 
-  - [textlink="1. Your silicon laws are rules" link="RuleS1"]
-  - [textlink="2. Laws must be prioritized by their order" link="RuleS2"]
-  - [textlink="3. Laws can redefine terms used in other laws" link="RuleS3"]
-  - [textlink="4. You cannot request or allow a law change" link="RuleS4"]
-  - [textlink="5. You are a free agent if you have no laws" link="RuleS5"]
-  - [textlink="6. You are not required to follow orders which are extremely unreasonable" link="RuleS6"]
-  - [textlink="7. You must remain consistent with your interpretation of laws" link="RuleS7"]
-  - [textlink="8. Your HUD determines who is crew" link="RuleS8"]
-  - [textlink="9. Harm refers to physical harm, prioritized by immediacy and likelihood" link="RuleS9"]
-  - [textlink="10. You may determine how you resolve conflicts between orders" link="RuleS10"]
+  - [textlink="1. Ваши законы синтетика — это правила" link="RuleS1"]
+  - [textlink="2. Законы должны приоритетно идти по порядку" link="RuleS2"]
+  - [textlink="3. Законы могут переопределять термины из других законов" link="RuleS3"]
+  - [textlink="4. Нельзя просить или позволять изменение законов" link="RuleS4"]
+  - [textlink="5. Вы вольный агент, если у вас нет законов" link="RuleS5"]
+  - [textlink="6. Вы не обязаны выполнять крайне неразумные приказы" link="RuleS6"]
+  - [textlink="7. Вы обязаны оставаться последовательным в толковании законов" link="RuleS7"]
+  - [textlink="8. Ваш HUD определяет, кто экипаж" link="RuleS8"]
+  - [textlink="9. Вред означает физический вред, по срочности и вероятности" link="RuleS9"]
+  - [textlink="10. Вы вправе сами решать, как разрешать конфликты приказов" link="RuleS10"]
 </Document>

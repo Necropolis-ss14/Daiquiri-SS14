@@ -1,107 +1,107 @@
 <Document>
-# ERT Teams
+# Команды ОБР
 
-## ERT Security
+## ОБР безопасности
 
-[bold]Called by: Any two of:[/bold] [color=#fcdf03]Captain[/color], [color=#ff4242]Head of Security[/color], or [color=#2253b5]NanoTrasen Representative[/color] [bold]OR any three[/bold] [color=#fcdf03]Command[/color] members, with [color=#86d420]Central Command[/color] approval.
+[bold]Вызывается: любыми двумя из:[/bold] [color=#fcdf03]Капитан[/color], [color=#ff4242]Глава службы безопасности[/color] или [color=#2253b5]Представитель NanoTrasen[/color] [bold]ИЛИ любыми тремя[/bold] членами [color=#fcdf03]командования[/color], с одобрения [color=#86d420]Central Command[/color].
 
-[bold]Arrival time:[/bold] 5 minutes.
+[bold]Время прибытия:[/bold] 5 минут.
 
-[bold]Conditions:[/bold] Active, confirmed hostile threats have overwhelmed station security's ability to respond. Remaining security staff are insufficient to contain or eliminate the threat, and the situation poses ongoing danger to the crew.
+[bold]Условия:[/bold] Активные подтверждённые враждебные угрозы превысили возможности службы безопасности станции. Оставшегося персонала безопасности недостаточно для сдерживания или устранения угрозы, и ситуация представляет постоянную опасность для экипажа.
 
-Must not be called during a War Declaration; the Nuclear Response Team should be called instead.
+Не должна вызываться во время объявления войны; вместо этого следует вызывать команду ядерного реагирования.
 
-[bold]One-time use per shift.[/bold]
+[bold]Одноразовое использование за смену.[/bold]
 
-[bold]Rescinded when:[/bold] The threat has been neutralized or sufficiently contained that security can manage without external support.
+[bold]Отзывается когда:[/bold] Угроза нейтрализована или достаточно локализована, чтобы безопасность могла справиться без внешней поддержки.
 
-[bold]Rescinded by: Any one of:[/bold] [color=#fcdf03]Captain[/color], [color=#ff4242]Head of Security[/color], or [color=#2253b5]NanoTrasen Representative[/color] [bold]OR any two[/bold] [color=#fcdf03]Command[/color] members.
+[bold]Отзывается: любым одним из:[/bold] [color=#fcdf03]Капитан[/color], [color=#ff4242]Глава службы безопасности[/color] или [color=#2253b5]Представитель NanoTrasen[/color] [bold]ИЛИ любыми двумя[/bold] членами [color=#fcdf03]командования[/color].
 
-## ERT Engineering
+## ОБР инженерного отдела
 
-[bold]Called by: Any two of:[/bold] [color=#fcdf03]Captain[/color], [color=#ff733c]Chief Engineer[/color], or [color=#2253b5]NanoTrasen Representative[/color] [bold]OR any three[/bold] [color=#fcdf03]Command[/color] members.
+[bold]Вызывается: любыми двумя из:[/bold] [color=#fcdf03]Капитан[/color], [color=#ff733c]Главный инженер[/color] или [color=#2253b5]Представитель NanoTrasen[/color] [bold]ИЛИ любыми тремя[/bold] членами [color=#fcdf03]командования[/color].
 
-[bold]Arrival time:[/bold] 5 minutes.
+[bold]Время прибытия:[/bold] 5 минут.
 
-[bold]Conditions:[/bold] Catastrophic station damage (such as structural breaches, atmospheric failure, or total power loss) cannot be addressed by available engineering staff within a reasonable timeframe, and the damage poses a direct risk to crew survival.
+[bold]Условия:[/bold] Катастрофические повреждения станции (такие как пробоины корпуса, отказ атмосферы или полная потеря энергии) не могут быть устранены имеющимся инженерным персоналом в разумные сроки, и повреждения представляют прямую угрозу выживанию экипажа.
 
-[bold]One-time use per shift.[/bold]
+[bold]Одноразовое использование за смену.[/bold]
 
-[bold]Rescinded when:[/bold] Engineering staff have regained the ability to manage repairs, or the damage no longer poses an immediate threat.
+[bold]Отзывается когда:[/bold] Инженерный персонал вновь способен справляться с ремонтом, либо повреждения больше не представляют непосредственной угрозы.
 
-[bold]Rescinded by: Any one of:[/bold] [color=#fcdf03]Captain[/color], [color=#ff733c]Chief Engineer[/color], or [color=#2253b5]NanoTrasen Representative[/color] [bold]OR any two[/bold] [color=#fcdf03]Command[/color] members.
+[bold]Отзывается: любым одним из:[/bold] [color=#fcdf03]Капитан[/color], [color=#ff733c]Главный инженер[/color] или [color=#2253b5]Представитель NanoTrasen[/color] [bold]ИЛИ любыми двумя[/bold] членами [color=#fcdf03]командования[/color].
 
-## ERT Medical
+## ОБР медицинского отдела
 
-[bold]Called by: Any two of:[/bold] [color=#fcdf03]Captain[/color], [color=#57b8f0]Chief Medical Officer[/color], or [color=#2253b5]NanoTrasen Representative[/color] [bold]OR any three[/bold] [color=#fcdf03]Command[/color] members.
+[bold]Вызывается: любыми двумя из:[/bold] [color=#fcdf03]Капитан[/color], [color=#57b8f0]Главный врач[/color] или [color=#2253b5]Представитель NanoTrasen[/color] [bold]ИЛИ любыми тремя[/bold] членами [color=#fcdf03]командования[/color].
 
-[bold]Arrival time:[/bold] 5 minutes.
+[bold]Время прибытия:[/bold] 5 минут.
 
-[bold]Conditions:[/bold] A mass casualty event has exceeded the capacity of medical staff to treat, and crew survival is at risk as a direct result.
+[bold]Условия:[/bold] Массовое поступление пострадавших превысило возможности медицинского персонала, и выживание экипажа находится под угрозой как прямое следствие.
 
-[bold]One-time use per shift.[/bold]
+[bold]Одноразовое использование за смену.[/bold]
 
-[bold]Rescinded when:[/bold] The medical emergency has stabilized and staff can manage remaining casualties without external support.
+[bold]Отзывается когда:[/bold] Медицинская чрезвычайная ситуация стабилизировалась и персонал может справиться с оставшимися пострадавшими без внешней поддержки.
 
-[bold]Rescinded by: Any one of:[/bold] [color=#fcdf03]Captain[/color], [color=#57b8f0]Chief Medical Officer[/color], or [color=#2253b5]NanoTrasen Representative[/color] [bold]OR any two[/bold] [color=#fcdf03]Command[/color] members.
+[bold]Отзывается: любым одним из:[/bold] [color=#fcdf03]Капитан[/color], [color=#57b8f0]Главный врач[/color] или [color=#2253b5]Представитель NanoTrasen[/color] [bold]ИЛИ любыми двумя[/bold] членами [color=#fcdf03]командования[/color].
 
-## ERT Janitorial
+## ОБР уборки
 
-[bold]Called by: Any two of:[/bold] [color=#fcdf03]Captain[/color], [color=#2cdb2c]Head of Personnel[/color], or [color=#2253b5]NanoTrasen Representative[/color] [bold]OR any three[/bold] [color=#fcdf03]Command[/color] members.
+[bold]Вызывается: любыми двумя из:[/bold] [color=#fcdf03]Капитан[/color], [color=#2cdb2c]Глава персонала[/color] или [color=#2253b5]Представитель NanoTrasen[/color] [bold]ИЛИ любыми тремя[/bold] членами [color=#fcdf03]командования[/color].
 
-[bold]Arrival time:[/bold] 5 minutes.
+[bold]Время прибытия:[/bold] 5 минут.
 
-[bold]Conditions:[/bold] The entire station is so messy that janitorial staff cannot clean it in a reasonable time.
+[bold]Условия:[/bold] Вся станция настолько загрязнена, что уборщики не могут убрать её в разумные сроки.
 
-[bold]One-time use per shift.[/bold]
+[bold]Одноразовое использование за смену.[/bold]
 
-[bold]Rescinded when:[/bold] The station mess has been reduced to a level that janitorial staff can handle in a reasonable time.
+[bold]Отзывается когда:[/bold] Загрязнение станции снижено до уровня, с которым уборщики могут справиться в разумные сроки.
 
-[bold]Rescinded by: Any one of:[/bold] [color=#fcdf03]Captain[/color], [color=#2cdb2c]Head of Personnel[/color], or [color=#2253b5]NanoTrasen Representative[/color] [bold]OR any two[/bold] [color=#fcdf03]Command[/color] members.
+[bold]Отзывается: любым одним из:[/bold] [color=#fcdf03]Капитан[/color], [color=#2cdb2c]Глава персонала[/color] или [color=#2253b5]Представитель NanoTrasen[/color] [bold]ИЛИ любыми двумя[/bold] членами [color=#fcdf03]командования[/color].
 
-## ERT Chaplain
+## ОБР капеллана
 
-[bold]Called by:[/bold] [color=#fcdf03]Captain[/color] and [color=#2253b5]NanoTrasen Representative[/color] [bold]OR any three[/bold] [color=#fcdf03]Command[/color] members.
+[bold]Вызывается:[/bold] [color=#fcdf03]Капитан[/color] и [color=#2253b5]Представитель NanoTrasen[/color] [bold]ИЛИ любыми тремя[/bold] членами [color=#fcdf03]командования[/color].
 
-[bold]Arrival time:[/bold] 5 minutes.
+[bold]Время прибытия:[/bold] 5 минут.
 
-[bold]Conditions:[/bold] Cult activity on the station cannot be handled by existing security and the chaplain.
+[bold]Условия:[/bold] Культистская активность на станции не может быть подавлена имеющейся службой безопасности и капелланом.
 
-[bold]One-time use per shift.[/bold]
+[bold]Одноразовое использование за смену.[/bold]
 
-[bold]Rescinded when:[/bold] Cult activity has been reduced to a level that existing security and the chaplain can handle.
+[bold]Отзывается когда:[/bold] Культистская активность снижена до уровня, с которым могут справиться имеющаяся служба безопасности и капеллан.
 
-[bold]Rescinded by: Any one of:[/bold] [color=#fcdf03]Captain[/color] or [color=#2253b5]NanoTrasen Representative[/color] [bold]OR any two[/bold] [color=#fcdf03]Command[/color] members.
+[bold]Отзывается: любым одним из:[/bold] [color=#fcdf03]Капитан[/color] или [color=#2253b5]Представитель NanoTrasen[/color] [bold]ИЛИ любыми двумя[/bold] членами [color=#fcdf03]командования[/color].
 
-## ERT CBURN
+## ОБР CBURN
 
-[bold]Called by: Any three[/bold] [color=#fcdf03]Command[/color] members.
+[bold]Вызывается: любыми тремя[/bold] членами [color=#fcdf03]командования[/color].
 
-[bold]Arrival time:[/bold] 15 minutes.
+[bold]Время прибытия:[/bold] 15 минут.
 
-[bold]Conditions:[/bold] Code Violet is active. A biological or viral outbreak has been confirmed, and containment has failed or is at imminent risk of failure. Standard medical and security response are insufficient.
+[bold]Условия:[/bold] Активен Фиолетовый код. Подтверждена биологическая или вирусная вспышка, сдерживание провалилось или находится под неминуемой угрозой провала. Стандартных мер медицинского и охранного реагирования недостаточно.
 
-Must not be called during a War Declaration.
+Не должна вызываться во время объявления войны.
 
-[bold]One-time use per shift.[/bold]
+[bold]Одноразовое использование за смену.[/bold]
 
-[bold]Rescinded when:[/bold] The outbreak has been contained and CBURN intervention is no longer necessary.
+[bold]Отзывается когда:[/bold] Вспышка локализована и вмешательство CBURN больше не требуется.
 
-[bold]Rescinded by: Any two of:[/bold] [color=#fcdf03]Captain[/color], [color=#ff4242]Head of Security[/color], or [color=#2253b5]NanoTrasen Representative[/color] [bold]OR[/bold] [color=#ff4242]Head of Security[/color] and any one [color=#fcdf03]Command[/color] member [bold]OR any three[/bold] [color=#fcdf03]Command[/color] members.
+[bold]Отзывается: любыми двумя из:[/bold] [color=#fcdf03]Капитан[/color], [color=#ff4242]Глава службы безопасности[/color] или [color=#2253b5]Представитель NanoTrasen[/color] [bold]ИЛИ[/bold] [color=#ff4242]Глава службы безопасности[/color] и любым одним членом [color=#fcdf03]командования[/color] [bold]ИЛИ любыми тремя[/bold] членами [color=#fcdf03]командования[/color].
 
-## Nuclear Response Team
+## Команда ядерного реагирования
 
-[bold]Called by: Any two of:[/bold] [color=#fcdf03]Captain[/color], [color=#ff4242]Head of Security[/color], or [color=#2253b5]NanoTrasen Representative[/color] [bold]OR any three[/bold] [color=#fcdf03]Command[/color] members.
+[bold]Вызывается: любыми двумя из:[/bold] [color=#fcdf03]Капитан[/color], [color=#ff4242]Глава службы безопасности[/color] или [color=#2253b5]Представитель NanoTrasen[/color] [bold]ИЛИ любыми тремя[/bold] членами [color=#fcdf03]командования[/color].
 
-[bold]Arrival time:[/bold] 30 minutes.
+[bold]Время прибытия:[/bold] 30 минут.
 
-[bold]Conditions:[/bold] A War Declaration has been made against the station.
+[bold]Условия:[/bold] Станции объявлена война.
 
-Only available after war has been declared.
+Доступна только после объявления войны.
 
-[bold]One-time use per shift.[/bold]
+[bold]Одноразовое использование за смену.[/bold]
 
-[bold]Rescinded when:[/bold] The war threat has been repelled or the situation no longer requires additional security personnel.
+[bold]Отзывается когда:[/bold] Военная угроза отражена либо ситуация больше не требует дополнительного персонала безопасности.
 
-[bold]Rescinded by: Any one of:[/bold] [color=#fcdf03]Captain[/color], [color=#ff4242]Head of Security[/color], or [color=#2253b5]NanoTrasen Representative[/color] [bold]OR any two[/bold] [color=#fcdf03]Command[/color] members.
+[bold]Отзывается: любым одним из:[/bold] [color=#fcdf03]Капитан[/color], [color=#ff4242]Глава службы безопасности[/color] или [color=#2253b5]Представитель NanoTrasen[/color] [bold]ИЛИ любыми двумя[/bold] членами [color=#fcdf03]командования[/color].
 </Document>

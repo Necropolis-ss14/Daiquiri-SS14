@@ -1,76 +1,76 @@
 <Document>
-  # Core Rule 13 - Use realistic character names, and do not use names of famous people
-  - No names of people or characters from the real world
-  - No titles/honorifics
-  - Must follow all other rules (no slurs/sexual names/etc)
-  - Usernames, objects, random characters, very "low effort" names, "meta" names, or otherwise implausible names cannot be used as names. See examples below.
-  - Admin rulings on IC names are final and disputes should be done through the forums, not by refusing to comply with an admin
+  # Основное правило 13 — Используйте реалистичные имена персонажей, не используйте имена известных людей
+  - Никаких имён людей или персонажей из реального мира
+  - Никаких титулов/обращений
+  - Должны соблюдать все остальные правила (без оскорблений/сексуальных имён и т.д.)
+  - Никнеймы, названия предметов, случайные символы, очень «низкокачественные» имена, «мета»-имена и прочие неправдоподобные имена нельзя использовать как имена. См. примеры ниже.
+  - Решения администрации по IC-именам окончательны, споры следует вести через форумы, а не отказом подчиниться администратору
 
-  Clowns and mimes are exempt from the prohibition on titles/honorifics, and have loosened restrictions on low effort and implausible names.
+  Клоуны и мимы освобождены от запрета на титулы/обращения, для них смягчены ограничения на низкокачественные и неправдоподобные имена.
 
-  ## Clarification on "Meta" Names
-  Meta names are ones which attempt to take advantage of some game mechanic or game design choice. "Urist McHands" is a meta name because it is the default name used for admin spawned humans. "Operator Whiskey" is a meta name because it follows the naming pattern of nuclear operatives. This rule is not intended to prevent things like nuclear operatives using a fake ID with names that appear to be nuclear operative names if they decide that they want to do that.
+  ## Пояснение о «мета»-именах
+  Мета-имена — это те, которые пытаются использовать какую-то игровую механику или особенность дизайна. «Urist McHands» — мета-имя, потому что это имя по умолчанию для заспавненных администратором людей. «Operator Whiskey» — мета-имя, потому что оно следует шаблону имён ядерных оперативников. Это правило не запрещает, например, ядерным оперативникам использовать поддельные ID с именами, похожими на имена оперативников, если они так хотят.
 
-  ## Conventions and Examples
-  [color=#994444]Bad[/color] cannot be used by any species. [color=#449944]Acceptable[/color] names can be used by any species.
+  ## Соглашения и примеры
+  [color=#994444]Плохо[/color] нельзя использовать никакой расе. [color=#449944]Допустимо[/color] можно использовать любой расе.
 
-  Humans typically use the Firstname Lastname convention.
-  - [color=#449944]Acceptable:[/color] Tom Fisher
-  - [color=#449944]Acceptable:[/color] Spacey Chapman
-  - [color=#994444]Bad:[/color] Dr. Tom Fisher
-  - [color=#994444]Bad:[/color] Walter White
-  - [color=#994444]Bad:[/color] George Washington
-  - [color=#994444]Bad:[/color] Joe Biden
-  - [color=#994444]Bad:[/color] Ben Dover
-  - [color=#994444]Bad:[/color] Mike Hunt
+  Люди обычно используют схему Имя Фамилия.
+  - [color=#449944]Допустимо:[/color] Tom Fisher
+  - [color=#449944]Допустимо:[/color] Spacey Chapman
+  - [color=#994444]Плохо:[/color] Dr. Tom Fisher
+  - [color=#994444]Плохо:[/color] Walter White
+  - [color=#994444]Плохо:[/color] George Washington
+  - [color=#994444]Плохо:[/color] Joe Biden
+  - [color=#994444]Плохо:[/color] Ben Dover
+  - [color=#994444]Плохо:[/color] Mike Hunt
 
-  Dwarfs typically use the human convention in a viking theme.
-  - [color=#449944]Acceptable:[/color] Ingrid Firebreath
-  - [color=#449944]Acceptable:[/color] Erik Lightningclaw
+  Дварфы обычно используют человеческую схему в викингском стиле.
+  - [color=#449944]Допустимо:[/color] Ingrid Firebreath
+  - [color=#449944]Допустимо:[/color] Erik Lightningclaw
 
-  Lizards typically use the Verb-article-Noun convention.
-  - [color=#449944]Acceptable:[/color] Cleans-the-Airlocks
-  - [color=#994444]Bad:[/color] Bans-the-Admins
+  Ящеры обычно используют схему Глагол-артикль-Существительное.
+  - [color=#449944]Допустимо:[/color] Cleans-the-Airlocks
+  - [color=#994444]Плохо:[/color] Bans-the-Admins
 
-  Slimes typically have names that are onomatopoeia. A last name is optional.
-  - [color=#449944]Acceptable:[/color] Foolp Suub
-  - [color=#449944]Acceptable:[/color] Foolp
-  - [color=#994444]Bad:[/color] Slime
+  Слаймы обычно имеют имена-звукоподражания. Фамилия необязательна.
+  - [color=#449944]Допустимо:[/color] Foolp Suub
+  - [color=#449944]Допустимо:[/color] Foolp
+  - [color=#994444]Плохо:[/color] Slime
 
-  Diona typically have calm, nature themed, Noun of Noun style names.
-  - [color=#449944]Acceptable:[/color] Petal of Tranquility
-  - [color=#449944]Acceptable:[/color] Garden of Relaxation
-  - [color=#994444]Bad:[/color] Tree but Alive
+  Дионы обычно имеют спокойные, природные имена в стиле Существительное из Существительного.
+  - [color=#449944]Допустимо:[/color] Petal of Tranquility
+  - [color=#449944]Допустимо:[/color] Garden of Relaxation
+  - [color=#994444]Плохо:[/color] Tree but Alive
 
-  Mothmen typically use latin sounding names, or light themed names.
-  - [color=#449944]Acceptable:[/color] Socrates Temnora
-  - [color=#449944]Acceptable:[/color] Sierra Lightseeker
-  - [color=#449944]Acceptable:[/color] James Nightflitter
+  Мотыльки обычно используют латинообразные имена или имена на тему света.
+  - [color=#449944]Допустимо:[/color] Socrates Temnora
+  - [color=#449944]Допустимо:[/color] Sierra Lightseeker
+  - [color=#449944]Допустимо:[/color] James Nightflitter
 
-  Arachnids typically use latin sounding names.
-  - [color=#449944]Acceptable:[/color] Argyroneta Reticulatus
-  - [color=#449944]Acceptable:[/color] Loxosceles Domesticus
-  - [color=#994444]Bad:[/color] Spider-Man
+  Арахниды обычно используют латинообразные имена.
+  - [color=#449944]Допустимо:[/color] Argyroneta Reticulatus
+  - [color=#449944]Допустимо:[/color] Loxosceles Domesticus
+  - [color=#994444]Плохо:[/color] Spider-Man
 
-  Vox typically use a single name made of random syllables, often with repeating patterns.
-  Names should not be excessively long or be so repetitive/convoluted as to be unreadable.
+  Воксы обычно используют одно имя из случайных слогов, часто с повторяющимися паттернами.
+  Имена не должны быть чрезмерно длинными или настолько повторяющимися/запутанными, что их невозможно прочитать.
 
-  - [color=#449944]Acceptable:[/color] Hirixashahre
-  - [color=#449944]Acceptable:[/color] Xapikrikrik
-  - [color=#994444]Bad:[/color] Chipikirchitchitchitbecretretrer
-  - [color=#994444]Bad:[/color] Trololol
+  - [color=#449944]Допустимо:[/color] Hirixashahre
+  - [color=#449944]Допустимо:[/color] Xapikrikrik
+  - [color=#994444]Плохо:[/color] Chipikirchitchitchitbecretretrer
+  - [color=#994444]Плохо:[/color] Trololol
 
-  Usernames, objects, random characters, very "low effort" names, "meta" names, or otherwise implausible names are not permitted.
-  - [color=#994444]Bad:[/color] XxRobustxX
-  - [color=#994444]Bad:[/color] SDpksSodjdfk
-  - [color=#994444]Bad:[/color] Lkdsoisgoieun
-  - [color=#994444]Bad:[/color] F4ith H3arth
-  - [color=#994444]Bad:[/color] Greytide
-  - [color=#994444]Bad:[/color] Assistant
-  - [color=#994444]Bad:[/color] Urist McHands
-  - [color=#994444]Bad:[/color] Admin
-  - [color=#994444]Bad:[/color] Game-Master
-  - [color=#994444]Bad:[/color] Joe Mamma
-  - [color=#994444]Bad:[/color] Middle-Aged Man
-  - [color=#994444]Bad:[/color] Operative Whiskey
+  Никнеймы, предметы, случайные символы, очень «низкокачественные» имена, «мета»-имена и прочие неправдоподобные имена запрещены.
+  - [color=#994444]Плохо:[/color] XxRobustxX
+  - [color=#994444]Плохо:[/color] SDpksSodjdfk
+  - [color=#994444]Плохо:[/color] Lkdsoisgoieun
+  - [color=#994444]Плохо:[/color] F4ith H3arth
+  - [color=#994444]Плохо:[/color] Greytide
+  - [color=#994444]Плохо:[/color] Assistant
+  - [color=#994444]Плохо:[/color] Urist McHands
+  - [color=#994444]Плохо:[/color] Admin
+  - [color=#994444]Плохо:[/color] Game-Master
+  - [color=#994444]Плохо:[/color] Joe Mamma
+  - [color=#994444]Плохо:[/color] Middle-Aged Man
+  - [color=#994444]Плохо:[/color] Operative Whiskey
 </Document>

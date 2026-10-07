@@ -5,11 +5,11 @@ ipc-brain-ejected = Мозг извлечён!
 ipc-brain-inserted = Мозг вставлен!
 ipc-warning-critical-charge = Опасно! Внутренний заряд низкий! Неизбежна защитная остановка!
 ipc-revive-button-label = Перезагрузить
-ipc-revive-button-submenu = СПМ
+ipc-revive-button-submenu = КПБ
 
 ipc-drain-power-alt-verb = Вытянуть энергию
 
-ipc-ui-menu-title = Панель управления СПМ
+ipc-ui-menu-title = Панель управления КПБ
 ipc-ui-console-separator = =======================================
 ipc-ui-console-header-1 = = _____ _____   _____    ____   _____
 ipc-ui-console-header-2 = =|_   _|  __ \ / ____|  / __ \ / ____|

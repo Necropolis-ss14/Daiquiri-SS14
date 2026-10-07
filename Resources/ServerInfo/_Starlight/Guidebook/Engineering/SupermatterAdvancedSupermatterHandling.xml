@@ -1,204 +1,204 @@
 <Document>
-  # Advanced Supermatter Handling
+  # Продвинутое обращение с суперматерией
 
-  The Supermatter Crystal interacts strongly with the properties of its surrounding atmosphere.
+  Кристалл суперматерии сильно взаимодействует со свойствами окружающей атмосферы.
 
-  Research indicates that atmospheric composition can influence the behaviour and output characteristics of the crystal.
+  Исследования указывают, что состав атмосферы может влиять на поведение и выходные характеристики кристалла.
 
-  Nanotrasen research archives contain numerous controlled studies investigating these interactions.
+  Архивы исследований NanoTrasen содержат многочисленные контролируемые исследования этих взаимодействий.
 
-  Advanced experimentation should only be performed by qualified senior Atmospheric Technicians and Engineering personnel.
+  Продвинутые эксперименты должны выполняться только квалифицированными старшими атмосферными техниками и инженерным персоналом.
 
-  Experiments exceeding established safety parameters require appropriate authorization and risk assessment.
+  Эксперименты, превышающие установленные параметры безопасности, требуют соответствующего разрешения и оценки рисков.
 
-  Unsafe experimentation may result in catastrophic consequences.
+  Небезопасные эксперименты могут привести к катастрофическим последствиям.
 
 
-  # NT-SRD Supermatter Experiment Archive
+  # Архив экспериментов НТ-ОИС с суперматерией
 
-  [color=orange]Nanotrasen Supermatter Research Division (SRD)[/color]
+  [color=orange]Отдел исследования суперматерии NanoTrasen (ОИС)[/color]
 
-  Classification: Internal Engineering Research Documentation
+  Классификация: Внутренняя инженерная исследовательская документация
 
-  The following documents contain selected Supermatter experimental setups and research results conducted under Nanotrasen Engineering supervision.
+  Следующие документы содержат выбранные экспериментальные установки с суперматерией и результаты исследований, проведённые под инженерным надзором NanoTrasen.
 
-  Experimental procedures may only be reproduced by authorized personnel with appropriate engineering clearance.
+  Экспериментальные процедуры могут воспроизводиться только уполномоченным персоналом с соответствующим инженерным допуском.
 
-  Portions of this document have been removed under corporate information protection policy.
+  Части этого документа были удалены согласно корпоративной политике защиты информации.
 
 
-  ## Experimental Setup SM-T1
+  ## Экспериментальная установка СМ-Т1
 
-  [color=cyan]Experiment Lead:[/color] NT-CE-TY-TY-TY
+  [color=cyan]Руководитель эксперимента:[/color] НТ-ГИ-ТИ-ТИ-ТИ
 
-  [color=cyan]Experiment Handler:[/color] NT-AT-LS
+  [color=cyan]Исполнитель эксперимента:[/color] НТ-АТ-ЛС
 
-  [color=cyan]Experiment Authorization:[/color] Junior Atmospheric Technician with Chief Engineer supervision.
+  [color=cyan]Разрешение эксперимента:[/color] Младший атмосферный техник под надзором главного инженера.
 
 
-  [color=orange]Experimental Setup[/color]
+  [color=orange]Экспериментальная установка[/color]
 
-  Chamber Design: Purpose-built experimental chamber.
+  Дизайн камеры: Специально построенная экспериментальная камера.
 
-  Chamber Size: Standard issue dimensions.
+  Размер камеры: Стандартные размеры.
 
-  Chamber Atmosphere: Oxygen.
+  Атмосфера камеры: Кислород.
 
-  Coolant Atmosphere: Oxygen.
+  Охлаждающая атмосфера: Кислород.
 
-  Installed Cooling:
-  - Two sets of two Passive Vents.
-  - Three radiator units per side.
+  Установленное охлаждение:
+  - Два набора по два пассивных вентилей.
+  - Три радиаторные установки на сторону.
 
-  Additional Cooling:
-  - Freezer temperature set to 150 K.
-  - Direct passive vent connection.
+  Дополнительное охлаждение:
+  - Температура морозильника установлена на 150 К.
+  - Прямое подключение пассивного вентиля.
 
-  Electrical Disturbance Countermeasures:
-  - Two grounding rods.
+  Меры против электрических возмущений:
+  - Два заземляющих стержня.
 
-  Recommended Safe Emitter Limit: Two emitters.
+  Рекомендованный безопасный лимит эмиттеров: Два эмиттера.
 
-  Tested Emitter Limit: Six emitters.
+  Проверенный лимит эмиттеров: Шесть эмиттеров.
 
 
-  [color=orange]Control Systems[/color]
+  [color=orange]Системы управления[/color]
 
-  Air Alarm automation for emitter control is strongly advised.
+  Настоятельно советуется автоматизация воздушной тревоги для управления эмиттерами.
 
-  Scrubber configuration: Remove all gases except Oxygen.
+  Конфигурация скрубберов: Удалить все газы кроме кислорода.
 
 
-  [color=orange]Experimental Results[/color]
+  [color=orange]Результаты эксперимента[/color]
 
-  Stable operation achieved.
+  Достигнута стабильная работа.
 
-  Moderate radiation output recorded.
+  Зафиксирован умеренный радиационный выход.
 
-  Recommended harvesting configuration:
-  - Four emitters.
-  - Six Radiation Collectors.
+  Рекомендованная конфигурация сбора:
+  - Четыре эмиттера.
+  - Шесть радиационных коллекторов.
 
-  Alternative coolant atmospheres may be considered.
+  Альтернативные охлаждающие атмосферы могут рассматриваться.
 
-  Nitrogen substitution demonstrated comparable stability.
+  Замена азотом показала сравнимую стабильность.
 
 
-  [color=orange]Research Summary[/color]
+  [color=orange]Резюме исследования[/color]
 
-  This setup demonstrated profitable power harvesting potential while maintaining acceptable operational stability.
+  Эта установка показала прибыльный потенциал сбора энергии при сохранении приемлемой рабочей стабильности.
 
-  Further testing approved under controlled conditions.
+  Дальнейшее тестирование одобрено в контролируемых условиях.
 
 
-  ## Experimental Setup SM-Z0
+  ## Экспериментальная установка СМ-З0
 
-  [color=cyan]Experiment Lead:[/color] NT-CE-LS
+  [color=cyan]Руководитель эксперимента:[/color] НТ-ГИ-ЛС
 
-  [color=cyan]Experiment Handler:[/color] NT-CE-LS
+  [color=cyan]Исполнитель эксперимента:[/color] НТ-ГИ-ЛС
 
-  [color=cyan]Experiment Authorization:[/color] Senior Atmospheric Technician clearance.
+  [color=cyan]Разрешение эксперимента:[/color] Допуск старшего атмосферного техника.
 
 
-  [color=orange]Experimental Setup[/color]
+  [color=orange]Экспериментальная установка[/color]
 
-  Chamber Temperature: Below 70 K.
+  Температура камеры: Ниже 70 К.
 
-  Initial Chamber Pressure: 200 kPa Oxygen atmosphere.
+  Начальное давление камеры: 200 кПа кислородной атмосферы.
 
-  Experimental Atmosphere: Primarily Oxygen with approximately one tenth Nitrogen.
+  Экспериментальная атмосфера: В основном кислород с примерно десятой частью азота.
 
-  Coolant Atmosphere:
-  - Oxygen.
-  - Tritium.
-  - Nitrogen.
+  Охлаждающая атмосфера:
+  - Кислород.
+  - Тритий.
+  - Азот.
 
-  Cooling System:
-  - Three parallel radiator branches.
-  - Six radiators installed per branch.
+  Система охлаждения:
+  - Три параллельные радиаторные ветки.
+  - Шесть радиаторов установлено на ветку.
 
-  Additional Cooling:
-  - Three freezers connected directly through passive vent systems.
+  Дополнительное охлаждение:
+  - Три морозильника, подключённые напрямую через системы пассивных вентилей.
 
-  Overpressure Countermeasures:
-  - Inlet valve configured at 300 kPa.
-  - Signal valve controlled by operational procedure.
+  Меры против избыточного давления:
+  - Входной клапан настроен на 300 кПа.
+  - Сигнальный клапан, управляемый рабочей процедурой.
 
-  Electrical Disturbance Countermeasures:
-  - Two grounding rods.
+  Меры против электрических возмущений:
+  - Два заземляющих стержня.
 
 
-  [color=orange]Control Systems[/color]
+  [color=orange]Системы управления[/color]
 
-  Required automation:
-  - Pressure floor monitoring.
-  - Temperature-sensitive emitter activation.
+  Требуемая автоматизация:
+  - Мониторинг нижнего порога давления.
+  - Температурно-чувствительная активация эмиттеров.
 
-  Emitter activation should be separated into multiple stages to prevent rapid stress escalation.
+  Активация эмиттеров должна разделяться на несколько стадий, чтобы предотвратить быструю эскалацию стресса.
 
 
-  [color=orange]Experimental Results[/color]
+  [color=orange]Результаты эксперимента[/color]
 
-  Recommended Safe Emitter Limit: Six emitters.
+  Рекомендованный безопасный лимит эмиттеров: Шесть эмиттеров.
 
-  Estimated Maximum Stable Limit: Sixteen emitters.
+  Оценочный максимальный стабильный лимит: Шестнадцать эмиттеров.
 
-  Tested Emitter Limit: Thirty-two emitters.
+  Проверенный лимит эмиттеров: Тридцать два эмиттера.
 
-  [color=red]CRITICAL EVENT:[/color]
+  [color=red]КРИТИЧЕСКОЕ СОБЫТИЕ:[/color]
 
-  Geiger monitoring equipment reached maximum measurement capacity.
+  Оборудование гейгеровского мониторинга достигло максимальной измерительной ёмкости.
 
-  Radiation shielding was increased immediately.
+  Радиационная защита была немедленно увеличена.
 
-  Maximum recorded output: 11.3 MW.
+  Максимальный зафиксированный выход: 11.3 МВт.
 
 
-  [color=orange]Research Summary[/color]
+  [color=orange]Резюме исследования[/color]
 
-  This setup demonstrated exceptional profitability with significant operational risk.
+  Эта установка показала исключительную прибыльность со значительным рабочим риском.
 
-  Further testing requires consultation with affected departments.
+  Дальнейшее тестирование требует консультации с затронутыми отделами.
 
 
-  ## Experimental Setup SM-ZS-LS
+  ## Экспериментальная установка СМ-ЗС-ЛС
 
-  [color=cyan]Experiment Lead:[/color] [color=#000000]████████████[/color]
+  [color=cyan]Руководитель эксперимента:[/color] [color=#000000]████████████[/color]
 
-  [color=cyan]Experiment Handler:[/color] [color=#000000]████████████[/color]
+  [color=cyan]Исполнитель эксперимента:[/color] [color=#000000]████████████[/color]
 
-  [color=cyan]Experiment Authorization:[/color] Experimental clearance only.
+  [color=cyan]Разрешение эксперимента:[/color] Только экспериментальный допуск.
 
 
-  [color=orange]Experimental Setup[/color]
+  [color=orange]Экспериментальная установка[/color]
 
-  Coolant Atmosphere:
-  - Zauker.
-  - Healium.
-  - Protonitrate.
-  - Frezon.
+  Охлаждающая атмосфера:
+  - Заукер.
+  - Хилиум.
+  - Протонитрат.
+  - Фрезон.
 
-  Chamber maintained under extreme cryogenic conditions.
+  Камера поддерживается в экстремальных криогенных условиях.
 
-  Experimental atmosphere information:
+  Информация об экспериментальной атмосфере:
   [color=#000000]████████████████████████[/color]
 
 
-  [color=orange]Experimental Results[/color]
+  [color=orange]Результаты эксперимента[/color]
 
-  Initial observations indicate possible interaction between Supermatter and rare atmospheric compounds.
+  Начальные наблюдения указывают на возможное взаимодействие между суперматерией и редкими атмосферными соединениями.
 
-  Results suggest possible applications for self-sustaining Supermatter systems intended for long-duration space operations.
+  Результаты предполагают возможные применения для самоподдерживающихся систем суперматерии, предназначенных для длительных космических операций.
 
-  Project sponsorship: [color=#000000]████████████[/color]
+  Спонсор проекта: [color=#000000]████████████[/color]
 
 
-  [color=orange]Research Summary[/color]
+  [color=orange]Резюме исследования[/color]
 
-  Preliminary results indicate potential improvements for future propulsion and energy research.
+  Предварительные результаты указывают на потенциальные улучшения для будущих исследований движения и энергии.
 
-  [color=red]NOTICE:[/color]
+  [color=red]УВЕДОМЛЕНИЕ:[/color]
 
-  Remaining documentation has been removed under SRD-14 security protocol.
+  Остальная документация была удалена согласно протоколу безопасности ОИС-14.
 
 </Document>

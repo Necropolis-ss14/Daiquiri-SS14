@@ -1,68 +1,68 @@
 <Document>
-  # Supermatter Delamination
+  # Деламинация суперматерии
 
-  Delamination occurs when the Supermatter can no longer recover from the amount of stress applied to it.
+  Деламинация происходит, когда суперматерия больше не может восстановиться от количества стресса, применённого к ней.
 
-  When recovery fails, the crystal enters an unstable state where damage accelerates faster than the crystal can repair itself.
+  Когда восстановление не удаётся, кристалл входит в нестабильное состояние, где урон ускоряется быстрее, чем кристалл может чинить себя.
 
-  A delamination event is considered a critical station emergency.
+  Событие деламинации считается критической станционной чрезвычайной ситуацией.
 
-  ## Emergency Response
+  ## Экстренное реагирование
 
-  If a Supermatter begins to destabilize, engineering personnel should immediately attempt to reduce stress on the crystal.
+  Если суперматерия начинает дестабилизироваться, инженерный персонал должен немедленно попытаться снизить стресс на кристалл.
 
-  Priority actions:
+  Приоритетные действия:
 
-  1. Disable destabilizing equipment.
+  1. Отключи дестабилизирующее оборудование.
 
   <Box>
     <GuideEntityEmbed Entity="Emitter" Caption="Emitter" />
   </Box>
 
-  2. Correct dangerous chamber conditions.
+  2. Исправь опасные условия камеры.
 
   <Box>
     <GuideEntityEmbed Entity="ThermiteFire" Caption="Atmospheric Hazard" />
   </Box>
 
-  3. Deploy containment measures if required.
+  3. Разверни меры сдерживания, если требуется.
 
   <Box>
     <GuideEntityEmbed Entity="MetalFoamGrenade" Caption="Metal Foam Grenade" />
   </Box>
 
-  Failure to stabilize the crystal will result in complete structural collapse.
+  Неспособность стабилизировать кристалл приведёт к полному структурному коллапсу.
 
-  ## Final Emergency Procedures
+  ## Финальные экстренные процедуры
 
-  If delamination cannot be prevented:
+  Если деламинацию нельзя предотвратить:
 
-  1. Notify the crew of the ongoing Supermatter emergency.
-  2. Recommend evacuation procedures.
-  3. Distribute approved protective equipment.
-  4. Prepare engineering equipment for post-event cleanup.
+  1. Уведоми экипаж о текущей чрезвычайной ситуации с суперматерией.
+  2. Рекомендуй процедуры эвакуации.
+  3. Раздай одобренное защитное оборудование.
+  4. Подготовь инженерное оборудование для уборки после события.
 
-  ## Delamination Cleanup
+  ## Уборка деламинации
 
   <Box>
     <GuideEntityEmbed Entity="Cascad1" Caption="Cascad Crystal" />
   </Box>
 
-  During complete failure, the original Supermatter crystal collapses and transforms into cascad crystals.
+  Во время полного отказа исходный кристалл суперматерии коллапсирует и трансформируется в кристаллы каскада.
 
-  Cascad crystals are extremely hardened structures that expand through surrounding materials.
+  Кристаллы каскада — чрезвычайно упрочнённые структуры, расширяющиеся через окружающие материалы.
 
-  Due to their structure, they require heavy-duty tools for efficient removal.
+  Из-за своей структуры они требуют тяжёлых инструментов для эффективного удаления.
 
-  Approved equipment includes:
+  Одобренное оборудование включает:
 
   <Box>
     <GuideEntityEmbed Entity="FireAxe" Caption="Fire Axe" />
     <GuideEntityEmbed Entity="HammerBreachingNT" Caption="Breaching Hammer" />
   </Box>
 
-  Emergency tools may damage cascad crystals, but are not considered suitable for cleanup operations.
+  Аварийные инструменты могут повредить кристаллы каскада, но не считаются подходящими для операций уборки.
 
-  Personnel should avoid entering affected areas until the cascad has been fully removed and the area declared safe.
+  Персонал должен избегать входа в затронутые зоны, пока каскад не будет полностью удалён и зона объявлена безопасной.
 
 </Document>

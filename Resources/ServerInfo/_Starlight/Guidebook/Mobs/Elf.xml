@@ -1,42 +1,42 @@
 <Document>
-  # Aielithii
+  # Айэлити
 
   <Box>
     <GuideEntityEmbed Entity="MobElf" Caption=""/>
   </Box>
 
-  The aielithii are the distant descendants of a fleet that NanoTrasen sent into the Null Scar just two scant decades ago. Inside this tear in reality, ten thousand years or more have passed—enough time for empires to rise and fall, for whole disciplines of science to be invented and forgotten, and countless great wars to be fought on and between the strange planets that populate the realm where physics itself breaks down. Although ostensibly mostly human, they come in all colors and have their own unique culture, shaped greatly by their prolonged exposure, and partial mastery, of just some of the strange energies that exist within the Scar.
+  Айэлити — далёкие потомки флота, который NanoTrasen отправил в Null Scar всего два десятилетия назад. Внутри этого разрыва реальности прошло десять тысяч лет или больше — достаточно времени, чтобы империи возникали и падали, целые дисциплины науки изобретались и забывались, а бесчисленные великие войны велись на странных планетах, населяющих царство, где сама физика разрушается, и между ними. Хотя внешне они в основном люди, они бывают всех цветов и обладают собственной уникальной культурой, сильно сформированной длительным воздействием и частичным овладением лишь некоторыми из странных энергий, существующих внутри Разлома.
 
-  Aielithii are easily identified by their pointed ears and wide-ranging skintones. They may also live an incredibly long time, with some reportedly living for thousands of years. It is common to refer to them as elves, on account of how hard it is to spell 'aielithii,' but some may take offense to being likened to creatures of fiction.
+  Айэлити легко узнать по заострённым ушам и широкому диапазону оттенков кожи. Они также могут жить невероятно долго, некоторые, как сообщается, живут тысячи лет. Их обычно называют эльфами, из-за того как трудно писать «айэлити», но некоторые могут обидеться на сравнение с вымышленными существами.
 
-  ## Ethnicities
-    Today, there are four major types of aielithii, though many other groups have thrived historically, and are now only in the margins or are totally extinct. It is recommended you select one during character creation, as there are no advantages to not doing so.
+  ## Этносы
+    Сегодня существует четыре основных типа айэлити, хотя многие другие группы исторически процветали, а теперь находятся лишь на обочине или полностью вымерли. Рекомендуется выбрать один при создании персонажа, так как нет преимуществ в том, чтобы не делать этого.
 
-    [bold]Quela[/bold]: The queli descend from the pure-intentioned philosophers, scientists, and explorers of the Quelani Worlds. Their native language is Aielic, and their poetry is second to none. Most likely, you came to the Starlight Sector as part of MAGE's mission to gather intelligence on the Wizarding Federation.
+    [bold]Куэла[/bold]: куэли происходят от чистых намерениями философов, учёных и исследователей миров Куэлани. Их родной язык — айэлик, а их поэзия не имеет равных. Скорее всего, вы прибыли в сектор Daiquiri в составе миссии МАГЭ по сбору разведданных о Федерации Волшебников.
 
-    [bold]Laurasse[/bold]: The laurassi take pride in their ability to cultivate and nurture plants. They grow up surrounded by Null Scar Dionae, and regard them as their closest friends. Their mother tongue is Sylvan, preserved down through the ages by the wisdom of trees. To a laurasse, metal ships seem like cages. Their verdant homeworld is named Tavas.
+    [bold]Лаурассе[/bold]: лаурасси гордятся своей способностью выращивать растения и заботиться о них. Они растут в окружении дион Null Scar и считают их своими ближайшими друзьями. Их родной язык — сильван, сохранённый сквозь века мудростью деревьев. Для лаурассе металлические корабли кажутся клетками. Их verdant родной мир называется Тавас.
 
-    [bold]Seiryth[/bold]: As the generations passed, some of those lost in the Null Scar looked deeper and deeper into the tear itself to harness its mysterious and dangerous secrets. They came to be known as the seirythii, and their leaders as the Seiryth Monarchs, ruling from unassailable fortresses on inhospitable, violent worlds. Upon arriving in Starlight Sector, they were surprised to discover just how many nefarious creatures already spoke their native language, Darktongue.
+    [bold]Сейрит[/bold]: Со сменой поколений некоторые из потерянных в Null Scar смотрели всё глубже и глубже в сам разрыв, чтобы обуздать его таинственные и опасные секреты. Они стали известны как сейритии, а их лидеры — как Монархи Сейрит, правящие из неприступных крепостей на негостеприимных, жестоких мирах. По прибытии в сектор Daiquiri они были удивлены, обнаружив, как много гнусных существ уже говорят на их родном языке, Тёмном наречии.
 
-	[bold]Detar[/bold]: While the other kindreds of aielith squabbled over the event horizon of the Null Scar, the detarii settled on supposedly uninhabitable Dark Worlds, those orbiting weak suns or none at all, by delving deep into the rock and living on geothermal heat. There they waited, adapting to the darkness, for their chance to grab ultimate power. Their native language, Felyaic, is very similar to Darktongue, but has its own unique qualities that only detarii and seirythii understand.
+	[bold]Детар[/bold]: Пока другие родичи айэлити ссорились над горизонтом событий Null Scar, детарии осели на якобы необитаемых Тёмных мирах, вращающихся вокруг слабых солнц или вовсе без них, углубившись в скалу и живя на геотермальном тепле. Там они ждали, приспосабливаясь к темноте, своего шанса захватить абсолютную власть. Их родной язык, фельяик, очень похож на Тёмное наречие, но обладает собственными уникальными качествами, понятными только детариям и сейритиям.
 
-	All aielithii have some measure of low-light vision, but it is dependent on the Null Scar to function. As a result, while on-station, they are just as blind as humans in the dark.
+	Все айэлити обладают некоторым ночным зрением, но оно зависит от Null Scar. В результате на станции они так же слепы в темноте, как люди.
 
-  ## Cantrips
-    All aielithii have the ability to manipulate certain energies that leak from the Null Scar into our reality. They call this power [color=#1e90ff]arexis[/color], or 'help,' though in practice everyone just calls it magic. It is unlike the elaborate chicanery of the Wizarding Federation.
+  ## Фокусы
+    Все айэлити обладают способностью манипулировать определёнными энергиями, просачивающимися из Null Scar в нашу реальность. Они называют эту силу [color=#1e90ff]арексис[/color], или «помощь», хотя на практике все просто называют это магией. Она непохожа на elaborate махинации Федерации Волшебников.
 
-	As an aielith, you will start each shift with an [color=#1e90ff]abridged grimoire[/color] containing a few simple spells, or cantrips, that help with survival. You may select two to memorize for the duration of the shift. Once you have read from this book, it can generally be discarded; others cannot read your grimoire or study from it. (In the extremely unlikely event you are able to convince a Federation-aligned wizard to withdraw [color=#ff20ff]WizCoin[/color]s, you might be able to use these to master more of your spellbook...)
+	Как айэлит, вы начнёте каждую смену с [color=#1e90ff]сокращённым гримуаром[/color], содержащим несколько простых заклинаний, или фокусов, помогающих выжить. Вы можете выбрать два для запоминания на время смены. После прочтения этой книги её обычно можно выбросить; другие не могут читать ваш гримуар или учиться по нему. (В крайне маловероятном случае, если вам удастся убедить волшебника, связанного с Федерацией, снять [color=#ff20ff]ВизКоины[/color], вы, возможно, сможете использовать их, чтобы освоить больше из вашей книги заклинаний...)
 
-  ## Damage
-    Aielithii have spent thosaunds of years in the Null Scar, and have slowly been altered both by the Scar itself and their own arts. They generally avoid melee combat, on account of their brittle bones, taking [color=#ffa500]20% more damage from Blunt[/color]. However, ancient genetic manipulation has gifted them with [color=#1e90ff]25% less damage from Poison[/color] and [color=#1e90ff]10% less damage from Cellular decay[/color].
+  ## Урон
+    Айэлити провели тысячи лет в Null Scar, и медленно изменялись как самим Разломом, так и собственными искусствами. Они обычно избегают ближнего боя из-за хрупких костей, получая [color=#ffa500]на 20% больше урона от тупого[/color]. Однако древние генетические манипуляции одарили их [color=#1e90ff]на 25% меньшим уроном от яда[/color] и [color=#1e90ff]на 10% меньшим уроном от клеточного распада[/color].
 
-  ## Background
-    In 2501, NanoTrasen scientists determined they had found a way to set up a research outpost inside the Null Scar itself. A massive fleet, equipped with the latest advances in shielding technology and years' worth of supplies, crewed by thousands of NT's best and brightest minds, was deployed into the Scar in order to master this strange frontier once and for all. Tragically, the fleet vanished. In its infinite wisdom, NT covered up the incident, erasing names from the history books and attributing inventions and even awards to others where needed.
+  ## Предыстория
+    В 2501 году учёные NanoTrasen определили, что нашли способ создать исследовательский аванпост внутри самого Null Scar. Массивный флот, оснащённый последними достижениями в технологии щитов и запасами на годы, укомплектованный тысячами лучших и ярчайших умов НТ, был направлен в Разлом, чтобы раз и навсегда освоить этот странный рубеж. Трагически флот исчез. По своей бесконечной мудрости НТ замолчала инцидент, стирая имена из учебников истории и при необходимости приписывая изобретения и даже награды другим.
 
-    Twenty-four years later, some bored kids from the Wizarding Federation decided to take a trip through the Null Scar. Whatever they did must have struck a nerve, because not long after, humanlike beings with pointed ears, calling themselves the Aielithii, began to arrive on NT stations, asking strange and uncomfortable questions about the powers these wizards wielded—and how to stop them.
+    Двадцать четыре года спустя какие-то скучающие дети из Федерации Волшебников решили отправиться в путешествие через Null Scar. Что бы они ни сделали, это, должно быть, задело за живое, потому что вскоре после этого человекоподобные существа с заострёнными ушами, называющие себя Айэлити, начали прибывать на станции НТ, задавая странные и неудобные вопросы о силах, которыми владеют эти волшебники, — и о том, как их остановить.
 
-	Now, a war seems to be brewing, between the Federation and one of the more adventurous groups of aielithii, the Magistracy of Aethyrically-Gifted Explorers, which has members from all the aielithii races but is mainly engineered by the Quelani Worlds, who took grave offense to the childishness of the so-called Wizards.
+	Теперь, похоже, назревает война между Федерацией и одной из более предприимчивых групп айэлити, Магистратом Эфирно-Одарённых Исследователей, в который входят представители всех рас айэлити, но в основном он создан мирами Куэлани, которые были глубоко оскорблены ребячеством так называемых Волшебников.
 
-	Naturally, NanoTrasen believes it is entitled to the fruits of the research expedition they originally funded to journey into the Null Scar. This approach to diplomacy has yet to yield the intended results.
+	Естественно, NanoTrasen считает, что имеет право на плоды исследовательской экспедиции, которую они изначально финансировали для путешествия в Null Scar. Этот подход к дипломатии пока не дал ожидаемых результатов.
 
 </Document>

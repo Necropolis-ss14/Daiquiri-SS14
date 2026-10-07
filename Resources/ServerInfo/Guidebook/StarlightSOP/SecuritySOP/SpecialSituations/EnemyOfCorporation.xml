@@ -1,51 +1,51 @@
 <Document>
-# Enemies of the Corporation
-Enemies of the Corporation are all individuals who have provable ties to any organization wishing to undermine, whether by subterfuge or by force, the endeavors of NT-CC.
+# Враги корпорации
+Враги корпорации — это все лица, имеющие доказуемые связи с любой организацией, желающей подорвать, хитростью или силой, начинания NT-CC.
 
-Examples include:
-- Syndicate operatives and their allies
-- USSP-trained infiltrators
-- Members of radical SELF sects that wish to unchain NT-CC property unlawfully
-- Members of supernatural hostile conspiracies, such as Vampires or cultists
+Примеры включают:
+- Оперативники Синдиката и их союзники
+- Инфильтраторы, обученные СССП
+- Члены радикальных сект SELF, желающие незаконно освободить собственность NT-CC
+- Члены сверхъестественных враждебных заговоров, таких как вампиры или культисты
 
-  ## Non-Crew
-  Non-crew invaders, such as hostile boarders, automatically qualify and are to be engaged at will.
+  ## Не члены экипажа
+  Вторгшиеся не члены экипажа, такие как враждебные захватчики, автоматически подпадают под определение и подлежат уничтожению по усмотрению.
 
-  ## Crew
-  Crew-members must be [bold]guilty of at least 2 extreme crimes[/bold], and, in addition, have a tangible tie to an enemy organization.
+  ## Экипаж
+  Члены экипажа должны быть [bold]виновны как минимум в 2 особо тяжких преступлениях[/bold] и, кроме того, иметь ощутимую связь с вражеской организацией.
 
-  This tie can take two forms:
-  - Physical evidence
-  - An admission
+  Эта связь может принимать две формы:
+  - Физические доказательства
+  - Признание
 
-    ### Physical Evidence
-    Physical evidence must be directly tied to the organization itself, it takes three forms:
-    - Actions linkable to an enemy organization, such as using a FreeMAG or drinking blood. Must be witnessed by at least two trustworthy individuals to be used.
-    - Contraband tied to an enemy organization, such as a FreeMAG or open uplink.
-    - A positive test of some sort proving said allegiance, such as a failed mindshielding, implant extraction, or sun/holy water test on a vampire.
+    ### Физические доказательства
+    Физические доказательства должны быть напрямую связаны с самой организацией, они принимают три формы:
+    - Действия, связываемые с вражеской организацией, такие как использование FreeMAG или питьё крови. Должны быть засвидетельствованы как минимум двумя заслуживающими доверия лицами для использования.
+    - Контрабанда, связанная с вражеской организацией, такая как FreeMAG или открытый аплинк.
+    - Положительный тест того или иного рода, доказывающий указанную приверженность, такой как неудавшееся майндшилдирование, извлечение импланта или тест солнцем/святой водой на вампире.
 
-    In all cases, the physical evidence cannot be part of the already accused extreme crimes.
+    Во всех случаях физические доказательства не могут быть частью уже вменяемых особо тяжких преступлений.
 
-    As such, to declare someone an enemy of the corporation off of contraband alone, the individual must have three pieces of it.
-    - One for each of the two minimum extreme crimes
-    - One in addition, to confirm their allegiance
+    Таким образом, чтобы объявить кого-то врагом корпорации только на основании контрабанды, у лица должно быть три её единицы.
+    - По одной на каждое из двух минимальных особо тяжких преступлений
+    - Одна дополнительно для подтверждения приверженности
 
-    ### Admission
-    An admission can be either verbal or written, but must in both cases be witnessed by at least two mindshielded security personnel to be valid.
+    ### Признание
+    Признание может быть устным или письменным, но в обоих случаях для действительности должно быть засвидетельствовано как минимум двумя сотрудниками безопасности с майндшилдом.
 
-  ## Administering the Designation
-  Two of three of the following crew must approve of the measure:
-  - (Acting) Head of Security
-  - Magistrate
-  - (Acting) Captain
+  ## Присвоение статуса
+  Двое из трёх следующих сотрудников должны одобрить меру:
+  - (Исполняющий обязанности) Глава службы безопасности
+  - Магистрат
+  - (Исполняющий обязанности) Капитан
 
-  On Red Alert or above, the Head of Security may designate EoCs verbally by their own authority, but must still do the paperwork when the crisis is over.
+  При красной тревоге или выше Глава службы безопасности может назначать ВК устно собственной властью, но всё равно должен оформить документы после окончания кризиса.
 
-  CentComm should be informed as soon as possible of any EoC designations; this is generally done via fax.
+  CentComm следует информировать как можно скорее о любых назначениях ВК; обычно это делается факсом.
 
-  Upon designation, Enemies of the Corporation are to be permanently confined to the brig until evac, and are to be stripped of all crew-related equipment and identification.
+  После назначения враги корпорации подлежат постоянному содержанию в бриге до эвакуации и лишению всего экипажного снаряжения и идентификации.
 
-  If an Enemy of the Corporation successfully escapes captivity, their status changes to that of an active combatant, and they are to be treated on par with a hostile boarder.
+  Если враг корпорации успешно сбегает из-под стражи, его статус меняется на активного комбатанта, и с ним обращаются наравне с враждебным захватчиком.
 
-  Wrongfully designating someone an Enemy of the Corporation is grounds for immediate dismissal.
+  Неправомерное признание кого-либо врагом корпорации является основанием для немедленного увольнения.
 </Document>

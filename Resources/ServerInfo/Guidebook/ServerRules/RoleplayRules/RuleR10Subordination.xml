@@ -1,26 +1,26 @@
 ﻿<Document>
-  # Roleplay Rule 10 - Listen to your team leader
-  Captains lead all departments and other members of command. Department heads lead members of their department. Certain antagonist teams have team leaders, like nuclear operative commanders or head revolutionaries. You are not required to perfectly follow orders given to you by your leaders, but you should generally allow your leaders to lead and not interfere with their ability to. You can choose to ignore unreasonable orders, including ones which are will result in your death unless you are an antagonist with an objective that requires you to die.
+  # Правило отыгрыша 10 — Слушайтесь лидера команды
+  Капитан возглавляет все отделы и остальных членов командования. Главы отделов возглавляют сотрудников своего отдела. У некоторых команд антагонистов есть лидеры, например командиры ядерных оперативников или главы революции. Необязательно идеально выполнять приказы лидеров, но в целом следует давать лидерам руководить и не мешать им. Можно игнорировать неразумные приказы, в том числе те, что приведут к вашей смерти, если только вы не антагонист с целью, требующей вашей смерти.
 
-  Team antagonists have to listen to the leader of their antagonist team. Team antagonists do not have to listen to any other leaders, including leaders of other antagonist teams. Solo antagonists do not have to listen to any leaders at all.
+  Командные антагонисты обязаны слушаться лидера своей команды антагонистов. Командные антагонисты не обязаны слушаться других лидеров, включая лидеров других команд антагонистов. Одиночные антагонисты не обязаны слушаться вообще никаких лидеров.
 
-  ## Examples
-  Acceptable:
-  - A traitor ignores orders from a nuclear operative commander.
-  - An antagonist ignores orders from the captain.
-  - An engineer tells the Chief Engineer that they don't think it's a good idea to setup the singularity, but does so anyway when ordered to.
-  - An engineer tells the Chief Engineer that they don't know how to setup the singularity correctly, so refuses orders to, but accepts an offer to be taught how.
-  - An atmospheric technician refuses an order from the captain that would create an atmospheric hazard on the station.
-  - A doctor refuses an order from the Chief Engineer about who to give medical treatment to first.
-  - A revolutionary refuses a suicide mission from a head revolutionary.
-  - The Chief Engineer doesn't follow an order from the captain to setup backup power because there is an unrelated engineering emergency that the Chief Engineer needs to prioritize.
-  - The captain orders command to give the nuclear authentication disk to nuclear operatives, so command arrests the captain and picks a new captain.
-  - The research director orders scientists to say "Long live Nanotrasen!" every time they enter the bar. The scientists say they will, but don't follow the order.
+  ## Примеры
+  Допустимо:
+  - Предатель игнорирует приказы командира ядерных оперативников.
+  - Антагонист игнорирует приказы Капитана.
+  - Инженер говорит Главному инженеру, что строить сингулярность — плохая идея, но всё равно делает это по приказу.
+  - Инженер говорит Главному инженеру, что не умеет правильно строить сингулярность, отказывается, но соглашается научиться.
+  - Атмосферный техник отказывается выполнять приказ Капитана, который создаст атмосферную угрозу на станции.
+  - Врач отказывается выполнять приказ Главного инженера о том, кого лечить первым.
+  - Революционер отказывается от суицидальной миссии главы революционеров.
+  - Главный инженер не выполняет приказ Капитана запустить резервное питание, потому что есть несвязанная инженерная авария с более высоким приоритетом.
+  - Капитан приказывает командованию отдать диск ядерной аутентификации ядерным оперативникам, поэтому командование арестовывает Капитана и выбирает нового Капитана.
+  - Научный руководитель приказывает учёным говорить «Да здравствует NanoTrasen!» каждый раз при входе в бар. Учёные говорят, что будут, но приказ не выполняют.
 
-  Prohibited:
-  - A nuclear operative ignores an order from the commander operative because they don't like the plan.
-  - The Chief Engineer refuses an order from the captain to setup backup power because the Chief Engineer doesn't think backup power is necessary.
-  - An engineer refuses an order from the Chief Engineer to setup the singularity because they prefer a different power source.
-  - An engineer refuses to perform a task because they don't know how to do it, and refuses to be taught for no reason.
-  - A head revolutionary orders revolutionaries to blend in and not do anything illegal until they are told to reveal themselves. Instead, revolutionaries collect weapons and attack security.
+  Запрещено:
+  - Ядерный оперативник игнорирует приказ командира, потому что ему не нравится план.
+  - Главный инженер отказывается выполнять приказ Капитана запустить резервное питание, потому что считает его ненужным.
+  - Инженер отказывается строить сингулярность по приказу Главного инженера, потому что предпочитает другой источник энергии.
+  - Инженер отказывается выполнять задачу, потому что не умеет, и без причины отказывается учиться.
+  - Глава революции приказывает революционерам затаиться и не делать ничего незаконного, пока не скажут раскрыться. Вместо этого революционеры собирают оружие и атакуют службу безопасности.
 </Document>

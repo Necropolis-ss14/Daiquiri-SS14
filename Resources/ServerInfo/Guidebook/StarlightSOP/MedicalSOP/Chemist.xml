@@ -1,24 +1,24 @@
 <Document>
-# Chemist
+# Химик
 
 <GuideEntityEmbed Entity="ToyFigurineChemist" Caption="Chemist"/>
 
-1. Chemists report directly to the Chief Medical Officer.
+1. Химики подчиняются напрямую Главному врачу.
 
-2. Chemists should prioritize all basic medicines before moving on to advanced medicines.
+2. Химики должны отдавать приоритет всем базовым лекарствам, прежде чем переходить к продвинутым лекарствам.
 
-3. All medicines should be labeled as follows:
-- Chemical name.
-- Chemical effect/major side effects.
-- Overdose limits.
-- Any interfering chemicals (i.e. Lacinerol & Bicardine react to form Razorium)
+3. Все лекарства должны маркироваться следующим образом:
+- Название химиката.
+- Эффект химиката/основные побочные эффекты.
+- Пределы передозировки.
+- Любые взаимодействующие химикаты (например, Ласинерол и Бикардин реагируют с образованием Разиума)
 
-4. Chemists should ensure that any illegal chemicals are kept in the ChemMaster 4000 or disposed of immediately after use.
+4. Химики должны следить, чтобы все нелегальные химикаты хранились в ChemMaster 4000 или утилизировались сразу после использования.
 
-5. Chemists may fill prescriptions signed and stamped by the CMO.
+5. Химики могут выдавать лекарства по рецептам, подписанным и заверенным печатью ГВ.
 
-6. Non-illegal chemicals may be synthesized and prescribed by chemists at their discretion.
+6. Разрешённые химикаты могут синтезироваться и назначаться химиками по их усмотрению.
 
-7. Chemists may perform the duties of Medical Doctors during emergencies, but must follow the Medical Doctor SOP.
-- 1. One Chemist must always stay in the chemical lab.
+7. Химики могут выполнять обязанности врачей во время чрезвычайных ситуаций, но должны следовать СОП врача.
+- 1. Один химик всегда должен оставаться в химической лаборатории.
 </Document>

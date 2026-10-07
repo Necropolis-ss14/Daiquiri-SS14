@@ -1,49 +1,49 @@
 ﻿<Document>
-  # Gasses 2
-  Useful gasses that are the bread and butter of what an experienced atmos is expected to work with.
+  # Газы 2
+  Полезные газы, которые являются хлебом с маслом для опытного атмосферщика.
 
-  ## Plasma
+  ## Плазма
   <Box>
     <GuideEntityEmbed Entity="PlasmaCanister" Caption=""/>
   </Box>
-  Gaseous phoron which is flammable but incredibly useful for industrial processes.
+  Газообразный форон, горючий, но невероятно полезный для промышленных процессов.
 
-  Burning it generates a lot of heat, producing carbon dioxide or tritium.  Combustion consumes less oxygen as temperature increases, capping roughly at 1643 K.
+  Его сжигание генерирует много тепла, производя углекислый газ или тритий. Горение потребляет меньше кислорода с ростом температуры, с пределом примерно на 1643 К.
 
-  Plasma gas also has a good specific heat capacity, making it useful for moving heat around.
+  Газ плазмы также имеет хорошую удельную теплоёмкость, что делает его полезным для перемещения тепла.
 
-  ## Tritium
+  ## Тритий
   <Box>
     <GuideEntityEmbed Entity="TritiumCanister" Caption=""/>
   </Box>
-  An extremely flammable radioactive gas.
+  Чрезвычайно горючий радиоактивный газ.
 
-  Tritium is produced when burning plasma in a burn chamber with 97% or more oxygen, saturating plasma with pluoxium, or by damaging a supermatter.
+  Тритий производится при сжигании плазмы в камере сгорания с 97% кислорода и более, насыщении плазмы плюоксиумом или повреждении суперматерии.
 
-  ## Frezon
+  ## Фрезон
   <Box>
     <GuideEntityEmbed Entity="FrezonCanister" Caption=""/>
   </Box>
 
-  A highly effective coolant and valuable export gas.
+  Высокоэффективный хладагент и ценный экспортный газ.
 
-  Frezon has a massive specific heat making it useful as a working fluid for heat transfer. Additionally combines with nitrogen above -250 C to create nitrous oxide, absorbing energy and massively cooling the mixture. Causes genetic degradation and hallucinations in living beings that inhale it.
+  Фрезон имеет огромную удельную теплоёмкость, что делает его полезным как рабочая жидкость для теплопередачи. Дополнительно соединяется с азотом выше -250 C для создания закиси азота, поглощая энергию и массово охлаждая смесь. Вызывает генетическую деградацию и галлюцинации у живых существ, вдыхающих его.
 
-  Frezon is created by combining 1 tritium with 50 oxygen with a nitrogen catalyst to create 51 frezon. This reaction only occurs at roughly -200 C and below. Paradoxically, as the reaction gets colder a percentage of frezon that would be produced is instead replaced with nitrogen.
+  Фрезон создаётся соединением 1 трития с 50 кислорода с азотным катализатором для создания 51 фрезона. Эта реакция происходит только примерно при -200 C и ниже. Как ни парадоксально, чем холоднее реакция, тем больший процент фрезона, который был бы произведён, заменяется азотом.
 
-  ## BZ
+  ## БЗ
   <Box>
     <GuideEntityEmbed Entity="BZCanister" Caption=""/>
   </Box>
 
-  An intermediate gas used in many advanced atmospheric reactions.
+  Промежуточный газ, используемый во многих продвинутых атмосферных реакциях.
 
-  Although highly sought after, BZ on its own primarily acts as a sleeping agent and hallucinogenic for slime based organisms.
+  Хотя высоко востребован, БЗ сам по себе в основном действует как снотворное и галлюциноген для организмов на основе слаймов.
 
-  BZ is created by combining 1 nitrous oxide with 2 plasma, but has several quirks that make large scale production difficult.
+  БЗ создаётся соединением 1 закиси азота с 2 плазмы, но имеет несколько причуд, затрудняющих крупномасштабное производство.
 
-  BZ forms faster the lower the pressure is and requires large volume to produce in bulk.
-  BZ produces heat on formation, and only forms under 314 K.
-  When there is more than 2 plasma per 1 nitrous oxide a portion of nitrous oxide is decomposed instead being used to make BZ.
+  БЗ образуется быстрее, чем ниже давление, и требует большого объёма для производства оптом.
+  БЗ выделяет тепло при образовании и образуется только ниже 314 К.
+  Когда плазмы больше, чем 2 на 1 закиси азота, часть закиси азота разлагается вместо использования для создания БЗ.
 
 </Document>

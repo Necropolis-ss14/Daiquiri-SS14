@@ -1,27 +1,27 @@
 <Document>
-  # IPCs
+  # КПБ
 
   <Box>
     <GuideEntityEmbed Entity="AppearanceIPC" Caption=""/>
   </Box>
 
-  [color=#ffa500]Warning! This species is not recommended for new players due to major gameplay changes![/color]
+  [color=#ffa500]Внимание! Этот вид не рекомендуется новым игрокам из-за серьёзных изменений геймплея![/color]
 
-  Integrated Positronic Chassis, abbreviated as IPC
+  Интегрированное позитронное шасси, сокращённо КПБ.
 
-  ## Racial Features
+  ## Расовые особенности
 
-  - Receive [color=#8147ff]50% more shock damage[/color], [color=#FF3636]20% more blunt damage[/color] and [color=#B9BF93]10% less slash/caustic damage[/color]. You are [color=#ffa500]immune to genetic damage and all toxin damage except for radiation.[/color]
-  - You burn for less time than organic lifeforms, due to your composition.
-  - Deal [color=red]6[/color] blunt damage with your mighty fists of steel!
-  - You don't need to eat or drink, but you do need to stay charged. You can take power directly from APCs or sit in a borg recharger- both work.
-  - You do not manage your internal temperature the same way that organic life forms do, instead relying on internal fans to heat or cool your body. Your internal fans will suffice in standard station environments without issue.
-  - You're very resistant to spacing, as temperature doesn't affect you normally, you are immune to pressure damage, and you don't need to breathe. Long-term existence in vacuums or areas of extreme temperature, hot or cold, will require usage of a cooling unit to regulate your internal temperature.
-  - Play music with your in-built MIDI synthesiser!
-  - Chemicals don't work on you, and your "doctor" is a roboticist. Welding heals physical injuries, HV cables fix electrical damage, glass fixes your eyes, plasma fixes radiation, and Oil packs restore your "blood".
-  - EMPs are [color=red]lethal[/color] to you! Don't let yourself get hit, or you'll run out of power and require manual rebooting.
-  - Internal Headset! It has two slots. Choose wisely!
+  - Получаете на [color=#8147ff]50% больше урона током[/color], на [color=#FF3636]20% больше дробящего урона[/color] и на [color=#B9BF93]10% меньше режущего/едкого урона[/color]. У вас [color=#ffa500]иммунитет к генетическому урону и всему токсинному урону, кроме радиации.[/color]
+  - Вы горите меньше времени, чем органические формы жизни, благодаря своему составу.
+  - Наносите [color=red]6[/color] дробящего урона своими могучими стальными кулаками!
+  - Вам не нужно есть или пить, но нужно оставаться заряженными. Вы можете брать энергию напрямую из АПЦ или сидеть в заряднике киборгов — подходят оба способа.
+  - Вы регулируете внутреннюю температуру не так, как органические формы жизни, вместо этого полагаясь на внутренние вентиляторы для нагрева или охлаждения тела. Ваших внутренних вентиляторов достаточно в стандартных условиях станции без проблем.
+  - Вы крайне устойчивы к космосу, так как температура обычно на вас не действует, у вас иммунитет к урону от давления, и вам не нужно дышать. Долгое пребывание в вакууме или зонах экстремальных температур, жарких или холодных, потребует использования охлаждающего блока для регулировки внутренней температуры.
+  - Играйте музыку со своим встроенным MIDI-синтезатором!
+  - Химикаты на вас не действуют, а вашим «доктором» является робототехник. Сварка лечит физические травмы, ВВ-кабели чинят электрические повреждения, стекло чинит глаза, плазма лечит радиацию, а масляные наборы восстанавливают вашу «кровь».
+  - ЭМИ для вас [color=red]смертельны[/color]! Не позволяйте себя ударить, иначе останетесь без энергии и потребуется ручная перезагрузка.
+  - Внутренняя гарнитура! В ней два слота. Выбирайте мудро!
 
-  Helpful tip - You need to unlock your panel and then use a screwdriver to get access to your internals, this includes the comm keys! Once open, right click yourself and go to "Eject" - You'll then pull out the last key you put in.
+  Полезный совет — вам нужно разблокировать панель, а затем использовать отвёртку, чтобы получить доступ к внутренностям, включая коммуникационные ключи! После открытия кликните по себе правой кнопкой и выберите «Извлечь» — после этого вы вытащите последний вставленный ключ.
 
 </Document>

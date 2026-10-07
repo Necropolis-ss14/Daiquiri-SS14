@@ -1,21 +1,21 @@
 <Document>
-  # Combination Locks
+  # Кодовые замки
 
-  There are four things that use Combination Locks. The Station Nuke, the Syndicate Nuke, the Secure Briefcase, and the Wall Safe. While both Nukes have pre-set codes that can only be obtained by either faxing Central Command, or being a Nuclear Operative, the Safe and Briefcase can be set by their users to secure items like paperwork.
+  Кодовые замки используются в четырёх местах: ядерная бомба станции, ядерная бомба Синдиката, защищённый кейс и настенный сейф. Обе бомбы имеют предустановленные коды, которые можно получить либо отправив факс Central Command, либо будучи ядерным оперативником, а сейф и кейс могут настраивать сами пользователи, чтобы хранить такие вещи, как документы.
 
   <Box>
     <GuideEntityEmbed Entity="BriefcaseSecure" Caption=""/>
 	<GuideEntityEmbed Entity="WallSafe" Caption=""/>
   </Box>
 
-  The Secure Briefcase can be found in the NanoTrasen Representative's locker. It is recommended you use this briefcase to secure especially sensitive documents, such as Classified Documents, or communications from Central Command.
+  Защищённый кейс можно найти в шкафчике представителя NanoTrasen. Рекомендуется использовать этот кейс для хранения особо чувствительных документов, таких как секретные документы или сообщения от Central Command.
 
-  The Wall Safe can sometimes be found on stations inside secure areas, but is uncommon.
+  Настенный сейф иногда можно найти на станциях в охраняемых зонах, но это редкость.
 
-  To set the combination for either device, enter a code the first time you open it then hit 'E' for Enter. You will then be prompted to input the code again to confirm. After you do so, it will be unlocked. Hitting any other numbers after this should lock it again.
+  Чтобы установить комбинацию на любое из устройств, введите код при первом открытии, затем нажмите «E» для ввода. После этого вас попросят ввести код ещё раз для подтверждения. После этого замок будет открыт. Нажатие любых других цифр после этого должно снова его закрыть.
 
-  You can change a set password by entering a new code and hitting 'C', then inputting the old code to confirm you are have access to do so.
+  Вы можете сменить установленный пароль, введя новый код и нажав «C», затем введя старый код, чтобы подтвердить, что у вас есть доступ.
 
-  Combination locks can be hacked into by opening the maintenance panel and hacking them like any other device, but it takes time.
+  Кодовые замки можно взломать, открыв панель обслуживания и взломав их как любое другое устройство, но это занимает время.
 
 </Document>

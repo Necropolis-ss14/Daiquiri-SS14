@@ -1,31 +1,31 @@
 <Document>
-  # Doll
+  # Кукла
 
   <Box>
     <GuideEntityEmbed Entity="MobDoll" Caption=""/>
   </Box>
 
-  The common perception of Dolls is one of cold, unmoving faces and eerily fluid motion. This is, of course, a deliberately chosen look - as they fear being outcast or even hunted, were people to look underneath their shell.
+  Общее представление о Куклах — холодные, неподвижные лица и жутко плавные движения. Это, конечно, осознанно выбранный образ — так как они боятся быть изгнанными или даже преследуемыми, если люди заглянут под их оболочку.
 
-  In reality, Dolls are a recently discovered, sapient strain of meat anomaly creatures, hiding their rather disturbing forms underneath a hard, ceramic-like shell. It is more than just a suit - a Doll's shell is a core part of their very self. While they are able to leave it behind, they are unwilling to do so, save for extreme emergencies, and outside attempts to remove it are oft met with violent resistance.
+  В реальности Куклы — недавно обнаруженный разумный штамм существ мясной аномалии, скрывающих свои довольно тревожные формы под твёрдой, похожей на керамику оболочкой. Это больше, чем просто костюм — оболочка Куклы является ключевой частью их самого естества. Хотя они способны покинуть её, они не желают этого делать, кроме как в крайних чрезвычайных ситуациях, а внешние попытки снять её часто встречают яростное сопротивление.
 
-  ## Diet
-  Dolls are anomalous creatures of flesh. As such, their diet consists of meat and blood, though they do not care whether it has been cooked beforehand. Consuming other species' blood will also slowly heal a Doll, including their shell - though the mechanism for this is unknown.
+  ## Диета
+  Куклы — аномальные существа из плоти. Как таковые, их диета состоит из мяса и крови, хотя им неважно, было ли оно приготовлено заранее. Потребление крови других видов также будет медленно исцелять Куклу, включая её оболочку, — хотя механизм этого неизвестен.
 
-  ## Racial Features
-  - [color=#00aa00]Slowly heal from consuming blood[/color]
-  - [color=#FFA500]Organs move independently[/color]
-  - [color=#aa0000]Takes 30% more blunt damage[/color]
+  ## Расовые особенности
+  - [color=#00aa00]Медленно исцеляется от потребления крови[/color]
+  - [color=#FFA500]Органы движутся независимо[/color]
+  - [color=#aa0000]Получает на 30% больше тупого урона[/color]
 
-  ## The Shell
-  You have an outer shell hiding away your meaty tendrils. You should keep it on at all times! At need, you can break off small, spare pieces of your shell - which is a pretty painful process - to use as a makeshift knife, or to give to another doll, should the worst happen and their shell was [italics]stolen[/italics].
+  ## Оболочка
+  У вас есть внешняя оболочка, скрывающая ваши мясистые щупальца. Вы должны держать её надетой всегда! При необходимости вы можете отломить небольшие запасные кусочки своей оболочки — что довольно болезненно — чтобы использовать как импровизированный нож или отдать другой кукле, если случится худшее и её оболочка была [italics]украдена[/italics].
 
-  [bold]With Shell[/bold]
-  - [color=#00aa00]Takes 30% less slashing damage[/color]
-  - [color=#00aa00]Takes 30% less piercing damage[/color]
-  - [color=#aa0000]Takes 30% more heat damage[/color]
+  [bold]С оболочкой[/bold]
+  - [color=#00aa00]Получает на 30% меньше режущего урона[/color]
+  - [color=#00aa00]Получает на 30% меньше колющего урона[/color]
+  - [color=#aa0000]Получает на 30% больше урона от жары[/color]
 
-  [bold]Without Shell[/bold]
-  - [color=#aa0000]Takes 30% more slashing damage[/color]
-  - [color=#aa0000]Takes 30% more piercing damage[/color]
+  [bold]Без оболочки[/bold]
+  - [color=#aa0000]Получает на 30% больше режущего урона[/color]
+  - [color=#aa0000]Получает на 30% больше колющего урона[/color]
 </Document>

@@ -1,5 +1,5 @@
 <Document>
-  # Supermatter Crystal
+  # Кристалл суперматерии
 
   <Box>
     <GuideEntityEmbed Entity="SignRadiation" Caption="" />
@@ -7,84 +7,84 @@
     <GuideEntityEmbed Entity="SignRadiation" Caption="" />
   </Box>
 
-  ## Overview
+  ## Обзор
 
-  The Supermatter Crystal is a high-output energy source capable of supplying large amounts of power to a station.
+  Кристалл суперматерии — источник энергии с высокой отдачей, способный поставлять большие количества энергии станции.
 
-  Unlike conventional generators, it does not generate electricity directly. Instead, engineers harvest the energy released when the crystal is placed under controlled stress.
+  В отличие от обычных генераторов, он не генерирует электричество напрямую. Вместо этого инженеры собирают энергию, высвобождаемую, когда кристалл находится под контролируемым стрессом.
 
-  In addition to producing energy, the crystal also generates useful gases, making it valuable for both Engineering and Atmospherics.
+  В дополнение к производству энергии кристалл также генерирует полезные газы, делая его ценным как для инженерии, так и для атмосферного отдела.
 
-  The exact mechanisms behind the Supermatter remain unknown. However, its behaviour is heavily influenced by the atmosphere surrounding it and requires continuous monitoring.
+  Точные механизмы суперматерии остаются неизвестными. Однако её поведение сильно зависит от окружающей атмосферы и требует постоянного мониторинга.
 
-  ## Power Harvesting
+  ## Сбор энергии
 
-  Stress causes the Supermatter to release energy in multiple forms.
+  Стресс заставляет суперматерию высвобождать энергию в нескольких формах.
 
-  One reaction emits high-energy radiation.
+  Одна реакция испускает высокоэнергетическую радиацию.
 
   <Box>
     <GuideEntityEmbed Entity="RadiationCollectorFullTank" Caption="Radiation Collector" />
   </Box>
 
-  Radiation Collectors convert this radiation into usable electrical power.
+  Радиационные коллекторы превращают эту радиацию в пригодную электрическую энергию.
 
-  The crystal may also accumulate electrical charge.
+  Кристалл также может накапливать электрический заряд.
 
   <Box>
     <GuideEntityEmbed Entity="TeslaCoil" Caption="Tesla Coil" />
   </Box>
 
-  Tesla Coils safely transfer this electrical charge into the station's power network.
+  Катушки Теслы безопасно передают этот электрический заряд в энергосеть станции.
 
-  ## Gas Harvesting
+  ## Сбор газа
 
-  When the Supermatter is exposed to stress, small fragments of its outer structure break away.
+  Когда суперматерия подвергается стрессу, маленькие фрагменты её внешней структуры откалываются.
 
   <Box>
     <GuideEntityEmbed Entity="OxygenCanister" Caption="Oxygen" />
     <GuideEntityEmbed Entity="TritiumCanister" Caption="Tritium" />
   </Box>
 
-  These fragments naturally decompose into Oxygen and Tritium, providing Atmospherics with a renewable source of both gases.
+  Эти фрагменты естественным образом разлагаются на кислород и тритий, давая атмосферному отделу возобновляемый источник обоих газов.
 
-    ## Minimum Operating Standards
+    ## Минимальные стандарты работы
 
-  A stable Supermatter installation requires three primary control systems:
+  Стабильная установка суперматерии требует три основные системы контроля:
 
-  ## Gas Management
+  ## Управление газом
 
-  The chamber atmosphere must be actively managed to maintain safe operating conditions.
+  Атмосфера камеры должна активно управляться для поддержания безопасных условий работы.
 
-  Required measures include:
+  Требуемые меры включают:
 
-  - Active cooling systems.
-  - Pressure regulation and overpressure protection.
-  - Continuous monitoring of chamber atmosphere.
+  - Активные системы охлаждения.
+  - Регуляцию давления и защиту от избыточного давления.
+  - Непрерывный мониторинг атмосферы камеры.
 
-  Temperature and pressure deviations can increase crystal stress and accelerate instability.
+  Отклонения температуры и давления могут увеличить стресс кристалла и ускорить нестабильность.
 
-  ## Electrical Grounding
+  ## Электрическое заземление
 
-  Supermatter interactions can produce electrical charge accumulation.
+  Взаимодействия суперматерии могут производить накопление электрического заряда.
 
-  Grounding systems are required to safely discharge this energy and prevent uncontrolled electrical events.
+  Системы заземления требуются для безопасного сброса этой энергии и предотвращения неконтролируемых электрических событий.
 
   <Box>
     <GuideEntityEmbed Entity="TeslaGroundingRod" Caption="Grounding Rod" />
   </Box>
 
-  ## Radiation Shielding
+  ## Радиационная защита
 
-  Supermatter reactions can produce dangerous radiation levels.
+  Реакции суперматерии могут производить опасные уровни радиации.
 
-  Radiation shielding and monitoring systems must be maintained to protect station personnel and equipment.
+  Системы радиационной защиты и мониторинга должны поддерживаться для защиты персонала и оборудования станции.
 
   <Box>
     <GuideEntityEmbed Entity="ReinforcedUraniumWindow" Caption="Radiation Shielding" />
   </Box>
 
-  Standard station atmospheric conditions have proven to be a reliable operating environment.
+  Стандартные станционные атмосферные условия доказали, что являются надёжной рабочей средой.
 
-  Changes to chamber conditions should only be performed with proper planning and understanding of Supermatter behaviour.
+  Изменения условий камеры должны выполняться только с надлежащим планированием и пониманием поведения суперматерии.
 </Document>

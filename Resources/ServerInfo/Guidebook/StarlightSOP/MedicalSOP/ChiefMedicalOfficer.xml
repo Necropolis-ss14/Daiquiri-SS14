@@ -1,21 +1,21 @@
 <Document>
-# Chief Medical Officer
+# Главный врач
 
 <GuideEntityEmbed Entity="ToyFigurineChiefMedicalOfficer" Caption="Chief Medical Officer"/>
 
-1. The standard Command SOP applies.
+1. Применяется стандартный СОП командования.
 
-2. The Chief Medical Officer is responsible for training or assigning a trainer to any and all Medical Interns.
+2. Главный врач отвечает за обучение или назначение наставника всем медицинским интернам.
 
-3. The Syringe Gun is for emergencies only, and should not be used below [color=#ff0000]Code Red[/color].
-- 1. The syringes for the syringe gun may be prepared ahead of time.
+3. Шприцемёт предназначен только для чрезвычайных ситуаций и не должен использоваться ниже [color=#ff0000]Красного кода[/color].
+- 1. Шприцы для шприцемёта могут подготавливаться заранее.
 
-4. The Chief Medical Officer may not allow any major contraband chemicals to leave medbay or the chemical lab without a [italic]permission to carry chemicals form[/italic] stamped by the HoS, Captain or acting Captain.
-- 1. This form will not be required in the case of imminent station danger.
-- 2. This form will specify the following:
-Quantity of chemical, frequency of creation, date, time and signature of the Captain or acting Captain.
+4. Главный врач не может разрешать вынос любых крупных контрабандных химикатов из медотсека или химической лаборатории без [italic]разрешения на ношение химикатов[/italic] со штампом ГСБ, Капитана или исполняющего обязанности Капитана.
+- 1. Эта форма не потребуется в случае неминуемой опасности для станции.
+- 2. В этой форме указывается следующее:
+Количество химиката, частота создания, дата, время и подпись Капитана или исполняющего обязанности Капитана.
 
-5. The Chief Medical Officer should wear clothing clearly identifying them as the Chief Medical Officer. (Mantle, cape, hat, etc.)
+5. Главный врач должен носить одежду, чётко обозначающую его как Главного врача (мантия, плащ, шляпа и т.д.).
 
-6. The Chief Medical Officer may request any additional documentation they deem necessary to protect patient health.
+6. Главный врач может запрашивать любую дополнительную документацию, которую сочтёт необходимой для защиты здоровья пациентов.
 </Document>

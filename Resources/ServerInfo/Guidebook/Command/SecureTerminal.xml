@@ -1,54 +1,54 @@
 <Document>
-# Secure Terminal
+# Защищённый терминал
 
 <Box>
   <GuideEntityEmbed Entity="ComputerComms" Caption="Main Communications Console"/>
   <GuideEntityEmbed Entity="KeycardAuth" Caption="Keycard Authentication Device"/>
 </Box>
 
-The Secure Terminal is a system built into the station's [color=#ffd700]Main Communications Console[/color]. It gives command staff a formal way to request and authorise major decisions; things like calling Emergency Response Teams, escalating the station's alert level, or deploying emergency armories.
+Защищённый терминал — это система, встроенная в [color=#ffd700]главную консоль связи[/color] станции. Она даёт командному составу формальный способ запрашивать и подтверждать важные решения — например, вызов отрядов экстренного реагирования, повышение уровня тревоги станции или развёртывание аварийных арсеналов.
 
-Every request made through this system is announced to the station, and in most cases requires multiple people to co-authorize before anything happens.
+Каждый запрос через эту систему объявляется на всю станцию и в большинстве случаев требует нескольких человек для совместного подтверждения, прежде чем что-то произойдёт.
 
-## Starting a Request
+## Создание запроса
 
-Only someone who holds the correct access can open a proposal. There are typically two [color=#ffd700]Main Communications Consoles[/color] on the station where requests can be started; one on the [bold]Bridge[/bold] and one in the [bold]Captain's office[/bold]. Either works.
+Только тот, у кого есть нужный доступ, может открыть предложение. Обычно на станции есть две [color=#ffd700]главные консоли связи[/color], где можно создавать запросы: одна на [bold]мостике[/bold], другая в [bold]кабинете капитана[/bold]. Подойдёт любая.
 
-In the Main Communications Console, select 'Secure Terminal' to begin. From there you will see a list of available requests. Select the one relevant to the situation, provide a reason if prompted, and submit it. The terminal will immediately notify all Keycard Authentication Devices on the station that a proposal is pending.
+В главной консоли связи выберите «Secure Terminal», чтобы начать. Там вы увидите список доступных запросов. Выберите подходящий к ситуации, укажите причину, если попросят, и отправьте. Терминал сразу уведомит все устройства авторизации ключ-карт на станции, что ожидает предложение.
 
-Keep in mind:
+Помните:
 
-- Only [bold]one proposal[/bold] can be active at a time.
-- Most requests have a [bold]fee[/bold] drawn from your account when submitted; this is held until the proposal resolves.
-- Certain requests are [bold]one-time-use[/bold] per shift and cannot be re-submitted once used.
-- You and all co-authorizers must [bold]stay and keep your terminal windows open[/bold] until all required co-authorizations are gathered. Closing the window cancels the request (for the requester) or revokes your authorization.
+- Одновременно может быть активно только [bold]одно предложение[/bold].
+- За большинство запросов при подаче взимается [bold]плата[/bold] с вашего счёта; она удерживается, пока предложение не разрешится.
+- Определённые запросы [bold]одноразовые[/bold] за смену и не могут быть поданы повторно после использования.
+- Вы и все соавторизующие должны [bold]оставаться и держать окна терминалов открытыми[/bold], пока не будут собраны все нужные подтверждения. Закрытие окна отменяет запрос (для заявителя) или отзывает ваше подтверждение.
 
-## Co-Authorization
+## Совместное подтверждение
 
-Most requests require more than one person to approve them before anything happens. This is where the [color=#ffd700]Keycard Authentication Devices[/color] come in.
+Для большинства запросов нужно больше одного человека, чтобы подтвердить их, прежде чем что-то произойдёт. Здесь и вступают в дело [color=#ffd700]устройства авторизации ключ-карт[/color].
 
-The Captain and every head of staff has one of these devices installed in their office. When a proposal is active, the authentication device will light up [color=blue]blue[/color]. A co-authorizer can walk up to it, and add their authorization to the pending request.
+У капитана и каждого главы отдела такое устройство установлено в кабинете. Когда предложение активно, устройство авторизации загорается [color=blue]синим[/color]. Соавторизующий может подойти к нему и добавить своё подтверждение к ожидающему запросу.
 
-All Keycard Authentication Devices on the station are identical; they are not tied to a specific head of staff. Any command member with the right access can walk up to [italic]any[/italic] device, regardless of whose office it is in, and use it to co-authorize a pending proposal.
+Все устройства авторизации ключ-карт на станции одинаковы; они не привязаны к конкретному главе отдела. Любой член командования с нужным доступом может подойти к [italic]любому[/italic] устройству, в чьём бы кабинете оно ни стояло, и использовать его для совместного подтверждения ожидающего предложения.
 
-Each [color=#ffd700]Main Communications Console[/color] and each [color=#ffd700]Keycard Authentication Device[/color] can only contribute [bold]one authorization per request[/bold]. Once a device has been used to authorise a proposal, it is locked out for that request; a second person cannot use the same device to co-authorize and will need to find a different [color=#ffd700]Keycard Authentication Device[/color] or [color=#ffd700]Main Communications Console[/color].
+Каждая [color=#ffd700]главная консоль связи[/color] и каждое [color=#ffd700]устройство авторизации ключ-карт[/color] может дать только [bold]одно подтверждение на запрос[/bold]. После использования устройства для подтверждения предложения оно блокируется для этого запроса; второй человек не сможет использовать то же устройство для совместного подтверждения и должен будет найти другое [color=#ffd700]устройство авторизации ключ-карт[/color] или [color=#ffd700]главную консоль связи[/color].
 
-Additionally, each individual command member can only authorize [bold]once per request[/bold].
+Кроме того, каждый отдельный член командования может подтвердить запрос только [bold]один раз[/bold].
 
-There is [bold]no time limit[/bold] for gathering co-authorizations. However, active presence is strictly required: the requester and all co-authorizers must [bold]keep their terminal windows open[/bold] until all authorizations are gathered.
-- If the [bold]requester closes their window[/bold], the pending proposal is immediately cancelled and any held fee is refunded.
-- If a [bold]co-authorizer closes their window[/bold] before all authorizations are collected, their authorization is revoked. If all authorizations are lost, the proposal cancels.
+[bold]Ограничения по времени[/bold] для сбора совместных подтверждений нет. Однако активное присутствие строго обязательно: заявитель и все соавторизующие должны [bold]держать окна терминалов открытыми[/bold], пока не будут собраны все подтверждения.
+- Если [bold]заявитель закроет окно[/bold], ожидающее предложение сразу отменяется, а удержанная плата возвращается.
+- Если [bold]соавторизующий закроет окно[/bold] до сбора всех подтверждений, его подтверждение отзывается. Если потеряны все подтверждения, предложение отменяется.
 
-Once all required co-authorizations are collected, the requester and authorizers can safely close their terminal windows. The proposal will then begin its countdown (or await Central Command approval if required), activating automatically when the timer runs out.
+Когда все нужные совместные подтверждения собраны, заявитель и подтверждающие могут спокойно закрыть окна терминалов. Затем предложение начнёт обратный отсчёт (или будет ждать одобрения Central Command, если оно требуется), активируясь автоматически, когда таймер истечёт.
 
-## A Few Things Worth Knowing
+## Несколько вещей, которые стоит знать
 
-- [bold]Canceling a proposal[/bold]: While any proposal is still gathering authorizations (pending), any Command member can cancel it from a console. Once all authorizations are gathered and the activation countdown begins, non-ERT requests cannot be cancelled.
-- [bold]Rescinding an ERT dispatch[/bold]: Emergency Response Teams have an en-route transit countdown (5 to 30 minutes). During this arrival countdown, Command can [bold]rescind[/bold] the dispatch from a console if the threat is neutralized or contained before the team arrives. Rescinding requires satisfying that team's specific rescind scheme (such as designated Heads of Staff or multiple Command members). Those voting to rescind must also keep their terminal windows open until the threshold is satisfied.
-- Some requests require [bold]Central Command[/bold] approval before they activate, regardless of how many command staff have authorized. If no Central Command members are available, certain requests will bypass this and proceed automatically.
-- Armories and pods can be [bold]recalled[/bold] if they block evac or are no longer needed, once a short cooldown has elapsed.
-- If both consoles are destroyed or otherwise unavailable, the Captain's locker contains a [bold]Communications Computer Board[/bold] that can be used to build a replacement.
-- If the terminal cannot be used at all, a [bold]fax[/bold] to Central Command is the next best option. As a last resort, the [bold]red phone[/bold] in the Captain's office provides a direct line, though this should only be used if nothing else is available.
+- [bold]Отмена предложения[/bold]: пока любое предложение ещё собирает подтверждения (ожидает), любой член командования может отменить его с консоли. Когда все подтверждения собраны и начался обратный отсчёт активации, запросы, не связанные с ОБР, отменить нельзя.
+- [bold]Отзыв отправки ОБР[/bold]: у отрядов экстренного реагирования есть обратный отсчёт прибытия в пути (от 5 до 30 минут). Во время этого отсчёта прибытия командование может [bold]отозвать[/bold] отправку с консоли, если угроза нейтрализована или локализована до прибытия отряда. Отзыв требует выполнения особой схемы отзыва этого отряда (например, назначенные главы отделов или несколько членов командования). Те, кто голосует за отзыв, также должны держать окна терминалов открытыми, пока не будет достигнут порог.
+- Некоторые запросы требуют одобрения [bold]Central Command[/bold] перед активацией, независимо от того, сколько членов командования их подтвердило. Если членов Central Command нет в наличии, определённые запросы обойдут это и продолжатся автоматически.
+- Арсеналы и капсулы можно [bold]отозвать[/bold], если они блокируют эвакуацию или больше не нужны, после короткой перезарядки.
+- Если обе консоли уничтожены или иначе недоступны, в шкафчике капитана лежит [bold]плата коммуникационного компьютера[/bold], которую можно использовать для постройки замены.
+- Если терминалом вообще нельзя воспользоваться, [bold]факс[/bold] в Central Command — следующий лучший вариант. В крайнем случае [bold]красный телефон[/bold] в кабинете капитана даёт прямую линию, хотя им стоит пользоваться, только если ничего другого не доступно.
 
 
 </Document>

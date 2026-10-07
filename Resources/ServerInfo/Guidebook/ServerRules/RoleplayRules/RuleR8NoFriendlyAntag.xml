@@ -1,22 +1,22 @@
 ﻿<Document>
-  # Roleplay Rule 8 - As an antagonist, only be friendly to your team and don't work against your team
-  Do not take or enable antagonist roles that you do not want to play. Solo antagonists and team antagonists are intended to cause issues for non-antagonists or the station. Antagonists are not required to exclusively cause issues, but their net impact on non-antagonists or the station should generally be negative.
+  # Правило отыгрыша 8 — Будучи антагонистом, дружите только со своей командой и не действуйте против неё
+  Не берите и не включайте роли антагонистов, за которых не хотите играть. Одиночные и командные антагонисты предназначены создавать проблемы не-антагонистам или станции. Антагонисты не обязаны создавать только проблемы, но их итоговое влияние на не-антагонистов или станцию обычно должно быть негативным.
 
-  Do not cause issues for your own team as a team antagonist.
+  Не создавайте проблем своей команде, будучи командным антагонистом.
 
-  ## Examples
-  Acceptable:
-  - Betraying another antagonist as a solo antagonist.
-  - Revealing the identity of another antagonist as a solo antagonist for some benefit to yourself.
-  - Working against the revolution after being de-converted from being a revolutionary.
-  - Killing nuclear operatives as a revolutionary.
+  ## Примеры
+  Допустимо:
+  - Предать другого антагониста, будучи одиночным антагонистом.
+  - Раскрыть личность другого антагониста, будучи одиночным антагонистом, ради выгоды для себя.
+  - Действовать против революции после выведения из революционеров.
+  - Убивать ядерных оперативников, будучи революционером.
 
-  Prohibited:
-  - Buying Syndicate items for security.
-  - Randomly attacking other carp as an antagonist carp.
-  - Ignoring your team as a nuclear operative.
-  - Sabotaging your team as a nuclear operative.
-  - Attacking other zombies as a zombie.
-  - Working against the revolution as a revolutionary.
-  - Making or trying to make the station uninhabitable as a revolutionary.
+  Запрещено:
+  - Покупать предметы Синдиката для службы безопасности.
+  - Случайно атаковать других карпов, будучи карпом-антагонистом.
+  - Игнорировать свою команду, будучи ядерным оперативником.
+  - Саботировать свою команду, будучи ядерным оперативником.
+  - Атаковать других зомби, будучи зомби.
+  - Действовать против революции, будучи революционером.
+  - Делать станцию непригодной для жизни или пытаться это сделать, будучи революционером.
 </Document>

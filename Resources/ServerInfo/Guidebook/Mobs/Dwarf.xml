@@ -1,28 +1,28 @@
 <Document>
-  # Dwarves
+  # Дворфы
 
   <Box>
     <GuideEntityEmbed Entity="AppearanceDwarf" Caption=""/>
   </Box>
 
-  Dwarves or Dwarfs are a stout, mostly hairless species from the planet Abumas, located near the Null Scar. Their convergent evolution toward a Human-like appearance is strong enough to result in frequent misidentification, though there are enough deep cultural and physiological differences to justify treating them as a distinct group, outside the gamut of other near-Human subspecies like half-Felionoids and half-Vulpkanin, in addition to their unique origin as a totally separate clade.
+  Дворфы — коренастый, в основном безволосый вид с планеты Абумас, расположенной рядом с Null Scar. Их конвергентная эволюция в сторону человекоподобного облика достаточно сильна, чтобы приводить к частым ошибочным опознаниям, хотя существует достаточно глубоких культурных и физиологических различий, чтобы оправдать отношение к ним как к отдельной группе, вне спектра других Near-человеческих подвидов вроде полу-фелионоидов и полу-вульпканинов, в дополнение к их уникальному происхождению как совершенно отдельной клады.
 
-  Most Dwarves are male (around 87%), with the rest being female. Gender-nonconforming Dwarves are rarer than their Humans counterparts. Male Dwarves are often easily identified by their full, shaggy hair and large beards. Dwarves with no hair, including beardless males, are generally considered unusual.
+  Большинство дворфов — мужчины (около 87%), остальные — женщины. Гендерно-неконформных дворфов реже, чем их аналогов среди людей. Мужчин-дворфов часто легко узнать по густым лохматым волосам и большим бородам. Дворфы без волос, включая безбородых мужчин, обычно считаются необычными.
 
-  The average Dwarf is around 110 cm (3' 7") in height at maturity, with no significant difference between the sexes, but exhibits much fuller, denser bones and pronounced cartilaginous features compared to humans such as larger noses and cheekbones. This robustness grants them the ability to endure [color=#40ff40]10% more damage[/color] than humans before succumbing to their injuries. Xenobiologists widely agree that Dwarves evolved this stature to withstand the enhanced gravity of Abumas, which is around 1.3 times Earth standard.
+  Средний дворф имеет рост около 110 см (3' 7") в зрелости, без значительных различий между полами, но обладает куда более полными, плотными костями и выраженными хрящевыми чертами по сравнению с людьми, такими как более крупные носы и скулы. Эта прочность даёт им способность выдерживать [color=#40ff40]на 10% больше урона[/color], чем люди, прежде чем поддаться ранам. Ксенобиологи широко согласны, что дворфы развили такое телосложение, чтобы выдерживать повышенную гравитацию Абумаса, которая примерно в 1.3 раза превышает земной стандарт.
 
-  Dwarf society has many nuances and subdivisions, and no two Dwarf settlements are truly the same, but ethnographers have long noted a general tendency toward certain parallels with the Nordic, Celtic, and Germanic cultures of Earth in terms of their material culture. The primary weapon wielded by Dwarves during their Iron Age was the battle-ax, followed by the war-pick and war-hammer, with relatively little emphasis on spears, bows, and swords; surviving specimens tend to be highly engraved with knot patterns and runes. The major Dwarf ethnic groups are named according to their favored biomes: Subterranean Dwarves, Deepdwarves, Steppedwarves, Oceandwarves, Spiredwarves, Mountain Dwarves, Jungle Dwarves, and Forest Dwarves.
+  Общество дворфов имеет множество нюансов и подразделений, и нет двух действительно одинаковых поселений дворфов, но этнографы давно отметили общую тенденцию к определённым параллелям с нордической, кельтской и германской культурами Земли в плане материальной культуры. Основным оружием дворфов в их железном веке был боевой топор, за ним следовали боевая кирка и боевой молот, со сравнительно небольшим упором на копья, луки и мечи; сохранившиеся образцы, как правило, богато гравированные узорами и рунами. Основные этнические группы дворфов названы по предпочитаемым биомам: подземные дворфы, глубинные дворфы, степные дворфы, океанские дворфы, шпилевые дворфы, горные дворфы, джунглевые дворфы и лесные дворфы.
 
-  Dwarves have long been a space-faring race. Their homeworld of Abumas lacks significant rare earth mineral deposits near the surface, resulting in a monopoly on these resources by the Deepdwarves. To break this monopoly, they surface-dwelling Dwarves began mining asteroids and planetoids as a workaround. These space settlements, usually called Citadels, begin their lives as simple mining outposts. As they attract more families and workers, the outposts, homes, and businesses, expand into the shafts and tunnels, eventually forming splendid cities with diverse economies and populations. A fully-developed Citadel is a massive ark that can fly under its own power, though the majority of asteroid mines are abandoned once the minerals run out and never achieve this glory. Particularly impressive or culturally significant Citadels are often landed on planets to serve as museums or palaces, and there is a thriving industry of using grounded Citadels to stake a claim on newly-colonized worlds, as a 'readymade city' that can be deployed in an afternoon.
+  Дворфы давно являются космической расой. На их родном мире Абумасе отсутствуют значительные залежи редкоземельных минералов у поверхности, что привело к монополии глубинных дворфов на эти ресурсы. Чтобы разрушить эту монополию, поверхностные дворфы начали добывать астероиды и планетоиды в качестве обходного пути. Эти космические поселения, обычно называемые Цитаделями, начинают жизнь как простые горнодобывающие аванпосты. По мере привлечения семей и рабочих аванпосты, дома и предприятия расширяются в шахты и туннели, в итоге образуя великолепные города с разнообразной экономикой и населением. Полностью развитая Цитадель — массивный ковчег, способный летать своим ходом, хотя большинство астероидных шахт забрасываются после истощения минералов и никогда не достигают этого великолепия. Особенно впечатляющие или культурно значимые Цитадели часто сажают на планеты, чтобы служить музеями или дворцами, и существует процветающая индустрия использования приземлённых Цитаделей для заявления прав на недавно колонизированные миры, как «готовый город», который можно развернуть за полдня.
 
-  Abumas's proximity to the Null Scar inevitably meant that Dwarves would come in contact with NanoTrasen. Several Citadels now have highly profitable relationships with NT, and are under direct contract to provide certain high-demand minerals to the far-flung corners of Starlight Sector, beyond the reach of the Corporation's logistical network.
+  Близость Абумаса к Null Scar неизбежно означала, что дворфы войдут в контакт с NanoTrasen. Несколько Цитаделей теперь имеют крайне прибыльные отношения с НТ и находятся на прямом контракте по поставке определённых крайне востребованных минералов в дальние уголки сектора Daiquiri, за пределами логистической сети Корпорации.
 
-  ## Dwarf Alchemy
-  To most species, alcohol is a poisonous but highly entertaining beverage valued for its euphoric and sedative effects. This is only partly true for Dwarves, who have a [color=#1e90ff]physiological need for alcohol[/color], much like Humans need dietary fat to remain healthy; it is a critical macronutrient. To a Dwarf, [color=#1e90ff]alcoholic drinks also satiate hunger[/color], and [color=#1e90ff]food is less effective at satiating hunger[/color]. Moreover, [color=#ff901e]pure water is intolerable and causes vomiting[/color].
+  ## Алхимия дворфов
+  Для большинства видов алкоголь — ядовитый, но весьма забавный напиток, ценимый за эйфорические и седативные эффекты. Это лишь отчасти верно для дворфов, у которых есть [color=#1e90ff]физиологическая потребность в алкоголе[/color], подобно тому как людям нужен пищевой жир, чтобы оставаться здоровыми; это критический макронутриент. Для дворфа [color=#1e90ff]алкогольные напитки также утоляют голод[/color], а [color=#1e90ff]еда менее эффективна для утоления голода[/color]. Более того, [color=#ff901e]чистая вода непереносима и вызывает рвоту[/color].
 
-  More importantly, Dwarves often have odd reactions to certain beverages. Some of these peculiar interactions are described below.
+  Что важнее, у дворфов часто бывают странные реакции на определённые напитки. Некоторые из этих своеобразных взаимодействий описаны ниже.
 
-  The following drinks grant benefits directly from the tap, without any further mixing:
+  Следующие напитки дают преимущества прямо из крана, без дальнейшего смешивания:
   <Table Columns="3">
     <ColorBox>
       <Box>
@@ -36,7 +36,7 @@
     </ColorBox>
     <ColorBox>
       <Box>
-        equivalent to Ipecac (causes vomiting)
+        эквивалент ипекакуаны (вызывает рвоту)
       </Box>
     </ColorBox>
     <ColorBox>
@@ -51,7 +51,7 @@
     </ColorBox>
     <ColorBox>
       <Box>
-        restores thirst; no Ethanol
+        утоляет жажду; без этанола
       </Box>
     </ColorBox>
     <ColorBox>
@@ -66,7 +66,7 @@
     </ColorBox>
     <ColorBox>
       <Box>
-        restores hunger
+        утоляет голод
       </Box>
     </ColorBox>
     <ColorBox>
@@ -81,7 +81,7 @@
     </ColorBox>
     <ColorBox>
       <Box>
-        equivalent to Tricordazine
+        эквивалент трикордразина
       </Box>
     </ColorBox>
     <ColorBox>
@@ -96,7 +96,7 @@
     </ColorBox>
     <ColorBox>
       <Box>
-        equivalent to Hyronalin
+        эквивалент хироналина
       </Box>
     </ColorBox>
     <ColorBox>
@@ -111,7 +111,7 @@
     </ColorBox>
     <ColorBox>
       <Box>
-        10% less Blunt damage taken
+        на 10% меньше получаемого тупого урона
       </Box>
     </ColorBox>
     <ColorBox>
@@ -126,7 +126,7 @@
     </ColorBox>
     <ColorBox>
       <Box>
-        10% less Slash damage taken
+        на 10% меньше получаемого режущего урона
       </Box>
     </ColorBox>
     <ColorBox>
@@ -141,7 +141,7 @@
     </ColorBox>
     <ColorBox>
       <Box>
-        10% less Piercing damage taken
+        на 10% меньше получаемого колющего урона
       </Box>
     </ColorBox>
     <ColorBox>
@@ -156,7 +156,7 @@
     </ColorBox>
     <ColorBox>
       <Box>
-        10% less Heat damage taken
+        на 10% меньше получаемого теплового урона
       </Box>
     </ColorBox>
     <ColorBox>
@@ -171,7 +171,7 @@
     </ColorBox>
     <ColorBox>
       <Box>
-        10% less Cold damage taken
+        на 10% меньше получаемого урона от холода
       </Box>
     </ColorBox>
     <ColorBox>
@@ -186,7 +186,7 @@
     </ColorBox>
     <ColorBox>
       <Box>
-        10% less Caustic damage taken
+        на 10% меньше получаемого едкого урона
       </Box>
     </ColorBox>
     <ColorBox>
@@ -201,13 +201,13 @@
     </ColorBox>
     <ColorBox>
       <Box>
-        10% less Shock damage taken
+        на 10% меньше получаемого урона шоком
       </Box>
     </ColorBox>
   </Table>
 
-### Easy Brew
-  These drinks require a small amount of work to mix.
+### Лёгкая варка
+  Эти напитки требуют небольшой работы по смешиванию.
   <Table Columns="3">
     <ColorBox>
       <Box>
@@ -221,7 +221,7 @@
     </ColorBox>
     <ColorBox>
       <Box>
-        20% less Cold damage taken
+        на 20% меньше получаемого урона от холода
       </Box>
     </ColorBox>
     <ColorBox>
@@ -236,7 +236,7 @@
     </ColorBox>
     <ColorBox>
       <Box>
-        equivalent to Bicardine
+        эквивалент бикардина
       </Box>
     </ColorBox>
     <ColorBox>
@@ -251,7 +251,7 @@
     </ColorBox>
     <ColorBox>
       <Box>
-        equivalent to Dermaline and Kelotane
+        эквивалент дермалина и келотана
       </Box>
     </ColorBox>
     <ColorBox>
@@ -266,7 +266,7 @@
     </ColorBox>
     <ColorBox>
       <Box>
-        equivalent to Saline and Dexalin
+        эквивалент физраствора и дексалина
       </Box>
     </ColorBox>
     <ColorBox>
@@ -281,7 +281,7 @@
     </ColorBox>
     <ColorBox>
       <Box>
-        equivalent to Dylovene
+        эквивалент диловена
       </Box>
     </ColorBox>
     <ColorBox>
@@ -296,7 +296,7 @@
     </ColorBox>
     <ColorBox>
       <Box>
-        equivalent to Potassium Iodide
+        эквивалент йодида калия
       </Box>
     </ColorBox>
     <ColorBox>
@@ -311,7 +311,7 @@
     </ColorBox>
     <ColorBox>
       <Box>
-        equivalent to Tranexamic Acid
+        эквивалент транексамовой кислоты
       </Box>
     </ColorBox>
     <ColorBox>
@@ -326,7 +326,7 @@
     </ColorBox>
     <ColorBox>
       <Box>
-        heals Shock damage
+        лечит урон шоком
       </Box>
     </ColorBox>
     <ColorBox>
@@ -341,8 +341,8 @@
     </ColorBox>
     <ColorBox>
       <Box>
-        raises critical threshold to 129;
-        death threshold is reduced to 130
+        поднимает порог крита до 129;
+        порог смерти снижен до 130
       </Box>
     </ColorBox>
     <ColorBox>
@@ -357,7 +357,7 @@
     </ColorBox>
     <ColorBox>
       <Box>
-        immune to slippery surfaces
+        иммунитет к скользким поверхностям
       </Box>
     </ColorBox>
     <ColorBox>
@@ -372,7 +372,7 @@
     </ColorBox>
     <ColorBox>
       <Box>
-        punches deal Structure damage
+        удары наносят структурный урон
       </Box>
     </ColorBox>
     <ColorBox>
@@ -387,7 +387,7 @@
     </ColorBox>
     <ColorBox>
       <Box>
-        attack 25% faster with bare hands
+        атака на 25% быстрее голыми руками
       </Box>
     </ColorBox>
     <ColorBox>
@@ -402,7 +402,7 @@
     </ColorBox>
     <ColorBox>
       <Box>
-        50% more damage dealt with bare hands
+        на 50% больше урона голыми руками
       </Box>
     </ColorBox>
     <ColorBox>
@@ -417,8 +417,8 @@
     </ColorBox>
     <ColorBox>
       <Box>
-        10% less Piercing and Shock damage taken;
-		5% more Slash and Heat damage taken
+        на 10% меньше получаемого колющего урона и урона шоком;
+		на 5% больше получаемого режущего и теплового урона
       </Box>
     </ColorBox>
     <ColorBox>
@@ -433,8 +433,8 @@
     </ColorBox>
     <ColorBox>
       <Box>
-        10% less Slash and Heat damage taken;
-		5% more Blunt and Cold damage taken
+        на 10% меньше получаемого режущего и теплового урона;
+		на 5% больше получаемого тупого урона и урона от холода
       </Box>
     </ColorBox>
     <ColorBox>
@@ -449,8 +449,8 @@
     </ColorBox>
     <ColorBox>
       <Box>
-        10% less Blunt and Cold damage taken;
-		5% more Piercing and Shock damage taken
+        на 10% меньше получаемого тупого урона и урона от холода;
+		на 5% больше получаемого колющего урона и урона шоком
       </Box>
     </ColorBox>
     <ColorBox>
@@ -465,7 +465,7 @@
     </ColorBox>
     <ColorBox>
       <Box>
-        heals Caustic damage
+        лечит едкий урон
       </Box>
     </ColorBox>
     <ColorBox>
@@ -480,7 +480,7 @@
     </ColorBox>
     <ColorBox>
       <Box>
-        equivalent to Arithrazine
+        эквивалент аритразина
       </Box>
     </ColorBox>
     <ColorBox>
@@ -495,7 +495,7 @@
     </ColorBox>
     <ColorBox>
       <Box>
-        equivalent to Ephedrine
+        эквивалент эфедрина
       </Box>
     </ColorBox>
     <ColorBox>
@@ -510,7 +510,7 @@
     </ColorBox>
     <ColorBox>
       <Box>
-        10% less Poison and Radiation damage taken
+        на 10% меньше получаемого урона ядом и радиацией
       </Box>
     </ColorBox>
     <ColorBox>
@@ -525,7 +525,7 @@
     </ColorBox>
     <ColorBox>
       <Box>
-        10% less Blunt, Slash, and Piercing damage taken
+        на 10% меньше получаемого тупого, режущего и колющего урона
       </Box>
     </ColorBox>
     <ColorBox>
@@ -540,12 +540,12 @@
     </ColorBox>
     <ColorBox>
       <Box>
-        15% less Heat, Cold, and Shock damage taken
+        на 15% меньше получаемого теплового урона, урона от холода и шока
       </Box>
     </ColorBox>
   </Table>
-### Hard Brew
-  These drinks require a bit more work to mix.
+### Сложная варка
+  Эти напитки требуют чуть больше работы по смешиванию.
   <Table Columns="3">
     <ColorBox>
       <Box>
@@ -559,7 +559,7 @@
     </ColorBox>
     <ColorBox>
       <Box>
-        10% faster attacks with melee weapons
+        на 10% быстрее атаки оружием ближнего боя
       </Box>
     </ColorBox>
     <ColorBox>
@@ -574,7 +574,7 @@
     </ColorBox>
     <ColorBox>
       <Box>
-        20% more damage dealt with melee weapons
+        на 20% больше урона оружием ближнего боя
       </Box>
     </ColorBox>
     <ColorBox>
@@ -589,7 +589,7 @@
     </ColorBox>
     <ColorBox>
       <Box>
-        15% less Slash, Piercing, and Blunt damage taken
+        на 15% меньше получаемого режущего, колющего и тупого урона
       </Box>
     </ColorBox>
     <ColorBox>
@@ -604,7 +604,7 @@
     </ColorBox>
     <ColorBox>
       <Box>
-        25% more interaction (DoAfter) speed
+        на 25% выше скорость взаимодействия (DoAfter)
       </Box>
     </ColorBox>
     <ColorBox>
@@ -619,7 +619,7 @@
     </ColorBox>
     <ColorBox>
       <Box>
-        heal Slash, Piercing, and Blunt damage while in critical condition
+        лечит режущий, колющий и тупой урон в критическом состоянии
       </Box>
     </ColorBox>
     <ColorBox>
@@ -634,7 +634,7 @@
     </ColorBox>
     <ColorBox>
       <Box>
-        heal Caustic, Heat, and Cold damage while in critical condition
+        лечит едкий, тепловой урон и урон от холода в критическом состоянии
       </Box>
     </ColorBox>
     <ColorBox>
@@ -649,7 +649,7 @@
     </ColorBox>
     <ColorBox>
       <Box>
-        10% increased movement speed
+        скорость передвижения +10%
       </Box>
     </ColorBox>
     <ColorBox>
@@ -664,7 +664,7 @@
     </ColorBox>
     <ColorBox>
       <Box>
-        insulation from shocks
+        изоляция от ударов током
       </Box>
     </ColorBox>
     <ColorBox>
@@ -679,7 +679,7 @@
     </ColorBox>
     <ColorBox>
       <Box>
-        low-light vision
+        сумеречное зрение
       </Box>
     </ColorBox>
     <ColorBox>
@@ -694,7 +694,7 @@
     </ColorBox>
     <ColorBox>
       <Box>
-        heals Genetic damage
+        лечит генетический урон
       </Box>
     </ColorBox>
     <ColorBox>
@@ -709,7 +709,7 @@
     </ColorBox>
     <ColorBox>
       <Box>
-        equivalent to Desoxyephedrine
+        эквивалент дезоксиэфедрина
       </Box>
     </ColorBox>
     <ColorBox>
@@ -724,12 +724,12 @@
     </ColorBox>
     <ColorBox>
       <Box>
-        ignore slowdown
+        игнорирует замедление
       </Box>
     </ColorBox>
   </Table>
-### Expert Brew
-  Concocting these drinks is best left to the talents of a seasoned Bartender and/or Priest.
+### Экспертная варка
+  Приготовление этих напитков лучше оставить талантам опытного бармена и/или священника.
   <Table Columns="3">
     <ColorBox>
       <Box>
@@ -743,7 +743,7 @@
     </ColorBox>
     <ColorBox>
       <Box>
-        100% less Bloodloss damage taken
+        на 100% меньше получаемого урона от кровопотери
       </Box>
     </ColorBox>
     <ColorBox>
@@ -758,7 +758,7 @@
     </ColorBox>
     <ColorBox>
       <Box>
-        rapidly recover from stun and knockdown; 90% less Stamina damage taken
+        быстрое восстановление от оглушения и сбивания с ног; на 90% меньше получаемого урона выносливости
       </Box>
     </ColorBox>
     <ColorBox>
@@ -773,7 +773,7 @@
     </ColorBox>
     <ColorBox>
       <Box>
-        no damage from pressure effects
+        нет урона от эффектов давления
       </Box>
     </ColorBox>
     <ColorBox>
@@ -788,7 +788,7 @@
     </ColorBox>
     <ColorBox>
       <Box>
-        25% less damage taken from explosions
+        на 25% меньше получаемого урона от взрывов
       </Box>
     </ColorBox>
     <ColorBox>
@@ -803,7 +803,7 @@
     </ColorBox>
     <ColorBox>
       <Box>
-        equivalent to Omnizine
+        эквивалент омнизина
       </Box>
     </ColorBox>
     <ColorBox>
@@ -818,8 +818,8 @@
     </ColorBox>
     <ColorBox>
       <Box>
-        raises critical threshold to 219 damage
-		(death threshold is still 220)
+        поднимает порог крита до 219 урона
+		(порог смерти всё ещё 220)
       </Box>
     </ColorBox>
   </Table>

@@ -1,17 +1,17 @@
 ﻿<Document>
-  # Gasses
-  Mundane gasses that are easily found in nature. Some are used to breathe whereas others have minor uses.
+  # Газы
+  Обыденные газы, которые легко найти в природе. Одни используются для дыхания, другие имеют мелкие применения.
 
-  ## Air Mix
+  ## Воздушная смесь
   <Box>
     <GuideEntityEmbed Entity="AirCanister" Caption=""/>
     <GuideEntityEmbed Entity="AirTank" Caption=""/>
   </Box>
 
-  A mixture of gasses that is breathable to most species on the station.
-  It consists of 21% oxygen and 79% nitrogen.
+  Смесь газов, пригодная для дыхания большинства видов на станции.
+  Состоит из 21% кислорода и 79% азота.
 
-  ## Oxygen
+  ## Кислород
   <Box>
     <GuideEntityEmbed Entity="OxygenCanister" Caption=""/>
     <GuideEntityEmbed Entity="OxygenTank" Caption=""/>
@@ -20,11 +20,11 @@
     <GuideEntityEmbed Entity="EmergencyOxygenTank" Caption=""/>
   </Box>
 
-  A common gas, used by most species on the station to breathe.
+  Распространённый газ, используемый большинством видов на станции для дыхания.
 
-  Oxygen is an oxidizer, which means it supports combustion.  In spite of this obvious safety hazard, most species require it to live.
+  Кислород — окислитель, то есть поддерживает горение. Несмотря на эту очевидную опасность, большинству видов он необходим для жизни.
 
-  ## Nitrogen
+  ## Азот
   <Box>
     <GuideEntityEmbed Entity="NitrogenCanister" Caption=""/>
     <GuideEntityEmbed Entity="NitrogenTank" Caption=""/>
@@ -33,58 +33,58 @@
     <GuideEntityEmbed Entity="EmergencyNitrogenTank" Caption=""/>
   </Box>
 
-  An inert gas, used in part with oxygen to create a breathable atmosphere.
+  Инертный газ, используемый вместе с кислородом для создания пригодной для дыхания атмосферы.
 
-  Some species like Slimes breathe nitrogen, with the Vox species requiring strictly nitrogen to breathe.
+  Некоторые виды, как слаймы, дышат азотом, а виду вокс для дыхания строго необходим азот.
 
-  ## Carbon Dioxide
+  ## Углекислый газ
   <Box>
     <GuideEntityEmbed Entity="CarbonDioxideCanister" Caption=""/>
   </Box>
 
-  A waste gas produced by most species on the station. A common byproduct of combustion.
+  Отходящий газ, производимый большинством видов на станции. Обычный побочный продукт горения.
 
-  Has radiation absorbing properties making it a useful moderator in certain power sources.
+  Обладает радиационно-поглощающими свойствами, что делает его полезным замедлителем в некоторых источниках энергии.
 
-  ## Water Vapor
+  ## Водяной пар
   <Box>
     <GuideEntityEmbed Entity="WaterVaporCanister" Caption=""/>
   </Box>
-  A common gas, can be produced by the burning of hydrogen or tritium.
+  Распространённый газ, может производиться сжиганием водорода или трития.
 
-  Water vapor has a good specific heat capacity compared to other mundane gasses, making it useful for heat transfer.
+  Водяной пар имеет хорошую удельную теплоёмкость по сравнению с другими обыденными газами, что делает его полезным для теплопередачи.
 
-  ## Nitrous Oxide
+  ## Закись азота
   <Box>
     <GuideEntityEmbed Entity="NitrousOxideCanister" Caption=""/>
     <GuideEntityEmbed Entity="EmergencyFunnyOxygenTank" Caption=""/>
   </Box>
-  A chemically reactive combination of oxygen and nitrogen that is primarily used as a anesthetic or narcotic in most species.
+  Химически реактивная комбинация кислорода и азота, которая в основном используется как анестетик или наркотик у большинства видов.
 
-  Can be created by heating oxygen and ammonia, combining frezon and nitrogen, or exhalations from slime based organisms.  Can be decomposed into its component atoms by heating to roughly 850 K.
+  Может создаваться нагревом кислорода и аммиака, соединением фрезона и азота, или выдохами организмов на основе слаймов. Может разлагаться на составляющие атомы нагревом примерно до 850 К.
 
-  ## Ammonia
+  ## Аммиак
   <Box>
     <GuideEntityEmbed Entity="AmmoniaCanister" Caption=""/>
   </Box>
-  A gas produced by the decomposition of bodies or exhalation from vox.
+  Газ, производимый разложением тел или выдохом воксов.
 
-  Can be condensed to create several useful chemicals, or heated with oxygen to create nitrous oxide and water vapor.
+  Может конденсироваться для создания нескольких полезных химикатов, или нагреваться с кислородом для создания закиси азота и водяного пара.
 
-  ## Hydrogen
+  ## Водород
   <Box>
     <GuideEntityEmbed Entity="HydrogenCanister" Caption=""/>
   </Box>
-  The most common atom in the universe.
+  Самый распространённый атом во вселенной.
 
-  Highly dangerous due to being flammable and invisible to the naked eye. Primarily produced by electrolyzing water as well as a byproduct of more advanced processes.
+  Крайне опасен, так как горюч и невидим невооружённым глазом. В основном производится электролизом воды, а также как побочный продукт более продвинутых процессов.
 
-  ## Helium
+  ## Гелий
   <Box>
     <GuideEntityEmbed Entity="HeliumCanister" Caption=""/>
   </Box>
-  The second most common atom in the universe.
+  Второй по распространённости атом во вселенной.
 
-  Has limited practical uses due to being incredibly inert, but can be sold on the market for minor value due to the difficulty of isolating such an inert gas.
+  Имеет ограниченные практические применения из-за крайней инертности, но может продаваться на рынке за небольшую цену из-за сложности выделения такого инертного газа.
 
 </Document>

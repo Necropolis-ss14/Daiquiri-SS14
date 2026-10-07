@@ -1,63 +1,63 @@
 <Document>
-  # Supermatter Stability
+  # Стабильность суперматерии
 
-  The Supermatter continuously monitors its own structural stability.
+  Суперматерия непрерывно следит за собственной структурной стабильностью.
 
-  When stability falls below safe operating levels, the crystal automatically broadcasts warnings to the station's engineering radio network.
+  Когда стабильность падает ниже безопасных рабочих уровней, кристалл автоматически рассылает предупреждения в инженерную радиосеть станции.
 
-  Stability is influenced by the environment surrounding the crystal. Engineers should continuously monitor chamber conditions and respond to any unexpected changes.
+  Стабильность зависит от окружения кристалла. Инженеры должны непрерывно следить за условиями камеры и реагировать на любые неожиданные изменения.
 
-  ## Sources of Stress
+  ## Источники стресса
 
-  Any process that introduces additional energy into the crystal may reduce its structural stability.
+  Любой процесс, вносящий дополнительную энергию в кристалл, может снизить его структурную стабильность.
 
-  Based on current Nanotrasen operating guidelines, Engineering personnel are advised to keep chamber conditions within the following recommended operating ranges whenever practical:
+  На основе текущих рабочих указаний NanoTrasen инженерному персоналу советуют держать условия камеры в следующих рекомендованных рабочих диапазонах, когда это практически возможно:
 
-  - Temperatures below approximately 350 K
-  - Chamber pressures between approximately 50 kPa and 250 kPa
+  - Температуры ниже примерно 350 К
+  - Давления камеры от примерно 50 кПа до 250 кПа
 
-  Additional sources of structural stress include:
+  Дополнительные источники структурного стресса включают:
 
-  - Emitter shots
-  - Laser impacts
-  - Physical contact with the crystal
+  - Выстрелы эмиттеров
+  - Попадания лазеров
+  - Физический контакт с кристаллом
 
-  Operating outside these recommendations does not necessarily result in immediate instability, but prolonged or extreme deviations have been associated with accelerated structural degradation.
+  Работа вне этих рекомендаций не обязательно приводит к немедленной нестабильности, но длительные или экстремальные отклонения связаны с ускоренной структурной деградацией.
 
-  ## Chamber Conditions
+  ## Условия камеры
 
-  The atmosphere surrounding the crystal plays a major role in maintaining stability.
+  Атмосфера вокруг кристалла играет большую роль в поддержании стабильности.
 
-  Engineers should continuously monitor:
+  Инженеры должны непрерывно отслеживать:
 
-  - Temperature
-  - Pressure
-  - Atmospheric composition
+  - Температуру
+  - Давление
+  - Состав атмосферы
 
-  Standard station atmospheric conditions have consistently provided a reliable operating environment.
+  Стандартные станционные атмосферные условия неизменно давали надёжную рабочую среду.
 
-  Significant changes should only be performed after careful planning.
+  Значительные изменения должны выполняться только после тщательного планирования.
 
-  ## Improving Stability
+  ## Улучшение стабильности
 
-  Proper chamber design improves the crystal's tolerance to changing operating conditions.
+  Правильный дизайн камеры улучшает устойчивость кристалла к меняющимся условиям работы.
 
-  Cooling systems connected directly to the chamber should include overpressure countermeasures.
+  Системы охлаждения, подключённые напрямую к камере, должны включать меры против избыточного давления.
 
   <Box>
     <GuideEntityEmbed Entity="GasPressureRegulator" Caption="Pressure Regulator" />
   </Box>
 
-  Pressure regulators can be connected to the cooling loop and chamber to limit excessive pressure buildup.
+  Регуляторы давления могут подключаться к контуру охлаждения и камере, чтобы ограничить чрезмерное накопление давления.
 
-  Additional inlet valves provide further protection by allowing pressure to be controlled at multiple points within the system.
+  Дополнительные входные клапаны дают дальнейшую защиту, позволяя контролировать давление в нескольких точках системы.
 
-  Higher-capacity cooling systems may also be installed.
+  Также могут устанавливаться системы охлаждения повышенной мощности.
 
   <Box>
     <GuideEntityEmbed Entity="GasThermoMachineHellfireFreezer" Caption="Hellfire Freezer" />
   </Box>
 
-  Hellfire Freezers provide increased cooling capacity, allowing the system to remove heat more effectively and maintain the chamber closer to the desired operating temperature during high-stress operation.
+  Морозильники адского пламени дают повышенную холодопроизводительность, позволяя системе эффективнее удалять тепло и держать камеру ближе к желаемой рабочей температуре во время работы с высоким стрессом.
 
 </Document>

@@ -1,41 +1,41 @@
 <Document>
-        # Code Green
+        # Зелёный код
 
-        ## Called by:
+        ## Вызывается:
 
-        Any Command member.
+        Любым членом командования.
 
-        Conditions:
+        Условия:
 
-        Default Alert Code at the start of the shift. Should not change unless a threat is suspected/confirmed.
+        Тревога по умолчанию в начале смены. Не должна меняться, если угроза не предполагается/подтверждена.
 
-        OR
+        ИЛИ
 
-        All confirmed/suspected threats to the station and/or crew have been handled, or simply vanished on their own. Unless there is further evidence of a threat after 10+ minutes on Code Blue, Code Green should be called.
+        Все подтверждённые/предполагаемые угрозы станции и/или экипажу устранены или просто исчезли сами. Если спустя 10+ минут при Синем коде нет дальнейших доказательств угрозы, следует объявлять Зелёный код.
 
-        ## Security:
+        ## Безопасность:
 
-        1. All weapons must not be visible unless in pursuit of a suspect.
+        1. Всё оружие не должно быть на виду, если не идёт преследование подозреваемого.
 
-        2. Armory weapons must remain inside of the Armory, however may be used for training purposes.
+        2. Оружие из арсенала должно оставаться в арсенальной, однако может использоваться для тренировок.
 
-        3. Random searches are not permitted without a search warrant. However, searches may be conducted against an individual if a member of security or command has witnessed that individual committing a crime.
-
-
-        ## Secure Areas:
-
-        1. Secure areas require an access permit, unless required by a staff job.
-
-        2. Secure areas: Security department, EVA Storage, Tech Storage, Gravity Generator, All Engineering areas beyond the lobby, Vault, and areas requiring command access.
-
-        3. Secure areas are to be left unbolted and ready to be used for their intended purposes.
+        3. Случайные обыски без ордера на обыск не разрешены. Однако обыск может проводиться в отношении лица, если сотрудник безопасности или командования видел, как это лицо совершает преступление.
 
 
-        ## General Crew:
+        ## Охраняемые зоны:
 
-        1. The Vault is not to be opened by non-command members. Exceptions for repairs, gold for science, or storage of critical items will be made. All other access is by permit only.
+        1. Охраняемые зоны требуют пропуска на доступ, если это не требуется по работе.
 
-        2. Although not required, crew are recommended to enable their suit sensors in case of injury.
+        2. Охраняемые зоны: отдел безопасности, хранилище скафандров, техническое хранилище, генератор гравитации, все инженерные помещения за вестибюлем, хранилище и зоны, требующие доступа командования.
 
-        3. Crew members are advised to not wear hardsuits or emergency EVA suits, unless responding to an emergency or required for their job. These can make identification of crew difficult.
+        3. Охраняемые зоны должны оставаться разблокированными и готовыми к использованию по назначению.
+
+
+        ## Общий экипаж:
+
+        1. Хранилище не должно вскрываться лицами не из командования. Исключения делаются для ремонта, золота для науки или хранения критических предметов. Весь остальной доступ — только по пропуску.
+
+        2. Хотя это не обязательно, экипажу рекомендуется включать датчики скафандра на случай ранения.
+
+        3. Членам экипажа рекомендуется не носить скафандры или аварийные скафандры ВКД, если они не реагируют на чрезвычайную ситуацию или это не требуется по работе. Это может затруднить опознание экипажа.
 </Document>
