@@ -25,6 +25,7 @@ public sealed partial class ContentAudioSystem : SharedContentAudioSystem
     private SoundCollectionPrototype? _lobbyMusicCollection = default!;
     private string[]? _lobbyPlaylist;
     private readonly HashSet<string> _disabledPlaylists = new();
+    private readonly Dictionary<string, HashSet<string>> _runtimeTrackAdditions = new();
 
     // STARLIGHT: Flag to indicate if we should use a custom playlist for the next round end
     private bool _useCustomPlaylist;
@@ -63,6 +64,24 @@ public sealed partial class ContentAudioSystem : SharedContentAudioSystem
         SubscribeLocalEvent<RoundStartingEvent>(OnRoundStart);
         SubscribeLocalEvent<PrototypesReloadedEventArgs>(OnProtoReload);
         SubscribeNetworkEvent<LobbyPlaylistToggleEvent>(OnPlaylistToggle);
+        SubscribeNetworkEvent<LobbyTrackMembershipEvent>(OnTrackMembership);
+    }
+
+    private void OnTrackMembership(LobbyTrackMembershipEvent ev, EntitySessionEventArgs session)
+    {
+        if (!_runtimeTrackAdditions.TryGetValue(ev.PlaylistId, out var set))
+        {
+            set = new HashSet<string>();
+            _runtimeTrackAdditions[ev.PlaylistId] = set;
+        }
+
+        if (ev.Add)
+            set.Add(ev.TrackPath);
+        else
+            set.Remove(ev.TrackPath);
+
+        _lobbyPlaylist = ShuffleLobbyPlaylist();
+        RaiseNetworkEvent(new LobbyPlaylistChangedEvent(_lobbyPlaylist), session.SenderSession);
     }
 
     private void OnPlaylistToggle(LobbyPlaylistToggleEvent ev, EntitySessionEventArgs session)
@@ -146,6 +165,9 @@ public sealed partial class ContentAudioSystem : SharedContentAudioSystem
                 continue;
 
             enabledTracks.AddRange(playlist.Tracks.Select(x => x.ToString()));
+
+            if (_runtimeTrackAdditions.TryGetValue(playlist.ID, out var extra))
+                enabledTracks.AddRange(extra);
         }
 
         if (enabledTracks.Count == 0)

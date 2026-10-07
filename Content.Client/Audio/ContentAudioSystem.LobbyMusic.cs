@@ -267,6 +267,14 @@ public sealed partial class ContentAudioSystem
     }
 
     /// <summary>
+    /// Add or remove a track from a lobby playlist.
+    /// </summary>
+    public void SetTrackMembership(string playlistId, string trackPath, bool add)
+    {
+        RaiseNetworkEvent(new LobbyTrackMembershipEvent(playlistId, trackPath, add));
+    }
+
+    /// <summary>
     /// Manually switch to a specific lobby track by filename.
     /// </summary>
     public void PlayLobbyTrack(string filename)
