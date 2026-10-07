@@ -77,12 +77,6 @@ public sealed partial class ContentAudioSystem
 
         SubscribeNetworkEvent<LobbyMusicStopEvent>(OnLobbySongStopped);
         SubscribeNetworkEvent<LobbyPlaylistChangedEvent>(OnLobbySongChanged);
-        SubscribeNetworkEvent<LobbyPlaylistChangedEvent>(OnPlaylistChanged);
-    }
-
-    private void OnPlaylistChanged(LobbyPlaylistChangedEvent ev)
-    {
-        LobbyPlaylistChanged?.Invoke();
     }
 
     /// <summary>
