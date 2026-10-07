@@ -1,11 +1,11 @@
 - type: !PartialOnly entity
-  id: !type:CreateVariants
-    values: &protos
-    - GasVentPumpVox
-    - GasVentScrubberVox
+  id: GasVentPumpVox
   components:
     - type: SandboxCopyOverride
-      override: !type:CreateVariants
-        values: *protos
+      override: GasVentPumpVox
 
-
+- type: !PartialOnly entity
+  id: GasVentScrubberVox
+  components:
+    - type: SandboxCopyOverride
+      override: GasVentScrubberVox
