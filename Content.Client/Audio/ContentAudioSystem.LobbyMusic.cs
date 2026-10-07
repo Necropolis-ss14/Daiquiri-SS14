@@ -77,8 +77,18 @@ public sealed partial class ContentAudioSystem
 
         SubscribeNetworkEvent<LobbyMusicStopEvent>(OnLobbySongStopped);
         SubscribeNetworkEvent<LobbyPlaylistChangedEvent>(OnLobbySongChanged);
-        SubscribeNetworkEvent<RoundEndCancelMessageEvent>(OnRoundEndCancelMessage); // Starlight
+        SubscribeNetworkEvent<LobbyPlaylistChangedEvent>(OnPlaylistChanged);
     }
+
+    private void OnPlaylistChanged(LobbyPlaylistChangedEvent ev)
+    {
+        LobbyPlaylistChanged?.Invoke();
+    }
+
+    /// <summary>
+    /// Fired when the lobby playlist changes (track membership, shuffle, etc).
+    /// </summary>
+    public event Action? LobbyPlaylistChanged;
 
     private void OnLobbySongStopped(LobbyMusicStopEvent ev)
     {
@@ -362,6 +372,7 @@ public sealed partial class ContentAudioSystem
 
         EndLobbyMusic();
         StartLobbyMusic(playlistChangedEvent.Playlist);
+        LobbyPlaylistChanged?.Invoke();
     }
 
     /// <summary>

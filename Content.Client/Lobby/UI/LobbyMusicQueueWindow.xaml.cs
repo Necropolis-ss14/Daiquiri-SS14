@@ -37,6 +37,7 @@ public sealed partial class LobbyMusicQueueWindow : DefaultWindow
 
         _audio = IoCManager.Resolve<IEntitySystemManager>().GetEntitySystem<ContentAudioSystem>();
         _audio.LobbySoundtrackChanged += OnTrackChanged;
+        _audio.LobbyPlaylistChanged += OnPlaylistChanged;
         OnOpen += BuildUI;
     }
 
@@ -45,10 +46,20 @@ public sealed partial class LobbyMusicQueueWindow : DefaultWindow
         base.ExitedTree();
         OnOpen -= BuildUI;
         if (_audio != null)
+        {
             _audio.LobbySoundtrackChanged -= OnTrackChanged;
+            _audio.LobbyPlaylistChanged -= OnPlaylistChanged;
+        }
     }
 
     private void OnTrackChanged(LobbySoundtrackChangedEvent ev)
+    {
+        if (!IsOpen)
+            return;
+        BuildUI();
+    }
+
+    private void OnPlaylistChanged()
     {
         if (!IsOpen)
             return;
