@@ -1,0 +1,144 @@
+- type: lobbyTrack
+  id: /Audio/Lobby/thunderdome.ogg
+  title: lobby-track-thunderdome-title
+  artist: lobby-track-thunderdome-artist
+
+- type: lobbyTrack
+  id: /Audio/Lobby/space_asshole.ogg
+  title: lobby-track-space-asshole-title
+  artist: lobby-track-space-asshole-artist
+
+- type: lobbyTrack
+  id: /Audio/Lobby/endless_space.ogg
+  title: lobby-track-endless-space-title
+  artist: lobby-track-endless-space-artist
+
+- type: lobbyTrack
+  id: /Audio/Lobby/singuloose.ogg
+  title: lobby-track-singuloose-title
+  artist: lobby-track-singuloose-artist
+
+- type: lobbyTrack
+  id: /Audio/Lobby/comet_haley.ogg
+  title: lobby-track-comet-haley-title
+  artist: lobby-track-comet-haley-artist
+
+- type: lobbyTrack
+  id: /Audio/Lobby/title2.ogg
+  title: lobby-track-title2-title
+  artist: lobby-track-title2-artist
+
+- type: lobbyTrack
+  id: /Audio/Lobby/title3.ogg
+  title: lobby-track-title3-title
+  artist: lobby-track-title3-artist
+
+- type: lobbyTrack
+  id: /Audio/Lobby/mod.flip-flap.ogg
+  title: lobby-track-mod-flip-flap-title
+  artist: lobby-track-mod-flip-flap-artist
+
+- type: lobbyTrack
+  id: /Audio/Lobby/Spac_Stac.ogg
+  title: lobby-track-spac-stac-title
+  artist: lobby-track-spac-stac-artist
+
+- type: lobbyTrack
+  id: /Audio/Lobby/pwmur.ogg
+  title: lobby-track-pwmur-title
+  artist: lobby-track-pwmur-artist
+
+- type: lobbyTrack
+  id: /Audio/Lobby/lasers_rip_apart_the_bulkhead.ogg
+  title: lobby-track-lasers-rip-apart-the-bulkhead-title
+  artist: lobby-track-lasers-rip-apart-the-bulkhead-artist
+
+- type: lobbyTrack
+  id: /Audio/Lobby/every_light_is_blinking_at_once.ogg
+  title: lobby-track-every-light-is-blinking-at-once-title
+  artist: lobby-track-every-light-is-blinking-at-once-artist
+
+- type: lobbyTrack
+  id: /Audio/Lobby/atomicamnesiammx.ogg
+  title: lobby-track-atomicamnesiammx-title
+  artist: lobby-track-atomicamnesiammx-artist
+
+- type: lobbyTrack
+  id: /Audio/Lobby/skubstep.ogg
+  title: lobby-track-skubstep-title
+  artist: lobby-track-skubstep-artist
+
+- type: lobbyTrack
+  id: /Audio/_Starlight/Lobby/cosmonaut.ogg
+  title: lobby-track-cosmonaut-title
+  artist: lobby-track-cosmonaut-artist
+
+- type: lobbyTrack
+  id: /Audio/_Starlight/Lobby/breacher.ogg
+  title: lobby-track-breacher-title
+  artist: lobby-track-breacher-artist
+
+- type: lobbyTrack
+  id: /Audio/_Starlight/Lobby/Resistance.ogg
+  title: lobby-track-resistance-title
+  artist: lobby-track-resistance-artist
+
+- type: lobbyTrack
+  id: /Audio/_Starlight/Lobby/echoes-in-the-deep.ogg
+  title: lobby-track-echoes-in-the-deep-title
+  artist: lobby-track-echoes-in-the-deep-artist
+
+- type: lobbyTrack
+  id: /Audio/_Starlight/Lobby/timefracture.ogg
+  title: lobby-track-timefracture-title
+  artist: lobby-track-timefracture-artist
+
+- type: lobbyTrack
+  id: /Audio/_Starlight/Lobby/762_treastise.ogg
+  title: lobby-track-762-treastise-title
+  artist: lobby-track-762-treastise-artist
+
+- type: lobbyTrack
+  id: /Audio/_Starlight/Lobby/hull_rupture.ogg
+  title: lobby-track-hull-rupture-title
+  artist: lobby-track-hull-rupture-artist
+
+- type: lobbyTrack
+  id: /Audio/_Starlight/Lobby/aggravated_assault_by_melcom_.ogg
+  title: lobby-track-aggravated-assault-by-melcom-title
+  artist: lobby-track-aggravated-assault-by-melcom-artist
+
+- type: lobbyTrack
+  id: /Audio/_Starlight/Lobby/Unity.ogg
+  title: lobby-track-unity-title
+  artist: lobby-track-unity-artist
+
+- type: lobbyTrack
+  id: /Audio/_Starlight/Lobby/Bluespace.ogg
+  title: lobby-track-bluespace-title
+  artist: lobby-track-bluespace-artist
+
+- type: lobbyTrack
+  id: /Audio/_Starlight/Lobby/thestation.ogg
+  title: lobby-track-thestation-title
+  artist: lobby-track-thestation-artist
+
+- type: lobbyTrack
+  id: /Audio/_Starlight/Lobby/RedefiningLines.ogg
+  title: lobby-track-redefining-lines-title
+  artist: lobby-track-redefining-lines-artist
+
+- type: lobbyTrack
+  id: /Audio/_Starlight/Lobby/HOME_Burn_Chamber_Starlight.ogg
+  title: lobby-track-home-burn-chamber-title
+  artist: lobby-track-home-burn-chamber-artist
+
+- type: lobbyTrack
+  id: /Audio/_Starlight/Lobby/stenchOfWhiskey.ogg
+  title: lobby-track-stench-of-whiskey-title
+  artist: lobby-track-stench-of-whiskey-artist
+
+- type: lobbyTrack
+  id: /Audio/_Starlight/Lobby/Null_Scar_Gaze.ogg
+  title: lobby-track-null-scar-gaze-title
+  artist: lobby-track-null-scar-gaze-artist
