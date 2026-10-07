@@ -5,6 +5,7 @@ using Content.Shared.Audio;
 using Content.Shared.Audio.Events;
 using Content.Shared.CCVar;
 using Content.Shared.GameTicking;
+using Content.Shared.GameTicking.Prototypes;
 using Robust.Server.Audio;
 using Robust.Shared.Audio;
 using Robust.Shared.Configuration;
@@ -23,6 +24,7 @@ public sealed partial class ContentAudioSystem : SharedContentAudioSystem
 
     private SoundCollectionPrototype? _lobbyMusicCollection = default!;
     private string[]? _lobbyPlaylist;
+    private readonly HashSet<string> _disabledPlaylists = new();
 
     // STARLIGHT: Flag to indicate if we should use a custom playlist for the next round end
     private bool _useCustomPlaylist;
@@ -60,6 +62,18 @@ public sealed partial class ContentAudioSystem : SharedContentAudioSystem
         SubscribeLocalEvent<RoundRestartCleanupEvent>(OnRoundCleanup);
         SubscribeLocalEvent<RoundStartingEvent>(OnRoundStart);
         SubscribeLocalEvent<PrototypesReloadedEventArgs>(OnProtoReload);
+        SubscribeNetworkEvent<LobbyPlaylistToggleEvent>(OnPlaylistToggle);
+    }
+
+    private void OnPlaylistToggle(LobbyPlaylistToggleEvent ev, EntitySessionEventArgs session)
+    {
+        if (ev.Enabled)
+            _disabledPlaylists.Remove(ev.PlaylistId);
+        else
+            _disabledPlaylists.Add(ev.PlaylistId);
+
+        _lobbyPlaylist = ShuffleLobbyPlaylist();
+        RaiseNetworkEvent(new LobbyPlaylistChangedEvent(_lobbyPlaylist), session.SenderSession);
     }
 
     private void OnRoundCleanup(RoundRestartCleanupEvent ev)
@@ -125,12 +139,22 @@ public sealed partial class ContentAudioSystem : SharedContentAudioSystem
             return [];
         }
 
-        var playlist = _lobbyMusicCollection.PickFiles
-                                            .Select(x => x.ToString())
-                                            .ToArray();
-        _robustRandom.Shuffle(playlist);
+        var enabledTracks = new List<string>();
+        foreach (var playlist in _prototypeManager.EnumeratePrototypes<LobbyPlaylistPrototype>())
+        {
+            if (_disabledPlaylists.Contains(playlist.ID))
+                continue;
 
-        return playlist;
+            enabledTracks.AddRange(playlist.Tracks.Select(x => x.ToString()));
+        }
+
+        if (enabledTracks.Count == 0)
+        {
+            enabledTracks.AddRange(_lobbyMusicCollection.PickFiles.Select(x => x.ToString()));
+        }
+
+        _robustRandom.Shuffle(enabledTracks);
+        return enabledTracks.ToArray();
     }
 
     /// <summary>

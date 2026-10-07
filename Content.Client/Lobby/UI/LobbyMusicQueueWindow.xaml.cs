@@ -13,7 +13,7 @@ using Timer = Robust.Shared.Timing.Timer;
 namespace Content.Client.Lobby.UI;
 
 /// <summary>
-/// Clickable lobby playlist queue. Clicking a track switches to it.
+/// Lobby music queue with playlist selector. Left: playlists with checkboxes. Right: track list.
 /// </summary>
 [GenerateTypedNameReferences]
 public sealed partial class LobbyMusicQueueWindow : DefaultWindow
@@ -21,9 +21,11 @@ public sealed partial class LobbyMusicQueueWindow : DefaultWindow
     [Dependency] private IPrototypeManager _prototypeManager = default!;
 
     private ContentAudioSystem? _audio;
+    private readonly Dictionary<string, CheckBox> _playlistChecks = new();
     private readonly List<(Button Button, string Filename)> _rows = new();
-    private List<string>? _pendingTracks;
+    private string _selectedPlaylist = "Lobby";
     private int _buildId;
+    private List<string>? _pendingTracks;
 
     public LobbyMusicQueueWindow()
     {
@@ -31,40 +33,73 @@ public sealed partial class LobbyMusicQueueWindow : DefaultWindow
         IoCManager.InjectDependencies(this);
 
         _audio = IoCManager.Resolve<IEntitySystemManager>().GetEntitySystem<ContentAudioSystem>();
-        // NOTE: subscribing fires the handler immediately with the current track,
-        // so subscribe exactly once here (re-subscribing inside RebuildList recursed infinitely).
         _audio.LobbySoundtrackChanged += OnTrackChanged;
-        OnOpen += RebuildList;
+        OnOpen += BuildUI;
     }
 
     protected override void ExitedTree()
     {
         base.ExitedTree();
-        OnOpen -= RebuildList;
+        OnOpen -= BuildUI;
         if (_audio != null)
             _audio.LobbySoundtrackChanged -= OnTrackChanged;
     }
 
     private void OnTrackChanged(LobbySoundtrackChangedEvent ev)
     {
-        RebuildList();
+        if (!IsOpen)
+            return;
+        BuildUI();
     }
 
-    private void RebuildList()
+    private void BuildUI()
     {
         _buildId++;
-        TrackList.RemoveAllChildren();
-        _rows.Clear();
-        if (_audio?.LobbyPlaylistTracks is not { } playlist)
-            return;
-
-        _pendingTracks = new List<string>(playlist);
+        BuildPlaylists();
+        var tracks = GetPlaylistTracks(_selectedPlaylist);
+        _pendingTracks = new List<string>(tracks);
         PumpQueue(_buildId);
     }
 
-    /// <summary>
-    /// Adds rows a few at a time so opening the queue doesn't hitch the client.
-    /// </summary>
+    private void BuildPlaylists()
+    {
+        PlaylistList.RemoveAllChildren();
+        _playlistChecks.Clear();
+
+        var playlists = _prototypeManager.EnumeratePrototypes<LobbyPlaylistPrototype>()
+            .OrderBy(p => p.ID);
+
+        foreach (var playlist in playlists)
+        {
+            var check = new CheckBox
+            {
+                Text = playlist.Name,
+                Pressed = IsPlaylistEnabled(playlist.ID),
+            };
+            check.OnToggled += args => OnPlaylistToggled(playlist.ID, args.Pressed);
+            PlaylistList.AddChild(check);
+            _playlistChecks[playlist.ID] = check;
+        }
+    }
+
+    private void OnPlaylistToggled(string playlistId, bool pressed)
+    {
+        if (_audio == null)
+            return;
+        if (pressed)
+            _audio.DisabledPlaylists.Remove(playlistId);
+        else
+            _audio.DisabledPlaylists.Add(playlistId);
+
+        _audio.ToggleLobbyPlaylist(playlistId, pressed);
+        BuildUI();
+    }
+
+    private bool IsPlaylistEnabled(string playlistId)
+    {
+        return !_audio?.DisabledPlaylists?.Contains(playlistId) ?? true;
+    }
+
     private void PumpQueue(int id)
     {
         if (id != _buildId || TrackList.Disposed)
@@ -76,14 +111,13 @@ public sealed partial class LobbyMusicQueueWindow : DefaultWindow
             var filename = _pendingTracks[0];
             _pendingTracks.RemoveAt(0);
             var name = TrackDisplayName(filename);
-            var file = filename;
             var button = new Button
             {
                 Text = filename == current ? $"▶ {name}" : name,
                 HorizontalExpand = true,
                 Disabled = filename == current,
             };
-            button.OnPressed += _ => _audio?.PlayLobbyTrack(file);
+            button.OnPressed += _ => _audio?.PlayLobbyTrack(filename);
             TrackList.AddChild(button);
             _rows.Add((button, filename));
         }
@@ -94,13 +128,17 @@ public sealed partial class LobbyMusicQueueWindow : DefaultWindow
         }
     }
 
+    private List<string> GetPlaylistTracks(string playlistId)
+    {
+        if (_prototypeManager.TryIndex<LobbyPlaylistPrototype>(playlistId, out var proto))
+            return proto.Tracks.Select(t => t.ToString()).ToList();
+        return new List<string>();
+    }
+
     private string TrackDisplayName(string filename)
     {
         if (_prototypeManager.TryIndex<LobbyTrackPrototype>(filename, out var proto))
-        {
-            return $"{proto.Title} — {proto.Artist}";
-        }
-
+            return proto.Title;
         return filename;
     }
 }

@@ -18,9 +18,5 @@ public sealed partial class LobbyTrackPrototype : IPrototype
     [DataField]
     public string Title = "Unknown Track";
 
-    /// <summary>
-    /// The artist who made the track.
-    /// </summary>
-    [DataField]
-    public string Artist = "Unknown Artist";
+
 }

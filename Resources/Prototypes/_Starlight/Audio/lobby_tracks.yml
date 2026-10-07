@@ -1,144 +1,115 @@
 - type: lobbyTrack
   id: /Audio/Lobby/thunderdome.ogg
   title: Thunderdome
-  artist: DMG
 
 - type: lobbyTrack
   id: /Audio/Lobby/space_asshole.ogg
   title: Space Asshole
-  artist: Chris Remo
 
 - type: lobbyTrack
   id: /Audio/Lobby/endless_space.ogg
   title: Endless Space
-  artist: Solus
 
 - type: lobbyTrack
   id: /Audio/Lobby/singuloose.ogg
   title: Singuloose
-  artist: Solus
 
 - type: lobbyTrack
   id: /Audio/Lobby/comet_haley.ogg
   title: Comet Haley
-  artist: Solus
 
 - type: lobbyTrack
   id: /Audio/Lobby/title2.ogg
   title: Title 2
-  artist: Solus
 
 - type: lobbyTrack
   id: /Audio/Lobby/title3.ogg
   title: Title 3
-  artist: Solus
 
 - type: lobbyTrack
   id: /Audio/Lobby/mod.flip-flap.ogg
   title: Flip-Flap
-  artist: Mod
 
 - type: lobbyTrack
   id: /Audio/Lobby/Spac_Stac.ogg
   title: Spac Stac
-  artist: Solus
 
 - type: lobbyTrack
   id: /Audio/Lobby/pwmur.ogg
   title: PWMUR
-  artist: Solus
 
 - type: lobbyTrack
   id: /Audio/Lobby/lasers_rip_apart_the_bulkhead.ogg
   title: Lasers Rip Apart the Bulkhead
-  artist: Solus
 
 - type: lobbyTrack
   id: /Audio/Lobby/every_light_is_blinking_at_once.ogg
   title: Every Light is Blinking at Once
-  artist: Solus
 
 - type: lobbyTrack
   id: /Audio/Lobby/atomicamnesiammx.ogg
   title: Atomic Amnesia MMX
-  artist: Solus
 
 - type: lobbyTrack
   id: /Audio/Lobby/skubstep.ogg
   title: Skubstep
-  artist: Solus
 
 - type: lobbyTrack
   id: /Audio/_Starlight/Lobby/cosmonaut.ogg
   title: Cosmonaut
-  artist: Starlight
 
 - type: lobbyTrack
   id: /Audio/_Starlight/Lobby/breacher.ogg
   title: Breacher
-  artist: Starlight
 
 - type: lobbyTrack
   id: /Audio/_Starlight/Lobby/Resistance.ogg
   title: Resistance
-  artist: Starlight
 
 - type: lobbyTrack
   id: /Audio/_Starlight/Lobby/echoes-in-the-deep.ogg
   title: Echoes in the Deep
-  artist: Starlight
 
 - type: lobbyTrack
   id: /Audio/_Starlight/Lobby/timefracture.ogg
   title: Timefracture
-  artist: Starlight
 
 - type: lobbyTrack
   id: /Audio/_Starlight/Lobby/762_treastise.ogg
   title: 762 Treastise
-  artist: Starlight
 
 - type: lobbyTrack
   id: /Audio/_Starlight/Lobby/hull_rupture.ogg
   title: Hull Rupture
-  artist: Starlight
 
 - type: lobbyTrack
   id: /Audio/_Starlight/Lobby/aggravated_assault_by_melcom_.ogg
   title: Aggravated Assault by Melcom
-  artist: Starlight
 
 - type: lobbyTrack
   id: /Audio/_Starlight/Lobby/Unity.ogg
   title: Unity
-  artist: Starlight
 
 - type: lobbyTrack
   id: /Audio/_Starlight/Lobby/Bluespace.ogg
   title: Bluespace
-  artist: Starlight
 
 - type: lobbyTrack
   id: /Audio/_Starlight/Lobby/thestation.ogg
   title: The Station
-  artist: Starlight
 
 - type: lobbyTrack
   id: /Audio/_Starlight/Lobby/RedefiningLines.ogg
   title: Redefining Lines
-  artist: Starlight
 
 - type: lobbyTrack
   id: /Audio/_Starlight/Lobby/HOME_Burn_Chamber_Starlight.ogg
-  title: HOME: Burn Chamber
-  artist: Starlight
+  title: "HOME: Burn Chamber"
 
 - type: lobbyTrack
   id: /Audio/_Starlight/Lobby/stenchOfWhiskey.ogg
   title: Stench of Whiskey
-  artist: Starlight
 
 - type: lobbyTrack
   id: /Audio/_Starlight/Lobby/Null_Scar_Gaze.ogg
   title: Null Scar Gaze
-  artist: Starlight

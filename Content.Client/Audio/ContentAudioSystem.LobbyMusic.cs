@@ -249,6 +249,24 @@ public sealed partial class ContentAudioSystem
     public string? CurrentLobbyTrack => _lobbySoundtrackInfo?.Filename;
 
     /// <summary>
+    /// Playlists disabled by the user (excluded from the playback pool).
+    /// </summary>
+    public HashSet<string> DisabledPlaylists { get; } = new();
+
+    /// <summary>
+    /// Toggle a lobby playlist on/off in the playback pool.
+    /// </summary>
+    public void ToggleLobbyPlaylist(string playlistId, bool enabled)
+    {
+        if (enabled)
+            DisabledPlaylists.Remove(playlistId);
+        else
+            DisabledPlaylists.Add(playlistId);
+
+        RaiseNetworkEvent(new LobbyPlaylistToggleEvent(playlistId, enabled));
+    }
+
+    /// <summary>
     /// Manually switch to a specific lobby track by filename.
     /// </summary>
     public void PlayLobbyTrack(string filename)
