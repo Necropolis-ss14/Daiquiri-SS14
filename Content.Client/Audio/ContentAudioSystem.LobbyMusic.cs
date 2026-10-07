@@ -355,17 +355,22 @@ public sealed partial class ContentAudioSystem
     private void OnLobbySongChanged(LobbyPlaylistChangedEvent playlistChangedEvent)
     {
         var playlist = playlistChangedEvent.Playlist;
-        //playlist is already playing, no need to restart it
-        if (_lobbySoundtrackInfo != null
+        var current = _lobbySoundtrackInfo?.Filename;
+
+        // Restart only if the current track is no longer in the playlist
+        if (current != null
             && _lobbyPlaylist != null
-            && _lobbyPlaylist.SequenceEqual(playlist)
-           )
+            && _lobbyPlaylist.Contains(current)
+            && playlist.Contains(current))
         {
+            _lobbyPlaylist = playlist;
+            LobbyPlaylistChanged?.Invoke();
             return;
         }
 
+        _lobbyPlaylist = playlist;
         EndLobbyMusic();
-        StartLobbyMusic(playlistChangedEvent.Playlist);
+        StartLobbyMusic(playlist);
         LobbyPlaylistChanged?.Invoke();
     }
 

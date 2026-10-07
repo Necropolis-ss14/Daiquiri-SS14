@@ -26,6 +26,7 @@ public sealed partial class ContentAudioSystem : SharedContentAudioSystem
     private string[]? _lobbyPlaylist;
     private readonly HashSet<string> _disabledPlaylists = new();
     private readonly Dictionary<string, HashSet<string>> _runtimeTrackAdditions = new();
+    private readonly Dictionary<string, HashSet<string>> _runtimeTrackRemovals = new();
 
     // STARLIGHT: Flag to indicate if we should use a custom playlist for the next round end
     private bool _useCustomPlaylist;
@@ -69,16 +70,24 @@ public sealed partial class ContentAudioSystem : SharedContentAudioSystem
 
     private void OnTrackMembership(LobbyTrackMembershipEvent ev, EntitySessionEventArgs session)
     {
-        if (!_runtimeTrackAdditions.TryGetValue(ev.PlaylistId, out var set))
-        {
-            set = new HashSet<string>();
-            _runtimeTrackAdditions[ev.PlaylistId] = set;
-        }
-
         if (ev.Add)
+        {
+            if (!_runtimeTrackAdditions.TryGetValue(ev.PlaylistId, out var set))
+            {
+                set = new HashSet<string>();
+                _runtimeTrackAdditions[ev.PlaylistId] = set;
+            }
             set.Add(ev.TrackPath);
+        }
         else
-            set.Remove(ev.TrackPath);
+        {
+            if (!_runtimeTrackRemovals.TryGetValue(ev.PlaylistId, out var set))
+            {
+                set = new HashSet<string>();
+                _runtimeTrackRemovals[ev.PlaylistId] = set;
+            }
+            set.Add(ev.TrackPath);
+        }
 
         _lobbyPlaylist = ShuffleLobbyPlaylist();
         RaiseNetworkEvent(new LobbyPlaylistChangedEvent(_lobbyPlaylist), session.SenderSession);
@@ -168,6 +177,9 @@ public sealed partial class ContentAudioSystem : SharedContentAudioSystem
 
             if (_runtimeTrackAdditions.TryGetValue(playlist.ID, out var extra))
                 enabledTracks.AddRange(extra);
+
+            if (_runtimeTrackRemovals.TryGetValue(playlist.ID, out var removed))
+                enabledTracks.RemoveAll(removed.Contains);
         }
 
         if (enabledTracks.Count == 0)
