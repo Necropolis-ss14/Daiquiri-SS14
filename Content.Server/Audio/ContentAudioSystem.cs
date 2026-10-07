@@ -182,7 +182,7 @@ public sealed partial class ContentAudioSystem : SharedContentAudioSystem
                 enabledTracks.RemoveAll(removed.Contains);
         }
 
-        if (enabledTracks.Count == 0)
+        if (enabledTracks.Count == 0 && _runtimeTrackRemovals.Count == 0 && _runtimeTrackAdditions.Count == 0)
         {
             enabledTracks.AddRange(_lobbyMusicCollection.PickFiles.Select(x => x.ToString()));
         }
