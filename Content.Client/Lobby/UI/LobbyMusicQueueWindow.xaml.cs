@@ -96,7 +96,7 @@ public sealed partial class LobbyMusicQueueWindow : DefaultWindow
 
     private string TrackDisplayName(string filename)
     {
-        if (_prototypeManager.Index<LobbyTrackPrototype>(filename) is { } proto)
+        if (_prototypeManager.TryIndex<LobbyTrackPrototype>(filename, out var proto))
         {
             return $"{proto.Title} — {proto.Artist}";
         }
