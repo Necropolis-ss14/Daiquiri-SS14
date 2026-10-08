@@ -296,6 +296,22 @@ public sealed partial class ContentAudioSystem
     }
 
     /// <summary>
+    /// Play a lobby track even if it is not in the current server pool
+    /// (used when a click auto-adds the track: the pool updates async).
+    /// </summary>
+    public void PlayLobbyTrackForced(string filename)
+    {
+        if (!_configManager.GetCVar(CCVars.LobbyMusicEnabled)
+            || _state.CurrentState is not LobbyState)
+        {
+            return;
+        }
+
+        EndLobbyMusic();
+        PlaySoundtrack(filename);
+    }
+
+    /// <summary>
     /// Manually switch to the next lobby track. Wraps around at the end.
     /// </summary>
     public void PlayNextLobbyTrack()
