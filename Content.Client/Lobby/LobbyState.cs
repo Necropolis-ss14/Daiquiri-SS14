@@ -9,6 +9,7 @@ using Content.Client.Playtime;
 using Content.Client.UserInterface.Systems.Chat;
 using Content.Client.Voting;
 using Content.Shared.CCVar;
+using Content.Shared.GameTicking.Prototypes;
 using Content.Shared._Starlight.CCVar; // Daiquiri glass prompt
 using Robust.Client;
 using Robust.Client.Console;
@@ -43,6 +44,7 @@ namespace Content.Client.Lobby
 
         private ClientGameTicker _gameTicker = default!;
         private ContentAudioSystem _contentAudioSystem = default!;
+        private LobbyMusicQueueWindow? _queueWindow;
 
         protected override Type? LinkedScreenType { get; } = typeof(LobbyGui);
         public LobbyGui? Lobby;
@@ -62,6 +64,7 @@ namespace Content.Client.Lobby
             _gameTicker = _entityManager.System<ClientGameTicker>();
             _contentAudioSystem = _entityManager.System<ContentAudioSystem>();
             _contentAudioSystem.LobbySoundtrackChanged += UpdateLobbySoundtrackInfo;
+            _contentAudioSystem.LobbyPlaylistChanged += RefreshLobbyTrackLabel;
 
             chatController.SetMainChat(true);
 
@@ -176,6 +179,7 @@ namespace Content.Client.Lobby
             _gameTicker.LobbyStatusUpdated -= LobbyStatusUpdated;
             _gameTicker.LobbyLateJoinStatusUpdated -= LobbyLateJoinStatusUpdated;
             _contentAudioSystem.LobbySoundtrackChanged -= UpdateLobbySoundtrackInfo;
+            _contentAudioSystem.LobbyPlaylistChanged -= RefreshLobbyTrackLabel;
             _preferences.OnServerDataLoaded -= OnPrefsLoadedForGlassPrompt;
 
             _voteManager.ClearPopupContainer();
@@ -333,31 +337,60 @@ namespace Content.Client.Lobby
 
             if (ev.SoundtrackFilename == null)
             {
-                Lobby!.LobbySong.SetMarkup(Loc.GetString("lobby-state-song-no-song-text"));
-                Lobby!.MusicSwitcher.TrackLabel.FullText = "—";
+                SetLobbyTrackLabel(null);
             }
             else if (
                 ev.SoundtrackFilename != null
                 && _resourceCache.TryGetResource<AudioResource>(ev.SoundtrackFilename, out var lobbySongResource)
                 )
             {
-                var lobbyStream = lobbySongResource.AudioStream;
+                SetLobbyTrackLabel(ev.SoundtrackFilename);
+            }
+        }
 
-                var title = string.IsNullOrEmpty(lobbyStream.Title)
+        /// <summary>
+        /// Daiquiri: refresh the lobby track label from local state
+        /// (pool changes don't fire LobbySoundtrackChanged).
+        /// </summary>
+        private void RefreshLobbyTrackLabel()
+        {
+            if (Lobby == null)
+                return;
+            var poolEmpty = _contentAudioSystem.LobbyPlaylistTracks == null;
+            SetLobbyTrackLabel(poolEmpty ? null : _contentAudioSystem.CurrentLobbyTrack);
+        }
+
+        private void SetLobbyTrackLabel(string? filename)
+        {
+            if (filename == null)
+            {
+                // Daiquiri: empty queue shows the fallback instead of a track name.
+                Lobby!.LobbySong.SetMarkup(Loc.GetString("lobby-state-song-no-song-text"));
+                Lobby!.MusicSwitcher.TrackLabel.FullText = "Ничего не выбрано";
+                return;
+            }
+
+            if (!_resourceCache.TryGetResource<AudioResource>(filename, out var lobbySongResource))
+                return;
+
+            // Daiquiri: prefer the prototype title, fall back to OGG metadata.
+            var lobbyStream = lobbySongResource.AudioStream;
+            var title = _protoMan.TryIndex<LobbyTrackPrototype>(filename, out var trackProto)
+                ? trackProto.Title
+                : string.IsNullOrEmpty(lobbyStream.Title)
                     ? Loc.GetString("lobby-state-song-unknown-title")
                     : lobbyStream.Title;
 
-                var artist = string.IsNullOrEmpty(lobbyStream.Artist)
-                    ? Loc.GetString("lobby-state-song-unknown-artist")
-                    : lobbyStream.Artist;
+            var artist = string.IsNullOrEmpty(lobbyStream.Artist)
+                ? Loc.GetString("lobby-state-song-unknown-artist")
+                : lobbyStream.Artist;
 
-                var markup = Loc.GetString("lobby-state-song-text",
-                    ("songTitle", title),
-                    ("songArtist", artist));
+            var markup = Loc.GetString("lobby-state-song-text",
+                ("songTitle", title),
+                ("songArtist", artist));
 
-                Lobby!.LobbySong.SetMarkup(markup);
-                Lobby!.MusicSwitcher.TrackLabel.FullText = $"{title} — {artist}";
-            }
+            Lobby!.LobbySong.SetMarkup(markup);
+            Lobby!.MusicSwitcher.TrackLabel.FullText = $"{title} — {artist}";
         }
 
         private void OnMusicPrevPressed(BaseButton.ButtonEventArgs args)
@@ -372,7 +405,17 @@ namespace Content.Client.Lobby
 
         private void OnMusicQueuePressed(BaseButton.ButtonEventArgs args)
         {
-            _userInterfaceManager.CreateWindow<LobbyMusicQueueWindow>().OpenCentered();
+            // Daiquiri: single queue window — reopening closes the old one.
+            if (_queueWindow is { Disposed: false } existing)
+            {
+                if (existing.IsOpen)
+                {
+                    existing.Close();
+                    return;
+                }
+            }
+            _queueWindow = _userInterfaceManager.CreateWindow<LobbyMusicQueueWindow>();
+            _queueWindow.OpenCentered();
         }
 
         private void UpdateLobbyBackground()

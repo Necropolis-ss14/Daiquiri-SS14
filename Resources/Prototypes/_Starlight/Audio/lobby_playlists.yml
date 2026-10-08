@@ -1,6 +1,6 @@
 - type: lobbyPlaylist
   id: Lobby
-  name: Lobby
+  name: Лобби
   tracks:
     - /Audio/Lobby/thunderdome.ogg
     - /Audio/Lobby/space_asshole.ogg
@@ -31,3 +31,12 @@
     - /Audio/_Starlight/Lobby/HOME_Burn_Chamber_Starlight.ogg
     - /Audio/_Starlight/Lobby/stenchOfWhiskey.ogg
     - /Audio/_Starlight/Lobby/Null_Scar_Gaze.ogg
+
+- type: lobbyPlaylist
+  id: Test
+  name: Тест
+  turnon: false
+  tracks:
+    - /Audio/_Starlight/Lobby/test_judos.ogg
+    - /Audio/_Starlight/Lobby/test_ifyouwerehere.ogg
+    - /Audio/_Starlight/Lobby/test_alone.ogg
