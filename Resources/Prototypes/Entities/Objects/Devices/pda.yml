@@ -584,6 +584,23 @@
        pda-library
   - type: PdaBorderColor
     borderColor: "#858585"
+  - type: CartridgeLoader
+    uiKey: enum.PdaUiKey.Key
+    preinstalled:
+      - CrewManifestCartridge
+      - NotekeeperCartridge
+      - BookWriterCartridge
+      - NanoTaskCartridge
+      - NewsReaderCartridge
+      - NanoChatCartridge # CD
+    cartridgeSlot:
+      priority: -1
+      name: device-pda-slot-component-slot-name-cartridge
+      ejectSound: /Audio/Machines/id_swipe.ogg
+      insertSound: /Audio/Machines/id_insert.ogg
+      whitelist:
+        components:
+          - Cartridge
   - type: Icon
     state: pda-library
 
@@ -1021,6 +1038,7 @@
     preinstalled:
       - CrewManifestCartridge
       - NotekeeperCartridge
+      - BookWriterCartridge
       - NanoTaskCartridge
       - NewsReaderCartridge
       - LogProbeCartridge

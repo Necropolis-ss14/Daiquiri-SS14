@@ -118,6 +118,7 @@ internal static class ServerContentIoC
         // 🌟Starlight🌟 end
         // nulllink start
         deps.Register<IActorRouter, ActorRouter>();
+        deps.Register<CartridgeLoader.Cartridges.BookLibraryManager>();
         deps.Register<NullLinkPlayerManager>();
         deps.Register<INullLinkPlayerManager, NullLinkPlayerManager>();
                 deps.Register<INullLinkPlayTimeManager, NullLinkPlayTimeManager>();

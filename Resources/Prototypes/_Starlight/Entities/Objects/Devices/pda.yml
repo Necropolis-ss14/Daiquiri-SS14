@@ -1031,10 +1031,3 @@
       state: pda-salvagemedic
     - type: CartridgeLoader
       uiKey: enum.PdaUiKey.Key
-      preinstalled:
-        - CrewManifestCartridge
-        - NotekeeperCartridge
-        - NewsReaderCartridge
-        - AstroNavCartridge
-        - MedTekCartridge
-        - NanoChatCartridge
