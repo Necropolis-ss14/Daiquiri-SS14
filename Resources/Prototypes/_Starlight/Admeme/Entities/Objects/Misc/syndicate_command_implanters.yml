@@ -1,7 +1,0 @@
-- type: entity
-  id: SyndicateMindShieldImplanter
-  name: ent-SyndicateMindShieldImplanter
-  parent: BaseImplantOnlyImplanterSyndi
-  components:
-    - type: Implanter
-      implant: SyndicateMindShieldImplant
