@@ -24,9 +24,6 @@ public sealed partial class ContentAudioSystem : SharedContentAudioSystem
 
     private SoundCollectionPrototype? _lobbyMusicCollection = default!;
     private string[]? _lobbyPlaylist;
-    private readonly HashSet<string> _disabledPlaylists = new();
-    private readonly Dictionary<string, HashSet<string>> _runtimeTrackAdditions = new();
-    private readonly Dictionary<string, HashSet<string>> _runtimeTrackRemovals = new();
 
     // STARLIGHT: Flag to indicate if we should use a custom playlist for the next round end
     private bool _useCustomPlaylist;
@@ -64,50 +61,6 @@ public sealed partial class ContentAudioSystem : SharedContentAudioSystem
         SubscribeLocalEvent<RoundRestartCleanupEvent>(OnRoundCleanup);
         SubscribeLocalEvent<RoundStartingEvent>(OnRoundStart);
         SubscribeLocalEvent<PrototypesReloadedEventArgs>(OnProtoReload);
-        SubscribeNetworkEvent<LobbyPlaylistToggleEvent>(OnPlaylistToggle);
-        SubscribeNetworkEvent<LobbyTrackMembershipEvent>(OnTrackMembership);
-    }
-
-    private void OnTrackMembership(LobbyTrackMembershipEvent ev, EntitySessionEventArgs session)
-    {
-        if (ev.Add)
-        {
-            if (!_runtimeTrackAdditions.TryGetValue(ev.PlaylistId, out var set))
-            {
-                set = new HashSet<string>();
-                _runtimeTrackAdditions[ev.PlaylistId] = set;
-            }
-            set.Add(ev.TrackPath);
-            // Daiquiri: adding must cancel a previous removal, or the track stays excluded.
-            if (_runtimeTrackRemovals.TryGetValue(ev.PlaylistId, out var removed))
-                removed.Remove(ev.TrackPath);
-        }
-        else
-        {
-            if (!_runtimeTrackRemovals.TryGetValue(ev.PlaylistId, out var set))
-            {
-                set = new HashSet<string>();
-                _runtimeTrackRemovals[ev.PlaylistId] = set;
-            }
-            set.Add(ev.TrackPath);
-            // Daiquiri: removing must cancel a previous addition.
-            if (_runtimeTrackAdditions.TryGetValue(ev.PlaylistId, out var added))
-                added.Remove(ev.TrackPath);
-        }
-
-        _lobbyPlaylist = ShuffleLobbyPlaylist();
-        RaiseNetworkEvent(new LobbyPlaylistChangedEvent(_lobbyPlaylist));
-    }
-
-    private void OnPlaylistToggle(LobbyPlaylistToggleEvent ev, EntitySessionEventArgs session)
-    {
-        if (ev.Enabled)
-            _disabledPlaylists.Remove(ev.PlaylistId);
-        else
-            _disabledPlaylists.Add(ev.PlaylistId);
-
-        _lobbyPlaylist = ShuffleLobbyPlaylist();
-        RaiseNetworkEvent(new LobbyPlaylistChangedEvent(_lobbyPlaylist));
     }
 
     private void OnRoundCleanup(RoundRestartCleanupEvent ev)
@@ -176,19 +129,10 @@ public sealed partial class ContentAudioSystem : SharedContentAudioSystem
         var enabledTracks = new List<string>();
         foreach (var playlist in _prototypeManager.EnumeratePrototypes<LobbyPlaylistPrototype>())
         {
-            if (_disabledPlaylists.Contains(playlist.ID))
-                continue;
-
             enabledTracks.AddRange(playlist.Tracks.Select(x => x.ToString()));
-
-            if (_runtimeTrackAdditions.TryGetValue(playlist.ID, out var extra))
-                enabledTracks.AddRange(extra);
-
-            if (_runtimeTrackRemovals.TryGetValue(playlist.ID, out var removed))
-                enabledTracks.RemoveAll(removed.Contains);
         }
 
-        if (enabledTracks.Count == 0 && _runtimeTrackRemovals.Count == 0 && _runtimeTrackAdditions.Count == 0)
+        if (enabledTracks.Count == 0)
         {
             enabledTracks.AddRange(_lobbyMusicCollection.PickFiles.Select(x => x.ToString()));
         }

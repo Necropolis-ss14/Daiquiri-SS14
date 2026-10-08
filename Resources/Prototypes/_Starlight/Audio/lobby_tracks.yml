@@ -113,3 +113,23 @@
 - type: lobbyTrack
   id: /Audio/_Starlight/Lobby/Null_Scar_Gaze.ogg
   title: Null Scar Gaze
+
+- type: lobbyTrack
+  id: /Audio/_Starlight/Lobby/test_nox_lux.ogg
+  title: NOX LUX
+
+- type: lobbyTrack
+  id: /Audio/_Starlight/Lobby/test_moment_apart.ogg
+  title: A Moment Apart VIP
+
+- type: lobbyTrack
+  id: /Audio/_Starlight/Lobby/test_judos.ogg
+  title: Judos
+
+- type: lobbyTrack
+  id: /Audio/_Starlight/Lobby/test_ifyouwerehere.ogg
+  title: If You Were Here
+
+- type: lobbyTrack
+  id: /Audio/_Starlight/Lobby/test_alone.ogg
+  title: Alone

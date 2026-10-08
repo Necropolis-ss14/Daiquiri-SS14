@@ -25,4 +25,10 @@ public sealed partial class LobbyPlaylistPrototype : IPrototype
     /// </summary>
     [DataField]
     public List<ResPath> Tracks = new();
+
+    /// <summary>
+    /// Daiquiri: whether the playlist is included in the queue by default.
+    /// </summary>
+    [DataField("turnon")]
+    public bool TurnOn = true;
 }
