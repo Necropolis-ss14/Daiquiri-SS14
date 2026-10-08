@@ -39,13 +39,13 @@ public sealed partial class LobbyMusicQueueWindow : DefaultWindow
         _audio = IoCManager.Resolve<IEntitySystemManager>().GetEntitySystem<ContentAudioSystem>();
         _audio.LobbySoundtrackChanged += OnTrackChanged;
         _audio.LobbyPlaylistChanged += OnPlaylistChanged;
-        OnOpen += BuildUI;
+        OnOpen += OnWindowOpen;
     }
 
     protected override void ExitedTree()
     {
         base.ExitedTree();
-        OnOpen -= BuildUI;
+        OnOpen -= OnWindowOpen;
         if (_audio != null)
         {
             _audio.LobbySoundtrackChanged -= OnTrackChanged;
@@ -64,6 +64,13 @@ public sealed partial class LobbyMusicQueueWindow : DefaultWindow
     {
         if (!IsOpen)
             return;
+        BuildUI();
+    }
+
+    private void OnWindowOpen()
+    {
+        // Daiquiri: fresh checkbox state on open; rebuilds must preserve runtime toggles.
+        _removedTracks.Clear();
         BuildUI();
     }
 
@@ -202,7 +209,7 @@ public sealed partial class LobbyMusicQueueWindow : DefaultWindow
             }
         }
 
-        _audio.PlayLobbyTrack(filename);
+        _audio.PlayLobbyTrackForced(filename);
     }
 
     private void OnTrackMembershipToggled(string filename, bool pressed)

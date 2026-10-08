@@ -78,6 +78,9 @@ public sealed partial class ContentAudioSystem : SharedContentAudioSystem
                 _runtimeTrackAdditions[ev.PlaylistId] = set;
             }
             set.Add(ev.TrackPath);
+            // Daiquiri: adding must cancel a previous removal, or the track stays excluded.
+            if (_runtimeTrackRemovals.TryGetValue(ev.PlaylistId, out var removed))
+                removed.Remove(ev.TrackPath);
         }
         else
         {
@@ -87,10 +90,13 @@ public sealed partial class ContentAudioSystem : SharedContentAudioSystem
                 _runtimeTrackRemovals[ev.PlaylistId] = set;
             }
             set.Add(ev.TrackPath);
+            // Daiquiri: removing must cancel a previous addition.
+            if (_runtimeTrackAdditions.TryGetValue(ev.PlaylistId, out var added))
+                added.Remove(ev.TrackPath);
         }
 
         _lobbyPlaylist = ShuffleLobbyPlaylist();
-        RaiseNetworkEvent(new LobbyPlaylistChangedEvent(_lobbyPlaylist), session.SenderSession);
+        RaiseNetworkEvent(new LobbyPlaylistChangedEvent(_lobbyPlaylist));
     }
 
     private void OnPlaylistToggle(LobbyPlaylistToggleEvent ev, EntitySessionEventArgs session)
@@ -101,7 +107,7 @@ public sealed partial class ContentAudioSystem : SharedContentAudioSystem
             _disabledPlaylists.Add(ev.PlaylistId);
 
         _lobbyPlaylist = ShuffleLobbyPlaylist();
-        RaiseNetworkEvent(new LobbyPlaylistChangedEvent(_lobbyPlaylist), session.SenderSession);
+        RaiseNetworkEvent(new LobbyPlaylistChangedEvent(_lobbyPlaylist));
     }
 
     private void OnRoundCleanup(RoundRestartCleanupEvent ev)
