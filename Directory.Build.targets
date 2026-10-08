@@ -21,4 +21,12 @@
     <ErrorLog>$(BaseIntermediateOutputPath)reviewdog.sarif,version=2.1</ErrorLog>
   </PropertyGroup>
 
+  <PropertyGroup>
+    <!-- Daiquiri: SixLabors.ImageSharp 3.1.12 (pinned by RobustToolbox) has known
+      vulnerability GHSA-wmxv-xphr-5c9g, and NuGet fails restore on NU1902.
+      No fixed 3.x exists (only 4.x with breaking API changes), so suppress until
+      upstream bumps the pin. TODO: drop after engine update. -->
+    <NoWarn>$(NoWarn);NU1902</NoWarn>
+  </PropertyGroup>
+
 </Project>
