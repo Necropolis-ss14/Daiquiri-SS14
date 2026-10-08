@@ -1,0 +1,251 @@
+- type: entity
+  parent: BookBase
+  id: BookPrintedArchive
+  name: ent-BookPrinted
+  description: ent-BookPrinted-desc
+  components:
+  - type: Sprite
+    sprite: Objects/Misc/books.rsi
+    layers:
+    - state: paper
+    - state: cover_base
+      color: "#1134A6"
+      map: [ "cover" ]
+    - state: decor_spine
+      color: "#e8dcc0"
+      map: [ "decor" ]
+    - state: book_icon
+      map: [ "icon" ]
+    - state: overlay_null
+      map: [ "overlay" ]
+
+- type: entity
+  parent: BookBase
+  id: BookPrintedScarlet
+  name: ent-BookPrinted
+  description: ent-BookPrinted-desc
+  components:
+  - type: Sprite
+    sprite: Objects/Misc/books.rsi
+    layers:
+    - state: paper
+    - state: cover_base
+      color: "#A61111"
+      map: [ "cover" ]
+    - state: decor_diagonal
+      color: "#e8dcc0"
+      map: [ "decor" ]
+    - state: icon_eye
+      map: [ "icon" ]
+    - state: overlay_null
+      map: [ "overlay" ]
+
+- type: entity
+  parent: BookBase
+  id: BookPrintedHerbal
+  name: ent-BookPrinted
+  description: ent-BookPrinted-desc
+  components:
+  - type: Sprite
+    sprite: Objects/Misc/books.rsi
+    layers:
+    - state: paper
+    - state: cover_base
+      color: "#117A11"
+      map: [ "cover" ]
+    - state: decor_bottom
+      color: "#e8dcc0"
+      map: [ "decor" ]
+    - state: icon_tree
+      map: [ "icon" ]
+    - state: overlay_null
+      map: [ "overlay" ]
+
+- type: entity
+  parent: BookBase
+  id: BookPrintedGrimoire
+  name: ent-BookPrinted
+  description: ent-BookPrinted-desc
+  components:
+  - type: Sprite
+    sprite: Objects/Misc/books.rsi
+    layers:
+    - state: paper
+    - state: cover_base
+      color: "#6A117A"
+      map: [ "cover" ]
+    - state: decor_middle
+      color: "#e8dcc0"
+      map: [ "decor" ]
+    - state: icon_magic
+      map: [ "icon" ]
+    - state: overlay_null
+      map: [ "overlay" ]
+
+- type: entity
+  parent: BookBase
+  id: BookPrintedCodex
+  name: ent-BookPrinted
+  description: ent-BookPrinted-desc
+  components:
+  - type: Sprite
+    sprite: Objects/Misc/books.rsi
+    layers:
+    - state: paper
+    - state: cover_base
+      color: "#222222"
+      map: [ "cover" ]
+    - state: decor_vertical_middle
+      color: "#e8dcc0"
+      map: [ "decor" ]
+    - state: icon_law
+      map: [ "icon" ]
+    - state: overlay_null
+      map: [ "overlay" ]
+
+- type: entity
+  parent: BookBase
+  id: BookPrintedFolio
+  name: ent-BookPrinted
+  description: ent-BookPrinted-desc
+  components:
+  - type: Sprite
+    sprite: Objects/Misc/books.rsi
+    layers:
+    - state: paper
+    - state: cover_base
+      color: "#d4af37"
+      map: [ "cover" ]
+    - state: decor_spine
+      color: "#e8dcc0"
+      map: [ "decor" ]
+    - state: icon_temple
+      map: [ "icon" ]
+    - state: overlay_null
+      map: [ "overlay" ]
+
+- type: entity
+  parent: BookBase
+  id: BookPrintedBestiary
+  name: ent-BookPrinted
+  description: ent-BookPrinted-desc
+  components:
+  - type: Sprite
+    sprite: Objects/Misc/books.rsi
+    layers:
+    - state: paper
+    - state: cover_base
+      color: "#3a5b2f"
+      map: [ "cover" ]
+    - state: decor_wingette
+      color: "#e8dcc0"
+      map: [ "decor" ]
+    - state: icon_possum
+      map: [ "icon" ]
+    - state: overlay_null
+      map: [ "overlay" ]
+
+- type: entity
+  parent: BookBase
+  id: BookPrintedAtlas
+  name: ent-BookPrinted
+  description: ent-BookPrinted-desc
+  components:
+  - type: Sprite
+    sprite: Objects/Misc/books.rsi
+    layers:
+    - state: paper
+    - state: cover_base
+      color: "#1a4a6b"
+      map: [ "cover" ]
+    - state: decor_wingette_flat
+      color: "#e8dcc0"
+      map: [ "decor" ]
+    - state: icon_planet
+      map: [ "icon" ]
+    - state: overlay_null
+      map: [ "overlay" ]
+
+- type: entity
+  parent: BookBase
+  id: BookPrintedChronicle
+  name: ent-BookPrinted
+  description: ent-BookPrinted-desc
+  components:
+  - type: Sprite
+    sprite: Objects/Misc/books.rsi
+    layers:
+    - state: paper
+    - state: cover_base
+      color: "#7a2f1a"
+      map: [ "cover" ]
+    - state: decor_wingette_circle
+      color: "#e8dcc0"
+      map: [ "decor" ]
+    - state: icon_time
+      map: [ "icon" ]
+    - state: overlay_null
+      map: [ "overlay" ]
+
+- type: entity
+  parent: BookBase
+  id: BookPrintedSongs
+  name: ent-BookPrinted
+  description: ent-BookPrinted-desc
+  components:
+  - type: Sprite
+    sprite: Objects/Misc/books.rsi
+    layers:
+    - state: paper
+    - state: cover_base
+      color: "#704010"
+      map: [ "cover" ]
+    - state: decor_bottom
+      color: "#e8dcc0"
+      map: [ "decor" ]
+    - state: icon_text
+      map: [ "icon" ]
+    - state: overlay_null
+      map: [ "overlay" ]
+
+- type: entity
+  parent: BookBase
+  id: BookPrintedNecro
+  name: ent-BookPrinted
+  description: ent-BookPrinted-desc
+  components:
+  - type: Sprite
+    sprite: Objects/Misc/books.rsi
+    layers:
+    - state: paper
+    - state: cover_base
+      color: "#3d2b1f"
+      map: [ "cover" ]
+    - state: decor_middle
+      color: "#e8dcc0"
+      map: [ "decor" ]
+    - state: icon_skull
+      map: [ "icon" ]
+    - state: overlay_null
+      map: [ "overlay" ]
+
+- type: entity
+  parent: BookBase
+  id: BookPrintedAlmanac
+  name: ent-BookPrinted
+  description: ent-BookPrinted-desc
+  components:
+  - type: Sprite
+    sprite: Objects/Misc/books.rsi
+    layers:
+    - state: paper
+    - state: cover_base
+      color: "#1f5b6b"
+      map: [ "cover" ]
+    - state: decor_diagonal
+      color: "#e8dcc0"
+      map: [ "decor" ]
+    - state: icon_stars
+      map: [ "icon" ]
+    - state: overlay_null
+      map: [ "overlay" ]

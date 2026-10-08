@@ -179,3 +179,20 @@
     - type: AstroNavCartridge
     - type: StealTarget # Starlight
       stealGroup: AstroNavCartridge # Starlight
+
+- type: entity
+  parent: BasePDACartridge
+  id: BookWriterCartridge
+  name: ent-BookWriterCartridge
+  description: ent-BookWriterCartridge-desc
+  components:
+    - type: Sprite
+      state: cart-lib
+    - type: UIFragment
+      ui: !type:BookWriterUi
+    - type: Cartridge
+      programName: book-writer-program-name
+      icon:
+        sprite: Objects/Misc/books.rsi
+        state: book_icon
+    - type: BookWriterCartridge

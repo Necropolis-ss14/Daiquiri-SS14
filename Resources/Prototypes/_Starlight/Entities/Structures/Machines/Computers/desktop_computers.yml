@@ -405,6 +405,7 @@
     preinstalled:
       - CrewManifestCartridge
       - NotekeeperCartridge
+      - BookWriterCartridge
       - NanoTaskCartridge
       - NewsReaderCartridge
     cartridgeSlot:
