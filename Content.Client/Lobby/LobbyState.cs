@@ -17,6 +17,7 @@ using Robust.Client.ResourceManagement;
 using Robust.Client.UserInterface;
 using Robust.Client.UserInterface.Controls;
 using Robust.Shared.Configuration;
+using Robust.Shared.Player;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Timing;
 
@@ -41,10 +42,12 @@ namespace Content.Client.Lobby
         [Dependency] private ClientsidePlaytimeTrackingManager _playtimeTracking = default!;
         [Dependency] private IClientPreferencesManager _preferences = default!; //Starlight
         [Dependency] private IPrototypeManager _protoMan = default!;
+        [Dependency] private ISharedPlayerManager _playerManager = default!;
 
         private ClientGameTicker _gameTicker = default!;
         private ContentAudioSystem _contentAudioSystem = default!;
         private LobbyMusicQueueWindow? _queueWindow;
+        private bool _cardSpriteInit;
 
         protected override Type? LinkedScreenType { get; } = typeof(LobbyGui);
         public LobbyGui? Lobby;
@@ -83,7 +86,7 @@ namespace Content.Client.Lobby
 
             UpdateLobbyUi();
 
-            Lobby.CharacterPreview.CharacterSetupButton.OnPressed += OnSetupPressed;
+            Lobby.CharacterSetupButton.OnPressed += OnSetupPressed;
             Lobby.MusicSwitcher.PrevButton.OnPressed += OnMusicPrevPressed;
             Lobby.MusicSwitcher.NextButton.OnPressed += OnMusicNextPressed;
             Lobby.MusicSwitcher.QueueButton.OnPressed += OnMusicQueuePressed;
@@ -97,6 +100,8 @@ namespace Content.Client.Lobby
             _gameTicker.LobbyLateJoinStatusUpdated += LobbyLateJoinStatusUpdated;
 
             _userInterfaceManager.GetUIController<LobbyUIController>().OnAnyCharacterOrJobChange += UpdateReadyAllowed;
+            _userInterfaceManager.GetUIController<LobbyUIController>().OnAnyCharacterOrJobChange += UpdateCharacterCard;
+            UpdateCharacterCard();
 
             // Daiquiri: first-run liquid glass prompt with live preview.
             // Shown only to newcomers (no characters yet), veterans are marked silently.
@@ -184,7 +189,7 @@ namespace Content.Client.Lobby
 
             _voteManager.ClearPopupContainer();
 
-            Lobby!.CharacterPreview.CharacterSetupButton.OnPressed -= OnSetupPressed;
+            Lobby!.CharacterSetupButton.OnPressed -= OnSetupPressed;
             Lobby!.MusicSwitcher.PrevButton.OnPressed -= OnMusicPrevPressed;
             Lobby!.MusicSwitcher.NextButton.OnPressed -= OnMusicNextPressed;
             Lobby!.MusicSwitcher.QueueButton.OnPressed -= OnMusicQueuePressed;
@@ -324,6 +329,35 @@ namespace Content.Client.Lobby
             }
             else
                 Lobby!.PlaytimeComment.Visible = false;
+        }
+
+        private void UpdateCharacterCard()
+        {
+            if (Lobby?.CharacterSprite == null || Lobby?.CharacterName == null)
+                return;
+
+            // Daiquiri: follow the slot picked in Personalization, fall back to the first one.
+            var characters = _preferences.Preferences?.Characters;
+            var slot = _userInterfaceManager.GetUIController<LobbyUIController>().SelectedCardSlot;
+            var profile = slot.HasValue && characters != null && characters.TryGetValue(slot.Value, out var selected)
+                ? selected
+                : characters?.OrderBy(kv => kv.Key).Select(kv => kv.Value).FirstOrDefault();
+
+            if (profile == null)
+            {
+                Lobby.CharacterName.Text = Loc.GetString("lobby-character-preview-panel-unloaded-preferences-label");
+                Lobby.CharacterAge.Text = string.Empty;
+                return;
+            }
+
+            if (!_cardSpriteInit)
+            {
+                Lobby.CharacterSprite.Initialize(_preferences, _protoMan, _playerManager);
+                _cardSpriteInit = true;
+            }
+            Lobby.CharacterSprite.LoadPreview(profile);
+            Lobby.CharacterName.Text = Loc.GetString("lobby-character-card-name", ("name", profile.Name));
+            Lobby.CharacterAge.Text = Loc.GetString("lobby-character-card-age", ("age", profile.Age), ("gender", profile.Gender.ToString().ToLowerInvariant()));
         }
 
         private void UpdateLobbySoundtrackInfo(LobbySoundtrackChangedEvent ev)

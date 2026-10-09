@@ -59,6 +59,12 @@ public sealed partial class LobbyUIController : UIController, IOnStateEntered<Lo
     public event Action? OnAnyCharacterOrJobChange;
 
     /// <summary>
+    /// Daiquiri: slot picked in Personalization (null = none picked yet).
+    /// The lobby character card follows it.
+    /// </summary>
+    public int? SelectedCardSlot => _characterSetup?.SelectedCharacterSlot;
+
+    /// <summary>
     /// This is the characher preview panel in the chat. This should only update if their character updates.
     /// </summary>
     private LobbyCharacterPreviewPanel? PreviewPanel => GetLobbyPreview();
@@ -425,6 +431,8 @@ public sealed partial class LobbyUIController : UIController, IOnStateEntered<Lo
             _profileEditor.SetProfile(args);
             if (_characterSetup != null)
                 _characterSetup.SelectedCharacterSlot = args;
+            // Daiquiri: refresh the lobby card (and ready state) on character switch.
+            OnAnyCharacterOrJobChange?.Invoke();
             ReloadCharacterSetup();
         };
 

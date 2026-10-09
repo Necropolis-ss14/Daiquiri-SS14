@@ -271,6 +271,12 @@ public sealed partial class ContentAudioSystem
     private readonly HashSet<string> _touchedPlaylists = new();
 
     /// <summary>
+    /// Daiquiri: tracks the player explicitly added (e.g. from a turnon=false
+    /// playlist). Appended to the local pool; never sent to server.
+    /// </summary>
+    private readonly List<string> _localAddedTracks = new();
+
+    /// <summary>
     /// Daiquiri: persisted local queue order. Null = follow server order.
     /// </summary>
     private List<string>? _localOrder;
@@ -324,6 +330,12 @@ public sealed partial class ContentAudioSystem
         {
             _touchedPlaylists.Add(playlist);
         }
+        foreach (var track in _configManager.GetCVar(StarlightCCVars.LobbyQueueAdded)
+                     .Split(';', StringSplitOptions.RemoveEmptyEntries))
+        {
+            if (!_localAddedTracks.Contains(track))
+                _localAddedTracks.Add(track);
+        }
         var savedOrder = _configManager.GetCVar(StarlightCCVars.LobbyQueueOrder)
             .Split(';', StringSplitOptions.RemoveEmptyEntries).ToList();
         if (savedOrder.Count > 0)
@@ -337,6 +349,7 @@ public sealed partial class ContentAudioSystem
             .Concat(_localRemovedGlobal.Select(t => $"*|{t}")));
         _configManager.SetCVar(StarlightCCVars.LobbyQueueRemoved, removed);
         _configManager.SetCVar(StarlightCCVars.LobbyQueueTouched, string.Join(';', _touchedPlaylists));
+        _configManager.SetCVar(StarlightCCVars.LobbyQueueAdded, string.Join(';', _localAddedTracks));
         _configManager.SetCVar(StarlightCCVars.LobbyQueueOrder, string.Join(';', _localOrder ?? new List<string>()));
         // Daiquiri: flush ARCHIVE cvars to disk now — the client is often killed, not closed.
         _configManager.SaveToFile();
@@ -352,6 +365,10 @@ public sealed partial class ContentAudioSystem
         {
             if (_localRemovedTracks.TryGetValue(playlistId, out var set))
                 set.Remove(trackPath);
+            // Daiquiri: remember explicitly added tracks outside the server pool.
+            if ((_lobbyPlaylist == null || !_lobbyPlaylist.Contains(trackPath))
+                && !_localAddedTracks.Contains(trackPath))
+                _localAddedTracks.Add(trackPath);
         }
         else
         {
@@ -361,6 +378,7 @@ public sealed partial class ContentAudioSystem
                 _localRemovedTracks[playlistId] = set;
             }
             set.Add(trackPath);
+            _localAddedTracks.Remove(trackPath);
         }
         _touchedPlaylists.Add(playlistId);
         ReconcileOrder();
@@ -374,6 +392,7 @@ public sealed partial class ContentAudioSystem
     public void ClearQueue()
     {
         EnsureQueueState();
+        _localAddedTracks.Clear();
         if (_lobbyPlaylist == null)
             return;
         foreach (var track in _lobbyPlaylist)
@@ -432,13 +451,26 @@ public sealed partial class ContentAudioSystem
         if (include)
         {
             _localRemovedTracks.Remove(playlistId);
+            // Daiquiri: turnon=false tracks live outside the server pool,
+            // so selecting them all must re-add them explicitly (same as a single checkbox).
+            if (_proto.TryIndex<LobbyPlaylistPrototype>(playlistId, out var proto))
+            {
+                foreach (var t in proto.Tracks.Select(t => t.ToString()))
+                {
+                    if ((_lobbyPlaylist == null || !_lobbyPlaylist.Contains(t))
+                        && !_localAddedTracks.Contains(t))
+                        _localAddedTracks.Add(t);
+                }
+            }
         }
         else
         {
             if (!_proto.TryIndex<LobbyPlaylistPrototype>(playlistId, out var proto))
                 return;
-            _localRemovedTracks[playlistId] =
-                new HashSet<string>(proto.Tracks.Select(t => t.ToString()));
+            var tracks = proto.Tracks.Select(t => t.ToString()).ToList();
+            _localRemovedTracks[playlistId] = new HashSet<string>(tracks);
+            foreach (var t in tracks)
+                _localAddedTracks.Remove(t);
         }
         _touchedPlaylists.Add(playlistId);
         ReconcileOrder();
@@ -476,20 +508,36 @@ public sealed partial class ContentAudioSystem
     private string[] LocalPool()
     {
         EnsureQueueState();
-        if (_lobbyPlaylist is not { Length: > 0 })
+        if (_lobbyPlaylist is not { Length: > 0 } && _localAddedTracks.Count == 0)
             return [];
+        var server = _lobbyPlaylist ?? [];
+        List<string> ordered;
         if (_localOrder != null)
         {
-            var ordered = _localOrder
-                .Where(t => _lobbyPlaylist.Contains(t) && !IsLocallyExcluded(t))
-                .ToArray();
-            if (ordered.Length > 0)
-                return ordered;
-            // Daiquiri: stale-empty order (e.g. re-added tracks) falls back to live pool.
+            ordered = _localOrder
+                .Where(t => server.Contains(t) && !IsLocallyExcluded(t))
+                .ToList();
+            if (ordered.Count == 0)
+            {
+                var live = server.Where(t => !IsLocallyExcluded(t)).ToList();
+                if (live.Count > 0)
+                {
+                    _localOrder = null;
+                    ordered = live;
+                }
+            }
         }
-        if (_localRemovedTracks.Count == 0 && _localRemovedGlobal.Count == 0)
-            return _lobbyPlaylist;
-        return _lobbyPlaylist.Where(t => !IsLocallyExcluded(t)).ToArray();
+        else
+        {
+            ordered = server.Where(t => !IsLocallyExcluded(t)).ToList();
+        }
+        // Daiquiri: explicitly added tracks (e.g. from turnon=false playlists).
+        foreach (var t in _localAddedTracks)
+        {
+            if (!ordered.Contains(t) && !IsLocallyExcluded(t))
+                ordered.Add(t);
+        }
+        return ordered.ToArray();
     }
 
     private bool IsLocallyExcluded(string track)

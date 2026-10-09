@@ -10,7 +10,7 @@
 
         <!-- Header and the checkbox for locking/unlocking priority icons -->
         <BoxContainer>
-            <controls:NanoHeading Name="Header" Text="{Loc 'lobby-character-preview-panel-header'}" />
+            <controls:NanoHeading Name="Header" Text="{Loc 'lobby-character-preview-panel-jobs-header'}" />
             <CheckBox Name="PriorityLock" Text="{Loc 'ui-lobby-lock-priorities-checkbox-label'}"
                       HorizontalExpand="True" HorizontalAlignment="Right" VerticalAlignment="Center"
                       ToolTip="{Loc 'ui-lobby-lock-priorities-checkbox-tooltip'}"/>
@@ -67,11 +67,6 @@
             </BoxContainer> <!-- End job grids -->
 
             <controls:VSpacer/>
-
-            <!-- Character setup button -->
-            <Button Name="CharacterSetup" Text="{Loc 'lobby-character-preview-panel-character-setup-button'}"
-                    HorizontalAlignment="Center"
-                    Margin="0 5 0 0"/>
         </BoxContainer>
         <Label Name="Unloaded" Text="{Loc 'lobby-character-preview-panel-unloaded-preferences-label'}"/>
     </BoxContainer>

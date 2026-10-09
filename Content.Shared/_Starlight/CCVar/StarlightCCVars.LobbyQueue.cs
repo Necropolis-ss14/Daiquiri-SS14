@@ -21,4 +21,9 @@ public sealed partial class StarlightCCVars
     /// </summary>
     public static readonly CVarDef<string> LobbyQueueOrder =
         CVarDef.Create("lobby.queue_order", "", CVar.CLIENTONLY | CVar.ARCHIVE);
+    /// <summary>
+    /// Daiquiri: locally added tracks (e.g. from turnon=false playlists), ";"-separated. Local only.
+    /// </summary>
+    public static readonly CVarDef<string> LobbyQueueAdded =
+        CVarDef.Create("lobby.queue_added", "", CVar.CLIENTONLY | CVar.ARCHIVE);
 }

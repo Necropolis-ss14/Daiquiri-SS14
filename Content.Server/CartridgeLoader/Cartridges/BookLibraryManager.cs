@@ -38,6 +38,9 @@ public sealed partial class BookLibraryManager
     public static readonly HashSet<string> AllowedGenres = new()
     {
         "other", "scifi", "horror", "detective", "romance", "guide", "history", "poetry",
+        "manga", "comics", "hentai", "erotica", "fantasy", "thriller", "mystery", "adventure",
+        "drama", "comedy", "tragedy", "fable", "fairytale", "legend", "myth",
+        "biography", "autobiography", "diary", "textbook", "science", "fanfic",
     };
 
     public static readonly HashSet<string> AllowedCoverIcons = new()

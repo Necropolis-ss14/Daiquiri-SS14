@@ -47,7 +47,9 @@ public sealed partial class BookWriterCartridgeSystem : EntitySystem
             return;
 
         if (!_players.TryGetSessionByEntity(args.Actor, out var session))
+        {
             return;
+        }
 
         // Daiquiri: drafts bind to the player account name, not the character.
         var viewerKey = session.Name;

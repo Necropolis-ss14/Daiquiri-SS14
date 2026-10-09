@@ -8,6 +8,7 @@
     xmlns:style="clr-namespace:Content.Client.Stylesheets"
     xmlns:lobbyUi="clr-namespace:Content.Client.Lobby.UI"
     xmlns:info="clr-namespace:Content.Client.Info"
+    xmlns:profile="clr-namespace:Content.Client.Lobby.UI.ProfileEditorControls"
     xmlns:widgets="clr-namespace:Content.Client.UserInterface.Systems.Chat.Widgets">
     <!-- Background -->
     <TextureRect Access="Public" VerticalExpand="True" HorizontalExpand="True" Name="Background"
@@ -57,7 +58,7 @@
                     <!-- Left Bot Panel -->
                     <BoxContainer Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Bottom" MaxWidth="600">
                         <lobbyUi:LobbyMusicSwitcher Name="MusicSwitcher" Access="Public" /> <!-- Daiquiri: music switcher instead of servers hub -->
-                        <PanelContainer StyleClasses="BackgroundPanel" Margin="3 3 3 3">
+                        <PanelContainer Name="SongPanel" Access="Public" StyleClasses="BackgroundPanel" Margin="3 3 3 3">
                             <BoxContainer Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="3 3 3 3">
                                 <RichTextLabel Name="LobbySong" Access="Public" HorizontalAlignment="Left" />
                                 <RichTextLabel Name="LobbyBackground" Access="Public" HorizontalAlignment="Left" />
@@ -72,45 +73,77 @@
                 <Control Access="Public" Visible="False" Name="CharacterSetupState" VerticalExpand="True" />
             </BoxContainer>
             <!-- Right Panel -->
-            <PanelContainer Name="RightSide" Access="Public" StyleClasses="BackgroundPanel" HorizontalAlignment="Right" VerticalExpand="True"
+            <PanelContainer Name="RightSide" Access="Public" HorizontalAlignment="Right" VerticalExpand="True"
                             VerticalAlignment="Stretch">
-                <BoxContainer Orientation="Vertical" HorizontalExpand="True">
+                <BoxContainer Orientation="Vertical" HorizontalExpand="True" SeparationOverride="4">
                     <!-- Top row -->
                     <!--<BoxContainer Orientation="Horizontal" MinSize="0 40" Name="HeaderContainer" Access="Public"
-                                  SeparationOverride="4">
-                         <Label Margin="8 0 0 0" StyleClasses="LabelHeadingBigger" VAlign="Center"
+                                   SeparationOverride="4">
+                        <Label Margin="8 0 0 0" StyleClasses="LabelHeadingBigger" VAlign="Center"
                                Text="{Loc 'ui-lobby-title'}" />
                         <Label Name="ServerName" Access="Public" StyleClasses="LabelHeadingBigger" VAlign="Center"
                                HorizontalExpand="True" HorizontalAlignment="Center" />
                     </BoxContainer> STARLIGHT-->
                     <!-- Gold line
                     <controls:HLine StyleClasses="highlight" Thickness="2" /> STARLIGHT-->
-                    <controls:HSpacer Spacing="10" />
-                    <!-- Voting & misc button bar -->
-                    <BoxContainer Orientation="Horizontal" MinSize="0 40" HorizontalAlignment="Right">
-                        <Button Name="AHelpButton" Access="Public" Text="{Loc 'ui-lobby-ahelp-button'}"
-                                StyleClasses="ButtonBig" />
-                        <vote:VoteCallMenuButton Name="CallVoteButton" StyleClasses="ButtonBig" />
-                        <Button Name="OptionsButton" Access="Public" StyleClasses="ButtonBig"
-                                Text="{Loc 'ui-lobby-options-button'}" />
-                        <Button Name="LeaveButton" Access="Public" StyleClasses="ButtonBig"
-                                Text="{Loc 'ui-lobby-leave-button'}" />
+                    <!-- Daiquiri: 4 separate background cards -->
+                    <PanelContainer Name="ButtonsCard" Access="Public" StyleClasses="BackgroundPanel" HorizontalAlignment="Right">
+                        <BoxContainer Orientation="Horizontal" MinSize="0 40" HorizontalAlignment="Right" Margin="4">
+                            <Button Name="AHelpButton" Access="Public" Text="{Loc 'ui-lobby-ahelp-button'}"
+                                    StyleClasses="ButtonBig" />
+                            <vote:VoteCallMenuButton Name="CallVoteButton" StyleClasses="ButtonBig" />
+                            <Button Name="OptionsButton" Access="Public" StyleClasses="ButtonBig"
+                                    Text="{Loc 'ui-lobby-options-button'}" />
+                            <Button Name="LeaveButton" Access="Public" StyleClasses="ButtonBig"
+                                    Text="{Loc 'ui-lobby-leave-button'}" />
+                        </BoxContainer>
+                    </PanelContainer>
+                    <!-- Daiquiri: character card + server info side by side -->
+                    <BoxContainer Name="CharacterRow" Access="Public" Orientation="Horizontal" HorizontalExpand="True" HorizontalAlignment="Stretch" SeparationOverride="4">
+                        <PanelContainer Name="CharacterCard" Access="Public" StyleClasses="BackgroundPanel" HorizontalExpand="True">
+                            <BoxContainer Orientation="Vertical" Margin="4" SeparationOverride="4">
+                                <controls:NanoHeading Text="{Loc 'lobby-character-preview-panel-header'}" />
+                                <!-- Daiquiri: own background for the name/age, never faded -->
+                                <PanelContainer Name="CharacterTextCard" Access="Public" StyleClasses="BackgroundPanel" HorizontalAlignment="Center">
+                                    <BoxContainer Orientation="Vertical" Margin="4" SeparationOverride="2">
+                                        <Label Name="CharacterName" Access="Public"
+                                               HorizontalExpand="True" HorizontalAlignment="Center"
+                                               FontColorOverride="{x:Static maths:Color.White}" />
+                                        <Label Name="CharacterAge" Access="Public"
+                                               HorizontalExpand="True" HorizontalAlignment="Center"
+                                               FontColorOverride="{x:Static maths:Color.White}" />
+                                    </BoxContainer>
+                                </PanelContainer>
+                                <profile:ProfilePreviewSpriteView Name="CharacterSprite" Access="Public"
+                                    MinSize="160 190" Scale="4 4" HorizontalAlignment="Center" />
+                                <Button Name="CharacterSetupButton" Access="Public"
+                                         Text="{Loc 'lobby-character-preview-panel-character-setup-button'}"
+                                         HorizontalAlignment="Center" Margin="0 -6 0 0" />
+                            </BoxContainer>
+                        </PanelContainer>
+                        <!-- Server info -->
+                        <PanelContainer Name="ServerInfoCard" Access="Public" StyleClasses="BackgroundPanel">
+                            <BoxContainer Orientation="Vertical" Margin="4">
+                            <controls:NanoHeading Text="{Loc 'ui-lobby-server-info-block'}" />
+                            <info:ServerInfo Name="ServerInfo" Access="Public" MinSize="0 30" VerticalExpand="false"
+                                             Margin="3 3 3 3" MaxWidth="400" HorizontalAlignment="Left" />
+                            <Label Name="StationTime" Access="Public" FontColorOverride="{x:Static maths:Color.LightGray}"
+                                   Margin="3 3 3 3" HorizontalAlignment="Left" />
+                        </BoxContainer>
+                    </PanelContainer>
                     </BoxContainer>
-                    <controls:HSpacer Spacing="10" />
-                    <!-- Server info -->
-                    <controls:NanoHeading Text="{Loc 'ui-lobby-server-info-block'}" />
-                    <info:ServerInfo Name="ServerInfo" Access="Public" MinSize="0 30" VerticalExpand="false"
-                                     Margin="3 3 3 3" MaxWidth="400" HorizontalAlignment="Left" />
-                    <Label Name="StationTime" Access="Public" FontColorOverride="{x:Static maths:Color.LightGray}"
-                           Margin="3 3 3 3" HorizontalAlignment="Left" />
-                    <controls:HSpacer Spacing="5" />
-                    <lobbyUi:LobbyCharacterPreviewPanel Name="CharacterPreview" Access="Public" />
-                    <controls:HSpacer Spacing="5" />
-                    <BoxContainer MinHeight="10" />
-                    <!-- Gold line -->
-                    <controls:HLine StyleClasses="highlight" Thickness="2" Access="Public" />
-                    <controls:HSpacer Spacing="10" />
-                    <widgets:ChatBox Name="Chat" Access="Public" VerticalExpand="True" Margin="3 3 3 3" MinHeight="50" />
+                    <PanelContainer Name="JobsCard" Access="Public" StyleClasses="BackgroundPanel">
+                        <lobbyUi:LobbyCharacterPreviewPanel Name="CharacterPreview" Access="Public" Margin="4" />
+                    </PanelContainer>
+                    <PanelContainer Name="ChatCard" Access="Public" StyleClasses="BackgroundPanel"
+                                    VerticalExpand="True">
+                        <BoxContainer Orientation="Vertical" HorizontalExpand="True" VerticalExpand="True" Margin="4">
+                            <!-- Gold line -->
+                            <controls:HLine StyleClasses="highlight" Thickness="2" Access="Public" />
+                            <controls:HSpacer Spacing="10" />
+                            <widgets:ChatBox Name="Chat" Access="Public" VerticalExpand="True" Margin="3 3 3 3" MinHeight="50" />
+                        </BoxContainer>
+                    </PanelContainer>
                 </BoxContainer>
                 <TextureButton Name="CollapseButton"
                                 TexturePath="filled_right_arrow.svg.192dpi"

@@ -34,11 +34,6 @@ public sealed partial class LobbyCharacterPreviewPanel : Control
     private SpriteSystem _sprite = default!;
 
     /// <summary>
-    /// <see cref="LobbyState"/> needs to register events on this button, so provide a property to access it publicly.
-    /// </summary>
-    public Button CharacterSetupButton => CharacterSetup;
-
-    /// <summary>
     /// Action invoked when the player's job priorities have been updated.
     /// </summary>
     public event Action? PrioritiesUpdated;
