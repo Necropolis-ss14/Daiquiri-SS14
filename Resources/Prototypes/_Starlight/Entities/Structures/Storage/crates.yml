@@ -55,7 +55,7 @@
   - type: Sprite
     sprite: _Starlight/Structures/Storage/Crates/salvagecontra_secure.rsi
   - type: AccessReader
-    access: [["Security"], ["Salvage"]]
+    access: [["Salvage"]]
 
 - type: entity
   parent: CrateBaseSecure

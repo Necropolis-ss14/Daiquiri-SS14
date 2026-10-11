@@ -207,6 +207,10 @@
   id: FoodSherbetIceCream
   description: ent-FoodSherbetIceCream-desc
   components:
+  - type: Tag
+    tags:
+    - IceCream
+    - Citrus
   - type: FlavorProfile
     flavors:
     - sherbetIceCream
@@ -256,6 +260,10 @@
   id: FoodOrangeSwirlIceCream
   description: ent-FoodOrangeSwirlIceCream-desc
   components:
+  - type: Tag
+    tags:
+    - IceCream
+    - Citrus
   - type: FlavorProfile
     flavors:
     - orangeSwirlIceCream
@@ -586,6 +594,10 @@
   id: FoodWehIceCream
   description: ent-FoodWehIceCream-desc
   components:
+  - type: Tag
+    tags:
+    - IceCream
+    - Citrus
   - type: FlavorProfile
     flavors:
     - wehIceCream
@@ -661,6 +673,10 @@
   id: FoodDimensionalIceCream
   description: ent-FoodDimensionalIceCream-desc
   components:
+  - type: Tag
+    tags:
+    - IceCream
+    - Citrus
   - type: FlavorProfile
     flavors:
     - dimensionalIceCream
@@ -759,6 +775,10 @@
   id: FoodFluffyBoyIceCream
   description: ent-FoodFluffyBoyIceCream-desc
   components:
+  - type: Tag
+    tags:
+    - IceCream
+    - Citrus
   - type: FlavorProfile
     flavors:
     - fluffyBoyIceCream
@@ -903,6 +923,10 @@
   id: FoodIanIceCream
   description: ent-FoodIanIceCream-desc
   components:
+  - type: Tag
+    tags:
+    - IceCream
+    - Citrus
   - type: FlavorProfile
     flavors:
     - ianIceCream
@@ -949,6 +973,10 @@
   id: FoodNTMarineIceCream
   description: ent-FoodNTMarineIceCream-desc
   components:
+  - type: Tag
+    tags:
+    - IceCream
+    - Citrus
   - type: FlavorProfile
     flavors:
     - ntMarineIceCream
@@ -995,6 +1023,10 @@
   id: FoodRisingSunIceCream
   description: ent-FoodRisingSunIceCream-desc
   components:
+  - type: Tag
+    tags:
+    - IceCream
+    - Citrus
   - type: FlavorProfile
     flavors:
     - risingSunIceCream
@@ -1041,6 +1073,10 @@
   id: FoodStunBatonIceCream
   description: ent-FoodStunBatonIceCream-desc
   components:
+  - type: Tag
+    tags:
+    - IceCream
+    - Citrus
   - type: MeleeWeapon
     damage:
       types:
@@ -1071,6 +1107,10 @@
   id: FoodSyndieLandIceCream
   description: ent-FoodSyndieLandIceCream-desc
   components:
+  - type: Tag
+    tags:
+    - IceCream
+    - Citrus
   - type: FlavorProfile
     flavors:
     - syndieLandIceCream
