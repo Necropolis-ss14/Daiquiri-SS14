@@ -84,7 +84,13 @@ namespace Content.Client.Lobby.UI
                 if (panel.Disposed)
                     continue;
                 var hovered = panel.GlobalRect.Contains(mouse);
-                var target = hovered ? PanelFadeMin : 1f;
+                // Daiquiri: with the glass theme on, the fade runs in reverse —
+                // panels rest slightly faded and turn solid under the cursor.
+                float target;
+                if (_configurationManager.GetCVar(StarlightCCVars.UIGlassTheme))
+                    target = hovered ? 1f : PanelFadeMin;
+                else
+                    target = hovered ? PanelFadeMin : 1f;
                 if (_panelTargets.TryGetValue(panel, out var current) && Math.Abs(current - target) < 0.001f)
                     continue;
                 _panelTargets[panel] = target;
@@ -140,8 +146,15 @@ namespace Content.Client.Lobby.UI
             }
             var tint = panel.TryGetStyleProperty<Color>(Control.StylePropertyModulateSelf, out var t)
                 ? t
-                : Color.White;
-            panel.ModulateSelfOverride = new Color(tint.R, tint.G, tint.B, tint.A * factor);
+                : (Color?) null;
+            if (tint == null)
+            {
+                // No stylesheet tint (e.g. mid theme rebuild): leave alone, never whiten.
+                panel.ModulateSelfOverride = null;
+                return;
+            }
+            var c = tint.Value;
+            panel.ModulateSelfOverride = new Color(c.R, c.G, c.B, c.A * factor);
         }
 
         public void SwitchState(LobbyGuiState state)

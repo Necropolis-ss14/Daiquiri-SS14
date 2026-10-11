@@ -39,7 +39,7 @@ public sealed partial class StarlightCCVars
     /// Translucent "liquid glass" interface theme. Turn off for fully opaque panels.
     /// </summary>
     public static readonly CVarDef<bool> UIGlassTheme =
-        CVarDef.Create("ui.glass_theme", true, CVar.CLIENTONLY | CVar.ARCHIVE);
+        CVarDef.Create("ui.glass_theme", false, CVar.CLIENTONLY | CVar.ARCHIVE);
 
     /// <summary>
     /// Whether manual transparency strength adjustment is enabled.
@@ -63,7 +63,7 @@ public sealed partial class StarlightCCVars
     /// Glass accent tint color (hex).
     /// </summary>
     public static readonly CVarDef<string> UIGlassAccent =
-        CVarDef.Create("ui.glass_accent", "#7fb2ff", CVar.CLIENTONLY | CVar.ARCHIVE);
+        CVarDef.Create("ui.glass_accent_v2", "#545562", CVar.CLIENTONLY | CVar.ARCHIVE);
 
     /// <summary>
     /// Whether the first-run liquid glass prompt was already shown.
