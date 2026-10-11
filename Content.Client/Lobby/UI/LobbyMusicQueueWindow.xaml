@@ -1,6 +1,7 @@
 <DefaultWindow xmlns="https://spacestation14.io"
-                Title="{Loc 'ui-lobby-music-queue-title'}"
-                MinSize="600 300">
+                 xmlns:graphics="clr-namespace:Robust.Client.Graphics;assembly=Robust.Client"
+                 Title="{Loc 'ui-lobby-music-queue-title'}"
+                 MinSize="600 300">
     <BoxContainer Orientation="Horizontal" HorizontalExpand="True" VerticalExpand="True" SeparationOverride="6">
         <PanelContainer StyleClasses="BackgroundPanel" VerticalExpand="True"
                        MinWidth="190" MaxWidth="230" Margin="4">
@@ -9,8 +10,13 @@
                               HorizontalExpand="True" SeparationOverride="2" />
             </ScrollContainer>
         </PanelContainer>
-        <PanelContainer StyleClasses="BackgroundPanel" ModulateSelfOverride="#c9a227" VerticalExpand="True"
-                        MinWidth="2" MaxWidth="2" Margin="0 8 0 8" />
+        <!-- Daiquiri: explicit gold divider, immune to glass/fade tints -->
+        <PanelContainer VerticalExpand="True"
+                        MinWidth="2" MaxWidth="2" Margin="0 8 0 8">
+            <PanelContainer.PanelOverride>
+                <graphics:StyleBoxFlat BackgroundColor="#c9a227" />
+            </PanelContainer.PanelOverride>
+        </PanelContainer>
         <PanelContainer Name="TrackPanel" Access="Public" StyleClasses="BackgroundPanel"
                         HorizontalExpand="True" VerticalExpand="True" Margin="4">
             <ScrollContainer VerticalExpand="True" HorizontalExpand="True">
