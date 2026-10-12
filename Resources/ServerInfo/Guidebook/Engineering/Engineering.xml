@@ -1,15 +1,15 @@
 <Document>
-  # Инженерия
-  [color=#f39f27]Инженерия[/color] — это сочетание [textlink="строительных" link="Construction"] работ, [textlink="ремонтных" link="ExpandingRepairingStation"] работ, обслуживания машины смерти, которая по случаю производит [textlink="энергию" link="Power"], и обеспечения того, чтобы на станции был [textlink="пригодный для дыхания воздух" link="Atmospherics"].
+  # Инженерное дело
+  [color=#f39f27]Инженерное дело[/color] это сочетание [textlink="строительных" link="Construction"] и [textlink="ремонтных" link="ExpandingRepairingStation"] работ, обслуживания машины смерти, которая, по стечению обстоятельств, производит [textlink="электроэнергию" link="Power"], и обеспечения наличия на станции [textlink="пригодного для дыхания воздуха" link="Atmospherics"].
 
   ## Персонал
-  Персонал [color=#f39f27]инженерии[/color] состоит из технических ассистентов, инженеров станции и атмосферных техников.
-  Инженерией руководит старший инженер.
+  [color=#f39f27]Инженерный отдел[/color] состоит из Технических ассистентов, Инженеров и Атмосферных техников.
+  Инженерным отделом управляет Старший инженер
 
   <Box>
-    <GuideEntityEmbed Entity="ToyFigurineEngineer" Caption="Engineer"/>
-    <GuideEntityEmbed Entity="ToyFigurineAtmosTech" Caption="Atmosian"/>
-    <GuideEntityEmbed Entity="ToyFigurineChiefEngineer" Caption="CE"/>
+    <GuideEntityEmbed Entity="ToyFigurineEngineer" Caption="Инженер"/>
+    <GuideEntityEmbed Entity="ToyFigurineAtmosTech" Caption="АТМОС"/>
+    <GuideEntityEmbed Entity="ToyFigurineChiefEngineer" Caption="СИ"/>
   </Box>
 
   ## Инструменты
@@ -24,8 +24,8 @@
     <GuideEntityEmbed Entity="Multitool"/>
     <GuideEntityEmbed Entity="NetworkConfigurator"/>
   </Box>
-  Ваш базовый набор инструментов — это небольшой набор инструментов.
-  Если вы инженер, то на поясе у вас должен быть ремень с каждым из них; если нет, их, скорее всего, можно найти в технических тоннелях и в хранилищах инструментов в разных ящиках и автоматах.
+  Ваш основной набор инструментов, это небольшое количество разнообразных инструментов.
+  Если вы инженер, то у вас на поясе должен быть пояс с одним экземпляром каждого вида. Если нет, вы, скорее всего, найдете их в технических туннелях, в ящиках для инструментов и торговых автоматах.
 
-  У большинства задач будут пояснения по выполнению при осмотре; например, если вы [textlink="строите" link="Construction"] стену, она подскажет следующий шаг, если присмотреться повнимательнее.
+  К большинству задач прилагается инструкция по их выполнению, например, если вы [textlink="строите" link="Construction"] стену, то при ближайшем рассмотрении вам будет показан следующий шаг.
 </Document>

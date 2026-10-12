@@ -1,17 +1,17 @@
 <Document>
-  # Дельта-давление
-  Дельта-давление, или ΔP, — это разница давления между двумя зонами.
-  Эта разница давления может оказывать силу на объекты между двумя зонами, нанося [bold]урон давлением[/bold] некоторым объектам на своём пути.
+  # Разница давления
+  Разница давлений, или ΔP, это разница давлений между двумя областями.
+  Эта разница давлений может оказывать воздействие на объекты между двумя областями, нанося [bold]повреждения от давления[/bold] некоторым объектам на своем пути.
 
-  Различные объекты из стекла, такие как окна, стеклянные двери и ставни, могут получать урон давлением, если ΔP между двумя сторонами достаточно высоко.
-  Этот урон может разбить эти объекты, позволив газу свободно течь между двумя зонами.
+  Различные стеклянные изделия, такие как окна, раздвижные окна и ставни, могут получить повреждения от перепадов давления, если разница давлений между двумя сторонами достаточно велика.
+  Это повреждение может привести к разрушению этих объектов, в результате чего газ сможет свободно циркулировать между двумя участками.
 
-  Разные типы объектов имеют разные пороги того, какое ΔP они выдерживают до разрушения.
-  Как правило, чем прочнее стекло, тем выше порог. Тонкие объекты также имеют более низкие пороги.
+  Для разных типов объектов существуют разные пороговые значения ΔP, которые они могут выдержать до разрушения.
+  Как правило, чем прочнее стекло, тем выше порог. Для тонких предметов порог будет ниже.
 
-  На такие объекты, как стены, шлюзы и пожарные створки, ΔP не действует.
+  Такие объекты, как стены, шлюзы и пожарные шлюзы, не подвержены влиянию ΔP.
 
-  ## Обычное стекло и объекты
+  ## Стандартное стекло и предметы
   <Box>
     <GuideEntityEmbed Entity="Window" Caption=""/>
     <GuideEntityEmbed Entity="WindowDirectional" Caption=""/>
@@ -20,23 +20,22 @@
     <GuideEntityEmbed Entity="InflatableWall" Caption=""/>
   </Box>
 
-  Стандартное полноразмерное стекло и другие слабые объекты выдерживают ΔP до [color=orange][protodata="Window" comp="DeltaPressure" member="MinPressureDelta"/] кПа[/color] до начала трещин.
+  Стандартноые полноразмерные окна и другие хрупкие предметы могут выдерживать перепад давления до [color=orange][protodata="Window" comp="DeltaPressure" member="MinPressureDelta"/] кПа[/color], прежде чем начнут трескаться.
 
-  Четвертьразмерное стекло, такое как направленные окна, выдерживает ΔP до [color=orange][protodata="WindowDirectional" comp="DeltaPressure" member="MinPressureDelta"/] кПа[/color] до начала трещин.
+  Окна размером с четверть, например, направленные окна, могут выдерживать ΔP до [color=orange][protodata="WindowDirectional" comp="DeltaPressure" member="MinPressureDelta"/] кПа[/color] прежде чем начнут трескаться.
 
-  ## Армированное стекло и объекты
+  ## Укреплённое стекло и предметы
   <Box>
     <GuideEntityEmbed Entity="ReinforcedWindow" Caption=""/>
     <GuideEntityEmbed Entity="WindowReinforcedDirectional" Caption=""/>
-    <GuideEntityEmbed Entity="WindoorSecure" Caption=""/>
     <GuideEntityEmbed Entity="ShuttleWindow" Caption=""/>
   </Box>
 
-  Армированное полноразмерное стекло выдерживает ΔP до [color=orange][protodata="ReinforcedWindow" comp="DeltaPressure" member="MinPressureDelta"/] кПа[/color] до начала трещин.
+  Укреплённые полноразмерные окна могут выдерживать ΔP до [color=orange][protodata="ReinforcedWindow" comp="DeltaPressure" member="MinPressureDelta"/] кПа[/color] прежде чем начнут трескаться.
 
-  Армированное четвертьразмерное стекло выдерживает ΔP до [color=orange][protodata="WindowReinforcedDirectional" comp="DeltaPressure" member="MinPressureDelta"/] кПа[/color] до начала трещин.
+  Укреплённые окна размером с четверть могут выдерживать ΔP до [color=orange][protodata="WindowReinforcedDirectional" comp="DeltaPressure" member="MinPressureDelta"/] кПа[/color] прежде чем начнут трескаться.
 
-  ## Плазменное/урановое стекло
+  ## Плазменное/Урановое стекло
   <Box>
     <GuideEntityEmbed Entity="PlasmaWindow" Caption=""/>
     <GuideEntityEmbed Entity="PlasmaWindowDirectional" Caption=""/>
@@ -46,24 +45,22 @@
     <GuideEntityEmbed Entity="WindoorUranium" Caption=""/>
   </Box>
 
-  Плазменное и урановое стекло выдерживают ΔP до [color=orange][protodata="PlasmaWindow" comp="DeltaPressure" member="MinPressureDelta"/] кПа[/color] до начала трещин.
+  Плазменные и Урановые окна могут выдерживать ΔP до [color=orange][protodata="PlasmaWindow" comp="DeltaPressure" member="MinPressureDelta"/] кПа[/color] прежде чем начнут трескаться.
 
-  Плазменное и урановое четвертьразмерное стекло выдерживает ΔP до [color=orange][protodata="PlasmaWindowDirectional" comp="DeltaPressure" member="MinPressureDelta"/] кПа[/color] до начала трещин.
+  Плазменные и Урановые окна размером с четверть могут выдерживать ΔP до [color=orange][protodata="PlasmaWindowDirectional" comp="DeltaPressure" member="MinPressureDelta"/] кПа[/color] прежде чем начнут трескаться.
 
-  ## Армированное плазменное/урановое стекло
+  ## Укреплённое Плазменное/Урановое Стекло
 
   <Box>
     <GuideEntityEmbed Entity="ReinforcedPlasmaWindow" Caption=""/>
     <GuideEntityEmbed Entity="PlasmaReinforcedWindowDirectional" Caption=""/>
-    <GuideEntityEmbed Entity="WindoorSecurePlasma" Caption=""/>
     <GuideEntityEmbed Entity="ReinforcedUraniumWindow" Caption=""/>
     <GuideEntityEmbed Entity="UraniumReinforcedWindowDirectional" Caption=""/>
-    <GuideEntityEmbed Entity="WindoorSecureUranium" Caption=""/>
 
   </Box>
 
-  Армированное плазменное и урановое стекло выдерживают ΔP до [color=orange][protodata="ReinforcedPlasmaWindow" comp="DeltaPressure" member="MinPressureDelta"/] кПа[/color] до начала трещин.
+  Укрепленные Плазменные и Урановые окна могут выдерживать ΔP до [color=orange][protodata="ReinforcedPlasmaWindow" comp="DeltaPressure" member="MinPressureDelta"/] кПа[/color] прежде чем начнут трескаться.
 
-  Армированное плазменное и урановое четвертьразмерное стекло выдерживает ΔP до [color=orange][protodata="PlasmaReinforcedWindowDirectional" comp="DeltaPressure" member="MinPressureDelta"/] кПа[/color] до начала трещин.
+  Укрепленные Плазменные и Урановые окна размером с четверть могут выдерживать ΔP до [color=orange][protodata="PlasmaReinforcedWindowDirectional" comp="DeltaPressure" member="MinPressureDelta"/] кПа[/color] прежде чем начнут трескаться.
 
 </Document>

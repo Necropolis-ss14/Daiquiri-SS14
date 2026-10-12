@@ -18,6 +18,10 @@
       enum.EdgeConnectionVisuals.ConnectionMask:
         computerLayerBody:
           None: { state: computer, sprite: _Starlight/Structures/Machines/desktop_computers.rsi }
+      enum.ComputerVisuals.Powered: # Starlight: glow screens when powered like base computers
+        computerLayerScreen:
+          True: { visible: true, shader: unshaded }
+          False: { visible: false }
   - type: Fixtures
     fixtures:
       fix1:

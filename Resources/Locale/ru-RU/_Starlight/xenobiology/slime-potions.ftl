@@ -1,0 +1,12 @@
+slime-fireproof-max = Защита от огня и жары уже максимальная. Предмет не affected.
+slime-gender-select-first = Сначала выбери пол.
+slime-fireproof-applied = Огнеупорное зелье применено! Осталось использований: { $uses }.
+slime-potion-radio-applied = { $target } теперь всегда может пользоваться рацией.
+slime-potion-enhancer-applied = У { $target } осталось использований: { $uses }.
+slime-potion-mutation-max = Шанс мутации { $target } уже 100%. Выше некуда.
+slime-potion-mutation-min = Шанс мутации { $target } уже 0%. Ниже некуда.
+slime-potion-mutation-chance = Шанс мутации { $target } теперь { $chance }%.
+slime-potion-name-changed = { $old } теперь зовут { $new }.
+slime-potion-name-changed-self = Теперь тебя зовут { $new }.
+slime-potion-speed-applied = Замедление ходьбы/бега { $target } теперь { $walk }/{ $sprint }.
+slime-potion-steroid-applied = { $target } теперь даёт на { $amount } экстракта больше при переработке.

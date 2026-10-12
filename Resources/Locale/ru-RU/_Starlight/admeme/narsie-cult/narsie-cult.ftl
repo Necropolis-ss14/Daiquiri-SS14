@@ -1,0 +1,10 @@
+roles-antag-narsie-cultist-name = Культист Нар'Си
+roles-antag-narsie-cultist-objective = Служи кровавой матери. Распространяй культ и исполняй волю Нар'Си.
+role-subtype-narsie-cultist = Культ Нар'Си
+narsie-cult-converted-briefing = Пелена спадает с глаз. Нар'Си, матерь Крови, забрала тебя в Хайвмайнд. Ты теперь культист Нар'Си: служи культу, неси его слово и слушайся Старших.
+narsie-cult-convert-verb = Обратить в культ Нар'Си
+narsie-cult-convert-verb-desc = Делает игрока культистом Нар'Си и проигрывает ему звук обращения.
+narsie-cult-convert-no-mind = У { $target } нет разума, нечего забирать.
+narsie-cult-convert-already = { $target } уже служит Нар'Си.
+narsie-cult-convert-dead = { $target } должен быть жив для обращения.
+narsie-cult-convert-success = { $target } забран Нар'Си!

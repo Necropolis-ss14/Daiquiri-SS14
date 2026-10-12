@@ -1,18 +1,12 @@
 {
   "version": 1,
   "license": "CC-BY-SA-3.0",
-  "copyright": "from paradise and modified from tgstation at commit https://github.com/tgstation/tgstation/commit/f07f847706d85b7cfa4b398e5175732212b69a63 by KingFroozy (Github), inhand for syn made by icekot8, belt variants for syndicate/proto made by wonderfulnewworld (Github)",
+  "copyright": "Taken from skyrat-tg at https://github.com/Skyrat-SS13/Skyrat-tg/commit/31156a1fcd48d67a717e7b63c11513172b28eeb1",
   "size": {
     "x": 32,
     "y": 32
   },
   "states": [
-    {
-      "name": "proto_jaws_cutter"
-    },
-    {
-      "name": "proto_jaws_pry"
-    },
     {
       "name": "jaws_cutter"
     },
@@ -24,6 +18,12 @@
     },
     {
       "name": "syn_jaws_pry"
+    },
+    {
+      "name": "xorg_jaws_cutter"
+    },
+    {
+      "name": "xorg_jaws_pry"
     },
     {
       "name": "inhand-left",
@@ -42,14 +42,28 @@
       "directions": 4
     },
     {
+      "name": "xorg_inhand-left",
+      "directions": 4
+    },
+    {
+      "name": "xorg_inhand-right",
+      "directions": 4
+    },
+    {
       "name": "equipped-BELT",
       "directions": 4
     },
-	{
+    {
+      "name": "proto_jaws_cutter"
+    },
+    {
+      "name": "proto_jaws_pry"
+    },
+    {
       "name": "syn_equipped-BELT",
       "directions": 4
     },
-	{
+    {
       "name": "proto_equipped-BELT",
       "directions": 4
     }

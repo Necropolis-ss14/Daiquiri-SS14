@@ -1,0 +1,12 @@
+ent-FoodSnackChocolate = шоколадка
+ent-FoodSnackChocolate-desc = На вкус как картон.
+ent-FoodSnackChocolateBar = шоколадка
+ent-FoodSnackChocolateBar-desc = На вкус как картон.
+ent-FoodSnackEnergy = энергобатончик
+ent-FoodSnackEnergy-desc = Энергобатончик с огоньком.
+ent-FoodSnackEnergyBar = энергобатончик
+ent-FoodSnackEnergyBar-desc = Энергобатончик с огоньком.
+ent-FoodSnackSwirlLollipop = леденец-завиток
+ent-FoodSnackSwirlLollipop-desc = Сладкий круг чистого концентрированного сахара. Кто теперь самый крутой на площадке?
+ent-FoodPacketChocolateTrash = фантик от шоколадки
+ent-FoodPacketEnergyTrash = фантик от энергобатончика

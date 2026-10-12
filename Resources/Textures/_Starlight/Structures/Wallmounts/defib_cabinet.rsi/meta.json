@@ -8,59 +8,63 @@
   },
   "states": [
     {
-        "name": "closed",
-		"copyright": "Based on sprites by EmoGarbage404 (github), created by Conflee for Starlight"
+      "name": "closed",
+      "copyright": "Based on sprites by EmoGarbage404 (github), created by Conflee for Starlight"
     },
     {
-        "name": "fill",
-		"copyright": "Based on sprites by EmoGarbage404 (github), created by Conflee for Starlight"
+      "name": "fill",
+      "copyright": "Based on sprites by EmoGarbage404 (github), created by Conflee for Starlight"
     },
     {
-        "name": "frame",
-		"copyright": "Based on sprites by EmoGarbage404 (github), created by Conflee for Starlight"
+      "name": "frame",
+      "copyright": "Based on sprites by EmoGarbage404 (github), created by Conflee for Starlight"
     },
     {
-        "name": "open",
-		"copyright": "Based on sprites by EmoGarbage404 (github), created by Conflee for Starlight"
+      "name": "open",
+      "copyright": "Based on sprites by EmoGarbage404 (github), created by Conflee for Starlight"
     },
     {
-        "name": "light-charged",
-		"copyright": "Based on sprites by EmoGarbage404 (github), created by Conflee for Starlight",
-        "delays": [
-           [
-                0.5,
-                0.5
-            ]
+      "name": "light-charged",
+      "copyright": "Based on sprites by EmoGarbage404 (github), created by Conflee for Starlight",
+      "delays": [
+        [
+          0.5,
+          0.5
         ]
+      ]
     },
     {
-        "name": "light-charging",
-		"copyright": "Based on sprites by EmoGarbage404 (github), created by Conflee for Starlight",
-        "delays": [
-           [
-                0.2,
-                0.2,
-                0.2,
-                0.2,
-                0.2,
-                0.2,
-                0.2
-            ]
+      "name": "light-charging",
+      "copyright": "Based on sprites by EmoGarbage404 (github), created by Conflee for Starlight",
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2
         ]
+      ]
     },
     {
-        "name": "light-empty",
-		"copyright": "Based on sprites by EmoGarbage404 (github), created by Conflee for Starlight",
-        "delays": [
-           [
-                0.5,
-                0.5
-            ]
+      "name": "light-empty",
+      "copyright": "Based on sprites by EmoGarbage404 (github), created by Conflee for Starlight",
+      "delays": [
+        [
+          0.5,
+          0.5
         ]
+      ]
     },
     {
-        "name": "light-off",
-		"copyright": "Based on sprites by EmoGarbage404 (github), created by Conflee for Starlight"
+      "name": "light-off",
+      "copyright": "Based on sprites by EmoGarbage404 (github), created by Conflee for Starlight"
+    },
+    {
+      "name": "light",
+      "directions": 1
     }
   ]
 }

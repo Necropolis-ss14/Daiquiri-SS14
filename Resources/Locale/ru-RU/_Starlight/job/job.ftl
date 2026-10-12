@@ -1,43 +1,43 @@
-job-name-magistrate = Магистрат
-job-name-ntrep = Представитель НаноТрейзен
-job-name-iaa = Агент внутренних дел
-job-name-blueshield = Офицер Блюшилд
-job-name-ntncblueshield = Морпех флота НаноТрейзен
-job-name-greenshield = Офицер Зелёного щита
-job-name-miningspec = Специалист по добыче
-job-name-surgeon = Хирург
-job-name-mailtech = Почтовый техник
-job-name-centcomm = Должностное лицо ЦентКом
-job-name-centcommoperator = Оператор ЦентКом
-job-name-nanotrasen-special-forces = Оперативник НТСФ
-job-name-decimus = Оперативник Децимус
-job-name-nct = Карьерный тренер НаноТрейзен
-job-name-ert = Отряд быстрого реагирования
-job-name-cc-serviceworker = Сервисный работник ЦентКом
-job-name-cc-chef = Повар ЦентКом
-job-name-cc-bartender = Бармен ЦентКом
-job-name-cc-janitor = Уборщик ЦентКом
+job-name-magistrate = магистрат
+job-name-ntrep = представитель НаноТрейзен
+job-name-iaa = агент внутренних дел
+job-name-blueshield = офицер Блюшилд
+job-name-ntncblueshield = морпех флота НаноТрейзен
+job-name-greenshield = офицер Зелёного щита
+job-name-miningspec = специалист по добыче
+job-name-surgeon = хирург
+job-name-mailtech = почтовый техник
+job-name-centcomm = должностное лицо ЦентКом
+job-name-centcommoperator = оператор ЦентКом
+job-name-nanotrasen-special-forces = оперативник НТСФ
+job-name-decimus = оперативник Децимус
+job-name-nct = карьерный тренер НаноТрейзен
+job-name-ert = отряд быстрого реагирования
+job-name-cc-serviceworker = сервисный работник ЦентКом
+job-name-cc-chef = повар ЦентКом
+job-name-cc-bartender = бармен ЦентКом
+job-name-cc-janitor = уборщик ЦентКом
 
-job-name-performer = Артист
-job-name-salvagelead = Лидер утилизаторов
-job-name-salvagemedic = Медик утилизаторов
-job-name-dutyofficer = Дежурный офицер
-job-name-k9 = К9 безопасности
-job-name-assistantmanager = Менеджер ассистентов
-job-name-abductor = Похититель
+job-name-performer = артист
+job-name-salvagelead = лидер утилизаторов
+job-name-salvagemedic = медик утилизаторов
+job-name-dutyofficer = дежурный офицер
+job-name-k9 = к9 безопасности
+job-name-assistantmanager = менеджер ассистентов
+job-name-abductor = похититель
 job-title-borgi = Борги
 
 job-title-tsf-Phantom = Морпех-фантом
 job-title-tsf-MARSOC = Морпех MARSOC
 
-job-name-blackstar = Наёмник Блэкстар
+job-name-blackstar = наёмник Блэкстар
 
-job-name-medtak-dispatcher = Диспетчер МедТак
-job-name-medtak-leader = Лидер группы МедТак
-job-name-medtak-medic = Медик МедТак
-job-name-medtak-pilot = Пилот МедТак
-job-name-medtak-security = Охранник МедТак
-job-name-medtak-borg = Кремний МедТак
+job-name-medtak-dispatcher = диспетчер МедТак
+job-name-medtak-leader = лидер группы МедТак
+job-name-medtak-medic = медик МедТак
+job-name-medtak-pilot = пилот МедТак
+job-name-medtak-security = охранник МедТак
+job-name-medtak-borg = кремний МедТак
 
 job-greet-information-rules = { $jobRules }
 
@@ -68,4 +68,10 @@ job-rules-itg-aligned = Вы { role-type-itg-aligned-name }.
                               Вы должны служить и защищать интересы Межзвёздной торговой гильдии, даже если они отличаются от интересов станций.
                               Помните, вы НЕ служите экипажу.
 
-job-name-makeshift-id = Кустарная ID-карта
+job-name-makeshift-id = кустарная ID-карта
+job-name-commander = командир
+job-name-syndicate-agent = агент Синдиката
+job-name-operative = оперативник
+job-name-soviet = советский
+job-name-tsf = ТСС
+job-name-tsf-officer = офицер ТСС

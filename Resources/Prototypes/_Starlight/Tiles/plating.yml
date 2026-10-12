@@ -2,24 +2,28 @@
   id: LatticeDiagonalNE
   parent: Lattice
   sprite: /Textures/_Starlight/Tiles/Lattice_NE.png
+  variants: 1
   vertices: ["1, 0", "1, 1", "0, 1"]
 
 - type: tile
   id: LatticeDiagonalSE
   parent: Lattice
   sprite: /Textures/_Starlight/Tiles/Lattice_SE.png
+  variants: 1
   vertices: ["0, 0", "1, 0", "1, 1"]
 
 - type: tile
   id: LatticeDiagonalSW
   parent: Lattice
   sprite: /Textures/_Starlight/Tiles/Lattice_SW.png
+  variants: 1
   vertices: ["0, 0", "1, 0", "0, 1"]
 
 - type: tile
   id: LatticeDiagonalNW
   parent: Lattice
   sprite: /Textures/_Starlight/Tiles/Lattice_NW.png
+  variants: 1
   vertices: ["0, 0", "1, 1", "0, 1"]
 
 - type: tile

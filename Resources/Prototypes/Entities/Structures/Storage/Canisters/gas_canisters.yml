@@ -13,7 +13,7 @@
       sprite: _Starlight/Structures/Storage/canister.rsi # Starlight Edit: Structures/Storage/canister.rsi -> _Starlight/Structures/Storage/canister.rsi
       noRot: true
       layers:
-        - state: grey
+        - state: gray # Starlight Edit: grey -> gray
         - state: HoseAttachment  # Starlight: An attachement for refilling quickly
           visible: false
           map: [ "enum.GasCanisterVisuals.HoseAttached" ]

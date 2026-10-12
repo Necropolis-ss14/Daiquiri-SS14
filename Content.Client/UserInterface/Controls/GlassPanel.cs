@@ -64,6 +64,10 @@ public partial class GlassPanel : PanelContainer
         _cfg.OnValueChanged(StarlightCCVars.UIGlassTransparency, _onGlassInt);
         _cfg.OnValueChanged(StarlightCCVars.UIGlassAccentEnabled, _onGlassBool);
         _cfg.OnValueChanged(StarlightCCVars.UIGlassAccent, _onGlassString);
+        // Daiquiri: refresh backgrounds on interface theme switch too.
+        _cfg.OnValueChanged(StarlightCCVars.StyleTheme, _onGlassString);
+        _cfg.OnValueChanged(StarlightCCVars.StyleAccent, _onGlassString);
+        _cfg.OnValueChanged(StarlightCCVars.StyleCustomAccent, _onGlassBool);
     }
 
     protected override void ExitedTree()
@@ -74,11 +78,16 @@ public partial class GlassPanel : PanelContainer
             _cfg.UnsubValueChanged(StarlightCCVars.UIGlassTheme, _onGlassBool);
             _cfg.UnsubValueChanged(StarlightCCVars.UIGlassTransparencyEnabled, _onGlassBool);
             _cfg.UnsubValueChanged(StarlightCCVars.UIGlassAccentEnabled, _onGlassBool);
+            _cfg.UnsubValueChanged(StarlightCCVars.StyleCustomAccent, _onGlassBool);
         }
         if (_onGlassInt != null)
             _cfg.UnsubValueChanged(StarlightCCVars.UIGlassTransparency, _onGlassInt);
         if (_onGlassString != null)
+        {
             _cfg.UnsubValueChanged(StarlightCCVars.UIGlassAccent, _onGlassString);
+            _cfg.UnsubValueChanged(StarlightCCVars.StyleTheme, _onGlassString);
+            _cfg.UnsubValueChanged(StarlightCCVars.StyleAccent, _onGlassString);
+        }
     }
 
     private void UpdateBox()

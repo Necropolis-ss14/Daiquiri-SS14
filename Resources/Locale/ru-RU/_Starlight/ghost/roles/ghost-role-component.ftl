@@ -142,3 +142,20 @@ ghost-role-information-sentient-sharkminnow-description = Охраняйте р�
 
 ghost-role-information-sentient-holocarp-name = Разумный голокарп
 ghost-role-information-sentient-holocarp-description = Помогайте космическому дракону и выполняйте его приказы. Помогите дракону затопить станцию карпами и сокрушить врагов!
+ghost-role-information-maintenance-drone-description = Обслуживай станцию. Игнорируй остальных существ, кроме дронов.
+ghost-role-information-maintenance-drone-rules = Ты связан этими законами и в игре, и вне отыгрыша:
+                                                 1. Ты не должен вмешиваться в дела других существ, даже если они противоречат Второму или Третьему закону, если это не другой дрон.
+                                                 2. Ты не должен вредить существам, независимо от намерений и обстоятельств.
+                                                 3. Твои цели — строить, обслуживать, чинить, улучшать станцию и снабжать её энергией по мере сил. Ты никогда не должен работать против этих целей.
+ghost-role-information-mob-nyr-mouse-ops-name = красная мышь!
+ghost-role-information-mob-nyr-mouse-ops-description = Ты вожак мышей. Твоя цель — красть сыр у глав!
+ghost-role-information-rogue-drone-description = Разбирай станцию и ближний космос на материалы для новых дронов.
+ghost-role-information-rogue-drone-rules = Ты связан этими законами и в игре, и вне отыгрыша:
+                                                 1. Ты не должен вмешиваться в дела других существ, если это не дрон-скраппер.
+                                                 2. Ты должен избегать вреда фабрикатору и дронам-скрапперам.
+                                                 3. Ты должен обслуживать, чинить, улучшать и производить новых дронов-скрапперов.
+ghost-role-information-roguedrone-name = Дрон-скраппер
+ghost-role-information-spawn-point-ghost-cluwne-beast-name = Зверь-клавн
+ghost-role-information-spawn-point-ghost-cluwne-beast-description = Распространяй смех и хаос, бей и превращай экипаж в клавнов.
+ghost-role-information-spawn-point-ghost-cluwne-beast-rules = Ты антагонист, преврати как можно больше экипажа в клавнов.
+ghost-role-information-drone-name = Дрон-техник

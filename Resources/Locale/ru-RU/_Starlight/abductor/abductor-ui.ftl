@@ -60,3 +60,23 @@ objective-condition-abduct-description = (используйте Гизмо на
 abductor-role-greeting = Я — профессиональный боевой учёный высокотехнологичной расы. Моя задача — похищать людей, проводить над ними эксперименты и возвращать их целыми для чистоты эксперимента. Не в моих интересах уничтожать станцию, убивать или помогать экипажу.
 
 roles-antag-abductor-objective = Похищайте экипаж станции и проводите над ними свои эксперименты!
+abductor-buy = Купить
+abductor-console-balance = Баланс: { $balance }
+abductor-dispencer = раздатчик: { $found ->
+        [true] [color=green]подключён[/color]
+       *[false] [color=red]не найден[/color]
+    }
+abductor-experimentator = экспериментатор: { $found ->
+        [true] [color=green]подключён[/color]
+       *[false] [color=red]не найден[/color]
+    }
+abductor-need-armor = [color=red][font size=16]Нужно подключить броню абдуктора![/font][/color]
+abductor-pad = площадка: { $found ->
+        [true] [color=green]подключена[/color]
+       *[false] [color=red]не найдена[/color]
+    }
+abductor-price = { " " }Цена: { $price }
+abductor-target = цель: [color=green]{ $name }[/color]
+abductor-target-none = цель: [color=red]НЕТ[/color]
+abductor-victim = жертва: [color=green]{ $name }[/color]
+abductor-victim-none = жертва: [color=red]НЕТ[/color]

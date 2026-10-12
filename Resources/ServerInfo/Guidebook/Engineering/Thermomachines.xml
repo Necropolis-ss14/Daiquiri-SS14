@@ -1,51 +1,51 @@
 ﻿<Document>
   # Термомашины
-  Термомашины — это устройства, управляющие температурой газов в [textlink="трубосети" link="PipeNetworks"] или окружающей атмосфере.
+  Термомашины это устройства, которые регулируют температуру газов в [textlink="сети труб" link="PipeNetworks"] или в открытой атмосфере.
   <Box>
     <GuideEntityEmbed Entity="SpaceHeater" Caption=""/>
     <GuideEntityEmbed Entity="GasThermoMachineHeater" Caption=""/>
     <GuideEntityEmbed Entity="GasThermoMachineFreezer" Caption=""/>
   </Box>
-  Они необходимы для поддержания температуры газов для разных применений.
+  Они необходимы для поддержания температуры газов в различных областях применения.
 
-  Все термомашины работают, используя [textlink="электроэнергию" link="Power"] для нагрева или охлаждения атмосферы.
-  Насколько они нагревают/охлаждают атмосферу, напрямую зависит от количества потребляемой энергии.
+  Все термомашины работают, используя [textlink="электропитание" link="Power"] чтобы нагревать или охлаждать атмосферу.
+  Сила нагрева/охлаждения атмосферы напрямую зависит от количества потребляемой ими энергии.
 
-  У термомашин также есть коэффициент эффективности, определяющий, насколько они могут нагреть или охладить атмосферу на единицу потреблённой энергии.
+  Термомашины также обладают коэффициентом эффективности, который определяет, насколько они могут нагреть или охладить атмосферу на единицу потребляемой мощности.
 
-  Чтобы не перескочить целевое значение, термомашины снижают мощность нагрева/охлаждения по мере приближения к целевой температуре.
-  Однако они всё равно потребляют то же количество электроэнергии, даже в простое.
+  Чтобы предотвратить превышение целевого значения, термомашины снижают мощность нагрева/охлаждения по мере приближения к целевой температуре.
+  Однако, даже в режиме ожидания, они будут потреблять одинаковое количество электроэнергии.
 
-  Все термомашины имеют допуск целевой температуры [color=orange][protodata="GasThermoMachineFreezer" comp="GasThermoMachine" member="TemperatureTolerance"/] K[/color], то есть они прекратят нагрев или охлаждение, когда температура будет в пределах [color=orange][protodata="GasThermoMachineFreezer" comp="GasThermoMachine" member="TemperatureTolerance"/] K[/color] от целевой температуры.
+  Все термомашины имеют допустимую температуру [color=orange][protodata="GasThermoMachineFreezer" comp="GasThermoMachine" member="TemperatureTolerance"/] K[/color], что означает, что они прекратят нагрев или охлаждение, когда температура окажется в пределах [color=orange][protodata="GasThermoMachineFreezer" comp="GasThermoMachine" member="TemperatureTolerance"/] K[/color] от целевой температуры.
 
-  ## Космический обогреватель
-  Космический обогреватель — это переносная установка контроля температуры, нагревающая или охлаждающая газ в окружающей атмосфере.
-  Это простой и эффективный способ поддерживать температуру комнаты без строительства трубной сети или другой системы.
+  ## Термостат
+  Термостат, это портативное устройство для регулирования температуры, которое нагревает или охлаждает газ в атмосфере, с которой он контактирует.
+  Это простой и эффективный способ поддерживать температуру в помещении без необходимости строить сеть труб или другую систему.
 
   <Box>
     <GuideEntityEmbed Entity="SpaceHeater"/>
   </Box>
 
-  Их обычно можно найти в атмосферном отсеке, хотя соответствующую плату машины можно распечатать в принтере плат, который обычно находится в науке.
+  Они часто встречаются в Атмосферном отделе, хотя соответствующую плату можно изготовить на принтере схем, который обычно используется в Научном отделе.
 
-  Космический обогреватель может охлаждать минимум до [color=orange][protodata="SpaceHeater" comp="SpaceHeater" member="MinTemperature"/] K[/color] и нагревать максимум до [color=orange][protodata="SpaceHeater" comp="SpaceHeater" member="MaxTemperature"/] K[/color].
+  Термостат может охлаждать до [color=orange][protodata="SpaceHeater" comp="SpaceHeater" member="MinTemperature"/] K[/color] и нагревать до [color=orange][protodata="SpaceHeater" comp="SpaceHeater" member="MaxTemperature"/] K[/color].
 
-  У него также есть три настройки мощности, определяющие, как быстро он нагревает или охлаждает атмосферу.
+  Также устройство имеет три режима мощности, которые определяют скорость нагрева или охлаждения воздуха.
 
-  Ботаника или наука часто просят их для поддержания температуры своих растений или отдела.
+  Ботаники или учёные часто запрашивают их для поддержания оптимальной температуры растений или в отделе.
 
-  ## Трубные термомашины (морозильник и нагреватель)
-  Трубные термомашины — это более мощные стационарные установки контроля температуры, которыми можно нагревать или охлаждать газ в [textlink="трубосети." link="PipeNetworks"]
+  ## Термомашины сети труб (Нагреватель и Охладитель)
+  Термомашины сети труб, это более мощные стационарные установки для регулирования температуры, которые можно использовать для нагрева или охлаждения газа в [textlink="сети труб." link="PipeNetworks"]
 
   <Box>
     <GuideEntityEmbed Entity="GasThermoMachineHeater"/>
     <GuideEntityEmbed Entity="GasThermoMachineFreezer"/>
   </Box>
 
-  Они потребляют [color=orange][protodata="GasThermoMachineFreezer" comp="GasThermoMachine" member="HeatCapacity" format="N0"/] Вт[/color] энергии и могут нагревать или охлаждать газ в трубной сети максимум до [color=orange][protodata="GasThermoMachineFreezer" comp="GasThermoMachine" member="MaxTemperature"/] K[/color] или минимум до [color=orange][protodata="GasThermoMachineFreezer" comp="GasThermoMachine" member="MinTemperature"/] K[/color].
+  Они потребляют [color=orange][protodata="GasThermoMachineFreezer" comp="GasThermoMachine" member="HeatCapacity" format="N0"/] W[/color] мощности и могут нагревать газ до [color=orange][protodata="GasThermoMachineFreezer" comp="GasThermoMachine" member="MaxTemperature"/] K[/color] или охлаждать до [color=orange][protodata="GasThermoMachineFreezer" comp="GasThermoMachine" member="MinTemperature"/] K[/color].
 
-  Режим термомашины можно сменить, разобрав её и использовав отвёртку на её плате.
-  Плату можно распечатать в принтере плат, который обычно находится в науке.
+  Изменить режим работы термомашины можно, разобрав её и используя отвёртку на машинной плате.
+  Плата может быть распечатана на принтере схем, который обычно находися в Научном отделе.
 
   <Box>
     <GuideEntityEmbed Entity="GasThermoMachineFreezer" Caption=""/>
@@ -55,20 +55,21 @@
     <GuideEntityEmbed Entity="ThermomachineHeaterMachineCircuitBoard" Caption=""/>
     <GuideEntityEmbed Entity="MachineFrame" Caption=""/>
     <GuideEntityEmbed Entity="GasThermoMachineHeater" Caption=""/>
+
   </Box>
 
-  ## Адские термомашины
-  Наука может исследовать более мощные термомашины, метко названные адскими нагревателями и морозильниками.
-  Эти машины гораздо мощнее своих стандартных собратьев, но и потребляют больше энергии.
+  ## Термомашины из ада
+  Научный отдел может исследовать более мощные термомашины, метко названные адскими нагревателями и охладителями.
+  Эти машины намного мощнее своих стандартных аналогов, но и потребляют больше энергии.
 
   <Box>
     <GuideEntityEmbed Entity="GasThermoMachineHellfireHeater"/>
     <GuideEntityEmbed Entity="GasThermoMachineHellfireFreezer"/>
   </Box>
 
-  Эти машины потребляют [color=orange][protodata="GasThermoMachineHellfireFreezer" comp="GasThermoMachine" member="HeatCapacity" format="N0"/] Вт[/color] энергии и могут нагревать или охлаждать газ в трубной сети максимум до [color=orange][protodata="GasThermoMachineHellfireHeater" comp="GasThermoMachine" member="MaxTemperature"/] K[/color] или минимум до [color=orange][protodata="GasThermoMachineHellfireFreezer" comp="GasThermoMachine" member="MinTemperature"/] K[/color].
+  Эти машины потребляют [color=orange][protodata="GasThermoMachineHellfireFreezer" comp="GasThermoMachine" member="HeatCapacity" format="N0"/] W[/color] мощности и могут нагревать газ до [color=orange][protodata="GasThermoMachineHellfireHeater" comp="GasThermoMachine" member="MaxTemperature"/] K[/color] или охлаждать до [color=orange][protodata="GasThermoMachineHellfireFreezer" comp="GasThermoMachine" member="MinTemperature"/] K[/color] в системе труб.
 
-  Однако они также пропускают [color=orange][protodata="GasThermoMachineHellfireFreezer" comp="GasThermoMachine" member="EnergyLeakPercentage" format="P0"/][/color] своей энергии в окружающую среду, нагревая или охлаждая окружающую атмосферу соответственно.
-  Это может быть опасно при неправильном обращении.
+  Однако они также излучают [color=orange][protodata="GasThermoMachineHellfireFreezer" comp="GasThermoMachine" member="EnergyLeakPercentage" format="P0"/][/color] своей энергии в окружающую среду, нагревая или охлаждая атмосферу соответственно.
+  Это может быть опасно, если не принять соответствующие меры.
 
 </Document>

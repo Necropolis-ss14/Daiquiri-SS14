@@ -185,7 +185,7 @@ public sealed partial class RecordEditorGui : Control
 
     private void UpdateImperialWeight(int newWeight)
     {
-        WeightImperialLabel.Text = UnitConversion.GetImperialDisplayMass(newWeight);
+        WeightImperialLabel.Visible = false;
     }
 }
 

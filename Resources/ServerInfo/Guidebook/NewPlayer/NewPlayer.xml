@@ -1,62 +1,42 @@
 <Document>
-# Добро пожаловать на Space Station 14!
+# Добро пожаловать в Space Station 14!
 
-  <Box>
-    <GuideEntityEmbed Entity="SignSecureMedRed" Caption="Content and Theme Warning"/>
-  </Box>
-[bold]Геймплей включает:[/bold] Похищения, Абдукции, Убийства, Гигантских пауков, Контроль разума, Пиксельные кровь и расчленёнку, Пиксельную наготу
+Вы только что заступили на смену на борту космической станции Nanotrasen.
+Перед вами и вашими товарищами по экипажу стоит задача работать вместе, выживать и веселиться!
 
-## Введение
-Вы только что начали свою смену на борту исследовательской космической станции NanoTrasen на окраине корпоративного сектора Дайкири. Хотя станция принадлежит NanoTrasen, их не было около 50 лет, и управление ею передано компании-подрядчику под названием Central Command.
+[bold]Соблюдайте все правила сервера.[/bold] Вы можете задавать вопросы или сообщать о нарушениях правил команде [color=#EB2D3A][bold]администраторов[/bold][/color], используя [bold]меню помощи администратора[/bold]. ([italic]доступно по нажатию [/italic][color=yellow][bold][keybind="OpenAHelp"/][/bold][/color])
 
-Как сотрудник Central Command, вы, скорее всего, застрахованы по программе клонирующего страхования PSO, то есть ваше оригинальное тело хранится в целости и безопасности, пока за вас работает ваш клон. Если в конце смены вы вернётесь на Central Command, ваши воспоминания будут перенесены обратно в оригинал.
+Более подробные руководства по [italic]определённым должностям[/italic] и [italic]механикам[/italic] можно найти [textlink="здесь." link="SS14"/]
 
-Вы и ваши коллеги по экипажу должны работать вместе, выживать и веселиться!
+Это руководство можно открыть в любой момент, используя [color=yellow][bold][keybind="OpenGuidebook"][/bold][/color].
 
-[bold]Обязательно соблюдайте все правила сервера.[/bold] Вы можете задавать вопросы или сообщать о нарушениях правил [color=#EB2D3A][bold]команде администраторов[/bold][/color] через [bold]меню помощи администраторов[/bold]. ([italic]открывается нажатием [/italic][color=yellow][bold][keybind="OpenAHelp"/][/bold][/color])
+## Основные элементы управления
+Ниже перечислены элементы управления, которые понадобятся вам для обычной игры:
 
-Более подробные руководства по [italic]конкретным профессиям[/italic] и [italic]механикам[/italic] можно найти [textlink="здесь." link="SS14"/]
+- Бегайте, используя [color=yellow][bold][keybind="MoveUp"][keybind="MoveLeft"][keybind="MoveDown"][keybind="MoveRight"][/bold][/color]. Зажмите [color=yellow][bold][keybind="Walk"][/bold][/color] для ходьбы.
 
-Это руководство можно открыть в любое время с помощью [color=yellow][bold][keybind="OpenGuidebook"][/bold][/color].
-
-## Базовое управление
-Ниже перечислены кнопки, которые понадобятся вам для обычной игры:
-
-- Бегайте с помощью [color=yellow][bold][keybind="MoveUp"][keybind="MoveLeft"][keybind="MoveDown"][keybind="MoveRight"][/bold][/color]. Удерживайте [color=yellow][bold][keybind="Walk"][/bold][/color], чтобы идти шагом
-
-- Осматривайте окружающий мир с помощью [color=yellow][bold][keybind="ExamineEntity"][/bold][/color]
+- Изучите окружающий мир с помощью [color=yellow][bold][keybind="ExamineEntity"][/bold][/color]
 
 - Взаимодействуйте с миром с помощью [color=yellow][bold][keybind="Use"][/bold][/color]
 
-- Наведите курсор на объект и нажмите [color=yellow][bold][keybind="UseSecondary"][/bold][/color], чтобы открыть [italic]контекстное меню[/italic], в котором есть дополнительные взаимодействия
+- Наведите курсор на объект и нажмите [color=yellow][bold][keybind="UseSecondary"][/bold][/color], чтобы увидеть [italic]контекстное меню[/italic], которое содержит дополнительные взаимодействия
 
-- Меняйте руки с помощью [color=yellow][bold][keybind="SwapHands"][/bold][/color] и активируйте предмет в руке с помощью [color=yellow][bold][keybind="ActivateItemInHand"][/bold][/color]
+- Меняйте руки, используя [color=yellow][bold][keybind="SwapHands"][/bold][/color] и активируйте текущий удерживаемый предмет с помощью [color=yellow][bold][keybind="ActivateItemInHand"][/bold][/color]
 
-- Бросайте предметы из рук с помощью [color=yellow][bold][keybind="Drop"][/bold][/color] или кидайте их с помощью [color=yellow][bold][keybind="ThrowItemInHand"][/bold][/color]
+- Положите предмет кнопкой [color=yellow][bold][keybind="Drop"][/bold][/color] или бросьте его, используя [color=yellow][bold][keybind="ThrowItemInHand"][/bold][/color]
 
-- Тяните и отпускайте объекты с помощью [color=yellow][bold][keybind="TryPullObject"][/bold][/color] и [color=yellow][bold][keybind="ReleasePulledObject"][/bold][/color]
+- Тяните и отпускайте предметы с помощью [color=yellow][bold][keybind="TryPullObject"][/bold][/color] и [color=yellow][bold][keybind="ReleasePulledObject"][/bold][/color]
 
-Более полный список можно найти на странице [textlink="управления" link="Controls"].
+Более подробный список можно найти на странице [textlink="управление" link="Controls"].
 
 ## Что такое SS14?
-Space Station 14 — это многопользовательская игра про паранойю и хаос на космической станции, ремейк культовой Space Station 13.
+Space Station 14 это многопользовательская игра о паранойе и хаосе на космической станции и ремейк культовой классической Space Station 13.
 
-Присоединяйтесь к десяткам других игроков на детально проработанной и симулированной космической станции, погружайтесь в отыгрыш роли и справляйтесь с угрозами на своём пути.
+Присоединяйтесь к десяткам других игроков на искусно спроектированной и смоделированной космической станции, погружаясь в ролевую игру и справляясь с угрозами на своем пути.
 
-SS14 — это [italic]игра с открытым исходным кодом[/italic], разработанная людьми [bold]такими же, как вы![/bold]
+SS14 - это [italic]игра с открытым исходным кодом[/italic], разработанная такими же людьми, [bold]как и вы![/bold]
 Она получает [color=lime]ежедневные обновления[/color] и временами может быть [color=#EB2D3A][bold]нестабильной.[/bold][/color]
 
-[italic]Если хотите сообщить о багах или помочь с разработкой, присоединяйтесь к Discord и узнайте, с чего начать.[/italic]
-
-
-## Дальнейшее чтение
-
-- [textlink="Гайды по отыгрышу" link="RoleplayGuideIntro"/]
-
-- [textlink="Правила" link="StarlightRuleset"/]
-
-- [textlink="Метащит" link="Metashield"/]
-
-
+[italic]Если вы хотите сообщать об ошибках или помогать в разработке, присоединяйтесь к discord и узнайте, с чего начать.[/italic]
 
 </Document>

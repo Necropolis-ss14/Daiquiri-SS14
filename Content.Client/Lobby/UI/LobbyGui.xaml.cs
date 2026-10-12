@@ -29,6 +29,7 @@ namespace Content.Client.Lobby.UI
         // stylesheet tint each step, so glass transparency keeps working.
         private readonly Dictionary<PanelContainer, (int Gen, float Factor)> _panelFades = new();
         private const float PanelFadeMin = 0.95f;
+        private const float PanelFadeGlassMin = 0.90f;
         private const float PanelFadeStep = 0.01f;
 
         public LobbyGui()
@@ -55,6 +56,25 @@ namespace Content.Client.Lobby.UI
 
         // Daiquiri: fade panel backgrounds while hovering them (works with glass too).
         Timer.Spawn(120, () => PollPanelHover());
+        // Daiquiri: theme switch drops stale fade overrides so panels redraw fully fresh.
+        _configurationManager.OnValueChanged(StarlightCCVars.StyleTheme, _ => ResetPanelFades());
+        }
+
+        private void ResetPanelFades()
+        {
+            if (Disposed)
+                return;
+            _panelFades.Clear();
+            _panelTargets.Clear();
+            foreach (var panel in new[]
+                     {
+                         LeftSideTop, SongPanel, ButtonsCard, CharacterCard,
+                         ServerInfoCard, JobsCard, ChatCard,
+                     })
+            {
+                if (!panel.Disposed)
+                    panel.ModulateSelfOverride = null;
+            }
         }
 
         private readonly Dictionary<PanelContainer, float> _panelTargets = new();
@@ -86,9 +106,10 @@ namespace Content.Client.Lobby.UI
                 var hovered = panel.GlobalRect.Contains(mouse);
                 // Daiquiri: with the glass theme on, the fade runs in reverse —
                 // panels rest slightly faded and turn solid under the cursor.
+                // Rest fade is 10% with glass, hover fade is 5% without it.
                 float target;
                 if (_configurationManager.GetCVar(StarlightCCVars.UIGlassTheme))
-                    target = hovered ? 1f : PanelFadeMin;
+                    target = hovered ? 1f : PanelFadeGlassMin;
                 else
                     target = hovered ? PanelFadeMin : 1f;
                 if (_panelTargets.TryGetValue(panel, out var current) && Math.Abs(current - target) < 0.001f)

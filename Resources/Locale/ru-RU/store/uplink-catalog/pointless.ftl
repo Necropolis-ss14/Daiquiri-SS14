@@ -56,3 +56,15 @@ uplink-decoy-kit-desc = Суперсовременная технология о
 
 uplink-contraband-lighter-name = Коробка контрабандных зажигалок
 uplink-contraband-lighter-desc = Загадочная коробка, в которой гарантировано будет брендовая зажигалка Синдиката. Не требует топлива.
+
+uplink-syndicate-segway-crate-name = Сигвей Синдиката
+uplink-syndicate-segway-crate-desc = Будь врагом корпорации — со стилем!
+
+uplink-ultrabright-lantern-name = Сверхъяркий фонарь
+uplink-ultrabright-lantern-desc = Этим сверхъярким фонарём можно слепить людей, как вспышкой.
+
+uplink-banana-peel-explosive-name = Взрывная банановая кожура
+uplink-banana-peel-explosive-desc = Они лопнут со смеху, поскользнувшись на ней!
+
+uplink-necronomicon-name = Некрономикон
+uplink-necronomicon-desc = Нечестивая книга, призывающая демонического фамильяра.

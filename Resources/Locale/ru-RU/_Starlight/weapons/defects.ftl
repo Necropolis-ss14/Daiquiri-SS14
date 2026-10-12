@@ -1,0 +1,16 @@
+defect-description-line = Дефекты: { $defects }.
+defect-label-bent-switch = погнутый переключатель
+defect-label-corroded-fuse = проржавевший предохранитель
+defect-label-cracked-chamber = треснувшая камора
+defect-label-damaged-bolt = повреждённый затвор
+defect-label-degraded-filler = деградировавший наполнитель
+defect-label-erratic-trigger-group = глючная УСМ
+defect-label-faulty-discharge-capacitor = неисправный разрядный конденсатор
+defect-label-faulty-power-connector = неисправный разъём питания
+defect-label-missing-handle = нет рукояти
+defect-label-warped-barrel = поведённый ствол
+defect-label-weak-power-cell = слабая батарея
+defect-name-like-new = Как новый { $name }
+defect-name-rusty = Ржавый { $name }
+defect-name-used = Б/у { $name }
+defect-name-worn = Поношенный { $name }

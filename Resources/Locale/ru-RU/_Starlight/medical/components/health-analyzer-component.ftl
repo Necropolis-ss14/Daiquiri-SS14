@@ -27,3 +27,23 @@ health-analyzer-report-quantity-blood = {$blood}u
 health-analyzer-window-quantity-both = [color=#AAAAAA]({$stomach}u)[/color] {$blood}u
 health-analyzer-window-quantity-stomach = [color=#AAAAAA]({$stomach}u)[/color]
 health-analyzer-window-quantity-blood = {$blood}u
+starlight-health-analyzer-window-entity-status-text = Статус
+starlight-health-analyzer-window-entity-temperature-text = Температура
+starlight-health-analyzer-window-entity-blood-level-text = Уровень крови
+starlight-health-analyzer-window-entity-damage-total-text = Суммарный урон
+starlight-health-analyzer-window-section-vitals = Показатели
+starlight-health-analyzer-window-section-damage = Разбор урона
+starlight-health-analyzer-window-section-abnormalities = Аномалии
+starlight-health-analyzer-window-section-chemicals = Анализ химии
+starlight-health-analyzer-window-damage-none = Урона нет
+starlight-health-analyzer-window-entity-rot-timer-text = Гниение
+starlight-health-analyzer-window-time-justnow = Только что
+starlight-health-analyzer-window-time-under-minute = меньше минуты
+starlight-health-analyzer-window-time-in-minutes = примерно через { $minutes } мин
+starlight-health-analyzer-window-time-since-minutes = около { $minutes } мин назад
+starlight-health-analyzer-window-entity-unrevivable-text = [bold]Дефибрилляция невозможна[/bold]
+starlight-health-analyzer-abnormality-open-incisions = Открытые разрезы
+starlight-health-analyzer-abnormality-missing-organs = Нет органов
+starlight-health-analyzer-abnormality-catatonic = [bold]Кататония[/bold]
+starlight-health-analyzer-abnormality-hollow = [bold]Пустой[/bold]
+starlight-health-analyzer-abnormality-extreme-bleeding = Сильное кровотечение

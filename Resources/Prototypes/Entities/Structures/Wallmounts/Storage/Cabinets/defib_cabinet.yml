@@ -17,6 +17,8 @@
       visible: true
     - state: closed
       map: ["enum.OpenableVisuals.Layer"]
+    - state: light
+      shader: unshaded
   - type: ItemSlots
     slots:
       ItemCabinet:

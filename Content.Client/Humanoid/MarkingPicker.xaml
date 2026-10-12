@@ -5,9 +5,9 @@
         <BoxContainer Orientation="Horizontal" SeparationOverride="5" HorizontalExpand="True">
             <!-- Unused markings -->
             <BoxContainer Orientation="Vertical" HorizontalExpand="True">
-                <BoxContainer Orientation="Horizontal" HorizontalExpand="True">
-                    <Label Text="{Loc 'markings-unused'}" HorizontalAlignment="Stretch" HorizontalExpand="True" />
-                    <Label Name="CMarkingPoints" Text="uwu" HorizontalAlignment="Right" />
+                <BoxContainer Orientation="Vertical" HorizontalExpand="True">
+                    <Label Text="{Loc 'markings-unused'}" HorizontalExpand="True" />
+                    <Label Name="CMarkingPoints" Text="uwu" HorizontalAlignment="Left" />
                 </BoxContainer>
 
                 <OptionButton Name="CMarkingCategoryButton" StyleClasses="OpenLeft" />

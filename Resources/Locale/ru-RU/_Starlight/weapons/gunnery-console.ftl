@@ -1,0 +1,16 @@
+gunnery-ballistic = Баллистика
+gunnery-ballistic-tooltip = Показать баллистическую артиллерию
+gunnery-cannons = ОРУДИЯ
+gunnery-cooldown = Перезарядка
+gunnery-energy = Энергия
+gunnery-energy-tooltip = Показать энергооружие
+gunnery-filter = ФИЛЬТР:
+gunnery-guidance-active = НАВЕДЕНИЕ АКТИВНО
+gunnery-guidance-hint = НАВЕДЕНИЕ АКТИВНО — держи ЛКМ для управления
+gunnery-no-ammo = Нет боеприпасов
+gunnery-other = Прочее
+gunnery-other-tooltip = Показать оружие без категории
+gunnery-ready = Готово
+gunnery-rocket = Ракеты
+gunnery-rocket-tooltip = Показать ракетницы и пусковики
+gunnery-title = Орудийная консоль

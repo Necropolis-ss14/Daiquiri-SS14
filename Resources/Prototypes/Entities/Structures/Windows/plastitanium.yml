@@ -218,3 +218,4 @@
   - type: Damageable
     damageContainer: StructuralInorganic
     damageModifierSet: RGlass
+

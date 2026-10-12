@@ -1,47 +1,47 @@
 <Document>
   # Портативные генераторы
 
-  Линейка портативных генераторов «P.A.C.M.A.N.» используется для аварийного или дополнительного питания ключевых комнат, зон или даже отделов.
-  Они просты в установке и обслуживании и могут питать критические системы и зоны при отключении энергии.
+  Серия портативных генераторов "П.А.К.М.А.Н." используется для обеспечения аварийного или дополнительного электропитания ключевых помещений, зон или даже отделов.
+  Они просты в установке и обслуживании и могут использоваться для питания критически важных систем и объектов в случае отключения электроэнергии.
 
   <Box>
-    <GuideEntityEmbed Entity="PortableGeneratorJrPacman" Caption="J.R.P.A.C.M.A.N." />
-    <GuideEntityEmbed Entity="PortableGeneratorPacman" Caption="P.A.C.M.A.N." />
-    <GuideEntityEmbed Entity="PortableGeneratorSuperPacman" Caption="S.U.P.E.R.P.A.C.M.A.N." />
+    <GuideEntityEmbed Entity="PortableGeneratorJrPacman" Caption="М.И.Н.И.П.А.К.М.А.Н." />
+    <GuideEntityEmbed Entity="PortableGeneratorPacman" Caption="П.А.К.М.А.Н." />
+    <GuideEntityEmbed Entity="PortableGeneratorSuperPacman" Caption="С.У.П.Е.Р.П.А.К.М.А.Н." />
   </Box>
 
   # Младший
 
   <Box>
-    <GuideEntityEmbed Entity="PortableGeneratorJrPacman" Caption="J.R.P.A.C.M.A.N." />
+    <GuideEntityEmbed Entity="PortableGeneratorJrPacman" Caption="М.И.Н.И.П.А.К.М.А.Н." />
     <GuideEntityEmbed Entity="WeldingFuelTank" />
   </Box>
 
-  J.R.P.A.C.M.A.N. можно найти по станции в технических тоннелях, и он идеален, чтобы экипаж сам ставил его при проблемах с энергией.
-  Его выдача до [color=orange][protodata="PortableGeneratorJrPacman" comp="FuelGenerator" member="MaxTargetPower" format="N0"/] Вт[/color] достаточна для питания комнаты или двух, что может оказаться бесценно в таком месте, как медбей или химия медицинского отдела.
+  М.И.Н.И.П.А.К.М.А.Н. можно найти по всей станции в технических тунелях, и он идеально подходит для того, чтобы члены экипажа могли самостоятельно запитать устройства при возникновении проблем с электроснабжением.
+  Его мощности до [color=orange][protodata="PortableGeneratorJrPacman" comp="FuelGenerator" member="MaxTargetPower" format="N0"/] Вт[/color] достаточно для питания одной-двух комнат, что может оказаться бесценным в таких местах, как палаты медицинского отдела или химической.
 
-  Установка невероятно проста: прикрутите его поверх силового кабеля [color=green]НН[/color], дайте ему сварочного топлива и запустите.
+  Установка невероятно проста: закрепите его гаечным ключом над [color=green]НВ[/color] кабелем, добавьте сварочного топлива и запустите.
 
-  Сварочное топливо — единственный источник топлива, который может использовать J.R.P.A.C.M.A.N., и его можно найти в баках сварочного топлива по станции, обычно в технических зонах.
+  Сварочное топливо является единственным источником топлива для М.И.Н.И.П.А.К.М.А.Н. Его можно обнаружить в топливных резервуарах на всей территории станции, чаще всего в технических тунелях.
 
-  # Большие
+  # Старшие
 
   <Box>
-    <GuideEntityEmbed Entity="PortableGeneratorPacman" Caption="P.A.C.M.A.N." />
+    <GuideEntityEmbed Entity="PortableGeneratorPacman" Caption="П.А.К.М.А.Н." />
     <GuideEntityEmbed Entity="SheetPlasma" />
   </Box>
 
   <Box>
-    <GuideEntityEmbed Entity="PortableGeneratorSuperPacman" Caption="S.U.P.E.R.P.A.C.M.A.N." />
+    <GuideEntityEmbed Entity="PortableGeneratorSuperPacman" Caption="С.У.П.Е.Р.П.А.К.М.А.Н." />
     <GuideEntityEmbed Entity="SheetUranium" />
   </Box>
 
-  P.A.C.M.A.N. и S.U.P.E.R.P.A.C.M.A.N. предназначены для использования инженерией при крупных отключениях энергии и подпитки при дефиците.
-  Раскрутка более крупных [textlink="двигателей" link="SingularityTeslaEngine"], питание отделов и так далее.
+  П.А.К.М.А.Н. и С.У.П.Е.Р.П.А.К.М.А.Н. предназначены для использования инженерами при крупных отключениях электроэнергии и для восполнения дефицита электроэнергии.
+  Запуск больших [textlink="двигателей" link="SingularityTeslaEngine"], обеспечение работы отделов и так далее.
 
-  S.U.P.E.R.P.A.C.M.A.N. хвастается большей выходной мощностью (до [color=orange][protodata="PortableGeneratorSuperPacman" comp="FuelGenerator" member="MaxTargetPower" format="N0"/] Вт[/color]) и более долгой работой на максимальной выдаче, но менее эффективно снижает выдачу до низких значений.
+  С.У.П.Е.Р.П.А.К.М.А.Н. бладает большей выходной мощностью (вплоть до [color=orange][protodata="PortableGeneratorSuperPacman" comp="FuelGenerator" member="MaxTargetPower" format="N0"/] Вт[/color]) и более длительным временем работы на максимальной мощности, но менее эффективно масштабируется до более низких значений мощности.
 
-  Они подключаются напрямую к силовым кабелям [color=yellow]СН[/color] или [color=orange]ВН[/color] [textlink="электросетям" link="VoltageNetworks"] и могут переключаться между ними для гибкости.
+  Они подключаются напрямую к [color=yellow]СВ[/color] или [color=orange]ВВ[/color] [textlink="кабелям" link="VoltageNetworks"] и могут переключаться между ними для большей гибкости.
 
-  S.U.P.E.R.P.A.C.M.A.N и P.A.C.M.A.N требуют в качестве топлива листы урана и листы плазмы соответственно.
+  С.У.П.Е.Р.П.А.К.М.А.Н. и П.А.К.М.А.Н.  работают на уране и плазме в качестве топлива, соответственно.
 </Document>

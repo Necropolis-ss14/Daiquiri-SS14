@@ -20,46 +20,6 @@
       "name": "ball"
     },
     {
-      "name": "fmj",
-      "delays": [
-        [
-          0.05,
-          0.05
-        ]
-      ],
-      "copyright": "darkrell"
-    },
-    {
-      "name": "sp",
-      "delays": [
-        [
-          0.05,
-          0.05
-        ]
-      ],
-      "copyright": "darkrell"
-    },
-    {
-      "name": "ap",
-      "delays": [
-        [
-          0.05,
-          0.05
-        ]
-      ],
-      "copyright": "darkrell"
-    },
-    {
-      "name": "incendiary",
-      "delays": [
-        [
-          0.05,
-          0.05
-        ]
-      ],
-      "copyright": "darkrell"
-    },
-    {
       "name": "bullet",
       "delays": [
         [
@@ -148,6 +108,46 @@
     },
     {
       "name": "crossbowbolt"
+    },
+    {
+      "name": "fmj",
+      "delays": [
+        [
+          0.05,
+          0.05
+        ]
+      ],
+      "copyright": "darkrell"
+    },
+    {
+      "name": "sp",
+      "delays": [
+        [
+          0.05,
+          0.05
+        ]
+      ],
+      "copyright": "darkrell"
+    },
+    {
+      "name": "ap",
+      "delays": [
+        [
+          0.05,
+          0.05
+        ]
+      ],
+      "copyright": "darkrell"
+    },
+    {
+      "name": "incendiary",
+      "delays": [
+        [
+          0.05,
+          0.05
+        ]
+      ],
+      "copyright": "darkrell"
     }
   ]
 }

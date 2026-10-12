@@ -62,3 +62,24 @@ uplink-grenade-launcher-bundle-desc = Старый гранатомёт China-La
 
 uplink-l6-saw-bundle-name = Набор "L6 Saw"
 uplink-l6-saw-bundle-desc = Ещё больше дакки: культовый лёгкий пулемёт L6 в комплекте с 2 коробами патронов.
+
+uplink-revolver-python-name = Питон
+uplink-revolver-python-desc = Жестокий, простой, эффективный и громкий револьвер Синдиката. Заряжен бронебойными. Под .45 магнум.
+
+uplink-esword-double-name = Двуклинковый энергмеч
+uplink-esword-double-desc = Намного более дорогая версия обычного энергмеча: выше шанс отражения, шире угол атаки, больше урон по конструкциям и быстрее замах. При использовании и включении сильно шумит.
+
+uplink-hypereutactic-blade-name = Гиперевтактический клинок
+uplink-hypereutactic-blade-desc = Гигантский энергмеч, мощный под стать внешности. Требует две руки. Медленный и неуклюжий, но отлично отражает. Прославился благодаря оперативнику в маске радости. Не хотел бы увидеть его в конце коридора!
+
+uplink-fire-axe-flaming-name = Пожарный топор
+uplink-fire-axe-flaming-desc = Классический топор с продвинутой атмосферной технологией — поджигает цели. Теперь с прочной прорезиненной рукоятью!
+
+uplink-speedloader-magnum-name = Спидлоадер (.45 магнум ББ)
+uplink-speedloader-magnu-desc = Барабан на 6 бронебойных, игнорируют броню полностью. К Питону.
+
+uplink-grenade-launcher-frag-ammo-name = Осколочные заряды (Чайна-Лейк)
+uplink-grenade-launcher-frag-ammo-desc = Пачка из 6 осколочных зарядов. К гранатомёту Чайна-Лейк.
+
+uplink-grenade-launcher-blast-ammo-name = Фугасные заряды (Чайна-Лейк)
+uplink-grenade-launcher-blast-ammo-desc = Пачка из 6 фугасных зарядов. К гранатомёту Чайна-Лейк.

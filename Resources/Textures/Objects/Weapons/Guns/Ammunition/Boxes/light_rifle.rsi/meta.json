@@ -35,15 +35,6 @@
       "name": "incendiary"
     },
     {
-      "name": "sp"
-    },
-    {
-      "name": "fmj"
-    },
-    {
-      "name": "ap"
-    },
-    {
       "name": "practice"
     },
     {
@@ -51,6 +42,18 @@
     },
     {
       "name": "uranium"
+    },
+    {
+      "name": "pulse"
+    },
+    {
+      "name": "sp"
+    },
+    {
+      "name": "fmj"
+    },
+    {
+      "name": "ap"
     }
   ]
 }

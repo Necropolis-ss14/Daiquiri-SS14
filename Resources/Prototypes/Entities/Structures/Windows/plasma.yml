@@ -128,7 +128,7 @@
     - Window
   - type: IconSmooth
     mode: Diagonal
-    key: windows
+    key: walls
     base: state
   - type: Icon
     sprite: Structures/Windows/plasma_diagonal.rsi
@@ -157,3 +157,4 @@
   - type: Construction
     graph: WindowDiagonal
     node: plasmaWindowDiagonal
+

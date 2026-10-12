@@ -2,6 +2,7 @@ using Content.Server.GameTicking;
 using Content.Server.RoundEnd;
 using Content.Server.Voting.Managers;
 using Content.Shared._Starlight.CCVar;
+using Content.Shared.CCVar;
 using Content.Shared.Voting;
 using Robust.Server.Player;
 using Robust.Shared.Timing;
@@ -60,10 +61,19 @@ public sealed partial class RoundEndVoteSystem : EntitySystem
         if (_gameTicker.RunLevel != GameRunLevel.PreRoundLobby)
             return;
 
+        // Daiquiri: auto-votes run a minute; manual votes keep their own durations.
+        var presetDur = _cfg.GetCVar(CCVars.VoteTimerPreset);
+        var mapDur = _cfg.GetCVar(CCVars.VoteTimerMap);
+        _cfg.SetCVar(CCVars.VoteTimerPreset, 60);
+        _cfg.SetCVar(CCVars.VoteTimerMap, 60);
+
         if (_cfg.GetCVar(StarlightCCVars.RunMapVoteAfterRestart))
             _voteManager.CreateStandardVote(null, StandardVoteType.Map);
 
         if (_cfg.GetCVar(StarlightCCVars.RunPresetVoteAfterRestart))
             _voteManager.CreateStandardVote(null, StandardVoteType.Preset);
+
+        _cfg.SetCVar(CCVars.VoteTimerPreset, presetDur);
+        _cfg.SetCVar(CCVars.VoteTimerMap, mapDur);
     }
 }
