@@ -103,59 +103,11 @@ namespace Content.Client.Lobby
             _userInterfaceManager.GetUIController<LobbyUIController>().OnAnyCharacterOrJobChange += UpdateCharacterCard;
             UpdateCharacterCard();
 
-            // Daiquiri: first-run liquid glass prompt with live preview.
-            // Shown only to newcomers (no characters yet), veterans are marked silently.
-            if (!_cfg.GetCVar(StarlightCCVars.UIGlassThemeSeen))
-            {
-                if (_preferences.ServerDataLoaded)
-                    MaybeShowGlassPrompt();
-                else
-                    _preferences.OnServerDataLoaded += OnPrefsLoadedForGlassPrompt;
-            }
-
             // We need to set the disabled state of the ready button when the preferences are loaded...
             // Check for the case that they're already loaded!
             if(_preferences.ServerDataLoaded)
                 UpdateReadyAllowed();
             _preferences.OnServerDataLoaded += UpdateReadyAllowed;
-        }
-
-        private void OnPrefsLoadedForGlassPrompt()
-        {
-            _preferences.OnServerDataLoaded -= OnPrefsLoadedForGlassPrompt;
-            MaybeShowGlassPrompt();
-        }
-
-        private void MaybeShowGlassPrompt()
-        {
-            if (_cfg.GetCVar(StarlightCCVars.UIGlassThemeSeen))
-                return;
-
-            // Veterans (already have characters) never see the prompt.
-            if ((_preferences.Preferences?.Characters.Count ?? 0) != 0)
-            {
-                _cfg.SetCVar(StarlightCCVars.UIGlassThemeSeen, true);
-                return;
-            }
-
-            var glassPrompt = _userInterfaceManager.CreateWindow<GlassThemePrompt>();
-            glassPrompt.OpenCentered();
-
-            // Newcomers get the timefracture track with the prompt.
-            _glassTrackSwitchPending = true;
-            TrySwitchNewcomerTrack();
-        }
-
-        private bool _glassTrackSwitchPending;
-
-        private void TrySwitchNewcomerTrack()
-        {
-            var track = _contentAudioSystem.LobbyPlaylistTracks
-                ?.FirstOrDefault(f => f.Contains("timefracture", StringComparison.OrdinalIgnoreCase));
-            if (track == null || _contentAudioSystem.CurrentLobbyTrack == track)
-                return;
-
-            _contentAudioSystem.PlayLobbyTrack(track);
         }
 
         private string GetReadyButtonTooltipText()
@@ -185,7 +137,6 @@ namespace Content.Client.Lobby
             _gameTicker.LobbyLateJoinStatusUpdated -= LobbyLateJoinStatusUpdated;
             _contentAudioSystem.LobbySoundtrackChanged -= UpdateLobbySoundtrackInfo;
             _contentAudioSystem.LobbyPlaylistChanged -= RefreshLobbyTrackLabel;
-            _preferences.OnServerDataLoaded -= OnPrefsLoadedForGlassPrompt;
 
             _voteManager.ClearPopupContainer();
 
@@ -362,13 +313,6 @@ namespace Content.Client.Lobby
 
         private void UpdateLobbySoundtrackInfo(LobbySoundtrackChangedEvent ev)
         {
-            // Playlist may arrive after the newcomer prompt - retry the track switch once.
-            if (_glassTrackSwitchPending)
-            {
-                _glassTrackSwitchPending = false;
-                TrySwitchNewcomerTrack();
-            }
-
             if (ev.SoundtrackFilename == null)
             {
                 SetLobbyTrackLabel(null);

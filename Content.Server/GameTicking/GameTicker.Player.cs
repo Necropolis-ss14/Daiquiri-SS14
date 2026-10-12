@@ -1,4 +1,5 @@
-﻿using Content.Shared.Administration;
+﻿using Content.Server._Starlight.Glass;
+using Content.Shared.Administration;
 using Content.Shared.CCVar;
 using Content.Shared.Database;
 using Content.Shared.GameTicking;
@@ -63,6 +64,10 @@ namespace Content.Server.GameTicking
                     _chatManager.SendAdminAnnouncement(firstConnection
                         ? Loc.GetString("player-first-join-message", ("name", args.Session.Name))
                         : Loc.GetString("player-join-message", ("name", args.Session.Name)));
+
+                    // Daiquiri: show the newcomer glass prompt on first join.
+                    if (firstConnection)
+                        EntityManager.System<GlassPromptServerSystem>().ShowPromptTo(args.Session);
 
                     RaiseNetworkEvent(GetConnectionStatusMsg(), session.Channel);
 
