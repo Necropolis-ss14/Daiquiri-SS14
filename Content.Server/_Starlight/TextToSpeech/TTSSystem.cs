@@ -255,6 +255,7 @@ public sealed partial class TTSSystem : EntitySystem
         text = TagStripperRegex().Replace(text, "");
         text = SmartQuotes().Replace(text, "'");
         text = CharFilter().Replace(text, "");
+        text = Transliteration.Transliterate(text);
         text = NumberConverter.NumberPattern().Replace(text, match => NumberConverter.Convert(match.Value));
         return text;
     }

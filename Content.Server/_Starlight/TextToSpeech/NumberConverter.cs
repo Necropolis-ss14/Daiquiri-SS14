@@ -5,28 +5,36 @@ namespace Content.Server._Starlight.TextToSpeech;
 
 public static partial class NumberConverter
 {
-    private static readonly string[] _units =
+    private static readonly string[] _unitsMasculine =
     [
-        "", "one", "two", "three", "four", "five", "six",
-        "seven", "eight", "nine", "ten", "eleven",
-        "twelve", "thirteen", "fourteen", "fifteen",
-        "sixteen", "seventeen", "eighteen", "nineteen"
+        "", "один", "два", "три", "четыре", "пять", "шесть",
+        "семь", "восемь", "девять", "десять", "одиннадцать",
+        "двенадцать", "тринадцать", "четырнадцать", "пятнадцать",
+        "шестнадцать", "семнадцать", "восемнадцать", "девятнадцать"
+    ];
+
+    private static readonly string[] _unitsFeminine =
+    [
+        "", "одна", "две", "три", "четыре", "пять", "шесть",
+        "семь", "восемь", "девять", "десять", "одиннадцать",
+        "двенадцать", "тринадцать", "четырнадцать", "пятнадцать",
+        "шестнадцать", "семнадцать", "восемнадцать", "девятнадцать"
     ];
 
     private static readonly string[] _tens =
     [
-        "", "ten", "twenty", "thirty", "forty", "fifty",
-        "sixty", "seventy", "eighty", "ninety"
+        "", "десять", "двадцать", "тридцать", "сорок", "пятьдесят",
+        "шестьдесят", "семьдесят", "восемьдесят", "девяносто"
     ];
 
-    private static readonly string[] _scales =
+    private static readonly string[] _hundreds =
     [
-        "", "thousand", "million", "billion", "trillion",
-        "quadrillion", "quintillion", "sextillion", "septillion"
+        "", "сто", "двести", "триста", "четыреста", "пятьсот",
+        "шестьсот", "семьсот", "восемьсот", "девятьсот"
     ];
 
     private static readonly string[] _digits =
-    ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"];
+    ["ноль", "один", "два", "три", "четыре", "пять", "шесть", "семь", "восемь", "девять"];
 
     public static string Convert(string numberStr)
     {
@@ -36,12 +44,12 @@ public static partial class NumberConverter
         {
             var parts = numberStr.Split('.', 2);
             var integerPart = string.IsNullOrEmpty(parts[0]) || parts[0] == "-"
-                ? "zero"
+                ? "ноль"
                 : NumberToText(long.Parse(parts[0]));
 
             var decimalPart = DecimalToText(parts[1]);
 
-            return $"{integerPart} point {decimalPart}";
+            return $"{integerPart} запятая {decimalPart}";
         }
 
         return NumberToText(long.Parse(numberStr));
@@ -67,46 +75,64 @@ public static partial class NumberConverter
     public static string NumberToText(long number)
     {
         if (number == 0)
-            return "zero";
+            return "ноль";
 
         if (number < 0)
-            return "negative " + NumberToText(-number);
+            return "минус " + NumberToText(-number);
 
         var words = new StringBuilder();
-        var unit = 0;
 
-        while (number > 0)
+        // (scale, one, few, many, feminine)
+        var scales = new (long scale, string one, string few, string many, bool feminine)[]
         {
-            if (number % 1000 != 0)
-            {
-                var chunk = ConvertChunk((int)(number % 1000));
+            (1_000_000_000_000L, "триллион", "триллиона", "триллионов", false),
+            (1_000_000_000L, "миллиард", "миллиарда", "миллиардов", false),
+            (1_000_000L, "миллион", "миллиона", "миллионов", false),
+            (1_000L, "тысяча", "тысячи", "тысяч", true),
+        };
 
-                if (!string.IsNullOrEmpty(_scales[unit]))
-                    chunk += " " + _scales[unit];
+        foreach (var (scale, one, few, many, feminine) in scales)
+        {
+            if (number < scale)
+                continue;
 
-                if (words.Length > 0)
-                    words.Insert(0, chunk + " ");
-                else
-                    words.Append(chunk);
-            }
+            var count = number / scale;
+            number %= scale;
 
-            number /= 1000;
-            unit++;
+            words.Append(ConvertChunk((int)count, feminine));
+            words.Append(' ');
+            words.Append(Plural(count, one, few, many));
+            words.Append(' ');
         }
+
+        if (number > 0)
+            words.Append(ConvertChunk((int)number, false));
 
         return words.ToString().Trim();
     }
 
-    private static string ConvertChunk(int number)
+    private static string Plural(long n, string one, string few, string many)
+    {
+        var n10 = n % 10;
+        var n100 = n % 100;
+        if (n10 == 1 && n100 != 11)
+            return one;
+        if (n10 >= 2 && n10 <= 4 && (n100 < 12 || n100 > 14))
+            return few;
+        return many;
+    }
+
+    private static string ConvertChunk(int number, bool feminine)
     {
         var result = new StringBuilder();
+        var units = feminine ? _unitsFeminine : _unitsMasculine;
 
         var hundreds = number / 100;
         var tensUnits = number % 100;
 
         if (hundreds > 0)
         {
-            result.Append(_units[hundreds] + " hundred");
+            result.Append(_hundreds[hundreds]);
             if (tensUnits > 0)
                 result.Append(' ');
         }
@@ -115,16 +141,16 @@ public static partial class NumberConverter
         {
             if (tensUnits < 20)
             {
-                result.Append(_units[tensUnits]);
+                result.Append(units[tensUnits]);
             }
             else
             {
                 var tens = tensUnits / 10;
-                var units = tensUnits % 10;
+                var rest = tensUnits % 10;
 
                 result.Append(_tens[tens]);
-                if (units > 0)
-                    result.Append('-' + _units[units]);
+                if (rest > 0)
+                    result.Append(' ' + units[rest]);
             }
         }
 

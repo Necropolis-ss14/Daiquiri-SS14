@@ -1,5 +1,10 @@
 tts-voice-name-0 = Colorfinger
 tts-voice-name-1 = Marcus
+tts-voice-name-dmitri = Dmitri
+tts-voice-name-irina = Irina
+tts-voice-name-ruslan = Ruslan
+tts-voice-name-borg-1 = Borg-1
+tts-voice-name-borg-2 = Borg-2
 tts-voice-name-2 = Vincent
 tts-voice-name-3 = Karma
 tts-voice-name-5 = Felinoid

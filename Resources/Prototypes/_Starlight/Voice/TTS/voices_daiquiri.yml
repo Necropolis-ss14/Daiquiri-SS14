@@ -1,0 +1,59 @@
+# Daiquiri: trimmed voice pool, 1:1 with the TTS box.
+# The box maps prototype voice number % 3 to Piper models:
+# 0 = dmitri (male), 1 = irina (female), 2 = ruslan (male).
+# vid >= 1000 counts as silicon (same voice, lowered pitch).
+# Announce voice 2001 needs no prototype: 2001 % 3 = 0 (dmitri).
+
+- type: voice
+  id: dmitri
+  voice: 0
+  name: tts-voice-name-dmitri
+  sex: Male
+  silicon: false
+  pitch: Medium
+  tags:
+  - russian
+  - clear
+  - serious
+
+- type: voice
+  id: irina
+  voice: 1
+  name: tts-voice-name-irina
+  sex: Female
+  silicon: false
+  pitch: High
+  tags:
+  - russian
+  - clear
+
+- type: voice
+  id: ruslan
+  voice: 2
+  name: tts-voice-name-ruslan
+  sex: Male
+  silicon: false
+  pitch: Low
+  tags:
+  - russian
+  - harsh
+
+- type: voice
+  id: borg_voice_1
+  voice: 1000
+  name: tts-voice-name-borg-1
+  sex: Unsexed
+  silicon: true
+  pitch: Low
+  tags:
+  - russian
+
+- type: voice
+  id: borg_voice_2
+  voice: 1001
+  name: tts-voice-name-borg-2
+  sex: Unsexed
+  silicon: true
+  pitch: Low
+  tags:
+  - russian
