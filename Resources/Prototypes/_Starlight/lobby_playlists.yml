@@ -33,10 +33,45 @@
     - /Audio/_Starlight/Lobby/Null_Scar_Gaze.ogg
 
 - type: lobbyPlaylist
-  id: Test
-  name: Тест
+  id: Other
+  name: Другое
   turnon: false
   tracks:
-    - /Audio/_Starlight/Lobby/test_judos.ogg
     - /Audio/_Starlight/Lobby/test_ifyouwerehere.ogg
     - /Audio/_Starlight/Lobby/test_alone.ogg
+
+- type: lobbyPlaylist
+  id: JPOP
+  name: JPOP
+  turnon: false
+  tracks:
+    - /Audio/_Starlight/Lobby/Jpop/Ado_-Useewa.ogg
+    - /Audio/_Starlight/Lobby/Jpop/Alive.ogg
+    - /Audio/_Starlight/Lobby/Jpop/ninelie.ogg
+
+- type: lobbyPlaylist
+  id: KPOP
+  name: KPOP
+  turnon: false
+  tracks:
+    - /Audio/_Starlight/Lobby/Kpop/BTS_-_butter.ogg
+    - /Audio/_Starlight/Lobby/Kpop/BTS_-_Dynamite.ogg
+    - /Audio/_Starlight/Lobby/Kpop/Stray_kids_-_Stray_kids.ogg
+
+- type: lobbyPlaylist
+  id: POP
+  name: POP
+  turnon: false
+  tracks:
+    - /Audio/_Starlight/Lobby/Pop/Elley_Duhe_-_Middle_of_the_Night.ogg
+    - /Audio/_Starlight/Lobby/Pop/Katy_Perry_-_Hot_N_Cold.ogg
+    - /Audio/_Starlight/Lobby/test_judos.ogg
+
+- type: lobbyPlaylist
+  id: Videogames
+  name: Видеоигры
+  turnon: false
+  tracks:
+    - /Audio/_Starlight/Lobby/Videogames/The_Rebel_Path.ogg
+    - /Audio/_Starlight/Lobby/Videogames/Keiichi_Okabe_NieR_Automata_-_Weight_of_the_World.ogg
+    - /Audio/_Starlight/Lobby/Videogames/V_-_CD_Project_Red.ogg

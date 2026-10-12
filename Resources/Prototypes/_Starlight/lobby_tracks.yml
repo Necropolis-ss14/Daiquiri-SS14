@@ -133,3 +133,47 @@
 - type: lobbyTrack
   id: /Audio/_Starlight/Lobby/test_alone.ogg
   title: Alone
+
+- type: lobbyTrack
+  id: /Audio/_Starlight/Lobby/Jpop/Ado_-Useewa.ogg
+  title: Ado - Useewa
+
+- type: lobbyTrack
+  id: /Audio/_Starlight/Lobby/Jpop/Alive.ogg
+  title: Alive
+
+- type: lobbyTrack
+  id: /Audio/_Starlight/Lobby/Jpop/ninelie.ogg
+  title: ninelie
+
+- type: lobbyTrack
+  id: /Audio/_Starlight/Lobby/Kpop/BTS_-_butter.ogg
+  title: BTS - Butter
+
+- type: lobbyTrack
+  id: /Audio/_Starlight/Lobby/Kpop/BTS_-_Dynamite.ogg
+  title: BTS - Dynamite
+
+- type: lobbyTrack
+  id: /Audio/_Starlight/Lobby/Kpop/Stray_kids_-_Stray_kids.ogg
+  title: Stray Kids - Stray Kids
+
+- type: lobbyTrack
+  id: /Audio/_Starlight/Lobby/Pop/Elley_Duhe_-_Middle_of_the_Night.ogg
+  title: Elley Duhe - Middle of the Night
+
+- type: lobbyTrack
+  id: /Audio/_Starlight/Lobby/Pop/Katy_Perry_-_Hot_N_Cold.ogg
+  title: Katy Perry - Hot N Cold
+
+- type: lobbyTrack
+  id: /Audio/_Starlight/Lobby/Videogames/The_Rebel_Path.ogg
+  title: The Rebel Path
+
+- type: lobbyTrack
+  id: /Audio/_Starlight/Lobby/Videogames/Keiichi_Okabe_NieR_Automata_-_Weight_of_the_World.ogg
+  title: Weight of the World
+
+- type: lobbyTrack
+  id: /Audio/_Starlight/Lobby/Videogames/V_-_CD_Project_Red.ogg
+  title: V - CD Project Red
