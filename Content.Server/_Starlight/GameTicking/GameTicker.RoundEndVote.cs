@@ -35,7 +35,8 @@ public sealed partial class RoundEndVoteSystem : EntitySystem
             return;
         }
 
-        _voteStartTime = _gameTiming.CurTime + _gameTicker.LobbyDuration - TimeSpan.FromSeconds(_cfg.GetCVar(StarlightCCVars.VotingsDelay));
+        // Daiquiri: votes start right away and run a minute.
+        _voteStartTime = _gameTiming.CurTime;
         Log.Warning($"Vote will start at {_voteStartTime}");
 
         if (_cfg.GetCVar(StarlightCCVars.ResetPresetAfterRestart))
