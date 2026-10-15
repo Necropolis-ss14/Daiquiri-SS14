@@ -1,6 +1,6 @@
 - type: entity
   name: ПС З46
-  parent: [BaseSecurityContraband, BaseWeaponRifle]
+  parent: [ BaseContrabandTier3, BaseSecurityContraband, BaseWeaponRifle ]
   id: WeaponRifleZ46
   suffix: ETO
   categories: [ DoNotMap ]
@@ -62,7 +62,7 @@
 
 - type: entity
   name: ПС З77 Т1
-  parent: [BaseWeaponRifle, BaseSecurityContraband]
+  parent: [ BaseContrabandTier3, BaseWeaponRifle, BaseSecurityContraband ]
   id: WeaponRifleZ77T1
   description: Винтовка от Private Servitude, дешевле ходового Lecter. Патроны .20.
   suffix: ETO
@@ -122,7 +122,7 @@
 
 - type: entity
   name: ПС ДД-22 Драйсон
-  parent: [BaseWeaponSubMachineGun, BaseSecuritySalvageContraband]
+  parent: [ BaseContrabandTier3, BaseWeaponSubMachineGun, BaseSecurityContraband, BaseSalvageContraband ]
   id: WeaponSubMachineGunDD22
   description: ПП от Private Servitude с оглядкой на АКМС. Патроны .35, уникальный нижний магазин.
   suffix: ETO
@@ -180,7 +180,7 @@
 
 - type: entity
   name: ПС Тайга-10
-  parent: [BaseWeaponShotgunAny, BaseGunWieldable, BaseSecurityContraband]
+  parent: [ BaseContrabandTier3, BaseWeaponShotgunAny, BaseGunWieldable, BaseSecurityContraband ]
   id: WeaponShotgunTaiga
   description: Дробовик от Private Servitude, барабанные магазины 12 калибра. Полуавто и авто.
   suffix: ETO
@@ -231,7 +231,7 @@
 
 - type: entity
   name: ПС-75 Авто
-  parent: [BaseWeaponPistol, BaseSecurityContraband]
+  parent: [ BaseContrabandTier3, BaseWeaponPistol, BaseSecurityContraband ]
   id: WeaponPistol75auto
   description: Полностью автоматический пистолет с эргономикой, питается от пистолетных магазинов .35.
   suffix: ETO

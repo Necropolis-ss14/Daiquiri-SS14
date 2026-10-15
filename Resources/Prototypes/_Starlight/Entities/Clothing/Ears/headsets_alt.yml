@@ -39,7 +39,7 @@
   - type: HeadsetLoudMode
 
 - type: entity
-  parent: [ClothingHeadsetAlt, BaseNanoTrasenContraband]
+  parent: [ ClothingHeadsetAlt, BaseNanoTrasenContraband ]
   id: ClothingHeadsetAltNanoTrasen
   name: полноразмерная гарнитура НаноТрейзен
   components:
@@ -59,7 +59,7 @@
   - type: HeadsetLoudMode
 
 - type: entity
-  parent: [ClothingHeadsetAlt, BaseNanoTrasenContraband]
+  parent: [ ClothingHeadsetAlt, BaseNanoTrasenContraband ]
   id: ClothingHeadsetAltRepresentative
   name: полноразмерная гарнитура представителя НаноТрейзен
   components:
@@ -158,6 +158,8 @@
   name: кроваво-красная полноразмерная гарнитура командира
   description: An updated, modular syndicate intercom that fits over the head and takes encryption keys (there are 5 key slots.).
   components:
+  - type: Contraband # Blimpuf
+    tier: Tier4
   - type: Headset
   - type: EncryptionKeyHolder
     keySlots: 5
@@ -180,6 +182,8 @@
   name: кроваво-красная полноразмерная гарнитура агента
   description: An updated, modular syndicate intercom that fits over the head and takes encryption keys (there are 5 key slots.).
   components:
+  - type: Contraband # Blimpuf
+    tier: Tier4
   - type: Headset
   - type: EncryptionKeyHolder
     keySlots: 5

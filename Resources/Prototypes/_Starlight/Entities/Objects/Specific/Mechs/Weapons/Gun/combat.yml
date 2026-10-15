@@ -3,7 +3,7 @@
   name: тяжёлая пульс-винтовка eZ-14 mk2
   description: Стреляет тяжёлым пульс-лазером.
   suffix: Mech Weapon, Gun, Combat, Pulse
-  parent: [ BaseMechWeaponRange, CombatMechEquipment, BaseSecurityContraband ]
+  parent: [ BaseContrabandTier3, BaseMechWeaponRange, CombatMechEquipment, BaseSecurityContraband ] # Blimpuf
   components:
   - type: Sprite
     sprite: Objects/Specific/Mech/mecha_equipment.rsi
@@ -28,7 +28,7 @@
   name: лучемёт сожжения ZFI
   description: Орудие для боевых мехов, бьёт высокотемпературными лучами.
   suffix: Mech Weapon, Gun, Combat, Laser
-  parent: [ BaseMechWeaponRange, CombatMechEquipment, BaseSecurityContraband ]
+  parent: [ BaseContrabandTier3, BaseMechWeaponRange, CombatMechEquipment, BaseSecurityContraband ] # Blimpuf
   components:
   - type: Sprite
     sprite: Objects/Specific/Mech/mecha_equipment.rsi
@@ -55,7 +55,7 @@
   name: лазерная пушка CH-LC «Солярис»
   description: "Экспериментальная боевая лазерная пушка: больнее, но и откат дольше, чем у «Файрдарта»."
   suffix: Mech Weapon, Gun, Combat, Laser
-  parent: [ BaseMechWeaponRange, CombatMechEquipment, BaseSecurityContraband ]
+  parent: [ BaseContrabandTier3, BaseMechWeaponRange, CombatMechEquipment, BaseSecurityContraband ] # Blimpuf
   components:
   - type: Sprite
     sprite: Objects/Specific/Mech/mecha_equipment.rsi
@@ -88,7 +88,7 @@
   name: лазер CH-PS «Файрдарт»
   description: Штатное боевое вооружение мехов — станковый боевой лазер.
   suffix: Mech Weapon, Gun, Combat, Laser
-  parent: [ BaseMechWeaponRange, CombatMechEquipment, BaseSecurityContraband ]
+  parent: [ BaseContrabandTier3, BaseMechWeaponRange, CombatMechEquipment, BaseSecurityContraband ] # Blimpuf
   components:
   - type: Sprite
     sprite: Objects/Specific/Mech/mecha_equipment.rsi
@@ -116,7 +116,7 @@
   name: пушка Тесла P-X
   description: Оружие боевых мехов, швыряет энергошары на принципе экспериментального двигателя Теслы.
   suffix: Mech Weapon, Gun, Combat, Tesla
-  parent: [ BaseMechWeaponRange, CombatMechEquipment, BaseSecurityContraband ]
+  parent: [ BaseContrabandTier3, BaseMechWeaponRange, CombatMechEquipment, BaseSecurityContraband ] # Blimpuf
   components:
   - type: Sprite
     sprite: Objects/Specific/Mech/mecha_equipment.rsi
@@ -145,7 +145,7 @@
   name: дизейблер CH-PD
   description: Несмертельный станковый станнер для обездвиживания нарушителей.
   suffix: Mech Weapon, Gun, Combat, Disabler
-  parent: [ BaseMechWeaponRange, CombatMechEquipment, BaseSecurityContraband ]
+  parent: [ BaseContrabandTier2, BaseMechWeaponRange, CombatMechEquipment, BaseSecurityContraband ] # Blimpuf
   components:
   - type: Sprite
     sprite: Objects/Specific/Mech/mecha_equipment.rsi
@@ -175,7 +175,7 @@
   name: станковый тазер PBT «Миротворец»
   description: Станковый несмертельный тазер для оглушения нарушителей.
   suffix: Mech Weapon, Gun, Combat, Disabler, admeme
-  parent: [ BaseMechWeaponRange, CombatMechEquipment, BaseSecurityContraband ]
+  parent: [ BaseContrabandTier2, BaseMechWeaponRange, CombatMechEquipment, BaseSecurityContraband ] # Blimpuf
   components:
   - type: Sprite
     sprite: Objects/Specific/Mech/mecha_equipment.rsi
@@ -206,7 +206,7 @@
   name: LBX AC 10 «Картечь»
   description: Станковый дробовик для быстрого разбора целей в ближнем бою.
   suffix: Mech Weapon, Gun, Combat, Shotgun
-  parent: [ BaseMechWeaponRange, CombatMechEquipment, BaseSecurityContraband ]
+  parent: [ BaseContrabandTier3, BaseMechWeaponRange, CombatMechEquipment, BaseSecurityContraband ] # Blimpuf
   components:
   - type: Sprite
     sprite: Objects/Specific/Mech/mecha_equipment.rsi
@@ -231,7 +231,7 @@
   name: карабин FNX-99 «Аид»
   description: Станковый дробовик под зажигательные.
   suffix: Mech Weapon, Gun, Combat, Shotgun, Incendiary
-  parent: [ BaseMechWeaponRange, CombatMechEquipment, BaseSecurityContraband ]
+  parent: [ BaseContrabandTier3, BaseMechWeaponRange, CombatMechEquipment, BaseSecurityContraband ] # Blimpuf
   components:
   - type: Sprite
     sprite: Objects/Specific/Mech/mecha_equipment.rsi
@@ -256,7 +256,7 @@
   name: Ультра AC-2
   description: Дешёвая надёжная burst-винтовка.
   suffix: Mech Weapon, Gun, Combat, Rifle
-  parent: [ BaseMechWeaponRange, CombatMechEquipment, BaseSecurityContraband ]
+  parent: [ BaseContrabandTier3, BaseMechWeaponRange, CombatMechEquipment, BaseSecurityContraband ] # Blimpuf
   components:
   - type: Sprite
     sprite: Objects/Specific/Mech/mecha_equipment.rsi
@@ -306,7 +306,7 @@
   name: тяжёлая ионная пушка МК.IV
   description: Станковое ионное орудие как ручной ионный карабин. Крайне эффективно против синтетиков, роботов и мехов.
   suffix: Mech Weapon, Gun, Combat, Ion
-  parent: [ BaseMechWeaponRange, CombatMechEquipment, BaseSecurityContraband ]
+  parent: [ BaseContrabandTier2, BaseMechWeaponRange, CombatMechEquipment, BaseSecurityContraband ] # Blimpuf
   components:
   - type: Sprite
     sprite: Objects/Specific/Mech/mecha_equipment.rsi
@@ -337,7 +337,7 @@
   description: A powerful and advanced burst-laser machine gun designed for maximum firepower.
 # 🌟Starlight-end🌟
   suffix: Mech Weapon, Gun, Combat, Laser
-  parent: [ BaseMechWeaponRange, CombatMechEquipment, BaseSecurityContraband ]
+  parent: [ BaseContrabandTier3, BaseMechWeaponRange, CombatMechEquipment, BaseSecurityContraband ] # Blimpuf
   components:
   - type: Sprite
     sprite: Objects/Specific/Mech/mecha_equipment.rsi
@@ -364,7 +364,7 @@
   name: Рентген-проектор S-1
   description: "Экспериментальное орудие меха: бьёт рентгеном, ожоги и поверхностные, и глубокие."
   suffix: Mech Weapon, Gun, Combat, X-Ray
-  parent: [ BaseMechWeaponRange, CombatMechEquipment, BaseSecurityContraband ]
+  parent: [ BaseContrabandTier3, BaseMechWeaponRange, CombatMechEquipment, BaseSecurityContraband ] # Blimpuf
   components:
   - type: Sprite
     sprite: Objects/Specific/Mech/mecha_equipment.rsi
@@ -392,7 +392,7 @@
   name: лёгкая ракетная установка SRM-8
   description: Пускает слабые фугасные ракеты. Слабовато, но позиции подавляет.
   suffix: Mech Weapon, Gun, Combat, Light Missile
-  parent: [ BaseMechWeaponRange, CombatMechEquipment, BaseSecurityContraband ]
+  parent: [ BaseContrabandTier3, BaseMechWeaponRange, CombatMechEquipment, BaseSecurityContraband ] # Blimpuf
   components:
   - type: Sprite
     sprite: Objects/Specific/Mech/mecha_equipment.rsi
@@ -417,7 +417,7 @@
   name: ракетная установка BRM-6
   description: Комплект тяжёлых ракет для тотального разноса врагов.
   suffix: Mech Weapon, Gun, Combat, Missile
-  parent: [ BaseMechWeaponRange, CombatMechEquipment, BaseSecurityContraband ]
+  parent: [ BaseContrabandTier3, BaseMechWeaponRange, CombatMechEquipment, BaseSecurityContraband ] # Blimpuf
   components:
   - type: Sprite
     sprite: Objects/Specific/Mech/mecha_equipment.rsi
@@ -443,7 +443,7 @@
   name: гранатомёт SGL-6
   description: "Роторный гранатомёт: штампует и пускает светошумовые по буйной толпе."
   suffix: Mech Weapon, Gun, Combat, Flashbang
-  parent: [ BaseMechWeaponRange, CombatMechEquipment, BaseSecurityContraband ]
+  parent: [ BaseContrabandTier2, BaseMechWeaponRange, CombatMechEquipment, BaseSecurityContraband ] # Blimpuf
   components:
   - type: Sprite
     sprite: Objects/Specific/Mech/mecha_equipment.rsi

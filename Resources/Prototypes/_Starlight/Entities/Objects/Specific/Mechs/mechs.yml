@@ -84,7 +84,7 @@
 # Ripley MK-II
 - type: entity
   id: MechRipley2
-  parent: [ BaseMech, IndustrialMech, BaseCargoContraband ]
+  parent: [ BaseContrabandTier2, BaseMech, IndustrialMech, BaseCargoContraband ] # Blimpuf
   name: Рипли АПЛУ МК-II
   description: У «МК-II» герметичная кабина для космоса, а усиленные захваты выламывают двери, но вес снизил скорость.
   components:
@@ -151,7 +151,7 @@
 # Paddy
 - type: entity
   id: MechPaddy
-  parent: [ BaseMech, CombatMech, IndustrialMech, BaseSecurityContraband ]
+  parent: [ BaseContrabandTier3, BaseMech, CombatMech, IndustrialMech, BaseSecurityContraband ] # Blimpuf
   name: Пэдди
   description: Автономный погрузчик подтипа Пэдди. Переделанный МК-II Рипли для лёгкой охраны.
   components:
@@ -229,7 +229,7 @@
 # Clarke
 - type: entity
   id: MechClarke
-  parent: [ BaseMech, IndustrialMech, BaseCargoSalvageContraband ]
+  parent: [ BaseContrabandTier2, BaseMech, IndustrialMech, BaseCargoContraband, BaseSalvageContraband ] # Blimpuf
   name: Кларк
   description: Спецмех для тяжёлых горных работ. Гусеницы для устойчивости на опасной местности.
   components:
@@ -286,7 +286,7 @@
 # Gygax
 - type: entity
   id: MechGygax
-  parent: [ BaseMech, CombatMech, BaseSecurityContraband ]
+  parent: [ BaseContrabandTier3, BaseMech, CombatMech, BaseSecurityContraband ] # Blimpuf
   name: Гайгэкс
   description: "Легкобронированный, но невероятно мобильный: таранит стены на скорости."
   components:
@@ -350,7 +350,7 @@
 # Durand
 - type: entity
   id: MechDurand
-  parent: [ BaseMech, CombatMech, BaseSecurityContraband ]
+  parent: [ BaseContrabandTier3, BaseMech, CombatMech, BaseSecurityContraband ] # Blimpuf
   name: Дюранд
   description: Медленный, но мясистый боевой экзокостюм; в тесноте страшен кулаками. Ксеносы ненавидят!
   components:

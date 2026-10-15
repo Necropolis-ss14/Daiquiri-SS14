@@ -1,6 +1,6 @@
 - type: entity
   id: WeaponMechMelleDrill
-  parent: [ BaseMechWeaponMelee, BaseCargoContraband ]
+  parent: [ BaseContrabandTier2, BaseMechWeaponMelee, BaseCargoContraband ] # Blimpuf
   name: бур экзокостюма
   suffix: Mech Weapon, Melee, Industrial
   description: Снаряжение шахтёрских экзокостюмов. Бур, что пробурит скалы!
@@ -27,7 +27,7 @@
 
 - type: entity
   id: WeaponMechMelleDrillDiamond
-  parent: [ BaseMechWeaponMelee, BaseCargoContraband ]
+  parent: [ BaseContrabandTier2, BaseMechWeaponMelee, BaseCargoContraband ] # Blimpuf
   name: бур экзокостюма с алмазным наконечником
   suffix: Mech Weapon, Melee, Industrial
   description: Снаряжение шахтёрских экзокостюмов. Улучшенная версия бура, что пробурит скалы!

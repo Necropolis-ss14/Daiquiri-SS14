@@ -605,7 +605,7 @@
       state: pda-commander
 
 - type: entity
-  parent: BasePDA
+  parent: [ BaseContrabandTier4, BaseNanoTrasenContraband, BasePDA ] # Blimpuf
   id: NTNCBlueShieldPDA
   name: КПК морского офицера
   components:
@@ -635,7 +635,7 @@
       - NanoChatCartridge
 
 - type: entity
-  parent: BasePDA
+  parent: [ BaseCentcommContraband, BasePDA ] # Blimpuf
   categories: [ DoNotMap ]
   id: CentCommGreenShieldPDA
   name: КПК зелёного щита
@@ -667,7 +667,7 @@
         - NanoChatCartridge
 
 - type: entity
-  parent: BasePDA
+  parent: [ BaseContrabandTier4, BaseNanoTrasenContraband, BasePDA ] # Blimpuf
   id: NTNCCSPDA
   name: КПК морского офицера
   components:
@@ -949,7 +949,7 @@
   - type: Unremoveable
 
 - type: entity
-  parent: BasePDA
+  parent: [ BaseCentcommContraband, BasePDA ] # Blimpuf
   id: CentCommServiceWorkerPDA
   name: КПК работника ЦК
   description: Дешёвая версия для тех, кто готовит им еду, моет полы и разносит напитки.

@@ -2,7 +2,7 @@
 - type: entity
   id: BaseMagazineRifle
   name: магазин (.20 винтовочные)
-  parent: [ BaseItem, BaseSecurityContraband ]
+  parent: [ BaseContrabandTier3, BaseItem, BaseSecurityContraband ] # Blimpuf
   abstract: true
   components:
   - type: Tag

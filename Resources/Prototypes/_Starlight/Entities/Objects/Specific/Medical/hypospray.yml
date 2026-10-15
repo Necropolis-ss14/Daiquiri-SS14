@@ -1,5 +1,5 @@
 - type: entity
-  parent: [AdvancedJetInjector, BaseSecurityContraband]
+  parent: [ BaseContrabandTier2, AdvancedJetInjector, BaseSecurityContraband ] # Blimpuf
   id: TacticalJetInjector
   name: тактический инъектор
   description: Дерзкий, тактикульный, сверхкачественный инъектор. Очень быстрый укол в обмен на меньший объём. Береги как зеницу ока.
@@ -29,7 +29,7 @@
     stealGroup: Hypospray
 
 - type: entity
-  parent: [AdvancedJetInjector, BaseMedicalContraband]
+  parent: [ BaseContrabandTier2, AdvancedJetInjector, BaseMedicalContraband ] # Blimpuf
   id: DeforestJetInjector
   name: инъектор DeForest
   description: Крутой, современный, сверхкачественный инъектор. Быстрый укол в обмен на меньший объём. Лети межзвёздно — с DeForest Medical!

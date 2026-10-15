@@ -1,7 +1,7 @@
 - type: entity
   id: SpeedLoaderMagnumRubber
   name: быстрозарядник (.45 magnum резиновый)
-  parent: [ BaseSpeedLoaderMagnum, BaseSecurityContraband ]
+  parent: [ BaseContrabandTier2, BaseSpeedLoaderMagnum, BaseSecurityContraband ] # Blimpuf
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeMagnumRubber

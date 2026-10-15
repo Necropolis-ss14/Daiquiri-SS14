@@ -1,6 +1,6 @@
 - type: entity
   name: КОД-12 «Взломщик»
-  parent: BaseItem
+  parent: [BaseItem, BaseMedTakContraband]
   id: HammerMedTakOneHanded
   description: "Заряженный контузионный штурмовой молот: пробьёт дыру во всём, что отделяет тебя от клиента."
   suffix: One-Handed

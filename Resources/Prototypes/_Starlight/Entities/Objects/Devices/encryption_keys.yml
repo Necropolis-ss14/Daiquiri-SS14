@@ -43,6 +43,8 @@
   name: советский ключ шифрования
   description: Priyom. Priyom.
   components:
+  - type: Contraband # Blimpuf
+    tier: Tier3
   - type: EncryptionKey
     channels:
     - Soviet
@@ -72,7 +74,7 @@
       state: expedition_label
 
 - type: entity
-  parent: [ EncryptionKey, BaseSalvageMiningContraband ]
+  parent: [ EncryptionKey, BaseSalvageContraband, BaseMiningContraband ]
   id: EncryptionKeySalvage
   name: ключ шифрования утилизаторов
   description: A dual encryption key used by box-loving explorers.

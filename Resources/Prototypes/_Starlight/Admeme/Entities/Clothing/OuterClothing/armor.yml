@@ -11,7 +11,7 @@
       sprite: _Starlight/Admeme/Clothing/OuterClothing/Vests/ntnc-ensign.rsi
 
 - type: entity
-  parent: [ClothingOuterArmorBase, BaseNanoTrasenContraband]
+  parent: [ BaseNanoTrasenContraband, ClothingOuterArmorBase ] # Blimpuf
   id: ClothingOuterVestNTNC
   name: жилет морпеха NanoTrasen
   description: Куда лучше стандартного жилета охраны. Не потеряй, нового не выдадут.

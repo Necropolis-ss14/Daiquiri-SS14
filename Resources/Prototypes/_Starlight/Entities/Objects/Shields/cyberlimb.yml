@@ -1,6 +1,6 @@
 - type: entity
   name: бастион
-  parent: [BaseItem, BaseSecurityContraband]
+  parent: [ BaseContrabandTier2, BaseItem, BaseSecurityContraband ] # Blimpuf
   id: EnergyShieldCyber
   description: "Настоящий щит воинов из хардлайта: лёгкий и портативный."
   components:

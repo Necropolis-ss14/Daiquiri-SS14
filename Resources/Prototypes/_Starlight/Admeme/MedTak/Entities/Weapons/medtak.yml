@@ -2,7 +2,7 @@
 - type: entity
   name: КОД-6 «Арбитраж»
   id: WeaponMedTakLightMachineGun
-  parent: [ BaseWeaponLightMachineGun, BaseVariableHeavySettings, BaseMedTakContraband ]
+  parent: [ BaseWeaponLightMachineGun, BaseVariableHeavySettings, BaseMedTakContraband ] # Blimpuf
   description: "Сверхлёгкий штурмовой пулемёт для охраны MedTak.\nПринимает коробки HVA."
   suffix: Admeme
   components:
@@ -62,7 +62,7 @@
 # Rifle
 - type: entity
   name: КОД-9 «Соблюдение»
-  parent: [ BaseWeaponRifle, BaseVariableMediumSettings, BaseMedTakContraband ]
+  parent: [ BaseWeaponRifle, BaseVariableMediumSettings, BaseMedTakContraband ] # Blimpuf
   id: WeaponMedTakRifle
   description: "Винтовка буллпап для оперативников MedTak.\nПринимает магазины MVA."
   suffix: Admeme
@@ -114,7 +114,7 @@
 
 - type: entity
   name: КОД-9 ROW
-  parent: [ BaseItem, BaseVariableMediumSettings]
+  parent: [ BaseItem, BaseVariableMediumSettings, BaseMedTakContraband ] # Blimpuf
   id: WeaponMedTakRifleROW
   description: "Укороченный КОД-9 для киборгов, питается от медленно перезаряжающегося внутреннего фабрикатора"
   suffix: Admeme
@@ -162,7 +162,7 @@
 - type: entity
   name: КОД-4 «Сортировка»
   description: "Тяжёлый пистолет оперативников MedTak.\nПринимает пистолетные магазины .40."
-  parent: [ BaseWeaponPistol, BaseMedTakContraband ]
+  parent: [ BaseWeaponPistol, BaseMedTakContraband ] # Blimpuf
   id: WeaponMedTakPistol
   components:
     - type: Gun
@@ -196,7 +196,7 @@
 # SMG
 - type: entity
   name: КОД-10 «Вмешательство»
-  parent: [BaseWeaponSubMachineGun, BaseVariableLightSettings, BaseMedTakContraband]
+  parent: [BaseWeaponSubMachineGun, BaseVariableLightSettings, BaseMedTakContraband] # Blimpuf
   id: WeaponMedTakSubMachineGun
   description: "Компактный пистолет-пулемёт со встроенным глушителем. Продвинутая система отдачи, но чуть ниже темп.\nПринимает магазины LVA."
   components:
@@ -253,7 +253,7 @@
 # Shotgun
 - type: entity
   name: КОД-11 «Компромисс»
-  parent: [BaseWeaponShotgunAny, BaseGunWieldable, BaseMedTakContraband]
+  parent: [BaseWeaponShotgunAny, BaseGunWieldable, BaseMedTakContraband] # Blimpuf
   id: WeaponMedTakShotgun
   description: Изящный барабанный дробовик, патроны досылаются полуавтоматически вторым спуском.
   components:

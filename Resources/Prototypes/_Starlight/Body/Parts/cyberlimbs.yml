@@ -774,7 +774,8 @@
 - type: entity
   id: LeftArmCyberBulwark
   name: левая рука бастиона
-  parent: [PartCyber, BaseLeftArm, BaseSecurityContraband]
+  parent: [ BaseContrabandTier3, PartCyber, BaseLeftArm, BaseSecurityContraband ] # Blimpuf
+  description: A surgically-installed cybernetic arm geared for security use, including a built-in energy shield and energy chainsword, perfect for when non-lethals aren't enough.
   components:
     - type: BaseLayerId
       layers:
@@ -803,7 +804,8 @@
 - type: entity
   id: LeftHandCyberBulwark
   name: левая кисть бастиона
-  parent: [PartCyber, BaseLeftHand, BaseSecurityContraband]
+  parent: [ BaseContrabandTier3, PartCyber, BaseLeftHand, BaseSecurityContraband ] # Blimpuf
+  description: A surgically-installed cybernetic hand geared for security use, including a built-in energy shield and energy chainsword, perfect for when non-lethals aren't enough.
   components:
     - type: BaseLayerId
       layers:
@@ -838,7 +840,8 @@
 - type: entity
   id: RightArmCyberBulwark
   name: правая рука бастиона
-  parent: [PartCyber, BaseRightArm, BaseSecurityContraband]
+  parent: [ BaseContrabandTier3, PartCyber, BaseRightArm, BaseSecurityContraband ] # Blimpuf
+  description: A surgically-installed cybernetic arm geared for security use, including a built-in energy shield and energy chainsword, perfect for when non-lethals aren't enough.
   components:
     - type: BaseLayerId
       layers:
@@ -867,7 +870,8 @@
 - type: entity
   id: RightHandCyberBulwark
   name: правая кисть бастиона
-  parent: [PartCyber, BaseRightHand, BaseSecurityContraband]
+  parent: [ BaseContrabandTier3, PartCyber, BaseRightHand, BaseSecurityContraband ] # Blimpuf
+  description: A surgically-installed cybernetic hand geared for security use, including a built-in energy shield and energy chainsword, perfect for when non-lethals aren't enough.
   components:
     - type: BaseLayerId
       layers:
@@ -1541,7 +1545,8 @@
 - type: entity
   id: LeftArmCyberZeus
   name: левая рука Зевса
-  parent: [PartCyber, BaseLeftArm, BaseSecurityContraband]
+  parent: [ BaseContrabandTier2, PartCyber, BaseLeftArm, BaseSecurityContraband ] # Blimpuf
+  description: A surgically-installed cybernetic arm geared for security use, perfect for when you need some non-lethals. Includes a stun fist and an EMP fist, allowing for disabling of both organics and silicons.
   components:
     - type: BaseLayerId
       layers:
@@ -1562,7 +1567,8 @@
 - type: entity
   id: LeftHandCyberZeus
   name: левая кисть Зевса
-  parent: [PartCyber, BaseLeftHand, BaseSecurityContraband]
+  parent: [ BaseContrabandTier2, PartCyber, BaseLeftHand, BaseSecurityContraband ] # Blimpuf
+  description: A surgically-installed cybernetic hand geared for security use, perfect for when you need some non-lethals. Includes a stun fist and an EMP fist, allowing for disabling of both organics and silicons.
   components:
     - type: BaseLayerId
       layers:
@@ -1597,7 +1603,8 @@
 - type: entity
   id: RightArmCyberZeus
   name: правая рука Зевса
-  parent: [PartCyber, BaseRightArm, BaseSecurityContraband]
+  parent: [ BaseContrabandTier2, PartCyber, BaseRightArm, BaseSecurityContraband ] # Blimpuf
+  description: A surgically-installed cybernetic arm geared for security use, perfect for when you need some non-lethals. Includes a stun fist and an EMP fist, allowing for disabling of both organics and silicons.
   components:
     - type: BaseLayerId
       layers:
@@ -1618,7 +1625,8 @@
 - type: entity
   id: RightHandCyberZeus
   name: правая кисть Зевса
-  parent: [PartCyber, BaseRightHand, BaseSecurityContraband]
+  parent: [ BaseContrabandTier2, PartCyber, BaseRightHand, BaseSecurityContraband ] # Blimpuf
+  description: A surgically-installed cybernetic hand geared for security use, perfect for when you need some non-lethals. Includes a stun fist and an EMP fist, allowing for disabling of both organics and silicons.
   components:
     - type: BaseLayerId
       layers:
@@ -2013,7 +2021,8 @@
 - type: entity
   id: LeftArmCyberHerakles
   name: левая рука Геракла
-  parent: [PartCyber, BaseLeftArm, BaseSecurityContraband]
+  parent: [ BaseContrabandTier2, PartCyber, BaseLeftArm, BaseSecurityContraband ] # Blimpuf
+  description: A surgically-installed cybernetic arm geared for security use, for when you need to force your way in. Includes a herakles fist that can pry open doors and knocks people back on hit, and a holographic restrainer that can restrain someone with holographic cuffs.
   components:
     - type: BaseLayerId
       layers:
@@ -2034,7 +2043,8 @@
 - type: entity
   id: LeftHandCyberHerakles
   name: левая кисть Геракла
-  parent: [PartCyber, BaseLeftHand, BaseSecurityContraband]
+  parent: [ BaseContrabandTier2, PartCyber, BaseLeftHand, BaseSecurityContraband ] # Blimpuf
+  description: A surgically-installed cybernetic hand geared for security use, for when you need to force your way in. Includes a herakles fist that can pry open doors and knocks people back on hit, and a holographic restrainer that can restrain someone with holographic cuffs.
   components:
     - type: BaseLayerId
       layers:
@@ -2069,7 +2079,8 @@
 - type: entity
   id: RightArmCyberHerakles
   name: правая рука Геракла
-  parent: [PartCyber, BaseRightArm, BaseSecurityContraband]
+  parent: [ BaseContrabandTier2, PartCyber, BaseRightArm, BaseSecurityContraband ] # Blimpuf
+  description: A surgically-installed cybernetic arm geared for security use, for when you need to force your way in. Includes a herakles fist that can pry open doors and knocks people back on hit, and a holographic restrainer that can restrain someone with holographic cuffs.
   components:
     - type: BaseLayerId
       layers:
@@ -2090,7 +2101,8 @@
 - type: entity
   id: RightHandCyberHerakles
   name: правая кисть Геракла
-  parent: [PartCyber, BaseRightHand, BaseSecurityContraband]
+  parent: [ BaseContrabandTier2, PartCyber, BaseRightHand, BaseSecurityContraband ] # Blimpuf
+  description: A surgically-installed cybernetic hand geared for security use, for when you need to force your way in. Includes a herakles fist that can pry open doors and knocks people back on hit, and a holographic restrainer that can restrain someone with holographic cuffs.
   components:
     - type: BaseLayerId
       layers:

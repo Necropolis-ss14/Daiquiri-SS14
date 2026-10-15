@@ -472,8 +472,9 @@
 
 - type: entity
   name: зелёный фазовый щит X-03
-  parent: [BaseItem, BaseCentcommContraband ]
-  id: GreenLightShield
+  parent: BaseItem
+  id: BaseLightShield
+  abstract: true
   categories: [ DoNotMap ]
   description: "Реверс прототипа, что НТ одолжили Центкому: длина волны подкручена под славный зелёный Центкома. Активный микрореактор не сбрасывает тепло — глуши на подзарядку."
   components:
@@ -518,7 +519,7 @@
       sprite: _Starlight/Objects/Weapons/Melee/nt_energy_shield.rsi
       heldPrefix: off
     - type: EnergyColor
-      color: "#9dfe9b"
+      color: "#9bcefe"
       hackingLocked: true
       hackingUnlockQuality: Cutting
     - type: UseDelay
@@ -562,7 +563,7 @@
       enabled: false
       radius: 2
       energy: 3
-      color: "#439909"
+      color: "#87CEEB"
       castShadows: false
     - type: PowerCellSlot
       cellSlotId: cell_slot
@@ -605,8 +606,19 @@
       level: HardenedMetal
 
 - type: entity
+  parent: [BaseLightShield, BaseCentcommContraband]
+  id: GreenLightShield
   name: фазовый щит X-03
-  parent: [GreenLightShield, BaseBlueShieldContraband, BaseGrandTheftContraband ]
+  description: Reverse engineered from a prototype that NT loaned CentComm, the wavelength has been tweaked to the glorious CentComm Green. While active, the micro-reactor cannot vent excess heat and needs to be shut off for a while to re-charge.
+  components:
+  - type: PointLight
+    color: "#439909"
+  - type: EnergyColor
+    color: "#9dfe9b"
+
+- type: entity
+  name: фазовый щит X-03
+  parent: [ BaseContrabandTier3, BaseLightShield, BaseBlueShieldContraband ]
   id: BlueLightShield
   categories: [ DoNotMap ]
   description: Экспериментальный хардлайт-щит с микрореактором вместо синдикат-химбатареи. Активный микрореактор не сбрасывает тепло — глуши на подзарядку.
@@ -635,5 +647,5 @@
           Piercing: 1
       damageEnergyDraw: 4
     - type: Contraband
-      allowedDepartments: []
-      allowedJobs: [ BlueShield ]
+      tier: Tier3
+      contrabandType: NanoTrasen

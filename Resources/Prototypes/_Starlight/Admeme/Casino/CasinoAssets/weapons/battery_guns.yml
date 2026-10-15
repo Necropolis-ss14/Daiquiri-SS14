@@ -1,6 +1,6 @@
 ﻿- type: entity
   name: Пульс-пистолет Gamorrah
-  parent: [BaseWeaponBatterySmall, BaseCasinoContraband ]
+  parent: [ BaseContrabandTier3, BaseWeaponBatterySmall, BaseCasinoContraband ]
   id: WeaponPulsePistolCasino
   description: Успех зависит от предусмотрительности, бесстрастного подсчёта вероятностей и учёта каждой случайности. Поэтому этот ствол — оружие Gamorrah.
   components:
