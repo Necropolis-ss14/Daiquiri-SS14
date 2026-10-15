@@ -22,7 +22,6 @@ public sealed partial class GlassPromptSystem : EntitySystem
     {
         base.Initialize();
         _net.RegisterNetMessage<GlassPromptShowMessage>();
-        _net.RegisterNetMessage<GlassPromptShowMessage>();
         SubscribeNetworkEvent<GlassPromptShowEvent>(OnShowPromptEvent);
         _audio.LobbySoundtrackChanged += OnLobbySoundtrack;
     }
