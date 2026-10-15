@@ -1,7 +1,7 @@
 - type: entity
   parent: [ClothingShoesBootsMagBase, BaseBlueShieldContraband, ClothingShoesMilitaryBase ]
   id: ClothingShoesBootsMagBSO
-  name: blue shield magboots
+  name: магнитные ботинки блюшилда
   description: A pair of standard magnetic boots, issued alongside the BSO hardsuit.
   components:
   - type: Sprite
@@ -25,7 +25,7 @@
   parent: [BaseCentcommContraband, ClothingShoesBootsMagSyndie]
   categories: [ DoNotMap ]
   id: ClothingShoesBootsMagGreenshield
-  name: greenshield magboots
+  name: магнитные ботинки гриншилда
   description: Upgraded magnetic boots that you swiped from the ERT lockers.
   components:
     - type: Sprite

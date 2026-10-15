@@ -1,8 +1,8 @@
 - type: entity
-  name: small beaker box
+  name: коробка малых стаканов
   parent: BoxCardboard
   id: BoxBeakerSmall
-  description: A box containing four small beakers.
+  description: Коробка с четырьмя малыми стаканами.
   components:
   - type: Storage
     grid:
@@ -23,10 +23,10 @@
       - state: beaker
 
 - type: entity
-  name: large beaker box
+  name: коробка больших стаканов
   parent: BoxCardboard
   id: BoxBeakerLarge
-  description: A box containing four large beakers.
+  description: Коробка с четырьмя большими стаканами.
   components:
   - type: Storage
     grid:
@@ -47,10 +47,10 @@
       - state: beaker
 
 - type: entity
-  name: jug box
+  name: коробка кувшинов
   parent: BoxCardboard
   id: BoxJug
-  description: A box containing four chemical storage jugs.
+  description: Коробка с четырьмя химическими кувшинами.
   components:
   - type: Storage
     grid:

@@ -1,7 +1,7 @@
 - type: entity
   parent: ReagentDispenserBasePowerCell # Starlight edit: power cell soda dispenser
   id: CoffeeDispenserEmpty
-  name: coffee dispenser
+  name: раздатчик кофе
   description: A beverage dispenser with a selection of coffee and tea. Has a single fill slot for containers.
   suffix: Empty
   components:

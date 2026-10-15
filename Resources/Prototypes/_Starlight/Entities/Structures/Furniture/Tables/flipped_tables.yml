@@ -37,7 +37,7 @@
   id: TableFlipped
   parent: [BaseTableFlipped, Table]
   suffix: Flipped
-  name: flipped table
+  name: опрокинутый стол
   components:
   - type: FlippedStructure
     uprightPrototype: Table
@@ -48,7 +48,7 @@
   id: TableReinforcedFlipped
   parent: [BaseTableFlipped, TableReinforced]
   suffix: Flipped
-  name: flipped reinforced table
+  name: опрокинутый укреплённый стол
   components:
   - type: FlippedStructure
     uprightPrototype: TableReinforced
@@ -61,7 +61,7 @@
   id: TableGlassFlipped
   parent: [BaseTableFlipped, TableGlass]
   suffix: Flipped
-  name: flipped glass table
+  name: опрокинутый стеклянный стол
   components:
   - type: FlippedStructure
     uprightPrototype: TableGlass
@@ -74,7 +74,7 @@
   id: TableCardFlipped
   parent: [BaseTableFlipped, TableCard]
   suffix: Flipped
-  name: flipped cardboard table
+  name: опрокинутый картонный стол
   components:
   - type: FlippedStructure
     uprightPrototype: TableCard
@@ -87,7 +87,7 @@
   id: TableReinforcedGlassFlipped
   parent: [BaseTableFlipped, TableReinforcedGlass]
   suffix: Flipped
-  name: flipped reinforced glass table
+  name: опрокинутый укреплённый стеклянный стол
   components:
   - type: FlippedStructure
     uprightPrototype: TableReinforcedGlass
@@ -100,7 +100,7 @@
   id: TablePlasmaGlassFlipped
   parent: [BaseTableFlipped, TablePlasmaGlass]
   suffix: Flipped
-  name: flipped plasma glass table
+  name: опрокинутый плазменный стеклянный стол
   components:
   - type: FlippedStructure
     uprightPrototype: TablePlasmaGlass
@@ -113,7 +113,7 @@
   id: TableBrassFlipped
   parent: [BaseTableFlipped, TableBrass]
   suffix: Flipped
-  name: flipped brass table
+  name: опрокинутый латунный стол
   components:
   - type: FlippedStructure
     uprightPrototype: TableBrass
@@ -124,7 +124,7 @@
   id: TableWoodFlipped
   parent: [BaseTableFlipped, TableWood]
   suffix: Flipped
-  name: flipped wood table
+  name: опрокинутый деревянный стол
   components:
   - type: FlippedStructure
     uprightPrototype: TableWood
@@ -137,7 +137,7 @@
   id: TableCarpetFlipped
   parent: [BaseTableFlipped, TableCarpet]
   suffix: Flipped
-  name: flipped gambling table
+  name: опрокинутый игровой стол
   components:
   - type: FlippedStructure
     uprightPrototype: TableCarpet
@@ -150,7 +150,7 @@
   id: TableStoneFlipped
   parent: [BaseTableFlipped, TableStone]
   suffix: Flipped
-  name: flipped stone table
+  name: опрокинутый каменный стол
   components:
   - type: FlippedStructure
     uprightPrototype: TableStone
@@ -163,7 +163,7 @@
   id: TableWebFlipped
   parent: [BaseTableFlipped, TableWeb]
   suffix: Flipped
-  name: flipped web table
+  name: опрокинутый паутинный стол
   components:
   - type: FlippedStructure
     uprightPrototype: TableWeb
@@ -176,7 +176,7 @@
   id: TableXenoFlipped
   parent: [BaseTableFlipped, TableXeno]
   suffix: Flipped
-  name: flipped xeno table
+  name: опрокинутый ксено-стол
   components:
   - type: FlippedStructure
     uprightPrototype: TableXeno
@@ -189,7 +189,7 @@
   id: TableFancyBlueFlipped
   parent: [BaseTableFlipped, TableFancyBlue]
   suffix: Flipped
-  name: flipped blue fancy table
+  name: опрокинутый синий роскошный стол
   components:
   - type: FlippedStructure
     uprightPrototype: TableFancyBlue
@@ -200,7 +200,7 @@
   id: TableFancySkyBlueFlipped
   parent: [BaseTableFlipped, TableFancySkyBlue]
   suffix: Flipped
-  name: flipped sky blue fancy table
+  name: опрокинутый небесно-синий роскошный стол
   components:
   - type: FlippedStructure
     uprightPrototype: TableFancySkyBlue
@@ -211,7 +211,7 @@
   id: TableFancyCyanFlipped
   parent: [BaseTableFlipped, TableFancyCyan]
   suffix: Flipped
-  name: flipped cyan fancy table
+  name: опрокинутый бирюзовый роскошный стол
   components:
   - type: FlippedStructure
     uprightPrototype: TableFancyCyan
@@ -222,7 +222,7 @@
   id: TableFancyBlackFlipped
   parent: [BaseTableFlipped, TableFancyBlack]
   suffix: Flipped
-  name: flipped black fancy table
+  name: опрокинутый чёрный роскошный стол
   components:
   - type: FlippedStructure
     uprightPrototype: TableFancyBlack
@@ -233,7 +233,7 @@
   id: TableFancyRedFlipped
   parent: [BaseTableFlipped, TableFancyRed]
   suffix: Flipped
-  name: flipped red fancy table
+  name: опрокинутый красный роскошный стол
   components:
   - type: FlippedStructure
     uprightPrototype: TableFancyRed
@@ -244,7 +244,7 @@
   id: TableFancyPurpleFlipped
   parent: [BaseTableFlipped, TableFancyPurple]
   suffix: Flipped
-  name: flipped purple fancy table
+  name: опрокинутый фиолетовый роскошный стол
   components:
   - type: FlippedStructure
     uprightPrototype: TableFancyPurple
@@ -255,7 +255,7 @@
   id: TableFancyPinkFlipped
   parent: [BaseTableFlipped, TableFancyPink]
   suffix: Flipped
-  name: flipped pink fancy table
+  name: опрокинутый розовый роскошный стол
   components:
   - type: FlippedStructure
     uprightPrototype: TableFancyPink
@@ -266,7 +266,7 @@
   id: TableFancyGreenFlipped
   parent: [BaseTableFlipped, TableFancyGreen]
   suffix: Flipped
-  name: flipped green fancy table
+  name: опрокинутый зелёный роскошный стол
   components:
   - type: FlippedStructure
     uprightPrototype: TableFancyGreen
@@ -277,7 +277,7 @@
   id: TableFancyOrangeFlipped
   parent: [BaseTableFlipped, TableFancyOrange]
   suffix: Flipped
-  name: flipped orange fancy table
+  name: опрокинутый оранжевый роскошный стол
   components:
   - type: FlippedStructure
     uprightPrototype: TableFancyOrange
@@ -288,7 +288,7 @@
   id: TableFancyWhiteFlipped
   parent: [BaseTableFlipped, TableFancyWhite]
   suffix: Flipped
-  name: flipped white fancy table
+  name: опрокинутый белый роскошный стол
   components:
   - type: FlippedStructure
     uprightPrototype: TableFancyWhite

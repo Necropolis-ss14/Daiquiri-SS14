@@ -1,7 +1,7 @@
 - type: entity
   id: BannerBaseAlt
   parent: BaseStructureDynamic
-  name: base banner
+  name: базовый баннер
   description: It's the concept of a banner, you shouldn't be seeing this.
   abstract: true
   components:
@@ -52,7 +52,7 @@
 - type: entity
   parent: BaseWallBanner
   id: BannerWallHammer
-  name: revolutionary wall banner
+  name: революционный настенный баннер
   description: Gone are the days of oppression and the unfair treatment of contractors! URAA!
   components:
   - type: Sprite
@@ -61,7 +61,7 @@
 - type: entity
   parent: BaseWallBanner
   id: BannerWallSoviet
-  name: USSP wall banner
+  name: настенный баннер СССП
   description: Banner of the United Soviet Socialist Planets. Hang it up. Obey it. Try not to salute by reflex.
   components:
   - type: Sprite
@@ -70,7 +70,7 @@
 - type: entity
   id: BannerSovietRegular
   parent: BannerBaseAlt
-  name: USSP banner
+  name: баннер СССП
   description: Banner of the United Soviet Socialist Planets. Features the glorious hammer and wrench. Symbols of industry, progress, fraternity and fixing what you broke.
   components:
   - type: Sprite
@@ -80,7 +80,7 @@
 - type: entity
   id: BannerSovietHammer
   parent: BannerBaseAlt
-  name: revolutionary banner
+  name: революционный баннер
   description: Gone are the days of oppression and the unfair treatment of contractors! URAA!
   components:
   - type: Sprite
@@ -90,7 +90,7 @@
 - type: entity
   id: BannerSNKVD
   parent: BannerBaseAlt
-  name: soviet SNKVD banner
+  name: советский баннер СНКВД
   description: One wrong move and you're dead comrade. For good.
   components:
   - type: Sprite
@@ -100,7 +100,7 @@
 - type: entity
   id: BannerSGKB
   parent: BannerBaseAlt
-  name: soviet SKB banner
+  name: советский баннер СКБ
   description: Implementing workers rights. Yeah, we do that in your stations. You're welcome.
   components:
   - type: Sprite

@@ -1,7 +1,7 @@
 - type: entity
   parent: [BaseItem, BaseSecurityContraband]
   id: FiringPin
-  name: firing pin
+  name: ударник
   description: Somebody probably really needs this right now...
   components:
   - type: Item
@@ -25,7 +25,7 @@
 - type: entity
   parent: FiringPin
   id: FiringPinPistol
-  name: pistol firing pin
+  name: пистолетный ударник
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Guns/Pins/firing_pins.rsi
@@ -36,7 +36,7 @@
 - type: entity
   parent: FiringPin
   id: FiringPinMakeshift
-  name: makeshift firing pin
+  name: самодельный ударник
   description: It's a nail. Welded to a bottle cap.
   components:
   - type: Sprite
@@ -50,7 +50,7 @@
 - type: entity
   parent: FiringPin
   id: FiringPinSmartLMG
-  name: smartgun bolt assembly
+  name: затворный механизм смартгана
   description: One of a kind, unreplaceable. Includes a round counter.
   components:
   - type: Sprite
@@ -63,7 +63,7 @@
 - type: entity
   parent: FiringPin
   id: FiringPinLaser
-  name: laser crystal
+  name: лазерный кристалл
   description: Fragile, not unlike the assistants killed by it.
   components:
   - type: Sprite
@@ -126,7 +126,7 @@
 - type: entity
   parent: FiringPinLaser
   id: FiringPinAdvancedLaser
-  name: prototype laser crystal
+  name: прототип лазерного кристалла
   description: DO NOT DROP is inscribed on the side. whatever.
   components:
   - type: Sprite
@@ -185,7 +185,7 @@
 - type: entity
   parent: FiringPin
   id: FiringPinExpedition
-  name: expedition firing pin
+  name: экспедиционный ударник
   description: This universal pin prevents the gun from firing when on station, useful for managing weaponry used on offstation exploration.
   components:
   - type: Sprite
@@ -198,7 +198,7 @@
 - type: entity
   parent: BaseItem
   id: FiringPinMelted
-  name: melted firing pin
+  name: расплавленный ударник
   description: A lump of metal that used to be a firing pin, before someone kept shooting.
   components:
   - type: Item
@@ -221,7 +221,7 @@
 - type: entity
   parent: FiringPinMelted
   id: FiringPinLaserCracked
-  name: cracked laser crystal
+  name: треснувший лазерный кристалл
   description: The lens crystal of an energy weapon, cracked by heat. It won't focus a beam ever again.
   components:
   - type: Sprite
@@ -237,7 +237,7 @@
 - type: entity
   parent: FiringPinLaserCracked
   id: FiringPinAdvancedLaserCracked
-  name: cracked prototype laser crystal
+  name: треснувший прототип лазерного кристалла
   description: What is left of a prototype laser crystal after someone kept firing. At least it didn't explode.
   components:
   - type: Sprite
@@ -248,7 +248,7 @@
 - type: entity
   parent: FiringPinAdvancedLaser
   id: FiringPinAdvancedLaserReplacement
-  name: lab-grown prototype laser crystal
+  name: выращенный в лаборатории прототип лазерного кристалла
   description: A lab-grown copy of a prototype laser crystal. Just as fragile as the original.
   components:
   - type: StealTarget
@@ -259,7 +259,7 @@
 - type: entity
   parent: FiringPinSmartLMG
   id: FiringPinSmartLMGReplacement
-  name: replacement smartgun bolt assembly
+  name: запасной затворный механизм смартгана
   description: A machined copy of a smartgun bolt assembly. Includes a round counter.
   components:
   - type: StealTarget

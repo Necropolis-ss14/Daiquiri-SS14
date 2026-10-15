@@ -1,7 +1,7 @@
 - type: entity
   id: BluespaceHarvester
   parent: BaseMachine
-  name: Bluespace Harvester
+  name: блюспейс-сборщик
   description: A massive bluespace harvester that converts energy into research points.
   placement:
     mode: AlignTileAny

@@ -1,8 +1,8 @@
 - type: entity
   parent: [ClothingEyesBase, BaseETOContraband]
   id: ClothingEyesSunGlassesETO
-  name: ETO operative glasses
-  description: Sunglasses modified with the ability to see who's who.
+  name: очки оперативника ETO
+  description: Очки, показывающие кто есть кто.
   components:
   - type: Sprite
     sprite: _Starlight/Admeme/ETO/etoglasses.rsi
@@ -16,8 +16,8 @@
 - type: entity
   parent: [ClothingHeadset, BaseETOContraband]
   id: ClothingHeadsetETO
-  name: ETO operative headset
-  description: A headset supplied to ETO Operatives to maintain communication through battle.
+  name: гарнитура оперативника ETO
+  description: Гарнитура оперативников ETO для связи в бою.
   components:
   - type: ContainerFill
     containers:
@@ -33,8 +33,8 @@
 - type: entity
   parent: [ClothingHeadset, BaseETOContraband]
   id: ClothingHeadsetETOSpecialist
-  name: ETO specialist headset
-  description: A headset supplied to ETO Specialists to do what they do best.
+  name: гарнитура специалиста ETO
+  description: Гарнитура специалистов ETO. Для их лучшей работы.
   components:
   - type: ContainerFill
     containers:
@@ -50,8 +50,8 @@
 - type: entity
   parent: [ ClothingMaskGas, BaseETOContraband ]
   id: ClothingMaskGasETOLead
-  name: ETO leader gas mask
-  description: A mask best fit for a leading terrorist. Protects the wearer from pot shots, but won't keep you alive alone. Modified with an Administration and Health HUD to show you health and the allegiance of those around you.
+  name: противогаз лидера ETO
+  description: "Маска главного террориста. Держит шальные выстрелы, но одна не спасёт. Модифицирована административным и медицинским HUD: показывает здоровье и лояльность окружающих."
   components:
   - type: Sprite
     sprite: _Starlight/Admeme/ETO/clothing/etomask.rsi
@@ -85,8 +85,8 @@
 - type: entity
   parent: [ ClothingMaskGas, BaseETOContraband ]
   id: ClothingMaskGasETO
-  name: ETO operative mask
-  description: Standard ETO operative mask, has some ballistic reinforcement to keep your face from being swiss cheesed all the time, but won't keep you alive on its own.
+  name: маска оперативника ETO
+  description: "Штатная маска оперативника ETO с баллистическим усилением: лицо не превратят в решето, но одна не спасёт."
   components:
   - type: Sprite
     sprite: _Starlight/Admeme/ETO/clothing/etomaskgrunt.rsi
@@ -113,8 +113,8 @@
 - type: entity
   parent: [ ClothingMaskGas, BaseETOContraband ]
   id: ClothingMaskGasETOCorpsman
-  name: ETO corpsman gas mask
-  description: A mask fit for the corpsman, modified with a MedHud to show a holographic heads up of the health of your fellow team members.
+  name: противогаз санитара ETO
+  description: "Маска санитара с медHUD: голографический оверлей здоровья товарищей."
   components:
   - type: Sprite
     sprite: _Starlight/Admeme/ETO/clothing/etomaskcorpsman.rsi
@@ -145,7 +145,7 @@
   parent: [BaseHardBomb, BaseETOContraband]
   id: ETOBomb
   name: PS-3ETO
-  description: A modified bomb that packs a larger punch, capable of blowing apart your objective! Modified with magnetic straps to allow for one to attach it to their back.
+  description: Модифицированная бомба помощнее, разнесёт твою цель! Магнитные ремни — вешай на спину.
   components:
     - type: Sprite
       sprite: _Starlight/Admeme/ETO/etobomb.rsi
@@ -194,8 +194,8 @@
 - type: entity
   parent: ETOBomb
   id: ETOBetterBomb
-  name: PS-21ETO "Planet Buster"
-  description: A bomb of mass destruction, capable of ripping apart even the most fortified structures."Death to my enemy, freedom to their slaves."
+  name: PS-21ETO «Разрушитель планет»
+  description: Бомба массового уничтожения, рвущая даже укреплённые сооружения. «Смерть врагу, свободу рабам».
   components:
     - type: Explosive
       explosionType: HardBomb

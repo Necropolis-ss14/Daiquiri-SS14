@@ -1,8 +1,8 @@
 - type: entity
   parent: [ ClothingOuterHardsuitBase, BaseMedTakContraband ]
   id: ClothingOuterHardsuitMedTak
-  name: MedTak operator hardsuit
-  description: An armoured hardsuit worn by MedTak operators.
+  name: скафандр оператора MedTak
+  description: Бронированный скафандр оперативников MedTak.
   components:
     - type: Sprite
       sprite: _Starlight/Admeme/MedTak/Clothing/OuterClothing/Hardsuits/standard.rsi
@@ -42,8 +42,8 @@
 - type: entity
   parent: ClothingOuterHardsuitMedTak
   id: ClothingOuterHardsuitMedTakMedic
-  name: MedTak medic hardsuit
-  description: An armoured hardsuit worn by MedTak medics, with a defibrillator system built into it.
+  name: скафандр медика MedTak
+  description: Бронированный скафандр медиков MedTak со встроенным дефибриллятором.
   components:
     - type: Sprite
       sprite: _Starlight/Admeme/MedTak/Clothing/OuterClothing/Hardsuits/medic.rsi
@@ -72,7 +72,7 @@
 - type: entity
   parent: ClothingOuterHardsuitMedTak
   id: ClothingOuterHardsuitMedTakPilot
-  name: MedTak pilot hardsuit
+  name: скафандр пилота MedTak
   components:
     - type: ToggleableClothing
       clothingPrototype: ClothingHeadHelmetHardsuitMedTakPilot
@@ -81,8 +81,8 @@
 - type: entity
   parent: ClothingOuterHardsuitMedTak
   id: ClothingOuterHardsuitMedTakHeavy
-  name: MedTak heavy hardsuit
-  description: A heavily armoured hardsuit worn by MedTak heavy security.
+  name: тяжёлый скафандр MedTak
+  description: Тяжёлый бронированный скафандр охраны MedTak.
   components:
     - type: Sprite
       sprite: _Starlight/Admeme/MedTak/Clothing/OuterClothing/Hardsuits/heavy.rsi

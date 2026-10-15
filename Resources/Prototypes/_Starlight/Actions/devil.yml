@@ -1,6 +1,6 @@
 - type: entity
   id: ActionSummonDemonicContract
-  name: Summon Infernal Contract
+  name: Призвать инфернальный контракт
   description: Summon an incredibly ominous piece of paper.
   components:
   - type: Action
@@ -14,7 +14,7 @@
 
 - type: entity
   id: ActionDamnationsMenu
-  name: Open Book of the Damned
+  name: Открыть Книгу Проклятых
   description: Refer to your list of damnations, see what ways you can oblige the crew.
   components:
   - type: Action
@@ -28,7 +28,7 @@
 - type: entity
   id: ActionSummonBident
   parent: BaseAction
-  name: Recall Bident
+  name: Призвать трезубец
   description: Summon a suitably evil looking weapon for diplomatic purposes.
   components:
   - type: Action
@@ -46,7 +46,7 @@
 - type: entity
   id: ActionSummonDevilPen
   parent: BaseAction
-  name: Manifest Quill
+  name: Явить перо
   description: Something to write with...
   components:
   - type: Action
@@ -64,7 +64,7 @@
 - type: entity
   id: ActionInfernalJaunt
   parent: BaseActionPolymorph
-  name: Infernal Jaunt
+  name: Инфернальный скачок
   description: Make an entrance! Comes with two charges - one for the entrance, and one for the exit. 5 minute recharge.
   components:
   - type: Action

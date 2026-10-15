@@ -1,6 +1,6 @@
 - type: entity
   id: SyndicateMindShieldImplanter
-  name: ent-SyndicateMindShieldImplanter
+  name: синдикатовский имплантер «Щита разума»
   parent: BaseImplantOnlyImplanterSyndi
   components:
     - type: Implanter

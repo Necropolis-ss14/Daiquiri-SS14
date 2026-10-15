@@ -10,7 +10,7 @@
 - type: entity
   parent: BaseMentalAction
   id: ActionReplayTogglePlayerOverlay
-  name: Toggle Player Overlay
+  name: Переключить оверлей игроков
   description: Show usernames and antagonist status above players in this replay.
   components:
   - type: Action
@@ -22,7 +22,7 @@
 - type: entity
   parent: BaseMentalAction
   id: ActionReplayToggleStatusIcons
-  name: Toggle Status Icons
+  name: Переключить значки статуса
   description: Show job, mindshield and health icons in this replay.
   components:
   - type: Action
@@ -34,7 +34,7 @@
 - type: entity
   parent: BaseMentalAction
   id: ActionReplayToggleWeather
-  name: Toggle Weather
+  name: Переключить погоду
   description: Show or hide weather overlays in this replay.
   components:
   - type: Action

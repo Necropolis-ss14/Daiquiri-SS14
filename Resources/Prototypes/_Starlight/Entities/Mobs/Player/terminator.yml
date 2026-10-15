@@ -131,7 +131,7 @@
   - BaseSpeciesPickupableLarge # Well, it is big
   id: MobTerminatorEndoskeleton
   # you are now valid
-  name: nt-800 "exterminator" endoskeleton
+  name: эндоскелет нт-800 «Истребитель»
   description: The inner powerhouse of an infiltrator android. Ridiculously hard alloy on the inside, unassuming flesh on the outside.
   components:
   - type: HumanoidAppearance

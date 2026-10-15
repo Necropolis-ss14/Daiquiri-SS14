@@ -1,7 +1,7 @@
 - type: entity
   parent: BaseWallmountMetallic
   id: HandDryer
-  name: hand dryer
+  name: сушилка для рук
   description: A hand dryer, for when youre too good for paper towels.
   components:
   - type: Sprite
@@ -11,7 +11,7 @@
 - type: entity
   parent: BaseWallmount
   id: ToiletPaper
-  name: toilet paper
+  name: туалетная бумага
   description: One-ply, for maximum inefficiency. Company has to save pennies where they can, you guess.
   components:
   - type: Sprite
@@ -30,7 +30,7 @@
 - type: entity
   parent: BaseWallmountMetallic
   id: HandSanitiser
-  name: hand sanitiser dispenser
+  name: раздатчик антисептика для рук
   description: Don't get any in your eyes.
   components:
   - type: Sprite

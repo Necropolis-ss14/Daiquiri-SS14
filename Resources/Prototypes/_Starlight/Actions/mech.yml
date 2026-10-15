@@ -15,7 +15,7 @@
 
 - type: entity
   id: ActionMechToggleLights
-  name: Toggle Lights
+  name: Переключить фары
   description: Turn on mech-mounted spotlights for visibility in poorly lit areas.
   components:
   - type: Action
@@ -32,7 +32,7 @@
 
 - type: entity
   id: ActionMechToggleInternals
-  name: Toggle Internals
+  name: Переключить подачу газов
   description: Start ventilating the interior from the gas tank.
   components:
   - type: Action
@@ -49,7 +49,7 @@
 
 - type: entity
   id: ActionMechToggleSirens
-  name: Toggle Sirens
+  name: Переключить сирены
   description: Turn on mech-mounted siren for everyone knows who's coming.
   components:
   - type: Action
@@ -66,7 +66,7 @@
 
 - type: entity
   id: ActionMechToggleThrusters
-  name: Toggle Thrusters
+  name: Переключить двигатели
   description: Turn on mech-mounted thrusters for flying in space.
   components:
   - type: Action
@@ -83,7 +83,7 @@
 
 - type: entity
   id: ActionMechToggleNightVision
-  name: Toggle Camera
+  name: Переключить камеру
   description: Turn on the night vision camera mounted on the Mech.
   components:
   - type: Action

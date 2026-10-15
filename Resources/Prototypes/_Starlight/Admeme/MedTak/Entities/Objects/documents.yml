@@ -1,9 +1,9 @@
 
 - type: entity
-  name: MedTak paper
+  name: бумага MedTak
   parent: Paper
   id: PaperMedTak
-  description: A piece of paper headed by the MedTak logo. It looks expensive. For you.
+  description: Лист бумаги с логотипом MedTak. Выглядит дорого. Для тебя.
   components:
   - type: Sprite
     layers:
@@ -31,7 +31,7 @@
 - type: entity
   parent: PaperMedTak
   id: PrintedDocumentMedTakContract
-  name: MedTak Coverage Contract
+  name: Договор покрытия MedTak
   components:
     - type: Paper
     - type: TextFilePaperContent
@@ -41,7 +41,7 @@
 - type: entity
   parent: PaperMedTak
   id: PrintedDocumentMedTakCorrespondence
-  name: MedTak Correspondence
+  name: Переписка MedTak
   components:
     - type: Paper
     - type: TextFilePaperContent
@@ -51,7 +51,7 @@
 - type: entity
   parent: PaperMedTak
   id: PrintedDocumentMedTakInvoice
-  name: MedTak Invoice
+  name: Счёт MedTak
   components:
     - type: Paper
     - type: TextFilePaperContent
@@ -61,7 +61,7 @@
 - type: entity
   parent: PaperMedTak
   id: PrintedDocumentMedTakReport
-  name: MedTak After Action Report
+  name: Отчёт о действиях MedTak
   components:
     - type: Paper
     - type: TextFilePaperContent

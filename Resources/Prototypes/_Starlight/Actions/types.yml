@@ -1,7 +1,7 @@
 - type: entity
   parent: BaseAction
   id: ActionToggleDome
-  name: Toggle energy dome
+  name: Переключить энергокупол
   description: Turn the energy barrier on or off.
   categories: [ HideSpawnMenu ]
   components:

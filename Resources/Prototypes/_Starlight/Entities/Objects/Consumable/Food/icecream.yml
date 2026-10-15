@@ -58,10 +58,10 @@
       - IceCream
 
 - type: entity
-  name: ent-FoodVanillaIceCream
+  name: ванильное мороженое
   parent: FoodIceCreamBase
   id: FoodVanillaIceCream
-  description: ent-FoodVanillaIceCream-desc
+  description: Порция ванильного мороженого, знакомая каждому спейсеру.
   components:
   - type: FlavorProfile
     flavors:
@@ -81,10 +81,10 @@
         Quantity: 15
 
 - type: entity
-  name: ent-FoodChocolateIceCream
+  name: шоколадное мороженое
   parent: FoodIceCreamBase
   id: FoodChocolateIceCream
-  description: ent-FoodChocolateIceCream-desc
+  description: Порция насыщенного шоколада с тёмной шоколадной крошкой и палочкой корицы.
   components:
   - type: FlavorProfile
     flavors:
@@ -106,10 +106,10 @@
         Quantity: 10
 
 - type: entity
-  name: ent-FoodStrawberryIceCream
+  name: клубничное мороженое
   parent: FoodIceCreamBase
   id: FoodStrawberryIceCream
-  description: ent-FoodStrawberryIceCream-desc
+  description: Розовое клубничное мороженое с настоящей клубникой!
   components:
   - type: FlavorProfile
     flavors:
@@ -129,10 +129,10 @@
         Quantity: 15
 
 - type: entity
-  name: ent-FoodMintChocolateIceCream
+  name: мятно-шоколадное мороженое
   parent: FoodIceCreamBase
   id: FoodMintChocolateIceCream
-  description: ent-FoodMintChocolateIceCream-desc
+  description: Освежающее мятное мороженое с хрустящей шоколадной крошкой.
   components:
   - type: FlavorProfile
     flavors:
@@ -154,10 +154,10 @@
         Quantity: 13
 
 - type: entity
-  name: ent-FoodCoffeeIceCream
+  name: кофейное мороженое
   parent: FoodIceCreamBase
   id: FoodCoffeeIceCream
-  description: ent-FoodCoffeeIceCream-desc
+  description: Мороженое со вкусом кофе с парой жареных кофейных зёрен.
   components:
   - type: FlavorProfile
     flavors:
@@ -179,10 +179,10 @@
         Quantity: 5
 
 - type: entity
-  name: ent-FoodSnowcreamIceCream
+  name: фирменное мороженое «Снежный крем»
   parent: FoodIceCreamBase
   id: FoodSnowcreamIceCream
-  description: ent-FoodSnowcreamIceCream-desc
+  description: Ванильное мороженое с вафельным печеньем знакомой формы.
   components:
   - type: FlavorProfile
     flavors:
@@ -202,10 +202,10 @@
         Quantity: 15
 
 - type: entity
-  name: ent-FoodSherbetIceCream
+  name: щербет
   parent: FoodIceCreamBase
   id: FoodSherbetIceCream
-  description: ent-FoodSherbetIceCream-desc
+  description: Лимон, лайм, апельсин и клубника во фруктово-кислой смеси.
   components:
   - type: Tag
     tags:
@@ -229,10 +229,10 @@
         Quantity: 15
 
 - type: entity
-  name: ent-FoodBananaSplitIceCream
+  name: мороженое «Банановый рай»
   parent: FoodIceCreamBase
   id: FoodBananaSplitIceCream
-  description: ent-FoodBananaSplitIceCream-desc
+  description: Святая троица мороженого.
   components:
   - type: FlavorProfile
     flavors:
@@ -255,10 +255,10 @@
 
 
 - type: entity
-  name: ent-FoodOrangeSwirlIceCream
+  name: мороженое «Апельсиновый вихрь»
   parent: FoodIceCreamBase
   id: FoodOrangeSwirlIceCream
-  description: ent-FoodOrangeSwirlIceCream-desc
+  description: Ванильное мороженое с апельсиновым щербетом вперемешку.
   components:
   - type: Tag
     tags:
@@ -282,10 +282,10 @@
         Quantity: 15
 
 - type: entity
-  name: ent-FoodBlueberryIceCream
+  name: черничное мороженое
   parent: FoodIceCreamBase
   id: FoodBlueberryIceCream
-  description: ent-FoodBlueberryIceCream-desc
+  description: Мороженое с синими ягодами.
   components:
   - type: FlavorProfile
     flavors:
@@ -305,10 +305,10 @@
         Quantity: 15
 
 - type: entity
-  name: ent-FoodNeapolitanIceCream
+  name: неаполитанское мороженое
   parent: FoodIceCreamBase
   id: FoodNeapolitanIceCream
-  description: ent-FoodNeapolitanIceCream-desc
+  description: Ваниль, клубника и шоколад слоями.
   components:
   - type: FlavorProfile
     flavors:
@@ -330,10 +330,10 @@
         Quantity: 10
 
 - type: entity
-  name: ent-FoodSaltedCaramelIceCream
+  name: мороженое с солёной карамелью
   parent: FoodIceCreamBase
   id: FoodSaltedCaramelIceCream
-  description: ent-FoodSaltedCaramelIceCream-desc
+  description: Ваниль с щепоткой соли и карамельной глазурью.
   components:
   - type: FlavorProfile
     flavors:
@@ -353,10 +353,10 @@
         Quantity: 15
 
 - type: entity
-  name: ent-FoodRockyRoadIceCream
+  name: мороженое «Каменистая дорога»
   parent: FoodIceCreamBase
   id: FoodRockyRoadIceCream
-  description: ent-FoodRockyRoadIceCream-desc
+  description: Шоколадное мороженое с маршмеллоу и миндалём.
   components:
   - type: FlavorProfile
     flavors:
@@ -378,10 +378,10 @@
         Quantity: 10
 
 - type: entity
-  name: ent-FoodMatchaIceCream
+  name: мороженое с матчей
   parent: FoodIceCreamBase
   id: FoodMatchaIceCream
-  description: ent-FoodMatchaIceCream-desc
+  description: Землистое мороженое с порошком матча.
   components:
   - type: FlavorProfile
     flavors:
@@ -403,10 +403,10 @@
         Quantity: 5
 
 - type: entity
-  name: ent-FoodPistachioIceCream
+  name: фисташковое мороженое
   parent: FoodIceCreamBase
   id: FoodPistachioIceCream
-  description: ent-FoodPistachioIceCream-desc
+  description: Мороженое с фисташками.
   components:
   - type: FlavorProfile
     flavors:
@@ -426,10 +426,10 @@
         Quantity: 15
 
 - type: entity
-  name: ent-FoodPeanutButterIceCream
+  name: мороженое с арахисовой пастой
   parent: FoodIceCreamBase
   id: FoodPeanutButterIceCream
-  description: ent-FoodPeanutButterIceCream-desc
+  description: Арахисовая паста с мороженым, чтобы набрать калорий.
   components:
   - type: FlavorProfile
     flavors:
@@ -449,10 +449,10 @@
         Quantity: 15
 
 - type: entity
-  name: ent-FoodCherryIceCream
+  name: вишнёвое мороженое
   parent: FoodIceCreamBase
   id: FoodCherryIceCream
-  description: ent-FoodCherryIceCream-desc
+  description: Насыщенное вишнёвое мороженое.
   components:
   - type: FlavorProfile
     flavors:
@@ -472,10 +472,10 @@
         Quantity: 15
 
 - type: entity
-  name: ent-FoodAppleCinnamonIceCream
+  name: мороженое с яблоком и корицей
   parent: FoodIceCreamBase
   id: FoodAppleCinnamonIceCream
-  description: ent-FoodAppleCinnamonIceCream-desc
+  description: Ванильное мороженое с яблочными дольками и корицей.
   components:
   - type: FlavorProfile
     flavors:
@@ -495,10 +495,10 @@
         Quantity: 15
 
 - type: entity
-  name: ent-FoodGoldAppleCinnamonIceCream
+  name: мороженое с золотым яблоком и корицей
   parent: FoodIceCreamBase
   id: FoodGoldAppleCinnamonIceCream
-  description: ent-FoodGoldAppleCinnamonIceCream-desc
+  description: Мороженое, излучающее здоровье.
   components:
   - type: FlavorProfile
     flavors:
@@ -518,10 +518,10 @@
         Quantity: 13
 
 - type: entity
-  name: ent-FoodHolyMelonIceCream
+  name: мороженое со святой дыней
   parent: FoodIceCreamBase
   id: FoodHolyMelonIceCream
-  description: ent-FoodHolyMelonIceCream-desc
+  description: Сорбет из святой дыни, очищающий душу.
   components:
   - type: FlavorProfile
     flavors:
@@ -541,10 +541,10 @@
         Quantity: 15
 
 - type: entity
-  name: ent-FoodRainbowHighIceCream
+  name: мороженое «Радужный приход»
   parent: FoodIceCreamBase
   id: FoodRainbowHighIceCream
-  description: ent-FoodRainbowHighIceCream-desc
+  description: Это мороженое где-то далеко...
   components:
   - type: FlavorProfile
     flavors:
@@ -566,10 +566,10 @@
         Quantity: 6
 
 - type: entity
-  name: ent-FoodMeatIceCream
+  name: мясное мороженое
   parent: FoodIceCreamBase
   id: FoodMeatIceCream
-  description: ent-FoodMeatIceCream-desc
+  description: Сырой стейк Ти-бон с мороженым.
   components:
   - type: FlavorProfile
     flavors:
@@ -589,10 +589,10 @@
         Quantity: 15
 
 - type: entity
-  name: ent-FoodWehIceCream
+  name: мороженое «Вех»
   parent: FoodIceCreamBase
   id: FoodWehIceCream
-  description: ent-FoodWehIceCream-desc
+  description: Лаймовое мороженое в форме любимой плюшевой игрушки.
   components:
   - type: Tag
     tags:
@@ -618,10 +618,10 @@
         Quantity: 5
 
 - type: entity
-  name: ent-FoodSpaceDragonIceCream
+  name: мороженое с космическим драконом
   parent: FoodIceCreamBase
   id: FoodSpaceDragonIceCream
-  description: ent-FoodSpaceDragonIceCream-desc
+  description: Черничное мороженое с... мясом космического дракона внутри.
   components:
   - type: FlavorProfile
     flavors:
@@ -643,10 +643,10 @@
         Quantity: 10
 
 - type: entity
-  name: ent-FoodMothSilkIceCream
+  name: мороженое из шёлковых нитей
   parent: FoodIceCreamBase
   id: FoodMothSilkIceCream
-  description: ent-FoodMothSilkIceCream-desc
+  description: Шёлковые нити со вкусом ванильного мороженого для моли.
   components:
   - type: FlavorProfile
     flavors:
@@ -668,10 +668,10 @@
         Quantity: 5
 
 - type: entity
-  name: ent-FoodDimensionalIceCream
+  name: межпространственное мороженое «Наполеон»
   parent: FoodIceCreamBase
   id: FoodDimensionalIceCream
-  description: ent-FoodDimensionalIceCream-desc
+  description: Мороженое, от которого вы почувствуете иные измерения.
   components:
   - type: Tag
     tags:
@@ -697,10 +697,10 @@
         Quantity: 6
 
 - type: entity
-  name: ent-FoodOmnizineIceCream
+  name: омнизиновое мороженое
   parent: FoodIceCreamBase
   id: FoodOmnizineIceCream
-  description: ent-FoodOmnizineIceCream-desc
+  description: Невероятно успокаивающее мороженое, заживляющее раны.
   components:
   - type: FlavorProfile
     flavors:
@@ -722,10 +722,10 @@
         Quantity: 8
 
 - type: entity
-  name: ent-FoodMeanGirlIceCream
+  name: мороженое стервозной девчонки
   parent: FoodIceCreamBase
   id: FoodMeanGirlIceCream
-  description: ent-FoodMeanGirlIceCream-desc
+  description: Сила стервозных девчонок сияет в этом мороженом.
   components:
   - type: FlavorProfile
     flavors:
@@ -745,10 +745,10 @@
         Quantity: 15
 
 - type: entity
-  name: ent-FoodHewIceCream
+  name: мороженое «Хью»
   parent: FoodIceCreamBase
   id: FoodHewIceCream
-  description: ent-FoodHewIceCream-desc
+  description: Черничное мороженое в форме милого перевёрнутого веха.
   components:
   - type: FlavorProfile
     flavors:
@@ -770,10 +770,10 @@
         Quantity: 5
 
 - type: entity
-  name: ent-FoodFluffyBoyIceCream
+  name: мороженое пушистика
   parent: FoodIceCreamBase
   id: FoodFluffyBoyIceCream
-  description: ent-FoodFluffyBoyIceCream-desc
+  description: Сила пушистиков сияет в этом мороженом.
   components:
   - type: Tag
     tags:
@@ -797,10 +797,10 @@
         Quantity: 15
 
 - type: entity
-  name: ent-FoodLeaderIceCream
+  name: мороженое лидера
   parent: FoodIceCreamBase
   id: FoodLeaderIceCream
-  description: ent-FoodLeaderIceCream-desc
+  description: Сила этого мороженого сияет вместе с тобой.
   components:
   - type: FlavorProfile
     flavors:
@@ -820,10 +820,10 @@
         Quantity: 15
 
 - type: entity
-  name: ent-FoodTeslaIceCream
+  name: мороженое «Тесла»
   parent: FoodIceCreamBase
   id: FoodTeslaIceCream
-  description: ent-FoodTeslaIceCream-desc
+  description: Мороженое, чтобы добавить искры твоему шагу!
   components:
   - type: FlavorProfile
     flavors:
@@ -845,10 +845,10 @@
         Quantity: 5
 
 - type: entity
-  name: ent-FoodBananaIceCream
+  name: банановое мороженое
   parent: FoodIceCreamBase
   id: FoodBananaIceCream
-  description: ent-FoodBananaIceCream-desc
+  description: Мороженое с бананом, от которого ты сойдёшь с бананов.
   components:
   - type: FlavorProfile
     flavors:
@@ -868,10 +868,10 @@
         Quantity: 15
 
 - type: entity
-  name: ent-FoodClownIceCream
+  name: клоунское мороженое
   parent: FoodIceCreamBase
   id: FoodClownIceCream
-  description: ent-FoodClownIceCream-desc
+  description: Озорное мороженое в форме станционного клоуна. Гудки included.
   components:
   - type: FlavorProfile
     flavors:
@@ -893,10 +893,10 @@
         Quantity: 3
 
 - type: entity
-  name: ent-FoodCoconutIceCream
+  name: кокосовое мороженое
   parent: FoodIceCreamBase
   id: FoodCoconutIceCream
-  description: ent-FoodCoconutIceCream-desc
+  description: Кокос с мороженым в простом освежающем дуэте.
   components:
   - type: FlavorProfile
     flavors:
@@ -918,10 +918,10 @@
         Quantity: 5
 
 - type: entity
-  name: ent-FoodIanIceCream
+  name: мороженое «Иан»
   parent: FoodIceCreamBase
   id: FoodIanIceCream
-  description: ent-FoodIanIceCream-desc
+  description: Апельсиново-ванильное мороженое в форме любимого Иана.
   components:
   - type: Tag
     tags:
@@ -945,10 +945,10 @@
         Quantity: 15
 
 - type: entity
-  name: ent-FoodNTIceCream
+  name: мороженое НаноТрейзен
   parent: FoodIceCreamBase
   id: FoodNTIceCream
-  description: ent-FoodNTIceCream-desc
+  description: Насыщенная черника с маршмеллоу во славу любимого космического работодателя!
   components:
   - type: FlavorProfile
     flavors:
@@ -968,10 +968,10 @@
         Quantity: 15
 
 - type: entity
-  name: ent-FoodNTMarineIceCream
+  name: мороженое морпехов НаноТрейзен
   parent: FoodIceCreamBase
   id: FoodNTMarineIceCream
-  description: ent-FoodNTMarineIceCream-desc
+  description: Спонсорские черника с лаймом, чтобы завербовать твои вкусовые сосочки.
   components:
   - type: Tag
     tags:
@@ -995,10 +995,10 @@
         Quantity: 15
 
 - type: entity
-  name: ent-FoodPineappleIceCream
+  name: ананасовое мороженое
   parent: FoodIceCreamBase
   id: FoodPineappleIceCream
-  description: ent-FoodPineappleIceCream-desc
+  description: Стаканчик тропического ананасового мороженого.
   components:
   - type: FlavorProfile
     flavors:
@@ -1018,10 +1018,10 @@
         Quantity: 15
 
 - type: entity
-  name: ent-FoodRisingSunIceCream
+  name: мороженое «Восходящее солнце»
   parent: FoodIceCreamBase
   id: FoodRisingSunIceCream
-  description: ent-FoodRisingSunIceCream-desc
+  description: Малина, апельсин и лимон вместе — предельно кислое мороженое.
   components:
   - type: Tag
     tags:
@@ -1045,10 +1045,10 @@
         Quantity: 15
 
 - type: entity
-  name: ent-FoodRockyOreIceCream
+  name: мороженое «Рудная порода»
   parent: FoodIceCreamBase
   id: FoodRockyOreIceCream
-  description: ent-FoodRockyOreIceCream-desc
+  description: Любимое вишнёвое мороженое шахтёров с кучей печенья в форме руды — есть что покопать.
   components:
   - type: FlavorProfile
     flavors:
@@ -1068,10 +1068,10 @@
         Quantity: 15
 
 - type: entity
-  name: ent-FoodStunBatonIceCream
+  name: мороженое-дубинка
   parent: FoodIceCreamBase
   id: FoodStunBatonIceCream
-  description: ent-FoodStunBatonIceCream-desc
+  description: Оранжевое мороженое в форме дубинки. Теперь дубинкой можно и по-хорошему!
   components:
   - type: Tag
     tags:
@@ -1102,10 +1102,10 @@
         Quantity: 15
 
 - type: entity
-  name: ent-FoodSyndieLandIceCream
+  name: мороженое «Синдиленд»
   parent: FoodIceCreamBase
   id: FoodSyndieLandIceCream
-  description: ent-FoodSyndieLandIceCream-desc
+  description: Вишня с лаймом в форме любимых героев под-войн.
   components:
   - type: Tag
     tags:
@@ -1129,10 +1129,10 @@
         Quantity: 15
 
 - type: entity
-  name: ent-FoodTiramisuIceCream
+  name: мороженое тирамису
   parent: FoodIceCreamBase
   id: FoodTiramisuIceCream
-  description: ent-FoodTiramisuIceCream-desc
+  description: Кофе, шоколад и корица в мороженом без горелки.
   components:
   - type: FlavorProfile
     flavors:
@@ -1154,10 +1154,10 @@
         Quantity: 5
 
 - type: entity
-  name: ent-FoodUraniumIceCream
+  name: урановое мороженое
   parent: FoodIceCreamBase
   id: FoodUraniumIceCream
-  description: ent-FoodUraniumIceCream-desc
+  description: Счётчик Гейгера к этому радиоактивному мороженому не прилагается.
   components:
   - type: FlavorProfile
     flavors:
@@ -1179,10 +1179,10 @@
         Quantity: 5
 
 - type: entity
-  name: ent-FoodVoxIceCream
+  name: мороженое воксов
   parent: FoodIceCreamBase
   id: FoodVoxIceCream
-  description: ent-FoodVoxIceCream-desc
+  description: Холодное лакомство для птиц покрупнее. Пахнет странновато, но дайте его воксу — и он с радостью откусит разок-другой... или всё целиком.
   components:
   - type: FlavorProfile
     flavors:

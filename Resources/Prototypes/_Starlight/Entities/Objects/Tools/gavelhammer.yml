@@ -1,7 +1,7 @@
 - type: entity
   parent: BaseItem
   id: GavelHammer
-  name: gavel hammer
+  name: судейский молоток
   description: This is what they hit with.
   components:
   - type: Sprite

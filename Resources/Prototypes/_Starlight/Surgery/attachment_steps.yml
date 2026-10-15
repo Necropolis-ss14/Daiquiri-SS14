@@ -1,7 +1,7 @@
 ﻿- type: entity
   parent: SurgeryStepBase
   id: SurgeryLimbAttachmentStep
-  name: attach a limb
+  name: прикрепить конечность
   components:
   - type: SurgeryStep
     duration: 4
@@ -15,7 +15,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryLimbAttachmentStepLeftArm
-  name: attach a limb
+  name: прикрепить конечность
   components:
   - type: SurgeryStep
     duration: 4
@@ -29,7 +29,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryLimbAttachmentStepRightArm
-  name: attach a limb
+  name: прикрепить конечность
   components:
   - type: SurgeryStep
     duration: 4
@@ -43,7 +43,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepRejoinNerves
-  name: Rejoin Nerves
+  name: Соединить нервы
   components:
   - type: SurgeryStep
     duration: 5
@@ -57,7 +57,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepRejoinBloodVessels
-  name: Rejoin Blood Vessels
+  name: Соединить кровеносные сосуды
   components:
   - type: SurgeryStep
     duration: 5
@@ -70,7 +70,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepRestoreCartilage
-  name: Restore Cartilage
+  name: Восстановить хрящ
   components:
   - type: SurgeryStep
     duration: 4

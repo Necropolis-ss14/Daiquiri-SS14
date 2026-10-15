@@ -1,7 +1,7 @@
 - type: entity
   parent: BasePlushie
   id: BottleShip
-  name: ship in a bottle
+  name: корабль в бутылке
   description: How did they get it in there?
   components:
   - type: Item
@@ -31,7 +31,7 @@
 - type: entity
   parent: BasePlushie
   id: PlushieDarkForest
-  name: dark forest entity # Even though it's a plushie, it belongs in Fashion-O-Mat, since it's 2 main sprites are the ones that are equipped to body
+  name: "ent-PlushieDarkForest # Even though it's a plushie, it belongs in Fashion-O-Mat, since it's 2 main sprites are the ones that are equipped to body"
   description: Apocalypse holding a lantern...
   components:
   - type: Item

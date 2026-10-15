@@ -1,9 +1,9 @@
 - type: entity
   id: OrganNeoResomiEyes
   parent: OrganNeocyteEyes
-  name: ent-OrganNeoResomiEyes
+  name: кибернетические глаза резоми
   suffix: Neo-Resomi
-  description: ent-OrganNeoResomiEyes-desc
+  description: Эти кибернетические глаза отлично видят ночью для охоты на добычу в технических туннелях, но очень чувствительны к ярким вспышкам.
   components:
   - type: FunctionalOrgan
     comps:
@@ -15,7 +15,7 @@
 - type: entity
   id: OrganNeoResomiHeart
   parent: OrganNeocyteHeart
-  name: ent-OrganNeoResomiHeart
+  name: кибернетическое сердце резоми
   suffix: Neo-Resomi
   components:
   - type: Metabolizer
@@ -25,9 +25,9 @@
 - type: entity
   id: OrganNeoResomiLungs
   parent: OrganNeocyteLungs
-  name: ent-OrganNeoResomiLungs
+  name: кибернетические лёгкие резоми
   suffix: Neo-Resomi
-  description: ent-OrganNeoResomiLungs-desc
+  description: Фильтруют кислород из атмосферы, который затем поступает в кровоток и используется как переносчик электронов. Полностью кибернетические по природе, работают в паре с системой фильтрации визора.
   components:
   - type: Metabolizer
     metabolizerTypes: [ Resomi, Neocyte ]

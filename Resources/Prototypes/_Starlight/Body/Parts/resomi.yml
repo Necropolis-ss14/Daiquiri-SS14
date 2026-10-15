@@ -1,7 +1,7 @@
 - type: entity
   id: PartResomi
   parent: [BaseItem, BasePart]
-  name: ent-PartResomi
+  name: часть тела резоми
   abstract: true
   components:
   - type: Extractable
@@ -14,7 +14,7 @@
 
 - type: entity
   id: TorsoResomi
-  name: ent-TorsoResomi
+  name: туловище резоми
   parent: [PartResomi, BaseTorso]
   components:
   - type: Sprite
@@ -31,7 +31,7 @@
 
 - type: entity
   id: HeadResomi
-  name: ent-HeadResomi
+  name: голова резоми
   parent: [PartResomi, BaseHead]
   components:
   - type: Sprite
@@ -47,7 +47,7 @@
 
 - type: entity
   id: LeftArmResomi
-  name: ent-LeftArmResomi
+  name: левая рука резоми
   parent: [PartResomi, BaseLeftArm]
   components:
   - type: Sprite
@@ -56,7 +56,7 @@
 
 - type: entity
   id: RightArmResomi
-  name: ent-RightArmResomi
+  name: правая рука резоми
   parent: [PartResomi, BaseRightArm]
   components:
   - type: Sprite
@@ -65,7 +65,7 @@
 
 - type: entity
   id: LeftHandResomi
-  name: ent-LeftHandResomi
+  name: левая кисть резоми
   parent: [PartResomi, BaseLeftHand]
   components:
   - type: Sprite
@@ -74,7 +74,7 @@
 
 - type: entity
   id: RightHandResomi
-  name: ent-RightHandResomi
+  name: правая кисть резоми
   parent: [PartResomi, BaseRightHand]
   components:
   - type: Sprite
@@ -83,7 +83,7 @@
 
 - type: entity
   id: LeftLegResomi
-  name: ent-LeftLegResomi
+  name: левая нога резоми
   parent: [PartResomi, BaseLeftLeg]
   components:
   - type: Sprite
@@ -92,7 +92,7 @@
 
 - type: entity
   id: RightLegResomi
-  name: ent-RightLegResomi
+  name: правая нога резоми
   parent: [PartResomi, BaseRightLeg]
   components:
   - type: Sprite
@@ -101,7 +101,7 @@
 
 - type: entity
   id: LeftFootResomi
-  name: ent-LeftFootResomi
+  name: левая стопа резоми
   parent: [PartResomi, BaseLeftFoot]
   components:
   - type: Sprite
@@ -110,7 +110,7 @@
 
 - type: entity
   id: RightFootResomi
-  name: ent-RightFootResomi
+  name: правая стопа резоми
   parent: [PartResomi, BaseRightFoot]
   components:
   - type: Sprite

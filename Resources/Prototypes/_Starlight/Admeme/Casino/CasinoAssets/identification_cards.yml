@@ -23,7 +23,7 @@
 - type: entity
   parent: CasinoIDCard
   id: CasinoIDCardDealer
-  name: Gamorrah dealer ID card
+  name: ID-карта дилера Gamorrah
   components:
     - type: Sprite
       layers:
@@ -38,7 +38,7 @@
 - type: entity
   parent: CasinoIDCard
   id: CasinoIDCardOwner
-  name: Gamorrah owner ID card
+  name: ID-карта владельца Gamorrah
   components:
   - type: Sprite
     layers:
@@ -53,7 +53,7 @@
 - type: entity
   parent: CasinoIDCard
   id: CasinoIDCardManager
-  name: Gamorrah manager ID card
+  name: ID-карта менеджера Gamorrah
   components:
     - type: Sprite
       layers:
@@ -68,7 +68,7 @@
 - type: entity
   parent: CasinoIDCard
   id: CasinoIDCardSecurity
-  name: Gamorrah security ID card
+  name: ID-карта охраны Gamorrah
   components:
     - type: Sprite
       layers:
@@ -83,7 +83,7 @@
 - type: entity
   parent: CasinoIDCard
   id: CasinoIDCardBrigmed
-  name: Gamorrah brigmedic ID card
+  name: ID-карта бригмедика Gamorrah
   components:
     - type: Sprite
       layers:
@@ -105,7 +105,7 @@
 - type: entity
   parent: CasinoIDCard
   id: CasinoIDCardTreasurer
-  name: Gamorrah treasurer ID card
+  name: ID-карта казначея Gamorrah
   components:
     - type: Sprite
       layers:

@@ -45,8 +45,8 @@
 - type: entity
   parent: MedTakPDA
   id: MedTakPDAMedic
-  name: MedTak medic PDA
-  description: Is it blood or red paint?
+  name: КПК медика MedTak
+  description: Кровь это или красная краска?
   components:
   - type: Pda
     id: MedTakIDCardMedic
@@ -54,8 +54,8 @@
 - type: entity
   parent: MedTakPDA
   id: MedTakPDAPilot
-  name: MedTak pilot PDA
-  description: It's red paint.
+  name: КПК пилота MedTak
+  description: Это красная краска.
   components:
   - type: Pda
     id: MedTakIDCardPilot
@@ -63,8 +63,8 @@
 - type: entity
   parent: MedTakPDA
   id: MedTakPDASecurity
-  name: MedTak security PDA
-  description: It's blood.
+  name: КПК офицера безопасности MedTak
+  description: Это кровь.
   components:
   - type: Pda
     id: MedTakIDCardSecurity
@@ -72,8 +72,8 @@
 - type: entity
   parent: MedTakPDA
   id: MedTakPDATeamLead
-  name: MedTak team leader PDA
-  description: It's blood.
+  name: КПК лидера команды MedTak
+  description: Это кровь.
   components:
   - type: Pda
     id: MedTakIDCardTeamLead
@@ -81,8 +81,8 @@
 - type: entity
   parent: MedTakPDA
   id: MedTakPDADispatcher
-  name: MedTak dispatcher PDA
-  description: It's red paint.
+  name: КПК диспетчера MedTak
+  description: Это красная краска.
   components:
   - type: Pda
     id: MedTakIDCardDispatcher

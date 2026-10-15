@@ -1,8 +1,8 @@
 - type: entity
   id: CrateMailBags
   parent: CrateGenericSteel
-  name: mailbag crate
-  description: Contains two mail bags, in case you lost the ones we gave you already.
+  name: ящик почтовых мешков
+  description: Два почтовых мешка, вдруг ты потерял выданные.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -14,8 +14,8 @@
 - type: entity
   id: CrateEmergencySpaceHazard
   parent: CrateGenericSteel
-  name: space hazard suit crate
-  description: For all your disastrous shifts.
+  name: ящик скафандров космической опасности
+  description: На все твои катастрофические смены.
   components:
   - type: EntityTableContainerFill
     containers:

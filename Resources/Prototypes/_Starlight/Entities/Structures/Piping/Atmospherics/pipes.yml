@@ -3,7 +3,7 @@
 - type: entity
   parent: GasPipeSansLayers
   id: GasPipeTankSubfloor
-  name: subfloor gas tank
+  name: подполовой газовый бак
   description: A 750L gas tank built into the subfloor. Perfect when space is at a premium.
   placement:
     mode: AlignAtmosPipeLayers
@@ -113,7 +113,7 @@
 - type: entity
   parent: GasPipeSansLayers
   id: GasPipeTankTall
-  name: tall gas tank
+  name: высокий газовый бак
   description: A tank that stores 2000L of gas. It's very big. Bigger than you. The warning label reads, "If you can read this, you are standing too close!".
   placement:
     mode: AlignAtmosPipeLayers

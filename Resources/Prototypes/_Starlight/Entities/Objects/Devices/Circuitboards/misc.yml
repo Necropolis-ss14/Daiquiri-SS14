@@ -1,7 +1,7 @@
 - type: entity
   parent: BaseElectronics
   id: WallmountMassScannerCircuitboard
-  name: wallmount mass scanner electronics
+  name: настенная электроника сканера массы
   description: An electronics board used in wall-mounted mass scanners.
   components:
   - type: Item

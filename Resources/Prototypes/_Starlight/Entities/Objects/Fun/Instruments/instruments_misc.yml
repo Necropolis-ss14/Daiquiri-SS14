@@ -21,7 +21,7 @@
 - type: entity
   parent: BaseHandheldInstrument
   id: NT4PlayerInstrument
-  name: nt4 player
+  name: NT4-плеер
   description: The 4th iteration of NanoTrasen's portable music player. One day, everyone will have one of these in their pockets.
   components:
   - type: Instrument

@@ -54,7 +54,7 @@
       heldPrefix: stun4
 
 - type: entity
-  name: energy gun
+  name: энергопистолет
   parent: [ BaseWeaponBatterySmall, BaseSecurityContraband ]
   id: WeaponEnergyGun
   description: An energy gun capable of switching between lethal and debilitating lasers.
@@ -94,7 +94,7 @@
       heldPrefix: kill4
 
 - type: entity
-  name: miniature energy gun
+  name: миниатюрный энергопистолет
   parent: [ BaseWeaponBatterySmall, BaseSecurityContraband ]
   id: WeaponMiniEnergyGun
   description: An energy gun capable of switching between lethal and debilitating lasers.
@@ -230,7 +230,7 @@
         - delta
 
 - type: entity
-  name: X-01 multiphase energy gun
+  name: мультифазный энергопистолет X-01
   parent: [ BaseWeaponBatterySmall, BaseBlueShieldContraband, BaseGrandTheftContraband ]
   id: WeaponMultiphaseGun
   description: This is an expensive, modern version of the antique laser pistol, with several unique fire modes.
@@ -302,7 +302,7 @@
     supportedPins: [ AdvancedLaser ]
 
 - type: entity
-  name: MT-7 Magnum
+  name: Магнум MT-7
   parent: [ BaseWeaponBatterySmall, BaseSecurityContraband ]
   id: WeaponEnergyMagnumSeven
   description: This is an expensive, modern recreation of the Mateba revolver, with several unique fire modes. And a slow self recharging battery. However, it has a slower recharge then most battery related weapons.
@@ -357,7 +357,7 @@
 - type: entity
   parent: [BaseWeaponBattery, BaseGunWieldable, BaseSecurityContraband, BaseCentcommContraband ]
   id: WeaponIonCarbine
-  name: ion carbine
+  name: ионный карабин
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Guns/Battery/ion_carbine.rsi
@@ -392,7 +392,7 @@
 - type: entity
   parent: WeaponIonCarbine
   id: WeaponIonRifle
-  name: ion rifle
+  name: ионная винтовка
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Guns/Battery/ion_rifle.rsi
@@ -518,7 +518,7 @@
         path: /Audio/Weapons/Guns/Gunshots/laser3.ogg
 
 - type: entity
-  name: pulse pistol
+  name: пульс-пистолет
   parent: [BaseWeaponBatterySmall, BaseSecurityContraband ]
   id: WeaponPulsePistol
   description: An extremely compact version of the pulse carabine.
@@ -615,7 +615,7 @@
 - type: entity
   parent: [ BaseWeaponBatterySmall, BaseMajorContraband ]
   id: WeaponAlien
-  name: alien pistol
+  name: пистолет пришельцев
   components:
   - type: RestrictByUserTag
     doestContain: []
@@ -756,7 +756,7 @@
     startingCharge: 3300
 
 - type: entity
-  name: pulse rifle
+  name: импульсный карабин
   parent: [BaseWeaponBattery, BaseGunWieldable, BaseCentcommContraband]
   id: WeaponPulseRifle
   description: A weapon that is almost as infamous as its users.
@@ -983,7 +983,7 @@
     heatPerShot: 1000
 
 - type: entity
-  name: pulse cannon
+  name: импульсная пушка
   parent: [BaseWeaponBattery, BaseGunWieldable, BaseCentcommContraband]
   id: WeaponPulseCannonNTNC
   description: A weapon meant to blow holes in people with lasers. Like Superman. I like Superman.
@@ -1038,7 +1038,7 @@
 
 # NTNC
 - type: entity
-  name: cyborg pulse carbine
+  name: импульсный карабин киборга
   parent: [ BaseCentcommContraband, WeaponAdvancedLaser ]
   id: CentcommCyborgLaser
   description: A pulse carbine modified for use by cyborgs.
@@ -1100,7 +1100,7 @@
 - type: entity
   parent: [WeaponLaserCannon, BaseXenoborgContraband]
   id: WeaponLaserCannonXenoborgCold
-  name: xenoborg bitterfrost cannon
+  name: пушка горького мороза ксеноборгов
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Battery/xenoborg_laser_gun.rsi
@@ -1190,7 +1190,7 @@
 
 
 - type: entity
-  name: Frozen Tome
+  name: Замороженный фолиант
   id: WeaponFrozentome
   parent: [ BaseItem, BaseMagicalContraband ]
   description: The frozen tome of greater frost ray, allows you to cast a deadly beam of cold magic that destroys enemies and walls alike.

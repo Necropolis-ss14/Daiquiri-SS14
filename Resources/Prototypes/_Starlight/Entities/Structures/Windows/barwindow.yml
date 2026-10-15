@@ -1,7 +1,7 @@
 - type: entity
   parent: Window
   id: BarWindow
-  name: bar window
+  name: окно бара
   components:
   - type: Sprite
     drawdepth: WallTops
@@ -19,7 +19,7 @@
 - type: entity
   parent: BarWindow
   id: BarWindowDiagonal
-  name: bar window
+  name: окно бара
   suffix: diagonal
   placement:
     mode: SnapgridCenter
@@ -62,7 +62,7 @@
 - type: entity
   parent: BarWindow
   id: BarAltWindowDiagonal
-  name: bar window alternative
+  name: альтернативное окно бара
   suffix: diagonal
   placement:
     mode: SnapgridCenter

@@ -416,7 +416,7 @@
 - type: entity
   id: WeaponTurretVespera
   parent: ShuttleGunBase
-  name: ADMP-27 VESPERA 50mm Rapid-Fire Missile Rack
+  name: скорострельный ракетный комплекс ADMP-27 VESPERA 50мм
   description: A rapid-fire swarm missile rack. Saturates targets with guided warheads to overwhelm defenses.
   components:
   - type: Sprite

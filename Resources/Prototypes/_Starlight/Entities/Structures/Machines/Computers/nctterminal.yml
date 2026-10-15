@@ -2,7 +2,7 @@
   parent: BaseStructureComputer
   id: nctterminal
   categories: [ ShouldMapStation ]
-  name: NCT Dispatch
+  name: диспетчер НКТ
   description: Contact NCT Dispatch for assistance.
   placement:
     mode: SnapgridCenter

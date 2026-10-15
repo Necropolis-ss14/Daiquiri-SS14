@@ -48,7 +48,8 @@
 
 - type: entity
   id: WallRockDark
-  name: ent-WallRockDark
+  name: тёмный камень
+  description: Тёмный камень.
   parent: WallRock
   components:
   - type: Icon
@@ -118,7 +119,7 @@
 
 - type: entity
   id: WallTrash
-  name: ent-WallTrash
+  name: мусор
   parent: WallRock
   components:
   - type: Icon
@@ -166,7 +167,7 @@
 
 - type: entity
   id: WallMeatroid
-  name: ent-WallMeatroid
+  name: мясоид
   parent: WallMeat
   components:
   - type: Pinata

@@ -1,8 +1,8 @@
 - type: entity
   parent: [ ClothingBackpack, BaseMedTakContraband ]
   id: ClothingBackpackMedTak
-  name: MedTak operator backpack
-  description: A spacious backpack with lots of pockets, worn by MedTak operators.
+  name: рюкзак оператора MedTak
+  description: Вместительный рюкзак с кучей карманов для оперативников MedTak.
   components:
   - type: Sprite
     sprite: _Starlight/Admeme/MedTak/Clothing/Back/Backpacks/medtak.rsi

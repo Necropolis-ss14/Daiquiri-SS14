@@ -73,7 +73,7 @@
         - SovietComradeGearAk
 #boss
 - type: entity
-  name: soviet bear
+  name: советский медведь
   id: MobBearSoviet
   parent: [SimpleSpaceMobBase, BaseSlicingRefinable]
   description: Smells like booze.

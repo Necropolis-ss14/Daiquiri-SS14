@@ -32,7 +32,7 @@
 # Ballistics
 - type: !PartialOnly entity
   id: WeaponLauncherHydraLethal
-  name: modified hydra # give it a proper name
+  name: "modified hydra # give it a proper name"
   suffix: Security # differentiate
   components:
   - type: RevolverAmmoProvider

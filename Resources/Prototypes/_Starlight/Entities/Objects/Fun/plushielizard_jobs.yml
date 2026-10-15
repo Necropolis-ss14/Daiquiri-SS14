@@ -1,7 +1,7 @@
 - type: entity
   parent: BasePlushieLizardJob
   id: PlushieLizardJobRoboticist
-  name: roboticist lizard plushie
+  name: плюшевая ящерица-роботист
   description: An adorable stuffed toy that resembles a lizardperson as a roboticist. Stained with welding fuel.
   components:
   - type: Sprite

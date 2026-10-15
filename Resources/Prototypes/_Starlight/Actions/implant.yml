@@ -1,7 +1,7 @@
 - type: entity
   parent: BaseImplantAction
   id: ActionActivateMagillitisSerumImplant
-  name: Magillitis Serum
+  name: Сыворотка магиллита
   description: An experimental biochip which causes irreversable rapid muscular growth in Hominidae. Side-affects may include hypertrichosis, violent outbursts, and an unending affinity for bananas.
   categories: [HideSpawnMenu]
   components:
@@ -18,7 +18,7 @@
 - type: entity
   parent: [BaseMentalAction, BaseImplantAction]
   id: ActionActivateBluespaceImplant
-  name: An advanced subdermal implant that, when activated, teleports the user far away.
+  name: Продвинутый подкожный имплант, который при активации телепортирует пользователя далеко.
   description: An advanced subdermal implant that, when activated, teleports the user far away.
   categories: [HideSpawnMenu]
   components:
@@ -36,7 +36,7 @@
 - type: entity
   parent: [BaseMentalAction, BaseImplantAction]
   id: ActionActivateRedspaceImplant
-  name: An advanced subdermal implant that, when activated, teleports the user far away.
+  name: Продвинутый подкожный имплант, который при активации телепортирует пользователя далеко.
   description: An advanced subdermal implant that, when activated, teleports the user far away.
   categories: [HideSpawnMenu]
   components:
@@ -55,7 +55,7 @@
 - type: entity
   parent: [BaseMentalAction, BaseImplantAction]
   id: ActionActivateGearAcidifier
-  name: Activate Gear-Acidifier
+  name: Активировать кислотник снаряжения
   description: Activates your gear-acidifier, melting your equipment but leaving your body intact
   components:
   - type: ConfirmableAction
@@ -73,7 +73,7 @@
 - type: entity
   parent: [BaseSuicideAction, BaseImplantAction]
   id: ActionActivateTerminatorDeathAcidifier
-  name: Activate Bio-Degrading Mechanism
+  name: Активировать механизм биоразложения
   description: Activates your first-phase bio-degradation mechanism, completely melting your outer layer and all equipped items. Your inner endoskeleton is revealed and left fully exposed.
   components:
   - type: Action
@@ -87,7 +87,7 @@
 - type: entity
   parent: BaseAction
   id: ActionRetractableItemAdvancedClaws
-  name: Advanced Claws
+  name: Улучшенные когти
   description: Extend or retract your claws!
   components:
   - type: Action

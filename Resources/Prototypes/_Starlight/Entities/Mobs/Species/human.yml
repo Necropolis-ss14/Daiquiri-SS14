@@ -2,7 +2,7 @@
 - type: entity
   parent: [BaseMobSpeciesOrganic, BaseSpeciesPickupableLarge, BaseInventoryFemaleJumpsuit] # Starlight
   id: BaseMobHuman
-  name: Urist McHands
+  name: Урист МакХэндс
   abstract: true
   components:
   # Starlight-start: Languages

@@ -1,9 +1,9 @@
 - type: entity
   id: OrganResomiEyes
   parent: OrganHumanEyes
-  name: ent-OrganResomiEyes
+  name: глаза резоми
   suffix: Resomi
-  description: ent-OrganResomiEyes-desc
+  description: Глаза резоми отлично видят ночью для охоты на добычу в технических туннелях, но очень чувствительны к ярким вспышкам.
   components:
   - type: OrganVisualization
     layer: Eyes
@@ -19,9 +19,9 @@
 - type: entity # Starlight
   id: OrganResomiHeart
   parent: OrganHumanHeart
-  name: ent-OrganResomiHeart
+  name: сердце резоми
   suffix: Resomi
-  description: ent-OrganResomiHeart-desc
+  description: Сердце резоми.
   components:
   - type: Metabolizer
     maxReagents: 2
@@ -34,9 +34,9 @@
 - type: entity
   id: OrganResomiLiver
   parent: OrganHumanLiver
-  name: ent-OrganResomiLiver
+  name: печень резоми
   suffix: Resomi
-  description: ent-OrganResomiLiver-desc
+  description: Печень резоми.
   components:
   - type: Sprite
     sprite: _Starlight/Mobs/Species/Resomi/organs.rsi
@@ -45,9 +45,9 @@
 - type: entity
   id: OrganResomiKidneys
   parent: OrganHumanKidneys
-  name: ent-OrganResomiKidneys
+  name: почки резоми
   suffix: Resomi
-  description: ent-OrganResomiKidneys-desc
+  description: Почки резоми.
   components:
   - type: Sprite
     sprite: _Starlight/Mobs/Species/Resomi/organs.rsi
@@ -58,9 +58,9 @@
 - type: entity
   id: OrganResomiLungs
   parent: OrganHumanLungs
-  name: ent-OrganResomiLungs
+  name: лёгкие резоми
   suffix: Resomi
-  description: ent-OrganResomiLungs-desc
+  description: Лёгкие резоми.
   components:
   - type: Metabolizer
     metabolizerTypes: [ Resomi, Human ] #They get both so they can still breathe oxygen without us needing to add Resomi everywhere Human is listed
@@ -74,9 +74,9 @@
 - type: entity
   id: OrganResomiBrain
   parent: OrganHumanBrain
-  name: ent-OrganResomiBrain
+  name: мозг резоми
   suffix: Resomi
-  description: ent-OrganResomiBrain-desc
+  description: Здесь резоми вынашивают злобные мысли.
   components:
   - type: Sprite
     sprite: _Starlight/Mobs/Species/Resomi/organs.rsi
@@ -85,9 +85,9 @@
 - type: entity
   id: OrganResomiStomach
   parent: OrganHumanStomach
-  name: ent-OrganResomiStomach
+  name: желудок резоми
   suffix: Resomi
-  description: ent-OrganResomiStomach-desc
+  description: Двухкамерный желудок резоми.
   components:
   - type: Sprite
     sprite: _Starlight/Mobs/Species/Resomi/organs.rsi

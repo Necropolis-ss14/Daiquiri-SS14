@@ -1,6 +1,6 @@
 - type: entity
   id: ActionCosmicSiphon
-  name: Siphon Entropy
+  name: Вытянуть энтропию
   description: Silently siphon entropy from your target, dealing some damage in the process.
   components:
   - type: Action
@@ -23,7 +23,7 @@
 
 - type: entity
   id: ActionCosmicBlank
-  name: Shunt Subjectivity
+  name: Вытеснить сознание
   description: Shunt your target's mind out of their body and unto the cosmic dark, temporarily rendering their body mindless.
   components:
   - type: Action
@@ -48,7 +48,7 @@
 
 - type: entity
   id: ActionCosmicPlaceMonument
-  name: Beckon The Monument
+  name: Призвать Монумент
   description: Call forth The Monument into realspace. Keep it hidden and safe from non-cultists!
   components:
   - type: ConfirmableAction
@@ -67,7 +67,7 @@
 
 - type: entity
   id: ActionCosmicMoveMonument
-  name: Relocate The Monument
+  name: Переместить Монумент
   description: Your work is imperative, and the end is inevitable. Ensure that it is completed under your watch.
   components:
   - type: ConfirmableAction
@@ -101,7 +101,7 @@
 
 - type: entity
   id: ActionCosmicLapse
-  name: Aberrant Lapse
+  name: Аномальный провал
   description: Lapse your target's corporeal form, temporarily rendering it immutable, impassible, and frozen in place.
   components:
   - type: Action
@@ -124,7 +124,7 @@
 
 - type: entity
   id: ActionCosmicGlare
-  name: Null Glare
+  name: Нулевой взгляд
   description: Emit a horrific electro-magnetic pulse of cosmic light, slowing and disorienting everyone around you. Its effects are amplified against silicon-based entities.
   components:
   - type: ConfirmableAction
@@ -143,7 +143,7 @@
 
 - type: entity
   id: ActionCosmicIngress
-  name: Force Ingress
+  name: Насильственное вторжение
   description: Use a concentrated blast of power to force a secure doorway open.
   components:
   - type: Action
@@ -161,7 +161,7 @@
 
 - type: entity
   id: ActionCosmicImposition
-  name: Vacuous Imposition
+  name: Пустотное наложение
   description: You negate any incoming damage for a short time.
   components:
   - type: Action
@@ -176,7 +176,7 @@
 
 - type: entity
   id: ActionCosmicNova
-  name: Astral Nova
+  name: Астральная вспышка
   description: Hurl a large and disruptive blast of astral energy.
   components:
   - type: Action
@@ -193,7 +193,7 @@
 
 - type: entity
   id: ActionCosmicFragmentation
-  name: Null Fragmentation
+  name: Нулевая фрагментация
   description: Transfer your malign empowerment into a digital system, such as an AI Upload Console, Cyborg or IPC, corrupting it in the process. Doing so will expend your empowerment.
   components:
   - type: LimitedCharges
@@ -217,7 +217,7 @@
 
 - type: entity
   id: ActionCosmicColossusSunder
-  name: Entropic Sunder
+  name: Энтропийный раскол
   description: Warp to the target location and unleash a cascading detonation of malign energy.
   components:
   - type: Action
@@ -234,7 +234,7 @@
 
 - type: entity
   id: ActionCosmicColossusIngress
-  name: Colossal Ingress
+  name: Колоссальное вторжение
   description: Use your colossal strength to rend false doorways apart and reshape them into true passages. Or empower malign rifts, transforming them into empowered rifts.
   components:
   - type: Action
@@ -254,7 +254,7 @@
 
 - type: entity
   id: ActionCosmicColossusHibernate
-  name: Slumber Shell
+  name: Оболочка сна
   description: Slumber your body for a period of time to regenerate integrity. Must be done on stable ground.
   components:
   - type: LimitedCharges
@@ -273,7 +273,7 @@
 
 - type: entity
   id: ActionCosmicColossusEffigy
-  name: Beckon an Effigy
+  name: Призвать чучело
   description: Draw out an Effigy of Entropy into realspace.
   components:
   - type: LimitedCharges
@@ -291,7 +291,7 @@
 
 - type: entity
   id: ActionCosmicAnomalyIngress
-  name: Force Ingress
+  name: Насильственное вторжение
   description: Direct the energies from your Anomaly Infection to force a secure doorway open.
   components:
   - type: Action

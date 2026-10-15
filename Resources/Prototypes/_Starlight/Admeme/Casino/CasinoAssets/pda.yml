@@ -44,8 +44,8 @@
 - type: entity
   parent: CasinoPDA
   id: CasinoPDASecurity
-  name: Gamorrah security PDA
-  description:  I don't enjoy killing, but when done righteously, it's just a chore, like any other. The house always wins.
+  name: КПК охраны Gamorrah
+  description: Убивать не люблю, но праведное убийство — рутина как любая. Дом всегда выигрывает.
   components:
   - type: Pda
     id: CasinoIDCardSecurity
@@ -53,8 +53,8 @@
 - type: entity
   parent: CasinoPDA
   id: CasinoPDAOwner
-  name: Gamorrah owner PDA
-  description: The house always wins.
+  name: КПК владельца Gamorrah
+  description: Дом всегда выигрывает.
   components:
     - type: Pda
       id: CasinoIDCardOwner
@@ -63,8 +63,8 @@
 - type: entity
   parent: CasinoPDA
   id: CasinoPDAManager
-  name: Gamorrah manager PDA
-  description: The house always wins.
+  name: КПК менеджера Gamorrah
+  description: Дом всегда выигрывает.
   components:
     - type: Pda
       id: CasinoIDCardManager
@@ -72,8 +72,8 @@
 - type: entity
   parent: CasinoPDA
   id: CasinoPDADealer
-  name: Gamorrah dealer PDA
-  description: Success depends on forethought, dispassionate calculation of probabilities, accounting for every stray variable.The house always wins.
+  name: КПК дилера Gamorrah
+  description: Успех зависит от предусмотрительности, бесстрастного подсчёта вероятностей и учёта каждой случайности. Дом всегда выигрывает.
   components:
     - type: Pda
       id: CasinoIDCardDealer
@@ -81,8 +81,8 @@
 - type: entity
   parent: CasinoPDA
   id: CasinoPDABrigmed
-  name: Gamorrah brigmedic PDA
-  description: Patch them up, send them back to the tables. The house always wins.
+  name: КПК бригмедика Gamorrah
+  description: Подлатай их и верни за столы. Дом всегда выигрывает.
   components:
     - type: Pda
       id: CasinoIDCardBrigmed
@@ -99,8 +99,8 @@
 - type: entity
   parent: CasinoPDA
   id: CasinoPDATreasurer
-  name: Gamorrah treasurer PDA
-  description: Every chip counted, every credit accounted for. The house always wins.
+  name: КПК казначея Gamorrah
+  description: Каждая фишка сочтена, каждый кредит учтён. Дом всегда выигрывает.
   components:
     - type: Pda
       id: CasinoIDCardTreasurer

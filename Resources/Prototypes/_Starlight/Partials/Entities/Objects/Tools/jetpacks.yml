@@ -38,4 +38,4 @@
 
 - type: !PartialOnly entity
   id: JetpackSecurityFilled
-  name: !Remove # inherit name from parent
+  name: "!Remove # inherit name from parent"

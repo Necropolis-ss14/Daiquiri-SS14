@@ -1,7 +1,7 @@
 # Empty mags
 - type: entity
   id: BaseMagazineBattery
-  name: "magazine (laser)"
+  name: магазин (laser)
   parent: [ BaseItem ]
   abstract: true
   components:
@@ -35,7 +35,7 @@
 # Magazines
 - type: entity
   id: MagazineBatteryLr30
-  name: "magazine (laser)"
+  name: магазин (laser)
   parent: BaseMagazineBattery
   components:
   - type: BallisticAmmoProvider

@@ -1,7 +1,7 @@
 - type: entity
   parent: [DrinkVisualsAllFilled, DrinkBottlePlasticSmallBaseFull]
   id: DrinkAleBottlePlasticFull
-  name: ale bottle
+  name: бутылка эля
   description: Simple clean ale of Dwarf origin. The plastic bottle somewhat ruins the taste.
   components:
   - type: Solution

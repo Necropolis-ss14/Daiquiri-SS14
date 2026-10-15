@@ -53,7 +53,7 @@
 
 - type: !PartialOnly entity
   id: ClothingHeadHatHoodChaplainHood
-  name: chaplain hood # de-pluralifcation
+  name: "chaplain hood # de-pluralifcation"
 
 - type: !PartialOnly entity
   id: ClothingHeadHatHoodRad

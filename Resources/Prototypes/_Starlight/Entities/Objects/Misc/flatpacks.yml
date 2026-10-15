@@ -12,7 +12,7 @@
 - type: entity
   parent: BaseFlatpack
   id: KitchenOvenFlatpack
-  name: oven flatpack
+  name: упаковка кухонной печи
   description: A flatpack used for constructing an oven.
   components:
   - type: Flatpack
@@ -21,7 +21,7 @@
 - type: entity
   parent: BaseFlatpack
   id: MailTrolleyFlatpack
-  name: mail trolley flatpack
+  name: упаковка почтовой тележки
   description: A flatpack used for constructing an mail trolley.
   components:
   - type: Flatpack
@@ -30,7 +30,7 @@
 - type: entity
   parent: BaseFlatpack
   id: GoldenMailTrolleyFlatpack
-  name: golden mail trolley flatpack
+  name: упаковка золотой почтовой тележки
   description: A flatpack used for constructing a brilliant golden mail trolley.
   components:
   - type: Flatpack
@@ -39,7 +39,7 @@
 - type: entity
   parent: BaseFlatpack
   id: KitchenStoveFlatpack
-  name: stove flatpack
+  name: упаковка кухонной плиты
   description: A flatpack used for constructing an stove.
   components:
   - type: Flatpack
@@ -48,7 +48,7 @@
 - type: entity
   parent: BaseFlatpack
   id: SlopDispenserFlatpack
-  name: nutrient paste dispenser flatpack
+  name: упаковка раздатчика питательной пасты
   description: A flatpack used for constructing a nutrient paste dispenser.
   components:
   - type: Flatpack
@@ -57,7 +57,7 @@
 - type: entity
   parent: BaseFlatpack
   id: FloraTreeChristmas02Flatpack
-  name: christmas tree flatpack
+  name: упаковка рождественской ёлки
   description: A flatpack used for constructing a christmas tree.
   components:
   - type: Flatpack
@@ -66,7 +66,7 @@
 - type: entity
   parent: [BaseFlatpack, BaseMinorContraband]
   id: SyndieDrobeFlatpack
-  name: SyndieDrobe flatpack
+  name: упаковка СиндиДроба
   description: Looks like Syndieland's back in business.
   components:
   - type: Flatpack
@@ -75,7 +75,7 @@
 - type: entity
   parent: BaseFlatpack
   id: IceCreamMakerFlatpack
-  name: ice cream maker flatpack
+  name: упаковка аппарата мороженого
   description: One ice cream maker in one multitool press!
   components:
   - type: Flatpack
@@ -85,7 +85,7 @@
 - type: entity
   parent: [BaseFlatpack, BaseMedicalContraband]
   id: MedicalTechFabFlatpack
-  name: medical techfab flatpack
+  name: упаковка медицинского техфаба
   description: A flatpack used for constructing a medical techfab.
   components:
   - type: Flatpack
@@ -94,7 +94,7 @@
 - type: entity
   parent: [BaseFlatpack, BaseSecurityContraband]
   id: SecurityTechFabFlatpack
-  name: security techfab flatpack
+  name: упаковка техфаба СБ
   description: A flatpack used for constructing a security techfab.
   components:
   - type: Flatpack
@@ -103,7 +103,7 @@
 - type: entity
   parent: [BaseFlatpack, BaseCargoContraband]
   id: CargoTechFabFlatpack
-  name: cargo techfab flatpack
+  name: упаковка карго-техфаба
   description: A flatpack used for constructing a cargo techfab.
   components:
   - type: Flatpack
@@ -112,7 +112,7 @@
 - type: entity
   parent: [BaseFlatpack, BaseEngineeringContraband]
   id: EngineeringTechFabFlatpack
-  name: engineering techfab flatpack
+  name: упаковка инженерного техфаба
   description: A flatpack used for constructing an engineering techfab.
   components:
   - type: Flatpack
@@ -121,7 +121,7 @@
 - type: entity
   parent: [BaseFlatpack, BaseCivilianContraband]
   id: ServiceTechFabFlatpack
-  name: service techfab flatpack
+  name: упаковка сервисного техфаба
   description: A flatpack used for constructing a service techfab.
   components:
   - type: Flatpack
@@ -130,7 +130,7 @@
 - type: entity
   parent: [BaseFlatpack, BaseScienceContraband]
   id: ScienceTechFabFlatpack
-  name: science techfab flatpack
+  name: упаковка научного техфаба
   description: A flatpack used for constructing a science techfab.
   components:
   - type: Flatpack
@@ -139,7 +139,7 @@
 - type: entity
   parent: [BaseFlatpack, BaseCommandContraband]
   id: CommandTechFabFlatpack
-  name: command techfab flatpack
+  name: упаковка техфаба командования
   description: A flatpack used for constructing a command techfab.
   components:
   - type: Flatpack
@@ -148,7 +148,7 @@
 - type: entity
   parent: [BaseFlatpack, BaseNanoTrasenContraband]
   id: NanoTrasenTechFabFlatpack
-  name: NanoTrasen techfab flatpack
+  name: упаковка техфаба NanoTrasen
   description: A flatpack used for constructing a NanoTrasen techfab.
   components:
   - type: Flatpack
@@ -157,7 +157,7 @@
 - type: entity
   parent: [BaseFlatpack, BaseCentcommContraband]
   id: CentralCommandTechFabFlatpack
-  name: Central Command techfab flatpack
+  name: упаковка техфаба Центрального командования
   description: A flatpack used for constructing a Central Command techfab.
   components:
   - type: Flatpack
@@ -166,7 +166,7 @@
 - type: entity
   parent: [BaseFlatpack, BaseSyndicateContraband]
   id: SyndicateTechFabFlatpack
-  name: Syndicate techfab flatpack
+  name: упаковка техфаба Синдиката
   description: A flatpack used for constructing a Syndicate techfab.
   components:
   - type: Flatpack
@@ -175,7 +175,7 @@
 - type: entity
   parent: [BaseFlatpack, BaseSalvageContraband]
   id: SalvageTechFabFlatpack
-  name: Salvage techfab flatpack
+  name: упаковка техфаба утилизаторов
   description: A flatpack used for constructing a Salvage techfab.
   components:
   - type: Flatpack

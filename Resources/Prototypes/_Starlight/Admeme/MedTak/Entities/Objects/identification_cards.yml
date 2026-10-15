@@ -20,7 +20,7 @@
 - type: entity
   parent: MedTakIDCard
   id: MedTakIDCardTeamLead
-  name: MedTak team leader ID card
+  name: ID-карта лидера команды MedTak
   components:
   - type: Sprite
     layers:
@@ -35,7 +35,7 @@
 - type: entity
   parent: MedTakIDCard
   id: MedTakIDCardDispatcher
-  name: MedTak dispatcher ID card
+  name: ID-карта диспетчера MedTak
   components:
   - type: Sprite
     layers:
@@ -50,7 +50,7 @@
 - type: entity
   parent: MedTakIDCard
   id: MedTakIDCardMedic
-  name: MedTak medic ID card
+  name: ID-карта медика MedTak
   components:
   - type: Sprite
     layers:
@@ -65,7 +65,7 @@
 - type: entity
   parent: MedTakIDCard
   id: MedTakIDCardPilot
-  name: MedTak pilot ID card
+  name: ID-карта пилота MedTak
   components:
   - type: Sprite
     layers:
@@ -80,7 +80,7 @@
 - type: entity
   parent: MedTakIDCard
   id: MedTakIDCardSecurity
-  name: MedTak security ID card
+  name: ID-карта офицера безопасности MedTak
   components:
   - type: Sprite
     layers:

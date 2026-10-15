@@ -155,7 +155,7 @@
 - type: entity
   parent: BaseBullet
   id: RadOrb
-  name: radiation orb
+  name: радиационная сфера
   categories: [ HideSpawnMenu ]
   components:
   - type: FlyBySound
@@ -203,7 +203,7 @@
 - type: entity
   parent: [ BulletGrenadeCleanade, BaseSyndicateContraband ]
   id: BulletGrenadeCleanadeSyndicate
-  name: evil cleanade grenade round
+  name: злой снаряд «клинада»
   categories: [ HideSpawnMenu ]
   components:
     - type: SmokeOnTrigger
@@ -219,7 +219,7 @@
 
 - type: entity
   id: ProjectileCosmicNova
-  name: Astral Nova
+  name: Астральная нова
   description: Uh oh.
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
@@ -265,7 +265,7 @@
 
 - type: entity
   id: ProjectileCosmic
-  name: Malign Bolt
+  name: Злобный болт
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
   description: Ouch.
@@ -317,7 +317,7 @@
 
 - type: entity
   id: ProjectileCosmicRazor
-  name: Astral Bolt
+  name: Астральный болт
   parent: ProjectileCosmic
   categories: [ HideSpawnMenu ]
   description: Ouch.
@@ -374,7 +374,7 @@
 - type: entity
   parent: BaseBullet
   id: CosmicLambdaParticle
-  name: Nullspace stabilizer particles
+  name: частицы нуль-стабилизатора
   categories: [ HideSpawnMenu ]
   components:
   - type: PointLight
@@ -418,7 +418,7 @@
 
 - type: entity # Starlight Peacekeeper
   id: BulletGrenadeStinger
-  name: armed stinger grenade
+  name: взведённая стингер-граната
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
   components:
@@ -432,7 +432,7 @@
 
 - type: entity # Starlight Peacekeeper
   id: BulletGrenadeGas
-  name: armed gas grenade
+  name: взведённая газовая граната
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
   components:
@@ -448,7 +448,7 @@
   parent: BaseBullet
   id: PelletClusterLesserRubber
   categories: [ HideSpawnMenu ]
-  name: pellet (ball, rubber)
+  name: шарик (шар, резиновый)
   components:
   - type: Projectile
     deleteOnCollide: false
@@ -463,7 +463,7 @@
 
 - type: entity
   id: BulletKineticSub
-  name: small kinetic bolt
+  name: малый кинетический болт
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
   description: Not too bad, but you still don't want to get hit by it.
@@ -490,7 +490,7 @@
 
 - type: entity
   id: BulletKineticChain
-  name: small kinetic bolt
+  name: малый кинетический болт
   parent: BulletKineticSub
   categories: [ HideSpawnMenu ]
   description: Not too bad, but you still don't want to get hit by it.
@@ -506,7 +506,7 @@
 
 - type: entity
   id: BulletGrenadeBola
-  name: bola grenade
+  name: граната-бола
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
   components:
@@ -536,7 +536,7 @@
 - type: entity
   id: CosmicLambdaBeam
   parent: BasicHitscan
-  name: Nullspace Stabilizer Beam
+  name: луч нуль-стабилизатора
   categories: [ HideSpawnMenu ]
   components:
   - type: HitscanBasicDamage

@@ -8,9 +8,9 @@
 - type: entity
   parent: MaterialBase
   id: MaterialSandbag
-  name: sandbag
+  name: мешок с песком
   suffix: Full
-  description: A heavy cloth sack stuffed with sand. Stack a few and bullets stop caring about what's behind them.
+  description: Тяжёлый тканевый мешок с песком. Сложи несколько — и пулям плевать, что за ними.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Materials/sandbag.rsi

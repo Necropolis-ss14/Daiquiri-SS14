@@ -2,8 +2,8 @@
 - type: entity
   parent: [ClothingEyesBase, ShowSecurityIcons, BaseMajorContraband]
   id: ClothingEyesGlassesBlackstar
-  name: Blackstar tactical visor
-  description: A flash-resistant tactical visor issued to Blackstar Dreadwalker operatives. Provides complete flash immunity and a security HUD.
+  name: тактический визор Blackstar
+  description: Тактический визор, устойчивый к вспышкам, для оперативников-дредуокеров Blackstar. Полный иммунитет к вспышкам и охранный HUD.
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Glasses/secglasses.rsi #WILL BE REPLACED AT A LATER DATE WHEN I HAVE SPRITES!!! - scarletlightweaver_ss14
@@ -28,8 +28,8 @@
 - type: entity
   parent: [ClothingHeadBase, BaseMajorContraband]
   id: ClothingHeadHatBlackstarLegionCommander
-  name: Legion Commander's cap
-  description: The cap of a Legion Commander. Only one exists at a time.
+  name: фуражка командующего легионом Blackstar
+  description: Фуражка командующего легионом. Такая одна.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Head/Hats/sovietadmiralhat.rsi # PLACEHOLDER
@@ -43,8 +43,8 @@
 - type: entity
   parent: [UnsensoredClothingUniformBase, BaseMajorContraband]
   id: ClothingUniformJumpsuitBlackstarLegionCommander
-  name: Legion Commander's uniform
-  description: The uniform of a Legion Commander of the Blackstar Legion.
+  name: форма командующего легионом Blackstar
+  description: Форма командующего легионом Blackstar.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpsuit/sovietadmiral.rsi # PLACEHOLDER
@@ -56,8 +56,8 @@
 - type: entity
   parent: [ClothingHeadBase, BaseMajorContraband]
   id: ClothingHeadHatBeretBlackstarHighLegate
-  name: High Legate beret
-  description: A beret worn by High Legate officers of the Blackstar Legion. # PLACEHOLDER
+  name: берет верховного легата Blackstar
+  description: Берет офицеров верховного легата Blackstar.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/beret_hos.rsi # PLACEHOLDER
@@ -72,8 +72,8 @@
 - type: entity
   parent: [ClothingHeadBase, BaseMajorContraband]
   id: ClothingHeadHatBeretBlackstarLegate
-  name: Legate beret
-  description: A beret worn by Legate officers of the Blackstar Legion. # PLACEHOLDER
+  name: берет легата Blackstar
+  description: Берет офицеров легата Blackstar.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Head/Hats/beret_corpsman.rsi # PLACEHOLDER
@@ -86,15 +86,15 @@
 - type: entity
   parent: ClothingHeadHelmetBlackstarAssault
   id: ClothingHeadHelmetBlackstarLegate
-  name: Legate helmet
-  description: A helmet issued to Legate officers of the Blackstar Legion.
+  name: шлем легата Blackstar
+  description: Шлем офицеров легата Blackstar.
 
 # Blackstar heavy assault kit. Combat protection and movement retained from the retired kit.
 - type: entity
   parent: [ClothingOuterBaseLarge, BaseMajorContraband]
   id: ClothingOuterArmorBlackstarAssault
-  name: Blackstar assault armor
-  description: A heavy combat suit with a ribbed breastplate and articulated guards over brown padded fatigues. Issued to Blackstar Dreadwalkers.
+  name: штурмовая броня Blackstar
+  description: Тяжёлый боевой костюм с ребристым нагрудником и шарнирными щитками поверх коричневой стёганой формы. Для дредуокеров Blackstar.
   components:
   - type: Sprite
     sprite: _Starlight/Admeme/Scarlet/blackstar_assault/armor.rsi
@@ -140,8 +140,8 @@
 - type: entity
   parent: [ClothingHeadHelmetArmoredBase, BaseMajorContraband]
   id: ClothingHeadHelmetBlackstarAssault
-  name: Blackstar assault helmet
-  description: A reinforced black combat helmet with a low brow and armored neck guard, built to fit over a Blackstar assault respirator.
+  name: штурмовой шлем Blackstar
+  description: Усиленный чёрный боевой шлем с низкой кромкой и бронированной защитой шеи, надевается поверх штурмового респиратора Blackstar.
   components:
   - type: Sprite
     sprite: _Starlight/Admeme/Scarlet/blackstar_assault/helmet.rsi
@@ -170,8 +170,8 @@
 - type: entity
   parent: [ClothingMaskBase, BaseMajorContraband]
   id: ClothingMaskGasBlackstarAssault
-  name: Blackstar assault gas mask
-  description: An armored respirator with a central filter and two crimson optical lenses that remain visible in darkness. Can be connected to an air supply.
+  name: противогаз штурмовика Blackstar
+  description: Бронированный респиратор с центральным фильтром и двумя малиновыми линзами, видимыми в темноте. Подключается к подаче воздуха.
   components:
   - type: Sprite
     sprite: _Starlight/Admeme/Scarlet/blackstar_assault/mask.rsi
@@ -212,8 +212,8 @@
 - type: entity
   parent: [ClothingUniformBase, BaseMajorContraband]
   id: ClothingUniformJumpsuitBlackstarAssault
-  name: Blackstar padded combat fatigues
-  description: Brown quilted combat fatigues designed to cushion the joints and plates of Blackstar assault armor.
+  name: стёганая боевая форма Blackstar
+  description: Коричневая стёганая боевая форма для смягчения стыков и пластин штурмовой брони Blackstar.
   components:
   - type: Sprite
     sprite: _Starlight/Admeme/Scarlet/blackstar_assault/uniform.rsi
@@ -233,8 +233,8 @@
 - type: entity
   parent: [ClothingBackpackSatchel, BaseMajorContraband]
   id: ClothingBackpackRadioBlackstar
-  name: Blackstar radio pack
-  description: A matte black field telephone pack with brown straps, a side handset and a long antenna, issued to Blackstar assault troops.
+  name: радиорюкзак Blackstar
+  description: Матовый чёрный полевой телефонный ранец с коричневыми ремнями, трубкой сбоку и длинной антенной, для штурмовиков Blackstar.
   components:
   - type: Sprite
     sprite: _Starlight/Admeme/Scarlet/blackstar_assault/backpack.rsi

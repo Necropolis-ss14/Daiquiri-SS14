@@ -1,8 +1,8 @@
 - type: entity
   id: CrateNPCSpaceKoi
   parent: CrateLivestock
-  name: space koi crate
-  description: A crate containing five space kois.
+  name: ящик космических кои
+  description: Ящик с пятью космическими кои.
   components:
   - type: EntityTableContainerFill
     containers:

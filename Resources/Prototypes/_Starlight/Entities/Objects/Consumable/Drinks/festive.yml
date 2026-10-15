@@ -3,7 +3,7 @@
 - type: entity
   parent: [SolutionSmall, DrinkBaseMaterialPorcelain, DrinkBase]
   id: DrinkGravyBoat
-  name: gravy boat  # short and stout
+  name: соусник
   description: A gravy boat. It simply oozes... gravy.
   components:
   - type: Solution

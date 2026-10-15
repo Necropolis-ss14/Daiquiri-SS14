@@ -1,5 +1,5 @@
 - type: entity
-  name: standing microphone
+  name: микрофон на стойке
   id: StandingMicrophone
   parent: BaseStructure
   description: So whats the deal with airplane food?

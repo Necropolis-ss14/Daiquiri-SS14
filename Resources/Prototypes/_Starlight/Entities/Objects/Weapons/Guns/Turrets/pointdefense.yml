@@ -2,7 +2,7 @@
   parent: [BaseWeaponTurret, ConstructibleMachine]
   id: WeaponTurretPointDefense
   description: A Kuiper pattern anti-meteor battery. Capable of destroying most threats in a single salvo.
-  name: point defense battery
+  name: батарея точечной обороны
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Guns/Turrets/pointdefense.rsi
@@ -97,7 +97,7 @@
   parent: WeaponTurretPointDefense
   id: WeaponTurretMilitaryPointDefense
   description: A Military-Kuiper pattern defense battery. Capable of destroying most threats in a single salvo.
-  name: military point defense battery
+  name: военная батарея точечной обороны
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Guns/Turrets/pointdefense.rsi

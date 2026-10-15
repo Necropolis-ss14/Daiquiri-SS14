@@ -24,9 +24,9 @@
 - type: entity
   id: OrganAbductorBrain
   parent: [BaseOrganBrain, BaseAbductorOrgan]
-  name: ent-OrganAbductorBrain
+  name: странный мозг
   suffix: Abductor
-  description: ent-OrganAbductorBrain-desc
+  description: Источник невероятного, но странного интеллекта.
   components:
   - type: Sprite
     state: brain
@@ -34,9 +34,9 @@
 - type: entity
   id: OrganAbductorEyes
   parent: [BaseAbductorOrgan, BaseOrganEyes]
-  name: ent-OrganAbductorEyes
+  name: странные глаза
   suffix: Abductor
-  description: ent-OrganAbductorEyes-desc
+  description: Эти большие глаза-бусины молча пялятся на вас.
   components:
   - type: Sprite
     layers:
@@ -49,9 +49,9 @@
 - type: entity
   id: OrganAbductorEars
   parent: [BaseAbductorOrgan, BaseOrganEars]
-  name: ent-OrganAbductorEars
+  name: странные уши
   suffix: Abductor
-  description: ent-OrganAbductorEars-desc
+  description: "У уха три части: внутренняя, средняя и наружная. В норме видимой должна быть только одна из них."
   components:
   - type: Sprite
     state: ears
@@ -59,9 +59,9 @@
 - type: entity
   id: OrganAbductorLungs
   parent: [BaseAbductorOrgan, BaseOrganLungs]
-  name: ent-OrganAbductorLungs
+  name: странные лёгкие
   suffix: Abductor
-  description: ent-OrganAbductorLungs-desc
+  description: Фильтруют кислород из атмосферы, который затем поступает в кровоток и используется как переносчик электронов.
   components:
   - type: Sprite
     layers:
@@ -71,9 +71,9 @@
 - type: entity
   id: OrganAbductorHeart
   parent: [BaseAbductorOrgan, BaseOrganHeart]
-  name: ent-OrganAbductorHeart
+  name: странное сердце
   suffix: Abductor
-  description: ent-OrganAbductorHeart-desc
+  description: Не похоже, чтобы над этим экспериментировали.
   components:
   - type: Sprite
     state: heart-on
@@ -87,9 +87,9 @@
 - type: entity
   id: OrganAbductorStomach
   parent: [BaseAbductorOrgan, BaseOrganStomach]
-  name: ent-OrganAbductorStomach
+  name: странный желудок
   suffix: Abductor
-  description: ent-OrganAbductorStomach-desc
+  description: Возможно, тоскует по жареному сыру.
   components:
   - type: Sprite
     state: stomach
@@ -111,9 +111,9 @@
 - type: entity
   id: OrganAbductorLiver
   parent: [BaseAbductorOrgan, BaseOrganLiver]
-  name: ent-OrganAbductorLiver
+  name: странная печень
   suffix: Abductor
-  description: ent-OrganAbductorLiver-desc
+  description: Эта чудная печень довольно плохо расщепляет алкоголь.
   components:
   - type: Sprite
     state: liver
@@ -124,9 +124,9 @@
 - type: entity
   id: OrganAbductorKidneys
   parent: [BaseAbductorOrgan, BaseOrganKidneys]
-  name: ent-OrganAbductorKidneys
+  name: странные почки
   suffix: Abductor
-  description: ent-OrganAbductorKidneys-desc
+  description: Фильтруют странные токсины из странного кровотока.
   components:
   - type: Sprite
     layers:

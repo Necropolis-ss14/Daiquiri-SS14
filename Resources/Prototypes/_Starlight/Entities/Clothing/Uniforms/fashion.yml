@@ -1,7 +1,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: BodysuitJeansUniformSuit
-  name: bodysuit and jeans
+  name: боди и джинсы
   description: Fashionable and practicle. You could fight someone in this.
   components:
   - type: Sprite
@@ -12,7 +12,7 @@
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase]
   id: DarkTurtleneckSuit
-  name: dark turtleneck
+  name: тёмная водолазка
   description: The look of an innovator, or a killer, depending on the context.
   components:
   - type: Sprite
@@ -23,7 +23,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: CamoUniformSuit
-  name: camo jumpsuit
+  name: камуфляжный комбинезон
   description: Youd blend in if this was a forest.
   components:
   - type: Sprite
@@ -34,7 +34,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: CandyClownUniformSuit
-  name: candy clown
+  name: леденцовый клоун
   description: Oh god this makes your eyes hurt!
   components:
   - type: Sprite
@@ -49,7 +49,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: CoolTanktopUniformSuit
-  name: cool tanktop
+  name: крутая майка
   description: Just like heroes wear when they fight Xenos.
   components:
   - type: Sprite
@@ -60,7 +60,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: DruidRobesUniformSuit
-  name: druid robes
+  name: робы друида
   description: A humble robe, for a humble druid.
   components:
   - type: Sprite
@@ -71,7 +71,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: FlamboyantUniformSuit
-  name: flamboyant outfit
+  name: вычурный наряд
   description: You must really like vampires.
   components:
   - type: Sprite
@@ -82,7 +82,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: FlamencoUniformSuit
-  name: flamenco dress
+  name: платье фламенко
   description: Very festive!
   components:
   - type: Sprite
@@ -93,7 +93,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: FlyCaptainUniformSuit
-  name: fly captains uniform
+  name: форма летучего капитана
   description: People born in the 2480s think this is really cool. It has a certain retro appeal.
   components:
   - type: Sprite
@@ -115,7 +115,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: LilacDressUniformSuit
-  name: lilac dress
+  name: сиреневое платье
   description: An elaborate dress that seems woven from lilac petals at a glance.
   components:
   - type: Sprite
@@ -126,7 +126,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: LittleBlackDressUniformSuit
-  name: little black dress
+  name: маленькое чёрное платье
   description: Just a little too short, only worn by the brave.
   components:
   - type: Sprite
@@ -137,7 +137,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: LumberjackOverallsUniformSuit
-  name: lumberjack overalls
+  name: комбинезон лесоруба
   description: Worn by real hard people who hate trees. Smells like pine.
   components:
   - type: Sprite
@@ -148,7 +148,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: MechanicOverallsUniformSuit
-  name: mechanic overalls
+  name: комбинезон механика
   description: A durable set of threads for hard working mechanics. Smells like oil.
   components:
   - type: Sprite
@@ -159,7 +159,7 @@
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase]
   id: TrendyTopSuit
-  name: trendy top
+  name: модный топ
   description: A trendy top. What determines a trend, anyways?
   components:
     - type: Sprite
@@ -170,7 +170,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: MessyDressShirtUniformSuit
-  name: messy dress shirt
+  name: мятая рубашка
   description: Thrown on in a hurry, probably hasnt been washed in a few days.
   components:
   - type: Sprite
@@ -181,7 +181,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: MimeFrillsUniformSuit
-  name: frilly mime dress
+  name: платье мима с рюшами
   description: How do they move so silently in these things?
   components:
   - type: Sprite
@@ -192,7 +192,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: OldWomanUniformSuit
-  name: old womans clothes
+  name: одежда старухи
   description: Makes anyone look like theyre 65.
   components:
   - type: Sprite
@@ -203,7 +203,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: PunkJeansUniformSuit
-  name: punk jeans
+  name: панк-джинсы
   description: Slightly goth, very metal.
   components:
   - type: Sprite
@@ -214,7 +214,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: RefereeUniformSuit
-  name: referee uniform
+  name: форма судьи
   description: If theyre holding a red card you might as well shoot them. The time in genpop would be less painful.
   components:
   - type: Sprite
@@ -225,7 +225,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: SailorUniformSuit
-  name: sailor uniform
+  name: матроска
   description: Worn by the saltiest seamen. Wait what?
   components:
   - type: Sprite
@@ -236,7 +236,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: StripedClownUniformSuit
-  name: striped clown uniform
+  name: полосатая форма клоуна
   description: Somehow its brighter than anything youve ever seen.
   components:
   - type: Sprite
@@ -262,7 +262,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: TatteredClothesUniformSuit
-  name: tattered clothes
+  name: рваная одежда
   description: What one shift as Head of Personnel does to a motherfucker.
   components:
   - type: Sprite
@@ -273,7 +273,7 @@
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase]
   id: RuggedClothesUniformSuit
-  name: rugged clothes
+  name: грубая одежда
   description: Don't ask me how my day's going.
   components:
   - type: Sprite
@@ -284,7 +284,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: TieDyeUniformSuit
-  name: tie dye shirt
+  name: рубашка тай-дай
   description: Straight out of the 2470s, or the 1970s. You get those two confused a lot.
   components:
   - type: Sprite
@@ -306,7 +306,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: VintageUniformSuit
-  name: vintage clothes
+  name: винтажная одежда
   description: Very retro.
   components:
   - type: Sprite
@@ -317,7 +317,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: CargoOverallsUniformSuit
-  name: cargo overalls
+  name: грузовой комбинезон
   description: A durable set of overalls that smell like cardboard.
   components:
   - type: Sprite
@@ -328,7 +328,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: RedRegaliaSuit
-  name: red regalia suit
+  name: красный парадный костюм
   description: A fancy red suit like a mafiaoso would wear.
   components:
   - type: Sprite
@@ -339,7 +339,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: SpottedClownUniformSuit
-  name: spotted clown
+  name: пятнистый клоун
   description: An older clown suit from a more civilized time.
   components:
   - type: Sprite
@@ -354,7 +354,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: CuteTurtleNeck
-  name: cute turtleneck
+  name: милая водолазка
   description: This won't actually keep you warm.
   components:
     - type: Sprite
@@ -365,7 +365,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: CuteTurtleNeckBlack
-  name: cute black turtleneck
+  name: милая чёрная водолазка
   description: This won't actually keep you warm.
   components:
     - type: Sprite
@@ -376,7 +376,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: GothicFrillDressUniformSuit
-  name: gothic frill dress # Alternative Clothing Catalog
+  name: готическое платье с рюшами
   description: A victorian style dress with a frilly petticoat.
   components:
     - type: Sprite
@@ -387,7 +387,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: PastelFrillDressUniformSuit
-  name: pastel frill dress # Alternative Clothing Catalog
+  name: пастельное платье с рюшами
   description: A victorian style dress with a frilly petticoat.
   components:
     - type: Sprite
@@ -398,7 +398,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: PunkOffShoulderUniformSuit
-  name: punk off-shoulder top # Alternative Clothing Catalog
+  name: панк-топ с открытыми плечами
   description: A loose fitting shirt that hangs off the shoulder, fit with a spikey choker and cuffs.
   components:
     - type: Sprite
@@ -409,7 +409,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: LittleAngelUniformSuit
-  name: little angel dress # Alternative Clothing Catalog
+  name: платье маленького ангела
   description: An angelically cute costume dress, matches with the rest of the set!
   components:
     - type: Sprite
@@ -420,7 +420,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: LittleDevilUniformSuit
-  name: little devil dress # Alternative Clothing Catalog
+  name: платье маленького дьявола
   description: A devilishly cute costume dress, matches with the rest of the set!
   components:
     - type: Sprite

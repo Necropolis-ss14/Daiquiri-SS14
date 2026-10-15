@@ -3,7 +3,7 @@
 - type: entity
   id: BasePart
   parent: BaseItem
-  name: "body part"
+  name: часть тела
   abstract: true
   components:
   - type: SurgeryTarget
@@ -48,7 +48,7 @@
 
 - type: entity
   id: BaseLeftArm
-  name: "left arm"
+  name: левая рука
   parent: BasePart
   abstract: true
   components:
@@ -59,7 +59,7 @@
 
 - type: entity
   id: BaseRightArm
-  name: "right arm"
+  name: правая рука
   parent: BasePart
   abstract: true
   components:
@@ -70,7 +70,7 @@
 
 - type: entity
   id: BaseLeftHand
-  name: "left hand"
+  name: левая кисть
   parent: BasePart
   abstract: true
   components:
@@ -80,7 +80,7 @@
 
 - type: entity
   id: BaseRightHand
-  name: "right hand"
+  name: правая кисть
   parent: BasePart
   abstract: true
   components:
@@ -90,7 +90,7 @@
 
 - type: entity
   id: BaseLeftLeg
-  name: "left leg"
+  name: левая нога
   parent: BasePart
   abstract: true
   components:
@@ -101,7 +101,7 @@
 
 - type: entity
   id: BaseRightLeg
-  name: "right leg"
+  name: правая нога
   parent: BasePart
   abstract: true
   components:
@@ -112,7 +112,7 @@
 
 - type: entity
   id: BaseLeftFoot
-  name: "left foot"
+  name: левая стопа
   parent: BasePart
   abstract: true
   components:
@@ -122,7 +122,7 @@
 
 - type: entity
   id: BaseRightFoot
-  name: "right foot"
+  name: правая стопа
   parent: BasePart
   abstract: true
   components:

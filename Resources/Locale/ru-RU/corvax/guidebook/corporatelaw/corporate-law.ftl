@@ -1,4 +1,3 @@
-guide-entry-corporate-law = Корпоративный закон
 guide-entry-cl-oprs = ОПРС
 guide-entry-cl-punishments = Наказания
 guide-entry-cl-modificators = Модификаторы

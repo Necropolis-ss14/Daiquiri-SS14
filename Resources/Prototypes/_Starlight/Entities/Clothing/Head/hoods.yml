@@ -2,7 +2,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterChemSenior
   categories: [ HideSpawnMenu ]
-  name: senior chemistry winter coat hood
+  name: капюшон зимней куртки старшего химика
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Head/Hoods/Coat/hoodchemistsenior.rsi
@@ -13,7 +13,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterSeniorCourier
   categories: [ HideSpawnMenu ]
-  name: formal cargo winter coat hood
+  name: капюшон торжественной зимней куртки грузчика
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Head/Hoods/Coat/hoodcargosenior.rsi
@@ -24,7 +24,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterRoboAlt
   categories: [ HideSpawnMenu ]
-  name: white robotics winter coat hood
+  name: капюшон белой зимней куртки робототехника
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Head/Hoods/Coat/hoodrobo.rsi
@@ -35,7 +35,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodCorpsman
   categories: [ HideSpawnMenu ]
-  name: corpsman's hood
+  name: капюшон санитара
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Head/Hoods/Coat/hoodcorpsman.rsi
@@ -62,7 +62,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterDutyOfficer
   categories: [ HideSpawnMenu ]
-  name: duty officer's coat hood
+  name: капюшон куртки дежурного офицера
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodsec.rsi

@@ -1,7 +1,7 @@
 - type: entity
   parent: BaseItem
   id: UnfinishedForgedShotgun
-  name: assembled forged shotgun
+  name: собранный кованый дробовик
   description: Just needs the welding to keep everything in place.
   components:
   - type: Item
@@ -24,7 +24,7 @@
 - type: entity
   parent: BaseItem
   id: UnfinishedPistolForged
-  name: forged pistol parts
+  name: детали кованого пистолета
   description: Some assembly may be reqiured. Needs welding.
   components:
   - type: Item
@@ -45,7 +45,7 @@
 - type: entity
   parent: BaseItem
   id: UnfinishedRevolverForged
-  name: forged revolver parts
+  name: детали кованого револьвера
   description: Some assembly may be reqiured. Needs welding.
   components:
   - type: Item
@@ -66,7 +66,7 @@
 - type: entity
   parent: BaseItem
   id: UnfinishedSubMachineGunForged
-  name: forged SMG parts
+  name: детали кованого ПП
   description: Some assembly may be reqiured. Needs welding.
   components:
   - type: Item
@@ -87,7 +87,7 @@
 - type: entity
   parent: BaseItem
   id: UnfinishedSniperForged
-  name: forged sniper parts
+  name: детали кованой снайперской винтовки
   description: Some assembly may be reqiured. Needs welding.
   components:
   - type: Item
@@ -108,7 +108,7 @@
 - type: entity
   parent: BaseItem
   id: ModularBarrel
-  name: modular barrel
+  name: модульный ствол
   description: A vital component in guncrafting.
   components:
   - type: Item

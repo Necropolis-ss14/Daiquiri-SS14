@@ -1,5 +1,5 @@
 - type: entity
-  name: coat rack
+  name: вешалка
   id: FurnitureCoatRack
   parent: BaseStructure
   description: Holds your coat or hat, and is always mistaken for a person in the dark.
@@ -60,7 +60,7 @@
     - Wooden
 
 - type: entity
-  name: wooden rack
+  name: деревянная стойка
   id: FurnitureWoodRack
   parent: FurnitureCoatRack
   description: A wooden rack for storing things.

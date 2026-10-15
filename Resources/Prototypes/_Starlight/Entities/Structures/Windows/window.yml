@@ -9,7 +9,7 @@
 - type: entity
   id: IcePillars
   parent: BaseStructure
-  name: ice pillar
+  name: ледяной столп
   description: A sturdy and see-through pillar of ice.
   components:
   - type: InteractionOutline

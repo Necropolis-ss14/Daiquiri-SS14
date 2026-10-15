@@ -26,19 +26,12 @@ chat-manager-speech-double-quote-end = "
 
 chat-manager-server-wrap-message = [bold]{ $message }[/bold]
 chat-manager-sender-announcement = Центральное командование
-chat-manager-sender-announcement-wrap-message = [font size=14][bold]Объявление { $sender }:[/font][font size=12]
-                                                { $message }[/bold][/font]
-chat-manager-entity-say-wrap-message = [BubbleHeader][bold][Name]{ $entityName }[/Name][/bold][/BubbleHeader] { $verb }, [font={ $fontType } size={ $fontSize } ]{ chat-manager-speech-double-quote-begin }[BubbleContent]{ $message }[/BubbleContent]{ chat-manager-speech-double-quote-end }[/font]
-chat-manager-entity-say-bold-wrap-message = [BubbleHeader][bold][Name]{ $entityName }[/Name][/bold][/BubbleHeader] { $verb }, [font={ $fontType } size={ $fontSize }]{ chat-manager-speech-double-quote-begin }[BubbleContent][bold]{ $message }[/bold][/BubbleContent]{ chat-manager-speech-double-quote-end }[/font]
 
-chat-manager-entity-whisper-wrap-message = [font size=11][italic][BubbleHeader][Name]{ $entityName }[/Name][/BubbleHeader] шепчет,{ chat-manager-speech-double-quote-begin }[BubbleContent]{ $message }[/BubbleContent]{ chat-manager-speech-double-quote-end }[/italic][/font]
-chat-manager-entity-whisper-unknown-wrap-message = [font size=11][italic][BubbleHeader]Кто-то[/BubbleHeader] шепчет, { chat-manager-speech-double-quote-begin }[BubbleContent]{ $message }[/BubbleContent]{ chat-manager-speech-double-quote-end }[/italic][/font]
 
 # THE() is not used here because the entity and its name can technically be disconnected if a nameOverride is passed...
 chat-manager-entity-me-wrap-message = [italic]{ CAPITALIZE($entityName) } { $message }[/italic]
 
 chat-manager-entity-looc-wrap-message = LOOC: [bold]{ $entityName }:[/bold] { $message }
-chat-manager-send-ooc-wrap-message = OOC: [bold]{ $playerName }:[/bold] { $message }
 chat-manager-send-ooc-patron-wrap-message = OOC: [bold][color={ $patronColor }]{ $playerName }[/color]:[/bold] { $message }
 
 chat-manager-send-dead-chat-wrap-message = { $deadChannelName }: [bold][BubbleHeader]{ $playerName }[/BubbleHeader]:[/bold] [BubbleContent]{ $message }[/BubbleContent]

@@ -21,7 +21,7 @@
 - type: entity
   id: OrganArachnidStomach
   parent: [OrganAnimalStomach, BaseOrganStomach]
-  name: arachnid stomach
+  name: "{ ent-OrganBaseStomach }"
   suffix: Arachnid
   description: "Gross. This is hard to stomach."
   components:
@@ -42,7 +42,7 @@
 - type: entity
   id: OrganArachnidLungs
   parent: [BaseArachnidOrgan, BaseOrganLungs]
-  name: arachnid lungs
+  name: "{ ent-OrganBaseLungs }"
   suffix: Arachnid
   description: "Filters oxygen from an atmosphere... just more greedily."
   components:
@@ -63,7 +63,7 @@
 - type: entity
   id: OrganArachnidHeart
   parent: [BaseArachnidOrgan, BaseOrganHeart]
-  name: arachnid heart
+  name: "{ ent-OrganBaseHeart }"
   suffix: Arachnid
   description: "A disgustingly persistent little biological pump made for spiders."
   components:
@@ -79,7 +79,7 @@
 - type: entity
   id: OrganArachnidLiver
   parent: [BaseHumanOrgan, BaseOrganLiver]
-  name: arachnid liver
+  name: "{ ent-OrganBaseLiver }"
   suffix: Arachnid
   description: "Pairing suggestion: chianti and fava beans."
   components:
@@ -95,7 +95,7 @@
 - type: entity
   id: OrganArachnidKidneys
   parent: [BaseHumanOrgan, BaseOrganKidneys]
-  name: arachnid kidneys
+  name: "{ ent-OrganBaseKidneys }"
   suffix: Arachnid
   description: "Filters toxins from the bloodstream."
   components:
@@ -114,7 +114,7 @@
 - type: entity
   id: OrganArachnidEyes
   parent: [BaseArachnidOrgan, BaseOrganEyes]
-  name: arachnid eyes
+  name: "{ ent-OrganBaseEyes }"
   suffix: Arachnid
   description: "Two was already too many."
   components:
@@ -135,7 +135,7 @@
 - type: entity
   id: OrganArachnidTongue
   parent: [BaseArachnidOrgan, BaseOrganTongue]
-  name: arachnid tongue
+  name: "{ ent-OrganBaseTongue }"
   suffix: Arachnid
   description: "A fleshy muscle mostly used for lying."
   components:

@@ -85,8 +85,8 @@
 - type: entity
   id: MechRipley2
   parent: [ BaseMech, IndustrialMech, BaseCargoContraband ]
-  name: Ripley APLU MK-II
-  description: The "MK-II" has a pressurized cabin for space operations, and stronger clamps are able to force doors open, but the added weight has slowed it down. # 🌟Starlight-Change
+  name: Рипли АПЛУ МК-II
+  description: У «МК-II» герметичная кабина для космоса, а усиленные захваты выламывают двери, но вес снизил скорость.
   components:
     - type: Sprite
       drawdepth: Mobs
@@ -152,8 +152,8 @@
 - type: entity
   id: MechPaddy
   parent: [ BaseMech, CombatMech, IndustrialMech, BaseSecurityContraband ]
-  name: Paddy
-  description: Autonomous Power Loader Unit Subtype Paddy. A Modified MK-II Ripley design intended for light security use.
+  name: Пэдди
+  description: Автономный погрузчик подтипа Пэдди. Переделанный МК-II Рипли для лёгкой охраны.
   components:
     - type: Sprite
       drawdepth: Mobs
@@ -230,8 +230,8 @@
 - type: entity
   id: MechClarke
   parent: [ BaseMech, IndustrialMech, BaseCargoSalvageContraband ]
-  name: Clarke
-  description: A special-purpose mech for heavy-duty mining operations. Outfitted with treads for stable locomotion in hazardous terrain.
+  name: Кларк
+  description: Спецмех для тяжёлых горных работ. Гусеницы для устойчивости на опасной местности.
   components:
     - type: Sprite
       drawdepth: Mobs
@@ -287,8 +287,8 @@
 - type: entity
   id: MechGygax
   parent: [ BaseMech, CombatMech, BaseSecurityContraband ]
-  name: Gygax
-  description: While lightly armored, the Gygax has incredible mobility thanks to its ability that lets it smash through walls at high speeds.
+  name: Гайгэкс
+  description: "Легкобронированный, но невероятно мобильный: таранит стены на скорости."
   components:
     - type: Sprite
       drawdepth: Mobs
@@ -351,8 +351,8 @@
 - type: entity
   id: MechDurand
   parent: [ BaseMech, CombatMech, BaseSecurityContraband ]
-  name: Durand
-  description: A slow but beefy combat exosuit that is extra scary in confined spaces due to its punches. Xenos hate it!
+  name: Дюранд
+  description: Медленный, но мясистый боевой экзокостюм; в тесноте страшен кулаками. Ксеносы ненавидят!
   components:
     - type: Sprite
       drawdepth: Mobs
@@ -417,8 +417,8 @@
 - type: entity
   id: MechMarauder
   parent: [ BaseMech, CombatMech, BaseCentcommContraband, NanotrasenMech ]
-  name: Marauder
-  description: Looks like we're all saved. # ERT mech
+  name: Мародёр
+  description: Похоже, мы все спасены.
   components:
     - type: Sprite
       drawdepth: Mobs
@@ -488,8 +488,8 @@
 - type: entity
   id: MechSeraph
   parent: [ BaseMech, CombatMech, BaseNanoTrasenContraband, NanotrasenMech ]
-  name: Seraph
-  description: That's the last thing you'll see. # Death Squad mech
+  name: Серафим
+  description: Последнее, что ты увидишь.
   components:
     - type: Sprite
       drawdepth: Mobs
@@ -562,8 +562,8 @@
 - type: entity
   id: MechGygaxSyndie
   parent: [ BaseMech, CombatMech, BaseSyndicateContraband, SyndieMech ]
-  name: Dark Gygax
-  description: A modified Gygax used for nefarious purposes. On the back of the armor plate there is an inscription "Cybersun Inc."
+  name: Тёмный Гайгэкс
+  description: Модифицированный Гайгэкс для тёмных дел. На бронеплите сзади гравировка «Cybersun Inc.»
   components:
     - type: Sprite
       drawdepth: Mobs
@@ -639,8 +639,8 @@
 - type: entity
   id: MechMaulerSyndie
   parent: [ BaseMech, CombatMech, BaseSyndicateContraband, SyndieMech ]
-  name: Mauler
-  description: A modified Marauder used by the Syndicate that's not as maneuverable as the Dark Gygax, but it makes up for that in armor and sheer firepower. On the back of the armor plate there is an inscription "Cybersun Inc."
+  name: Маулер
+  description: "Модифицированный Мародёр синдиката: менее вёрткий, чем Тёмный Гайгэкс, но берёт бронёй и огневой мощью. На бронеплите сзади гравировка «Cybersun Inc.»"
   components:
     - type: Sprite
       drawdepth: Mobs
@@ -719,8 +719,8 @@
 - type: entity
   parent: [ BaseMech, SpecialMech, SyndieMech, BaseSyndicateContraband ]
   id: MechHonkerDark
-  name: Dark H.O.N.K.
-  description: A Cybersun-modified H.O.N.K. that strikes fear into the hearts of all who hear its squeaking footsteps.
+  name: Тёмный Х.О.Н.К.
+  description: Х.О.Н.К. от Cybersun, чьи скрипучие шаги вселяют страх во всех.
   components:
     - type: Sprite
       drawdepth: Mobs
@@ -787,8 +787,8 @@
 - type: entity
   id: MechMimeSyndie
   parent: [ BaseMech, CombatMech, BaseSyndicateContraband, SyndieMech ]
-  name: Reticence
-  description: A lightweight mech favored by mime assassins. Whisper-quiet servos and shock absorber arrays result in drastically reduced footstep sound.
+  name: Сдержанность
+  description: Лёгкий мех мимов-убийц. Шепчущие сервы и амортизаторы почти бесшумны.
   components:
     - type: Sprite
       drawdepth: Mobs
@@ -877,8 +877,8 @@
 - type: entity
   id: MechPobeda
   parent: [ BaseMech, CombatMech, SpecialMech, BaseSovietContraband ]
-  name: Pobeda
-  description: A Soviet combat mech. It is slower and older than other mechs, but makes up for it with sheer durability and strength.
+  name: Победа
+  description: Советский боевой мех. Медленнее и старше прочих, но берёт живучестью и мощью.
   components:
     - type: Sprite
       drawdepth: Mobs

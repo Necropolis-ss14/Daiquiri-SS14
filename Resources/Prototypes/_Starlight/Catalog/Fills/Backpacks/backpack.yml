@@ -1,9 +1,9 @@
 - type: entity
   parent: ClothingBackpack
   id: ClothingBackpackSyndicateObserverBundle
-  name: backpack
+  name: рюкзак
   suffix: Observer Bundle, Do Not Map
-  description: You wear this on your back and put items into it.
+  description: Носишь на спине, складываешь внутрь вещи.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -24,9 +24,9 @@
 - type: entity
   parent: ClothingBackpackBunnyGang
   id: ClothingBackpackBunnyGangBundle
-  name: Bunny Gang Backpack
+  name: Рюкзак Банды Зайцев
   suffix: Filled
-  description: A sword that is actually a backpack. Its impressive how they managed to fit things in there, even so, inventory management will be a trial.
+  description: Меч, который на самом деле рюкзак. Удивительно, как туда влезают вещи, но инвентаризация будет испытанием.
   components:
   - type: EntityTableContainerFill
     containers:

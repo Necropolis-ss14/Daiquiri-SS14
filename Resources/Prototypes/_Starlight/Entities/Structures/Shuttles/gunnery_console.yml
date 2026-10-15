@@ -5,7 +5,7 @@
 - type: entity
   parent: BaseComputer
   id: ComputerGunneryConsole
-  name: gunnery console
+  name: артиллерийская консоль
   description: A dedicated fire-control station. Displays a tactical radar overlay showing shuttle cannons, draws aim lines, and allows guided control of rockets.
   placement:
     mode: SnapgridCenter
@@ -35,7 +35,7 @@
 - type: entity
   id: GunneryServer
   parent: BaseMachinePowered
-  name: fire assist mainframe
+  name: мейнфрейм огневой поддержки
   description: A specialized computer designed to synchronize a variety of weapon systems and a vessel's astronav data.
   components:
     - type: GunneryServer

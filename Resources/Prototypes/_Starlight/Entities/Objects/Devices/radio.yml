@@ -1,5 +1,5 @@
 - type: entity
-  name: expedition radio
+  name: радио экспедиции
   description: A handy expedition radio.
   parent: [ RadioHandheld, BaseSalvageMiningContraband ]
   id: RadioHandheldExpedition

@@ -11,7 +11,7 @@
 - type: entity
   parent: GasUnaryBase
   id: GasInletSiphon
-  name: air siphon
+  name: воздушный сифон
   description: Siphons air from adjacent tiles.
   placement:
     mode: AlignAtmosPipeLayers

@@ -183,7 +183,7 @@
 - type: entity
   parent: BaseTreeBirchBig
   id: FloraBirchTreeLargeSL
-  name: large birch tree
+  name: большая берёза
   components:
   - type: Sprite
     layers:
@@ -198,7 +198,7 @@
 - type: entity
   parent: BaseTreeBirchMedium
   id: FloraBirchTreeMediumSL
-  name: medium birch tree
+  name: средняя берёза
   components:
   - type: Sprite
     layers:
@@ -213,7 +213,7 @@
 - type: entity
   parent: BaseTreeBirchSmall
   id: FloraBirchTreeSmallSL
-  name: small birch tree
+  name: малая берёза
   components:
   - type: Sprite
     layers:
@@ -228,7 +228,7 @@
 - type: entity
   parent: BaseTreeDead
   id: FloraDeadTreeSL
-  name: dead tree
+  name: мёртвое дерево
   components:
   - type: Sprite
     layers:
@@ -245,7 +245,7 @@
 - type: entity
   parent: BaseTreeDeadSmall
   id: FloraDeadTreeSmallSL
-  name: small dead tree
+  name: малое мёртвое дерево
   components:
   - type: Sprite
     layers:
@@ -262,7 +262,7 @@
 - type: entity
   parent: BaseTreeSnow
   id: FloraSnowTreeSL
-  name: snowy tree
+  name: заснеженное дерево
   components:
   - type: Sprite
     layers:
@@ -281,7 +281,7 @@
 - type: entity
   parent: BaseTreeConifer
   id: FloraTreeConiferMediumSL
-  name: medium conifer tree
+  name: среднее хвойное дерево
   components:
   - type: Sprite
     layers:
@@ -298,7 +298,7 @@
 - type: entity
   parent: BaseTreeConiferBig
   id: FloraTreeConiferBigSL
-  name: medium conifer tree
+  name: большое хвойное дерево
   components:
   - type: Sprite
     layers:
@@ -313,7 +313,7 @@
 - type: entity
   parent: BaseTreeConiferSmall
   id: FloraTreeConiferSmallSL
-  name: small conifer tree
+  name: малое хвойное дерево
   components:
   - type: Sprite
     layers:
@@ -332,7 +332,7 @@
 - type: entity
   parent: BaseTreeVampire
   id: FloraTreeVampireSL
-  name: gulthias tree
+  name: дерево гултиас
   components:
   - type: Sprite
     layers:

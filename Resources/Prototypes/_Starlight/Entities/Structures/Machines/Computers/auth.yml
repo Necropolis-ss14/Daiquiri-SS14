@@ -2,7 +2,7 @@
   parent: BaseStructureComputer
   id: KeycardAuth
   categories: [ ShouldMapStation ]
-  name: Keycard Authentication Device
+  name: устройство аутентификации по ключ-карте
   description: This device is used to approve/deny station functions, which require more than one ID card to authenticate.
   components:
     - type: WallMount

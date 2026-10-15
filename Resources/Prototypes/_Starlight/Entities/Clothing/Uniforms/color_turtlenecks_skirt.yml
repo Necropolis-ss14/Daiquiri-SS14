@@ -2,7 +2,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformTurtleneckSkirtColorWhite
-  name: white turtleneck with skirt
+  name: белая водолазка с юбкой
   description: A generic white turtleneck with no rank markings.
   components:
   - type: Sprite
@@ -29,7 +29,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformTurtleneckSkirtColorGrey
-  name: grey turtleneck with skirt
+  name: серая водолазка с юбкой
   description: A tasteful grey turtleneck that reminds you of the good old days.
   components:
   - type: Sprite
@@ -60,7 +60,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformTurtleneckSkirtColorBlack
-  name: black turtleneck with skirt
+  name: чёрная водолазка с юбкой
   description: A generic black turtleneck with no rank markings.
   components:
   - type: Sprite
@@ -91,7 +91,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformTurtleneckSkirtColorBlue
-  name: blue turtleneck with skirt
+  name: синяя водолазка с юбкой
   description: A generic blue turtleneck with no rank markings.
   components:
   - type: Sprite
@@ -122,7 +122,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformTurtleneckSkirtColorDarkBlue
-  name: dark blue turtleneck with skirt
+  name: тёмно-синяя водолазка с юбкой
   description: A generic dark blue turtleneck with no rank markings.
   components:
   - type: Sprite
@@ -153,7 +153,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformTurtleneckSkirtColorTeal
-  name: teal turtleneck with skirt
+  name: бирюзовая водолазка с юбкой
   description: A generic teal turtleneck with no rank markings.
   components:
   - type: Sprite
@@ -184,7 +184,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformTurtleneckSkirtColorGreen
-  name: green turtleneck with skirt
+  name: зелёная водолазка с юбкой
   description: A generic green turtleneck with no rank markings.
   components:
   - type: Sprite
@@ -215,7 +215,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformTurtleneckSkirtColorDarkGreen
-  name: dark green turtleneck with skirt
+  name: тёмно-зелёная водолазка с юбкой
   description: A generic dark green turtleneck with no rank markings.
   components:
   - type: Sprite
@@ -246,7 +246,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformTurtleneckSkirtColorOrange
-  name: orange turtleneck with skirt
+  name: оранжевая водолазка с юбкой
   description: A generic orange turtleneck with no rank markings.
   components:
   - type: Sprite
@@ -277,7 +277,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformTurtleneckSkirtColorPink
-  name: pink turtleneck with skirt
+  name: розовая водолазка с юбкой
   description: A generic pink turtleneck with no rank markings.
   components:
   - type: Sprite
@@ -308,7 +308,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformTurtleneckSkirtColorRed
-  name: red turtleneck with skirt
+  name: красная водолазка с юбкой
   description: A generic red turtleneck with no rank markings.
   components:
   - type: Sprite
@@ -339,7 +339,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformTurtleneckSkirtColorYellow
-  name: yellow turtleneck with skirt
+  name: жёлтая водолазка с юбкой
   description: A generic yellow turtleneck with no rank markings.
   components:
   - type: Sprite
@@ -370,7 +370,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformTurtleneckSkirtColorPurple
-  name: purple turtleneck with skirt
+  name: фиолетовая водолазка с юбкой
   description: A generic light purple turtleneck with no rank markings.
   components:
   - type: Sprite
@@ -401,7 +401,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformTurtleneckSkirtColorLightBrown
-  name: light brown turtleneck with skirt
+  name: светло-коричневая водолазка с юбкой
   description: A generic light brown turtleneck with no rank markings.
   components:
   - type: Sprite
@@ -432,7 +432,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformTurtleneckSkirtColorBrown
-  name: brown turtleneck with skirt
+  name: коричневая водолазка с юбкой
   description: A generic brown turtleneck with no rank markings.
   components:
   - type: Sprite
@@ -463,7 +463,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformTurtleneckSkirtColorMaroon
-  name: maroon turtleneck with skirt
+  name: бордовая водолазка с юбкой
   description: A generic maroon turtleneck with no rank markings.
   components:
   - type: Sprite

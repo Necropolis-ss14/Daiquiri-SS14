@@ -1,7 +1,7 @@
 - type: entity
   parent: ClothingMultipleHeadphones
   id: ClothingMultipleHeadphonesReporter
-  name: reporter's headphones
+  name: наушники репортёра
   description: Checking in with the studio now... you don't say!?
   components:
   - type: Sprite
@@ -20,7 +20,7 @@
 - type: entity
   parent: ClothingMultipleHeadphones
   id: ClothingMultipleHeadphonesHighEnd
-  name: high-end headphones
+  name: высококлассные наушники
   description: Perfect for audiophiles everywhere.
   components:
   - type: Sprite

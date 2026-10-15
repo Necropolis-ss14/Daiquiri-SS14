@@ -1,8 +1,8 @@
 - type: entity
   parent: [ BaseNanoTrasenContraband, ClothingHeadLightParamsProfessional, ClothingHeadHelmetHardsuitSyndie ]
   id: ClothingHeadHelmetHardsuitNTNCConsortium
-  name: NanoTrasen navy marine hardsuit helmet
-  description: A protective hardsuit helmet worn by NanoTrasen Navy Marines.
+  name: шлем скафандра морпеха NanoTrasen
+  description: Защитный шлем скафандра морпехов NanoTrasen.
   components:
   - type: Sprite
     sprite: _Starlight/Admeme/Clothing/Head/Hardsuits/ntnc_hardsuit_helmet.rsi
@@ -25,8 +25,8 @@
 - type: entity
   parent: [ BaseNanoTrasenContraband, ClothingHeadLightParamsAdvanced, ClothingHeadHelmetHardsuitSyndie ]
   id: ClothingHeadHelmetHardsuitNTNCConsortiumMedic
-  name: NanoTrasen navy marine medic hardsuit helmet
-  description: A protective hardsuit helmet worn by NanoTrasen Navy Marine medical personnel.
+  name: шлем скафандра медика морпехов NanoTrasen
+  description: Защитный шлем скафандра медиков морпехов NanoTrasen.
   components:
   - type: Sprite
     sprite: _Starlight/Admeme/Clothing/Head/Hardsuits/ntnc_med_hardsuit_helmet.rsi

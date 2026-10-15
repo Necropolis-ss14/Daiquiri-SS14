@@ -1,7 +1,7 @@
 - type: entity
   id: BodyBagMedTak
   parent: [ BodyBagLockable, BaseMedTakContraband ]
-  name: secure body bag
+  name: защищённый мешок для трупов
   components:
   - type: Sprite
     sprite: _Starlight/Admeme/MedTak/Objects/bodybag.rsi

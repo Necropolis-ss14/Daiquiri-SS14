@@ -1,5 +1,5 @@
 - type: entity
-  name: raw thaven fillet
+  name: сырое филе тавена
   parent: FoodMeatBase
   # MeatFish?...
   id: FoodThavenMeat

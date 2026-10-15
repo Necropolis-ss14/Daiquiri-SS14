@@ -3,8 +3,8 @@
 - type: entity
   id: MechHouse
   parent: [ BaseMech, CombatMech, BaseCasinoContraband, NanotrasenMech ]
-  name: The house
-  description: The game was rigged from the start. The house always wins.
+  name: Дом
+  description: Игра была подкручена с самого начала. Дом всегда выигрывает.
   components:
     - type: Sprite
       drawdepth: Mobs
@@ -78,8 +78,8 @@
 - type: entity
   id: MechAlways
   parent: [ BaseMech, CombatMech, BaseCasinoContraband ]
-  name: Always Wins
-  description: We Can't Expect God To Do All The Work. The house always wins.
+  name: Всегда выигрывает
+  description: Нельзя ждать, что Бог сделает всю работу. Дом всегда выигрывает.
   components:
     - type: Sprite
       drawdepth: Mobs
@@ -148,7 +148,7 @@
 
 
 - type: entity
-  name: House Spawner
+  name: Спавнер Дома
   suffix: Filled
   id: SpawnMechHouseFilled
   parent: MarkerBase
@@ -164,7 +164,7 @@
         - MechHouseFilled
 
 - type: entity
-  name: Always win Spawner
+  name: Спавнер всегда-выигрыша
   suffix: Filled
   id: SpawnMechAlwaysFilled
   parent: MarkerBase

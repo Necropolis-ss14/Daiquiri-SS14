@@ -1,8 +1,8 @@
 - type: entity
   parent: [ChemicalMedipen]
   id: AdvancedMedipen
-  name: advanced medipen
-  description: A single-dose, non-refillable medipen containing a large quantity of polypyrylium for long term stabilization.
+  name: продвинутая медиручка
+  description: Одноразовая незаправляемая медиручка с большой дозой полипирилия для долгой стабилизации.
   components:
   - type: Item
     inhandVisuals:

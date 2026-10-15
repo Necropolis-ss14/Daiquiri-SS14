@@ -1,6 +1,6 @@
 - type: body
   id: AdvancedPrimate
-  name: "advanced primate"
+  name: тело развитого примата
   root: torso
   slots:
     torso:

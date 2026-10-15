@@ -1,8 +1,8 @@
 - type: entity
   parent: [ ClothingUniformBase, BaseMedTakContraband ]
   id: ClothingUniformMedTakJumpsuit
-  name: MedTak jumpsuit
-  description: Standard issue MedTak uniform.
+  name: комбинезон MedTak
+  description: Штатная форма MedTak.
   components:
   - type: Sprite
     sprite: _Starlight/Admeme/MedTak/Clothing/Uniforms/Jumpsuit/medtak_uniform.rsi
@@ -14,8 +14,8 @@
 - type: entity
   parent: [ ClothingUniformBase, BaseMedTakContraband ]
   id: ClothingUniformMedTakJumpsuitFormal
-  name: MedTak formal jumpsuit
-  description: A formal MedTak uniform.
+  name: парадный комбинезон MedTak
+  description: Парадная форма MedTak.
   components:
   - type: Sprite
     sprite: _Starlight/Admeme/MedTak/Clothing/Uniforms/Jumpsuit/medtak_formal.rsi

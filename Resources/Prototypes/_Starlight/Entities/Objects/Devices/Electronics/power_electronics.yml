@@ -2,7 +2,7 @@
 - type: entity
   id: APCAdvancedElectronics
   parent: BaseElectronics
-  name: advanced APC electronics
+  name: продвинутая электроника ЛКП
   description: Circuit used to construct an advanced APC.
   components:
     - type: Tag

@@ -1,2 +1,2 @@
 # Service
-holopad-service-radiohost = Сервисная — Радиоведущий
+holopad-service-radiohost = Сервисная — радиоведущий

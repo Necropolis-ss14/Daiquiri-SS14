@@ -5,6 +5,6 @@
   id: MobDoll
 
 - type: entity
-  name: ?!°#^*&
+  name: "?!°#^*&"
   parent: BaseMobDollFresh
   id: MobDollFresh

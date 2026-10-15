@@ -4,13 +4,13 @@ using Content.Client.Audio;
 using Content.Client.GameTicking.Managers;
 using Content.Client.Lobby.UI;
 using Content.Client.Message;
-using Content.Client.Options.UI; // Daiquiri glass prompt
+using Content.Client.Options.UI; // Daiquiri
 using Content.Client.Playtime;
 using Content.Client.UserInterface.Systems.Chat;
 using Content.Client.Voting;
 using Content.Shared.CCVar;
 using Content.Shared.GameTicking.Prototypes;
-using Content.Shared._Starlight.CCVar; // Daiquiri glass prompt
+using Content.Shared._Starlight.CCVar; // Daiquiri
 using Robust.Client;
 using Robust.Client.Console;
 using Robust.Client.ResourceManagement;
@@ -287,7 +287,7 @@ namespace Content.Client.Lobby
             if (Lobby?.CharacterSprite == null || Lobby?.CharacterName == null)
                 return;
 
-            // Daiquiri: follow the slot picked in Personalization, fall back to the first one.
+            // Daiquiri
             var characters = _preferences.Preferences?.Characters;
             var slot = _userInterfaceManager.GetUIController<LobbyUIController>().SelectedCardSlot;
             var profile = slot.HasValue && characters != null && characters.TryGetValue(slot.Value, out var selected)
@@ -327,7 +327,7 @@ namespace Content.Client.Lobby
         }
 
         /// <summary>
-        /// Daiquiri: refresh the lobby track label from local state
+        /// Daiquiri
         /// (pool changes don't fire LobbySoundtrackChanged).
         /// </summary>
         private void RefreshLobbyTrackLabel()
@@ -342,7 +342,7 @@ namespace Content.Client.Lobby
         {
             if (filename == null)
             {
-                // Daiquiri: empty queue shows the fallback instead of a track name.
+                // Daiquiri
                 Lobby!.LobbySong.SetMarkup(Loc.GetString("lobby-state-song-no-song-text"));
                 Lobby!.MusicSwitcher.TrackLabel.FullText = "Ничего не выбрано";
                 return;
@@ -351,7 +351,7 @@ namespace Content.Client.Lobby
             if (!_resourceCache.TryGetResource<AudioResource>(filename, out var lobbySongResource))
                 return;
 
-            // Daiquiri: prefer the prototype title, fall back to OGG metadata.
+            // Daiquiri
             var lobbyStream = lobbySongResource.AudioStream;
             var title = _protoMan.TryIndex<LobbyTrackPrototype>(filename, out var trackProto)
                 ? trackProto.Title
@@ -383,7 +383,7 @@ namespace Content.Client.Lobby
 
         private void OnMusicQueuePressed(BaseButton.ButtonEventArgs args)
         {
-            // Daiquiri: single queue window — reopening closes the old one.
+            // Daiquiri
             if (_queueWindow is { Disposed: false } existing)
             {
                 if (existing.IsOpen)

@@ -150,3 +150,12 @@ language-Xenomind-description = Различные разумы ксеносов
 
 language-Squeakish-name = Писклявый
 language-Squeakish-description = Язык Родентий, состоящий из серии чириканий и писков.
+
+language-ClassicalSign-name = Классический жестовый
+language-ClassicalSign-description = Старый жестовый язык с Терры.
+
+language-CygniStandard-name = Сигни-стандарт
+language-CygniStandard-description = Язык СССП.
+
+language-Penguin-name = Пингвиний
+language-Penguin-description = Кар!

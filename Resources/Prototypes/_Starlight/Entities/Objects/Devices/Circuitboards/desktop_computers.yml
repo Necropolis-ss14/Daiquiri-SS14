@@ -1,7 +1,7 @@
 - type: entity
   parent: AlertsComputerCircuitboard
   id: AlertsComputerCircuitboardDesktop
-  name: atmospheric alerts desktop computer board
+  name: плата настольного компьютера атмосферных тревог
   description: A circuit board for an atmospheric alerts dekstop computer.
   components:
     - type: ComputerBoard
@@ -14,7 +14,7 @@
 - type: entity
   parent: AtmosMonitoringComputerCircuitboard
   id: AtmosMonitoringComputerCircuitboardDesktop
-  name: desktop atmospheric network monitor board
+  name: плата настольного компьютера мониторинга атмосферы
   description: A circuit board for a desktop atmospheric network monitor.
   components:
     - type: ComputerBoard
@@ -27,7 +27,7 @@
 - type: entity
   parent: SurveillanceCameraMonitorCircuitboard
   id: SurveillanceCameraMonitorCircuitboardDesktop
-  name: desktop surveillance camera monitor board
+  name: плата настольного монитора камер наблюдения
   description: A circuit board for a desktop surveillance camera monitor.
   components:
   - type: ComputerBoard
@@ -40,7 +40,7 @@
 - type: entity
   parent: CargoBountyComputerCircuitboard
   id: CargoBountyComputerCircuitboardDesktop
-  name: cargo bounty desktop computer board
+  name: плата настольного компьютера наград карго
   description: A circuit board for a cargo bounty desktop computer.
   components:
   - type: ComputerBoard
@@ -53,7 +53,7 @@
 - type: entity
   parent: CrewMonitoringComputerCircuitboard
   id: CrewMonitoringComputerCircuitboardDesktop
-  name: crew monitoring desktop computer board
+  name: плата настольного компьютера мониторинга экипажа
   description: A circuit board for a desktop crew monitoring console.
   components:
   - type: ComputerBoard
@@ -66,7 +66,7 @@
 - type: entity
   parent: CriminalRecordsComputerCircuitboard
   id: CriminalRecordsComputerCircuitboardDesktop
-  name: criminal records desktop computer board
+  name: плата настольного компьютера криминальных записей
   description: A circuit board for a criminal records desktop computer.
   components:
     - type: ComputerBoard
@@ -79,7 +79,7 @@
 - type: entity
   parent: StationRecordsComputerCircuitboard
   id: StationRecordsComputerCircuitboardDesktop
-  name: employment records desktop computer board
+  name: плата настольного компьютера трудовых записей
   description: A circuit board for an employment records desktop computer.
   components:
     - type: ComputerBoard
@@ -92,7 +92,7 @@
 - type: entity
   parent: ComputerMassMediaCircuitboard
   id: ComputerMassMediaCircuitboardDesktop
-  name: news manager desktop computer board
+  name: плата настольного компьютера медиа-менеджера
   description: A circuit board for a news manager desktop computer.
   components:
     - type: ComputerBoard
@@ -105,7 +105,7 @@
 - type: entity
   parent: PowerComputerCircuitboard
   id: PowerComputerCircuitboardDesktop
-  name: power monitoring desktop computer board
+  name: плата настольного компьютера мониторинга энергии
   description: A circuit board for a power monitoring desktop computer.
   components:
     - type: ComputerBoard
@@ -118,7 +118,7 @@
 - type: entity
   parent: SalvageJobBoardComputerCircuitboard
   id: SalvageJobBoardComputerCircuitboardDesktop
-  name: salvage job board desktop computer board
+  name: плата настольного компьютера доски работ утилизаторов
   description: A circuit board for a salvage job board desktop computer.
   components:
   - type: ComputerBoard
@@ -131,7 +131,7 @@
 - type: entity
   parent: CargoRequestComputerCircuitboard
   id: CargoRequestComputerCircuitboardDesktop
-  name: cargo request desktop computer board
+  name: плата настольного компьютера заказов карго
   description: A circuit board for a cargo request desktop computer.
   components:
     - type: ComputerBoard
@@ -144,7 +144,7 @@
 - type: entity
   parent: CargoRequestEngineeringComputerCircuitboard
   id: CargoRequestEngineeringComputerCircuitboardDesktop
-  name: engineering request desktop computer board
+  name: плата настольного компьютера инженерных заказов
   description: A circuit board for an engineering request desktop computer.
   components:
   - type: ComputerBoard
@@ -157,7 +157,7 @@
 - type: entity
   parent: CargoRequestMedicalComputerCircuitboard
   id: CargoRequestMedicalComputerCircuitboardDesktop
-  name: medical request desktop computer board
+  name: плата настольного компьютера медицинских заказов
   description: A circuit board for a medical request desktop computer.
   components:
   - type: ComputerBoard
@@ -170,7 +170,7 @@
 - type: entity
   parent: CargoRequestScienceComputerCircuitboard
   id: CargoRequestScienceComputerCircuitboardDesktop
-  name: science request desktop computer board
+  name: плата настольного компьютера научных заказов
   description: A circuit board for a science request desktop computer.
   components:
   - type: ComputerBoard
@@ -183,7 +183,7 @@
 - type: entity
   parent: CargoRequestSecurityComputerCircuitboard
   id: CargoRequestSecurityComputerCircuitboardDesktop
-  name: security request desktop computer board
+  name: плата настольного компьютера заказов СБ
   description: A circuit board for a security request desktop computer.
   components:
   - type: ComputerBoard
@@ -196,7 +196,7 @@
 - type: entity
   parent: CargoRequestServiceComputerCircuitboard
   id: CargoRequestServiceComputerCircuitboardDesktop
-  name: service request desktop computer board
+  name: плата настольного компьютера сервисных заказов
   description: A circuit board for a service request desktop computer.
   components:
   - type: ComputerBoard
@@ -211,7 +211,7 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: ComputerPersonalCircuitboardDesktop
-  name: personal desktop computer board
+  name: плата персонального настольного компьютера
   description: A circuit board for a personal desktop computer.
   components:
     - type: ComputerBoard

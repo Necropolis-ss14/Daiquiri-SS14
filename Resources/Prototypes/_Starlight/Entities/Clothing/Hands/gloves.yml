@@ -1,7 +1,7 @@
 - type: entity
   parent: ClothingHandsButcherable
   id: ClothingHandsGlovesBlackNitrile
-  name: black nitrile gloves
+  name: чёрные нитриловые перчатки
   description: High-quality nitrile gloves. Expensive medical PPE, now in black!
   components:
   - type: Sprite
@@ -21,7 +21,7 @@
 - type: entity
   parent: [ClothingHandsButcherable, ClothingHandsBaseWarm, BaseSecurityContraband]
   id: ClothingHandsGlovesSecurityRed
-  name: red security gloves
+  name: красные перчатки службы безопасности
   description: Black gloves, but slightly red! The detective will LOVE you if you wear these.
   components:
   - type: Sprite
@@ -35,7 +35,7 @@
 - type: entity
   parent: [ClothingHandsButcherable, BaseSecurityContraband]
   id: ClothingHandsGlovesSecurityFingerlessRed
-  name: fingerless red security gloves
+  name: красные беспалые перчатки службы безопасности
   description: Black gloves, but slightly red! The detective will HATE you if you wear these.
   components:
   - type: Sprite
@@ -48,7 +48,7 @@
 - type: entity
   parent: ClothingHandsBase
   id: ClothingHandsGlovesFingerlessBudget
-  name: fingerless budget insulated gloves
+  name: бюджетные беспалые изолированные перчатки
   description: You're not sure what's more insulting, the fact that these are fingerless, or the fact that they're not even real insuls.
   components:
   - type: Sprite
@@ -66,7 +66,7 @@
 - type: entity
   parent: ClothingHandsMittensBase # That's why these exist in real life.
   id: ClothingHandsCatPaws
-  name: cat paw mittens
+  name: варежки-кошачьи лапки
   description: Extra soft cat paws, especially made for the most stern assistants.
   abstract: true
   components:
@@ -78,7 +78,7 @@
 - type: entity
   parent: ClothingHandsCatPaws
   id: ClothingHandsCatPawsWhite
-  name: white cat paw mittens
+  name: белые варежки-лапки
   components:
   - type: Sprite
     state: white
@@ -92,7 +92,7 @@
 - type: entity
   parent: ClothingHandsCatPaws
   id: ClothingHandsCatPawsBrown
-  name: brown cat paw mittens
+  name: коричневые варежки-лапки
   components:
   - type: Sprite
     state: brown
@@ -106,7 +106,7 @@
 - type: entity
   parent: ClothingHandsCatPaws
   id: ClothingHandsCatPawsBlack
-  name: black cat paw mittens
+  name: чёрные варежки-лапки
   components:
   - type: Sprite
     state: black
@@ -120,7 +120,7 @@
 - type: entity
   parent: ClothingHandsCatPaws
   id: ClothingHandsCatPawsBlackWhite
-  name: black-white cat paw mittens
+  name: чёрно-белые варежки-лапки
   components:
   - type: Sprite
     state: black_white
@@ -134,7 +134,7 @@
 - type: entity
   parent: [ BaseEngineeringSecurityCommandSalvageMiningContraband, ClothingHandsGlovesCombat ]
   id: ClothingHandsSalvageMercGlovesCombat
-  name: scrapper combat gloves
+  name: боевые перчатки утилизатора
   description: High-quality insulated gloves that provide protection while salvaging.
   components:
     - type: Sprite
@@ -148,7 +148,7 @@
 - type: entity
   parent: ClothingHandsButcherable
   id: RedRegaliaGloves
-  name: red regalia gloves
+  name: красные перчатки регалии
   description: A pair of fancy red gloves like a mafiaoso would wear.
   components:
   - type: Sprite
@@ -162,7 +162,7 @@
 - type: entity
   parent: ClothingHandsGlovesSyntheticBase
   id: ClothingHandsTacticalMaidGlovesDelicate
-  name: delicate tactical maid gloves
+  name: изящные тактические перчатки горничной
   description: Tactical maid gloves, every self-respecting maid should be able to discreetly eliminate her goals. Made of a thin material, far too thin to be insulated.
   components:
   - type: Sprite
@@ -175,7 +175,7 @@
 - type: entity
   parent: ClothingHandsGlovesSyntheticBase
   id: ClothingHandsMaidGlovesElegant
-  name: elegant maid gloves
+  name: элегантные перчатки горничной
   description: Pristine maid gloves, like any self-respecting maid should possess.
   components:
   - type: Sprite

@@ -2,7 +2,7 @@
   save: false
   parent: BaseMobNeocyte
   id: BaseMobNeoThaven
-  name: Urist McEarster
+  name: Урист МакУшистер
   abstract: true
   components:
   - type: LanguageKnowledge

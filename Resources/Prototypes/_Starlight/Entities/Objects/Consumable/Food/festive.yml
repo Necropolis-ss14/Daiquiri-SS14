@@ -1,6 +1,6 @@
 ﻿
 - type: entity
-  name: roast turkey
+  name: жареная индейка
   parent: [SolutionHuge, FoodMealBase, BaseSlicingRefinableFood]
   id: FoodFeastTurkey
   description: "An entire roast turkey. You're going to share, right?"
@@ -44,7 +44,7 @@
         amount: 16
 
 - type: entity
-  name: roast turkey slice
+  name: кусок жареной индейки
   parent: [SolutionTiny, FoodMealBase]
   id: FoodTurkeySlice
   description: A serving of roast turkey. Next time make the whole feast!
@@ -73,7 +73,7 @@
 
 # hypothetically contains 320 nutriment, 100 protein, 50 gravy, 8 vitamin
 - type: entity
-  name: festive feast
+  name: праздничный пир
   parent: BoxCardboard
   id: FoodFeastFestiveDinner
   description: Collectively it contains at least 32,000 calories.
@@ -128,7 +128,7 @@
               amount: 8
 
 - type: entity
-  name: festive dinner
+  name: праздничный ужин
   parent: FoodMealBase
   id: FoodMealFestiveDinner
   description: Roast turkey, mashed potatoes, and cabbage. Not bad!
@@ -170,7 +170,7 @@
         - FestiveDinner
 
 - type: entity
-  name: festive dinner
+  name: праздничный ужин
   parent: FoodMealBase
   id: FoodMealFestiveDinnerGravy
   description: Roast turkey, mashed potatoes with gravy, and cabbage. Dinner has officially peaked.
@@ -216,7 +216,7 @@
 
 # mashed potatoes, full size
 - type: entity
-  name: family-size mashed potatoes
+  name: семейная порция картофельного пюре
   parent: [SolutionNormal, FoodMealBase, BaseSlicingRefinableFood]
   id: FoodFeastPotatoMashed
   description: Feeds five... or ten if you cut it properly.
@@ -250,7 +250,7 @@
 
 # mashed potatoes, private
 - type: entity
-  name: mashed potatoes
+  name: картофельное пюре
   parent: [SolutionTiny, FoodMealBase]
   id: FoodPotatoMashed
   description: Legally, I have to tell you to get a plate.
@@ -277,7 +277,7 @@
 
 # mashed potatoes with gravy, full size
 - type: entity
-  name: family-size gravy potatoes
+  name: семейная порция картофеля с подливой
   parent: [SolutionNormal, FoodMealBase, BaseSlicingRefinableFood]
   id: FoodFeastPotatoGravy
   description: Remember to serve individually!
@@ -314,7 +314,7 @@
 
 # mashed potatoes with gravy, private
 - type: entity
-  name: gravy potatoes
+  name: картофель с подливой
   parent: [SolutionTiny, FoodMealBase]
   id: FoodPotatoGravy
   description: "What, butter isn't enough for you?"
@@ -382,7 +382,7 @@
 
 # moff stuffing
 - type: entity
-  name: cotton stuffing
+  name: хлопковая начинка
   parent: [SolutionNormal, FoodMealBase]
   id: FoodStuffingCotton
   description: Festive bread, but for moff.

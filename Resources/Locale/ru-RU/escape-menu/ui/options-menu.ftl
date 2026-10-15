@@ -448,8 +448,5 @@ ui-options-admin-overlay-ghost-hide-distance = Расстояние от кур�
 
 ui-options-admin-strip-overlay-title = Оверлей обыска
 ui-options-admin-strip-overlay-setting = Показывать админ-вид обыска по умолчанию
-ui-options-trace = Отображать трассеры пуль
-ui-options-trace-tooltip = Если лагает при стрельбе, снимите галочку,
-                           и хитскан не будет отображать текстуру дыма позади летящей пули.
 ui-options-accessability-header-visuals = Визуал
 ui-options-accessability-header-content = Контент

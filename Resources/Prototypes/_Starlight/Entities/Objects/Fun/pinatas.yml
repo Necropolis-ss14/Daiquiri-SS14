@@ -2,7 +2,7 @@
   parent: BaseItem
   id: BasePinata
   abstract: true
-  name: Base Pinata
+  name: базовая пиньята
   components:
   - type: Pinata
     hitTable: !type:NestedSelector
@@ -31,7 +31,7 @@
 - type: entity
   parent: BasePinata
   id: ClownPinata
-  name: Clown Pinata
+  name: пиньята-клоун
   description: Looks kinda funny. Do the real ones also explode into candy when you beat them?
   components:
   - type: Pinata
@@ -70,7 +70,7 @@
 - type: entity
   parent: ClownPinata
   id: ClownPinataDamaged
-  name: Clown Pinata
+  name: пиньята-клоун
   suffix: Damaged
   description: Looks kinda sad. Show no mercy.
   components:
@@ -110,7 +110,7 @@
 - type: entity
   parent: BaseItem
   id: ClownPinataDestroyed
-  name: Clown Pinata Remains
+  name: остатки пиньяты-клоуна
   description: Like stealing candy from a clown.
   components:
   - type: Sprite

@@ -1,5 +1,5 @@
 - type: entity
-  name: cash register
+  name: кассовый аппарат
   id: CashRegister
   parent: [ BaseStructure, BaseBagOpenClose ]
   description: A vaguely secure way to store currency. Wheres the lock...?

@@ -1,7 +1,7 @@
 - type: entity
   parent: ClothingNeckPinBase
   id: ClothingNeckAngelPin
-  name: pin of good deeds
+  name: значок добрых дел
   suffix: DO NOT MAP, Admeme
   description: For the best!
   components:
@@ -22,7 +22,7 @@
 - type: entity
   parent: ClothingNeckAngelPin
   id: ClothingNeckDevilPin
-  name: pin of evil deeds
+  name: значок злых дел
   suffix: DO NOT MAP, Admeme
   description: For the worst!
   components:
@@ -38,7 +38,7 @@
 - type: entity
   parent: [BaseItem, BaseToggleClothing, BaseReporterContraband]
   id: HoloReporterPin
-  name: reporter holo-pin
+  name: холо-значок репортёра
   description: "It's an electronic pin with a microphone-shaped button. A way of more clearly saying, DON'T SHOOT!"
   components:
     - type: Item
@@ -69,5 +69,5 @@
 - type: entity
   parent: BaseToggleAction
   id: ActionHoloPin
-  name: Activate Holo-Pin
+  name: активировать холо-пин
   description: "BREAKING NEWS! DON'T KILL ME PLEASE!"

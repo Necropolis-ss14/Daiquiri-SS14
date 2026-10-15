@@ -1,5 +1,5 @@
 - type: entity
-  name: blood red personal shield generator
+  name: кроваво-красный персональный генератор щита
   description: A personal shield generator that protects the wearer from lasers and bullets but prevents from using ranged weapons himself. Uses a power cell.
   id: EnergyDomeGeneratorPersonalSyndie
   parent: BaseItem
@@ -38,7 +38,7 @@
     delay: 10.0
 
 - type: entity
-  name: BR-40c "Turtle"
+  name: BR-40c «Черепаха»
   description: A two-handed and heavy energy barrier with extremely low passive energy consumption. Can be tethered with a multitool.
   id: EnergyDomeTurtle
   parent: BaseItem
@@ -102,7 +102,7 @@
 
 - type: entity
   id: EnergyDomeWiredTest
-  name: Static Dome
+  name: статический купол
   description: Test energy barrier powered by station wiring. I don't know how the hell to balance it.....
   parent: BaseMachine
   suffix: DO NOT MERGE
@@ -180,7 +180,7 @@
 
 - type: entity
   id: NullspaceAnchor
-  name: nullspace anchor
+  name: якорь нуль-пространства
   description: Imposing the physical into Nullspace itself. Using Bluespace Crystals to produce a resonating force, it brings that of which dwells in between states into the physical. Entities that are travelling using these methods will be anchored and rooted into the world by force, being incapable of reaching through to Nullspace whilst in it’s range.
   parent: PortableGeneratorBase
   placement:
@@ -235,7 +235,7 @@
 - type: entity
   id: protectionanchor
   categories: [ ShouldMapStation ]
-  name: protection anchor
+  name: якорь защиты
   description: Imposing the physical into Nullspace itself. it brings that of which dwells in between states into the physical. Entities that are travelling using these methods will be anchored and rooted into the world by force, being incapable of reaching through to Nullspace whilst in it’s range.
   parent: BaseMachinePowered
   components:

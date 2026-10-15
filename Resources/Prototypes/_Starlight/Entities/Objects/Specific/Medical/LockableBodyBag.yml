@@ -1,8 +1,8 @@
 - type: entity
   id: BodyBagLockable
   parent: BodyBag
-  name: lockable body bag
-  description: A slightly tougher bag with an ID lock installed to prevent tampering, designed for the storage and transportation of cadavers to stop body decomposition.
+  name: закрывающийся мешок для трупов
+  description: Мешок покрепче, с ID-замком от вскрытия, для хранения и перевозки трупов без разложения.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Specific/Medical/lockablebodybag.rsi
@@ -44,8 +44,8 @@
 
 - type: entity
   id: BodyBagLockableFolded
-  name: lockable body bag
-  description: A slightly tougher bag with an ID lock installed to prevent tampering, designed for the storage and transportation of cadavers to stop body decomposition.
+  name: закрывающийся мешок для трупов
+  description: Мешок покрепче, с ID-замком от вскрытия, для хранения и перевозки трупов без разложения.
   parent: BodyBagLockable
   suffix: folded
   components:
@@ -57,7 +57,7 @@
   id: BodyBagCC
   parent: [ BodyBagLockable, BaseCentcommContraband ]
   suffix: DO NOT MAP
-  name: CentComm lockable body bag
+  name: закрывающийся мешок для трупов ЦентКом
   components:
     - type: Sprite
       sprite: _Starlight/Objects/Specific/Medical/cclockablebodybag.rsi

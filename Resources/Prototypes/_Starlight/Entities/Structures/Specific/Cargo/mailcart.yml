@@ -1,6 +1,6 @@
 # Janicart
 - type: entity
-  name: mail trolley
+  name: почтовая тележка
   id: MailTrolley
   parent: [BaseStructureDynamic, StructureWheeled]
   description: Perfect for all your package delivery needs.
@@ -87,7 +87,7 @@
 - type: entity
   parent: MailTrolley
   id: GoldenMailTrolley
-  name: golden mail trolley
+  name: золотая почтовая тележка
   description: A brilliantly shining gold-and-silver mail cart for the most elite of mail technicians.
   components:
     - type: Sprite

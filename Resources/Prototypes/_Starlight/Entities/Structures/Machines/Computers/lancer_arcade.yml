@@ -1,7 +1,7 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: LancerArcadeComputerCircuitboard
-  name: Lancer Solo Strike arcade board
+  name: аркадная плата Лансер Соло Страйк
   description: A computer printed circuit board for a Lancer Solo Strike arcade cabinet.
   components:
   - type: ComputerBoard
@@ -9,7 +9,7 @@
 
 - type: entity
   id: LancerArcade
-  name: Lancer Solo Strike
+  name: Лансер Соло Страйк
   description: An arcade cabinet running Lancer Solo Strike.
   parent: ArcadeBase
   components:

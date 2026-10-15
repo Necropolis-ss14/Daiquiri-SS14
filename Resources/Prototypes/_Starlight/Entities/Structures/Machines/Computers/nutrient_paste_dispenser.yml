@@ -1,7 +1,7 @@
 - type: entity
   id: SlopDispenser
   parent: BaseLathe
-  name: nutrient paste dispenser
+  name: раздатчик питательной пасты
   description: Produces tha slop using biomass. Can also convert plants to biomass for direct use.
   components:
     - type: Sprite

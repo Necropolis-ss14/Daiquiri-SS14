@@ -1,7 +1,5 @@
 loadout-group-inventory = Мой инвентарь
 # Law
-loadout-group-magistrate-head = Магистрат, голова
-loadout-group-magistrate-jumpsuit = Магистрат, комбинезон
 loadout-group-magistrate-outerclothing = Магистрат, верхняя одежда
 # Engineering
 loadout-group-chief-engineer-backpack = Рюкзак старшего инженера
@@ -18,12 +16,7 @@ loadout-group-senior-researcher-backpack = Ведущий учёный, рюкз
 loadout-group-senior-researcher-shoes = Ведущий учёный, обувь
 loadout-group-senior-researcher-gloves = Ведущий учёный, перчатки
 # Security
-loadout-group-brigmedic-head = Бригмедик, голова
-loadout-group-brigmedic-jumpsuit = Бригмедик, комбинезон
 loadout-group-brigmedic-clothing = Бригмедик, верхняя одежда
-loadout-group-brigmedic-backpack = Бригмедик, рюкзак
-loadout-group-brigmedic-gloves = Бригмедик, перчатка
-loadout-group-brigmedic-mask = Бригмедик, маска
 loadout-group-brigmedic-shoes = Бригмедик, обувь
 loadout-group-pilot-head = Пилот, голова
 loadout-group-pilot-jumpsuit = Пилот, комбинезон

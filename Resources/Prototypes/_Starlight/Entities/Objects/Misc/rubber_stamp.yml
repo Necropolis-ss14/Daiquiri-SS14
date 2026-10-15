@@ -15,7 +15,7 @@
     state: stamp-magistrate
 
 - type: entity
-  name: nt representative's rubber stamp
+  name: печать представителя НТ
   parent: [ RubberStampBase, BaseCommandContraband ]
   id: RubberStampNtrep
   description: A rubber stamp for stamping important documents. Heads will roll.
@@ -45,7 +45,7 @@
       state: stamp-iaa
 
 - type: entity
-  name: blueshield rubber stamp
+  name: печать синего щита
   parent: [ RubberStampBase, BaseBlueShieldContraband ]
   id: RubberStampBSO
   description: A rubber stamp for stamping important documents. While you are stamping a document, the captain is getting his shoes stolen AGAIN.
@@ -61,7 +61,7 @@
 
 # Brigmedic stamp
 - type: entity
-  name: brigmedic's rubber stamp
+  name: печать бригмедика
   parent: RubberStampBase
   id: RubberStampBrigmedic
   description: A rubber stamp for stamping important documents. No authority, yet you will still stamp every single document you can.
@@ -77,7 +77,7 @@
 
 # Assistant Manager stamp
 - type: entity
-  name: assistant manager's stamp
+  name: печать ассистента менеджера
   parent: RubberStampBase
   id: RubberStampAssistantManager
   description: A rubber stamp for stamping important documents. The only vestige of authority for middle managers.
@@ -93,7 +93,7 @@
 
 # Assistant stamp
 - type: entity
-  name: assistant's rubber stamp
+  name: печать ассистента
   parent: RubberStampBase
   id: RubberStampAssistant
   description: A rubber stamp for stamping important documents. The greenest of the green. The assistant's assistant. The assistant to the assistant. When you see this stamp, things are about to get real. You are about to get stamped.
@@ -109,10 +109,10 @@
 
 # CC Division Stamps
 - type: entity
-  name: ent-RubberStampCAD
+  name: печать центрального административного отдела
   parent: RubberStampBase
   id: RubberStampCAD
-  description: ent-RubberStampCAD-desc
+  description: Резиновая печать для важных документов. Кого-то явно ждёт увольнение.
   categories: [ DoNotMap ]
   components:
   - type: Stamp
@@ -123,10 +123,10 @@
     state: stamp-cap
 
 - type: entity
-  name: ent-RubberStampCCD
+  name: печать центрального отдела снабжения
   parent: RubberStampBase
   id: RubberStampCCD
-  description: ent-RubberStampCCD-desc
+  description: Резиновая печать для важных документов. Чтобы отклонить срочный запрос на медикаменты и прислать вместо него пиццу.
   categories: [ DoNotMap ]
   components:
   - type: Stamp
@@ -137,10 +137,10 @@
     state: stamp-detective
 
 - type: entity
-  name: ent-RubberStampCED
+  name: печать центрального инженерного отдела
   parent: RubberStampBase
   id: RubberStampCED
-  description: ent-RubberStampCED-desc
+  description: Резиновая печать для важных документов. На случай потери очередной мультитриллионной станции.
   categories: [ DoNotMap ]
   components:
   - type: Stamp
@@ -151,10 +151,10 @@
     state: stamp-ce
 
 - type: entity
-  name: ent-RubberStampCID
+  name: печать центрального разведывательного отдела
   parent: RubberStampBase
   id: RubberStampCID
-  description: ent-RubberStampCID-desc
+  description: Резиновая печать для важных документов. Правда, ВБ НТ всё равно страшнее.
   categories: [ DoNotMap ]
   components:
   - type: Stamp
@@ -165,10 +165,10 @@
     state: stamp-rd
 
 - type: entity
-  name: ent-RubberStampCMD
+  name: печать центрального медицинского отдела
   parent: RubberStampBase
   id: RubberStampCMD
-  description: ent-RubberStampCMD-desc
+  description: Резиновая печать для важных документов. На случай, когда принимает НАСТОЯЩИЙ врач.
   categories: [ DoNotMap ]
   components:
   - type: Stamp
@@ -179,10 +179,10 @@
     state: stamp-cmo
 
 - type: entity
-  name: ent-RubberStampCRD
+  name: печать центрального научного отдела
   parent: RubberStampBase
   id: RubberStampCRD
-  description: ent-RubberStampCRD-desc
+  description: Резиновая печать для важных документов. Такая же взорванная, как и её не-ЦК аналог.
   categories: [ DoNotMap ]
   components:
   - type: Stamp
@@ -193,10 +193,10 @@
     state: stamp-wizard
 
 - type: entity
-  name: ent-RubberStampCDD
+  name: печать центрального бытового отдела
   parent: RubberStampBase
   id: RubberStampCDD
-  description: ent-RubberStampCDD-desc
+  description: Резиновая печать для важных документов. А вы вообще чем занимаетесь?
   categories: [ DoNotMap ]
   components:
   - type: Stamp
@@ -207,10 +207,10 @@
     state: stamp-centcom
 
 - type: entity
-  name: ent-RubberStampCSOD
+  name: печать центрального отдела спецопераций
   parent: RubberStampBase
   id: RubberStampCSOD
-  description: ent-RubberStampCSOD-desc
+  description: Резиновая печать для важных документов. На случай, когда дело слишком горячее даже для ОЦБ.
   suffix: DO NOT MAP
   components:
   - type: Stamp
@@ -222,10 +222,10 @@
     state: stamp-magistrate
 
 - type: entity
-  name: ent-RubberStampCSD
+  name: печать центрального отдела безопасности
   parent: RubberStampBase
   id: RubberStampCSD
-  description: ent-RubberStampCSD-desc
+  description: Резиновая печать для важных документов. Они боролись с законом, и закон победил.
   categories: [ DoNotMap ]
   components:
   - type: Stamp
@@ -236,10 +236,10 @@
     state: stamp-hos
 
 - type: entity
-  name: ent-BoxStampsCCDepartments
+  name: коробка с печатями отделов ЦК
   parent: BoxCardboard
   id: BoxStampsCCDepartments
-  description: ent-BoxStampsCCDepartments-desc
+  description: Небольшая коробка с печатями. Казалось бы, к 26-му веку могли придумать что-то посложнее резиновой печати.
   components:
     - type: Storage
       maxItemSize: Small
@@ -270,10 +270,10 @@
 
 # CC Administrative Stamps
 - type: entity
-  name: ent-RubberStampAcknowledged
+  name: печать ПРИНЯТО К СВЕДЕНИЮ
   parent: RubberStampBase
   id: RubberStampAcknowledged
-  description: ent-RubberStampAcknowledged-desc
+  description: Резиновая печать для важных документов. Да, мы вас слышим. Нет, мы ничего не будем делать.
   suffix: DO NOT MAP
   components:
   - type: Stamp
@@ -285,10 +285,10 @@
     state: stamp-acknowledged
 
 - type: entity
-  name: ent-RubberStampMissingStamps
+  name: печать НЕ ХВАТАЕТ ПЕЧАТЕЙ
   parent: RubberStampBase
   id: RubberStampMissingStamps
-  description: ent-RubberStampMissingStamps-desc
+  description: Резиновая печать для важных документов. В следующий раз добудьте печать клоуна!
   suffix: DO NOT MAP
   components:
   - type: Stamp
@@ -300,10 +300,10 @@
     state: stamp-missingstamps
 
 - type: entity
-  name: ent-RubberStampIncorrectStamps
+  name: печать НЕВЕРНЫЕ ПЕЧАТИ
   parent: RubberStampBase
   id: RubberStampIncorrectStamps
-  description: ent-RubberStampIncorrectStamps-desc
+  description: Резиновая печать для важных документов. В следующий раз не используйте печать клоуна!
   suffix: DO NOT MAP
   components:
   - type: Stamp
@@ -315,10 +315,10 @@
     state: stamp-missingstamps
 
 - type: entity
-  name: ent-RubberStampIncorrectForm
+  name: печать НЕВЕРНАЯ ФОРМА
   parent: RubberStampBase
   id: RubberStampIncorrectForm
-  description: ent-RubberStampIncorrectForm-desc
+  description: Резиновая печать для важных документов. Им нужен был ДРУГОЙ документ. Нет, ДРУГОЙ ДРУГОЙ документ.
   suffix: DO NOT MAP
   components:
   - type: Stamp
@@ -330,10 +330,10 @@
     state: stamp-incorrectform
 
 - type: entity
-  name: ent-RubberStampIncompleteForm
+  name: печать НЕПОЛНАЯ ФОРМА
   parent: RubberStampBase
   id: RubberStampIncompleteForm
-  description: ent-RubberStampIncompleteForm-desc
+  description: Резиновая печать для важных документов. Раз они не стали заполнять форму до конца, то я не стану заканчивать это пред...
   suffix: DO NOT MAP
   components:
   - type: Stamp
@@ -345,10 +345,10 @@
     state: stamp-incorrectform
 
 - type: entity
-  name: ent-RubberStampSentToATS
+  name: печать ОТПРАВЛЕНО В СТС
   parent: RubberStampBase
   id: RubberStampSentToATS
-  description: ent-RubberStampSentToATS-desc
+  description: Резиновая печать для важных документов. Особенно полезно, пока грузовой шаттл ещё цел.
   suffix: DO NOT MAP
   components:
   - type: Stamp
@@ -360,10 +360,10 @@
     state: stamp-senttoATS
 
 - type: entity
-  name: ent-RubberStampDeferToCommand
+  name: печать ПЕРЕДАТЬ КОМАНДОВАНИЮ
   parent: RubberStampBase
   id: RubberStampDeferToCommand
-  description: ent-RubberStampDeferToCommand-desc
+  description: Резиновая печать для важных документов. Свалить ответственность — в духе ЦК.
   suffix: DO NOT MAP
   components:
   - type: Stamp
@@ -375,10 +375,10 @@
     state: stamp-ntrep
 
 - type: entity
-  name: ent-RubberStampStandby
+  name: печать ОЖИДАЙТЕ
   parent: RubberStampBase
   id: RubberStampStandby
-  description: ent-RubberStampStandby-desc
+  description: Резиновая печать для важных документов. Вы что-нибудь сделаете. Возможно.
   suffix: DO NOT MAP
   components:
   - type: Stamp
@@ -390,10 +390,10 @@
     state: stamp-standby
 
 - type: entity
-  name: ent-BoxStampsCCAdministrative
+  name: коробка с административными печатями ЦК
   parent: BoxCardboard
   id: BoxStampsCCAdministrative
-  description: ent-BoxStampsCCAdministrative-desc
+  description: Небольшая коробка с печатями. Казалось бы, к 26-му веку могли придумать что-то посложнее резиновой печати.
   components:
     - type: Storage
       maxItemSize: Small
@@ -424,7 +424,7 @@
 
 # Salvage stamp
 - type: entity
-  name: salvage lead's rubber stamp
+  name: печать старшего утилизатора
   parent: RubberStampBase
   id: RubberStampSalvageLead
   description: A rubber stamp for stamping important documents. You should probably use this more often than you do.
@@ -440,7 +440,7 @@
 
 # TSF/Solgov stamp
 - type: entity
-  name: trans-solar federation rubber stamp
+  name: печать Транс-Солнечной Федерации
   parent: RubberStampBase
   id: RubberStampTSF
   description: A rubber stamp for stamping important documents. Oh god...
@@ -454,7 +454,7 @@
     state: stamp-hop
 
 - type: entity
-  name: trans-solar marine corps rubber stamp
+  name: печать Корпуса морской пехоты ТСФ
   parent: RubberStampBase
   id: RubberStampTSMC
   description: A rubber stamp for stamping important documents. OH GOD OH FUCK...!
@@ -468,7 +468,7 @@
     state: stamp-hop
 
 - type: entity
-  name: solgov law enforcement rubber stamp
+  name: печать правоохранителей СолГов
   parent: RubberStampBase
   id: RubberStampSolgovLaw
   description: A rubber stamp for stamping important documents. Oh fuck...
@@ -482,7 +482,7 @@
     state: stamp-hop
 
 - type: entity
-  name: solgov representative rubber stamp
+  name: печать представителя СолГов
   parent: RubberStampBase
   id: RubberStampSolgovRep
   description: A rubber stamp for stamping important documents. Reminds people that CC and NT answer to somebody.
@@ -496,7 +496,7 @@
     state: stamp-hop
 
 - type: entity
-  name: solgov traders rubber stamp
+  name: печать торговцев СолГов
   parent: RubberStampBase
   id: RubberStampSolgovTraders
   description: A rubber stamp for stamping important documents. Where is money to be made, that is.
@@ -511,7 +511,7 @@
 
 # Civilian stamps
 - type: entity
-  name: reporter rubber stamp
+  name: печать репортёра
   parent: RubberStampBase
   id: RubberStampReporter
   description: A rubber stamp for stamping important documents. Write all the articles!
@@ -525,7 +525,7 @@
 
 # ITG stamp
 - type: entity
-  name: ITG stamp
+  name: печать ITG
   parent: RubberStampBase
   id: RubberStampITG
   description: A rubber stamp for stamping important documents.

@@ -1,6 +1,6 @@
 ﻿#All the random fake stamps. I am sorry
 - type: entity
-  name: fake generic rubber stamp
+  name: поддельная общая печать
   parent: [BaseItem, BaseSyndicateContraband]
   id: RubberStampBaseFake
   description: A rubber stamp for forging important documents. Hopefully they don't look too closely.
@@ -25,7 +25,7 @@
       - Stamp
 
 - type: entity
-  name: fake captain's rubber stamp
+  name: поддельная печать капитана
   parent: RubberStampBaseFake
   id: RubberStampCaptainFake
   description: A rubber stamp for forging important documents. Hopefully they don't look too closely.
@@ -53,7 +53,7 @@
       stampedName: "Captin"
 
 - type: entity
-  name: joke captain's rubber stamp
+  name: шуточная печать капитана
   parent: RubberStampCaptainFake
   id: RubberStampCaptainJoke
   description: A funny rubber stamp for forging important documents. Hopefully they don't look too closely.
@@ -62,7 +62,7 @@
       stampedName: "Clown"
 
 - type: entity
-  name: fake chaplain's rubber stamp
+  name: поддельная печать священника
   parent: RubberStampBaseFake
   id: RubberStampChaplainFake
   description: A rubber stamp for forging important documents. Hopefully they don't look too closely.
@@ -90,7 +90,7 @@
       stampedName: "Chaplan"
 
 - type: entity
-  name: joke chaplain's rubber stamp
+  name: шуточная печать священника
   parent: RubberStampChaplainFake
   id: RubberStampChaplainJoke
   description: A funny rubber stamp for forging important documents. Hopefully they don't look too closely.
@@ -99,7 +99,7 @@
       stampedName: "Cultist"
 
 - type: entity
-  name: fake lawyer's rubber stamp
+  name: поддельная печать адвоката
   parent: RubberStampBaseFake
   id: RubberStampLawyerFake
   description: A rubber stamp for forging important documents. Hopefully they don't look too closely.
@@ -129,7 +129,7 @@
       stampedName: "Lawyr"
 
 - type: entity
-  name: joke lawyer's rubber stamp
+  name: шуточная печать адвоката
   parent: RubberStampLawyerFake
   id: RubberStampLawyerJoke
   description: A funny rubber stamp for forging important documents. Hopefully they don't look too closely.
@@ -138,7 +138,7 @@
       stampedName: "Goodman"
 
 - type: entity
-  name: fake clown's rubber stamp
+  name: поддельная печать клоуна
   parent: RubberStampBaseFake
   id: RubberStampClownFake
   description: A rubber stamp for forging important documents. Hopefully they don't look too closely.
@@ -166,7 +166,7 @@
       stampedName: "Clawn"
 
 - type: entity
-  name: joke clown's rubber stamp
+  name: шуточная печать клоуна
   parent: RubberStampClownFake
   id: RubberStampClownJoke
   description: An extra funny rubber stamp for forging important documents.
@@ -175,7 +175,7 @@
       stampedName: "Captain"
 
 - type: entity
-  name: fake chief engineer's rubber stamp
+  name: поддельная печать главного инженера
   parent: RubberStampBaseFake
   id: RubberStampCEFake
   description: A rubber stamp for forging important documents. Hopefully they don't look too closely.
@@ -203,7 +203,7 @@
       stampedName: "Cheif Engineer"
 
 - type: entity
-  name: joke chief engineer's rubber stamp
+  name: шуточная печать главного инженера
   parent: RubberStampCEFake
   id: RubberStampCEJoke
   description: A funny rubber stamp for forging important documents.
@@ -212,7 +212,7 @@
       stampedName: "Chief Looser"
 
 - type: entity
-  name: fake chief medical officer's rubber stamp
+  name: поддельная печать главного врача
   parent: RubberStampBaseFake
   id: RubberStampCMOFake
   description: A rubber stamp for forging important documents. Hopefully they don't look too closely.
@@ -240,7 +240,7 @@
       stampedName: "Chief Medical Oficer"
 
 - type: entity
-  name: joke chief medical officer's rubber stamp
+  name: шуточная печать главного врача
   parent: RubberStampCMOFake
   id: RubberStampCMOJoke
   description: A funny rubber stamp for forging important documents.
@@ -249,7 +249,7 @@
       stampedName: "Chief Drug Dealer"
 
 - type: entity
-  name: fake head of personnel's rubber stamp
+  name: поддельная печать главы персонала
   parent: RubberStampBaseFake
   id: RubberStampHopFake
   description: A rubber stamp for forging important documents. Hopefully they don't look too closely.
@@ -277,7 +277,7 @@
       stampedName: "Head of Persommel"
 
 - type: entity
-  name: joke head of personnel's rubber stamp
+  name: шуточная печать главы персонала
   parent: RubberStampHopFake
   id: RubberStampHopJoke
   description: A funny rubber stamp for forging important documents.
@@ -286,7 +286,7 @@
       stampedName: "Head of Tiders"
 
 - type: entity
-  name: fake head of security's rubber stamp
+  name: поддельная печать главы СБ
   parent: RubberStampBaseFake
   id: RubberStampHosFake
   description: A rubber stamp for forging important documents. Hopefully they don't look too closely.
@@ -314,7 +314,7 @@
       stampedName: "Head ot Security"
 
 - type: entity
-  name: joke head of security's rubber stamp
+  name: шуточная печать главы СБ
   parent: RubberStampHosFake
   id: RubberStampHosJoke
   description: A funny rubber stamp for forging important documents.
@@ -324,7 +324,7 @@
 
 #Mime is hard to come up with stuff for.
 - type: entity
-  name: fake mime's rubber stamp
+  name: поддельная печать мима
   parent: RubberStampBaseFake
   id: RubberStampMimeFake
   description: A rubber stamp for forging important documents. Hopefully they don't look too closely.
@@ -338,7 +338,7 @@
       state: stamp-mime
 
 - type: entity
-  name: fake quartermaster's rubber stamp
+  name: поддельная печать квартирмейстера
   parent: RubberStampBaseFake
   id: RubberStampQmFake
   description: A rubber stamp for forging important documents. Hopefully they don't look too closely.
@@ -366,7 +366,7 @@
       stampedName: "Quirtermaster"
 
 - type: entity
-  name: joke quartermaster's rubber stamp
+  name: шуточная печать квартирмейстера
   parent: RubberStampQmFake
   id: RubberStampQmJoke
   description: A funny rubber stamp for forging important documents.
@@ -375,7 +375,7 @@
       stampedName: "Spesos Slave"
 
 - type: entity
-  name: fake research director's rubber stamp
+  name: поддельная печать научного руководителя
   parent: RubberStampBaseFake
   id: RubberStampRdFake
   description: A rubber stamp for forging important documents. Hopefully they don't look too closely.
@@ -403,7 +403,7 @@
       stampedName: "Research Direcfor"
 
 - type: entity
-  name: joke research director's rubber stamp
+  name: шуточная печать научного руководителя
   parent: RubberStampRdFake
   id: RubberStampRdJoke
   description: A funny rubber stamp for forging important documents.
@@ -413,7 +413,7 @@
 
 #Lost steam around here. Need to come back to it to finish it. 8/31/2026
 - type: entity
-  name: fake trader's rubber stamp
+  name: поддельная печать торговца
   parent: RubberStampBaseFake
   id: RubberStampTraderFake
   description: A rubber stamp for forging important documents. Hopefully they don't look too closely.
@@ -426,7 +426,7 @@
       state: stamp-trader
 
 - type: entity
-  name: fake warden's rubber stamp
+  name: поддельная печать смотрителя
   parent: RubberStampBaseFake
   id: RubberStampWardenFake
   description: A rubber stamp for forging important documents. Hopefully they don't look too closely.
@@ -440,7 +440,7 @@
       state: stamp-warden
 
 - type: entity
-  name: fake APPROVED rubber stamp
+  name: поддельная печать «ОДОБРЕНО»
   parent: [RubberStampBaseAlt, BaseSyndicateContraband]
   id: RubberStampApprovedFake
   description: A rubber stamp for accepting forged documents. At least the syndicate didn't mess this one up.
@@ -453,7 +453,7 @@
       state: stamp-ok
 
 - type: entity
-  name: fake DENIED rubber stamp
+  name: поддельная печать «ОТКАЗАНО»
   parent: [RubberStampBaseAlt, BaseSyndicateContraband]
   id: RubberStampDeniedFake
   description: A rubber stamp for rejecting forged documents. At least the syndicate didn't mess this one up.
@@ -466,7 +466,7 @@
       state: stamp-deny
 
 - type: entity
-  name: fake detective's rubber stamp
+  name: поддельная печать детектива
   parent: RubberStampBaseFake
   id: RubberStampDetectiveFake
   description: A rubber stamp for forging important documents. Hopefully they don't look too closely.
@@ -480,7 +480,7 @@
       state: stamp-detective
 
 - type: entity
-  name: fake psychologist's rubber stamp
+  name: поддельная печать психолога
   parent: RubberStampBaseFake
   id: RubberStampPsychologistFake
   categories: [ DoNotMap ]
@@ -494,7 +494,7 @@
       state: stamp-psychologist
 
 - type: entity
-  name: fake magistrate stamp
+  name: поддельная печать магистрата
   parent: RubberStampBaseFake
   id: RubberStampMagistrateFake
   description: A rubber stamp for forging important documents. Hopefully they don't look too closely.
@@ -509,7 +509,7 @@
       state: stamp-magistrate
 
 - type: entity
-  name: fake nt representative's rubber stamp
+  name: поддельная печать представителя НТ
   parent: RubberStampBaseFake
   id: RubberStampNtrepFake
   description: A rubber stamp for forging important documents. Hopefully they don't look too closely.
@@ -524,7 +524,7 @@
       state: stamp-ntrep
 
 - type: entity
-  name: fake internal affairs agent's rubber stamp
+  name: поддельная печать агента внутренних дел
   parent: RubberStampBaseFake
   id: RubberStampIAAFake
   description: A rubber stamp for forging important documents. Hopefully they don't look too closely.
@@ -539,7 +539,7 @@
       state: stamp-iaa
 
 - type: entity
-  name: fake blueshield rubber stamp
+  name: поддельная печать синего щита
   parent: RubberStampBaseFake
   id: RubberStampBSOFake
   description: A rubber stamp for forging important documents. Hopefully they don't look too closely.
@@ -554,7 +554,7 @@
       state: stamp-bso
 
 - type: entity
-  name: joke blueshield rubber stamp
+  name: шуточная печать синего щита
   parent: RubberStampBSOFake
   id: RubberStampBSOJoke
   description: A funny rubber stamp for forging important documents.
@@ -564,7 +564,7 @@
 
 
 - type: entity
-  name: fake brigmedic's rubber stamp
+  name: поддельная печать бригмедика
   parent: RubberStampBaseFake
   id: RubberStampBrigmedicFake
   description: A rubber stamp for forging important documents. Hopefully they don't look too closely.
@@ -579,7 +579,7 @@
       state: stamp-brigmedic
 
 - type: entity
-  name: fake salvage lead's rubber stamp
+  name: поддельная печать старшего утилизатора
   parent: RubberStampBaseFake
   id: RubberStampSalvageLeadFake
   description: A rubber stamp for forging important documents. Hopefully they don't look too closely.
@@ -594,7 +594,7 @@
       state: stamp-salvagelead
 
 - type: entity
-  name: fake reporter rubber stamp
+  name: поддельная печать репортёра
   parent: RubberStampBaseFake
   id: RubberStampReporterFake
   description: A rubber stamp for forging important documents. Hopefully they don't look too closely.
@@ -608,7 +608,7 @@
 
 #The random stamp box
 - type: entity
-  name: fake stamps box
+  name: коробка поддельных печатей
   parent: [BoxCardboard, BaseSyndicateContraband]
   id: BoxStampsFake
   description: A small box containing fake stamps.
@@ -649,7 +649,7 @@
 
 #The joke stamp box
 - type: entity
-  name: joke stamps box
+  name: коробка шуточных печатей
   parent: [BoxCardboard, BaseSyndicateContraband]
   id: BoxStampsJoke
   description: A small box containing fake stamps.

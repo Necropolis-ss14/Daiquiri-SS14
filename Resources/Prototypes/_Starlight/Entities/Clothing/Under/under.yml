@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingShoesBase
   id: ClothingUnderSocksMime
-  name: mime socks
-  description: Silently creep up to your target.
+  name: носки мима
+  description: Бесшумно подкрадись к цели.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Under/mime_socks.rsi
@@ -12,8 +12,8 @@
 - type: entity
   parent: ClothingShoesBase
   id: ClothingUnderSocksStirrup
-  name: stirrup socks
-  description: All of the fashion, none of the practicality.
+  name: носки-стремя
+  description: Вся мода, никакой практичности.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Under/stirrup_socks.rsi
@@ -23,8 +23,8 @@
 - type: entity
   parent: ClothingShoesBase
   id: ClothingUnderSocksYellow
-  name: yellow socks
-  description: Bright yellow, but lacking any bees.
+  name: жёлтые носки
+  description: Ярко-жёлтые, но без пчёл.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Under/yellow_socks.rsi
@@ -34,8 +34,8 @@
 - type: entity
   parent: ClothingShoesBase
   id: ClothingUnderSocksLittleAngel
-  name: little angel socks # Alternative Clothing Catalog
-  description: A pair of stripey blue and white socks, matches with the rest of the set!
+  name: носочки маленького ангела
+  description: Полосатые сине-белые носочки, в тон остальному набору!
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Under/little_angel_socks.rsi
@@ -45,8 +45,8 @@
 - type: entity
   parent: ClothingShoesBase
   id: ClothingUnderSocksLittleDevil
-  name: little devil socks # Alternative Clothing Catalog
-  description: A pair of stripey red and black socks, matches with the rest of the set!
+  name: носочки маленького дьявола
+  description: Полосатые красно-чёрные носочки, в тон остальному набору!
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Under/little_devil_socks.rsi

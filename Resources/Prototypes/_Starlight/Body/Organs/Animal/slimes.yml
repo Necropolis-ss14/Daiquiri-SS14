@@ -1,7 +1,7 @@
 - type: entity
   id: SentientSlimesCore
   parent: [BaseItem, OrganHumanBrain]
-  name: sentient slimes core
+  name: разумное ядро слайма
   description: "The source of incredible, unending gooeyness."
   components:
     - type: Sprite
@@ -21,7 +21,7 @@
 - type: entity
   id: OrganSlimesLungs
   parent: BaseHumanOrgan
-  name: slimes gas sacs
+  name: газовые мешки слайма
   suffix: Slimes
   description: "Collects nitrogen, which slime cells use for maintenance."
   components:

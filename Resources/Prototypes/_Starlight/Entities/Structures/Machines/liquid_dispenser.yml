@@ -1,6 +1,6 @@
 - type: entity
   id: LiquidDispenser
-  name: liquid dispenser
+  name: раздатчик жидкости
   description: A thin device, what spills liquid all over the floor
   placement:
     mode: SnapgridCenter

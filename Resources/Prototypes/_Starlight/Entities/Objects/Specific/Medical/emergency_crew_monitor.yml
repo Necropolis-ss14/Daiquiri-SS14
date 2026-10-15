@@ -1,8 +1,8 @@
 - type: entity
-  name: emergency crew monitor
+  name: аварийный монитор экипажа
   parent: [ PowerCellSlotMediumItem, BaseHandheldComputer, BaseMedicalContraband ]
   id: EmergencyHandheldCrewMonitor
-  description: A hand-held crew monitor displaying the status of suit sensors of injured crew.
+  description: Ручной монитор экипажа с датчиками костюмов раненых.
   components:
   - type: Item
     heldPrefix: scanner

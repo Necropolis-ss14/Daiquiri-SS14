@@ -1,8 +1,8 @@
 ﻿- type: entity
-  name: Gamorrah Golden Baton
+  name: Золотая дубинка Gamorrah
   parent: [BaseItem, BaseCasinoContraband]
   id: CasinoBaton
-  description: If you want to see the fate of democracies, look out the windows. It has a odd twist at the end that allows easy disarming of Visitors. Its archaic design requires no external power source.
+  description: Хочешь увидеть судьбу демократий — выгляни в окна. У конца хитрый изгиб для лёгкого разоружения посетителей. Архаичной конструкции не нужен внешний источник питания.
   components:
     - type: Sprite
       sprite: _Starlight/Admeme/Casino/Objects/Weapon/casino_baton.rsi

@@ -25,7 +25,7 @@
       - FoodSnack
 
 - type: entity
-  name: honey frame
+  name: медовая рамка
   parent: [SolutionFood, SolutionTiny, BaseItem]
   id: FoodHoneyFrame
   description: A wooden slate with honeycombs built inside.
@@ -52,7 +52,7 @@
       - FoodSnack
 
 - type: entity
-  name: honey loaf
+  name: медовый батон
   parent: [SolutionFood, SolutionTiny, BaseItem]
   id: FoodHoneyLoaf
   description: A warm and soft loaf of bread drizzled with honey.
@@ -78,7 +78,7 @@
       - FoodSnack
 
 - type: entity
-  name: honey roll
+  name: медовый рулет
   parent: [SolutionFood, SolutionTiny, BaseItem]
   id: FoodHoneyRoll
   description: Whats the matter, someone steal your honey roll?
@@ -104,7 +104,7 @@
       - FoodSnack
 
 - type: entity
-  name: honey slice
+  name: медовый ломтик
   parent: [SolutionFood, SolutionTiny, BaseItem]
   id: FoodHoneyLoafSlice
   description: A warm and soft slice of bread drizzled with honey.

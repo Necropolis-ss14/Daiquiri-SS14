@@ -1,5 +1,5 @@
 - type: entity
-  name: carpet deco tile
+  name: декоративная ковровая плитка
   parent: FloorTileItemSteel
   id: FloorTileItemCarpetDeco
   components:
@@ -14,7 +14,7 @@
     stackType: FloorTileCarpetDeco
 
 - type: entity
-  name: carpet artsy tile
+  name: художественная ковровая плитка
   parent: FloorTileItemSteel
   id: FloorTileItemCarpetArt
   components:
@@ -29,7 +29,7 @@
     stackType: FloorTileCarpetArt
 
 - type: entity
-  name: dark bitile tile
+  name: тёмная двуплитка
   parent: FloorTileItemSteel
   id: FloorTileItemDarkBitile
   components:
@@ -44,7 +44,7 @@
     stackType: FloorTileDarkBitile
 
 - type: entity
-  name: steel bitile tile
+  name: стальная двуплитка
   parent: FloorTileItemSteel
   id: FloorTileItemSteelBitile
   components:
@@ -59,7 +59,7 @@
     stackType: FloorTileSteelBitile
 
 - type: entity
-  name: white bitile tile
+  name: белая двуплитка
   parent: FloorTileItemSteel
   id: FloorTileItemWhiteBitile
   components:
@@ -74,7 +74,7 @@
     stackType: FloorTileWhiteBitile
 
 - type: entity
-  name: hierophant tile
+  name: плитка иерофанта
   parent: FloorTileItemSteel
   id: FloorTileItemHierophant
   components:
@@ -89,7 +89,7 @@
     stackType: FloorTileHierophant
 
 - type: entity
-  name: sepia tile
+  name: сепия-плитка
   parent: FloorTileItemSteel
   id: FloorTileItemSepia
   components:
@@ -104,7 +104,7 @@
     stackType: FloorTileSepia
 
 - type: entity
-  name: terracotta tile
+  name: терракотовая плитка
   parent: FloorTileItemSteel
   id: FloorTileItemTerracotta
   components:
@@ -119,7 +119,7 @@
     stackType: FloorTileTerracotta
 
 - type: entity
-  name: terracotta diagonal tile
+  name: диагональная терракотовая плитка
   parent: FloorTileItemSteel
   id: FloorTileItemTerracottaDiagonal
   components:
@@ -134,7 +134,7 @@
     stackType: FloorTileTerracottaDiagonal
 
 - type: entity
-  name: terracotta small tile
+  name: малая терракотовая плитка
   parent: FloorTileItemSteel
   id: FloorTileItemTerracottaSmall
   components:
@@ -149,7 +149,7 @@
     stackType: FloorTileTerracottaSmall
 
 - type: entity
-  name: dark wood floor
+  name: тёмный деревянный пол
   parent: FloorTileItemBase
   id: FloorTileItemDarkWood
   components:
@@ -166,7 +166,7 @@
     stackType: FloorTileDarkWood
 
 - type: entity
-  name: dark wood pattern floor
+  name: узорчатый тёмный деревянный пол
   parent: FloorTileItemBase
   id: FloorTileItemDarkWoodPattern
   components:
@@ -183,7 +183,7 @@
     stackType: FloorTileDarkWoodPattern
 
 - type: entity
-  name: large dark wood floor
+  name: большой тёмный деревянный пол
   parent: FloorTileItemBase
   id: FloorTileItemDarkWoodLarge
   components:
@@ -200,7 +200,7 @@
     stackType: FloorTileDarkWoodLarge
 
 - type: entity
-  name: wooden parquet
+  name: деревянный паркет
   parent: FloorTileItemBase
   id: FloorTileItemWoodParquet
   components:
@@ -218,7 +218,7 @@
     stackType: FloorTileWood
 
 - type: entity
-  name: black wooden floor
+  name: чёрный деревянный пол
   parent: FloorTileItemBase
   id: FloorTileItemWoodBlack
   components:
@@ -236,7 +236,7 @@
     stackType: FloorTileItemWoodBlack
 
 - type: entity
-  name: dark wooden floor
+  name: тёмный деревянный пол
   parent: FloorTileItemBase
   id: FloorTileItemWoodDark
   components:
@@ -254,7 +254,7 @@
     stackType: FloorTileItemWoodDark
 
 - type: entity
-  name: light wooden floor
+  name: светлый деревянный пол
   parent: FloorTileItemBase
   id: FloorTileItemWoodLight
   components:
@@ -272,7 +272,7 @@
     stackType: FloorTileItemWoodLight
 
 - type: entity
-  name: red wooden floor
+  name: красный деревянный пол
   parent: FloorTileItemBase
   id: FloorTileItemWoodRed
   components:
@@ -290,7 +290,7 @@
     stackType: FloorTileItemWoodRed
 
 - type: entity
-  name: large black wooden floor
+  name: большой чёрный деревянный пол
   parent: FloorTileItemBase
   id: FloorTileItemWoodLargeBlack
   components:
@@ -308,7 +308,7 @@
     stackType: FloorTileItemWoodLargeBlack
 
 - type: entity
-  name: large dark wooden floor
+  name: большой тёмный деревянный пол
   parent: FloorTileItemBase
   id: FloorTileItemWoodLargeDark
   components:
@@ -326,7 +326,7 @@
     stackType: FloorTileItemWoodLargeDark
 
 - type: entity
-  name: large light wooden floor
+  name: большой светлый деревянный пол
   parent: FloorTileItemBase
   id: FloorTileItemWoodLargeLight
   components:
@@ -344,7 +344,7 @@
     stackType: FloorTileItemWoodLargeLight
 
 - type: entity
-  name: large red wooden floor
+  name: большой красный деревянный пол
   parent: FloorTileItemBase
   id: FloorTileItemWoodLargeRed
   components:
@@ -362,7 +362,7 @@
     stackType: FloorTileItemWoodLargeRed
 
 - type: entity
-  name: black wooden parquet
+  name: чёрный паркет
   parent: FloorTileItemBase
   id: FloorTileItemWoodParquetBlack
   components:
@@ -380,7 +380,7 @@
     stackType: FloorTileItemWoodParquetBlack
 
 - type: entity
-  name: dark wooden parquet
+  name: тёмный паркет
   parent: FloorTileItemBase
   id: FloorTileItemWoodParquetDark
   components:
@@ -398,7 +398,7 @@
     stackType: FloorTileItemWoodParquetDark
 
 - type: entity
-  name: light wooden parquet
+  name: светлый паркет
   parent: FloorTileItemBase
   id: FloorTileItemWoodParquetLight
   components:
@@ -416,7 +416,7 @@
     stackType: FloorTileItemWoodParquetLight
 
 - type: entity
-  name: red wooden parquet
+  name: красный паркет
   parent: FloorTileItemBase
   id: FloorTileItemWoodParquetRed
   components:
@@ -434,7 +434,7 @@
     stackType: FloorTileItemWoodParquetRed
 
 - type: entity
-  name: wooden chess floor
+  name: деревянный шахматный пол
   parent: FloorTileItemBase
   id: FloorTileItemWoodChess
   components:
@@ -452,7 +452,7 @@
     stackType: FloorTileItemWoodChess
 
 - type: entity
-  name: black wooden chess floor
+  name: чёрный шахматный пол
   parent: FloorTileItemBase
   id: FloorTileItemWoodChessBlack
   components:
@@ -470,7 +470,7 @@
     stackType: FloorTileItemWoodChessBlack
 
 - type: entity
-  name: dark wooden chess floor
+  name: тёмный шахматный пол
   parent: FloorTileItemBase
   id: FloorTileItemWoodChessDark
   components:
@@ -488,7 +488,7 @@
     stackType: FloorTileItemWoodChessDark
 
 - type: entity
-  name: light wooden chess floor
+  name: светлый шахматный пол
   parent: FloorTileItemBase
   id: FloorTileItemWoodChessLight
   components:
@@ -506,7 +506,7 @@
     stackType: FloorTileItemWoodChessLight
 
 - type: entity
-  name: red wooden chess floor
+  name: красный шахматный пол
   parent: FloorTileItemBase
   id: FloorTileItemWoodChessRed
   components:
@@ -526,7 +526,7 @@
 # Metal
 
 - type: entity
-  name: dark metal tile
+  name: тёмная металлическая плитка
   parent: FloorTileItemSteel
   id: FloorTileItemMetalDark
   components:
@@ -541,7 +541,7 @@
     stackType: FloorTileMetalDark
 
 - type: entity
-  name: brown metal tile
+  name: коричневая металлическая плитка
   parent: FloorTileItemSteel
   id: FloorTileItemMetalBrown
   components:
@@ -556,7 +556,7 @@
     stackType: FloorTileMetalBrown
 
 - type: entity
-  name: blue  metal tile
+  name: синяя металлическая плитка
   parent: FloorTileItemSteel
   id: FloorTileItemMetalBlue
   components:
@@ -571,7 +571,7 @@
     stackType: FloorTileMetalBlue
 
 - type: entity
-  name: purple metal tile
+  name: фиолетовая металлическая плитка
   parent: FloorTileItemSteel
   id: FloorTileItemMetalPurple
   components:
@@ -586,7 +586,7 @@
     stackType: FloorTileMetalPurple
 
 - type: entity
-  name: red metal tile
+  name: красная металлическая плитка
   parent: FloorTileItemSteel
   id: FloorTileItemMetalRed
   components:
@@ -601,7 +601,7 @@
     stackType: FloorTileMetalRed
 
 - type: entity
-  name: green metal tile
+  name: зелёная металлическая плитка
   parent: FloorTileItemSteel
   id: FloorTileItemMetalGreen
   components:
@@ -618,7 +618,7 @@
 - type: entity
   id: FloorTileItem3x3Black
   parent: FloorTileItemBase
-  name: 3x3 black tile
+  name: чёрная плитка 3x3
   description: A 3 by 3 set of black tiles.
   components:
   - type: Sprite
@@ -634,7 +634,7 @@
 - type: entity
   id: FloorTileItem3x3Brown
   parent: FloorTileItemBase
-  name: 3x3 brown tile
+  name: коричневая плитка 3x3
   description: A 3 by 3 set of brown tiles.
   components:
   - type: Sprite
@@ -650,7 +650,7 @@
 - type: entity
   id: FloorTileItem3x3Steel
   parent: FloorTileItemBase
-  name: 3x3 steel tile
+  name: стальная плитка 3x3
   description: A 3 by 3 set of steel tiles.
   components:
   - type: Sprite
@@ -666,7 +666,7 @@
 - type: entity
   id: FloorTileItem3x3White
   parent: FloorTileItemBase
-  name: 3x3 white tile
+  name: белая плитка 3x3
   description: A 3 by 3 set of steel tiles.
   components:
   - type: Sprite
@@ -682,7 +682,7 @@
 - type: entity
   id: FloorTileItemOldConcreteBricks
   parent: FloorTileItemBase
-  name: old concrete bricks
+  name: старые бетонные кирпичи
   description: Old, heavily worn concrete bricks.
   components:
   - type: Sprite
@@ -698,7 +698,7 @@
 - type: entity
   id: FloorTileItemOldConcreteTile
   parent: FloorTileItemBase
-  name: old concrete tiles
+  name: старая бетонная плитка
   description: Old, heavily worn concrete tiles.
   components:
   - type: Sprite
@@ -714,7 +714,7 @@
 - type: entity
   id: FloorTileItemOrnate
   parent: FloorTileItemBase
-  name: ornate tile
+  name: узорная плитка
   description: Old orante tiles.
   components:
   - type: Sprite
@@ -730,7 +730,7 @@
 - type: entity
   id: FloorTileItemRoughMetal
   parent: FloorTileItemBase
-  name: rough metal tile
+  name: грубый металл
   description: Its seen a lot of use.
   components:
   - type: Sprite
@@ -746,7 +746,7 @@
 - type: entity
   id: FloorTileItemRustyMetal
   parent: FloorTileItemBase
-  name: rusty metal tile
+  name: ржавый металл
   description: Its seen a lot of use.
   components:
   - type: Sprite
@@ -762,7 +762,7 @@
 - type: entity
   id: FloorTileItemSteelGrate
   parent: FloorTileItemBase
-  name: steel grate tile
+  name: стальная решётка
   description: A steel grate.
   components:
   - type: Sprite
@@ -778,7 +778,7 @@
 - type: entity
   id: FloorTileItemTechGreeb
   parent: FloorTileItemBase
-  name: tech maints tile
+  name: техническая плитка техов
   description: Over designed and dirty.
   components:
   - type: Sprite
@@ -795,7 +795,7 @@
 - type: entity
   id: FloorTileItemAstroDirt
   parent: FloorTileItemBase
-  name: astro-dirt tile
+  name: плитка астроземли
   description: Fake dirt. It's easily removable, but completely devoid of the nutrients that plants crave.
   components:
   - type: Sprite

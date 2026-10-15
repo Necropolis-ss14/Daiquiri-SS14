@@ -1,7 +1,7 @@
 - type: entity
   id: BaseCustomSpawner
-  name: spawner
-  description: Spawns things.
+  name: спавнер
+  description: Спавнит штуки.
   abstract: true
   components:
     - type: CustomSpawner
@@ -111,7 +111,7 @@
 
 - type: entity
   id: CustomSpawnerHologram
-  name: hologram
+  name: голограмма
   categories: [ HideSpawnMenu, DoNotMap ]
   components:
     - type: Sprite

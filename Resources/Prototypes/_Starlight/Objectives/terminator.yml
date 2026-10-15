@@ -13,7 +13,7 @@
 - type: entity
   parent: [BaseTerminatorObjective, BaseKillObjective]
   id: TerminatorExterminateObjective
-  name: Secure our future.
+  name: обеспечь наше будущее.
   description: Follow your programming and kill the target. Ensure the future does not have this iteration of them in it. Minimise causing temporal flux through unnecessary casualties.
   components:
   - type: PickSpecificPerson
@@ -26,7 +26,7 @@
 - type: entity
   parent: BaseTerminatorObjective
   id: TerminatorSelfDestructObjective
-  name: Self destruct
+  name: самоуничтожение
   description: Prevent your advanced technology from falling into enemy hands.
   components:
   - type: DieCondition

@@ -26,8 +26,8 @@
 - type: entity
   parent: BaseAction
   id: LatchBiteHarder
-  name: "[color=orange]Bite Harder[/color]"
-  description: Deal damage and extend the latch, up to its hard cap.
+  name: "[color=orange]Кусать сильнее[/color]"
+  description: Наносит урон и удлиняет захват до предела.
   components:
   - type: Action
     useDelay: 0.75

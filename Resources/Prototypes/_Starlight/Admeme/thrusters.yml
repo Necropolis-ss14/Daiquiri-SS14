@@ -2,8 +2,8 @@
   id: ThrusterAdmeme
   parent: Thruster
   suffix: Admeme
-  name: overtuned thruster
-  description: A thruster with the regulator interlocks cut out. The nozzle is glowing.
+  name: форсированный двигатель
+  description: Двигатель со снятыми блокировками регулятора. Сопло светится.
   components:
   - type: Thruster
     thrust: 100000
@@ -16,8 +16,8 @@
   id: ThrusterLargeAdmeme
   parent: ThrusterLarge
   suffix: Admeme
-  name: overtuned large thruster
-  description: A large thruster with the regulator interlocks cut out. The nozzle is glowing.
+  name: форсированный большой двигатель
+  description: Большой двигатель со снятыми блокировками регулятора. Сопло светится.
   components:
   - type: Thruster
     thrust: 1600000
@@ -30,8 +30,8 @@
   id: GyroscopeAdmeme
   parent: Gyroscope
   suffix: Admeme
-  name: overtuned gyroscope
-  description: A gyroscope with the regulator interlocks cut out. It is humming ominously.
+  name: форсированный гироскоп
+  description: Гироскоп со снятыми блокировками регулятора. Зловеще гудит.
   components:
   - type: Thruster
     thrust: 2000000

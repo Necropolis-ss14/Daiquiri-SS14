@@ -1,7 +1,7 @@
 - type: entity
   parent: SimpleSpaceMobBase
   id: BaseMobBluespaceHarvester
-  name: bluespace creature
+  name: блюспейс-существо
   description: A horrific entity from beyond bluespace.
   abstract: true
   components:
@@ -76,7 +76,7 @@
 - type: entity
   parent: BaseMobBluespaceHarvester
   id: MobBluespaceHarvesterBlankBody
-  name: blank body
+  name: пустое тело
   description: A shambling humanoid husk, empty of thought but driven by malice.
   components:
   - type: Sprite

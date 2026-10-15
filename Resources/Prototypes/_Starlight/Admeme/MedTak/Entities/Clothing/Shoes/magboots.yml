@@ -1,8 +1,8 @@
 - type: entity
   parent: [ClothingShoesBootsMagBase, BaseMedTakContraband, ClothingShoesMilitaryBase]
   id: ClothingShoesBootsMagMedTak
-  name: MedTak combat magboots
-  description: Standard issue combat magboots for any MedTak units deployed as non-planetary coverage.
+  name: боевые магнитные ботинки MedTak
+  description: Штатные боевые магнитные ботинки для частей MedTak вне планетарного покрытия.
   components:
   - type: Sprite
     sprite: _Starlight/Admeme/MedTak/Clothing/Shoes/magboots.rsi

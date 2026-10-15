@@ -1,6 +1,6 @@
 - type: entity
   id: SpeedLoaderMagnumRubber
-  name: "speed loader (.45 magnum rubber)"
+  name: быстрозарядник (.45 magnum резиновый)
   parent: [ BaseSpeedLoaderMagnum, BaseSecurityContraband ]
   components:
   - type: BallisticAmmoProvider
@@ -18,7 +18,7 @@
 
 - type: entity
   id: SpeedLoaderMagnumImprovised
-  name: "speed loader (.45 magnum)"
+  name: быстрозарядник (.45 magnum)
   parent: [BaseItem, BaseMinorContraband]
   components:
   - type: Tag
@@ -57,7 +57,7 @@
 
 - type: entity
   id: SpeedLoaderMagnumLeverImprovised
-  name: "speed loader (.30 /.45 magnum)"
+  name: быстрозарядник (.30 /.45 magnum)
   parent: [BaseSpeedLoaderShotgun, BaseMinorContraband]
   components:
   - type: BallisticAmmoProvider
@@ -94,7 +94,7 @@
 - type: entity
   parent: BaseSpeedLoaderMagnum
   id: SpeedLoaderMagnumSP
-  name: "speed loader (.45 magnum SP)"
+  name: быстрозарядник (.45 magnum SP)
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeMagnumSP
@@ -111,7 +111,7 @@
 
 - type: entity
   id: SpeedLoaderMagnumHP
-  name: "speed loader (.45 magnum HP)"
+  name: быстрозарядник (.45 magnum HP)
   parent: BaseSpeedLoaderMagnum
   components:
   - type: BallisticAmmoProvider
@@ -129,7 +129,7 @@
 
 - type: entity
   id: SpeedLoaderMagnumFMJ
-  name: "speed loader (.45 magnum FMJ)"
+  name: быстрозарядник (.45 magnum FMJ)
   parent: BaseSpeedLoaderMagnum
   components:
   - type: BallisticAmmoProvider

@@ -1,7 +1,7 @@
 - type: vessel
   id: PTS
-  name: Private Transport Shuttle
-  description: A private transport vessel for up to 6 passengers.
+  name: Частный транспортный шаттл
+  description: Частное транспортное судно до 6 пассажиров.
   price: 21200
   category: Small
   group: Civilian
@@ -9,8 +9,8 @@
 
 - type: vessel
   id: Barge
-  name: The Barge
-  description: A large shipping vessel repurposed into a salvage bar.
+  name: Баржа
+  description: Большой грузовой корабль, переделанный в бар утилизаторов.
   price: 78500
   category: Medium
   group: Civilian
@@ -18,8 +18,8 @@
 
 - type: vessel
   id: Bellows
-  name: GTS-A1-100KL "Bellows"
-  description: The "Bellows" single-gas hauler by GTS in default livery, capable of transferring 100kL. Very affordable and has a standard shape for easy universal deployment.
+  name: GTS-A1-100KL «Беллоуз»
+  description: Одногазовый танкер «Беллоуз» от GTS в стандартной ливрее, перевозит 100кЛ. Дешёвый, стандартная форма для универсального развёртывания.
   price: 27500
   category: Small
   group: Engineering
@@ -27,8 +27,8 @@
 
 - type: vessel
   id: Prospector
-  name: NT-7 Prospector
-  description: A small mining vessel designed to assist salvage operations.
+  name: NT-7 «Проспектор»
+  description: Малое шахтёрское судно для помощи утилизаторам.
   price: 31350
   category: Small
   group: Civilian
@@ -36,8 +36,8 @@
 
 - type: vessel
   id: Ingeniator
-  name: NTS 'Jumpstart' Mini-Ingeniator
-  description: A large engineering vessel designed to "Jumpstart" a station without a working Engineering Department.
+  name: NTS «Джампстарт» Мини-Инджинейтор
+  description: Большое инженерное судно для «джампстарта» станции без рабочего инженерного отдела.
   price: 85000
   category: Large
   group: Civilian
@@ -63,8 +63,8 @@
 
 - type: vessel
   id: CargoGas
-  name: CS-4T9 "Tanker"
-  description: A small sized cargo shuttle 'borrowed' from another station that is able to hold gas.
+  name: CS-4T9 «Танкер»
+  description: Малый грузовой шаттл «одолжённый» у другой станции, возит газ.
   price: 21500
   category: Small
   group: Cargo
@@ -72,8 +72,8 @@
 
 - type: vessel
   id: Pioneer
-  name: SR-4S1 "Pioneer"
-  description: A medium sized salvaging ship made for salvaging operations.
+  name: SR-4S1 «Пионер»
+  description: Средний утилизаторский корабль для работ по утилизации.
   price: 39200
   category: Medium
   group: Cargo
@@ -81,8 +81,8 @@
 
 - type: vessel
   id: Breaker
-  name: NTMS-42A "Breaker"
-  description: A medium sized mining shuttle made for mining operations.
+  name: NTMS-42A «Брейкер»
+  description: Средний шахтёрский шаттл для добычи.
   price: 32850
   category: Medium
   group: Cargo
@@ -90,8 +90,8 @@
 
 - type: vessel
   id: Honeybee
-  name: ISM "Honeybee" Mini-Flores
-  description: A small sized botany shuttle made for advanced farming operations, comes with one mutation room.
+  name: ISM «Ханиби» Мини-Флорес
+  description: Малый ботанический шаттл для продвинутого фермерства, с комнатой мутаций.
   price: 30000
   category: Small
   group: Civilian
@@ -100,7 +100,7 @@
 - type: vessel
   id: Reach
   name: SS-Reach III
-  description: A large station vessel made for skeleton crews that we decided to allow stations to buy.
+  description: Большое станционное судно для скелетных экипажей, разрешили станциям к покупке.
   price: 700500
   category: Humongous
   group: Command
@@ -108,8 +108,8 @@
 
 - type: vessel
   id: Apotherkerin
-  name: JSS-MED Apotherkerin
-  description: A compact vessel designed for chemistry and botany, comes with a chemistry lab, a hydroponics area and mutation room. Requires external sources of air.
+  name: JSS-MED «Апотекерин»
+  description: "Компактное судно для химии и ботаники: химлаборатория, гидропоника и комната мутаций. Нужен внешний воздух."
   price: 40000
   category: Small
   group: Civilian
@@ -117,8 +117,8 @@
 
 - type: vessel
   id: Bumblebee
-  name: NTS "Bumblebee" Flores
-  description: A medium sized botany shuttle made for advance farming operations, comes with two mutation rooms.
+  name: NTS «Бамблби» Флорес
+  description: Средний ботанический шаттл для продвинутого фермерства, с двумя комнатами мутаций.
   price: 60000
   category: Medium
   group: Civilian
@@ -126,8 +126,8 @@
 
 - type: vessel
   id: SpaceTruck
-  name: HARMS Space Truck
-  description: A cheap trailer truck with a semi-legal (check with your lawyer!) IFF console onboard. Comes with two beers and a sweet digital audio workstation for blasting your tunes as you cruise through space.
+  name: Космический грузовик HARMS
+  description: Дешёвый грузовик с полулегальной (спроси юриста!) IFF-консолью. Два пива и цифровая аудиостанция, чтобы врубать музло в полёте.
   price: 14999
   category: Small
   group: Civilian

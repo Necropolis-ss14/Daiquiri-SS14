@@ -43,23 +43,9 @@ uplink-saw-advanced-desc = Передовой хирургический инс�
 uplink-briefcase-gun-name = Чемодан-автомат
 uplink-briefcase-gun-desc = Незаметный чемодан с очень компактным C-20K, установленным внутри. Будьте осторожны, не держите ручку слишком крепко!
 
-uplink-mech-teleporter-heavy-name = Телепортер тяжёлого меха
-uplink-mech-teleporter-heavy-desc = Тяжёлый бронированный мех Cybersun со встроенным цепным мечом, Ultra AC-2, LBX AC 10 «Картечь», ракетницей BRM-6 и тесла-пушкой P-X.
 
-uplink-mech-teleporter-assault-name = Телепортер штурмового меха
-uplink-mech-teleporter-assault-desc = Легкобронированный мех Cybersun со встроенным цепным мечом, LBX AC 10 «Картечь», лёгкой ракетницей SRM-8 и тесла-пушкой P-X.
 
-uplink-reinforcement-radio-assault-cyborg-name = Телепортер штурмового киборга
-uplink-reinforcement-radio-assault-cyborg-desc = Вызывает штурмового киборга Синдиката с модифицированным Л6, двойным мечом и базовыми инструментами взлома.
 
-uplink-observation-kit-name = Набор наблюдателя
-uplink-observation-kit-desc = Плата монитора камер и Security HUD под видом солнцезащитных очков.
 
-uplink-emp-kit-name = Набор электроразрядника
-uplink-emp-kit-desc = Главная управа на энергооружие: вырубает дисаблеры, глушит станбаты, разряжает лазеры! 3 ЭМИ-гранаты и ЭМИ-имплантер. Огнестрел не глушит.
 
-uplink-energy-dome-name = Персональный энергокупол
-uplink-energy-dome-desc = Персональный генератор щита: держит лазеры и пули, но не даёт стрелять самому. С маленькой батарейкой.
 
-uplink-super-surplus-bundle-name = Супер-набор излишков
-uplink-super-surplus-bundle-desc = Ящик случайного синдикатовского барахла на 125 телекристаллов.

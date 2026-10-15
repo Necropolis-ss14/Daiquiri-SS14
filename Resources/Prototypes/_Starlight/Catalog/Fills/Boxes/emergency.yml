@@ -1,7 +1,7 @@
 - type: entity
   parent: BoxSurvival
   id: BoxSurvivalIPC
-  description: It's a box with survival supplies for IPCs.
+  description: Коробка с припасами выживания для СПУ.
   suffix: IPC
   components:
   - type: EntityTableContainerFill
@@ -18,7 +18,7 @@
 - type: entity
   parent: BoxSurvival
   id: BoxSurvivalNonBreather
-  description: It's a box with survival supplies for those with no need to breathe.
+  description: Коробка с припасами для тех, кому не надо дышать.
   suffix: Nonbreather
   components:
   - type: EntityTableContainerFill
@@ -36,8 +36,8 @@
 - type: entity
   parent: BoxCardboard
   id: BoxSurvivalBlood
-  name: survival box
-  description: It's a box with basic internals inside. This one is labelled to contain a haemobrick.
+  name: коробка выживания
+  description: "Коробка с базовым набором. Помечена: внутри гемобрикет."
   suffix: Standard, Blood
   components:
   - type: EntityTableContainerFill
@@ -56,7 +56,7 @@
 - type: entity
   parent: BoxSurvivalNonBreather
   id: BoxSurvivalNonBreatherExtended
-  description: It's a box with survival supplies for those with no need to breathe. This one is labelled to contain double rations.
+  description: "Коробка с припасами для тех, кому не надо дышать. Помечена: двойной паёк."
   suffix: Nonbreather, Extended
   components:
   - type: EntityTableContainerFill
@@ -72,8 +72,8 @@
 - type: entity
   parent: BoxCardboard
   id: BoxSurvivalEngineeringBlood
-  name: extended-capacity survival box
-  description: It's a box with basic internals inside. This one is labelled to contain an extended-capacity tank and a haemobrick.
+  name: коробка выживания повышенной вместимости
+  description: "Коробка с базовым набором. Помечена: баллон повышенной вместимости и гемобрикет."
   suffix: Extended, Blood
   components:
   - type: EntityTableContainerFill
@@ -95,8 +95,8 @@
 
   parent: BoxCardboard
   id: BoxSurvivalSecurityBlood
-  name: survival box
-  description: It's a box with basic internals inside. This one is labelled to contain an extended-capacity tank and a haemobrick.
+  name: коробка выживания
+  description: "Коробка с базовым набором. Помечена: баллон повышенной вместимости и гемобрикет."
   suffix: Security, Blood
   components:
   - type: EntityTableContainerFill
@@ -117,8 +117,8 @@
 - type: entity
   parent: BoxCardboard
   id: BoxSurvivalMedicalBlood
-  name: survival box
-  description: It's a box with basic internals inside. This one is labelled to contain a haemobrick.
+  name: коробка выживания
+  description: "Коробка с базовым набором. Помечена: внутри гемобрикет."
   suffix: Medical, Blood
   components:
   - type: EntityTableContainerFill
@@ -139,8 +139,8 @@
 - type: entity
   parent: BoxCardboard
   id: BoxHugBlood
-  name: box of hugs
-  description: A special box for sensitive people. This one is labelled to contain a haemobrick.
+  name: коробка обнимашек
+  description: "Особая коробка для чувствительных. Помечена: внутри гемобрикет."
   suffix: Emergency, Blood
   components:
   - type: EntityTableContainerFill
@@ -161,7 +161,7 @@
 - type: entity
   parent: BoxSurvivalNonBreather
   id: BoxHugNonBreather
-  description: A special box for sensitive people who don't need to breathe.
+  description: Особая коробка для чувствительных, которым не надо дышать.
   suffix: Emergency, Nonbreather
   components:
   - type: Sprite
@@ -201,7 +201,7 @@
 - type: entity
   parent: BoxSurvival
   id: BoxSurvivalDwarf
-  description: It's a box with basic internals inside. This one is labelled to contain Dwarf rations.
+  description: "Коробка с базовым набором. Помечена: внутри паёк дворфов."
   suffix: Dwarf
   components:
   - type: EntityTableContainerFill
@@ -221,8 +221,8 @@
 - type: entity
   parent: BoxSurvival
   id: BoxSurvivalEngineeringDwarf
-  name: extended-capacity survival box
-  description: It's a box with basic internals inside. This one is labelled to contain an extended-capacity tank and Dwarf rations.
+  name: коробка выживания повышенной вместимости
+  description: "Коробка с базовым набором. Помечена: баллон повышенной вместимости и паёк дворфов."
   suffix: Dwarf
   components:
   - type: EntityTableContainerFill
@@ -274,8 +274,8 @@
 - type: entity
   parent: BoxSurvival
   id: BoxHugDwarf
-  name: box of hugs
-  description: A special box for sensitive people. This one is labelled to contain Dwarf rations.
+  name: коробка обнимашек
+  description: "Особая коробка для чувствительных. Помечена: внутри паёк дворфов."
   suffix: Emergency Dwarf
   components:
   - type: Sprite
@@ -302,7 +302,7 @@
 - type: entity
   parent: BoxSurvival
   id: BoxMimeDwarf
-  description: It's a box with basic internals inside. This one is labelled to contain Dwarf rations.
+  description: "Коробка с базовым набором. Помечена: внутри паёк дворфов."
   suffix: Mime Dwarf
   components:
   - type: EntityTableContainerFill
@@ -323,8 +323,8 @@
 - type: entity
   parent: BoxSurvival
   id: BoxSurvivalCheese
-  name: cheesy survival box
-  description: It's a box with basic internals inside... and CHEESE!
+  name: сырная коробка выживания
+  description: Коробка с базовым набором... и СЫР!
   components:
   - type: EntityTableContainerFill
     containers:
@@ -359,8 +359,8 @@
 - type: entity
   parent: BoxSurvivalCheese
   id: BoxSurvivalExtendedCheese
-  name: extended-capacity cheesy survival box
-  description: It's a box with basic internals inside. This one is labelled to contain an extended-capacity tank... and CHEESE!
+  name: сырная коробка выживания повышенной вместимости
+  description: "Коробка с базовым набором. Помечена: баллон повышенной вместимости... и СЫР!"
   components:
   - type: EntityTableContainerFill
     containers:
@@ -396,8 +396,8 @@
 - type: entity
   parent: BoxSurvivalCheese
   id: BoxSurvivalMimeCheese
-  name: survival box
-  description: It's a box with basic internals inside.
+  name: коробка выживания
+  description: Коробка с базовым набором.
   components:
   - type: Sprite
     layers:
@@ -417,8 +417,8 @@
 - type: entity
   parent: BoxHug
   id: BoxSurvivalClownCheese
-  name: box of cheesy hugs
-  description: A special box for sensitive people who also love cheese.
+  name: коробка сырных обнимашек
+  description: Особая коробка для чувствительных, которые ещё и сыр любят.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -454,8 +454,8 @@
 - type: entity
   parent: BoxCardboard
   id: BoxSurvivalSyndicateBlood
-  name: extended-capacity survival box
-  description: It's a box with basic internals inside. This one is labelled to contain an extended-capacity tank and a haemobrick.
+  name: коробка выживания повышенной вместимости
+  description: "Коробка с базовым набором. Помечена: баллон повышенной вместимости и гемобрикет."
   suffix: Syndicate, Blood
   components:
   - type: EntityTableContainerFill
@@ -476,7 +476,7 @@
   parent: BoxCardboardSmall # Cannot fit 3x3 boxes into already-filled ERT backpacks.
   id: BoxSurvivalMilitaryDoubleBlood
   suffix: Military O2, Blood
-  description: It's a box with basic internals inside. This one is labelled to contain an double extended-capacity tank and a haemobrick.
+  description: "Коробка с базовым набором. Помечена: двойной баллон повышенной вместимости и гемобрикет."
   components:
   - type: EntityTableContainerFill
     containers:

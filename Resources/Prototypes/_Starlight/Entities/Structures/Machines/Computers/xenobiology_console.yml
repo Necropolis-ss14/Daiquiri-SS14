@@ -1,7 +1,7 @@
 - type: entity
   parent: BaseComputer
   id: XenobiologyConsole
-  name: xenobiology console
+  name: консоль ксенобиологии
   description: A computer for manipulating slimes. Can move slimes around, apply mutating potions, and even feed them!
   components:
     - type: XenobiologyConsole
@@ -51,7 +51,7 @@
     - Incorporeal
     - BaseMob
   id: XenobiologyConsoleEye
-  name: Xenobiology Console Eye
+  name: око консоли ксенобиологии
   description: The eye, or perhaps the claw, extending from the xenobiology console. Is it spying on you?
   categories: [ HideSpawnMenu ]
   suffix: DO NOT MAP

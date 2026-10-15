@@ -1,7 +1,7 @@
 - type: entity
   id: BaseDoorElectronicsSyndicate
   parent: [DoorElectronics, BaseSyndicateContraband]
-  name: Syndicate door electronics
+  name: электроника двери Синдиката
   description: An electronics board used in doors and airlocks.
   components:
     - type: Sprite
@@ -29,7 +29,7 @@
 - type: entity
   id: BaseDoorElectronicsCentComm
   parent: [DoorElectronics, BaseCentcommContraband]
-  name: Central Command door electronics
+  name: электроника двери Центрального командования
   description: An electronics board used in doors and airlocks.
   components:
     - type: Sprite
@@ -65,7 +65,7 @@
 - type: entity
   id: BaseDoorElectronicsXenoborg
   parent: [DoorElectronics, BaseXenoborgContraband]
-  name: Xenoborg door electronics
+  name: электроника двери ксеноборга
   description: An electronics board used in doors and airlocks.
   components:
     - type: Sprite
@@ -93,7 +93,7 @@
 - type: entity
   id: BaseDoorElectronicsPirate
   parent: [DoorElectronics, BaseMajorContraband]
-  name: pirate door electronics
+  name: пиратская электроника двери
   description: An electronics board used in doors and airlocks. Smells of saltwater.
   components:
     - type: Sprite

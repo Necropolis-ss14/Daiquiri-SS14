@@ -2,7 +2,7 @@
   id: BaseScanGate
   parent: [ BaseMachinePowered, ConstructibleMachine ]
   abstract: true
-  name: scan gate
+  name: сканирующие ворота
   components:
   - type: Appearance
   - type: WiresVisuals

@@ -1,9 +1,9 @@
 # Fashion-O-Mat-Start
 - type: entity
-  name: sweet pastry set bag
+  name: сумка сладкого кондитерского набора
   parent: ClothingBackpackDuffel
   id: BoxPancakes
-  description: Look like someone who cares more about pancakes than what others think of her. Look like-A ROBOT??!
+  description: Выгляди как та, кому блины важнее чужого мнения. Выгляди как... РОБОТ??!
   components:
   - type: EntityTableContainerFill
     containers:
@@ -16,10 +16,10 @@
           amount: 2
 
 - type: entity
-  name: aristocrat set bag
+  name: сумка аристократического набора
   parent: ClothingBackpackDuffel
   id: BoxBloodstained
-  description: I never drink… wine.
+  description: Я никогда не пью… вино.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -30,10 +30,10 @@
         - id: ClothingUniformShinelVampir
 
 - type: entity
-  name: belpero set bag
+  name: сумка набора белперо
   parent: ClothingBackpackDuffel
   id: BoxBelpero
-  description: Standard-issue attire authorized for formal duels. Any damage sustained during engagement is considered acceptable under Association bylaws.
+  description: Штатный наряд для парадных дуэлей. Урон в бою считается допустимым по уставу Ассоциации.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -47,8 +47,8 @@
 - type: entity
   parent: ClothingBackpackDuffelBundle
   id: BoxRegalia
-  name: regalia set bag
-  description: A fancy red mobster costume. The bag that contains it is marked with a shield insignia of what looks like a thumb.
+  name: сумка набора регалий
+  description: Пафосный красный костюм мафиози. На сумке щит с похожим на палец знаком.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -63,9 +63,9 @@
 - type: entity
   parent: ClothingBackpackTrunkSpaceCourier
   id: BoxCourier
-  name: space courier trunk
+  name: сундук космического курьера
   suffix: Bundle
-  description: A stylish green costume bundle themed after a legendary space courier. Ranked 9/13 on popular review websites!
+  description: Стильный зелёный костюм легендарного космического курьера. 9/13 на популярных обзорниках!
   components:
   - type: EntityTableContainerFill
     containers:
@@ -80,9 +80,9 @@
 - type: entity
   parent: ClothingBackpackTrunkSpaceCourierPAI
   id: BoxCourierPAI
-  name: space courier trunk
+  name: сундук космического курьера
   suffix: Bundle, Ghost Role
-  description: A stylish green costume bundle themed after a legendary space courier. Ranked 9/13 on popular review websites!
+  description: Стильный зелёный костюм легендарного космического курьера. 9/13 на популярных обзорниках!
   components:
   - type: EntityTableContainerFill
     containers:
@@ -97,7 +97,7 @@
 
 # Expedition Encryption Keys
 - type: entity
-  name: expedition encryption key box
+  name: коробка ключей шифрования экспедиции
   parent: BoxEncryptionKeyAssistant
   id: BoxEncryptionKeyExpedition
   components:
@@ -109,7 +109,7 @@
             amount: 4
 
 - type: entity
-  name: salvage encryption key box
+  name: коробка ключей шифрования утилизаторов
   parent: BoxEncryptionKeyAssistant
   id: BoxEncryptionKeySalvage
   suffix: DO NOT MAP, Steal Objective
@@ -122,7 +122,7 @@
             amount: 4
 
 - type: entity
-  name: blacklight box
+  name: коробка блэклайта
   parent: BoxLightbulb
   id: Boxblacklight
   components:

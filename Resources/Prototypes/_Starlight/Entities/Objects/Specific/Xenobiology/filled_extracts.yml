@@ -18,104 +18,104 @@
 - type: entity
   parent: [BaseSlimeExtractFilled, GraySlimeExtract]
   id: GraySlimeExtractFilled
-  name: gray slime extract (filled)
+  name: экстракт серого слайма (заполненный)
 
 - type: entity
   parent: [BaseSlimeExtractFilled, OrangeSlimeExtract]
   id: OrangeSlimeExtractFilled
-  name: orange slime extract (filled)
+  name: экстракт оранжевого слайма (заполненный)
 
 - type: entity
   parent: [BaseSlimeExtractFilled, PurpleSlimeExtract]
   id: PurpleSlimeExtractFilled
-  name: purple slime extract (filled)
+  name: экстракт фиолетового слайма (заполненный)
 
 - type: entity
   parent: [BaseSlimeExtractFilled, BlueSlimeExtract]
   id: BlueSlimeExtractFilled
-  name: blue slime extract (filled)
+  name: экстракт синего слайма (заполненный)
 
 - type: entity
   parent: [BaseSlimeExtractFilled, MetalSlimeExtract]
   id: MetalSlimeExtractFilled
-  name: metal slime extract (filled)
+  name: экстракт металлического слайма (заполненный)
 
 - type: entity
   parent: [BaseSlimeExtractFilled, YellowSlimeExtract]
   id: YellowSlimeExtractFilled
-  name: yellow slime extract (filled)
+  name: экстракт жёлтого слайма (заполненный)
 
 - type: entity
   parent: [BaseSlimeExtractFilled, DarkPurpleSlimeExtract]
   id: DarkPurpleSlimeExtractFilled
-  name: dark purple slime extract (filled)
+  name: экстракт тёмно-фиолетового слайма (заполненный)
 
 - type: entity
   parent: [BaseSlimeExtractFilled, DarkBlueSlimeExtract]
   id: DarkBlueSlimeExtractFilled
-  name: dark blue slime extract (filled)
+  name: экстракт тёмно-синего слайма (заполненный)
 
 - type: entity
   parent: [BaseSlimeExtractFilled, SilverSlimeExtract]
   id: SilverSlimeExtractFilled
-  name: silver slime extract (filled)
+  name: экстракт серебряного слайма (заполненный)
 
 - type: entity
   parent: [BaseSlimeExtractFilled, BluespaceSlimeExtract]
   id: BluespaceSlimeExtractFilled
-  name: bluespace slime extract (filled)
+  name: экстракт блюспейс-слайма (заполненный)
 
 - type: entity
   parent: [BaseSlimeExtractFilled, SepiaSlimeExtract]
   id: SepiaSlimeExtractFilled
-  name: sepia slime extract (filled)
+  name: экстракт сепия-слайма (заполненный)
 
 - type: entity
   parent: [BaseSlimeExtractFilled, CeruleanSlimeExtract]
   id: CeruleanSlimeExtractFilled
-  name: cerulean slime extract (filled)
+  name: экстракт лазурного слайма (заполненный)
 
 - type: entity
   parent: [BaseSlimeExtractFilled, PyriteSlimeExtract]
   id: PyriteSlimeExtractFilled
-  name: pyrite slime extract (filled)
+  name: экстракт пиритового слайма (заполненный)
 
 - type: entity
   parent: [BaseSlimeExtractFilled, RedSlimeExtract]
   id: RedSlimeExtractFilled
-  name: red slime extract (filled)
+  name: экстракт красного слайма (заполненный)
 
 - type: entity
   parent: [BaseSlimeExtractFilled, GreenSlimeExtract]
   id: GreenSlimeExtractFilled
-  name: green slime extract (filled)
+  name: экстракт зелёного слайма (заполненный)
 
 - type: entity
   parent: [BaseSlimeExtractFilled, PinkSlimeExtract]
   id: PinkSlimeExtractFilled
-  name: pink slime extract (filled)
+  name: экстракт розового слайма (заполненный)
 
 - type: entity
   parent: [BaseSlimeExtractFilled, GoldSlimeExtract]
   id: GoldSlimeExtractFilled
-  name: gold slime extract (filled)
+  name: экстракт золотого слайма (заполненный)
 
 - type: entity
   parent: [BaseSlimeExtractFilled, OilSlimeExtract]
   id: OilSlimeExtractFilled
-  name: oil slime extract (filled)
+  name: экстракт масляного слайма (заполненный)
 
 - type: entity
   parent: [BaseSlimeExtractFilled, BlackSlimeExtract]
   id: BlackSlimeExtractFilled
-  name: black slime extract (filled)
+  name: экстракт чёрного слайма (заполненный)
 
 - type: entity
   parent: [BaseSlimeExtractFilled, LightPinkSlimeExtract]
   id: LightPinkSlimeExtractFilled
-  name: light pink slime extract (filled)
+  name: экстракт светло-розового слайма (заполненный)
 
 - type: entity
   parent: [BaseSlimeExtractFilled, AdamantineSlimeExtract]
   id: AdamantineSlimeExtractFilled
-  name: adamantine slime extract (filled)
+  name: экстракт адамантинового слайма (заполненный)

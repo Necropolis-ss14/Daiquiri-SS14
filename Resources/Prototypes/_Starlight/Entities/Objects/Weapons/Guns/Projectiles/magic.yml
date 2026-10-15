@@ -66,7 +66,7 @@
 - type: entity
   id: ProjectileFireArrow
   parent: BaseItem
-  name: fire arrow
+  name: огненная стрела
   description: Flagra!
   categories: [ HideSpawnMenu ]
   components:
@@ -150,7 +150,7 @@
 - type: entity
   id: ProjectileIceShard
   parent: BaseBulletTrigger
-  name: ice shard
+  name: ледяной осколок
   description: A freezing and razor sharp projectile of ice.
   components:
   - type: Sprite
@@ -186,7 +186,7 @@
 - type: entity
   id: ProjectileIceOrb
   parent: BaseBulletTrigger
-  name: ice orb
+  name: ледяная сфера
   description: The freezing wrath of a cryomancer given form.
   components:
   - type: Sprite
@@ -224,7 +224,7 @@
 - type: entity
   parent: [ProjectileGrenadeBase]
   id: Icefragbomb
-  name: ice bomb
+  name: ледяная бомба
   components:
   - type: Sprite
     sprite: Structures/Specific/Anomalies/ice_anom.rsi
@@ -249,7 +249,7 @@
   parent: PelletClusterLessLethal
   id: projectileIceFrag
   categories: [ HideSpawnMenu ]
-  name: pellet (ball, less lethal)
+  name: шарик (шар, менее летальный)
   components:
   - type: Projectile
     deleteOnCollide: false
@@ -263,7 +263,7 @@
 - type: entity
   parent: [ProjectileGrenadeBase]
   id: EruptionBomb
-  name: unstable fire
+  name: нестабильный огонь
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Guns/Projectiles/magic.rsi
@@ -285,7 +285,7 @@
   parent: PelletClusterIncendiary
   id: ProjectileEruption
   categories: [ HideSpawnMenu ]
-  name: pellet (ball, less lethal)
+  name: шарик (шар, менее летальный)
   components:
   - type: Projectile
     deleteOnCollide: false

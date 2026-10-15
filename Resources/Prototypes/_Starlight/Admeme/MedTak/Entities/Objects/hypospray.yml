@@ -1,8 +1,8 @@
 - type: entity
   parent: [BaseHypospray, BaseMedTakContraband]
   id: MedTakHypo
-  name: MedTak hypojet
-  description: A high quality injector for rapid administration of chemicals, compatibile with most standard hardsuit injection ports.
+  name: гипожет MedTak
+  description: Качественный инъектор для быстрого введения химии, подходит к большинству портов скафандров.
   components:
   - type: Sprite
     sprite: _Starlight/Admeme/MedTak/Objects/hypo.rsi

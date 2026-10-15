@@ -1,8 +1,8 @@
 - type: entity
   parent: CrateSyndicate
   id: CrateNameSyndicateShuttleBundle
-  name: shuttle bundle crate
-  description: Everything but the shuttle board. It's a shuttle in a crate* (Some assembly required)
+  name: ящик шаттлового набора
+  description: Всё кроме платы шаттла. Шаттл в ящике* (нужна сборка)
   components:
   - type: EntityTableContainerFill
     containers:
@@ -30,8 +30,8 @@
 - type: entity
   parent: CrateSyndicate
   id: CrateNameSyndicateFriendshipBundle
-  name: friendship bundle crate
-  description: Friendship in a crate*. (Some assembly required)
+  name: ящик набора дружбы
+  description: Дружба в ящике*. (Нужна сборка)
   components:
   - type: EntityTableContainerFill
     containers:

@@ -1,7 +1,7 @@
 - type: entity
   parent: [ ClothingBeltStorageBase, BaseMajorContraband ]
   id: ClothingAbductorBelt
-  name: abductor belt
+  name: пояс похитителя
   description: Can hold various OUR things.
   components:
   - type: Sprite
@@ -57,7 +57,7 @@
 - type: entity
   parent: [ClothingBeltMedical, ClothingBeltSecurity, BaseSecurityContraband]
   id: ClothingBeltBrigmedic
-  name: tactical trauma belt
+  name: тактический травма-пояс
   description: Because why choose between being a medic or a security guard when you can be both?
   components:
   - type: Sprite
@@ -114,7 +114,7 @@
 - type: entity
   parent: [ClothingBeltStorageBase, ContentsExplosionResistanceBase, BaseBlueShieldContraband]
   id: ClothingBeltBlueShieldWebbing
-  name: blueshield webbing
+  name: разгрузка блюшилда
   description: A tactical rig that can hold many items to save the lives of command.
   components:
   - type: Storage
@@ -131,7 +131,7 @@
 - type: entity
   parent: [ClothingBeltStorageBase, ContentsExplosionResistanceBase, BaseBlueShieldContraband]
   id: ClothingBeltBlueShieldMedicalBelt
-  name: blueshield medical belt
+  name: медицинский пояс блюшилда
   description: A tactical belt that can hold many items to save the lives of command.
   components:
   - type: Storage
@@ -148,7 +148,7 @@
 - type: entity
   parent: [ClothingBeltBrigmedic]
   id: ClothingBeltBrigmedicWeb
-  name: tactical trauma rig
+  name: тактическая травма-разгрузка
   description: A stylish alternative to the belt.
   components:
   - type: Sprite
@@ -160,7 +160,7 @@
 - type: entity
   parent: [ClothingBeltBrigmedic]
   id: ClothingBeltCorpsman
-  name: corpsman duty belt
+  name: дежурный пояс санитара
   description: A tactical belt with as many pockets and bags to hold all the medical items you need!
   components:
   - type: Sprite
@@ -172,7 +172,7 @@
 - type: entity
   parent: [ClothingBeltStorageBase, BaseSovietContraband]
   id: ClothingSovietBandolier
-  name: marine bandolier
+  name: патронташ морпеха
   description: Smells of oil, sweat, and questionable decisions.
   components:
   - type: Sprite
@@ -200,7 +200,7 @@
 - type: entity
   parent: [ClothingBeltStorageBase, BaseSovietContraband]
   id: ClothingSovietBelt
-  name: soviet belt
+  name: советский пояс
   description: Can hold various OUR things.
   components:
   - type: Sprite
@@ -324,7 +324,7 @@
 - type: entity
   parent: [ClothingBeltStorageBase, ContentsExplosionResistanceBase, BaseSovietContraband]
   id: ClothingBeltSovietMarineWebbing
-  name: SSF marine chest rig
+  name: разгрузка морпеха ССФ
   description:  A set of tactical webbing worn by the iconic soviet elite marines.
   components:
   - type: Sprite
@@ -337,7 +337,7 @@
 - type: entity
   parent: ClothingBeltSovietMarineWebbing
   id: ClothingBeltSovietMarineWebbingLoadout
-  name: SSF marine chest rig
+  name: разгрузка морпеха ССФ
   description:  A set of tactical webbing worn by the iconic soviet elite marines.
   components:
   - type: EntityTableContainerFill
@@ -352,7 +352,7 @@
 - type: entity
   parent: [BaseTSFContraband, ClothingBeltStorageBase, ContentsExplosionResistanceBase]
   id: ClothingBeltTSFMarineWebbing
-  name: federation combat webbing
+  name: боевая разгрузка Федерации
   description: A tactical chest rig used by soldiers and marines of the Trans-Solar Federation. It's covered in pouches and attachment points.
   components:
   - type: Sprite
@@ -365,7 +365,7 @@
 - type: entity
   parent: [ BaseSalvageContraband, ClothingBeltStorageBase ]
   id: ClothingBeltSalvageMercWebbing
-  name: scrapper webbing
+  name: разгрузка утилизатора
   description: Ideal for storing everything from tools, ammo, and salvage.
   components:
     - type: Storage
@@ -381,7 +381,7 @@
 - type: entity
   parent: [BaseTSFContraband, ClothingBeltSecurity]
   id: ClothingBeltRetroOfficer
-  name: TSF officer's duty belt
+  name: дежурный пояс офицера ТСФ
   description: A leather duty belt from the Trans Solar Federation. Can hold security equipment and tools for patrol duty.
   components:
   - type: Sprite
@@ -395,7 +395,7 @@
   parent: [BaseCentcommContraband, ClothingBeltBlueShieldMedicalBelt]
   categories: [ DoNotMap ]
   id: ClothingBeltGreenshield
-  name: greenshield medical belt
+  name: медицинский пояс гриншилда
   description: A tactical belt that can hold many items to save the lives of CentComm.
   components:
     - type: Sprite
@@ -407,7 +407,7 @@
 - type: entity
   parent: [ClothingBeltStorageBase, BaseSecurityContraband]
   id: ClothingPouchPeacekeeper
-  name: peacekeeper shell pouch
+  name: подсумок миротворца
   description: Tactical storage for peacekeeper shells.
   components:
   - type: Sprite

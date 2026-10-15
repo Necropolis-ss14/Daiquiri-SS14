@@ -94,10 +94,10 @@
       - Lead
 
 - type: entity
-  name: ominous pill
+  name: зловещая таблетка
   parent: Pill
   id: OminousPill
-  description: This unusual pill bears no markings. You feel a sense of dread, but also... curiosity.
+  description: Странная таблетка без маркировки. Жутковато, но... любопытно.
   components:
   - type: Solution
     id: food
@@ -203,10 +203,10 @@
       - Lead
 
 - type: entity
-  name: weird pill
+  name: странная таблетка
   parent: Pill
   id: WeirdPill
-  description: This unusual pill bears no markings. It's probably not deadly. Probably.
+  description: Странная таблетка без маркировки. Наверное, не смертельная. Наверное.
   components:
   - type: Solution
     id: food
@@ -280,10 +280,10 @@
       - Lead
 
 - type: entity
-  name: golden pill
+  name: золотая таблетка
   parent: Pill
   id: GoldenPill
-  description: Jackpot! Golden unmarked pill! There could be anything in here!
+  description: Джекпот! Золотая таблетка без маркировки! Внутри может быть что угодно!
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Specific/Chemistry/pills.rsi

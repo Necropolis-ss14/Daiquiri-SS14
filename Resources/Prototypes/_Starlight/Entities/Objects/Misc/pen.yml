@@ -1,5 +1,5 @@
 - type: entity
-  name: NanoTrasen representative's pen
+  name: ручка представителя NanoTrasen
   parent: [PenEmbeddable, BaseCommandContraband]
   id: PenNTR
   description: The NT Representative's own unique pen, just not as sharp.
@@ -16,7 +16,7 @@
 - type: entity
   id: PenQuillBurnt
   parent: [PenEmbeddable, BaseMajorContraband]
-  name: burnt quill
+  name: обгоревшее перо
   description: This quill seems to have a lot of weight to it.
   components:
     - type: Sprite

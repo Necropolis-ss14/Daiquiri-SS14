@@ -3,7 +3,7 @@
   parent: MobMoth
   suffix: Admeme
   name: skubmoth
-  description: Huh, skub.
+  description: Хм, скуб.
   components:
     - type: PassiveDamage
       damage:
@@ -36,7 +36,7 @@
   categories: [HideSpawnMenu]
   suffix: Admeme, DO NOT MAP
   name: skubpack
-  description: what... the fuck...
+  description: что... за хрень...
   components:
     - type: Clothing
       clothingVisuals:
@@ -55,7 +55,7 @@
     - type: Unremoveable
 
 - type: entity
-  name: wide skub barrage
+  name: широкий скуб-залп
   id: SkubSpreadShot
   categories: [ HideSpawnMenu ]
   suffix: Admeme, DO NOT MAP
@@ -70,8 +70,8 @@
   id: SkubPDA
   categories: [HideSpawnMenu]
   suffix: Admeme, DO NOT MAP
-  name: Skub PDA
-  description: Very skubular.
+  name: КПК Скуб
+  description: Весьма скубулярно.
   parent: AdminPDA
   components:
     - type: Unremoveable

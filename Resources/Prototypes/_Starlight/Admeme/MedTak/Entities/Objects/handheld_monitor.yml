@@ -1,8 +1,8 @@
 - type: entity
-  name: MedTak handheld monitor
+  name: ручной монитор MedTak
   parent: [ PowerCellSlotHighItem, BaseHandheldComputer, BaseMedTakContraband ]
   id: HandheldMedTakMonitor
-  description: The Interdyne M7 monitor can track the vital signs and coordinates of any implants on its secure frequency, to ensure rapid location of your clients.
+  description: Монитор Interdyne M7 отслеживает жизненные показатели и координаты любых имплантов на своей частоте для быстрого поиска клиентов.
   components:
   - type: Sprite
     sprite: _Starlight/Admeme/MedTak/Objects/monitor.rsi

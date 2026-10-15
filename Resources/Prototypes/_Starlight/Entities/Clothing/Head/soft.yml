@@ -1,7 +1,7 @@
 - type: entity
   parent: ClothingHeadHeadHatBaseFlippable
   id: ClothingHeadHatCargoFormalsoft
-  name: formal cargo cap
+  name: торжественная кепка грузчика
   description: A baseball cap colored to match cargo's formal uniforms.
   components:
   - type: Sprite
@@ -17,7 +17,7 @@
 - type: entity
   parent: [ClothingHeadHeadHatBaseFlipped, ClothingHeadHatCargoFormalsoft]
   id: ClothingHeadHatCargoFormalsoftFlipped
-  name: formal cargo cap
+  name: торжественная кепка грузчика
   components:
   - type: Tag
     tags:
@@ -28,7 +28,7 @@
 - type: entity
   parent: ClothingHeadHeadHatBaseFlippable
   id: ClothingHeadHatMailsoftVisor
-  name: mail visor
+  name: козырёк почтальона
   description: A lightweight sun visor for every aspiring mail technician.
   components:
   - type: Sprite
@@ -44,7 +44,7 @@
 - type: entity
   parent: [ClothingHeadHeadHatBaseFlipped, ClothingHeadHatMailsoftVisor]
   id: ClothingHeadHatMailsoftVisorFlipped
-  name: mail visor
+  name: козырёк почтальона
   components:
   - type: Tag
     tags:
@@ -55,7 +55,7 @@
 - type: entity
   parent: ClothingHeadHeadHatBaseFlippable
   id: ClothingHeadHatMailsoftVisorSenior
-  name: senior mail visor
+  name: козырёк старшего почтальона
   description: A lightweight sun visor for the most devoted of mail technicians.
   components:
   - type: Sprite
@@ -71,7 +71,7 @@
 - type: entity
   parent: [ClothingHeadHeadHatBaseFlipped, ClothingHeadHatMailsoftVisorSenior]
   id: ClothingHeadHatMailsoftVisorSeniorFlipped
-  name: senior mail visor
+  name: козырёк старшего почтальона
   components:
   - type: Tag
     tags:

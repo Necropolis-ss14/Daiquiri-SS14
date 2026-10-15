@@ -1,6 +1,6 @@
 - type: entity
   id: ActionOpenSKBUplinkImplant
-  name: Open Svyaz-UZL
+  name: Открыть Связь-УЗЛ
   description: Opens the SKB uplink embedded under your skin
   components:
   - type: Action

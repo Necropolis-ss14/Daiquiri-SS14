@@ -121,7 +121,7 @@
     delay: 3
 
 - type: entity
-  name: Chain Accelerator
+  name: Цепной ускоритель
   id: WeaponChainAccelerator
   parent: [WeaponProtoKineticAcceleratorBase, BaseSalvageContraband]
   description: Fires a steady stream of low-damage kinetic bolts at a short range.

@@ -212,7 +212,6 @@ stack-rolling-paper = { $amount ->
 }
 
 stack-fulton = фултон
-stack-credit = кредиты
 stack-plasma = { $amount ->
     [1] лист
     [few] листа
@@ -246,7 +245,6 @@ stack-inflatable-door = надувная дверь
 stack-ointment = мазь
 stack-aloe-cream = алоэ крем
 stack-gauze = марлевый бинт
-stack-brutepack = набор от ушибов
 stack-bloodpack = пакет крови
 stack-medicated-suture = медицинская нить
 stack-regenerative-mesh = регенеративная сеть

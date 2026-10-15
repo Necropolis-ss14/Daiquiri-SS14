@@ -1,8 +1,8 @@
 - type: entity
   id: CrateSupermatterFlatpack
   parent: CrateEngineeringSecure
-  name: supermatter crate
-  description: Supermatter, your solution for things regular matter can't handle.
+  name: ящик суперматерии
+  description: Суперматерия — решение там, где обычная не справляется.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -13,8 +13,8 @@
 - type: entity
   id: CrateTEGFlatpack
   parent: CrateEngineeringSecure
-  name: TEG Crate
-  description: A crate containing a flatpacked Thermo-Electric Generator.
+  name: ящик ТЭГ
+  description: Ящик с разобранным термоэлектрогенератором.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -27,8 +27,8 @@
 - type: entity
   id: CrateEngineeringReflector
   parent: CrateEngineeringSecure
-  name: Reflector Crate
-  description: Reflector, for when you need to deflect your problems.
+  name: ящик рефлектора
+  description: Рефлектор, когда проблемы надо отражать.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -39,8 +39,8 @@
 - type: entity
   parent: CrateEngineeringSecure
   id: CrateRPD
-  name: RPD crate
-  description: A crate containing a single rapid piping device.
+  name: ящик РПД
+  description: Ящик с одним быстрым устройством для труб.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -50,8 +50,8 @@
 - type: entity
   parent: CrateMedicalSecure
   id: CrateRPLD
-  name: RPLD crate
-  description: A crate containing a single rapid plumbing device.
+  name: ящик РПСЖ
+  description: Ящик с одним быстрым сантехническим устройством.
   components:
   - type: AccessReader
     access: [["Engineering"], ["Medical"]]
@@ -63,8 +63,8 @@
 - type: entity
   id: CrateNuclearReactorFlatpack
   parent: CrateEngineeringSecure
-  name: nuclear reactor crate
-  description: A crate containing a flatpacked Nuclear Reactor. Parts sold Separately.
+  name: ящик ядерного реактора
+  description: Ящик с разобранным ядерным реактором. Детали продаются отдельно.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -75,8 +75,8 @@
 - type: entity
   id: CrateGasTurbineFlatpack
   parent: CrateEngineeringSecure
-  name: gas turbine crate
-  description: A crate containing a flatpacked Gas Turbine. Parts sold Separately.
+  name: ящик газовой турбины
+  description: Ящик с разобранной газовой турбиной. Детали продаются отдельно.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -87,8 +87,8 @@
 - type: entity
   id: CrateNuclearReactorSmallFlatpack
   parent: CrateEngineeringSecure
-  name: small nuclear reactor crate
-  description: A crate containing a flatpacked  Small Nuclear Reactor. Parts sold Separately.
+  name: ящик малого ядерного реактора
+  description: Ящик с разобранным малым ядерным реактором. Детали продаются отдельно.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -99,8 +99,8 @@
 - type: entity
   id: CrateGasTurbineSmallFlatpack
   parent: CrateEngineeringSecure
-  name: small gas turbine crate
-  description: A crate containing a flatpacked Small Gas Turbine. Parts sold Separately.
+  name: ящик малой газовой турбины
+  description: Ящик с разобранной малой газовой турбиной. Детали продаются отдельно.
   components:
   - type: EntityTableContainerFill
     containers:

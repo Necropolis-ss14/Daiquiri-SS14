@@ -5,7 +5,6 @@ card-selection-no-cards = Новых карт сейчас нет.
 card-selection-restricted = Ваша последняя рука истекла до выбора. Больше карт в этом раунде не предложат.
 card-selection-timer = Выберите в течение {$seconds}с, иначе будете заблокированы до конца раунда.
 
-character-info-cards-button = Посмотреть карты
 
 
 railroading-card-examined = ┌Активная карта:

@@ -1,6 +1,6 @@
 - type: entity
   id: RandomSpawnStationRadioReceiver
-  name: station radio
+  name: радиостанция
   parent: MarkerBase
   suffix: Random
   components:

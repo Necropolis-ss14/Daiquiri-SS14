@@ -1,8 +1,8 @@
 - type: entity
   id: MagazinePistolSubMachineGunBottomMountedDDBase
-  name: DD-22 magazine (.35 auto bottom-mounted)
+  name: магазин DD-22 (.35 авто, нижний)
   parent: [ BaseItem, BaseSecurityContraband ]
-  description: A unique 64-round magazine that loads into the DD22, holds .35 auto.
+  description: Уникальный магазин на 64 патрона для DD22, держит .35 авто.
   components:
   - type: Tag
     tags:
@@ -38,7 +38,7 @@
 
 - type: entity
   id: MagazinePistolSubMachineGunBottomMountedDDSP
-  name: PS DD-22 magazine (.35 SP bottom-mounted)
+  name: магазин PS DD-22 (.35 SP, нижний)
   parent: [ MagazinePistolSubMachineGunBottomMountedDDBase, BaseSecurityContraband ]
   components:
   - type: BallisticAmmoProvider
@@ -56,7 +56,7 @@
 
 - type: entity
   id: MagazinePistolSubMachineGunBottomMountedDDFMJ
-  name: PS DD-22 magazine (.35 FMJ bottom-mounted)
+  name: магазин PS DD-22 (.35 FMJ, нижний)
   parent: [ MagazinePistolSubMachineGunBottomMountedDDBase, BaseSecurityContraband ]
   components:
   - type: BallisticAmmoProvider
@@ -74,7 +74,7 @@
 
 - type: entity
   id: MagazinePistolSubMachineGunBottomMountedDDHP
-  name: PS DD-22 magazine (.35 HP bottom-mounted)
+  name: магазин PS DD-22 (.35 HP, нижний)
   parent: [ MagazinePistolSubMachineGunBottomMountedDDBase, BaseSecurityContraband ]
   components:
   - type: BallisticAmmoProvider
@@ -92,7 +92,7 @@
 
 - type: entity
   id: MagazinePistolSubMachineGunBottomMountedDDAP
-  name: PS DD-22 magazine (.35 AP bottom-mounted)
+  name: магазин PS DD-22 (.35 AP, нижний)
   parent: [ MagazinePistolSubMachineGunBottomMountedDDBase, BaseSecurityContraband ]
   components:
   - type: BallisticAmmoProvider
@@ -110,7 +110,7 @@
 
 - type: entity
   id: MagazinePistolSubMachineGunBottomMountedDDPractice
-  name: PS DD-22 magazine (.35 Practice bottom-mounted)
+  name: магазин PS DD-22 (.35 учебный, нижний)
   parent: [ MagazinePistolSubMachineGunBottomMountedDDBase, BaseSecurityContraband ]
   components:
   - type: BallisticAmmoProvider
@@ -128,7 +128,7 @@
 
 - type: entity
   id: MagazinePistolSubMachineGunBottomMountedDDIncendiary
-  name: PS DD-22 magazine (.35 Incendiary bottom-mounted)
+  name: магазин PS DD-22 (.35 зажигательный, нижний)
   parent: [ MagazinePistolSubMachineGunBottomMountedDDBase, BaseSecurityContraband ]
   components:
   - type: BallisticAmmoProvider
@@ -146,7 +146,7 @@
 
 - type: entity
   id: MagazinePistolSubMachineGunBottomMountedDDUranium
-  name: PS DD-22 magazine (.35 Uranium bottom-mounted)
+  name: магазин PS DD-22 (.35 урановый, нижний)
   parent: [ MagazinePistolSubMachineGunBottomMountedDDBase, BaseSecurityContraband ]
   components:
   - type: BallisticAmmoProvider
@@ -164,9 +164,9 @@
 
 - type: entity
   id: MagazinePistolSubMachineGunBottomMountedDDImprovised
-  name: PS DD-22 magazine (.35 Improvised bottom-mounted)
+  name: магазин PS DD-22 (.35 самодельный, нижний)
   parent: [ MagazinePistolSubMachineGunBottomMountedDDBase, BaseSecurityContraband ]
-  description: A unique 64-round magazine that loads into the DD-22, holds .35 ammo. Some idiot filled this one with improvised rounds.
+  description: Уникальный магазин на 64 патрона для DD-22, держит .35. Какой-то идиот зарядил его самодельными.
   components:
   - type: BallisticAmmoProvider
     mayTransfer: true
@@ -184,9 +184,9 @@
 - type: entity
   id: MagazinePistolSubMachineGunBottomMountedDDAntimaterial
   suffix: Admeme
-  name: PS DD-22 magazine (.60 Antimaterial bottom-mounted)
+  name: магазин PS DD-22 (.60 противотехнический, нижний)
   parent: [ MagazinePistolSubMachineGunBottomMountedDDBase, BaseSecurityContraband ]
-  description: A unique 64-round magazine that loads into the DD-22, usually holds .35 auto, however this magazine was modified to hold Antimaterial rounds, you've got no clue how it works and you're scared to see the outcome.
+  description: Уникальный магазин на 64 патрона для DD-22, обычно .35 авто, но этот переделан под противотехнические. Как работает — без понятия, и проверять страшно.
   components:
   - type: BallisticAmmoProvider
     mayTransfer: true
@@ -203,7 +203,7 @@
 
 - type: entity
   id: MagazinePistolSubMachineGunBottomMountedDDRubber
-  name: PS DD-22 magazine (.35 Rubber bottom-mounted)
+  name: магазин PS DD-22 (.35 резиновый, нижний)
   parent: [ MagazinePistolSubMachineGunBottomMountedDDBase, BaseSecurityContraband ]
   components:
   - type: BallisticAmmoProvider

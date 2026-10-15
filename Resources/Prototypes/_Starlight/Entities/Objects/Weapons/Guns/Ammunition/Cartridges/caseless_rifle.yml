@@ -1,6 +1,6 @@
 - type: entity
   id: CartridgeCaselessRifleRubber
-  name: cartridge (.25 caseless rubber)
+  name: патрон (.25 caseless резиновый)
   parent: BaseCartridgeCaselessRifle
   components:
   - type: CartridgeAmmo

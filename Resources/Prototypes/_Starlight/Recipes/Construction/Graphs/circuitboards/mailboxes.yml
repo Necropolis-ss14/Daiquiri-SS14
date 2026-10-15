@@ -15,7 +15,7 @@
 
 - type: entity
   id: CargoMailBoxMachineCircuitboard
-  name: Cargo Mailbox Machine Circuitboard
+  name: Плата почтового автомата карго
   parent: BaseMailBoxMachineCircuitboard
   components:
     - type: MachineBoard
@@ -25,7 +25,7 @@
 
 - type: entity
   id: CommandMailBoxMachineCircuitboard
-  name: Command Mailbox Machine Circuitboard
+  name: Плата почтового автомата командования
   parent: BaseMailBoxMachineCircuitboard
   components:
     - type: MachineBoard
@@ -35,7 +35,7 @@
 
 - type: entity
   id: EngineeringMailBoxMachineCircuitboard
-  name: Engineering Mailbox Machine Circuitboard
+  name: Плата почтового автомата инженеров
   parent: BaseMailBoxMachineCircuitboard
   components:
     - type: MachineBoard
@@ -45,7 +45,7 @@
 
 - type: entity
   id: MedicalMailBoxMachineCircuitboard
-  name: Medical Mailbox Machine Circuitboard
+  name: Плата почтового автомата медиков
   parent: BaseMailBoxMachineCircuitboard
   components:
     - type: MachineBoard
@@ -55,7 +55,7 @@
 
 - type: entity
   id: ScienceMailBoxMachineCircuitboard
-  name: Science Mailbox Machine Circuitboard
+  name: Плата почтового автомата учёных
   parent: BaseMailBoxMachineCircuitboard
   components:
     - type: MachineBoard
@@ -65,7 +65,7 @@
 
 - type: entity
   id: SecurityMailBoxMachineCircuitboard
-  name: Security Mailbox Machine Circuitboard
+  name: Плата почтового автомата охраны
   parent: BaseMailBoxMachineCircuitboard
   components:
     - type: MachineBoard
@@ -75,7 +75,7 @@
 
 - type: entity
   id: ServiceMailBoxMachineCircuitboard
-  name: Service Mailbox Machine Circuitboard
+  name: Плата почтового автомата сервиса
   parent: BaseMailBoxMachineCircuitboard
   components:
     - type: MachineBoard

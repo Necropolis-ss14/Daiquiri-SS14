@@ -1,7 +1,7 @@
 - type: entity
   parent: SurveillanceCameraRouterBase
   id: SurveillanceCameraRouterIsolatedNetwork
-  name: camera router
+  name: маршрутизатор камер
   suffix: Isolated Network
   components:
     - type: DeviceNetwork

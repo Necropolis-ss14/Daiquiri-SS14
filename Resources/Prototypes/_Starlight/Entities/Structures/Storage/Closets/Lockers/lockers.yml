@@ -2,7 +2,8 @@
 - type: entity
   id: LockerSteelLarge
   parent: LockerLargeBaseSecure
-  name: ent-LockerSteelLarge
+  name: большой защищённый шкаф
+  description: Стандартный шкаф NanoTrasen.
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -15,7 +16,8 @@
 - type: entity
   id: LockerSecurityLarge
   parent: LockerLargeBaseSecure
-  name: ent-LockerSecurityLarge
+  name: большой шкаф офицера службы безопасности
+  description: Стандартный шкаф NanoTrasen.
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -29,7 +31,8 @@
 - type: entity
   id: LockerBrigmedicLarge
   parent: LockerLargeBaseSecure
-  name: ent-LockerBrigmedicLarge
+  name: большой шкаф бригмедика
+  description: Стандартный шкаф NanoTrasen.
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -44,7 +47,8 @@
 - type: entity
   id: LockerBlueshield
   parent: LockerBaseSecure
-  name: ent-LockerBlueshield
+  name: шкаф офицера Блюшилд
+  description: Стандартный шкаф NanoTrasen.
   components:
   - type: Appearance
   - type: Sprite
@@ -62,7 +66,8 @@
 - type: entity
   id: LockerMagistrate
   parent: LockerBaseSecure
-  name: ent-LockerMagistrate
+  name: шкаф магистрата
+  description: Стандартный шкаф NanoTrasen.
   components:
   - type: Appearance
   - type: Sprite
@@ -80,7 +85,8 @@
 - type: entity
   id: LockerIAA
   parent: LockerBaseSecure
-  name: ent-LockerIAA
+  name: шкаф агента внутренних дел
+  description: Стандартный шкаф NanoTrasen.
   components:
   - type: Appearance
   - type: Sprite
@@ -98,7 +104,8 @@
 - type: entity
   id: LockerNCT
   parent: LockerBaseSecure
-  name: ent-LockerNCT
+  name: шкаф карьерного тренера NanoTrasen
+  description: Стандартный шкаф NanoTrasen.
   components:
   - type: Appearance
   - type: Sprite
@@ -117,7 +124,8 @@
 - type: entity
   id: LockerSalvageLead
   parent: LockerBaseSecure
-  name: ent-LockerSalvageLead
+  name: шкаф главы утилизаторов
+  description: Стандартный шкаф NanoTrasen.
   components:
     - type: Appearance
     - type: Sprite
@@ -134,7 +142,8 @@
 - type: entity
   id: LockerSalvageSpecialistLarge
   parent: LockerLargeBaseSecure
-  name: ent-LockerSalvageSpecialistLarge
+  name: большой шкаф специалиста по утилизации
+  description: Стандартный шкаф NanoTrasen.
   components:
   - type: Appearance
   - type: Sprite
@@ -150,7 +159,8 @@
 - type: entity
   id: LockerMiningSpecialist
   parent: LockerBaseSecure
-  name: ent-LockerMiningSpecialist
+  name: шкаф специалиста по добыче
+  description: Стандартный шкаф NanoTrasen.
   components:
   - type: Appearance
   - type: Sprite
@@ -165,7 +175,8 @@
 - type: entity
   id: LockerMiningSpecialistLarge
   parent: LockerLargeBaseSecure
-  name: ent-LockerMiningSpecialistLarge
+  name: большой шкаф специалиста по добыче
+  description: Стандартный шкаф NanoTrasen.
   components:
   - type: Appearance
   - type: Sprite
@@ -180,7 +191,8 @@
 # Cargo Technician
 - type: entity
   id: LockerCargo
-  name: ent-LockerCargo
+  name: шкаф карго-техника
+  description: Стандартный шкаф NanoTrasen.
   parent: LockerBaseSecure
   components:
     - type: Appearance
@@ -196,7 +208,8 @@
 - type: entity
   id: LockerCargoLarge
   parent: LockerLargeBaseSecure
-  name: ent-LockerCargoLarge
+  name: большой шкаф карго-техника
+  description: Стандартный шкаф NanoTrasen.
   components:
   - type: Appearance
   - type: Sprite
@@ -211,7 +224,8 @@
 # Mail Technician
 - type: entity
   id: LockerMail
-  name: ent-LockerMail
+  name: шкаф почтового техника
+  description: Стандартный шкаф NanoTrasen.
   parent: LockerBaseSecure
   components:
     - type: Appearance
@@ -227,7 +241,8 @@
 - type: entity
   id: LockerMailLarge
   parent: LockerLargeBaseSecure
-  name: ent-LockerMailLarge
+  name: большой шкаф почтового техника
+  description: Стандартный шкаф NanoTrasen.
   components:
   - type: Appearance
   - type: Sprite
@@ -243,7 +258,8 @@
 # Surgeon
 - type: entity
   id: LockerSurgeon
-  name: ent-LockerSurgeon
+  name: шкаф хирурга
+  description: Стандартный шкаф NanoTrasen.
   parent: LockerBaseSecure
   components:
     - type: Appearance
@@ -259,7 +275,8 @@
 # Coroner
 - type: entity
   id: LockerCoroner
-  name: ent-LockerCoroner
+  name: шкаф коронера
+  description: Стандартный шкаф NanoTrasen.
   parent: LockerBaseSecure
   components:
     - type: Appearance
@@ -275,7 +292,8 @@
 # Virologist
 - type: entity
   id: LockerVirologist
-  name: ent-LockerVirologist
+  name: шкаф вирусолога
+  description: Стандартный шкаф NanoTrasen.
   parent: LockerBaseSecure
   components:
     - type: Appearance
@@ -291,7 +309,8 @@
 # Geneticist
 - type: entity
   id: LockerGeneticist
-  name: ent-LockerGeneticist
+  name: шкаф генетика
+  description: Стандартный шкаф NanoTrasen.
   parent: LockerBaseSecure
   components:
     - type: Appearance
@@ -308,7 +327,8 @@
 # Roboticist
 - type: entity
   id: LockerRoboticist
-  name: ent-LockerRoboticist
+  name: шкаф робототехника
+  description: Стандартный шкаф NanoTrasen.
   parent: LockerBaseSecure
   components:
     - type: Appearance
@@ -325,7 +345,8 @@
 # Janitor
 - type: entity
   id: LockerJanitor
-  name: ent-LockerJanitor
+  name: шкаф уборщика
+  description: Стандартный шкаф NanoTrasen.
   parent: LockerBaseSecure
   components:
     - type: Appearance
@@ -353,7 +374,8 @@
 - type: entity
   id: LockerSalvageLeadITG
   parent: LockerBaseSecure
-  name: ent-LockerSalvageLeadITG
+  name: шкаф главы утилизаторов
+  description: Стандартный шкаф NanoTrasen.
   components:
     - type: Appearance
     - type: Sprite
@@ -368,8 +390,8 @@
 - type: entity
   id: LockerSalvageSpecialistITG
   parent: LockerBase
-  name: ent-LockerSalvageSpecialistITG
-  description: ent-LockerSalvageSpecialistITG-desc
+  name: снаряжение специалиста по утилизации
+  description: Стандартный шкаф NanoTrasen.
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -384,7 +406,8 @@
 - type: entity
   id: LockerSalvageSpecialistLargeITG
   parent: LockerLargeBaseSecure
-  name: ent-LockerSalvageSpecialistLargeITG
+  name: большой шкаф специалиста по утилизации
+  description: Стандартный шкаф NanoTrasen.
   components:
   - type: Appearance
   - type: Sprite
@@ -400,7 +423,8 @@
 - type: entity
   id: LockerSalvageMedic
   parent: LockerBaseSecure
-  name: ent-LockerSalvageMedic
+  name: шкаф медика утилизаторов
+  description: Стандартный шкаф NanoTrasen.
   components:
     - type: Appearance
     - type: Sprite

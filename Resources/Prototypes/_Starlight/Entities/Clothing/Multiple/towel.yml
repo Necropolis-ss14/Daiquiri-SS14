@@ -1,6 +1,6 @@
 - type: entity
   id: TowelColorPurple
-  name: purple towel
+  name: фиолетовое полотенце
   parent: BaseTowel
   components:
   - type: Sprite
@@ -31,7 +31,7 @@
 
 - type: entity
   id: TowelColorRed
-  name: red towel
+  name: красное полотенце
   parent: BaseTowel
   components:
   - type: Sprite
@@ -62,7 +62,7 @@
 
 - type: entity
   id: TowelColorBlue
-  name: blue towel
+  name: синее полотенце
   parent: BaseTowel
   components:
   - type: Sprite
@@ -93,7 +93,7 @@
 
 - type: entity
   id: TowelColorDarkBlue
-  name: dark blue towel
+  name: тёмно-синее полотенце
   parent: BaseTowel
   components:
   - type: Sprite
@@ -124,7 +124,7 @@
 
 - type: entity
   id: TowelColorLightBlue
-  name: light blue towel
+  name: голубое полотенце
   parent: BaseTowel
   components:
   - type: Sprite
@@ -155,7 +155,7 @@
 
 - type: entity
   id: TowelColorTeal
-  name: teal towel
+  name: аквамариновое полотенце
   parent: BaseTowel
   components:
   - type: Sprite
@@ -186,7 +186,7 @@
 
 - type: entity
   id: TowelColorBrown
-  name: brown towel
+  name: коричневое полотенце
   parent: BaseTowel
   components:
   - type: Sprite
@@ -217,7 +217,7 @@
 
 - type: entity
   id: TowelColorPink
-  name: pink towel
+  name: розовое полотенце
   parent: BaseTowel
   components:
   - type: Sprite
@@ -248,7 +248,7 @@
 
 - type: entity
   id: TowelColorYellow
-  name: yellow towel
+  name: жёлтое полотенце
   parent: BaseTowel
   components:
   - type: Sprite
@@ -279,7 +279,7 @@
 
 - type: entity
   id: TowelColorMaroon
-  name: maroon towel
+  name: бордовое полотенце
   parent: BaseTowel
   components:
   - type: Sprite
@@ -310,7 +310,7 @@
 
 - type: entity
   id: TowelColorSilver
-  name: silver towel
+  name: серебряное полотенце
   parent: BaseTowel
   components:
   - type: Sprite
@@ -343,7 +343,7 @@
 
 - type: entity
   id: TowelColorMime
-  name: silent towel
+  name: бесшумное полотенце
   parent: BaseTowel
   components:
   - type: Sprite
@@ -376,7 +376,7 @@
 
 - type: entity
   id: TowelColorGold
-  name: gold towel
+  name: золотое полотенце
   parent: BaseTowel
   components:
   - type: Sprite

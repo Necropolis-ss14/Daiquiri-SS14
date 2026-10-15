@@ -42,7 +42,7 @@
 - type: entity
   id: BarricadeSteel
   parent: BaseBarricadeCover
-  name: steel barricade
+  name: стальная баррикада
   description: Steel plates welded into a waist-high barrier. Stops a good share of the shots crossing it.
   components:
   - type: Sprite
@@ -91,7 +91,7 @@
 - type: entity
   id: BarricadeWood
   parent: BaseBarricadeCover
-  name: wooden barricade
+  name: деревянная баррикада
   description: Planks nailed into a waist-high barrier. Better than nothing.
   components:
   - type: Sprite
@@ -147,7 +147,7 @@
 - type: entity
   id: BarricadeGlass
   parent: BaseBarricadeCover
-  name: glass barricade
+  name: стеклянная баррикада
   description: Glass panes set in a wooden frame. You can see through it, and so can bullets, often enough.
   components:
   - type: Sprite
@@ -194,7 +194,7 @@
 - type: entity
   id: BarricadeSandbags
   parent: BaseBarricadeCover
-  name: sandbag barricade
+  name: баррикада из мешков с песком
   description: A wall of sandbags. Few things you could carry soak up gunfire better.
   components:
   - type: Sprite
@@ -227,7 +227,7 @@
 - type: entity
   id: BarricadeSandbagsFrame
   parent: BaseStructure
-  name: unfinished sandbag barricade
+  name: недостроенная баррикада из мешков с песком
   description: A few sandbags on top of each other. Some cover already, and a few more bags would finish it.
   placement:
     mode: SnapgridCenter

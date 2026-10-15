@@ -1,7 +1,7 @@
 - type: entity
   parent: [ SmokeGrenade ]
   id: LubeGrenade
-  name: lube grenade
+  name: смазочная граната
   description: Special grenade for shenanigans, releasing large cloud of lube foam.
   components:
   - type: Sprite
@@ -21,7 +21,7 @@
 - type: entity
   parent: [ SmokeGrenade ]
   id: GlueGrenade
-  name: glue grenade
+  name: клеевая граната
   description: Special grenade for shenanigans, releasing large cloud of glue foam.
   components:
   - type: Sprite
@@ -41,7 +41,7 @@
 - type: entity
   parent: SmokeGrenade
   id: ToxicGasGrenade
-  name: acidic gas grenade
+  name: кислотная газовая граната
   description: A painful crowd control gas grenade full of Sulfuric Acid and Tear Gas. Turn on your internals before using it!
   components:
   - type: Sprite
@@ -65,7 +65,7 @@
 - type: entity
   parent: AirGrenade
   id: HalonGasGrenade
-  name: halon gas grenade
+  name: галоновая газовая граната
   description: A special solid state chemical grenade used for quickly releasing halon gas to extinguish fires.
   components:
   - type: Sprite

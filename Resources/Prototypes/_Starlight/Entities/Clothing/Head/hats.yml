@@ -1,7 +1,7 @@
 - type: entity
   parent: [ClothingHeadBase, BaseNanoTrasenContraband]
   id: ClothingHeadHatCapNtrep
-  name: nt representative cap
+  name: кепка представителя НаноТрейзен
   description: The cap of justice over command!
   components:
     - type: Sprite
@@ -12,7 +12,7 @@
 - type: entity
   parent: [ClothingHeadBase, BaseBlueShieldContraband]
   id: ClothingHeadHatBeretBlueShield
-  name: blueshield beret
+  name: берет блюшилда
   description: This beret completes the outfit of any true Blueshield Officer.
   components:
     - type: Sprite
@@ -23,7 +23,7 @@
 - type: entity
   parent: [ClothingHeadBaseSummer, BaseBlueShieldContraband]
   id: ClothingHeadHatBlueShieldSheriff
-  name: blueshield bounty hunter's hat
+  name: шляпа охотника за головами блюшилда
   description: For when your charges do not wish to be tracked down.
   components:
     - type: Sprite
@@ -37,7 +37,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatBeretChemist
-  name: chemistry beret
+  name: берет химика
   description: An orange beret. Defender of bald heads everywhere.
   components:
     - type: Sprite
@@ -53,7 +53,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadNurseHatChemist
-  name: chemistry nurse hat
+  name: сестринская шапка химика
   description: I'm technically a doctor, you know.
   components:
     - type: Sprite
@@ -70,7 +70,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatTruckerChemist
-  name: chemistry trucker hat
+  name: кепка дальнобойщика химика
   description: My chemical chariot cannot be stopped!
   components:
     - type: Sprite
@@ -81,7 +81,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatFishCapChemist
-  name: chemistry fishing cap
+  name: рыбацкая кепка химика
   description: Do mechanical brides fish in chemical spills?
   components:
     - type: Sprite
@@ -92,7 +92,7 @@
 - type: entity
   parent: [ClothingHeadBase, BaseSecurityContraband]
   id: ClothingHeadHatBeretCorpsman
-  name: corpsman's beret
+  name: берет санитара
   description: Losing this hat is considered grounds for demotion. Kidding, though you will be ridiculed by your fellow corpsmans.
   components:
     - type: Sprite
@@ -103,7 +103,7 @@
 - type: entity
   parent: [ClothingHeadBase, BaseSecurityContraband]
   id: ClothingHeadNurseHatBrigmedic
-  name: brigmedic's medbay hat
+  name: медицинская шапка бригмедика
   description: For those long nights on the shift.
   components:
     - type: Sprite
@@ -120,7 +120,7 @@
 - type: entity
   parent: [ClothingHeadBase, BaseSecurityContraband]
   id: ClothingHeadNurseHatCorpsman
-  name: corpsman's traumabay hat
+  name: медицинская шапка санитара
   description: Dark enough to hide blood and tears alike.
   components:
     - type: Sprite
@@ -137,7 +137,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadNurseHatOfLife
-  name: nurse hat of life
+  name: сестринская шапка жизни
   description: A hat that symbolizes the joy and positivity of our life.
   components:
     - type: Sprite
@@ -154,7 +154,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatDutyOfficer
-  name: duty officer's cap
+  name: кепка дежурного офицера
   description: I'm the only thing that can protect this station from chaos.
   components:
     - type: Sprite
@@ -170,7 +170,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatBeretDutyOfficer
-  name: duty officer's beret
+  name: берет дежурного офицера
   description: A dark-red beret themed after the warden's. Not bad, not bad.
   components:
     - type: Sprite
@@ -186,7 +186,7 @@
 - type: entity
   parent: [ClothingHeadBaseSummer, BaseCommandContraband]
   id: ClothingHeadHatSheriffHat
-  name: head of security's sheriff hat
+  name: шерифская шляпа главы службы безопасности
   description: It's high noon.
   components:
     - type: Sprite
@@ -203,7 +203,7 @@
 - type: entity
   parent: [ClothingHeadBase, BaseSecurityContraband]
   id: ClothingHeadDeputyHat
-  name: deputy's hat
+  name: шляпа заместителя
   description: el desperados...
   components:
     - type: Sprite
@@ -221,7 +221,7 @@
 - type: entity
   parent: [ClothingHeadBaseWinter, BaseSovietContraband]
   id: ClothingHeadHatUshankaAlt
-  name: SNKVD ushanka
+  name: ушанка СНКВД
   description: Disappearances are entirely voluntary, tovarisch.
   components:
     - type: Sprite
@@ -238,7 +238,7 @@
 - type: entity
   parent: [ClothingHeadBase, BaseSovietContraband]
   id: ClothingHeadHatSovietAdmiralHat
-  name: soviet admiral hat
+  name: шапка советского адмирала
   description: This hat clearly belongs to someone very important.
   components:
     - type: Sprite
@@ -254,7 +254,7 @@
 - type: entity
   parent: ClothingHeadBaseSummer
   id: ClothingHeadHatBrimHat
-  name: wide brimmed hat
+  name: широкополая шляпа
   description: Keep that bloody sun out of your eyes.
   components:
     - type: Sprite
@@ -269,7 +269,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatFeatheredHat
-  name: feathered hat
+  name: шляпа с перьями
   description: You own theses streets.
   components:
     - type: Sprite
@@ -284,7 +284,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatTVHead
-  name: tv head
+  name: голова-телевизор
   description: The label says it will make you look like a true Tumblr sexyman. What does that even mean?
   components:
     - type: Sprite
@@ -299,7 +299,7 @@
 - type: entity
   parent: ClothingHeadBase # Hat, not an actual helmet
   id: ClothingHeadHelmetSilverMusician
-  name: legendary silver helm
+  name: легендарный серебряный шлем
   description: The old silver helm of the famous musician duo. One more time?
   components:
     - type: Sprite
@@ -337,7 +337,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHoney
-  name: honey pancake hat
+  name: медовая шляпа-блин
   description: Hat shaped like golden pancakes drizzled with honey, creating a warm and delightful look.
   components:
     - type: Sprite
@@ -348,7 +348,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadBase0121
-  name: wide-brimmed gilded hat
+  name: позолоченная широкополая шляпа
   description: A cream-white wide-brimmed hat with large white feathers and golden trim.
   components:
     - type: Sprite
@@ -359,7 +359,7 @@
 - type: entity
   parent: [ClothingHeadBase]
   id: ClothingHeadHatTophatBig
-  name: big tophat
+  name: большой цилиндр
   description: This hat clearly belongs to someone very, very important.
   components:
   - type: Sprite
@@ -374,7 +374,7 @@
 - type: entity
   parent: [ClothingHeadHatTophatBig]
   id: ClothingHeadHatTophatBigWhite
-  name: big tophat
+  name: большой цилиндр
   description: This hat clearly belongs to someone very, very important.
   components:
   - type: Sprite
@@ -385,7 +385,7 @@
 - type: entity
   parent: [ClothingHeadHatTophat]
   id: ClothingHeadHatTophatBrass
-  name: clockwork tophat
+  name: заводной цилиндр
   description: This hat draws attention with it's whirly gizmos!
   components:
   - type: Sprite
@@ -403,7 +403,7 @@
 - type: entity
   parent: [ClothingHeadBaseSummer]
   id: ClothingHeadHatStrawHatWide
-  name: wide straw hat
+  name: широкая соломенная шляпа
   description: Makes you look mysterious.
   components:
   - type: Sprite
@@ -419,7 +419,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatNTRTophat
-  name: nt rep tophat
+  name: цилиндр представителя НТ
   description: A fancy black tophat, handmade for the NanoTrasen Rep. It looks expensive.
   components:
     - type: Sprite
@@ -439,7 +439,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatNTREliteTophat
-  name: nt rep elite tophat
+  name: элитный цилиндр представителя НТ
   description: An expensive looking black tophat. the gold embossing on the front shows the NanoTrasen logo, fitting for an NT rep.
   components:
     - type: Sprite
@@ -459,7 +459,7 @@
 - type: entity
   parent: [ClothingHeadBase, BaseCentcommContraband]
   id: ClothingHeadHatCCberet
-  name: CentComm beret
+  name: берет ЦК
   description: A green beret, like any other beret but green and you can't have it.
   components:
     - type: Sprite
@@ -474,7 +474,7 @@
 - type: entity
   parent: [ClothingHeadBase, BaseCentcommContraband]
   id: ClothingHeadHatCapCentcommCMD
-  name: Central Medical Division cap
+  name: кепка Центрального медицинского дивизиона
   description: A light blue cap, that's too cool for you crewmate.
   components:
     - type: Sprite
@@ -489,7 +489,7 @@
 - type: entity
   parent: [ClothingHeadBase, BaseCentcommContraband]
   id: ClothingHeadHatCapCentcommCRD
-  name: Central Research Division cap
+  name: кепка Центрального научного дивизиона
   description: A light purple cap, that's too cool for you crewmate.
   components:
     - type: Sprite
@@ -504,7 +504,7 @@
 - type: entity
   parent: [ClothingHeadBase, BaseCentcommContraband]
   id: ClothingHeadHatCapCentcommCAD
-  name: Central Administration Division cap
+  name: кепка Центрального административного дивизиона
   description: A blue cap, that's too cool for you crewmate.
   components:
     - type: Sprite
@@ -519,7 +519,7 @@
 - type: entity
   parent: [ClothingHeadBase, BaseCentcommContraband]
   id: ClothingHeadHatCapCentcommCCD
-  name: Central Cargo Division cap
+  name: кепка Центрального грузового дивизиона
   description: An orange cap, that's too cool for you crewmate.
   components:
     - type: Sprite
@@ -534,7 +534,7 @@
 - type: entity
   parent: [ClothingHeadBase, BaseCentcommContraband]
   id: ClothingHeadHatCapCentcommCSOD
-  name: Central Special Operations Division cap
+  name: кепка Центрального дивизиона спецопераций
   description: A pink cap, that's too cool for you crewmate.
   components:
     - type: Sprite
@@ -549,7 +549,7 @@
 - type: entity
   parent: [ClothingHeadBase, BaseCentcommContraband]
   id: ClothingHeadHatCapCentcommCID
-  name: Central Intelligence Division cap
+  name: кепка Центрального разведывательного дивизиона
   description: A purple cap, that's too cool for you crewmate.
   components:
     - type: Sprite
@@ -564,7 +564,7 @@
 - type: entity
   parent: [ClothingHeadBase, BaseCentcommContraband]
   id: ClothingHeadHatCapCentcommCSD
-  name: Central Security Division cap
+  name: кепка Центрального дивизиона безопасности
   description: A red cap, that's too cool for you crewmate.
   components:
     - type: Sprite
@@ -579,7 +579,7 @@
 - type: entity
   parent: [ClothingHeadBase, BaseCentcommContraband]
   id: ClothingHeadHatCapCentcommCED
-  name: Central Engineering Division cap
+  name: кепка Центрального инженерного дивизиона
   description: A yellow cap, that's too cool for you crewmate.
   components:
     - type: Sprite
@@ -594,7 +594,7 @@
 - type: entity
   parent: [ClothingHeadBase, BaseCentcommContraband]
   id: ClothingHeadHatBountyCentcommCMD
-  name: Central Medical Division bounty hunter hat
+  name: шляпа охотника за головами Центрального медицинского дивизиона
   description: A sheriff's hat in the signature Central Medical Division's colors, one look at this might make a tider think twice from sneaking into debrief.
   components:
     - type: Sprite
@@ -609,7 +609,7 @@
 - type: entity
   parent: [ClothingHeadBase, BaseCentcommContraband]
   id: ClothingHeadHatBountyCentcommCRD
-  name: Central Research Division bounty hunter hat
+  name: шляпа охотника за головами Центрального научного дивизиона
   description: A sheriff's hat in the signature Central Research Division's colors, one look at this might make a tider think twice from sneaking into debrief.
   components:
     - type: Sprite
@@ -624,7 +624,7 @@
 - type: entity
   parent: [ClothingHeadBase, BaseCentcommContraband]
   id: ClothingHeadHatBountyCentcommCAD
-  name: Central Administration Division bounty hunter hat
+  name: шляпа охотника за головами Центрального административного дивизиона
   description: A sheriff's hat in the signature Central Administration Division's colors, one look at this might make a tider think twice from sneaking into debrief.
   components:
     - type: Sprite
@@ -639,7 +639,7 @@
 - type: entity
   parent: [ClothingHeadBase, BaseCentcommContraband]
   id: ClothingHeadHatBountyCentcommCCD
-  name: Central Cargo Division bounty hunter hat
+  name: шляпа охотника за головами Центрального грузового дивизиона
   description: A sheriff's hat in the signature Central Cargo Division's colors, one look at this might make a tider think twice from sneaking into debrief.
   components:
     - type: Sprite
@@ -654,7 +654,7 @@
 - type: entity
   parent: [ClothingHeadBase, BaseCentcommContraband]
   id: ClothingHeadHatBountyCentcommCSOD
-  name: Central Special Operations Division bounty hunter hat
+  name: шляпа охотника за головами Центрального дивизиона спецопераций
   description: A sheriff's hat in the signature Central Special Operations Division's colors, one look at this might make a tider think twice from sneaking into debrief.
   components:
     - type: Sprite
@@ -669,7 +669,7 @@
 - type: entity
   parent: [ClothingHeadBase, BaseCentcommContraband]
   id: ClothingHeadHatBountyCentcommCID
-  name: Central Intelligence Division bounty hunter hat
+  name: шляпа охотника за головами Центрального разведывательного дивизиона
   description: A sheriff's hat in the signature Central Intelligence Division's colors, one look at this might make a tider think twice from sneaking into debrief.
   components:
     - type: Sprite
@@ -684,7 +684,7 @@
 - type: entity
   parent: [ClothingHeadBase, BaseCentcommContraband]
   id: ClothingHeadHatBountyCentcommCSD
-  name: Central Security Division bounty hunter hat
+  name: шляпа охотника за головами Центрального дивизиона безопасности
   description: A sheriff's hat in the signature Central Security Division's colors, one look at this might make a tider think twice from sneaking into debrief.
   components:
     - type: Sprite
@@ -699,7 +699,7 @@
 - type: entity
   parent: [ClothingHeadBase, BaseCentcommContraband]
   id: ClothingHeadHatBountyCentcommCED
-  name: Central Engineering Division bounty hunter hat
+  name: шляпа охотника за головами Центрального инженерного дивизиона
   description: A sheriff's hat in the signature Central Engineering Division's colors, one look at this might make a tider think twice from sneaking into debrief.
   components:
     - type: Sprite
@@ -714,7 +714,7 @@
 - type: entity
   parent: [ClothingHeadBase, BaseCentcommContraband]
   id: ClothingHeadHatBeretCentcommCMD
-  name: Central Medical Division beret
+  name: берет Центрального медицинского дивизиона
   description: A light blue beret, like any other beret, you can't have it.
   components:
     - type: Sprite
@@ -729,7 +729,7 @@
 - type: entity
   parent: [ClothingHeadBase, BaseCentcommContraband]
   id: ClothingHeadHatBeretCentcommCRD
-  name: Central Research Division beret
+  name: берет Центрального научного дивизиона
   description: A light purple beret, like any other beret, you can't have it.
   components:
     - type: Sprite
@@ -744,7 +744,7 @@
 - type: entity
   parent: [ClothingHeadBase, BaseCentcommContraband]
   id: ClothingHeadHatBeretCentcommCAD
-  name: Central Administration Division beret
+  name: берет Центрального административного дивизиона
   description: A blue beret, like any other beret, you can't have it.
   components:
     - type: Sprite
@@ -759,7 +759,7 @@
 - type: entity
   parent: [ClothingHeadBase, BaseCentcommContraband]
   id: ClothingHeadHatBeretCentcommCCD
-  name: Central Cargo Division beret
+  name: берет Центрального грузового дивизиона
   description: An orange beret, like any other beret, you can't have it.
   components:
     - type: Sprite
@@ -774,7 +774,7 @@
 - type: entity
   parent: [ClothingHeadBase, BaseCentcommContraband]
   id: ClothingHeadHatBeretCentcommCSOD
-  name: Central Special Operations Division beret
+  name: берет Центрального дивизиона спецопераций
   description: A pink beret, like any other beret, you can't have it.
   components:
     - type: Sprite
@@ -789,7 +789,7 @@
 - type: entity
   parent: [ClothingHeadBase, BaseCentcommContraband]
   id: ClothingHeadHatBeretCentcommCID
-  name: Central Intelligence Division beret
+  name: берет Центрального разведывательного дивизиона
   description: A purple beret, like any other beret, you can't have it.
   components:
     - type: Sprite
@@ -804,7 +804,7 @@
 - type: entity
   parent: [ClothingHeadBase, BaseCentcommContraband]
   id: ClothingHeadHatBeretCentcommCSD
-  name: Central Security Division beret
+  name: берет Центрального дивизиона безопасности
   description: A red beret, like any other beret, you can't have it.
   components:
     - type: Sprite
@@ -819,7 +819,7 @@
 - type: entity
   parent: [ClothingHeadBase, BaseCentcommContraband]
   id: ClothingHeadHatBeretCentcommCED
-  name: Central Engineering Division beret
+  name: берет Центрального инженерного дивизиона
   description: A yellow beret, like any other beret, you can't have it.
   components:
     - type: Sprite
@@ -834,7 +834,7 @@
 - type: entity
   parent: [ClothingHeadBase, BaseCentcommContraband]
   id: ClothingHeadHatCCSheriffhat
-  name: central command sheriff's hat
+  name: шерифская шляпа центрального командования
   description: A sheriff's hat in the signature CC colors, one look at this might make a tider think twice from sneaking into debrief.
   components:
     - type: Sprite
@@ -845,7 +845,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatBeretCargo
-  name: cargo beret
+  name: берет грузчика
   description: A beret with the cargo department's insignia. Deliver crates in style.
   components:
     - type: Sprite
@@ -864,7 +864,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatBeretCargoFormal
-  name: formal cargo beret
+  name: торжественный берет грузчика
   description: A distinguished beret with the cargo department's insignia. Reserved for cargo's finest.
   components:
     - type: Sprite
@@ -883,7 +883,7 @@
 - type: entity
   parent: [ClothingHeadBase, BaseSalvageContraband]
   id: ClothingHeadHatBeretSalvageMercBrown
-  name: brown scrapper beret
+  name: коричневый берет утилизатора
   description: A brown beret.
   components:
     - type: Sprite
@@ -898,7 +898,7 @@
 - type: entity
   parent: [ClothingHeadBase, BaseSalvageContraband]
   id: ClothingHeadHatBeretSalvageMercGreen
-  name: green scrapper beret
+  name: зелёный берет утилизатора
   description: A green beret.
   components:
     - type: Sprite
@@ -913,7 +913,7 @@
 - type: entity
   parent: [ClothingHeadBase, BaseSalvageContraband]
   id: ClothingHeadHatBeretSalvageMercPurple
-  name: purple scrapper beret
+  name: фиолетовый берет утилизатора
   description: A purple beret.
   components:
     - type: Sprite
@@ -928,7 +928,7 @@
 - type: entity
   parent: [BaseTSFContraband, ClothingHeadBase]
   id: ClothingHeadHatBeretTSF
-  name: tsf beret
+  name: берет ТСФ
   description: A beret worn by marines of the Trans-Solar Federation.
   components:
     - type: Sprite
@@ -939,7 +939,7 @@
 - type: entity
   parent: [BaseTSFContraband, ClothingHeadBase]
   id: ClothingHeadHatBeretTSFElite
-  name: MARSOC beret
+  name: берет MARSOC
   description: A beret worn by junior officers of the Trans-Solar Federation's Marine Special Operations Command.
   components:
     - type: Sprite
@@ -950,7 +950,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: RedRegaliaHat
-  name: red regalia Hat
+  name: красная парадная шляпа
   description: A fancy red hat like a mafiaoso would wear.
   components:
     - type: Sprite
@@ -961,7 +961,7 @@
 - type: entity
   parent: [ClothingHeadBase, BaseNanoTrasenContraband]
   id: ClothingHeadHatBeretNCTBlack
-  name: nt career trainer's beret
+  name: берет тренера НТ
   description: A beret worn by the mentors and trainers of the Career Training Team. This one is black!
   components:
     - type: Sprite
@@ -982,7 +982,7 @@
 - type: entity
   parent: [ClothingHeadBaseSummer, BaseNanoTrasenContraband]
   id: ClothingHeadHatDrilltrainer
-  name: campaign hat
+  name: шляпа инструктора
   description: A wide-brimmed campaign hat with a drill sergeant feel, worn by Career Trainers to project knowledge and guide new employees with classic style.
   components:
     - type: Sprite
@@ -993,7 +993,7 @@
 - type: entity
   parent: [ClothingHeadBase, BaseTSFContraband]
   id: ClothingHeadHatRetroOfficer
-  name: tsf officer's cap
+  name: кепка офицера ТСФ
   description: A peaked cap from the Trans Solar Federation's law enforcement division. This peacekeeping headgear symbolizes TSF authority across known space.
   components:
   - type: Sprite
@@ -1004,7 +1004,7 @@
 - type: entity
   parent: ClothingHeadHatWizard
   id: ClothingHeadHatWitchyHat
-  name: witchy hat
+  name: ведьмина шляпа
   description: Wicky-wicky-witchy hat!
   components:
   - type: Sprite
@@ -1016,7 +1016,7 @@
 - type: entity
   parent: ClothingHeadHatRedwizard # Parents red since red wizard hat sprite base
   id: ClothingHeadHatYellowwizard
-  name: yellow wizard hat
+  name: жёлтая шляпа волшебника
   description: A strange-looking yellow hat that most certainly belongs to a powerful magic-user.
   components:
   - type: Sprite
@@ -1027,7 +1027,7 @@
 - type: entity
   parent: ClothingHeadHatWizard # Parents blue since blue wizard hat sprite base
   id: ClothingHeadHatGreenwizard
-  name: green wizard hat
+  name: зелёная шляпа волшебника
   description: A strange-looking green hat that most certainly belongs to a powerful magic-user.
   components:
   - type: Sprite
@@ -1038,7 +1038,7 @@
 - type: entity
   parent: ClothingHeadHatWizard # Parents blue since blue wizard hat sprite base
   id: ClothingHeadHatPurplewizard
-  name: purple wizard hat
+  name: фиолетовая шляпа волшебника
   description: A strange-looking purple hat that most certainly belongs to a powerful magic-user.
   components:
   - type: Sprite
@@ -1049,7 +1049,7 @@
 - type: entity
   parent: ClothingHeadHatWizard # Parents blue since blue wizard hat sprite base
   id: ClothingHeadHatOrangewizard
-  name: orange wizard hat
+  name: оранжевая шляпа волшебника
   description: A strange-looking orange hat that most certainly belongs to a powerful magic-user.
   components:
   - type: Sprite
@@ -1060,7 +1060,7 @@
 - type: entity
   parent: ClothingHeadHatWizardBase # Parents base since no hamster sprite
   id: ClothingHeadHatPeachwizard
-  name: peach wizard hat
+  name: персиковая шляпа волшебника
   description: A strange-looking peach hat that most certainly belongs to a powerful magic-user.
   components:
   - type: Sprite
@@ -1077,7 +1077,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatBunnyGang
-  name: Bunny Gang Hat
+  name: шляпа заячьей банды
   description: The hat of a secretive group of bunny mercenaries.
   components:
     - type: Sprite
@@ -1088,7 +1088,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatBeretPrison
-  name: prison beret
+  name: тюремный берет
   description: A criminal's least favorite headwear.
   components:
   - type: Sprite
@@ -1107,7 +1107,7 @@
 - type: entity
   parent: [ClothingHeadBase, BaseCommandContraband]
   id: ClothingHeadHatBeretCaptain
-  name: captain's beret
+  name: берет капитана
   description: A tight fitting beret that leaves you questioning if the headache is really from the crew.
   components:
     - type: Sprite
@@ -1124,7 +1124,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatPastelFrill
-  name: pastel frill headpiece # Alternative Clothing Catalog
+  name: пастельный головной убор с рюшами
   description: A pretty pink headpiece with frills and lace.
   components:
     - type: Sprite
@@ -1135,7 +1135,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatGothicFrill
-  name: gothic frill headpiece # Alternative Clothing Catalog
+  name: готический головной убор с рюшами
   description: A pretty black headpiece with frills and lace.
   components:
     - type: Sprite
@@ -1146,7 +1146,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatFloppyBunny
-  name: floppy bunny ears # Alternative Clothing Catalog
+  name: висячие заячьи уши
   description: A pair of floppy bunny ears with piercings.
   components:
     - type: Sprite
@@ -1157,7 +1157,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatFloppyBunnyWhite
-  name: white floppy bunny ears # Alternative Clothing Catalog
+  name: белые висячие заячьи уши
   description: A pair of floppy bunny ears with piercings.
   components:
     - type: Sprite
@@ -1168,7 +1168,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatFroggyHat
-  name: froggy hat # Alternative Clothing Catalog
+  name: лягушачья шапка
   description: A froggy hat - is froggy, is hat. What more is there to say?
   components:
     - type: Sprite
@@ -1179,7 +1179,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatKittyHat
-  name: kitty hat # Alternative Clothing Catalog
+  name: шапка с кошачьими ушками
   description: A black cat hat, with dangly pom poms.
   components:
     - type: Sprite
@@ -1190,7 +1190,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadLittleAngelEars
-  name: little angel feathered ears # Alternative Clothing Catalog
+  name: пернатые ушки маленького ангела
   description: A pair of angelic feathered ears, matches with the rest of the set!
   components:
     - type: Sprite
@@ -1201,7 +1201,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadLittleDevilHorns
-  name: little devil horns # Alternative Clothing Catalog
+  name: рожки маленького дьявола
   description: A pair of devilish horns, matches with the rest of the set!
   components:
     - type: Sprite
@@ -1212,7 +1212,7 @@
 - type: entity
   parent: [ClothingHeadBase, BaseCommandContraband]
   id: ClothingHeadHatBeretRD
-  name: research director's beret
+  name: берет научного руководителя
   description: A nice beret were it not tainted by the scars of many experiments.
   components:
     - type: Sprite
@@ -1229,7 +1229,7 @@
 - type: entity
   parent: [ClothingHeadBase, BaseNanoTrasenContraband]
   id: ClothingHeadHatBeretMagistrate
-  name: magistrate's beret
+  name: берет магистрата
   description: A beret for when a wig really doesn't cut it.
   components:
     - type: Sprite
@@ -1246,7 +1246,7 @@
 - type: entity
   parent: [ClothingHeadBase, BaseNanoTrasenContraband]
   id: ClothingHeadHatBeretNTR
-  name: nanotrasen representative's beret
+  name: берет представителя НаноТрейзен
   description: A decorated beret awarded to the best paperpushers in NT.
   components:
     - type: Sprite

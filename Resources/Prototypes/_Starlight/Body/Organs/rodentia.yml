@@ -1,9 +1,9 @@
 - type: entity
   id: OrganRodentiaEyes
   parent: OrganHumanEyes
-  name: ent-OrganRodentiaEyes
+  name: глаза родентии
   suffix: Rodentia
-  description: ent-OrganRodentiaEyes-desc
+  description: Глаза-бусины родентии.
   components:
   - type: OrganVisualization
     layer: Eyes
@@ -13,9 +13,9 @@
 - type: entity
   id: OrganRodentiaStomach
   parent: OrganHumanStomach
-  name: ent-OrganRodentiaStomach
+  name: желудок родентии
   suffix: Rodentia
-  description: ent-OrganRodentiaStomach-desc
+  description: Устойчивый желудок родентии.
   components:
     - type: Metabolizer
       metabolizerTypes: [ Rodentia ]
@@ -23,9 +23,9 @@
 - type: entity
   id: OrganRodentiaHeart
   parent: OrganHumanHeart
-  name: ent-OrganRodentiaHeart
+  name: сердце родентии
   suffix: Rodentia
-  description: ent-OrganRodentiaHeart-desc
+  description: Сердце родентии, подобное животному.
   components:
     - type: Metabolizer
       metabolizerTypes: [ Rodentia ]

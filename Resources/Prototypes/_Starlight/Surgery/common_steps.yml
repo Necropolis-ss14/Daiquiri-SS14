@@ -1,7 +1,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepExposeNerves
-  name: Expose Nerves
+  name: Обнажить нервы
   components:
   - type: SurgeryStep
     duration: 4
@@ -15,7 +15,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepExposeBloodVessels
-  name: Expose Blood Vessels
+  name: Обнажить кровеносные сосуды
   components:
   - type: SurgeryStep
     duration: 4
@@ -29,7 +29,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepDeepIncision
-  name: Deep Incision
+  name: Глубокий разрез
   components:
     - type: SurgeryStep
       duration: 5
@@ -43,7 +43,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepRetractSkin
-  name: Retract the skin
+  name: Оттянуть кожу
   components:
   - type: SurgeryStep
     tools:
@@ -57,12 +57,12 @@
 - type: entity
   parent: SurgeryStepRetractSkin
   id: SurgeryStepRetractMembrane
-  name: Retract the membrane
+  name: Оттянуть мембрану
 
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepCoagulateJellyFlow
-  name: Coagulate Jelly Flow
+  name: Остановить вытекание геля
   components:
   - type: SurgeryStep
     tools:

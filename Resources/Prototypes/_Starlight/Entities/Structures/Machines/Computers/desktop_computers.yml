@@ -86,7 +86,7 @@
 - type: entity
   id: DesktopComputerFrame
   parent: BaseStructureDesktopComputer
-  name: desktop computer frame
+  name: корпус настольного компьютера
   description: A desktop computer under construction.
   components:
   - type: Sprite
@@ -111,7 +111,7 @@
 - type: entity
   parent: BaseStructureDesktopComputer
   id: DesktopComputerBroken
-  name: broken desktop computer
+  name: сломанный настольный компьютер
   description: Oh no! Cloopy is dead!
   components:
   - type: Construction
@@ -153,7 +153,7 @@
 - type: entity
   parent: [ BaseDesktop, ComputerAlert ]
   id: ComputerAlertDesktop
-  name: atmospheric alerts desktop computer
+  name: настольный компьютер атмосферных тревог
   description: Used to access the station's atmospheric automated alert system.
   components:
   - type: Computer
@@ -162,7 +162,7 @@
 - type: entity
   parent: [ BaseDesktop, ComputerAtmosMonitoring ]
   id: ComputerAtmosMonitoringDesktop
-  name: desktop atmospheric network monitor
+  name: настольный монитор атмосферной сети
   description: Used to monitor the station's atmospheric networks.
   components:
   - type: Computer
@@ -171,7 +171,7 @@
 - type: entity
   parent: [ BaseDesktop, ComputerSurveillanceCameraMonitor ]
   id: ComputerSurveillanceCameraMonitorDesktop
-  name: camera monitor
+  name: монитор камер
   description: A surveillance camera monitor. You're watching them. Maybe.
   components:
   - type: Computer
@@ -192,7 +192,7 @@
 - type: entity
   parent: [ BaseDesktop, ComputerCargoBounty ]
   id: ComputerCargoBountyDesktop
-  name: cargo bounty desktop computer
+  name: настольный компьютер наград карго
   description: Used to manage currently active bounties.
   components:
   - type: Computer
@@ -201,7 +201,7 @@
 - type: entity
   parent: [ BaseDesktop, ComputerCrewMonitoring ]
   id: ComputerCrewMonitoringDesktop
-  name: desktop crew monitoring console
+  name: настольная консоль мониторинга экипажа
   description: Used to monitor active health sensors built into most of the crew's uniforms.
   components:
   - type: Computer
@@ -210,7 +210,7 @@
 - type: entity
   parent: [ BaseDesktop, ComputerCriminalRecords ]
   id: ComputerCriminalRecordsDesktop
-  name: security records desktop computer
+  name: настольный компьютер записей СБ
   description: This can be used to access security records.
   components:
   - type: Computer
@@ -219,7 +219,7 @@
 - type: entity
   parent: [ BaseDesktop, ComputerStationRecords ]
   id: ComputerStationRecordsDesktop
-  name: employment records desktop computer
+  name: настольный компьютер кадровых записей
   description: This can be used to check employment records.
   components:
   - type: Computer
@@ -228,7 +228,7 @@
 - type: entity
   parent: [ BaseDesktop, ComputerMassMedia ]
   id: ComputerMassMediaDesktop
-  name: news manager desktop computer
+  name: настольный компьютер менеджера новостей
   components:
   - type: Computer
     board: ComputerMassMediaCircuitboardDesktop
@@ -236,7 +236,7 @@
 - type: entity
   parent: [ BaseDesktop, ComputerPowerMonitoring ]
   id: ComputerPowerMonitoringDesktop
-  name: power monitoring desktop computer
+  name: настольный компьютер мониторинга энергии
   description: It monitors power levels across the station.
   components:
   - type: Computer
@@ -245,7 +245,7 @@
 - type: entity
   parent: [ BaseDesktop, ComputerSalvageJobBoard ]
   id: ComputerSalvageJobBoardDesktop
-  name: salvage job board
+  name: доска заданий утилизаторов
   description: Console for accessing salvage jobs, if you're tough enough.
   components:
   - type: Computer
@@ -254,7 +254,7 @@
 - type: entity
   parent: [ BaseDesktop, ComputerCargoOrders ]
   id: ComputerCargoOrdersDesktop
-  name: cargo request desktop computer
+  name: настольный компьютер запросов карго
   description: Used to order supplies and approve requests.
   components:
   - type: Computer
@@ -264,7 +264,7 @@
 - type: entity
   parent: [ BaseDesktop, ComputerCargoOrdersEngineering ]
   id: ComputerCargoOrdersEngineeringDesktop
-  name: engineering request desktop computer
+  name: настольный компьютер инженерных запросов
   description: Used by the engineering department to order supplies.
   components:
   - type: Computer
@@ -273,7 +273,7 @@
 - type: entity
   parent: [ BaseDesktop, ComputerCargoOrdersMedical ]
   id: ComputerCargoOrdersMedicalDesktop
-  name: medical request desktop computer
+  name: настольный компьютер медицинских запросов
   description: Used by the medical department to order supplies.
   components:
   - type: Computer
@@ -282,7 +282,7 @@
 - type: entity
   parent: [ BaseDesktop, ComputerCargoOrdersScience ]
   id: ComputerCargoOrdersScienceDesktop
-  name: science request desktop computer
+  name: настольный компьютер научных запросов
   description: Used by the science department to order supplies.
   components:
   - type: Computer
@@ -291,7 +291,7 @@
 - type: entity
   parent: [ BaseDesktop, ComputerCargoOrdersSecurity ]
   id: ComputerCargoOrdersSecurityDesktop
-  name: security request desktop computer
+  name: настольный компьютер запросов СБ
   description: Used by the security department to order supplies.
   components:
   - type: Computer
@@ -300,7 +300,7 @@
 - type: entity
   parent: [ BaseDesktop, ComputerCargoOrdersService ]
   id: ComputerCargoOrdersServiceDesktop
-  name: service request desktop computer
+  name: настольный компьютер сервисных запросов
   description: Used by the service department to order supplies.
   components:
   - type: Computer
@@ -312,7 +312,7 @@
 - type: entity
   parent: [ BaseDesktop, BaseComputerAiAccess, StorePresetUplink ]
   id: ComputerPersonalDesktop
-  name: personal desktop computer
+  name: персональный настольный компьютер
   description: For all your stationary computing needs!
   components:
   - type: Sprite

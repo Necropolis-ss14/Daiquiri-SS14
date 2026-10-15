@@ -1,7 +1,7 @@
 - type: entity
   id: OrganVulpkaninHeart
   parent: OrganAnimalHeart
-  name: vulpkanin heart
+  name: "{ ent-OrganBaseHeart }"
   suffix: Vulpkanin
   description: "A disgustingly hyperactive pump designed to keep things animate."
   components:
@@ -14,7 +14,7 @@
 - type: entity
   id: OrganVulpkaninStomach
   parent: [OrganAnimalStomach, BaseOrganStomach] # Starlight - add BaseOrganStomach
-  name: vulpkanin stomach # Starlight
+  name: "ent-OrganVulpkaninStomach # Starlight"
   suffix: Vulpkanin
   description: "A nearly bottomless caloric pit." # Starlight
   components:
@@ -38,7 +38,7 @@
 - type: entity
   id: OrganVulpkaninEyes
   parent: OrganHumanEyes
-  name: vulpkanin eyes
+  name: "{ ent-OrganBaseEyes }"
   suffix: Vulpkanin
   components:
   - type: Sprite
@@ -50,7 +50,7 @@
 - type: entity
   id: OrganVulpkaninTongue
   parent: OrganHumanTongue
-  name: vulpkanin tongue
+  name: "{ ent-OrganBaseTongue }"
   suffix: Vulpkanin
   components:
     - type: Sprite
@@ -66,7 +66,7 @@
 - type: entity
   id: OrganVulpkaninLungs
   parent: OrganHumanLungs
-  name: vulpkanin lungs
+  name: "{ ent-OrganBaseLungs }"
   suffix: Vulpkanin
   components:
   - type: Sprite
@@ -78,7 +78,7 @@
 - type: entity
   id: OrganVulpkaninLiver
   parent: OrganAnimalLiver
-  name: vulpkanin liver
+  name: "{ ent-OrganBaseLiver }"
   suffix: Vulpkanin
   components:
   - type: Sprite
@@ -88,7 +88,7 @@
 - type: entity
   id: OrganVulpkaninKidneys
   parent: OrganHumanKidneys
-  name: vulpkanin kidneys
+  name: "{ ent-OrganBaseKidneys }"
   suffix: Vulpkanin
   components:
   - type: Sprite

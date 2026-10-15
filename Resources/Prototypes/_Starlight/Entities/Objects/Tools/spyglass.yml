@@ -24,7 +24,7 @@
     price: 250
 
 - type: entity
-  name: captains spyglass
+  name: подзорная труба капитана
   parent: [ BaseItem, BaseGrandTheftContraband ]
   id: SpyglassCaptain
   description: Used for long-distance spying. Makes you feel like a captain.
@@ -54,7 +54,7 @@
     stealGroup: SpyglassCaptain
 
 - type: entity
-  name: improvised spyglass
+  name: импровизированная подзорная труба
   parent: BaseItem
   id: SpyglassImprovised
   description: Used for long-distance spying. Makes you worry you might cut your eye on the lens.

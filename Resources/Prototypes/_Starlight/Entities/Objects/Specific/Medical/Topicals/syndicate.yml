@@ -1,8 +1,8 @@
 ## Bruise packs
 # "Syndicate" red bruise packs
 - type: entity
-  name: Interdyne bruise pack
-  description: Interdyne-Graded Bruise Packs for all your needs.
+  name: набор от ушибов Interdyne
+  description: Противоушибные наборы класса Interdyne на все случаи.
   parent: RedBrutePack
   id: SyndicateBrutePack
   suffix: Full
@@ -16,8 +16,8 @@
     count: 10
 
 - type: entity
-  name: Interdyne bruise pack
-  description: Interdyne-Graded Bruise Packs for all your needs. The red ones are supposedly rare.
+  name: набор от ушибов Interdyne
+  description: Противоушибные наборы класса Interdyne на все случаи. Красные якобы редкие.
   parent: SyndicateBrutePack
   id: SyndicateBrutePack1
   suffix: Single
@@ -37,8 +37,8 @@
 ## Ointments
 #"Syndicate" red ointment
 - type: entity
-  name: Interdyne ointment
-  description: Interdyne's special blend of pyrazine and aloe, used to treat severe burns. Does nothing for caustic.
+  name: мазь Interdyne
+  description: Фирменная смесь пиразина и алоэ от Interdyne против сильных ожогов. От кислотных не помогает.
   parent: RedOintment
   id: SyndicateOintment
   suffix: Full
@@ -52,8 +52,8 @@
     count: 10
 
 - type: entity
-  name: Interdyne ointment
-  description: Interdyne's special blend of pyrazine and aloe, used to treat severe burns. Does nothing for caustic. The red ones are supposedly rare.
+  name: мазь Interdyne
+  description: Фирменная смесь пиразина и алоэ от Interdyne против сильных ожогов. От кислотных не помогает. Красные якобы редкие.
   parent: SyndicateOintment
   id: SyndicateOintment1
   suffix: Single

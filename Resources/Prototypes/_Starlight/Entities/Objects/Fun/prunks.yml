@@ -1,5 +1,5 @@
 - type: entity
-  name: fragmentation grenade
+  name: осколочная граната
   description: "Makes a fake boom! The label reads: With love from HonkHonkers!"
   suffix: Fake
   id: FakeGrenade
@@ -32,7 +32,7 @@
         lifetime: 15
 
 - type: entity
-  name: holo-parasite injector
+  name: инъектор поддельного холопаразита
   description: The most intricate piece of art, based on... Oh, wait. It's a fake. The HonkHonkers store logo can be seen on the side.
   id: HoloparasiteFakeInjector
   parent: BaseHypospray
@@ -60,7 +60,7 @@
 
 
 - type: entity
-  name: toy dual-bladed sword
+  name: игрушечный двулезвийный меч
   description: The new dual plastic sword from Sandy-Cat! Twice the epicness and twice the loud sounds!
   id: ToySwordDoubled
   parent: ToySword
@@ -103,7 +103,7 @@
         Blunt: 0
 
 - type: entity
-  name: packaged anomaly
+  name: упакованная аномалия
   description: A universal assembly package used to create a fake anomaly. Specially from Hohohonkers!
   id: FakeAnomalyFlatpack
   parent: BaseFlatpack
@@ -264,7 +264,7 @@
 
 - type: entity
   id: BulletChonoLokeFakeBlast
-  name: fake blast
+  name: фальшивый взрыв
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
   components:
@@ -289,7 +289,7 @@
 
 - type: entity
   id: ChonoLokeFakeBlastShell
-  name: fake blast grenade shell
+  name: корпус поддельной светошумовой гранаты
   suffix: Chono Loke
   parent: BaseGrenade
   description: A DONK CO. brand grenade shell. The label promises a "BOOM!" but the fine print says "cosmetic only."
@@ -313,7 +313,7 @@
 
 - type: entity
   id: ChonoLokeFakeFragShell
-  name: fake frag grenade shell
+  name: корпус поддельной осколочной гранаты
   suffix: Chono Loke
   parent: BaseGrenade
   description: A DONK CO. brand frag shell. Features a very convincing explosive label. The fuse is a piece of string.
@@ -337,7 +337,7 @@
 
 - type: entity
   id: ChonoLokeCreamPieShell
-  name: Chono bannna cream pie tin
+  name: форма для бананового кремового пирога Чоно
   suffix: Chono Loke
   parent: BaseGrenade
   description: A DONK CO. "shell" that's literally just a banana cream pie crammed into a tube of a chono loke. Somehow, it works.
@@ -357,7 +357,7 @@
 - type: entity
   parent: Foolbox
   id: ChonoLokeBundleBag
-  name: DONK CO. Chono Loke bundle
+  name: набор Чоно Локе от DONK CO.
   description: A DONK CO. carry bag containing one (1) "totally real" grenade launcher and six (6) "totally real" grenade shells. DONK CO. accepts no liability for accidental honking.
   components:
   - type: Item

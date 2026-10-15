@@ -2,7 +2,7 @@
   parent: [ BaseCivilianContraband, SmokeGrenade ]
   id: WehGrenade
   name: wehnade
-  description: Grenade filled to the brim with weh foam.
+  description: Граната, доверху набитая вэх-пеной.
   components:
     - type: SmokeOnTrigger
       keysIn:
@@ -20,7 +20,7 @@
   id: WehGrenadePlus
   name: wehnade+
   suffix: Admeme
-  description: Grenade filled to the brin with weh foam. Now with bluespace technology!
+  description: Граната, доверху набитая вэх-пеной. Теперь с блюспейс-технологией!
   components:
     - type: SmokeOnTrigger
       keysIn:
@@ -38,7 +38,7 @@
   id: WehGrenadeUltraDeluxe
   name: wehnade++
   suffix: Admeme
-  description: Grenade filled to the brin with weh foam. We heard you liked bluespace, so we put bluespace in your bluespace so you can bluespace while you bluespace. Weh.
+  description: Граната, доверху набитая вэх-пеной. Слышали, тебе нравится блюспейс? Вот тебе блюспейс в блюспейсе, чтобы блюспейсить, пока блюспейсишь. Вэх.
   components:
     - type: SmokeOnTrigger
       keysIn:

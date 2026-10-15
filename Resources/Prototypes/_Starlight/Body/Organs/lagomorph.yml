@@ -1,9 +1,9 @@
 - type: entity
   id: OrganLagomorphEyes
   parent: OrganHumanEyes
-  name: ent-OrganLagomorphEyes
+  name: глаза лагоморфа
   suffix: Lagomorph
-  description: ent-OrganLagomorphEyes-desc
+  description: Такого нельзя было предвидеть.
   components:
   - type: OrganVisualization
     layer: Eyes
@@ -13,9 +13,9 @@
 - type: entity
   id: OrganLagomorphStomach
   parent: [OrganAnimalStomach, BaseOrganStomach]
-  name: ent-OrganLagomorphStomach
+  name: желудок лагоморфа
   suffix: Lagomorph
-  description: ent-OrganLagomorphStomach-desc
+  description: Тоскует по свежим овощам.
   components:
   - type: Sprite
     sprite: Mobs/Species/Human/organs.rsi
@@ -34,9 +34,9 @@
 - type: entity
   id: OrganLagomorphHeart
   parent: OrganAnimalHeart
-  name: ent-OrganLagomorphHeart
+  name: сердце лагоморфа
   suffix: Lagomorph
-  description: ent-OrganLagomorphHeart-desc
+  description: Быстро бьющееся сердце лагоморфа.
   components:
   - type: Sprite
     sprite: Mobs/Species/Human/organs.rsi

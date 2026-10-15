@@ -25,9 +25,9 @@
 - type: entity
   id: OrganNeocyteBrain
   parent: [BaseOrganBrain, BaseNeocyteOrgan]
-  name: ent-OrganNeocyteBrain
+  name: кибернетический мозг
   suffix: Neocyte
-  description: ent-OrganNeocyteBrain-desc
+  description: Источник невероятного, бесконечного интеллекта. 01201020 02102111 01201210 02121012 20121210
   components:
   - type: Sprite
     state: brain
@@ -35,9 +35,9 @@
 - type: entity
   id: OrganNeocyteEyes
   parent: [BaseNeocyteOrgan, BaseOrganEyes]
-  name: ent-OrganNeocyteEyes
+  name: кибернетические глаза
   suffix: Neocyte
-  description: ent-OrganNeocyteEyes-desc
+  description: Он всё ещё фокусируется на вас... Жутко.
   components:
   - type: Sprite
     layers:
@@ -62,9 +62,9 @@
 - type: entity
   id: OrganNeocyteTongue
   parent: [BaseNeocyteOrgan, BaseOrganTongue]
-  name: ent-OrganNeocyteTongue
+  name: кибернетический язык
   suffix: Neocyte
-  description: ent-OrganNeocyteTongue-desc
+  description: Полностью светящийся орган, обычно используемый для лжи или самовыражения. Иногда для того и другого сразу.
   components:
   - type: OrganTongue
     allowedEmotes: ['Chirp', 'Hisses', 'Squish', 'Bubble', 'Pop', 'Bubble', 'Pop', 'Purr', 'Growl', 'Trill', 'Scree', 'Call', 'Squawk', 'Bark', 'Snarl', 'Whine', 'Howl', 'Yip', 'Mew', 'Meow', 'Liss', 'Lurr', 'Rattle', "Marr", "Wurble", 'Chitter', 'Squeak', 'Click', 'Beep', 'Ping', 'Buzz', 'Buzz-Two', 'Chime', 'Honk', 'ThavenHum', 'ThavenGlub', 'Squee', 'Snort', 'Sneeze', 'LagomorphSnore']
@@ -86,9 +86,9 @@
 - type: entity
   id: OrganNeocyteTongueForked
   parent: [BaseNeocyteOrgan, BaseOrganTongue]
-  name: ent-OrganNeocyteTongueForked
+  name: раздвоенный кибернетический язык
   suffix: Neocyte
-  description: ent-OrganNeocyteTongueForked-desc
+  description: Полностью светящийся орган, обычно используемый для лжи или самовыражения. Иногда для того и другого сразу. Теперь разделён надвое.
   components:
   - type: OrganTongue
     allowedEmotes: ['Chirp', 'Hisses', 'Squish', 'Bubble', 'Pop', 'Bubble', 'Pop', 'Purr', 'Growl', 'Trill', 'Scree', 'Call', 'Squawk', 'Bark', 'Snarl', 'Whine', 'Howl', 'Yip', 'Mew', 'Meow', 'Liss', 'Lurr', 'Rattle', "Marr", "Wurble", 'Chitter', 'Squeak', 'Click', 'Beep', 'Ping', 'Buzz', 'Buzz-Two', 'Chime', 'Honk', 'ThavenHum', 'ThavenGlub', 'Squee', 'Snort', 'Sneeze', 'LagomorphSnore']
@@ -102,9 +102,9 @@
 - type: entity
   id: OrganNeocyteEars
   parent: [BaseNeocyteOrgan, BaseOrganEars]
-  name: ent-OrganNeocyteEars
+  name: кибернетические уши
   suffix: Neocyte
-  description: ent-OrganNeocyteEars-desc
+  description: Обрабатывают звук качественнее, чем у большинства гуманоидов, позволяя глубже ценить техно-музыку.
   components:
   - type: Sprite
     state: ears
@@ -112,9 +112,9 @@
 - type: entity
   id: OrganNeocyteLungs
   parent: [BaseNeocyteOrgan, BaseOrganLungs]
-  name: ent-OrganNeocyteLungs
+  name: кибернетические лёгкие
   suffix: Neocyte
-  description: ent-OrganNeocyteLungs-desc
+  description: Фильтруют кислород из атмосферы, который затем поступает в кровоток и используется как переносчик электронов. Полностью кибернетические по природе, работают в паре с системой фильтрации визора.
   components:
   - type: Sprite
     layers:
@@ -144,9 +144,9 @@
 - type: entity
   id: OrganNeocyteHeart
   parent: [BaseNeocyteOrgan, BaseOrganHeart]
-  name: ent-OrganNeocyteHeart
+  name: кибернетическое сердце
   suffix: Neocyte
-  description: ent-OrganNeocyteHeart-desc
+  description: На самом деле ему не нужно биться, оно лишь имитирует движение для комфорта пользователя.
   components:
   - type: Sprite
     state: heart-on
@@ -169,9 +169,9 @@
 - type: entity
   id: OrganNeocyteStomach
   parent: [OrganAnimalStomach, BaseOrganStomach]
-  name: ent-OrganNeocyteStomach
+  name: биологический реактор
   suffix: Neocyte
-  description: ent-OrganNeocyteStomach-desc
+  description: Кто-то сочтёт это избыточной инженерией, но он жизненно важен для функционирования неоцита. Превращает органику в органическую и электрическую энергию для питания кибернетики и плоти неоцита.
   components:
   - type: Sprite
     sprite: _FarHorizons/Mobs/Species/Protogen/organs.rsi
@@ -201,9 +201,9 @@
 - type: entity
   id: OrganNeocyteLiver
   parent: [BaseNeocyteOrgan, BaseOrganLiver]
-  name: ent-OrganNeocyteLiver
+  name: кибернетическая печень
   suffix: Neocyte
-  description: ent-OrganNeocyteLiver-desc
+  description: "Рекомендуемое сочетание: гарнир из ферментированных планок ОЗУ и хороший ЦП."
   components:
   - type: Sprite
     state: liver
@@ -226,9 +226,9 @@
 - type: entity
   id: OrganNeocyteKidneys
   parent: [BaseNeocyteOrgan, BaseOrganKidneys]
-  name: ent-OrganNeocyteKidneys
+  name: кибернетические почки
   suffix: Neocyte
-  description: ent-OrganNeocyteKidneys-desc
+  description: Выкачивают токсины из кровотока и служат небольшой биологической батареей для электрических компонентов.
   components:
   - type: Sprite
     layers:

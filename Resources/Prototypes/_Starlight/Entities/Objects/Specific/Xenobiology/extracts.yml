@@ -27,7 +27,7 @@
 - type: entity
   parent: BaseSlimeExtract
   id: GraySlimeExtract
-  name: gray slime extract
+  name: экстракт серого слайма
   components:
     - type: Sprite
       color: "#999999ff"
@@ -76,7 +76,7 @@
 - type: entity
   parent: BaseSlimeExtract
   id: OrangeSlimeExtract
-  name: orange slime extract
+  name: экстракт оранжевого слайма
   components:
     - type: Sprite
       color: "#f07a26ff"
@@ -134,7 +134,7 @@
 - type: entity
   parent: BaseSlimeExtract
   id: PurpleSlimeExtract
-  name: purple slime extract
+  name: экстракт фиолетового слайма
   components:
     - type: Sprite
       color: "#9721c2ff"
@@ -171,7 +171,7 @@
 - type: entity
   parent: BaseSlimeExtract
   id: BlueSlimeExtract
-  name: blue slime extract
+  name: экстракт синего слайма
   components:
     - type: Sprite
       color: "#34cfebff"
@@ -222,7 +222,7 @@
 - type: entity
   parent: SheetRGlass
   id: SheetRGlass5
-  name: reinforced glass
+  name: армированное стекло
   categories: [ HideSpawnMenu ]
   suffix: 5
   components:
@@ -247,7 +247,7 @@
 - type: entity
   parent: SheetPlasteel
   id: SheetPlasteel5
-  name: plasteel
+  name: пласталь
   categories: [ HideSpawnMenu ]
   suffix: 5
   components:
@@ -260,7 +260,7 @@
 - type: entity
   parent: SheetSteel
   id: SheetSteel15
-  name: steel
+  name: сталь
   categories: [ HideSpawnMenu ]
   suffix: 15
   components:
@@ -273,7 +273,7 @@
 - type: entity
   parent: BaseSlimeExtract
   id: MetalSlimeExtract
-  name: metal slime extract
+  name: экстракт металлического слайма
   components:
     - type: Sprite
       color: "#5e5e5eff"
@@ -320,7 +320,7 @@
 - type: entity
   parent: BaseSlimeExtract
   id: YellowSlimeExtract
-  name: yellow slime extract
+  name: экстракт жёлтого слайма
   components:
     - type: Sprite
       color: "#ffeb52ff"
@@ -380,7 +380,7 @@
 - type: entity
   parent: BaseSlimeExtract
   id: DarkPurpleSlimeExtract
-  name: dark purple slime extract
+  name: экстракт тёмно-фиолетового слайма
   components:
     - type: Sprite
       color: "#501466ff"
@@ -404,7 +404,7 @@
 - type: entity
   parent: BaseSlimeExtract
   id: DarkBlueSlimeExtract
-  name: dark blue slime extract
+  name: экстракт тёмно-синего слайма
   components:
     - type: Sprite
       color: "#132b6eff"
@@ -445,7 +445,7 @@
 - type: entity
   parent: BaseSlimeExtract
   id: SilverSlimeExtract
-  name: silver slime extract
+  name: экстракт серебряного слайма
   components:
     - type: Sprite
       color: "#aab8bdff"
@@ -486,7 +486,7 @@
 - type: entity
   parent: BaseSlimeExtract
   id: BluespaceSlimeExtract
-  name: bluespace slime extract
+  name: экстракт блюспейс-слайма
   components:
     - type: Sprite
       color: "#ffffffff"
@@ -536,7 +536,7 @@
 - type: entity
   parent: BaseSlimeExtract
   id: SepiaSlimeExtract
-  name: sepia slime extract
+  name: экстракт сепия-слайма
   components:
     - type: Sprite
       color: "#c9b7a9ff"
@@ -560,7 +560,7 @@
 - type: entity
   parent: BaseSlimeExtract
   id: CeruleanSlimeExtract
-  name: cerulean slime extract
+  name: экстракт лазурного слайма
   components:
     - type: Sprite
       color: "#5998b3ff"
@@ -585,7 +585,7 @@
 - type: entity
   parent: BaseSlimeExtract
   id: PyriteSlimeExtract
-  name: pyrite slime extract
+  name: экстракт пиритового слайма
   components:
     - type: Sprite
       color: "#ebe15bff"
@@ -637,7 +637,7 @@
 - type: entity
   parent: BaseSlimeExtract
   id: RedSlimeExtract
-  name: red slime extract
+  name: экстракт красного слайма
   components:
     - type: Sprite
       color: "#fc4e4eff"
@@ -675,7 +675,7 @@
 - type: entity
   parent: BaseSlimeExtract
   id: GreenSlimeExtract
-  name: green slime extract
+  name: экстракт зелёного слайма
   components:
     - type: Sprite
       color: "#4efc4eff"
@@ -712,7 +712,7 @@
 - type: entity
   parent: BaseSlimeExtract
   id: PinkSlimeExtract
-  name: pink slime extract
+  name: экстракт розового слайма
   components:
     - type: Sprite
       color: "#fc86cfff"
@@ -737,7 +737,7 @@
 - type: entity
   parent: BaseSlimeExtract
   id: GoldSlimeExtract
-  name: gold slime extract
+  name: экстракт золотого слайма
   components:
     - type: Sprite
       color: "#8a7b1cff"
@@ -793,7 +793,7 @@
 - type: entity
   parent: BaseSlimeExtract
   id: OilSlimeExtract
-  name: oil slime extract
+  name: экстракт масляного слайма
   components:
     - type: Sprite
       color: "#262626ff"
@@ -830,7 +830,7 @@
 - type: entity
   parent: BaseSlimeExtract
   id: BlackSlimeExtract
-  name: black slime extract
+  name: экстракт чёрного слайма
   components:
     - type: Sprite
       color: "#111111ff"
@@ -854,7 +854,7 @@
 - type: entity
   parent: BaseSlimeExtract
   id: LightPinkSlimeExtract
-  name: light pink slime extract
+  name: экстракт светло-розового слайма
   components:
     - type: Sprite
       color: "#ff94d1ff"
@@ -890,7 +890,7 @@
 - type: entity
   parent: BaseSlimeExtract
   id: AdamantineSlimeExtract
-  name: adamantine slime extract
+  name: экстракт адамантинового слайма
   components:
     - type: Sprite
       color: "#407985ff"
@@ -914,7 +914,7 @@
 - type: entity
   parent: BaseSlimeExtract
   id: RainbowSlimeExtract
-  name: rainbow slime extract
+  name: экстракт радужного слайма
   components:
     - type: RgbLightController
       layers: [ 0 ]

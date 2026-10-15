@@ -12,6 +12,13 @@ public sealed partial class NullLinkPlayerManager : INullLinkPlayerManager
     {
         if (!_actors.TryGetServerGrain(out var serverGrain))
         {
+            // Daiquiri
+            if (LocalAchievementsEnabled())
+            {
+                MarkAchievementCacheHydrated(userId);
+                return TryGetCachedAchievements(userId, out var localAchievements) ? localAchievements : [];
+            }
+
             return TryGetCachedAchievements(userId, out var cachedAchievements) ? cachedAchievements : [];
         }
 
@@ -70,6 +77,13 @@ public sealed partial class NullLinkPlayerManager : INullLinkPlayerManager
     {
         if (!_actors.TryGetServerGrain(out var serverGrain))
         {
+            // Daiquiri
+            if (LocalAchievementsEnabled())
+            {
+                SetCachedAchievementUnlocked(userId, achievementId, characterName);
+                return true;
+            }
+
             if (!_cfg.GetCVar(NullLinkCCVars.Enabled))
             {
                 _sawmill.Debug($"UnlockAchievement skipped for {userId}/{achievementId}: NullLink is disabled.");
@@ -97,6 +111,13 @@ public sealed partial class NullLinkPlayerManager : INullLinkPlayerManager
     {
         if (!_actors.TryGetServerGrain(out var serverGrain))
         {
+            // Daiquiri
+            if (LocalAchievementsEnabled())
+            {
+                SetCachedAchievementLocked(userId, achievementId);
+                return true;
+            }
+
             if (!_cfg.GetCVar(NullLinkCCVars.Enabled))
             {
                 _sawmill.Debug($"LockAchievement skipped for {userId}/{achievementId}: NullLink is disabled.");
@@ -120,8 +141,23 @@ public sealed partial class NullLinkPlayerManager : INullLinkPlayerManager
         }
     }
 
-    private bool TryGetCachedAchievements(Guid userId, out HashSet<Achievement> achievements)
+    // Daiquiri
+    private bool LocalAchievementsEnabled()
+        => !_cfg.GetCVar(NullLinkCCVars.Enabled);
+
+    // Daiquiri
+    private void MarkAchievementCacheHydrated(Guid userId)
     {
+        if (!_playerById.TryGetValue(userId, out var playerData))
+            return;
+
+        lock (playerData.AchievementSyncRoot)
+        {
+            playerData.AchievementCacheHydrated = true;
+        }
+    }
+
+    private bool TryGetCachedAchievements(Guid userId, out HashSet<Achievement> achievements)    {
         if (_playerById.TryGetValue(userId, out var playerData))
         {
             lock (playerData.AchievementSyncRoot)

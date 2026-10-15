@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: PartCyber
   parent: [BaseItem, BasePart]
-  name: "cyber body part"
+  name: кибернетическая часть тела
   abstract: true
   components:
   - type: Extractable
@@ -16,7 +16,7 @@
 
 - type: entity
   id: LeftArmCyber
-  name: ent-LeftArmCyber
+  name: левая кибернетическая рука
   parent: [PartCyber, BaseLeftArm]
   components:
     - type: BaseLayerId
@@ -47,7 +47,7 @@
 
 - type: entity
   id: RightArmCyber
-  name: ent-RightArmCyber
+  name: правая кибернетическая рука
   parent: [PartCyber, BaseRightArm]
   components:
     - type: BaseLayerId
@@ -78,7 +78,7 @@
 
 - type: entity
   id: LeftHandCyber
-  name: ent-LeftHandCyber
+  name: левая кибернетическая кисть
   parent: [PartCyber, BaseLeftHand]
   components:
     - type: BaseLayerId
@@ -106,7 +106,7 @@
 
 - type: entity
   id: RightHandCyber
-  name: ent-RightHandCyber
+  name: правая кибернетическая кисть
   parent: [PartCyber, BaseRightHand]
   components:
     - type: BaseLayerId
@@ -134,7 +134,7 @@
 
 - type: entity
   id: LeftLegCyberBase
-  name: ent-LeftLegCyberBase
+  name: левая базовая кибернетическая нога
   parent: BaseLeftLeg
   abstract: true
   components:
@@ -166,7 +166,7 @@
 
 - type: entity
   id: LeftLegCyber
-  name: ent-LeftLegCyber
+  name: левая кибернетическая нога
   parent: [PartCyber, LeftLegCyberBase]
   components:
     - type: MovementBodyPart
@@ -177,7 +177,7 @@
 
 - type: entity
   id: LeftLegCyberBudget
-  name: ent-LeftLegCyberBudget
+  name: левая бюджетная кибернетическая нога
   parent: [PartCyber, LeftLegCyberBase]
   components:
     - type: RoundstartImplantable
@@ -195,7 +195,7 @@
 
 - type: entity
   id: RightLegCyberBase
-  name: ent-RightLegCyberBase
+  name: правая базовая кибернетическая нога
   parent: BaseRightLeg
   abstract: true
   components:
@@ -227,7 +227,7 @@
 
 - type: entity
   id: RightLegCyber
-  name: ent-RightLegCyber
+  name: правая кибернетическая нога
   parent: [PartCyber, RightLegCyberBase]
   components:
     - type: MovementBodyPart
@@ -238,7 +238,7 @@
 
 - type: entity
   id: RightLegCyberBudget
-  name: ent-RightLegCyberBudget
+  name: правая бюджетная кибернетическая нога
   parent: [PartCyber, RightLegCyberBase]
   components:
     - type: RoundstartImplantable
@@ -256,7 +256,7 @@
 
 - type: entity
   id: LeftFootCyber
-  name: ent-LeftFootCyber
+  name: левая кибернетическая стопа
   parent: [PartCyber, BaseLeftFoot]
   components:
     - type: BaseLayerId
@@ -286,7 +286,7 @@
 
 - type: entity
   id: RightFootCyber
-  name: ent-RightFootCyber
+  name: правая кибернетическая стопа
   parent: [PartCyber, BaseRightFoot]
   components:
     - type: BaseLayerId
@@ -317,9 +317,9 @@
 # Speed legs
 - type: entity
   id: LeftLegCyberSpeed
-  name: ent-LeftLegCyberSpeed
+  name: левая скоростная кибернетическая нога
   parent: [PartCyber, LeftLegCyberBase]
-  description: ent-LeftLegCyberSpeed-desc
+  description: Нужно больше скорости!
   components:
     - type: BaseLayerId
       layers:
@@ -342,9 +342,9 @@
 
 - type: entity
   id: RightLegCyberSpeed
-  name: ent-RightLegCyberSpeed
+  name: правая скоростная кибернетическая нога
   parent: [PartCyber, RightLegCyberBase]
-  description: ent-RightLegCyberSpeed-desc
+  description: Нужно больше скорости!
   components:
     - type: BaseLayerId
       layers:
@@ -368,9 +368,9 @@
 #reaper
 - type: entity
   id: LeftArmCyberReaper
-  name: ent-LeftArmCyberReaper
+  name: левая рука рипера
   parent: [PartCyber, BaseLeftArm]
-  description: ent-LeftArmCyberReaper-desc
+  description: Улучшенная рука для хирургов современной эпохи.
   components:
     - type: BaseLayerId
       layers:
@@ -390,9 +390,9 @@
 
 - type: entity
   id: LeftHandCyberReaper
-  name: ent-LeftHandCyberReaper
+  name: левая кисть рипера
   parent: [PartCyber, BaseLeftHand]
-  description: ent-LeftHandCyberReaper-desc
+  description: Улучшенная кисть для хирургов современной эпохи.
   components:
     - type: BaseLayerId
       layers:
@@ -440,9 +440,9 @@
 
 - type: entity
   id: RightArmCyberReaper
-  name: ent-RightArmCyberReaper
+  name: правая рука рипера
   parent: [PartCyber, BaseRightArm]
-  description: ent-RightArmCyberReaper-desc
+  description: Улучшенная рука для хирургов современной эпохи.
   components:
     - type: BaseLayerId
       layers:
@@ -470,9 +470,9 @@
 
 - type: entity
   id: RightHandCyberReaper
-  name: ent-RightHandCyberReaper
+  name: правая кисть рипера
   parent: [PartCyber, BaseRightHand]
-  description: ent-RightHandCyberReaper-desc
+  description: Улучшенная кисть для хирургов современной эпохи.
   components:
     - type: BaseLayerId
       layers:
@@ -513,9 +513,9 @@
 #Mechwright
 - type: entity
   id: LeftArmCyberMechwright
-  name: ent-LeftArmCyberMechwright
+  name: левая рука механика
   parent: [PartCyber, BaseLeftArm]
-  description: ent-LeftArmCyberMechwright-desc
+  description: Улучшенная рука для тайдеров современной эпохи.
   components:
     - type: BaseLayerId
       layers:
@@ -543,9 +543,9 @@
 
 - type: entity
   id: LeftHandCyberMechwright
-  name: ent-LeftHandCyberMechwright
+  name: левая кисть механика
   parent: [PartCyber, BaseLeftHand]
-  description: ent-LeftHandCyberMechwright-desc
+  description: Улучшенная кисть для тайдеров современной эпохи.
   components:
     - type: BaseLayerId
       layers:
@@ -582,9 +582,9 @@
 
 - type: entity
   id: RightArmCyberMechwright
-  name: ent-RightArmCyberMechwright
+  name: правая рука механика
   parent: [PartCyber, BaseRightArm]
-  description: ent-RightArmCyberMechwright-desc
+  description: Улучшенная рука для тайдеров современной эпохи.
   components:
     - type: BaseLayerId
       layers:
@@ -612,9 +612,9 @@
 
 - type: entity
   id: RightHandCyberMechwright
-  name: ent-RightHandCyberMechwright
+  name: правая кисть механика
   parent: [PartCyber, BaseRightHand]
-  description: ent-RightHandCyberMechwright-desc
+  description: Улучшенная кисть для тайдеров современной эпохи.
   components:
     - type: BaseLayerId
       layers:
@@ -652,9 +652,9 @@
 #Engineer
 - type: entity
   id: LeftArmCyberEngineer
-  name: ent-LeftArmCyberEngineer
+  name: левая инженерная рука
   parent: [PartCyber, BaseLeftArm]
-  description: ent-LeftArmCyberEngineer-desc
+  description: Улучшенная рука для инженеров современной эпохи.
   components:
     - type: BaseLayerId
       layers:
@@ -674,9 +674,9 @@
 
 - type: entity
   id: LeftHandCyberEngineer
-  name: ent-LeftHandCyberEngineer
+  name: левая инженерная кисть
   parent: [PartCyber, BaseLeftHand]
-  description: ent-LeftHandCyberEngineer-desc
+  description: Улучшенная кисть для инженеров современной эпохи.
   components:
     - type: BaseLayerId
       layers:
@@ -712,9 +712,9 @@
 
 - type: entity
   id: RightArmCyberEngineer
-  name: ent-RightArmCyberEngineer
+  name: правая инженерная рука
   parent: [PartCyber, BaseRightArm]
-  description: ent-RightArmCyberEngineer-desc
+  description: Улучшенная рука для инженеров современной эпохи.
   components:
     - type: BaseLayerId
       layers:
@@ -734,9 +734,9 @@
 
 - type: entity
   id: RightHandCyberEngineer
-  name: ent-RightHandCyberEngineer
+  name: правая инженерная кисть
   parent: [PartCyber, BaseRightHand]
-  description: ent-RightHandCyberEngineer-desc
+  description: Улучшенная кисть для инженеров современной эпохи.
   components:
     - type: BaseLayerId
       layers:
@@ -773,7 +773,7 @@
 #Bulwark
 - type: entity
   id: LeftArmCyberBulwark
-  name: ent-LeftArmCyberBulwark
+  name: левая рука бастиона
   parent: [PartCyber, BaseLeftArm, BaseSecurityContraband]
   components:
     - type: BaseLayerId
@@ -802,7 +802,7 @@
 
 - type: entity
   id: LeftHandCyberBulwark
-  name: ent-LeftHandCyberBulwark
+  name: левая кисть бастиона
   parent: [PartCyber, BaseLeftHand, BaseSecurityContraband]
   components:
     - type: BaseLayerId
@@ -837,7 +837,7 @@
 
 - type: entity
   id: RightArmCyberBulwark
-  name: ent-RightArmCyberBulwark
+  name: правая рука бастиона
   parent: [PartCyber, BaseRightArm, BaseSecurityContraband]
   components:
     - type: BaseLayerId
@@ -866,7 +866,7 @@
 
 - type: entity
   id: RightHandCyberBulwark
-  name: ent-RightHandCyberBulwark
+  name: правая кисть бастиона
   parent: [PartCyber, BaseRightHand, BaseSecurityContraband]
   components:
     - type: BaseLayerId
@@ -902,7 +902,7 @@
 #Mantis Blade
 - type: entity
   id: LeftArmCyberMantisBlade
-  name: ent-LeftArmCyberMantisBlade
+  name: левая рука клинка богомола
   parent: [PartCyber, BaseLeftArm, BaseSyndicateContraband]
   components:
     - type: BaseLayerId
@@ -931,7 +931,7 @@
 
 - type: entity
   id: LeftHandCyberMantisBlade
-  name: ent-LeftHandCyberMantisBlade
+  name: левая кисть клинка богомола
   parent: [PartCyber, BaseLeftHand, BaseSyndicateContraband]
   components:
     - type: BaseLayerId
@@ -965,7 +965,7 @@
 
 - type: entity
   id: RightArmCyberMantisBlade
-  name: ent-RightArmCyberMantisBlade
+  name: правая рука клинка богомола
   parent: [PartCyber, BaseRightArm, BaseSyndicateContraband]
   components:
     - type: BaseLayerId
@@ -994,7 +994,7 @@
 
 - type: entity
   id: RightHandCyberMantisBlade
-  name: ent-RightHandCyberMantisBlade
+  name: правая кисть клинка богомола
   parent: [PartCyber, BaseRightHand, BaseSyndicateContraband]
   components:
     - type: BaseLayerId
@@ -1029,9 +1029,9 @@
 #ripperdoc
 - type: entity
   id: LeftArmCyberRipper
-  name: ent-LeftArmCyberRipper
+  name: левая рука риппердока
   parent: [PartCyber, BaseLeftArm]
-  description: ent-LeftArmCyberRipper-desc
+  description: Улучшенная рука для хирургов современной эпохи.
   components:
     - type: BaseLayerId
       layers:
@@ -1062,10 +1062,9 @@
 
 - type: entity
   id: LeftHandCyberRipper
-  name: ent-LeftHandCyberRipper
+  name: левая кисть риппердока
   parent: [PartCyber, BaseLeftHand]
-  description: ent-LeftHandCyberRipper-desc
-
+  description: Улучшенная кисть для хирургов современной эпохи.
   components:
     - type: BaseLayerId
       layers:
@@ -1105,9 +1104,9 @@
 
 - type: entity
   id: RightArmCyberRipper
-  name: ent-RightArmCyberRipper
+  name: правая рука риппердока
   parent: [PartCyber, BaseRightArm]
-  description: ent-RightArmCyberRipper-desc
+  description: Улучшенная рука для хирургов современной эпохи.
   components:
     - type: BaseLayerId
       layers:
@@ -1138,9 +1137,9 @@
 
 - type: entity
   id: RightHandCyberRipper
-  name: ent-RightHandCyberRipper
+  name: правая кисть риппердока
   parent: [PartCyber, BaseRightHand]
-  description: ent-RightHandCyberRipper-desc
+  description: Улучшенная кисть для хирургов современной эпохи.
   components:
     - type: BaseLayerId
       layers:
@@ -1182,9 +1181,9 @@
 # Spacer
 - type: entity
   id: LeftArmCyberSpacer
-  name: ent-LeftArmCyberSpacer
+  name: левая пустотная рука
   parent: [PartCyber, BaseLeftArm]
-  description: ent-LeftArmCyberSpacer-desc
+  description: Улучшенная рука для утилизаторов современной эпохи.
   components:
     - type: BaseLayerId
       layers:
@@ -1204,9 +1203,9 @@
 
 - type: entity
   id: LeftHandCyberSpacer
-  name: ent-LeftHandCyberSpacer
+  name: левая пустотная кисть
   parent: [PartCyber, BaseLeftHand]
-  description: ent-LeftHandCyberSpacer-desc
+  description: Улучшенная кисть для утилизаторов современной эпохи.
   components:
     - type: BaseLayerId
       layers:
@@ -1241,9 +1240,9 @@
 
 - type: entity
   id: RightArmCyberSpacer
-  name: ent-RightArmCyberSpacer
+  name: правая пустотная рука
   parent: [PartCyber, BaseRightArm]
-  description: ent-RightArmCyberSpacer-desc
+  description: Улучшенная рука для утилизаторов современной эпохи.
   components:
     - type: BaseLayerId
       layers:
@@ -1263,9 +1262,9 @@
 
 - type: entity
   id: RightHandCyberSpacer
-  name: ent-RightHandCyberSpacer
+  name: правая пустотная кисть
   parent: [PartCyber, BaseRightHand]
-  description: ent-RightHandCyberSpacer-desc
+  description: Улучшенная кисть для утилизаторов современной эпохи.
   components:
     - type: BaseLayerId
       layers:
@@ -1301,9 +1300,9 @@
 # GORILLA
 - type: entity
   id: LeftArmCyberGorilla
-  name: ent-LeftArmCyberGorilla
+  name: левая рука G.O.R.I.L.L.A
   parent: [PartCyber, BaseLeftArm, BaseScienceContraband]
-  description: ent-LeftArmCyberGorilla-desc
+  description: Улучшенная рука для учёных современной эпохи.
   components:
     - type: BaseLayerId
       layers:
@@ -1323,9 +1322,9 @@
 
 - type: entity
   id: LeftHandCyberGorilla
-  name: ent-LeftHandCyberGorilla
+  name: левая кисть G.O.R.I.L.L.A
   parent: [PartCyber, BaseLeftHand, BaseScienceContraband]
-  description: ent-LeftHandCyberGorilla-desc
+  description: Улучшенная кисть для учёных современной эпохи.
   components:
     - type: BaseLayerId
       layers:
@@ -1360,9 +1359,9 @@
 
 - type: entity
   id: RightArmCyberGorilla
-  name: ent-RightArmCyberGorilla
+  name: правая рука G.O.R.I.L.L.A
   parent: [PartCyber, BaseRightArm, BaseScienceContraband]
-  description: ent-RightArmCyberGorilla-desc
+  description: Улучшенная рука для учёных современной эпохи.
   components:
     - type: BaseLayerId
       layers:
@@ -1382,9 +1381,9 @@
 
 - type: entity
   id: RightHandCyberGorilla
-  name: ent-RightHandCyberGorilla
+  name: правая кисть G.O.R.I.L.L.A
   parent: [PartCyber, BaseRightHand, BaseScienceContraband]
-  description: ent-RightHandCyberGorilla-desc
+  description: Улучшенная кисть для учёных современной эпохи.
   components:
     - type: BaseLayerId
       layers:
@@ -1420,9 +1419,9 @@
 # Angel
 - type: entity
   id: LeftArmCyberAngel
-  name: ent-LeftArmCyberAngel
+  name: левая ангельская рука
   parent: [PartCyber, BaseLeftArm]
-  description: ent-LeftArmCyberAngel-desc
+  description: Улучшенная рука для врачей современной эпохи.
   components:
     - type: BaseLayerId
       layers:
@@ -1442,9 +1441,9 @@
 
 - type: entity
   id: LeftHandCyberAngel
-  name: ent-LeftHandCyberAngel
+  name: левая ангельская кисть
   parent: [PartCyber, BaseLeftHand]
-  description: ent-LeftHandCyberAngel-desc
+  description: Улучшенная кисть для врачей современной эпохи.
   components:
     - type: BaseLayerId
       layers:
@@ -1480,9 +1479,9 @@
 
 - type: entity
   id: RightArmCyberAngel
-  name: ent-RightArmCyberAngel
+  name: правая ангельская рука
   parent: [PartCyber, BaseRightArm]
-  description: ent-RightArmCyberAngel-desc
+  description: Улучшенная рука для врачей современной эпохи.
   components:
     - type: BaseLayerId
       layers:
@@ -1502,9 +1501,9 @@
 
 - type: entity
   id: RightHandCyberAngel
-  name: ent-RightHandCyberAngel
+  name: правая ангельская кисть
   parent: [PartCyber, BaseRightHand]
-  description: ent-RightHandCyberAngel-desc
+  description: Улучшенная кисть для врачей современной эпохи.
   components:
     - type: BaseLayerId
       layers:
@@ -1541,7 +1540,7 @@
 # Zeus
 - type: entity
   id: LeftArmCyberZeus
-  name: ent-LeftArmCyberZeus
+  name: левая рука Зевса
   parent: [PartCyber, BaseLeftArm, BaseSecurityContraband]
   components:
     - type: BaseLayerId
@@ -1562,7 +1561,7 @@
 
 - type: entity
   id: LeftHandCyberZeus
-  name: ent-LeftHandCyberZeus
+  name: левая кисть Зевса
   parent: [PartCyber, BaseLeftHand, BaseSecurityContraband]
   components:
     - type: BaseLayerId
@@ -1597,7 +1596,7 @@
 
 - type: entity
   id: RightArmCyberZeus
-  name: ent-RightArmCyberZeus
+  name: правая рука Зевса
   parent: [PartCyber, BaseRightArm, BaseSecurityContraband]
   components:
     - type: BaseLayerId
@@ -1618,7 +1617,7 @@
 
 - type: entity
   id: RightHandCyberZeus
-  name: ent-RightHandCyberZeus
+  name: правая кисть Зевса
   parent: [PartCyber, BaseRightHand, BaseSecurityContraband]
   components:
     - type: BaseLayerId
@@ -1654,9 +1653,9 @@
 # Riplet
 - type: entity
   id: LeftArmCyberRiplet
-  name: ent-LeftArmCyberRiplet
+  name: левая рука риплета
   parent: [PartCyber, BaseLeftArm]
-  description: ent-LeftArmCyberRiplet-desc
+  description: Улучшенная рука для карго-техников современной эпохи.
   components:
     - type: BaseLayerId
       layers:
@@ -1676,9 +1675,9 @@
 
 - type: entity
   id: LeftHandCyberRiplet
-  name: ent-LeftHandCyberRiplet
+  name: левая кисть риплета
   parent: [PartCyber, BaseLeftHand]
-  description: ent-LeftHandCyberRiplet-desc
+  description: Улучшенная кисть для карго-техников современной эпохи.
   components:
     - type: BaseLayerId
       layers:
@@ -1711,9 +1710,9 @@
 
 - type: entity
   id: RightArmCyberRiplet
-  name: ent-RightArmCyberRiplet
+  name: правая рука риплета
   parent: [PartCyber, BaseRightArm]
-  description: ent-RightArmCyberRiplet-desc
+  description: Улучшенная рука для карго-техников современной эпохи.
   components:
     - type: BaseLayerId
       layers:
@@ -1733,9 +1732,9 @@
 
 - type: entity
   id: RightHandCyberRiplet
-  name: ent-RightHandCyberRiplet
+  name: правая кисть риплета
   parent: [PartCyber, BaseRightHand]
-  description: ent-RightHandCyberRiplet-desc
+  description: Улучшенная кисть для карго-техников современной эпохи.
   components:
     - type: BaseLayerId
       layers:
@@ -1769,7 +1768,7 @@
 # Persephone
 - type: entity
   id: LeftArmCyberPersephone
-  name: ent-LeftArmCyberPersephone
+  name: левая рука Персефоны
   parent: [PartCyber, BaseLeftArm]
   components:
     - type: BaseLayerId
@@ -1790,7 +1789,7 @@
 
 - type: entity
   id: LeftHandCyberPersephone
-  name: ent-LeftHandCyberPersephone
+  name: левая кисть Персефоны
   parent: [PartCyber, BaseLeftHand]
   components:
     - type: BaseLayerId
@@ -1830,7 +1829,7 @@
 
 - type: entity
   id: RightArmCyberPersephone
-  name: ent-RightArmCyberPersephone
+  name: правая рука Персефоны
   parent: [PartCyber, BaseRightArm]
   components:
     - type: BaseLayerId
@@ -1851,7 +1850,7 @@
 
 - type: entity
   id: RightHandCyberPersephone
-  name: ent-RightHandCyberPersephone
+  name: правая кисть Персефоны
   parent: [PartCyber, BaseRightHand]
   components:
     - type: BaseLayerId
@@ -1892,9 +1891,9 @@
 # Scribe
 - type: entity
   id: LeftArmCyberScribe
-  name: ent-LeftArmCyberScribe
+  name: левая рука писаря
   parent: [PartCyber, BaseLeftArm]
-  description: ent-LeftArmCyberScribe-desc
+  description: Улучшенная рука для бюрократов современной эпохи.
   components:
     - type: BaseLayerId
       layers:
@@ -1914,9 +1913,9 @@
 
 - type: entity
   id: LeftHandCyberScribe
-  name: ent-LeftHandCyberScribe
+  name: левая кисть писаря
   parent: [PartCyber, BaseLeftHand]
-  description: ent-LeftHandCyberScribe-desc
+  description: Улучшенная кисть для бюрократов современной эпохи.
   components:
     - type: BaseLayerId
       layers:
@@ -1952,9 +1951,9 @@
 
 - type: entity
   id: RightArmCyberScribe
-  name: ent-RightArmCyberScribe
+  name: правая рука писаря
   parent: [PartCyber, BaseRightArm]
-  description: ent-RightArmCyberScribe-desc
+  description: Улучшенная рука для бюрократов современной эпохи.
   components:
     - type: BaseLayerId
       layers:
@@ -1974,9 +1973,9 @@
 
 - type: entity
   id: RightHandCyberScribe
-  name: ent-RightHandCyberScribe
+  name: правая кисть писаря
   parent: [PartCyber, BaseRightHand]
-  description: ent-RightHandCyberScribe-desc
+  description: Улучшенная кисть для бюрократов современной эпохи.
   components:
     - type: BaseLayerId
       layers:
@@ -2013,7 +2012,7 @@
 # Herakles
 - type: entity
   id: LeftArmCyberHerakles
-  name: ent-LeftArmCyberHerakles
+  name: левая рука Геракла
   parent: [PartCyber, BaseLeftArm, BaseSecurityContraband]
   components:
     - type: BaseLayerId
@@ -2034,7 +2033,7 @@
 
 - type: entity
   id: LeftHandCyberHerakles
-  name: ent-LeftHandCyberHerakles
+  name: левая кисть Геракла
   parent: [PartCyber, BaseLeftHand, BaseSecurityContraband]
   components:
     - type: BaseLayerId
@@ -2069,7 +2068,7 @@
 
 - type: entity
   id: RightArmCyberHerakles
-  name: ent-RightArmCyberHerakles
+  name: правая рука Геракла
   parent: [PartCyber, BaseRightArm, BaseSecurityContraband]
   components:
     - type: BaseLayerId
@@ -2090,7 +2089,7 @@
 
 - type: entity
   id: RightHandCyberHerakles
-  name: ent-RightHandCyberHerakles
+  name: правая кисть Геракла
   parent: [PartCyber, BaseRightHand, BaseSecurityContraband]
   components:
     - type: BaseLayerId
@@ -2126,7 +2125,7 @@
 # Investigator
 - type: entity
   id: LeftArmCyberInvestigator
-  name: ent-LeftArmCyberInvestigator
+  name: левая рука следователя
   parent: [PartCyber, BaseLeftArm, BaseScienceContraband]
   components:
     - type: BaseLayerId
@@ -2147,7 +2146,7 @@
 
 - type: entity
   id: LeftHandCyberInvestigator
-  name: ent-LeftHandCyberInvestigator
+  name: левая кисть следователя
   parent: [PartCyber, BaseLeftHand, BaseScienceContraband]
   components:
     - type: BaseLayerId
@@ -2186,7 +2185,7 @@
 
 - type: entity
   id: RightArmCyberInvestigator
-  name: ent-RightArmCyberInvestigator
+  name: правая рука следователя
   parent: [PartCyber, BaseRightArm, BaseScienceContraband]
   components:
     - type: BaseLayerId
@@ -2207,7 +2206,7 @@
 
 - type: entity
   id: RightHandCyberInvestigator
-  name: ent-RightHandCyberInvestigator
+  name: правая кисть следователя
   parent: [PartCyber, BaseRightHand, BaseScienceContraband]
   components:
     - type: BaseLayerId
@@ -2247,7 +2246,7 @@
 # Hydraulic Legs
 - type: entity
   id: LeftLegCyberHydraulic
-  name: ent-LeftLegCyberHydraulic
+  name: левая гидравлическая кибернетическая нога
   parent: [PartCyber, LeftLegCyberBase]
   components:
     - type: BaseLayerId
@@ -2273,7 +2272,7 @@
 
 - type: entity
   id: RightLegCyberHydraulic
-  name: ent-RightLegCyberHydraulic
+  name: правая гидравлическая кибернетическая нога
   parent: [PartCyber, RightLegCyberBase]
   components:
     - type: BaseLayerId
@@ -2300,7 +2299,7 @@
 # Pilebunker Legs
 - type: entity
   id: LeftLegCyberPilebunker
-  name: ent-LeftLegCyberPilebunker
+  name: левая свайная кибернетическая нога
   parent: [PartCyber, LeftLegCyberBase]
   components:
     - type: BaseLayerId
@@ -2323,7 +2322,7 @@
 
 - type: entity
   id: RightLegCyberPilebunker
-  name: ent-RightLegCyberPilebunker
+  name: правая свайная кибернетическая нога
   parent: [PartCyber, RightLegCyberBase]
   components:
     - type: BaseLayerId
@@ -2347,9 +2346,9 @@
 # Cargo Legs
 - type: entity
   id: LeftLegCyberCargo
-  name: ent-LeftLegCyberCargo
+  name: левая грузовая кибернетическая нога
   parent: [PartCyber, LeftLegCyberBase]
-  description: ent-LeftLegCyberCargo-desc
+  description: Погодите-ка... Это просто старая модель киберноги, к которой кто-то пришил подсумок!
   components:
     - type: BaseLayerId
       layers:
@@ -2401,9 +2400,9 @@
 
 - type: entity
   id: RightLegCyberCargo
-  name: ent-RightLegCyberCargo
+  name: правая грузовая кибернетическая нога
   parent: [PartCyber, RightLegCyberBase]
-  description: ent-RightLegCyberCargo-desc
+  description: Погодите-ка... Это просто старая модель киберноги, к которой кто-то пришил подсумок!
   components:
     - type: BaseLayerId
       layers:

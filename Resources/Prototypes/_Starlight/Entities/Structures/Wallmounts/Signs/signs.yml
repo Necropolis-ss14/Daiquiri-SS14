@@ -1,7 +1,7 @@
 - type: entity
   parent: BaseSign
   id: SignBrigmed
-  name: brigmed sign
+  name: табличка бригмеда
   description: A sign indicating the brig medical bay.
   components:
   - type: Sprite
@@ -11,7 +11,7 @@
 - type: entity
   parent: BaseSign
   id: SignDisposalProper
-  name: disposals sign
+  name: табличка утилизации
   description: A sign indicating a disposal area.
   components:
   - type: Sprite
@@ -21,7 +21,7 @@
 - type: entity
   parent: BaseSign
   id: SignSecureAreaSmall
-  name: secure area sign
+  name: табличка охраняемой зоны
   description: A sign indicating a secure area.
   components:
   - type: Sprite
@@ -31,7 +31,7 @@
 - type: entity
   parent: BaseSign
   id: SignWallBiohazard
-  name: wall biohazard sign
+  name: настенная табличка биологической опасности
   description: A sign indicating a biohazard.
   components:
   - type: Sprite
@@ -41,7 +41,7 @@
 - type: entity
   parent: BaseSign
   id: SignWallExtremeHeat
-  name: wall extreme heat sign
+  name: настенная табличка экстремальной жары
   description: A sign indicating extreme heat.
   components:
   - type: Sprite
@@ -51,7 +51,7 @@
 - type: entity
   parent: BaseSign
   id: SignNoSmoking
-  name: no smoking sign
+  name: табличка «Не курить»
   description: A sign indicating you can not smoke here.
   components:
   - type: Sprite
@@ -61,7 +61,7 @@
 - type: entity
   parent: BaseSign
   id: SignYesSmoking
-  name: yes smoking sign
+  name: табличка «Курить можно»
   description: A sign indicating you can smoke here.
   components:
   - type: Sprite
@@ -71,7 +71,7 @@
 - type: entity
   parent: BaseSignDirectional
   id: SignDirectionalMining
-  name: mining sign
+  name: табличка шахтёров
   description: A direction sign, pointing out which way the Mining department is.
   components:
     - type: Sprite
@@ -81,7 +81,7 @@
 - type: entity
   parent: BaseSign
   id: SignMining
-  name: mining sign
+  name: табличка шахтёров
   description: A sign indicating the mining area.
   components:
     - type: Sprite
@@ -91,7 +91,7 @@
 - type: entity
   parent: BaseSign
   id: SignRoboSurgery
-  name: robo surgery sign
+  name: знак робохирургии
   description: A sign indicating the presence of borgifcation and IPC repair.
   components:
     - type: Sprite
@@ -101,7 +101,7 @@
 - type: entity
   parent: BaseSign
   id: SignDrone
-  name: drone sign
+  name: табличка дронов
   description: A sign indicating the drone area.
   components:
     - type: Sprite
@@ -111,7 +111,7 @@
 - type: entity
   parent: BaseSign
   id: SignHeat
-  name: heating sign
+  name: табличка отопления
   description: A sign indicating the presence of heating equipment.
   components:
     - type: Sprite
@@ -121,7 +121,7 @@
 - type: entity
   parent: BaseSign
   id: SignBreakCargo
-  name: cargo breakroom sign
+  name: табличка комнаты отдыха карго
   description: A sign indicating where the breakroom is.
   components:
   - type: Sprite
@@ -131,7 +131,7 @@
 - type: entity
   parent: BaseSign
   id: SignBreakCommand
-  name: command breakroom sign
+  name: табличка комнаты отдыха командования
   description: A sign indicating where the breakroom is.
   components:
   - type: Sprite
@@ -141,7 +141,7 @@
 - type: entity
   parent: BaseSign
   id: SignBreakEngineering
-  name: engineering breakroom sign
+  name: табличка комнаты отдыха инженеров
   description: A sign indicating where the breakroom is.
   components:
   - type: Sprite
@@ -151,7 +151,7 @@
 - type: entity
   parent: BaseSign
   id: SignBreakMedical
-  name: medical breakroom sign
+  name: табличка комнаты отдыха медиков
   description: A sign indicating where the breakroom is.
   components:
   - type: Sprite
@@ -161,7 +161,7 @@
 - type: entity
   parent: BaseSign
   id: SignBreakScience
-  name: science breakroom sign
+  name: табличка комнаты отдыха учёных
   description: A sign indicating where the breakroom is.
   components:
   - type: Sprite
@@ -171,7 +171,7 @@
 - type: entity
   parent: BaseSign
   id: SignBreakSecurity
-  name: security breakroom sign
+  name: табличка комнаты отдыха СБ
   description: A sign indicating where the breakroom is.
   components:
   - type: Sprite
@@ -181,7 +181,7 @@
 - type: entity
   parent: BaseSign
   id: SignBreakService
-  name: service breakroom sign
+  name: табличка комнаты отдыха сервиса
   description: A sign indicating where the breakroom is.
   components:
   - type: Sprite
@@ -191,7 +191,7 @@
 - type: entity
   parent: BaseSign
   id: SignLockerCargo
-  name: cargo locker room sign
+  name: табличка раздевалки карго
   description: A sign indicating where the locker room is.
   components:
   - type: Sprite
@@ -201,7 +201,7 @@
 - type: entity
   parent: BaseSign
   id: SignLockerCommand
-  name: command locker room sign
+  name: табличка раздевалки командования
   description: A sign indicating where the locker room is.
   components:
   - type: Sprite
@@ -211,7 +211,7 @@
 - type: entity
   parent: BaseSign
   id: SignLockerEngineering
-  name: engineering locker room sign
+  name: табличка раздевалки инженеров
   description: A sign indicating where the locker room is.
   components:
   - type: Sprite
@@ -221,7 +221,7 @@
 - type: entity
   parent: BaseSign
   id: SignLockerMedical
-  name: medical locker room sign
+  name: табличка раздевалки медиков
   description: A sign indicating where the locker room is.
   components:
   - type: Sprite
@@ -231,7 +231,7 @@
 - type: entity
   parent: BaseSign
   id: SignLockerScience
-  name: science locker room sign
+  name: табличка раздевалки учёных
   description: A sign indicating where the locker room is.
   components:
   - type: Sprite
@@ -241,7 +241,7 @@
 - type: entity
   parent: BaseSign
   id: SignLockerSecurity
-  name: security locker room sign
+  name: табличка раздевалки СБ
   description: A sign indicating where the locker room is.
   components:
   - type: Sprite
@@ -251,7 +251,7 @@
 - type: entity
   parent: BaseSign
   id: SignLockerService
-  name: service locker room sign
+  name: табличка раздевалки сервиса
   description: A sign indicating where the locker room is.
   components:
   - type: Sprite
@@ -263,7 +263,7 @@
 - type: entity
   parent: BaseSign
   id: SignCoreXeno
-  name: core sign
+  name: табличка ядра
   description: A sign indicating the xenoborg core. Nice of them to mark this for you.
   components:
     - type: Sprite
@@ -273,7 +273,7 @@
 - type: entity
   parent: BaseSign
   id: SignDoorsXeno
-  name: doors sign
+  name: табличка дверей
   description: A sign warning of doors. Don't stand in them when closing, you wouldn't want to be gibbed would you?
   components:
     - type: Sprite
@@ -283,7 +283,7 @@
 - type: entity
   parent: BaseSign
   id: SignPowerXeno
-  name: power sign
+  name: табличка энергии
   description: A sign indicating the xenoborg power systems. Electrical hazards ahead.
   components:
     - type: Sprite
@@ -293,7 +293,7 @@
 - type: entity
   parent: BaseSign
   id: SignSpaceXeno
-  name: space sign
+  name: табличка космоса
   description: A sign indicating these doors leads to space. That heavy xenoborg might be lost forever! Don't end up like them.
   components:
     - type: Sprite
@@ -331,7 +331,7 @@
 - type: entity
   parent: BaseSign
   id: SignIAA
-  name: internal affairs sign
+  name: табличка внутренней службы
   description: A sign indicating Internal Affairs and their impending audit of your department.
   components:
   - type: Sprite
@@ -341,7 +341,7 @@
 - type: entity
   parent: BaseSign
   id: SignLawyerOffice
-  name: lawyer sign
+  name: табличка юриста
   description: A sign indicating the presence of someone you better call.
   components:
   - type: Sprite
@@ -351,7 +351,7 @@
 - type: entity
   parent: BaseSign
   id: SignMagistrate
-  name: magistrate sign
+  name: табличка магистрата
   description: A sign indicating the presence of the ultimate authority of Corporate Law.
   components:
   - type: Sprite
@@ -362,7 +362,7 @@
 - type: entity
   parent: BaseSign
   id: SignNTR
-  name: NTR sign
+  name: табличка НТР
   description: A sign indicating the physical presence of NanoTrasen aboard the station.
   components:
   - type: Sprite

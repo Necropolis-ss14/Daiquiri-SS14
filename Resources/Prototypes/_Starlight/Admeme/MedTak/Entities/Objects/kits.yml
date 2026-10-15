@@ -2,8 +2,8 @@
 - type: entity
   id: BottleCaseMedTak
   parent: [ BaseBottleCase, BaseMedTakContraband ]
-  name: chemical case
-  description: A reinforced case with padded slots for bottles.
+  name: чемодан с химикатами
+  description: Усиленный кейс с мягкими гнёздами для бутылок.
   components:
   - type: Sprite
     sprite: _Starlight/Admeme/MedTak/Objects/cases.rsi
@@ -45,8 +45,8 @@
 - type: entity
   parent: Medkit
   id: MedkitCombatMedTak
-  name: MedTak combat kit
-  description: An operator's personal medical kit.
+  name: боевой набор MedTak
+  description: Личная аптечка оперативника.
   components:
   - type: Sprite
     sprite: _Starlight/Admeme/MedTak/Objects/medkit.rsi
@@ -60,9 +60,9 @@
 - type: entity
   parent: [ BasePenPack, BaseMedTakContraband ]
   id: PenPackMedTak
-  name: autoinjector pack
+  name: набор автоинжекторов
   suffix: MedTak, Filled
-  description: A pouch loaded with autoinjectors.
+  description: Подсумок с автоинжекторами.
   components:
   - type: Sprite
     sprite: _Starlight/Admeme/MedTak/Objects/cases.rsi
@@ -83,9 +83,9 @@
 
 # Surgical Kit
 - type: entity
-  name: advanced surgical kit
+  name: продвинутый хирургический набор
   suffix: MedTak, Filled
-  description: A compact kit of surgical tools.
+  description: Компактный набор хирургических инструментов.
   parent: [ BaseSurgicalKit, BaseMedTakContraband ]
   id: SurgicalKitMedTak
   components:

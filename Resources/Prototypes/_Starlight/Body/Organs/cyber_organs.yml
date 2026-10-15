@@ -1,7 +1,7 @@
 - type: entity
   id: OrganCyber
   parent: BaseItem
-  name: ent-OrganCyber
+  name: киберорган
   abstract: true
   components:
   - type: Sprite
@@ -20,8 +20,8 @@
 
 - type: entity
   id: CyberEyeNightVision
-  name: ent-CyberEyeNightVision
-  description: ent-CyberEyeNightVision-desc
+  name: киберглаза ночного видения
+  description: Позволяют видеть в темноте.
   parent: [OrganCyber, BaseOrganEyes]
   components:
   - type: Sprite
@@ -47,8 +47,8 @@
 
 - type: entity
   id: CyberEyeThermal
-  name: ent-CyberEyeThermal
-  description: ent-CyberEyeThermal-desc
+  name: киберглаза теплового видения
+  description: Позволяют видеть в темноте и обнаруживать тёплые объекты сквозь стены.
   parent: [OrganCyber, BaseOrganEyes]
   components:
   - type: Sprite
@@ -74,8 +74,8 @@
 
 - type: entity
   id: BudgetCyberEyes
-  name: ent-BudgetCyberEyes
-  description: ent-BudgetCyberEyes-desc
+  name: бюджетные киберглаза
+  description: Холодные и бездушные. Смотреть сквозь них так же тоскливо, как и в них.
   parent: [OrganCyber, BaseOrganEyes]
   components:
   - type: Sprite
@@ -113,8 +113,8 @@
 
 - type: entity
   id: BudgetCyberTongue
-  name: ent-BudgetCyberTongue
-  description: ent-BudgetCyberTongue-desc
+  name: бюджетный киберъязык
+  description: Искусственный язык с полной подвижностью. Вкусовые рецепторы не включены.
   parent: [OrganCyber, BaseOrganTongue]
   components:
   - type: Sprite
@@ -126,8 +126,8 @@
 
 - type: entity
   id: VocalCyberTongue
-  name: ent-VocalCyberTongue
-  description: ent-VocalCyberTongue-desc
+  name: вокальный киберъязык
+  description: Искусственный язык с полной подвижностью. Позволяет издавать все голосовые звуки.
   parent: [OrganCyber, BaseOrganTongue]
   components:
     - type: Sprite
@@ -142,8 +142,8 @@
 
 - type: entity
   id: BudgetCyberLiver
-  name: ent-BudgetCyberLiver
-  description: ent-BudgetCyberLiver-desc
+  name: бюджетная киберпечень
+  description: "Конструкция настолько надёжна, что не менялась последние 237 лет! Внимание: продукт не предназначен для увеселительного распития алкоголя!"
   parent: [OrganCyber, OrganHumanLiver]
   components:
   - type: Sprite
@@ -155,8 +155,8 @@
     stages: [ Metabolites ]
 - type: entity
   id: BudgetCyberStomach
-  name: ent-BudgetCyberStomach
-  description: ent-BudgetCyberStomach-desc
+  name: бюджетный кибержелудок
+  description: Искусственный желудок. Отсутствие эластичности — желанная особенность для тех, кто хочет контролировать пищевые привычки.
   parent: [OrganCyber, OrganHumanStomach]
   components:
   - type: Sprite
@@ -174,8 +174,8 @@
 
 - type: entity
   id: BudgetCyberKidneys
-  name: ent-BudgetCyberKidneys
-  description: ent-BudgetCyberKidneys-desc
+  name: бюджетные киберпочки
+  description: Пара искусственных почек. Из-за дешёвых материалов тратят значительно больше воды, чем органические.
   parent: [OrganCyber, OrganHumanKidneys]
   components:
   - type: Sprite
@@ -190,8 +190,8 @@
 
 - type: entity
   id: CyberRebreather
-  name: ent-CyberRebreather
-  description: ent-CyberRebreather-desc
+  name: киберреспиратор
+  description: Искусственные лёгкие со встроенной системой газового баллона. Можно заправлять любой дыхательной газовой смесью.
   parent: [OrganCyber, OrganHumanLungs]
   components:
   - type: Sprite

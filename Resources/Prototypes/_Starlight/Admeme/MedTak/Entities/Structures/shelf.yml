@@ -1,8 +1,8 @@
 - type: entity
   id: ShelfMedTak
   parent: ShelfChemistry
-  name: MedTak supplies shelf
-  description: A sturdy and compact shelf for holding medical supplies.
+  name: полка с припасами MedTak
+  description: Прочная компактная полка для медприпасов.
   components:
   - type: Sprite
     sprite: _Starlight/Admeme/MedTak/Structures/Shelfs/medtak.rsi

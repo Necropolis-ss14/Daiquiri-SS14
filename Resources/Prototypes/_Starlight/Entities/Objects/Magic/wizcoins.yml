@@ -1,10 +1,10 @@
 
 - type: entity
-  name: WizCoin
+  name: ВизКоин
   parent: [BaseItem, BaseMagicalContraband]
   id: WizCoin
   suffix: 20 WC
-  description: It seems to be pulsing with magical energy.
+  description: Кажется, пульсирует магической энергией.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Specific/wizcoin.rsi
@@ -57,11 +57,11 @@
 
 # Wizard Duelist medallions
 - type: entity
-  name: wizard duelist medallion
+  name: медальон дуэлянта
   parent: [ClothingMiscBase, BaseMagicalContraband]
   id: BaseWizardDuelistMedallion
   abstract: true
-  description: It seems to be pulsing with magical energy.
+  description: Кажется, пульсирует магической энергией.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Specific/wizcoin.rsi
@@ -75,10 +75,10 @@
     stealGroup: WizardMedallionCollection
 
 - type: entity
-  name: Grubulubalu medallion
+  name: медальон Грубулабалу
   parent: BaseWizardDuelistMedallion
   id: RedWizardDuelistMedallion
-  description: Proof that the red wizards reign superior in the ways of the arcane.
+  description: Доказательство превосходства красных волшебников в тайном.
   components:
   - type: Sprite
     state: redwizcoin
@@ -86,10 +86,10 @@
     equippedPrefix: red
 
 - type: entity
-  name: Broken Moon medallion
+  name: медальон Разбитой Луны
   parent: BaseWizardDuelistMedallion
   id: BlueWizardDuelistMedallion
-  description: Proof that the blue wizards are the masters of sorcery.
+  description: Доказательство мастерства синих волшебников в колдовстве.
   components:
   - type: Sprite
     state: bluewizcoin
@@ -97,10 +97,10 @@
     equippedPrefix: blue
 
 - type: entity
-  name: Lunar Prophet medallion
+  name: медальон Лунного Пророка
   parent: BaseWizardDuelistMedallion
   id: YellowWizardDuelistMedallion
-  description: Proof that the yellow wizards can see all outcomes.
+  description: Доказательство, что жёлтые волшебники видят все исходы.
   components:
   - type: Sprite
     state: yellowwizcoin
@@ -108,10 +108,10 @@
     equippedPrefix: yellow
 
 - type: entity
-  name: Disciples of Evergrow medallion
+  name: медальон Учеников Вечнозелени
   parent: BaseWizardDuelistMedallion
   id: GreenWizardDuelistMedallion
-  description: Proof that the green wizards are the wisest of all.
+  description: Доказательство мудрости зелёных волшебников превыше всех.
   components:
   - type: Sprite
     state: greenwizcoin
@@ -119,10 +119,10 @@
     equippedPrefix: green
 
 - type: entity
-  name: Mu'keiji medallion
+  name: медальон Му'кейдзи
   parent: BaseWizardDuelistMedallion
   id: PurpleWizardDuelistMedallion
-  description: Proof that the purple wizards shine in the court of battle.
+  description: Доказательство блистания фиолетовых волшебников при дворе битвы.
   components:
   - type: Sprite
     state: purplewizcoin
@@ -130,10 +130,10 @@
     equippedPrefix: purple
 
 - type: entity
-  name: Transcendence Star medallion
+  name: медальон Звезды Трансцендентности
   parent: BaseWizardDuelistMedallion
   id: OrangeWizardDuelistMedallion
-  description: Proof that the orange wizards are filled with indomitable curiosity.
+  description: Доказательство неукротимого любопытства оранжевых волшебников.
   components:
   - type: Sprite
     state: orangewizcoin

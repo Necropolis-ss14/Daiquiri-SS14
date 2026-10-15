@@ -1,7 +1,7 @@
 - type: entity
   id: ShowcaseRobotPobeda
   parent: BaseShowcaseRobot
-  name: pobeda mech showcase
+  name: витрина меха «Победа»
   description: A non-functional replica of an old USSP Pobeda mech.
   components:
   - type: Sprite
@@ -12,7 +12,7 @@
 - type: entity
   id: ShowcaseAbyssalSuit
   parent: BaseShowcaseRobot
-  name: abyssal diving suit showcase
+  name: витрина бездонного водолазного костюма
   description: A non-functional replica of an old diving suit recovered from beyond the Null Scar.
   components:
   - type: Sprite

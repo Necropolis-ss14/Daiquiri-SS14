@@ -2,7 +2,7 @@
 - type: entity
   id: PartSkeleton
   parent: BaseItem
-  name: "skeleton body part"
+  name: часть тела скелета
   abstract: true
   components:
   - type: Damageable
@@ -20,7 +20,7 @@
 
 - type: entity
   id: TorsoSkeleton
-  name: "skeleton torso"
+  name: туловище скелета
   parent: PartSkeleton
   components:
     - type: Sprite
@@ -83,7 +83,7 @@
 
 - type: entity
   id: LeftArmSkeleton
-  name: "left skeleton arm"
+  name: левая рука скелета
   parent: PartSkeleton
   components:
     - type: Sprite
@@ -98,7 +98,7 @@
 
 - type: entity
   id: RightArmSkeleton
-  name: "right skeleton arm"
+  name: правая рука скелета
   parent: PartSkeleton
   components:
     - type: Sprite
@@ -113,7 +113,7 @@
 
 - type: entity
   id: LeftHandSkeleton
-  name: "left skeleton hand"
+  name: левая кисть скелета
   parent: PartSkeleton
   components:
     - type: Sprite
@@ -128,7 +128,7 @@
 
 - type: entity
   id: RightHandSkeleton
-  name: "right skeleton hand"
+  name: правая кисть скелета
   parent: PartSkeleton
   components:
     - type: Sprite
@@ -143,7 +143,7 @@
 
 - type: entity
   id: LeftLegSkeleton
-  name: "left skeleton leg"
+  name: левая нога скелета
   parent: PartSkeleton
   components:
     - type: Sprite
@@ -159,7 +159,7 @@
 
 - type: entity
   id: RightLegSkeleton
-  name: "right skeleton leg"
+  name: правая нога скелета
   parent: PartSkeleton
   components:
     - type: Sprite

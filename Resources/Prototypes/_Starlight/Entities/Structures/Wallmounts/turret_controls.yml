@@ -1,7 +1,7 @@
 - type: entity
   parent: WeaponEnergyTurretStationControlPanelBase
   id: WeaponEnergyTurretStatusPanel
-  name: sentry turret status panel
+  name: панель статуса охранной турели
   description: A read-only wall-mounted interface for monitoring linked sentry turrets and control panel settings.
   suffix: Status
   categories: [ ShouldMapStation ]

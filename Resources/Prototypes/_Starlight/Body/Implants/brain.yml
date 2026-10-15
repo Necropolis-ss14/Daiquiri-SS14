@@ -13,8 +13,8 @@
 
 - type: entity
   id: BrainImplantTranslator
-  name: ent-BrainImplantTranslator
-  description: ent-BrainImplantTranslator-desc
+  name: имплант-переводчик
+  description: Переводит с вашего языка на общегалактический прямо у вас в мозгу!
   parent: BaseEntityBrainImplant
   components:
   - type: Sprite
@@ -29,8 +29,8 @@
 
 - type: entity
   id: BrainImplantCommsExpedition
-  name: ent-BrainImplantCommsExpedition
-  description: ent-BrainImplantCommsExpedition-desc
+  name: экспедиционный радиоимплант
+  description: Удобный имплант для утилизатора современной эпохи.
   parent: BaseEntityBrainImplant
   components:
   - type: Sprite
@@ -48,8 +48,8 @@
 
 - type: entity
   id: BrainImplantComms
-  name: ent-BrainImplantComms
-  description: ent-BrainImplantComms-desc
+  name: встроенный радиоимплант
+  description: Гарнитура прямо у вас в мозгу!
   parent: BaseEntityBrainImplant
   components:
   - type: Sprite
@@ -71,8 +71,8 @@
 
 - type: entity
   id: BrainImplantNexus
-  name: ent-BrainImplantNexus
-  description: ent-BrainImplantNexus-desc
+  name: аплинк Нексуса
+  description: Странный кусок технологий авали... Даёт доступ к Нексусу!
   parent: BaseEntityBrainImplant
   components:
   - type: Sprite
@@ -87,8 +87,8 @@
 
 - type: entity
   id: BrainImplantExpiScan
-  name: ent-BrainImplantExpiScan
-  description: ent-BrainImplantExpiScan-desc
+  name: имплант-меданализатор
+  description: Имплант, выводящий показатели вашего текущего физического здоровья.
   parent: BaseEntityBrainImplant
   components:
   - type: Sprite

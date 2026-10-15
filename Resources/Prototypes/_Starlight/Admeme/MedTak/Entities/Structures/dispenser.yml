@@ -101,8 +101,8 @@
 - type: entity
   parent: PlumbingSmartDispenser
   id: PlumbingSmartDispenserMedTakFilled
-  name: Smart dispenser
-  description: A smart dispenser prefilled with a broad set of medical reagents.
+  name: умный раздатчик
+  description: Умный раздатчик с широким набором медреагентов.
   suffix: Filled
   components:
   - type: Sprite
@@ -127,8 +127,8 @@
 - type: entity
   parent: PlumbingSmartDispenserMedTakFilled
   id: PlumbingSmartDispenserMedTakWallmountFilled
-  name: Wallmount dispenser
-  description: A wallmount smart dispenser filled with a broad set of medical reagents.
+  name: настенный раздатчик
+  description: Настенный умный раздатчик с широким набором медреагентов.
   suffix: Filled
   components:
   - type: Transform

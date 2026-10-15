@@ -1,6 +1,6 @@
 - type: entity
   save: false
-  name: Urist McEars
+  name: Урист МакИрс
   parent: [BaseMobSpeciesOrganic, BaseSpeciesPickupableLarge, BaseInventoryThaven]
   id: BaseMobThaven
   abstract: true

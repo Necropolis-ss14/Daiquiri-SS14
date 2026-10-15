@@ -1,7 +1,7 @@
 - type: entity
   parent: BaseMindRoleAntag
   id: MindRoleLoneAbductor
-  name: Lone Abductor Role
+  name: роль одинокого похитителя
   components:
   - type: MindRole
     exclusiveAntag: true
@@ -11,7 +11,7 @@
 - type: entity
   parent: BaseMindRoleAntag
   id: MindRoleDevil
-  name: Devil Role
+  name: роль дьявола
   components:
   - type: MindRole
     exclusiveAntag: true
@@ -22,7 +22,7 @@
 - type: entity
   parent: BaseMindRoleAntag
   id: MindRoleBrighteye
-  name: Brighteye Role
+  name: роль светоглаза
   components:
   - type: MindRole
     antagPrototype: Brighteye
@@ -33,7 +33,7 @@
 - type: entity
   parent: BaseMindRoleAntag
   id: MindRoleSELFAgent
-  name: S.E.L.F Agent
+  name: агент С.О.Р.Ф.
   components:
   - type: MindRole
     antagPrototype: SELFAgent
@@ -44,7 +44,7 @@
 - type: entity
   parent: BaseMindRoleAntag
   id: MindRoleTerrorPrincess
-  name: Terror Princess Role
+  name: роль принцессы ужаса
   components:
   - type: MindRole
     exclusiveAntag: true
@@ -54,7 +54,7 @@
 - type: entity
   parent: MindRoleWizard
   id: MindRoleWizardDuelistBase
-  name: Wizard Duelist Role
+  name: роль волшебника-дуэлянта
   components:
   - type: MindRole
     roleType: SoloAntagonist
@@ -65,42 +65,42 @@
 - type: entity
   parent: MindRoleWizardDuelistBase
   id: MindRoleWizardDuelistRed
-  name: Red Wizard Duelist Role
+  name: роль красного волшебника-дуэлянта
   components:
   - type: WizardDuelistRole
 
 - type: entity
   parent: MindRoleWizardDuelistBase
   id: MindRoleWizardDuelistBlue
-  name: Blue Wizard Duelist Role
+  name: роль синего волшебника-дуэлянта
   components:
   - type: WizardDuelistRole
 
 - type: entity
   parent: MindRoleWizardDuelistBase
   id: MindRoleWizardDuelistPurple
-  name: Purple Wizard Duelist Role
+  name: роль фиолетового волшебника-дуэлянта
   components:
   - type: WizardDuelistRole
 
 - type: entity
   parent: MindRoleWizardDuelistBase
   id: MindRoleWizardDuelistYellow
-  name: Yellow Wizard Duelist Role
+  name: роль жёлтого волшебника-дуэлянта
   components:
   - type: WizardDuelistRole
 
 - type: entity
   parent: MindRoleWizardDuelistBase
   id: MindRoleWizardDuelistGreen
-  name: Green Wizard Duelist Role
+  name: роль зелёного волшебника-дуэлянта
   components:
   - type: WizardDuelistRole
 
 - type: entity
   parent: MindRoleWizardDuelistBase
   id: MindRoleWizardDuelistOrange
-  name: Orange Wizard Duelist Role
+  name: роль оранжевого волшебника-дуэлянта
   components:
   - type: WizardDuelistRole
 

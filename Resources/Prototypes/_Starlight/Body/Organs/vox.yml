@@ -1,7 +1,7 @@
 - type: entity # starlight start
   parent: OrganHumanBrain
   id: OrganVoxBrain
-  name: vox cortical stack
+  name: "{ ent-OrganBaseBrain }"
   suffix: Vox
   description: "A cortical stack from a vox, time to find a new sleeve."
   components:
@@ -50,7 +50,7 @@
 - type: entity
   id: OrganVoxLungs
   parent: OrganHumanLungs
-  name: vox lungs
+  name: "{ ent-OrganBaseLungs }"
   description: "The blue, anaerobic lungs of a vox, they intake nitrogen to breathe. Any form of gaseous oxygen is lethally toxic if breathed in."
   suffix: Vox
   components:
@@ -67,7 +67,7 @@
 - type: entity
   parent: OrganHumanStomach
   id: OrganVoxStomach
-  name: vox stomach
+  name: "{ ent-OrganBaseStomach }"
   suffix: Vox
   description: "A stomach that smells of ammonia."
   components:
@@ -85,7 +85,7 @@
 - type: entity
   parent: OrganHumanLiver
   id: OrganVoxLiver
-  name: vox liver
+  name: "{ ent-OrganBaseLiver }"
   suffix: Vox
   description: "Smells flammable."
   components:
@@ -107,7 +107,7 @@
 - type: entity
   parent: OrganHumanHeart
   id: OrganVoxHeart
-  name: vox heart
+  name: "{ ent-OrganBaseHeart }"
   suffix: Vox
   description: "The strange heart of a vox."
   components:
@@ -119,7 +119,7 @@
 - type: entity
   parent: OrganHumanKidneys
   id: OrganVoxKidneys
-  name: vox kidneys
+  name: "{ ent-OrganBaseKidneys }"
   suffix: Vox
   description: "Smells flammable."
   components:
@@ -131,7 +131,7 @@
 - type: entity
   id: OrganVoxEyes
   parent: OrganHumanEyes
-  name: vox eyes
+  name: "{ ent-OrganBaseEyes }"
   suffix: Vox
   components:
   - type: Sprite
@@ -150,7 +150,7 @@
 - type: entity
   id: OrganVoxTongue
   parent: OrganHumanTongue
-  name: vox tongue
+  name: "{ ent-OrganBaseTongue }"
   suffix: Vox
   description: "A fleshy muscle mostly used for screaming."
   components:

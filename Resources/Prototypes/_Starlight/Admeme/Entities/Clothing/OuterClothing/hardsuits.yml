@@ -2,8 +2,8 @@
 - type: entity
   parent: [BaseNanoTrasenContraband, ClothingOuterHardsuitSyndieElite] #sl Change
   id: ClothingOuterHardsuitNTNCConsortium
-  name: NanoTrasen navy marine hardsuit
-  description: A protective hardsuit worn by NanoTrasen Navy Marines.
+  name: скафандр морпеха NanoTrasen
+  description: Защитный скафандр морпехов NanoTrasen.
   components:
     - type: Sprite
       sprite: _Starlight/Admeme/Clothing/OuterClothing/Hardsuits/ntnc_hardsuit.rsi
@@ -15,8 +15,8 @@
 - type: entity
   parent: [BaseNanoTrasenContraband, ClothingOuterHardsuitSyndieMedic] #sl Change
   id: ClothingOuterHardsuitNTNCConsortiumMedic
-  name: NanoTrasen navy marine medic hardsuit
-  description: A protective hardsuit worn by NanoTrasen Navy Marine medical personnel.
+  name: скафандр медика морпехов NanoTrasen
+  description: Защитный скафандр медиков морпехов NanoTrasen.
   components:
     - type: Sprite
       sprite: _Starlight/Admeme/Clothing/OuterClothing/Hardsuits/ntnc_med_hardsuit.rsi

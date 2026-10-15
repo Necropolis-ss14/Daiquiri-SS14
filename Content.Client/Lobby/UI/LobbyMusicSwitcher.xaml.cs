@@ -31,7 +31,6 @@ public sealed partial class LobbyMusicSwitcher : BoxContainer
     private const int RockMs = 180;
 
     private int _rockIndex;
-    private int _rockDirection = 1;
     private bool _rocking;
     private ContentAudioSystem? _audio;
 
@@ -78,9 +77,7 @@ public sealed partial class LobbyMusicSwitcher : BoxContainer
         // Rocking continues even mid-bounce, but freezes while paused.
         if (!AnimPaused())
         {
-            _rockIndex += _rockDirection;
-            if (_rockIndex >= RockFrames.Length - 1 || _rockIndex <= 0)
-                _rockDirection *= -1;
+            _rockIndex = (_rockIndex + 1) % RockFrames.Length;
             VinylRect.TexturePath = RockFrames[_rockIndex];
         }
         Timer.Spawn(RockMs, RockTick);

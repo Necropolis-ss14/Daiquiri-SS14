@@ -1,7 +1,7 @@
 - type: entity
   parent: [ BaseItem, BaseMajorContraband ]
   id: MagazineBoltPistol
-  name: bolt pistol magazine (standard)
+  name: магазин болт-пистолета (стандартный)
   description: An 8-round magazine for impact bolts.
   components:
   - type: Tag
@@ -30,7 +30,7 @@
 - type: entity
   parent: MagazineBoltPistol
   id: MagazineBoltPistolEmpty
-  name: bolt pistol magazine (any)
+  name: магазин болт-пистолета (любой)
   suffix: empty
   components:
   - type: BallisticAmmoProvider

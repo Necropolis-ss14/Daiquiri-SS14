@@ -1,8 +1,8 @@
 ﻿- type: entity
   id: OrganExperimentStomach
   parent: [OrganAnimalStomach]
-  name: ent-OrganExperimentStomach
-  description: ent-OrganExperimentStomach-desc
+  name: желудок
+  description: Мерзость. Такое тяжело переварить.
   components:
   - type: Stomach
   - type: SolutionManager
@@ -16,8 +16,8 @@
 - type: entity
   id: OrganExperimentHeart
   parent: [BaseAnimalOrgan, BaseOrganHeart]
-  name: ent-OrganExperimentHeart
-  description: ent-OrganExperimentHeart-desc
+  name: сердце
+  description: Замирает при виде мин.
   components:
   - type: Sprite
     state: heart-on
@@ -34,7 +34,7 @@
 - type: entity
   id: OrganExperimentLiver
   parent: [ BaseAnimalOrgan, BaseOrganLiver]
-  name: ent-OrganExperimentLiver
+  name: печень
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -51,9 +51,9 @@
 - type: entity
   id: OrganExperimentEyes
   parent: OrganHumanEyes
-  name: ent-OrganExperimentEyes
+  name: глаза
   suffix: Experiment
-  description: ent-OrganExperimentEyes-desc
+  description: Такого нельзя было предвидеть.
   components:
   - type: OrganVisualization
     layer: Eyes
@@ -69,9 +69,9 @@
 - type: entity
   id: OrganExperimentTongue
   parent: OrganHumanTongue
-  name: ent-OrganExperimentTongue
+  name: язык
   suffix: Experiment
-  description: ent-OrganExperimentTongue-desc
+  description: Мясистая мышца, в основном используемая для лжи.
   components:
   - type: OrganTongue
     sounds:

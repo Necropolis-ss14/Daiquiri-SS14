@@ -1,7 +1,7 @@
 - type: entity
   parent: PaintingBase
   id: PaintingRedTide
-  name: Red Tide Painting
+  name: картина «Красный прилив»
   description: A vivid painting depicting a crimson wave crashing against dark rocks.
   components:
   - type: Sprite
@@ -11,7 +11,7 @@
 - type: entity
   parent: PaintingBase
   id: PaintingHammer
-  name: Soviet Hammer Painting
+  name: картина «Советский молот»
   description: A bold painting of a hammer, symbolizing strength and unity.
   components:
   - type: Sprite
@@ -21,7 +21,7 @@
 - type: entity
   parent: PaintingBase
   id: PaintingSeaside
-  name: At the Seaside
+  name: У моря
   description: This painting depicts several women and children relaxing on a beach along Shinnecock Bay in New York, 1892 Earth.
   components:
   - type: Sprite
@@ -31,7 +31,7 @@
 - type: entity
   parent: PaintingBase
   id: PaintingElijahBoardman
-  name: Elijah Boardman
+  name: Элайджа Бордман
   description: This painting depicts Elijah Boardman, a dry-goods merchant in his shop in New Milford, Connecticut, 1789 Earth.
   components:
   - type: Sprite
@@ -51,7 +51,7 @@
 - type: entity
   parent: PaintingBase
   id: PaintingImmortals
-  name: Panel with Immortals
+  name: Панель с бессмертными
   description: This painting depicts the Eight Immortals, Baxian, and the God of Longevity, Shoulao, important deities in the Chinese legend. China, 1800s Earth.
   components:
   - type: Sprite
@@ -61,7 +61,7 @@
 - type: entity
   parent: PaintingBase
   id: PaintingMarco
-  name: Piazza San Marco
+  name: Пьяцца Сан-Марко
   description: This painting depicts a belltower in Piazza San Marco, Venice, 1720s Earth.
   components:
   - type: Sprite
@@ -71,7 +71,7 @@
 - type: entity
   parent: PaintingBase
   id: PaintingShitao
-  name: Shitao Landscape
+  name: пейзаж Шитао
   description: This painting depicts a small house on an oceanside cliff with two fishing boats departing. China, 1690 Earth.
   components:
   - type: Sprite
@@ -81,7 +81,7 @@
 - type: entity
   parent: PaintingBase
   id: PaintingShankara
-  name: Shri Shankara Shiva
+  name: Шри Шанкара Шива
   description: This painting depicts Shiva's divine family, dressed richly and adorned with jewels. India, 1800s Earth.
   components:
   - type: Sprite
@@ -91,7 +91,7 @@
 - type: entity
   parent: PaintingBase
   id: PaintingParadise
-  name: The Creation of the World and the Expulsion from Paradise
+  name: Сотворение мира и изгнание из рая
   description: This painting depicts a vision of Paradise reminiscent of 'The Divine Comedy', with the universe as a celestial globe with the Earth at its center. Italy, 1445 Earth.
   components:
   - type: Sprite
@@ -101,7 +101,7 @@
 - type: entity
   parent: PaintingBase
   id: PaintingLandersPeak
-  name: The Rocky Mountains, Lander's Peak
+  name: Скалистые горы, пик Лендера
   description: This painting depicts the Rocky Mountains in Wyoming, with a camp of the Shoshone Indigenous people in the foreground. 1863 Earth.
   components:
   - type: Sprite
@@ -111,7 +111,7 @@
 - type: entity
   parent: PaintingBase
   id: PaintingKanagawa
-  name: Under the Wave Off Kanagawa
+  name: Большая волна в Канагаве
   description: This painting depicts a crashing wave overcoming several fishing boats, framed to make Mount Fuji appear small in the distance beneath the enormous wave's crest. Japan, 1830s Earth.
   components:
   - type: Sprite
@@ -121,7 +121,7 @@
 - type: entity
   parent: PaintingBase
   id: PaintingVanGogh
-  name: Van Gogh's Self Portrait with a Straw Hat
+  name: Автопортрет в соломенной шляпе Ван Гога
   description: This painting depicts Van Gogh wearing a straw hat in a Neo-Impressionist style. 1880s Earth.
   components:
   - type: Sprite
@@ -131,7 +131,7 @@
 - type: entity
   parent: PaintingBase
   id: PaintingWheatFields
-  name: Wheat Field with Cypresses
+  name: Пшеничное поле с кипарисами
   description: This painting depicts a golden wheat field with cypress trees and rolling clouds depicted as swirling shapes in the sky, painted by Van Gogh. 1889 Earth.
   components:
   - type: Sprite

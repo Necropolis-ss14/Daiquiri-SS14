@@ -1,7 +1,7 @@
 - type: entity
   parent: [ ClothingUniformSkirtBase, BaseNanoTrasenContraband ]
   id: ClothingUniformJumpskirtNtrep
-  name: nt representative skirt
+  name: юбка представителя НаноТрейзен
   description: That skirt that is better not to see.
   components:
   - type: Sprite
@@ -12,7 +12,7 @@
 - type: entity
   parent: [ ClothingUniformSkirtBase, BaseNanoTrasenContraband ]
   id: ClothingUniformJumpskirtNtrepTurtleneck
-  name: nt representative's turtleneck jumpskirt
+  name: юбка-комбинезон с водолазкой представителя НаноТрейзен
   description: For a more casual look while on the job.
   components:
   - type: Sprite
@@ -23,7 +23,7 @@
 - type: entity
   parent: [ ClothingUniformSkirtBase, BaseBlueShieldContraband ]
   id: ClothingUniformJumpskirtBlueShield
-  name: blueshield skirt
+  name: юбка-комбинезон блюшилда
   description: The skirt of a glorified bodyguard.
   components:
   - type: Sprite
@@ -34,7 +34,7 @@
 - type: entity
   parent: [ ClothingUniformSkirtBase, BaseBlueShieldContraband ]
   id: ClothingUniformJumpskirtEliteBlueShield
-  name: elite blueshield skirt
+  name: юбка элитного блюшилда
   description: The skirt of an elite BSO. To reach such a level, you must have protected Command from [REDACTED].
   components:
   - type: Sprite
@@ -45,7 +45,7 @@
 - type: entity
   parent: [ClothingUniformBase, BaseBlueShieldContraband ]
   id: ClothingUniformJumpskirtBlueShieldSkirt
-  name: blueshield officer's pencil skirt
+  name: юбка-карандаш офицера блюшилда
   description: A collared shirt and pencil skirt for the blueshield officer who likes to keep it business casual.
   components:
   - type: Sprite
@@ -57,7 +57,7 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtSeniorChemist
-  name: senior chemist jumpskirt
+  name: юбка-комбинезон старшего химика
   description: A sign of skill, prestige, and alchemical prowess
   components:
   - type: Sprite
@@ -68,7 +68,7 @@
 - type: entity
   parent: [ ClothingUniformSkirtBase, BaseSecurityContraband ]
   id: ClothingUniformJumpskirtCorpsman
-  name: corpsman's skirt
+  name: юбка санитара
   description: Die in style on the front lines!
   components:
   - type: Sprite
@@ -84,7 +84,7 @@
 - type: entity
   parent: [ ClothingUniformSkirtBase, BaseSecurityContraband ]
   id: ClothingUniformJumpskirtCorpsmanTrauma
-  name: corpsman's trauma wear
+  name: травматологическая форма санитара
   description: I've seen worse. I've seen far worse.
   components:
   - type: Sprite
@@ -100,7 +100,7 @@
 - type: entity
   parent: [ClothingUniformSkirtBase, BaseSecurityContraband]
   id: ClothingUniformJumpskirtFormalBrigmedic
-  name: formal brigmedic jumpskirt
+  name: торжественная юбка-комбинезон бригмедика
   description: A formal suit for the brigmedic.
   components:
   - type: Sprite
@@ -116,7 +116,7 @@
 - type: entity
   parent: [ClothingUniformSkirtBase, BaseSecurityContraband]
   id: ClothingUniformJumpskirtSeniorBrigmedic
-  name: senior formal brigmedic jumpskirt
+  name: торжественная юбка-комбинезон старшего бригмедика
   description: A formal suit for the seasoned brigmedic.
   components:
   - type: Sprite
@@ -132,7 +132,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpskirtSecBlue
-  name: blue skirt and tie
+  name: синяя юбка с галстуком
   description: Stylish and functional.
   components:
   - type: Sprite
@@ -143,7 +143,7 @@
 - type: entity
   parent: [ClothingUniformSkirtBase, BaseSecurityContraband]
   id: ClothingUniformJumpskirtFormalDeputy
-  name: deputy's jumpskirt
+  name: юбка-комбинезон заместителя
   description: An attire for one who feels destined for the desert.
   components:
   - type: Sprite
@@ -154,7 +154,7 @@
 - type: entity
   parent: [ClothingUniformSkirtBase, BaseSecurityContraband]
   id: ClothingUniformJumpskirtFormalSecoff
-  name: formal security jumpskirt
+  name: торжественная юбка-комбинезон службы безопасности
   description: A formal attire for the security officer.
   components:
   - type: Sprite
@@ -165,7 +165,7 @@
 - type: entity
   parent: [ClothingUniformSkirtBase, BaseSecurityContraband]
   id: ClothingUniformJumpskirtFormalSeniorSecoff
-  name: formal senior security jumpskirt
+  name: торжественная юбка-комбинезон старшего офицера безопасности
   description: A formal attire for the senior security officer.
   components:
   - type: Sprite
@@ -176,7 +176,7 @@
 - type: entity
   parent: [ClothingUniformSkirtBase, BaseSecurityContraband]
   id: ClothingUniformJumpskirtFormalWarden
-  name: warden's formal jumpskirt
+  name: торжественная юбка-комбинезон смотрителя
   description: A formal attire for the warden, missing a holster for the truncheon sadly...
   components:
   - type: Sprite
@@ -187,7 +187,7 @@
 - type: entity
   parent: [ClothingUniformSkirtBase, BaseSecurityContraband]
   id: ClothingUniformJumpskirtDutyOfficer
-  name: duty officer's uniform
+  name: форма дежурного офицера
   description: A vibrant security skirt for the warden's partner in chains.
   components:
   - type: Sprite
@@ -198,7 +198,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpskirtServiceWorkerBartender
-  name: waiter jumpskirt
+  name: юбка-комбинезон официанта
   description: A sharp and tidy uniform for the bartender's footsoldiers.
   components:
   - type: Sprite
@@ -209,7 +209,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpskirtServiceWorkerBotany
-  name: gardener jumpskirt
+  name: юбка-комбинезон садовника
   description: Has a light earthy smell to it. Has to be routinely bleached.
   components:
   - type: Sprite
@@ -220,7 +220,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpskirtServiceWorkerChef
-  name: sous chef jumpskirt
+  name: юбка-комбинезон су-шефа
   description: The noble jumpsuit of the chef's co-conspirator.
   components:
   - type: Sprite
@@ -231,7 +231,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpskirtPerformerClown
-  name: assistant clown jumpskirt
+  name: юбка-комбинезон ассистента клоуна
   description: Yet to be worthy of honking.
   components:
   - type: Sprite
@@ -242,7 +242,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpskirtPerformerMime
-  name: mime apprentice jumpskirt
+  name: юбка-комбинезон ученика мима
   description: Still have to learn how to be quiet...
   components:
   - type: Sprite
@@ -253,7 +253,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpskirtPerformerMusician
-  name: session musician jumpskirt
+  name: юбка-комбинезон сессионного музыканта
   description: A formal suit with a luxurious pair of pants. It's time to act!
   components:
   - type: Sprite
@@ -264,7 +264,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpskirtClownFormal
-  name: distinguished clown skirt
+  name: благородная юбка клоуна
   description: Why, I daresay, HONK!
   components:
   - type: Sprite
@@ -275,7 +275,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpskirtLawyerService
-  name: green lawyer suitskirt
+  name: зелёная юбка-костюм адвоката
   description: A flashy green suitskirt worn by lawyers and show-offs.
   components:
   - type: Sprite
@@ -286,7 +286,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpskirtLawyerGray
-  name: gray lawyer suitskirt
+  name: серая юбка-костюм адвоката
   description: A plain gray suitskirt worn by lawyers and show-offs.
   components:
   - type: Sprite
@@ -297,7 +297,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpskirtLawyerPink
-  name: pink lawyer suitskirt
+  name: розовая юбка-костюм адвоката
   description: A bright pink suitskirt worn by lawyers that you should call.
   components:
   - type: Sprite
@@ -308,7 +308,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpskirtLawyerBlackTwo
-  name: show lawyer suitskirt
+  name: показная юбка-костюм адвоката
   description: A stylish black piece worn by lawyers and show people.
   components:
   - type: Sprite
@@ -319,7 +319,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpskirtLawyerBad
-  name: bad lawyer's suitskirt
+  name: юбка-костюм плохого адвоката
   description: A bold suitskirt. Perfect for finding your one way, going wherever you want to go.
   components:
     - type: Sprite
@@ -333,7 +333,7 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtGothic
-  name: gothic dress
+  name: готическое платье
   description: A gothic dress is an elegant and mysterious garment characterized by its dark and intriguing style. Deep, dark shades like black, burgundy, or navy blue add an aura of mystery and aristocratic allure. Delicate lace accents, luxurious drapery, and ruffles evoke a sense of ancient romance. Keyhole or high neckline cuts give the gothic dress uniqueness and opulence. This dress is perfect for those who want to stand out and emphasize their individuality and mystique. In it, every woman feels refined and captivating, ready to enchant at first sight.
   components:
   - type: Sprite
@@ -344,7 +344,7 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtMaid
-  name: evening maid dress
+  name: вечернее платье горничной
   description: This refined evening dress, inspired by the elegant maid's style, combines sophistication with a touch of playful femininity. Made from high-quality black satin, it is designed to highlight the refined taste and style of its wearer.
   components:
   - type: Sprite
@@ -355,7 +355,7 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtDressRed
-  name: evening red dress
+  name: вечернее красное платье
   description: This stunning evening gown embodies passion and boldness, blended with elegance and sophistication. Crafted from deep red silk, it captivates attention and exudes luxury and sensuality.
   components:
   - type: Sprite
@@ -366,7 +366,7 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtTango
-  name: tango dress
+  name: платье для танго
   description: This dress is made for tango, embodying passion and elegance. Its fitted silhouette, with a back cutout and decorative draping, accentuates feminine curves while offering freedom of movement and enhancing the beauty of the dance.
   components:
   - type: Sprite
@@ -377,7 +377,7 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtVictorianBlack
-  name: victorian black dress
+  name: викторианское чёрное платье
   description: This black Victorian dress captures the essence of the era. Cutouts, lace, and cuffs add mystery, while the corset creates a refined silhouette. It's perfect for evening events where elegance and intrigue are desired.
   components:
   - type: Sprite
@@ -388,7 +388,7 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtReporter
-  name: reporter jumpskirt
+  name: юбка-комбинезон репортёра
   description: A good reporter remains a skeptic for life.
   components:
   - type: Sprite
@@ -399,7 +399,7 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtJournalist
-  name: journalist jumpskirt
+  name: юбка-комбинезон журналиста
   description: If journalism is good, it is contradictory by nature.
   components:
   - type: Sprite
@@ -410,7 +410,7 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtVictorianrRed
-  name: victorian red dress
+  name: викторианское красное платье
   description: Inspired by Victorian style, this red dress embodies passion and luxury. Intricate details like lace, puffed sleeves, and a voluminous skirt make it the perfect choice for special events where standing out and making an impression is key.
   components:
   - type: Sprite
@@ -421,7 +421,7 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtSuitNurse
-  name: nurse's uniform
+  name: форма медсестры
   description: This nurse uniform combines functionality and style. Durable, comfortable pants paired with a blouse and signature cap create a professional and neat look, making it an ideal choice for healthcare staff.
   components:
   - type: Sprite
@@ -432,7 +432,7 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtPencilTan
-  name: beige "pencil" style skirt
+  name: бежевая юбка-карандаш
   description: The beige "pencil" style skirt exudes softness and elegance. The fitted blazer and straight skirt create a refined silhouette, making it suitable for various occasions, from business meetings to evening dinners.
   components:
   - type: Sprite
@@ -443,7 +443,7 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtPencilCentcomOfficial
-  name: CentComm "pencil" style skirt
+  name: юбка-карандаш ЦК
   description: A strict green "pencil" skirt exudes authority and poise. The fitted blazer and straight skirt form an elegant silhouette, suitable for various occasions, from business meetings to a captain's dismissal.
   components:
   - type: Sprite
@@ -454,7 +454,7 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtPencilSpecialOperationsOfficer
-  name: SOC officer "pencil" skirt
+  name: юбка-карандаш офицера ССО
   description: A formal black Special Operations Corps officer's "pencil" skirt embodies authority and sophistication. The tailored blazer and straight skirt create a refined silhouette, suitable for various occasions, from strategic meetings to... well, less conventional operations.
   components:
   - type: Sprite
@@ -465,7 +465,7 @@
 - type: entity
   parent: [ ClothingUniformBase, BaseCentcommContraband ]
   id: ClothingUniformJumpskirtCentcomFormalCAD
-  name: Central Administration Division officer's formal jumpskirt
+  name: торжественная юбка-комбинезон офицера Центрального административного дивизиона
   description: It's a formal jumpskirt worn by CentComm officers.
   components:
     - type: Sprite
@@ -476,7 +476,7 @@
 - type: entity
   parent: [ ClothingUniformBase, BaseCentcommContraband ]
   id: ClothingUniformJumpskirtCentcomFormalCMD
-  name: Central Medical Division  officer's formal jumpskirt
+  name: торжественная юбка-комбинезон офицера Центрального медицинского дивизиона
   description: It's a formal jumpskirt worn by CentComm officers.
   components:
     - type: Sprite
@@ -487,7 +487,7 @@
 - type: entity
   parent: [ ClothingUniformBase, BaseCentcommContraband ]
   id: ClothingUniformJumpskirtCentcomFormalCRD
-  name: Central Research Division officer's formal jumpskirt
+  name: торжественная юбка-комбинезон офицера Центрального научного дивизиона
   description: It's a formal jumpskirt worn by CentComm officers.
   components:
     - type: Sprite
@@ -498,7 +498,7 @@
 - type: entity
   parent: [ ClothingUniformBase, BaseCentcommContraband ]
   id: ClothingUniformJumpskirtCentcomFormalCCD
-  name: Central Cargo Division officer's formal jumpskirt
+  name: торжественная юбка-комбинезон офицера Центрального грузового дивизиона
   description: It's a formal jumpskirt worn by CentComm officers.
   components:
     - type: Sprite
@@ -509,7 +509,7 @@
 - type: entity
   parent: [ ClothingUniformBase, BaseCentcommContraband ]
   id: ClothingUniformJumpskirtCentcomFormalCSOD
-  name: Central Special Operations Division officer's formal jumpskirt
+  name: торжественная юбка-комбинезон офицера Центрального дивизиона спецопераций
   description: It's a formal jumpskirt worn by CentComm officers.
   components:
     - type: Sprite
@@ -520,7 +520,7 @@
 - type: entity
   parent: [ ClothingUniformBase, BaseCentcommContraband ]
   id: ClothingUniformJumpskirtCentcomFormalCID
-  name: Central Intelligence Division officer's formal jumpskirt
+  name: торжественная юбка-комбинезон офицера Центрального разведывательного дивизиона
   description: It's a formal jumpskirt worn by CentComm officers.
   components:
     - type: Sprite
@@ -531,7 +531,7 @@
 - type: entity
   parent: [ ClothingUniformBase, BaseCentcommContraband ]
   id: ClothingUniformJumpskirtCentcomFormalCSD
-  name: Central Security Division officer's formal jumpskirt
+  name: торжественная юбка-комбинезон офицера Центрального дивизиона безопасности
   description: It's a formal jumpskirt worn by CentComm officers.
   components:
     - type: Sprite
@@ -542,7 +542,7 @@
 - type: entity
   parent: [ ClothingUniformBase, BaseCentcommContraband ]
   id: ClothingUniformJumpskirtCentcomFormalCED
-  name: Central Engineering Division officer's formal jumpskirt
+  name: торжественная юбка-комбинезон офицера Центрального инженерного дивизиона
   description: It's a formal jumpskirt worn by CentComm officers.
   components:
     - type: Sprite
@@ -553,7 +553,7 @@
 - type: entity
   parent: [ ClothingUniformBase, BaseCentcommContraband ]
   id: ClothingUniformJumpskirtCentcomFormalDressCAD
-  name: Central Administration Division officer's formal dress jumpskirt
+  name: парадная юбка-комбинезон офицера Центрального административного дивизиона
   description: It's a formal dress jumpskirt worn by CentComm officers.
   components:
     - type: Sprite
@@ -564,7 +564,7 @@
 - type: entity
   parent: [ ClothingUniformBase, BaseCentcommContraband ]
   id: ClothingUniformJumpskirtCentcomFormalDressCMD
-  name: Central Medical Division officer's formal dress jumpskirt
+  name: парадная юбка-комбинезон офицера Центрального медицинского дивизиона
   description: It's a formal dress jumpskirt worn by CentComm officers.
   components:
     - type: Sprite
@@ -575,7 +575,7 @@
 - type: entity
   parent: [ ClothingUniformBase, BaseCentcommContraband ]
   id: ClothingUniformJumpskirtCentcomFormalDressCRD
-  name: Central Research Division officer's formal dress jumpskirt
+  name: парадная юбка-комбинезон офицера Центрального научного дивизиона
   description: It's a formal dress jumpskirt worn by CentComm officers.
   components:
     - type: Sprite
@@ -586,7 +586,7 @@
 - type: entity
   parent: [ ClothingUniformBase, BaseCentcommContraband ]
   id: ClothingUniformJumpskirtCentcomFormalDressCCD
-  name: Central Cargo Division officer's formal dress jumpskirt
+  name: парадная юбка-комбинезон офицера Центрального грузового дивизиона
   description: It's a formal dress jumpskirt worn by CentComm officers.
   components:
     - type: Sprite
@@ -597,7 +597,7 @@
 - type: entity
   parent: [ ClothingUniformBase, BaseCentcommContraband ]
   id: ClothingUniformJumpskirtCentcomFormalDressCSOD
-  name: Central Special Operations Division officer's formal dress jumpskirt
+  name: парадная юбка-комбинезон офицера Центрального дивизиона спецопераций
   description: It's a formal dress jumpskirt worn by CentComm officers.
   components:
     - type: Sprite
@@ -608,7 +608,7 @@
 - type: entity
   parent: [ ClothingUniformBase, BaseCentcommContraband ]
   id: ClothingUniformJumpskirtCentcomFormalDressCID
-  name: Central Intelligence Division officer's formal dress jumpskirt
+  name: парадная юбка-комбинезон офицера Центрального разведывательного дивизиона
   description: It's a formal dress jumpskirt worn by CentComm officers.
   components:
     - type: Sprite
@@ -619,7 +619,7 @@
 - type: entity
   parent: [ ClothingUniformBase, BaseCentcommContraband ]
   id: ClothingUniformJumpskirtCentcomFormalDressCSD
-  name: Central Security Division officer's formal dress jumpskirt
+  name: парадная юбка-комбинезон офицера Центрального дивизиона безопасности
   description: It's a formal dress jumpskirt worn by CentComm officers.
   components:
     - type: Sprite
@@ -630,7 +630,7 @@
 - type: entity
   parent: [ ClothingUniformBase, BaseCentcommContraband ]
   id: ClothingUniformJumpskirtCentcomFormalDressCED
-  name: Central Engineering Division officer's formal dress jumpskirt
+  name: парадная юбка-комбинезон офицера Центрального инженерного дивизиона
   description: It's a formal dress jumpskirt worn by CentComm officers.
   components:
     - type: Sprite
@@ -641,7 +641,7 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtCargoSalvage
-  name: salvage specialist jumpskirt
+  name: юбка-комбинезон специалиста по утилизации
   description: Perfectly pairs with a pickaxe, this versatile and durable skirt jumpsuit is designed for tough work, offering both practicality and a rugged, stylish appearance.
   components:
   - type: Sprite
@@ -652,7 +652,7 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtCargoSalvageFormal
-  name: formal salvage jumpskirt
+  name: торжественная юбка-комбинезон утилизатора
   description: Perfectly pairs with a pickaxe, this rugged yet stylish skirt jumpsuit combines functionality and toughness, ideal for salvaging work with a practical, efficient design.
   components:
   - type: Sprite
@@ -663,7 +663,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpskirtSalvageLead
-  name: salvage leads's jumpskirt
+  name: юбка-комбинезон ведущего утилизатора
   description: It's a snappy jumpskirt with a sturdy set of overalls. It's very dirty.
   components:
     - type: Sprite
@@ -674,7 +674,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpskirtMiningSpecialist
-  name: mining specialist's jumpskirt
+  name: юбка-комбинезон специалиста по добыче
   description: A suit passed down through many generations. a fine layer of dust trails behind it.
   components:
   - type: Sprite
@@ -685,7 +685,7 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtCargoFormal
-  name: formal cargo jumpskirt
+  name: торжественная юбка-комбинезон грузчика
   description: An official jumpsuit skirt combines practicality with a professional appearance. The tailored design offers comfort and mobility, while maintaining a structured look suitable for work settings requiring efficiency and formality.
   components:
   - type: Sprite
@@ -696,7 +696,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpskirtMail
-  name: mail technician jumpskirt
+  name: юбка-комбинезон почтальона
   description: A stylish cargo yellow and mail bag-blue uniform custom made for mail technicians.
   components:
   - type: Sprite
@@ -707,7 +707,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpskirtSeniorMail
-  name: senior mail technician jumpskirt
+  name: юбка-комбинезон старшего почтальона
   description: A more vibrant mail technician outfit made in the color of cargo's formal uniforms. Perfect for deliver the mail in style, and looking good while doing it.
   components:
   - type: Sprite
@@ -718,7 +718,7 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtScientistFormal
-  name: formal scientist jumpskirt
+  name: торжественная юбка-комбинезон учёного
   description: A uniform for discerning scientists, best paired with a matching tie, offering a blend of professionalism and intellectual flair. Perfect for prestigious events or high-level research settings.
   components:
   - type: Sprite
@@ -729,7 +729,7 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtCoroner
-  name: coroner jumpskirt
+  name: юбка-комбинезон коронера
   description: Made from specialized fibers offering minimal protection against biological hazards, this jumpsuit proves that style doesn’t have to die with the patients. Perfect for the professional with a sense of dark humor.
   components:
   - type: Sprite
@@ -740,7 +740,7 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtCentcomOfficial
-  name: CentComm officer's suitskirt
+  name: юбка-комбинезон офицера ЦК
   description: It's a suitskirt worn by CentComm's highest-tier Commanders.
   components:
     - type: Sprite
@@ -751,7 +751,7 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtCentcomOfficer
-  name: CentComm turtleneck skirt
+  name: водолазка с юбкой ЦК
   description: A skirt version of the CentComm turtleneck, rarer and more sought after than the original.
   components:
   - type: Sprite
@@ -762,7 +762,7 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtElegantMaid
-  name: elegant maid uniform
+  name: элегантная форма горничной
   description: Call me master and bring me some beer.
   components:
   - type: Sprite
@@ -773,7 +773,7 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformColorJumpskirtRainbow
-  name: rainbow jumpskirt
+  name: радужная юбка-комбинезон
   description: A multi-colored jumpskirt!
   components:
   - type: Sprite
@@ -784,7 +784,7 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtSchool
-  name: school skirt
+  name: школьная юбка
   description: Stylish and comfortable school skirt.
   components:
   - type: Sprite
@@ -795,7 +795,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpskirtCapTurtleneck
-  name: captain's turtleneck
+  name: юбка-водолазка капитана
   description: True captain's turtleneck.
   components:
   - type: Sprite
@@ -806,7 +806,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpskirtHoPTurtleneck
-  name: head of personal's turtleneck
+  name: юбка-водолазка главы персонала
   description: It's Head of Personal's turtleneck.
   components:
   - type: Sprite
@@ -817,7 +817,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpskirtHoSBlack
-  name: head of security's black skirt
+  name: чёрная юбка-комбинезон главы службы безопасности
   description: It's Head of Security's black skirt.
   components:
   - type: Sprite
@@ -828,7 +828,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpskirtRDClassical
-  name: research director's classical skirt
+  name: классическая юбка-костюм научного руководителя
   description: It's Research Director's classical skirt.
   components:
   - type: Sprite
@@ -839,7 +839,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJulianneVA11HALLA
-  name: smoke-scented bartender uniform
+  name: пропахшая дымом форма бармена
   description: Smoke clings to it, heavy and suffocating. Somehow, it makes you want to cry. Care for another round, sir?
   components:
   - type: Sprite
@@ -850,7 +850,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpskirtBartenderBlackAlt
-  name: fancy bartender uniform
+  name: нарядная форма бармена
   description: A nice and tidy uniform, with leggings to match.
   components:
   - type: Sprite
@@ -861,7 +861,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformElegantLadyDress
-  name: elegant lady's dress
+  name: платье элегантной леди
   description: "A voluminous white blouse with a black skirt-perfect for highlighting your beauty, darling!"
   components:
   - type: Sprite
@@ -872,7 +872,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformPastryDress
-  name: sweet pastry dress
+  name: платье «сладкая выпечка»
   description: A delicate pastry dress made from light, comfortable fabric with an elegant cut.
   components:
     - type: Sprite
@@ -883,7 +883,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformTimelessSkirt
-  name: timeless skirt
+  name: вневременная юбка
   description: A luxury skirt with a timeless design.
   components:
     - type: Sprite
@@ -894,7 +894,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpskirtPunkSkirt
-  name: punk skirt and socks
+  name: панк-юбка с носками
   description: Slightly metal, very goth.
   components:
   - type: Sprite
@@ -907,7 +907,7 @@
 - type: entity
   parent: [ ClothingUniformSkirtBase, BaseCentcommContraband ]
   id: ClothingUniformJumpskirtCentcommDomesticFormalWear
-  name: central command domestic division formal wear
+  name: торжественная форма бытового дивизиона центрального командования
   description: A dress for special occasions.
   components:
   - type: Sprite
@@ -918,7 +918,7 @@
 - type: entity
   parent: [ ClothingUniformSkirtBase, BaseCentcommContraband ]
   id: ClothingUniformJumpskirtCentcommAdminFormalWear
-  name: central command administrative division formal wear
+  name: торжественная форма административного дивизиона центрального командования
   description: A dress for special occasions.
   components:
   - type: Sprite
@@ -929,7 +929,7 @@
 - type: entity
   parent: [ ClothingUniformSkirtBase, BaseCentcommContraband ]
   id: ClothingUniformJumpskirtCentcommCargoFormalWear
-  name: central command cargo division formal wear
+  name: торжественная форма грузового дивизиона центрального командования
   description: A dress for special occasions.
   components:
   - type: Sprite
@@ -940,7 +940,7 @@
 - type: entity
   parent: [ ClothingUniformSkirtBase, BaseCentcommContraband ]
   id: ClothingUniformJumpskirtEngiCentcommFormalWear
-  name: central command engineering division formal wear
+  name: торжественная форма инженерного дивизиона центрального командования
   description: A dress for special occasions.
   components:
   - type: Sprite
@@ -951,7 +951,7 @@
 - type: entity
   parent: [ ClothingUniformSkirtBase, BaseCentcommContraband ]
   id: ClothingUniformJumpskirtCentcommIntelFormalWear
-  name: central command intelligence division formal wear
+  name: торжественная форма разведывательного дивизиона центрального командования
   description: A dress for special occasions.
   components:
   - type: Sprite
@@ -962,7 +962,7 @@
 - type: entity
   parent: [ ClothingUniformSkirtBase, BaseCentcommContraband ]
   id: ClothingUniformJumpskirtCentcommMedFormalWear
-  name: central command medical division formal wear
+  name: торжественная форма медицинского дивизиона центрального командования
   description: A dress for special occasions.
   components:
   - type: Sprite
@@ -973,7 +973,7 @@
 - type: entity
   parent: [ ClothingUniformSkirtBase, BaseCentcommContraband ]
   id: ClothingUniformJumpskirtCentcommResearchFormalWear
-  name: central command research division formal wear
+  name: торжественная форма научного дивизиона центрального командования
   description: A dress for special occasions.
   components:
   - type: Sprite
@@ -984,7 +984,7 @@
 - type: entity
   parent: [ ClothingUniformSkirtBase, BaseCentcommContraband ]
   id: ClothingUniformJumpskirtCentcommSecurityFormalWear
-  name: central command security division formal wear
+  name: торжественная форма дивизиона безопасности центрального командования
   description: A dress for special occasions.
   components:
   - type: Sprite
@@ -995,7 +995,7 @@
 - type: entity
   parent: [ ClothingUniformSkirtBase, BaseCentcommContraband ]
   id: ClothingUniformJumpskirtCentcommSpecialOpsFormalWear
-  name: central command special operations division formal wear
+  name: торжественная форма дивизиона спецопераций центрального командования
   description: A dress for special occasions.
   components:
   - type: Sprite
@@ -1006,7 +1006,7 @@
 - type: entity
   parent: [ ClothingUniformBase, BaseNanoTrasenContraband ]
   id: MagistrateUniformSkirt
-  name: magistrate's jumpskirt
+  name: юбка-комбинезон магистрата
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpskirt/magistrate.rsi
@@ -1016,7 +1016,7 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtSeniorParamedic
-  name: senior paramedic jumpskirt
+  name: юбка-комбинезон старшего парамедика
   description: These epaulettes mark a paramedic that has walked through fire and void to save those in need
   components:
   - type: Sprite
@@ -1027,7 +1027,7 @@
 - type: entity
   parent: [ ClothingUniformSkirtBase, BaseNanoTrasenContraband ]
   id: ClothingUniformJumpskirtNCT
-  name: nt career trainer's skirt
+  name: юбка тренера НТ
   description: A neatly pressed olive green shirt paired with a sleek black skirt, worn by those committed to mentoring the next generation.
   components:
   - type: Sprite
@@ -1038,7 +1038,7 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtAssistant
-  name: assistant jumpskirt
+  name: юбка-комбинезон ассистента
   description: A tasteful green jumpskirt that reminds you of the good old days.
   components:
   - type: Sprite
@@ -1068,7 +1068,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpskirtSalvageMedic
-  name: salvage medic's jumpskirt
+  name: юбка-комбинезон медика-утилизатора
   description: It's a snappy jumpskirt with a sturdy set of overalls. It's very bloody.
   components:
     - type: Sprite

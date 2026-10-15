@@ -1,7 +1,7 @@
 - type: entity
   parent: CrateInternals
   id: CrateInternalsO2N2
-  name: ent-CrateInternalsO2N2
+  name: аварийный ящик
   components:
   - type: Icon
     sprite: _Starlight/Structures/Storage/Crates/o2n2.rsi
@@ -11,8 +11,8 @@
 - type: entity
   parent: CrateGenericSteel
   id: CrateSoviet
-  name: ent-CrateSoviet
-  description: ent-CrateSoviet-desc
+  name: ящик морской пехоты СССП
+  description: Прочный ящик с эмблемой морской пехоты СССП.
   components:
   - type: Icon
     sprite: _Starlight/Structures/Storage/USSP/soviet-crate.rsi
@@ -22,7 +22,7 @@
 - type: entity
   parent: CrateBaseSecure
   id: CrateRDSecure
-  name: ent-CrateRDSecure
+  name: ящик научного руководителя
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/command.rsi
@@ -34,7 +34,7 @@
 - type: entity
   parent: CrateBaseSecure
   id: CrateRoboticsSecure
-  name: ent-CrateRoboticsSecure
+  name: защищённый ящик робототехники
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/scicrate_secure.rsi
@@ -47,8 +47,8 @@
   parent: CrateBaseSecure
   suffix: Salvage, Secure
   id: CrateSalvageContrabandStorageSecure
-  name: ent-CrateSalvageContrabandStorageSecure
-  description: ent-CrateSalvageContrabandStorageSecure-desc
+  name: складской ящик утилизаторов
+  description: Ящик с доступом службы безопасности и утилизаторов для хранения контрабанды.
   components:
   - type: Icon
     sprite: _Starlight/Structures/Storage/Crates/salvagecontra_secure.rsi
@@ -60,7 +60,7 @@
 - type: entity
   parent: CrateBaseSecure
   id: CrateCentralCommandSecure
-  name: ent-CrateCentralCommandSecure
+  name: ящик центрального командования
   components:
     - type: Icon
       sprite: _Starlight/Structures/Storage/Crates/centralcommand.rsi
@@ -72,9 +72,9 @@
 - type: entity
   parent: CrateCentralCommandSecure
   id: CrateCentralCommandSecureStrong
-  name: ent-CrateCentralCommandSecureStrong
+  name: ящик центрального командования
   suffix: Secure, Strong
-  description: ent-CrateCentralCommandSecureStrong-desc
+  description: Большой контейнер для предметов. Изготовлен из пластатитана для значительного повышения прочности.
   components:
     - type: Destructible
       thresholds:

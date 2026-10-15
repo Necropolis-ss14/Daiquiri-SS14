@@ -1,7 +1,7 @@
 - type: entity
   parent: BaseStructureComputer
   id: SyndBath
-  name: netrunner bathroom
+  name: ванная нетраннера
   description: A netrunner bathroom manufactured by CyberSun—about 50%, with the rest cobbled together from whatever was lying around.
   placement:
     mode: SnapgridCenter
@@ -70,7 +70,7 @@
 
 - type: entity
   id: SyndBathOverlay
-  name: netrunner bathroom
+  name: ванная нетраннера
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

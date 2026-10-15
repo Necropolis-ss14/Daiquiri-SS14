@@ -415,34 +415,6 @@ ui-options-admin-overlay-ghost-fade-distance = Ghost overlay fade range from mou
 ui-options-admin-overlay-ghost-hide-distance = Ghost overlay hide range from mouse
 
 ## Starlight: keys kept from our fork
-ui-options-tab-network = Сеть
-ui-options-general-ui-style = Стиль интерфейса
-ui-options-general-accessibility = Специальные возможности
 ui-options-audio-device = Output device:
 ui-options-audio-device-default = Default device
 ui-options-audio-hrtf = Enable HRTF (spatial audio, requires restart)
-ui-options-net-predict = Предсказание на стороне клиента
-ui-options-net-interp-ratio = Размер буфера состояния
-ui-options-net-interp-ratio-tooltip = Увеличение этого значения обычно делает игру более устойчивой
-    к потере пакетов от сервера к клиенту, однако при этом
-    немного увеличивает задержку и требует от клиента
-    предсказывать больше будущих тактов.
-ui-options-net-predict-tick-bias = Смещение тактов предсказания
-ui-options-net-predict-tick-bias-tooltip = Увеличение этого значения обычно делает игру более устойчивой
-    к потере пакетов от клиента к серверу, однако при этом
-    немного увеличивает задержку и требует от клиента
-    предсказывать больше будущих тактов.
-ui-options-net-pvs-spawn = Лимит появления сущностей PVS
-ui-options-net-pvs-spawn-tooltip = Ограничивает скорость, с которой сервер отправляет клиенту только что созданные
-    сущности. Снижение этого значения может уменьшить
-    подёргивания из-за появления сущностей, но может привести к их
-    внезапному появлению на экране.
-ui-options-net-pvs-entry = Лимит сущностей PVS
-ui-options-net-pvs-entry-tooltip = Ограничивает скорость, с которой сервер отправляет клиенту вновь видимые
-    сущности. Снижение этого значения может уменьшить
-    подёргивания, но может привести к внезапному появлению объектов.
-ui-options-net-pvs-leave = Скорость удаления PVS
-ui-options-net-pvs-leave-tooltip = Ограничивает скорость, с которой клиент удаляет
-    сущности, находящиеся вне области видимости. Снижение этого значения может
-    уменьшить подёргивания при перемещении, но иногда может
-    привести к рассинхронизации предсказания и другим проблемам.

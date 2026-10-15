@@ -1,8 +1,8 @@
 - type: entity
   parent: [ ClothingUniformSkirtBase, BaseNanoTrasenContraband ]
   id: ClothingUniformJumpskirtNTNCOfficer
-  name: NanoTrasen navy officer's jumpskirt
-  description: Standard issue NanoTrasen Navy Marine jumpskirt. This one's for an officer.
+  name: юбка офицера NanoTrasen
+  description: Штатная юбка морпехов NanoTrasen. Офицерская.
   components:
   - type: Sprite
     sprite: _Starlight/Admeme/Clothing/Uniforms/Jumpskirt/ntnc_officer.rsi
@@ -12,8 +12,8 @@
 - type: entity
   parent: [ ClothingUniformSkirtBase, BaseNanoTrasenContraband ]
   id: ClothingUniformJumpskirtNTNCEnsign
-  name: NanoTrasen navy ensign's jumpskirt
-  description: Standard issue NanoTrasen Navy Marine jumpskirt. This one's for an ensign.
+  name: юбка энсина NanoTrasen
+  description: Штатная юбка морпехов NanoTrasen. Для энсина.
   components:
   - type: Sprite
     sprite: _Starlight/Admeme/Clothing/Uniforms/Jumpskirt/ntnc_officer.rsi
@@ -23,8 +23,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtFormalITG
-  name: ITG Formal Jumpskirt
-  description: A refined purple skirt worn by delegates of the guild.
+  name: Парадная юбка ITG
+  description: Строгая фиолетовая юбка делегатов гильдии.
   components:
   - type: Sprite
     sprite: _Starlight/Admeme/Clothing/Uniforms/Jumpskirt/itgdress.rsi

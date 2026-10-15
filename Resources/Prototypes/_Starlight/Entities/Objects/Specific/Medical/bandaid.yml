@@ -1,6 +1,6 @@
 - type: entity
-  name: patch
-  description: On-touch administration of chemicals.
+  name: пластырь
+  description: Введение химии прикосновением.
   parent: BaseStarlightHealingItem
   id: BasePatch
   abstract: true
@@ -27,7 +27,7 @@
 
 - type: entity
   id: PatchBrute
-  name: brute patch
+  name: грубый пластырь
   parent: BasePatch
   components:
   - type: Sprite
@@ -42,7 +42,7 @@
 
 - type: entity
   id: PatchBurnSmall
-  name: burn patch small
+  name: малый ожоговый пластырь
   parent: BasePatch
   components:
   - type: Sprite
@@ -57,7 +57,7 @@
 
 - type: entity
   id: PatchBurn
-  name: burn patch
+  name: ожоговый пластырь
   parent: BasePatch
   components:
   - type: Sprite
@@ -72,7 +72,7 @@
 
 - type: entity
   id: PatchMedical
-  name: medical patch
+  name: медицинский пластырь
   parent: BasePatch
   components:
   - type: Sprite
@@ -89,7 +89,7 @@
 
 - type: entity
   id: PatchClown
-  name: clown patch
+  name: клоунский пластырь
   parent: BasePatch
   components:
   - type: Sprite
@@ -110,7 +110,7 @@
   name: patch pack
   id: PatchPack
   parent: BaseStorageItem
-  description: Stores multiple patches efficiently.
+  description: Компактно хранит несколько пластырей.
   components:
   - type: Item
     size: Small

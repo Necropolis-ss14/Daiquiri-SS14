@@ -1,5 +1,5 @@
 - type: entity
-  name: glassware drying rack
+  name: сушилка для стеклянной посуды
   id: DryingRackGlassware
   parent: BaseStructure
   description: A convenient way to dry and store your glasses behind the bar. Be careful not to overfill the tray!

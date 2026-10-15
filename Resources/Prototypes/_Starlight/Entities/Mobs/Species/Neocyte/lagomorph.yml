@@ -1,7 +1,7 @@
 - type: entity
   parent: BaseMobNeocyte
   id: BaseMobNeoLagomorph
-  name: Urist McLagomorphster
+  name: Урист МакЛагоморфстер
   abstract: true
   components:
   - type: LanguageKnowledge

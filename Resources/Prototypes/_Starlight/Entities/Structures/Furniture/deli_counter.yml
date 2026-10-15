@@ -1,5 +1,5 @@
 - type: entity
-  name: deli stand
+  name: прилавок деликатесов
   id: DeliStand
   parent: BaseStructureDynamic
   description: A counter for displaying food in a deli.

@@ -1,7 +1,7 @@
 ## Bruise packs
 - type: entity
-  name: red bruise pack
-  description: Security-Graded Bruise Packs for all your harmbaton needs!
+  name: красный пак от ушибов
+  description: Паки от ушибов охранного класса для твоих нужд с дубинкой!
   parent: BaseStarlightHealingItem
   id: RedBrutePack
   suffix: 20
@@ -36,8 +36,8 @@
         - IPC
 
 - type: entity
-  name: red bruise pack
-  description: Security-Graded Bruise Packs for all your harmbaton needs! You really went ham with that baton, huh?
+  name: красный пак от ушибов
+  description: Паки от ушибов охранного класса для твоих нужд с дубинкой! Ты ей прямо размахался, а?
   parent: RedBrutePack
   id: RedBrutePack1
   suffix: 1
@@ -49,8 +49,8 @@
     count: 1
 
 - type: entity
-  name: red bruise pack
-  description: Security-Graded Bruise Packs for all your harmbaton needs! Someone's been busy!
+  name: красный пак от ушибов
+  description: Паки от ушибов охранного класса для твоих нужд с дубинкой! Кто-то тут поработал!
   parent: RedBrutePack
   id: RedBrutePack10
   suffix: 10
@@ -70,8 +70,8 @@
 
 # Ointments
 - type: entity
-  name: red ointment
-  description: Uses a special blend of pyrazine and aloe to treat severe burns. Does nothing for caustic.
+  name: красная мазь
+  description: Особая смесь пиразина и алоэ против сильных ожогов. От кислотных не помогает.
   parent: BaseStarlightHealingItem
   id: RedOintment
   suffix: 20
@@ -106,8 +106,8 @@
         - IPC
 
 - type: entity
-  name: red ointment
-  description: Uses a special blend of pyrazine and aloe to treat severe burns. Does nothing for caustic. Gotta really squeeze for that last bit.
+  name: красная мазь
+  description: Особая смесь пиразина и алоэ против сильных ожогов. От кислотных не помогает. Давится с трудом, до последней капли.
   parent: RedOintment
   id: RedOintment1
   suffix: 1
@@ -119,8 +119,8 @@
     count: 1
 
 - type: entity
-  name: red ointment
-  description: Uses a special blend of pyrazine and aloe to treat severe burns. Does nothing for caustic. Partially used..
+  name: красная мазь
+  description: Особая смесь пиразина и алоэ против сильных ожогов. От кислотных не помогает. Начатая.
   parent: RedOintment
   id: RedOintment10
   suffix: 10

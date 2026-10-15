@@ -4,7 +4,7 @@
 - type: entity
   parent: [ GrenadeCleanade, BaseSyndicateContraband ]
   id: GrenadeCleanadeSyndicate
-  name: '"cleanade" grenade round'
+  name: снаряд «клинада»
   components:
   - type: CartridgeAmmo
     proto: BulletGrenadeCleanadeSyndicate
@@ -18,7 +18,7 @@
   abstract: true
   parent: [BaseItem, BaseMajorContraband]
   id: Base120mmGrenade
-  name: base 120mm grenade
+  name: базовая граната 120мм
   components:
   - type: Tag
     tags:
@@ -31,7 +31,7 @@
 - type: entity
   parent: Base120mmGrenade
   id: Grenade120mmBlast
-  name: 120mm blast grenade
+  name: фугасная граната 120мм
   description: A devastating 120mm blast grenade designed for the CYERXA cannon system. Three times more powerful than standard blast grenades.
   components:
   - type: CartridgeAmmo
@@ -52,7 +52,7 @@
 - type: entity
   parent: BaseMagazineGrenade
   id: Magazine120mmGrenadeBlast
-  name: 120mm blast grenade magazine
+  name: магазин фугасных гранат 120мм
   description: A large 20-round magazine loaded with powerful blast grenades for the CYERXA cannon system.
   components:
   - type: Tag
@@ -92,7 +92,7 @@
 - type: entity
   parent: Magazine120mmGrenadeBlast
   id: Magazine120mmGrenadeBlastEmpty
-  name: 120mm blast grenade magazine (empty)
+  name: магазин фугасных гранат 120мм (пустой)
   suffix: empty
   components:
   - type: BallisticAmmoProvider
@@ -123,7 +123,7 @@
 - type: entity
   parent: [BaseItem, BaseMajorContraband]
   id: Cartridge60mmRocket
-  name: 60mm rocket
+  name: ракета 60мм
   description: A 60mm rocket cartridge designed for the Vanyk-MK2 shuttle cannon system. Smaller and lighter than standard RPG rounds but still packs a punch.
   components:
   - type: Tag
@@ -144,7 +144,7 @@
 - type: entity
   parent: BaseMagazineGrenade
   id: Magazine60mmRocket
-  name: 60mm rocket magazine
+  name: магазин ракет 60мм
   description: A high-capacity 30-round magazine loaded with 60mm rockets for the Vanyk-MK2 shuttle cannon system.
   components:
   - type: Tag
@@ -184,7 +184,7 @@
 - type: entity
   parent: Magazine60mmRocket
   id: Magazine60mmRocketEmpty
-  name: 60mm rocket magazine (empty)
+  name: магазин ракет 60мм (пустой)
   suffix: empty
   components:
   - type: BallisticAmmoProvider
@@ -198,7 +198,7 @@
 
 - type: entity
   id: GrenadeGaslauncher
-  name: gas grenade
+  name: газовая граната
   description: Able to choke a room or several of your friends.
   parent: [ BaseGrenade, BaseSecurityContraband]
   components:
@@ -219,7 +219,7 @@
 
 - type: entity
   id: GrenadeStingerlauncher
-  name: stinger grenade
+  name: стингер-граната
   description: An unruly crowd's favourite.
   parent: [ BaseGrenade, BaseSecurityContraband]
   components:
@@ -240,7 +240,7 @@
 
 - type: entity
   id: GrenadeBola
-  name: bola grenade
+  name: граната-бола
   description:
   parent: [BaseGrenade, BaseSecurityContraband]
   components:

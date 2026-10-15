@@ -54,7 +54,7 @@
 
 - type: entity
   id: CargoMailBox
-  name: cargo mailbox
+  name: почтовый ящик карго
   description: A mailbox for storing and retrieving mail. Allows for Cargo to store and retrieve their mail.
   parent: BaseMailBox
   components:
@@ -68,7 +68,7 @@
 
 - type: entity
   id: CommandMailBox
-  name: command mailbox
+  name: почтовый ящик командования
   description: A mailbox for storing and retrieving mail. Allows for Command to store and retrieve their mail.
   parent: BaseMailBox
   components:
@@ -82,7 +82,7 @@
 
 - type: entity
   id: EngineeringMailBox
-  name: engineering mailbox
+  name: почтовый ящик инженеров
   description: A mailbox for storing and retrieving mail. Allows for Engineering to store and retrieve their mail.
   parent: BaseMailBox
   components:
@@ -96,7 +96,7 @@
 
 - type: entity
   id: MedicalMailBox
-  name: medical mailbox
+  name: почтовый ящик медиков
   description: A mailbox for storing and retrieving mail. Allows for Medical to store and retrieve their mail.
   parent: BaseMailBox
   components:
@@ -110,7 +110,7 @@
 
 - type: entity
   id: ScienceMailBox
-  name: science mailbox
+  name: почтовый ящик учёных
   description: A mailbox for storing and retrieving mail. Allows for Science to store and retrieve their mail.
   parent: BaseMailBox
   components:
@@ -124,7 +124,7 @@
 
 - type: entity
   id: SecurityMailBox
-  name: security mailbox
+  name: почтовый ящик СБ
   description: A mailbox for storing and retrieving mail. Allows for Security to store and retrieve their mail.
   parent: BaseMailBox
   components:
@@ -138,7 +138,7 @@
 
 - type: entity
   id: ServiceMailBox
-  name: service mailbox
+  name: почтовый ящик сервиса
   description: A mailbox for storing and retrieving mail. Allows for Service to store and retrieve their mail.
   parent: BaseMailBox
   components:

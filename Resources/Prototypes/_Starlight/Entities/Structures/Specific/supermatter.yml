@@ -168,7 +168,7 @@
 - type: entity
   id: CascadChunk
   parent: BaseItem
-  name: Cascad Chunk
+  name: осколок Каскада
   description: A chunk of degenerate supermatter. The remains are still dangerously radioactive.
   components:
     - type: Sprite

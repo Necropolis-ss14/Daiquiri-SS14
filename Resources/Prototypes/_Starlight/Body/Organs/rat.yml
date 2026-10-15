@@ -1,7 +1,7 @@
 - type: entity
   id: OrganRatLungs
   parent: OrganHumanLungs
-  name: rat lungs
+  name: "{ ent-OrganAnimalLungs }"
   description: "It ain't easy to stay breathing in these tunnels."
   suffix: Rat
   components:
@@ -11,7 +11,7 @@
 - type: entity
   id: OrganRatStomach
   parent: OrganAnimalStomach
-  name: rat stomach
+  name: "{ ent-OrganAnimalStomach }"
   description: "Yearns for cheese."
   suffix: Rat
   components:

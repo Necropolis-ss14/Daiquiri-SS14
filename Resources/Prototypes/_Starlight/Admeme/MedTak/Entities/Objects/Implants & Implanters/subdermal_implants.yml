@@ -1,8 +1,8 @@
 - type: entity
   parent: DeathRattleImplant
   id: TrackingImplantMedTak
-  name: ent-TrackingImplantMedTak
-  description: ent-TrackingImplantMedTak-desc
+  name: маячок МедТак
+  description: Этот имплант оповестит ближайшее подразделение МедТак, если пользователь окажется в критическом состоянии или умрёт.
   abstract: true
   components:
     - type: IconImplant
@@ -28,7 +28,7 @@
 - type: entity
   parent: TrackingImplantMedTak
   id: TrackingImplantMedTakBronze
-  name: ent-TrackingImplantMedTakBronze
+  name: бронзовый маячок МедТак
   categories: [ HideSpawnMenu ]
   components:
     - type: IconImplant
@@ -41,7 +41,7 @@
 - type: entity
   parent: TrackingImplantMedTak
   id: TrackingImplantMedTakSilver
-  name: ent-TrackingImplantMedTakSilver
+  name: серебряный маячок МедТак
   categories: [ HideSpawnMenu ]
   components:
     - type: IconImplant
@@ -54,7 +54,7 @@
 - type: entity
   parent: TrackingImplantMedTak
   id: TrackingImplantMedTakGold
-  name: ent-TrackingImplantMedTakGold
+  name: золотой маячок МедТак
   categories: [ HideSpawnMenu ]
   components:
     - type: IconImplant
@@ -67,7 +67,7 @@
 - type: entity
   parent: TrackingImplantMedTak
   id: TrackingImplantMedTakTeam
-  name: ent-TrackingImplantMedTakTeam
+  name: командный маячок МедТак
   categories: [ HideSpawnMenu ]
   components:
     - type: RattleOnTrigger
@@ -78,8 +78,8 @@
 - type: entity
   parent: MindShieldImplant
   id: MedTakMindShieldImplant
-  name: ent-MedTakMindShieldImplant
-  description: ent-MedTakMindShieldImplant-desc
+  name: имплант «Щит разума» МедТак
+  description: Этот имплант защищает оперативников от устройств контроля разума.
   categories: [ HideSpawnMenu ]
   components:
   - type: MindShieldImplant

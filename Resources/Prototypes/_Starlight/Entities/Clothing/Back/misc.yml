@@ -1,7 +1,7 @@
 - type: entity
   parent: [Clothing, BaseSecurityScienceCommandContraband]
   id: ClothingNullSpaceDrainer
-  name: nullspace drainer
+  name: осушитель нуль-пространства
   description: A Superimposed device that occupies the physical and nullspace. Intaking external and foreign energy into data. This device restrains and blocks entities from entering and or leaving nullspace.
   components:
     - type: Tag
@@ -40,7 +40,7 @@
   parent: [ ClothingBackpack, BaseCentcommContraband ]
   categories: [ DoNotMap ]
   id: ClothingBackpackGreenshield
-  name: greenshield cloak
+  name: плащ гриншилда
   description: A spacious cloak with lots of pockets, worn by Greenshield officers.
   components:
     - type: Sprite

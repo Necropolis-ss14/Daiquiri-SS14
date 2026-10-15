@@ -1,5 +1,5 @@
 - type: entity
-  name: TSF ziptie pack
+  name: упаковка стяжек ТСФ
   parent: [BaseItem, BaseTSFContraband]
   id: TSFZiptiePack
   description: A compact pack containing ten single-use zipties. Standard issue for Trans Solar Federation peacekeepers for quick restraint of multiple suspects. Use it to dispense zipties one at a time.
@@ -30,7 +30,7 @@
         type: StorageBoundUserInterface
 
 - type: entity
-  name: Picture frame
+  name: рамка для картины
   parent: [BaseItem]
   id: PictureFrame
   description: A flimsy amalgamation of wood scraps used to hold colourful paper.

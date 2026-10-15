@@ -117,7 +117,7 @@
 
 - type: listing
   id: UplinkPistol9mmMagazineFMJ
-  name: uplink-pistol-fmj-magazine-name # Starlight
+  name: "uplink-pistol-fmj-magazine-name # Starlight"
   description: uplink-pistol-fmj-magazine-desc # Starlight
   icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/Magazine/Pistol/pistol_mag.rsi, state: fmj }
   productEntity: MagazinePistolFMJ

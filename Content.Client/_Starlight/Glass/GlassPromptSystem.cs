@@ -10,11 +10,6 @@ using Robust.Shared.Network;
 
 namespace Content.Client._Starlight.Glass;
 
-/// <summary>
-/// Opens the glass prompt window when the server asks for it:
-/// first-join trigger and glassshow command. Also switches the
-/// newcomer to the timefracture lobby track.
-/// </summary>
 public sealed partial class GlassPromptSystem : EntitySystem
 {
     [Dependency] private INetManager _net = default!;
@@ -26,6 +21,7 @@ public sealed partial class GlassPromptSystem : EntitySystem
     public override void Initialize()
     {
         base.Initialize();
+        _net.RegisterNetMessage<GlassPromptShowMessage>();
         _net.RegisterNetMessage<GlassPromptShowMessage>();
         SubscribeNetworkEvent<GlassPromptShowEvent>(OnShowPromptEvent);
         _audio.LobbySoundtrackChanged += OnLobbySoundtrack;
@@ -42,7 +38,7 @@ public sealed partial class GlassPromptSystem : EntitySystem
         Logger.InfoS("glassprompt", "Received GlassPromptShowEvent, opening prompt window.");
         _ui.CreateWindow<GlassThemePrompt>().OpenCentered();
 
-        // Daiquiri: newcomers get the timefracture track with the prompt.
+        // Daiquiri
         _newcomerTrackPending = true;
         TryNewcomerTrack();
     }

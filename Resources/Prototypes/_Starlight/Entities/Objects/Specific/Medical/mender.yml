@@ -1,6 +1,6 @@
 - type: entity
-  name: automender
-  description: A device used to heal patients brute, burn or both damage types.
+  name: автомендер
+  description: Прибор лечит грубый и ожоговый урон пациентов.
   parent: BaseStarlightHealingItem
   id: BaseAutoMender
   abstract: true
@@ -39,8 +39,8 @@
 
 - type: entity
   id: AutoMenderBrute
-  name: brute automender
-  description: A device used to heal patients brute, burn or both damage types. Uses bicaridine to work.
+  name: грубый автомендер
+  description: Прибор лечит грубый и ожоговый урон. Работает на бикаридине.
   parent: BaseAutoMender
   components:
   - type: Sprite
@@ -87,8 +87,8 @@
 
 - type: entity
   id: AutoMenderBurn
-  name: burn automender
-  description: A device used to heal patients brute, burn or both damage types. Uses dermalin to work.
+  name: ожоговый автомендер
+  description: Прибор лечит грубый и ожоговый урон. Работает на дермалине.
   parent: BaseAutoMender
   components:
   - type: Sprite

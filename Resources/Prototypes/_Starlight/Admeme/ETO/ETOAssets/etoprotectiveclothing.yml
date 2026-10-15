@@ -3,8 +3,8 @@
 - type: entity
   parent: [BaseETOContraband, ClothingOuterArmorBase, ClothingOuterStorageBase]
   id: ClothingOuterVestWebETOBase
-  name: ETO web vest
-  description: A protective vest built for ETO members, allowing you to stay light on your feet.
+  name: разгрузочный жилет ETO
+  description: Защитный жилет для членов ETO, лёгкий на ногах.
   components:
   - type: Sprite
     sprite: _Starlight/Admeme/ETO/clothing/armour/etovest.rsi
@@ -26,8 +26,8 @@
 - type: entity
   parent: ClothingOuterVestWebETOBase
   id: ClothingOuterVestWebETOCorpsman
-  name: ETO medical vest
-  description: A protective vest built for ETO corpsmen, allowing you to stay light on your feet and get to those in need.
+  name: медицинский жилет ETO
+  description: Защитный жилет для санитаров ETO, лёгкий и позволяет добраться до нуждающихся.
   components:
     - type: Sprite
       sprite: _Starlight/Admeme/ETO/clothing/armour/etomedicvest.rsi
@@ -49,8 +49,8 @@
 - type: entity
   parent: ClothingOuterVestWebETOBase
   id: ClothingOuterVestWebETOLead
-  name: ETO leader web vest
-  description: A highly protective web vest designed for the team leader.
+  name: разгрузочный жилет лидера ETO
+  description: Высокозащитный разгрузочный жилет для лидера команды.
   components:
     - type: Sprite
       sprite: _Starlight/Admeme/ETO/clothing/armour/etoleadvest.rsi
@@ -72,8 +72,8 @@
 - type: entity
   parent: ClothingOuterVestWebETOBase
   id: ClothingOuterVestWebETOCombatTech
-  name: ETO combat technician vest
-  description: A sturdy vest ripped off of an advanced engineers hardsuit. Protects the body but weighs down the user.
+  name: жилет боевого техника ETO
+  description: Прочный жилет, снятый с продвинутого инженерного скафандра. Защищает тело, но сковывает.
   components:
     - type: Sprite
       sprite: _Starlight/Admeme/ETO/clothing/armour/etoctvest.rsi
@@ -98,8 +98,8 @@
 - type: entity
   parent: [ClothingHeadHelmetBase, BaseETOContraband]
   id: ClothingHeadHelmetETO
-  name: ETO operative helmet
-  description: A helmet designed for ETO operatives, provides basic protection.
+  name: шлем оперативника ETO
+  description: Шлем для оперативников ETO, базовая защита.
   components:
   - type: Armor
     modifiers:
@@ -116,8 +116,8 @@
 - type: entity
   parent: [ClothingHeadBase, BaseETOContraband]
   id: ClothingHeadETOEvaHelmet
-  name: ETO space hazard helmet
-  description: A space certified helmet with added ballistic protection.
+  name: шлем космической опасности ETO
+  description: Сертифицированный для космоса шлем с баллистической защитой.
   components:
   - type: Sprite
     sprite: _Starlight/Admeme/ETO/clothing/armour/etoevahelmet.rsi
@@ -158,8 +158,8 @@
 - type: entity
   parent: [ BaseETOContraband, ClothingOuterEVASuitBase ]
   id: ClothingOuterSoftsuitETO
-  name: ETO space hazard suit
-  description: A lightweight EVA suit padded with ballistic protection.
+  name: костюм космической опасности ETO
+  description: Лёгкий ВКД-костюм с баллистической защитой.
   components:
   - type: Sprite
     sprite: _Starlight/Admeme/ETO/clothing/armour/etoevasuit.rsi

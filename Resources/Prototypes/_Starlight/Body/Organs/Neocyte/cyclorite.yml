@@ -1,9 +1,9 @@
 - type: entity
   id: OrganNeoCycloriteLungs
   parent: OrganNeocyteLungs
-  name: ent-OrganNeoCycloriteLungs
+  name: кибернетические лёгкие циклорита
   suffix: Neo-Cyclorite
-  description: ent-OrganNeoCycloriteLungs-desc
+  description: Фильтруют азот из атмосферы, который затем поступает в кровоток и используется как переносчик электронов. Полностью кибернетические по природе, работают в паре с системой фильтрации визора.
   components:
   - type: Lung
     alert: LowNitrogen
@@ -13,9 +13,9 @@
 - type: entity
   id: OrganNeoCycloriteEye
   parent: OrganNeocyteEyes
-  name: ent-OrganNeoCycloriteEye
+  name: кибернетический глаз циклорита
   suffix: Neo-Cyclorite
-  description: ent-OrganNeoCycloriteEye-desc
+  description: Циклориты видят мир немного иначе.
   components:
   - type: Sprite
     sprite: _Starlight/Mobs/Species/Cyclorite/organs.rsi
@@ -34,7 +34,7 @@
 - type: entity
   id: OrganNeoCycloriteHeart
   parent: OrganNeocyteHeart
-  name: ent-OrganNeoCycloriteHeart
+  name: кибернетическое сердце циклорита
   suffix: Neo-Cyclorite
   components:
   - type: Metabolizer

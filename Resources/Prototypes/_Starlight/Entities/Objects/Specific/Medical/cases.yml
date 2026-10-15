@@ -2,8 +2,8 @@
   abstract: true
   id: BaseBottleCase
   parent: BaseStorageItem
-  name: chemical case
-  description: A plastic case with slots for bottles.
+  name: чемодан с химикатами
+  description: Пластиковый кейс с гнёздами под бутылки.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Specific/Medical/cases.rsi
@@ -64,8 +64,8 @@
   abstract: true
   id: BasePenPack
   parent: BaseStorageItem
-  name: autoinjector pack
-  description: A pouch filled with some autoinjectors.
+  name: набор автоинжекторов
+  description: Подсумок с автоинжекторами.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Specific/Medical/cases.rsi
@@ -88,8 +88,8 @@
   abstract: true
   id: BaseSurgicalKit
   parent: BaseStorageItem
-  name: surgical kit
-  description: A compact kit of surgical tools.
+  name: хирургический набор
+  description: Компактный набор хирургических инструментов.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Specific/Medical/cases.rsi
@@ -116,9 +116,9 @@
 - type: entity
   id: BottleCaseMedical
   parent: [ BaseBottleCase, BaseMedicalContraband ]
-  name: chemical case
+  name: чемодан с химикатами
   suffix: Medical
-  description: A plastic case with slots for bottles.
+  description: Пластиковый кейс с гнёздами под бутылки.
   components:
   - type: Item
     sprite: _Starlight/Objects/Specific/Medical/cases.rsi
@@ -129,9 +129,9 @@
 - type: entity
   id: BottleCaseSecurity
   parent: [ BaseBottleCase, BaseSecurityContraband ]
-  name: chemical case
+  name: чемодан с химикатами
   suffix: Security
-  description: A plastic case with slots for bottles.
+  description: Пластиковый кейс с гнёздами под бутылки.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Specific/Security/cases.rsi

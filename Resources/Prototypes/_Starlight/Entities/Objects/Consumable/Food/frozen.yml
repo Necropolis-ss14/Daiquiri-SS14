@@ -3,10 +3,10 @@
 # Not technically meant to be food so not adding them to random food spawner
 
 - type: entity
-  name: ent-FoodFrozenPopsicleNicotine
+  name: смоксайкл
   parent: FoodFrozenBase
   id: FoodFrozenPopsicleNicotine
-  description: ent-FoodFrozenPopsicleNicotine-desc
+  description: Охлаждённое азотом мороженое с никотином.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Consumable/Food/frozen.rsi
@@ -28,10 +28,10 @@
         Quantity: 10
 
 - type: entity
-  name: ent-FoodFrozenPopsicleNicotineSpicy
+  name: острый смоксайкл
   parent: FoodFrozenBase
   id: FoodFrozenPopsicleNicotineSpicy
-  description: ent-FoodFrozenPopsicleNicotineSpicy-desc
+  description: Охлаждённое азотом мороженое с никотином и капсаицином.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Consumable/Food/frozen.rsi
@@ -56,10 +56,10 @@
         Quantity: 2
 
 - type: entity
-  name: ent-FoodFrozenPopsicleNicotineLegend
+  name: леджентсайкл
   parent: [SolutionTiny, FoodFrozenBase]
   id: FoodFrozenPopsicleNicotineLegend
-  description: ent-FoodFrozenPopsicleNicotineLegend-desc
+  description: Я ЛЕГЕНДА
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Consumable/Food/frozen.rsi
@@ -87,8 +87,8 @@
 - type: entity
   parent: BaseItem
   id: FoodFrozenPopsicleNicotinePackaged
-  name: ent-FoodFrozenPopsicleNicotinePackaged
-  description: ent-FoodFrozenPopsicleNicotinePackaged-desc
+  name: упакованный смоксайкл
+  description: Охлаждённое азотом мороженое с никотином.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Consumable/Food/frozen.rsi
@@ -103,8 +103,8 @@
 - type: entity
   parent: BaseItem
   id: FoodFrozenPopsicleNicotineSpicyPackaged
-  name: ent-FoodFrozenPopsicleNicotineSpicyPackaged
-  description: ent-FoodFrozenPopsicleNicotineSpicyPackaged-desc
+  name: упакованный острый смоксайкл
+  description: Охлаждённое азотом мороженое с никотином и капсаицином.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Consumable/Food/frozen.rsi
@@ -119,8 +119,8 @@
 - type: entity
   parent: BaseItem
   id: FoodFrozenPopsicleNicotineLegendPackaged
-  name: ent-FoodFrozenPopsicleNicotineLegendPackaged
-  description: ent-FoodFrozenPopsicleNicotineLegendPackaged-desc
+  name: упакованный леджентсайкл
+  description: Почти безымянное мороженое. Зелёно-жёлтый стикер и надпись «i am legend», нацарапанная чёрным маркером.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Consumable/Food/frozen.rsi
@@ -135,8 +135,8 @@
 - type: entity
   parent: BaseItem
   id: FoodFrozenPopsicleOrangePackaged
-  name: ent-FoodFrozenPopsicleOrangePackaged
-  description: ent-FoodFrozenPopsicleOrangePackaged-desc
+  name: упакованное апельсиново-сливочное мороженое
+  description: Классическое апельсиново-сливочное мороженое. Замороженное солнечное лакомство.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Consumable/Food/frozen.rsi
@@ -151,8 +151,8 @@
 - type: entity
   parent: BaseItem
   id: FoodFrozenPopsicleBerryPackaged
-  name: ent-FoodFrozenPopsicleBerryPackaged
-  description: ent-FoodFrozenPopsicleBerryPackaged-desc
+  name: упакованное ягодно-сливочное мороженое
+  description: Яркое ягодно-сливочное мороженое. Замороженное ягодное лакомство.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Consumable/Food/frozen.rsi
@@ -167,8 +167,8 @@
 - type: entity
   parent: BaseItem
   id: FoodFrozenCornutoPackaged
-  name: ent-FoodFrozenCornutoPackaged
-  description: ent-FoodFrozenCornutoPackaged-desc
+  name: упакованное корнуто
+  description: Рожок неаполитанского мороженого с ванилью и шоколадом. Украшается посыпкой из карамелизированных орехов.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Consumable/Food/frozen.rsi
@@ -183,8 +183,8 @@
 - type: entity
   parent: BaseItem
   id: FoodFrozenPopsicleJumboPackaged
-  name: ent-FoodFrozenPopsicleJumboPackaged
-  description: ent-FoodFrozenPopsicleJumboPackaged-desc
+  name: упакованное мороженое-джамбо
+  description: Роскошное мороженое, обильно покрытое шоколадом. Оно меньше, чем вы помните.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Consumable/Food/frozen.rsi
@@ -202,7 +202,7 @@
   categories: [ HideSpawnMenu ]
   parent: FoodPacketTrash
   id: FoodFrozenPopsicleNicotineTrash
-  name: ent-FoodFrozenPopsicleNicotineTrash
+  name: обёртка от смоксайкла
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Consumable/Food/frozen.rsi
@@ -212,7 +212,7 @@
   categories: [ HideSpawnMenu ]
   parent: FoodPacketTrash
   id: FoodFrozenPopsicleNicotineSpicyTrash
-  name: ent-FoodFrozenPopsicleNicotineSpicyTrash
+  name: обёртка от острого смоксайкла
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Consumable/Food/frozen.rsi
@@ -222,8 +222,8 @@
   categories: [ HideSpawnMenu ]
   parent: FoodPacketTrash
   id: FoodFrozenPopsicleNicotineLegendTrash
-  description: ent-FoodFrozenPopsicleNicotineLegendTrash-desc
-  name: ent-FoodFrozenPopsicleNicotineLegendTrash
+  description: Чья-то легенда.
+  name: обёртка от леджентсайкла
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Consumable/Food/frozen.rsi
@@ -233,7 +233,7 @@
   categories: [ HideSpawnMenu ]
   parent: FoodPacketTrash
   id: FoodFrozenPopsicleOrangeTrash
-  name: ent-FoodFrozenPopsicleOrangeTrash
+  name: обёртка от апельсиново-сливочного мороженого
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Consumable/Food/frozen.rsi
@@ -243,7 +243,7 @@
   categories: [ HideSpawnMenu ]
   parent: FoodPacketTrash
   id: FoodFrozenPopsicleBerryTrash
-  name: ent-FoodFrozenPopsicleBerryTrash
+  name: обёртка от ягодно-сливочного мороженого
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Consumable/Food/frozen.rsi
@@ -253,7 +253,7 @@
   categories: [ HideSpawnMenu ]
   parent: FoodPacketTrash
   id: FoodFrozenCornutoTrash
-  name: ent-FoodFrozenCornutoTrash
+  name: обёртка от корнуто
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Consumable/Food/frozen.rsi
@@ -263,17 +263,17 @@
   categories: [ HideSpawnMenu ]
   parent: FoodPacketTrash
   id: FoodFrozenPopsicleJumboTrash
-  name: ent-FoodFrozenPopsicleJumboTrash
+  name: обёртка от мороженого-джамбо
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Consumable/Food/frozen.rsi
     state: jumbo-trash
 
 - type: entity
-  name: ent-FoodFrozenPopsicleNicotineTrashStick
+  name: палочка от смоксайкла
   parent: BaseItem
   id: FoodFrozenPopsicleNicotineTrashStick
-  description: ent-FoodFrozenPopsicleNicotineTrashStick-desc
+  description: Когда-то держала отвратительное лакомство. Теперь пуста.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Consumable/Food/frozen.rsi

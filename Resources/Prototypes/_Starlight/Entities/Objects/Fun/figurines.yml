@@ -1,7 +1,7 @@
 - type: entity
   parent: BaseFigurine
   id: ToyFigurineRoboticist
-  name: roboticist figure
+  name: фигурка роботиста
   description: A figurine depicting a Roboticist probably planning to build a robot.
   components:
   - type: Sprite

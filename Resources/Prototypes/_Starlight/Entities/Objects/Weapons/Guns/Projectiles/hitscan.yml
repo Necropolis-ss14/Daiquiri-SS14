@@ -1337,7 +1337,7 @@
 
 - type: entity
   id: RedLaserBeam
-  name: laser beam
+  name: лазерный луч
   parent: LaserTrace
   categories: [ HideSpawnMenu ]
   components:
@@ -1359,7 +1359,7 @@
 
 - type: entity
   id: DestroyBeam
-  name: destroying beam
+  name: разрушающий луч
   parent: BasicHitscanNoBeam
   categories: [ HideSpawnMenu ]
   components:
@@ -1380,7 +1380,7 @@
 
 - type: entity
   id: DeleteBeam
-  name: erasing beam
+  name: стирающий луч
   parent: BasicHitscanNoBeam
   categories: [ HideSpawnMenu ]
   components:
@@ -1402,7 +1402,7 @@
 
 - type: entity
   id: DisablerBoltPractice
-  name: disabler bolt practice
+  name: учебный болт дизейблера
   parent: BasicHitscanNoBeam
   categories: [ HideSpawnMenu ]
   components:
@@ -1416,7 +1416,7 @@
 
 - type: entity
   id: DisablerBolt
-  name: disabler bolt
+  name: болт дизейблера
   parent: DisablerBoltPractice
   categories: [ HideSpawnMenu ]
   components:
@@ -1427,7 +1427,7 @@
 
 - type: entity
   id: DisablerBoltSmg
-  name: disabler bolt smg
+  name: болт дизейблера для ПП
   parent: DisablerBolt
   categories: [ HideSpawnMenu ]
   components:
@@ -1438,7 +1438,7 @@
 
 - type: entity
   id: TaserBolt
-  name: taser bolt
+  name: тазерный болт
   parent: BasicHitscanNoBeam
   categories: [ HideSpawnMenu ]
   components:
@@ -1462,7 +1462,7 @@
 
 - type: entity
   id: TaserBoltExtreme
-  name: taser bolt
+  name: тазерный болт
   parent: EnergyTrace
   categories: [ HideSpawnMenu ]
   components:
@@ -1483,7 +1483,7 @@
 
 - type: entity
   id: AdvancedTaserBolt
-  name: taser bolt
+  name: тазерный болт
   parent: EnergyTraceNoBeam
   categories: [ HideSpawnMenu ]
   components:
@@ -1506,7 +1506,7 @@
 
 - type: entity
   id: EmpPulse
-  name: EMP impulse
+  name: ЭМИ-импульс
   parent: EnergyTraceNoBeam
   components:
   - type: HitscanEmpEffect
@@ -1522,7 +1522,7 @@
 
 - type: entity
   id: DecloneBolt
-  name: declone bolt
+  name: антиклонирующий болт
   parent: EnergyTraceNoBeam
   categories: [ HideSpawnMenu ]
   components:
@@ -1539,7 +1539,7 @@
 
 - type: entity
   id: SniperBolt
-  name: sniper bolt
+  name: снайперский болт
   parent: EnergyTraceNoBeam
   categories: [ HideSpawnMenu ]
   components:
@@ -1560,7 +1560,7 @@
 - type: entity
   id: ProjectilePolyboltJohnToe
   parent: ProjectilePolyboltBase
-  name: john toe polybolt
+  name: полиболт «Джон Тоу»
   description: Nooo, I don't wanna be john toe!
   categories: [ HideSpawnMenu ]
   components:
@@ -1575,7 +1575,7 @@
 
 - type: entity
   id: PointDefenseBeam
-  name: Point Defense beam
+  name: луч точечной обороны
   parent: BasicHitscanNoBeam
   categories: [ HideSpawnMenu ]
   components:
@@ -1597,7 +1597,7 @@
 - type: entity
   id: BulletAcidHitscan
   parent: BasicHitscan
-  name: acid spit
+  name: кислотный плевок
   categories: [ HideSpawnMenu ]
   components:
   - type: HitscanBasicDamage
@@ -1631,7 +1631,7 @@
         Heat: 30
 
 - type: entity
-  name: magnum window-piercing bolt
+  name: болт магнум, пробивающий окна
   id: BulletLaserWindowPiercingMagnumSL
   categories: [ HideSpawnMenu ]
   parent: LaserTrace
@@ -1685,7 +1685,7 @@
 # Apollo Plasma Bolt - Focused ship-to-ship bolt: high direct heat, small blast
 - type: entity
   id: ApolloHeavyLaser
-  name: apollo plasma bolt
+  name: плазменный болт «Аполлон»
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
   components:
@@ -1722,7 +1722,7 @@
 - type: entity
   parent: BasicHitscanNoBeam
   id: FreezeRay
-  name: freeze ray
+  name: замораживающий луч
   categories: [ HideSpawnMenu ]
   components:
   - type: HitscanBasicDamage
@@ -1774,7 +1774,7 @@
 
 - type: entity
   id: DestructionBeam
-  name: destruction beam
+  name: луч разрушения
   parent: EnergyTrace
   categories: [ HideSpawnMenu ]
   components:
@@ -1797,7 +1797,7 @@
 # Scylla Laser Bolt - Devastatingly concentrated energy bolt
 - type: entity
   id: ScyllaWideLaser
-  name: scylla laser bolt
+  name: лазерный болт «Сцилла»
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
   components:
@@ -1834,7 +1834,7 @@
 # AMX-9 DYNAMRE Large Plasma Blob - Devastating AoE plasma blob (violent capital-class)
 - type: entity
   id: DynamreDualLaser
-  name: dynamre plasma blob
+  name: плазменный сгусток «Динаймер»
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
   components:
@@ -1902,7 +1902,7 @@
 - type: entity
   parent: BasicHitscanNoBeam
   id: FreezeRayWiz
-  name: freeze ray wizard
+  name: замораживающий луч волшебника
   categories: [ HideSpawnMenu ]
   components:
   - type: HitscanBasicDamage

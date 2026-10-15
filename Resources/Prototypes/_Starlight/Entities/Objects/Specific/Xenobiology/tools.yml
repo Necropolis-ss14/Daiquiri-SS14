@@ -1,5 +1,5 @@
 - type: entity
-  name: slime extract bag
+  name: сумка для экстрактов слайма
   id: SlimeExtractBag
   parent: BaseStorageItem
   description: A bag for greedy xenobiologists to store unreasonable amounts of extracts.
@@ -25,7 +25,7 @@
     - type: Dumpable
 
 - type: entity
-  name: handheld slime scanner
+  name: ручной сканер слаймов
   id: HandheldSlimeScanner
   parent: BaseItem
   description: A hand-held scanner for collecting information on slimes.
@@ -36,7 +36,7 @@
     - type: SlimeScanner
 
 - type: entity
-  name: Xenobiology Console Camera Tagger
+  name: камерный тэггер консоли ксенобиологии
   id: XenobiologyConsoleCameraTagger
   parent: BaseItem
   description: Can tag any camera to register it to the xenobiology network. Spy on slimes further away, or even your neighbors!

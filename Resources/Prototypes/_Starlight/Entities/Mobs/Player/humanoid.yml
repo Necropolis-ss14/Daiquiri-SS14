@@ -42,7 +42,7 @@
 ## NTCC Blueshield
 
 - type: entity
-  name: NT-NC Consortium Blueshield
+  name: Блюшилд консорциума NT-NC
   suffix: Basic
   id: RandomHumanoidNTNCConsortiumBlueshieldSpawnerBasic
   components:
@@ -53,7 +53,7 @@
       settings: NTNCConsortiumBlueshieldBasic
 
 - type: entity
-  name: NT-NC Consortium Blueshield
+  name: Блюшилд консорциума NT-NC
   suffix: Hardsuit
   id: RandomHumanoidNTNCConsortiumBlueshieldSpawnerEVA
   components:
@@ -110,7 +110,7 @@
 # USSP
 - type: entity
   id: RandomHumanoidSpawnerSSFMarine
-  name: SSF Marine Soldier
+  name: Боец морской пехоты ССФ
   suffix: Admeme
   components:
     - type: Sprite
@@ -153,7 +153,7 @@
 
 - type: entity
   id: RandomHumanoidSpawnerNTSF
-  name: NTSF Operative
+  name: Оперативник НТСФ
   suffix: ERTRole, NTSF
   components:
     - type: Sprite
@@ -192,7 +192,7 @@
 
 - type: entity
   id: RandomHumanoidSpawnerNTSFPrimus
-  name: NTSF Primus Operative
+  name: Оперативник НТСФ Примус
   description: Used as the primary strike team for any and all operations.
   suffix: AllPurpose
   components:
@@ -232,7 +232,7 @@
 
 - type: entity
   id: RandomHumanoidSpawnerNTSFSecundus
-  name: NTSF Secundus Operative
+  name: Оперативник НТСФ Секундус
   description: Used as general backup in situations where other NTSF teams have fallen.
   suffix: Backup
   components:
@@ -272,7 +272,7 @@
 
 - type: entity
   id: RandomHumanoidSpawnerNTSFTertius
-  name: NTSF Tertius Operative
+  name: Оперативник НТСФ Тертиус
   description: Used to conduct repossession operations to recover lost assets.
   suffix: Repossession
   components:
@@ -313,7 +313,7 @@
 
 - type: entity
   id: RandomHumanoidSpawnerNTSFQuartus
-  name: NTSF Quartus Operative
+  name: Оперативник НТСФ Квартус
   description: Used to guard dangerous and anomalous assets in containment.
   suffix: Anomaly
   components:
@@ -353,7 +353,7 @@
 
 - type: entity
   id: RandomHumanoidSpawnerNTSFQuintus
-  name: NTSF Quintus Operative
+  name: Оперативник НТСФ Квинтус
   description: Used to conduct raids and eliminate enemy targets.
   suffix: Raiders
   components:
@@ -393,7 +393,7 @@
 
 - type: entity
   id: RandomHumanoidSpawnerNTSFSextus
-  name: NTSF Sextus Operative
+  name: Оперативник НТСФ Секстус
   description: Used to kill anomalies, gods, cults, and other phenomena that is deemed magical.
   suffix: Occult
   components:
@@ -437,7 +437,7 @@
 
 - type: entity
   id: RandomHumanoidSpawnerNTSFSeptimus
-  name: NTSF Septimus Operative
+  name: Оперативник НТСФ Септимус
   description: Used to kill zombies, xenos, and all forms of pests and monsters.
   suffix: PestControl
   components:
@@ -478,7 +478,7 @@
 
 - type: entity
   id: RandomHumanoidSpawnerNTSFOctavius
-  name: NTSF Octavius Operative
+  name: Оперативник НТСФ Октавиус
   description: Used to bust unions and kill communist scum.
   suffix: UnionBusters
   components:
@@ -518,7 +518,7 @@
 
 - type: entity
   id: RandomHumanoidSpawnerNTSFNonus
-  name: NTSF Nonus Operative
+  name: Оперативник НТСФ Нонус
   description: Used to conduct assassinations and stealth operations.
   suffix: Assassination
   components:
@@ -559,7 +559,7 @@
 
 - type: entity
   id: RandomHumanoidSpawnerDecimus
-  name: Decimus Operative
+  name: Оперативник Децимус
   description: Used to conduct alert level epsilon and to exterminate any and all life.
   suffix: ERTRole, Decimus, Extermination
   components:
@@ -602,7 +602,7 @@
 # TSF
 - type: entity
   id: RandomHumanoidSpawnerTSFOfficer
-  name: SolGov Patrol Officer
+  name: Офицер патруля Солгов
   components:
     - type: Sprite
       sprite: _Starlight/Markers/jobs.rsi
@@ -612,7 +612,7 @@
 
 - type: entity
   id: RandomHumanoidSpawnerTSFOfficerSheriff
-  name: SolGov Patrol Officer
+  name: Офицер патруля Солгов
   suffix: Sheriff
   components:
     - type: Sprite
@@ -623,7 +623,7 @@
 
 - type: entity
   id: RandomHumanoidSpawnerTSFOfficerRiot
-  name: SolGov Patrol Officer
+  name: Офицер патруля Солгов
   suffix: Riot
   components:
     - type: Sprite
@@ -634,7 +634,7 @@
 
 - type: entity
   id: RandomHumanoidSpawnerTSFMarine
-  name: Solar Federation Marine
+  name: Морпех Солнечной Федерации
   components:
     - type: Sprite
       sprite: _Starlight/Markers/jobs.rsi
@@ -905,7 +905,7 @@
 ## Greenshield Officer
 
 - type: entity
-  name: Greenshield Officer
+  name: офицер гриншилда
   suffix: Basic
   id: RandomHumanoidCCGreenshieldSpawnerBasic
   components:
@@ -980,7 +980,7 @@
 
 - type: entity
   id: RandomHumanoidSpawnerCBURNCorpsman
-  name: CBURN Corpsman
+  name: Санитар ЦБХОР
   suffix: ERTRole
   components:
     - type: Sprite
@@ -1015,7 +1015,7 @@
 
 - type: entity
   id: RandomHumanoidCCServiceWorker
-  name: CentComm service worker ghost role
+  name: призрачная роль сервис-работника ЦентКом
   components:
     - type: Sprite
       sprite: Markers/jobs.rsi
@@ -1038,7 +1038,7 @@
 
 - type: entity
   id: RandomHumanoidCCChef
-  name: CentComm chef ghost role
+  name: призрачная роль повара ЦентКом
   components:
     - type: Sprite
       sprite: Markers/jobs.rsi
@@ -1061,7 +1061,7 @@
 
 - type: entity
   id: RandomHumanoidCCBartender
-  name: CentComm bartender ghost role
+  name: призрачная роль бармена ЦентКом
   components:
     - type: Sprite
       sprite: Markers/jobs.rsi
@@ -1084,7 +1084,7 @@
 
 - type: entity
   id: RandomHumanoidCCJanitor
-  name: CentComm janitor ghost role
+  name: призрачная роль уборщика ЦентКом
   components:
     - type: Sprite
       sprite: Markers/jobs.rsi

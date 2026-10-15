@@ -160,7 +160,7 @@ public sealed partial class ContentAudioSystem
             comp.PlaybackPosition = clamped;
         if (LobbyMusicPaused)
         {
-            // Daiquiri: store even if the stream entity is already evicted from memory.
+            // Daiquiri
             _lobbyPausePosition = clamped;
             _lobbyPauseStarted = _timing.CurTime;
         }
@@ -198,7 +198,7 @@ public sealed partial class ContentAudioSystem
         }
         else
         {
-            // Daiquiri: always rebuild the stream on resume and never depend on the old
+            // Daiquiri
             // entity: a long-paused source can be evicted from memory (OS pressure,
             // device sleep, driver cleanup) and StartPlaying won't revive it.
             _lobbyPauseStarted = null;
@@ -258,12 +258,12 @@ public sealed partial class ContentAudioSystem
     public string? CurrentLobbyTrack => _lobbySoundtrackInfo?.Filename;
 
     /// <summary>
-    /// Daiquiri: per-playlist tracks excluded LOCALLY by this player. Never sent to server.
+    /// Daiquiri
     /// </summary>
     private readonly Dictionary<string, HashSet<string>> _localRemovedTracks = new();
 
     /// <summary>
-    /// Daiquiri: removed pool tracks that belong to no known playlist (stale server pool).
+    /// Daiquiri
     /// </summary>
     private readonly HashSet<string> _localRemovedGlobal = new();
 
@@ -271,18 +271,18 @@ public sealed partial class ContentAudioSystem
     private readonly HashSet<string> _touchedPlaylists = new();
 
     /// <summary>
-    /// Daiquiri: tracks the player explicitly added (e.g. from a turnon=false
+    /// Daiquiri
     /// playlist). Appended to the local pool; never sent to server.
     /// </summary>
     private readonly List<string> _localAddedTracks = new();
 
     /// <summary>
-    /// Daiquiri: persisted local queue order. Null = follow server order.
+    /// Daiquiri
     /// </summary>
     private List<string>? _localOrder;
 
     /// <summary>
-    /// Daiquiri: load persisted queue state, then seed turnon=false playlists
+    /// Daiquiri
     /// the player never touched. Runs once, lazily.
     /// </summary>
     private void EnsureQueueState()
@@ -306,7 +306,7 @@ public sealed partial class ContentAudioSystem
 
     private void LoadQueueState()
     {
-        // Daiquiri: entries are "playlist|track", ";"-separated.
+        // Daiquiri
         foreach (var entry in _configManager.GetCVar(StarlightCCVars.LobbyQueueRemoved)
                      .Split(';', StringSplitOptions.RemoveEmptyEntries))
         {
@@ -351,7 +351,7 @@ public sealed partial class ContentAudioSystem
         _configManager.SetCVar(StarlightCCVars.LobbyQueueTouched, string.Join(';', _touchedPlaylists));
         _configManager.SetCVar(StarlightCCVars.LobbyQueueAdded, string.Join(';', _localAddedTracks));
         _configManager.SetCVar(StarlightCCVars.LobbyQueueOrder, string.Join(';', _localOrder ?? new List<string>()));
-        // Daiquiri: flush ARCHIVE cvars to disk now — the client is often killed, not closed.
+        // Daiquiri
         _configManager.SaveToFile();
     }
 
@@ -365,7 +365,7 @@ public sealed partial class ContentAudioSystem
         {
             if (_localRemovedTracks.TryGetValue(playlistId, out var set))
                 set.Remove(trackPath);
-            // Daiquiri: remember explicitly added tracks outside the server pool.
+            // Daiquiri
             if ((_lobbyPlaylist == null || !_lobbyPlaylist.Contains(trackPath))
                 && !_localAddedTracks.Contains(trackPath))
                 _localAddedTracks.Add(trackPath);
@@ -387,15 +387,16 @@ public sealed partial class ContentAudioSystem
     }
 
     /// <summary>
-    /// Daiquiri: remove everything currently in the pool. Local only.
+    /// Daiquiri
     /// </summary>
     public void ClearQueue()
     {
         EnsureQueueState();
+        var all = new List<string>(_localAddedTracks);
+        if (_lobbyPlaylist != null)
+            all.AddRange(_lobbyPlaylist);
         _localAddedTracks.Clear();
-        if (_lobbyPlaylist == null)
-            return;
-        foreach (var track in _lobbyPlaylist)
+        foreach (var track in all)
         {
             var containers = _proto.EnumeratePrototypes<LobbyPlaylistPrototype>()
                 .Where(p => p.Tracks.Any(t => t.ToString() == track))
@@ -423,7 +424,7 @@ public sealed partial class ContentAudioSystem
     }
 
     /// <summary>
-    /// Daiquiri: rebuild the persisted local order from the current pool state.
+    /// Daiquiri
     /// Keeps the saved order stable, drops gone tracks, appends fresh ones.
     /// </summary>
     private void ReconcileOrder()
@@ -451,7 +452,7 @@ public sealed partial class ContentAudioSystem
         if (include)
         {
             _localRemovedTracks.Remove(playlistId);
-            // Daiquiri: turnon=false tracks live outside the server pool,
+            // Daiquiri
             // so selecting them all must re-add them explicitly (same as a single checkbox).
             if (_proto.TryIndex<LobbyPlaylistPrototype>(playlistId, out var proto))
             {
@@ -491,7 +492,7 @@ public sealed partial class ContentAudioSystem
     }
 
     /// <summary>
-    /// Daiquiri: empty pool pauses playback (vinyl/marquee freeze via pause state).
+    /// Daiquiri
     /// </summary>
     private void PauseIfPoolEmpty()
     {
@@ -531,7 +532,7 @@ public sealed partial class ContentAudioSystem
         {
             ordered = server.Where(t => !IsLocallyExcluded(t)).ToList();
         }
-        // Daiquiri: explicitly added tracks (e.g. from turnon=false playlists).
+        // Daiquiri
         foreach (var t in _localAddedTracks)
         {
             if (!ordered.Contains(t) && !IsLocallyExcluded(t))
@@ -542,7 +543,7 @@ public sealed partial class ContentAudioSystem
 
     private bool IsLocallyExcluded(string track)
     {
-        // Daiquiri: explicitly removed tracks with no containing playlist (stale pool entries).
+        // Daiquiri
         if (_localRemovedGlobal.Contains(track))
             return true;
         var containers = _proto.EnumeratePrototypes<LobbyPlaylistPrototype>()
@@ -652,19 +653,18 @@ public sealed partial class ContentAudioSystem
         var playlist = playlistChangedEvent.Playlist;
         var current = _lobbySoundtrackInfo?.Filename;
 
-        // Restart only if the current track is no longer in the playlist
+        // Daiquiri
         if (current != null
             && _lobbyPlaylist != null
-            && _lobbyPlaylist.Contains(current)
+            && _lobbyPlaylist.SequenceEqual(playlist)
             && playlist.Contains(current))
         {
-            _lobbyPlaylist = playlist;
             LobbyPlaylistChanged?.Invoke();
             return;
         }
 
         _lobbyPlaylist = playlist;
-        // Daiquiri: fresh server pool — reconcile the persisted local order with it.
+        // Daiquiri
         ReconcileOrder();
         EndLobbyMusic();
         StartLobbyMusic(playlist);
@@ -676,12 +676,19 @@ public sealed partial class ContentAudioSystem
     /// </summary>
     private void StartLobbyMusic()
     {
-        if (_lobbyPlaylist == null || _lobbyPlaylist.Length == 0)
+        if (_lobbySoundtrackInfo != null || !_configManager.GetCVar(CCVars.LobbyMusicEnabled))
         {
             return;
         }
 
-        StartLobbyMusic(_lobbyPlaylist);
+        // Daiquiri
+        var pool = LocalPool();
+        if (pool.Length == 0)
+        {
+            return;
+        }
+
+        PlaySoundtrack(pool[0]);
     }
 
     /// <summary>
@@ -782,7 +789,7 @@ public sealed partial class ContentAudioSystem
             return;
         }
 
-        // Daiquiri: never auto-advance while paused (frozen pause keeps its state).
+        // Daiquiri
         if (LobbyMusicPaused)
         {
             return;
@@ -791,7 +798,7 @@ public sealed partial class ContentAudioSystem
         var pool = LocalPool();
         if (pool is not { Length: > 0 })
         {
-            // Daiquiri: empty pool — stop only dead/finished streams so the UI falls
+            // Daiquiri
             // back; live ones (e.g. forced click-play) keep playing.
             var done = _timing.CurTime >= _lobbySoundtrackInfo.NextTrackOn;
             if (!done
@@ -807,9 +814,12 @@ public sealed partial class ContentAudioSystem
         if (!finished
             && (!TryComp(_lobbySoundtrackInfo.MusicStreamEntityUid, out AudioComponent? comp) || !comp.Playing))
         {
-            // Safety net: stream died or finished early (e.g. bad duration metadata).
-            _sawmill.Debug("Lobby track finished early, advancing playlist.");
-            finished = true;
+            // Daiquiri
+            _sawmill.Debug("Lobby stream died mid-track, pausing instead of advancing.");
+            if (LobbyTrackLengthSeconds is { } deadLength)
+                _lobbyPausePosition = Math.Clamp(deadLength - (float) (_lobbySoundtrackInfo.NextTrackOn - _timing.CurTime).TotalSeconds, 0f, deadLength);
+            SetLobbyMusicPaused(true);
+            return;
         }
 
         if (!finished)

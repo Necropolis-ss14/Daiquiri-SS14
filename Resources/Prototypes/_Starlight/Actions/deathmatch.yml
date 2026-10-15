@@ -2,7 +2,7 @@
 - type: entity
   parent: BaseAction
   id: ActionCreateRobustToolbox
-  name: Create toolbox
+  name: Создать ящик с инструментами
   description: Creates a robust toolbox.
   components:
   - type: Action

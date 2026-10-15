@@ -2,8 +2,8 @@
 - type: entity
   parent: [ ParamedicPDA ]
   id: ETOCorpsmanPDA
-  name: ETO corpsman PDA
-  description: Nobody dies on your watch, atleast not your team.
+  name: КПК санитара ETO
+  description: Никто не умрёт на твоей вахте, по крайней мере не твоя команда.
   components:
   - type: Appearance
     appearanceDataInit:
@@ -25,8 +25,8 @@
 - type: entity
   parent: [ ParamedicPDA ]
   id: ETOTeamLeadPDA
-  name: ETO team leader PDA
-  description: Lead the team, fight against the corporate giants. Death to our enemy, freedom to their slaves.
+  name: КПК лидера команды ETO
+  description: Веди команду, сражайся с корпоративными гигантами. Смерть врагам, свободу их рабам.
   components:
   - type: Appearance
     appearanceDataInit:
@@ -48,8 +48,8 @@
 - type: entity
   parent: BasePDA
   id: ETOOperativePDA
-  name: ETO operative PDA
-  description: Fight for freedom, fight for the people.
+  name: КПК оперативника ETO
+  description: Сражайся за свободу, сражайся за народ.
   components:
   - type: Appearance
     appearanceDataInit:
@@ -71,8 +71,8 @@
 - type: entity
   parent: BasePDA
   id: ETOOperativePDACombatTech
-  name: ETO combat technician PDA
-  description: Build the pillars that support our cause, break the chains that hold us back.
+  name: КПК боевого техника ETO
+  description: Строй столпы нашего дела, рви цепи, что держат нас.
   components:
   - type: Appearance
     appearanceDataInit:
@@ -94,8 +94,8 @@
 - type: entity
   parent: BasePDA
   id: ETOOperativePDAMartyr
-  name: ETO martyr PDA
-  description: Remember who you fight for, remember who you are.
+  name: КПК смертника ETO
+  description: Помни, за кого сражаешься, помни, кто ты.
   components:
   - type: Appearance
     appearanceDataInit:
@@ -117,8 +117,8 @@
 - type: entity
   parent: BasePDA
   id: ETOOperativePDADemo
-  name: ETO demolitionist PDA
-  description: Blow apart their walls, free those oppressed by your enemies.
+  name: КПК подрывника ETO
+  description: Сноси их стены, освобождай угнетённых врагами.
   components:
   - type: Appearance
     appearanceDataInit:

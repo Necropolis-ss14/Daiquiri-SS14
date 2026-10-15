@@ -88,7 +88,7 @@
 - type: entity
   parent: BaseUnburnablePaper
   id: BasePaperQuietChaos
-  name: end of Q # no longer "the" since when you emote it would come out to "the the end of Q x"
+  name: "end of Q # no longer \"the\" since when you emote it would come out to \"the the end of Q x\""
   description: dreadful paper that cant be faxed. but has it's own ways of getting around.
   abstract: true
   components:

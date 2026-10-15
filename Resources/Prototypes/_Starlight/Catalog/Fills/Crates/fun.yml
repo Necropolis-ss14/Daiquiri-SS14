@@ -1,8 +1,8 @@
 - type: entity
   id: CrateFunSuperSynth
   parent: CrateGenericSteel
-  name: super synthesizer crate
-  description: Contains one Super Synthesizer instrument. Groovy!
+  name: ящик суперсинтезатора
+  description: Внутри суперсинтезатор. Груви!
   components:
   - type: EntityTableContainerFill
     containers:
@@ -13,8 +13,8 @@
 - type: entity
   id: CrateFunPinata
   parent: CrateGenericSteel
-  name: pinata crate
-  description: Contains one Clown Pinata and a bat to beat it with.
+  name: ящик пиньяты
+  description: Внутри клоун-пиньята и бита, чтобы её бить.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -24,8 +24,8 @@
         - id: BaseBallBat
 
 - type: entity
-  name: moproach kit crate
-  description: A box with one moproach kit that provides you with two moproaches.
+  name: ящик набора таракамоля
+  description: Коробка с набором таракамоля на двух таракамолей.
   id: CrateFunMoproach
   parent: CratePlastic
   components:
@@ -36,8 +36,8 @@
         - id: MoproachBox
 
 - type: entity
-  name: twinpointer kit crate
-  description: Contains one twinpointer kit for all your bidirectional wayfinding needs.
+  name: ящик набора твинпоинтера
+  description: Один набор твинпоинтера для всех нужд двусторонней навигации.
   id: CrateFunTwinPointer
   parent: CrateGenericSteel
   components:
@@ -51,8 +51,8 @@
 - type: entity
   id: CrateFunMegaShark
   parent: CrateGenericSteel
-  name: mega shark crate
-  description: One absolutely massive, huggable shark plushie. Perfect for those who need a BIG friend!
+  name: ящик мега-акулы
+  description: Одна абсолютно огромная обнимаемая акула-плюш. Для тех, кому нужен БОЛЬШОЙ друг!
   components:
   - type: EntityTableContainerFill
     containers:
@@ -63,8 +63,8 @@
 - type: entity
   id: CrateSaltLamp
   parent: CrateGenericSteel
-  name: salt lamp plushie crate
-  description: Contains one small salt lamp plushie and one large salt lamp plushie. Perfect for adding a cozy ambiance to any room.
+  name: ящик соляных ламп-плюшей
+  description: Маленькая и большая соляные лампы-плюши. Уют любой комнате.
   components:
   - type: EntityTableContainerFill
     containers:

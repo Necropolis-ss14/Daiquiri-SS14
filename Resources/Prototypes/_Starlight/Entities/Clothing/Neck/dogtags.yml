@@ -1,7 +1,7 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingDogTags
-  name: dog tags
+  name: армейские жетоны
   description: Never forget.
   components:
   - type: Sprite

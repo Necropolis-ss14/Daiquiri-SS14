@@ -1,7 +1,7 @@
 ﻿- type: entity
   parent: BoxCardboard
   id: TwinPointerKit
-  name: twinpointer kit
+  name: набор твинпоинтера
   description: A box containing a pair of twinpointers for mutually assured direction.
   components:
     - type: Sprite
@@ -24,7 +24,7 @@
     - type: TwinPointerBox # this does the linking of left/right twinpointers
 
 - type: entity
-  name: left twinpointer
+  name: левый твинпоинтер
   description: The left half of a pair of twinpointers. Great when you're never right.
   id: TwinPointerLeft
   parent: PinpointerBase
@@ -64,7 +64,7 @@
       state: twinpointer-left
 
 - type: entity
-  name: right twinpointer
+  name: правый твинпоинтер
   description: The right half of a pair of twinpointers. Perfect when you have nothing left.
   id: TwinPointerRight
   parent: PinpointerBase

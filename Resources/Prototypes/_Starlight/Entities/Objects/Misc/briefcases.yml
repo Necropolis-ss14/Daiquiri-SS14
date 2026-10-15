@@ -37,7 +37,7 @@
 - type: entity
   parent: BriefcaseBaseSecure
   id: BriefcaseSecure
-  name: secure briefcase
+  name: защищённый кейс
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Storage/Briefcases/briefcase_secure.rsi
@@ -67,7 +67,7 @@
 - type: entity
   parent: [ BriefcaseBase, BaseMinorContraband ]
   id: BriefcaseSyndicateRedspace
-  name: syndicate briefcase
+  name: кейс Синдиката
   suffix: empty
   components:
   - type: Sprite

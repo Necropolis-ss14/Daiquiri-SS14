@@ -1,7 +1,7 @@
 - type: entity
   parent: [ClothingOuterArmorBase, BaseBlueShieldContraband]
   id: ClothingOuterArmorBlueShield
-  name: blue shield bulletproof vest
+  name: пуленепробиваемый жилет синего щита
   description: Much better than a standard Type 1 security vest. Try not to lose it, you won't get a second replacement.
   components:
     - type: Sprite
@@ -29,7 +29,7 @@
 - type: entity
   parent: [BaseMajorContraband, ClothingOuterArmorBasic]
   id: ClothingOuterArmorAbductor
-  name: agent vest
+  name: жилет агента
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/OuterClothing/Armor/abductor.rsi
@@ -89,7 +89,7 @@
 - type: entity
   parent: ClothingOuterBaseLarge
   id: ChangelingClothingOuterArmor
-  name: chitinous armor
+  name: хитиновая броня
   description: An all-consuming chitinous mass of armor.
   suffix: Unremoveable
   components:
@@ -121,7 +121,7 @@
 - type: entity
   parent: [ClothingOuterArmorBase, BaseSecurityContraband]
   id: ClothingOuterArmorPlate
-  name: plate carrier
+  name: плитоносец
   description: A standard Type II armored vest that provides good protection against bullets and lasers with the help of a plate inserted in the back and front, but not much else.
   components:
     - type: Pierceable
@@ -143,7 +143,7 @@
 - type: entity
   parent: [ClothingOuterArmorBase, BaseSecurityContraband]
   id: ClothingOuterArmorStab
-  name: stabproof vest
+  name: ножостойкий жилет
   description: Contrary to it's name, it's just a Type II armored vest that provides good protection against stabs and punches, but not much else.
   components:
     - type: Pierceable
@@ -167,7 +167,7 @@
 - type: entity
   parent: [ClothingOuterArmorBase, BaseSecurityContraband]
   id: ClothingOuterArmorHeatAbsorb
-  name: heat absorbent vest
+  name: теплопоглощающий жилет
   description: Advanced vest designed to absorb heat rather than reflect it, but still has some reflective properties itself. Not good against bullets or blunt impacts due to the fragile material.
   components:
     - type: Pierceable
@@ -187,7 +187,7 @@
 - type: entity
   parent: [ClothingOuterArmorForged, BaseMinorContraband]
   id: ClothingOuterArmorMakeshift
-  name: makeshift vest
+  name: самодельный жилет
   description: Might catch a bullet. Might.
   components:
     - type: Sprite
@@ -213,7 +213,7 @@
 - type: entity
   parent: [ClothingOuterArmorForged, BaseMinorContraband]
   id: ClothingOuterArmorImprovised
-  name: improvised vest
+  name: импровизированный жилет
   description: Interlocking metal plates ensure you're decently protected against stabs, but not much else.
   components:
     - type: Sprite
@@ -240,7 +240,7 @@
       BaseMinorContraband,
     ] #BaseSecurityContraband overwrites BaseMinorContraband, annoyingly enough.
   id: ClothingOuterArmorForged
-  name: forged vest
+  name: кованый жилет
   description: A product of high-quality tidesmithing, the additional leather padding and the swap for plasteel over steel ensures the armor is lightweight and effective.
   components:
     - type: Sprite
@@ -263,7 +263,7 @@
   parent:
     [ClothingOuterBaseMedium, AllowSuitStorageClothing, BaseMajorContraband]
   id: ClothingOuterArmorPaladin
-  name: paladin suit
+  name: доспех паладина
   description: Be the paladin you want to be! Swing swords in maints at the terrified security officer! Battle MONSTERS that are totally not vent creatures! Get shot by lasers and die-! Wait what?
   components:
     - type: Sprite
@@ -289,8 +289,8 @@
   parent:
     [BaseCentcommContraband, ClothingOuterVestWeb]
   id: ClothingOuterVestWebEliteCentcomm
-  name: ent-ClothingOuterVestWebEliteCentcomm
-  description: ent-ClothingOuterVestWebEliteCentcomm-desc
+  name: разгрузочный жилет Центрального командования
+  description: Синтетический бронежилет, переоборудованный для Корпоративного консорциума, с разгрузкой и жаростойкими волокнами.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/OuterClothing/Vests/cc_webvest.rsi
@@ -317,7 +317,7 @@
 - type: entity
   parent: [BaseSalvageContraband, ClothingOuterVestWeb] #web vest so it should have some pockets for ammo
   id: ClothingOuterVestWebSalvageMerc
-  name: scrapper web vest
+  name: разгрузочный жилет утилизатора
   description: A versatile armored vest, popular among salvagers for its protective yet lightweight design.
   components:
     - type: Sprite
@@ -340,7 +340,7 @@
 - type: entity
   parent: [BaseGrandTheftContraband, ClothingOuterArmorBase]
   id: ClothingOuterReactiveArmourShell
-  name: reactive armour shell
+  name: реактивная бронеоболочка
   description: An experimental suit of armour, awaiting installation of an anomaly core.
   components:
     - type: Sprite
@@ -382,7 +382,7 @@
 - type: entity
   parent: [ClothingOuterBaseMedium, BaseSovietContraband, AllowSuitStorageClothing ] #"ClothingOuterArmorBase" is stupid and overrides any contraband level.
   id: ClothingOuterArmorSovietPlate
-  name: soviet armor vest
+  name: советский бронежилет
   description: An old Soviet-era flak vest designed to mitigate damage from explosives, with minor penetration resistance. However, it's just a cheap reproduction model. quality may vary.
   components:
   - type: Pierceable
@@ -407,7 +407,7 @@
 - type: entity
   parent: [ClothingOuterStorageBase, AllowSuitStorageClothing, BaseTSFContraband]
   id: ClothingOuterVestRetroOfficer
-  name: TSF officer's duty vest
+  name: дежурный жилет офицера ТСФ
   description: A tactical vest from the Trans Solar Federation. Provides basic protection and some storage for patrol duty.
   components:
   - type: Sprite
@@ -428,7 +428,7 @@
 - type: entity
   parent: ClothingOuterVestRetroOfficer
   id: ClothingOuterVestRetroOfficerHiVis
-  name: TSF officer's hi-vis vest
+  name: светоотражающий жилет офицера ТСФ
   description: A high-visibility tactical vest from the Trans Solar Federation. Essential for traffic control and maintaining visibility in dangerous situations.
   components:
   - type: Sprite
@@ -441,7 +441,7 @@
   parent: [ BaseCentcommContraband, ClothingOuterArmorRaid, ClothingOuterStorageBase ]
   categories: [ DoNotMap ]
   id: ClothingOuterVestGreenshield
-  name: greenshield vest
+  name: жилет гриншилда
   description: A protective vest worn by Greenshields. It even has pockets and a flashlight!
   components:
     - type: Sprite
@@ -464,7 +464,7 @@
 - type: entity
   parent: [BaseReporterContraband, ClothingOuterArmorBase]
   id: ClothingOuterPressArmor
-  name: press armor
+  name: броня прессы
   description: It has 'PRESS' written on it in white. It will help you stay alive while sniffing out ledes!
   components:
     - type: Item

@@ -1,7 +1,7 @@
 - type: entity
   parent: BaseAction
   id: ActionDefib
-  name: Defibrillate
+  name: Дефибриллировать
   components:
   - type: Action
     icon:
@@ -15,8 +15,8 @@
 - type: entity
   parent: BaseAction
   id: MedTakActionSelectAmmo
-  name: Select Ammo Type
-  description: Switch the ammo type fired by this gun.
+  name: Выбрать тип патронов
+  description: Переключить тип патронов этого ствола.
   components:
   - type: Action
     icon:

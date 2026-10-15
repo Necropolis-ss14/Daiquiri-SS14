@@ -81,7 +81,5 @@ ent-WallInvisible = невидимая стена
     .desc = { "" }
 ent-WallForce = силовой барьер
     .desc = { "" }
-ent-WallConcrete = бетонная стена
-    .desc = { ent-BaseWall.desc }
 ent-Cardwall = картонная стена
     .desc = Сокращение бюджета наносит сильный удар.

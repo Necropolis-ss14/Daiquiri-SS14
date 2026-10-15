@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseMobDragon
   id: MobDragonClown
-  name: clown dragon
-  description: A perfect life form created by the honk mother.
+  name: клоун-дракон
+  description: Идеальная форма жизни, созданная хонк-матерью.
   components:
   - type: Sprite
     sprite: _Starlight/Mobs/Aliens/Carps/clowndragon.rsi
@@ -33,8 +33,8 @@
 - type: entity
   parent: BaseAction
   id: ActionClownsBreath
-  name: "[color=pink]Cluster Banana![/color]"
-  description: Throw out a banana that splits into multiple explosive peels!
+  name: "[color=pink]Кластер Банана![/color]"
+  description: Выплюнь банан, что делится на взрывающиеся шкурки!
   components:
   - type: Action
     icon: { sprite : Objects/Specific/Hydroponics/banana.rsi, state: produce }
@@ -50,8 +50,8 @@
 - type: entity
   categories: [ HideSpawnMenu ]
   id: ClownsBreathGun
-  name: clown's lung
-  description: For funny breathing.
+  name: лёгкое клоуна
+  description: Для смешного дыхания.
   components:
   - type: RechargeBasicEntityAmmo
     rechargeCooldown: 10

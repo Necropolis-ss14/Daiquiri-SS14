@@ -2,7 +2,7 @@
 
 - type: entity
   id: BaseMagazineShotgunToz
-  name: magazine (20 gauge shells)
+  name: магазин (20 gauge shells)
   description: "Piotr, what am I supposed to do with this? The magazine won't come out of the gun!"
   parent: [ BaseItem, BaseSecurityContraband ]
   abstract: true
@@ -41,7 +41,7 @@
 
 - type: entity
   id: MagazineShotgunTozEmpty
-  name: 20 gauge magazine
+  name: magazine, 20 gauge калибра
   suffix: empty
   parent: BaseMagazineShotgunToz
   components:
@@ -50,7 +50,7 @@
 
 - type: entity
   id: MagazineShotgunToz
-  name: 20 gauge pellet magazine
+  name: pellet magazine, 20 gauge калибра
   parent: BaseMagazineShotgunToz
   components:
   - type: BallisticAmmoProvider
@@ -64,7 +64,7 @@
 
 - type: entity
   id: MagazineShotgunTozExtendedEmpty
-  name: 20 gauge extended magazine
+  name: extended magazine, 20 gauge калибра
   suffix: empty
   parent: BaseMagazineShotgunToz
   components:
@@ -80,7 +80,7 @@
 
 - type: entity
   id: MagazineShotgunTozExtended
-  name: 20 gauge pellet extended magazine
+  name: pellet extended magazine, 20 gauge калибра
   parent: BaseMagazineShotgunToz
   components:
   - type: BallisticAmmoProvider
@@ -95,7 +95,7 @@
 
 - type: entity
   id: MagazineShotgunBreach
-  name: 12 gauge breaching drum
+  name: breaching drum, 12 gauge калибра
   parent: BaseMagazineShotgun
   components:
   - type: BallisticAmmoProvider

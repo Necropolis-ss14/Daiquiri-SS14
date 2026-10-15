@@ -2,8 +2,8 @@
 - type: entity
   id: BorgChassisMedTak
   parent: BaseBorgChassisNotIonStormable
-  name: MedTak silicon
-  description: A multirole heavy silicon chassis designed to support MedTak units.
+  name: силикон MedTak
+  description: Многоцелевой тяжёлый силиконовый корпус для поддержки отрядов MedTak.
   abstract: true
   components:
     - type: TextToSpeech

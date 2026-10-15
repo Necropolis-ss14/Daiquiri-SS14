@@ -1,6 +1,6 @@
 - type: entity
   id: ActionToggleWeldingMask
-  name: Adjust Welding Mask
+  name: переключить сварочную маску
   description: Covers or reveals your face.
   components:
   - type: Action

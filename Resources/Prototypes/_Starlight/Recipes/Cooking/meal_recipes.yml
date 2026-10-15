@@ -1,7 +1,7 @@
 # Contraband
 - type: microwaveMealRecipe
   id: RecipeDreamingCake
-  name: Dreaming cake Recipe
+  name: Рецепт мечтательного торта
   result: FoodResomiCake
   time: 25
   reagents:
@@ -13,7 +13,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeBakedVulpkanin
-  name: baked vulpkanin recipe
+  name: Рецепт запечённого вульпакина
   result: FoodBakedVulpkaninPlate
   time: 15
   reagents:
@@ -27,7 +27,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeFoodFriedfelionoid
-  name: kentucky fried felionoid recipe
+  name: Рецепт фелионида по-кентуккийски
   result: FoodFriedfelionoid
   time: 10
   reagents:
@@ -40,7 +40,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeFoodFriedRodentia
-  name: kentucky fried rodentia recipe
+  name: Рецепт родентии по-кентуккийски
   result: FoodFriedRodentia
   time: 10
   reagents:
@@ -53,7 +53,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeFoodCookedlizard
-  name: Volcanic explosion recipe
+  name: Рецепт вулканического взрыва
   result: FoodCookedLizardPlate
   time: 20
   reagents:
@@ -67,7 +67,7 @@
 
 - type: deepFryingRecipe
   id: KFFAlternative
-  name: Kentucky Fried Felionoid
+  name: Фелионид по-кентуккийски
   result: FoodFriedfelionoid
   time: 30
   ingredient: MobFelionoid
@@ -75,7 +75,7 @@
 
 - type: deepFryingRecipe
   id: KFRAlternative
-  name: Kentucky Fried Rodentia
+  name: Родентия по-кентуккийски
   result: FoodFriedRodentia
   time: 30
   ingredient: MobRodentia
@@ -83,7 +83,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeFoodCookedShadekinCore
-  name: core spaghetti
+  name: Рецепт спагетти из ядра
   result: FoodCookedShadekinCore
   time: 10
   group: Pasta
@@ -94,7 +94,7 @@
 # a deliberately annoying recipe for a fairly dangerous dish:
 - type: microwaveMealRecipe
   id: RecipeStewSoupBlinding # yes the name is backward, this is consistent with the original
-  name: blinding stew recipe
+  name: рецепт слепящего рагу
   result: FoodSoupStewBlinding
   time: 29 # good luck getting this timing perfect
   deviceType: Stove
@@ -107,7 +107,7 @@
 # cake
 - type: microwaveMealRecipe
   id: RecipeMothCake
-  name: cotton cake recipe
+  name: Рецепт хлопкового торта
   result: FoodCottonCake
   time: 15
   group: Cake
@@ -116,7 +116,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeSpacemanCake
-  name: spaceman's cake recipe
+  name: Рецепт торта космонавта
   result: FoodCakeSpaceman
   time: 5
   group: Cake
@@ -128,7 +128,7 @@
 # pizza
 - type: microwaveMealRecipe
   id: RecipeNutribrickPizza
-  name: nutribrick pizza recipe
+  name: Рецепт нутрипиццы
   result: FoodPizzaNutribrick
   time: 30
   group: Pizza
@@ -140,7 +140,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeWrapperPizza
-  name: wrapper pizza recipe
+  name: Рецепт пиццы в обёртке
   result: FoodPizzaWrapper
   time: 30
   group: Pizza
@@ -153,7 +153,7 @@
 # misc
 - type: microwaveMealRecipe
   id: RecipeBeefStroganoff
-  name: beef stroganoff recipe
+  name: Рецепт бефстроганова
   result: FoodStroganoff
   time: 20
   group: Savory
@@ -171,7 +171,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeBeefStroganoffCookedCutlets
-  name: beef stroganoff with cooked cutlets recipe
+  name: Рецепт бефстроганова с готовыми котлетами
   result: FoodStroganoff
   time: 20
   group: Savory
@@ -189,7 +189,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeCharcuterie
-  name: charcuterie recipe
+  name: Рецепт мясной нарезки
   result: FoodCharcuterie
   time: 5
   group: Savory
@@ -201,7 +201,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeKhlahKalash
-  name: khlav kalash recipe
+  name: Рецепт хлав-калаш
   result: FoodMealKhlavKalash
   time: 5
   group: Savory
@@ -213,7 +213,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeHaggis
-  name: haggis recipe
+  name: Рецепт хаггиса
   result: FoodHaggis
   time: 15
   group: Savory
@@ -224,7 +224,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeBlackPudding
-  name: black pudding recipe
+  name: Рецепт кровяной колбасы
   result: FoodBlackPudding
   time: 15
   group: Savory
@@ -235,7 +235,7 @@
 
 - type: deepFryingRecipe
   id: TP14RecipePenguinNugget
-  name: penguin nugget recipe
+  name: Рецепт пингвиньих наггетсов
   result: FoodBakedNugget
   time: 20
   ingredient: FoodMeatPenguinCutlet
@@ -243,7 +243,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeEggBoiled
-  name: boiled egg recipe
+  name: Рецепт варёного яйца
   result: FoodEggBoiled
   time: 5
   group: Breakfast
@@ -253,7 +253,7 @@
 # Plain Donuts
 - type: deepFryingRecipe
   id: RecipeDonut
-  name: plain donut
+  name: Обычный пончик
   result: FoodDonutPlain
   time: 10
   ingredient: FoodDoughRope
@@ -261,7 +261,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeMeatDonut
-  name: meat donut
+  name: Мясной пончик
   result: FoodDonutMeat
   time: 5
   group: Dessert
@@ -271,7 +271,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeDonutChocolate
-  name: chocolate donut
+  name: Шоколадный пончик
   result: FoodDonutChocolate
   time: 5
   group: Dessert
@@ -281,7 +281,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeDonutApple
-  name: apple donut
+  name: Яблочный пончик
   result: FoodDonutApple
   time: 5
   group: Dessert
@@ -291,7 +291,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeDonutBungo
-  name: bungo donut
+  name: Пончик бунго
   result: FoodDonutBungo
   time: 5
   group: Dessert
@@ -301,7 +301,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeDonutBluePumpkin
-  name: blue pumpkin donut
+  name: Пончик с синей тыквой
   result: FoodDonutBluePumpkin
   time: 5
   group: Dessert
@@ -311,7 +311,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeDonutPink
-  name: pink donut
+  name: Розовый пончик
   result: FoodDonutPink
   time: 5
   group: Dessert
@@ -322,7 +322,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeDonutCaramel
-  name: caramel donut
+  name: Карамельный пончик
   result: FoodDonutCaramel
   time: 5
   group: Dessert
@@ -334,7 +334,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeDonutSweetpea
-  name: sweetpea donut
+  name: Пончик с душистым горошком
   result: FoodDonutSweetpea
   time: 5
   group: Dessert
@@ -344,7 +344,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeDonutSpaceman
-  name: spaceman donut
+  name: Пончик-космонавт
   result: FoodDonutSpaceman
   time: 5
   group: Dessert
@@ -355,7 +355,7 @@
 # Jelly Donuts
 - type: microwaveMealRecipe
   id: RecipeDonutJellyPlain
-  name: jelly donut
+  name: Пончик с джемом
   result: FoodDonutJellyPlain
   time: 5
   group: Dessert
@@ -365,7 +365,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeDonutJellyApple
-  name: apple jelly donut
+  name: Яблочный пончик с джемом
   result: FoodDonutJellyApple
   time: 5
   group: Dessert
@@ -375,7 +375,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeDonutJellyBungo
-  name: bungo jelly donut
+  name: Пончик бунго с джемом
   result: FoodDonutJellyBungo
   time: 5
   group: Dessert
@@ -385,7 +385,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeDonutJellyBluePumpkin
-  name: blue pumpkin jelly donut
+  name: Пончик с синей тыквой и джемом
   result: FoodDonutJellyBluePumpkin
   time: 5
   group: Dessert
@@ -395,7 +395,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeDonutJellyChocolate
-  name: chocolate jelly donut
+  name: Шоколадный пончик с джемом
   result: FoodDonutJellyChocolate
   time: 5
   group: Dessert
@@ -405,7 +405,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeDonutJellySweetpea
-  name: sweetpea jelly donut
+  name: Пончик с душистым горошком и джемом
   result: FoodDonutJellySweetpea
   time: 5
   group: Dessert
@@ -415,7 +415,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeDonutJellySpaceman
-  name: spaceman jelly donut
+  name: Пончик-космонавт с джемом
   result: FoodDonutJellySpaceman
   time: 5
   group: Dessert
@@ -425,7 +425,7 @@
 
 - type: microwaveMealRecipe # Kasern
   id: RecipeDonutJellyPink
-  name: pink jelly donut
+  name: Розовый пончик с джемом
   result: FoodDonutJellyPink
   time: 5
   group: Dessert
@@ -436,7 +436,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeDonutJellyCaramel
-  name: caramel jelly donut
+  name: Карамельный пончик с джемом
   result: FoodDonutJellyCaramel
   time: 5
   group: Dessert
@@ -449,7 +449,7 @@
 # candies
 - type: microwaveMealRecipe
   id: RecipeLollipopPlain
-  name: plain lollipop recipe
+  name: Рецепт обычного леденца
   result: FoodLollipopPlain
   time: 15
   reagents:
@@ -459,7 +459,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeLollipopSwirl
-  name: swirl lollipop recipe
+  name: Рецепт витого леденца
   result: FoodSnackSwirlLollipop
   time: 5
   group: Dessert
@@ -469,7 +469,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeHardCandy
-  name: hard candy recipe
+  name: Рецепт леденца
   result: FoodSnackHardCandyOpen
   time: 5
   deviceType: Oven
@@ -479,7 +479,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeCandyApple
-  name: toffee apple recipe
+  name: Рецепт яблока в ириске
   result: FoodSnackCandyApple
   time: 10
   group: Dessert
@@ -490,7 +490,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeVanillaIceCream
-  name: vanilla ice cream
+  name: Ванильное мороженое
   result: FoodVanillaIceCream
   deviceType: IceCreamMaker
   time: 5
@@ -503,7 +503,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeChocolateIceCream
-  name: chocolate ice cream
+  name: Шоколадное мороженое
   result: FoodChocolateIceCream
   deviceType: IceCreamMaker
   time: 5
@@ -516,7 +516,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeStrawberryIceCream
-  name: strawberry ice cream
+  name: Клубничное мороженое
   result: FoodStrawberryIceCream
   deviceType: IceCreamMaker
   time: 5
@@ -529,7 +529,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeMintIceCream
-  name: mint chocolate chip ice cream
+  name: Мятное мороженое с шоколадом
   result: FoodMintChocolateIceCream
   deviceType: IceCreamMaker
   time: 5
@@ -543,7 +543,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeCoffeeIceCream
-  name: coffee ice cream
+  name: Кофейное мороженое
   result: FoodCoffeeIceCream
   deviceType: IceCreamMaker
   time: 5
@@ -556,7 +556,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeSnowcreamIceCream
-  name: snowcream ice cream
+  name: Снежное мороженое
   result: FoodSnowcreamIceCream
   deviceType: IceCreamMaker
   time: 5
@@ -569,7 +569,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeSherbetIceCream
-  name: sherbet ice cream
+  name: Мороженое-щербет
   result: FoodSherbetIceCream
   deviceType: IceCreamMaker
   time: 5
@@ -585,7 +585,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeBananaSplitIceCream
-  name: banana split ice cream
+  name: Мороженое банановый шплит
   result: FoodBananaSplitIceCream
   deviceType: IceCreamMaker
   time: 5
@@ -600,7 +600,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeOrangeSwirlIceCream
-  name: orange swirl ice cream
+  name: Апельсиновое мороженое с завитком
   result: FoodOrangeSwirlIceCream
   deviceType: IceCreamMaker
   time: 5
@@ -614,7 +614,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeBlueberryIceCream
-  name: blueberry ice cream
+  name: Черничное мороженое
   result: FoodBlueberryIceCream
   deviceType: IceCreamMaker
   time: 5
@@ -628,7 +628,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeNeapolitanIceCream
-  name: neapolitan ice cream
+  name: Неаполитанское мороженое
   result: FoodNeapolitanIceCream
   deviceType: IceCreamMaker
   time: 5
@@ -642,7 +642,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeSaltedCaramelIceCream
-  name: salted caramel ice cream
+  name: Мороженое с солёной карамелью
   result: FoodSaltedCaramelIceCream
   deviceType: IceCreamMaker
   time: 5
@@ -656,7 +656,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeRockyRoadIceCream
-  name: rocky road ice cream
+  name: Мороженое каменистая дорога
   result: FoodRockyRoadIceCream
   deviceType: IceCreamMaker
   time: 5
@@ -670,7 +670,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeMatchaIceCream
-  name: matcha ice cream
+  name: Мороженое с матчей
   result: FoodMatchaIceCream
   deviceType: IceCreamMaker
   time: 5
@@ -683,7 +683,7 @@
 
 - type: microwaveMealRecipe
   id: RecipePistachioIceCream
-  name: pistachio ice cream
+  name: Фисташковое мороженое
   result: FoodPistachioIceCream
   deviceType: IceCreamMaker
   time: 5
@@ -696,7 +696,7 @@
 
 - type: microwaveMealRecipe
   id: RecipePeanutButterIceCream
-  name: peanut butter ice cream
+  name: Мороженое с арахисовой пастой
   result: FoodPeanutButterIceCream
   deviceType: IceCreamMaker
   time: 5
@@ -710,7 +710,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeCherryIceCream
-  name: cherry ice cream
+  name: Вишнёвое мороженое
   result: FoodCherryIceCream
   deviceType: IceCreamMaker
   time: 5
@@ -723,7 +723,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeAppleCinnamonIceCream
-  name: apple cinnamon ice cream
+  name: Яблочное мороженое с корицей
   result: FoodAppleCinnamonIceCream
   deviceType: IceCreamMaker
   time: 5
@@ -737,7 +737,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeGoldAppleCinnamonIceCream
-  name: gold apple cinnamon ice cream
+  name: Золотое яблочное мороженое с корицей
   result: FoodGoldAppleCinnamonIceCream
   deviceType: IceCreamMaker
   time: 5
@@ -751,7 +751,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeHolyMelonIceCream
-  name: holy melon ice cream
+  name: Мороженое со святой дыней
   result: FoodHolyMelonIceCream
   deviceType: IceCreamMaker
   time: 5
@@ -764,7 +764,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeRainbowHighIceCream
-  name: rainbow high ice cream
+  name: Радужное мороженое
   result: FoodRainbowHighIceCream
   deviceType: IceCreamMaker
   time: 5
@@ -777,7 +777,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeMeatIceCream
-  name: meat ice cream
+  name: Мясное мороженое
   result: FoodMeatIceCream
   deviceType: IceCreamMaker
   time: 5
@@ -790,7 +790,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeWehIceCream
-  name: weh ice cream
+  name: Мороженое Вэх
   result: FoodWehIceCream
   deviceType: IceCreamMaker
   time: 5
@@ -804,7 +804,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeSpaceDragonIceCream
-  name: space dragon ice cream
+  name: Мороженое с космическим драконом
   result: FoodSpaceDragonIceCream
   deviceType: IceCreamMaker
   time: 5
@@ -818,7 +818,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeSilkThreadIceCream
-  name: silk thread ice cream
+  name: Мороженое с шёлковой нитью
   result: FoodMothSilkIceCream
   deviceType: IceCreamMaker
   time: 5
@@ -831,7 +831,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeInterdimensionalIceCream
-  name: interdimensional napoleon ice cream
+  name: Межпространственное мороженое Наполеон
   result: FoodDimensionalIceCream
   deviceType: IceCreamMaker
   time: 5
@@ -845,7 +845,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeOmnizineIceCream
-  name: omnizine ice cream
+  name: Мороженое с омнизином
   result: FoodOmnizineIceCream
   deviceType: IceCreamMaker
   time: 5
@@ -859,7 +859,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeMeanGirlIceCream
-  name: mean girl ice cream
+  name: Мороженое плохой девчонки
   result: FoodMeanGirlIceCream
   deviceType: IceCreamMaker
   time: 5
@@ -874,7 +874,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeHewIceCream
-  name: hew ice cream
+  name: Мороженое Хью
   result: FoodHewIceCream
   deviceType: IceCreamMaker
   time: 5
@@ -887,7 +887,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeFluffyBoyIceCream
-  name: fluffy boy ice cream
+  name: Мороженое пушистика
   result: FoodFluffyBoyIceCream
   deviceType: IceCreamMaker
   time: 5
@@ -901,7 +901,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeLeaderIceCream
-  name: leader ice cream
+  name: Лидерское мороженое
   result: FoodLeaderIceCream
   deviceType: IceCreamMaker
   time: 5
@@ -915,7 +915,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeTeslaIceCream
-  name: tesla ice cream
+  name: Мороженое Тесла
   result: FoodTeslaIceCream
   deviceType: IceCreamMaker
   time: 5
@@ -930,7 +930,7 @@
 #dumplings
 - type: microwaveMealRecipe
   id: RecipePelmeni
-  name: pelmeni
+  name: пельмени
   result: FoodPelmeni
   time: 15
   group: Savory
@@ -945,7 +945,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeEmpanadas
-  name: empanadas
+  name: эмпанадас
   result: FoodEmpanadas
   time: 15
   group: Savory
@@ -958,7 +958,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeCrabRangoons
-  name: crab rangoons
+  name: Крабовые рангуны
   result: FoodCrabRangoons
   time: 15
   group: Savory
@@ -972,7 +972,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeKarelianPastries
-  name: karelian pastries
+  name: Карельские пирожки
   result: FoodKarelianPastries
   time: 15
   group: Savory
@@ -987,7 +987,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeBananaIceCream
-  name: banana ice cream
+  name: Банановое мороженое
   result: FoodBananaIceCream
   deviceType: IceCreamMaker
   time: 5
@@ -1000,7 +1000,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeClownIceCream
-  name: clown ice cream
+  name: Клоунское мороженое
   result: FoodClownIceCream
   deviceType: IceCreamMaker
   time: 5
@@ -1014,7 +1014,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeCoconutIceCream
-  name: coconut ice cream
+  name: Кокосовое мороженое
   result: FoodCoconutIceCream
   deviceType: IceCreamMaker
   time: 5
@@ -1027,7 +1027,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeIanIceCream
-  name: ian ice cream
+  name: Мороженое Яна
   result: FoodIanIceCream
   deviceType: IceCreamMaker
   time: 5
@@ -1041,7 +1041,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeNTIceCream
-  name: nanotrasen ice cream
+  name: Мороженое НаноТрейзен
   result: FoodNTIceCream
   deviceType: IceCreamMaker
   time: 5
@@ -1056,7 +1056,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeNTMarineIceCream
-  name: nanotrasen marine ice cream
+  name: Мороженое морпеха НаноТрейзен
   result: FoodNTMarineIceCream
   deviceType: IceCreamMaker
   time: 5
@@ -1071,7 +1071,7 @@
 
 - type: microwaveMealRecipe
   id: RecipePineappleIceCream
-  name: pineapple ice cream
+  name: Ананасовое мороженое
   result: FoodPineappleIceCream
   deviceType: IceCreamMaker
   time: 5
@@ -1084,7 +1084,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeRisingSunIceCream
-  name: rising sun ice cream
+  name: Мороженое восходящего солнца
   result: FoodRisingSunIceCream
   deviceType: IceCreamMaker
   time: 5
@@ -1099,7 +1099,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeRockyOreIceCream
-  name: rocky ore ice cream
+  name: Мороженое с рудой
   result: FoodRockyOreIceCream
   deviceType: IceCreamMaker
   time: 5
@@ -1113,7 +1113,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeStunBatonIceCream
-  name: stun baton ice cream
+  name: Мороженое-дубинка
   result: FoodStunBatonIceCream
   deviceType: IceCreamMaker
   time: 5
@@ -1127,7 +1127,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeSyndieLandIceCream
-  name: syndie-land ice cream
+  name: Мороженое Синдиленда
   result: FoodSyndieLandIceCream
   deviceType: IceCreamMaker
   time: 5
@@ -1142,7 +1142,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeTiramisuIceCream
-  name: tiramisu ice cream
+  name: Тирамису-мороженое
   result: FoodTiramisuIceCream
   deviceType: IceCreamMaker
   time: 5
@@ -1157,7 +1157,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeUraniumIceCream
-  name: uranium ice cream
+  name: Урановое мороженое
   result: FoodUraniumIceCream
   deviceType: IceCreamMaker
   time: 5
@@ -1170,7 +1170,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeVoxIceCream
-  name: vox ice cream
+  name: Мороженое воксов
   result: FoodVoxIceCream
   deviceType: IceCreamMaker
   time: 5

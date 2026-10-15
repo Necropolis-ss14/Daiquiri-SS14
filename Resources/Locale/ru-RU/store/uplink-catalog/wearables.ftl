@@ -45,14 +45,6 @@ uplink-clothing-eyes-hud-syndicate-desc = Профессиональный ви�
 uplink-backpack-syndicate-name = Рюкзак Синдиката
 uplink-backpack-syndicate-desc = Лёгкий, расширенный, взрывоустойчивый рюкзак для хранения различных предательских штучек.
 
-uplink-holster-name = Наплечная кобура
-uplink-holster-desc = Глубокая наплечная кобура под многие виды баллистики.
 
-uplink-hardsuit-infiltration-name = Диверсионный скафандр Синдиката
-uplink-hardsuit-infiltration-desc = Штатный скафандр спецопераций Синдиката: прочный и со встроенной хамелеон-технологией.
 
-uplink-clothing-chameleon-thieving-gloves-name = Воровские перчатки-хамелеон
-uplink-clothing-chameleon-thieving-gloves-desc = Тихо шарь по карманам и качай воровство в этих модных перчатках. Меняют вид под любые перчатки!
 
-uplink-headset-name = Накладная гарнитура Синдиката
-uplink-headset-desc = Позволяет общаться с другими оперативниками. 4 слота под ключи шифрования.

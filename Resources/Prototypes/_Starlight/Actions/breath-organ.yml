@@ -1,7 +1,7 @@
 - type: entity
   parent: BaseAction
   id: ActionToggleInternalsOrgan
-  name: Toggle Internals
+  name: Переключить подачу газов
   description: Breathe from your organ.
   components:
   - type: Action
@@ -18,7 +18,7 @@
 - type: entity
   parent: BaseAction
   id: ActionOpenOrganGasTankUI
-  name: View Organ Gas Tank
+  name: Осмотреть газовый баллон органа
   description: View the gas contents of your organ.
   components:
   - type: Action

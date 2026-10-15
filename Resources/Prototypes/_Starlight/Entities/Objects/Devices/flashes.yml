@@ -1,5 +1,5 @@
 - type: entity
-  name: flash
+  name: флешер
   parent: Flash
   suffix: 0 charges
   id: Flash0Use
@@ -8,7 +8,7 @@
       maxCharges: 0
 
 - type: entity
-  name: flash
+  name: флешер
   parent: Flash
   suffix: 1 charge
   id: Flash1Use
@@ -17,7 +17,7 @@
       maxCharges: 1
 
 - type: entity
-  name: flash
+  name: флешер
   parent: Flash
   suffix: 3 charges
   id: Flash3Use
@@ -26,7 +26,7 @@
       maxCharges: 3
 
 - type: entity
-  name: flash
+  name: флешер
   parent: Flash
   suffix: 4 charges
   id: Flash4Use

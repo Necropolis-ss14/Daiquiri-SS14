@@ -28,7 +28,7 @@
 - type: entity
   parent: ClothingOuterArmorNeocyteBase
   id: ClothingOuterArmorNeocyteLightBasic
-  name: Basic-Class light neocyte frame
+  name: лёгкий неоцитовый каркас базового класса
   description: Comes in-built with light armor plating to shield the cybernetics within. Removal of this would require killing you.
   components:
   - type: Sprite
@@ -45,7 +45,7 @@
 - type: entity
   parent: ClothingOuterArmorNeocyteBase
   id: ClothingOuterArmorNeocyteLightSpeed
-  name: Hermes-Class light neocyte frame
+  name: лёгкий неоцитовый каркас класса «Гермес»
   description: Augments your body's agility, at the cost of being incredibly susceptible to sharp objects. Removal of this would require killing you.
   components:
   - type: Sprite
@@ -79,7 +79,7 @@
 - type: entity
   parent: ClothingOuterArmorNeocyteBase
   id: ClothingOuterArmorNeocyteMediumBasic
-  name: Basic-Class medium neocyte frame
+  name: средний неоцитовый каркас базового класса
   description: Comes in-built with moderate armor plating to shield the cybernetics within and protect the user. Removal of this would require killing you.
   components:
   - type: Sprite
@@ -98,7 +98,7 @@
 - type: entity
   parent: ClothingOuterArmorNeocyteBase
   id: ClothingOuterArmorNeocyteMediumMagic
-  name: Hecate-Class medium neocyte frame
+  name: средний неоцитовый каркас класса «Геката»
   description: Its self-cleansing module grants resistance to biological hazards. Removal of this would require killing you.
   components:
   - type: Sprite
@@ -142,7 +142,7 @@
 - type: entity
   parent: ClothingOuterArmorNeocyteBase
   id: ClothingOuterArmorNeocyteHeavyBasic
-  name: Basic-Class heavy neocyte frame
+  name: тяжёлый неоцитовый каркас базового класса
   description: Comes in-built with heavy armor plating for active combat scenarios. Very heavy. Removal of this would require killing you.
   components:
   - type: Sprite
@@ -163,7 +163,7 @@
 - type: entity
   parent: [ClothingOuterArmorNeocyteBase, AllowSuitStorageClothing]
   id: ClothingOuterArmorNeocyteHeavySpace
-  name: Nyx-Class heavy neocyte frame
+  name: тяжёлый неоцитовый каркас класса «Никс»
   description: Comes in-built with heavy insulation for spacefaring. A bit weighty. Removal of this would require killing you.
   components:
   - type: Sprite
@@ -209,7 +209,7 @@
 - type: entity
   parent: ClothingOuterArmorNeocyteBase
   id: ChangelingClothingNeocyteArmor
-  name: Basic-Class light neocyte frame
+  name: лёгкий неоцитовый каркас базового класса
   description: Comes in-built with light armor plating to shield the cybernetics within. Removal of this would require killing you.
   suffix: Changeling
   components:

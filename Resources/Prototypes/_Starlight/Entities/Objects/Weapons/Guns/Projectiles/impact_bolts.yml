@@ -1,6 +1,6 @@
 - type: entity
   id: BulletImpactBolt
-  name: impact bolt
+  name: ударный болт
   parent: BulletGrenadeBlast
   categories:
   - HideSpawnMenu

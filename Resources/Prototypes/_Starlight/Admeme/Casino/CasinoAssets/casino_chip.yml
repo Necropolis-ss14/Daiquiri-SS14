@@ -2,7 +2,7 @@
   name: casino chip
   parent: BaseItem
   id: CasinoChip
-  description: A casino chip. Only worth what the house says it is.
+  description: Фишка казино. Стоит столько, сколько скажет дом.
   components:
   - type: Sprite
     sprite: _Starlight/Admeme/Casino/Objects/casino_chips.rsi

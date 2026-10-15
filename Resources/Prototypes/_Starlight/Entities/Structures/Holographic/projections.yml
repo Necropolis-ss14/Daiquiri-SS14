@@ -1,6 +1,6 @@
 - type: entity
   id: HolosignEngineeringWarning
-  name: engineering warning barrier
+  name: инженерный предупреждающий барьер
   description: A barrier of non-solid light, warning everyone of danger around it.
   placement:
     mode: SnapgridCenter

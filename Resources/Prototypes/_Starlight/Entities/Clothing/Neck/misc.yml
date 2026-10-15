@@ -1,7 +1,7 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckEyeAmulet
-  name: eye amulet
+  name: амулет глаза
   description: It watches.
   components:
   - type: Sprite
@@ -12,7 +12,7 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckMoonAmulet
-  name: moon amulet
+  name: амулет луны
   description: Shines in the moonlight.
   components:
   - type: Sprite
@@ -23,7 +23,7 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckStarAmulet
-  name: star amulet
+  name: амулет звезды
   description: Twinkles like a star.
   components:
   - type: Sprite
@@ -34,7 +34,7 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckSunAmulet
-  name: sun amulet
+  name: амулет солнца
   description: Glows like the sun.
   components:
   - type: Sprite
@@ -45,7 +45,7 @@
 - type: entity
   parent: [ClothingNeckBase, BaseSyndicateContraband]
   id: ClothingNeckExplosiveCollar
-  name: explosive collar
+  name: взрывной ошейник
   description: The legally distinct reverse beartrap from a certin movie franchise
   components:
   - type: Sprite
@@ -74,7 +74,7 @@
 - type: entity
   parent: [ClothingNeckBase, BaseTSFContraband]
   id: ClothingNeckTSFBadge
-  name: TSF badge
+  name: значок ТСФ
   description: An official badge from the Trans Solar Federation. This polished piece of law enforcement equipment bears the distinctive TSF eagle emblem, a symbol of authority recognized across known space.
   components:
   - type: Sprite
@@ -88,7 +88,7 @@
 - type: entity
   parent: ClothingScarfBase
   id: ClothingNeckBunnyGang
-  name: Bunny Gang Scarf
+  name: шарф заячьей банды
   description: The scarf of a secretive group of bunny mercenaries.
   components:
     - type: Sprite
@@ -100,7 +100,7 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckFoxfire
-  name: Foxfire Charm
+  name: амулет лисьего огня
   description: Flittering ghostly flames have started following you upon donning this around your neck.
   components:
   - type: Sprite
@@ -123,7 +123,7 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckLittleAngelWings
-  name: little angel wings # Alternative Clothing Catalog
+  name: крылья маленького ангела
   description: Fluffy costume angel wings, matches with the rest of the set!
   components:
   - type: Sprite
@@ -134,7 +134,7 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckLittleDevilWings
-  name: little devil wings # Alternative Clothing Catalog
+  name: крылья маленького дьявола
   description: Velvety costume devil wings, matches with the rest of the set!
   components:
   - type: Sprite

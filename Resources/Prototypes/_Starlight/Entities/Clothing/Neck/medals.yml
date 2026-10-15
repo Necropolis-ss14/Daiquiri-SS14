@@ -1,5 +1,5 @@
 - type: entity
-  name: cc medals box
+  name: коробка медалей ЦК
   parent: BoxCardboard
   id: BoxMedalsCC
   components:
@@ -30,7 +30,7 @@
 - type: entity
   parent: ClothingMiscBase
   id: ClothingNeckCentralCommandMedal
-  name: central command medal
+  name: медаль центрального командования
   description: Given by central command to commend exemplary behavior.
   components:
     - type: Sprite
@@ -45,7 +45,7 @@
 - type: entity
   parent: ClothingMiscBase
   id: ClothingNeckCentralCommandMedalValor
-  name: central command medal of valor
+  name: медаль центрального командования за доблесть
   description: Given by central command to recognize valor.
   components:
     - type: Sprite
@@ -60,7 +60,7 @@
 - type: entity
   parent: ClothingMiscBase
   id: ClothingNeckCentralCommandMedalGaudy
-  name: central command medal of excellence
+  name: медаль центрального командования за выдающиеся заслуги
   description: Humbly given by central command to commend excellency.
   components:
     - type: Sprite

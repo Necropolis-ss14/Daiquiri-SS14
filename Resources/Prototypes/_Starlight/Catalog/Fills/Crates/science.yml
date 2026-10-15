@@ -2,8 +2,8 @@
   id: CrateLawboards
   categories: [ ShouldMapStation ]
   parent: CrateRDSecure
-  name: AI lawboard crate
-  description: A crate filled with various AI lawboards.
+  name: ящик плат законов ИИ
+  description: Ящик с разными платами законов ИИ.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -30,8 +30,8 @@
 - type: entity
   id: CrateStarterXenobiology
   parent: CrateScienceSecure
-  name: xenobiology starter crate
-  description: Contains a gray slime extract and a box of monkey cubes to get you started on your xenobiology adventures. Or because you really messed up. Oh, and a camera tagger. Don't let any spies get their hands on that thing.
+  name: стартовый ящик ксенобиологии
+  description: Экстракт серого слайма и коробка обезьяньих кубов для старта в ксенобиологии. Или потому что ты всё просрал. А ещё камерный тэггер. Не дай шпионам его заполучить.
   components:
     - type: EntityTableContainerFill
       containers:
@@ -44,8 +44,8 @@
 - type: entity
   parent: CrateScienceSecure
   id: CrateStationAiUpload
-  name: station AI upload console crate
-  description: Contains the components for constructing a station AI upload console. Still requires manual linking to the core. Requires Science access to open.
+  name: ящик консоли загрузки ИИ
+  description: Компоненты для сборки консоли загрузки станционного ИИ. Привязку к ядру делать вручную. Нужен доступ в науку.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -62,8 +62,8 @@
 - type: entity
   id: CrateScienceAnomalousContainment
   parent: CrateScience
-  name: anomalous containment supplies crate
-  description: Contains a Containment Oubliette circuit board and two A.P.E circuit boards.
+  name: ящик припасов аномального сдерживания
+  description: Плата Ублиетта сдерживания и две платы A.P.E.
   components:
     - type: StorageFill
       contents:

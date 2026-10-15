@@ -24,9 +24,9 @@
 - type: entity
   id: OrganCycloriteBrain
   parent: [BaseOrganBrain, BaseCycloriteOrgan]
-  name: ent-OrganCycloriteBrain
+  name: мозг циклорита
   suffix: Cyclorite
-  description: ent-OrganCycloriteBrain-desc
+  description: Источник невероятного, бесконечного интеллекта. Хонк.
   components:
   - type: Sprite
     state: brain
@@ -34,9 +34,9 @@
 - type: entity
   id: OrganCycloriteEye
   parent: [BaseCycloriteOrgan, BaseOrganEyes]
-  name: ent-OrganCycloriteEye
+  name: глаз циклорита
   suffix: Cyclorite
-  description: ent-OrganCycloriteEye-desc
+  description: Циклориты видят мир немного иначе.
   components:
   - type: Sprite
     layers:
@@ -54,9 +54,9 @@
 - type: entity
   id: OrganCycloriteTongue
   parent: [BaseCycloriteOrgan, BaseOrganTongue]
-  name: ent-OrganCycloriteTongue
+  name: язык циклорита
   suffix: Cyclorite
-  description: ent-OrganCycloriteTongue-desc
+  description: Мясистая мышца, в основном используемая для лжи.
   components:
   - type: OrganTongue
     sounds:
@@ -69,9 +69,9 @@
 - type: entity
   id: OrganCycloriteEars
   parent: [BaseCycloriteOrgan, BaseOrganEars]
-  name: ent-OrganCycloriteEars
+  name: уши циклорита
   suffix: Cyclorite
-  description: ent-OrganCycloriteEars-desc
+  description: "У уха три части: внутренняя, средняя и наружная. В норме видимой должна быть только одна из них."
   components:
   - type: Sprite
     state: ears
@@ -79,9 +79,9 @@
 - type: entity
   id: OrganCycloriteLungs
   parent: [BaseCycloriteOrgan, BaseOrganLungs]
-  name: ent-OrganCycloriteLungs
+  name: лёгкие циклорита
   suffix: Cyclorite
-  description: ent-OrganCycloriteLungs-desc
+  description: Лёгкие циклорита фильтруют азот из атмосферы для дыхания.
   components:
   - type: Sprite
     layers:
@@ -101,9 +101,9 @@
 - type: entity
   id: OrganCycloriteHeart
   parent: [BaseCycloriteOrgan, BaseOrganHeart]
-  name: ent-OrganCycloriteHeart
+  name: сердце циклорита
   suffix: Cyclorite
-  description: ent-OrganCycloriteHeart-desc
+  description: Жаль этого бессердечного ублюдка, потерявшего его.
   components:
   - type: Sprite
     state: heart-on
@@ -117,9 +117,9 @@
 - type: entity
   id: OrganCycloriteStomach
   parent: [BaseCycloriteOrgan, BaseOrganStomach]
-  name: ent-OrganCycloriteStomach
+  name: желудок циклорита
   suffix: Cyclorite
-  description: ent-OrganCycloriteStomach-desc
+  description: Мерзость. Такое тяжело переварить.
   components:
   - type: Sprite
     state: stomach
@@ -141,9 +141,9 @@
 - type: entity
   id: OrganCycloriteLiver
   parent: [BaseCycloriteOrgan, BaseOrganLiver]
-  name: ent-OrganCycloriteLiver
+  name: печень циклорита
   suffix: Cyclorite
-  description: ent-OrganCycloriteLiver-desc
+  description: "Рекомендуемое сочетание: кьянти и бобы."
   components:
   - type: Sprite
     state: liver
@@ -154,9 +154,9 @@
 - type: entity
   id: OrganCycloriteKidneys
   parent: [BaseCycloriteOrgan, BaseOrganKidneys]
-  name: ent-OrganCycloriteKidneys
+  name: почки циклорита
   suffix: Cyclorite
-  description: ent-OrganCycloriteKidneys-desc
+  description: Фильтруют токсины из кровотока.
   components:
   - type: Sprite
     layers:

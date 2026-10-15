@@ -1,5 +1,5 @@
 ﻿- type: entity
-  name: Dreaming cake
+  name: торт сновидений
   parent: [FoodCakeBase, BaseSlicingRefinableFood]
   id: FoodResomiCake
   description: The poor Resomi can no longer chase their dreams
@@ -33,7 +33,7 @@
 
 
 - type: entity
-  name: Cotton Cake
+  name: хлопковый торт
   parent: [FoodCakeBase, BaseSlicingRefinableFood]
   id: FoodCottonCake
   description: A sweet treat for the moth to eat
@@ -71,7 +71,7 @@
       requiresSpecialDigestion: true
 
 - type: entity
-  name: A Slice of Cotton Cake
+  name: кусок хлопкового торта
   parent: FoodCakeSliceBase
   id: FoodCottonCakeSlice
   description: You cut up the moff how dare you
@@ -107,7 +107,7 @@
 
 
 - type: entity
-  name: A Slice of dreaming
+  name: кусок сновидений
   parent: FoodCakeSliceBase
   id: FoodCakeResomiSlice
   description: Broken wings cant fly, neither can the Resomi this was made with.

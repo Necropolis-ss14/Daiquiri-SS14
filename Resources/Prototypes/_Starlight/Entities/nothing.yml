@@ -5,7 +5,7 @@
 
 - type: entity
   id: NothingEntity
-  name: nothing object
+  name: ничего
   categories: [ HideSpawnMenu ]
   components:
   - type: TriggerOnSpawn

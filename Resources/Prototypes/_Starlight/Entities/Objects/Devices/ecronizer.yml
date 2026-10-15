@@ -1,8 +1,8 @@
 - type: entity
-  name: ecronizer
+  name: эскронайзер
   parent: [BaseItem, BaseSyndicateContraband]
   id: Ecronizer
-  description: This device will ecronize all your items from any scanning device.
+  description: Устройство скроет твои вещи от любых сканеров.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Devices/ecronizer.rsi

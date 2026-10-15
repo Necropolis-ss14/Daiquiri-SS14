@@ -32,7 +32,7 @@
 - type: entity
   parent: MarkerBase
   id: SyndieDeadDropSpawner
-  name: Syndicate High Command # Used for radio announcement
+  name: Верховное командование Синдиката
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityTableSpawner
@@ -44,7 +44,7 @@
 - type: entity
   parent: [ BaseSubfloorAnchorStorageAnchored, BriefcaseSyndicateRedspace, BaseMinorContraband ]
   id: BriefcaseSyndieDeadDrop
-  name: syndicate briefcase
+  name: кейс синдиката
   suffix: Dead Drop, Do Not Map
   components:
   - type: EntityTableContainerFill
@@ -93,7 +93,7 @@
 - type: entity
   id: BriefcaseWeaponDMRFilled
   parent: BriefcaseWeapon
-  name: secure estoc case
+  name: кейс с эстоком
   components:
   - type: EntityTableContainerFill
     containers:
@@ -103,7 +103,7 @@
 - type: entity
   id: ClothingNeckExplosiveCollarBox
   parent: BriefcaseWeaponSmall
-  name: secure explosives case
+  name: кейс со взрывчаткой
   components:
     - type: EntityTableContainerFill
       containers:

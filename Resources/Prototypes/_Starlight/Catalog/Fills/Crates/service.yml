@@ -1,8 +1,8 @@
 - type: entity
   id: CrateServiceHydraRefill
   parent: CratePlastic
-  name: hydra refill crate
-  description: Contains two refills for the Hydra cleanade launcher.
+  name: ящик заправки гидры
+  description: Две заправки для клинада-мёта Гидры.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -13,8 +13,8 @@
 - type: entity
   id: CrateServiceIceCreamMakerStarter
   parent: CrateFreezer
-  name: ice cream maker starter crate
-  description: Contains a flatpack of an ice cream maker, a jug of ice cream, cream, cocoa powder, berries, pistachios, and glasses.
+  name: стартовый ящик мороженщика
+  description: Разобранная мороженница, кувшин мороженого, сливки, какао, ягоды, фисташки и стаканы.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -38,8 +38,8 @@
 - type: entity
   id: CrateServiceReligious
   parent: CratePlastic
-  name: religious supplies crate
-  description: Contains holy water, a censer and a bible.
+  name: ящик церковных припасов
+  description: Святая вода, кадило и библия.
   components:
     - type: StorageFill
       contents:
@@ -51,8 +51,8 @@
 - type: entity
   parent: CrateGenericSteel
   id: CrateServiceDocumentPrinter
-  name: document printer crate
-  description: A document printer.
+  name: ящик принтера документов
+  description: Принтер документов.
   components:
     - type: EntityTableContainerFill
       containers:

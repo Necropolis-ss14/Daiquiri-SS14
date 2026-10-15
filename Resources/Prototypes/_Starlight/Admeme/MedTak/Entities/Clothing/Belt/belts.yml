@@ -1,8 +1,8 @@
 - type: entity
   parent: [ClothingBeltStorageBase, ContentsExplosionResistanceBase, BaseMedTakContraband ]
   id: ClothingBeltMedTak
-  name: MedTak belt
-  description: A versatile belt worn by MedTak operators.
+  name: ремень MedTak
+  description: Универсальный ремень оперативников MedTak.
   components:
   - type: Storage #Starlight
     grid:

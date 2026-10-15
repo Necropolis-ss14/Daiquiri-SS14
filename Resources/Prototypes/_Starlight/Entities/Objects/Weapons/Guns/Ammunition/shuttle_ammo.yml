@@ -6,7 +6,7 @@
   abstract: true
   parent: [BaseItem, BaseMajorContraband]
   id: BaseCharon280mmCartridge
-  name: base 280mm Charybdis cartridge
+  name: базовый патрон «Харибда» 280мм
   components:
   - type: Tag
     tags:
@@ -19,7 +19,7 @@
 - type: entity
   parent: BaseCharon280mmCartridge
   id: CartridgeCharon280mmSlug
-  name: M381 CHARYBDIS 280mm 26.5kg slug
+  name: снаряд M381 «Харибда» 280мм 26,5кг
   description: >-
     A 26.5 kilogram depleted-tungsten penetrator round for the M321-CHARYBDIS 'Thanatos' railgun system.
     The slug punches through multiple targets and structural layers before its delayed fuse detonates.
@@ -46,7 +46,7 @@
 - type: entity
   parent: BaseCharon280mmCartridge
   id: CartridgeCharon280mmSubnuclear
-  name: M381 CHARYBDIS 280mm 40kg subnuclear slug
+  name: субъядерный снаряд M381 «Харибда» 280мм 40кг
   description: >-
     A 40 kilogram subnuclear warhead packaged as a railgun slug for the M321-CHARYBDIS 'Thanatos' system.
     Detonates on first contact, producing a massive subnuclear detonation with significant residual radiation.
@@ -75,7 +75,7 @@
   abstract: true
   parent: [BaseItem, BaseMajorContraband]
   id: BaseDravon75mmShell
-  name: base 75mm Dravon shell
+  name: базовый снаряд «Дравон» 75мм
   components:
   - type: Tag
     tags:
@@ -87,7 +87,7 @@
 - type: entity
   parent: BaseDravon75mmShell
   id: CartridgeDravon75mmHE
-  name: DVN-75 75mm HE shell
+  name: фугасный снаряд DVN-75 75мм
   description: >-
     A 75mm high-explosive artillery shell for the Dravon cannon system.
     Detonates on impact with a solid area-of-effect blast.
@@ -112,7 +112,7 @@
 - type: entity
   parent: BaseMagazineGrenade
   id: MagazineDravon75mmHE
-  name: DVN-75 75mm HE shell magazine
+  name: магазин фугасных снарядов DVN-75 75мм
   description: A 15-round magazine of 75mm HE shells for the Dravon cannon system.
   components:
   - type: Tag
@@ -157,7 +157,7 @@
   abstract: true
   parent: [BaseItem, BaseMajorContraband]
   id: BaseAK570_90mmShell
-  name: base 90mm AK570 shell
+  name: базовый снаряд AK570 90мм
   components:
   - type: Tag
     tags:
@@ -169,7 +169,7 @@
 - type: entity
   parent: BaseAK570_90mmShell
   id: CartridgeAK570_90mmHE
-  name: AK-90 90mm HE shell
+  name: фугасный снаряд AK-90 90мм
   description: >-
     A 90mm high-explosive artillery shell for the AK570 cannon system.
     Heavier than the Dravon's 75mm round, with a larger explosive yield.
@@ -194,7 +194,7 @@
 - type: entity
   parent: BaseMagazineGrenade
   id: MagazineAK570_90mmHE
-  name: AK-90 90mm HE shell magazine
+  name: магазин фугасных снарядов AK-90 90мм
   description: A 20-round magazine of 90mm HE shells for the AK570 cannon system.
   components:
   - type: Tag
@@ -239,7 +239,7 @@
   abstract: true
   parent: [BaseItem, BaseMajorContraband]
   id: BaseLeviathan240mmShell
-  name: base 240mm Leviathan shell
+  name: базовый снаряд «Левиафан» 240мм
   components:
   - type: Tag
     tags:
@@ -251,7 +251,7 @@
 - type: entity
   parent: BaseLeviathan240mmShell
   id: CartridgeLeviathan240mmHE
-  name: LVT-240 240mm HE artillery shell
+  name: фугасный артснаряд LVT-240 240мм
   description: >-
     A massive 240mm high-explosive artillery shell for the Leviathan siege cannon.
     The sheer concussive force of detonation can level structures and devastate entire sections of a ship.

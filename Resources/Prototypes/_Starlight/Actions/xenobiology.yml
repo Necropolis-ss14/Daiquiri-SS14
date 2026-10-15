@@ -1,6 +1,6 @@
 - type: entity
   id: XenobiologyConsoleActionAnalyzeSlime
-  name: Analyze Slime
+  name: Проанализировать слайма
   description: Get the info of a slime right under the camera's eye.
   components:
     - type: Action
@@ -16,7 +16,7 @@
 
 - type: entity
   id: XenobiologyConsoleActionGrabSlime
-  name: Grab Slime
+  name: Схватить слайма
   description: Grab a slime from right under the camera's eye.
   components:
     - type: Action
@@ -32,7 +32,7 @@
 
 - type: entity
   id: XenobiologyConsoleActionPlaceSlime
-  name: Place Slime
+  name: Поместить слайма
   description: Place down a slime from the console's inventory.
   components:
     - type: Action
@@ -48,7 +48,7 @@
 
 - type: entity
   id: XenobiologyConsoleActionPlaceMonkey
-  name: Place Monkey
+  name: Поместить обезьяну
   description: Place down a monkey, so long as you have the cubes.
   components:
     - type: Action
@@ -64,7 +64,7 @@
 
 - type: entity
   id: XenobiologyConsoleActionRecycleMonkey
-  name: Recycle Monkey
+  name: Переработать обезьяну
   description: Recover a dead monkey for half a monkey cube.
   components:
     - type: Action
@@ -80,7 +80,7 @@
 
 - type: entity
   id: XenobiologyConsoleActionApplyMutationPotion
-  name: Apply Mutation Potion
+  name: Применить мутационное зелье
   description: Increase a slime's mutation chance using a stored mutation potion.
   components:
     - type: Action
@@ -96,7 +96,7 @@
 
 - type: entity
   id: XenobiologyConsoleActionApplyStabilizerPotion
-  name: Apply Stabilizer Potion
+  name: Применить стабилизирующее зелье
   description: Decrease a slime's mutation chance using a stored stabilizer potion.
   components:
     - type: Action

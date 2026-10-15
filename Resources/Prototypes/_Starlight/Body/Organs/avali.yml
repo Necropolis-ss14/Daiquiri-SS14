@@ -1,9 +1,9 @@
 - type: entity
   id: OrganAvaliStomach
   parent: OrganAnimalStomach
-  name: ent-OrganAvaliStomach
+  name: желудок авали
   suffix: Avali
-  description: ent-OrganAvaliStomach-desc
+  description: При ближайшем рассмотрении вообще-то состоит из двух желудков.
   components:
   - type: Stomach
     specialDigestible:
@@ -27,9 +27,9 @@
 - type: entity
   id: OrganAvaliHeart
   parent: OrganHumanHeart
-  name: ent-OrganAvaliHeart
+  name: сердце авали
   suffix: Avali
-  description: ent-OrganAvaliHeart-desc
+  description: Сердце авали.
   components:
   - type: Metabolizer
     maxReagents: 2
@@ -42,9 +42,9 @@
 - type: entity
   id: OrganAvaliLiver
   parent: OrganHumanLiver
-  name: ent-OrganAvaliLiver
+  name: печень авали
   suffix: Avali
-  description: ent-OrganAvaliLiver-desc
+  description: Печень авали.
   components:
   - type: Metabolizer # The liver metabolizes certain chemicals only, like alcohol.
     maxReagents: 1
@@ -57,9 +57,9 @@
 - type: entity
   id: OrganAvaliKidneys
   parent: OrganHumanKidneys
-  name: ent-OrganAvaliKidneys
+  name: почки авали
   suffix: Avali
-  description: ent-OrganAvaliKidneys-desc
+  description: Почки авали.
   components:
   - type: Sprite
     sprite: _Starlight/Mobs/Species/Avali/organs.rsi
@@ -70,9 +70,9 @@
 - type: entity
   id: OrganAvaliLungs
   parent: OrganHumanLungs
-  name: ent-OrganAvaliLungs
+  name: лёгкие авали
   suffix: Avali
-  description: ent-OrganAvaliLungs-desc
+  description: Лёгкие авали.
   components:
   - type: Metabolizer
     metabolizerTypes: [ Resomi, Human ] #They get both so they can still breathe oxygen without us needing to add Resomi everywhere Human is listed
@@ -86,9 +86,9 @@
 - type: entity
   id: OrganAvaliEyes
   parent: OrganHumanEyes
-  name: ent-OrganAvaliEyes
+  name: глаза авали
   suffix: Avali
-  description: ent-OrganAvaliEyes-desc
+  description: Глаза авали.
   components:
   - type: OrganVisualization
     layer: Eyes
@@ -98,9 +98,9 @@
 - type: entity
   id: OrganAvaliBrain
   parent: OrganHumanBrain
-  name: ent-OrganAvaliBrain
+  name: мозг авали
   suffix: Avali
-  description: ent-OrganAvaliBrain-desc
+  description: Здесь авали вынашивают злобные мысли.
   components:
   - type: Sprite
     sprite: _Starlight/Mobs/Species/Avali/organs.rsi

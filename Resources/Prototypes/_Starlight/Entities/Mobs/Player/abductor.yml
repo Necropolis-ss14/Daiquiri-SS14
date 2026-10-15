@@ -13,7 +13,7 @@
       - NotLabelable
 
 - type: entity
-  name: abductor scientist
+  name: учёный похитителей
   parent: MobAbductor
   id: MobAbductorScientist
   components:
@@ -87,7 +87,7 @@
   - Wonderprod
 
 - type: entity
-  name: abductor agent spawner
+  name: спавнер агента похитителей
   id: SpawnPointAbductorAgent
   parent: MarkerBase
   components:

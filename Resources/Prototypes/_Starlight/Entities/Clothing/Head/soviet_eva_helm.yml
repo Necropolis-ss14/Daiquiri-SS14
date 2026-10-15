@@ -2,7 +2,7 @@
 - type: entity
   parent: [ ClothingHeadEVAHelmetBase, BaseSovietContraband ]
   id: ClothingHeadHelmetSovietEVA
-  name: soviet EVA helmet
+  name: советский ВКД-шлем
   description: A sturdy EVA helmet with a red star emblazoned on the front. Glory to the workers of space!
   components:
   - type: Sprite

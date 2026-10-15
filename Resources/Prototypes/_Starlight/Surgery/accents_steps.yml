@@ -1,7 +1,7 @@
 ﻿- type: entity
   parent: SurgeryStepBase
   id: SurgeryStepExposeVocalCords
-  name: Expose Vocal Cords
+  name: Обнажить голосовые связки
   components:
   - type: SurgeryStep
     duration: 3
@@ -14,7 +14,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepAdjustVocalCords
-  name: Adjust Vocal Cords
+  name: Настроить голосовые связки
   components:
   - type: SurgeryStep
     duration: 4
@@ -30,7 +30,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepSutureIncision
-  name: Suture Incision
+  name: Зашить разрез
   components:
   - type: SurgeryStep
     duration: 3

@@ -74,8 +74,8 @@
   Вещи, которые вы можете пожелать, включают, но не ограничиваются:
 
   <Box>
-   <GuideEntityEmbed Entity="ToyFigurineGreytider" Caption="фигурки"/>
-   <GuideEntityEmbed Entity="PassengerIDCard" Caption="ID карты"/>
+   <GuideEntityEmbed Entity="ToyFigurineAssistant" Caption="фигурки"/>
+   <GuideEntityEmbed Entity="AssistantIDCard" Caption="ID карты"/>
    <GuideEntityEmbed Entity="ChemDispenser" Caption="структуры"/>
    <GuideEntityEmbed Entity="MobCorgiIan" Caption="животные/питомцы"/>
   </Box>

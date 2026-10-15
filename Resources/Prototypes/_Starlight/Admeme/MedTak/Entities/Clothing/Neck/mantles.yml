@@ -1,8 +1,8 @@
 - type: entity
   parent: [ ClothingNeckBase, BaseMedTakContraband ]
   id: ClothingNeckMantleMedTakLead
-  name: MedTak team leader mantle
-  description: A mantle indicating the leader of a MedTak team.
+  name: мантия лидера команды MedTak
+  description: Мантия лидера команды MedTak.
   components:
     - type: Sprite
       sprite: _Starlight/Admeme/MedTak/Clothing/Neck/Mantles/leader-medtak.rsi
@@ -12,8 +12,8 @@
 - type: entity
   parent: [ ClothingNeckBase, BaseMedTakContraband ]
   id: ClothingNeckMantleMedTakLeadFormal
-  name: MedTak formal mantle
-  description: A formal mantle and cape given to decorated MedTak team leaders.
+  name: парадная мантия MedTak
+  description: Парадная мантия с плащом для награждённых лидеров команд MedTak.
   components:
     - type: Sprite
       sprite: _Starlight/Admeme/MedTak/Clothing/Neck/Mantles/formal-medtak.rsi

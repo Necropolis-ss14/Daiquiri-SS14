@@ -1,7 +1,7 @@
 - type: entity
   id: CigPackSoviet
   parent: CigPackBase
-  name: Gerat's sandworm packet
+  name: пачка песчаного червя Герата
   description: For when a sandworm has managed to eat your nuclear MRV supply.
   components:
   - type: Sprite
@@ -12,7 +12,7 @@
 - type: entity
   id: CigPackRollie
   parent: PackPaperRolling
-  name: rollie packet
+  name: пачка самокруток
   description: An old rolling paper packet full of things to make rollies with.
   components:
   - type: EntityTableContainerFill
@@ -31,7 +31,7 @@
 - type: entity
   id: CigPackMedRollie
   parent: PackPaperRolling
-  name: medicinal blunt packet
+  name: пачка лечебных блантов
   description: An old rolling paper packet full of things to make blunts with. Its purely medicinal man..
   components:
   - type: EntityTableContainerFill
@@ -48,7 +48,7 @@
 - type: entity
   id: CigPackBub
   parent: PackPaperRolling
-  name: greyman's specials pack
+  name: пачка особых Греймена
   description: An old rolling paper packet full of Greyman's special cigarettes. You feel more surgically inclined while smoking them.
   components:
   - type: EntityTableContainerFill

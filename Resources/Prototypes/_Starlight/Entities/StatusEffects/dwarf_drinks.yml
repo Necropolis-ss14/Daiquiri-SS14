@@ -5,7 +5,7 @@
 - type: entity
   parent: MobStatusEffectBase
   id: MobThresholdsTheHighlander
-  name: uncrittable
+  name: некритующий
   components:
   - type: StatusEffect
     whitelist:
@@ -31,7 +31,7 @@
 - type: entity
   parent: MobStatusEffectBase
   id: MobThresholdsDeathInTheAfternoon
-  name: resilience to death
+  name: стойкость к смерти
   components:
   - type: StatusEffect
     whitelist:
@@ -74,7 +74,7 @@
 - type: entity
   parent: BonusArmorDwarfGeneric
   id: BonusArmorWhiskey
-  name: 10% resistance to Blunt damage
+  name: сопротивление тупому урону 10%
   components:
   - type: BonusArmorStatusEffect
     ignoreKnockdown: false
@@ -96,7 +96,7 @@
 - type: entity
   parent: BonusArmorDwarfGeneric
   id: BonusArmorIrishBool
-  name: 90% resistance to Stamina damage
+  name: сопротивление урону выносливости 90%
   components:
   - type: BonusArmorStatusEffect
     ignoreKnockdown: false
@@ -115,7 +115,7 @@
 - type: entity
   parent: BonusArmorDwarfGeneric
   id: BonusArmorAbsinthe
-  name: 10% resistance to Piercing damage
+  name: сопротивление колющему урону 10%
   components:
   - type: BonusArmorStatusEffect
     modifiers:
@@ -128,7 +128,7 @@
 - type: entity
   parent: BonusArmorDwarfGeneric
   id: BonusArmorCognac
-  name: 10% resistance to Cold damage
+  name: сопротивление холоду 10%
   components:
   - type: BonusArmorStatusEffect
     modifiers:
@@ -141,7 +141,7 @@
 - type: entity
   parent: BonusArmorDwarfGeneric
   id: BonusArmorAntifreeze
-  name: 50% resistance to Cold damage
+  name: сопротивление холоду 50%
   components:
   - type: BonusArmorStatusEffect
     modifiers:
@@ -154,7 +154,7 @@
 - type: entity
   parent: BonusArmorDwarfGeneric
   id: BonusArmorGin
-  name: 10% resistance to Caustic damage
+  name: сопротивление едкому урону 10%
   components:
   - type: BonusArmorStatusEffect
     modifiers:
@@ -167,7 +167,7 @@
 - type: entity
   parent: BonusArmorDwarfGeneric
   id: BonusArmorRum
-  name: 10% resistance to Slash damage
+  name: сопротивление рубящему урону 10%
   components:
   - type: BonusArmorStatusEffect
     modifiers:
@@ -180,7 +180,7 @@
 - type: entity
   parent: BonusArmorDwarfGeneric
   id: BonusArmorTequila
-  name: 10% resistance to Heat damage
+  name: сопротивление жару 10%
   components:
   - type: BonusArmorStatusEffect
     modifiers:
@@ -193,7 +193,7 @@
 - type: entity
   parent: BonusArmorDwarfGeneric
   id: BonusArmorVermouth
-  name: 10% resistance to Shock damage
+  name: сопротивление электроурону 10%
   components:
   - type: BonusArmorStatusEffect
     modifiers:
@@ -206,7 +206,7 @@
 - type: entity
   parent: BonusArmorDwarfGeneric
   id: BonusArmorAndalusia
-  name: 10% resistance to Shock and Piercing damage, +5% vulnerability to Slash and Heat damage
+  name: сопротивление электро и колющему 10%, уязвимость к рубящему и жару +5%
   components:
   - type: BonusArmorStatusEffect
     modifiers:
@@ -222,7 +222,7 @@
 - type: entity
   parent: BonusArmorDwarfGeneric
   id: BonusArmorB52
-  name: 25% resistance to explosions
+  name: сопротивление взрывам 25%
   components:
   - type: BonusArmorStatusEffect
     modifiers:
@@ -236,7 +236,7 @@
 - type: entity
   parent: BonusArmorDwarfGeneric
   id: BonusArmorDriestMartini
-  name: 15% resistance to Brute damage
+  name: сопротивление грубому урону 15%
   components:
   - type: BonusArmorStatusEffect
     modifiers:
@@ -251,7 +251,7 @@
 - type: entity
   parent: BonusArmorDwarfGeneric
   id: BonusArmorPainkiller
-  name: immunity to Bloodloss
+  name: иммунитет к кровопотере
   components:
   - type: BonusArmorStatusEffect
     modifiers:
@@ -264,7 +264,7 @@
 - type: entity
   parent: BonusArmorDwarfGeneric
   id: BonusArmorErikaSurprise
-  name: 15% resistance to all Burn damage
+  name: сопротивление всему урону от ожогов 15%
   components:
   - type: BonusArmorStatusEffect
     modifiers:
@@ -279,7 +279,7 @@
 - type: entity
   parent: BonusArmorDwarfGeneric
   id: BonusArmorGargleBlaster
-  name: 10% resistance to Brute damage
+  name: сопротивление грубому урону 10%
   components:
   - type: BonusArmorStatusEffect
     modifiers:
@@ -294,7 +294,7 @@
 - type: entity
   parent: BonusArmorDwarfGeneric
   id: BonusArmorGrog
-  name: 10% resistance to Slash and Heat damage, +5% vulnerability to Blunt and Cold damage
+  name: сопротивление рубящему и жару 10%, уязвимость к тупому и холоду +5%
   components:
   - type: BonusArmorStatusEffect
     modifiers:
@@ -310,7 +310,7 @@
 - type: entity
   parent: BonusArmorDwarfGeneric
   id: BonusArmorMoscowMule
-  name: 10% resistance to Poison and Radiation damage
+  name: сопротивление яду и радиации 10%
   components:
   - type: BonusArmorStatusEffect
     modifiers:
@@ -324,7 +324,7 @@
 - type: entity
   parent: BonusArmorDwarfGeneric
   id: BonusArmorDaiquiri
-  name: 10% resistance to Blunt and Cold damage, +5% vulnerability to Piercing and Shock damage
+  name: сопротивление тупому и холоду 10%, уязвимость к колющему и электро +5%
   components:
   - type: BonusArmorStatusEffect
     modifiers:
@@ -359,7 +359,7 @@
 - type: entity
   parent: BonusScalarDwarfGeneric
   id: BonusScalarIrishCream
-  name: 25% increased attack rate when unarmed
+  name: скорость атаки без оружия +25%
   components:
   - type: BonusScalarStatusEffect
     # reference example of all possible effects for BonusScalarStatusEffect:
@@ -376,7 +376,7 @@
 - type: entity
   parent: BonusScalarDwarfGeneric # not actually a BonusScalarStatusEffect, but whatever -- we're using the same icon anyway
   id: BonusDamageBraveBull
-  name: added Structural damage to unarmed attacks
+  name: структурный урон в атаках без оружия
   components:
   - type: BonusDamageStatusEffect
     # reference example of all possible effects for BonusDamageStatusEffect:
@@ -395,7 +395,7 @@
 - type: entity
   parent: BonusScalarDwarfGeneric
   id: BonusScalarBronx
-  name: 50% increased unarmed damage
+  name: урон без оружия +50%
   components:
   - type: BonusScalarStatusEffect
     coefficients:
@@ -407,7 +407,7 @@
 - type: entity
   parent: BonusScalarDwarfGeneric
   id: BonusScalarXenoBasher
-  name: 10% increased attack speed with melee weapons
+  name: скорость атаки ближним оружием +10%
   components:
   - type: BonusScalarStatusEffect
     coefficients:
@@ -419,7 +419,7 @@
 - type: entity
   parent: BonusScalarDwarfGeneric
   id: BonusScalarIrishCarBomb
-  name: 20% increased damage with melee weapons
+  name: урон ближним оружием +20%
   components:
   - type: BonusScalarStatusEffect
     coefficients:
@@ -431,7 +431,7 @@
 - type: entity
   parent: BonusScalarDwarfGeneric
   id: BonusScalarSyndicateBomb
-  name: 25% reduced interaction time
+  name: время взаимодействия -25%
   components:
   - type: BonusScalarStatusEffect
     coefficients:

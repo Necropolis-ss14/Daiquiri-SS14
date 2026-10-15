@@ -1,7 +1,7 @@
 - type: entity
   parent: CardboardBoxLargeSecurity
   id: CardboardBoxLargeSecuritySupplies
-  name: security supplies box
+  name: коробка охранного снаряжения
   suffix: Security
   components:
   - type: EntityTableContainerFill
@@ -20,7 +20,7 @@
 - type: entity
   parent: CardboardBoxLargeMedical
   id: CardboardBoxLargeMedicalTopicals
-  name: medical topicals box
+  name: коробка медицинских мазей
   suffix: Topicals
   components:
   - type: EntityTableContainerFill
@@ -39,7 +39,7 @@
 - type: entity
   parent: CardboardBoxLargeChemistry
   id: CardboardBoxLargeChemistryJugsExtra
-  name: chemistry jug box
+  name: коробка химических канистр
   suffix: Jugs+
   components:
   - type: EntityTableContainerFill
@@ -55,7 +55,7 @@
 - type: entity
   parent: CardboardBoxLargeChemistry
   id: CardboardBoxLargeChemistryJugs
-  name: chemistry jug box
+  name: коробка химических канистр
   suffix: Jugs
   components:
   - type: EntityTableContainerFill
@@ -68,7 +68,7 @@
 - type: entity
   parent: CardboardBoxLargeService
   id: CardboardBoxLargeServiceGlasses
-  name: drink glasses box
+  name: коробка стаканов
   suffix: Drink Glasses
   components:
   - type: EntityTableContainerFill
@@ -85,7 +85,7 @@
 - type: entity
   parent: CardboardBoxLargeService
   id: CardboardBoxLargeServiceDinnerware
-  name: kitchen supplies box
+  name: коробка кухонной посуды
   suffix: Dinnerware
   components:
   - type: EntityTableContainerFill
@@ -108,7 +108,7 @@
 - type: entity
   parent: CardboardBoxLargeCommand
   id: CardboardBoxLargeCommandHopRoundstart
-  name: hop supplies box
+  name: коробка припасов ГП
   suffix: HOP
   components:
   - type: EntityTableContainerFill
@@ -127,7 +127,7 @@
 - type: entity
   parent: CardboardBoxLargeSecurity
   id: CardboardBoxLargeSecurityBrigmed
-  name: brigmedical supplies box
+  name: коробка припасов бригмедика
   suffix: Brigmed Basic
   components:
   - type: EntityTableContainerFill
@@ -148,7 +148,7 @@
 - type: entity
   parent: CardboardBoxLargeSecurity
   id: CardboardBoxLargeSecurityTopicals
-  name: advanced topicals box
+  name: коробка улучшенных мазей
   suffix: Brigmed Topicals
   components:
   - type: EntityTableContainerFill
@@ -166,7 +166,7 @@
 - type: entity
   parent: CardboardBoxLargeEngi
   id: CardboardBoxLargeEngiTools
-  name: engineering tools box
+  name: коробка инженерных инструментов
   suffix: Engi Tools
   components:
   - type: EntityTableContainerFill
@@ -187,7 +187,7 @@
 - type: entity
   parent: CardboardBoxLargeEngi
   id: CardboardBoxLargeEngiGasGrenades
-  name: atmos gas grenades box
+  name: коробка атмосферных газовых гранат
   suffix: Atmos Gas Grenades
   components:
   - type: EntityTableContainerFill
@@ -204,7 +204,7 @@
 - type: entity
   parent: CardboardBoxLargeEngi
   id: CardboardBoxLargeAtmosLocker
-  name: atmos equipment box
+  name: коробка атмосферного снаряжения
   suffix: Atmos Equipment
   components:
   - type: EntityTableContainerFill
@@ -222,7 +222,7 @@
 - type: entity
   parent: CardboardBoxLargeEngi
   id: CardboardBoxLargeEngiLocker
-  name: engie equipment box
+  name: коробка инженерного снаряжения
   suffix: Engie  Equipment
   components:
   - type: EntityTableContainerFill

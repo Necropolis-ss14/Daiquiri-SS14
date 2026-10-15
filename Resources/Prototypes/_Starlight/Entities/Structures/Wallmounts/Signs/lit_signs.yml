@@ -1,7 +1,7 @@
 - type: entity
   id: BarSignLights
   parent: [ BaseWallmountGlass, BaseWallmountMachine, Poweredlight ]
-  name: bar sign
+  name: табличка бара
   suffix: On
   components:
   - type: AmbientSound #SL
@@ -72,7 +72,7 @@
 - type: entity
   id: ClinicSignLights
   parent: [ BarSignLights ]
-  name: clinic sign
+  name: табличка клиники
   suffix: On
   components:
   - type: Sprite
@@ -98,7 +98,7 @@
 - type: entity
   id: OnAirSignLights
   parent: [ BarSignLights ]
-  name: on air sign
+  name: табличка «Эфир»
   suffix: On
   components:
   - type: Sprite
@@ -124,7 +124,7 @@
 - type: entity
   id: OpenSignLights
   parent: [ BarSignLights ]
-  name: open sign
+  name: табличка «Открыто»
   suffix: On
   components:
   - type: Sprite
@@ -150,7 +150,7 @@
 - type: entity
   id: OpenBarSignLights
   parent: [ BarSignLights ]
-  name: open bar sign
+  name: светящаяся табличка открытого бара
   suffix: On
   components:
   - type: Sprite

@@ -2,7 +2,7 @@
 - type: entity
   parent: BaseBlueprint
   id: BlueprintBasicAmmo
-  name: basic ammo
+  name: базовые боеприпасы
   description: A blueprint containing the schematics to basic ammo and magazines for weapons commonly used by the salvage team.
   components:
     - type: Blueprint
@@ -21,7 +21,7 @@
 - type: entity
   parent: BaseBlueprint
   id: BlueprintBasicMedical
-  name: basic medical supplies
+  name: базовые медикаменты
   description: A blueprint containing the schematics to basic medical supplies for use by the salvage team.
   components:
     - type: Blueprint

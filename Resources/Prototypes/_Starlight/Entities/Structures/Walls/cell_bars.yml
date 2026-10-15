@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: BaseStructure
   id: BaseCellBars
-  name: ent-BaseCellBars
-  description: ent-BaseCellBars-desc
+  name: решётка камеры
+  description: Прочный набор металлических прутьев.
   abstract: true
   components:
   - type: Sprite
@@ -47,8 +47,8 @@
 - type: entity
   parent: BaseCellBars
   id: CellBarsBroken
-  name: ent-CellBarsBroken
-  description: ent-CellBarsBroken-desc
+  name: сломанная решётка камеры
+  description: Кто-то сильно разозлился на неодушевлённый предмет.
   components:
   - type: Sprite
     layers:
@@ -200,8 +200,8 @@
 - type: entity
   parent: BaseCellBars
   id: CellBarsGate
-  name: ent-CellBarsGate
-  description: ent-CellBarsGate-desc
+  name: дверь из камерной решётки
+  description: Можно было бы воспользоваться дверью, если бы только.
   components:
   - type: Sprite
     layers:

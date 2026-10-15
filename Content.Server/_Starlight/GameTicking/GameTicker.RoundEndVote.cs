@@ -35,7 +35,7 @@ public sealed partial class RoundEndVoteSystem : EntitySystem
             return;
         }
 
-        // Daiquiri: votes start right away and run a minute.
+        // Daiquiri
         _voteStartTime = _gameTiming.CurTime;
         Log.Warning($"Vote will start at {_voteStartTime}");
 
@@ -62,7 +62,7 @@ public sealed partial class RoundEndVoteSystem : EntitySystem
         if (_gameTicker.RunLevel != GameRunLevel.PreRoundLobby)
             return;
 
-        // Daiquiri: auto-votes run a minute; manual votes keep their own durations.
+        // Daiquiri
         var presetDur = _cfg.GetCVar(CCVars.VoteTimerPreset);
         var mapDur = _cfg.GetCVar(CCVars.VoteTimerMap);
         _cfg.SetCVar(CCVars.VoteTimerPreset, 60);

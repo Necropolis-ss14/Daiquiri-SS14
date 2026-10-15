@@ -1,7 +1,7 @@
 - type: entity
   parent: BaseAGhostAction
   id: ActionToggleAGhostHide
-  name: Toggle visibility for others
+  name: Переключить видимость для других
   description: Hides your ghost from all other non-admin ghosts.
   components:
     - type: Action

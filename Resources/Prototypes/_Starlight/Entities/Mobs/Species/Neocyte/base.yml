@@ -1,7 +1,7 @@
 - type: entity
   parent: [BaseMobSpeciesOrganic, BaseSpeciesPickupableLarge]
   id: BaseMobNeocyte
-  name: Urist McToaster
+  name: Урист МакТостер
   abstract: true
   components:
   - type: Neocyte

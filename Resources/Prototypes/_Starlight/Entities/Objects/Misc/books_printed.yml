@@ -1,8 +1,8 @@
 - type: entity
   parent: BookBase
   id: BookPrintedArchive
-  name: ent-BookPrinted
-  description: ent-BookPrinted-desc
+  name: распечатанная книга
+  description: Книга, распечатанная из КПК.
   components:
   - type: Sprite
     sprite: Objects/Misc/books.rsi
@@ -22,8 +22,8 @@
 - type: entity
   parent: BookBase
   id: BookPrintedScarlet
-  name: ent-BookPrinted
-  description: ent-BookPrinted-desc
+  name: распечатанная книга
+  description: Книга, распечатанная из КПК.
   components:
   - type: Sprite
     sprite: Objects/Misc/books.rsi
@@ -43,8 +43,8 @@
 - type: entity
   parent: BookBase
   id: BookPrintedHerbal
-  name: ent-BookPrinted
-  description: ent-BookPrinted-desc
+  name: распечатанная книга
+  description: Книга, распечатанная из КПК.
   components:
   - type: Sprite
     sprite: Objects/Misc/books.rsi
@@ -64,8 +64,8 @@
 - type: entity
   parent: BookBase
   id: BookPrintedGrimoire
-  name: ent-BookPrinted
-  description: ent-BookPrinted-desc
+  name: распечатанная книга
+  description: Книга, распечатанная из КПК.
   components:
   - type: Sprite
     sprite: Objects/Misc/books.rsi
@@ -85,8 +85,8 @@
 - type: entity
   parent: BookBase
   id: BookPrintedCodex
-  name: ent-BookPrinted
-  description: ent-BookPrinted-desc
+  name: распечатанная книга
+  description: Книга, распечатанная из КПК.
   components:
   - type: Sprite
     sprite: Objects/Misc/books.rsi
@@ -106,8 +106,8 @@
 - type: entity
   parent: BookBase
   id: BookPrintedFolio
-  name: ent-BookPrinted
-  description: ent-BookPrinted-desc
+  name: распечатанная книга
+  description: Книга, распечатанная из КПК.
   components:
   - type: Sprite
     sprite: Objects/Misc/books.rsi
@@ -127,8 +127,8 @@
 - type: entity
   parent: BookBase
   id: BookPrintedBestiary
-  name: ent-BookPrinted
-  description: ent-BookPrinted-desc
+  name: распечатанная книга
+  description: Книга, распечатанная из КПК.
   components:
   - type: Sprite
     sprite: Objects/Misc/books.rsi
@@ -148,8 +148,8 @@
 - type: entity
   parent: BookBase
   id: BookPrintedAtlas
-  name: ent-BookPrinted
-  description: ent-BookPrinted-desc
+  name: распечатанная книга
+  description: Книга, распечатанная из КПК.
   components:
   - type: Sprite
     sprite: Objects/Misc/books.rsi
@@ -169,8 +169,8 @@
 - type: entity
   parent: BookBase
   id: BookPrintedChronicle
-  name: ent-BookPrinted
-  description: ent-BookPrinted-desc
+  name: распечатанная книга
+  description: Книга, распечатанная из КПК.
   components:
   - type: Sprite
     sprite: Objects/Misc/books.rsi
@@ -190,8 +190,8 @@
 - type: entity
   parent: BookBase
   id: BookPrintedSongs
-  name: ent-BookPrinted
-  description: ent-BookPrinted-desc
+  name: распечатанная книга
+  description: Книга, распечатанная из КПК.
   components:
   - type: Sprite
     sprite: Objects/Misc/books.rsi
@@ -211,8 +211,8 @@
 - type: entity
   parent: BookBase
   id: BookPrintedNecro
-  name: ent-BookPrinted
-  description: ent-BookPrinted-desc
+  name: распечатанная книга
+  description: Книга, распечатанная из КПК.
   components:
   - type: Sprite
     sprite: Objects/Misc/books.rsi
@@ -232,8 +232,8 @@
 - type: entity
   parent: BookBase
   id: BookPrintedAlmanac
-  name: ent-BookPrinted
-  description: ent-BookPrinted-desc
+  name: распечатанная книга
+  description: Книга, распечатанная из КПК.
   components:
   - type: Sprite
     sprite: Objects/Misc/books.rsi

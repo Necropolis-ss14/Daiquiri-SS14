@@ -1,7 +1,7 @@
 - type: entity
   id: TableAbductor
   parent: TableBase
-  name: alien table
+  name: инопланетный стол
   description: Literally the sturdiest thing you have ever seen.
   components:
   - type: Sprite
@@ -15,7 +15,7 @@
 - type: entity
   id: TableCounterRetroSteel
   parent: CounterBase
-  name: retro steel counter
+  name: ретро-прилавок стальной
   description: Looks like a good place to put a drink down.
   components:
   - type: Sprite
@@ -59,7 +59,7 @@
 - type: entity
   id: TableCounterRetroWood
   parent: CounterBase
-  name: retro wood counter
+  name: ретро-прилавок деревянный
   description: Looks like a good place to put a drink down.
   components:
   - type: Sprite
@@ -104,7 +104,7 @@
 - type: entity
   id: TableCounterRetroKitchen
   parent: CounterBase
-  name: retro kitchen counter
+  name: ретро-прилавок кухонный
   description: Looks like a good place to put a drink down.
   components:
   - type: Sprite
@@ -148,7 +148,7 @@
 - type: entity
   id: TableCounterRetroSteelWood
   parent: CounterBase
-  name: retro steel and wood counter
+  name: ретро-прилавок из стали и дерева
   description: Looks like a good place to put a drink down.
   components:
   - type: Sprite
@@ -192,7 +192,7 @@
 - type: entity
   id: TableCounterRetroWhiteOrange
   parent: CounterBase
-  name: retro white and orange counter
+  name: ретро-прилавок бело-оранжевый
   description: Looks like a good place to put a drink down.
   components:
   - type: Sprite
@@ -236,7 +236,7 @@
 - type: entity
   id: TableCounterRetroWhiteTeal
   parent: CounterBase
-  name: retro white and teal counter
+  name: ретро-прилавок бело-бирюзовый
   description: Looks like a good place to put a drink down.
   components:
   - type: Sprite
@@ -280,7 +280,7 @@
 - type: entity
   id: TableCounterRetroDiner
   parent: CounterBase
-  name: retro diner counter
+  name: ретро-прилавок закусочной
   description: Looks like a good place to put a drink down.
   components:
   - type: Sprite

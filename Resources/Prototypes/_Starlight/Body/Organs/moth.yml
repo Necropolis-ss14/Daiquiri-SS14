@@ -1,7 +1,7 @@
 - type: entity
   id: OrganMothEyes
   parent: OrganHumanEyes
-  name: moth eyes
+  name: "{ ent-OrganBaseEyes }"
   suffix: Moth
   description: "Large compound eyes used to catch light."
   components:
@@ -13,7 +13,7 @@
 - type: entity
   id: OrganMothStomach
   parent: [OrganAnimalStomach, OrganHumanStomach]
-  name: moth stomach
+  name: "{ ent-OrganBaseStomach }"
   description: "A stomach specialized for digesting normally inedible cloth."
   suffix: Moth
   components:

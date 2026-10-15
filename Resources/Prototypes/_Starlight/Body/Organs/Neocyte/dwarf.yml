@@ -1,9 +1,9 @@
 - type: entity
   id: OrganNeoDwarfHeart
   parent: OrganNeocyteHeart
-  name: ent-OrganNeoDwarfHeart
+  name: кибернетическое сердце дворфа
   suffix: Neo-Dwarf
-  description: ent-OrganNeoDwarfHeart-desc
+  description: На самом деле ему не нужно биться, оно лишь имитирует движение для комфорта пользователя.
   components:
   - type: Metabolizer
     metabolizerTypes: [Dwarf, Neocyte]
@@ -11,9 +11,9 @@
 - type: entity
   id: OrganNeoDwarfLiver
   parent: OrganNeocyteLiver
-  name: ent-OrganNeoDwarfLiver
+  name: кибернетическая печень дворфа
   suffix: Neo-Dwarf
-  description: ent-OrganNeoDwarfLiver-desc
+  description: "Рекомендуемое сочетание: гарнир из ферментированных планок ОЗУ и хороший ЦП."
   components:
   - type: Metabolizer
     metabolizerTypes: [Dwarf]
@@ -21,9 +21,9 @@
 - type: entity
   id: OrganNeoDwarfStomach
   parent: OrganNeocyteStomach
-  name: ent-OrganNeoDwarfStomach
+  name: биологический реактор дворфа
   suffix: Neo-Dwarf
-  description: ent-OrganNeoDwarfStomach-desc
+  description: Кто-то сочтёт это избыточной инженерией, но он жизненно важен для функционирования неоцита. Превращает органику в органическую и электрическую энергию для питания кибернетики и плоти неоцита.
   components:
   - type: Sprite
     sprite: _FarHorizons/Mobs/Species/Protogen/organs.rsi

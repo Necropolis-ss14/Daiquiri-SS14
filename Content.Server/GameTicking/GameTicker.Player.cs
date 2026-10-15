@@ -65,7 +65,7 @@ namespace Content.Server.GameTicking
                         ? Loc.GetString("player-first-join-message", ("name", args.Session.Name))
                         : Loc.GetString("player-join-message", ("name", args.Session.Name)));
 
-                    // Daiquiri: show the newcomer glass prompt on first join.
+                    // Daiquiri
                     if (firstConnection)
                         EntityManager.System<GlassPromptServerSystem>().ShowPromptTo(args.Session);
 

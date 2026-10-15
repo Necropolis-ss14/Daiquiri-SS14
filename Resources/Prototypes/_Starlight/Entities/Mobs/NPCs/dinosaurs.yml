@@ -85,7 +85,7 @@
 - type: entity
   parent: BaseMobDinosaur
   id: BaseMobDinosaurCarno
-  name: carnivorous dinosaur
+  name: плотоядный динозавр
   description: A carnivorous dino
   abstract: true
   components:
@@ -96,7 +96,7 @@
 - type: entity
   parent: BaseMobDinosaur
   id: BaseMobDinosaurHerb
-  name: herbivore dinosaur
+  name: травоядный динозавр
   description: A vegetarian, but don't let that fool you. They're still out for blood
   abstract: true
   components:

@@ -2,7 +2,7 @@
   parent: BaseSMES
   id: SMESBlue
   suffix: Hyper Advanced, 64MJ
-  name: hyper advanced SMES
+  name: гиперпродвинутый СМЭС
   description: An even-higher-capacity superconducting magnetic energy storage (SMES) unit.
   components:
   - type: Sprite

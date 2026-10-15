@@ -1,8 +1,8 @@
 - type: entity
-  name: paladin shield
+  name: щит паладина
   parent: [ BaseItem, BaseMajorContraband ] # Easier to remake it than inheret it, due to wiz keeping all shields in one folder and mine doing the opposite, due to the suitslot sprites.
   id: PaladinShield
-  description: A shield for a true paladin! Good at deflecting hits with swords and absorbing the impact from bats, but not much else.
+  description: Щит истинного паладина! Отводит мечи и гасит биты, а больше почти ничего.
   components:
     - type: Sprite
       sprite: _Starlight/Objects/Weapons/Melee/paladin_shield.rsi
@@ -84,10 +84,10 @@
       level: Metal
 
 - type: entity
-  name: paladin greatshield
+  name: паладиновый грэтшилд
   parent: [ PaladinShield, BaseMajorContraband ]
   id: PaladinShieldGreat
-  description: You're up against the wall and I! AM! THE! FUCKING! WALL!
+  description: Ты упёрся в стену, а я! ЕСТЬ! СТЕНА!
   components:
     - type: Sprite
       sprite: _Starlight/Objects/Weapons/Melee/paladin_greatshield.rsi
@@ -150,10 +150,10 @@
                   max: 3
 
 - type: entity
-  name: forged buckler shield
+  name: кованый щит-баклер
   parent: [ PaladinShield, BaseMinorContraband ]
   id: ForgedShieldBuckler
-  description: Made from the best plasteel the tidersmiths could offer. Decent all-arounder, however being made out of solid metal makes it get hot real fast.
+  description: Из лучшей пластали от кузнецов-тайдеров. Сбалансированный, но цельнометаллический быстро греется.
   components:
     - type: Sprite
       sprite: _Starlight/Objects/Weapons/Melee/forged_buckler_shield.rsi
@@ -208,10 +208,10 @@
                   max: 4
 
 - type: entity
-  name: forged tower shield
+  name: кованый башенный щит
   parent: [ ForgedShieldBuckler, BaseMinorContraband ]
   id: ForgedShieldTower
-  description: Tall and menacing. A bit on the heavy side, however.
+  description: Высокий и грозный. Правда, тяжеловат.
   components:
     - type: Sprite
       sprite: _Starlight/Objects/Weapons/Melee/forged_tower_shield.rsi
@@ -261,10 +261,10 @@
                   max: 2
 
 - type: entity
-  name: improvised shield
+  name: самодельный щит
   parent: [ PaladinShield, BaseMinorContraband ]
   id: ImprovisedShield
-  description: Steel welded together in a interlocking pattern to hold up better to various kinds of blows. Don't expect it to do well in a gunfight, however.
+  description: Сталь, сваренная внахлёст для стойкости к ударам. В перестрелке не жди чудес.
   components:
     - type: Sprite
       sprite: _Starlight/Objects/Weapons/Melee/improvised_shield.rsi
@@ -316,11 +316,10 @@
                   max: 10
 
 - type: entity
-  name: energy shield
+  name: энергощит
   parent: [BaseItem, BaseXenoborgContraband]
   id: EnergyShieldUnbreakable
-  suffix: Unbreakable, Less Reflect, Weaker
-  description: Exotic energy shield, when folded, can even fit in your pocket.
+  description: Экзотический энергощит, в сложенном виде влезет в карман.
   components:
     - type: ItemToggle
       soundActivate:
@@ -423,8 +422,8 @@
 - type: entity
   parent: BaseShield
   id: ChangelingShield
-  name: organic shield
-  description: A large, fleshy shield.
+  name: органический щит
+  description: Большой мясистый щит.
   components:
     - type: Sprite
       sprite: _Starlight/Objects/Weapons/Melee/shields.rsi
@@ -472,11 +471,11 @@
         path: "/Audio/Weapons/smash.ogg"
 
 - type: entity
-  name: X-03 green phase shield
+  name: зелёный фазовый щит X-03
   parent: [BaseItem, BaseCentcommContraband ]
   id: GreenLightShield
   categories: [ DoNotMap ]
-  description: Reverse engineered from a prototype that NT loaned CentComm, the wavelength has been tweaked to the glorious CentComm Green. While active, the micro-reactor cannot vent excess heat and needs to be shut off for a while to re-charge.
+  description: "Реверс прототипа, что НТ одолжили Центкому: длина волны подкручена под славный зелёный Центкома. Активный микрореактор не сбрасывает тепло — глуши на подзарядку."
   components:
     - type: ItemToggle
       soundActivate:
@@ -606,11 +605,11 @@
       level: HardenedMetal
 
 - type: entity
-  name: X-03 phase shield
+  name: фазовый щит X-03
   parent: [GreenLightShield, BaseBlueShieldContraband, BaseGrandTheftContraband ]
   id: BlueLightShield
   categories: [ DoNotMap ]
-  description: An experimental hardlight shield that has a micro reactor in place of the syndicate chemical based battery. While active, the micro-reactor cannot vent excess heat and needs to be shut off for a while to re-charge.
+  description: Экспериментальный хардлайт-щит с микрореактором вместо синдикат-химбатареи. Активный микрореактор не сбрасывает тепло — глуши на подзарядку.
   components:
     - type: PointLight
       color: "#87CEEB"

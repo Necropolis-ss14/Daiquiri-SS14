@@ -1,7 +1,7 @@
 - type: entity
   parent: GasFilter
   id: GasFilterInline
-  name: inline gas filter
+  name: встроенный газовый фильтр
   description: Filters gases from a pipenet without splitting it in two.
   components:
     - type: Sprite

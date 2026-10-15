@@ -1,7 +1,7 @@
 - type: entity
   parent: GasCanister
   id: UlnitraniumCanister
-  name: ulnitranium canister
+  name: баллон улнитраниума
   components:
   - type: Sprite
     layers:
@@ -41,7 +41,7 @@
 - type: entity
   parent: GasCanister
   id: ZXACanister
-  name: zxa canister
+  name: баллон зкса
   components:
   - type: Sprite
     layers:
@@ -300,7 +300,7 @@
 - type: entity
   parent: GasCanister
   id: RainbowCanisterEmpty
-  name: rainbow canister
+  name: радужный баллон
   suffix: Empty
   components:
   - type: Sprite

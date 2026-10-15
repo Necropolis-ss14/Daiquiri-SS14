@@ -44,7 +44,7 @@
 - type: entity
   id: SuitStorageSecDouble
   parent: SuitStorageSec
-  name: double suit storage unit
+  name: двойной шкаф для скафандров
   components:
   - type: EntityTableContainerFill
     containers:

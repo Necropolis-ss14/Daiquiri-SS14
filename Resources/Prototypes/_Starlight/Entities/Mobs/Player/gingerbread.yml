@@ -13,7 +13,7 @@
           Asphyxiation: -1.0
 
 - type: entity
-  name: gingerbread man
+  name: Урист МакПеченька
   id: MobGingerbreadAI
   parent: [ MobGingerbread, MobCombat]
   components:

@@ -1,8 +1,8 @@
 - type: entity
   id: CrateFoodSoftdrinksLarge
   parent: CratePlastic
-  name: softdrinks bulk crate
-  description: Lots of sodas taken straight out of Centcomm's own vending machines, because you just can't leave your department. Includes 32 sodas.
+  name: оптовый ящик газировки
+  description: Куча газировки прямо из автоматов Центкома — отдел же не покинешь. Внутри 32 банки.
   components:
   - type: EntityStorage
     capacity: 32 # Slightly over-sized CratePlastic to accomodate over 30 drink cans at once.
@@ -29,8 +29,8 @@
 - type: entity
   id: CrateFoodPizzaLarge
   parent: CratePlastic
-  name: disaster pizza delivery
-  description: In the ultimate event that all else has failed, Find comfort in that more pizza solves everything. Includes 16 pizzas.
+  name: аварийная доставка пиццы
+  description: "Когда всё пропало — утешься: больше пиццы решает всё. Внутри 16 пицц."
   components:
   - type: EntityTableContainerFill
     containers:

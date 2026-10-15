@@ -1,5 +1,5 @@
 - type: entity
-  name: Empty Oil Pack
+  name: пустой масляный пакет
   parent: BaseItem
   description: Contains nothing.
   id: EmptyOilPack

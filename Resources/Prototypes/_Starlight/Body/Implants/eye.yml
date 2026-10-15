@@ -13,8 +13,8 @@
 
 - type: entity
   id: EyeImplantWelding
-  name: ent-EyeImplantWelding
-  description: ent-EyeImplantWelding-desc
+  name: сварочный имплант
+  description: Защищает глаза от сварочных вспышек.
   parent: BaseEntityEyeImplant
   components:
   - type: Sprite
@@ -26,8 +26,8 @@
 
 - type: entity
   id: EyeImplantDiagnostic
-  name: ent-EyeImplantDiagnostic
-  description: ent-EyeImplantDiagnostic-desc
+  name: диагностический имплант
+  description: Позволяет видеть информацию о механизмах без диагностических очков.
   parent: BaseEntityEyeImplant
   components:
   - type: Sprite
@@ -45,8 +45,8 @@
 
 - type: entity
   id: EyeImplantMedical
-  name: ent-EyeImplantMedical
-  description: ent-EyeImplantMedical-desc
+  name: медицинский имплант
+  description: Позволяет видеть информацию о гуманоидах без медицинских очков.
   parent: BaseEntityEyeImplant
   components:
   - type: Sprite
@@ -65,8 +65,8 @@
 
 - type: entity
   id: EyeImplantChemistry
-  name: ent-EyeImplantChemistry
-  description: ent-EyeImplantChemistry-desc
+  name: химический имплант
+  description: Позволяет видеть информацию о растворах без очков химического анализа.
   parent: BaseEntityEyeImplant
   components:
   - type: Sprite
@@ -77,8 +77,8 @@
 
 - type: entity
   id: EyeImplantSecurity
-  name: ent-EyeImplantSecurity
-  description: ent-EyeImplantSecurity-desc
+  name: охранный имплант
+  description: Позволяет видеть информацию об экипаже станции без охранных очков.
   parent: BaseEntityEyeImplant
   components:
   - type: Sprite
@@ -91,8 +91,8 @@
 
 - type: entity
   id: EyeImplantSyndie
-  name: ent-EyeImplantSyndie
-  description: ent-EyeImplantSyndie-desc
+  name: синди-имплант
+  description: Позволяет видеть информацию об экипаже станции, гуманоидах и синдикатовцах без всяких очков.
   parent: [ BaseEntityEyeImplant, BaseSyndicateContraband ]
   components:
   - type: Sprite

@@ -46,7 +46,7 @@
           Cold: 10.0
 
 - type: entity
-  name: gray xenobiology slime
+  name: серый ксенобиологический слайм
   id: XenobiologySlimeGray
   parent: XenobiologySlimeBase
   description: GRAY
@@ -63,7 +63,7 @@
       color: "#999999ff"
 
 - type: entity
-  name: orange xenobiology slime
+  name: оранжевый ксенобиологический слайм
   id: XenobiologySlimeOrange
   parent: XenobiologySlimeBase
   description: ORANGE
@@ -80,7 +80,7 @@
       color: "#f07a26ff"
 
 - type: entity
-  name: purple xenobiology slime
+  name: фиолетовый ксенобиологический слайм
   id: XenobiologySlimePurple
   parent: XenobiologySlimeBase
   description: PURPLE
@@ -97,7 +97,7 @@
       color: "#9721c2ff"
 
 - type: entity
-  name: blue xenobiology slime
+  name: синий ксенобиологический слайм
   id: XenobiologySlimeBlue
   parent: XenobiologySlimeBase
   description: BLUE
@@ -114,7 +114,7 @@
       color: "#34cfebff"
 
 - type: entity
-  name: metal xenobiology slime
+  name: металлический ксенобиологический слайм
   id: XenobiologySlimeMetal
   parent: XenobiologySlimeBase
   description: METAL
@@ -135,7 +135,7 @@
       color: "#5e5e5eff"
 
 - type: entity
-  name: yellow xenobiology slime
+  name: жёлтый ксенобиологический слайм
   id: XenobiologySlimeYellow
   parent: XenobiologySlimeBase
   description: YELLOW
@@ -152,7 +152,7 @@
       color: "#ffeb52ff"
 
 - type: entity
-  name: dark purple xenobiology slime
+  name: тёмно-фиолетовый ксенобиологический слайм
   id: XenobiologySlimeDarkPurple
   parent: XenobiologySlimeBase
   description: DARK PURPLE
@@ -169,7 +169,7 @@
       color: "#501466ff"
 
 - type: entity
-  name: dark blue xenobiology slime
+  name: тёмно-синий ксенобиологический слайм
   id: XenobiologySlimeDarkBlue
   parent: XenobiologySlimeBase
   description: DARK BLUE
@@ -186,7 +186,7 @@
       color: "#132b6eff"
 
 - type: entity
-  name: silver xenobiology slime
+  name: серебряный ксенобиологический слайм
   id: XenobiologySlimeSilver
   parent: XenobiologySlimeBase
   description: SILVER
@@ -207,7 +207,7 @@
       color: "#aab8bdff"
 
 - type: entity
-  name: bluespace xenobiology slime
+  name: блюспейс ксенобиологический слайм
   id: XenobiologySlimeBluespace
   parent: XenobiologySlimeBase
   description: BLUESPACE
@@ -219,7 +219,7 @@
       color: "#ffffffff"
 
 - type: entity
-  name: sepia xenobiology slime
+  name: сепия ксенобиологический слайм
   id: XenobiologySlimeSepia
   parent: XenobiologySlimeBase
   description: SEPIA
@@ -231,7 +231,7 @@
       color: "#c9b7a9ff"
 
 - type: entity
-  name: cerulean xenobiology slime
+  name: лазурный ксенобиологический слайм
   id: XenobiologySlimeCerulean
   parent: XenobiologySlimeBase
   description: CERULEAN
@@ -243,7 +243,7 @@
       color: "#5998b3ff"
 
 - type: entity
-  name: pyrite xenobiology slime
+  name: пиритовый ксенобиологический слайм
   id: XenobiologySlimePyrite
   parent: XenobiologySlimeBase
   description: PYRITE
@@ -255,7 +255,7 @@
       color: "#ebe15bff"
 
 - type: entity
-  name: red xenobiology slime
+  name: красный ксенобиологический слайм
   id: XenobiologySlimeRed
   parent: XenobiologySlimeBase
   description: RED
@@ -269,7 +269,7 @@
       color: "#fc4e4eff"
 
 - type: entity
-  name: green xenobiology slime
+  name: зелёный ксенобиологический слайм
   id: XenobiologySlimeGreen
   parent: XenobiologySlimeBase
   description: GREEN
@@ -283,7 +283,7 @@
       color: "#4efc4eff"
 
 - type: entity
-  name: pink xenobiology slime
+  name: розовый ксенобиологический слайм
   id: XenobiologySlimePink
   parent: XenobiologySlimeBase
   description: PINK
@@ -297,7 +297,7 @@
       color: "#fc86cfff"
 
 - type: entity
-  name: gold xenobiology slime
+  name: золотой ксенобиологический слайм
   id: XenobiologySlimeGold
   parent: XenobiologySlimeBase
   description: GOLD
@@ -315,7 +315,7 @@
       color: "#8a7b1cff"
 
 - type: entity
-  name: oil xenobiology slime
+  name: масляный ксенобиологический слайм
   id: XenobiologySlimeOil
   parent: XenobiologySlimeBase
   description: OIL
@@ -331,7 +331,7 @@
       color: "#262626ff"
 
 - type: entity
-  name: black xenobiology slime
+  name: чёрный ксенобиологический слайм
   id: XenobiologySlimeBlack
   parent: XenobiologySlimeBase
   description: BLACK
@@ -343,7 +343,7 @@
       color: "#262626ff"
 
 - type: entity
-  name: light pink xenobiology slime
+  name: светло-розовый ксенобиологический слайм
   id: XenobiologySlimeLightPink
   parent: XenobiologySlimeBase
   description: LIGHT PINK
@@ -355,7 +355,7 @@
       color: "#ff94d1ff"
 
 - type: entity
-  name: adamantine xenobiology slime
+  name: адамантиновый ксенобиологический слайм
   id: XenobiologySlimeAdamantine
   parent: XenobiologySlimeBase
   description: ADAMANTINE
@@ -371,7 +371,7 @@
       color: "#407985ff"
 
 - type: entity
-  name: rainbow xenobiology slime
+  name: радужный ксенобиологический слайм
   id: XenobiologySlimeRainbow
   parent: XenobiologySlimeBase
   description: RAINBOW

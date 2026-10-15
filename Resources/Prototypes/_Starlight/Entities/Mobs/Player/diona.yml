@@ -17,7 +17,7 @@
   parent: MobDiona
   categories: [ HideSpawnMenu ]
   id: MobDionaReformed
-  name: Reformed Diona
+  name: "{ ent-MobDiona }"
   components:
     - type: IsDeadIC
     - type: RandomHumanoidAppearance

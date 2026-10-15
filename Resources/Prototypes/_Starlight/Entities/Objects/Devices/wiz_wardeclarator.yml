@@ -1,7 +1,7 @@
 - type: entity
   parent: [BaseItem, BaseMagicalContraband ]
   id: WizardWarTablet
-  name: seal of war
+  name: печать войны
   description: Raw magic is sealed in this stone. Unleashing it will allow the use of more powerful abilities. However, anyone with advanced sensors in proximity will detect such a magic surge as an act of aggression. If unused, the stone will crumble to dust in 5 minutes, forever sealing the magic within.
   components:
     - type: Sprite
@@ -18,7 +18,7 @@
 - type: entity
   parent: [BaseItem, BaseMagicalContraband ]
   id: WizardWarTabletdrained
-  name: empty seal of war
+  name: пустая печать войны
   description: An emptied magical seal.
   components:
     - type: Sprite

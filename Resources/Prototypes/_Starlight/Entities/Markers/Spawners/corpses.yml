@@ -1,5 +1,5 @@
 - type: entity
-  name: Random Syndicate Corpse Spawner
+  name: Спавнер случайного трупа синдиката
   id: RandomSyndicateCorpseSpawner
   parent: SalvageHumanCorpseSpawner
   components:

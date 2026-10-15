@@ -2,7 +2,7 @@
   id: WebEntityBeacon
   placement:
     mode: SnapgridCenter
-  name: "web pole"
+  name: паутинный столб
   description: "A strange web pole."
   components:
   - type: Appearance
@@ -72,7 +72,7 @@
   id: WebCocoon
   placement:
     mode: SnapgridCenter
-  name: "web cocoon"
+  name: паутинный кокон
   description: "A strange web cocoon."
   components:
   - type: Appearance
@@ -166,7 +166,7 @@
   id: AmmoniaEggGenerator
   placement:
     mode: SnapgridCenter
-  name: "ammonia egg"
+  name: аммиачное яйцо
   description: "A strange egg which produces ammonia."
   components:
   - type: Appearance

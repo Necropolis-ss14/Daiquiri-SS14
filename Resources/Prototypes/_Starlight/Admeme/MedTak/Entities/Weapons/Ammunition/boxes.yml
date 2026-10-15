@@ -26,8 +26,8 @@
 - type: entity
   parent: BaseMagazineBoxVariable
   id: MagazineBoxVariableHeavy
-  name: ammunition box (HVA)
-  description: A box of Heavy Variable rounds.
+  name: коробка патронов (HVA)
+  description: Коробка тяжёлых переменных патронов.
   components:
   - type: BallisticAmmoProvider
     proto: RoundVariableHeavy
@@ -49,8 +49,8 @@
 - type: entity
   parent: BaseMagazineBoxVariable
   id: MagazineBoxVariableMedium
-  name: ammunition box (MVA)
-  description: A box of Medium Variable rounds.
+  name: коробка патронов (MVA)
+  description: Коробка средних переменных патронов.
   components:
   - type: BallisticAmmoProvider
   - type: Sprite
@@ -63,8 +63,8 @@
 - type: entity
   parent: BaseMagazineBoxVariable
   id: MagazineBoxVariableLight
-  name: ammunition box (LVA)
-  description: A box of Light Variable rounds.
+  name: коробка патронов (LVA)
+  description: Коробка лёгких переменных патронов.
   components:
   - type: BallisticAmmoProvider
     proto: RoundVariableLight

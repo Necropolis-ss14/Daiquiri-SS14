@@ -1,5 +1,5 @@
 - type: entity
-  name: abductor's wirecutter
+  name: кусачки похитителей
   parent: [ BaseItem, BaseMajorContraband ]
   id: WirecutterAbductor
   components:
@@ -39,7 +39,7 @@
     price: 30
 
 - type: entity
-  name: abductor's screwdriver
+  name: отвёртка похитителей
   parent: [ BaseItem, BaseMajorContraband ]
   id: ScrewdriverAbductor
   components:
@@ -78,7 +78,7 @@
     price: 30
 
 - type: entity
-  name: abductor's wrench
+  name: гаечный ключ похитителей
   parent: [ Wrench, BaseMajorContraband ]
   id: WrenchAbductor
   components:
@@ -99,7 +99,7 @@
       path: /Audio/Items/ratchet.ogg
 
 - type: entity
-  name: abductor's multitool
+  name: мультитул похитителей
   parent: [ Multitool, BaseMajorContraband ]
   id: MultitoolAbductor
   components:
@@ -112,7 +112,7 @@
       - ShowWires
 
 - type: entity
-  name: makeshift crowbar-wrench
+  name: самодельный ломик-ключ
   parent: BaseItem
   id: CrowbarWrenchMakeshift
   description: Still pretty bad.
@@ -163,7 +163,7 @@
       - Wrench
 
 - type: entity
-  name: makeshift crowbar-wrench-screwdriver
+  name: самодельный ломик-ключ-отвёртка
   parent: CrowbarWrenchMakeshift
   id: CrowbarWrenchScrewdriverMakeshift
   description: It's.. useful?
@@ -206,7 +206,7 @@
       - Screwdriver
 
 - type: entity
-  name: makeshift omni-tool
+  name: самодельный омни-инструмент
   parent: CrowbarWrenchScrewdriverMakeshift
   id: OmnitoolMakeshift
   description: Who would've thought a red toolbox would have so many uses?
@@ -253,7 +253,7 @@
       - Wirecutter
 
 - type: entity
-  name: improvised screwdriver
+  name: импровизированная отвёртка
   parent: BaseItem
   id: ScrewdriverImprovised
   description: A handful of metal with some cloth wrapped around it, and sharpened at the tip. It works.
@@ -292,7 +292,7 @@
   #FarHorizons End
 
 - type: entity
-  name: improvised wirecutter
+  name: импровизированные кусачки
   parent: BaseItem
   id: WirecutterImprovised
   description: The metal's just sharp enough to cut through thick wires.
@@ -334,7 +334,7 @@
   #FarHorizons End
 
 - type: entity
-  name: improvised wrench
+  name: импровизированный гаечный ключ
   parent: BaseItem
   id: WrenchImprovised
   description: One size fits all.. Kinda.
@@ -376,7 +376,7 @@
   #FarHorizons End
 
 - type: entity
-  name: improvised multitool
+  name: импровизированный мультитул
   parent: BaseItem
   id: MultitoolImprovised
   description: A not so advanced tool to break into places. Why else would you have this?
@@ -425,7 +425,7 @@
     #FarHorizons End
 
 - type: entity
-  name: improvised omnitool
+  name: импровизированный омнитул
   parent: BaseItem
   id: OmnitoolImprovised
   description: An unholy abomination only second to the great Throngler itself.
@@ -680,7 +680,7 @@
       - Screwdriver
 
 - type: entity
-  name: forged omnitool
+  name: кованый омнитул
   parent: [SolutionWelder, BaseItem]
   id: OmnitoolForged
   description: Some absolute psychopath decided to saw off the heads of all tools they could find and smash it together into a makeshift drill. Looks nice, considering it's origins.
@@ -923,7 +923,7 @@
 - type: entity
   id: RCDChiefEngineer
   parent: RCD
-  name: chief engineer's experimental RCD
+  name: экспериментальное РСУ главного инженера
   description: A highly advanced Rapid Construction Device which creates compressed matter on the fly using an internal fabricator.
   components:
   - type: LimitedCharges
@@ -936,8 +936,8 @@
 - type: entity
   id: RPD
   parent: RCD
-  name: RPD
-  description: A device used to rapidly pipe things.
+  name: РПД
+  description: Устройство для быстрой прокладки труб.
   components:
   - type: RCD
     isRpd: true
@@ -991,7 +991,7 @@
 - type: entity
   id: RPDRecharging
   parent: RPD
-  name: experimental RPD
+  name: экспериментальный раздатчик труб
   description: Cyborg-mounted Rapid Piping Device which creates compressed matter on the fly using an internal fabricator.
   suffix: AutoRecharge
   components:
@@ -1004,7 +1004,7 @@
   id: RPDExperimental
   parent: RPD
   suffix: Admeme
-  name: experimental RPD
+  name: экспериментальный раздатчик труб
   description: A bluespace-enhanced rapid piping device that passively generates its own compressed matter.
   components:
   - type: AutoRecharge
@@ -1016,8 +1016,8 @@
 - type: entity
   id: RPLD
   parent: RCD
-  name: RPLD
-  description: A device used to rapidly deploy plumbing ducts and machines.
+  name: РПСЖ
+  description: Устройство для быстрого развёртывания сантехники и машин.
   components:
   - type: Contraband
     allowedDepartments: [ Engineering, Medical ]
@@ -1059,7 +1059,7 @@
 - type: entity
   id: RPLDRecharging
   parent: RPLD
-  name: experimental RPLD
+  name: экспериментальный сантехнический раздатчик
   description: Cyborg-mounted Rapid Plumbing Device which creates compressed matter on the fly using an internal fabricator.
   suffix: AutoRecharge
   components:
@@ -1072,7 +1072,7 @@
   id: RPLDExperimental
   parent: RPLD
   suffix: Admeme
-  name: experimental RPLD
+  name: экспериментальный сантехнический раздатчик
   description: A bluespace-enhanced rapid plumbing device that passively generates its own compressed matter.
   components:
   - type: AutoRecharge
@@ -1081,7 +1081,7 @@
 - type: entity
   id: RCDXeno
   parent: [ BaseItem, BaseEngineeringContraband ]
-  name: Xenoborg RCD
+  name: РСУ ксеноборга
   description: Xenoborg-mounted Rapid Construction Device which creates compressed matter on the fly using an internal fabricator.
   components:
   - type: RCD
@@ -1144,7 +1144,7 @@
 - type: entity
   id: LoadoutRadioERTSec
   parent: ToolboxThief
-  name: Bluespace Loadout Radio
+  name: блюспейс-радио снаряжения
   description: Highly advanced bluespace technology packed into a radio, allowing you to call for a variety of different loadouts.
   suffix: Security
   components:

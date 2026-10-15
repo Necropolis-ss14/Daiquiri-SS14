@@ -61,7 +61,7 @@
 - type: entity
   parent: BaseTreeDry
   id: DryTreeA
-  name: Dry Tree
+  name: сухое дерево
   components:
   - type: Sprite
     state: drytreeA
@@ -69,7 +69,7 @@
 - type: entity
   parent: BaseTreeDry
   id: DryTreeB
-  name: Dry Tree
+  name: сухое дерево
   components:
   - type: Sprite
     state: drytreeB
@@ -77,7 +77,7 @@
 - type: entity
   parent: BaseTreeDry
   id: DryTreeC
-  name: Dry Tree
+  name: сухое дерево
   components:
   - type: Sprite
     state: drytreeC

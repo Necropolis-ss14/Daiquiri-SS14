@@ -1,7 +1,7 @@
 - type: entity
   parent: ClothingBackpack
   id: ClothingBackpackRoboticist
-  name: roboticist backpack
+  name: рюкзак робототехника
   description: A backpack specifically designed for oil and short circuit protection.
   components:
     - type: Sprite
@@ -10,7 +10,7 @@
 - type: entity
   parent: ClothingBackpack
   id: ClothingBackpackCargoSenior
-  name: senior courier backpack
+  name: рюкзак старшего курьера
   description: A robust backpack for those who know the station's map by heart.
   components:
     - type: Sprite
@@ -19,7 +19,7 @@
 - type: entity
   parent: ClothingBackpack
   id: ClothingBackpackChemistrySenior
-  name: senior chemistry backpack
+  name: рюкзак старшего химика
   description: A specially designed backpack that will never be stained, no matter what liquids are spilled on it.
   components:
     - type: Sprite
@@ -28,7 +28,7 @@
 - type: entity
   parent: [ClothingBackpack, BaseSecurityContraband]
   id: ClothingBackpackCorpsman
-  name: corpsman's backpack
+  name: рюкзак санитара
   description: A backpack with easy to access pockets for the organized corpsman!
   components:
     - type: Sprite
@@ -37,7 +37,7 @@
 - type: entity
   parent: [ClothingBackpack, BaseCommandContraband]
   id: ClothingBackpackHoP
-  name: head of personnel's backpack
+  name: рюкзак главы персонала
   description: A luxurious backpack, perfect for filling to the brim with paperwork.
   components:
   - type: Sprite
@@ -46,7 +46,7 @@
 - type: entity
   parent: [ClothingBackpack, BaseCommandManagerContraband]
   id: ClothingBackpackCommandGeneric
-  name: command backpack
+  name: рюкзак командования
   description: A Command-colored backpack with NanoTrasen's colors. It has an aura of non-descript authority.
   components:
   - type: Sprite
@@ -55,7 +55,7 @@
 - type: entity
   parent: [ClothingBackpack, BaseBlueShieldContraband]
   id: ClothingBackpackBlueShield
-  name: blueshield backpack
+  name: рюкзак блюшилда
   description: A lightweight but reliable backpack. Can't go wrong with the classics!
   components:
     - type: Sprite
@@ -64,7 +64,7 @@
 - type: entity
   parent: [ClothingBackpackERTLeader, BaseNanoTrasenContraband]
   id: ClothingBackpackNTNC
-  name: NTNC backpack
+  name: рюкзак НТНК
   description: A spacious backpack with lots of pockets, worn by NTNC Officers
   components:
     - type: ExplosionResistance
@@ -75,7 +75,7 @@
 - type: entity
   parent: [BaseTSFContraband, ClothingBackpackERTLeader]
   id: ClothingBackpackTSF
-  name: TSF marine rucksack
+  name: рюкзак морпеха ТСФ
   description: A spacious rucksack covered in pouches and pockets, worn by marines of the Trans-Solar Federation.
   components:
     - type: Sprite
@@ -84,7 +84,7 @@
 - type: entity
   parent: [ ClothingBackpack, BaseMagicalContraband ]
   id: ClothingBackpackWizard
-  name: wizard backpack
+  name: рюкзак волшебника
   description: A magical backpack carried by members of the Space Wizards Federation.
   components:
     - type: Sprite
@@ -98,7 +98,7 @@
 - type: entity
   parent: [ClothingBackpack, BaseSheatheWeapon]
   id: ClothingBackpackBunnyGang
-  name: Bunny Gang Backpack
+  name: рюкзак заячьей банды
   description: A sword that is actually a backpack. It's impressive how they managed to fit things in there, even so, inventory management will be a trial.
   components:
     - type: Sprite
@@ -110,7 +110,7 @@
 - type: entity
   parent: ClothingBackpack
   id: ClothingBackpackStar
-  name: star backpack # Alternative Clothing Catalog
+  name: звёздный рюкзак
   description: A star-shaped ita backpack, for the cutie patooties among us.
   components:
     - type: Sprite
@@ -119,7 +119,7 @@
 - type: entity
   parent: ClothingBackpack
   id: ClothingBackpackKitty
-  name: kitty backpack # Alternative Clothing Catalog
+  name: кошачий рюкзак
   description: A cat-shaped ita backpack, for the cutie patooties among us.
   components:
     - type: Sprite

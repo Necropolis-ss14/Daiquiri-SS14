@@ -3,7 +3,7 @@
   placement:
     mode: SnapgridCenter
   abstract: true
-  name: wall safe
+  name: настенный сейф
   description: A highly secured safe with digital lock.
   components:
   - type: Storage

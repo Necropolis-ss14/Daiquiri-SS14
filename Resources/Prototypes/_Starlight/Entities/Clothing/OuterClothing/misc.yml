@@ -2,7 +2,7 @@
 - type: entity
   parent: ClothingOuterWizard # Saves tag reuse
   id: ClothingOuterWizardYellow
-  name: yellow wizard robes
+  name: жёлтая мантия волшебника
   description: A bizarre gem-encrusted yellow robe that radiates magical energies.
   components:
   - type: Sprite
@@ -13,7 +13,7 @@
 - type: entity
   parent: ClothingOuterWizard # Saves tag reuse
   id: ClothingOuterWizardGreen
-  name: green wizard robes
+  name: зелёная мантия волшебника
   description: A bizarre gem-encrusted green robe that radiates magical energies.
   components:
   - type: Sprite
@@ -24,7 +24,7 @@
 - type: entity
   parent: ClothingOuterWizard # Saves tag reuse
   id: ClothingOuterWizardPurple
-  name: purple wizard robes
+  name: фиолетовая мантия волшебника
   description: A bizarre gem-encrusted purple robe that radiates magical energies.
   components:
   - type: Sprite
@@ -35,7 +35,7 @@
 - type: entity
   parent: ClothingOuterWizard # Saves tag reuse
   id: ClothingOuterWizardOrange
-  name: orange wizard robes
+  name: оранжевая мантия волшебника
   description: A bizarre gem-encrusted orange robe that radiates magical energies.
   components:
   - type: Sprite
@@ -46,7 +46,7 @@
 - type: entity
   parent: ClothingOuterWizard # Saves tag reuse
   id: ClothingOuterWizardPeach
-  name: peach wizard robes
+  name: персиковая мантия волшебника
   description: A bizarre gem-encrusted peach robe that radiates magical energies.
   components:
   - type: Sprite

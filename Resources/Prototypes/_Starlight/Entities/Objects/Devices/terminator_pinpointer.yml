@@ -1,5 +1,5 @@
 - type: entity
-  name: target beacon
+  name: целевой маяк
   description: the current whereabouts of your target.
   id: PinpointerTerminator
   parent: PinpointerBase

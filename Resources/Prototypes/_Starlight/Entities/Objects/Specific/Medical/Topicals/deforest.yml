@@ -1,8 +1,8 @@
 ## Bruise packs
 # Deforest blue bruise packs
 - type: entity
-  name: DeForest bruise pack
-  description: DeForest-Graded Bruise Packs for all your needs.
+  name: набор от ушибов DeForest
+  description: Противоушибные наборы класса DeForest на все случаи.
   parent: Bluebrutepack1
   id: DeforestBrutePack
   suffix: Full
@@ -34,8 +34,8 @@
         - IPC
 
 - type: entity
-  name: DeForest bruise pack
-  description: DeForest-Graded Bruise Packs for all your needs. The blue ones are supposedly rare.
+  name: набор от ушибов DeForest
+  description: Противоушибные наборы класса DeForest на все случаи. Синие якобы редкие.
   parent: DeforestBrutePack
   id: DeforestBrutePack1
   suffix: Single
@@ -55,8 +55,8 @@
 ## Ointments
 #DeForest blue ointment
 - type: entity
-  name: DeForest ointment
-  description: DeForest's soothing ointment, used to treat severe burns. Does nothing for caustic.
+  name: мазь DeForest
+  description: Успокаивающая мазь DeForest против сильных ожогов. От кислотных не помогает.
   parent: Blueointment1
   id: DeforestOintment
   suffix: Full
@@ -88,8 +88,8 @@
         - IPC
 
 - type: entity
-  name: DeForest ointment
-  description: DeForest's soothing ointment, used to treat severe burns. Does nothing for caustic. The blue ones are supposedly rare.
+  name: мазь DeForest
+  description: Успокаивающая мазь DeForest против сильных ожогов. От кислотных не помогает. Синие якобы редкие.
   parent: DeforestOintment
   id: DeforestOintment1
   suffix: Single

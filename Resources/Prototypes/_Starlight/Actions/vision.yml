@@ -1,6 +1,6 @@
 - type: entity
   id: ActionToggleThermal
-  name: Toggle Thermal Vision
+  name: Переключить тепловое зрение
   description: Enable or disable thermal vision.
   components:
   - type: Action

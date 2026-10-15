@@ -1,7 +1,7 @@
 - type: entity
   parent: ClothingBeltStorageBase
   id: ClothingBeltStorageWaistbagScience
-  name: science waist bag
+  name: научная поясная сумка
   description: A purple waist bag meant for carrying the tools of the luscious.
   components:
   - type: Sprite

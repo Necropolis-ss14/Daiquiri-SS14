@@ -22,7 +22,7 @@
     delay: 1.5
 
 - type: entity
-  name: web cuffs
+  name: паутинные наручники
   description: Used to slightly hinder people's escape.
   id: WebHandcuffs
   parent: Handcuffs

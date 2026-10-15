@@ -47,8 +47,8 @@
 - type: entity
   id: RecordMilkCrate
   parent: BaseMilkCrate
-  name: ent-RecordMilkCrate
-  description: ent-RecordMilkCrate-desc
+  name: ящик для пластинок
+  description: Прочный пластиковый молочный ящик, приспособленный для хранения виниловых пластинок в конвертах. Больше ничего не вмещает.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Storage/milkcrate.rsi
@@ -86,8 +86,8 @@
 - type: entity
   id: MilkCrate
   parent: BaseMilkCrate
-  name: ent-MilkCrate
-  description: ent-MilkCrate-desc
+  name: молочный ящик
+  description: Прочный пластиковый ящик для перевозки пакетов молока. Больше ничего не вмещает.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Storage/milkcrate.rsi
@@ -112,8 +112,8 @@
 - type: entity
   id: SyndicateMilkCrate
   parent: [BaseMilkCrate, BaseSyndicateContraband]
-  name: ent-SyndicateMilkCrate
-  description: ent-SyndicateMilkCrate-desc
+  name: молочный ящик Синдиката
+  description: Кроваво-красный пластиковый молочный ящик для хранения виниловых пластинок в конвертах. NanoTrasen предпочла бы, чтобы вы это не слушали.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Storage/milkcrate.rsi

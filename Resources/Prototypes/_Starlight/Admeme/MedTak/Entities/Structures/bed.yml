@@ -1,8 +1,8 @@
 - type: entity
   id: StasisBedMedTak
-  name: MedTak bed
+  name: койка MedTak
   parent: BaseMachine
-  description: "A dual stasis/medical bed built for MedTak AV-40 shuttles.\nEnsure stasis is disabled before applying chemicals."
+  description: "Двойная стазис/медкойка для шаттлов AV-40 MedTak.\nОтключи стазис перед применением химии."
   components:
   - type: StasisBed
   - type: AntiRotOnBuckle

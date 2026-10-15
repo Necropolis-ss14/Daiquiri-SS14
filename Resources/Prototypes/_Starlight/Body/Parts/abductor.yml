@@ -1,7 +1,7 @@
 - type: entity
   id: PartAbductor
   parent: [BaseItem, BasePart]
-  name: ent-PartAbductor
+  name: часть тела похитителя
   abstract: true
   components:
   - type: Extractable
@@ -14,7 +14,7 @@
 
 - type: entity
   id: TorsoAbductor
-  name: ent-TorsoAbductor
+  name: туловище похитителя
   parent: [PartAbductor, BaseTorso]
   components:
   - type: Sprite
@@ -30,7 +30,7 @@
 
 - type: entity
   id: HeadAbductor
-  name: ent-HeadAbductor
+  name: голова похитителя
   parent: [PartAbductor, BaseHead]
   components:
   - type: Sprite
@@ -46,7 +46,7 @@
 
 - type: entity
   id: LeftArmAbductor
-  name: ent-LeftArmAbductor
+  name: левая рука похитителя
   parent: [PartAbductor, BaseLeftArm]
   components:
   - type: Sprite
@@ -55,7 +55,7 @@
 
 - type: entity
   id: RightArmAbductor
-  name: ent-RightArmAbductor
+  name: правая рука похитителя
   parent: [PartAbductor, BaseRightArm]
   components:
   - type: Sprite
@@ -64,7 +64,7 @@
 
 - type: entity
   id: LeftHandAbductor
-  name: ent-LeftHandAbductor
+  name: левая кисть похитителя
   parent: [PartAbductor, BaseLeftHand]
   components:
   - type: Sprite
@@ -73,7 +73,7 @@
 
 - type: entity
   id: RightHandAbductor
-  name: ent-RightHandAbductor
+  name: правая кисть похитителя
   parent: [PartAbductor, BaseRightHand]
   components:
   - type: Sprite
@@ -82,7 +82,7 @@
 
 - type: entity
   id: LeftLegAbductor
-  name: ent-LeftLegAbductor
+  name: левая нога похитителя
   parent: [PartAbductor, BaseLeftLeg]
   components:
   - type: Sprite
@@ -91,7 +91,7 @@
 
 - type: entity
   id: RightLegAbductor
-  name: ent-RightLegAbductor
+  name: правая нога похитителя
   parent: [PartAbductor, BaseRightLeg]
   components:
   - type: Sprite
@@ -100,7 +100,7 @@
 
 - type: entity
   id: LeftFootAbductor
-  name: ent-LeftFootAbductor
+  name: левая стопа похитителя
   parent: [PartAbductor, BaseLeftFoot]
   components:
   - type: Sprite
@@ -109,7 +109,7 @@
 
 - type: entity
   id: RightFootAbductor
-  name: ent-RightFootAbductor
+  name: правая стопа похитителя
   parent: [PartAbductor, BaseRightFoot]
   components:
   - type: Sprite

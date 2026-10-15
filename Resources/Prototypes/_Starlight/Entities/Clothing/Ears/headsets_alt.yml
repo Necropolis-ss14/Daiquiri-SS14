@@ -1,7 +1,7 @@
 - type: entity
   parent: [ClothingHeadsetAlt, BaseCentcommContraband]
   id: ClothingHeadsetAltCentCom
-  name: CentComm over-ear headset
+  name: полноразмерная гарнитура ЦК
   components:
   - type: ContainerFill
     containers:
@@ -21,7 +21,7 @@
   parent: [ClothingHeadsetAlt, BaseCentcommContraband]
   id: ClothingHeadsetAltAdminCentCom
   suffix: Admin only
-  name: Administrative CentComm over-ear headset
+  name: административная полноразмерная гарнитура ЦК
   components:
   - type: ContainerFill
     containers:
@@ -41,7 +41,7 @@
 - type: entity
   parent: [ClothingHeadsetAlt, BaseNanoTrasenContraband]
   id: ClothingHeadsetAltNanoTrasen
-  name: NanoTrasen over-ear headset
+  name: полноразмерная гарнитура НаноТрейзен
   components:
   - type: ContainerFill
     containers:
@@ -61,7 +61,7 @@
 - type: entity
   parent: [ClothingHeadsetAlt, BaseNanoTrasenContraband]
   id: ClothingHeadsetAltRepresentative
-  name: NanoTrasen representative over-ear headset
+  name: полноразмерная гарнитура представителя НаноТрейзен
   components:
   - type: ContainerFill
     containers:
@@ -82,7 +82,7 @@
 - type: entity
   parent: [ClothingHeadsetAlt, BaseNanoTrasenContraband]
   id: ClothingHeadsetAltNCTrainer
-  name: NanoTrasen career trainer over-ear headset
+  name: полноразмерная гарнитура тренера НТ
   description: This is used by your well-taught corporate training team.
   components:
   - type: ContainerFill
@@ -103,7 +103,7 @@
 - type: entity
   parent: ClothingHeadsetAlt
   id: ClothingHeadsetAltAbductor
-  name: abductor over-ear headset
+  name: полноразмерная гарнитура похитителя
   components:
   - type: ContainerFill
     containers:
@@ -118,7 +118,7 @@
 - type: entity
   parent: [ClothingHeadsetAlt, BaseCommandContraband]
   id: ClothingHeadsetHoP
-  name: command over-ear headset
+  name: полноразмерная гарнитура командования
   components:
   - type: ContainerFill
     containers:
@@ -135,7 +135,7 @@
 - type: entity
   parent: [ClothingHeadsetAlt, BaseBlueShieldContraband]
   id: ClothingHeadsetAltBSO
-  name: blue shield over-ear headset
+  name: полноразмерная гарнитура блюшилда
   components:
   - type: ContainerFill
     containers:
@@ -155,7 +155,7 @@
 - type: entity
   parent: [ClothingHeadsetAlt, BaseSyndicateContraband]
   id: ClothingHeadsetAltSyndicateCommander
-  name: blood-red over-ear commander headset
+  name: кроваво-красная полноразмерная гарнитура командира
   description: An updated, modular syndicate intercom that fits over the head and takes encryption keys (there are 5 key slots.).
   components:
   - type: Headset
@@ -177,7 +177,7 @@
 - type: entity
   parent: [ClothingHeadsetAlt, BaseSyndicateContraband]
   id: ClothingHeadsetAltSyndicateAgent
-  name: blood-red over-ear agent headset
+  name: кроваво-красная полноразмерная гарнитура агента
   description: An updated, modular syndicate intercom that fits over the head and takes encryption keys (there are 5 key slots.).
   components:
   - type: Headset
@@ -198,7 +198,7 @@
 - type: entity
   parent: [ClothingHeadsetAlt, BaseSyndicateContraband]
   id: ClothingHeadsetAltGorlex
-  name: blood-red over-ear headset
+  name: кроваво-красная полноразмерная гарнитура
   description: An updated, modular syndicate intercom that fits over the head and takes encryption keys (there are 5 key slots.).
   components:
   - type: Headset
@@ -220,7 +220,7 @@
 - type: entity
   parent: [ ClothingHeadsetAltCentCom, BaseCentcommContraband ]
   id: ClothingHeadsetAltCentComDS
-  name: CentComm agent over-ear headset
+  name: полноразмерная гарнитура агента ЦК
   components:
   - type: ContainerFill
     containers:
@@ -239,7 +239,7 @@
 - type: entity
   parent: [ ClothingHeadsetAltNanoTrasen, BaseNanoTrasenContraband ]
   id: ClothingHeadsetAltNTSF
-  name: NTSF over-ear headset
+  name: полноразмерная гарнитура НТСФ
   components:
   - type: ContainerFill
     containers:
@@ -259,7 +259,7 @@
 - type: entity
   parent: ClothingHeadsetAlt
   id: ClothingHeadsetAltGlobal
-  name: global headset
+  name: глобальная гарнитура
   suffix: Admeme
   description: A headset capable of transmitting globally! Oh wait, that's just the name of the channel.
   components:
@@ -277,7 +277,7 @@
 - type: entity
   parent: ClothingHeadsetAlt
   id: ClothingHeadsetAltAspace
-  name: aspace headset
+  name: гарнитура аспейса
   suffix: Admeme
   description: A mystical headset bestowed by the deity known as The Admin.
   components:
@@ -295,7 +295,7 @@
 - type: entity
   parent: ClothingHeadsetAlt
   id: ClothingHeadsetAltMerchant
-  name: merchant headset
+  name: гарнитура торговца
   description: A headset for merchants to communicate with one another.
   components:
     - type: Headset
@@ -311,7 +311,7 @@
 - type: entity
   parent: ClothingHeadsetAlt
   id: ClothingHeadsetAltBlackstar
-  name: Blackstar mercenary headset
+  name: гарнитура наёмника «Блэкстар»
   description: A headset used by elite Blackstar mercenaries.
   components:
     - type: Headset

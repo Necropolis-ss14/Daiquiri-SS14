@@ -1,7 +1,7 @@
 - type: entity
   id: SLVendingMachine
   parent: BaseMachinePowered
-  name: vending machine
+  name: торговый автомат
   description: Just add capitalism!
   abstract: true
   components:
@@ -94,7 +94,7 @@
   parent: SLVendingMachine
   id: SLVendingMachineHugDispenser
   categories: [ ShouldMapStation ]
-  name: hug dispenser
+  name: раздатчик обнимашек
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Machines/VendingMachines/plushiemat.rsi
@@ -130,7 +130,7 @@
   parent: SLVendingMachine
   id: SLVendingMachineMedical
   categories: [ ShouldMapStation ]
-  name: medical dispenser
+  name: медицинский раздатчик
   components:
   - type: AccessReader
     access: [["Medical"]]
@@ -148,7 +148,7 @@
   parent: SLVendingMachine
   id: SLVendingMachineEngi
   categories: [ ShouldMapStation ]
-  name: engi dispenser
+  name: инженерный раздатчик
   components:
   - type: AccessReader
     access: [["Engineering"]]
@@ -182,7 +182,7 @@
   parent: SLVendingMachine
   id: VendingMachineMime
   categories: [ ShouldMapStation ]
-  name: vend of silence
+  name: торгомат тишины
   description: All the gear a mime could need. Go put the captain in an invisible box!
   components:
   - type: AccessReader
@@ -199,7 +199,7 @@
   parent: SLVendingMachine
   id: SLVendingMachineSecurity
   categories: [ ShouldMapStation ]
-  name: security dispenser
+  name: охранный раздатчик
   components:
   - type: AccessReader
     access: [["Security"], ["Cadet"]]
@@ -216,7 +216,7 @@
   parent: SLVendingMachine
   id: SLVendingMachineSalvage
   categories: [ ShouldMapStation ]
-  name: salvage ticket machine
+  name: билетный автомат утилизаторов
   components:
   - type: AccessReader
     access: [["Salvage"]]
@@ -238,7 +238,7 @@
   parent: SLVendingMachine
   id: SLVendingMachineSalvageITG
   categories: [ ShouldMapStation ]
-  name: salvage ticket machine
+  name: билетный автомат утилизаторов
   components:
   - type: AccessReader
     access: [["Salvage"]]
@@ -262,7 +262,7 @@
   parent: SLVendingMachine
   id: SLVendingMachineMining
   categories: [ ShouldMapStation ]
-  name: mining ticket machine
+  name: билетный автомат шахтёров
   components:
     - type: AccessReader
       access: [["Mining"]]
@@ -280,7 +280,7 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineAbductorDispenser
-  name: alien dispenser
+  name: инопланетный раздатчик
   description: Dispenses something weird.
   components:
     - type: VendingMachine
@@ -306,7 +306,7 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineDonk
-  name: Donk on the Go
+  name: Донк на ходу
   description: Hot and ready when you're on the run! Donk Pockets- It's food, legally.
   components:
   - type: VendingMachine
@@ -343,7 +343,7 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineIceCream
-  name: I Scream Ice-Cream
+  name: Ай Скрим мороженое
   description: A vending machine full of delicious ice cream. ScaryCorp assures that you don't actually have to scream anything.
   components:
   - type: VendingMachine
@@ -379,7 +379,7 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineGumballs
-  name: gumball dispenser
+  name: раздатчик жвачек
   description: Full of tasty gumballs.
   components:
   - type: VendingMachine
@@ -438,7 +438,7 @@
 - type: entity
   parent: VendingMachineMedicalBase
   id: VendingMachineMedicalSecurity
-  name: NanoMed Security
+  name: НаноМед для СБ
   suffix: Security
   description: It's a medical drug dispenser. Natural chemicals only!
   components:
@@ -465,7 +465,7 @@
 - type: entity
   parent: VendingMachineMedicalBase
   id: VendingMachineMedicalBaseSyndicate
-  name: Interdyne Commercial
+  name: Interdyne коммерческий
   suffix: Civilian
   description: It's a medical drug dispenser by Interdyne Pharmaceutics. For the Health of Humankind.
   components:
@@ -498,7 +498,7 @@
 - type: entity
   parent: VendingMachineMedicalBaseSyndicate
   id: VendingMachineMedicalSyndicate
-  name: Interdyne Enterprise
+  name: Interdyne корпоративный
   suffix: Departmental
   components:
   - type: VendingMachine
@@ -523,7 +523,7 @@
 - type: entity
   parent: VendingMachineWallmount
   id: VendingMachineWallMedicalCivilianSyndicate
-  name: Interdyne life-aid commercial
+  name: Interdyne медпомощь коммерческая
   suffix: Civilian, Wallmount
   description: It's a wall-mounted medical equipment dispenser by Interdyne Pharmaceutics. For the Health of Humankind.
   components:
@@ -554,7 +554,7 @@
 - type: entity
   parent: VendingMachineWallMedicalCivilianSyndicate
   id: VendingMachineWallMedicalSyndicate
-  name: Interdyne life-aid enterprise
+  name: Interdyne медпомощь корпоративная
   suffix: Departmental, Wallmount
   components:
   - type: VendingMachine
@@ -579,7 +579,7 @@
 - type: entity
   parent: VendingMachineMedicalBase
   id: VendingMachineMedicalBaseDeforest
-  name: DeForest Planetary
+  name: DeForest планетарный
   suffix: Civilian
   description: It's a medical drug dispenser by DeForest Medical. Health that Touches the Sky.
   components:
@@ -612,7 +612,7 @@
 - type: entity
   parent: VendingMachineMedicalBaseDeforest
   id: VendingMachineMedicalDeforest
-  name: DeForest Interstellar
+  name: DeForest межзвёздный
   suffix: Departmental
   components:
   - type: VendingMachine
@@ -637,7 +637,7 @@
 - type: entity
   parent: VendingMachineWallmount
   id: VendingMachineWallMedicalCivilianDeforest
-  name: DeForest health-aid planetary
+  name: DeForest медпомощь планетарная
   suffix: Civilian, Wallmount
   description: It's a wall-mounted medical equipment dispenser by DeForest Medical. Health that Touches the Sky.
   components:
@@ -668,7 +668,7 @@
 - type: entity
   parent: VendingMachineWallMedicalCivilianDeforest
   id: VendingMachineWallMedicalDeforest
-  name: DeForest health-aid interstellar
+  name: DeForest медпомощь межзвёздная
   suffix: Departmental, Wallmount
   components:
   - type: VendingMachine
@@ -693,7 +693,7 @@
 - type: entity
   parent: VendingMachineMedicalBase
   id: VendingMachineMedicalBaseGold
-  name: NanoMed Civilian GOLD
+  name: НаноМед гражданский GOLD
   suffix: Civilian
   description: The fact that you've arrived here-rather, to this NanoMed GOLD- at this moment in your life is nothing short of a miracle. It delights me to no end.
   components:
@@ -726,7 +726,7 @@
 - type: entity
   parent: VendingMachineMedicalBaseGold
   id: VendingMachineMedicalGold
-  name: NanoMed Plus GOLD
+  name: НаноМед Плюс GOLD
   suffix: Departmental
   components:
   - type: VendingMachine
@@ -751,7 +751,7 @@
 - type: entity
   parent: VendingMachineWallmount
   id: VendingMachineWallMedicalCivilianGold
-  name: NanoMed band-aid GOLD
+  name: НаноМед пластырь GOLD
   suffix: Civilian, Wallmount
   description: It's a luxury wall-mounted medical equipment dispenser.  It delights you to no end.
   components:
@@ -782,7 +782,7 @@
 - type: entity
   parent: VendingMachineWallMedicalCivilianGold
   id: VendingMachineWallMedicalGold
-  name: NanoMed GOLD
+  name: НаноМед GOLD
   suffix: Departmental, Wallmount
   components:
   - type: VendingMachine

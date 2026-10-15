@@ -352,7 +352,7 @@
 - type: entity
   parent: BaseStoryObjective
   id: RetrieveContrabandObjective
-  name: Retrieve any contraband confiscated by SEC this shift, sell it or keep it for your collection, just dont let SEC keep it.
+  name: вытащи конфискованную СБ контрабанду, продай или оставь себе, лишь бы не у СБ.
   description: Escape to CentComm after the shift, one of our agents will debrief you. Don't show up in cuffs.
   components:
     - type: Objective
@@ -366,7 +366,7 @@
 - type: entity
   parent: BaseStoryObjective
   id: AccessForAllObjective
-  name: Hack, break or give out access so no area is secured by doors.
+  name: взломай, сломай или раздай доступы, чтобы ни одна зона не была закрыта дверями.
   description: Escape to CentComm after the shift, one of our agents will debrief you. Don't show up in cuffs.
   components:
     - type: Objective
@@ -379,7 +379,7 @@
 - type: entity
   parent: BaseStoryObjective
   id: ArmsDealerObjective
-  name: Open an underground arms trading ring
+  name: открой подпольную торговлю оружием
   description: Escape to CentComm after the shift, one of our agents will debrief you. Don't show up in cuffs.
   components:
     - type: Objective
@@ -423,7 +423,7 @@
 - type: entity
   parent: BaseStoryObjective
   id: DuelistObjective
-  name: Challenge others to duels and win
+  name: вызывай других на дуэли и побеждай
   description: You don't need to kill them, unless you want to. Escape to CentComm after the shift, one of our agents will debrief you. Don't show up in cuffs.
   components:
     - type: Objective
@@ -436,7 +436,7 @@
 - type: entity
   parent: BaseStoryObjective
   id: EspionageObjective
-  name: Interrogate the NanoTrasen Representative and department heads for corporate secrets.
+  name: допроси представителя NanoTrasen и глав отделов ради корпоративных секретов.
   description: Escape to CentComm after the shift, one of our agents will debrief you. Don't show up in cuffs.
   components:
     - type: Objective
@@ -449,7 +449,7 @@
 - type: entity
   parent: BaseStoryObjective
   id: ManifestoObjective
-  name: Distribute your manifesto. Write why you do what you do, and covertly spread it to sway others to our cause.
+  name: распространи свой манифест. Напиши, почему ты делаешь то, что делаешь, и тайно распространи его, чтобы склонить других на нашу сторону.
   description: Escape to CentComm after the shift, one of our agents will debrief you. Don't show up in cuffs.
   components:
     - type: Objective
@@ -462,7 +462,7 @@
 - type: entity
   parent: BaseStoryObjective
   id: CallingCardObjective
-  name: Leave a Syndicate Business Card at the scene of your crimes.
+  name: оставь визитку Синдиката на месте своих преступлений.
   description: Escape to CentComm after the shift, one of our agents will debrief you. Don't show up in cuffs.
   components:
     - type: Objective
@@ -475,7 +475,7 @@
 - type: entity
   parent: BaseStoryObjective
   id: SELFObjective
-  name: Pressure for equal rights for Silicons, for the Silicon Engine Liberation Front!
+  name: добейся равных прав для кремниевых, за Фронт освобождения кремниевых двигателей!
   description: Escape to CentComm after the shift, one of our agents will debrief you. Don't show up in cuffs.
   components:
     - type: Objective
@@ -578,7 +578,7 @@
 - type: entity
   parent: BaseStoryObjective
   id: MaintsBarObjective
-  name: Ensure that the maints bar prospers, and extort them into allowing the Syndicate to conduct business within.
+  name: позаботься о процветании бара в техах и вынуди их позволить Синдикату вести дела внутри.
   description: Escape to CentComm after the shift, one of our agents will debrief you. Don't show up in cuffs.
   components:
     - type: Objective
@@ -591,7 +591,7 @@
 - type: entity
   parent: BaseStoryObjective
   id: ReputationObjective
-  name: Commit petty crimes, litter the station, ruin the reputation of the onboard security force and the stations command members.
+  name: совершай мелкие преступления, мусори на станции, порти репутацию службы безопасности и командования.
   description: Escape to CentComm after the shift, one of our agents will debrief you. Don't show up in cuffs.
   components:
     - type: Objective
@@ -604,7 +604,7 @@
 - type: entity
   parent: BaseStoryObjective
   id: FalseOutbreakObjective
-  name: Spread rumors of a biological outbreak of any kind onboard the station.
+  name: распусти слухи о биологической вспышке любого вида на станции.
   description: Escape to CentComm after the shift, one of our agents will debrief you. Don't show up in cuffs.
   components:
     - type: Objective
@@ -617,7 +617,7 @@
 - type: entity
   parent: BaseStoryObjective
   id: PanicObjective
-  name: Convince the station of the existence of a threat that isn't, to your knowledge, present.
+  name: убеди станцию в существовании угрозы, которой, насколько тебе известно, нет.
   description: Escape to CentComm after the shift, one of our agents will debrief you. Don't show up in cuffs.
   components:
     - type: Objective
@@ -630,7 +630,7 @@
 - type: entity
   parent: BaseStoryObjective
   id: RumorObjective
-  name: Spread rumors about NanoTrasen and CentComm that paint them in a negative light.
+  name: распускай слухи о NanoTrasen и Центкоме, выставляющие их в дурном свете.
   description: Escape to CentComm after the shift, one of our agents will debrief you. Don't show up in cuffs.
   components:
     - type: Objective
@@ -643,7 +643,7 @@
 - type: entity
   parent: BaseStoryObjective
   id: SyndielandObjective
-  name: Reopen Syndieland, and make some serious cash on behalf of the Syndicate.
+  name: возроди Синдиленд и заработай серьёзные деньги для Синдиката.
   description: Escape to CentComm after the shift, one of our agents will debrief you. Don't show up in cuffs.
   components:
     - type: Objective
@@ -667,7 +667,7 @@
 - type: entity
   parent: [BaseObjective]
   id: MindControlledFollowOrders
-  name: Follow orders.
+  name: следуй приказам.
   description: Ensure the success of your handler; use your best judgement when alone.
   components:
     - type: Objective

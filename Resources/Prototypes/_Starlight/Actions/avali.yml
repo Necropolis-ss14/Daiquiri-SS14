@@ -3,7 +3,7 @@
 
 - type: entity
   id: ActionStasisEnter
-  name: Enter Stasis
+  name: Войти в стазис
   description: Enter a state of suspended animation, healing damage over time but preventing movement and most actions.
   components:
     - type: Action
@@ -16,7 +16,7 @@
 
 - type: entity
   id: ActionStasisExit
-  name: Exit Stasis
+  name: Покинуть стазис
   description: Exit the state of suspended animation.
   components:
     - type: Action

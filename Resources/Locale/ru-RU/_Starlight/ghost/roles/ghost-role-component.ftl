@@ -85,8 +85,8 @@ ghost-role-information-tsf-officer-name = Патрульный офицер Со
 ghost-role-information-tsf-officer-Sheriff-name = Шериф Солгов
 ghost-role-information-tsf-officer-desc = Вы патрульный офицер Солнечной Федерации. Выполните назначенную задачу.
 
-ghost-role-information-xenomoproach-name = Ксеномопроуч
-ghost-role-information-xenomoproach-description = Вы маленький ксеноборг, носящий шкуру мопроуча как маскировку.
+ghost-role-information-xenomoproach-name = Ксенотаракамоль
+ghost-role-information-xenomoproach-description = Вы маленький ксеноборг, носящий шкуру таракамоля как маскировку.
 ghost-role-information-xenomoproach-rules = Вы [color={ role-type-team-antagonist-color }][bold]{ role-type-team-antagonist-name }[/bold][/color] вместе со всеми остальными ксеноборгами. Ваша цель — не атаковать органиков, вам поручено быть милыми и отвлекать органиков, собирая разведданные.
 
 ghost-role-information-slime-sentience-potion-description = Обрели сознание силой зелья разума. Не волнуйтесь, вы можете двигаться и говорить!

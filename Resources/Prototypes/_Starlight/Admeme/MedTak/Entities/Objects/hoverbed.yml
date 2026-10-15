@@ -1,8 +1,8 @@
 - type: entity
   id: MedTakHoverBed
-  name: MedTak hover-stretcher
+  name: ховер-носилки MedTak
   parent: [ RollerBed, BaseMedTakContraband ]
-  description: A repulsor-suspended stretcher system used by MedTak operators to transport patients.
+  description: Носилки на репульсорах для перевозки пациентов оперативниками MedTak.
   components:
   - type: Sprite
     sprite: _Starlight/Admeme/MedTak/Objects/hoverbed.rsi

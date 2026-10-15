@@ -3,7 +3,7 @@
 - type: entity
   parent: BorgEngineerSubtypeBase
   id: BorgEngineerSubtypeStandard
-  name: Standard # ITS ISNT A TYPO ITS STANDARD INSTEAD OF STANDART
+  name: Стандарт
   components:
     - type: BorgSubtypeDefinition
       spritePath: Mobs/Silicon/Chassis/engineer.rsi
@@ -68,7 +68,7 @@
 - type: entity
   parent: BorgEngineerSubtypeBase
   id: BorgEngineerSubtypeTallborgMMeka
-  name: MMeka Engineering
+  name: ММека инженерный
   components:
     - type: BorgSubtypeDefinition
       spritePath: _Starlight/Mobs/Silicon/Chassis/tallborgs/tallborgs-engi/mmeka_engi.rsi
@@ -148,7 +148,7 @@
 - type: entity
   parent: BorgJanitorSubtypeBase
   id: BorgJanitorSubtypeStandard
-  name: Standard # ITS ISNT A TYPO ITS STANDARD INSTEAD OF STANDART
+  name: "Standard # ITS ISNT A TYPO ITS STANDARD INSTEAD OF STANDART"
   components:
     - type: BorgSubtypeDefinition
       spritePath: Mobs/Silicon/Chassis/janitor.rsi
@@ -213,7 +213,7 @@
 - type: entity
   parent: BorgJanitorSubtypeBase
   id: BorgJanitorSubtypeTallborgMMeka
-  name: MMeka Janitor
+  name: ММека уборщик
   components:
     - type: BorgSubtypeDefinition
       spritePath: _Starlight/Mobs/Silicon/Chassis/tallborgs/tallborgs-jani/mmeka_jani.rsi
@@ -279,7 +279,7 @@
 - type: entity
   parent: BorgMedicalSubtypeBase
   id: BorgMedicalSubtypeDroid
-  name: Advanced Android
+  name: Продвинутый андроид
   components:
     - type: BorgSubtypeDefinition
       spritePath: Mobs/Silicon/Chassis/medical.rsi
@@ -318,7 +318,7 @@
 - type: entity
   parent: BorgMedicalSubtypeBase
   id: BorgMedicalSubtypeTallborgMMeka
-  name: MMeka Medical
+  name: ММека медицинский
   components:
     - type: BorgSubtypeDefinition
       spritePath: _Starlight/Mobs/Silicon/Chassis/tallborgs/tallborgs-med/mmeka_med.rsi
@@ -371,7 +371,7 @@
 - type: entity
   parent: BorgMiningSubtypeBase
   id: BorgMiningSubtypeDroid
-  name: Advanced Android
+  name: Продвинутый андроид
   components:
     - type: BorgSubtypeDefinition
       spritePath: Mobs/Silicon/Chassis/miner.rsi
@@ -423,7 +423,7 @@
 - type: entity
   parent: BorgMiningSubtypeBase
   id: BorgMiningSubtypeTallborgMMeka
-  name: MMeka Salvage
+  name: ММека утилизатор
   components:
     - type: BorgSubtypeDefinition
       spritePath: _Starlight/Mobs/Silicon/Chassis/tallborgs/tallborgs-salv/mmeka_salv.rsi
@@ -534,7 +534,7 @@
 - type: entity
   parent: BorgServiceSubtypeBase
   id: BorgServiceSubtypeTallborgMMeka
-  name: Meka Service
+  name: Мека сервисный
   components:
     - type: BorgSubtypeDefinition
       spritePath: _Starlight/Mobs/Silicon/Chassis/tallborgs/tallborgs-service/meka_alt_service.rsi
@@ -561,7 +561,7 @@
 - type: entity
   parent: BorgSecuritySubtypeBase
   id: BorgSecuritySubtypeRedKnight
-  name: Red Knight
+  name: Красный рыцарь
   components:
     - type: BorgSubtypeDefinition
       spritePath: _Starlight/Mobs/Silicon/Chassis/security.rsi
@@ -574,7 +574,7 @@
 - type: entity
   parent: BorgSecuritySubtypeBase
   id: BorgSecuritySubtypeBlackKnight
-  name: Black Knight
+  name: Чёрный рыцарь
   components:
     - type: BorgSubtypeDefinition
       spritePath: _Starlight/Mobs/Silicon/Chassis/security.rsi
@@ -679,7 +679,7 @@
 - type: entity
   parent: BorgCargoSubtypeBase
   id: BorgMiningSubtypeCargoRealTech
-  name: Real cargo tech
+  name: Настоящий грузовой техник
   components:
     - type: BorgSubtypeDefinition
       spritePath: Mobs/Silicon/Chassis/cargo.rsi
@@ -692,7 +692,7 @@
 - type: entity
   parent: BorgCargoSubtypeBase
   id: BorgCargoSubtypeTallborgMeka
-  name: Meka Cargo
+  name: Мека грузовой
   components:
     - type: BorgSubtypeDefinition
       spritePath: _Starlight/Mobs/Silicon/Chassis/tallborgs/tallborgs-cargo/meka_cargo.rsi
@@ -705,7 +705,7 @@
 - type: entity
   parent: BorgCargoSubtypeBase
   id: BorgCargoSubtypeTallborgMMeka
-  name: MMeka Cargo
+  name: ММека грузовой
   components:
     - type: BorgSubtypeDefinition
       spritePath: _Starlight/Mobs/Silicon/Chassis/tallborgs/tallborgs-cargo/mmeka_cargo.rsi
@@ -732,7 +732,7 @@
 - type: entity
   parent: BorgPurrfusSubtypeBase
   id: BorgPurrfusSubtypeGreen
-  name: Green Purrfus
+  name: Зелёный пуррфус
   components:
     - type: BorgSubtypeDefinition
       spritePath: _Starlight/Mobs/Silicon/Chassis/purrfus.rsi
@@ -745,7 +745,7 @@
 - type: entity
   parent: BorgPurrfusSubtypeBase
   id: BorgPurrfusSubtypeOrange
-  name: Orange Purrfus
+  name: Оранжевый пуррфус
   components:
     - type: BorgSubtypeDefinition
       spritePath: _Starlight/Mobs/Silicon/Chassis/purrfus.rsi
@@ -758,7 +758,7 @@
 - type: entity
   parent: BorgPurrfusSubtypeBase
   id: BorgPurrfusSubtypePink
-  name: Pink Purrfus
+  name: Розовый пуррфус
   components:
     - type: BorgSubtypeDefinition
       spritePath: _Starlight/Mobs/Silicon/Chassis/purrfus.rsi

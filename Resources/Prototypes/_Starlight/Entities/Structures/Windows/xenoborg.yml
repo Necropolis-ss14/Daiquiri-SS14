@@ -1,7 +1,7 @@
 - type: entity
   id: XenoborgWindowRCD
   parent: ReinforcedWindow
-  name: light xenoborg window
+  name: лёгкое окно ксеноборгов
   components:
   - type: Sprite
     drawdepth: WallTops

@@ -1,8 +1,8 @@
 - type: entity
   id: DefibrillatorBrigmedical
   parent: [ BaseDefibrillator, PowerCellSlotMediumItem ]
-  name: brigmedic defibrillator
-  description: Hand-held device that can save lives, and act as a weapon in a pinch.
+  name: дефибриллятор бригмедика
+  description: Ручной прибор, спасает жизни, а при нужде сойдёт за оружие.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Specific/Medical/defibbrig.rsi
@@ -86,8 +86,8 @@
 - type: entity
   id: DefibrillatorParamed
   parent: Defibrillator
-  name: paramedic defibrillator
-  description: A more compact defibrilator for paramedics to carry, with a small storage compartment for medical supplies and spare cells
+  name: дефибриллятор парамедика
+  description: Компактный дефибриллятор для парамедиков, с отсеком под расходники и запасные батареи.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Specific/Medical/defibpara.rsi

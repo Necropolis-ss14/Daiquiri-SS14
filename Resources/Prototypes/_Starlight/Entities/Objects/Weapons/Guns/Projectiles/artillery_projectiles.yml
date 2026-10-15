@@ -3,7 +3,7 @@
 # --- DRAVON 75mm HE ---
 - type: entity
   id: BulletDravon75mmHE
-  name: DVN-75 75mm HE shell
+  name: фугасный снаряд DVN-75 75мм
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
   components:
@@ -39,7 +39,7 @@
 # --- AK570 90mm HE ---
 - type: entity
   id: BulletAK570_90mmHE
-  name: AK-90 90mm HE shell
+  name: фугасный снаряд AK-90 90мм
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
   components:
@@ -75,7 +75,7 @@
 # --- LEVIATHAN 240mm HE (single-shot, massive AOE) ---
 - type: entity
   id: BulletLeviathan240mmHE
-  name: LVT-240 240mm HE shell
+  name: фугасный снаряд LVT-240 240мм
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
   components:
@@ -113,7 +113,7 @@
 
 - type: entity
   id: BulletGrenade120mmBlast
-  name: 120mm blast grenade
+  name: фугасная граната 120мм
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
   components:
@@ -146,7 +146,7 @@
 # M381 CHARYBDIS 280mm 26.5kg Slug
 - type: entity
   id: BulletCharon280mmSlug
-  name: M381 CHARYBDIS 280mm slug
+  name: снаряд M381 «Харибда» 280мм
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
   components:
@@ -182,7 +182,7 @@
 # M381 CHARYBDIS 280mm 40kg Subnuclear Slug
 - type: entity
   id: BulletCharon280mmSubnuclear
-  name: M381 CHARYBDIS 280mm subnuclear slug
+  name: субъядерный снаряд M381 «Харибда» 280мм
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
   components:

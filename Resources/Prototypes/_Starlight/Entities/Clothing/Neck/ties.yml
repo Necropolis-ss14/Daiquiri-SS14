@@ -3,7 +3,7 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckTieBlue
-  name: blue tie
+  name: синий галстук
   description: A lovely blue necktie, perfect for job interviews.
   components:
   - type: Sprite
@@ -18,7 +18,7 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckTieBrown
-  name: brown tie
+  name: коричневый галстук
   description: Colored cargo brown, this tie shows off your professionalism and skill at moving crates.
   components:
   - type: Sprite
@@ -33,7 +33,7 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckTieGreen
-  name: green tie
+  name: зелёный галстук
   description: A bright lime green tie in the colors of the service department. Very snazzy.
   components:
   - type: Sprite
@@ -48,7 +48,7 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckTieGrey
-  name: grey tie
+  name: серый галстук
   description: Tider grey tie, for looking sharp in the maintenance tunnels.
   components:
   - type: Sprite

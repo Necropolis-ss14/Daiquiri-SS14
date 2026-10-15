@@ -1,6 +1,6 @@
 - type: entity
   id: BulletPistolRubber
-  name: bullet (.35 auto rubber)
+  name: пуля (.35 auto резиновый)
   parent: BaseBulletRubber
   categories: [ HideSpawnMenu ]
   components:

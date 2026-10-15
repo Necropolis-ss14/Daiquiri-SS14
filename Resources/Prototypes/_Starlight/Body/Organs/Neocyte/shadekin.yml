@@ -1,9 +1,9 @@
 - type: entity
   id: OrganNeoKinEyes
   parent: OrganNeocyteEyes
-  name: ent-OrganNeoKinEyes
+  name: кибернетические глаза шейдкина
   suffix: NeoKin
-  description: ent-OrganNeoKinEyes-desc
+  description: Кибернетические глаза черноглазого шейдкина, который больше никогда не увидит родную реальность. Отлично видят ночью, но из-за этого очень чувствительны к ярким вспышкам.
   components:
   - type: FunctionalOrgan
     comps:

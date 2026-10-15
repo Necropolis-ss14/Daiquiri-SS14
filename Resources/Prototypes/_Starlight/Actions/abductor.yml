@@ -1,7 +1,7 @@
 ﻿# Actions
 - type: entity
   id: ActionExitConsole
-  name: Exit console
+  name: Покинуть консоль
   description: Exit console.
   components:
   - type: Action
@@ -17,7 +17,7 @@
 
 - type: entity
   id: ActionSendYourself
-  name: Send yourself
+  name: Отправить себя
   description: send yourself.
   components:
   - type: Action

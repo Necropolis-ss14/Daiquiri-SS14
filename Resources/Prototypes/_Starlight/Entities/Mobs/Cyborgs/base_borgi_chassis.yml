@@ -197,7 +197,7 @@
 - type: entity
   parent: [ BaseBorgiChassis, BaseBorgTransponder ]
   id: BaseStationBorgiChassis
-  name: Smart Borgi
+  name: Умный борги
   description: A unusually smart dog, loves stating it's laws.
   save: false
   abstract: true
@@ -244,7 +244,7 @@
 - type: entity
   parent: BaseBorgiChassis
   id: BaseSyndicateBorgiChassis
-  name: Syndi Borgi
+  name: Синди-борги
   description: An unusually smart dog, but hell bent on MURDER.
   suffix: Antag
   components:

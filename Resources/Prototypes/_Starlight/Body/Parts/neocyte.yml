@@ -1,7 +1,7 @@
 - type: entity
   id: PartNeocyte
   parent: [BaseItem, BasePart]
-  name: ent-PartNeocyte
+  name: часть тела неоцита
   abstract: true
   components:
   - type: Extractable
@@ -16,7 +16,7 @@
 
 - type: entity
   id: TorsoNeocyte
-  name: ent-TorsoNeocyte
+  name: туловище неоцита
   parent: [PartNeocyte, BaseTorso]
   components:
   - type: Sprite
@@ -34,7 +34,7 @@
 
 - type: entity
   id: HeadNeocyte
-  name: ent-HeadNeocyte
+  name: голова неоцита
   parent: [PartNeocyte, BaseHead]
   components:
   - type: Sprite
@@ -52,7 +52,7 @@
 
 - type: entity
   id: LeftArmNeocyte
-  name: ent-LeftArmNeocyte
+  name: левая рука неоцита
   parent: [PartNeocyte, BaseLeftArm]
   components:
   - type: Sprite
@@ -61,7 +61,7 @@
 
 - type: entity
   id: RightArmNeocyte
-  name: ent-RightArmNeocyte
+  name: правая рука неоцита
   parent: [PartNeocyte, BaseRightArm]
   components:
   - type: Sprite
@@ -70,7 +70,7 @@
 
 - type: entity
   id: LeftHandNeocyte
-  name: ent-LeftHandNeocyte
+  name: левая кисть неоцита
   parent: [PartNeocyte, BaseLeftHand]
   components:
   - type: Sprite
@@ -79,7 +79,7 @@
 
 - type: entity
   id: RightHandNeocyte
-  name: ent-RightHandNeocyte
+  name: правая кисть неоцита
   parent: [PartNeocyte, BaseRightHand]
   components:
   - type: Sprite
@@ -88,7 +88,7 @@
 
 - type: entity
   id: LeftLegNeocyte
-  name: ent-LeftLegNeocyte
+  name: левая нога неоцита
   parent: [PartNeocyte, BaseLeftLeg]
   components:
   - type: Sprite
@@ -97,7 +97,7 @@
 
 - type: entity
   id: RightLegNeocyte
-  name: ent-RightLegNeocyte
+  name: правая нога неоцита
   parent: [PartNeocyte, BaseRightLeg]
   components:
   - type: Sprite
@@ -106,7 +106,7 @@
 
 - type: entity
   id: LeftFootNeocyte
-  name: ent-LeftFootNeocyte
+  name: левая стопа неоцита
   parent: [PartNeocyte, BaseLeftFoot]
   components:
   - type: Sprite
@@ -115,7 +115,7 @@
 
 - type: entity
   id: RightFootNeocyte
-  name: ent-RightFootNeocyte
+  name: правая стопа неоцита
   parent: [PartNeocyte, BaseRightFoot]
   components:
   - type: Sprite
@@ -126,7 +126,7 @@
 
 - type: entity
   id: TorsoNeoVulpkanin
-  name: ent-TorsoNeoVulpkanin
+  name: туловище нео-вульпканина
   parent: TorsoNeocyte
   components:
   - type: Sprite
@@ -135,7 +135,7 @@
 
 - type: entity
   id: HeadNeoVulpkanin
-  name: ent-HeadNeoVulpkanin
+  name: голова нео-вульпканина
   parent: HeadNeocyte
   components:
   - type: Sprite
@@ -144,7 +144,7 @@
 
 - type: entity
   id: LeftArmNeoVulpkanin
-  name: ent-LeftArmNeoVulpkanin
+  name: левая рука нео-вульпканина
   parent: LeftArmNeocyte
   components:
   - type: Sprite
@@ -153,7 +153,7 @@
 
 - type: entity
   id: RightArmNeoVulpkanin
-  name: ent-RightArmNeoVulpkanin
+  name: правая рука нео-вульпканина
   parent: RightArmNeocyte
   components:
   - type: Sprite
@@ -162,7 +162,7 @@
 
 - type: entity
   id: LeftHandNeoVulpkanin
-  name: ent-LeftHandNeoVulpkanin
+  name: левая кисть нео-вульпканина
   parent: LeftHandNeocyte
   components:
   - type: Sprite
@@ -171,7 +171,7 @@
 
 - type: entity
   id: RightHandNeoVulpkanin
-  name: ent-RightHandNeoVulpkanin
+  name: правая кисть нео-вульпканина
   parent: RightHandNeocyte
   components:
   - type: Sprite
@@ -182,7 +182,7 @@
 
 - type: entity
   id: LeftHandNeoVox
-  name: ent-LeftHandNeoVox
+  name: левая кисть нео-вокса
   parent: LeftHandNeocyte
   components:
   - type: Sprite
@@ -191,7 +191,7 @@
 
 - type: entity
   id: RightHandNeoVox
-  name: ent-RightHandNeoVox
+  name: правая кисть нео-вокса
   parent: RightHandNeocyte
   components:
   - type: Sprite
@@ -200,7 +200,7 @@
 
 - type: entity
   id: LeftFootNeoVox
-  name: ent-LeftFootNeoVox
+  name: левая стопа нео-вокса
   parent: LeftFootNeocyte
   components:
   - type: Sprite
@@ -209,7 +209,7 @@
 
 - type: entity
   id: RightFootNeoVox
-  name: ent-RightFootNeoVox
+  name: правая стопа нео-вокса
   parent: RightFootNeocyte
   components:
   - type: Sprite

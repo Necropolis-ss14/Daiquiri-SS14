@@ -1,7 +1,7 @@
 ## Punct
 - type: entity
-  name: red punct-laced brute pack
-  description: Specalized mixture of Puncturase and Security-Quality Red Goo. Best used for bullet-wounds, as it is much less effective on other types of damage.
+  name: красный пак с пунктурой
+  description: Спецсмесь пунктуразы и красной слизи охранного качества. Лучше всего от пулевых, против остального слабее.
   parent: BaseStarlightHealingItem
   id: RedPunctPack
   suffix: 20
@@ -37,8 +37,8 @@
         - IPC
 
 - type: entity
-  name: red punct-laced brute pack
-  description: Specalized mixture of Puncturase and Security-Quality Red Goo. Best used for bullet-wounds, as it is much less effective on other types of damage.
+  name: красный пак с пунктурой
+  description: Спецсмесь пунктуразы и красной слизи охранного качества. Лучше всего от пулевых, против остального слабее.
   parent: RedPunctPack
   id: RedPunctPack1
   suffix: 1
@@ -50,8 +50,8 @@
     count: 1
 
 - type: entity
-  name: red punct-laced brute pack
-  description: Specalized mixture of Puncturase and Security-Quality Red Goo. Best used for bullet-wounds, as it is much less effective on other types of damage.
+  name: красный пак с пунктурой
+  description: Спецсмесь пунктуразы и красной слизи охранного качества. Лучше всего от пулевых, против остального слабее.
   parent: RedPunctPack
   id: RedPunctPack10
   suffix: 10
@@ -71,8 +71,8 @@
 
 ## Lace
 - type: entity
-  name: red lace-laced brute pack
-  description: Specalized mixture of Lacerinol and Security-Quality Red Goo. Best used for stab-wounds, as it is much less effective on other types of damage.
+  name: красный пак с лейсом
+  description: Спецсмесь лацеринола и красной слизи охранного качества. Лучше всего от колотых, против остального слабее.
   parent: BaseStarlightHealingItem
   id: RedLacePack
   suffix: 20
@@ -108,8 +108,8 @@
         - IPC
 
 - type: entity
-  name: red lace-laced brute pack
-  description: Specalized mixture of Lacerinol and Security-Quality Red Goo. Best used for stab-wounds, as it is much less effective on other types of damage.
+  name: красный пак с лейсом
+  description: Спецсмесь лацеринола и красной слизи охранного качества. Лучше всего от колотых, против остального слабее.
   parent: RedLacePack
   id: RedLacePack1
   suffix: 1
@@ -121,8 +121,8 @@
     count: 1
 
 - type: entity
-  name: red lace-laced brute pack
-  description: Specalized mixture of Lacerinol and Security-Quality Red Goo. Best used for stab-wounds, as it is much less effective on other types of damage.
+  name: красный пак с лейсом
+  description: Спецсмесь лацеринола и красной слизи охранного качества. Лучше всего от колотых, против остального слабее.
   parent: RedLacePack
   id: RedLacePack10
   suffix: 10
@@ -142,8 +142,8 @@
 
 ## Bruiz
 - type: entity
-  name: red bruiz-laced brute pack
-  description: Specalized mixture of Bruizine and Security-Quality Red Goo. Best used for blunt-force trauma, as it is much less effective on other types of damage.
+  name: красный пак с бруизином
+  description: Спецсмесь бруизина и красной слизи охранного качества. Лучше всего от тупых травм, против остального слабее.
   parent: BaseStarlightHealingItem
   id: RedBruizPack
   suffix: 20
@@ -178,8 +178,8 @@
         - IPC
 
 - type: entity
-  name: red bruiz-laced brute pack
-  description: Specalized mixture of Bruizine and Security-Quality Red Goo. Best used for blunt-force trauma, as it is much less effective on other types of damage.
+  name: красный пак с бруизином
+  description: Спецсмесь бруизина и красной слизи охранного качества. Лучше всего от тупых травм, против остального слабее.
   parent: RedBruizPack
   id: RedBruizPack1
   suffix: 1
@@ -191,8 +191,8 @@
     count: 1
 
 - type: entity
-  name: red bruiz-laced brute pack
-  description: Specalized mixture of Bruizine and Security-Quality Red Goo. Best used for blunt-force trauma, as it is much less effective on other types of damage.
+  name: красный пак с бруизином
+  description: Спецсмесь бруизина и красной слизи охранного качества. Лучше всего от тупых травм, против остального слабее.
   parent: RedBruizPack
   id: RedBruizPack10
   suffix: 10

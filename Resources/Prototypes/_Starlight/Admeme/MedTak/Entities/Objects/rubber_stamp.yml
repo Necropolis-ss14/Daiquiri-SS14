@@ -1,8 +1,8 @@
 - type: entity
-  name: MedTak rubber stamp
+  name: печать MedTak
   parent: [ RubberStampBase, BaseMedTakContraband ]
   id: RubberStampMedTak
-  description: A rubber stamp for stamping important documents. Healthcare isn't free.
+  description: Печать для важных документов. Медицина не бесплатна.
   categories: [ DoNotMap ]
   components:
   - type: Stamp

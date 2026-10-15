@@ -2,7 +2,7 @@
   id: IceCreamMaker
   categories: [ ShouldMapStation ]
   parent: [BaseMachinePowered, SmallConstructibleMachine]
-  name: ice cream maker
+  name: мороженица
   description: "Morale-boosting deserts, coming up."
   components:
   - type: CookingDevice

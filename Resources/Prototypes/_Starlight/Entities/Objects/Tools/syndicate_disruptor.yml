@@ -22,7 +22,7 @@
 - type: entity
   parent: BaseEventSelector
   id: SyndicateDisruptor
-  name: syndicate disruptor
+  name: дизраптор Синдиката
   description: Call in various disruptions to create opportunities, such as power or comms outages. Each feature applies a different cooldown.
   suffix: agent
   components:
@@ -68,7 +68,7 @@
 - type: entity
   parent: BaseEventSelector
   id: SyndicateDisruptorSignaller
-  name: syndicate disruptor signaller
+  name: сигнализатор дизраптора Синдиката
   description: Call in various disruptions to create opportunities, such as power or comms outages. Each feature applies a different cooldown.
   suffix: signaller
   components:

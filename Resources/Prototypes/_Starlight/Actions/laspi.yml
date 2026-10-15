@@ -1,6 +1,6 @@
 - type: entity
   id: ActionInnateHairChange
-  name: Change Hairstyle
+  name: Сменить причёску
   description: Change your hairstyle.
   components:
     - type: Action

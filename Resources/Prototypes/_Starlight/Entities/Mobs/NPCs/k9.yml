@@ -1,7 +1,7 @@
 - type: entity
   parent: MobCorgiBase
   id: MobK9
-  name: security K9
+  name: К9 безопасности
   description: A dog trained for station security work.
   components:
   - type: RemoveFlavorText

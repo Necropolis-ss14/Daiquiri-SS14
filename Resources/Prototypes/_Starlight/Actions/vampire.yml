@@ -3,7 +3,7 @@
 - type: entity
   parent: BaseAction
   id: ActionVampireToggleFangs
-  name: Toggle Fangs
+  name: Переключить клыки
   description: Extend or retract your fangs to drink blood from victims.
   components:
     - type: Action
@@ -46,7 +46,7 @@
 - type: entity
   parent: BaseAction
   id: ActionVampireSleep
-  name: Sleep (15)
+  name: Сон (15)
   description: Send a victim to a temporary sleep.
   components:
     - type: Action
@@ -94,7 +94,7 @@
 - type: entity
   parent: BaseAction
   id: ActionVampireRejuvenateII
-  name: Rejuvenate II
+  name: Омоложение II
   description: Removes any and all stuns, restores stamina. Purges poisons and heals you over time.
   components:
     - type: Action
@@ -126,7 +126,7 @@
 - type: entity
   parent: BaseAction
   id: ActionClassSelectId
-  name: Choose Vampire Class
+  name: Выбрать класс вампира
   description: Choose your vampire subclass.
   components:
     - type: Action
@@ -147,7 +147,7 @@
 - type: entity
   parent: BaseAction
   id: ActionVampireHemomancerClaws
-  name: Vampiric Claws (30)
+  name: Вампирские когти (30)
   description: Morph hands into blood claws. Siphon blood with every strike. Your claws will vanish after several successful drains or active use.
   components:
     - type: Action
@@ -167,7 +167,7 @@
 - type: entity
   parent: BaseAction
   id: ActionVampireSanguinePool
-  name: Sanguine Pool (30)
+  name: Кровавая лужа (30)
   description: Melt into a pool of blood, allowing you to slip under doors and windows.
   components:
     - type: Action
@@ -187,7 +187,7 @@
 - type: entity
   parent: BaseAction
   id: ActionVampireHemomancerTendrils
-  name: Blood Tendrils (25)
+  name: Кровавые щупальца (25)
   description: Tendrils erupt in a square formation, poisoning and slowing victims.
   components:
     - type: Action
@@ -210,7 +210,7 @@
 - type: entity
   parent: BaseAction
   id: ActionVampireBloodBarrier
-  name: Blood Barrier (40)
+  name: Кровавый барьер (40)
   description: Conjure blood barriers in a line at the target location. Only you may pass the barriers.
   components:
     - type: Action
@@ -234,7 +234,7 @@
 - type: entity
   parent: BaseAction
   id: ActionVampirePredatorSense
-  name: Predator Sense (20)
+  name: Чутьё хищника (20)
   description: Hunt down your prey, there's nowhere to hide...
   components:
     - type: Action
@@ -254,7 +254,7 @@
 - type: entity
   parent: BaseAction
   id: ActionVampireBloodEruption
-  name: Blood Eruption (100)
+  name: Кровавое извержение (100)
   description: Erupt damage-dealing blood puddles around you.
   components:
     - type: Action
@@ -279,7 +279,7 @@
 - type: entity
   parent: BaseAction
   id: ActionVampireBloodBringersRite
-  name: Blood Bringers Rite (10/2s)
+  name: Ритуал несущих кровь (10/2с)
   description: Toggle a devastating aura that siphons the life force of nearby victims to heal you.
   components:
     - type: Action
@@ -311,7 +311,7 @@
 - type: entity
   parent: BaseAction
   id: ActionVampireCloakOfDarkness
-  name: Cloak of Darkness
+  name: Плащ тьмы
   description: Toggle stealth that is strongest in darkness and weakest in bright light. Nearby mobs reveal you.
   components:
     - type: Action
@@ -331,7 +331,7 @@
 - type: entity
   parent: BaseAction
   id: ActionVampireShadowSnare
-  name: Shadow Snare (20)
+  name: Теневой силок (20)
   description: Place a damaging shadow trap in wait for victims. The trap slows and emits a blinding flash.
   components:
     - type: Action
@@ -355,7 +355,7 @@
 - type: entity
   parent: BaseAction
   id: ActionVampireShadowAnchor
-  name: Shadow Anchor (20)
+  name: Теневой якорь (20)
   description: Plant a shadow anchor at your feet. Reactivate to warp back to your anchor or face an automatic recall.
   components:
     - type: Action
@@ -375,7 +375,7 @@
 - type: entity
   parent: BaseAction
   id: ActionVampireShadowBoxing
-  name: Shadow Boxing (50)
+  name: Теневой бой (50)
   description: Command your shadow bats to assault. The swarm disperses if you move too far away.
   components:
     - type: Action
@@ -410,7 +410,7 @@
 - type: entity
   parent: BaseAction
   id: ActionVampireDarkPassage
-  name: Dark Passage (20)
+  name: Тёмный проход (20)
   description: Teleport to target location using the shadows.
   components:
     - type: Action
@@ -434,7 +434,7 @@
 - type: entity
   parent: BaseAction
   id: ActionVampireExtinguish
-  name: Extinguish Lights
+  name: Погасить свет
   description: Shatter nearby powered lights.
   components:
     - type: Action
@@ -454,7 +454,7 @@
 - type: entity
   parent: BaseAction
   id: ActionVampireEternalDarkness
-  name: Eternal Darkness
+  name: Вечная тьма
   description: Toggle to shroud the area around you in darkness; you radiate an unnatural chill.
   components:
     - type: Action
@@ -483,7 +483,7 @@
 - type: entity
   parent: BaseAction
   id: ActionVampireEnthrall
-  name: Enthrall (150)
+  name: Поработить (150)
   description: Channel to bend a humanoid target to your will. Movement by you or them will break the link.
   components:
     - type: Action
@@ -512,7 +512,7 @@
 - type: entity
   parent: BaseAction
   id: ActionVampirePacify
-  name: Pacify (30)
+  name: Усмирить (30)
   description: Flood a victim's mind with bliss, pacifying them.
   components:
     - type: Action
@@ -541,7 +541,7 @@
 - type: entity
   parent: BaseAction
   id: ActionVampireSubspaceSwap
-  name: Subspace Swap (30)
+  name: Подпространственный обмен (30)
   description: Swap places with a mortal. The victim is slowed and spirals into madness.
   components:
     - type: Action
@@ -579,7 +579,7 @@
 - type: entity
   parent: BaseAction
   id: ActionVampireDecoy
-  name: Decoy (30)
+  name: Приманка (30)
   description: Manifest a decoy that allows you to become invisible. The decoy flashes a blinding effect at attackers when harmed.
   components:
     - type: Action
@@ -601,7 +601,7 @@
 - type: entity
   parent: BaseAction
   id: ActionVampireRallyThralls
-  name: Rally Thralls (100)
+  name: Созвать рабов (100)
   description: Command thralls to shake off stuns, wake up, and regain their stamina.
   components:
     - type: Action
@@ -621,7 +621,7 @@
 - type: entity
   parent: BaseAction
   id: ActionVampireBloodBond
-  name: Blood Bond (2.5/1s)
+  name: Кровавая связь (2.5/1с)
   description: Toggle to attach blood tethers to nearby visible thralls, splitting your incoming damage across the group.
   components:
     - type: Action
@@ -645,7 +645,7 @@
 - type: entity
   parent: BaseAction
   id: ActionVampireMassHysteria
-  name: Mass Hysteria (70)
+  name: Массовая истерия (70)
   description: Flood all nearby non-thrall humanoids with terror causing hysteria.
   components:
     - type: Action
@@ -678,7 +678,7 @@
 - type: entity
   parent: BaseAction
   id: ActionVampireBloodSwell
-  name: Blood Swell (30)
+  name: Прилив крови (30)
   description: Enter a temporary state that hardens your skin. Unable to use guns. At (400) blood, deal bonus melee damage.
   components:
     - type: Action
@@ -712,7 +712,7 @@
 - type: entity
   parent: BaseAction
   id: ActionVampireBloodRush
-  name: Blood Rush (30)
+  name: Кровавый рывок (30)
   description: For a limited time, run with unnatural swiftness.
   components:
     - type: Action
@@ -734,7 +734,7 @@
 - type: entity
   parent: BaseAction
   id: ActionVampireSeismicStomp
-  name: Seismic Stomp (30)
+  name: Сейсмический топот (30)
   description: Slam the ground, throwing all creatures away from you.
   components:
     - type: Action
@@ -754,7 +754,7 @@
 - type: entity
   parent: BaseAction
   id: ActionVampireOverwhelmingForce
-  name: Overwhelming Force
+  name: Сокрушительная сила
   description: When toggled, you cannot be shoved, pushed or pulled. You automatically pry open powered doors at a blood cost. (15)
   components:
     - type: Action
@@ -774,7 +774,7 @@
 - type: entity
   parent: BaseAction
   id: ActionVampireDemonicGrasp
-  name: Demonic Grasp (20)
+  name: Демоническая хватка (20)
   description: Launch a demonic hand that immobilizes the target. In combat mode, also pulls them towards you.
   components:
     - type: Action
@@ -803,7 +803,7 @@
 - type: entity
   parent: BaseAction
   id: ActionVampireCharge
-  name: Charge (30)
+  name: Рывок (30)
   description: Charge until impacting an obstacle or the void. Deals heavy damage and flings creatures backward, while obliterating walls and structures.
   components:
     - type: Action

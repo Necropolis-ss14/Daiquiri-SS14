@@ -13,7 +13,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeStuffing
-  name: stuffing recipe
+  name: Рецепт начинки
   result: FoodStuffing
   time: 15
   deviceType: Oven
@@ -25,7 +25,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeStuffingCotton
-  name: cotton stuffing recipe
+  name: Рецепт хлопковой начинки
   result: FoodStuffingCotton
   time: 15
   deviceType: Oven
@@ -37,7 +37,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeFeastFestiveDinner
-  name: festive feast recipe
+  name: Рецепт праздничного пира
   result: FoodFeastFestiveDinner
   time: 5
   solids:
@@ -48,7 +48,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeFeastTurkey
-  name: turkey recipe
+  name: Рецепт индейки
   result: FoodFeastTurkey
   time: 30
   reagents:
@@ -62,7 +62,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeFeastPotatoMashed
-  name: big mashed potato recipe
+  name: Рецепт большого пюре
   result: FoodFeastPotatoMashed
   time: 10
   reagents:
@@ -73,7 +73,7 @@
 
 - type: microwaveMealRecipe
   id: RecipePotatoMashed
-  name: small mashed potato recipe
+  name: Рецепт малого пюре
   result: FoodPotatoMashed
   time: 5
   reagents:
@@ -84,7 +84,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeFeastPotatoGravy
-  name: big gravy potato recipe
+  name: Рецепт большой картошки с подливой
   result: FoodFeastPotatoGravy
   time: 5
   reagents:
@@ -94,7 +94,7 @@
 
 - type: microwaveMealRecipe
   id: RecipePotatoGravy
-  name: small gravy potato recipe
+  name: Рецепт малой картошки с подливой
   result: FoodPotatoGravy
   time: 5
   reagents:

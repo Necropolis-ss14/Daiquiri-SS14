@@ -2,8 +2,8 @@
   id: TophatThatFuckingKillsYou
   parent: ClothingHeadHatMagician
   suffix: Admeme
-  name: hat that kills you if you take it off
-  description: Does what it says on the tin. Literally fucking evil ass hat. Don't wear this unless you hate yourself.
+  name: шляпа, что убьёт тебя, если снимешь
+  description: Что написано, то и делает. Буквально ебуче злая шляпа. Не надевай, если себя не ненавидишь.
   components:
     - type: DamageOnEquip
       unequipDamage:
@@ -22,7 +22,7 @@
   id: TophatThatFuckingGibsYou
   parent: TophatThatFuckingKillsYou
   suffix: Admeme
-  name: hat that gibs you if you take it off
+  name: шляпа, что расчленит тебя, если снимешь
   components:
     - type: DamageOnEquip
       unequipDamage:
@@ -37,7 +37,7 @@
   id: TophatThatFuckingAshesYou
   parent: TophatThatFuckingKillsYou
   suffix: Admeme
-  name: hat that ashes you if you take it off
+  name: шляпа, что испепелит тебя, если снимешь
   components:
     - type: DamageOnEquip
       unequipDamage:

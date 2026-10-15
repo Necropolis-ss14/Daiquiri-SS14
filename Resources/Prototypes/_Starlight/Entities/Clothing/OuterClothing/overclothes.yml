@@ -1,7 +1,7 @@
 - type: entity
   parent: [ClothingOuterStorageBase, AllowSuitStorageClothing, ClothingOuterBaseWarm]
   id: ClothingOuterBurnedRobes
-  name: burned robes
+  name: обгоревшие робы
   description: They are riddles with burn marks and smell like ash.
   components:
   - type: Sprite
@@ -31,7 +31,7 @@
 - type: entity
   parent: [ClothingOuterStorageBase, ClothingOuterBaseWarm, AllowSuitStorageClothing]
   id: ClothingOuterRedLeather
-  name: red leather jacket
+  name: красная кожаная куртка
   description: Slick. Would look greasy with a pair of sunglasses.
   components:
   - type: Sprite
@@ -46,7 +46,7 @@
 - type: entity
   parent: [ClothingOuterStorageBase, ClothingOuterBaseWarm, AllowSuitStorageClothing]
   id: ClothingOuterRoughSweater
-  name: rough sweater
+  name: грубый свитер
   description: Smells like buttercups.
   components:
   - type: Sprite
@@ -61,7 +61,7 @@
 - type: entity
   parent: [ClothingOuterStorageBase, ClothingOuterBaseWarm, AllowSuitStorageClothing]
   id: ClothingOuterSoftSweater
-  name: soft sweater
+  name: мягкий свитер
   description: Smells like determination.
   components:
   - type: Sprite
@@ -76,7 +76,7 @@
 - type: entity
   parent: [ClothingOuterStorageBase, ClothingOuterBaseWarm, AllowSuitStorageClothing]
   id: ClothingOuterLargeShirt
-  name: large shirt
+  name: большая рубашка
   description: It could fit two of you!
   components:
   - type: Sprite
@@ -92,7 +92,7 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingUniformApron
-  name: elegant apron
+  name: элегантный фартук
   description: Apron made from high-quality, smooth fabric with a soft sheen. Fits perfectly.
   components:
     - type: Sprite
@@ -103,7 +103,7 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterBrimstoneDT4
-  name: hell mark
+  name: адская метка
   description: Blood laser barrage!
   components:
   - type: Sprite
@@ -114,7 +114,7 @@
 - type: entity
   parent: ClothingOuterBaseWarm
   id: ClothingOuterBunnyGang
-  name: Bunny Gang Robe
+  name: роба заячьей банды
   description: The robe of a secretive group of bunny mercenaries.
   components:
   - type: Sprite

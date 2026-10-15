@@ -2,8 +2,8 @@
   parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase, BaseMedTakContraband ]
   id: ClothingHeadHelmetHardsuitMedTak
   categories: [ HideSpawnMenu ]
-  name: MedTak operator helmet
-  description: An armoured helmet worn by MedTak operators.
+  name: шлем оператора MedTak
+  description: Бронированный шлем оперативников MedTak.
   components:
   - type: Sprite
     sprite: _Starlight/Admeme/MedTak/Clothing/Head/Hardsuits/standard_helmet.rsi

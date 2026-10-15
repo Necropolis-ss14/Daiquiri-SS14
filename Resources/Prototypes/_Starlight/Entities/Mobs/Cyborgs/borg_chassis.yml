@@ -1,7 +1,7 @@
 - type: entity
   id: BorgChassisSyndicateStealth
   parent: BaseBorgChassisSyndicate
-  name: syndicate stealth cyborg
+  name: стелс-киборг синдиката
   components:
   - type: TextToSpeech
   - type: Sprite
@@ -38,7 +38,7 @@
 - type: entity
   id: BorgChassisSecurity
   parent: BorgChassisSelectable
-  name: security cyborg
+  name: охранный киборг
   components:
   - type: BorgSwitchableType
     selectedBorgType: security
@@ -93,7 +93,7 @@
 - type: entity
   id: BorgChassisSecurityPowered
   parent: BorgChassisSecurity
-  name: security cyborg
+  name: охранный киборг
   suffix: Powered
   components:
   - type: ItemSlots
@@ -108,7 +108,7 @@
 - type: entity
   id: BorgChassisPurrfus
   parent: BorgChassisSelectable
-  name: purrfus cyborg
+  name: киборг-пурфус
   components:
   - type: TextToSpeech
   - type: BorgSwitchableType
@@ -117,7 +117,7 @@
 - type: entity
   id: PurrfusBorgChassisDerelict
   parent: BaseBorgChassisDerelict
-  name: derelict purrfus cyborg
+  name: заброшенный киборг-пурфус
   description: A man-machine hybrid of the purrfus variety. This one is in a state of great disrepair.
   components:
   - type: Sprite
@@ -159,7 +159,7 @@
 - type: entity
   id: BorgChassisCargo
   parent: BorgChassisSelectable
-  name: cargo cyborg
+  name: грузовой киборг
   components:
   - type: TextToSpeech
   - type: BorgSwitchableType
@@ -170,7 +170,7 @@
 - type: entity
   id: BorgChassisTSF
   parent: BaseBorgChassisNotIonStormable
-  name: TSMC assault cyborg
+  name: штурмовой киборг TSMC
   description: A purpose built assault silicon used by the TSMC.
   abstract: true
   components:
@@ -242,7 +242,7 @@
 - type: entity
   parent: MiningBorgChassisDerelict
   id: SalvageMiningBorg
-  name: salvage cyborg
+  name: киборг-утилизатор
   description: A man-machine hybrid that assists the guild. This one has seen more than its share of use.
   suffix: Battery, Module
   components:

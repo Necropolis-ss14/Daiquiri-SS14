@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseRuneAction
   id: ActionExplosionRuneWiz
-  name: Explosion Rune
-  description: Summons a rune that explodes if walked on.
+  name: Руна взрыва
+  description: Призывает руну, взрывающуюся под ногами.
   components:
   - type: Action
     useDelay: 40
@@ -21,8 +21,8 @@
 - type: entity
   parent: BaseRuneAction
   id: ActionIgniteRuneWiz
-  name: incendiary rune
-  description: Summons a rune that ignites anyone stepping on it.
+  name: зажигательная руна
+  description: Призывает руну, поджигающую наступившего.
   components:
   - type: SpeakOnAction
     sentence: action-speech-spell-iginiterune
@@ -40,7 +40,7 @@
 - type: entity
   parent: CollideRune
   id: IgniteRuneWiz
-  name: ignition rune
+  name: руна воспламенения
   components:
     - type: TriggerOnCollide
       fixtureID: ignition
@@ -67,7 +67,7 @@
 - type: entity
   parent: ExplosionRune
   id: ExplosionRuneWiz
-  name: explosion rune
+  name: руна взрыва
   components:
     - type: Explosive
       explosionType: DefaultnoSpace
@@ -82,8 +82,8 @@
 - type: entity
   parent: BaseRuneAction
   id: ActionFreezeRune
-  name: Freeze Rune
-  description: Summons a rune that will freeze in place anyone who walks on it.
+  name: Руна заморозки
+  description: Призывает руну, замораживающую наступившего на месте.
   components:
   - type: Action
     useDelay: 25
@@ -109,7 +109,7 @@
 - type: entity
   parent: StunRune
   id: FreezeRuneWiz
-  name: freeze rune
+  name: руна заморозки
   components:
     - type: TriggerOnCollide
       fixtureID: rune
@@ -126,7 +126,7 @@
 - type: entity
   parent: CollideRune
   id: FreezeRune2Wiz
-  name: freeze rune
+  name: руна заморозки
   components:
     - type: TriggerOnCollide
       fixtureID: rune
@@ -146,8 +146,8 @@
 - type: entity
   parent: ActionFreezeRune
   id: ActionEruption
-  name: Eruption
-  description: Summon a rune that after 2 seconds will start sending fiery shrapnels in a wide area (40 seconds cooldown).
+  name: Извержение
+  description: "Призыв руны: через 2 секунды шлёт огненную шрапнель по площади (перезарядка 40 секунд)."
   components:
   - type: Action
     useDelay: 40
@@ -171,7 +171,7 @@
 - type: entity
   parent: BaseRune
   id: EruptionRuneWiz
-  name: eruption rune
+  name: руна извержения
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Magic/magicactions.rsi

@@ -2,7 +2,7 @@
 - type: entity
   parent: [ BaseCentcommContraband, ClothingOuterEVASuitBase ]
   id: ClothingOuterSoftsuitCBURN
-  name: CBURN insulated EVA suit
+  name: утеплённый ВКД-костюм ЦБХОР
   description: A heavyweight, tough and padded EVA capable biosuit used for special cleanup operations.
   components:
   - type: Sprite
@@ -41,7 +41,7 @@
 - type: entity
   parent: [ClothingOuterEVASuitBase, BaseTSFContraband]
   id: ClothingOuterArmorTSF
-  name: Federation marine combat armor
+  name: боевая броня морпеха Федерации
   description: A full-body suit of semi-powered assault armor used by the Trans-Solar Marine Corps. Offers excellent protection in all areas without impairing movement.
   components:
   - type: Sprite
@@ -89,7 +89,7 @@
 - type: entity
   parent: ClothingOuterArmorTSF
   id: ClothingOuterArmorTSFLeader
-  name: Federation marine officer's armor
+  name: боевая броня офицера морпехоты Федерации
   description: A full-body suit of semi-powered assault armor used by the Trans-Solar Marine Corps. Offers excellent protection in all areas without impairing movement. This suit has golden stripes instead of the typical white.
   components:
   - type: Sprite
@@ -111,7 +111,7 @@
 - type: entity
   parent: [ ClothingOuterEVASuitBase, BaseMagicalContraband ]
   id: ClothingOuterSoftsuitWizard
-  name: wizard void robes
+  name: робы пустоты волшебника
   description: A cumbersome gem-encrusted robe that is magically resistant to the void of space
   components:
   - type: Sprite
@@ -141,7 +141,7 @@
 - type: entity
   parent: [ ClothingOuterHardsuitBase, BaseMagicalContraband ]
   id: ClothingOuterSoftsuitWizardFire
-  name: wizard pyromancer robes
+  name: робы пироманта
   description: A magical robe made of living fire, conjured only by the most skilled of pyromancers.
   components:
   - type: Sprite
@@ -184,7 +184,7 @@
 - type: entity
   parent: ClothingOuterSoftsuitWizardFire
   id: ClothingOuterSoftsuitWizardFrost
-  name: wizard cryomancer robes
+  name: робы криоманта
   description: A magical robe weaved from the most ancient of ice, befitting the most talented of cryomancers.
   components:
   - type: Sprite

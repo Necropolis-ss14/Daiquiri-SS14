@@ -1,7 +1,7 @@
 - type: entity
   parent: FoodBowlBig
   id: FoodBowlWooden
-  name: wooden bowl
+  name: деревянная миска
   description: A shallow wooden bowl for a hearty meal.
   components:
   - type: Sprite

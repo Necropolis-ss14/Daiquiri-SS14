@@ -1,6 +1,6 @@
 - type: entity
   id: ActionBorgiPlayMidi
-  name: Play Guitar
+  name: Играть на гитаре
   description: Open your internal BASS GUITAR MIDI interface to soothe the station.
   components:
   - type: Action

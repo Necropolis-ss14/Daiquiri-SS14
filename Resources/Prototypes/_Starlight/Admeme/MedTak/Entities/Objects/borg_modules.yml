@@ -33,8 +33,8 @@
 - type: entity
   id: BorgModuleMedTakMedical
   parent: [ BaseBorgModuleMedTak, BaseProviderBorgModule ]
-  name: MedTak medical cyborg module
-  description: A MedTak cyborg module for medical support.
+  name: медицинский модуль киборга MedTak
+  description: Модуль киборга MedTak для медподдержки.
   components:
   - type: Sprite
     layers:
@@ -70,8 +70,8 @@
 - type: entity
   id: BorgModuleMedTakRifle
   parent: [ BaseBorgModuleMedTak, BaseProviderBorgModule ]
-  name: MedTak rifle cyborg module
-  description: A MedTak cyborg module equipped with a cut down CODE-9 and a breaching hammer.
+  name: стрелковый модуль киборга MedTak
+  description: Модуль киборга MedTak с укороченным КОД-9 и штурмовым молотом.
   components:
   - type: Sprite
     layers:

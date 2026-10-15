@@ -1,7 +1,7 @@
 - type: entity
   parent: SolutionInjector
   id: BorgHydrator
-  name: cyborg hydrator
+  name: гидратор киборга
   description: A very very tiny applicator that continually fills with a single drop of water. Not used to hydrate cyborgs.
   components:
     - type: Solution

@@ -3,7 +3,7 @@
 # starting
 - type: entity
   id: ActionEvolutionMenu
-  name: Open evolution menu
+  name: Открыть меню эволюции
   description: Opens the evolution menu. Can be used while unconscious.
   categories: [ HideSpawnMenu ]
   components:
@@ -22,7 +22,7 @@
 
 - type: entity
   id: ActionStingExtractDNA
-  name: Extract DNA sting
+  name: Жало извлечения ДНК
   description: Steal your target's genetic information. Costs 25 chemicals.
   categories: [ HideSpawnMenu ]
   components:
@@ -47,7 +47,7 @@
 
 - type: entity
   id: ActionEnterStasis
-  name: Enter regenerative stasis
+  name: Войти в регенеративный стазис
   description: Fake your death and start regenerating. Drains all your chemicals. Consumes biomass.
   categories: [ HideSpawnMenu ]
   components:
@@ -67,7 +67,7 @@
 
 - type: entity
   id: ActionExitStasis
-  name: Exit stasis
+  name: Покинуть стазис
   description: Rise from the dead with full health. Costs 60 chemicals.
   categories: [ HideSpawnMenu ]
   components:
@@ -89,7 +89,7 @@
 - type: entity
   parent: BaseAction
   id: ActionRetractableItemArmBladePlus
-  name: True Arm Blade
+  name: Истинный клинок руки
   description: Shed your flesh and reform it into a truly beautiful blade. Costs 30 chemicals to summon, and 30 chemicals to retract.
   components:
   - type: Action
@@ -113,7 +113,7 @@
 
 - type: entity
   id: ActionCreateBoneShard
-  name: Form Bone Shard
+  name: Создать костяной осколок
   description: Break off shards of your bone and shape them into a throwing star, laced with a disorienting neurotoxin. Costs 15 chemicals.
   categories: [ HideSpawnMenu ]
   components:
@@ -130,7 +130,7 @@
 
 - type: entity
   id: ActionToggleChitinousArmor
-  name: Toggle Armor
+  name: Переключить броню
   description: Inflate your body into an all-consuming chitinous mass of armor. Costs 25 chemicals.
   categories: [ HideSpawnMenu ]
   components:
@@ -149,7 +149,7 @@
 - type: entity
   parent: BaseAction
   id: ActionToggleOrganicShield
-  name: Form Shield
+  name: Создать щит
   description: Reform one of your arms into a large, fleshy shield. Costs 20 chemicals.
   categories: [ HideSpawnMenu ]
   components:
@@ -174,7 +174,7 @@
 
 - type: entity
   id: ActionShriekDissonant
-  name: Dissonant Shriek
+  name: Диссонирующий визг
   description: Emit an EMP blast, with just your voice. Costs 30 chemicals.
   categories: [ HideSpawnMenu ]
   components:
@@ -193,7 +193,7 @@
 
 - type: entity
   id: ActionShriekResonant
-  name: Resonant Shriek
+  name: Резонирующий визг
   description: Disorient people and break lights, with just your voice. Costs 25 chemicals.
   categories: [ HideSpawnMenu ]
   components:
@@ -211,7 +211,7 @@
 
 - type: entity
   id: ActionToggleStrainedMuscles
-  name: Strain Muscles
+  name: Напрячь мышцы
   description: Move at extremely fast speeds. Deals stamina damage.
   categories: [ HideSpawnMenu ]
   components:
@@ -230,7 +230,7 @@
 # stings
 - type: entity
   id: ActionStingBlind
-  name: Blind Sting
+  name: Ослепляющее жало
   description: Silently sting your target, blinding them for a short time and rendering them near sighted. Costs 35 chemicals.
   categories: [ HideSpawnMenu ]
   components:
@@ -254,7 +254,7 @@
 
 - type: entity
   id: ActionStingCryo
-  name: Cryogenic Sting
+  name: Криогенное жало
   description: Silently sting your target, constantly slowing and freezing them. Costs 30 chemicals.
   categories: [ HideSpawnMenu ]
   components:
@@ -279,7 +279,7 @@
 
 - type: entity
   id: ActionStingBurn
-  name: Bloodburn Sting
+  name: Жало кровавого ожога
   description: Silently sting your target, disorienting them while burning them from the inside out. Costs 35 chemicals.
   categories: [ HideSpawnMenu ]
   components:
@@ -303,7 +303,7 @@
 
 - type: entity
   id: ActionStingLethargic
-  name: Lethargic Sting
+  name: Жало летаргии
   description: Silently inject a cocktail of anesthetics into the target. Costs 25 chemicals.
   categories: [ HideSpawnMenu ]
   components:
@@ -326,7 +326,7 @@
 
 - type: entity
   id: ActionStingDrain
-  name: Draining Sting
+  name: Высасывающее жало
   description: Silently sting your target, draining them of all their hunger and thirst. Costs 35 chemicals.
   categories: [ HideSpawnMenu ]
   components:
@@ -350,7 +350,7 @@
 
 - type: entity
   id: ActionStingMute
-  name: Mute Sting
+  name: Жало немоты
   description: Silently sting your target, completely silencing them for a short time. Costs 35 chemicals.
   categories: [ HideSpawnMenu ]
   components:
@@ -373,7 +373,7 @@
 
 - type: entity
   id: ActionStingFakeArmblade
-  name: Fake Armblade Sting
+  name: Жало поддельного клинка
   description: Silently sting your target, making them grow a dull armblade for a short time. Costs 50 chemicals.
   categories: [ HideSpawnMenu ]
   components:
@@ -396,7 +396,7 @@
 
 - type: entity
   id: ActionStingTransform
-  name: Transformation Sting
+  name: Жало трансформации
   description: Silently sting your target, transforming them into a person of your choosing. Costs 75 chemicals.
   categories: [ HideSpawnMenu ]
   components:
@@ -421,7 +421,7 @@
 # utility
 - type: entity
   id: ActionAnatomicPanacea
-  name: Anatomic Panacea
+  name: Анатомическая панацея
   description: Cure yourself of diseases, disabilities, radiation, toxins, drunkedness and brain damage. Costs 30 chemicals.
   categories: [ HideSpawnMenu ]
   components:
@@ -441,7 +441,7 @@
 
 - type: entity
   id: ActionAugmentedEyesight
-  name: Augmented Eyesight
+  name: Улучшенное зрение
   description: Toggle flash protection. Must be disabled in order to use other eye augments. # Starlight
   categories: [ HideSpawnMenu ]
   components:
@@ -458,7 +458,7 @@
 
 - type: entity
   id: ActionNightEyesight
-  name: Night Vision Eyesight
+  name: Ночное зрение
   description: Toggle night vision.
   categories: [ HideSpawnMenu ]
   components:
@@ -477,7 +477,7 @@
 
 - type: entity
   id: ActionThermalEyesight
-  name: Thermal Eyesight
+  name: Тепловое зрение
   description: Toggle thermal vision.
   categories: [ HideSpawnMenu ]
   components:
@@ -516,7 +516,7 @@
 
 - type: entity
   id: ActionChameleonSkin
-  name: Chameleon Skin
+  name: Кожа хамелеона
   description: Slowly blend in with the environment. Costs 15 chemicals.
   categories: [ HideSpawnMenu ]
   components:
@@ -535,7 +535,7 @@
 
 - type: entity
   id: ActionEphedrineOverdose
-  name: Ephedrine Overdose
+  name: Передозировка эфедрином
   description: Inject some stimulants into yourself. Costs 20 chemicals.
   categories: [ HideSpawnMenu ]
   components:
@@ -554,7 +554,7 @@
 
 - type: entity
   id: ActionDesoxyephedrineOverdose
-  name: Desoxyephedrine Overdose
+  name: Передозировка дезоксиэфедрином
   description: Inject some stronger stimulants into yourself, poisoning yourself mildly. Costs 30 chemicals.
   categories: [ HideSpawnMenu ]
   components:
@@ -574,7 +574,7 @@
 
 - type: entity
   id: ActionAmalgamOverdose
-  name: Amalgam Overdose
+  name: Передозировка амальгамой
   description: Inject some incredibly strong stimulants into yourself. Costs 40 chemicals.
   categories: [ HideSpawnMenu ]
   components:
@@ -614,7 +614,7 @@
 
 - type: entity
   id: ActionToggleLesserForm
-  name: Lesser Form
+  name: Малая форма
   description: Abandon your current form and transform into a monkey. Costs 20 chemicals.
   categories: [ HideSpawnMenu ]
   components:
@@ -632,7 +632,7 @@
 
 - type: entity
   id: ActionToggleSpacesuit
-  name: Toggle Space Suit
+  name: Переключить скафандр
   description: Make your body space proof. Costs 20 chemicals.
   categories: [ HideSpawnMenu ]
   components:
@@ -649,7 +649,7 @@
 
 - type: entity
   id: ActionToggleNeocyteDisguise
-  name: Toggle Neocyte Disguise
+  name: Переключить маскировку неоцита
   description: Form a fake neocyte cybernetic frame. Costs 0 chemicals.
   categories: [ HideSpawnMenu ]
   components:
@@ -666,7 +666,7 @@
 
 - type: entity
   id: ActionHivemindAccess
-  name: Hivemind Access
+  name: Доступ к разуму улья
   description: Tune your chemical receptors for hivemind communication.
   categories: [ HideSpawnMenu ]
   components:

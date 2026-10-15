@@ -2,8 +2,8 @@
 - type: entity
   parent: [BaseWeaponBallisticTurret, BaseMajorContraband]
   id: WeaponTurretBlackstar
-  name: Blackstar sentry turret
-  description: A high-cycle ballistic auto-turret deployed by Blackstar mercenary operatives.
+  name: сторожевая турель Blackstar
+  description: Скорострельная баллистическая автотурель наёмников Blackstar.
   suffix: Blackstar
   components:
   - type: NpcFactionMember

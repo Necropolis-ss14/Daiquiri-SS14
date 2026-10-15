@@ -45,7 +45,7 @@
   parent: BaseAPC
   categories: [ HideSpawnMenu ]
   id: BaseAPCAdvanced
-  name: advanced APC
+  name: продвинутый ЛКП
   description: An advanced control terminal for the area's electrical systems, capable of handling a much higher network load.
   components:
   - type: Apc
@@ -107,7 +107,7 @@
   parent: APCFrame
   categories: [ HideSpawnMenu ]
   id: APCAdvancedFrame
-  name: advanced APC frame
+  name: каркас продвинутого ЛКП
   description: An advanced control terminal for the area's electrical systems, lacking the electronics.
   components:
   - type: Construction
@@ -153,7 +153,7 @@
   parent: BaseAPC
   categories: [ HideSpawnMenu ]
   id: APCITG
-  name: ITG APC
+  name: ЛКП ITG
   description: A control terminal for local electronics, this one is branded with the guild insignia.
   components:
   - type: AccessReader

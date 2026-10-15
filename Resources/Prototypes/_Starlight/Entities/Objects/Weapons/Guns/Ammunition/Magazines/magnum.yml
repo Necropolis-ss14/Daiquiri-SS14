@@ -1,6 +1,6 @@
 - type: entity
   id: BaseMagazineMagnum
-  name: pistol magazine (.45 magnum)
+  name: пистолетный магазин (.45 магнум)
   parent: [ BaseSecuritySalvageContraband, BaseMagazinePistol ]
   abstract: true
   components:
@@ -16,7 +16,7 @@
 
 - type: entity
   id: BaseMagazineMagnumSubMachineGun
-  name: SMG magazine (.45 magnum)
+  name: магазин ПП (.45 magnum)
   parent: [BaseItem, BaseSecuritySalvageContraband]
   abstract: true
   components:
@@ -49,7 +49,7 @@
 
 - type: entity
   id: MagazineMagnumEmpty
-  name: pistol magazine (.45 magnum any)
+  name: пистолетный магазин (.45 магнум любые)
   suffix: empty
   parent: BaseMagazineMagnum
   description: 7-round single stack pistol magazine.
@@ -71,7 +71,7 @@
 
 - type: entity
   id: MagazineMagnum
-  name: pistol magazine (.45 magnum)
+  name: пистолетный магазин (.45 магнум)
   parent: BaseMagazineMagnum
   description: 7-round single stack pistol magazine. Intended to hold general-purpose kinetic ammunition.
   components:
@@ -96,7 +96,7 @@
 
 - type: entity
   id: MagazineMagnumPractice
-  name: pistol magazine (.45 magnum practice)
+  name: пистолетный магазин (.45 магнум учебные)
   parent: BaseMagazineMagnum
   description: 7-round single stack pistol magazine. Intended to hold non-harmful chalk ammunition.
   components:
@@ -121,7 +121,7 @@
 
 - type: entity
   id: MagazineMagnumUranium
-  name: pistol magazine (.45 magnum uranium)
+  name: пистолетный магазин (.45 магнум урановые)
   parent: BaseMagazineMagnum
   description: 7-round single stack pistol magazine. Intended to hold exotic uranium-core ammunition.
   components:
@@ -146,7 +146,7 @@
 
 - type: entity
   id: MagazineMagnumAP
-  name: pistol magazine (.45 magnum armor-piercing)
+  name: пистолетный магазин (.45 магнум бронебойные)
   parent: BaseMagazineMagnum
   description: 7-round single stack pistol magazine. Intended to hold rare armor-piercing ammunition.
   components:
@@ -171,7 +171,7 @@
 
 - type: entity
   id: MagazineMagnumSubMachineGunEmpty
-  name: SMG magazine (.45 magnum any)
+  name: магазин ПП (.45 magnum любой)
   suffix: empty
   parent: BaseMagazineMagnumSubMachineGun
   components:
@@ -192,7 +192,7 @@
 
 - type: entity
   id: MagazineMagnumSubMachineGun
-  name: SMG magazine (.45 magnum)
+  name: магазин ПП (.45 magnum)
   parent: BaseMagazineMagnumSubMachineGun
   components:
   - type: BallisticAmmoProvider
@@ -216,7 +216,7 @@
 
 - type: entity
   id: MagazineMagnumSubMachineGunPractice
-  name: SMG magazine (.45 magnum practice)
+  name: магазин ПП (.45 magnum учебный)
   parent: BaseMagazineMagnumSubMachineGun
   components:
   - type: BallisticAmmoProvider
@@ -240,7 +240,7 @@
 
 - type: entity
   id: MagazineMagnumSubMachineGunUranium
-  name: SMG magazine (.45 magnum uranium)
+  name: магазин ПП (.45 magnum урановый)
   parent: BaseMagazineMagnumSubMachineGun
   components:
   - type: BallisticAmmoProvider
@@ -264,7 +264,7 @@
 
 - type: entity
   id: MagazineMagnumSubMachineGunPiercing
-  name: SMG magazine (.45 magnum armour-piercing)
+  name: магазин ПП (.45 magnum armour-piercing)
   parent: BaseMagazineMagnumSubMachineGun
   components:
   - type: BallisticAmmoProvider
@@ -288,7 +288,7 @@
 
 - type: entity
   id: MagazineMagnumRubber
-  name: pistol magazine (.45 magnum rubber)
+  name: пистолетный магазин (.45 magnum резиновый)
   parent: BaseMagazineMagnum
   components:
   - type: BallisticAmmoProvider
@@ -312,7 +312,7 @@
 
 - type: entity
   id: MagazineMagnumSubMachineGunRubber
-  name: "Vector magazine (.45 magnum rubber)"
+  name: магазин Vector (.45 магнум резиновый)
   parent: BaseMagazineMagnumSubMachineGun
   components:
   - type: BallisticAmmoProvider
@@ -336,7 +336,7 @@
 
 - type: entity
   id: MagazineMagnumRifleSP
-  name: rifle magazine (.45 magnum)
+  name: винтовочный магазин (.45 магнум)
   parent: BaseMagazineMagnumSubMachineGun
   components:
   - type: BallisticAmmoProvider
@@ -375,7 +375,7 @@
 
 - type: entity
   id: MagazineDMRSP
-  name: "DMR magazine (.45 magnum SP)"
+  name: магазин DMR (.45 магнум SP)
   parent: BaseMagazineRifleDMR
   components:
   - type: BallisticAmmoProvider
@@ -399,7 +399,7 @@
 
 - type: entity
   id: MagazineDMRHP
-  name: "DMR magazine (.45 magnum HP)"
+  name: магазин DMR (.45 магнум HP)
   parent: BaseMagazineRifleDMR
   components:
   - type: BallisticAmmoProvider
@@ -423,7 +423,7 @@
 
 - type: entity
   id: MagazineDMRFMJ
-  name: "DMR magazine (.45 magnum FMJ)"
+  name: магазин DMR (.45 магнум FMJ)
   parent: BaseMagazineRifleDMR
   components:
   - type: BallisticAmmoProvider
@@ -447,7 +447,7 @@
 
 - type: entity
   id: MagazineDMRAP
-  name: "DMR magazine (.45 magnum AP)"
+  name: магазин DMR (.45 магнум AP)
   parent: BaseMagazineRifleDMR
   components:
   - type: BallisticAmmoProvider
@@ -471,7 +471,7 @@
 
 - type: entity
   id: MagazineDMREmpty
-  name: "DMR magazine (.45 magnum any)"
+  name: магазин DMR (.45 магнум любой)
   suffix: empty
   parent: MagazineDMRSP
   components:
@@ -492,7 +492,7 @@
 
 - type: entity
   id: MagazineDMRIncendiary
-  name: "DMR magazine (.45 magnum incendiary)"
+  name: магазин DMR (.45 магнум зажигательный)
   parent: MagazineDMRSP
   components:
   - type: BallisticAmmoProvider
@@ -516,7 +516,7 @@
 
 - type: entity
   id: MagazineDMRPractice
-  name: "DMR magazine (.45 magnum practice)"
+  name: магазин DMR (.45 магнум учебный)
   parent: BaseMagazineRifleDMR
   components:
   - type: BallisticAmmoProvider
@@ -540,7 +540,7 @@
 
 - type: entity
   id: MagazineDMRUranium
-  name: "DMR magazine (.45 magnum uranium)"
+  name: магазин DMR (.45 магнум урановый)
   parent: BaseMagazineRifleDMR
   components:
   - type: BallisticAmmoProvider
@@ -564,7 +564,7 @@
 
 - type: entity
   id: MagazineDMRRubber
-  name: "DMR magazine (.45 magnum rubber)"
+  name: магазин DMR (.45 магнум резиновый)
   parent: BaseMagazineRifleDMR
   components:
   - type: BallisticAmmoProvider

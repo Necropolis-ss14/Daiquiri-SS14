@@ -174,7 +174,7 @@
     - ActionEntityWrap
 
 - type: entity
-  name: terror red
+  name: красный террор
   parent: MobTerrorSpider
   id: MobTerrorRedUnevolvable
   abstract: true
@@ -233,7 +233,7 @@
       targetWebAmount: 36
 
 - type: entity
-  name: terror gray
+  name: серый террор
   parent: MobTerrorSpider
   id: MobTerrorGrayUnevolvable
   abstract: true
@@ -293,7 +293,7 @@
     baseSprintSpeed : 5
 
 - type: entity
-  name: terror gray
+  name: серый террор
   parent: MobTerrorGrayUnevolvable
   id: MobTerrorGray
   components:
@@ -304,7 +304,7 @@
       targetWebAmount: 36
 
 - type: entity
-  name: terror green
+  name: зелёный террор
   parent: MobTerrorSpider
   id: MobTerrorGreenUnevolvable
   abstract: true
@@ -367,7 +367,7 @@
     - ActionEggInjection
 
 - type: entity
-  name: terror green
+  name: зелёный террор
   parent: MobTerrorGreenUnevolvable
   id: MobTerrorGreen
   components:
@@ -383,7 +383,7 @@
 # Black
 
 - type: entity
-  name: terror black
+  name: чёрный террор
   parent: MobTerrorGrayUnevolvable
   id: MobTerrorBlackUnevolvable
   abstract: true
@@ -431,7 +431,7 @@
         Bloodloss: -0.75
 
 - type: entity
-  name: terror black
+  name: чёрный террор
   parent: MobTerrorBlackUnevolvable
   id: MobTerrorBlack
   components:
@@ -444,7 +444,7 @@
 # Purple
 
 - type: entity
-  name: terror purple
+  name: фиолетовый террор
   parent: MobTerrorRedUnevolvable
   id: MobTerrorPurpleUnevolvable
   abstract: true
@@ -491,7 +491,7 @@
         Bloodloss: -0.75
 
 - type: entity
-  name: terror purple
+  name: фиолетовый террор
   parent: MobTerrorPurpleUnevolvable
   id: MobTerrorPurple
   components:
@@ -504,7 +504,7 @@
 # White
 
 - type: entity
-  name: terror white
+  name: белый террор
   parent: MobTerrorGreenUnevolvable
   id: MobTerrorWhiteUnevolvable
   abstract: true
@@ -566,7 +566,7 @@
         Bloodloss: -0.75
 
 - type: entity
-  name: terror white
+  name: белый террор
   parent: MobTerrorWhiteUnevolvable
   id: MobTerrorWhite
   components:
@@ -581,7 +581,7 @@
 # Prince
 
 - type: entity
-  name: prince of terror
+  name: принц террора
   parent: MobTerrorPurpleUnevolvable
   id: MobTerrorPrince
   components:
@@ -628,7 +628,7 @@
 # Princess
 
 - type: entity
-  name: princess of terror
+  name: принцесса террора
   parent: MobTerrorSpider
   id: MobTerrorPrincess
   components:
@@ -703,7 +703,7 @@
 # Mother
 
 - type: entity
-  name: mother of terror
+  name: мать террора
   parent: MobTerrorBlackUnevolvable
   id: MobTerrorMother
   components:

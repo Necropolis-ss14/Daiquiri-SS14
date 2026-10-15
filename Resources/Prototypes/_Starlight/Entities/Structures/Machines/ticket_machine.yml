@@ -42,7 +42,7 @@
 - type: entity
   id: TicketMachine
   parent: BaseTicketMachine
-  name: ticket machine
+  name: билетный автомат
   description: It prints out numbered tickets for queue management.
   suffix: No Access, Empty
   components:

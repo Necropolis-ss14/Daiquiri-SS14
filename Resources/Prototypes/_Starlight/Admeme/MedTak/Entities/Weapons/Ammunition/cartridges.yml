@@ -14,7 +14,7 @@
 - type: entity
   parent: BaseRoundVariable
   id: RoundVariableHeavy
-  name: HVA caseless round
+  name: безгильзовый патрон HVA
   components:
   - type: Tag
     tags:
@@ -26,7 +26,7 @@
 - type: entity
   parent: BaseRoundVariable
   id: RoundVariableMedium
-  name: MVA caseless round
+  name: безгильзовый патрон MVA
   components:
   - type: Tag
     tags:
@@ -38,7 +38,7 @@
 - type: entity
   parent: BaseRoundVariable
   id: RoundVariableLight
-  name: LVA caseless round
+  name: безгильзовый патрон LVA
   components:
   - type: Tag
     tags:

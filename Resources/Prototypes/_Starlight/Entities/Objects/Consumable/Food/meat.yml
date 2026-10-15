@@ -3,7 +3,7 @@
   parent: FoodMeatBase
   # MeatFish?...
   id: FoodMeatKoiFish
-  name: raw koi fillet
+  name: сырое филе кои
   description: A fillet of space koi. You feel a little guilty about eating something so friendly.
   components:
   - type: FlavorProfile

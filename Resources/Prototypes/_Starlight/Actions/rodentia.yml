@@ -1,6 +1,6 @@
 - type: entity
   id: ActionOpenMouthStorage
-  name: Open cheek storage
+  name: Открыть щёчное хранилище
   description: Allows you to store items in your cheeks.
   components:
     - type: Action
@@ -14,7 +14,7 @@
 
 - type: entity
   id: ActionToggleSneakMode
-  name: Toggle sneak mode
+  name: Переключить режим скрытности
   description: Sneak underneath tables.
   components:
     - type: Action

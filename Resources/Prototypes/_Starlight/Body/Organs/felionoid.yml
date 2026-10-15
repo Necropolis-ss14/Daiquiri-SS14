@@ -1,9 +1,9 @@
 - type: entity
   id: OrganFelionoidEyes
   parent: OrganHumanEyes
-  name: ent-OrganFelionoidEyes
+  name: глаза фелионоида
   suffix: Felionoid
-  description: ent-OrganFelionoidEyes-desc
+  description: Глаза фелионоида.
   components:
   - type: OrganVisualization
     layer: Eyes

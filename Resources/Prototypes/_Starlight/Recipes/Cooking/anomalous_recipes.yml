@@ -1,6 +1,6 @@
 - type: microwaveMealRecipe
   id: RecipeDollEmptyInert
-  name: doll recipe
+  name: Рецепт куклы
   result: MobDollFresh
   time: 30
   group: Secret
@@ -13,7 +13,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeDollEmptyActive
-  name: doll recipe
+  name: Рецепт куклы
   result: MobDollFresh
   time: 30
   group: Secret

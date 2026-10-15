@@ -48,8 +48,8 @@
 # Mech Reactors
 - type: entity
   id: MechReactorBase
-  name: standard mech reactor
-  description: A miniaturised reactor core, built to be fit into a mech chassis.
+  name: стандартный реактор меха
+  description: Миниатюрное реакторное ядро под шасси меха.
   parent: BasePowerCell
   abstract: true
   components:
@@ -81,8 +81,8 @@
 
 - type: entity
   id: MechReactorStandard
-  name: standard mech reactor
-  description: A miniaturised reactor core, built to be fit into a mech chassis. It is quite slow, and has to cool down for some time before it begins to generate power.
+  name: стандартный реактор меха
+  description: Миниатюрное реакторное ядро под шасси меха. Медленное, перед выработкой должно остыть.
   parent: MechReactorBase
   components:
   - type: BatterySelfRecharger
@@ -91,8 +91,8 @@
 
 - type: entity
   id: MechReactorHigh
-  name: workhorse-class mech reactor
-  description: A miniaturised reactor core, built to be fit into a mech chassis. It is just as slow as the standard model, but has much a much higher heat capacity.
+  name: реактор меха класса «рабочая лошадка»
+  description: Миниатюрное реакторное ядро под шасси меха. Такое же медленное, но куда теплоёмче.
   parent: MechReactorBase
   components:
   - type: Sprite
@@ -111,8 +111,8 @@
 
 - type: entity
   id: MechReactorHyper
-  name: longhaul-class mech reactor
-  description: A miniaturised reactor core, built to be fit into a mech chassis. This model is outfitted with deep heatsinks and an upgraded coolant loop for extended operational time.
+  name: реактор меха класса «дальнобой»
+  description: Миниатюрное реакторное ядро под шасси меха. Глубокие радиаторы и улучшенный контур для долгой работы.
   parent: MechReactorBase
   components:
   - type: Sprite
@@ -131,8 +131,8 @@
 
 - type: entity
   id: MechReactorMicro
-  name: thor-class mech reactor
-  description: A miniaturised reactor core, built to be fit into a mech chassis. This model features superior cooling systems to facilitate low reactor latency, at the cost of deep heat sinks.
+  name: реактор меха класса «тор»
+  description: Миниатюрное реакторное ядро под шасси меха. Отличное охлаждение для низкой задержки ценой глубоких радиаторов.
   parent: MechReactorBase
   components:
   - type: Sprite
@@ -151,8 +151,8 @@
 
 - type: entity
   id: MechReactorAntique
-  name: emperor-class mech reactor
-  description: A miniaturised reactor core, built in a more civilised age. It is highly efficient, and will never overheat.
+  name: реактор меха класса «император»
+  description: Миниатюрное реакторное ядро более цивилизованной эпохи. Весьма эффективно, никогда не перегревается.
   parent: MechReactorBase
   components:
   - type: Sprite
@@ -171,8 +171,8 @@
 
 - type: entity
   id: MechReactorShielded
-  name: paladin-class mech reactor
-  description: A miniaturised reactor core, built in a more civilised age. It is highly efficient, but trades some of the advanced cooling systems of the emperor-class reactor for an energy shield system. The device ports on this do not interface with modern mech systems, but we can probably jury-rig that with a multitool...
+  name: реактор меха класса «паладин»
+  description: Миниатюрное реакторное ядро более цивилизованной эпохи. Эффективно, но часть охлаждения отдана энергощиту. Порты не стыкуются с современными мехами, но мультитул решает.
   parent: MechReactorBase
   components:
   - type: Sprite
@@ -206,8 +206,8 @@
 
 - type: entity
   id: MechReactorBurnout
-  name: burnout-class mech reactor
-  description: A miniaturised reactor core, built to be fit into a mech chassis. The burnout-class reactor series is controversial for their extreme focus on extended burst windows... at the cost of fully melting down as they are used.
+  name: реактор меха класса «выгорание»
+  description: Миниатюрное реакторное ядро под шасси меха. Спорная серия с упором на длинные очереди... ценой полного расплава в работе.
   parent: MechReactorBase
   components:
   - type: Sprite
@@ -223,8 +223,8 @@
 
 - type: entity
   id: MechReactorCavalier
-  name: cavalier-class mech reactor
-  description: A miniaturised reactor core, built in a more civilised age. This model is overclocked, increasing operational speeds at the expense of both cooling systems and heat sinks.
+  name: реактор меха класса «кавалер»
+  description: "Миниатюрное реакторное ядро более цивилизованной эпохи. Разогнано: быстрее ценой охлаждения и теплоотводов."
   parent: MechReactorBase
   components:
   - type: Sprite
@@ -244,8 +244,8 @@
 - type: entity
   id: PowerCageOmega
   parent: BasePowerCage
-  name: omega-capacity power cage
-  description: An extremely high-capacity power cage engineered for the most power-hungry shuttle weapon systems. Three times the capacity of a high-capacity cage, and three times the price. Noticeably heavier than standard cages.
+  name: энергоячейка омега-вместимости
+  description: Энергоячейка чудовищной вместимости для самых прожорливых орудий. Втрое больше хай-кап, втрое дороже. Заметно тяжелее обычных.
   components:
   - type: Tag
     tags:
@@ -275,8 +275,8 @@
     startingCharge: 0
 
 - type: entity
-  name: ultra-capacity power cell
-  description: A rechargeable standardized power cell. This iteration pushes the upper limits of portable power storage, double more capacity than the hyper-capacity cell.
+  name: ультра-вместительная батарея
+  description: Перезаряжаемая стандартная батарея. Эта версия на пределе портативной ёмкости, вдвое больше гипер-вместительной.
   id: PowerCellUltra
   suffix: Full
   parent: BasePowerCell

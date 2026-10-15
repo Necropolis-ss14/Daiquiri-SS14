@@ -1,8 +1,8 @@
 - type: entity
   parent: [ AdvancedJetInjector, BaseETOContraband ]
   id: ETOMartyrInjector
-  name: combat stimulant injector
-  description: A modified jet injector that can synthesize its own combat mix. Takes 40 seconds to fully refill itself.
+  name: инъектор боевых стимуляторов
+  description: Модифицированный инъектор, сам синтезирует боевую смесь. Полная заправка за 40 секунд.
   suffix: ETO
   categories: [ DoNotMap ]
   components:
@@ -37,8 +37,8 @@
 - type: entity
   parent: [ChemicalMedipen, BaseETOContraband]
   id: CombatMedipenETO
-  name: diluted combat medipen
-  description: A weaker, less effective version of the standard combat medipen.
+  name: разбавленная боевая медиручка
+  description: Более слабая версия стандартной боевой медиручки.
   suffix: ETO
   categories: [ DoNotMap ]
   components:

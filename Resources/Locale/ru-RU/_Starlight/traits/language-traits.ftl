@@ -68,3 +68,9 @@ trait-language-lagomorphian-desc = Линариксийский язык, раз
 
 trait-language-squeakish-name = Писклявый
 trait-language-squeakish-desc = Вы говорите на писклявом, языке родентиа, состоящем из чириканья и писка.
+
+trait-language-classicalsign-name = Классический жестовый
+trait-language-classicalsign-desc = Старый, малоизвестный жестовый язык с Терры. Полностью отличается от Галактического жестового.
+
+trait-language-cygnistandard-name = Сигни-стандарт
+trait-language-cygnistandard-desc = Вы выучили язык СССП, живя там или как-то иначе. Лучше не таскайте с собой флешки.

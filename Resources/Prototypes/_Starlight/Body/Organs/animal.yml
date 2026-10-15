@@ -1,9 +1,9 @@
 - type: entity
   id: OrganCorgiLungs
   parent: OrganAnimalLungs
-  name: ent-OrganCorgiLungs
+  name: лёгкие корги
   suffix: Corgi
-  description: ent-OrganCorgiLungs-desc
+  description: Используются для лая.
   components:
   - type: Lung
     alert: CorgiLowOxygen

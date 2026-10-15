@@ -43,7 +43,7 @@
 - type: entity
   parent: BaseMentalAction
   id: ActionAIReconnectShunt
-  name: Reconnect Shunt
+  name: Переподключить шунт
   description: Reconnect to the last chassis or interface you shunted into.
   components:
     - type: Action
@@ -71,7 +71,7 @@
 - type: entity
   parent: BaseAction
   id: ActionSurvCameraLights
-  name: Toggle camera lights
+  name: Переключить подсветку камер
   description: Enable surveillance camera lights near wherever you're viewing.
   components:
   - type: Action

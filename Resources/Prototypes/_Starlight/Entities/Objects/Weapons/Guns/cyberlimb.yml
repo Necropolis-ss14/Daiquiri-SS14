@@ -1,7 +1,7 @@
 - type: entity
   id: RadcasterCyber
   parent: BaseWeaponBatterySmall
-  name: cybernetic radcaster
+  name: кибернетический радкастер
   description: This seems a little unsafe...
   components:
   - type: Tag
@@ -34,7 +34,7 @@
 - type: entity
   id: FreezeRayCyber
   parent: BaseWeaponBatterySmall
-  name: cybernetic freeze ray
+  name: кибернетический замораживающий луч
   description: Brr...! Cold!
   components:
   - type: Gun

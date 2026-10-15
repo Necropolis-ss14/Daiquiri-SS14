@@ -5,8 +5,8 @@
 - type: entity
   id: ClosetPirateBase
   parent: LockerSyndicate
-  name: ent-ClosetPirateBase
-  description: ent-ClosetPirateBase-desc
+  name: пиратский шкаф
+  description: Кроваво-красный шкаф, пропахший морской водой. Базовый комплект пиратской команды.
   suffix: Pirate, Base
   components:
   - type: EntityTableContainerFill
@@ -25,8 +25,8 @@
 - type: entity
   id: ClosetPirateCaptain
   parent: LockerSyndicate
-  name: ent-ClosetPirateCaptain
-  description: ent-ClosetPirateCaptain-desc
+  name: шкаф пиратского капитана
+  description: Кроваво-красный шкаф, пропахший морской водой. Капитанская форма с пальто и энергетической абордажной саблей.
   suffix: Pirate, Captain
   components:
   - type: EntityTableContainerFill
@@ -48,8 +48,8 @@
 - type: entity
   id: ClosetPirateFirstmate
   parent: LockerSyndicate
-  name: ent-ClosetPirateFirstmate
-  description: ent-ClosetPirateFirstmate-desc
+  name: шкаф старшего помощника пиратов
+  description: Кроваво-красный шкаф, пропахший морской водой. Треуголка старшего помощника и сюртук.
   suffix: Pirate, First Mate
   components:
   - type: EntityTableContainerFill
@@ -69,8 +69,8 @@
 - type: entity
   id: ClosetPirateScoonerA
   parent: LockerSyndicate
-  name: ent-ClosetPirateScoonerA
-  description: ent-ClosetPirateScoonerA-desc
+  name: шкаф пирата шхуны
+  description: Кроваво-красный шкаф, пропахший морской водой. Стандартный комплект экипажа шхуны с абордажной саблей и кремнёвым пистолетом.
   suffix: Pirate, Schooner Alt A
   components:
   - type: EntityTableContainerFill
@@ -92,8 +92,8 @@
 - type: entity
   id: ClosetPirateScoonerAltB
   parent: LockerSyndicate
-  name: ent-ClosetPirateScoonerAltB
-  description: ent-ClosetPirateScoonerAltB-desc
+  name: шкаф пирата шхуны (вариант Б)
+  description: Кроваво-красный шкаф, пропахший морской водой. Экипаж шхуны с треуголкой и сюртуком.
   suffix: Pirate, Schooner Alt B
   components:
   - type: EntityTableContainerFill
@@ -116,8 +116,8 @@
 - type: entity
   id: ClosetPirateScoonerAltC
   parent: LockerSyndicate
-  name: ent-ClosetPirateScoonerAltC
-  description: ent-ClosetPirateScoonerAltC-desc
+  name: шкаф пирата шхуны (вариант В)
+  description: Кроваво-красный шкаф, пропахший морской водой. Экипаж шхуны, вооружённый мушкетоном.
   suffix: Pirate, Schooner Alt C
   components:
   - type: EntityTableContainerFill
@@ -139,8 +139,8 @@
 - type: entity
   id: ClosetPirateScoonerAltD
   parent: LockerSyndicate
-  name: ent-ClosetPirateScoonerAltD
-  description: ent-ClosetPirateScoonerAltD-desc
+  name: шкаф пирата шхуны (вариант Г)
+  description: Кроваво-красный шкаф, пропахший морской водой. Экипаж шхуны с треуголкой и револьвером.
   suffix: Pirate, Schooner Alt D
   components:
   - type: EntityTableContainerFill
@@ -162,8 +162,8 @@
 - type: entity
   id: ClosetPirateCaptainScooner
   parent: LockerSyndicate
-  name: ent-ClosetPirateCaptainScooner
-  description: ent-ClosetPirateCaptainScooner-desc
+  name: шкаф капитана пиратской шхуны
+  description: Кроваво-красный шкаф, пропахший морской водой. Капитанский комплект шхуны с плащом, разгрузочным жилетом и револьвером.
   suffix: Pirate, Schooner Captain
   components:
   - type: EntityTableContainerFill

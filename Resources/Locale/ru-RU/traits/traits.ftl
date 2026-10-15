@@ -36,8 +36,6 @@ trait-frontal-lisp-desc = У ваф имеютшя проблемы ш прои�
 trait-socialanxiety-name = Заикание
 trait-socialanxiety-desc = Вы заикаетесь.
 
-trait-southern-name = Диалект юга США
-trait-southern-desc = У вас другая манера речи. Работает только с английским.
 
 trait-snoring-name = Храп
 trait-snoring-desc = Вы храпите во время сна.

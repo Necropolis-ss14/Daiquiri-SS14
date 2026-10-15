@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: BaseMobClown
   parent: [BaseMobFlesh, BaseSlicingRefinable]
-  name: aberrant clown
+  name: аберрантный клоун
   description: A slippery mass of hilarious matter, animated through honktacular energy.
   abstract: true
   components:

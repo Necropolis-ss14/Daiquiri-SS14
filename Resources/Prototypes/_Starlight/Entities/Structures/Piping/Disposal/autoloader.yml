@@ -1,7 +1,7 @@
 - type: entity
   id: AutoLoaderUnit
   parent: DisposalUnitBase
-  name: autoloader unit
+  name: автозагрузчик
   description: A pneumatic autoloader delivery unit.
   components:
   - type: Sprite

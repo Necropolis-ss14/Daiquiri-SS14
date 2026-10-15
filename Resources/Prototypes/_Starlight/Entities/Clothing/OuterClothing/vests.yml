@@ -2,7 +2,7 @@
 - type: entity
   parent: [ClothingOuterBase, AllowSuitStorageClothing, BaseMinorContraband]
   id: ClothingOuterWireVest
-  name: wire harness
+  name: проволочная сбруя
   description: An assortment of knots used to hold things on your back.
   components:
   - type: Sprite

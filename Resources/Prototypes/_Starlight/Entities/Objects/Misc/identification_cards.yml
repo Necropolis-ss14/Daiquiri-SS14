@@ -25,7 +25,7 @@
 - type: entity
   parent: [ IDCardStandard, BaseCentcommContraband ]
   id: CentcomIDCardOperator
-  name: CentComm operator ID card
+  name: ID-карта оператора ЦентКома
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Misc/id_cards.rsi
@@ -51,7 +51,7 @@
 - type: entity
   parent: [ IDCardStandard, BaseScienceContraband ]
   id: RoboticistIDCard
-  name: roboticist ID card
+  name: ID-карта роботиста
   components:
   - type: Sprite
     layers:
@@ -69,7 +69,7 @@
 - type: entity
   parent: [ IDCardStandard, BaseCommandContraband ]
   id: NanoTrasenRepresentativeIDCard
-  name: NanoTrasen representative ID Card
+  name: ID-карта представителя NanoTrasen
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Misc/id_cards.rsi
@@ -114,7 +114,7 @@
 - type: entity
   parent: [ IDCardStandard, BaseBlueShieldContraband ]
   id: BlueShieldIDCard
-  name: blue shield ID card
+  name: ID-карта синего щита
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Misc/id_cards.rsi
@@ -135,7 +135,7 @@
 - type: entity
   parent: IDCardStandard
   id: AssistantManagerIDCard
-  name: assistant manager ID card
+  name: ID-карта ассистента менеджера
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Misc/id_cards.rsi
@@ -150,7 +150,7 @@
 - type: entity
   parent: [ IDCardStandard, BaseCommandContraband ]
   id: NTNCBlueShieldIDCard
-  name: NanoTrasen navy corps marine's ID card
+  name: ID-карта морпеха флотского корпуса NanoTrasen
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Misc/id_cards.rsi
@@ -177,7 +177,7 @@
   parent: [ IDCardStandard, BaseCommandContraband ]
   categories: [ DoNotMap ]
   id: CCGreenShieldIDCard
-  name: greenshield ID card
+  name: ID-карта зелёного щита
   description: Why are you looking at this instead of the person you're supposed to protect?
   components:
     - type: Sprite
@@ -204,7 +204,7 @@
 - type: entity
   parent: [ IDCardStandard, BaseSalvageContraband ]
   id: SalvageLeadIDCard
-  name: salvage lead ID card
+  name: ID-карта старшего утилизатора
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Misc/id_cards.rsi
@@ -225,7 +225,7 @@
 - type: entity
   parent: [ IDCardStandard, BaseCargoContraband ]
   id: MiningIDCard
-  name: mining ID card
+  name: ID-карта шахтёра
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Misc/id_cards.rsi
@@ -246,7 +246,7 @@
 - type: entity
   parent: [ IDCardStandard, BaseCargoContraband ]
   id: MailTechIDCard
-  name: mail technician ID card
+  name: ID-карта почтового техника
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Misc/id_cards.rsi
@@ -267,7 +267,7 @@
 - type: entity
   parent: IDCardStandard
   id: PerformerIDCard
-  name: performer ID card
+  name: ID-карта артиста
   components:
   - type: Sprite
     layers:
@@ -285,7 +285,7 @@
 - type: entity
   parent: [ IDCardStandard, BaseSecurityContraband ]
   id: DutyOfficerIDCard
-  name: duty officer ID card
+  name: ID-карта дежурного офицера
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Misc/id_cards.rsi
@@ -306,7 +306,7 @@
 - type: entity
   parent: IDCardStandard
   id: KikiIDCard
-  name: kiki's ID card
+  name: ID-карта Кики
   components:
   - type: Sprite
     layers:
@@ -328,7 +328,7 @@
 - type: entity
   parent: IDCardStandard
   id: PrisonerJobIDCard
-  name: prisoner ID card
+  name: ID-карта заключённого
   suffix: Prisoner
   components:
   - type: Sprite
@@ -350,7 +350,7 @@
 - type: entity
   parent: PrisonerJobIDCard
   id: StirStirIDCard
-  name: stir stir's ID card
+  name: ID-карта Стир Стира
   components:
   - type: PresetIdCard
     name: Stir Stir
@@ -358,7 +358,7 @@
 - type: entity
   parent: IDCardStandard
   id: SovietIdCard
-  name: soviet id card
+  name: советская ID-карта
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Misc/id_cards.rsi
@@ -378,7 +378,7 @@
 - type: entity
   parent: [ SyndicateIDCard, BaseSyndicateContraband ]
   id: SyndicateFootsoldierIDCard
-  name: syndicate ID card
+  name: ID-карта Синдиката
   suffix: Footsoldier, Not Agent ID
   components:
   - type: Sprite
@@ -397,7 +397,7 @@
 - type: entity
   parent: [ IDCardStandard, BaseSyndicateContraband ]
   id: CommanderIDCard
-  name: syndicate commander ID card
+  name: ID-карта командира Синдиката
   components:
     - type: Sprite
       sprite: _Starlight/Objects/Misc/id_cards.rsi
@@ -425,7 +425,7 @@
 - type: entity
   parent: [ IDCardStandard, BaseSyndicateContraband ]
   id: SyndicateAgentIDCard
-  name: syndicate agent ID card
+  name: ID-карта агента Синдиката
   components:
     - type: Sprite
       sprite: _Starlight/Objects/Misc/id_cards.rsi
@@ -453,7 +453,7 @@
 - type: entity
   parent: [ IDCardStandard, BaseSyndicateContraband ]
   id: OperativeIDCard
-  name: syndicate operative ID card
+  name: ID-карта оперативника Синдиката
   components:
     - type: Sprite
       sprite: _Starlight/Objects/Misc/id_cards.rsi
@@ -481,7 +481,7 @@
 - type: entity
   parent: IDCardStandard
   id: AssistantDerelictBorgiIDCard
-  name: assistant ID card
+  name: ID-карта ассистента
   suffix: Borgi
   components:
   - type: Sprite
@@ -509,7 +509,7 @@
 - type: entity
   parent: AssistantDerelictBorgiIDCard
   id: XenoborgiIDCard
-  name: xenoborgi ID card
+  name: ID-карта ксеноборги
   suffix: Xenoborgi
   components:
     - type: IdCard
@@ -519,7 +519,7 @@
 - type: entity
   parent: IDCardStandard
   id: CentcomIDCardNTSF
-  name: NTSF ID card
+  name: ID-карта ТСФ
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Misc/id_cards.rsi
@@ -545,7 +545,7 @@
 - type: entity
   parent: IDCardStandard
   id: CentCommIDCardServiceWorker
-  name: CentComm service worker ID card
+  name: ID-карта сервисного работника ЦентКома
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Misc/id_cards.rsi
@@ -571,7 +571,7 @@
 - type: entity
   parent: IDCardStandard
   id: CentCommIDCardChef
-  name: CentComm chef ID card
+  name: ID-карта повара ЦентКома
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Misc/id_cards.rsi
@@ -597,7 +597,7 @@
 - type: entity
   parent: IDCardStandard
   id: CentCommIDCardBartender
-  name: CentComm bartender ID card
+  name: ID-карта бармена ЦентКома
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Misc/id_cards.rsi
@@ -623,7 +623,7 @@
 - type: entity
   parent: IDCardStandard
   id: CentCommIDCardJanitor
-  name: CentComm janitor ID card
+  name: ID-карта уборщика ЦентКома
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Misc/id_cards.rsi
@@ -649,7 +649,7 @@
 - type: entity
   parent: IDCardStandard
   id: CentcomIDCardDecimus
-  name: ERROR ID card
+  name: ID-карта ОШИБКА
   components:
   - type: Sprite
     layers:
@@ -664,7 +664,7 @@
 - type: entity
   parent: [IDCardStandard, BaseTSFContraband]
   id: TSFIdCard
-  name: SolGov ID card
+  name: ID-карта СолГов
   description: An identification card issued by the Trans Solar Federation.
   components:
   - type: Sprite
@@ -745,7 +745,7 @@
 - type: entity
   parent: IDCardStandard
   id: CluwneBeastIDCard
-  name: cluwne ID card
+  name: ID-карта клуня
   suffix: Unremoveable
   components:
   - type: Sprite
@@ -762,7 +762,7 @@
 - type: entity
   parent: [ IDCardStandard, BaseCommandContraband ]
   id: NanoTrasenCareerTrainerIDCard
-  name: NanoTrasen career trainer ID Card
+  name: ID-карта карьерного тренера NanoTrasen
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Misc/id_cards.rsi
@@ -784,7 +784,7 @@
 - type: entity
   id: nctdatachip
   parent: [Clothing, BaseCommandContraband]
-  name: NCT Trainee Access Chip
+  name: чип доступа стажёра НКТ
   description: A small electronic access token that allows its user to copy the access of their Trainee. Only accessible by NT Career Trainers!
   components:
   - type: Clothing
@@ -812,7 +812,7 @@
 - type: entity #Overhaul - now usable like regular ID but has its own job icon, and makeshift IDs are minor contra, so you SHOULD still get in trouble by borgs
   parent: [IDCardStandard, BaseMinorContraband]
   id: MakeshiftID
-  name: makeshift ID card
+  name: самодельная ID-карта
   description: A set of door electronics rewired to act as an ID card.
   components:
   - type: Sprite
@@ -1065,7 +1065,7 @@
 - type: entity
   parent: [ IDCardStandard, BaseSalvageContraband ]
   id: SalvageMedicIDCard
-  name: salvage medic ID card
+  name: ID-карта медика-утилизатора
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Misc/id_cards.rsi

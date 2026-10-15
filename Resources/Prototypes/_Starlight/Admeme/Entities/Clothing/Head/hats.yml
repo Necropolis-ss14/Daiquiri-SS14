@@ -1,7 +1,7 @@
 - type: entity
   parent: [ClothingHeadBase, BaseNanoTrasenContraband]
   id: ClothingHeadHatNTNC
-  name: NanoTrasen navy marine hat.
+  name: фуражка морпеха NanoTrasen
   components:
   - type: Sprite
     sprite: _Starlight/Admeme/Clothing/Head/Hats/ntnchat.rsi
@@ -11,7 +11,7 @@
 - type: entity
   parent: [ClothingHeadBase, BaseNanoTrasenContraband]
   id: ClothingHeadHatNTNCGrey
-  name: NanoTrasen grey navy marine hat.
+  name: серая фуражка морпеха NanoTrasen
   components:
   - type: Sprite
     sprite: _Starlight/Admeme/Clothing/Head/Hats/ntncgreyhat.rsi
@@ -21,7 +21,7 @@
 - type: entity
   parent: [ClothingHeadBase, BaseNanoTrasenContraband]
   id: ClothingHeadHatNTNCEnsign
-  name: NanoTrasen navy ensign hat.
+  name: фуражка энсина NanoTrasen
   components:
   - type: Sprite
     sprite: _Starlight/Admeme/Clothing/Head/Hats/ntncensignhat.rsi
@@ -35,7 +35,7 @@
   id: ClothingHeadHatTophatArmored
   name: tophat
   suffix: armored, admeme
-  description: A stylish black tophat, lined in kevlar
+  description: Стильный чёрный цилиндр на кевларовой подкладке.
   components:
   - type: Armor #Values seem to let the user survive one extra hit if attacked consistently.
     modifiers:
@@ -48,9 +48,9 @@
 - type: entity
   parent: [ ClothingHeadHatTophatBig , BaseMinorContraband ]
   id: ClothingHeadHatTophatBigArmored
-  name: big tophat
+  name: большой цилиндр
   suffix: armored, admeme
-  description: This hat clearly belongs to someone very, very important. It is lined in kevlar.
+  description: Ясно, что шляпа очень, очень важной персоны. Подкладка из кевлара.
   components:
   - type: Armor #Values seem to let the user survive one extra hit if attacked consistently.
     modifiers:
@@ -63,9 +63,9 @@
 - type: entity
   parent: [ ClothingHeadHatTophatBigWhite , BaseMinorContraband ]
   id: ClothingHeadHatTophatBigWhiteArmored
-  name: big tophat
+  name: большой белый цилиндр
   suffix: armored, admeme
-  description: This hat clearly belongs to someone very, very important. It is lined in kevlar.
+  description: Ясно, что шляпа очень, очень важной персоны. Подкладка из кевлара.
   components:
   - type: Armor #Values seem to let the user survive one extra hit if attacked consistently.
     modifiers:

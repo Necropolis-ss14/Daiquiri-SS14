@@ -1,7 +1,7 @@
 - type: entity
   parent: BaseAction
   id: ActionViewMoods
-  name: View Moods
+  name: Посмотреть настроения
   description: View your current moods.
   components:
   - type: Action

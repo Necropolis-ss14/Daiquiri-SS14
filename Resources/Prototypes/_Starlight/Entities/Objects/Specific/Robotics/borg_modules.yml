@@ -146,7 +146,7 @@
 - type: entity
   id: BorgModuleUppies
   parent: [ BaseBorgModule, BaseProviderBorgModule ]
-  name: personnel transport cyborg module
+  name: модуль перевозки персонала
   description: A universal cyborg module which allows the unit to carry small personnel.
   components:
   - type: Tag
@@ -180,8 +180,8 @@
 - type: entity
   id: BorgModuleGaming
   parent: [ BaseBorgModule, BaseProviderBorgModule ]
-  name: gaming cyborg module
-  description: A universal cyborg module for handling cash and game supplies.
+  name: игровой модуль киборга
+  description: Универсальный модуль киборга для налички и игровых припасов.
   components:
   - type: Tag
     tags:
@@ -241,8 +241,8 @@
 - type: entity
   id: BorgContrabandBag
   parent: BaseStorageItem
-  name: contraband bag
-  description: An integrated evidence bag mounted directly into a security cyborg's chassis. It can collect contraband on contact, and will drop to the floor if the cyborg is incapacitated.
+  name: сумка контрабанды
+  description: Встроенный пакет для улик прямо в шасси охранного киборга. Собирает контрабанду касанием, выпадет если киборга выведут из строя.
   components:
   - type: Sprite
     sprite: Clothing/Back/Duffels/security.rsi
@@ -267,8 +267,8 @@
 - type: entity
   id: BorgModuleSecurity
   parent: [ BaseBorgModuleSecurity, BaseProviderBorgModule ]
-  name: security cyborg module
-  description: A security cyborg module which allows the unit to use unlethal equipment.
+  name: охранный модуль киборга
+  description: Охранный модуль киборга для несмертельного снаряжения.
   components:
   - type: Sprite
     layers:
@@ -291,8 +291,8 @@
 - type: entity
   id: BorgModuleSecurityContraband
   parent: [ BaseBorgModuleSecurity, BaseProviderBorgModule ]
-  name: contraband bag cyborg module
-  description: A security cyborg module containing an integrated evidence bag. It can collect contraband on contact and will drop to the floor if the cyborg is incapacitated.
+  name: контрабандный модуль киборга
+  description: Охранный модуль киборга со встроенным пакетом для улик. Собирает контрабанду касанием, выпадет если киборга выведут из строя.
   components:
   - type: Sprite
     layers:
@@ -318,8 +318,8 @@
 - type: entity
   id: BorgModuleTSF
   parent: [ BaseBorgModuleSecurity, BaseProviderBorgModule ]
-  name: TSF Security cyborg module
-  description: A Security TSF cyborg module which allows the unit to use unlethal equipment.
+  name: модуль охраны TSF
+  description: Охранный модуль киборга TSF для несмертельного снаряжения.
   components:
   - type: Sprite
     layers:
@@ -355,8 +355,8 @@
 - type: entity
   id: BorgModuleTSFCombat
   parent: [ BaseBorgModuleSecurity, BaseProviderBorgModule ]
-  name: TSMC Combat cyborg module
-  description: A TSMC cyborg module which allows the unit to use combat equipment.
+  name: боевой модуль TSMC
+  description: Боевой модуль киборга TSMC для боевого снаряжения.
   components:
   - type: Sprite
     layers:
@@ -409,7 +409,7 @@
 - type: entity
   id: BorgModulePaperwork
   parent: [ BaseBorgModulePurrfus, BaseProviderBorgModule ]
-  name: paperwork cyborg module
+  name: модуль бумажной работы
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Specific/Robotics/borgmodule.rsi
@@ -444,8 +444,8 @@
 - type: entity
   id: FaxMachineBorg
   parent: BaseItem
-  name: integrated fax transmitter
-  description: A miniaturised bluespace fax array. It can send documents anywhere on the network, but keeps no listing of its own for others to reply to.
+  name: встроенный факс-передатчик
+  description: Миниатюрный блюспейс-факс. Шлёт документы по сети, но обратного адреса не оставляет.
   components:
   - type: Sprite
     sprite: Structures/Machines/fax_machine.rsi
@@ -490,8 +490,8 @@
 - type: entity
   id: BorgModulePaperworkPrinting
   parent: [ BaseBorgModulePurrfus, BaseProviderBorgModule ]
-  name: paperwork printing module
-  description: A complete bureaucracy suite. Prints standard station forms, files them away, and faxes them out.
+  name: модуль печати документов
+  description: Полный бюрократический набор. Печатает станционные формы, подшивает и факсит.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Specific/Robotics/borgmodule.rsi
@@ -516,7 +516,7 @@
 - type: entity
   id: BorgModuleBartending
   parent: [ BaseBorgModuleService, BaseProviderBorgModule ]
-  name: bartending cyborg module
+  name: модуль бармена
   components:
   - type: Sprite
     layers:
@@ -561,7 +561,7 @@
 - type: entity
   id: BorgModuleBooks
   parent: [ BaseBorgModuleService, BaseProviderBorgModule ]
-  name: bookkeeping cyborg module
+  name: модуль бухгалтерии
   components:
   - type: Sprite
     layers:
@@ -602,7 +602,7 @@
 - type: entity
   id: BorgModuleBotany
   parent: [ BaseBorgModuleService, BaseProviderBorgModule ]
-  name: botany cyborg module
+  name: модуль ботаника
   components:
   - type: Sprite
     layers:
@@ -642,7 +642,7 @@
 - type: entity
   id: BorgModuleButcher
   parent: [ BaseBorgModuleService, BaseProviderBorgModule ]
-  name: butcher cyborg module
+  name: модуль мясника
   components:
   - type: Sprite
     layers:
@@ -684,7 +684,7 @@
 - type: entity
   id: BorgModuleCooking
   parent: [ BaseBorgModuleService, BaseProviderBorgModule ]
-  name: cooking cyborg module
+  name: модуль повара
   components:
   - type: Sprite
     layers:
@@ -738,8 +738,8 @@
 - type: entity
   id: BorgModuleSyndicateAdvancedTool
   parent: [ BaseBorgModuleEngineering, BaseProviderBorgModule, BaseSyndicateContraband]
-  name: syndicate advanced tool cyborg module
-  description: A syndicate version of the advanced tools module, containing disguised syndicate jaws of life.
+  name: продвинутый инструментальный модуль синдиката
+  description: Синдикат-версия продвинутого инструментального модуля, с замаскированными челюстями жизни.
   components:
   - type: Sprite
     layers:
@@ -759,8 +759,8 @@
 - type: entity
   id: BorgModuleSyndicateAdvancedChemical
   parent: [ BaseBorgModuleMedical, BaseProviderBorgModule, BaseSyndicateContraband]
-  name: syndicate advanced chemical cyborg module
-  description: A syndicate version of the advanced chemical module, including a gorlex hypospray.
+  name: продвинутый химический модуль синдиката
+  description: Синдикат-версия продвинутого химического модуля, с гипоспреем горлекс.
   components:
   - type: Sprite
     layers:
@@ -815,8 +815,8 @@
 - type: entity
   id: BorgModuleSyndicateRescue
   parent: [ BaseBorgModuleMedical, BaseProviderBorgModule, BaseSyndicateContraband ]
-  name: syndicate rescue cyborg module
-  description: A syndicate version of the rescue module, featuring a syndicate defibrillator.
+  name: спасательный модуль синдиката
+  description: Синдикат-версия спасательного модуля, с синдикат-дефибриллятором.
   components:
   - type: Sprite
     layers:
@@ -835,8 +835,8 @@
 - type: entity
   id: BorgModuleSyndicateStealth
   parent: [BaseBorgModuleSyndicateStealth, BaseProviderBorgModule, BaseSyndicateContraband ]
-  name: syndicate stealth module
-  description: Contains an adaptation of the infiltration suit's cloaking device for the syndicate stealth cyborg.
+  name: стелс-модуль синдиката
+  description: Адаптация маскировочного устройства инфильтрационного костюма для стелс-киборга синдиката.
   components:
   - type: Sprite
     layers:
@@ -852,8 +852,8 @@
 - type: entity
   id: BorgModuleSyndicateChameleonProjector
   parent: [ BaseBorgModuleSyndicateStealth, BaseProviderBorgModule, BaseSyndicateContraband ]
-  name: syndicate chameleon projector module.
-  description: Contains an adaptation of the chameleon projector for the syndicate stealth cyborg.
+  name: модуль маскировочного проектора синдиката
+  description: Адаптация маскировочного проектора для стелс-киборга синдиката.
   components:
   - type: Sprite
     layers:
@@ -869,8 +869,8 @@
 - type: entity
   id: BorgModuleSyndicateNukeDisk
   parent: [ BaseBorgModule, BaseProviderBorgModule, BaseSyndicateContraband ]
-  name: syndicate nuke disk carrier module
-  description: Allows for the transportation of the nuclear authentication disk.
+  name: модуль переноски ядерного диска синдиката
+  description: Для перевозки диска ядерной аутентификации.
   components:
     - type: Sprite
       layers:
@@ -895,8 +895,8 @@
 - type: entity
   id: BorgModuleSyndicatePaperwork
   parent: [ BaseBorgModule, BaseProviderBorgModule, BaseSyndicateContraband ]
-  name: syndicate paperwork module
-  description: Allows for the forging of documents.
+  name: модуль бумажной работы синдиката
+  description: Для подделки документов.
   components:
   - type: Sprite
     layers:
@@ -948,7 +948,7 @@
 - type: entity
   id: BorgModuleSurgical
   parent: [ BaseBorgModuleMedical, BaseProviderBorgModule ]
-  name: surgery cyborg module
+  name: хирургический модуль
   components:
   - type: Sprite
     layers:
@@ -981,8 +981,8 @@
 - type: entity
   parent: [ BaseXenoborgModuleGeneric, BaseProviderBorgModule, BaseXenoborgContraband ]
   id: XenoborgModuleRCD
-  name: engineering xenoborg module
-  description: Module with a recharging xenoborg RCD
+  name: инженерный модуль ксеноборгов
+  description: Модуль с перезаряжающимся РСУ ксеноборгов.
   components:
   - type: Sprite
     layers:
@@ -1074,7 +1074,7 @@
 - type: entity
   id: BorgModuleHold
   parent: [ BaseBorgModuleSupply, BaseProviderBorgModule ]
-  name: hauling cyborg module
+  name: погрузочный модуль киборга
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Specific/Robotics/borgmodule.rsi
@@ -1115,7 +1115,7 @@
 - type: entity
   id: BorgModuleMail
   parent: [ BaseBorgModuleSupply, BaseProviderBorgModule ]
-  name: mail cyborg module
+  name: почтовый модуль киборга
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Specific/Robotics/borgmodule.rsi
@@ -1143,8 +1143,8 @@
 - type: entity
   id: BorgModuleAdvancedLoading
   parent: [ BaseBorgModuleSupply, BaseProviderBorgModule ]
-  name: advanced loading cyborg module
-  description: Advanced module for cargo cyborgs, with specialised hydraulic clamps.
+  name: продвинутый погрузочный модуль киборга
+  description: Продвинутый модуль для грузовых киборгов, со спецгидрозахватами.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Specific/Robotics/borgmodule.rsi
@@ -1161,7 +1161,7 @@
 - type: entity
   id: BorgModuleAdvancedPlumbing
   parent: [ BaseBorgModule, BaseProviderBorgModule ]
-  name: advanced plumbing cyborg module
+  name: продвинутый сантехнический модуль киборга
   components:
   - type: Sprite
     layers:
@@ -1202,7 +1202,7 @@
 - type: entity
   id: BorgModuleMakeshiftKnife
   parent: [ BaseBorgModule, BaseProviderBorgModule, BaseMajorContraband ]
-  name: makeshift knife cyborg module
+  name: модуль самодельного ножа
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Specific/Robotics/borgmodule.rsi

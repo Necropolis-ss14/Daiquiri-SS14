@@ -1,7 +1,7 @@
 - type: entity
   parent: [ ClothingMaskGas, BaseBlueShieldContraband ]
   id: ClothingMaskGasBSO
-  name: blue swat gas mask
+  name: синий штурмовой противогаз
   description: A elite issue Security gas mask. Now in blue!
   components:
   - type: Sprite
@@ -29,7 +29,7 @@
 - type: entity
   parent: [ ClothingMaskGas, BaseSecurityContraband ]
   id: ClothingMaskGasCorpsman
-  name: security bio mask
+  name: биомаска безопасности
   description: VERY Expensive medical PPE that provides superior pathological protection.
   components:
   - type: Sprite
@@ -57,7 +57,7 @@
 - type: entity
   parent: [ClothingMaskGas]
   id: ClothingMaskRoboticist
-  name: roboticist gas mask
+  name: противогаз робототехника
   description: What a sublime color set, newbie.
   components:
   - type: Sprite
@@ -68,7 +68,7 @@
 - type: entity
   parent: [ClothingMaskPullableBase]
   id: ClothingMaskGasHalf
-  name: half mask
+  name: полумаска
   description: A half mask that covers the mouth and nose, but not the eyes.
   components:
   - type: Sprite
@@ -85,7 +85,7 @@
 - type: entity
   parent: [ClothingMaskBase]
   id: ClothingMaskBreathTube
-  name: breath tube
+  name: дыхательная трубка
   description: A thin nose tube that connects to internals. Not very comfortable and falls out often, but good if you want people to see your pretty face.
   components:
   - type: Sprite
@@ -97,7 +97,7 @@
 - type: entity
   parent: [ClothingMaskGas, BaseSovietContraband]
   id: ClothingSovietGasMask
-  name: GP-32 gas mask
+  name: противогаз ГП-32
   description: An old uncomfortable mechanical gas mask of standard use in USSP. Meant to protect from radioactive fallout.
   components:
   - type: Sprite
@@ -121,7 +121,7 @@
 - type: entity
   parent: ClothingMaskBreathMedicalSecurity
   id: ClothingMaskBreathMedicalSecurityBudget
-  name: budget military-style medical mask
+  name: бюджетная медицинская маска в военном стиле
   description: A low-cost medical mask with a small layer of protection against damage and viruses. It's less effective than the standard issue medical mask, but it's better than nothing.
   components:
   - type: Armor
@@ -133,7 +133,7 @@
 - type: entity
   parent: ClothingMaskGas
   id: ClothingKitsuneMask
-  name: kitsune mask
+  name: маска кицунэ
   description: A ceramic mask fox mask.
   components:
   - type: Sprite
@@ -150,7 +150,7 @@
 - type: entity
   parent: ClothingMaskGas
   id: ClothingSquidOneMask
-  name: circle dangerous mask
+  name: опасная маска с кругом
   description: SEE MY EYE?
   components:
   - type: Sprite
@@ -161,7 +161,7 @@
 - type: entity
   parent: ClothingMaskGas
   id: ClothingSquidTwoMask
-  name: square dangerous mask
+  name: опасная маска с квадратом
   description: Glory to square!
   components:
   - type: Sprite
@@ -172,7 +172,7 @@
 - type: entity
   parent: ClothingMaskGas
   id: ClothingSquidThreeMask
-  name: triangle dangerous mask
+  name: опасная маска с треугольником
   description: On top. Like always.
   components:
   - type: Sprite
@@ -184,7 +184,7 @@
 - type: entity
   parent: ClothingMaskBase
   id: ClothingMaskGeneralBorg
-  name: protogen mask
+  name: маска протогена
   description: You don't understand, we are not cybor- POW POW POW
   components:
   - type: Sprite
@@ -207,7 +207,7 @@
 - type: entity
   parent: ClothingMaskGeneralBorg
   id: ClothingMaskCargoBorg
-  name: protogen salvager mask
+  name: маска протогена-утилизатора
   description: Now that's a mask that really digs the look.
   components:
   - type: Sprite
@@ -218,7 +218,7 @@
 - type: entity
   parent: ClothingMaskGeneralBorg
   id: ClothingMaskMedicBorg
-  name: protogen medic mask
+  name: маска протогена-медика
   description: Look me in the face while i cut you.
   components:
   - type: Sprite
@@ -229,7 +229,7 @@
 - type: entity
   parent: ClothingMaskGeneralBorg
   id: ClothingMaskEngiBorg
-  name: protogen engineer mask
+  name: маска протогена-инженера
   description: Bolts it all together.
   components:
   - type: Sprite
@@ -240,7 +240,7 @@
 - type: entity
   parent: ClothingMaskGeneralBorg
   id: ClothingMaskJanitorBorg
-  name: protogen janitor mask
+  name: маска протогена-уборщика
   description: Sweep the floor with protogen style!
   components:
   - type: Sprite
@@ -251,7 +251,7 @@
 - type: entity
   parent: ClothingMaskGeneralBorg
   id: ClothingMaskSecBorg
-  name: protogen security mask
+  name: маска протогена-охранника
   description: Always on guard, nothing escapes those mechanical eyes.
   components:
   - type: Sprite
@@ -265,7 +265,7 @@
   parent: ClothingMaskGasERT
   id: ClothingMaskGasGSO
   categories: [ DoNotMap ]
-  name: greenshield gas mask
+  name: противогаз гриншилда
   description: The gas mask of the elite of the elite, even protects the user from the dangers of welding.
   components:
   - type: Sprite
@@ -277,7 +277,7 @@
 - type: entity
   parent: ClothingMaskMime
   id: ClothingMaskSusMime
-  name: sus mime mask
+  name: подозрительная маска мима
   description: For when your crewmates say something a little sus.
   components:
   - type: Sprite
@@ -288,7 +288,7 @@
 - type: entity
   parent: [ClothingMaskGasAtmos, BaseCommandContraband]
   id: ClothingMaskGasCaptainPodWars
-  name: captain's gas mask
+  name: противогаз капитана
   description: A repainted military surplus gas mask from the Pod Wars. In pretty good shape, considering it is slightly over 100 years old.
   components:
   - type: Sprite

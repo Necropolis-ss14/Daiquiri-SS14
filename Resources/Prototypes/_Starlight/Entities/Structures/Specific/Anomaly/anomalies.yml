@@ -256,7 +256,7 @@
 - type: entity
   id: PortalShadekinHub
   parent: BasePortal
-  name: dark hub
+  name: тёмный узел
   description: This portal is used by shadekins to go nearly anywhere in the universe!
   placement:
     mode: SnapgridCenter
@@ -335,7 +335,7 @@
 - type: entity
   id: ShadekinTrap
   parent: BaseShadow
-  name: dark trap
+  name: тёмная ловушка
   placement:
     mode: SnapgridCenter
   components:
@@ -376,7 +376,7 @@
         - HideContextMenu
 
 - type: entity
-  name: dark net
+  name: тёмная сеть
   id: ShadekinDarkNet
   categories: [HideSpawnMenu]
   components:
@@ -390,7 +390,7 @@
 - type: entity
   id: PortalDarkBreacher
   parent: BasePortal
-  name: dark breaker portal
+  name: портал тёмного прорыва
   description: The portal to the light...
   placement:
     mode: SnapgridCenter

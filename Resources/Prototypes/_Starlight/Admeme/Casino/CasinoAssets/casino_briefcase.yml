@@ -1,8 +1,8 @@
 - type: entity
   parent: BriefcaseBase
   id: CasinoChipCase
-  name: casino chip case
-  description: A black case trimmed in gold. Lockable, so the float arrives at the table intact.
+  name: кейс с фишками казино
+  description: Чёрный кейс с золотой отделкой. Закрывается, чтобы флоат доехал до стола целым.
   components:
   - type: Appearance
   - type: Sprite

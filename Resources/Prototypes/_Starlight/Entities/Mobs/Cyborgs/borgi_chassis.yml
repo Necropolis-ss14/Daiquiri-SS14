@@ -1,7 +1,7 @@
 - type: entity
   parent: BaseBorgiChassis
   id: DerelictBorgiChassis
-  name: derelict borgi
+  name: заброшенный борги
   description: even after all these years. still loves chasing it's tail.
   components:
     - type: ContainerFill
@@ -57,7 +57,7 @@
 - type: entity
   parent: BaseStationBorgiChassis
   id: SmartSubwooferBorgiChassis
-  name: Smart SubWoofer
+  name: Умный сабвуфер
   description: An unusually smart dog, with an obsession for sick bass beats and stating laws.
   components:
     - type: ActionGrant
@@ -100,7 +100,7 @@
 - type: entity
   parent: BaseSyndicateBorgiChassis
   id: SyndiBorgiKit1
-  name: Syndi Borgi
+  name: Синди-борги
   suffix: Antag, L6 Esword
   description: An unusually smart dog, but hell bent on MURDER.
   components:
@@ -118,7 +118,7 @@
 - type: entity
   parent: BaseSyndicateBorgiChassis
   id: SyndiBorgiKit2
-  name: Syndi Borgi
+  name: Синди-борги
   suffix: Antag, Quick Dagger
   description: An unusually smart dog, but hell bent on MURDER.
   components:
@@ -345,7 +345,7 @@
 - type: entity
   parent: [ BaseXenoBorgiLanguages, BaseXenoborgChassisDerelict, BaseXenoborgTransponder, DerelictBorgiChassis ]
   id: DerelictXenoBorgiBase
-  name: derelict xenoborgi
+  name: заброшенный ксеноборги
   description:  even after all these years. still loves the color blue.
   components:
     - type: Sprite
@@ -470,7 +470,7 @@
 - type: entity
   parent: BaseBorgiChassis
   id: ITGBorgiChassis
-  name: ITG borgi
+  name: ИТГ борги
   description: Rescued from deep space, this chassis is the perfect tool for sniffing out loot.
   components:
     - type: ContainerFill

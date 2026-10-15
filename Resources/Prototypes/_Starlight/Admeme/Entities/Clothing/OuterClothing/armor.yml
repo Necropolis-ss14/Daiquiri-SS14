@@ -2,8 +2,8 @@
   parent:
     [BaseNanoTrasenContraband, ClothingOuterVestWeb]
   id: ClothingOuterVestWebNTNCEnsign
-  name: NanoTrasen navy marine ensign's carapace.
-  description: An armoured carapace designed for the best of the best within the navy, allowing the wearer to remain protected and stylish.
+  name: панцирь энсина морпехов NanoTrasen
+  description: "Бронированный панцирь для лучших из лучших флота: защита и стиль."
   components:
     - type: Sprite
       sprite: _Starlight/Admeme/Clothing/OuterClothing/Vests/ntnc-ensign.rsi
@@ -13,8 +13,8 @@
 - type: entity
   parent: [ClothingOuterArmorBase, BaseNanoTrasenContraband]
   id: ClothingOuterVestNTNC
-  name: NanoTrasen navy marine's vest
-  description: Much better than a standard type-1 security vest. Don't lose it, you will NOT get a replacement.
+  name: жилет морпеха NanoTrasen
+  description: Куда лучше стандартного жилета охраны. Не потеряй, нового не выдадут.
   components:
     - type: Sprite
       sprite: _Starlight/Admeme/Clothing/OuterClothing/Vests/ntnc_vest.rsi
@@ -39,9 +39,9 @@
 - type: entity
   parent: [ ClothingOuterArmorBasic , BaseMajorContraband ]
   id: ClothingOuterArmorCasino
-  name: heavy armor vest
+  name: тяжёлый бронежилет
   suffix: admeme
-  description: A reinforced Type II armored vest that provides decent protection against most types of damage.
+  description: Усиленный бронежилет второго типа, прилично держит большинство урона.
   components:
   - type: Sprite
     sprite: _Starlight/Admeme/Clothing/OuterClothing/Vests/casino_vest.rsi

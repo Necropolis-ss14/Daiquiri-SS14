@@ -1,7 +1,7 @@
 - type: entity
   parent: BaseAction
   id: ActionSummonCheese
-  name: Summon Cheese
+  name: Призвать сыр
   description: Places a slice of cheese in your hand. delicious!
   components:
   - type: Magic
@@ -19,7 +19,7 @@
 - type: entity
   parent: BaseAction
   id: ActionRandomizeLanguages
-  name: Language Shift
+  name: Смена языка
   description: You ever heard of the Tower of Babel?
   components:
   - type: Magic
@@ -42,7 +42,7 @@
 - type: entity
   parent: BaseAction
   id: ActionRetractableItemManaBlade
-  name: Manifest Spectral Blade
+  name: Явить спектральный клинок
   description: Channel your power into your hand and create a sword out of hardened mana.
   components:
     - type: Action

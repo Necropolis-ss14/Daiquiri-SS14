@@ -32,7 +32,7 @@
   parent: DrinkWaterBottleFull
   id: DrinkWaterBottleEmpty
   suffix: Empty
-  name: water bottle
+  name: бутылка воды
   description: Simple clean water of unknown origin. You think that maybe you don't want to know it.
   components:
   - type: Solution

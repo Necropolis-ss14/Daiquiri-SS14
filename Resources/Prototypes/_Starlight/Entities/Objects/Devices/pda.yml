@@ -1,7 +1,7 @@
 ﻿- type: entity
   parent: BasePDA
   id: RoboticistPDA
-  name: roboticist PDA
+  name: КПК роботиста
   description: Covered in dirt and oil. The screen is covered in something sticky.
   components:
   - type: Pda
@@ -28,7 +28,7 @@
 - type: entity
   parent: BaseMedicalPDA
   id: SeniorChemistPDA
-  name: senior chemist PDA
+  name: КПК ведущего химика
   description: Smells faintly of bratwurst.
   components:
   - type: Sprite
@@ -50,7 +50,7 @@
 - type: entity
   parent: BaseMedicalPDA
   id: VeteranBrigmedicPDA
-  name: veteran brigmedic PDA
+  name: КПК ветерана-бригмедика
   description: This pulse has never stopped under my watch.
   components:
   - type: Sprite
@@ -82,7 +82,7 @@
 - type: entity
   parent: BaseMedicalPDA
   id: CorpsmanPDA
-  name: corpsman PDA
+  name: КПК корпсмена
   description: How's it going to end?
   components:
   - type: Sprite
@@ -114,7 +114,7 @@
 - type: entity
   parent: BaseMedicalPDA
   id: VeteranCorpsmanPDA
-  name: veteran corpsman PDA
+  name: КПК ветерана-корпсмена
   description: I've seen the end. I couldn't change a thing...
   components:
   - type: Sprite
@@ -146,7 +146,7 @@
 - type: entity
   parent: BaseSecurityPDA
   id: DutyOfficerPDA
-  name: duty officer PDA
+  name: КПК дежурного офицера
   description: Look around, there was never a way out. Every path leads down.
   components:
   - type: Sprite
@@ -176,7 +176,7 @@
 - type: entity
   parent: BasePDA
   id: MagistratePDA
-  name: magistrate PDA
+  name: КПК магистрата
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Devices/pda.rsi
@@ -202,7 +202,7 @@
 - type: entity
   parent: BasePDA
   id: NanoTrasenRepresentativePDA
-  name: NanoTrasen representative PDA
+  name: КПК представителя NanoTrasen
   components:
   - type: Pda
     id: NanoTrasenRepresentativeIDCard
@@ -234,7 +234,7 @@
 - type: entity
   parent: BasePDA
   id: IAAPDA
-  name: internal affairs agent PDA
+  name: КПК агента внутренних дел
   description: Corporation and profit are best friends.
   components:
   - type: Pda
@@ -252,7 +252,7 @@
 - type: entity
   parent: [ BasePDA, BaseBlueShieldContraband ]
   id: BlueShieldPDA
-  name: blue shield PDA
+  name: КПК синего щита
   description: Comes with a built-in medtek to assess command staff's wounds after you heroically save them.
   components:
   - type: Sprite
@@ -283,7 +283,7 @@
 - type: entity
   parent: BlueShieldPDA
   id: VeteranBlueShieldPDA
-  name: veteran blue shield PDA
+  name: КПК ветерана синего щита
   description: Comes with a built-in medtek to assess command staff's wounds after you heroically save them.
   components:
   - type: Sprite
@@ -306,7 +306,7 @@
 - type: entity
   parent: BasePDA
   id: AssistantManagerPDA
-  name: assistant manager PDA
+  name: КПК ассистента менеджера
   description: The least poor among the poor.
   components:
   - type: Sprite
@@ -328,7 +328,7 @@
 - type: entity
   parent: BasePDA
   id: SalvageLeadPDA
-  name: salvage lead PDA
+  name: КПК старшего утилизатора
   description: Smells like blood and ash.
   components:
   - type: Sprite
@@ -360,7 +360,7 @@
 - type: entity
   parent: SalvageLeadPDA
   id: VeteranSalvageLeadPDA
-  name: veteran salvage lead PDA
+  name: КПК ветерана-старшего утилизатора
   description: looks like this was patched up with a bunch of scrap. barely.
   components:
   - type: Sprite
@@ -383,7 +383,7 @@
 - type: entity
   parent: SalvagePDA
   id: VeteranSalvagePDA
-  name: veteran salvage PDA
+  name: КПК ветерана-утилизатора
   description: looks like this was patched up with a bunch of scrap. barely.
   components:
   - type: Sprite
@@ -405,7 +405,7 @@
 - type: entity
   parent: BasePDA
   id: MiningPDA
-  name: mining PDA
+  name: КПК шахтёра
   description: there is dirt in every crack.
   components:
   - type: Sprite
@@ -436,7 +436,7 @@
 - type: entity
   parent: MiningPDA
   id: VeteranMiningPDA
-  name: veteran mining PDA
+  name: КПК ветерана-шахтёра
   description: the screen is cracked, and the buttons barely work.
   components:
   - type: Sprite
@@ -458,7 +458,7 @@
 - type: entity
   parent: BasePDA
   id: MailPDA
-  name: mail PDA
+  name: КПК почты
   description: Watch out for papercuts.
   components:
   - type: Sprite
@@ -480,7 +480,7 @@
 - type: entity
   parent: BasePDA
   id: SeniorMailPDA
-  name: senior mail PDA
+  name: КПК старшего почтальона
   description: Nothing stops the mail.
   components:
   - type: Sprite
@@ -502,7 +502,7 @@
 - type: entity
   parent: BasePDA
   id: PerformerPDA
-  name: performer PDA
+  name: КПК артиста
   description: Why isn't it purple, pink, black, or white?
   components:
   - type: Pda
@@ -522,7 +522,7 @@
 - type: entity
   parent: BasePDA
   id: PunPunPDA
-  name: pun pun's PDA
+  name: КПК Пан Пана
   description: Smells like bananas.
   components:
   - type: Sprite
@@ -544,7 +544,7 @@
 - type: entity
   parent: BotanistPDA
   id: KikiPDA
-  name: kiki's PDA
+  name: КПК Кики
   description: Has an earthy scent.
   components:
   - type: Pda
@@ -553,7 +553,7 @@
 - type: entity
   parent: ClearPDA
   id: StirStirPDA
-  name: stir stir's PDA
+  name: КПК Стир Стира
   description: Has been used as a hammer before.
   components:
   - type: Pda
@@ -569,7 +569,7 @@
 - type: entity
   parent: ClearPDA
   id: PrisonerPDA
-  name: prisoner PDA
+  name: КПК заключённого
   description: Has been used as a hammer before.
   components:
   - type: Pda
@@ -585,7 +585,7 @@
 - type: entity
   parent: BasePDA
   id: CommanderPDA
-  name: commander PDA
+  name: КПК командира
   description: Screw captiancy, LETS GET THAT FUKKIN DISK
   components:
     - type: Sprite
@@ -607,7 +607,7 @@
 - type: entity
   parent: BasePDA
   id: NTNCBlueShieldPDA
-  name: naval officer's PDA
+  name: КПК морского офицера
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Devices/pda.rsi
@@ -638,8 +638,8 @@
   parent: BasePDA
   categories: [ DoNotMap ]
   id: CentCommGreenShieldPDA
-  name: ent-CentCommGreenShieldPDA
-  description: ent-CentCommGreenShieldPDA-desc
+  name: КПК зелёного щита
+  description: Со всеми наворотами — на те случаи, когда вы делаете нечто большее, чем медленно ходите рядом с тем, кто считает себя слишком важным.
   components:
     - type: Sprite
       sprite: _Starlight/Objects/Devices/pda.rsi
@@ -669,7 +669,7 @@
 - type: entity
   parent: BasePDA
   id: NTNCCSPDA
-  name: nt nc naval officer's PDA
+  name: КПК морского офицера
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Devices/pda.rsi
@@ -721,7 +721,7 @@
 - type: entity
   parent: ParamedicPDA
   id: SeniorParamedicPDA
-  name: senior paramedic PDA
+  name: КПК старшего парамедика
   description: Shiny and sterile, despite the scuffs and scratches
   components:
   - type: Appearance
@@ -739,7 +739,7 @@
 - type: entity
   parent: CentcomPDA
   id: NTSFPDA
-  name: NT PDA
+  name: КПК НТ
   description: A stately blue PDA used by top NanoTrasen Officials and Special Forces.
   components:
   - type: Sprite
@@ -777,7 +777,7 @@
 - type: entity
   parent: CentcomPDA
   id: DecimusPDA
-  name: jailbroken PDA
+  name: взломанный КПК
   description: An illegally modified generic NanoTrasen PDA. Please report this to your nearest NanoTrasen Representative for investigation.
   components:
   - type: Sprite
@@ -815,7 +815,7 @@
 - type: entity
   parent: BasePDA
   id: NanoTrasenCareerTrainerPDA
-  name: NanoTrasen career trainer PDA
+  name: КПК карьерного тренера NanoTrasen
   components:
   - type: Pda
     id: NanoTrasenCareerTrainerIDCard
@@ -843,7 +843,7 @@
 - type: entity
   parent: [BasePDA, BaseTSFContraband]
   id: SolGovPDA
-  name: SolGov PDA
+  name: КПК СолГов
   description: A personal data assistant issued by the Trans Solar Federation.
   components:
   - type: Sprite
@@ -913,7 +913,7 @@
 - type: entity
   parent: BasePDA
   id: BlackstarPDA
-  name: Blackstar PDA
+  name: КПК «Блэкстар»
   description: Why isn't it black?
   components:
     - type: Pda
@@ -924,7 +924,7 @@
 - type: entity
   parent: ClownPDA
   id: CluwneBeastPDA
-  name: cluwne PDA
+  name: КПК клуня
   suffix: Unremoveable
   description: Cursed cluwne PDA.
   components:
@@ -951,8 +951,8 @@
 - type: entity
   parent: BasePDA
   id: CentCommServiceWorkerPDA
-  name: ent-CentCommServiceWorkerPDA
-  description: ent-CentCommServiceWorkerPDA-desc
+  name: КПК работника ЦК
+  description: Дешёвая версия для тех, кто готовит им еду, моет полы и разносит напитки.
   components:
   - type: Pda
     id: CentCommIDCardServiceWorker
@@ -983,8 +983,8 @@
 - type: entity
   parent: CentCommServiceWorkerPDA
   id: CentCommChefPDA
-  name: ent-CentCommChefPDA
-  description: ent-CentCommChefPDA-desc
+  name: КПК повара ЦК
+  description: Лоснится от жира того самого стейка, который вы должны готовить.
   components:
   - type: Pda
     id: CentCommIDCardChef
@@ -992,8 +992,8 @@
 - type: entity
   parent: CentCommServiceWorkerPDA
   id: CentCommBartenderPDA
-  name: ent-CentCommBartenderPDA
-  description: ent-CentCommBartenderPDA-desc
+  name: КПК бармена ЦК
+  description: Атрибуты прославленного разносчика коктейлей.
   components:
   - type: Pda
     id: CentCommIDCardBartender
@@ -1001,8 +1001,8 @@
 - type: entity
   parent: CentCommServiceWorkerPDA
   id: CentCommJanitorPDA
-  name: ent-CentCommJanitorPDA
-  description: ent-CentCommJanitorPDA-desc
+  name: КПК уборщика ЦК
+  description: Почему вы это читаете вместо того, чтобы мыть полы?
   components:
   - type: Pda
     id: CentCommIDCardJanitor
@@ -1010,7 +1010,7 @@
 - type: entity
   parent: BasePDA
   id: SalvageMedicPDA
-  name: salvage medic PDA
+  name: КПК медика-утилизатора
   description: Smells like blood and ash.
   components:
     - type: Sprite

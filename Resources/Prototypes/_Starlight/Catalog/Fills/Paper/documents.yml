@@ -223,7 +223,7 @@
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentRequestCallCentCommMembers
-  name: ent-PrintedDocumentRequestCallCentCommMembers
+  name: Запрос на вызов сотрудников ЦК
   categories: [ HideSpawnMenu ]
   components:
     - type: Paper
@@ -539,7 +539,7 @@
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentCentCommCommunication
-  name: ent-PrintedDocumentCentCommCommunication
+  name: Сообщение ЦК
   categories: [ HideSpawnMenu ]
   components:
     - type: Paper

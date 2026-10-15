@@ -2,7 +2,7 @@
 - type: entity
   parent: BaseVinylDisc
   id: VinylCrazyBot
-  name: "vinyl: Crazy Bot"
+  name: "винил: Crazy Bot"
   description: "A somewhat slow paced instrumental hip-hop DJ mix. By: Andrew R Codeman"
   components:
   - type: Sprite
@@ -18,7 +18,7 @@
 - type: entity
   parent: BaseVinylDisc
   id: VinylD2
-  name: "vinyl: D2"
+  name: "винил: D2"
   description: "A slow but futuristic sounding electronic tune. By: Amarent"
   components:
   - type: Sprite
@@ -34,7 +34,7 @@
 - type: entity
   parent: BaseVinylDisc
   id: VinylAcidRaindream
-  name: "vinyl: Acid Raindream"
+  name: "винил: Acid Raindream"
   description: "A somewhat slow sounding rock tune. By: ROZKOL"
   components:
   - type: Sprite
@@ -50,7 +50,7 @@
 - type: entity
   parent: BaseVinylDisc
   id: VinylUntitled7
-  name: "vinyl: Untitled #7"
+  name: "винил: Untitled #7"
   description: "A slow paced shoegaze esque tune. Heavy synth lead. By: Tommaso Croce"
   components:
   - type: Sprite
@@ -66,7 +66,7 @@
 - type: entity
   parent: BaseVinylDisc
   id: VinylSmarties
-  name: "vinyl: Smarties"
+  name: "винил: Smarties"
   description: "An electronic tune with a distorted guitar and synth lead. By: Birds for Scale"
   components:
   - type: Sprite
@@ -82,7 +82,7 @@
 - type: entity
   parent: BaseVinylDisc
   id: VinylSilverAndCold
-  name: "vinyl: Silver and Cold"
+  name: "винил: Silver and Cold"
   description: "A digital electronic sounding tune with some rock mixed in. By: Kevin Hartnell"
   components:
   - type: Sprite
@@ -98,7 +98,7 @@
 - type: entity
   parent: BaseVinylDisc
   id: VinylCirclesOfBlackAndRed
-  name: "vinyl: Circles of Black and Red"
+  name: "винил: Circles of Black and Red"
   description: "An electronic beat with some rock mixed in and a lead synth. By: Kevin Hartnell"
   components:
   - type: Sprite
@@ -115,7 +115,7 @@
 - type: entity
   parent: BaseVinylDisc
   id: VinylDepressedWawaTriesToProtest
-  name: "vinyl: Depressed Wawa tries to protest"
+  name: "винил: Depressed Wawa tries to protest"
   description: "A slow then fast paced electronic dance tune, with lead vocals of a famous Wawa singer group that you've never heard of. By: theprofessorix"
   components:
   - type: Sprite
@@ -131,7 +131,7 @@
 - type: entity
   parent: BaseVinylDisc
   id: VinylSpaceAsshole
-  name: "vinyl: Space Asshole"
+  name: "винил: Space Asshole"
   description: "The unofficial anthem of this god-forsaken station. By: Chris Remo"
   components:
   - type: Sprite
@@ -145,7 +145,7 @@
 - type: entity
   parent: BaseVinylDisc
   id: VinylDriverUpdate
-  name: "vinyl: Driver Update"
+  name: "винил: Driver Update"
   description: "A synth heavy ambient track. By: randomcuts" #SL  Addition
   components:
   - type: Sprite
@@ -161,7 +161,7 @@
 - type: entity
   parent: BaseVinylDisc
   id: VinylResonantInfinite
-  name: "vinyl: Resonant Infinite"
+  name: "винил: Resonant Infinite"
   description: "An ambient track with a peaceful resolution. By: randomcuts" #SL  Addition
   components:
   - type: Sprite
@@ -177,7 +177,7 @@
 - type: entity
   parent: BaseVinylDisc
   id: VinylVadeRetro
-  name: "vinyl: Vade Retro"
+  name: "винил: Vade Retro"
   description: "A fast paced repetitive electronic track. By: randomcuts" #SL  Addition
   components:
   - type: Sprite
@@ -193,7 +193,7 @@
 - type: entity
   parent: BaseVinylDisc
   id: VinylConcreteFlavoured
-  name: "vinyl: Concrete Flavoured"
+  name: "винил: Concrete Flavoured"
   description: "A mysterious ambient track. By: randomcuts" #SL  Addition
   components:
   - type: Sprite
@@ -209,7 +209,7 @@
 - type: entity
   parent: BaseVinylDisc
   id: VinylDamperII
-  name: "vinyl: Damper II"
+  name: "винил: Damper II"
   description: "A remix of a very familiar, dramatically fast paced electronic tune. By: Beptol Corporation Acoustics" #SL  Addition
   components:
   - type: Sprite
@@ -225,7 +225,7 @@
 - type: entity
   parent: BaseVinylDisc
   id: VinylCathode
-  name: "vinyl: Cathode"
+  name: "винил: Cathode"
   description: "A retro-inspired electronic track with an energetic rhythm. By: Beptol Corporation Acoustics" #SL  Addition
   components:
   - type: Sprite

@@ -3,7 +3,7 @@
 - type: entity
   parent: BaseAction
   id: ActionBorgOpenLawbook
-  name: Open Law Database
+  name: Открыть базу законов
   description: Access your integrated Space Law database.
   components:
   - type: Action
@@ -19,7 +19,7 @@
 - type: entity
   parent: BaseAction
   id: ActionBorgCallForHelp
-  name: Call for Backup!
+  name: Позвать подмогу!
   description: Broadcast a distress signal to the Security channel with your current location. 120 second cooldown.
   components:
   - type: Action

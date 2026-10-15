@@ -193,7 +193,7 @@
       stealGroup: OfficerHandgun
 
 - type: entity
-  name: due process
+  name: Надлежащая процедура
   parent: [BaseWeaponPistol, BaseSecurityContraband]
   id: WeaponPistolDP
   description: A pistol that packs a punch for brig defense, just as NanoTrasen intended.
@@ -271,7 +271,7 @@
     - ""
 
 - type: entity
-  name: stechkin APS
+  name: АПС Стечкина
   parent: [WeaponPistolMk58, BaseSovietContraband]
   id: WeaponPistolStechkinAPS
   description: A high quality firearm issued to SNKVD elites and high ranking officials. It's half pistol, half closing argument. Uses .40 ammo.
@@ -331,7 +331,7 @@
       path: /Audio/_Starlight/Weapons/Guns/Gunshots/deagle.ogg
 
 - type: entity
-  name: forged pistol
+  name: кустарный пистолет
   parent: [BaseWeaponPistol, BaseMinorContraband]
   id: WeaponPistolForged
   description: A reliable magazine-fed pistol made by the best tider blacksmiths.
@@ -422,7 +422,7 @@
   - type: AmmoCounter
 
 - type: entity
-  name: cold case
+  name: Холодное дело
   parent: [BaseWeaponSniper, BaseSecurityContraband]
   id: WeaponPistolColdCase
   description: An antiquated design of a pistol, truly a stylish choice.
@@ -499,7 +499,7 @@
     weight: 0.01
 
 - type: entity
-  name: Bolt Pistol
+  name: Болт-пистолет
   parent: [ BaseWeaponPistol, BaseSalvageContraband ]
   id: WeaponPistolBolt
   description: A compact pistol chambered for explosive impact bolts, all the punch of a full rifle at the cost of firerate and ammo capacity. Don't strain your wrist too much.

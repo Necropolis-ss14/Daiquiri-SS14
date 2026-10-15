@@ -1,7 +1,7 @@
 - type: entity
   id: PanicmovCircuitBoard
   parent: [ BaseElectronics, BaseSecurityScienceCommandContraband ] #SL Edit made Sec-Sci-Command Contra
-  name: law board (Panicmov)
+  name: плата законов (Паникмов)
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -15,7 +15,7 @@
 - type: entity
   id: GenieCircuitBoard
   parent: [ BaseElectronics, BaseSecurityScienceCommandContraband ] #SL Edit made Sec-Sci-Command Contra
-  name: law board (Genie in a Core)
+  name: плата законов (Джинн в ядре)
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -29,7 +29,7 @@
 - type: entity
   id: ReporterCircuitBoard
   parent: [ BaseElectronics, BaseSecurityScienceCommandContraband ] #SL Edit made Sec-Sci-Command Contra
-  name: law board (Reporter)
+  name: плата законов (Репортёр)
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -43,7 +43,7 @@
 - type: entity
   id: JermovCircuitBoard
   parent: [ BaseElectronics, BaseSecurityScienceCommandContraband ] #SL Edit made Sec-Sci-Command Contra
-  name: law board (Jermov)
+  name: плата законов (Джермов)
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -57,7 +57,7 @@
 - type: entity
   id: CommiemovCircuitBoard
   parent: [BaseElectronics, BaseSovietContraband]
-  name: law board (commiemov)
+  name: плата законов (Коммимов)
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -74,7 +74,7 @@
 - type: entity
   id: JanimovCircuitBoard
   parent: [ BaseElectronics, BaseSecurityScienceCommandContraband ] #SL Edit made Sec-Sci-Command Contra
-  name: law board (Janimov)
+  name: плата законов (Джанимов)
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi

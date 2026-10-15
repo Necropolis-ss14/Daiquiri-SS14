@@ -1,7 +1,7 @@
 - type: entity
   parent: BaseMagazineBoxLightRifle
   id: MagazineBoxLightRifleRubber
-  name: ammunition box (.30 rifle rubber)
+  name: коробка патронов (.30 rifle резиновый)
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeLightRifleRubber

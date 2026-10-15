@@ -2,8 +2,8 @@
   id: HealiumTankEmpty
   parent: AirTank
   suffix: Empty
-  name: healium tank
-  description: Contains a mixture of air and healium. Keep the pressure at 65 and it should put even those nitrogen breathers to sleep. It can hold 5 L of gas.
+  name: баллон с хилиумом
+  description: Смесь воздуха и хилиума. Держи давление 65 — усыпит даже азотодышащих. Вмещает 5 л газа.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Tanks/anesthetic2.rsi
@@ -37,8 +37,8 @@
   id: ZXATankEmpty
   parent: AirTank
   suffix: Empty
-  name: zxa tank
-  description: Contains a mixture of air and ZXA. Keep the pressure at 23.6 and it'll send anyone with lungs straight to dreamland. It can hold 5 L of gas.
+  name: баллон с зха
+  description: Смесь воздуха и ЗХА. Держи давление 23.6 — отправит любого с лёгкими в страну снов. Вмещает 5 л газа.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Tanks/anesthetic3.rsi

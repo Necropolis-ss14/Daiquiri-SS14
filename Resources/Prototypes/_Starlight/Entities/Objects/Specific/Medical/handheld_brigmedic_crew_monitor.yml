@@ -1,8 +1,8 @@
 - type: entity
-  name: BrigBuddy™ 5000
+  name: БригБадди™ 5000
   parent: [ PowerCellSlotMediumItem, BaseHandheldComputer, BaseSecurityContraband ]
   id: HandheldBrigmedicCrewMonitor
-  description: So advanced it only tracks security personnel! Does not monitor emotional stability or competence levels of security members. Use at your own risk!
+  description: Настолько продвинут, что следит только за охраной! Эмоциональную стабильность и компетентность не отслеживает. На свой риск!
   components:
   - type: Tag
     tags:

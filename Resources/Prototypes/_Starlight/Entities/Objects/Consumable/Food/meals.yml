@@ -1,5 +1,5 @@
 ﻿- type: entity
-  name: Volcanic explosion
+  name: вулканический взрыв
   parent: [ FoodMealBase, BaseMajorContraband ]
   id: FoodCookedLizardPlate
   description: An art piece showing the demise of a forest.
@@ -33,7 +33,7 @@
         - Citrus
 
 - type: entity
-  name: Kentucky fried felionoid
+  name: фелионоид по-кентуккийски
   parent: [ FoodMealBase, BaseMajorContraband ]
   id: FoodFriedfelionoid
   description: An old dish modernized to fit new trends.
@@ -65,7 +65,7 @@
         - Meat
 
 - type: entity
-  name: Kentucky fried rodentia
+  name: родентия по-кентуккийски
   parent: [ FoodMealBase, BaseMajorContraband ]
   id: FoodFriedRodentia
   description: Vitamin rich rodent on a stick.
@@ -95,7 +95,7 @@
         - Meat
 
 - type: entity
-  name: nutrient paste meal
+  name: питательная паста
   parent: FoodMealBase
   id: FoodThaSlop #tha slop
   description: A synthetic mixture of protein, carbohydrates, and vitamins, amino acids and minerals. Everything the body needs, and absolutely disgusting.
@@ -121,7 +121,7 @@
         - Meat
 
 - type: entity
-  name: charcuterie board
+  name: закусочная доска
   parent: FoodMealBase
   id: FoodCharcuterie
   description: A heaping of bite-sized meats, cheeses, and breads.
@@ -154,7 +154,7 @@
 - type: entity
   parent: FoodMealBase
   id: FoodMealKhlavKalash
-  name: khlav kalash
+  name: хлав калаш
   description: No pizza, only khlav kalash.
   components:
     - type: Item
@@ -187,7 +187,7 @@
 - type: entity
   parent: [ FoodBowlBase, BaseMajorContraband]
   id: FoodSoupStewBlinding
-  name: one-minute blinding stew
+  name: минутное ослепляющее рагу
   description: "My daughter is eating hair! Best way to tell her this is not ok with out being too harsh?"
   components:
     - type: FlavorProfile
@@ -210,7 +210,7 @@
 - type: entity
   parent: [FoodNoodlesBase, BaseMajorContraband]
   id: FoodCookedShadekinCore
-  name: core spaghetti
+  name: спагетти с ядром шейдкина
   description: An edible representation of your victory.
   components:
   - type: Item
@@ -302,7 +302,7 @@
         - Meat
 
 - type: entity
-  name: crab rangoons
+  name: крабовые рангуны
   parent: FoodMealBase
   id: FoodCrabRangoons
   description: Now made with real crab!
@@ -333,7 +333,7 @@
         - Meat
 
 - type: entity
-  name: karelian pastries
+  name: карельские пирожки
   parent: FoodMealBase
   id: FoodKarelianPastries
   description: Actually named karjalanpiirakka, a traditional food from old world Finland. Kind of odd, but filling and delicious.
@@ -365,7 +365,7 @@
 - type: entity
   parent: FoodBowlBase
   id: FoodStroganoff
-  name: beef stroganoff
+  name: бефстроганов
   description: Tender beef cutlets and brown mushrooms in a rich, creamy onion sauce, served in a wooden bowl.
   components:
   - type: Sprite

@@ -2,8 +2,8 @@
   id: CrateSyndicateChameleonBundle
   suffix: Filled
   parent: [ CrateSyndicate, StorePresetUplink, BaseSyndicateContraband ]
-  name: chameleon kit crate
-  description: Contains a backpack full of items that contain chameleon technology allowing you to disguise as pretty much anything on the station, and more!
+  name: ящик хамелеон-набора
+  description: "Рюкзак с хамелеон-техникой: маскируйся почти подо всё на станции и не только!"
   components:
   - type: EntityTableContainerFill
     containers:
@@ -15,9 +15,9 @@
 - type: entity
   parent: [ CrateSyndicate, BaseSyndicateContraband ]
   id: SyndiBorgiKitBasicBundle
-  name: Syndicate Borgi bundle
+  name: набор Борги Синдиката
   suffix: Basic
-  description: Incoming delivery, man's best friend!
+  description: Входящая доставка, лучший друг человека!
   components:
   - type: EntityTableContainerFill
     containers:
@@ -31,9 +31,9 @@
 - type: entity
   parent: [ CrateSyndicate, BaseSyndicateContraband ]
   id: SyndiBorgiKit1Bundle
-  name: Syndicate Borgi bundle
+  name: набор Борги Синдиката
   suffix: Kitted
-  description: Quite the robust borgi.
+  description: Весьма крепкий борги.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -47,9 +47,9 @@
 - type: entity
   parent: [ CrateSyndicate, BaseSyndicateContraband ]
   id: SyndiBorgiKit2Bundle
-  name: Syndicate Borgi bundle
+  name: набор Борги Синдиката
   suffix: Speed
-  description: Faster than the average borgi.
+  description: Быстрее среднего борги.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -65,8 +65,8 @@
   id: CrateCybersunDarkGygaxBundle
   suffix: Filled
   parent: CrateSyndicate
-  name: Cybersun gygax bundle
-  description: Contains a set of Cybersun light armored mechs.
+  name: набор гигакса Cybersun
+  description: Набор лёгких бронированных мехов Cybersun.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -83,8 +83,8 @@
   id: CrateCybersunMaulerBundle
   suffix: Filled
   parent: CrateSyndicate
-  name: Cybersun mauler bundle
-  description: Contains a set of Cybersun heavy armored mechs.
+  name: набор маулера Cybersun
+  description: Набор тяжёлых бронированных мехов Cybersun.
   components:
   - type: EntityTableContainerFill
     containers:

@@ -1,7 +1,7 @@
 # A damaged version for use with alternative uses (Peacekeeper Bola Ammo)
 # Already has a hit one it
 - type: entity
-  name: bola
+  name: бола
   parent: Bola
   id: BolaWeakened
   components:

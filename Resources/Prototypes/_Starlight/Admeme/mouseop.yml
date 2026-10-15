@@ -66,7 +66,7 @@
       part: FeetAnimal
 
 - type: entity
-  name: mouff operative
+  name: мауфф-оперативник
   parent: [SimpleMobBase, StripableInventoryBase, BaseSlicingRefinable]
   id: MobNyrMouseOps
   suffix: DO NOT MAP, Admeme
@@ -229,8 +229,8 @@
   parent: ClothingHandsGlovesCombat
   id: ClothingHandsGlovesCombatmous
   suffix: DO NOT MAP, Admeme
-  name: combat mouff unremovable gloves
-  description: made by mouffs for mouffs!
+  name: боевые неснимаемые перчатки мауфф
+  description: Сделано мауффами для мауффов!
   components:
   - type: Unremoveable
 
@@ -238,7 +238,7 @@
   parent: ClothingBackpackDuffelSyndicate
   id: ClothingBackpackDuffelSyndicateAmmoMouse
   suffix: DO NOT MAP, Admeme
-  name: mouff op bag!
+  name: сумка мауфф-опера!
   components:
   - type: Sprite
     sprite: Clothing/Back/Duffels/syndicate.rsi
@@ -256,8 +256,8 @@
   parent: ClothingOuterHardsuitSyndie
   id: ClothingOuterHardsuitSyndieMouseOps
   suffix: DO NOT MAP, Admeme
-  name: mouff redd hardsuit
-  description: made by mouffs for mouffs!
+  name: красный скафандр мауфф
+  description: Сделано мауффами для мауффов!
   components:
   - type: ExplosionResistance
     damageCoefficient: 0.65

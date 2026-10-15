@@ -1,7 +1,7 @@
 - type: entity
   parent: [ BaseItem, BaseMajorContraband ]
   id: MagazineBoltRifle
-  name: bolt rifle magazine (standard)
+  name: магазин болт-винтовки (стандартный)
   description: A 21-round magazine for impact bolts.
   components:
   - type: Tag
@@ -30,7 +30,7 @@
 - type: entity
   parent: MagazineBoltRifle
   id: MagazineBoltRifleEmpty
-  name: bolt rifle magazine (any)
+  name: магазин болт-винтовки (любой)
   suffix: empty
   components:
   - type: BallisticAmmoProvider

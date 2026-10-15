@@ -1,7 +1,7 @@
 - type: entity
   parent: [BaseComputerCircuitboard, BaseGrandTheftContraband]
   id: RecruitmentComputerCircuitboard
-  name: recruitment computer computer board
+  name: плата компьютера рекрутинга
   description: A computer printed circuit board for an recruitment computer.
   components:
     - type: Sprite
@@ -17,7 +17,7 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: SalvageShuttleConsoleCircuitboard
-  name: remote salvage shuttle console board
+  name: плата удалённой консоли шаттла утилизаторов
   description: A computer printed circuit board for a remote salvage shuttle console.
   components:
   - type: Sprite
@@ -28,7 +28,7 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: MassDriverComputerCircuitboard
-  name: mass driver computer board
+  name: плата компьютера масс-драйвера
   description: A computer printed circuit board for an mass driver computer.
   components:
     - type: Sprite
@@ -41,7 +41,7 @@
 - type: entity
   parent: [BaseComputerCircuitboard, BaseCommandContraband]
   id: UniversalIdConsoleCircuitboard
-  name: Universal ID console board
+  name: плата консоли универсальных ID
   description: A circuit board for a Universal ID console.
   components:
     - type: Sprite
@@ -57,7 +57,7 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: MiningShuttleConsoleCircuitboard
-  name: remote mining shuttle console board
+  name: плата удалённой консоли шахтёрского шаттла
   description: A computer printed circuit board for a remote mining shuttle console.
   components:
     - type: Sprite
@@ -70,7 +70,7 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: SecurityShuttleConsoleCircuitboard
-  name: remote security shuttle console board
+  name: плата удалённой консоли шаттла охраны
   description: A computer printed circuit board for a remote security shuttle console.
   components:
     - type: Sprite
@@ -81,7 +81,7 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: XenobiologyConsoleCircuitboard
-  name: xenobiology console board
+  name: плата консоли ксенобиологии
   description: A computer printed circuit board for a xenobiology console.
   components:
     - type: Sprite
@@ -95,7 +95,7 @@
 - type: entity
   parent: [ BaseComputerCircuitboard, BaseCommandContraband ]
   id: EngineeringCommsComputerCircuitboard
-  name: engineering communications console board
+  name: плата консоли связи инженеров
   description: A computer printed circuit board for a engineering communications console.
   components:
     - type: Sprite
@@ -106,7 +106,7 @@
 - type: entity
   parent: [ BaseComputerCircuitboard, BaseCommandContraband ]
   id: MedicalCommsComputerCircuitboard
-  name: medical communications console board
+  name: плата консоли связи медиков
   description: A computer printed circuit board for a medical communications console.
   components:
     - type: Sprite
@@ -117,7 +117,7 @@
 - type: entity
   parent: [ BaseComputerCircuitboard, BaseCommandContraband ]
   id: ScienceCommsComputerCircuitboard
-  name: science communications console board
+  name: плата консоли связи науки
   description: A computer printed circuit board for a science communications console.
   components:
     - type: Sprite
@@ -128,7 +128,7 @@
 - type: entity
   parent: [ BaseComputerCircuitboard, BaseCommandContraband ]
   id: SecurityCommsComputerCircuitboard
-  name: security communications console board
+  name: плата консоли связи СБ
   description: A computer printed circuit board for a security communications console.
   components:
     - type: Sprite
@@ -139,7 +139,7 @@
 - type: entity
   parent: [ BaseComputerCircuitboard, BaseCommandContraband ]
   id: ServiceCommsComputerCircuitboard
-  name: service communications console board
+  name: плата консоли связи сервиса
   description: A computer printed circuit board for a service communications console.
   components:
     - type: Sprite
@@ -150,7 +150,7 @@
 - type: entity
   parent: [ BaseComputerCircuitboard, BaseCommandContraband ]
   id: CargoCommsComputerCircuitboard
-  name: cargo communications console board
+  name: плата консоли связи карго
   description: A computer printed circuit board for a cargo communications console.
   components:
     - type: Sprite
@@ -163,7 +163,7 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: ShipyardComputerCircuitboard
-  name: shipyard computer board
+  name: плата компьютера верфи
   description: A computer printed circuit board for a shipyard computer.
   components:
     - type: Sprite

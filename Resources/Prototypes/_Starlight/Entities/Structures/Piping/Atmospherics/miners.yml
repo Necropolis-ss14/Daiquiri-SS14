@@ -3,7 +3,7 @@
 - type: entity
   parent: GasMinerBase
   id: GasMinerBZ
-  name: BZ gas miner
+  name: газовый добытчик BZ
   categories: [ DoNotMap ]
   suffix: 4500kPa, DO NOT MAP
   components:
@@ -14,7 +14,7 @@
 - type: entity
   parent: GasMinerBase
   id: GasMinerHealium
-  name: healium gas miner
+  name: газовый добытчик хилиума
   categories: [ DoNotMap ]
   suffix: 4500kPa, DO NOT MAP
   components:
@@ -25,7 +25,7 @@
 - type: entity
   parent: GasMinerBase
   id: GasMinerNitrium
-  name: nitrium gas miner
+  name: газовый добытчик нитриума
   categories: [ DoNotMap ]
   suffix: 4500kPa, DO NOT MAP
   components:
@@ -36,7 +36,7 @@
 - type: entity
   parent: GasMinerBase
   id: GasMinerPluoxium
-  name: pluoxium gas miner
+  name: газовый добытчик плюоксиума
   categories: [ DoNotMap ]
   suffix: 4500kPa, DO NOT MAP
   components:
@@ -47,7 +47,7 @@
 - type: entity
   parent: GasMinerBase
   id: GasMinerHydrogen
-  name: hydrogen gas miner
+  name: газовый добытчик водорода
   categories: [ DoNotMap ]
   suffix: 4500kPa, DO NOT MAP
   components:
@@ -58,7 +58,7 @@
 - type: entity
   parent: GasMinerBase
   id: GasMinerHyperNoblium
-  name: hyper-noblium gas miner
+  name: газовый добытчик гипер-ноблия
   categories: [ DoNotMap ]
   suffix: 4500kPa, DO NOT MAP
   components:
@@ -69,7 +69,7 @@
 - type: entity
   parent: GasMinerBase
   id: GasMinerProtoNitrate
-  name: proto-nitrate gas miner
+  name: газовый добытчик прото-нитрата
   categories: [ DoNotMap ]
   suffix: 4500kPa, DO NOT MAP
   components:
@@ -80,7 +80,7 @@
 - type: entity
   parent: GasMinerBase
   id: GasMinerZauker
-  name: zauker gas miner
+  name: газовый добытчик заукера
   categories: [ DoNotMap ]
   suffix: 4500kPa, DO NOT MAP
   components:
@@ -91,7 +91,7 @@
 - type: entity
   parent: GasMinerBase
   id: GasMinerHalon
-  name: halon gas miner
+  name: газовый добытчик галона
   categories: [ DoNotMap ]
   suffix: 4500kPa, DO NOT MAP
   components:
@@ -102,7 +102,7 @@
 - type: entity
   parent: GasMinerBase
   id: GasMinerHelium
-  name: helium gas miner
+  name: газовый добытчик гелия
   categories: [ DoNotMap ]
   suffix: 4500kPa, DO NOT MAP
   components:
@@ -113,7 +113,7 @@
 - type: entity
   parent: GasMinerBase
   id: GasMinerAntiNoblium
-  name: anti-noblium gas miner
+  name: газовый добытчик анти-ноблия
   categories: [ DoNotMap ]
   suffix: 4500kPa, DO NOT MAP
   components:
@@ -127,7 +127,7 @@
 - type: entity
   parent: GasMinerBase
   id: GasMinerUlnitranium
-  name: ulnitranium gas miner
+  name: газовый добытчик улнитраниума
   categories: [ DoNotMap ]
   suffix: 4500kPa, DO NOT MAP
   components:
@@ -138,7 +138,7 @@
 - type: entity
   parent: GasMinerBase
   id: GasMinerZXA
-  name: ZXA gas miner
+  name: газовый добытчик ZXA
   categories: [ DoNotMap ]
   suffix: 4500kPa, DO NOT MAP
   components:

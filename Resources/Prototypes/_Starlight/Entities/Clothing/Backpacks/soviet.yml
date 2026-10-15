@@ -1,7 +1,7 @@
 - type: entity
   parent: [ClothingBackpackDuffel, BaseSovietContraband]
   id: ClothingBackpackDuffelSSF
-  name: SSF duffel bag
+  name: вещмешок ССФ
   description: Bulky olive-drab bag stamped with a faded SSF insignia.
   components:
   - type: Sprite
@@ -14,7 +14,7 @@
 
 - type: entity
   id: ClothingBackpackDuffelSovietEVABundle
-  name: soviet EVA bundle
+  name: советский ВКД-комплект
   parent: ClothingBackpackDuffelSSF
   description: Contains a soviet EVA suit and helmet, along with emergency oxygen and nitrogen tanks. For the workers of space!
   components:
@@ -30,7 +30,7 @@
 
 - type: entity
   id: ClothingBackpackDuffelZaporozhianBundle
-  name: Zaporozhian sich bundle
+  name: комплект запорожской сечи
   parent: ClothingBackpackDuffelSSF
   description: Cossacks- have gone to space, and have earned respect within the union.
   components:
@@ -57,7 +57,7 @@
 
 - type: entity
   id: ClothingBackpackDuffelMarineHardsuitBundle
-  name: SSF marine hardsuit bundle
+  name: комплект скафандра морпеха ССФ
   parent: ClothingBackpackDuffelSSF
   description: Contains the USSP's elite marine hardsuit.
   components:
@@ -73,7 +73,7 @@
 
 - type: entity
   id: ClothingBackpackDuffelMarineLoadout
-  name: SSF duffel bag
+  name: вещмешок ССФ
   parent: ClothingBackpackDuffelSSF
   description: Bulky olive-drab bag stamped with a faded SSF insignia.
   components:
@@ -95,7 +95,7 @@
 
 - type: entity
   id: ClothingSatchelLeatherSovietOfficialLoadout
-  name: leather satchel
+  name: кожаная сумка
   parent: ClothingBackpackSatchelLeather
   suffix: USSP official
   description: A trend-setting satchel from a bygone era.

@@ -2,8 +2,8 @@
   id: WeaponMechSpecialMousetrapMortar
   parent: [ BaseMechWeaponRange, SpecialMechEquipment ]
   suffix: Mech Weapon, Gun, Special, Mortar
-  name: mousetrap mortar
-  description: Mounted mousetrap launcher.
+  name: мышеловочный миномёт
+  description: Станковый запускатель мышеловок.
   components:
   - type: Sprite
     state: mecha_mousetrapmrtr
@@ -30,8 +30,8 @@
   id: WeaponMechSpecialBananaMortar
   parent: [ BaseMechWeaponRange, SpecialMechEquipment ]
   suffix: Mech Weapon, Gun, Special, Mortar
-  name: banana mortar
-  description: Mounted banana peel launcher.
+  name: банановый миномёт
+  description: Станковый запускатель банановой кожуры.
   components:
   - type: Sprite
     state: mecha_bananamrtr
@@ -58,8 +58,8 @@
   id: WeaponMechSpecialPieCannon
   parent: [ BaseMechWeaponRange, SpecialMechEquipment ]
   suffix: Mech Weapon, Gun, Special, Mortar
-  name: HX-3 Mechanized Pie Cannon
-  description: An instrument of clowning for the 26th century. Honk 'em all...
+  name: механизированная пирогопушка HX-3
+  description: Инструмент клоунады XXVI века. Захонкай их всех...
   components:
     - type: Sprite
       state: mecha_bananamrtr
@@ -85,8 +85,8 @@
 - type: entity
   id: WeaponMechSpecialAirHorn
   parent: [ BaseMechEquipment, SpecialMechEquipment ]
-  name: hOnKeR 5000
-  description: Holy shit, that's loud! HONK!
+  name: хОНКер 5000
+  description: Охренеть как громко! ХОНК!
   components:
     - type: MechEquipment
       equipmentType: Passive

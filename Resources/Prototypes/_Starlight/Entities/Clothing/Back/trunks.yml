@@ -23,7 +23,7 @@
 - type: entity
   parent: ClothingBackpackTrunk
   id: ClothingBackpackTrunkMail
-  name: mail trunk
+  name: почтовый сундук
   description: A huge trunk made of every aspiring mail technician's dreams.
   components:
   - type: Sprite
@@ -32,7 +32,7 @@
 - type: entity
   parent: ClothingBackpackTrunk
   id: ClothingBackpackTrunkMailSenior
-  name: senior mail trunk
+  name: сундук старшего почтальона
   description: A huge trunk for the station's strongest mail technicians.
   components:
   - type: Sprite
@@ -41,7 +41,7 @@
 - type: entity
   parent: [ClothingBackpackTrunk, BaseMinorContraband]
   id: ClothingBackpackTrunkSyndicate
-  name: syndicate trunk
+  name: сундук Синдиката
   description: Huge, metal, and stylish. All the other syndicates will want to get their hands on this trunk.
   components:
   - type: Sprite
@@ -62,7 +62,7 @@
 - type: entity
   parent: ClothingBackpackTrunk
   id: ClothingBackpackTrunkSpaceCourier
-  name: space courier trunk
+  name: сундук космического курьера
   description: A huge trunk themed after a legendary space courier.
   components:
   - type: Sprite
@@ -71,7 +71,7 @@
 - type: entity
   parent: ClothingBackpackTrunkSpaceCourier
   id: ClothingBackpackTrunkSpaceCourierPAI
-  name: space courier trunk
+  name: сундук космического курьера
   suffix: Ghost Role
   description: A huge trunk themed after a legendary space courier.
   components:

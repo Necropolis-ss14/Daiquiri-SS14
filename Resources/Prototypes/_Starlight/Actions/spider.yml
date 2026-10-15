@@ -41,7 +41,7 @@
 
 - type: entity
   id: ActionAcidVent
-  name: Acid Vent
+  name: Прожечь вентиляцию кислотой
   description: Unwelds vents.
   components:
   - type: Action
@@ -76,7 +76,7 @@
 
 - type: entity
   id: ActionSpiderEMPScream
-  name: EMP Scream
+  name: ЭМИ-крик
   description: Emit an EMP scream that disables electronics in a radius.
   components:
   - type: Action
@@ -95,7 +95,7 @@
 
 - type: entity
   id: ActionEggInjection
-  name: Egg injection
+  name: Впрыск яиц
   description: Injection of eggs into the body.
   components:
   - type: Action
@@ -116,7 +116,7 @@
 
 - type: entity
   id: ActionEggsLaying
-  name: Lay the egg.
+  name: Отложить яйцо.
   description: Lay the egg.
   components:
   - type: Action
@@ -134,7 +134,7 @@
 
 - type: entity
   id: ActionRoyalJelly
-  name: Royal Jelly
+  name: Маточное молочко
   description: lay royal jelly which can be eaten by spiders and heal them.
   components:
   - type: Action
@@ -154,7 +154,7 @@
 - type: entity
   parent: BaseAction
   id: ActionSpiderBuildingPole
-  name: Web pole
+  name: Паутинный столб
   description: Spawns a web pole that spawns webs around at free tiles.
   components:
   - type: Action
@@ -173,7 +173,7 @@
 - type: entity
   parent: BaseAction
   id: ActionSpiderBuildingCocoon
-  name: Web cocoon
+  name: Паутинный кокон
   description: Spawns a web cocoon that heals spider which entered in it.
   components:
   - type: Action
@@ -192,7 +192,7 @@
 - type: entity
   parent: BaseAction
   id: ActionSpiderBuildingGenerator
-  name: Ammonia generator
+  name: Генератор аммиака
   description: Spawns an ammonia generator that fills rooms with atmosphere.
   components:
   - type: Action

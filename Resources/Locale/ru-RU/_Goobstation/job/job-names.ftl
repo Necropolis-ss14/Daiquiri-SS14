@@ -1,2 +1,2 @@
-job-name-radiohost = Радиоведущий
-JobRadioHost = Радиоведущий
+job-name-radiohost = радиоведущий
+JobRadioHost = радиоведущий

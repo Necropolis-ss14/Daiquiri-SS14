@@ -1,6 +1,6 @@
 - type: entity
   id: ToolboxElectricalTurretPirateFilled
-  name: electrical toolbox
+  name: электрический ящик с инструментами
   suffix: Pirate, Turret, Filled
   parent: ToolboxElectricalTurretPirate
   components:
@@ -11,7 +11,7 @@
 
 - type: entity
   id: ToolboxArtisticFilledCleaner
-  name: artistic toolbox
+  name: художественный ящик с инструментами
   suffix: Cleaner
   parent: ToolboxArtistic
   components:
@@ -29,9 +29,9 @@
 
 - type: entity
   id: ToolboxRoboticist
-  name: roboticist toolbox
+  name: ящик робототехника
   parent: ToolboxBase
-  description: What, it's just a roboticist toolbox? Were you expecting something else?
+  description: Что, просто ящик робототехника? А ты чего ждал?
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Tools/Toolboxes/toolbox_robotics.rsi
@@ -41,7 +41,7 @@
 
 - type: entity
   id: ToolboxRoboticistFilled
-  name: roboticist toolbox
+  name: ящик робототехника
   suffix: Filled
   parent: ToolboxRoboticist
   components:

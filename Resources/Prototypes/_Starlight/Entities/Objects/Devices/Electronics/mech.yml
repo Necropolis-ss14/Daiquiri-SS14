@@ -3,7 +3,7 @@
 - type: entity
   id: ClarkeCentralElectronics
   parent: BaseElectronics
-  name: clarke central control module
+  name: центральный модуль управления «Кларк»
   description: The electrical control center for the Clarke mech.
   components:
     - type: Item
@@ -22,7 +22,7 @@
 - type: entity
   id: ClarkePeripheralsElectronics
   parent: BaseElectronics
-  name: clarke peripherals control module
+  name: модуль периферии «Кларк»
   description: The electrical peripherals control for the Clarke mech.
   components:
     - type: Sprite
@@ -41,7 +41,7 @@
 - type: entity
   id: GygaxCentralElectronics
   parent: BaseElectronics
-  name: gygax central control module
+  name: центральный модуль управления «Гигакс»
   description: The electrical control center for the Gygax mech.
   components:
     - type: Item
@@ -60,7 +60,7 @@
 - type: entity
   id: GygaxPeripheralsElectronics
   parent: BaseElectronics
-  name: gygax peripherals control module
+  name: модуль периферии «Гигакс»
   description: The electrical peripherals control for the Gygax mech.
   components:
     - type: Sprite
@@ -77,7 +77,7 @@
 - type: entity
   id: GygaxTargetingElectronics
   parent: BaseElectronics
-  name: gygax weapon control and targeting module
+  name: модуль наведения оружия «Гигакс»
   description: The electrical targeting control for the Gygax mech.
   components:
     - type: Sprite
@@ -96,7 +96,7 @@
 - type: entity
   id: DurandCentralElectronics
   parent: BaseElectronics
-  name: durand central control module
+  name: центральный модуль управления «Дюранд»
   description: The electrical control center for the Durand mech.
   components:
     - type: Item
@@ -115,7 +115,7 @@
 - type: entity
   id: DurandPeripheralsElectronics
   parent: BaseElectronics
-  name: durand peripherals control module
+  name: модуль периферии «Дюранд»
   description: The electrical peripherals control for the Durand mech.
   components:
     - type: Sprite
@@ -132,7 +132,7 @@
 - type: entity
   id: DurandTargetingElectronics
   parent: BaseElectronics
-  name: durand weapon control and targeting module
+  name: модуль наведения оружия «Дюранд»
   description: The electrical targeting control for the Durand mech.
   components:
     - type: Sprite

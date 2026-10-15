@@ -3,7 +3,7 @@
 - type: entity
   parent: [ BaseWizardObjective , BaseFreeObjective ]
   id: WizardDuelistMeetObjective
-  name: Meet your competition
+  name: встреть соперника
   description: Set the terms of engagement for your duel, and use your scroll to teleport to a nearby station. No fighting on Space Wizard Federation grounds!
   components:
   - type: Objective
@@ -14,7 +14,7 @@
 - type: entity
   parent: [ BaseWizardObjective, BaseStealObjective ]
   id: WizardDuelistMedallionObjective
-  name: Obtain the medallions
+  name: добудь медальоны
   components:
   - type: Objective
     icon:
@@ -32,7 +32,7 @@
 - type: entity
   parent: [ BaseWizardObjective , BaseSurviveObjective ]
   id: WizardDuelistDemonstrateObjective
-  name: Display your proficiency and survive to tell the tale
+  name: продемонстрируй своё мастерство и выживи, чтобы рассказать об этом
   description: Show them why you're the master of the arcane! Just make sure you don't get yourself killed in the process.
   components:
   - type: Objective

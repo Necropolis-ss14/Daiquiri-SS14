@@ -6,102 +6,102 @@
 
 - type: entity
   save: false
-  name: Urist McVulpster
+  name: Урист МакВульпстер
   parent: BaseMobNeoVulpkanin
   id: MobNeoVulpkanin
 
 - type: entity
   save: false
-  name: Urist McVoxster
+  name: Урист МакВоксстер
   parent: BaseMobNeoVox
   id: MobNeoVox
 
 - type: entity
   save: false
-  name: Urist McEarster
+  name: Урист МакИрстер
   parent: BaseMobNeoThaven
   id: MobNeoThaven
 
 - type: entity
   save: false
-  name: Urist McSlimester
+  name: Урист МакСлаймстер
   parent: BaseMobNeoSlimePerson
   id: MobNeoSlimePerson
 
 - type: entity
   save: false
-  name: Urist McShadowster
+  name: Урист МакШэдоустер
   parent: BaseMobNeoKin
   id: MobNeoKin
 
 - type: entity
   save: false
-  name: Urist McRapster
+  name: Урист МакРапстер
   parent: BaseMobNeoResomi
   id: MobNeoResomi
 
 - type: entity
   save: false
-  name: Urist McScalester
+  name: Урист МакСкалстер
   parent: BaseMobNeoReptilian
   id: MobNeoReptilian
 
 - type: entity
   save: false
-  name: Urist McFluffster
+  name: Урист МакФлафстер
   parent: BaseMobNeoMoth
   id: MobNeoMoth
 
 - type: entity
   save: false
-  name: Urist McHandster
+  name: Урист МакХэндстер
   parent: BaseMobNeoHuman
   id: MobNeoHuman
 
 - type: entity
   save: false
-  name: Urist McMeowster
+  name: Урист МакМеоустер
   parent: BaseMobNeoFelionoid
   id: MobNeoFelionoid
 
 - type: entity
   save: false
-  name: Urist McHandster the Neo-Dwarf
+  name: Урист МакХэндстер Нео-Дворф
   parent: BaseMobNeoDwarf
   id: MobNeoDwarf
 
 - type: entity
   save: false
-  name: Urist McPlantster
+  name: Урист МакПлантстер
   parent: BaseMobNeoDiona
   id: MobNeoDiona
 
 - type: entity
   save: false
-  name: Urist McCyclorister
+  name: Урист МакЦиклористер
   parent: BaseMobNeoCyclorite
   id: MobNeoCyclorite
 
 - type: entity
   save: false
-  name: Urist McAvalister
+  name: Урист МакАвалистер
   parent: BaseMobNeoAvali
   id: MobNeoAvali
 
 - type: entity
   save: false
-  name: Urist McWebster
+  name: Урист МакВебстер
   parent: BaseMobNeoArachnid
   id: MobNeoArachnid
 
 - type: entity
   save: false
-  name: Urist McElgister
+  name: Урист МакЭлгистер
   parent: BaseMobNeoElf
   id: MobNeoElf
 
 - type: entity
   save: false
-  name: Urist McBnuuister
+  name: Урист МакБнуистер
   parent: BaseMobNeoLagomorph
   id: MobNeoLagomorph

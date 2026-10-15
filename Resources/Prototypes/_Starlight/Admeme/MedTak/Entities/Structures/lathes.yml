@@ -1,8 +1,8 @@
 - type: entity
   id: MedTakTechFab
   parent: BaseLatheLube
-  name: MedTak techfab
-  description: Prints equipment for a MedTak outpost.
+  name: техфаб MedTak
+  description: Печатает снаряжение для аванпоста MedTak.
   components:
   - type: Sprite
     sprite: Structures/Machines/techfab.rsi
@@ -43,9 +43,9 @@
 - type: entity
   parent: PrinterDoc
   id: PrinterDocMedTak
-  name: document printer
+  name: принтер документов
   suffix: MedTak
-  description: Bureaucratic perfection. Stores a database of relevant MedTak documents, and lets you print them as long as you have paper.
+  description: Бюрократическое совершенство. Хранит базу документов MedTak и печатает их, пока есть бумага.
   components:
   - type: Lathe
     producingSound: /Audio/Machines/scanning.ogg

@@ -1,5 +1,5 @@
 ﻿- type: entity
-  name: Moth Soup
+  name: суп из моли
   parent: FoodBowlBase
   id: FoodSoupMothBowl
   description: A black-market delicacy shunned for its cruel nature

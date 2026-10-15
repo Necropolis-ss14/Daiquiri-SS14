@@ -57,7 +57,7 @@
 - type: entity
   parent: PlumbingMachineBase
   id: PlumbingTank
-  name: plumbing tank
+  name: сантехнический бак
   description: Stores up to 2400u of reagents. Use tanks to buffer reagents between production stages or just store large amounts of reagents.
   components:
   - type: Sprite
@@ -133,7 +133,7 @@
 - type: entity
   parent: PlumbingTank
   id: PlumbingBuffer
-  name: plumbing buffer
+  name: сантехнический буфер
   description: Stores up to 240u of reagents. Useful for supplying separate duct networks with its unconnected outlets.
   components:
   - type: CollideOnAnchor
@@ -175,7 +175,7 @@
 - type: entity
   parent: PlumbingMachineBase
   id: PlumbingInput
-  name: plumbing input
+  name: сантехнический ввод
   description: A small tank you pour reagents into. Other machines pull from this. Connects in all directions.
   components:
   - type: Physics
@@ -251,7 +251,7 @@
 - type: entity
   parent: PlumbingMachineBase
   id: PlumbingSink
-  name: plumbing sink
+  name: сантехническая раковина
   description: A sink connected to the plumbing network. Draw reagents from it with a container, or dump reagents into it to send them down the drain. Connects in all directions.
   components:
   - type: Sprite
@@ -349,7 +349,7 @@
 - type: entity
   parent: PlumbingMachineBase
   id: PlumbingOutput
-  name: plumbing output
+  name: сантехнический вывод
   description: A small tank that pulls reagents from the network. Draw from it with a container. Connects in all directions.
   components:
   - type: Physics
@@ -426,7 +426,7 @@
 - type: entity
   parent: PlumbingMachineBase
   id: PlumbingReactor
-  name: plumbing reactor
+  name: сантехнический реактор
   description: Pulls target reagents in up to configured quantities from its inlet and triggers reactions. Requires power.
   components:
   - type: Sprite
@@ -526,7 +526,7 @@
 - type: entity
   parent: PlumbingMachineBase
   id: PlumbingSmartDispenser
-  name: plumbing smart dispenser
+  name: умный сантехнический раздатчик
   description: Pulls in all reagents from its inlets and stores up to 240u of each type. Use a labeled container to auto-dispense a matching reagent, or use a refillable container on it to manually dispense. Requires power.
   components:
   - type: Transform
@@ -635,7 +635,7 @@
 - type: entity
   parent: PlumbingMachineBase
   id: PlumbingPillPress
-  name: plumbing pill press
+  name: сантехнический пресс для таблеток
   description: Pulls in reagents and presses them into pills or patches at a configurable dosage. Has optional mixing inlets for ratio-controlled mixing. Requires power.
   components:
   - type: Sprite
@@ -744,7 +744,7 @@
 - type: entity
   parent: PlumbingMachineBase
   id: PlumbingFilter
-  name: plumbing filter
+  name: сантехнический фильтр
   description: Filters up to 10 specific reagents from a duct network. Filtered reagents are sent to the side outlet while other reagents passthrough.
   components:
   - type: Physics
@@ -887,7 +887,7 @@
 - type: entity
   parent: PlumbingMachineBase
   id: PlumbingInlineFilter
-  name: inline plumbing filter
+  name: встроенный сантехнический фильтр
   description: Sits inline on a duct run and draws up to 10 specific reagents off it, holding 10u of each. Everything else is left on the network.
   components:
   - type: Physics
@@ -967,7 +967,7 @@
 - type: entity
   parent: PlumbingMachineBase
   id: PlumbingSynthesizer
-  name: plumbing synthesizer
+  name: сантехнический синтезатор
   description: Generates basic reagents using power from an internal battery.
   components:
   - type: Sprite
@@ -1083,7 +1083,7 @@
 - type: entity
   parent: PlumbingMachineBase
   id: PlumbingDisposal
-  name: plumbing disposal
+  name: сантехническая утилизация
   description: Pulls reagents from a south inlet into an internal 240u buffer and destroys them.
   components:
   - type: Sprite
@@ -1154,7 +1154,7 @@
 - type: entity
   parent: PlumbingMachineBase
   id: PlumbingDrain
-  name: plumbing drain
+  name: сантехнический слив
   description: A floor drain that absorbs puddles and routes them into the plumbing network instead of disposing them.
   placement:
     mode: SnapgridCenter

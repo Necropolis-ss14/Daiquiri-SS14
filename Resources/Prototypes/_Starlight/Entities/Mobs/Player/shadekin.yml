@@ -6,7 +6,7 @@
 
 - type: entity
   save: false
-  name: Urist McBrighteye
+  name: Урист МакБрайтай
   parent: [BaseMobShadekin, BaseMob]
   id: MobBrighteye
   components:

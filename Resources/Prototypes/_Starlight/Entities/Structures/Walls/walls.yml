@@ -1,9 +1,9 @@
 #shuttle walls
 - type: entity
   id: WallAbductorDiagonal
-  name: ent-WallAbductorDiagonal
+  name: стена шаттла
   suffix: Diagonal
-  description: ent-WallAbductorDiagonal-desc
+  description: Не выпускает воздух наружу и не впускает ассистентов внутрь.
   placement:
     mode: SnapgridCenter
     snap:
@@ -62,7 +62,7 @@
 - type: entity
   parent: BaseWall
   id: WallAbductor
-  name: ent-WallAbductor
+  name: стена шаттла
   suffix: Reinforced, Exterior
   components:
   - type: Damageable
@@ -90,7 +90,7 @@
 - type: entity
   parent: BaseWall
   id: WallConcrete
-  name: ent-WallConcrete
+  name: бетонная стена
   suffix: Reinforced
   components:
   - type: Damageable
@@ -127,7 +127,7 @@
 - type: entity
   parent: WallSolid
   id: WallXenoborgRCD
-  name: ent-WallXenoborgRCD
+  name: лёгкая стена ксеноборгов
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Walls/xenoborglight.rsi
@@ -140,7 +140,7 @@
 - type: entity
   parent: WallWood
   id: WallDarkWood
-  name: ent-WallDarkWood
+  name: стена из тёмного дерева
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Walls/gray_wood.rsi
@@ -157,9 +157,9 @@
 - type: entity
   parent: WallPlastitanium
   id: WallReinforcedPlastitanium
-  name: ent-WallReinforcedPlastitanium
+  name: укреплённая пластатитановая стена
   suffix: reinforced
-  description: ent-WallReinforcedPlastitanium-desc
+  description: Пластатитановая стена, укреплённая дополнительной структурной решёткой, вдвое повышающей сопротивление урону.
   components:
     - type: Destructible
       thresholds:
@@ -178,9 +178,9 @@
 - type: entity
   parent: WallPlastitaniumDiagonal
   id: WallReinforcedPlastitaniumDiagonal
-  name: ent-WallReinforcedPlastitaniumDiagonal
+  name: укреплённая пластатитановая стена
   suffix: reinforced, diagonal
-  description: ent-WallReinforcedPlastitaniumDiagonal-desc
+  description: Диагональная пластатитановая стена, укреплённая дополнительной структурной решёткой, вдвое повышающей сопротивление урону.
   components:
   - type: Destructible
     thresholds:
@@ -206,9 +206,9 @@
 - type: entity
   parent: WallShuttleDiagonal
   id: WallReinforcedShuttleDiagonal
-  name: ent-WallReinforcedShuttleDiagonal
+  name: укреплённая стена шаттла
   suffix: reinforced, diagonal
-  description: ent-WallReinforcedShuttleDiagonal-desc
+  description: Диагональная стена шаттла с дополнительными распорками, её значительно сложнее проломить.
   components:
   - type: Destructible
     thresholds:
@@ -236,9 +236,9 @@
 - type: entity
   parent: WallShuttle
   id: WallReinforcedShuttle
-  name: ent-WallReinforcedShuttle
+  name: укреплённая стена шаттла
   suffix: reinforced
-  description: ent-WallReinforcedShuttle-desc
+  description: Стена шаттла с дополнительными распорками, её значительно сложнее проломить.
   components:
   - type: Destructible
     thresholds:
@@ -268,7 +268,7 @@
 - type: entity
   parent: BaseWallmountMetallic
   id: WallFan
-  name: wall fan
+  name: настенный вентилятор
   placement:
     mode: SnapgridCenter
     snap:

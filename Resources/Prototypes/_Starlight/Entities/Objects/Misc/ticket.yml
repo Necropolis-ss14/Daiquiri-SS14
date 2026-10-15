@@ -106,7 +106,7 @@
       offset: -0.4, 0
 
 - type: entity
-  name: red ticket
+  name: красный билет
   parent: TicketNT
   id: TicketRed
   components:
@@ -130,7 +130,7 @@
       offset: -0.4, 0
 
 - type: entity
-  name: blue ticket
+  name: синий билет
   parent: TicketNT
   id: TicketBlue
   components:
@@ -154,7 +154,7 @@
       offset: -0.4, 0
 
 - type: entity
-  name: cyan ticket
+  name: голубой билет
   parent: TicketNT
   id: TicketCyan
   components:
@@ -178,7 +178,7 @@
       offset: -0.4, 0
 
 - type: entity
-  name: green ticket
+  name: зелёный билет
   parent: TicketNT
   id: TicketGreen
   components:
@@ -202,7 +202,7 @@
       offset: -0.4, 0
 
 - type: entity
-  name: brown ticket
+  name: коричневый билет
   parent: TicketNT
   id: TicketBrown
   components:
@@ -226,7 +226,7 @@
       offset: -0.4, 0
 
 - type: entity
-  name: orange ticket
+  name: оранжевый билет
   parent: TicketNT
   id: TicketOrange
   components:
@@ -250,7 +250,7 @@
       offset: -0.4, 0
 
 - type: entity
-  name: yellow ticket
+  name: жёлтый билет
   parent: TicketNT
   id: TicketYellow
   components:
@@ -274,7 +274,7 @@
       offset: -0.4, 0
 
 - type: entity
-  name: purple ticket
+  name: фиолетовый билет
   parent: TicketNT
   id: TicketPurple
   components:

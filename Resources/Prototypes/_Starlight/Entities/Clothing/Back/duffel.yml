@@ -1,7 +1,7 @@
 - type: entity
   parent: ClothingBackpackDuffel
   id: ClothingBackpackDuffelAbductor
-  name: abductor's surgery duffel bag
+  name: хирургический вещмешок похитителя
   description: A large duffel bag for holding various surgery goods.
   components:
   - type: Sprite
@@ -23,7 +23,7 @@
 - type: entity
   parent: ClothingBackpackDuffel
   id: ClothingBackpackDuffelRoboticist
-  name: roboticist duffel bag
+  name: вещмешок робототехника
   description: A large duffel bag for holding extra Roboticist related goods.
   components:
   - type: Sprite
@@ -32,7 +32,7 @@
 - type: entity
   parent: ClothingBackpackDuffel
   id: ClothingBackpackDuffelCargoSenior
-  name: senior courier duffel bag
+  name: вещмешок старшего курьера
   description: A large duffel bag for the Quartermaster's most devoted couriers.
   components:
   - type: Sprite
@@ -41,7 +41,7 @@
 - type: entity
   parent: ClothingBackpackDuffel
   id: ClothingBackpackDuffelChemistrySenior
-  name: senior chemistry duffel bag
+  name: вещмешок старшего химика
   description: A large duffel bag for holding a wide assortment of advanced chemical supplies.
   components:
   - type: Sprite
@@ -50,7 +50,7 @@
 - type: entity
   parent: [ClothingBackpackDuffel, BaseSecurityContraband]
   id: ClothingBackpackDuffelCorpsman
-  name: corpsman's duffel bag
+  name: вещмешок санитара
   description: An odd duffelbag that uses flaps instead of zippers for quicker access. Handy!
   components:
   - type: Sprite
@@ -59,7 +59,7 @@
 - type: entity
   parent: [ClothingBackpackDuffel, BaseCommandContraband]
   id: ClothingBackpackDuffelHoP
-  name: head of personnel's duffel bag
+  name: вещмешок главы персонала
   description: A large duffel bag for the Captain's second in command.
   components:
   - type: Sprite
@@ -68,7 +68,7 @@
 - type: entity
   parent: [ClothingBackpackDuffel, BaseCommandManagerContraband]
   id: ClothingBackpackDuffelCommandGeneric
-  name: command duffel bag
+  name: вещмешок командования
   description: A generic Command-colored duffel bag not associated with any particular department.
   components:
   - type: Sprite
@@ -77,7 +77,7 @@
 - type: entity
   parent: [ClothingBackpackDuffel, BaseBlueShieldContraband]
   id: ClothingBackpackDuffelBlueShield
-  name: blueshield duffel bag
+  name: вещмешок блюшилда
   description: The bag for a Blueshield Officer who is ready for any contingency.
   components:
   - type: Sprite
@@ -86,7 +86,7 @@
 - type: entity
   parent: ClothingBackpackDuffel
   id: ClothingBackpackDuffelCryostorageBelongings
-  name: lost property bag
+  name: мешок потерянного имущества
   description: A sealed bag holding the belongings of a crew member who left for cryosleep. Things can be taken out, but nothing can be put back in.
   components:
   - type: Sprite
@@ -100,7 +100,7 @@
 - type: entity
   parent: [ClothingBackpackDuffel, BaseMinorContraband]
   id: ClothingBackpackDuffelSyndicateDeluxe
-  name: deluxe syndicate duffel bag
+  name: делюкс-вещмешок Синдиката
   description: A huge duffel bag for holding an obscene amount of Syndicate goods.
   components:
   - type: Sprite

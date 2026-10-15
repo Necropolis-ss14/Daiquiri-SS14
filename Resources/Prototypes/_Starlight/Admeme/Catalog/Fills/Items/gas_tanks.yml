@@ -24,8 +24,8 @@
   id: AdmemeOxygenTankFilled
   parent: OxygenTank
   suffix: Filled, Admeme, DO NOT MAP
-  name: bottomless oxygen tank
-  description: A cylindrical gas tank for oxygen, linked via bluespace to a much, much bigger gas tank. It can hold 2³¹-1 L of gas.
+  name: бездонный баллон с кислородом
+  description: Цилиндрический баллон с кислородом, блюспейс-связью соединён с куда большим баллоном. Вмещает 2³¹-1 л газа.
   components:
   - type: Sprite
     sprite: _Starlight/Admeme/Inftanks/oxygen.rsi
@@ -45,8 +45,8 @@
   id: AdmemeNitrogenTankFilled
   parent: NitrogenTank
   suffix: Filled, Admeme, DO NOT MAP
-  name: bottomless nitrogen tank
-  description: A cylindrical gas tank for nitrogen, linked via bluespace to a much, much bigger gas tank. It can hold 2³¹-1 L of gas.
+  name: бездонный баллон с азотом
+  description: Цилиндрический баллон с азотом, блюспейс-связью соединён с куда большим баллоном. Вмещает 2³¹-1 л газа.
   components:
   - type: Sprite
     sprite: _Starlight/Admeme/Inftanks/red.rsi

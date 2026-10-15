@@ -29,7 +29,7 @@
         - Meat
 
 - type: entity
-  name: black pudding
+  name: кровяная колбаса
   parent: FoodMealBase
   id: FoodBlackPudding
   description: Just when you thought English cuisine couldn't get any worse...
@@ -59,7 +59,7 @@
         - Sausage
 
 - type: entity
-  name: raw sausage
+  name: сырая колбаса
   parent: FoodMeatBase
   id: FoodSausage
   description: Don't undercook it.
@@ -129,7 +129,7 @@
         - Sausage
 
 - type: entity
-  name: sausage on a bun
+  name: сосиска в булке
   parent: FoodMealBase
   id: FoodSausageBun
   description: Don't forget the condiments!

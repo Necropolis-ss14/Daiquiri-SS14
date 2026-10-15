@@ -2,7 +2,7 @@
   parent: [BaseItem, BaseCentcommContraband]
   id: AccessOveriderUnlimited
   suffix: Unlimited
-  name: authentication overrider
+  name: обходчик аутентификации
   description: A modified access configurator, specialized for ERT breach and clear operations on NT stations
   components:
   - type: Emag

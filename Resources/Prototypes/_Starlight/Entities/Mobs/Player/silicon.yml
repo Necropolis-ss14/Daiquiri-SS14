@@ -776,7 +776,7 @@
 - type: entity
   id: TSFtationAi
   parent: PlayerStationAiEmpty
-  name: Solgov AI core
+  name: ядро ИИ СолГов
   suffix: Solgov
   components:
   - type: ContainerComp

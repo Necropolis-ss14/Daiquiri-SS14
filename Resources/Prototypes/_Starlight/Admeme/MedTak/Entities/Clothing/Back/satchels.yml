@@ -1,8 +1,8 @@
 - type: entity
   parent: [ ClothingBackpackSatchel, BaseMedTakContraband ]
   id: ClothingBackpackSatchelMedTak
-  name: MedTak satchel
-  description: A spacious satchel.
+  name: сумка MedTak
+  description: Вместительная сумка.
   components:
   - type: Sprite
     sprite: _Starlight/Admeme/MedTak/Clothing/Back/Satchels/medtak.rsi

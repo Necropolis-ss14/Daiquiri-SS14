@@ -1,7 +1,7 @@
 - type: entity
   parent: BaseMentalAction
   id: ActionDroneOpenMap
-  name: Open Map
+  name: Открыть карту
   description: Look upon yourself.
   components:
   - type: Action
@@ -13,7 +13,7 @@
 - type: entity
   parent: BaseMentalAction
   id: ActionDronePlayMidi
-  name: Play MIDI
+  name: Играть MIDI
   description: Contribute to the ambiance.
   components:
   - type: Action

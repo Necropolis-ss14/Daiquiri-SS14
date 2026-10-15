@@ -1,7 +1,7 @@
 - type: entity
   parent: BaseWallmountMetallic
   id: PrisonBars
-  name: prison bars
+  name: тюремная решётка
   placement:
     mode: SnapgridCenter
     snap:

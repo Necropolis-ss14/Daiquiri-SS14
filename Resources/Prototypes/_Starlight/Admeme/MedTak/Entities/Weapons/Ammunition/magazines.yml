@@ -2,7 +2,7 @@
 
 - type: entity
   id: MagazineVariableBoxHeavy
-  name: "HVA Box Magazine"
+  name: коробка-магазин HVA
   parent: [ BaseItem, BaseMedTakContraband ]
   components:
   - type: Tag
@@ -37,7 +37,7 @@
 
 - type: entity
   id: MagazineVariableMedium
-  name: "MVA Magazine"
+  name: магазин MVA
   parent: [ BaseItem, BaseMedTakContraband ]
   components:
   - type: Tag
@@ -72,7 +72,7 @@
 
 - type: entity
   id: MagazineVariableLight
-  name: LVA Magazine
+  name: магазин LVA
   parent: [ BaseItem, BaseMedTakContraband ]
   components:
   - type: Tag

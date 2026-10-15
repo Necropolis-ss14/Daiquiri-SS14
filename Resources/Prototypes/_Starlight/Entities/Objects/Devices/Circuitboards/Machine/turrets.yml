@@ -1,7 +1,7 @@
 - type: entity
   id: WeaponTurretPointDefenseMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: point defense battery machine board
+  name: машинная плата батареи точечной обороны
   description: A machine printed circuit board for a point defense battery.
   components:
   - type: Sprite

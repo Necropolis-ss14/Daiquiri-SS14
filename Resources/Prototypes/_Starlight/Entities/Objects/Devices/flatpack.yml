@@ -1,7 +1,7 @@
 - type: entity
   parent: BaseStructureDynamic
   id: BaseStructureFlatpack
-  name: base structure flatpack
+  name: упаковка базовой конструкции
   description: A flatpack used for constructing something.
   categories:
   - HideSpawnMenu
@@ -56,7 +56,7 @@
 - type: entity
   parent: [BaseStructureFlatpack, BaseEngineeringContraband]
   id: SupermatterFlatpack
-  name: supermatter flatpack
+  name: упаковка суперматерии
   description: A flatpack used for constructing a Supermatter Crystal.
   components:
   - type: Sprite
@@ -69,7 +69,7 @@
 - type: entity
   parent: [ BaseStructureFlatpack, BaseEngineeringContraband ]
   id: TEGCenterFlatpack
-  name: teg center flatpack
+  name: упаковка центра ТЭГ
   description: A flatpack used for constructing the main component of a Thermo-Electric Generator.
   components:
   - type: Sprite
@@ -82,7 +82,7 @@
 - type: entity
   parent: [ BaseStructureFlatpack, BaseEngineeringContraband ]
   id: TEGCirculatorFlatpack
-  name: teg circulator flatpack
+  name: упаковка циркулятора ТЭГ
   description: A flatpack used for constructing a Circulator for a Thermo-Electric Generator.
   components:
   - type: Sprite
@@ -95,7 +95,7 @@
 - type: entity
   parent: BaseStructureFlatpack
   id: ReflectorFlatpack
-  name: Reflector Flatpack
+  name: упаковка отражателя
   description: A flatpack used for constructing a Reflector.
   components:
   - type: Sprite
@@ -108,7 +108,7 @@
 - type: entity
   parent: BaseFlatpack
   id: ShuttleGunKineticFlatpack
-  name: PTK-800 "Matter Dematerializer" Flatpack
+  name: Флэтпак ПТК-800 «Дематериализатор материи»
   description: A flatpack used for constructing a PTK-800 "Matter Dematerializer".
   components:
     - type: Sprite
@@ -121,7 +121,7 @@
 - type: entity
   parent: [BaseStructureFlatpack, BaseEngineeringContraband]
   id: NuclearReactorSmallFlatpack
-  name: Small Nuclear Reactor Flatpack
+  name: упаковка малого ядерного реактора
   description: A flatpack used for constructing a small nuclear reactor. Parts sold separately.
   components:
   - type: Sprite
@@ -134,7 +134,7 @@
 - type: entity
   parent: [BaseStructureFlatpack, BaseEngineeringContraband]
   id: GasTurbineSmallFlatpack
-  name: Small Gas Turbine Flatpack
+  name: упаковка малой газовой турбины
   description: A flatpack used for constructing a small gas turbine. Parts sold separately.
   components:
   - type: Sprite
@@ -147,7 +147,7 @@
 - type: entity
   parent: BaseFlatpack
   id: MicrowaveFlatpack
-  name: microwave flatpack
+  name: упаковка микроволновки
   description: A flatpack used for constructing a microwave.
   components:
   - type: Sprite
@@ -160,7 +160,7 @@
 - type: entity
   parent: BaseFlatpack
   id: EndymionMonumentFlatpack
-  name: Endymion Memorial flatpack
+  name: упаковка мемориала Эндимион
   description: A flatpack sent to the station by the TSF to commemorate the 2123 loss of the NTSS Endymion, and the 2116 people lost to the endless stars.
   components:
     - type: Sprite

@@ -13,7 +13,7 @@
 - type: entity
   parent: BasePirateObjective
   id: PirateSurviveObjective
-  name: Survive the raid
+  name: переживи налёт
   description: You are a pirate. Stay alive and make it back to the ship when the raid is over.
   components:
   - type: Objective

@@ -8,7 +8,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepOpenIncisionScalpel
-  name: Cut with a scalpel
+  name: Разрезать скальпелем
   components:
   - type: SurgeryStep
     tools:
@@ -27,7 +27,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepClampBleeders
-  name: Clamp the bleeders
+  name: Пережать кровоточащие сосуды
   components:
   - type: SurgeryStep
     tools:
@@ -42,7 +42,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepSawBones
-  name: Saw through bones
+  name: Распилить кости
   components:
   - type: SurgeryStep
     duration: 5
@@ -56,7 +56,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepPriseOpenBones
-  name: Prise the bones open
+  name: Раздвинуть кости
   components:
   - type: SurgeryStep
     tools:
@@ -68,7 +68,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepCloseBones
-  name: Close bones
+  name: Свести кости
   components:
   - type: SurgeryStep
     tools:
@@ -80,7 +80,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepMendRibcage
-  name: Mend ribcage
+  name: Восстановить грудную клетку
   components:
   - type: SurgeryStep
     tools:
@@ -94,7 +94,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepMendSlime
-  name: Reform slime mass
+  name: Восстановить массу слайма
   components:
   - type: SurgeryStep
     tools:
@@ -106,7 +106,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepMendSkull
-  name: Mend skull
+  name: Вправить череп
   components:
   - type: SurgeryStep
     tools:
@@ -118,7 +118,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepCloseIncision
-  name: Close incision
+  name: Закрыть разрез
   components:
   - type: SurgeryStep
     tools:
@@ -136,7 +136,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepCloseIncisionDoll
-  name: Close incision
+  name: Закрыть разрез
   components:
   - type: SurgeryStep
     tools:
@@ -149,7 +149,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepMendShellDoll
-  name: Mend shell
+  name: Вправить панцирь
   components:
   - type: SurgeryStep
     tools:
@@ -168,7 +168,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepOpenShell
-  name: Break open the shell
+  name: Вскрыть панцирь
   components:
   - type: SurgeryStep
     duration: 10
@@ -188,7 +188,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepClampTendrils
-  name: Remove the tendrils
+  name: Удалить усики
   components:
   - type: SurgeryStep
     add:
@@ -203,7 +203,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepCutAbdominalMuscles
-  name: Cut through abdominal muscles
+  name: Разрезать мышцы живота
   components:
   - type: SurgeryStep
     duration: 5
@@ -217,7 +217,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepRetractAbdominalWalls
-  name: Retract abdominal walls
+  name: Оттянуть брюшные стенки
   components:
   - type: SurgeryStep
     tools:
@@ -229,7 +229,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepSutureMuscles
-  name: Suture Abdominal Muscles
+  name: Зашить мышцы живота
   components:
   - type: SurgeryStep
     duration: 4
@@ -242,7 +242,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepRestoreAbdominalWalls
-  name: Restore Abdominal Walls
+  name: Восстановить брюшные стенки
   components:
   - type: SurgeryStep
     duration: 3

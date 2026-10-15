@@ -20,7 +20,7 @@
 - type: entity
   parent: AirlockAttorneyLocked
   id: AirlockMaintAttorneyLocked
-  name: maintenance access
+  name: технический доступ
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Standard/maint.rsi
@@ -47,7 +47,7 @@
 - type: entity
   parent: AirlockBrigmedLocked
   id: AirlockMaintBrigmedLocked
-  name: maintenance access
+  name: технический доступ
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Doors/Airlocks/Standard/brigmedic_maints.rsi
@@ -73,7 +73,7 @@
 - type: entity
   parent: AirlockBrigmedParaLocked
   id: AirlockMaintBrigmedParaLocked
-  name: maintenance access
+  name: технический доступ
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Doors/Airlocks/Standard/brigmedic_maints.rsi
@@ -100,7 +100,7 @@
 - type: entity
   parent: AirlockCourtroomLocked
   id: AirlockMaintCourtroomLocked
-  name: maintenance access
+  name: технический доступ
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Doors/Airlocks/Standard/security_maints.rsi
@@ -109,7 +109,7 @@
 - type: entity
   parent: AirlockEVALocked
   id: AirlockMaintEVALocked
-  name: maintenance access
+  name: технический доступ
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Doors/Airlocks/Standard/eva_maints.rsi
@@ -129,7 +129,7 @@
 - type: entity
   parent: AirlockInternalAffairsLocked
   id: AirlockMaintInternalAffairsLocked
-  name: maintenance access
+  name: технический доступ
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Doors/Airlocks/Standard/nanotrasen_maints.rsi
@@ -156,7 +156,7 @@
 - type: entity
   parent: AirlockMailLocked
   id: AirlockMaintMailLocked
-  name: maintenance access
+  name: технический доступ
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Doors/Airlocks/Standard/mail_maints.rsi
@@ -183,7 +183,7 @@
 - type: entity
   parent: AirlockMiningCargoLocked
   id: AirlockMaintMiningCargoLocked
-  name: maintenance access
+  name: технический доступ
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Doors/Airlocks/Standard/mining_cargo_maints.rsi
@@ -210,7 +210,7 @@
 - type: entity
   parent: AirlockNTLocked
   id: AirlockMaintNTLocked
-  name: maintenance access
+  name: технический доступ
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Doors/Airlocks/Standard/nanotrasen_maints.rsi
@@ -237,7 +237,7 @@
 - type: entity
   parent: AirlockParamedicLocked
   id: AirlockMaintParamedicLocked
-  name: maintenance access
+  name: технический доступ
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Doors/Airlocks/Standard/paramedic_maints.rsi
@@ -321,7 +321,7 @@
 - type: entity
   parent: AirlockRoboticsLocked
   id: AirlockMaintRoboticsLocked
-  name: maintenance access
+  name: технический доступ
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Doors/Airlocks/Standard/robotics_maints.rsi
@@ -348,7 +348,7 @@
 - type: entity
   parent: AirlockSalvageMiningLocked
   id: AirlockMaintSalvageMiningLocked
-  name: maintenance access
+  name: технический доступ
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Standard/maint.rsi
@@ -375,7 +375,7 @@
 - type: entity
   parent: AirlockLegalLocked
   id: AirlockMaintLegalLocked
-  name: maintenance access
+  name: технический доступ
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Doors/Airlocks/Standard/services_maints.rsi
@@ -383,7 +383,7 @@
 - type: entity
   parent: AirlockJournalismLocked
   id: AirlockMaintJournalismLocked
-  name: maintenance access
+  name: технический доступ
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Doors/Airlocks/Standard/services_maints.rsi
@@ -410,7 +410,7 @@
 - type: entity
   parent: AirlockSurgeryLocked
   id: AirlockMaintSurgeryLocked
-  name: maintenance access
+  name: технический доступ
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Doors/Airlocks/Standard/surgery_maints.rsi
@@ -419,7 +419,7 @@
 - type: entity
   parent: AirlockVirologyLocked
   id: AirlockMaintVirologyLocked
-  name: maintenance access
+  name: технический доступ
   suffix: Virology Maints
   components:
   - type: Sprite
@@ -605,7 +605,7 @@
 - type: entity
   parent: AirlockCommunistLocked
   id: AirlockMaintCommunistLocked
-  name: maintenance access
+  name: технический доступ
   suffix: Communist, Locked
   components:
     - type: Sprite
@@ -712,7 +712,7 @@
 - type: entity
   parent: AirlockWizardLocked
   id: AirlockMaintWizardLocked
-  name: maintenance access
+  name: технический доступ
   suffix: Wizard, Locked
   components:
     - type: Sprite
@@ -819,7 +819,7 @@
 - type: entity
   parent: AirlockBlackstarLocked
   id: AirlockMaintBlackstarLocked
-  name: maintenance access
+  name: технический доступ
   suffix: Blackstar, Locked
   components:
     - type: Sprite

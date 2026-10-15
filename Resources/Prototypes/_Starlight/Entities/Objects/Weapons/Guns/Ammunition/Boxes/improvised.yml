@@ -1,7 +1,7 @@
 - type: entity
   parent: BaseItem
   id: BaseMagazineBoxImprovised
-  name: improvised ammunition box (.any)
+  name: самодельная коробка патронов (любые)
   description: This looks suspiciously like a .20 magazine box with a crude bullet drawing ontop. Mixing ammo is not advised.
   components:
   - type: BallisticAmmoProvider
@@ -45,7 +45,7 @@
 - type: entity
   parent: BaseMagazineBoxImprovised
   id: MagazineBoxImprovisedPistol
-  name: improvised ammunition box (.35 auto improvised)
+  name: самодельная коробка патронов (.35 авто самодельные)
   components:
   - type: BallisticAmmoProvider
     proto: CartridgePistolImprovised
@@ -62,7 +62,7 @@
 - type: entity
   parent: BaseMagazineBoxImprovised
   id: MagazineBoxImprovisedRifle
-  name: improvised ammunition box (.30 rifle improvised)
+  name: самодельная коробка патронов (.30 винтовка самодельные)
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeLightRifleImprovised
@@ -79,7 +79,7 @@
 - type: entity
   parent: BaseMagazineBoxImprovised
   id: MagazineBoxImprovisedMagnum
-  name: improvised ammunition box (.45 magnum improvised)
+  name: самодельная коробка патронов (.45 магнум самодельные)
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeMagnumImprovised
@@ -96,7 +96,7 @@
 - type: entity
   parent: BaseMagazineBoxImprovised
   id: MagazineBoxImprovisedShotgun
-  name: 12 gauge improvised buckshot box
+  name: improvised buckshot box, 12 gauge калибра
   components:
   - type: BallisticAmmoProvider
     proto: ShellShotgunImprovised

@@ -1,8 +1,8 @@
 - type: entity
-  name: gold ticket
+  name: золотой билет
   parent: BaseItem
   id: TicketGold
-  description: 'A golden ticket with printed number and Casino logo.'
+  description: 'Золотой билет с номером и логотипом казино.'
   suffix: ADMEME
   components:
   - type: Sprite

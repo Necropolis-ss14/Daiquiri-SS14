@@ -1,7 +1,7 @@
 - type: entity
   parent: BaseMindRoleAntag
   id: MindRoleNarsieCultist
-  name: Nar'Sie Cultist Role
+  name: Роль культиста Нар'Си
   components:
   - type: MindRole
     antagPrototype: NarsieCultist

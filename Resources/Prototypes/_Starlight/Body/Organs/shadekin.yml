@@ -1,9 +1,9 @@
 - type: entity
   id: OrganShadekinBrain
   parent: OrganHumanBrain
-  name: ent-OrganShadekinBrain
+  name: мозг шейдкина
   suffix: Shadekin
-  description: ent-OrganShadekinBrain-desc
+  description: Источник невероятного, бесконечного интеллекта. Марр.
   components:
   - type: Sprite
     sprite: _Starlight/Mobs/Species/Shadekin/organs.rsi
@@ -12,9 +12,9 @@
 - type: entity
   id: OrganShadekinEyes
   parent: OrganHumanEyes
-  name: ent-OrganShadekinEyes
+  name: глаза шейдкина
   suffix: Shadekin
-  description: ent-OrganShadekinEyes-desc
+  description: Глаза черноглазого шейдкина, который больше никогда не увидит родную реальность. Отлично видят ночью, но из-за этого очень чувствительны к ярким вспышкам.
   components:
   - type: Sprite
     sprite: _Starlight/Mobs/Species/Shadekin/organs.rsi
@@ -37,9 +37,9 @@
 - type: entity
   id: OrganShadekinTongue
   parent: OrganHumanTongue
-  name: ent-OrganShadekinTongue
+  name: язык шейдкина
   suffix: Shadekin
-  description: ent-OrganShadekinTongue-desc
+  description: Используется для марра и изредка вурбла.
   components:
   - type: OrganTongue
     allowedEmotes: ["Marr", "Wurble", "Hisses", "Growl", "Purr"]
@@ -54,7 +54,7 @@
 - type: entity
   id: OrganShadekinAppendix
   parent: OrganHumanAppendix
-  name: ent-OrganShadekinAppendix
+  name: аппендикс шейдкина
   suffix: Shadekin
   components:
   - type: Sprite
@@ -65,7 +65,7 @@
 - type: entity
   id: OrganShadekinHeart
   parent: OrganHumanHeart
-  name: ent-OrganShadekinHeart
+  name: сердце шейдкина
   suffix: Shadekin
   components:
   - type: Sprite
@@ -75,7 +75,7 @@
 - type: entity
   id: OrganShadekinStomach
   parent: OrganHumanStomach
-  name: ent-OrganShadekinStomach
+  name: желудок шейдкина
   suffix: Shadekin
   components:
   - type: Sprite
@@ -90,7 +90,7 @@
 - type: entity
   id: OrganShadekinLiver
   parent: OrganHumanLiver
-  name: ent-OrganShadekinLiver
+  name: печень шейдкина
   suffix: Shadekin
   components:
   - type: Sprite
@@ -100,7 +100,7 @@
 - type: entity
   id: OrganShadekinKidneys
   parent: OrganHumanKidneys
-  name: ent-OrganShadekinKidneys
+  name: почки шейдкина
   suffix: Shadekin
   components:
   - type: Sprite
@@ -111,9 +111,9 @@
 - type: entity
   id: OrganShadekinCore
   parent: BaseItem
-  name: ent-OrganShadekinCore
+  name: ядро шейдкина
   suffix: Shadekin
-  description: ent-OrganShadekinCore-desc
+  description: Ядро шейдкина — таинственный и могущественный орган, по-видимому, источник их энергии.
   components:
   - type: OrganShadekinCore
   - type: Organ
@@ -131,7 +131,7 @@
 - type: entity
   id: OrganShadekinCoreUndamaged
   parent: OrganShadekinCore
-  name: ent-OrganShadekinCoreUndamaged
+  name: ядро яркоглазого
   suffix: Bright-eye
   components:
   - type: OrganShadekinCore

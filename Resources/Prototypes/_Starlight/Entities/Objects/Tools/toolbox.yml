@@ -1,5 +1,5 @@
 - type: entity
-  name: electrical toolbox
+  name: электрический ящик с инструментами
   suffix: Pirate, Turret
   parent: ToolboxElectrical
   id: ToolboxElectricalTurretPirate

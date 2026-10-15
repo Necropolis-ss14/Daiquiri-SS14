@@ -1,7 +1,7 @@
 - type: entity
   parent: BaseItem
   id: UnfinishedImprovisedCrowbar
-  name: crowbar parts
+  name: детали ломика
   description: Needs welding to hold it together.
   components:
   - type: Item
@@ -22,7 +22,7 @@
 - type: entity
   parent: BaseItem
   id: UnfinishedImprovisedScrewdriver
-  name: screwdriver parts
+  name: детали отвёртки
   description: Needs welding to hold it together.
   components:
   - type: Item
@@ -43,7 +43,7 @@
 - type: entity
   parent: BaseItem
   id: UnfinishedImprovisedWirecutter
-  name: wirecutter parts
+  name: детали кусачек
   description: Needs welding to hold it together.
   components:
   - type: Item
@@ -64,7 +64,7 @@
 - type: entity
   parent: BaseItem
   id: UnfinishedImprovisedWrench
-  name: wrench parts
+  name: детали гаечного ключа
   description: Needs welding to hold it together.
   components:
   - type: Item
@@ -85,7 +85,7 @@
 - type: entity
   parent: BaseItem
   id: UnfinishedImprovisedMultitool
-  name: multitool parts
+  name: детали мультитула
   description: Needs welding and some patience to put it all together.
   components:
   - type: Item
@@ -106,7 +106,7 @@
 - type: entity
   parent: BaseItem
   id: UnfinishedImprovisedOmnitool
-  name: improvised omnitool parts
+  name: детали импровизированного омнитула
   description: What are you doing..? Needs.. to be welded.
   components:
   - type: Item
@@ -127,7 +127,7 @@
 - type: entity
   parent: BaseItem
   id: UnfinishedForgedOmnitool
-  name: forged omnitool parts
+  name: детали кованого омнитула
   description: You are either crazy, or a psychopath. Likely both, needs to be welded.
   components:
   - type: Item
@@ -148,7 +148,7 @@
 - type: entity
   parent: BaseItem
   id: HiltWood
-  name: wooden hilt
+  name: деревянная рукоять
   description: People will try to convince you otherwise, but wooden handles are not part of a high-quality sword, nor a knife.
   components:
   - type: Item
@@ -166,7 +166,7 @@
 - type: entity
   parent: BaseItem
   id: HiltPlasteel
-  name: plasteel hilt
+  name: пласталевая рукоять
   description: Part of high-quality sword & knife crafting.
   components:
   - type: Item
@@ -184,7 +184,7 @@
 - type: entity
   parent: BaseItem
   id: BladeSteel
-  name: steel blade
+  name: стальное лезвие
   description: Doesn't look very sharp..
   components:
   - type: Item
@@ -202,7 +202,7 @@
 - type: entity
   parent: BaseItem
   id: BladePlasteel
-  name: plasteel blade
+  name: пласталевое лезвие
   description: Ouch! Just touching the edge can cut you.
   components:
   - type: Item
@@ -220,7 +220,7 @@
 - type: entity
   parent: BaseItem
   id: UnfinishedSwordForged
-  name: forged sword parts
+  name: детали кованого меча
   description: Simply needs a bit of welding around the edges.
   components:
   - type: Item
@@ -241,7 +241,7 @@
 - type: entity
   parent: BaseItem
   id: UnfinishedClaymoreForged
-  name: tidebreaker parts
+  name: детали волнореза
   description: Simply needs a bit of welding around the edges.
   components:
   - type: Item
@@ -262,7 +262,7 @@
 - type: entity
   parent: BaseItem
   id: UnfinishedImprovisedShield
-  name: improvised shield parts
+  name: детали импровизированного щита
   description: Some assembly required, and welding too.
   components:
   - type: Item
@@ -283,7 +283,7 @@
 - type: entity
   parent: BaseItem
   id: UnfinishedForgedShieldBuckler
-  name: forged buckler shield parts
+  name: детали кованого баклера
   description: Some assembly required, and welding too.
   components:
   - type: Item
@@ -304,7 +304,7 @@
 - type: entity
   parent: BaseItem
   id: UnfinishedForgedShieldTower
-  name: forged tower shield parts
+  name: детали кованого башенного щита
   description: Some assembly required, and welding too.
   components:
   - type: Item
@@ -325,7 +325,7 @@
 - type: entity
   parent: BaseItem
   id: UnfinishedPaladinShield
-  name: paladin shield parts
+  name: детали щита паладина
   description: The shield of a true paladin..! In pieces. Needs some welding.
   components:
   - type: Item
@@ -346,7 +346,7 @@
 - type: entity
   parent: BaseItem
   id: UnfinishedPaladinShieldGreat
-  name: paladin greatshield parts
+  name: детали большого щита паладина
   description: You're either crazy, or want to become a mobile emplacement. Needs a lot of welding..
   components:
   - type: Item
@@ -367,7 +367,7 @@
 - type: entity
   parent: BaseItem
   id: UnfinishedClothingOuterArmorImprovised
-  name: improvised vest parts
+  name: детали импровизированного бронежилета
   description: Some assembly required, and welding too.
   components:
   - type: Item
@@ -388,7 +388,7 @@
 - type: entity
   parent: BaseItem
   id: UnfinishedClothingOuterArmorForged
-  name: forged vest parts
+  name: детали кованого бронежилета
   description: Some assembly required, and welding too.
   components:
   - type: Item
@@ -409,7 +409,7 @@
 - type: entity
   parent: BaseItem
   id: UnfinishedClothingOuterArmorPaladin
-  name: paladin suit parts
+  name: детали костюма паладина
   description: A LOT of assembly required, minimal welding needed. Become the paladin you've always wanted to be!
   components:
   - type: Item
@@ -430,7 +430,7 @@
 - type: entity
   parent: BaseItem
   id: UnfinishedClothingHeadHelmetImprovised
-  name: improvised helmet parts
+  name: детали импровизированного шлема
   description: Some assembly required, and welding too.
   components:
   - type: Item
@@ -451,7 +451,7 @@
 - type: entity
   parent: BaseItem
   id: UnfinishedClothingHeadHelmetForged
-  name: forged helmet parts
+  name: детали кованого шлема
   description: Some assembly required, and welding too.
   components:
   - type: Item
@@ -472,7 +472,7 @@
 - type: entity
   parent: BaseItem
   id: UnfinishedClothingHeadHelmetPaladin
-  name: paladin helmet parts
+  name: детали шлема паладина
   description: No Paladin LARP is good without the helmet! Needs welding.
   components:
   - type: Item

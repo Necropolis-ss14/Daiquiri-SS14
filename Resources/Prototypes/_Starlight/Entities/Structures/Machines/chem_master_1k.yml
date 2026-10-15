@@ -1,7 +1,7 @@
 - type: entity
   id: ChemMaster1k
   parent: [ BaseMachinePowered, ConstructibleMachine ]
-  name: ChemMaster 1000
+  name: ХимМастер 1000
   description: An ancient chemical manipulator that was the precursor to the 4000. Careful of leaks.
   placement:
     mode: SnapgridCenter

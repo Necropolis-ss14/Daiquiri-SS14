@@ -50,7 +50,7 @@
   parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase, ClothingHeadLightParamsAdvanced ]
   id: ClothingHeadHelmetHardsuitBlueshield
   categories: [ HideSpawnMenu ]
-  name: blue shield hardsuit helmet
+  name: шлем скафандра синего щита
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Head/Hardsuits/blueshield.rsi
@@ -79,7 +79,7 @@
   parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase, ClothingHeadLightParamsIntermediate ]
   id: ClothingHeadHelmetHardsuitNtrep
   categories: [ HideSpawnMenu ]
-  name: NanoTrasen representative's hardsuit helmet
+  name: шлем скафандра представителя НаноТрейзен
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Head/Hardsuits/ntrep.rsi
@@ -99,7 +99,7 @@
 - type: entity
   parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase, ClothingHeadLightParamsIntermediate ]
   id: ClothingHeadHelmetBattlesuitClown
-  name: clown battlesuit helmet
+  name: шлем боевого костюма клоуна
   description: Armored battlesuit helmet for silly needs.
   components:
   - type: Sprite
@@ -123,7 +123,7 @@
 - type: entity
   parent: ClothingHeadHardsuitBase
   id: ClothingHeadHelmetHardsuitMercenary
-  name: mercenary hardsuit helmet
+  name: шлем наёмного скафандра
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Head/Hardsuits/mercenary.rsi
@@ -144,7 +144,7 @@
 - type: entity
   parent: ClothingHeadHardsuitBase
   id: ClothingHeadHelmetHardsuitSpaceHazard
-  name: space hazard helmet
+  name: шлем космической опасности
   description: Keeps the cold sulfuric embrace of space out.
   components:
   - type: Sprite
@@ -170,7 +170,7 @@
   parent: ClothingHeadHardsuitBase #[ ClothingHeadSuitWithLightBase ]
   id: ClothingHeadHelmetHardsuitInfiltration
   categories: [ HideSpawnMenu ]
-  name: syndicate infiltration hardsuit helmet
+  name: шлем диверсионного скафандра Синдиката
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Head/Hardsuits/infiltrationsyndie.rsi
@@ -198,7 +198,7 @@
 - type: entity
   parent: [ ClothingHeadHardsuitBase, BaseSovietContraband, ClothingHeadSuitWithLightBase, ClothingHeadLightParamsIntermediate ]
   id: ClothingHeadHelmetHardsuitSovietMarine
-  name: SSF marine hardsuit helmet
+  name: шлем морпеха ССФ
   description: From the soviet dieselpunk world.
   components:
   - type: Sprite
@@ -248,7 +248,7 @@
   parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase, ClothingHeadLightParamsAdvanced ]
   id: ClothingHeadHelmetHardsuitLuxmax
   categories: [ HideSpawnMenu ]
-  name: QM's luxury maxim hardsuit helmet
+  name: шлем роскошного скафандра «Максим» квартирмейстера
   description: This thing is made of solid gold, its a wonder you can keep your head up with it on.
   components:
   - type: Sprite
@@ -269,7 +269,7 @@
 - type: entity
   parent: [ ClothingHeadHelmetHardsuitSecurity, ClothingHeadSuitWithLightBase, ClothingHeadLightParamsAdvanced ]
   id: ClothingHeadHelmetHardsuitSecurityExperimental
-  name: experimental security hardsuit helmet
+  name: шлем экспериментального скафандра безопасности
   description: Heavily armored hardsuit helmet for security needs, now with lights!
   components:
   - type: Sprite
@@ -292,7 +292,7 @@
 - type: entity
   parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase, ClothingHeadLightParamsAdvanced ]
   id: ClothingHeadHelmetHardsuitSpatioLead
-  name: spationaut lead hardsuit helmet
+  name: шлем скафандра ведущего спатионавта
   description: A sturdy decorated helmet designed for complex industrial operations in space.
   components:
   - type: Sprite
@@ -371,7 +371,7 @@
 - type: entity
   parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase, ClothingHeadLightParamsFloodlight ]
   id: ClothingHeadHelmetHardsuitAdvancedMining
-  name: advanced mining hardsuit helmet
+  name: шлем улучшенного шахтёрского скафандра
   description: A specially designed helmet for mining operations.
   components:
   - type: Sprite
@@ -450,7 +450,7 @@
 - type: entity
   parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase, ClothingHeadLightParamsProfessional ]
   id: ClothingHeadHelmetHardsuitMining
-  name: mining hardsuit helmet
+  name: шлем шахтёрского скафандра
   description: A special helmet designed for work in a hazardous, low pressure environments encountered during space mining. Has dual floodlights.
   components:
   - type: Sprite
@@ -521,7 +521,7 @@
 - type: entity
   parent: ClothingHeadHelmetHardsuitAtmos
   id: ClothingHeadHelmetHardsuitAtmosGolden
-  name: golden atmos hardsuit helmet
+  name: шлем золотого атмосферного скафандра
   description: A golden hardsuit that protects against hazardous, low pressure environments. Has thermal shielding. Use of expensive alloys have made it lighter than its non-golden counterpart.
   components:
   - type: Sprite
@@ -540,7 +540,7 @@
 - type: entity
   parent: ClothingHeadHelmetHardsuitEngineering
   id: ClothingHeadHelmetHardsuitEngineeringGolden
-  name: golden engineering hardsuit helmet
+  name: шлем золотого инженерного скафандра
   description: A golden hardsuit that protects against hazardous, low pressure environments. Has radiation shielding. Use of expensive alloys have made it lighter than its non-golden counterpart.
   components:
   - type: Sprite
@@ -561,7 +561,7 @@
 - type: entity
   parent: [ BaseNanoTrasenContraband, ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase, ClothingHeadLightParamsProfessional ]
   id: ClothingHeadHelmetHardsuitNTSF
-  name: NanoTrasen special forces hardsuit helmet
+  name: шлем спецназа НаноТрейзен
   description: A robust helmet for special operations.
   components:
   - type: BreathMask
@@ -612,7 +612,7 @@
 - type: entity
   parent: [ BaseNanoTrasenContraband, ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
   id: ClothingHeadHelmetHardsuitNTSFPrimus
-  name: NTSF primus helmet
+  name: шлем НТСФ «Примус»
   description: A robust helmet for special operations.
   components:
   - type: BreathMask
@@ -664,7 +664,7 @@
 - type: entity
   parent: [ BaseNanoTrasenContraband, ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
   id: ClothingHeadHelmetHardsuitNTSFSecundus
-  name: NTSF secundus helmet
+  name: шлем НТСФ «Секундус»
   description: A robust helmet for special operations.
   components:
   - type: BreathMask
@@ -716,7 +716,7 @@
 - type: entity
   parent: [ BaseNanoTrasenContraband, ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
   id: ClothingHeadHelmetHardsuitNTSFTertius
-  name: NTSF tertius helmet
+  name: шлем НТСФ «Тертиус»
   description: A robust helmet for special operations.
   components:
   - type: BreathMask
@@ -769,7 +769,7 @@
 - type: entity
   parent: [ BaseNanoTrasenContraband, ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
   id: ClothingHeadHelmetHardsuitNTSFQuartus
-  name: NTSF quartus helmet
+  name: шлем НТСФ «Квартус»
   description: A robust helmet for special operations.
   components:
   - type: BreathMask
@@ -823,7 +823,7 @@
 - type: entity
   parent: [ BaseNanoTrasenContraband, ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
   id: ClothingHeadHelmetHardsuitNTSFQuintus
-  name: NTSF quintus helmet
+  name: шлем НТСФ «Квинтус»
   description: A robust helmet for special operations.
   components:
   - type: BreathMask
@@ -875,7 +875,7 @@
 - type: entity
   parent: [ BaseNanoTrasenContraband, ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
   id: ClothingHeadHelmetHardsuitNTSFSextus
-  name: NTSF sextus helmet
+  name: шлем НТСФ «Секстус»
   description: A robust helmet for special operations.
   components:
   - type: BreathMask
@@ -930,7 +930,7 @@
 - type: entity
   parent: [ BaseNanoTrasenContraband, ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
   id: ClothingHeadHelmetHardsuitNTSFSeptimus
-  name: NTSF septimus helmet
+  name: шлем НТСФ «Септимус»
   description: A robust helmet for special operations.
   components:
   - type: BreathMask
@@ -982,7 +982,7 @@
 - type: entity
   parent: [ BaseNanoTrasenContraband, ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
   id: ClothingHeadHelmetHardsuitNTSFOctavius
-  name: NTSF octavius helmet
+  name: шлем НТСФ «Октавиус»
   description: A robust helmet for special operations.
   components:
   - type: BreathMask
@@ -1034,7 +1034,7 @@
 - type: entity
   parent: [ BaseNanoTrasenContraband, ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
   id: ClothingHeadHelmetHardsuitNTSFNonus
-  name: NTSF nonus helmet
+  name: шлем НТСФ «Нонус»
   description: A robust helmet for special operations.
   components:
   - type: BreathMask
@@ -1085,7 +1085,7 @@
 - type: entity
   parent: [ BaseNanoTrasenContraband, ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase, ClothingHeadLightParamsProfessional ]
   id: ClothingHeadHelmetHardsuitDecimus
-  name: decimus hardsuit helmet
+  name: шлем скафандра «Децимус»
   description: A robust helmet for special operations.
   components:
   - type: BreathMask
@@ -1137,7 +1137,7 @@
 - type: entity
   parent: [BaseTSFContraband, ClothingHeadHardsuitBase]
   id: ClothingHeadHelmetHardsuitTSFMARSOC
-  name: MARSOC helmet
+  name: шлем MARSOC
   description: A helmet worn by marines of the Trans-Solar Federation's Marine Special Operations Command. Armored, space ready, and fireproof.
   components:
   - type: Sprite
@@ -1180,7 +1180,7 @@
 - type: entity
   parent: [BaseTSFContraband, ClothingHeadHardsuitBase]
   id: ClothingHeadHelmetHardsuitTSFPhantom
-  name: Phantom helmet
+  name: шлем «Фантом»
   description: A helmet worn by marines of the Trans-Solar Federation's Marine special Operations Phantom. Armored, space ready and stealthy.
   components:
   - type: Sprite
@@ -1224,7 +1224,7 @@
 - type: entity
   parent: [ BaseCentcommContraband, ClothingHeadHardsuitBase ]
   id: ClothingHeadHelmetHardsuitThanatos
-  name: Thanatos helmet
+  name: шлем «Танатос»
   description: A robust helmet for special operations.
   components:
   - type: BreathMask
@@ -1256,7 +1256,7 @@
 - type: entity
   parent: [ ClothingHeadHardsuitBase, BaseCosmicCultItem ]
   id: ClothingHeadHelmetCosmicCult
-  name: entropic headgear
+  name: энтропийный головной убор
   description: This headpiece seems to extrude from the hardsuit it's attached to as if the material is one single, contiguous whole.
   categories: [ HideSpawnMenu ]
   components:
@@ -1287,7 +1287,7 @@
   parent: [ BaseCentcommContraband, ClothingHeadLightParamsProfessional, ClothingHeadHelmetHardsuitSyndieCommander ] # Starlight
   id: ClothingHeadHelmetHardsuitGreenshield
   categories: [ DoNotMap ]
-  name: Greenshield hardsuit helmet
+  name: шлем скафандра гриншилда
   description: A special hardsuit helmet worn by Greenshield Officers.
   components:
     - type: Sprite
@@ -1310,7 +1310,7 @@
 - type: entity
   parent: ClothingHeadHardsuitBase
   id: ChangelingClothingHeadHelmetHardsuit
-  name: organic space helmet
+  name: органический космический шлем
   description: A spaceworthy biomass of pressure and temperature resistant tissue.
   suffix: Unremoveable
   components:
@@ -1334,7 +1334,7 @@
 - type: entity
   parent: [ ClothingHeadHardsuitBase ]
   id: ClothingHeadHelmetHardsuitLossPrevention
-  name: ITG loss prevention helmet
+  name: шлем отдела предотвращения потерь
   description: Theres a scratch mark on the side for every shoplifter that has had the displeasure of seeing this helmet.
   components:
   - type: Sprite

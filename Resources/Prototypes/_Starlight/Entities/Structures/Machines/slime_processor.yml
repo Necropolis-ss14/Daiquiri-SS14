@@ -1,7 +1,7 @@
 - type: entity
   id: SlimeProcessor
   parent: [ BaseMachinePowered, ConstructibleMachine ]
-  name: slime processor
+  name: переработчик слаймов
   description: Turns slime corpses into extracts. Try freezing them first!
   placement:
     mode: SnapgridCenter

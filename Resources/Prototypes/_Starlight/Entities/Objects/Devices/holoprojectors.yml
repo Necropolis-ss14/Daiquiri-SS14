@@ -1,7 +1,7 @@
 - type: entity
   parent: Holoprojector
   id: HoloprojectorEngineering
-  name: engineering caution holo-projector
+  name: инженерный голопроектор-предупреждение
   description: Creates a non-solid warning projection, meant for marking hazards.
   components:
     - type: HolosignProjector
@@ -34,7 +34,7 @@
 - type: entity
   parent: [ Holoprojector, BaseMinorContraband ]
   id: FalseShutterProjector
-  name: false shutter projector
+  name: проектор ложных ставней
   description: Looks almost like the real thing. Useful for blocking the vision of the distracted or unobservant while you do what needs done.
   components:
   - type: HolosignProjector

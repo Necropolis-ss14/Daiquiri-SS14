@@ -1,8 +1,8 @@
 - type: entity
   id: CrateVendingMachineRestockSustenanceFilled
   parent: CratePlastic
-  name: sustenance vendor restock crate
-  description: Contains a restock box for the Sustenance Vendor.
+  name: ящик пополнения вендора еды
+  description: Коробка пополнения для вендора еды.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -13,8 +13,8 @@
 - type: entity
   id: CrateLabellerRefillPaperFilled
   parent: CratePlastic
-  name: labeller refill paper crate
-  description: Contains a refill paper for the Labeller.
+  name: ящик бумаги для этикеточника
+  description: Бумага для этикеточника.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -26,8 +26,8 @@
 - type: entity
   id: CrateVendingMachineRestockDonkFilled
   parent: CratePlastic
-  name: donk on the go restock crate
-  description: Contains a restock box for the Donk on the Go Vendor.
+  name: ящик пополнения вендора донков
+  description: Коробка пополнения для вендора «Донк на ходу».
   components:
   - type: EntityTableContainerFill
     containers:
@@ -38,8 +38,8 @@
 - type: entity
   parent: CratePlastic
   id: CrateVendingMachineRestockIceCreamFilled
-  name: ice-cream restock crate
-  description: Contains a restock box for I Scream Ice-Cream.
+  name: ящик пополнения мороженщика
+  description: Коробка пополнения для «Ай Скрим Мороженое».
   components:
   - type: EntityTableContainerFill
     containers:
@@ -50,8 +50,8 @@
 - type: entity
   parent: CratePlastic
   id: CrateVendingMachineRestockGumballFilled
-  name: gumball dispenser restock crate
-  description: Contains a restock box for gumball dispensers.
+  name: ящик пополнения жвачного автомата
+  description: Коробка пополнения для автоматов жвачки.
   components:
   - type: EntityTableContainerFill
     containers:

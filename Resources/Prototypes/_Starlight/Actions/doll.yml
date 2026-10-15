@@ -2,7 +2,7 @@
 
 - type: entity
   id: ActionGenerateShellPiece
-  name: snap shell
+  name: Отломить осколок панциря
   description: Break off an expendable piece of your shell, either to use it as a crude knife or to donate it to a fellow doll.
   components:
     - type: Action
@@ -22,7 +22,7 @@
 
 - type: entity
   id: ActionFakeDeath
-  name: Fake Death
+  name: Притвориться мёртвым
   description: Pretend to take your final breath while staying alive.
   components:
   - type: Action

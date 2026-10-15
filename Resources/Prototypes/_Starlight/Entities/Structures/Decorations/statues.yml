@@ -1,7 +1,7 @@
 - type: entity
   id: StatueStoneCUP
   parent: BaseStructure
-  name: stone tea statue
+  name: каменная чайная статуя
   description: A stone statue depicting a tea-drinking revolutionary. It stands as a symbol of unity and shared purpose among comrades.
   components:
     - type: Sprite
@@ -14,7 +14,7 @@
 - type: entity
   id: StatueOneYearAnniversary
   parent: BaseStructure
-  name: monument to the first year
+  name: памятник первому году
   description: |
     A marble statue of an idealized employee, made to commemorate the first anniversary of NanoTrasen control over the Starlight Sector.
     While ostensibly celebratory, it seems oddly mournful. Many died to make this possible.
@@ -28,7 +28,7 @@
 - type: entity
   id: Phoronic
   parent: BaseStructure
-  name: phoronic cascade
+  name: форонный каскад
   description: A huge structure made of pure plasma. Dark energy roils and bursts within it.
   components:
     - type: StationAnchor
@@ -67,7 +67,7 @@
 - type: entity
   id: EndymionStatueLarge1
   parent: BaseStructure
-  name: Small Endymion Memorial
+  name: малый мемориал Эндимиона
   description: |
     A memorial commissioned in 2143 to commemorate the lives lost aboard the Endymion and Blu-E, carved from a recovered fragment of the ships' hull and shaped into their likeness. The names of the lost crew are carved on it.
     "In reaching to the future, we must never forget those who came before us."
@@ -95,7 +95,7 @@
 - type: entity
   id: StatueAngel
   parent: BaseStructure
-  name: statue of an angel
+  name: статуя ангела
   description: An ancient marble statue. The subject is depicted with flowing robes and wide spread wings.
   components:
   - type: Sprite

@@ -1,6 +1,6 @@
 - type: entity
   id: BaseSpeedLoaderShotgun
-  name: 12 gauge speedloader
+  name: speedloader, 12 gauge калибра
   parent: [ BaseItem ]
   abstract: true
   components:
@@ -37,7 +37,7 @@
 
 - type: entity
   id: SpeedLoaderShotgunEmpty
-  name: 12 gauge speedloader
+  name: speedloader, 12 gauge калибра
   parent: [ BaseSpeedLoaderShotgun, BaseSecuritySalvageContraband ]
   components:
   - type: BallisticAmmoProvider
@@ -55,7 +55,7 @@
 
 - type: entity
   id: SpeedLoaderMagnumBasic
-  name: 12 gauge buckshot speedloader
+  name: buckshot, 12 gauge калибра
   parent: [ BaseSpeedLoaderShotgun, BaseSecurityContraband ]
   components:
   - type: BallisticAmmoProvider
@@ -73,7 +73,7 @@
 
 - type: entity
   id: SpeedLoaderShotgunBeanbag
-  name: 12 gauge beanbag speedloader
+  name: beanbag, 12 gauge калибра
   parent: [ BaseSpeedLoaderShotgun, BaseSecurityBartenderContraband ]
   components:
   - type: BallisticAmmoProvider
@@ -91,7 +91,7 @@
 
 - type: entity
   id: SpeedLoaderShotgunSlug
-  name: 12 gauge slug speedloader
+  name: slug, 12 gauge калибра
   parent: [ BaseSpeedLoaderShotgun, BaseSecurityContraband ]
   components:
   - type: BallisticAmmoProvider
@@ -109,7 +109,7 @@
 
 - type: entity
   id: SpeedLoaderShotgunUranium
-  name: 12 gauge uranium speedloader
+  name: урановый, 12 gauge калибра
   parent: [ BaseSpeedLoaderShotgun, BaseSecurityContraband ]
   components:
   - type: BallisticAmmoProvider
@@ -127,7 +127,7 @@
 
 - type: entity
   id: SpeedLoaderShotgunBirdshot
-  name: 12 gauge birdshot speedloader
+  name: birdshot, 12 gauge калибра
   parent: [ BaseSpeedLoaderShotgun, BaseSecuritySalvageContraband ]
   components:
   - type: BallisticAmmoProvider
@@ -145,7 +145,7 @@
 
 - type: entity
   id: SpeedLoaderShotgunIncendiary
-  name: 12 gauge incendiary speedloader
+  name: зажигательный, 12 gauge калибра
   parent: [ BaseSpeedLoaderShotgun, BaseSecurityContraband ]
   components:
   - type: BallisticAmmoProvider

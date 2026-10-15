@@ -1,4 +1,4 @@
-job-name-assistant = Ассистент
+job-name-assistant = ассистент
 job-name-stirstir = Стир Стир
 job-name-cook-assistant = Помощник повара
 job-name-delivery-assistant = Мальчик на побегушках

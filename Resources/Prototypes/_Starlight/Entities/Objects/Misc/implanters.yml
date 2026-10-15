@@ -3,8 +3,8 @@
 - type: entity
   id: BaseImplantOnlyImplanterSyndi_StarLight
   parent: [BaseImplantOnlyImplanter, BaseSovietContraband]
-  name: ent-BaseImplantOnlyImplanterSyndi_StarLight
-  description: ent-BaseImplantOnlyImplanterSyndi_StarLight-desc
+  name: синдикатовский имплантер
+  description: Компактный одноразовый шприц, предназначенный исключительно для введения подкожных имплантов.
   abstract: true
   components:
     - type: Item
@@ -36,8 +36,8 @@
   id: USSPUplinkImplanterEmpty
   suffix: Empty
   parent: BaseImplantOnlyImplanterSyndi_StarLight
-  name: ent-USSPUplinkImplanterEmpty
-  description: ent-USSPUplinkImplanterEmpty-desc
+  name: имплантер СКБ
+  description: Хрупкий одноразовый шприц, предназначенный исключительно для введения подкожных имплантов агентам СКБ.
   components:
   - type: Implanter
     drawTime: 5
@@ -76,8 +76,8 @@
   id: USSPUplinkImplanter
   suffix: USSP uplink
   parent: BaseImplantOnlyImplanterSyndi_StarLight
-  name: ent-USSPUplinkImplanter
-  description: ent-USSPUplinkImplanter-desc
+  name: имплантер СКБ
+  description: Хрупкий одноразовый шприц, предназначенный исключительно для введения подкожных имплантов агентам СКБ. Растворяется при использовании.
   components:
   - type: Implanter
     implant: USSPUplinkImplant
@@ -99,7 +99,7 @@
   id: USSPDeathRattleImplanter
   suffix: Death Rattle
   parent: BaseImplantOnlyImplanterSyndi_StarLight
-  name: SKB death rattle implanter
+  name: имплантер «предсмертного хрипа» СКБ
   description: A brittle disposable syringe exclusively designed for the injection of subdermal implants for SKB agents. Dissolves on use.
   components:
   - type: Implanter
@@ -120,7 +120,7 @@
 
 - type: entity
   id: RadioImplanterUSSP
-  name: USSP radio implanter
+  name: имплантер радио СССП
   parent: BaseImplantOnlyImplanterSyndi_StarLight
   components:
   - type: Implanter
@@ -141,7 +141,7 @@
 
 - type: entity
   id: MagillitisSerumImplanter
-  name: ent-MagillitisSerumImplanter
+  name: имплантер сыворотки магиллита
   parent: BaseImplantOnlyImplanterSyndi
   components:
     - type: Implanter
@@ -149,7 +149,7 @@
 
 - type: entity
   id: TSFMindShieldImplanter
-  name: ent-TSFMindShieldImplanter
+  name: имплантер «Щита разума» ТСФ
   parent: MindShieldImplanter
   components:
   - type: Implanter
@@ -157,7 +157,7 @@
 
 - type: entity
   id: DeathRattleImplanterTSF
-  name: ent-DeathRattleImplanterTSF
+  name: имплантер «предсмертного хрипа» ТСФ
   parent: BaseImplantOnlyImplanter
   components:
   - type: Implanter
@@ -165,7 +165,7 @@
 
 - type: entity
   id: DeathRattleImplanterSalvage
-  name: ent-DeathRattleImplanterSalvage
+  name: утилизаторский имплантер «предсмертного хрипа»
   parent: BaseImplantOnlyImplanter
   components:
     - type: Implanter
@@ -173,7 +173,7 @@
 
 - type: entity
   id: BluespaceImplanter
-  name: ent-BluespaceImplanter
+  name: блюспейс-имплантер
   parent: BaseImplantOnlyImplanter
   components:
     - type: Implanter
@@ -181,7 +181,7 @@
 
 - type: entity
   id: RedspaceImplanter
-  name: ent-RedspaceImplanter
+  name: редспейс-имплантер
   parent: BaseImplantOnlyImplanterSyndi
   components:
     - type: Implanter
@@ -190,7 +190,7 @@
 # Gear Acidifier
 - type: entity
   id: GearAcidifierImplanter
-  name: ent-GearAcidifierImplanter
+  name: имплантер-растворитель снаряжения
   parent: BaseImplantOnlyImplanterSyndi
   components:
   - type: Implanter
@@ -199,7 +199,7 @@
 #SELF
 - type: entity
   id: BluespaceStorageImplanter
-  name: ent-BluespaceStorageImplanter
+  name: блюспейс-имплантер «хранилище»
   parent: BaseImplantOnlyImplanterSyndi
   components:
   - type: Implanter
@@ -207,7 +207,7 @@
 # Traitor Mind control
 - type: entity
   id: MindControlImplanter
-  name: ent-MindControlImplanter
+  name: имплантер контроля разума
   parent: BaseImplantOnlyImplanterSyndi
   components:
     - type: Implanter
@@ -216,7 +216,7 @@
 #Station
 - type: entity
   id: CommandTrackerImplanter
-  name: ent-CommandTrackerImplanter
+  name: командный имплантер-трекер
   parent: BaseImplantOnlyImplanter
   components:
   - type: Implanter
@@ -225,7 +225,7 @@
 #ITG
 - type: entity
   id: ITGTrackerImplanter
-  name: ent-ITGTrackerImplanter
+  name: имплантер-трекер МТГ
   parent: BaseImplantOnlyImplanter
   components:
   - type: Implanter

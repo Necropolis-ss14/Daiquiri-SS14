@@ -1,7 +1,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryLimbAttachmentHead
-  name: Limb Attachment Head
+  name: Прикрепление головы
   description: Surgical attachment of a limb.
   components:
   - type: Surgery
@@ -29,7 +29,7 @@
 - type: entity
   parent: SurgeryLimbAttachmentHead
   id: SurgeryLimbAttachmentLeftArm
-  name: Limb Attachment Left Arm
+  name: Прикрепление левой руки
   description: Surgical attachment of a limb.
   components:
   - type: SurgeryLimbSlotCondition
@@ -49,7 +49,7 @@
 - type: entity
   parent: SurgeryLimbAttachmentHead
   id: SurgeryLimbAttachmentLeftHand
-  name: Limb Attachment Left Hand
+  name: Прикрепление левой кисти
   description: Surgical attachment of a limb.
   components:
   - type: SurgeryLimbSlotCondition
@@ -58,7 +58,7 @@
 - type: entity
   parent: SurgeryLimbAttachmentHead
   id: SurgeryLimbAttachmentRightArm
-  name: Limb Attachment Right Arm
+  name: Прикрепление правой руки
   description: Surgical attachment of a limb.
   components:
   - type: SurgeryLimbSlotCondition
@@ -78,7 +78,7 @@
 - type: entity
   parent: SurgeryLimbAttachmentHead
   id: SurgeryLimbAttachmentRightHand
-  name: Limb Attachment Right Hand
+  name: Прикрепление правой кисти
   description: Surgical attachment of a limb.
   components:
   - type: SurgeryLimbSlotCondition
@@ -87,7 +87,7 @@
 - type: entity
   parent: SurgeryLimbAttachmentHead
   id: SurgeryLimbAttachmentLeftLeg
-  name: Limb Attachment Left Leg
+  name: Прикрепление левой ноги
   description: Surgical attachment of a limb.
   components:
   - type: SurgeryLimbSlotCondition
@@ -96,7 +96,7 @@
 - type: entity
   parent: SurgeryLimbAttachmentHead
   id: SurgeryLimbAttachmentLeftFoot
-  name: Limb Attachment Left Foot
+  name: Прикрепление левой ступни
   description: Surgical attachment of a limb.
   components:
   - type: SurgeryLimbSlotCondition
@@ -105,7 +105,7 @@
 - type: entity
   parent: SurgeryLimbAttachmentHead
   id: SurgeryLimbAttachmentRightLeg
-  name: Limb Attachment Right Leg
+  name: Прикрепление правой ноги
   description: Surgical attachment of a limb.
   components:
   - type: SurgeryLimbSlotCondition
@@ -114,7 +114,7 @@
 - type: entity
   parent: SurgeryLimbAttachmentHead
   id: SurgeryLimbAttachmentRightFoot
-  name: Limb Attachment Right Foot
+  name: Прикрепление правой ступни
   description: Surgical attachment of a limb.
   components:
   - type: SurgeryLimbSlotCondition
@@ -123,7 +123,7 @@
 - type: entity
   parent: SurgeryLimbAttachmentHead
   id: SurgeryLimbAttachmentTail
-  name: Limb Attachment Tail
+  name: Прикрепление хвоста
   description: Surgical attachment of a limb.
   components:
   - type: SurgeryLimbSlotCondition
@@ -132,7 +132,7 @@
 - type: entity
   parent: SurgeryLimbAttachmentHead
   id: SurgeryLimbAttachmentOther
-  name: Limb Attachment Other
+  name: Прикрепление прочей части тела
   description: Surgical attachment of a limb.
   components:
   - type: SurgeryLimbSlotCondition
@@ -161,7 +161,7 @@
 - type: entity
   parent: SurgeryLimbAttachmentSlimeHead
   id: SurgeryLimbAttachmentSlimeLeftArm
-  name: Limb Attachment Left Arm
+  name: Прикрепление левой руки
   description: Surgical attachment of a limb.
   components:
   - type: SurgeryLimbSlotCondition
@@ -177,7 +177,7 @@
 - type: entity
   parent: SurgeryLimbAttachmentSlimeHead
   id: SurgeryLimbAttachmentSlimeLeftHand
-  name: Limb Attachment Left Hand
+  name: Прикрепление левой кисти
   description: Surgical attachment of a limb.
   components:
   - type: SurgeryLimbSlotCondition
@@ -186,7 +186,7 @@
 - type: entity
   parent: SurgeryLimbAttachmentSlimeHead
   id: SurgeryLimbAttachmentSlimeRightArm
-  name: Limb Attachment Right Arm
+  name: Прикрепление правой руки
   description: Surgical attachment of a limb.
   components:
   - type: SurgeryLimbSlotCondition
@@ -202,7 +202,7 @@
 - type: entity
   parent: SurgeryLimbAttachmentSlimeHead
   id: SurgeryLimbAttachmentSlimeRightHand
-  name: Limb Attachment Right Hand
+  name: Прикрепление правой кисти
   description: Surgical attachment of a limb.
   components:
   - type: SurgeryLimbSlotCondition
@@ -211,7 +211,7 @@
 - type: entity
   parent: SurgeryLimbAttachmentSlimeHead
   id: SurgeryLimbAttachmentSlimeLeftLeg
-  name: Limb Attachment Left Leg
+  name: Прикрепление левой ноги
   description: Surgical attachment of a limb.
   components:
   - type: SurgeryLimbSlotCondition
@@ -220,7 +220,7 @@
 - type: entity
   parent: SurgeryLimbAttachmentSlimeHead
   id: SurgeryLimbAttachmentSlimeLeftFoot
-  name: Limb Attachment Left Foot
+  name: Прикрепление левой ступни
   description: Surgical attachment of a limb.
   components:
   - type: SurgeryLimbSlotCondition
@@ -229,7 +229,7 @@
 - type: entity
   parent: SurgeryLimbAttachmentSlimeHead
   id: SurgeryLimbAttachmentSlimeRightLeg
-  name: Limb Attachment Right Leg
+  name: Прикрепление правой ноги
   description: Surgical attachment of a limb.
   components:
   - type: SurgeryLimbSlotCondition
@@ -238,7 +238,7 @@
 - type: entity
   parent: SurgeryLimbAttachmentSlimeHead
   id: SurgeryLimbAttachmentSlimeRightFoot
-  name: Limb Attachment Right Foot
+  name: Прикрепление правой ступни
   description: Surgical attachment of a limb.
   components:
   - type: SurgeryLimbSlotCondition
@@ -247,7 +247,7 @@
 - type: entity
   parent: SurgeryLimbAttachmentSlimeHead
   id: SurgeryLimbAttachmentSlimeTail
-  name: Limb Attachment Tail
+  name: Прикрепление хвоста
   description: Surgical attachment of a limb.
   components:
   - type: SurgeryLimbSlotCondition
@@ -256,7 +256,7 @@
 - type: entity
   parent: SurgeryLimbAttachmentSlimeHead
   id: SurgeryLimbAttachmentSlimeOther
-  name: Limb Attachment Other
+  name: Прикрепление прочей части тела
   description: Surgical attachment of a limb.
   components:
   - type: SurgeryLimbSlotCondition

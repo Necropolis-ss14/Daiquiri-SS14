@@ -85,7 +85,7 @@
 - type: entity
   id: LatticeFalse
   parent: GrateBase
-  name: flimsy lattice
+  name: хлипкая решётка
   description: "Not structurally viable."
   suffix: False, Grate
   components:

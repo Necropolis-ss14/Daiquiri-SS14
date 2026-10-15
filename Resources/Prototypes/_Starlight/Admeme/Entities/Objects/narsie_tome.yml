@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: NarsieConversionTome
-  name: consumed tome of Nar'sie
-  description: A tome of Nar'sie that was overtaken by the Meat Fungi. The pages seem to whisper your name.
+  name: поглощённый фолиант Нар'Си
+  description: Фолиант Нар'Си, захваченный Мясными Грибами. Страницы будто шепчут твоё имя.
   components:
   - type: Sprite
     sprite: _Starlight/Admeme/Objects/narsie_tome.rsi

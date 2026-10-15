@@ -1,7 +1,7 @@
 - type: entity
   id: OrganNeoVoxStomach
   parent: OrganNeocyteStomach
-  name: ent-OrganNeoVoxStomach
+  name: биологический реактор вокса
   suffix: Neo-Vox
   components:
   - type: Metabolizer
@@ -20,7 +20,7 @@
 - type: entity
   id: OrganNeoVoxHeart
   parent: [BaseNeocyteOrgan, OrganNeocyteHeart]
-  name: ent-OrganNeoVoxHeart
+  name: кибернетическое сердце вокса
   suffix: Neo-Vox
   components:
   - type: Sprite
@@ -34,9 +34,9 @@
 - type: entity
   id: OrganNeoVoxLungs
   parent: OrganNeocyteLungs
-  name: ent-OrganNeoVoxLungs
+  name: кибернетические лёгкие вокса
   suffix: Neo-Vox
-  description: ent-OrganNeoVoxLungs-desc
+  description: Фильтруют азот из атмосферы, который затем поступает в кровоток и используется как переносчик электронов. Полностью кибернетические по природе, работают в паре с системой фильтрации визора.
   components:
   - type: Metabolizer
     metabolizerTypes: [ Slime, NeoVox ]

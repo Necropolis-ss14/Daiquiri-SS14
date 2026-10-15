@@ -1,7 +1,7 @@
 - type: entity
   parent: [ ClothingHeadset, BaseNanoTrasenContraband ]
   id: ClothingHeadsetIAA
-  name: internal affairs agent headset
+  name: гарнитура АВД
   description: A headset for internal affairs agents to hear the captain's last words.
   components:
     - type: ContainerFill
@@ -16,7 +16,7 @@
 - type: entity
   parent: [ ClothingHeadset, BaseNanoTrasenContraband ]
   id: ClothingHeadsetMagistrate
-  name: magistrate headset
+  name: гарнитура магистрата
   description: A headset for magistrates to hear the captain's last words.
   components:
     - type: ContainerFill
@@ -33,7 +33,7 @@
 - type: entity
   parent: ClothingHeadset
   id: ClothingHeadsetLawyer
-  name: lawyer headset
+  name: гарнитура юриста
   description: Headset used by the lawyers, tasked with keeping the station's crew properly represented.
   components:
   - type: ContainerFill
@@ -50,7 +50,7 @@
 - type: entity
   parent: [ ClothingHeadset, BaseCommandManagerContraband ]
   id: ClothingHeadsetAssistantManager
-  name: assistant manager headset
+  name: гарнитура ассистента управляющего
   description: A headset for the least poor among the poor.
   components:
     - type: ContainerFill
@@ -65,7 +65,7 @@
 - type: entity
   parent: [ ClothingHeadset, BaseMajorContraband ]
   id: ClothingHeadsetAssistantNinja
-  name: stolen headset
+  name: краденая гарнитура
   components:
   - type: Sprite
     sprite: Clothing/Ears/Headsets/service.rsi
@@ -76,7 +76,7 @@
 - type: entity
   parent: [ ClothingHeadset, BaseSecurityContraband ]
   id: ClothingHeadsetSecurityWarden
-  name: warden's headset
+  name: гарнитура смотрителя
   description: This is used by your elite warden.
   components:
   - type: ContainerFill
@@ -95,7 +95,7 @@
 - type: entity
   parent: [ClothingHeadsetSecurity]
   id: ClothingHeadsetDetective
-  name: detective headset
+  name: гарнитура детектива
   description: This is used by your wise detective.
   components:
   - type: ContainerFill
@@ -114,7 +114,7 @@
 - type: entity
   parent: [ ClothingHeadsetAlt, BaseSovietContraband ]
   id: ClothingHeadsetAltSoviet
-  name: SSF marine over-ear headset
+  name: полноразмерная гарнитура морпеха ССФ
   description: Priyom.
   components:
   - type: Headset
@@ -133,7 +133,7 @@
 - type: entity
   parent: ClothingHeadsetCargo
   id: ClothingHeadsetSalvageLead
-  name: salvage lead's headset
+  name: гарнитура ведущего утилизатора
   description: Headset used by the salvage lead.
   components:
   - type: ContainerFill
@@ -149,7 +149,7 @@
 - type: entity
   parent: [BaseTSFContraband, ClothingHeadset]
   id: ClothingHeadsetTSFTrader
-  name: Trans-Solar Trader's headset
+  name: гарнитура транс-солнечного торговца
   components:
   - type: ContainerFill
     containers:
@@ -168,7 +168,7 @@
 - type: entity
   parent: [ClothingHeadset, BaseNanoTrasenContraband]
   id: ClothingHeadsetNCT
-  name: NanoTrasen career trainer radio headset
+  name: радиогарнитура карьерного тренера НаноТрейзен
   description: This is used by your well-taught corporate training team.
   components:
   - type: ContainerFill
@@ -189,7 +189,7 @@
 - type: entity
   parent: ClothingHeadsetCargo
   id: ClothingHeadsetVisitor
-  name: visitor headset
+  name: гарнитура посетителя
   description: Headset used by people visiting the station, usually for a short time.
   components:
   - type: ContainerFill

@@ -1,8 +1,8 @@
 - type: entity
   parent: [AdvancedJetInjector, BaseSecurityContraband]
   id: TacticalJetInjector
-  name: tactical jet injector
-  description: A bold, tacticool, ultra high quality injector. Allows for a very fast injection, with a smaller capacity as a tradeoff. Guard it until your last breath.
+  name: тактический инъектор
+  description: Дерзкий, тактикульный, сверхкачественный инъектор. Очень быстрый укол в обмен на меньший объём. Береги как зеницу ока.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Specific/Medical/corpsman_jetinjector.rsi
@@ -31,8 +31,8 @@
 - type: entity
   parent: [AdvancedJetInjector, BaseMedicalContraband]
   id: DeforestJetInjector
-  name: DeForest jet injector
-  description: A cool, modern, ultra high quality injector. Allows for a fast injection, with a smaller capacity as a tradeoff. Go Interstellar, with DeForest Medical!
+  name: инъектор DeForest
+  description: Крутой, современный, сверхкачественный инъектор. Быстрый укол в обмен на меньший объём. Лети межзвёздно — с DeForest Medical!
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Specific/Medical/deforest_jetinjector.rsi
@@ -57,9 +57,9 @@
     - DeforestJetInjectorInjectMode
 
 - type: entity
-  name: gorlex hypospray
+  name: гипоспрей горлекс
   parent: [BaseHypospray, BaseSyndicateContraband]
-  description: An adaptation of the Gorlex Hypospray for cyborgs.
+  description: Адаптация гипоспрея Gorlex для киборгов.
   id: SyndiBorgHypo
   components:
   - type: Sprite
@@ -91,8 +91,8 @@
 - type: entity
   parent: ChemicalMedipen
   id: GlubMedipen
-  name: glub auto-injector
-  description: A non-refillable medipen containing multiple doses of glub.
+  name: автоинъектор глуба
+  description: Незаправляемая медиручка с несколькими дозами глуба.
   components:
   - type: Item
     inhandVisuals:

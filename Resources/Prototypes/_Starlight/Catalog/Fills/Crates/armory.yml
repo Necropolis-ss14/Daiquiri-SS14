@@ -1,8 +1,8 @@
 - type: entity
   id: CrateArmoryLr30
   parent: [ CrateWeaponSecure, BaseRestrictedContraband ]
-  name: lr30 crate
-  description: Contains two automatic LR-30 energy weapons, with two additional magazines. Requires Armory access to open.
+  name: ящик lr30
+  description: Два автоматических энергооружия LR-30 и два запасных магазина. Нужен доступ в оружейную.
   components:
   - type: Contraband
     allowedDepartments: [ Security ]
@@ -18,8 +18,8 @@
 - type: entity
   id: CrateArmoryLr30Magazines
   parent: [ CrateWeaponSecure, BaseRestrictedContraband ]
-  name: lr30 magazines crate
-  description: Contains six magazines for the LR-30 energy weapon. Requires Armory access to open.
+  name: ящик магазинов lr30
+  description: Шесть магазинов для энергооружия LR-30. Нужен доступ в оружейную.
   components:
   - type: Contraband
     allowedDepartments: [ Security ]
@@ -33,8 +33,8 @@
 - type: entity
   id: CrateArmoryCombatShotgun
   parent: [ CrateWeaponSecure, BaseRestrictedContraband ]
-  name: combat shotguns crate
-  description: Contains two automatic combat shotguns, with two additional ammo boxes. Requires Armory access to open.
+  name: ящик боевых дробовиков
+  description: Два автоматических боевых дробовика и две коробки патронов. Нужен доступ в оружейную.
   components:
   - type: Contraband
     allowedDepartments: [ Security ]
@@ -50,8 +50,8 @@
 - type: entity
   id: CrateArmoryAdvancedRestraints
   parent: [ CrateWeaponSecure, BaseSecurityContraband ]
-  name: advanced restraints crate
-  description: For the most annoying prisoners.
+  name: ящик продвинутых фиксаторов
+  description: Для самых надоедливых заключённых.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -67,8 +67,8 @@
 - type: entity
   id: CrateArmoryMelee
   parent: [ CrateWeaponSecure, BaseSecurityContraband ]
-  name: armory melee weapon crate
-  description: A crate with a tactical spear and a short sword.
+  name: ящик оружейного ближнего боя
+  description: Ящик с тактическим копьём и коротким мечом.
   components:
   - type: EntityTableContainerFill
     containers:

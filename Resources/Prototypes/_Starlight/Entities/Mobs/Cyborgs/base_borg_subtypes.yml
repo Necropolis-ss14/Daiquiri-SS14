@@ -3,7 +3,7 @@
   parent: BorgSubtypeBase
   abstract: true
   id: BorgSecuritySubtypeBase
-  name: borg security subtype
+  name: охранный подтип борга
   components:
     - type: BorgSubtypeDefinition
       parentType: security
@@ -16,7 +16,7 @@
   parent: BorgSubtypeBase
   abstract: true
   id: BorgCargoSubtypeBase
-  name: borg cargo subtype
+  name: грузовой подтип борга
   components:
     - type: BorgSubtypeDefinition
       parentType: cargo
@@ -29,7 +29,7 @@
   parent: BorgSubtypeBase
   abstract: true
   id: BorgPurrfusSubtypeBase
-  name: borg purrfus subtype
+  name: подтип борга-пуррфуса
   components:
     - type: BorgSubtypeDefinition
       parentType: purrfus

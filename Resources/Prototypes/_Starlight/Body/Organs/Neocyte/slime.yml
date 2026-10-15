@@ -1,9 +1,9 @@
 - type: entity
   id: SentientNeoSlimeCore
   parent: SentientSlimeCore
-  name: ent-SentientNeoSlimeCore
+  name: улучшенное ядро разумного слайма
   suffix: Neo-Slime
-  description: ent-SentientNeoSlimeCore-desc
+  description: Источник невероятной, бесконечной слизистости.
   components:
     - type: Stomach
       specialDigestible:
@@ -23,9 +23,9 @@
 - type: entity
   id: OrganNeoSlimeHeart
   parent: OrganSlimeHeart
-  name: ent-OrganNeoSlimeHeart
+  name: улучшенный циркулятор слайма
   suffix: Neo-Slime
-  description: ent-OrganNeoSlimeHeart-desc
+  description: Маленький циркулятор, гоняющий жидкость по телу слайма.
   components:
   - type: Metabolizer
     maxReagents: 6
@@ -43,9 +43,9 @@
 - type: entity
   id: OrganNeoSlimeLungs
   parent: OrganSlimeLungs
-  name: ent-OrganNeoSlimeLungs
+  name: улучшенные газовые мешки слайма
   suffix: Neo-Slime
-  description: ent-OrganNeoSlimeLungs-desc
+  description: Собирают азот, который клетки слайма используют для жизнедеятельности.
   components:
   - type: OrganDamage
     damage:
@@ -58,9 +58,9 @@
 - type: entity
   id: OrganNeoSlimePeepoids
   parent: OrganSlimePeepoids
-  name: ent-OrganNeoSlimePeepoids
+  name: улучшенные пипоиды
   suffix: Neo-Slime
-  description: ent-OrganNeoSlimePeepoids-desc
+  description: Примитивные и сопливые, но почти так же хороши, как человеческий аналог.
   components:
   - type: Sprite
     sprite: _Starlight/Mobs/Species/Slime/organs.rsi
@@ -84,9 +84,9 @@
 - type: entity
   id: OrganNeoSlimeSlurpoid
   parent: OrganSlimeSlurpoid
-  name: ent-OrganNeoSlimeSlurpoid
+  name: улучшенный сларпоид
   suffix: Neo-Slime
-  description: ent-OrganNeoSlimeSlurpoid-desc
+  description: По консистенции — чистое желе.
   components:
   - type: OrganTongue
     allowedEmotes: ['Chirp', 'Hisses', 'Squish', 'Bubble', 'Pop', 'Bubble', 'Pop', 'Purr', 'Growl', 'Trill', 'Scree', 'Call', 'Squawk', 'Bark', 'Snarl', 'Whine', 'Howl', 'Yip', 'Mew', 'Meow', 'Liss', 'Lurr', 'Rattle', "Marr", "Wurble", 'Chitter', 'Squeak', 'Click', 'Beep', 'Ping', 'Buzz', 'Buzz-Two', 'Chime', 'Honk', 'ThavenHum', 'ThavenGlub', 'Squee', 'Snort', 'Sneeze', 'LagomorphSnore']

@@ -2,7 +2,7 @@
 - type: entity
   id: JetpackSSFMarine
   parent: [BaseJetpack, BaseSovietContraband]
-  name: SSF marine jetpack
+  name: джетпак морпеха SSF
   suffix: Empty
   description: Standard issued soviet-made jetpack for the kosmos.
   components:
@@ -24,7 +24,7 @@
 - type: entity
   id: JetpackSSFMarineFilled
   parent: [JetpackSSFMarine, BaseSovietContraband]
-  name: SSF marine jetpack
+  name: джетпак морпеха SSF
   description: Standard issued soviet-made jetpack for the kosmos.
   components:
     - type: Item
@@ -50,7 +50,7 @@
 - type: entity
   id: JetpackImprovised
   parent: [ BaseJetpack, BaseMinorContraband ]
-  name: improvised jetpack
+  name: импровизированный джетпак
   description: It's a jetpack. It can hold 1.5 L of gas.
   suffix: Empty
   components:
@@ -79,7 +79,7 @@
 - type: entity
   id: JetpackImprovisedFilled
   parent: JetpackImprovised
-  name: improvised jetpack
+  name: импровизированный джетпак
   suffix: Filled
   components:
   - type: GasTank
@@ -96,7 +96,7 @@
 - type: entity
   id: JetpackVoidEngineer
   parent: [ BaseJetpack, BaseGrandTheftContraband ]
-  name: chief engineer's void jetpack
+  name: пустотный джетпак главного инженера
   suffix: Empty
   components:
   - type: Item
@@ -124,7 +124,7 @@
 - type: entity
   id: JetpackVoidEngineerFilled
   parent: JetpackVoidEngineer
-  name: chief engineer's void jetpack
+  name: пустотный джетпак главного инженера
   suffix: Filled
   components:
   - type: GasTank
@@ -141,7 +141,7 @@
 - type: entity
   parent: [ JetpackBlack, BaseCentcommContraband ]
   id: JetpackCyborgCentcomm
-  name: CentComm jetpack
+  name: джетпак ЦентКома
   suffix: Cyborg, Infinite
   description: Specialised jetpack for cyborgs which harvests moles on the go.
   components:

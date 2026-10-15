@@ -25,7 +25,7 @@
 - type: entity
   id: OrganAnimalLungs
   parent: BaseAnimalOrgan
-  name: animal lungs
+  name: "{ ent-OrganBaseLungs }"
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -49,7 +49,7 @@
 - type: entity
   id: OrganAnimalStomach
   parent: BaseAnimalOrgan
-  name: animal stomach
+  name: "{ ent-OrganBaseStomach }"
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -86,7 +86,7 @@
 - type: entity
   id: OrganAnimalLiver
   parent: [ BaseAnimalOrgan, BaseOrganLiver]
-  name: animal liver
+  name: "{ ent-OrganBaseLiver }"
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -103,7 +103,7 @@
 - type: entity
   id: OrganAnimalHeart
   parent: [ BaseAnimalOrgan, BaseOrganHeart]
-  name: animal heart
+  name: "{ ent-OrganBaseHeart }"
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -120,7 +120,7 @@
 - type: entity
   id: OrganAnimalKidneys
   parent: [ BaseAnimalOrgan, BaseOrganKidneys ]
-  name: animal kidneys
+  name: "{ ent-OrganBaseKidneys }"
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -138,7 +138,7 @@
 - type: entity
   id: OrganAnimalEyes
   parent: [BaseAnimalOrgan, BaseOrganEyes]
-  name: ent-OrganAnimalEyes
+  name: глаза животного
   categories: [ HideSpawnMenu ]
   components:
     - type: Sprite

@@ -40,7 +40,7 @@
         prob: 0.80
 
 - type: entity
-  name: improvised revolver
+  name: самодельный револьвер
   parent: WeaponRevolverMakeshift
   id: WeaponRevolverImprovised
   description: A revolver that has two barrels and no cylinder. Can you really call this a revolver?
@@ -73,7 +73,7 @@
         prob: 0.80
 
 - type: entity
-  name: forged revolver
+  name: кустарный револьвер
   parent: WeaponRevolverImprovised
   id: WeaponRevolverForged
   description: The best Tider engineering can offer, a revolver with the ability to hold 4 bullets!
@@ -123,7 +123,7 @@
     weight: 0.01
 
 - type: entity
-  name: TOZ-82 'Jupiter'
+  name: ТОЗ-82 «Юпитер»
   parent: [BaseWeaponRevolver, BaseSecuritySalvageContraband]
   id: WeaponRevolverZOZ
   description: An oversized bullpup revolver whose design was smuggled out of the USSP. You might need both hands for this one. It's got a flip-out bayonet, but the damned thing is stuck shut. Loads 6 rounds of .45 magnum.

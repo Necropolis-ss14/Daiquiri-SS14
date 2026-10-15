@@ -1,9 +1,9 @@
 # LMG
 - type: entity
-  name: CODE-6 "Arbitration"
+  name: КОД-6 «Арбитраж»
   id: WeaponMedTakLightMachineGun
   parent: [ BaseWeaponLightMachineGun, BaseVariableHeavySettings, BaseMedTakContraband ]
-  description: "An ultralight assault LMG developed for MedTak security.\nAccepts HVA box magazines."
+  description: "Сверхлёгкий штурмовой пулемёт для охраны MedTak.\nПринимает коробки HVA."
   suffix: Admeme
   components:
   - type: Sprite
@@ -61,10 +61,10 @@
 
 # Rifle
 - type: entity
-  name: CODE-9 "Compliance"
+  name: КОД-9 «Соблюдение»
   parent: [ BaseWeaponRifle, BaseVariableMediumSettings, BaseMedTakContraband ]
   id: WeaponMedTakRifle
-  description: "A bullpuped rifle designed for MedTak operators.\nAccepts MVA magazines."
+  description: "Винтовка буллпап для оперативников MedTak.\nПринимает магазины MVA."
   suffix: Admeme
   components:
   - type: Sprite
@@ -113,10 +113,10 @@
   - type: Appearance
 
 - type: entity
-  name: CODE-9 ROW
+  name: КОД-9 ROW
   parent: [ BaseItem, BaseVariableMediumSettings]
   id: WeaponMedTakRifleROW
-  description: "A cut-down CODE-9 designed for cyborgs, feeding from a slowly recharging internal ammo fabricator"
+  description: "Укороченный КОД-9 для киборгов, питается от медленно перезаряжающегося внутреннего фабрикатора"
   suffix: Admeme
   components:
   - type: Sprite
@@ -160,8 +160,8 @@
 
 # Pistol
 - type: entity
-  name: CODE-4 "Triage"
-  description: "A heavy sidearm issued to MedTak operators.\nAccepts .40 pistol magazines."
+  name: КОД-4 «Сортировка»
+  description: "Тяжёлый пистолет оперативников MedTak.\nПринимает пистолетные магазины .40."
   parent: [ BaseWeaponPistol, BaseMedTakContraband ]
   id: WeaponMedTakPistol
   components:
@@ -195,10 +195,10 @@
 
 # SMG
 - type: entity
-  name: CODE-10 "Intervention"
+  name: КОД-10 «Вмешательство»
   parent: [BaseWeaponSubMachineGun, BaseVariableLightSettings, BaseMedTakContraband]
   id: WeaponMedTakSubMachineGun
-  description: "A compact submachine gun with an integral supressor. It features an advanced recoil system, but suffers slightly in rate of fire.\nAccepts LVA magazines."
+  description: "Компактный пистолет-пулемёт со встроенным глушителем. Продвинутая система отдачи, но чуть ниже темп.\nПринимает магазины LVA."
   components:
   - type: Sprite
     sprite: _Starlight/Admeme/MedTak/Weapons/SMG.rsi
@@ -252,10 +252,10 @@
 
 # Shotgun
 - type: entity
-  name: CODE-11 "Compromise"
+  name: КОД-11 «Компромисс»
   parent: [BaseWeaponShotgunAny, BaseGunWieldable, BaseMedTakContraband]
   id: WeaponMedTakShotgun
-  description: An sleek drum-fed shotgun, rounds are chambered semi-automatically with the secondary trigger.
+  description: Изящный барабанный дробовик, патроны досылаются полуавтоматически вторым спуском.
   components:
   - type: Sprite
     sprite: _Starlight/Admeme/MedTak/Weapons/Shotgun.rsi

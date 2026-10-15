@@ -1,6 +1,6 @@
 - type: entity
   id: LeftLegWithFootHuman
-  name: ent-LeftLegWithFootHuman
+  name: левая нога человека со стопой
   parent: [PartHuman, BaseLeftLeg, LeftLegHuman]
   components:
   - type: WithAttachedBodyParts
@@ -9,7 +9,7 @@
 
 - type: entity
   id: RightLegWithFootHuman
-  name: ent-RightLegWithFootHuman
+  name: правая нога человека со стопой
   parent: [PartHuman, BaseRightLeg, RightLegHuman]
   components:
   - type: WithAttachedBodyParts
@@ -18,7 +18,7 @@
 
 - type: entity
   id: LeftArmWithHandHuman
-  name: ent-LeftArmWithHandHuman
+  name: левая рука человека с кистью
   parent: [PartHuman, BaseLeftArm, LeftArmHuman]
   components:
   - type: WithAttachedBodyParts
@@ -27,7 +27,7 @@
 
 - type: entity
   id: RightArmWithHandHuman
-  name: ent-RightArmWithHandHuman
+  name: правая рука человека с кистью
   parent: [PartHuman, BaseRightArm, RightArmHuman]
   components:
   - type: WithAttachedBodyParts

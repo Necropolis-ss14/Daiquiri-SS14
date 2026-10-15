@@ -1,7 +1,7 @@
 - type: entity
   id: StaminaSurge
-  name: "[color=yellow]Stamina Surge[/color]"
-  description: Grants increased stamina regeneration and resistance for a while at the cost of drastically increased hunger.
+  name: "[color=yellow]Прилив выносливости[/color]"
+  description: Даёт реген выносливости и сопротивление ценой лютого голода.
   components:
     - type: Action
       useDelay: 20

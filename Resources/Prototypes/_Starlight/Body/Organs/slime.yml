@@ -1,7 +1,7 @@
 - type: entity
   id: SentientSlimeCore
   parent: [BaseItem, BaseOrganBrain]
-  name: sentient slime core
+  name: разумное ядро слайма
   suffix: Slime
   description: "The source of incredible, unending gooeyness."
   components:
@@ -22,7 +22,7 @@
 - type: entity
   id: OrganSlimeLungs
   parent: [BaseHumanOrgan, BaseOrganLungs]
-  name: slime gas sacs
+  name: газовые мешки слайма
   suffix: Slime
   description: "Collects nitrogen, which slime cells use for maintenance."
   components:
@@ -49,9 +49,9 @@
 - type: entity
   id: OrganSlimeHeart
   parent: [BaseHumanOrgan, BaseOrganHeart]
-  name: ent-OrganSlimeHeart
+  name: циркулятор слайма
   suffix: Slime
-  description: ent-OrganSlimeHeart-desc
+  description: Маленький циркулятор, гоняющий жидкость по телу слайма.
   components:
   - type: Sprite
     sprite: Mobs/Species/Slime/organs.rsi
@@ -68,9 +68,9 @@
 - type: entity
   id: OrganSlimePeepoids
   parent: [BaseHumanOrgan, BaseOrganEyes]
-  name: ent-OrganSlimePeepoids
+  name: пипоиды
   suffix: Slime
-  description: ent-OrganSlimePeepoids-desc
+  description: Примитивные и сопливые, но почти так же хороши, как человеческий аналог.
   components:
   - type: Sprite
     sprite: _Starlight/Mobs/Species/Slime/organs.rsi
@@ -86,9 +86,9 @@
 - type: entity
   id: OrganSlimeSlurpoid
   parent: OrganHumanTongue
-  name: ent-OrganSlimeSlurpoid
+  name: сларпоид
   suffix: Slime
-  description: ent-OrganSlimeSlurpoid-desc
+  description: По консистенции — чистое желе.
   components:
   - type: OrganTongue
     allowedEmotes: ['Squish', 'Bubble', 'Pop']

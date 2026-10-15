@@ -1,7 +1,7 @@
 - type: entity
   parent: MobStatusEffectDebuff
   id: StatusEffectTrackingScent
-  name: tracking scent
+  name: взятие следа
   components:
   - type: StatusEffect
     whitelist:

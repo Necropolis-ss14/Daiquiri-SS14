@@ -1,8 +1,8 @@
 - type: entity
   parent: LockerBaseSecure
   id: LockerCasino
-  name: casino vault locker
-  description: A black and gold locker for the house's chips. Casino staff only.
+  name: шкаф хранилища казино
+  description: Чёрно-золотой шкаф для фишек дома. Только персоналу казино.
   components:
   - type: Appearance
   - type: Sprite

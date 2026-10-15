@@ -1,7 +1,7 @@
 - type: entity
   parent: [ClothingOuterStorageBase, ClothingOuterBaseWinter, AllowSuitStorageClothing, BaseBlueShieldContraband]
   id: ClothingOuterCoatBlueShield
-  name: blueshield overcoat
+  name: шинель блюшилда
   description: A coat worn by Blueshield Officers who don't mind a lighter wear. Heavily reinforced, for when diplomacy won't cut it.
   components:
   - type: Sprite
@@ -25,7 +25,7 @@
 - type: entity
   parent: [ ClothingOuterStorageBase, ClothingOuterBaseWinter, BaseNanoTrasenContraband ]
   id: ClothingOuterCoatMagi
-  name: magistrate longcoat
+  name: длинное пальто магистрата
   description: New and improved, this jacket actually keeps you warm! Brought to you by the NanoTrasen Fashion Board.
   components:
   - type: Sprite
@@ -51,7 +51,7 @@
 - type: entity
   parent: [ ClothingOuterBase, ClothingOuterBaseWinter, BaseNanoTrasenContraband, AllowSuitStorageClothingGasTanks ]
   id: ClothingOuterRobesMagistrate
-  name: magistrate robes
+  name: роба магистрата
   description: This robe commands authority. Much more dense than the commoner variants.
   components:
   - type: Sprite
@@ -71,7 +71,7 @@
 - type: entity
   parent: [ ClothingOuterStorageFoldableBase, ClothingOuterBaseWarm, BaseNanoTrasenContraband, AllowSuitStorageClothingGasTanks ]
   id: ClothingOuterCoatNtrep
-  name: nt representative jacket
+  name: куртка представителя НаноТрейзен
   description: A fancy black jacket, standard issue to NanoTrasen Representatives.
   components:
   - type: Sprite
@@ -94,12 +94,12 @@
 - type: entity
   parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterCoatNtrep, BaseNanoTrasenContraband ]
   id: ClothingOuterCoatNtrepOpen
-  name: nt representative jacket
+  name: куртка представителя НаноТрейзен
 
 - type: entity
   parent: [ClothingOuterStorageFoldableBase, ClothingOuterBaseWarm]
   id: ClothingOuterCoatLabSeniorChemist
-  name: senior chemist lab coat
+  name: халат старшего химика
   description: A suit that protects against minor chemical spills. Has orange sleeves, an orange waist trim, and two pink stripes on the shoulders.
   components:
   - type: Sprite
@@ -120,12 +120,12 @@
 - type: entity
   parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterCoatLabSeniorChemist]
   id: ClothingOuterCoatLabSeniorChemistOpened
-  name: senior chemist lab coat
+  name: халат старшего химика
 
 - type: entity
   parent: [ClothingOuterStorageBase, AllowSuitStorageClothing, BaseSecurityContraband, ClothingOuterWinterCoatToggleable]
   id: ClothingOuterCoatCorpsman
-  name: corpsman's armored jacket
+  name: бронированная куртка санитара
   description: Stylish black and red jacket, with tacticooly placed armor plating.
   components:
   - type: Sprite
@@ -160,7 +160,7 @@
 - type: entity
   parent: [ClothingOuterStorageFoldableBase, ClothingOuterBaseWarm, AllowSuitStorageClothing, BaseSecurityContraband]
   id: ClothingOuterCoatLabBrigmedic
-  name: brigmedic's reminisced overcoat
+  name: ностальгическая шинель бригмедика
   description: A labcoat from reminisced, peaceful days. It's been reinforced several times over.
   components:
   - type: Sprite
@@ -184,12 +184,12 @@
 - type: entity
   parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterCoatLabBrigmedic]
   id: ClothingOuterCoatLabBrigmedicOpened
-  name: brigmedic's reminisced overcoat
+  name: ностальгическая шинель бригмедика
 
 - type: entity
   parent: [ClothingOuterStorageFoldableBase, ClothingOuterBaseWarm, AllowSuitStorageClothing, BaseSecurityContraband]
   id: ClothingOuterCoatLabCorpsman
-  name: corpsman's nostalgic overcoat
+  name: ностальгическая шинель санитара
   description: A dark labcoat that's been reinforced several times over. Peaceful days died.
   components:
   - type: Sprite
@@ -213,13 +213,13 @@
 - type: entity
   parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterCoatLabCorpsman]
   id: ClothingOuterCoatLabCorpsmanOpened
-  name: corpsman's nostalgic overcoat
+  name: ностальгическая шинель санитара
 
 # Fashion-O-Mat
 - type: entity
   parent: [ClothingOuterStorageBase, ClothingOuterBaseWinter]
   id: ClothingOuterCoatSpaceCourier
-  name: space courier heavy coat
+  name: тяжёлое пальто космического курьера
   description: A luxurious coat, made to honor a legendary space courier. Fly, space courier!
   components:
   - type: Sprite
@@ -246,7 +246,7 @@
 - type: entity
   parent: [ClothingOuterStorageBase, ClothingOuterBaseWarm]
   id: ClothingOuterCoatSquidPrisoner
-  name: last coat
+  name: последнее пальто
   description: Will look great on your body! Oh.
   components:
   - type: Sprite
@@ -257,7 +257,7 @@
 - type: entity
   parent: [ClothingOuterStorageBase, ClothingOuterBaseWarm]
   id: ClothingOuterCoatInspector
-  name: inspector's coat
+  name: пальто инспектора
   description: A strict inspector's coat from a bygone era.
   components:
   - type: Sprite
@@ -278,7 +278,7 @@
 - type: entity
   parent: [ClothingOuterStorageBase, ClothingOuterBaseWinter, AllowSuitStorageClothing, BaseSovietContraband]
   id: ClothingOuterSovietCoat
-  name: soviet great coat
+  name: советская шинель
   description: Smells like damp concrete and expired rations.
   components:
   - type: Sprite
@@ -299,7 +299,7 @@
 - type: entity
   parent: [ClothingOuterStorageBase, ClothingOuterBaseWarm, AllowSuitStorageClothing]
   id: ClothingOuterCoatGreytiderTrenchcoat
-  name: greytider trenchcoat
+  name: тренч грейтайдера
   description: Ah, your trusty coat. There's a few tears here and there, giving it a more timely look. Or at least, that's what you told yourself when you found out gettin' it repaired would set you back 200 spesos.
   components:
   - type: Sprite
@@ -317,7 +317,7 @@
 - type: entity
   parent: [ClothingOuterStorageFoldableBase, ClothingOuterBaseWinter, AllowSuitStorageClothing, BaseSecurityContraband]
   id: ClothingOuterSecurityBomber
-  name: security bomber
+  name: бомбер безопасности
   description: A regular bomber, but with armored inserts.
   components:
   - type: Sprite
@@ -338,13 +338,13 @@
 - type: entity
   parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterSecurityBomber]
   id: ClothingOuterSecurityBomberOpened
-  name: security bomber
+  name: бомбер безопасности
 
 # Security Windbreaker
 - type: entity
   parent: [ClothingOuterStorageFoldableBase, ClothingOuterBaseWinter, AllowSuitStorageClothing, BaseSecurityContraband]
   id: ClothingOuterWindbreakerSecurity
-  name: security windbreaker
+  name: ветровка службы безопасности
   description: A stylish red windbreaker with additional inserted plate padding for security usage.
   components:
   - type: Sprite
@@ -363,13 +363,13 @@
 - type: entity
   parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterWindbreakerSecurity]
   id: ClothingOuterWindbreakerSecurityOpened
-  name: security windbreaker
+  name: ветровка службы безопасности
 
 # Cargo Windbreaker
 - type: entity
   parent: [ClothingOuterStorageFoldableBase, ClothingOuterBaseWinter, AllowSuitStorageClothing]
   id: ClothingOuterWindbreakerCargo
-  name: cargo windbreaker
+  name: ветровка грузчика
   description: A simple windbreaker with a fur collar.
   components:
   - type: Sprite
@@ -380,13 +380,13 @@
 - type: entity
   parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterWindbreakerCargo]
   id: ClothingOuterWindbreakerCargoOpened
-  name: cargo windbreaker
+  name: ветровка грузчика
 
 # Engineering Windbreaker
 - type: entity
   parent: [ClothingOuterStorageFoldableBase, ClothingOuterBaseWinter, AllowSuitStorageClothing]
   id: ClothingOuterWindbreakerEngineering
-  name: engineering windbreaker
+  name: ветровка инженера
   description: A reflective windbreaker for engineers.
   components:
   - type: Sprite
@@ -405,13 +405,13 @@
 - type: entity
   parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterWindbreakerEngineering]
   id: ClothingOuterWindbreakerEngineeringOpened
-  name: engineering windbreaker
+  name: ветровка инженера
 
 # Medical Windbreaker
 - type: entity
   parent: [ClothingOuterStorageFoldableBase, ClothingOuterBaseWinter, AllowSuitStorageClothing]
   id: ClothingOuterWindbreakerMedical
-  name: medical windbreaker
+  name: ветровка медика
   description: A light windbreaker to see when you accidentally cut an artery.
   components:
   - type: Sprite
@@ -422,13 +422,13 @@
 - type: entity
   parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterWindbreakerMedical]
   id: ClothingOuterWindbreakerMedicalOpened
-  name: medical windbreaker
+  name: ветровка медика
 
 # Senior Chemist long coat
 - type: entity
   parent: ClothingOuterCoatLabSeniorChemist
   id: ClothingOuterCoatLabSeniorChemistLong
-  name: long senior chemist lab coat
+  name: длинный халат старшего химика
   description: A NanoTrasen standard labcoat for medical personnel but long with bright orange and purple accents.
   components:
     - type: Sprite
@@ -440,13 +440,13 @@
 - type: entity
   parent: [ ClothingOuterStorageFoldableBaseOpened, ClothingOuterCoatLabSeniorChemistLong ]
   id: ClothingOuterCoatLabSeniorChemistLongOpened
-  name: long senior chemist lab coat
+  name: длинный халат старшего химика
 
 # Virologist long coat
 - type: entity
   parent: ClothingOuterCoatLab
   id: ClothingOuterCoatLabVirologyLong
-  name: long virologist lab coat
+  name: длинный халат вирусолога
   description: A NanoTrasen standard labcoat for medical personnel but with bright green accents.
   components:
     - type: Sprite
@@ -457,13 +457,13 @@
 - type: entity
   parent: [ ClothingOuterStorageFoldableBaseOpened, ClothingOuterCoatLabVirologyLong ]
   id: ClothingOuterCoatLabVirologyLongOpened
-  name: long virologist lab coat
+  name: длинный халат вирусолога
 
 # Black long coat
 - type: entity
   parent: ClothingOuterCoatLab
   id: ClothingOuterCoatLabBlackLong
-  name: long black lab coat
+  name: длинный чёрный халат
   description: A NanoTrasen standard labcoat for medical personnel but in black.
   components:
     - type: Sprite
@@ -474,13 +474,13 @@
 - type: entity
   parent: [ ClothingOuterStorageFoldableBaseOpened, ClothingOuterCoatLabBlackLong ]
   id: ClothingOuterCoatLabBlackLongOpened
-  name: long black lab coat
+  name: длинный чёрный халат
 
 # Coroner long coat
 - type: entity
   parent: ClothingOuterCoatLab
   id: ClothingOuterCoatLabCoronerLong
-  name: long coroner lab coat
+  name: длинный халат коронера
   description: A NanoTrasen standard labcoat for medical personnel but in black with white accents.
   components:
     - type: Sprite
@@ -491,7 +491,7 @@
 - type: entity
   parent: [ ClothingOuterStorageFoldableBaseOpened, ClothingOuterCoatLabCoronerLong ]
   id: ClothingOuterCoatLabCoronerLongOpened
-  name: long coroner lab coat
+  name: длинный халат коронера
 # Starlight End
 
 
@@ -499,7 +499,7 @@
 - type: entity
   parent: [ClothingOuterStorageFoldableBase, ClothingOuterBaseWinter, AllowSuitStorageClothing]
   id: ClothingOuterWindbreakerScience
-  name: science windbreaker
+  name: ветровка учёного
   description: a labcoat style windbreaker with a pocket for all of your pens.
   components:
   - type: Sprite
@@ -510,13 +510,13 @@
 - type: entity
   parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterWindbreakerScience]
   id: ClothingOuterWindbreakerScienceOpened
-  name: science windbreaker
+  name: ветровка учёного
 
 - type: entity
   parent: [ClothingOuterStorageBase, ClothingOuterBaseWinter, AllowSuitStorageClothing, BaseCentcommContraband]
   id: ClothingOuterCoatWardenCentcomm
-  name: ent-ClothingOuterCoatWardenCentcomm
-  description: ent-ClothingOuterCoatWardenCentcomm-desc
+  name: бронированная зимняя куртка Центрального командования
+  description: Чрезвычайно прочная, стильная зимняя куртка для оперативников Центрального командования — выжить даже в самую холодную зиму.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/OuterClothing/Coats/Centcomm_coatWarden.rsi
@@ -539,7 +539,7 @@
 - type: entity
   parent: [ ClothingOuterStorageBase, ClothingOuterBaseWinter, BaseNanoTrasenContraband, AllowSuitStorageClothingGasTanks ]
   id: ClothingOuterCoatNCT
-  name: nt career trainer's jacket
+  name: куртка тренера НТ
   description: A sharp black coat with beige trim around the cuffs and collar, offering a mix of professionalism and approachability.
   components:
   - type: Sprite
@@ -559,7 +559,7 @@
 - type: entity
   parent: [ClothingOuterStorageBase, ClothingOuterBaseWarm, AllowSuitStorageClothing]
   id: ClothingOuterCoatRatvarRobes
-  name: ratvar robes
+  name: робы Ратвара
   description: A leathery coat adorned in dull gems, brass buttons, and brass sheets carved with clockwork patterns.
   components:
   - type: Sprite
@@ -570,7 +570,7 @@
 - type: entity
   parent: ClothingOuterCoatPirate
   id: ClothingOuterCoatPirateDark
-  name: dark pirate garb
+  name: тёмный пиратский наряд
   description: Yarr, but dark.
   components:
   - type: Sprite
@@ -581,7 +581,7 @@
 - type: entity
   parent: [ClothingOuterStorageBase, ClothingOuterBaseWarm]
   id: ClothingOuterCoatField
-  name: field jacket
+  name: полевая куртка
   description: A thick, well-worn field jacket.
   components:
   - type: Sprite
@@ -592,7 +592,7 @@
 - type: entity
   parent: [ClothingOuterStorageBase, ClothingOuterBaseWarm]
   id: ClothingOuterCoatChefSenior
-  name: senior chef's jacket
+  name: куртка старшего шеф-повара
   description: A pristine black jacket worn by the head of the kitchen. Tasteful, with a hint of authority.
   components:
   - type: Sprite
@@ -603,8 +603,8 @@
 - type: entity
   parent: [ClothingOuterStorageBase, ClothingOuterBaseWarm]
   id: ClothingOuterCoatChefCentComm
-  name: ent-ClothingOuterCoatChefCentComm
-  description: ent-ClothingOuterCoatChefCentComm-desc
+  name: куртка повара Центкома
+  description: Характерная бело-зелёная куртка поваров Центрального командования. Превращает вас в ходячую рекламу.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/OuterClothing/Coats/chef-centcomm.rsi
@@ -614,7 +614,7 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterRockerHeartBomber
-  name: rocker's heart bomber
+  name: бомбер сердца рокера
   description: Been good to know ya...
   components:
     - type: Sprite
@@ -632,7 +632,7 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterJohnnySamuraiJacket
-  name: johnny's samurai jacket
+  name: самурайская куртка Джонни
   description: Never fade away...
   components:
     - type: Sprite
@@ -650,7 +650,7 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterEdgerunnerJacket
-  name: edgerunner's jacket
+  name: куртка эджраннера
   description: I'm dead, just like disco
   components:
     - type: Sprite
@@ -668,7 +668,7 @@
 - type: entity
   parent: [ClothingOuterStorageBase, ClothingOuterBaseWarm]
   id: ClothingOuterCoatLeatherJacket
-  name: leather jacket # Alternative Clothing Catalog
+  name: кожаная куртка
   description: A plain leather jacket, pairs well with a lit cigarette.
   components:
     - type: Sprite
@@ -681,7 +681,7 @@
 - type: entity
   parent: [ClothingOuterStorageBase, ClothingOuterBaseWarm]
   id: ClothingOuterCoatLeatherJacketFiery
-  name: fiery leather jacket # Alternative Clothing Catalog
+  name: огненная кожаная куртка
   description: The cooler leather jacket, for the more fiery personalities.
   components:
     - type: Sprite
@@ -694,7 +694,7 @@
 - type: entity
   parent: [ClothingOuterStorageBase, ClothingOuterBaseWarm]
   id: ClothingOuterCoatLeatherJacketHellfire
-  name: hellfire leather jacket # Alternative Clothing Catalog
+  name: адская кожаная куртка
   description: The COOLEST leather jacket, for the biggest of personalities.
   components:
     - type: Sprite
@@ -707,7 +707,7 @@
 - type: entity
   parent: [ClothingOuterStorageBase, ClothingOuterBaseWarm]
   id: ClothingOuterCoatLeatherEldritch
-  name: eldritch leather jacket # Alternative Clothing Catalog
+  name: элдрическая кожаная куртка
   description: You get the feeling it's watching you.
   components:
     - type: Sprite

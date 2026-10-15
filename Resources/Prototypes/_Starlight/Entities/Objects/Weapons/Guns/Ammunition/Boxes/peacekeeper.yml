@@ -1,6 +1,6 @@
 - type: entity
   id: BasePeacekeeperBox
-  name: grenade cartridge
+  name: гранатный патрон
   parent: [BaseItem, BaseSecurityContraband ]
   abstract: true
   components:
@@ -35,7 +35,7 @@
 - type: entity
   parent: BasePeacekeeperBox
   id: BoxPeacekeeperFlash
-  name: peacekeeper flash ammo box
+  name: коробка светошумовых патронов миротворца
   description: A box of flash grenades for the Peacekeeper, good for catching up to a running fiend or for dispersing crowds.
   components:
     - type: BallisticAmmoProvider
@@ -52,7 +52,7 @@
 - type: entity
   parent: BasePeacekeeperBox
   id: BoxPeacekeeperStinger
-  name: peacekeeper stinger ammo box
+  name: коробка стингер-патронов миротворца
   description: A box of stinger grenades for the Peacekeeper, very good at dispersing crowds and getting lawsuits.
   components:
     - type: BallisticAmmoProvider
@@ -69,7 +69,7 @@
 - type: entity
   parent: BasePeacekeeperBox
   id: BoxPeacekeeperGas
-  name: peacekeeper tear gas ammo box
+  name: коробка слезоточивых патронов миротворца
   description: A box of teargas grenades for the Peacekeeper, the label has a big "DO NOT FORGET INTERNALS" written in red.
   components:
     - type: BallisticAmmoProvider
@@ -86,7 +86,7 @@
 - type: entity
   parent: BasePeacekeeperBox
   id: BoxPeacekeeperBaton
-  name: peacekeeper baton ammo box
+  name: коробка патронов дубинки миротворца
   description: A box of less-lethal baton grenades for the Peacekeeper, do not forget that "less" means you can kill with it, just less.
   components:
     - type: BallisticAmmoProvider
@@ -103,7 +103,7 @@
 - type: entity
   parent: BasePeacekeeperBox
   id: BoxPeacekeeperBola
-  name: peacekeeper bola ammo box
+  name: коробка бола-патронов миротворца
   description: A box of bola grenades for the Peacekeeper, to make tripping suspects even more fun!
   components:
     - type: BallisticAmmoProvider

@@ -1,10 +1,10 @@
 # Luminous Orb
 
 - type: entity
-  name: Luminous Orb
+  name: Светящаяся сфера
   parent: BaseItem
   id: ElfLuminousOrb
-  description: Destined to burn out and fade away.
+  description: Обречена выгореть и угаснуть.
   components:
   - type: Item
     sprite: _Starlight/Objects/Magic/luminous_orb.rsi
@@ -40,10 +40,10 @@
 # Ember
 
 - type: entity
-  name: Ember
+  name: Уголёк
   parent: BaseItem
   id: ElfMagicEmber
-  description: Careful! It's hot. Cannot be dropped. Will decay soon.
+  description: Осторожно! Горячий. Нельзя выбросить. Скоро распадётся.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Magic/ember.rsi
@@ -87,8 +87,8 @@
 
 - type: entity
   id: ElfAntidoteSeed
-  name: seed of rejuvenation
-  description: A bundle of radiant life magic, useful for restoring vitality to plants. Will evaporate soon if not used.
+  name: семя омоложения
+  description: Сгусток лучистой магии жизни, возвращает силу растениям. Без дела скоро испарится.
   components:
   - type: Item
     sprite: _Starlight/Objects/Magic/antidote.rsi
@@ -146,7 +146,7 @@
 - type: entity
   parent: BaseFoam
   id: ElfCleanseSmoke
-  name: cleansing aura
+  name: очищающая аура
   categories: [ HideSpawnMenu ]
   components:
   - type: Smoke
@@ -183,8 +183,8 @@
 # Hemostasis
 
 - type: entity
-  name: haemostatic rune
-  description: A magic rune that stops bleeding when applied. Will fade if not used quickly.
+  name: гемостатическая руна
+  description: Волшебная руна останавливает кровотечение. Без дела скоро угаснет.
   parent: BaseHealingItem
   id: ElfRuneHaemostatic
   components:

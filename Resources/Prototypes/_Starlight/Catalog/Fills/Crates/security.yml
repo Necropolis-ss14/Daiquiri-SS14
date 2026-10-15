@@ -1,8 +1,8 @@
 - type: entity
   parent: CrateSecgear
   id: CrateSecurityReflectiveArmor
-  name: reflective armor crate
-  description: Contains three reflective vests. Requires Security access to open.
+  name: ящик отражающей брони
+  description: Три отражающих жилета. Нужен доступ охраны.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -16,8 +16,8 @@
 - type: entity
   parent: CrateGenericSteel
   id: CrateSecuritySandbags
-  name: sandbag crate
-  description: Thirty sandbags, enough for five barricades.
+  name: ящик мешков с песком
+  description: Тридцать мешков — хватит на пять баррикад.
   components:
   - type: EntityTableContainerFill
     containers:

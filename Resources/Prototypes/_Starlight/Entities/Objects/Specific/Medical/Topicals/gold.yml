@@ -1,8 +1,8 @@
 ## Bruise packs
 # NanoMed GOLD yellow bruise packs
 - type: entity
-  name: gold bruise pack
-  description: Limited-edition golden bruise packs.
+  name: золотой пак от ушибов
+  description: Лимитированные золотые паки от ушибов.
   parent: BaseStarlightHealingItem
   id: GoldBrutePack
   suffix: Full
@@ -37,8 +37,8 @@
         - IPC
 
 - type: entity
-  name: gold bruise pack
-  description: Limited-edition golden bruise packs. They're exceedingly rare. Treasure them.
+  name: золотой пак от ушибов
+  description: Лимитированные золотые паки от ушибов. Страшная редкость. Береги их.
   parent: GoldBrutePack
   id: GoldBrutePack1
   suffix: Single
@@ -58,8 +58,8 @@
 ## Ointments
 # NanoMed GOLD yellow ointments
 - type: entity
-  name: gold ointment
-  description: Limited-edition golden ointment. Heals mild caustic burns, too!
+  name: золотая мазь
+  description: Лимитированная золотая мазь. Лечит и лёгкие кислотные ожоги!
   parent: BaseStarlightHealingItem
   id: GoldOintment
   suffix: Full
@@ -95,8 +95,8 @@
         - IPC
 
 - type: entity
-  name: gold ointment
-  description: Limited-edition golden ointments. Heals mild caustic burns, too! They're exceedingly rare. Treasure them.
+  name: золотая мазь
+  description: Лимитированная золотая мазь. Лечит и лёгкие кислотные ожоги! Страшная редкость. Береги их.
   parent: GoldOintment
   id: GoldOintment1
   suffix: Single

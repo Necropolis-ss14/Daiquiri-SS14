@@ -2,7 +2,7 @@
 - type: entity
   parent: IDCardStandard
   id: BlackstarIDCard
-  name: Blackstar ID card
+  name: ID-карта Blackstar
   components:
     - type: Sprite
       sprite: _Starlight/Objects/Misc/id_cards.rsi
@@ -21,7 +21,7 @@
 - type: entity
   parent: IDCardStandard
   id: BlackstarLegionCommanderIDCard
-  name: Legion Commander ID card
+  name: ID-карта командующего легионом Blackstar
   components:
     - type: Sprite
       sprite: _Starlight/Objects/Misc/id_cards.rsi
@@ -40,7 +40,7 @@
 - type: entity
   parent: IDCardStandard
   id: BlackstarHighLegateIDCard
-  name: High Legate ID card
+  name: ID-карта верховного легата Blackstar
   components:
     - type: Sprite
       sprite: _Starlight/Objects/Misc/id_cards.rsi
@@ -59,7 +59,7 @@
 - type: entity
   parent: IDCardStandard
   id: BlackstarLegateIDCard
-  name: Legate ID card
+  name: ID-карта легата Blackstar
   components:
     - type: Sprite
       sprite: _Starlight/Objects/Misc/id_cards.rsi
@@ -78,7 +78,7 @@
 - type: entity
   parent: BlackstarIDCard
   id: BlackstarDreadwalkerIDCard
-  name: Dreadwalker ID card
+  name: ID-карта дредуокера Blackstar
   components:
     - type: IdCard
       jobTitle: job-name-blackstar-dreadwalker
@@ -87,7 +87,7 @@
 - type: entity
   parent: BlackstarIDCard
   id: BlackstarLegionnaireIDCard
-  name: Legionnaire ID card
+  name: ID-карта легионера Blackstar
   components:
     - type: IdCard
       jobTitle: job-name-blackstar-legionnaire
@@ -96,7 +96,7 @@
 - type: entity
   parent: BlackstarIDCard
   id: BlackstarBlackguardIDCard
-  name: Blackguard ID card
+  name: ID-карта чёрного стража Blackstar
   components:
     - type: IdCard
       jobTitle: job-name-blackstar-blackguard
@@ -105,7 +105,7 @@
 - type: entity
   parent: BlackstarIDCard
   id: BlackstarInitiateIDCard
-  name: Initiate ID card
+  name: ID-карта рекрута Blackstar
   components:
     - type: IdCard
       jobTitle: job-name-blackstar-initiate

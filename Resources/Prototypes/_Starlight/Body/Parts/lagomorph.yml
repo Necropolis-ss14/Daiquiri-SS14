@@ -1,7 +1,7 @@
 - type: entity
   id: PartLagomorph
   parent: [BaseItem, BasePart]
-  name: ent-PartLagomorph
+  name: часть тела лагоморфа
   abstract: true
   components:
   - type: Extractable
@@ -14,7 +14,7 @@
 
 - type: entity
   id: TorsoLagomorph
-  name: ent-TorsoLagomorph
+  name: туловище лагоморфа
   parent: [PartLagomorph, BaseTorso]
   components:
   - type: Sprite
@@ -30,7 +30,7 @@
 
 - type: entity
   id: HeadLagomorph
-  name: ent-HeadLagomorph
+  name: голова лагоморфа
   parent: [PartLagomorph, BaseHead]
   components:
   - type: Sprite
@@ -46,7 +46,7 @@
 
 - type: entity
   id: LeftArmLagomorph
-  name: ent-LeftArmLagomorph
+  name: левая рука лагоморфа
   parent: [PartLagomorph, BaseLeftArm]
   components:
   - type: Sprite
@@ -55,7 +55,7 @@
 
 - type: entity
   id: RightArmLagomorph
-  name: ent-RightArmLagomorph
+  name: правая рука лагоморфа
   parent: [PartLagomorph, BaseRightArm]
   components:
   - type: Sprite
@@ -64,7 +64,7 @@
 
 - type: entity
   id: LeftHandLagomorph
-  name: ent-LeftHandLagomorph
+  name: левая кисть лагоморфа
   parent: [PartLagomorph, BaseLeftHand]
   components:
   - type: Sprite
@@ -73,7 +73,7 @@
 
 - type: entity
   id: RightHandLagomorph
-  name: ent-RightHandLagomorph
+  name: правая кисть лагоморфа
   parent: [PartLagomorph, BaseRightHand]
   components:
   - type: Sprite
@@ -82,7 +82,7 @@
 
 - type: entity
   id: LeftLegLagomorph
-  name: ent-LeftLegLagomorph
+  name: левая нога лагоморфа
   parent: [PartLagomorph, BaseLeftLeg]
   components:
   - type: Sprite
@@ -91,7 +91,7 @@
 
 - type: entity
   id: RightLegLagomorph
-  name: ent-RightLegLagomorph
+  name: правая нога лагоморфа
   parent: [PartLagomorph, BaseRightLeg]
   components:
   - type: Sprite
@@ -100,7 +100,7 @@
 
 - type: entity
   id: LeftFootLagomorph
-  name: ent-LeftFootLagomorph
+  name: левая стопа лагоморфа
   parent: [PartLagomorph, BaseLeftFoot]
   components:
   - type: Sprite
@@ -109,7 +109,7 @@
 
 - type: entity
   id: RightFootLagomorph
-  name: ent-RightFootLagomorph
+  name: правая стопа лагоморфа
   parent: [PartLagomorph, BaseRightFoot]
   components:
   - type: Sprite

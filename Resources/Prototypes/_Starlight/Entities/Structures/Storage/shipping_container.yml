@@ -1,6 +1,6 @@
 - type: entity
   id: BaseShippingContainer
-  name: shipping container
+  name: "{ \"\" }"
   description: Reinforced steel frames meant to survive being thrown around by lazy Cargo Technicians who forged their crane licenses.
   placement:
     mode: SnapgridCenter
@@ -77,7 +77,7 @@
 - type: entity
   parent: BaseShippingContainer
   id: ShippingContainerAmsco
-  name: shipping container
+  name: грузовой контейнер
   description: Reinforced steel frames meant to survive being thrown around by lazy Cargo Technicians who forged their crane licenses.
   components:
   - type: Sprite
@@ -87,7 +87,7 @@
 - type: entity
   parent: BaseShippingContainer
   id: ShippingContainerAqua
-  name: shipping container
+  name: грузовой контейнер
   description: Reinforced steel frames meant to survive being thrown around by lazy Cargo Technicians who forged their crane licenses.
   components:
   - type: Sprite
@@ -97,7 +97,7 @@
 - type: entity
   parent: BaseShippingContainer
   id: ShippingContainerBlack
-  name: shipping container
+  name: грузовой контейнер
   description: Reinforced steel frames meant to survive being thrown around by lazy Cargo Technicians who forged their crane licenses.
   components:
   - type: Sprite
@@ -107,7 +107,7 @@
 - type: entity
   parent: BaseShippingContainer
   id: ShippingContainerBloodRed
-  name: shipping container
+  name: грузовой контейнер
   description: Reinforced steel frames meant to survive being thrown around by explosions in the middle of a battle.
   components:
   - type: Sprite
@@ -117,7 +117,7 @@
 - type: entity
   parent: BaseShippingContainer
   id: ShippingContainerBlue
-  name: shipping container
+  name: грузовой контейнер
   description: Reinforced steel frames meant to survive being thrown around by lazy Cargo Technicians who forged their crane licenses.
   components:
   - type: Sprite
@@ -127,7 +127,7 @@
 - type: entity
   parent: BaseShippingContainer
   id: ShippingContainerBrown
-  name: shipping container
+  name: грузовой контейнер
   description: Reinforced steel frames meant to survive being thrown around by lazy Cargo Technicians who forged their crane licenses.
   components:
   - type: Sprite
@@ -137,7 +137,7 @@
 - type: entity
   parent: BaseShippingContainer
   id: ShippingContainerConarex
-  name: shipping container
+  name: грузовой контейнер Conarex Aeronautics
   description: Reinforced steel frames meant to survive being thrown around by lazy Cargo Technicians who forged their crane licenses.
   components:
   - type: Sprite
@@ -147,7 +147,7 @@
 - type: entity
   parent: BaseShippingContainer
   id: ShippingContainerCybersun
-  name: shipping container
+  name: грузовой контейнер Cybersun Industries
   description: Heavily reinforced steel frames meant to protect expensive computing and artificial intelligence components. They should make armor out of this stuff!
   components:
   - type: Sprite
@@ -157,7 +157,7 @@
 - type: entity
   parent: BaseShippingContainer
   id: ShippingContainerDeForest
-  name: shipping container
+  name: грузовой контейнер
   description: Reinforced steel frames meant to transport delicate medical equipment and supplies.
   components:
   - type: Sprite
@@ -167,7 +167,7 @@
 - type: entity
   parent: BaseShippingContainer
   id: ShippingContainerDonk
-  name: shipping container
+  name: грузовой контейнер
   description: Cheap steel frames meant to get their products to where they need to be at the least cost. Smells like stale Donk Pockets.
   components:
   - type: Sprite
@@ -177,7 +177,7 @@
 - type: entity
   parent: BaseShippingContainer
   id: ShippingContainerGorlex
-  name: shipping container
+  name: грузовой контейнер Gorlex Securities
   description: Plastitanium frames meant to survive being thrown around by explosions in the middle of a battle.
   components:
   - type: Sprite
@@ -187,7 +187,7 @@
 - type: entity
   parent: BaseShippingContainer
   id: ShippingContainerGray
-  name: shipping container
+  name: грузовой контейнер
   description: Reinforced steel frames meant to survive being thrown around by lazy Cargo Technicians who forged their crane licenses.
   components:
   - type: Sprite
@@ -197,7 +197,7 @@
 - type: entity
   parent: BaseShippingContainer
   id: ShippingContainerGreatNorthern
-  name: shipping container
+  name: грузовой контейнер
   description: Reinforced steel frames meant to survive being thrown around by lazy Cargo Technicians who forged their crane licenses.
   components:
   - type: Sprite
@@ -207,7 +207,7 @@
 - type: entity
   parent: BaseShippingContainer
   id: ShippingContainerGreen
-  name: shipping container
+  name: грузовой контейнер
   description: Reinforced steel frames meant to survive being thrown around by lazy Cargo Technicians who forged their crane licenses.
   components:
   - type: Sprite
@@ -217,7 +217,7 @@
 - type: entity
   parent: BaseShippingContainer
   id: ShippingContainerInterdyne
-  name: shipping container
+  name: грузовой контейнер Interdyne
   description: Reinforced steel frames meant to protect expensive medical supplies. Smells too sterile, like a hospital.
   components:
   - type: Sprite
@@ -227,7 +227,7 @@
 - type: entity
   parent: BaseShippingContainer
   id: ShippingContainerKahraman
-  name: shipping container
+  name: грузовой контейнер Kahraman Heavy Industry
   description: Reinforced steel frames meant to ship heavy duty machinery across the stars.
   components:
   - type: Sprite
@@ -237,7 +237,7 @@
 - type: entity
   parent: BaseShippingContainer
   id: ShippingContainerMicrostar
-  name: shipping container
+  name: грузовой контейнер
   description: Reinforced steel frames rated to survive every energy cell stored within exploding all at once.
   components:
   - type: Sprite
@@ -247,7 +247,7 @@
 - type: entity
   parent: BaseShippingContainer
   id: ShippingContainerNanoTrasen
-  name: shipping container
+  name: грузовой контейнер
   description: Sturdy steel frames meant to survive being thrown around by lazy Cargo Technicians who forged their crane licenses.
   components:
   - type: Sprite
@@ -257,7 +257,7 @@
 - type: entity
   parent: BaseShippingContainer
   id: ShippingContainerNanoTrasenVandal
-  name: shipping container
+  name: грузовой контейнер
   description: Sturdy steel frames meant to survive being thrown around by lazy Cargo Technicians who forged their crane licenses. This one is heavily vandalized.
   components:
   - type: Sprite
@@ -267,7 +267,7 @@
 - type: entity
   parent: BaseShippingContainer
   id: ShippingContainerOrange
-  name: shipping container
+  name: грузовой контейнер
   description: Reinforced steel frames meant to survive being thrown around by lazy Cargo Technicians who forged their crane licenses.
   components:
   - type: Sprite
@@ -277,7 +277,7 @@
 - type: entity
   parent: BaseShippingContainer
   id: ShippingContainerPurple
-  name: shipping container
+  name: грузовой контейнер
   description: Reinforced steel frames meant to survive being thrown around by lazy Cargo Technicians who forged their crane licenses.
   components:
   - type: Sprite
@@ -287,7 +287,7 @@
 - type: entity
   parent: BaseShippingContainer
   id: ShippingContainerRed
-  name: shipping container
+  name: грузовой контейнер
   description: Reinforced steel frames meant to survive being thrown around by lazy Cargo Technicians who forged their crane licenses.
   components:
   - type: Sprite
@@ -297,7 +297,7 @@
 - type: entity
   parent: BaseShippingContainer
   id: ShippingContainerRusted
-  name: shipping container
+  name: грузовой контейнер
   description: Reinforced steel frames meant to survive being thrown around by lazy Cargo Technicians who forged their crane licenses. Rust has eaten holes through the metal sheets, and it is heavily dented.
   components:
   - type: Sprite
@@ -307,7 +307,7 @@
 - type: entity
   parent: BaseShippingContainer
   id: ShippingContainerShamblers
-  name: shipping container
+  name: грузовой контейнер
   description: Reinforced steel frames meant to transport Shamblers beverages. Its sticky and smells like grapes and sugar.
   components:
   - type: Sprite
@@ -317,7 +317,7 @@
 - type: entity
   parent: BaseShippingContainer
   id: ShippingContainerStarkist
-  name: shipping container
+  name: грузовой контейнер
   description: Reinforced steel frames meant to transport Starkist beverages. Its sticky and smells like citrus and sugar.
   components:
   - type: Sprite
@@ -327,7 +327,7 @@
 - type: entity
   parent: BaseShippingContainer
   id: ShippingContainerTigerCooperative
-  name: shipping container
+  name: грузовой контейнер
   description: Reinforced steel frames meant to be ripped open from the inside by whatever is contained within. The writing is painted on hastily, and the inside is splattered with blood.
   components:
   - type: Sprite
@@ -337,7 +337,7 @@
 - type: entity
   parent: BaseShippingContainer
   id: ShippingContainerVitezstvi
-  name: shipping container
+  name: грузовой контейнер Vítězství Arms
   description: Plastitanium frames meant to survive every bullet stored within going off at the same time.
   components:
   - type: Sprite
@@ -347,7 +347,7 @@
 - type: entity
   parent: BaseShippingContainer
   id: ShippingContainerVulcan
-  name: shipping container
+  name: грузовой контейнер
   description: Reinforced steel frames meant to survive being accidentally stabbed with a crusher glaive. It has a few holes in it.
   components:
   - type: Sprite
@@ -357,7 +357,7 @@
 - type: entity
   parent: BaseShippingContainer
   id: ShippingContainerYellow
-  name: shipping container
+  name: грузовой контейнер
   description: Reinforced steel frames meant to survive being thrown around by lazy Cargo Technicians who forged their crane licenses.
   components:
   - type: Sprite

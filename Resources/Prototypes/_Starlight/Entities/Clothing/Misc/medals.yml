@@ -1,7 +1,7 @@
 - type: entity
   parent: ClothingMiscBase
   id: ClothingSovietMedals
-  name: soviet sets of medals
+  name: советский набор медалей
   description: A collection of medals meant to be replicas of the ones decorated. Wait, I think these actually might be real.
   components:
   - type: Sprite

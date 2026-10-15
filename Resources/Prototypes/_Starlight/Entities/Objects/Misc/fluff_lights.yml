@@ -1,7 +1,7 @@
 - type: entity
   parent: BaseItem
   id: YellowSlimeExtractLight
-  name: yellow slime extract light
+  name: свет экстракта жёлтого слайма
   components:
     - type: Sprite
       sprite: _Starlight/Objects/Specific/Xenobiology/slime_extract.rsi

@@ -20,7 +20,6 @@
   <Box>
     <GuideEntityEmbed Entity="ToyFigurineLawyer" Caption="Адвокат"/>
     <GuideEntityEmbed Entity="ToyFigurineLibrarian" Caption="Библиотекарь"/>
-    <GuideEntityEmbed Entity="ToyFigurinePassenger" Caption="Пассажир"/>
     <GuideEntityEmbed Entity="ToyFigurineHeadOfPersonnel" Caption="ГП"/>
   </Box>
 

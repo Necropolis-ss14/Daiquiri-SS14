@@ -1,7 +1,7 @@
 - type: entity
   parent: BaseMobNeocyte
   id: BaseMobNeoVulpkanin
-  name: Urist McVulpster
+  name: Урист МакВульпстер
   abstract: true
   components:
   - type: LanguageKnowledge

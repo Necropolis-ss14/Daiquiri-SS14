@@ -3,7 +3,7 @@
   save: false
   parent: [BaseMobSpeciesOrganic, BaseSpeciesPickupableHuge, BaseInventoryVulpkanin] # Starlight
   id: BaseMobVulpkanin
-  name: Urist McBark
+  name: Урист МакВульп
   components:
   #Starlight
   - type: LanguageKnowledge

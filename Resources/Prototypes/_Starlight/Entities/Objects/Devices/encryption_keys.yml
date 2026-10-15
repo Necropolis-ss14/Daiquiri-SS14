@@ -1,7 +1,7 @@
 - type: entity
   parent: [ EncryptionKey, BaseLawContraband ]
   id: EncryptionKeyLaw
-  name: law encryption key
+  name: юридический ключ шифрования
   description: An encryption key used by the most meticulous person.
   components:
     - type: EncryptionKey
@@ -16,7 +16,7 @@
 - type: entity
   parent: [ EncryptionKey, BaseNanoTrasenContraband ]
   id: EncryptionKeyNanoTrasen
-  name: nanotrasen encryption key
+  name: ключ шифрования NanoTrasen
   description: An encryption key used by captain's bosses' bosses.
   components:
   - type: EncryptionKey
@@ -31,7 +31,7 @@
 - type: entity
   parent: EncryptionKeyNanoTrasen
   id: EncryptionKeyNanoTrasenUnremovable
-  name: nanotrasen encryption key
+  name: несъёмный ключ шифрования NanoTrasen
   description: An encryption key used by captain's bosses' bosses.
   suffix: Unremovable
   components:
@@ -40,7 +40,7 @@
 - type: entity
   parent: [ EncryptionKey, BaseSovietContraband ]
   id: EncryptionKeySoviet
-  name: soviet encryption key
+  name: советский ключ шифрования
   description: Priyom. Priyom.
   components:
   - type: EncryptionKey
@@ -57,7 +57,7 @@
 - type: entity
   parent: [ EncryptionKey, BaseCargoContraband ]
   id: EncryptionKeyExpedition
-  name: expedition encryption key
+  name: ключ шифрования экспедиции
   description: An encryption key used by daring explorers.
   components:
   - type: EncryptionKey
@@ -74,7 +74,7 @@
 - type: entity
   parent: [ EncryptionKey, BaseSalvageMiningContraband ]
   id: EncryptionKeySalvage
-  name: salvage encryption key
+  name: ключ шифрования утилизаторов
   description: A dual encryption key used by box-loving explorers.
   components:
     - type: EncryptionKey
@@ -94,7 +94,7 @@
 - type: entity
   parent: [ EncryptionKey, BaseSecurityContraband ]
   id: EncryptionKeyMedicalSecurity
-  name: med-sec encryption key
+  name: ключ шифрования мед-СБ
   description: An encryption key used by someone who both takes and saves lives.
   components:
   - type: EncryptionKey
@@ -113,7 +113,7 @@
 - type: entity
   parent: [ EncryptionKey, BaseSecurityContraband ]
   id: EncryptionKeyLawSecurity
-  name: law-sec encryption key
+  name: ключ шифрования юр-СБ
   description: An encryption key used by those who judge, and those who execute.
   components:
   - type: EncryptionKey
@@ -131,7 +131,7 @@
 - type: entity
   parent: [ EncryptionKey, BaseNanoTrasenContraband ]
   id: EncryptionKeyNCTrainer
-  name: nanotrasen career trainer encryption key
+  name: ключ шифрования карьерного тренера NanoTrasen
   description: An encryption key used by your well-taught corporate training team.
   components:
   - type: EncryptionKey
@@ -151,7 +151,7 @@
 - type: entity
   parent: [BaseTSFContraband, EncryptionKey]
   id: EncryptionKeyTSF
-  name: TSF encryption key
+  name: ключ шифрования ТСФ
   components:
   - type: EncryptionKey
     channels:
@@ -167,7 +167,7 @@
 - type: entity
   parent: EncryptionKey
   id: EncryptionKeyMerchant
-  name: merchant encryption key
+  name: ключ шифрования торговца
   description: An encryption key used by only the most serious of merchants.
   components:
     - type: EncryptionKey
@@ -183,7 +183,7 @@
 - type: entity
   parent: EncryptionKey
   id: EncryptionKeyBlackstar
-  name: Blackstar encryption key
+  name: ключ шифрования «Блэкстар»
   description: An encryption key used by elite Blackstar mercenaries.
   components:
     - type: EncryptionKey
@@ -200,7 +200,7 @@
 - type: entity
   parent: [ EncryptionKey, BaseMagicalContraband ]
   id: EncryptionKeyWinds
-  name: winds of magic encryption key
+  name: ключ шифрования ветров магии
   description: An encryption key that grants limited access to the Winds of Magic.
   components:
     - type: EncryptionKey
@@ -217,7 +217,7 @@
 - type: entity
   parent: EncryptionKeyWinds
   id: EncryptionKeyWindsUnremovable
-  name: winds of magic encryption key
+  name: несъёмный ключ шифрования ветров магии
   description: An encryption key that grants permanent access to the Winds of Magic.
   suffix: Unremovable
   components:
@@ -226,7 +226,7 @@
 - type: entity
   parent: [ EncryptionKey, BaseMagicalContraband ]
   id: EncryptionKeyWizardMaster
-  name: wizard encryption key
+  name: ключ шифрования мага
   description: A magical encryption key used by members of the Space Wizards Federation.
   components:
   - type: EncryptionKey
@@ -251,7 +251,7 @@
 - type: entity
   parent: EncryptionKeyWizardMaster
   id: EncryptionKeyWizardMasterUnremovable
-  name: wizard encryption key
+  name: несъёмный ключ шифрования мага
   description: A magical encryption key used by members of the Space Wizards Federation.
   suffix: Unremovable
   components:
@@ -260,7 +260,7 @@
 - type: entity
   parent: EncryptionKey
   id: EncryptionKeyAspace
-  name: aspace encryption key
+  name: ключ шифрования аспейс
   description: An encryption key for people being tortured by admins.
   suffix: Admeme
   components:
@@ -278,7 +278,7 @@
 - type: entity
   parent: EncryptionKey
   id: EncryptionKeyGlobal
-  name: global encryption key
+  name: глобальный ключ шифрования
   description: Despite the name, this encryption key does not grant all available channels.
   suffix: Admeme
   components:
@@ -297,7 +297,7 @@
 - type: entity
   parent: [ EncryptionKey, BaseSyndicateContraband ]
   id: EncryptionKeyGorlex
-  name: gorlex encryption key
+  name: ключ шифрования Горлекс
   description: An encryption key used by... wait... Who is the owner of this chip?
   components:
   - type: EncryptionKey

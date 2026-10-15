@@ -24,7 +24,7 @@
 
 - type: entity
   save: false
-  name: Urist McAvali
+  name: Урист МакАвали
   parent: [ BaseColdBird, BaseMobSpeciesOrganic, BaseSpeciesPickupable, BaseInventoryAvali]
   id: BaseMobAvali
   abstract: true

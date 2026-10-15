@@ -23,7 +23,7 @@
 - type: entity
   parent: ClothingOuterCoatRandomBase
   id: ClothingOuterCoatRandom
-  name: colorful coat
+  name: разноцветное пальто
   description: A colorful coat. Warm and exceptionally fashionable!
   components:
   - type: RandomSprite

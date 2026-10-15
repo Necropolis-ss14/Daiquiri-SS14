@@ -3,7 +3,7 @@
 - type: entity
   parent: [PowerCellSlotMediumItem, BaseHandheldComputer]
   id: DigiboardMassMedia
-  name: news manager digi-board
+  name: диги-доска медиа-менеджера
   description: Write your message to the world! Now portable!
   components:
     - type: Sprite

@@ -1,7 +1,7 @@
 - type: entity
   parent: [ClothingShoesBase, BaseSlicingRefinable]
   id: ClothingClothWrap
-  name: cloth wraps
+  name: тканевые обмотки
   description: A roll of treated canvas used for wrapping claws or paws.
   components:
   - type: Item

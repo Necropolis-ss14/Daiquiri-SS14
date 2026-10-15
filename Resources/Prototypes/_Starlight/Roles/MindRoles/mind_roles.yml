@@ -1,7 +1,7 @@
 - type: entity
   parent: MindRoleGhostRoleNeutral
   id: MindRoleGhostCorporateAligned
-  name: Ghost Role (Corporate Aligned)
+  name: роль призрака (корпоративный)
   components:
     - type: MindRole
       roleType: CorporateAligned
@@ -9,7 +9,7 @@
 - type: entity
   parent: MindRoleGhostRoleNeutral
   id: MindRoleGhostCentCommAligned
-  name: Ghost Role (CentComm Aligned)
+  name: роль призрака (Центком)
   components:
     - type: MindRole
       roleType: CentCommAligned
@@ -18,7 +18,7 @@
 - type: entity
   parent: MindRoleGhostRoleNeutral
   id: MindRoleGhostTSFAligned
-  name: Ghost Role (TSF Aligned)
+  name: роль призрака (ТСФ)
   components:
     - type: MindRole
       roleType: TSFAligned
@@ -26,7 +26,7 @@
 - type: entity
   parent: MindRoleGhostRoleNeutral
   id: MindRoleGhostRolePAI
-  name: Ghost Role (pAI Familiar)
+  name: роль призрака (пИИ-фамильяр)
   components:
   - type: MindRole
     roleType: Familiar
@@ -35,7 +35,7 @@
 - type: entity
   parent: MindRoleGhostRoleNeutral
   id: MindRoleGhostRoleCritterHarmless
-  name: Ghost Role (Harmless Critter)
+  name: роль призрака (безвредное существо)
   components:
   - type: MindRole
     roleType: FreeAgent
@@ -45,7 +45,7 @@
 - type: entity
   parent: MindRoleGhostRoleNeutral
   id: MindRoleGhostRoleBotHarmless
-  name: Ghost Role (Harmless Bot)
+  name: роль призрака (безвредный бот)
   components:
   - type: MindRole
     roleType: FreeAgent
@@ -55,7 +55,7 @@
 - type: entity
   parent: MindRoleGhostRoleNeutral
   id: MindRoleGhostRoleNecktie
-  name: Ghost Role (Necktie)
+  name: роль призрака (галстук)
   components:
   - type: MindRole
     roleType: FreeAgent
@@ -65,7 +65,7 @@
 - type: entity
   parent: MindRoleGhostRoleNeutral
   id: MindRoleGhostRoleTrunkPAI
-  name: Ghost Role (Space Courier Trunk pAI familiar)
+  name: роль призрака (пИИ-фамильяр в сундуке курьера)
   components:
   - type: MindRole
     roleType: Familiar
@@ -75,7 +75,7 @@
 - type: entity
   parent: MindRoleGhostRoleNeutral
   id: MindRoleGhostRoleXeno
-  name: Ghost Role (Xeno)
+  name: роль призрака (ксено)
   components:
   - type: MindRole
     roleType: FreeAgent
@@ -85,7 +85,7 @@
 - type: entity
   parent: MindRoleGhostRoleNeutral
   id: MindRoleGhostRoleFreeAgentSkeleton
-  name: Ghost Role (Skeleton)
+  name: роль призрака (скелет)
   components:
   - type: MindRole
     roleType: FreeAgent
@@ -95,7 +95,7 @@
 - type: entity
   parent: MindRoleGhostRoleNeutral
   id: MindRoleGhostRoleNeutralSkeleton
-  name: Ghost Role (Skeleton)
+  name: роль призрака (скелет)
   components:
   - type: MindRole
     roleType: Neutral
@@ -107,7 +107,7 @@
 - type: entity
   parent: BaseMindRoleAntag
   id: MindRoleSSF
-  name: Soviet Special Forces Role
+  name: роль советского спецназа
   components:
   - type: MindRole
     antagPrototype: SSF
@@ -117,7 +117,7 @@
 - type: entity
   parent: MindRoleGhostRoleNeutral
   id: MindRoleRatKing
-  name: Ghost Role (Rat King)
+  name: роль призрака (крысиный король)
   components:
   - type: MindRole
     antag: true
@@ -129,7 +129,7 @@
 - type: entity
   parent: BaseMindRoleAntag
   id: MindRolePirate
-  name: Pirate Role
+  name: роль пирата
   components:
   - type: MindRole
     antag: true
@@ -141,7 +141,7 @@
 - type: entity
   parent: MindRolePirate
   id: MindRolePirateCaptain
-  name: Pirate Captain Role
+  name: роль капитана пиратов
   components:
   - type: MindRole
     antagPrototype: PirateCaptain
@@ -149,7 +149,7 @@
 - type: entity
   parent: BaseMindRoleAntag
   id: MindRoleVampire
-  name: Vampire Role
+  name: роль вампира
   components:
   - type: MindRole
     antagPrototype: Vampire
@@ -160,7 +160,7 @@
 - type: entity
   parent: BaseMindRoleAntag
   id: MindRoleThrall
-  name: Thrall Role
+  name: роль тралла
   components:
   - type: MindRole
     antagPrototype: Thrall
@@ -171,7 +171,7 @@
 - type: entity
   parent: BaseMindRoleAntag
   id: MindRoleMindControlled
-  name: Mind Controlled Role
+  name: роль под контролем разума
   components:
   - type: MindRole
     antagPrototype: MindControlled
@@ -182,7 +182,7 @@
 - type: entity
   parent: BaseMindRoleAntag
   id: MindRoleTerminator
-  name: Terminator Role
+  name: роль терминатора
   components:
   - type: MindRole
     antagPrototype: Terminator
@@ -194,7 +194,7 @@
 - type: entity
   parent: BaseMindRoleAntag
   id: MindRoleCosmicCult
-  name: Cosmic Cult Role
+  name: роль космического культа
   components:
   - type: MindRole
     antagPrototype: CosmicAntagCultist
@@ -208,7 +208,7 @@
 - type: entity
   parent: MindRoleGhostRoleTeamAntagonist
   id: MindRoleCosmicColossus
-  name: Colossus Role
+  name: роль колосса
   components:
   - type: MindRole
     antagPrototype: CosmicAntagColossus
@@ -222,7 +222,7 @@
 - type: entity
   parent: MindRoleGhostRoleTeamAntagonistFlock
   id: MindRoleCosmicMinion
-  name: Cosmic Minion Role
+  name: роль космического прислужника
   components:
   - type: MindRole
     antagPrototype: CosmicAntagMinion

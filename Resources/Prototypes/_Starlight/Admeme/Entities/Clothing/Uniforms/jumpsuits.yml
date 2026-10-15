@@ -2,8 +2,8 @@
 - type: entity
   parent: [ClothingUniformBase, BaseNanoTrasenContraband]
   id: ClothingUniformNTNCFatigues
-  name: NanoTrasen navy marine fatigues
-  description: Standard issue NanoTrasen Navy Marine fatigues. Very airy.
+  name: форма морпеха NanoTrasen
+  description: Штатная форма морпехов NanoTrasen. Очень воздушная.
   components:
   - type: Sprite
     sprite: _Starlight/Admeme/Clothing/Uniforms/Jumpsuit/ntnc_fatigues.rsi
@@ -13,8 +13,8 @@
 - type: entity
   parent: [ ClothingUniformSkirtBase, BaseNanoTrasenContraband ]
   id: ClothingUniformJumpsuitNTNCOfficer
-  name: NanoTrasen navy officer's jumpsuit
-  description: Standard issue NanoTrasen Navy Marine jumpsuit. This one's for an officer.
+  name: комбинезон офицера NanoTrasen
+  description: Штатный комбинезон морпехов NanoTrasen. Офицерский.
   components:
   - type: Sprite
     sprite: _Starlight/Admeme/Clothing/Uniforms/Jumpsuit/ntnc_officer.rsi
@@ -24,8 +24,8 @@
 - type: entity
   parent: [ ClothingUniformSkirtBase, BaseNanoTrasenContraband ]
   id: ClothingUniformJumpsuitNTNCEnsign
-  name: NanoTrasen navy ensign's jumpsuit
-  description: Standard issue NanoTrasen Navy Marine jumpsuit. This one's for an ensign.
+  name: комбинезон энсина NanoTrasen
+  description: Штатный комбинезон морпехов NanoTrasen. Для энсина.
   components:
   - type: Sprite
     sprite: _Starlight/Admeme/Clothing/Uniforms/Jumpsuit/ntnc_officer.rsi
@@ -35,8 +35,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitITGFormal
-  name: ITG formal suit
-  description: A refined suit worn by delegates of the guild.
+  name: парадный костюм ITG
+  description: Строгий костюм делегатов гильдии.
   components:
   - type: Sprite
     sprite: _Starlight/Admeme/Clothing/Uniforms/Jumpsuit/itgsuit.rsi

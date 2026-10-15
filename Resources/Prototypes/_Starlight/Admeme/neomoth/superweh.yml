@@ -2,7 +2,7 @@
   id: PlushieSuperLizard
   parent: PlushieRainbowLizard
   suffix: Fast
-  description: An adorable stuffed toy that resembles a lizardperson of every color. Abnormally lightweight, allowing you to swing it with great speed.
+  description: Милая мягкая игрушка-ящерка всех цветов. Ненормально лёгкая, махать — одно удовольствие.
   components:
     - type: MeleeWeapon
       autoAttack: true

@@ -1,9 +1,9 @@
 - type: entity
   parent: [BaseMob, StripableInventoryBase, BaseSiliconLanguages, BaseXenoborgTransponder]
   id: MobXenomoproach
-  name: xenomoproach
+  name: ксено-таракамоль
   suffix: admeme
-  description: This little moproach appears to be part evil robot! How horrifying!
+  description: Этот малыш-таракамоль, кажется, частично злобный робот! Какой ужас!
   components:
     - type: BorgTransponder
       name: xenomoproach
@@ -547,7 +547,7 @@
 
 - type: body
   id: Xenomoproach
-  name: "xenomoproach"
+  name: "ксено-таракамоль"
   root: torso
   slots:
     torso:

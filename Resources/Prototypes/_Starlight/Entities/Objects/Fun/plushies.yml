@@ -2,7 +2,7 @@
 - type: entity
   parent: BaseFelionoidPlushie
   id: PlushieBarfo # Original_Username2 (SS14) / greasi (Discord)
-  name: barfo plushie
+  name: плюшевый барфо
   description: Soft, cuddly, and suspiciously up to something! This talking Barfo plushie has lots to say!
   components:
     - type: Item
@@ -61,7 +61,7 @@
 - type: entity
   parent: BaseShadekinPlushie
   id: PlushieBrightheart # rtasva
-  name: brightheart plushie
+  name: плюшевый брайтхарт
   description: A plushie of a small, elusive, and odd looking security officer. Seems familiar somehow.
   components:
   - type: Item
@@ -86,7 +86,7 @@
 - type: entity
   parent: BaseResomiPlushie
   id: PlushieChemmi # huaqas
-  name: chemmi plushie
+  name: плюшевый хемми
   description: An adorable plushie of the orange juice addicted senior researcher Chemmi. She comes equipped with her own XL orange juice bottle, and jam-jar glasses to match.
   components:
   - type: Item
@@ -111,7 +111,7 @@
 - type: entity
   parent: BaseLizardPlushie
   id: PlushieDoxes # SanityGecko
-  name: doxes-the-captain plushie
+  name: плюшевый Доксес-капитан
   description: An adorable stuffed toy that resembles Doxes-the-Captain. "Captain's IP is 189.47.108.519!"
   components:
   - type: Sprite
@@ -172,7 +172,7 @@
 - type: entity
   parent: BaseAvaliPlushie
   id: PlushieEinalia # CaptainComedy
-  name: einalia plushie
+  name: плюшевая эйналия
   description: A marketable plushie of one of the shortest Captains in NT-CC employ, and Nebula's husband. The two amber eyes on its face feel as if they're boring into your soul.
   components:
   - type: Item
@@ -193,7 +193,7 @@
 - type: entity
   parent: BaseLizardPlushie
   id: PlushieGalio # galiotheblepdragon
-  name: galio plushie
+  name: плюшевый галио
   description: Carry with you to feel silly wherever you go!
   components:
   - type: Item
@@ -249,7 +249,7 @@
 - type: entity
   parent: BaseVoxPlushie
   id: PlushieHrek # FlameyTheRandom
-  name: hrekrativi plushie
+  name: плюшевый хрекративи
   description: Has probably built more civilian infrastructure than any engineer you'll come across. Smells like space cleaner... and missing permits.
   components:
   - type: Item
@@ -296,7 +296,7 @@
 - type: entity
   parent: BaseMothPlushie
   id: PlushieKoni # neomoth
-  name: koni plushie
+  name: плюшевый кони
   description: Some sort of moth-cat hybrid. You can't help but find it really cute. Can squeak and meow!
   components:
   - type: Sprite
@@ -338,7 +338,7 @@
 - type: entity
   parent: BaseVulpkaninPlushie
   id: PlushieLance # deltaVelocity
-  name: lance plushie
+  name: плюшевый Ланс
   description: Turning a quartermaster into a marketable plushie was not as profitable a venture as many in the cargo department had hoped.
   components:
   - type: Item
@@ -362,7 +362,7 @@
 - type: entity
   parent: [BaseLizardPlushie, BaseSyndicateContraband]
   id: PlushieLinari # LynatiKr20
-  name: linari miun plushie
+  name: плюшевая линари миун
   description: An expertly crafted plush lizard in tactical officer gear, absent from the standard NanoTrasen catalogues. The stitching on the back says "Property of the Syndicate." Holding it makes you feel like you're breaking at least three corporate regulations.
   components:
     - type: Item
@@ -403,7 +403,7 @@
 - type: entity
   parent: BaseMothPlushie
   id: PlushieMozan # puddleboat
-  name: mozan plushie
+  name: плюшевый мозан
   description: Just like the real thing, it squeaks if you poke it.
   components:
   - type: Sprite
@@ -416,7 +416,7 @@
 - type: entity
   parent: BaseAvaliPlushie
   id: PlushieNebula # rtasva - staff centcomm character
-  name: nebula plushie
+  name: плюшевая небула
   description: A marketable plushie of Nebula Silverfeather- lovable pop star turned CC official. Husband not included.
   components:
   - type: Item
@@ -437,7 +437,7 @@
 - type: entity
   parent: PlushieHuman
   id: PlushieOp # InanimateIJK - staff centcomm character
-  name: op plushie
+  name: плюшевый оп
   description: bnuny... human?
   components:
   - type: Item
@@ -458,7 +458,7 @@
 - type: entity
   parent: BaseLizardPlushie
   id: PlushieVictor # A_pet_tick
-  name: victor jr. plushie
+  name: плюшевый Виктор-младший
   description: Junior's marketable attempt at making chefs reconsider using kobolds as a food source. It looks tasty though...
   components:
   - type: Sprite
@@ -525,7 +525,7 @@
 - type: entity
   parent: BasePlushie
   id: PlushieAbductor
-  name: alien grey plushie # metashield
+  name: "ent-PlushieAbductor # metashield"
   description: A silent grey alien with big black eyes, a staple of retro sci-fi where they kidnap and experiment on unsuspecting people. Thank goodness they're not real!
   components:
   - type: Item
@@ -561,7 +561,7 @@
 - type: entity
   parent: BasePlushie
   id: PlushieAxolotl
-  name: axolotl plushie
+  name: плюшевый аксолотль
   description: Head empty. Absolutely zero thoughts behind their eyes.
   components:
   - type: Item
@@ -597,7 +597,7 @@
 - type: entity
   parent: BasePlushie
   id: PlushieBorb
-  name: borb plushie
+  name: плюшевый борб
   description: Chonky. Rotund. Orb.
   components:
   - type: Item
@@ -633,7 +633,7 @@
 - type: entity
   parent: BaseBorgPlushie
   id: PlushieBorg
-  name: borg plushie
+  name: плюшевый борг
   description: A tiny plushie of an engineering cyborg, complete with itty-bitty plastic tools.
   components:
   - type: Item
@@ -649,7 +649,7 @@
 - type: entity
   parent: BasePlushie
   id: PlushieCowSquishims
-  name: cow squishims
+  name: плюшевая корова-мякиш
   description: Round and soft and legally distinct!
   components:
   - type: Item
@@ -685,7 +685,7 @@
 - type: entity
   parent: BasePlushie
   id: PlushieCreature
-  name: creature plushie
+  name: плюшевое существо
   description: YIPPIE!
   components:
   - type: Item
@@ -721,7 +721,7 @@
 - type: entity
   parent: BasePlushie
   id: PlushieFrogSquishims
-  name: frog squishims
+  name: плюшевая лягушка-мякиш
   description: Round and soft and legally distinct!
   components:
   - type: Item
@@ -757,7 +757,7 @@
 - type: entity
   parent: BasePlushie
   id: PlushieGoat
-  name: goat plushie
+  name: плюшевая коза
   description: The best boy, the softest boy.
   components:
   - type: Item
@@ -793,7 +793,7 @@
 - type: entity
   parent: BasePlushie
   id: PlushieGnome
-  name: gnome plushie
+  name: плюшевый гном
   description: Rattles when you shake it. Smells like Fooberries.
   components:
   - type: Item
@@ -829,7 +829,7 @@
 - type: entity
   parent: BaseLizardPlushie
   id: PlushieKiki
-  name: Kiki plushie
+  name: плюшевая Кики
   description: An honorable member of the kob... wait a minute, this is just a cute marketable plushie of Kiki!
   components:
   - type: Item
@@ -870,7 +870,7 @@
 - type: entity
   parent: BasePlushie
   id: PlushieKitten
-  name: kitten plushie
+  name: плюшевый котёнок
   description: A blue kitten! Just like they raise on Vernethauz II!
   components:
   - type: Item
@@ -906,7 +906,7 @@
 - type: entity
   parent: BasePlushie
   id: PlushiePanda
-  name: panda plushie
+  name: плюшевая панда
   description: Large and in charge! Its paws and body are weighted with poly pellets. Holding it eases your stress and anxieties.
   components:
   - type: Sprite
@@ -942,7 +942,7 @@
 - type: entity
   parent: BasePlushie
   id: PlushiePig
-  name: pig plushie
+  name: плюшевая свинья
   description: Head? Round. Eyes? Filled with optimism. Smells kinda like bacon.
   components:
   - type: Item
@@ -986,7 +986,7 @@
 - type: entity
   parent: BasePlushie
   id: PlushieRenault
-  name: renault plushie
+  name: плюшевый Рено
   description: The Captain's trusty pet! The tail is so fluffy.
   components:
   - type: Item
@@ -1022,7 +1022,7 @@
 - type: entity
   parent: BasePlushie
   id: PlushieSaltLampLarge
-  name: large salt lamp plushie
+  name: большая плюшевая солевая лампа
   description: Larger safe version of everyone's favorite salt lamp.
   components:
   - type: Sprite
@@ -1056,7 +1056,7 @@
 - type: entity
   parent: BasePlushie
   id: PlushieSaltLampSmall
-  name: small salt lamp plushie
+  name: малая плюшевая солевая лампа
   description: Small, safe version of everyone's favorite salt lamp.
   components:
   - type: Sprite
@@ -1089,7 +1089,7 @@
 - type: entity
   parent: BasePlushie
   id: PlushieSeaBunny
-  name: sea bunny plushie
+  name: плюшевый морской зайчик
   description: A squishy bunny, looks like it wants to be worn!
   components:
   - type: Item
@@ -1135,7 +1135,7 @@
 - type: entity
   parent: BaseShadekinPlushie
   id: PlushieShadekin
-  name: shadekin plushie
+  name: плюшевый шейдкин
   description: A plushie of a Shadekin. It's very soft.
   components:
   - type: Item
@@ -1151,7 +1151,7 @@
 - type: entity
   parent: BasePlushie
   id: PlushieLargeSoftShark
-  name: large blue shark soft plushie
+  name: большая мягкая плюшевая акула
   description: A large, soft, and cuddly shark plushie. Perfect for hugging!
   components:
   - type: Item
@@ -1196,7 +1196,7 @@
 - type: entity
   parent: BasePlushie
   id: PlushieSnail
-  name: snail plushie
+  name: плюшевая улитка
   description: Look at it go!
   components:
   - type: Item
@@ -1240,7 +1240,7 @@
 - type: entity
   parent: BasePlushie
   id: PlushieSus
-  name: sus plushie
+  name: плюшевый сас
   description: Fell out of a vent and into your heart. With a knife. It stabbed you (in the heart).
   components:
   - type: Item
@@ -1284,7 +1284,7 @@
 - type: entity
   parent: BasePlushie
   id: PlushieStingRay
-  name: stingray plushie
+  name: плюшевый скат
   description: The pancake of the sea - look at this lil goober. Soft, floppy and adorable!
   components:
   - type: Item
@@ -1330,7 +1330,7 @@
 - type: entity
   parent: BasePlushie
   id: PlushieSeaPancake
-  name: sea pancake plushie
+  name: плюшевый морской блинчик
   description: The pancake of the sea - now complete with butter and maple syrup. Soft, floppy and adorable!
   components:
   - type: Item
@@ -1376,7 +1376,7 @@
 - type: entity
   parent: BasePlushie
   id: PlushieSeal
-  name: seal plushie
+  name: плюшевый тюлень
   description: The puppy of the sea. Perfectly spherical, perfectly huggable!
   components:
   - type: Item
@@ -1422,7 +1422,7 @@
 - type: entity
   parent: BasePlushie
   id: PlushieDumboOctopus
-  name: dumbo octopus plushie
+  name: плюшевый осьминог-дамбо
   description: A small, vibrant octopus with big ears. It is perfectly friend shaped!
   components:
   - type: Item
@@ -1468,7 +1468,7 @@
 - type: entity
   parent: BasePlushie
   id: PlushieSeaSheep
-  name: sea sheep plushie
+  name: плюшевая морская овечка
   description: A squishy sea sheep, looks like it wants to be worn!
   components:
   - type: Item

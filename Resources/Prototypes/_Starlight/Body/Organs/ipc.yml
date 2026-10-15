@@ -27,7 +27,7 @@
 - type: entity
   id: OrganIPCEyes
   parent: [BaseIPCOrganUnGibbable, BaseOrganEyes]
-  name: robotic eyes
+  name: "{ ent-OrganBase }"
   suffix: IPC
   description: "Decidedly not squishy. Kinda sharp, actually."
   components:
@@ -54,9 +54,9 @@
 - type: entity
   id: OrganIPCTongue
   parent: [BaseIPCOrganUnGibbable, BaseOrganTongue]
-  name: ent-OrganIPCTongue
+  name: вокальный модулятор
   suffix: IPC
-  description: ent-OrganIPCTongue-desc
+  description: Вокальный модулятор, обычно используемый для лжи.
   components:
   - type: OrganTongue
     allowedEmotes: ['Beep', 'Ping', 'Buzz', 'Buzz-Two', 'Chime', 'Honk']
@@ -70,9 +70,9 @@
 - type: entity
   id: OrganIPCEars
   parent: [BaseIPCOrganUnGibbable, BaseOrganEars]
-  name: ent-OrganIPCEars
+  name: роботизированные уши
   suffix: IPC
-  description: ent-OrganIPCEars-desc
+  description: Обрабатывают звук с тем же качеством, что и киборги на станции.
   components:
   - type: Sprite
     state: ears
@@ -80,9 +80,9 @@
 - type: entity
   id: OrganIPCHeart
   parent: [BaseIPCOrganUnGibbable, BaseOrganHeart]
-  name: ent-OrganIPCHeart
+  name: микронасос
   suffix: IPC
-  description: ent-OrganIPCHeart-desc
+  description: Циркулирует охладитель до тошноты знакомым образом.
   components:
   - type: Sprite
     state: heart-on

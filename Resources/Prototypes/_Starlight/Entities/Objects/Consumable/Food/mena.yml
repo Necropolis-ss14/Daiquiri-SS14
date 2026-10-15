@@ -4,7 +4,7 @@
 - type: entity
   parent: [SolutionNormal, FoodBakingBase]
   id: FoodDoughPita
-  name: pita dough
+  name: тесто для питы
   description: A twice-flattened piece of wheat dough.
   components:
   - type: Item
@@ -81,7 +81,7 @@
 - type: entity
   parent: FoodBowlBase
   id: FoodHummusDip
-  name: hummus dip
+  name: хумус
   description: A hearty pea-based paste, served with strips of pita. The ultimate dip of the Middle East.
   components:
   - type: FlavorProfile
@@ -112,7 +112,7 @@
 - type: entity
   parent: FoodInjectableBase
   id: FoodShawarma
-  name: chicken shawarma
+  name: куриная шаурма
   description: A pita loaded with hummus, tomato, onions, and a cutlet of chicken. Fresh!
   components:
   - type: FlavorProfile
@@ -153,7 +153,7 @@
 - type: entity
   parent: FoodInjectableBase
   id: FoodFalafelSandwich
-  name: falafel sandwich
+  name: сэндвич с фалафелем
   description: A pita loaded with onions, tomato, falafel, and a zesty sauce. Surprisingly diet-friendly.
   components:
   - type: FlavorProfile
@@ -190,7 +190,7 @@
 - type: entity
   parent: FoodInjectableBase
   id: FoodSouvlaki
-  name: souvlaki gyros sandwich
+  name: сувлаки-гирос
   description: A pita loaded with tzatziki, tomato, and a cutlet of meat. Sodium beyond belief!
   components:
   - type: FlavorProfile
@@ -228,7 +228,7 @@
 - type: entity
   parent: FoodInjectableBase
   id: FoodDonerKebab
-  name: doner kebab
+  name: донер-кебаб
   description: A pita loaded with hummus, cabbage, tomato, and a cutlet of mystery meat. Pairs best with cheap beer.
   components:
   - type: FlavorProfile
@@ -265,7 +265,7 @@
 - type: entity
   parent: [SolutionNormal, FoodInjectableBase, BaseSlicingRefinableFood]
   id: FoodTurkishDelight
-  name: uncut turkish delight
+  name: ненарезанный рахат-лукум
   description: A massive, wobbling gelatin dessert. May contains nuts.
   components:
   - type: FlavorProfile
@@ -299,7 +299,7 @@
 - type: entity
   parent: [SolutionTiny, FoodInjectableBase]
   id: FoodTurkishDelightCube
-  name: turkish delight
+  name: рахат-лукум
   description: A tiny, wobbling gelatin dessert. May contains nuts.
   components:
   - type: FlavorProfile

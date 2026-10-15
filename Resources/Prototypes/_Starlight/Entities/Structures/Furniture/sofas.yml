@@ -1,6 +1,6 @@
 #Diner Booth
 - type: entity
-  name: diner booth
+  name: кабинка закусочной
   suffix: End Left
   id: DinerEndLeft
   parent: SeatBase
@@ -21,7 +21,7 @@
     node: boothLeft
 
 - type: entity
-  name: diner booth
+  name: кабинка закусочной
   suffix: End Right
   id: DinerEndRight
   parent: SeatBase
@@ -42,7 +42,7 @@
     node: boothRight
 
 - type: entity
-  name: diner booth
+  name: кабинка закусочной
   suffix: Middle
   id: DinerMiddle
   parent: SeatBase
@@ -64,7 +64,7 @@
 
 #region Sofa Fancy
 - type: entity
-  name: fancy sofa
+  name: роскошный диван
   suffix: End Left
   id: SofaFancyEndLeft
   parent: SeatBase
@@ -85,7 +85,7 @@
     node: fancyLeft
 
 - type: entity
-  name: fancy sofa
+  name: роскошный диван
   suffix: End Right
   id: SofaFancyEndRight
   parent: SeatBase
@@ -106,7 +106,7 @@
     node: fancyRight
 
 - type: entity
-  name: fancy sofa
+  name: роскошный диван
   suffix: Middle
   id: SofaFancyMiddle
   parent: SeatBase

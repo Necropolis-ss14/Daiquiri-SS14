@@ -1,7 +1,7 @@
 - type: entity
   id: OrganNeoArachnidHeart
   parent: [BaseNeocyteOrgan, OrganNeocyteHeart]
-  name: ent-OrganNeoArachnidHeart
+  name: кибернетическое сердце арахнида
   suffix: Neo-Arachnid
   components:
   - type: Sprite

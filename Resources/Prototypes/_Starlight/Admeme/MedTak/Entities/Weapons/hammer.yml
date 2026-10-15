@@ -1,8 +1,8 @@
 - type: entity
-  name: CODE-12 "Breacher"
+  name: КОД-12 «Взломщик»
   parent: BaseItem
   id: HammerMedTakOneHanded
-  description: A charged concussive breaching hammer meant to put a sizeable hole in anything separating you from your client.
+  description: "Заряженный контузионный штурмовой молот: пробьёт дыру во всём, что отделяет тебя от клиента."
   suffix: One-Handed
   components:
   - type: Sprite

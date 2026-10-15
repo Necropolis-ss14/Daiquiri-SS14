@@ -91,7 +91,7 @@
 - type: entity
   parent: BoxCardboard
   id: FoodBoxCrispyRiceBar
-  name: box of crispy rice bars
+  name: коробка хрустящих рисовых батончиков
   description: 'A legally distinct bar of crispy rice held together with marshmallow.'
   components:
   - type: Sprite

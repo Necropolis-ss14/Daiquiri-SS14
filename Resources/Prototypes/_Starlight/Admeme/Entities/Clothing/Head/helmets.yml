@@ -3,9 +3,9 @@
 - type: entity
   parent: [ ClothingHeadHelmetBasic, BaseMajorContraband ]
   id: ClothingHeadHelmetCasino
-  name: casino guard helmet
+  name: шлем охранника казино
   suffix: admeme
-  description: Standard security gear. Protects the head from impacts.
+  description: Штатное снаряжение охраны. Защищает голову от ударов.
   components:
   - type: Sprite
     sprite: _Starlight/Admeme/Clothing/Head/Helmets/casino_helm.rsi

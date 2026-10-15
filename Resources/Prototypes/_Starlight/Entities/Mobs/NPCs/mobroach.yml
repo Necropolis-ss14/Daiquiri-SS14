@@ -9,7 +9,7 @@
 - type: entity
   id: MobRoachCuffs
   categories: [ HideSpawnMenu ]
-  name: makeshift cuffs
+  name: самодельные наручники
   parent: BorgHolocuffs
   description: Makeshift and shoddy, but there sure is a lot of them.
   components:
@@ -39,7 +39,7 @@
   id: MobRoachModule
   categories: [ HideSpawnMenu ]
   parent: [ BorgModuleCustodial ]
-  name: mothic mobroach module
+  name: мотический модуль моброуча
   components:
   - type: Sprite
     layers:

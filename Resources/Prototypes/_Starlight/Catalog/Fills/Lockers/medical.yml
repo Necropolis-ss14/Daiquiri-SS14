@@ -29,9 +29,9 @@
 - type: entity
   parent: CrateCentralCommandSecure
   id: CrateCentralCommandSecureChemicalFilled
-  name: central command medical crate
+  name: медицинский ящик Центркома
   suffix: Chemical, Filled
-  description: A secure crate from Central Command stocked to the brim with medical chemicals.
+  description: Сейф Центркома под завязку с медхимией.
   categories: [ Spawner ]
   components:
   - type: EntityTableContainerFill
@@ -263,7 +263,7 @@
 - type: entity
   parent: LockerChemistry
   id: LockerMedicineJugsFilled
-  name: medicine jug locker
+  name: шкаф с кувшинами лекарств
   description: A locker pre-filled with jugs. Chemists rejoice!
   categories: [ ShouldMapStation ]
   suffix: Filled

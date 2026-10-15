@@ -1,8 +1,8 @@
 - type: entity
   parent: [ ClothingHeadsetAlt, BaseMedTakContraband ]
   id: ClothingHeadsetAltMedTak
-  name: MedTak operator headset
-  description: A headset used by MedTak operators.
+  name: гарнитура оператора MedTak
+  description: Гарнитура оперативников MedTak.
   components:
     - type: Headset
     - type: ContainerFill

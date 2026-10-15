@@ -6,7 +6,7 @@
 # Pita
 - type: microwaveMealRecipe
   id: RecipePita
-  name: pita recipe
+  name: Рецепт питы
   result: FoodBreadPita
   time: 5
   group: Breads
@@ -18,7 +18,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeFalafel
-  name: falafel recipe
+  name: Рецепт фалафеля
   result: FoodFalafel
   time: 5
   group: Savory
@@ -33,7 +33,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeHummusDip
-  name: hummus dip recipe
+  name: Рецепт хумуса
   result: FoodHummusDip
   time: 5
   group: Savory
@@ -49,7 +49,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeShawarma
-  name: chicken shawarma recipe
+  name: Рецепт куриной шаурмы
   result: FoodShawarma
   time: 5
   group: Savory
@@ -65,7 +65,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeFalafelSandwichLemony
-  name: falafel sandwich recipe (lemon juice)
+  name: Рецепт сэндвича с фалафелем и лимоном
   result: FoodFalafelSandwich
   time: 5
   group: Savory
@@ -79,7 +79,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeFalafelSandwichCheesy
-  name: falafel sandwich recipe (cheese)
+  name: Рецепт сэндвича с фалафелем и сыром
   result: FoodFalafelSandwich
   time: 5
   group: Savory
@@ -94,7 +94,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeSouvlaki
-  name: souvlaki gyros recipe
+  name: Рецепт сувлаки гирос
   result: FoodSouvlaki
   time: 5
   group: Savory
@@ -108,7 +108,7 @@
 # Doner Kebab
 - type: microwaveMealRecipe
   id: RecipeDonerKebab
-  name: doner kebab recipe
+  name: Рецепт донер-кебаба
   result: FoodDonerKebab
   time: 5
   group: Savory
@@ -122,7 +122,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeDonerKebabRotten
-  name: doner kebab recipe (rotten)
+  name: Рецепт тухлого донер-кебаба
   result: FoodDonerKebab
   time: 5
   group: Savory
@@ -137,7 +137,7 @@
 # Turkish Delight
 - type: microwaveMealRecipe
   id: RecipeTurkishDelight
-  name: turkish delight recipe
+  name: Рецепт рахат-лукума
   result: FoodTurkishDelight
   time: 5
   group: Dessert
@@ -151,7 +151,7 @@
 
 - type: microwaveMealRecipe
   id: RecipeTurkishDelightNutFree
-  name: nut-free turkish delight recipe
+  name: Рецепт рахат-лукума без орехов
   result: FoodTurkishDelight
   time: 5
   group: Dessert

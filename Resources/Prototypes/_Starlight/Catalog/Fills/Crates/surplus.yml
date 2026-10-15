@@ -1,8 +1,8 @@
 - type: entity
   parent: CrateSalvageContrabandStorageSecure
   id: CrateITGMedicalSurplus
-  name: ITG Medical Surplus Crate
-  description: A box containing medical supplies from the back of an ITG warehouse
+  name: Ящик мед излишков ITG
+  description: Коробка с медприпасами с задворок склада ITG.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -114,8 +114,8 @@
 - type: entity
   parent: CrateSalvageContrabandStorageSecure
   id: CrateITGShotgunSurplus
-  name: ITG Shotgun Surplus Crate
-  description: A box containing weapons from the back of an ITG warehouse
+  name: Ящик дробовиковых излишков ITG
+  description: Коробка с оружием с задворок склада ITG.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -163,8 +163,8 @@
 - type: entity
   parent: CrateSalvageContrabandStorageSecure
   id: CrateITGSurplus
-  name: ITG Surplus Trading Crate
-  description: A box containing good from the back of an ITG warehouse, meant to be pawned off to station side shmucks
+  name: Торговый ящик излишков ITG
+  description: Коробка добра с задворок склада ITG для впаривания станционным лохам.
   components:
   - type: EntityTableContainerFill
     containers:

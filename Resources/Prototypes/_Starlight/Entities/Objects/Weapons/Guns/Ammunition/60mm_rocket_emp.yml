@@ -4,7 +4,7 @@
 - type: entity
   parent: BaseBulletTrigger
   id: Bullet60mmRocketEMP
-  name: EMP rocket
+  name: ЭМИ-ракета
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -55,7 +55,7 @@
 - type: entity
   parent: [BaseItem, BaseMajorContraband]
   id: CartridgeRocketEMP
-  name: EMP rocket grenade
+  name: реактивная ЭМИ-граната
   description: A PG-7 EMP warhead designed for the RPG-7 launcher. Delivers a focused electromagnetic pulse on impact, disrupting electronics and power systems without causing structural damage. Does not explode.
   components:
   - type: Tag
@@ -76,7 +76,7 @@
 - type: entity
   parent: [BaseItem, BaseMajorContraband]
   id: GrenadeEMPTarnyx
-  name: EMP artillery grenade
+  name: артиллерийская ЭМИ-граната
   description: A large EMP grenade cartridge designed for the SSG-TARNYX cannon. Releases a powerful electromagnetic pulse on impact, disrupting ship electronics across a wide area. Does not cause structural damage.
   components:
   - type: Tag
@@ -100,7 +100,7 @@
 - type: entity
   parent: BaseBulletTrigger
   id: BulletGrenadeEMPTarnyx
-  name: EMP artillery shell
+  name: артиллерийский ЭМИ-снаряд
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

@@ -1,8 +1,8 @@
 - type: entity
   parent: DrinkBaseMug
   id: DrinkMugMedTak
-  name: MedTak mug
-  description: A cheerful red mug emblazoned with the MedTak insignia.
+  name: кружка MedTak
+  description: Весёлая красная кружка с эмблемой MedTak.
   components:
   - type: Sprite
     sprite: _Starlight/Admeme/MedTak/Objects/mug.rsi

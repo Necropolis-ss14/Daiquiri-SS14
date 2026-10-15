@@ -1,8 +1,8 @@
 - type: entity
   id: OrganDubiousHealth
   parent: [OrganHumanHeart]
-  name: ent-OrganDubiousHealth
-  description: ent-OrganDubiousHealth-desc
+  name: железа
+  description: Подозрительная инопланетная железа, заменяющая сердце.
   components:
   - type: Sprite
     sprite: _Starlight/Mobs/Species/Cyberlimbs/dubious-organs.rsi
@@ -13,8 +13,8 @@
 - type: entity
   id: OrganDubiousNitrousOxide
   parent: [OrganHumanHeart]
-  name: ent-OrganDubiousNitrousOxide
-  description: ent-OrganDubiousNitrousOxide-desc
+  name: железа
+  description: Подозрительная инопланетная железа, заменяющая сердце.
   components:
   - type: Sprite
     sprite: _Starlight/Mobs/Species/Cyberlimbs/dubious-organs.rsi
@@ -25,8 +25,8 @@
 - type: entity
   id: OrganDubiousGravity
   parent: [OrganHumanHeart]
-  name: ent-OrganDubiousGravity
-  description: ent-OrganDubiousGravity-desc
+  name: железа
+  description: Подозрительная инопланетная железа, заменяющая сердце.
   components:
   - type: Sprite
     sprite: _Starlight/Mobs/Species/Cyberlimbs/dubious-organs.rsi
@@ -37,8 +37,8 @@
 - type: entity
   id: OrganDubiousEgg
   parent: [OrganHumanHeart]
-  name: ent-OrganDubiousEgg
-  description: ent-OrganDubiousEgg-desc
+  name: железа
+  description: Подозрительная инопланетная железа, заменяющая сердце.
   components:
   - type: Sprite
     sprite: _Starlight/Mobs/Species/Cyberlimbs/dubious-organs.rsi
@@ -49,8 +49,8 @@
 - type: entity
   id: OrganDubiousSpider
   parent: [OrganHumanHeart]
-  name: ent-OrganDubiousSpider
-  description: ent-OrganDubiousSpider-desc
+  name: железа
+  description: Подозрительная инопланетная железа, заменяющая сердце.
   components:
   - type: Sprite
     sprite: _Starlight/Mobs/Species/Cyberlimbs/dubious-organs.rsi
@@ -61,8 +61,8 @@
 - type: entity
   id: OrganDubiousVent
   parent: [OrganHumanHeart]
-  name: ent-OrganDubiousVent
-  description: ent-OrganDubiousVent-desc
+  name: железа
+  description: Подозрительная инопланетная железа, заменяющая сердце.
   components:
   - type: Sprite
     sprite: _Starlight/Mobs/Species/Cyberlimbs/dubious-organs.rsi
@@ -72,8 +72,8 @@
 
 - type: entity
   id: RandomOrganDubious
-  name: ent-RandomOrganDubious
-  description: ent-RandomOrganDubious-desc
+  name: случайная железа
+  description: Случайная железа похитителя.
   components:
     - type: Sprite
       sprite: _Starlight/Mobs/Species/Cyberlimbs/dubious-organs.rsi

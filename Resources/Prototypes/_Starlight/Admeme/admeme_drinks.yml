@@ -31,8 +31,8 @@
 - type: entity
   parent: [ DrinkVisualsAllFilled, DrinkBottleGlassBaseFull ]
   id: DrinkRumizineBottleFull
-  name: Uncle Git's Cannonball Courage
-  description: A battered amber bottle bearing a skull-and-anchor label. The faded text reads "Uncle Git's Cannonball Courage Rumizine — Drink before battle, not after." Smells like rum, gunpowder, and questionable medical practice.
+  name: Пушечная отвага дяди Гита
+  description: "Потрёпанная янтарная бутылка с черепом и якорем. Выцветший текст: «Пушечная отвага Румизин дяди Гита — пей до боя, не после». Пахнет ромом, порохом и сомнительной медициной."
   components:
   - type: Solution
     id: drink

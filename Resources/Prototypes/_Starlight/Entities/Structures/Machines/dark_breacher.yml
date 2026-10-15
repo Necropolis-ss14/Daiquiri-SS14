@@ -1,7 +1,7 @@
 - type: entity
   id: MachineDarkBreacher
   parent: [BaseMachinePowered, ConstructibleMachine]
-  name: dark breacher
+  name: тёмный прорыватель
   description: The portal to the dark...
   components:
   - type: Machine

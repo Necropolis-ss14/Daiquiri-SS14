@@ -3,7 +3,7 @@
 # gets around the annoyance of having to use 16+ plates in the big feast recipe
 
 - type: entity
-  name: festive plate
+  name: праздничная тарелка
   parent: FoodPlate
   id: FoodPlateFestive
   description: A festive plate. Cheerful.

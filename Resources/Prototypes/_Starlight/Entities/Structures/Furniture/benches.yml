@@ -1,7 +1,7 @@
 # Chapel (Shrine) Pew
 
 - type: entity
-  name: Pew Base
+  name: основа церковной скамьи
   id: PewBase
   abstract: true
   parent: ChairBase
@@ -40,7 +40,7 @@
     price: 250
 
 - type: entity
-  name: Wood Pew
+  name: деревянная церковная скамья
   suffix: End Left
   id: PewEndLeft
   parent: PewBase
@@ -53,7 +53,7 @@
     node: pewLeft
 
 - type: entity
-  name: Wood Pew
+  name: деревянная церковная скамья
   suffix: End Right
   id: PewEndRight
   parent: PewBase
@@ -66,7 +66,7 @@
     node: pewRight
 
 - type: entity
-  name: Wood Pew
+  name: деревянная церковная скамья
   suffix: Middle
   id: PewMiddle
   parent: PewBase
@@ -80,7 +80,7 @@
 
 #region Bench White
 - type: entity
-  name: comfortable bench
+  name: удобная скамья
   id: BenchWhiteComfy
   parent: BenchComfy
   components:
@@ -89,7 +89,7 @@
     node: whiteComfBench
 
 - type: entity
-  name: comfortable bench
+  name: удобная скамья
   suffix: Corner. White
   id: BenchComfyCorner
   parent: SeatBase
@@ -113,7 +113,7 @@
     node: whiteComfBenchCorner
 
 - type: entity
-  name: comfortable bench
+  name: удобная скамья
   suffix: End Left. White
   id: BenchComfyEndLeft
   parent: SeatBase
@@ -137,7 +137,7 @@
     node: whiteComfBenchLeft
 
 - type: entity
-  name: comfortable bench
+  name: удобная скамья
   suffix: End Right. White
   id: BenchComfyEndRight
   parent: SeatBase
@@ -161,7 +161,7 @@
     node: whiteComfBenchRight
 
 - type: entity
-  name: comfortable bench
+  name: удобная скамья
   suffix: Middle. White
   id: BenchComfyMiddle
   parent: SeatBase

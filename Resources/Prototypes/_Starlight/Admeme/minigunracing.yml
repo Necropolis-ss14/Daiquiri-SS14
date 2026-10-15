@@ -1,8 +1,8 @@
 - type: entity
-  name: Bird Thruster
+  name: птичий двигатель
   id: WeaponMinigunRacingThruster
   parent: [ BaseItem ]
-  description: Vroom vroooooom!
+  description: Врум-врум!
   suffix: ADMEME
   components:
   - type: KnockbackByUserTag
@@ -56,10 +56,10 @@
 
 - type: entity
   id: SkatesRacing
-  name: High Speed Racing Skates
+  name: скоростные гоночные коньки
   parent: ClothingShoesSkates
   suffix: ADMEME
-  description: SuperGlideTM racing skates with built in collision protection!
+  description: Гоночные коньки SuperGlideTM со встроенной защитой от столкновений!
   components:
   - type: Skates
     speedDamage: 0.0
@@ -69,10 +69,10 @@
 
 - type: entity
   id: SkatesRacingCool
-  name: Cooler High Speed Racing Skates
+  name: крутые скоростные гоночные коньки
   parent: ClothingShoesSkatesCool
   suffix: ADMEME
-  description: SuperGlideTM racing skates with built in collision protection!
+  description: Гоночные коньки SuperGlideTM со встроенной защитой от столкновений!
   components:
   - type: Skates
     speedDamage: 0.0
@@ -82,7 +82,7 @@
 
 - type: entity
   id: CartridgeMinigunThruster
-  name: thruster cartridge
+  name: патрон двигателя
   parent: CartridgeMinigun
   components:
   - type: CartridgeAmmo
@@ -115,10 +115,10 @@
 
 - type: entity
   id: SuitRacingRandom
-  name: High Speed Racing Suit
+  name: скоростной гоночный костюм
   parent: ClothingUniformRandom
   suffix: ADMEME
-  description: This just looks like normal clothing...
+  description: Выглядит как обычная одежда...
   abstract: true
   components:
   - type: Armor
@@ -135,7 +135,7 @@
 - type: entity
   parent: SuitRacingRandom
   id: SuitRacingRandomSpawner
-  name: Random High Speed Racing Outfit
+  name: случайный скоростной гоночный наряд
   components:
   - type: RandomSpawner
     offset: 0
@@ -148,35 +148,35 @@
 
 - type: entity
   id: SuitRacingArmless
-  name: Armless High Speed Racing Outfit
+  name: безрукий скоростной гоночный наряд
   parent: [SuitRacingRandom, ClothingUniformRandomArmless]
   suffix: ADMEME
-  description: This just looks like normal clothing...
+  description: Выглядит как обычная одежда...
 
 - type: entity
   id: SuitRacingStandard
-  name: High Speed Racing Outfit
+  name: стандартный скоростной гоночный наряд
   parent: [SuitRacingRandom, ClothingUniformRandomStandard]
   suffix: ADMEME
-  description: This just looks like normal clothing...
+  description: Выглядит как обычная одежда...
 
 - type: entity
   id: SuitRacingBra
-  name: Cropped High Speed Racing Outfit
+  name: укороченный скоростной гоночный наряд
   parent: [SuitRacingRandom, ClothingUniformRandomBra]
   suffix: ADMEME
-  description: This just looks like normal clothing...
+  description: Выглядит как обычная одежда...
 
 - type: entity
   id: SuitRacingShorts
-  name: Topless High Speed Racing Outfit
+  name: скоростной гоночный наряд без верха
   parent: [SuitRacingRandom, ClothingUniformRandomShorts]
   suffix: ADMEME
-  description: This just looks like normal clothing...
+  description: Выглядит как обычная одежда...
 
 - type: entity
   id: SuitRacingShirt
-  name: High Speed Racing Shirt
+  name: скоростная гоночная рубашка
   parent: [SuitRacingRandom, ClothingUniformRandomShirt]
   suffix: ADMEME
-  description: This just looks like normal clothing...
+  description: Выглядит как обычная одежда...

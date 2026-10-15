@@ -1,7 +1,7 @@
 - type: entity
   id: ShadekinDoor
   parent: HospitalCurtains
-  name: ent-ShadekinDoor
+  name: дверь шейдкинов
   description: A door, where will it lead?
   suffix: ""
   components:

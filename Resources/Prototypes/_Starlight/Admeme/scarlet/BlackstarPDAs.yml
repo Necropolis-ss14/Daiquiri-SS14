@@ -3,8 +3,8 @@
 - type: entity
   parent: BasePDA
   id: BlackstarLegionCommanderPDA
-  name: Legion Commander PDA
-  description: The weight of an entire legion behind every order.
+  name: КПК командующего легионом Blackstar
+  description: Вес целого легиона за каждым приказом.
   components:
     - type: Pda
       id: BlackstarLegionCommanderIDCard
@@ -15,8 +15,8 @@
 - type: entity
   parent: BasePDA
   id: BlackstarHighLegatePDA
-  name: High Legate PDA
-  description: Authority comes with a price.
+  name: КПК верховного легата Blackstar
+  description: Власть имеет цену.
   components:
     - type: Pda
       id: BlackstarHighLegateIDCard
@@ -27,8 +27,8 @@
 - type: entity
   parent: BasePDA
   id: BlackstarLegatePDA
-  name: Legate PDA
-  description: Keep your soldiers in line.
+  name: КПК легата Blackstar
+  description: Держи солдат в узде.
   components:
     - type: Pda
       id: BlackstarLegateIDCard
@@ -38,8 +38,8 @@
 - type: entity
   parent: BasePDA
   id: BlackstarDreadwalkerPDA
-  name: Dreadwalker PDA
-  description: Precision is the difference between a mission and a massacre.
+  name: КПК дредуокера Blackstar
+  description: Точность отделяет операцию от резни.
   components:
     - type: Pda
       id: BlackstarDreadwalkerIDCard
@@ -49,8 +49,8 @@
 - type: entity
   parent: BasePDA
   id: BlackstarLegionnairePDA
-  name: Legionnaire PDA
-  description: Adapt. Overcome. Survive.
+  name: КПК легионера Blackstar
+  description: Приспособься. Преодолей. Выживи.
   components:
     - type: Pda
       id: BlackstarLegionnaireIDCard
@@ -60,8 +60,8 @@
 - type: entity
   parent: BasePDA
   id: BlackstarBlackguardPDA
-  name: Blackguard PDA
-  description: The last line of defence before the last resort.
+  name: КПК чёрного стража Blackstar
+  description: Последний рубеж перед крайними мерами.
   components:
     - type: Pda
       id: BlackstarBlackguardIDCard
@@ -71,8 +71,8 @@
 - type: entity
   parent: BasePDA
   id: BlackstarInitiatePDA
-  name: Initiate PDA
-  description: You've earned your place. Now keep it.
+  name: КПК рекрута Blackstar
+  description: Ты заслужил своё место. Теперь удержи его.
   components:
     - type: Pda
       id: BlackstarInitiateIDCard

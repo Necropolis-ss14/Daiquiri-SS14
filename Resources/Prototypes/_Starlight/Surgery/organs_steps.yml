@@ -2,7 +2,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepLocateLiver
-  name: Locate Liver
+  name: Найти печень
   components:
   - type: SurgeryStep
     duration: 3
@@ -13,7 +13,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepClampLiverVessels
-  name: Clamp Liver Vessels
+  name: Пережать сосуды печени
   components:
   - type: SurgeryStep
     duration: 4
@@ -26,7 +26,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepRemoveLiver
-  name: Remove Liver
+  name: Удалить печень
   components:
   - type: SurgeryStep
     duration: 4
@@ -45,7 +45,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepLocateAppendix
-  name: Locate Appendix
+  name: Найти аппендикс
   components:
   - type: SurgeryStep
     duration: 2
@@ -56,7 +56,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepClampAppendix
-  name: Clamp Appendix
+  name: Пережать аппендикс
   components:
   - type: SurgeryStep
     duration: 3
@@ -69,7 +69,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepRemoveAppendix
-  name: Remove Appendix
+  name: Удалить аппендикс
   components:
   - type: SurgeryStep
     duration: 3
@@ -87,7 +87,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepLocateKidneys
-  name: Locate Kidneys
+  name: Найти почки
   components:
   - type: SurgeryStep
     duration: 3
@@ -100,7 +100,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepClampKidneysVessels
-  name: Clamp Kidneys Vessels
+  name: Пережать сосуды почек
   components:
   - type: SurgeryStep
     duration: 4
@@ -113,7 +113,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepRemoveKidneys
-  name: Remove Kidneys
+  name: Удалить почки
   components:
   - type: SurgeryStep
     duration: 5
@@ -131,7 +131,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepLocateStomach
-  name: Locate Stomach
+  name: Найти желудок
   components:
   - type: SurgeryStep
     duration: 3
@@ -142,7 +142,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepClampStomachVessels
-  name: Clamp Stomach Vessels
+  name: Пережать сосуды желудка
   components:
   - type: SurgeryStep
     duration: 4
@@ -155,7 +155,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepRemoveStomach
-  name: Remove Stomach
+  name: Удалить желудок
   components:
   - type: SurgeryStep
     duration: 5
@@ -174,7 +174,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepLocateLungs
-  name: Locate Lungs
+  name: Найти лёгкие
   components:
   - type: SurgeryStep
     duration: 3
@@ -185,7 +185,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepClampLungVessels
-  name: Clamp Lung Vessels
+  name: Пережать сосуды лёгких
   components:
   - type: SurgeryStep
     duration: 4
@@ -198,7 +198,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepRemoveLungs
-  name: Remove Lungs
+  name: Удалить лёгкие
   components:
   - type: SurgeryStep
     duration: 5
@@ -217,7 +217,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepLocateHeart
-  name: Locate Heart
+  name: Найти сердце
   components:
   - type: SurgeryStep
     duration: 3
@@ -228,7 +228,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepClampHeartVessels
-  name: Clamp Heart Vessels
+  name: Пережать сосуды сердца
   components:
   - type: SurgeryStep
     duration: 5
@@ -241,7 +241,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepRemoveHeart
-  name: Remove Heart
+  name: Удалить сердце
   components:
   - type: SurgeryStep
     duration: 6
@@ -258,7 +258,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepLocateEyes
-  name: Locate Eye
+  name: Найти глаз
   components:
   - type: SurgeryStep
     duration: 2
@@ -271,7 +271,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepClampOpticNerve
-  name: Clamp Optic Nerve
+  name: Пережать зрительный нерв
   components:
   - type: SurgeryStep
     duration: 3
@@ -284,7 +284,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepRemoveEyes
-  name: Remove Eye
+  name: Удалить глаз
   components:
   - type: SurgeryStep
     duration: 3
@@ -302,7 +302,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepLocateImplant
-  name: Locate Implant
+  name: Найти имплант
   components:
   - type: SurgeryStep
     duration: 2
@@ -314,7 +314,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepLocateNoseImplant
-  name: Locate Implant
+  name: Найти имплант
   components:
   - type: SurgeryStep
     duration: 2
@@ -326,7 +326,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepRemoveEyeImplant
-  name: Remove Eye Implant
+  name: Удалить глазной имплант
   components:
   - type: SurgeryStep
     duration: 3
@@ -344,7 +344,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepGrabTongue
-  name: Grab Tongue
+  name: Захватить язык
   components:
   - type: SurgeryStep
     duration: 2
@@ -357,7 +357,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepCutTongue
-  name: Cut Tongue
+  name: Отрезать язык
   components:
   - type: SurgeryStep
     duration: 3
@@ -375,7 +375,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepPreparePatient
-  name: Prepare Patient
+  name: Подготовить пациента
   components:
   - type: SurgeryStep
     duration: 2
@@ -388,7 +388,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepShaveHead
-  name: Shave Head
+  name: Побрить голову
   components:
   - type: SurgeryStep
     duration: 3
@@ -401,7 +401,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepDisinfectScalp
-  name: Disinfect Scalp
+  name: Продезинфицировать кожу головы
   components:
   - type: SurgeryStep
     duration: 2
@@ -415,7 +415,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepMakeIncisionScalp
-  name: Make Scalp Incision
+  name: Сделать разрез кожи головы
   components:
   - type: SurgeryStep
     duration: 4
@@ -433,7 +433,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepRetractScalp
-  name: Retract Scalp Flap
+  name: Оттянуть лоскут скальпа
   components:
   - type: SurgeryStep
     duration: 3
@@ -447,7 +447,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepDrillBurrHoles
-  name: Drill Burr Holes
+  name: Просверлить трепанационные отверстия
   components:
   - type: SurgeryStep
     duration: 6
@@ -461,7 +461,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepCutSkull
-  name: Cut Skull with Bone Saw
+  name: Распилить череп костной пилой
   components:
   - type: SurgeryStep
     duration: 7
@@ -479,7 +479,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepRemoveBoneFlap
-  name: Remove Bone Flap
+  name: Удалить костный лоскут
   components:
   - type: SurgeryStep
     duration: 3
@@ -493,7 +493,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepClampDuraMater
-  name: Clamp Dura Mater
+  name: Пережать твёрдую мозговую оболочку
   components:
   - type: SurgeryStep
     duration: 4
@@ -507,7 +507,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepInciseDuraMater
-  name: Incise Dura Mater
+  name: Надрезать твёрдую мозговую оболочку
   components:
   - type: SurgeryStep
     duration: 5
@@ -525,7 +525,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepRetractDuraMater
-  name: Retract Dura Mater
+  name: Оттянуть твёрдую мозговую оболочку
   components:
   - type: SurgeryStep
     duration: 3
@@ -539,7 +539,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepSeverCranialNerves
-  name: Sever Cranial Nerves
+  name: Пересечь черепные нервы
   components:
   - type: SurgeryStep
     duration: 6
@@ -557,7 +557,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepExtractBrain
-  name: Extract Brain
+  name: Извлечь мозг
   components:
   - type: SurgeryStep
     duration: 5
@@ -579,7 +579,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepPrepareImplantSiteLiver
-  name: Prepare Implant Site
+  name: Подготовить место импланта
   components:
   - type: SurgeryStep
     duration: 4
@@ -592,7 +592,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepInsertLiver
-  name: Insert Liver
+  name: Вставить печень
   components:
   - type: SurgeryStep
     duration: 3
@@ -607,7 +607,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepConnectLiverVessels
-  name: Connect Liver Vessels
+  name: Соединить сосуды печени
   components:
   - type: SurgeryStep
     duration: 5
@@ -622,7 +622,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepPrepareImplantSiteKidneys
-  name: Prepare Implant Site
+  name: Подготовить место импланта
   components:
   - type: SurgeryStep
     duration: 4
@@ -635,7 +635,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepInsertKidneys
-  name: Insert Kidneys
+  name: Вставить почки
   components:
   - type: SurgeryStep
     duration: 3
@@ -652,7 +652,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepConnectKidneysVessels
-  name: Connect Kidneys Vessels
+  name: Соединить сосуды почек
   components:
   - type: SurgeryStep
     duration: 5
@@ -667,7 +667,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepPrepareImplantSiteStomach
-  name: Prepare Implant Site
+  name: Подготовить место импланта
   components:
   - type: SurgeryStep
     duration: 4
@@ -680,7 +680,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepInsertStomach
-  name: Insert Stomach
+  name: Вставить желудок
   components:
   - type: SurgeryStep
     duration: 3
@@ -695,7 +695,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepConnectStomachVessels
-  name: Connect Stomach Vessels
+  name: Соединить сосуды желудка
   components:
   - type: SurgeryStep
     duration: 5
@@ -710,7 +710,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepPrepareImplantSiteLungs
-  name: Prepare Implant Site
+  name: Подготовить место импланта
   components:
   - type: SurgeryStep
     duration: 4
@@ -723,7 +723,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepInsertLungs
-  name: Insert Lungs
+  name: Вставить лёгкие
   components:
   - type: SurgeryStep
     duration: 3
@@ -738,7 +738,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepConnectLungVessels
-  name: Connect Lung Vessels
+  name: Соединить сосуды лёгких
   components:
   - type: SurgeryStep
     duration: 5
@@ -753,7 +753,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepPrepareImplantSiteHeart
-  name: Prepare Implant Site
+  name: Подготовить место импланта
   components:
   - type: SurgeryStep
     duration: 4
@@ -766,7 +766,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepInsertHeart
-  name: Insert Heart
+  name: Вставить сердце
   components:
   - type: SurgeryStep
     duration: 3
@@ -781,7 +781,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepConnectHeartVessels
-  name: Connect Heart Vessels
+  name: Соединить сосуды сердца
   components:
   - type: SurgeryStep
     duration: 10
@@ -796,7 +796,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepPrepareImplantSiteEyes
-  name: Prepare Implant Site
+  name: Подготовить место импланта
   components:
   - type: SurgeryStep
     duration: 2
@@ -809,7 +809,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepInsertEyes
-  name: Insert Eye
+  name: Вставить глаз
   components:
   - type: SurgeryStep
     duration: 2
@@ -826,7 +826,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepConnectOpticNerve
-  name: Connect Optic Nerve
+  name: Соединить зрительный нерв
   components:
   - type: SurgeryStep
     duration: 4
@@ -841,7 +841,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepInsertEyeImplant
-  name: Insert Eye Implant
+  name: Вставить глазной имплант
   components:
   - type: SurgeryStep
     duration: 2
@@ -859,7 +859,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepPrepareImplantSiteNose
-  name: Prepare Implant Site
+  name: Подготовить место импланта
   components:
   - type: SurgeryStep
     duration: 2
@@ -872,7 +872,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepInsertNoseImplant
-  name: Insert Nose Implant
+  name: Вставить носовой имплант
   components:
   - type: SurgeryStep
     duration: 2
@@ -888,7 +888,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepConnectOlfactoryNerve
-  name: Connect Olfactory Nerve
+  name: Соединить обонятельный нерв
   components:
   - type: SurgeryStep
     duration: 4
@@ -901,7 +901,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepClampOlfactoryNerve
-  name: Clamp Olfactory Nerve
+  name: Пережать обонятельный нерв
   components:
   - type: SurgeryStep
     duration: 3
@@ -914,7 +914,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepRemoveNoseImplant
-  name: Remove Nose Implant
+  name: Удалить носовой имплант
   components:
   - type: SurgeryStep
     duration: 3
@@ -933,7 +933,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepPrepareImplantSiteHand
-  name: Prepare Implant Site
+  name: Подготовить место импланта
   components:
   - type: SurgeryStep
     duration: 2
@@ -946,7 +946,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepInsertHandImplant
-  name: Insert Hand Implant
+  name: Вставить имплант руки
   components:
   - type: SurgeryStep
     duration: 2
@@ -962,7 +962,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepRemoveHandImplant
-  name: Remove Hand Implant
+  name: Удалить имплант кисти
   components:
   - type: SurgeryStep
     duration: 3
@@ -981,7 +981,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepInsertBrainImplant
-  name: Insert Brain Implant
+  name: Вставить мозговой имплант
   components:
   - type: SurgeryStep
     duration: 2
@@ -997,7 +997,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepRemoveBrainImplant
-  name: Remove Brain Implant
+  name: Удалить мозговой имплант
   components:
   - type: SurgeryStep
     duration: 2
@@ -1016,7 +1016,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepPrepareImplantSiteTongue
-  name: Prepare Implant Site
+  name: Подготовить место импланта
   components:
   - type: SurgeryStep
     duration: 2
@@ -1029,7 +1029,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepPositionTongue
-  name: Position Tongue
+  name: Установить язык
   components:
   - type: SurgeryStep
     duration: 2
@@ -1046,7 +1046,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepAttachTongue
-  name: Attach Tongue
+  name: Прикрепить язык
   components:
   - type: SurgeryStep
     duration: 3
@@ -1062,7 +1062,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepCleanImplantSite
-  name: Clean Implant Site
+  name: Очистить место импланта
   components:
   - type: SurgeryStep
     duration: 2
@@ -1075,7 +1075,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepPrepareScalp
-  name: Prepare Scalp
+  name: Подготовить скальп
   components:
   - type: SurgeryStep
     duration: 3
@@ -1088,7 +1088,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepPrepareDuraMater
-  name: Prepare Dura Mater
+  name: Подготовить твёрдую мозговую оболочку
   components:
   - type: SurgeryStep
     duration: 2
@@ -1101,7 +1101,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepInsertBrain
-  name: Insert Brain
+  name: Вставить мозг
   components:
   - type: SurgeryStep
     duration: 5
@@ -1118,7 +1118,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepReconnectCranialNerves
-  name: Reconnect Cranial Nerves
+  name: Воссоединить черепные нервы
   components:
   - type: SurgeryStep
     duration: 6
@@ -1131,7 +1131,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepReplaceDuraMater
-  name: Replace Dura Mater
+  name: Вернуть твёрдую мозговую оболочку
   components:
   - type: SurgeryStep
     duration: 3
@@ -1144,7 +1144,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepSealDuraMater
-  name: Seal Dura Mater
+  name: Герметизировать твёрдую мозговую оболочку
   components:
   - type: SurgeryStep
     duration: 4
@@ -1157,7 +1157,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepReplaceBoneFlap
-  name: Replace Bone Flap
+  name: Вернуть костный лоскут
   components:
   - type: SurgeryStep
     duration: 4
@@ -1170,7 +1170,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepSecureBoneFlap
-  name: Secure Bone Flap with Bone Gel
+  name: Закрепить костный лоскут костным гелем
   components:
   - type: SurgeryStep
     duration: 5
@@ -1183,7 +1183,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepReplaceScalp
-  name: Replace Scalp
+  name: Вернуть скальп
   components:
   - type: SurgeryStep
     duration: 3
@@ -1196,7 +1196,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepSutureScalp
-  name: Suture Scalp Incision
+  name: Зашить разрез скальпа
   components:
   - type: SurgeryStep
     duration: 4
@@ -1210,7 +1210,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepRemoveEgg
-  name: Remove Egg
+  name: Удалить яйцо
   components:
   - type: SurgeryStep
     duration: 5
@@ -1229,7 +1229,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepLocateItemCavity
-  name: Locate Item
+  name: Найти предмет
   components:
   - type: SurgeryStep
     duration: 3
@@ -1240,7 +1240,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepRemoveItemCavity
-  name: Remove Item
+  name: Извлечь предмет
   components:
   - type: SurgeryStep
     duration: 6
@@ -1258,7 +1258,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepPrepareImplantSiteCavity
-  name: Prepare Implant Site
+  name: Подготовить место импланта
   components:
   - type: SurgeryStep
     duration: 4
@@ -1271,7 +1271,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepInsertItemCavity
-  name: Insert Item
+  name: Вставить предмет
   components:
   - type: SurgeryStep
     duration: 3
@@ -1289,7 +1289,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepLocateCore
-  name: Locate Core
+  name: Найти ядро
   components:
   - type: SurgeryStep
     duration: 3
@@ -1300,7 +1300,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepInsertShadekinCore
-  name: Insert Core
+  name: Вставить ядро
   components:
   - type: SurgeryStep
     duration: 5
@@ -1315,7 +1315,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepExtractShadekinCore
-  name: Extract Core
+  name: Извлечь ядро
   components:
   - type: SurgeryStep
     duration: 5
@@ -1332,7 +1332,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepClampShadekinCoreVessels
-  name: Clamp Core Vessels
+  name: Пережать сосуды ядра
   components:
   - type: SurgeryStep
     duration: 5
@@ -1345,7 +1345,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepConnectShadekinCoreVessels
-  name: Connect Core Vessels
+  name: Соединить сосуды ядра
   components:
   - type: SurgeryStep
     duration: 10
@@ -1361,7 +1361,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepRemoveShell
-  name: Remove Shell
+  name: Удалить панцирь
   components:
   - type: SurgeryStep
     duration: 4
@@ -1380,7 +1380,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepPositionShell
-  name: Position Shell
+  name: Установить панцирь
   components:
   - type: SurgeryStep
     duration: 3

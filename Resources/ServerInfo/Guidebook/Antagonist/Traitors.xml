@@ -15,7 +15,7 @@
   Если вы становитесь предателем и у вас отсутствует КПК, вам будет предоставлен [color=cyan]имплант аплинка[/color] [bold]за его полную стоимость в [color=red]ТК[/color].[/bold]
   Он доступен через окно действий.
   <Box>
-    <GuideEntityEmbed Entity="PassengerPDA" Caption="КПК"/>
+    <GuideEntityEmbed Entity="AssistantPDA" Caption="КПК"/>
     <GuideEntityEmbed Entity="Telecrystal" Caption="Телекристалл"/>
     <GuideEntityEmbed Entity="UplinkImplanter" Caption="Имплант Аплинка"/>
   </Box>

@@ -1,7 +1,7 @@
 - type: entity
   parent: [UnsensoredClothingUniformBase, BaseSovietContraband]
   id: ClothingUniformJumpsuitSoviet
-  name: old war uniform
+  name: старая военная форма
   description: Relics of war, many of which have laid the foundation of the USSP. Wearing this may cause unsolicited war stories.
   components:
   - type: Sprite
@@ -12,7 +12,7 @@
 - type: entity
   parent: [ UnsensoredClothingUniformBase, BaseMajorContraband ]
   id: ClothingUniformJumpsuitAbductor
-  name: abductor uniform
+  name: форма похитителя
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpsuit/abductor.rsi
@@ -22,14 +22,14 @@
 - type: entity
   parent: ClothingUniformJumpsuitAtmos
   id: ClothingUniformJumpsuitAtmosSyndie
-  name: contortionist's jumpsuit
+  name: комбинезон конторсиониста
   components:
   - type: VentCrawlClothing
 
 - type: entity
   parent: [ ClothingUniformBase, BaseNanoTrasenContraband]
   id: MagistrateUniformSuit
-  name: magistrate's jumpsuit
+  name: комбинезон магистрата
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpsuit/magistrate.rsi
@@ -39,7 +39,7 @@
 - type: entity
   parent: [ ClothingUniformBase, BaseNanoTrasenContraband]
   id: ClothingUniformJumpsuitNtrep
-  name: nt representative suit
+  name: костюм представителя НаноТрейзен
   description: That suit that is better not to see.
   components:
   - type: Sprite
@@ -50,7 +50,7 @@
 - type: entity
   parent: [ ClothingUniformBase, BaseNanoTrasenContraband]
   id: ClothingUniformJumpsuitNtrepFormal
-  name: nt representative formal suit
+  name: торжественный костюм представителя НаноТрейзен
   description: That suit that is better not to see.
   components:
   - type: Sprite
@@ -61,7 +61,7 @@
 - type: entity
   parent: [ ClothingUniformBase, BaseNanoTrasenContraband]
   id: ClothingUniformJumpsuitNtrepTurtleNeck
-  name: nt representative's turtleneck jumpsuit
+  name: комбинезон с водолазкой представителя НаноТрейзен
   description: For a more casual look while on the job.
   components:
   - type: Sprite
@@ -72,7 +72,7 @@
 - type: entity
   parent: [ ClothingUniformBase, BaseNanoTrasenContraband]
   id: ClothingUniformJumpsuitNtrepNoble
-  name: nt representative's noble jumpsuit
+  name: благородный комбинезон представителя НаноТрейзен
   description: A more classical and elegant style of clothing, designed to emulate the fashion of old earth nobility.
   components:
   - type: Sprite
@@ -83,7 +83,7 @@
 - type: entity
   parent: [ClothingUniformBase, BaseBlueShieldContraband]
   id: ClothingUniformJumpsuitBlueShield
-  name: blueshield suit
+  name: костюм блюшилда
   description: The suit of a glorified bodyguard.
   components:
   - type: Sprite
@@ -94,7 +94,7 @@
 - type: entity
   parent: [ClothingUniformBase, BaseBlueShieldContraband]
   id: ClothingUniformJumpsuitEliteBlueShield
-  name: elite blueshield suit
+  name: костюм элитного блюшилда
   description: The suit of an elite BSO. To reach such a level, you must have protected Command from [REDACTED].
   components:
   - type: Sprite
@@ -105,7 +105,7 @@
 - type: entity
   parent: [ClothingUniformBase, BaseBlueShieldContraband]
   id: ClothingUniformJumpsuitBlueShieldShirt
-  name: blueshield officer's shirt
+  name: рубашка офицера блюшилда
   description: A collared shirt and pants for the blueshield officer who likes to keep it business casual.
   components:
   - type: Sprite
@@ -116,7 +116,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitSalvageLead
-  name: salvage lead's jumpsuit
+  name: комбинезон ведущего утилизатора
   description: It's a snappy jumpsuit with a sturdy set of overalls. It's very dirty.
   components:
   - type: RollUpSleeves
@@ -128,7 +128,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitMiningSpecialist
-  name: mining specialist's jumpsuit
+  name: комбинезон специалиста по добыче
   description: A suit passed down through many generations. A fine layer of dust trails behind it.
   components:
   - type: RollUpSleeves
@@ -141,7 +141,7 @@
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase]
   id: ClothingUniformJumpsuitSeniorChemist
-  name: senior chemist jumpsuit
+  name: комбинезон старшего химика
   description: A sign of skill, prestige, and alchemical prowess.
   components:
   - type: RollUpSleeves
@@ -153,7 +153,7 @@
 - type: entity
   parent: [ClothingUniformBase, BaseSecurityContraband]
   id: ClothingUniformJumpsuitCorpsman
-  name: corpsman's suit
+  name: костюм санитара
   description: Die in style on the front lines!
   components:
   - type: Sprite
@@ -169,7 +169,7 @@
 - type: entity
   parent: [ClothingUniformBase, BaseSecurityContraband]
   id: ClothingUniformJumpsuitCorpsmanResponse
-  name: corpsman's response wear
+  name: форма реагирования санитара
   description: If only I'd been faster.
   components:
   - type: Sprite
@@ -185,7 +185,7 @@
 - type: entity
   parent: [ClothingUniformBase, BaseSecurityContraband]
   id: ClothingUniformJumpsuitFormalBrigmedic
-  name: formal brigmedic jumpsuit
+  name: торжественный комбинезон бригмедика
   description: A formal suit for the brigmedic.
   components:
   - type: Sprite
@@ -201,7 +201,7 @@
 - type: entity
   parent: [ClothingUniformBase, BaseSecurityContraband]
   id: ClothingUniformJumpsuitSeniorBrigmedic
-  name: senior formal brigmedic jumpsuit
+  name: торжественный комбинезон старшего бригмедика
   description: A formal suit for the seasoned brigmedic.
   components:
   - type: Sprite
@@ -217,7 +217,7 @@
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase]
   id: ClothingUniformJumpsuitOfLife
-  name: suit of life
+  name: костюм жизни
   description: A suit that symbolizes the joy and positivity of our life.
   components:
   - type: RollUpSleeves
@@ -234,7 +234,7 @@
 - type: entity
   parent: [ClothingUniformBase, BaseSecurityContraband]
   id: ClothingUniformJumpsuitFormalDeputy
-  name: deputy's jumpsuit
+  name: комбинезон заместителя
   description: An attire for one who feels destined for the desert.
   components:
   - type: Sprite
@@ -245,7 +245,7 @@
 - type: entity
   parent: [ClothingUniformBase, BaseSecurityContraband]
   id: ClothingUniformJumpsuitFormalSecoff
-  name: formal security jumpsuit
+  name: торжественный комбинезон службы безопасности
   description: A formal attire for the security officer.
   components:
   - type: Sprite
@@ -256,7 +256,7 @@
 - type: entity
   parent: [ClothingUniformBase, BaseSecurityContraband]
   id: ClothingUniformJumpsuitFormalSeniorSecoff
-  name: formal senior security jumpsuit
+  name: торжественный комбинезон старшего офицера безопасности
   description: A formal attire for the senior security officer.
   components:
   - type: Sprite
@@ -267,7 +267,7 @@
 - type: entity
   parent: [ClothingUniformBase, BaseSecurityContraband]
   id: ClothingUniformJumpsuitDutyOfficer
-  name: duty officer's uniform
+  name: форма дежурного офицера
   description: A vibrant security suit for the warden's partner in chains.
   components:
   - type: Sprite
@@ -278,7 +278,7 @@
 - type: entity
   parent: [ClothingUniformBase, BaseSecurityContraband]
   id: ClothingUniformJumpsuitFormalWarden
-  name: warden's formal jumpsuit
+  name: торжественный комбинезон смотрителя
   description: A formal attire for the warden, missing a holster for the truncheon sadly.
   components:
   - type: Sprite
@@ -289,7 +289,7 @@
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase]
   id: ClothingUniformJumpsuitServiceWorkerBartender
-  name: waiter jumpsuit
+  name: комбинезон официанта
   description: A sharp and tidy uniform for the bartender's footsoldiers.
   components:
   - type: RollUpSleeves
@@ -301,7 +301,7 @@
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase]
   id: ClothingUniformJumpsuitServiceWorkerBotany
-  name: gardener jumpsuit
+  name: комбинезон садовника
   description: Has a light earthy smell to it. Has to be routinely bleached.
   components:
   - type: Sprite
@@ -312,7 +312,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitServiceWorkerChef
-  name: sous chef jumpsuit
+  name: комбинезон су-шефа
   description: The noble jumpsuit of the chef's co-conspirator.
   components:
   - type: Sprite
@@ -323,7 +323,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitPerformerClown
-  name: assistant clown jumpsuit
+  name: комбинезон ассистента клоуна
   description: Yet to be worthy of honking.
   components:
   - type: Sprite
@@ -334,7 +334,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitPerformerMime
-  name: mime apprentice jumpsuit
+  name: комбинезон ученика мима
   description: Still have to learn how to be quiet...
   components:
   - type: Sprite
@@ -345,7 +345,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitPerformerMusician
-  name: session musician jumpsuit
+  name: комбинезон сессионного музыканта
   description: A formal suit with a luxurious pair of pants. It's time to act!
   components:
   - type: Sprite
@@ -356,7 +356,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitClownFormal
-  name: distinguished clown suit
+  name: благородный костюм клоуна
   description: Why, I daresay, HONK!
   components:
   - type: Sprite
@@ -367,7 +367,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitLawyerService
-  name: green lawyer suit
+  name: зелёный костюм адвоката
   description: A flashy green suit worn by lawyers and show-offs.
   components:
   - type: Sprite
@@ -378,7 +378,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitLawyerGray
-  name: gray lawyer suit
+  name: серый костюм адвоката
   description: A plain gray suit worn by lawyers and show-offs.
   components:
   - type: Sprite
@@ -389,7 +389,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitLawyerPink
-  name: pink lawyer suit
+  name: розовый костюм адвоката
   description: A bright pink suit worn by lawyers that you should call.
   components:
   - type: Sprite
@@ -400,7 +400,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitLawyerBlackTwo
-  name: show lawyer suit
+  name: показной костюм адвоката
   description: A stylish black piece worn by lawyers and show people.
   components:
   - type: Sprite
@@ -411,7 +411,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitLawyerBad
-  name: bad lawyer's suit
+  name: костюм плохого адвоката
   description: A bold suit. Perfect for finding your one way, going wherever you want to go.
   components:
     - type: Sprite
@@ -424,7 +424,7 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpsuitSuitCheckered
-  name: evening plaid suit
+  name: вечерний клетчатый костюм
   description: This plaid suit blends formality and style. The expertly tailored blazer and straight trousers create a modern silhouette, while the plaid pattern adds a fashionable touch. Perfect for office meetings and everyday business gatherings.
   components:
   - type: Sprite
@@ -435,7 +435,7 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpsuitSuitTan
-  name: evening beige suit
+  name: вечерний бежевый костюм
   description: This chocolate-colored evening suit embodies luxury and elegance. The fitted blazer and flared trousers create a refined silhouette, while the rich chocolate hue adds warmth and sophistication. Perfect for special evening events.
   components:
   - type: Sprite
@@ -446,7 +446,7 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpsuitSuitWaiter
-  name: waiter's suit
+  name: костюм официанта
   description: This waiter uniform combines style and comfort. The collared blouse and cuffed trousers create a formal yet relaxed look. Additional details like the apron and bowtie add a playful touch, completing the stylish appearance of a waiter serving with grace and professionalism.
   components:
   - type: Sprite
@@ -457,7 +457,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitMimeSuaveWhite
-  name: suave mime costume with white pants
+  name: элегантный костюм мима с белыми штанами
   description: A suave mime costume with white pants combines playful charm and allure. The outfit typically features a fitted top, suspenders, and white trousers, with bold black-and-white details. It's perfect for an entertaining yet chic look, exuding both mystery and confidence.
   components:
   - type: Sprite
@@ -468,7 +468,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitMimeSuaveBlack
-  name: suave mime costume with black pants
+  name: элегантный костюм мима с чёрными штанами
   description: A suave mime costume with black pants combines playful charm and allure. The outfit typically features a fitted top, suspenders, and white trousers, with bold black-and-white details. It's perfect for an entertaining yet chic look, exuding both mystery and confidence.
   components:
   - type: Sprite
@@ -479,7 +479,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitCargoAlt
-  name: cargo suit
+  name: костюм грузчика
   description: A good suit for supply department workers combines practicality and professionalism. Featuring durable fabric, functional pockets, and a comfortable fit, it ensures ease of movement while maintaining a neat and polished appearance. Ideal for day-to-day operations and meetings.
   components:
   - type: Sprite
@@ -490,7 +490,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitCargoFormal
-  name: formal cargo jumpsuit
+  name: торжественный комбинезон грузчика
   description: Designed for fashion shows on a conveyor belt, this sleek and structured cargo jumpsuit blends utility with high-fashion appeal. Perfect for showcasing bold, industrial-inspired looks with a refined edge.
   components:
   - type: Sprite
@@ -501,7 +501,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitMail
-  name: mail technician jumpsuit
+  name: комбинезон почтальона
   description: A stylish cargo yellow and mail bag-blue uniform custom made for mail technicians.
   components:
   - type: Sprite
@@ -512,7 +512,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitSeniorMail
-  name: senior mail technician jumpsuit
+  name: комбинезон старшего почтальона
   description: A more vibrant mail technician outfit made in the color of cargo's formal uniforms. Perfect for deliver the mail in style, and looking good while doing it.
   components:
   - type: Sprite
@@ -523,7 +523,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitSalvageFormal
-  name: formal salvage jumpsuit
+  name: торжественный комбинезон утилизатора
   description: A practical and durable outfit designed for waste management and reclamation tasks, combining functionality with a professional look. Perfect for those in the field, ensuring comfort, efficiency, and a polished appearance.
   components:
   - type: Sprite
@@ -534,7 +534,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitCoroner
-  name: coroner jumpsuit
+  name: комбинезон коронера
   description: Issued to qualified and trained professionals, this jumpsuit features the phrase "I don't just work with the dead, I dance with them on their final parade!" adding a unique touch of dark humor to the professional uniform.
   components:
   - type: Sprite
@@ -545,7 +545,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitCoronerAlt
-  name: surgical gown
+  name: хирургический халат
   description: Guaranteed to protect your wardrobe from bloody details, but we can't make any promises. Ideal for medical professionals who need both protection and a touch of uncertainty.
   components:
   - type: Sprite
@@ -557,7 +557,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitSuperstarCop
-  name: superstar cop uniform
+  name: форма полицейского суперзвезды
   description: Flare cut trousers and a dirty shirt that might have been classy before someone took a piss in the armpits. It's the dress of a superstar.
   components:
   - type: Sprite
@@ -568,7 +568,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitAerostatic
-  name: aerostatic suit
+  name: костюм воздухоплавателя
   description: A crisp and well-pressed suit; professional, comfortable and curiously authoritative.
   components:
   - type: Sprite
@@ -579,7 +579,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitCentcomOfficerBlack
-  name: special operations officer uniform
+  name: униформа офицера специальных операций
   description: Special Operations Officer uniform, nothing like that. Although... If you have time to read this, it's too late...
   components:
   - type: Sprite
@@ -590,7 +590,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitCentcomAdmiral
-  name: admiral's uniform
+  name: униформа адмирала
   description: A uniform worn by those with the rank Admiral in the NanoTrasen Navy.
   components:
   - type: Sprite
@@ -601,7 +601,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitCapTurtleneck
-  name: captain's turtleneck
+  name: водолазка капитана
   description: True captain's turtleneck.
   components:
   - type: Sprite
@@ -612,7 +612,7 @@
 - type: entity
   parent: [ ClothingUniformBase, BaseCommandContraband ]
   id: ClothingUniformJumpsuitCaptainNoble
-  name: captain's noble jumpsuit
+  name: благородный комбинезон капитана
   description: A more classical and elegant style of clothing, designed to emulate the fashion of old earth nobility.
   components:
   - type: Sprite
@@ -623,7 +623,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitHoPTurtleneck
-  name: head of personal's turtleneck
+  name: водолазка главы персонала
   description: It's Head of Personal's turtleneck.
   components:
   - type: Sprite
@@ -634,7 +634,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitHoSBlack
-  name: head of security's black suit
+  name: чёрный комбинезон главы службы безопасности
   description: It's Head of Security's black suit.
   components:
   - type: Sprite
@@ -645,7 +645,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitRDClassical
-  name: research director's classical suit
+  name: классический костюм научного руководителя
   description: It's Research Director's сlassical suit.
   components:
   - type: Sprite
@@ -656,7 +656,7 @@
 - type: entity
   parent: [ClothingUniformBase, BaseBlueShieldContraband]
   id: ClothingUniformJumpsuitFormalBlueShield
-  name: formal blueshield officer suit
+  name: торжественный костюм офицера блюшилда
   description: A textile jumpsuit, reinforced with thick leather in some areas.
   components:
   - type: Sprite
@@ -667,7 +667,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitSpaceCourier
-  name: space courier underclothes
+  name: нательное бельё космического курьера
   description: Luxurious underclothes, styled after a legendary space courier. Fly, my space courier!
   components:
   - type: Sprite
@@ -678,7 +678,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformTimelessSuit
-  name: timeless suit
+  name: вневременной костюм
   description: A luxury suit with a timeless design.
   components:
     - type: Sprite
@@ -691,7 +691,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitSquidTheseGames
-  name: these games uniform
+  name: форма этих игр
   description: I PLAYED THESE GAMES B4!!! I said i play-GET OUT!
   components:
   - type: Sprite
@@ -702,7 +702,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitSquidDangerous
-  name: dangerous uniform
+  name: опасная форма
   description: Please, no, i will give yo-POW POW POW!
   components:
   - type: Sprite
@@ -714,7 +714,7 @@
 - type: entity
   parent: [ UnsensoredClothingUniformBase, BaseSovietContraband ]
   id: ClothingUniformJumpsuitSovietAdmiral
-  name: soviet admiral jumpsuit
+  name: комбинезон советского адмирала
   description: They are one phone call away from ruining your life.
   components:
   - type: Sprite
@@ -725,7 +725,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitTrackSuit
-  name: black tracksuit
+  name: чёрный спортивный костюм
   description: Tider? Nyet, gopnik.
   components:
   - type: Sprite
@@ -736,7 +736,7 @@
 - type: entity
   parent: [ UnsensoredClothingUniformBase, BaseSovietContraband ]
   id: ClothingUniformJumpsuitSovietFatigues
-  name: SSF marine combat fatigues
+  name: боевая форма морпеха ССФ
   description: Not one step back.
   components:
   - type: Sprite
@@ -747,7 +747,7 @@
 - type: entity
   parent: [ ClothingUniformBase, BaseCentcommContraband ]
   id: ClothingAltUniformJumpsuitCentcomOfficial
-  name: CentComm officer's jumpsuit
+  name: комбинезон офицера ЦК
   description: It's a jumpsuit worn by CentComm officers.
   components:
   - type: Sprite
@@ -758,7 +758,7 @@
 - type: entity
   parent: [ ClothingUniformBase, BaseCentcommContraband ]
   id: ClothingUniformJumpsuitCentcomFormalCAD
-  name: Central Administration Division officer's formal jumpsuit
+  name: торжественный комбинезон офицера Центрального административного дивизиона
   description: It's a formal jumpsuit worn by CentComm officers.
   components:
     - type: Sprite
@@ -769,7 +769,7 @@
 - type: entity
   parent: [ ClothingUniformBase, BaseCentcommContraband ]
   id: ClothingUniformJumpsuitCentcomFormalCMD
-  name: Central Medical Division officer's formal jumpsuit
+  name: торжественный комбинезон офицера Центрального медицинского дивизиона
   description: It's a formal jumpsuit worn by CentComm officers.
   components:
     - type: Sprite
@@ -780,7 +780,7 @@
 - type: entity
   parent: [ ClothingUniformBase, BaseCentcommContraband ]
   id: ClothingUniformJumpsuitCentcomFormalCRD
-  name: Central Research Division officer's formal jumpsuit
+  name: торжественный комбинезон офицера Центрального научного дивизиона
   description: It's a formal jumpsuit worn by CentComm officers.
   components:
     - type: Sprite
@@ -791,7 +791,7 @@
 - type: entity
   parent: [ ClothingUniformBase, BaseCentcommContraband ]
   id: ClothingUniformJumpsuitCentcomFormalCCD
-  name: Central Cargo Division officer's formal jumpsuit
+  name: торжественный комбинезон офицера Центрального грузового дивизиона
   description: It's a formal jumpsuit worn by CentComm officers.
   components:
     - type: Sprite
@@ -802,7 +802,7 @@
 - type: entity
   parent: [ ClothingUniformBase, BaseCentcommContraband ]
   id: ClothingUniformJumpsuitCentcomFormalCSOD
-  name: Central Special Operations Division officer's formal jumpsuit
+  name: торжественный комбинезон офицера Центрального дивизиона спецопераций
   description: It's a formal jumpsuit worn by CentComm officers.
   components:
     - type: Sprite
@@ -813,7 +813,7 @@
 - type: entity
   parent: [ ClothingUniformBase, BaseCentcommContraband ]
   id: ClothingUniformJumpsuitCentcomFormalCID
-  name: Central Intelligence Division officer's formal jumpsuit
+  name: торжественный комбинезон офицера Центрального разведывательного дивизиона
   description: It's a formal jumpsuit worn by CentComm officers.
   components:
     - type: Sprite
@@ -824,7 +824,7 @@
 - type: entity
   parent: [ ClothingUniformBase, BaseCentcommContraband ]
   id: ClothingUniformJumpsuitCentcomFormalCSD
-  name: Central Security Division officer's formal jumpsuit
+  name: торжественный комбинезон офицера Центрального дивизиона безопасности
   description: It's a formal jumpsuit worn by CentComm officers.
   components:
     - type: Sprite
@@ -835,7 +835,7 @@
 - type: entity
   parent: [ ClothingUniformBase, BaseCentcommContraband ]
   id: ClothingUniformJumpsuitCentcomFormalCED
-  name: Central Engineering Division officer's formal jumpsuit
+  name: торжественный комбинезон офицера Центрального инженерного дивизиона
   description: It's a formal jumpsuit worn by CentComm officers.
   components:
     - type: Sprite
@@ -846,7 +846,7 @@
 - type: entity
   parent: [ ClothingUniformBase, BaseCentcommContraband ]
   id: ClothingUniformJumpsuitCentcomFormalDressCAD
-  name: Central Administration Division officer's formal dress jumpsuit
+  name: парадный комбинезон офицера Центрального административного дивизиона
   description: It's a formal dress jumpsuit worn by CentComm officers.
   components:
     - type: Sprite
@@ -857,7 +857,7 @@
 - type: entity
   parent: [ ClothingUniformBase, BaseCentcommContraband ]
   id: ClothingUniformJumpsuitCentcomFormalDressCMD
-  name: Central Medical Division officer's formal dress jumpsuit
+  name: парадный комбинезон офицера Центрального медицинского дивизиона
   description: It's a formal dress jumpsuit worn by CentComm officers.
   components:
     - type: Sprite
@@ -868,7 +868,7 @@
 - type: entity
   parent: [ ClothingUniformBase, BaseCentcommContraband ]
   id: ClothingUniformJumpsuitCentcomFormalDressCRD
-  name: Central Research Division officer's formal dress jumpsuit
+  name: парадный комбинезон офицера Центрального научного дивизиона
   description: It's a formal dress jumpsuit worn by CentComm officers.
   components:
     - type: Sprite
@@ -879,7 +879,7 @@
 - type: entity
   parent: [ ClothingUniformBase, BaseCentcommContraband ]
   id: ClothingUniformJumpsuitCentcomFormalDressCCD
-  name: Central Cargo Division officer's formal dress jumpsuit
+  name: парадный комбинезон офицера Центрального грузового дивизиона
   description: It's a formal dress jumpsuit worn by CentComm officers.
   components:
     - type: Sprite
@@ -890,7 +890,7 @@
 - type: entity
   parent: [ ClothingUniformBase, BaseCentcommContraband ]
   id: ClothingUniformJumpsuitCentcomFormalDressCSOD
-  name: Central Special Operations Division officer's formal dress jumpsuit
+  name: парадный комбинезон офицера Центрального дивизиона спецопераций
   description: It's a formal dress jumpsuit worn by CentComm officers.
   components:
     - type: Sprite
@@ -901,7 +901,7 @@
 - type: entity
   parent: [ ClothingUniformBase, BaseCentcommContraband ]
   id: ClothingUniformJumpsuitCentcomFormalDressCID
-  name: Central Intelligence Division officer's formal dress jumpsuit
+  name: парадный комбинезон офицера Центрального разведывательного дивизиона
   description: It's a formal dress jumpsuit worn by CentComm officers.
   components:
     - type: Sprite
@@ -912,7 +912,7 @@
 - type: entity
   parent: [ ClothingUniformBase, BaseCentcommContraband ]
   id: ClothingUniformJumpsuitCentcomFormalDressCSD
-  name: Central Security Division officer's formal dress jumpsuit
+  name: парадный комбинезон офицера Центрального дивизиона безопасности
   description: It's a formal dress jumpsuit worn by CentComm officers.
   components:
     - type: Sprite
@@ -923,7 +923,7 @@
 - type: entity
   parent: [ ClothingUniformBase, BaseCentcommContraband ]
   id: ClothingUniformJumpsuitCentcomFormalDressCED
-  name: Central Engineering Division officer's formal dress jumpsuit
+  name: парадный комбинезон офицера Центрального инженерного дивизиона
   description: It's a formal dress jumpsuit worn by CentComm officers.
   components:
     - type: Sprite
@@ -934,7 +934,7 @@
 - type: entity
   parent: [ClothingUniformBase, BaseSecurityContraband]
   id: ClothingUniformSecurityTshirt
-  name: t-shirt security uniform
+  name: форма безопасности с футболкой
   description: Light and unrestrictive uniform, so that nothing can stop you from swinging a stunbaton.
   components:
   - type: Sprite
@@ -945,7 +945,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitRisk
-  name: station daredevil's  jumpsuit
+  name: комбинезон станционного смельчака
   description: A jumpsuit with red lines along the sides.
   components:
   - type: Sprite
@@ -956,7 +956,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitSeniorParamedic
-  name: senior paramedic jumpsuit
+  name: комбинезон старшего парамедика
   description: These epaulettes mark a paramedic that has walked through fire and void to save those in need
   components:
   - type: Sprite
@@ -967,7 +967,7 @@
 - type: entity
   parent: [ ClothingUniformBase , BaseSalvageContraband ]
   id: ClothingUniformJumpsuitSalvageMercWhite
-  name: white scrapper jumpsuit
+  name: белый комбинезон утилизатора
   description: Utilitarian clothing for salvagers.
   components:
     - type: Sprite
@@ -978,7 +978,7 @@
 - type: entity
   parent: [ ClothingUniformBase , BaseSalvageContraband ]
   id: ClothingUniformJumpsuitSalvageMercGreen
-  name: green scrapper jumpsuit
+  name: зелёный комбинезон утилизатора
   description: Utilitarian clothing for salvagers.
   components:
     - type: Sprite
@@ -989,7 +989,7 @@
 - type: entity
   parent: [ ClothingUniformBase , BaseSalvageContraband ]
   id: ClothingUniformJumpsuitSalvageMercBrown
-  name: brown scrapper jumpsuit
+  name: коричневый комбинезон утилизатора
   description: Utilitarian clothing for salvagers.
   components:
     - type: Sprite
@@ -1000,7 +1000,7 @@
 - type: entity
   parent: [ClothingUniformBase, BaseTSFContraband]
   id: ClothingUniformJumpsuitTSF
-  name: TSF marine uniform
+  name: форма морпеха ТСФ
   description: A comfortable and durable combat uniform worn by the forces of the Trans-Solar Marine Corps.
   components:
   - type: Sprite
@@ -1011,7 +1011,7 @@
 - type: entity
   parent: [ClothingUniformBase, BaseTSFContraband]
   id: ClothingUniformJumpsuitTSFRep
-  name: TSF representative's uniform
+  name: форма представителя ТСФ
   description: A formal uniform worn by the diplomatic representatives of the Trans-Solar Federation.
   components:
   - type: Sprite
@@ -1022,7 +1022,7 @@
 - type: entity
   parent: [ClothingUniformBase, BaseTSFContraband]
   id: ClothingUniformJumpsuitTSFElite
-  name: MARSOC uniform
+  name: форма MARSOC
   description: A comfortable and durable combat uniform worn by marines of the Trans-Solar Federation's Marine Special Operations Command.
   components:
   - type: Sprite
@@ -1033,7 +1033,7 @@
 - type: entity
   parent: [ ClothingUniformBase, BaseNanoTrasenContraband ]
   id: ClothingUniformJumpsuitNCT
-  name: nt career trainer's uniform
+  name: форма тренера НТ
   description: A neatly pressed olive green shirt paired with black jeans, worn by those dedicated to shaping the future of the workforce.
   components:
   - type: Sprite
@@ -1045,7 +1045,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitVampir
-  name: bloodstained aristocrat suit
+  name: окровавленный костюм аристократа
   description: An aristocratic suit reeking of blood and lost dreams.
   components:
   - type: Sprite
@@ -1056,7 +1056,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformDama235123
-  name: noble suit
+  name: благородный костюм
   description: A blue noble suit that exudes elegance and refinement.
   components:
     - type: Sprite
@@ -1068,7 +1068,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitTraditionalReptilian
-  name: traditional reptilian clothes
+  name: традиционная рептилоидная одежда
   description: Traditional garments crafted from cloth, worn by the reptilians. This does not stop you from wearing it, if you want.
   components:
   - type: Sprite
@@ -1082,7 +1082,7 @@
 - type: entity
   parent: [ClothingUniformBase, BaseTSFContraband]
   id: ClothingUniformJumpsuitRetroOfficer
-  name: TSF officer's uniform
+  name: форма офицера ТСФ
   description: A standard uniform from the Trans Solar Federation's law enforcement division. This classic peacekeeping attire represents TSF authority across the galaxy.
   components:
   - type: Sprite
@@ -1095,7 +1095,7 @@
   parent: [ BaseCentcommContraband, ClothingUniformBase ]
   categories: [ DoNotMap ]
   id: ClothingUniformJumpsuitGreenshield
-  name: greenshield uniform
+  name: форма гриншилда
   description: A special suit made for the best of the elites under CentComm.
   components:
     - type: Sprite
@@ -1106,7 +1106,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitAssistant
-  name: assistant jumpsuit
+  name: комбинезон ассистента
   description: A tasteful green jumpsuit that reminds you of the good old days.
   components:
   - type: RollUpSleeves
@@ -1137,7 +1137,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitChefSenior
-  name: senior chef's jumpsuit
+  name: комбинезон старшего шеф-повара
   description: A sharp black jumpsuit for that Kitchen drip.
   components:
   - type: RollUpSleeves
@@ -1168,7 +1168,7 @@
 - type: entity
   parent: [ ClothingUniformBase, BaseCentcommContraband ]
   id: ClothingUniformJumpsuitCentCommServiceWorker
-  name: CentComm service worker's jumpsuit
+  name: комбинезон сервисного работника ЦК
   description: It's a jumpsuit worn by CentComm service workers. Those boots need licking.
   components:
   - type: Sprite
@@ -1179,7 +1179,7 @@
 - type: entity
   parent: [ ClothingUniformBase, BaseCentcommContraband ]
   id: ClothingUniformJumpsuitCentCommBartender
-  name: CentComm bartender's jumpsuit
+  name: комбинезон бармена ЦК
   description: It's a jumpsuit worn by CentComm bartenders. Those drinks won't serve themselves.
   components:
   - type: Sprite
@@ -1190,7 +1190,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitFirefighter
-  name: firefighter smock
+  name: куртка пожарного
   description: A brown covering with a red flame emblazoned on the back. It's covered in an unwashable layer of soot.
   components:
   - type: Sprite
@@ -1213,7 +1213,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitSalvageMedic
-  name: salvage medic's jumpsuit
+  name: комбинезон медика-утилизатора
   description: It's a snappy jumpsuit with a sturdy set of overalls. It's very bloody.
   components:
   - type: RollUpSleeves

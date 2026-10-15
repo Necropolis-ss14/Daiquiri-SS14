@@ -47,7 +47,7 @@
 - type: entity
   parent: [ClothingHeadBase, BaseSecurityContraband, BaseToggleClothing]
   id: ClothingHeadHelmetBulletProof
-  name: bulletproof helmet
+  name: пуленепробиваемый шлем
   description: Protects the face against bullets, can flip up and down.
   components:
   - type: Sprite
@@ -92,7 +92,7 @@
 - type: entity
   parent: [ClothingHeadHelmetBase, BaseSecurityContraband]
   id: ClothingHeadHelmetReflective
-  name: reflective helmet
+  name: отражающий шлем
   description: A shiny helmet for your equally shiny vest. Provides 100% reflection when worn with the reflective vest.
   components:
   - type: Sprite
@@ -121,7 +121,7 @@
 - type: entity
   parent: [ClothingHeadHelmetBase, BaseSecurityContraband]
   id: ClothingHeadHelmetPlate
-  name: plate helmet
+  name: латный шлем
   description: A modified security helmet with a ceramic plate insert, which means less padding for blunt hits.
   components:
   - type: Sprite
@@ -142,7 +142,7 @@
 - type: entity
   parent:  [ClothingHeadHelmetBase, BaseSecurityContraband ]
   id: ClothingHeadHelmetStabproof
-  name: stabproof helmet
+  name: ножостойкий шлем
   description: The most "comfortable" security helmet, as rated by officers. Will take a blow to the head nicely, but a bullet'll go right through it.
   components:
   - type: Sprite
@@ -163,7 +163,7 @@
 - type: entity
   parent: [ ClothingHeadHelmetBase, BaseSecurityContraband ]
   id: ClothingHeadHelmetHeatAbsorbent
-  name: heat absorbent helmet
+  name: теплопоглощающий шлем
   description: Advanced helmet best paired with the vest for pure style, has minor reflective properties and can absorb heat fairly well.
   components:
   - type: Sprite
@@ -184,7 +184,7 @@
 - type: entity
   parent: [ClothingHeadHelmetBase, BaseMinorContraband]
   id: ClothingHeadHelmetMakeshift
-  name: makeshift helmet
+  name: самодельный шлем
   description: Cobbled together steel held together with lv cables in the vauge shape of a helmet. Barely does anything.
   components:
   - type: Armor
@@ -205,7 +205,7 @@
 - type: entity
   parent: [ClothingHeadHelmetBase, BaseMinorContraband]
   id: ClothingHeadHelmetImprovised
-  name: improvised helmet
+  name: импровизированный шлем
   description: Interlocking steel plates provides some decent protection, but is still barely better than nothing.
   components:
   - type: Armor
@@ -223,7 +223,7 @@
 - type: entity
   parent: [ClothingHeadHelmetBase, BaseMinorContraband]
   id: ClothingHeadHelmetForged
-  name: forged helmet
+  name: кованый шлем
   description: A high-quality helmet made by some of the best Tidersmiths, it is finally worthwhile to have it on your head.
   components:
   - type: Armor
@@ -241,7 +241,7 @@
 - type: entity
   parent: [ClothingHeadHelmetBase, BaseMajorContraband]
   id: ClothingHeadHelmetPaladin
-  name: paladin helmet
+  name: шлем паладина
   description: No true paladin can go without their helmet!
   components:
   - type: Armor
@@ -259,7 +259,7 @@
 - type: entity
   parent: ClothingHeadHelmetERTLeader
   id: ClothingHeadHelmetNTNCConsortium
-  name: nt-nc naval helmet
+  name: морской шлем НТ-ЦК
   description: An in-atmosphere helmet worn by NT-NC Naval Officers.
   components:
   - type: Sprite
@@ -273,7 +273,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHelmetRisk
-  name: station daredevil's helmet
+  name: шлем станционного смельчака
   description: A strong helmet with a cool red line in the middle.
   components:
   - type: Sprite
@@ -290,7 +290,7 @@
 - type: entity
   parent: [ ClothingHeadHelmetArmoredBase, BaseSalvageContraband ]
   id: ClothingHeadHelmetSalvageMerc
-  name: scrapper helmet
+  name: шлем утилизатора
   description: A durable, lightweight helmet favored by salvagers.
   components:
     - type: Sprite
@@ -306,7 +306,7 @@
   parent: [ BaseCentcommContraband, ClothingHeadHelmetRaid ]
   id: ClothingHeadHelmetGreenshield
   categories: [ DoNotMap ]
-  name: Greenshield helmet
+  name: шлем гриншилда
   description: A special helmet worn by Greenshield Officers.
   components:
     - type: Sprite
@@ -320,7 +320,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: ChangelingClothingHeadHelmet
-  name: chitinous helmet
+  name: хитиновый шлем
   description: An all-consuming chitinous mass of armor.
   suffix: Unremoveable
   components:

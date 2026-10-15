@@ -1,7 +1,7 @@
 - type: entity
   parent: [ BaseSyndicateContraband, WeaponLauncherHydra ]
   id: WeaponLauncherHydraSyndicate
-  name: modified hydra
+  name: модифицированная «Гидра»
   suffix: Syndicate
   description: It looks like a standard-issue Hydra cleanade launcher, but the safety measures have been filed off.
   components:
@@ -34,7 +34,7 @@
 - type: entity
   parent: [ BaseWeaponLauncher, BaseGunWieldable ]
   id: WeaponLauncherChonoLoke
-  name: chono loke
+  name: Чоно Локе
   description: A suspiciously convincing replica of the infamous China Lake grenade launcher, lovingly handcrafted by DONK CO. Fires DONK CO.-certified "totally real" grenades. Also accepts real ones, but that's probably fine.
   components:
   - type: Sprite

@@ -1,6 +1,6 @@
 - type: microwaveMealRecipe
   id: RecipeOilPack
-  name: oil pack recipe
+  name: Рецепт упаковки масла
   result: OilPack1
   time: 5
   group: Medicinal

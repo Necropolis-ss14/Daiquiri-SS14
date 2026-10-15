@@ -1,7 +1,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepRemoveHandImplantRobot
-  name: Remove Hand Implant
+  name: Удалить имплант кисти
   components:
   - type: SurgeryStep
     duration: 3
@@ -17,7 +17,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepRemoveBrainImplantRobot
-  name: Remove Brain Implant
+  name: Удалить мозговой имплант
   components:
   - type: SurgeryStep
     duration: 3

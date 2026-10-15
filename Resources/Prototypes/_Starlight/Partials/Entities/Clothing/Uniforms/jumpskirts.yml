@@ -1,6 +1,6 @@
 - type: !PartialOnly entity
   id: ClothingUniformJumpskirtChaplain
-  name: chaplain jumpskirt # chaplain's -> chaplain
+  name: "chaplain jumpskirt # chaplain's -> chaplain"
 
 - type: !PartialOnly entity
   id: ClothingUniformJumpskirtBrigmedic

@@ -1,7 +1,7 @@
 - type: entity
   id: CigaretteBub
   parent: Cigarette
-  name: Greyman's Special
+  name: особые Греймена
   components:
   - type: Solution
     id: smokable
@@ -21,7 +21,7 @@
 - type: entity
   id: CigaretteLead
   parent: SoakedCigarette
-  name: Metal Head
+  name: металлическая голова
   components:
   - type: Solution
     id: smokable

@@ -1,7 +1,7 @@
 - type: entity
   parent: [GunSafeBaseArmorySL, BaseRestrictedContraband]
   id: GunSafeEnergySniper
-  name: LWAP safe
+  name: сейф LWAP
   components:
   - type: EntityStorageVisuals
     stateDoorClosed: lwap_gunsafe_doors
@@ -130,7 +130,7 @@
 - type: entity
   parent: [GunSafeBaseArmorySL, BaseSecurityContraband]
   id: GunSafeHeavyWeapons # To save remapping
-  name: DMR safe
+  name: сейф DMR
   description: Contains a set of L10 DMRs
   components:
   - type: EntityStorageVisuals
@@ -152,7 +152,7 @@
   parent: [GunSafeBaseArmorySL, BaseSecurityContraband]
   id: GunSafeLMG
   categories: [ DoNotMap ]
-  name: heavy weapon safe
+  name: сейф тяжёлого оружия
   description: For when talking it out just isn't enough.
   components:
   - type: EntityStorageVisuals
@@ -177,7 +177,7 @@
 - type: entity
   parent: [GunSafeBaseArmorySL, BaseSecurityContraband]
   id: GunSafeMelee
-  name: melee safe
+  name: сейф ближнего боя
   description: Contains a set of heavy melee weapons.
   components:
   - type: EntityStorageVisuals

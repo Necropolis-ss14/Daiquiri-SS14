@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: PartDoll
   parent: [BaseItem, BasePart]
-  name: ent-PartDoll
+  name: часть тела куклы
   abstract: true
   components:
   - type: Extractable
@@ -16,7 +16,7 @@
 
 - type: entity
   id: TorsoDoll
-  name: ent-TorsoDoll
+  name: туловище куклы
   parent: [PartDoll, BaseTorso]
   components:
     - type: Sprite
@@ -37,7 +37,7 @@
 
 - type: entity
   id: HeadDoll
-  name: ent-HeadDoll
+  name: голова куклы
   parent: [PartDoll, BaseHead]
   components:
     - type: Sprite
@@ -58,7 +58,7 @@
 
 - type: entity
   id: LeftArmDoll
-  name: ent-LeftArmDoll
+  name: левая рука куклы
   parent: [PartDoll, BaseLeftArm]
   components:
     - type: Sprite
@@ -70,7 +70,7 @@
 
 - type: entity
   id: RightArmDoll
-  name: ent-RightArmDoll
+  name: правая рука куклы
   parent: [PartDoll, BaseRightArm]
   components:
     - type: Sprite
@@ -82,7 +82,7 @@
 
 - type: entity
   id: LeftHandDoll
-  name: ent-LeftHandDoll
+  name: левая кисть куклы
   parent: [PartDoll, BaseLeftHand]
   components:
     - type: Sprite
@@ -94,7 +94,7 @@
 
 - type: entity
   id: RightHandDoll
-  name: ent-RightHandDoll
+  name: правая кисть куклы
   parent: [PartDoll, BaseRightHand]
   components:
     - type: Sprite
@@ -106,7 +106,7 @@
 
 - type: entity
   id: LeftLegDoll
-  name: ent-LeftLegDoll
+  name: левая нога куклы
   parent: [PartDoll, BaseLeftLeg]
   components:
     - type: Sprite
@@ -118,7 +118,7 @@
 
 - type: entity
   id: RightLegDoll
-  name: ent-RightLegDoll
+  name: правая нога куклы
   parent: [PartDoll, BaseRightLeg]
   components:
     - type: Sprite
@@ -130,7 +130,7 @@
 
 - type: entity
   id: LeftFootDoll
-  name: ent-LeftFootDoll
+  name: левая стопа куклы
   parent: [PartDoll, BaseLeftFoot]
   components:
     - type: Sprite
@@ -142,7 +142,7 @@
 
 - type: entity
   id: RightFootDoll
-  name: ent-RightFootDoll
+  name: правая стопа куклы
   parent: [PartDoll, BaseRightFoot]
   components:
     - type: Sprite

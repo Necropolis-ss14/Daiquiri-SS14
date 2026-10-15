@@ -107,8 +107,8 @@
 - type: entity
   id: OrganDollBrain
   parent: [BaseDollOrgan]
-  name: ent-OrganDollBrain
-  description: ent-OrganDollBrain-desc
+  name: мозг
+  description: Странный комок мяса, заменяющий мозг.
   components:
   - type: Sprite
     state: brain
@@ -138,8 +138,8 @@
 - type: entity
   id: OrganDollEyes
   parent: [BaseDollOrgan, BaseOrganEyes]
-  name: ent-OrganDollEyes
-  description: ent-OrganDollEyes-desc
+  name: глаза
+  description: Их тут слишком много...
   components:
   - type: Sprite
     layers:
@@ -156,8 +156,8 @@
 - type: entity
   id: OrganDollTongue
   parent: [BaseDollOrgan, BaseOrganTongue]
-  name: ent-OrganDollTongue
-  description: ent-OrganDollTongue-desc
+  name: язык
+  description: Мясистая мышца, в основном используемая для нашёптывания секретов из темноты.
   components:
   - type: OrganTongue
     sounds:
@@ -170,8 +170,8 @@
 - type: entity
   id: OrganDollEars
   parent: [BaseDollOrgan, BaseOrganEars]
-  name: ent-OrganDollEars
-  description: ent-OrganDollEars-desc
+  name: уши
+  description: "У уха три части: внутренняя, средняя и наружная. Лучше вам ничего этого не видеть. И чтобы оно не видело вас."
   components:
   - type: Sprite
     state: ears
@@ -179,8 +179,8 @@
 - type: entity
   id: OrganDollLungs
   parent: [BaseDollOrgan, BaseOrganLungs]
-  name: ent-OrganDollLungs
-  description: ent-OrganDollLungs-desc
+  name: лёгкие
+  description: Куклы дышат этим... каким-то образом.
   components:
   - type: Sprite
     layers:
@@ -199,8 +199,8 @@
 - type: entity
   id: OrganDollHeart
   parent: [BaseDollOrgan, BaseOrganHeart]
-  name: ent-OrganDollHeart
-  description: ent-OrganDollHeart-desc
+  name: сердце
+  description: Это вообще сердце?
   components:
   - type: Sprite
     state: heart-on
@@ -218,8 +218,8 @@
 - type: entity
   id: OrganDollStomach
   parent: [BaseDollOrgan, BaseOrganStomach]
-  name: ent-OrganDollStomach
-  description: ent-OrganDollStomach-desc
+  name: желудок
+  description: Удивительно большой.
   components:
   - type: Sprite
     state: stomach
@@ -248,8 +248,8 @@
 - type: entity
   id: OrganDollLiver
   parent: [BaseDollOrgan, BaseOrganLiver]
-  name: ent-OrganDollLiver
-  description: ent-OrganDollLiver-desc
+  name: печень
+  description: Бесформенная масса плоти. Вероятно, печень.
   components:
   - type: Sprite
     state: liver
@@ -261,8 +261,8 @@
 - type: entity
   id: OrganDollKidneys
   parent: [BaseDollOrgan, BaseOrganKidneys]
-  name: ent-OrganDollKidneys
-  description: ent-OrganDollKidneys-desc
+  name: почки
+  description: Фу, почему на них глаза?!?
   components:
   - type: Sprite
     layers:
@@ -276,8 +276,8 @@
 - type: entity
   id: ShellFragmentDoll
   parent: [BaseKnife]
-  name: ent-ShellFragmentDoll
-  description: ent-ShellFragmentDoll-desc
+  name: осколок оболочки куклы
+  description: Отколовшийся кусок оболочки куклы. Острый и выглядит довольно прочным.
   components:
   - type: Sprite
     sprite: _Starlight/Mobs/Species/Doll/organs.rsi

@@ -1,7 +1,7 @@
 - type: entity
   parent: BaseComputerAiAccess
   id: RecruitmentComputer
-  name: recruitment computer
+  name: компьютер найма
   description: A computer for managing crew hiring.
   components:
   - type: RecruitmentComputer
@@ -50,7 +50,7 @@
 - type: entity
   parent: BaseComputer
   id: AbductorConsole
-  name: abductor console
+  name: консоль похитителей
   description: retrieve people marked by scientist tools. Also used for buying replacement gear and linking the agent's vest.
   components:
   - type: AbductorConsole
@@ -81,7 +81,7 @@
 - type: entity
   parent: ComputerComms
   id: CentCommSectoralConsole
-  name: CentComm sectoral console
+  name: секторальная консоль ЦентКом
   description: Use this to annoy captains of all stations at once.
   components:
     - type: AccessReader
@@ -112,7 +112,7 @@
 - type: entity
   parent: BaseComputer
   id: AbductorHumanObservationConsole
-  name: human observation console
+  name: консоль наблюдения за людьми
   description: A computer that is used for spying and teleporting on the station.
   components:
   - type: Sprite
@@ -293,7 +293,7 @@
 - type: entity
   parent: BaseComputerAiAccess
   id: MassDriverComputer
-  name: mass driver computer
+  name: компьютер масс-драйвера
   description: A computer for control mass driver.
   components:
   - type: MassDriverConsole
@@ -343,7 +343,7 @@
 - type: entity
   parent: BaseComputerAiAccess
   id: UniversalIdConsole
-  name: Universal ID card computer
+  name: компьютер универсальных ID-карт
   description: A terminal for programming NanoTrasen and non-NanoTrasen ID cards with extended access levels.
   components:
   - type: IdCardConsole
@@ -513,7 +513,7 @@
 - type: entity
   parent: ComputerComms
   id: SolgovComputerComms
-  name: solgov communications computer
+  name: компьютер связи СолГов
   components:
   - type: Sprite
     layers:
@@ -550,7 +550,7 @@
   parent: ComputerComms
   id: ComputerCommsEngineering
   categories: [ ShouldMapStation ]
-  name: engineering communications console
+  name: инженерная консоль связи
   description: A computer used to make station wide announcements via keyboard, set the appropriate alert level, and call the emergency shuttle.
   components:
     - type: Sprite
@@ -592,7 +592,7 @@
   parent: ComputerComms
   id: ComputerCommsMedical
   categories: [ ShouldMapStation ]
-  name: medical communications console
+  name: медицинская консоль связи
   description: A computer used to make station wide announcements via keyboard, set the appropriate alert level, and call the emergency shuttle.
   components:
     - type: Sprite
@@ -631,7 +631,7 @@
   parent: ComputerComms
   id: ComputerCommsScience
   categories: [ ShouldMapStation ]
-  name: science communications console
+  name: научная консоль связи
   description: A computer used to make station wide announcements via keyboard, set the appropriate alert level, and call the emergency shuttle.
   components:
     - type: Sprite
@@ -670,7 +670,7 @@
   parent: ComputerComms
   id: ComputerCommsSecurity
   categories: [ ShouldMapStation ]
-  name: security communications console
+  name: консоль связи СБ
   description: A computer used to make station wide announcements via keyboard, set the appropriate alert level, and call the emergency shuttle.
   components:
     - type: Sprite
@@ -712,7 +712,7 @@
   parent: ComputerComms
   id: ComputerCommsService
   categories: [ ShouldMapStation ]
-  name: service communications console
+  name: сервисная консоль связи
   description: A computer used to make station wide announcements via keyboard, set the appropriate alert level, and call the emergency shuttle.
   components:
     - type: Sprite
@@ -751,7 +751,7 @@
   parent: ComputerComms
   id: ComputerCommsCargo
   categories: [ ShouldMapStation ]
-  name: cargo communications console
+  name: грузовая консоль связи
   description: A computer used to make station wide announcements via keyboard, set the appropriate alert level, and call the emergency shuttle.
   components:
     - type: Sprite
@@ -917,7 +917,7 @@
 - type: entity
   id: ComputerShipyard
   parent: BaseComputer
-  name: shipyard console
+  name: консоль верфи
   description: Used to purchase shuttles.
   components:
   - type: Sprite
@@ -955,7 +955,7 @@
 - type: entity
   id: ComputerSalvageExpeditionITG
   parent: BaseComputerAiAccess
-  name: salvage expeditions computer
+  name: компьютер экспедиций утилизаторов
   description: Used to accept salvage missions, if you're tough enough.
   components:
     - type: Sprite
@@ -1018,7 +1018,7 @@
 - type: entity
   parent: BaseComputerAiAccess
   id: ComputerSalvageJobBoardITG
-  name: salvage job board
+  name: доска заданий утилизаторов
   description: Console for accessing salvage jobs, if you're tough enough.
   components:
   - type: Sprite

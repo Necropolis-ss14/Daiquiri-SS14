@@ -1,5 +1,5 @@
 - type: entity
-  name: invisible wirecutters
+  name: невидимые кусачки
   parent: BaseItem
   id: WirecuttersInvisible
   description: The perfect piece of invisible equipment to snip those nasty wires of that invisible door! Insulation not included.
@@ -24,7 +24,7 @@
     sprite: /Textures/_Starlight/Objects/Tools/Invisible/wirecutters_invisible.rsi
 
 - type: entity
-  name: invisible screwdriver
+  name: невидимая отвёртка
   parent: BaseItem
   id: ScrewdriverInvisible
   description: Go ahead. Open the invisible maintenance panel.
@@ -47,7 +47,7 @@
     speedModifier: 0.05
 
 - type: entity
-  name: invisible wrench
+  name: невидимый гаечный ключ
   parent: BaseItem
   id: WrenchInvisible
   description: Impress everyone by anchoring that invisible machine!
@@ -70,7 +70,7 @@
     speedModifier: 0.05
 
 - type: entity
-  name: invisible crowbar
+  name: невидимый ломик
   parent: BaseItem
   id: CrowbarInvisible
   description: Why cry those silent tears when you could pry instead!
@@ -95,7 +95,7 @@
     speedModifier: 0.05
 
 - type: entity
-  name: invisible multitool
+  name: невидимый мультитул
   parent: BaseItem
   id: MultitoolInvisible
   description: Pulse, pulse, pulse- wait, I thought it was supposed to be silent?
@@ -113,7 +113,7 @@
       - Multitool
 
 - type: entity
-  name: invisible welding tool
+  name: невидимый сварочник
   parent: Welder
   id: WelderInvisible
   description: Despite being invisible, you still need eye protection. Somehow.
@@ -127,7 +127,7 @@
     speedModifier: 0.05
 
 - type: entity
-  name: invisible toolbox
+  name: невидимый ящик с инструментами
   parent: ToolboxBase
   id: ToolboxInvisible
   description: The perfect invisible carrier to hold your invisible equipment!
@@ -144,7 +144,7 @@
 
 - type: entity
   id: ToolboxInvisibleFilled
-  name: invisible toolbox
+  name: невидимый ящик с инструментами
   suffix: Filled
   parent: ToolboxInvisible
   components:

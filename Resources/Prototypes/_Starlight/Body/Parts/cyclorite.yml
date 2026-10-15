@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: PartCyclorite
   parent: [BaseItem, BasePart]
-  name: ent-PartCyclorite
+  name: часть тела циклорита
   abstract: true
   components:
   - type: Extractable
@@ -14,7 +14,7 @@
 
 - type: entity
   id: TorsoCyclorite
-  name: ent-TorsoCyclorite
+  name: туловище циклорита
   parent: [PartCyclorite, BaseTorso]
   components:
     - type: Sprite
@@ -33,7 +33,7 @@
 
 - type: entity
   id: HeadCyclorite
-  name: ent-HeadCyclorite
+  name: голова циклорита
   parent: [PartCyclorite, BaseHead]
   components:
     - type: Sprite
@@ -52,7 +52,7 @@
 
 - type: entity
   id: LeftArmCyclorite
-  name: ent-LeftArmCyclorite
+  name: левая рука циклорита
   parent: [PartCyclorite, BaseLeftArm]
   components:
     - type: Sprite
@@ -64,7 +64,7 @@
 
 - type: entity
   id: RightArmCyclorite
-  name: ent-RightArmCyclorite
+  name: правая рука циклорита
   parent: [PartCyclorite, BaseRightArm]
   components:
     - type: Sprite
@@ -76,7 +76,7 @@
 
 - type: entity
   id: LeftHandCyclorite
-  name: ent-LeftHandCyclorite
+  name: левая кисть циклорита
   parent: [PartCyclorite, BaseLeftHand]
   components:
     - type: Sprite
@@ -88,7 +88,7 @@
 
 - type: entity
   id: RightHandCyclorite
-  name: ent-RightHandCyclorite
+  name: правая кисть циклорита
   parent: [PartCyclorite, BaseRightHand]
   components:
     - type: Sprite
@@ -100,7 +100,7 @@
 
 - type: entity
   id: LeftLegCyclorite
-  name: ent-LeftLegCyclorite
+  name: левая нога циклорита
   parent: [PartCyclorite, BaseLeftLeg]
   components:
     - type: Sprite
@@ -115,7 +115,7 @@
 
 - type: entity
   id: RightLegCyclorite
-  name: ent-RightLegCyclorite
+  name: правая нога циклорита
   parent: [PartCyclorite, BaseRightLeg]
   components:
     - type: Sprite
@@ -130,7 +130,7 @@
 
 - type: entity
   id: LeftFootCyclorite
-  name: ent-LeftFootCyclorite
+  name: левая стопа циклорита
   parent: [PartCyclorite, BaseLeftFoot]
   components:
     - type: Sprite
@@ -142,7 +142,7 @@
 
 - type: entity
   id: RightFootCyclorite
-  name: ent-RightFootCyclorite
+  name: правая стопа циклорита
   parent: [PartCyclorite, BaseRightFoot]
   components:
     - type: Sprite

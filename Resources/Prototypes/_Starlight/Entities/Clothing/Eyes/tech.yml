@@ -2,7 +2,7 @@
 - type: entity
   parent: ClothingEyesBase
   id: ClothingEyesTechnology
-  name: robotic apparatus
+  name: роботизированный аппарат
   description: It’s heavy and covered in a mess of wires.
   components:
   - type: Sprite
@@ -15,7 +15,7 @@
 - type: entity
   parent: ClothingEyesBase
   id: ClothingEyesTechnologyZero
-  name: robotic oculars
+  name: роботизированные окуляры
   description: A pair of oculars crackling with static electricity.
   components:
   - type: Sprite
@@ -28,7 +28,7 @@
 - type: entity
   parent: ClothingEyesBase
   id: ClothingEyesTechnologyTwo
-  name: robotic eye
+  name: роботизированный глаз
   description: A one-of-a-kind among the old.
   components:
   - type: Sprite
@@ -41,7 +41,7 @@
 - type: entity
   parent: ClothingEyesBase
   id: ClothingEyesTechnologyLudovic
-  name: insomniac glasses
+  name: очки бессонника
   description: With these glasses I see everything! …Oh no, that’s just dust.
   components:
   - type: Sprite
@@ -54,7 +54,7 @@
 - type: entity
   parent: ClothingEyesBase
   id: ClothingEyesTechnologyX
-  name: screen glasses
+  name: экранные очки
   description: Time to step into the 8-bit world.
   components:
   - type: Sprite
@@ -67,7 +67,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatTechnologyFive
-  name: forehead laser
+  name: налобный лазер
   description: A pointer for the lazy.
   components:
   - type: Sprite

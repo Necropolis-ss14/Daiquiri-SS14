@@ -19,8 +19,8 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelSyndicateFilledMinotaurShotgun
-  name: Minotaur bundle
-  description: "Lean and mean: Contains smooth, powerful, highly illegal Shotgun, a 5 12g buckshot drums."
+  name: набор Минотавр
+  description: "Поджарый и злой: гладкий, мощный, крайне нелегальный дробовик и 5 барабанов картечи 12 калибра."
   components:
   - type: EntityTableContainerFill
     containers:
@@ -33,8 +33,8 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelSyndicateFilledDeagle
-  name: Desert Eagle bundle
-  description: "Contains high damage Desert Eagle, a 3 magnum magazines."
+  name: набор Дезерт Игл
+  description: "Убойный Дезерт Игл и 3 магазина магнум."
   components:
   - type: EntityTableContainerFill
     containers:
@@ -47,8 +47,8 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDufelSyndicateFilledMantisBladeArms
-  name: Mantis Blade bundle
-  description: "Contains a pair of cybernetic arms, watch out. You got a psycho on the loose."
+  name: набор клинков богомола
+  description: "Пара кибернетических рук, осторожно. У вас псих на свободе."
   components:
   - type: EntityTableContainerFill
     containers:
@@ -62,8 +62,8 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelSyndicateFilledBullpup
-  name: pitbull bundle
-  description: "Contains the Pitbull Rifle and 3 additional magazines."
+  name: набор Питбуль
+  description: "Винтовка Питбуль и 3 запасных магазина."
   components:
   - type: EntityTableContainerFill
     containers:
@@ -76,8 +76,8 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelSyndicateFilledUzi
-  name: type u3 uzi bundle
-  description: "Contains a sleek, dangerous uzi, and 3 additional magazines."
+  name: набор УЗИ типа У3
+  description: "Гладкий опасный УЗИ и 3 запасных магазина."
   components:
   - type: EntityTableContainerFill
     containers:
@@ -90,8 +90,8 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelSyndicateFilledInfiltration
-  name: infiltration hardsuit bundle
-  description: "Contains the latest in Syndicate chameleon technology, the infiltration hardsuit."
+  name: набор инфильтрационного скафандра
+  description: "Последнее слово хамелеон-технологий Синдиката — инфильтрационный скафандр."
   components:
   - type: EntityTableContainerFill
     containers:
@@ -107,8 +107,8 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelSyndicateX4tBundle
-  name: syndicate X-4 bundle
-  description: "Contains a lot of X-4 charges."
+  name: набор X-4 Синдиката
+  description: "Куча зарядов X-4."
   components:
   - type: EntityTableContainerFill
     containers:
@@ -122,9 +122,9 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundleDeluxe
   id: ClothingBackpackDuffelSyndicateFilledRifleGrenade
-  name: firepower support bundle
+  name: набор огневой поддержки
   suffix: Estoc, China Lake
-  description: "A marksman rifle and a grenade launcher, bundled with 4 magazines and 9 grenades of various capabilities."
+  description: "Снайперская винтовка и гранатомёт, плюс 4 магазина и 9 гранат разных возможностей."
   components:
   - type: EntityTableContainerFill
     containers:

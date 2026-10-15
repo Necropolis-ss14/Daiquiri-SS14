@@ -6,7 +6,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryOpenIncision
-  name: Open Incision
+  name: Открыть разрез
   components:
   - type: Surgery
     priority: -100
@@ -40,7 +40,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryCloseIncision
-  name: Close Incision
+  name: Закрыть разрез
   components:
   - type: Surgery
     requirement:
@@ -63,7 +63,7 @@
 - type: entity
   parent: SurgeryCloseIncision
   id: SurgeryCloseIncisionHead
-  name: Close Incision
+  name: Закрыть разрез
   components:
   - type: Surgery
     requirement:
@@ -85,7 +85,7 @@
 - type: entity
   parent: SurgeryCloseIncision
   id: SurgeryCloseIncisionLimb
-  name: Close Incision
+  name: Закрыть разрез
   components:
   - type: Surgery
     requirement:
@@ -127,7 +127,7 @@
 - type: entity
   parent: SurgeryCloseIncision
   id: SurgeryCloseIncisionSlimeHead
-  name: Close Incision
+  name: Закрыть разрез
   components:
   - type: Surgery
     requirement:
@@ -148,7 +148,7 @@
 - type: entity
   parent: SurgeryCloseIncision
   id: SurgeryCloseIncisionLimbSlime
-  name: Close Incision
+  name: Закрыть разрез
   components:
   - type: Surgery
     requirement:
@@ -172,7 +172,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryOpenRibcage
-  name: Open Ribcage
+  name: Открыть грудную клетку
   components:
   - type: Surgery
     requirement:
@@ -197,7 +197,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryOpenAbdomen
-  name: Open Abdomen
+  name: Вскрыть брюшную полость
   components:
   - type: Surgery
     requirement:
@@ -221,7 +221,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryEliminateVocalCordDefects
-  name: Eliminate vocal cord defects
+  name: Устранить дефекты голосовых связок
   description: Remove speech defects, accents.
   components:
   - type: Surgery
@@ -250,7 +250,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryExtractLiver
-  name: Extract Liver
+  name: Извлечь печень
   components:
   - type: Surgery
     requirement:
@@ -277,7 +277,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryImplantLiver
-  name: Implant Liver
+  name: Имплантировать печень
   components:
   - type: Surgery
     requirement:
@@ -306,7 +306,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryExtractAppendix
-  name: Extract Appendix
+  name: Извлечь аппендикс
   components:
   - type: Surgery
     requirement:
@@ -333,7 +333,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryExtractKidneys
-  name: Extract Kidneys
+  name: Извлечь почки
   components:
   - type: Surgery
     requirement:
@@ -362,7 +362,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryImplantKidneys
-  name: Implant Kidneys
+  name: Имплантировать почки
   components:
   - type: Surgery
     requirement:
@@ -393,7 +393,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryExtractStomach
-  name: Extract Stomach
+  name: Извлечь желудок
   components:
   - type: Surgery
     requirement:
@@ -420,7 +420,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryImplantStomach
-  name: Implant Stomach
+  name: Имплантировать желудок
   components:
   - type: Surgery
     requirement:
@@ -449,7 +449,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryExtractLungs
-  name: Extract Lungs
+  name: Извлечь лёгкие
   components:
   - type: Surgery
     requirement:
@@ -478,7 +478,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryImplantLungs
-  name: Implant Lungs
+  name: Имплантировать лёгкие
   components:
   - type: Surgery
     requirement:
@@ -507,7 +507,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryExtractLungsSlime
-  name: Extract Lungs
+  name: Извлечь лёгкие
   components:
   - type: Surgery
     requirement:
@@ -536,7 +536,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryImplantLungsSlime
-  name: Implant Lungs
+  name: Имплантировать лёгкие
   components:
   - type: Surgery
     requirement:
@@ -565,7 +565,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryExtractHeart
-  name: Extract Heart
+  name: Извлечь сердце
   components:
   - type: Surgery
     requirement:
@@ -592,7 +592,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryImplantHeart
-  name: Implant Heart
+  name: Имплантировать сердце
   components:
   - type: Surgery
     requirement:
@@ -671,7 +671,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryExtractEyes
-  name: Extract Eyes
+  name: Извлечь глаза
   components:
   - type: Surgery
     requirement:
@@ -700,7 +700,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryImplantEyes
-  name: Implant Eyes
+  name: Имплантировать глаза
   components:
   - type: Surgery
     requirement:
@@ -729,7 +729,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryExtractEyeImplant
-  name: Extract Eye Implant
+  name: Извлечь глазной имплант
   components:
   - type: Surgery
     requirement:
@@ -757,7 +757,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryImplantEyeImplant
-  name: Implant Eye Implant
+  name: Имплантировать глазной имплант
   components:
   - type: Surgery
     requirement:
@@ -787,7 +787,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryExtractNoseImplant
-  name: Extract Nose Implant
+  name: Извлечь носовой имплант
   components:
   - type: Surgery
     requirement:
@@ -818,7 +818,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryImplantNoseImplant
-  name: Implant Nose Implant
+  name: Имплантировать носовой имплант
   components:
   - type: Surgery
     requirement:
@@ -848,7 +848,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryExtractHandImplant
-  name: Extract Hand Implant
+  name: Извлечь имплант руки
   components:
   - type: Surgery
     requirement:
@@ -876,7 +876,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryImplantHandImplant
-  name: Implant Hand Implant
+  name: Имплантировать имплант руки
   components:
   - type: Surgery
     requirement:
@@ -905,7 +905,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryExtractBrainImplant
-  name: Extract Brain Implant
+  name: Извлечь мозговой имплант
   components:
   - type: Surgery
     requirement:
@@ -950,7 +950,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryImplantBrainImplant
-  name: Implant Brain Implant
+  name: Имплантировать мозговой имплант
   components:
   - type: Surgery
     requirement:
@@ -993,7 +993,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryExtractBrainImplantSlime
-  name: Extract Core Implant
+  name: Извлечь имплант ядра
   components:
   - type: Surgery
     requirement:
@@ -1024,7 +1024,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryImplantBrainImplantSlime
-  name: Implant Core Implant
+  name: Имплантировать имплант ядра
   components:
   - type: Surgery
     requirement:
@@ -1057,7 +1057,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryExtractTongue
-  name: Extract Tongue
+  name: Извлечь язык
   components:
   - type: Surgery
     steps:
@@ -1079,7 +1079,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryImplantTongue
-  name: Implant Tongue
+  name: Имплантировать язык
   components:
   - type: Surgery
     steps:
@@ -1102,7 +1102,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryExtractBrain
-  name: Extract Brain
+  name: Извлечь мозг
   components:
   - type: Surgery
     requirement:
@@ -1140,7 +1140,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryImplantBrain
-  name: Implant Brain
+  name: Имплантировать мозг
   components:
   - type: Surgery
     requirement:
@@ -1184,7 +1184,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryExtractCore
-  name: Extract Core
+  name: Извлечь ядро
   components:
   - type: Surgery
     requirement:
@@ -1213,7 +1213,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryImplantCore
-  name: Implant Core
+  name: Имплантировать ядро
   components:
   - type: Surgery
     requirement:
@@ -1244,7 +1244,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryExtractEgg
-  name: Extract Egg
+  name: Извлечь яйцо
   components:
   - type: Surgery
     requirement:
@@ -1265,7 +1265,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryExtractCavityItem
-  name: Extract Item
+  name: Извлечь предмет
   components:
   - type: Surgery
     requirement:
@@ -1292,7 +1292,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryImplantCavityItem
-  name: Implant Item
+  name: Имплантировать предмет
   components:
   - type: Surgery
     requirement:
@@ -1319,7 +1319,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryShadekinCore
-  name: Extract Core
+  name: Извлечь ядро
   components:
   - type: Surgery
     requirement:
@@ -1347,7 +1347,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryImplantShadekinCore
-  name: Implant Core
+  name: Имплантировать ядро
   components:
   - type: Surgery
     requirement:
@@ -1375,7 +1375,7 @@
 - type: entity
   parent: SurgeryOpenIncision
   id: SurgeryOpenIncisionDoll
-  name: Open Incision
+  name: Открыть разрез
   components:
   - type: Surgery
     requirement:
@@ -1391,7 +1391,7 @@
 - type: entity
   parent: SurgeryCloseIncision
   id: SurgeryCloseIncisionDoll
-  name: Close Incision
+  name: Закрыть разрез
   components:
   - type: Surgery
     requirement:
@@ -1415,7 +1415,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryRemoveShellDoll
-  name: Remove Shell
+  name: Снять панцирь
   description: Surgical removal of a dolls shell.
   components:
   - type: Surgery
@@ -1434,7 +1434,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryReattachShellDoll
-  name: Reattach Shell
+  name: Прикрепить панцирь обратно
   description: Surgical reattachment of a dolls shell.
   components:
   - type: Surgery

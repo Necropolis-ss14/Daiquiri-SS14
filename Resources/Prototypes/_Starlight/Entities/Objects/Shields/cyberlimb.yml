@@ -1,8 +1,8 @@
 - type: entity
-  name: bulwark
+  name: бастион
   parent: [BaseItem, BaseSecurityContraband]
   id: EnergyShieldCyber
-  description: The true shield for warriors, made out of hard-light materials making it lightweight and portable.
+  description: "Настоящий щит воинов из хардлайта: лёгкий и портативный."
   components:
     - type: ItemToggle
       soundActivate:

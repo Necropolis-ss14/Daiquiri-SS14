@@ -1,7 +1,7 @@
 - type: entity
   parent: BaseWallmountMachine
   id: WallmountPodConsole
-  name: escape pod console
+  name: консоль спасательной капсулы
   description: A terminal that controls the escape pod. The controls have been locked down to prevent you from launching the pod early, though.
   suffix: Wall
   components:

@@ -1,7 +1,7 @@
 - type: entity
   parent: [ BaseItem, BaseMajorContraband ]
   id: CartridgeImpactBolt
-  name: impact bolt
+  name: ударный болт
   description: The standard explosive caseless ammunition used by bolt weapons.
   components:
   - type: Tag

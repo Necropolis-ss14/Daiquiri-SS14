@@ -1,7 +1,7 @@
 - type: entity
   id: WeaponMechCombatPulseRifle
-  name: eZ-14 mk2 Heavy pulse rifle
-  description: Fires a heavy pulse laser.
+  name: тяжёлая пульс-винтовка eZ-14 mk2
+  description: Стреляет тяжёлым пульс-лазером.
   suffix: Mech Weapon, Gun, Combat, Pulse
   parent: [ BaseMechWeaponRange, CombatMechEquipment, BaseSecurityContraband ]
   components:
@@ -25,8 +25,8 @@
 
 - type: entity
   id: WeaponMechCombatImmolationGun
-  name: ZFI Immolation Beam Gun
-  description: A gun for battlemechs, firing high-temperature beams.
+  name: лучемёт сожжения ZFI
+  description: Орудие для боевых мехов, бьёт высокотемпературными лучами.
   suffix: Mech Weapon, Gun, Combat, Laser
   parent: [ BaseMechWeaponRange, CombatMechEquipment, BaseSecurityContraband ]
   components:
@@ -52,8 +52,8 @@
 
 - type: entity
   id: WeaponMechCombatSolarisLaser
-  name: CH-LC "Solaris" laser cannon
-  description: An experimental combat mounted laser cannon that causes more damage, but also has a greater cooldown than a "Firedart".
+  name: лазерная пушка CH-LC «Солярис»
+  description: "Экспериментальная боевая лазерная пушка: больнее, но и откат дольше, чем у «Файрдарта»."
   suffix: Mech Weapon, Gun, Combat, Laser
   parent: [ BaseMechWeaponRange, CombatMechEquipment, BaseSecurityContraband ]
   components:
@@ -85,8 +85,8 @@
 
 - type: entity
   id: WeaponMechCombatFiredartLaser
-  name: CH-PS "Firedart" Laser
-  description: The standard combat armament of the mechs is a combat mounted laser.
+  name: лазер CH-PS «Файрдарт»
+  description: Штатное боевое вооружение мехов — станковый боевой лазер.
   suffix: Mech Weapon, Gun, Combat, Laser
   parent: [ BaseMechWeaponRange, CombatMechEquipment, BaseSecurityContraband ]
   components:
@@ -113,8 +113,8 @@
 
 - type: entity
   id: WeaponMechCombatTeslaCannon
-  name: P-X Tesla Cannon
-  description: A weapon for combat mechs, firing energy balls, based on the principle of an experimental Tesla engine.
+  name: пушка Тесла P-X
+  description: Оружие боевых мехов, швыряет энергошары на принципе экспериментального двигателя Теслы.
   suffix: Mech Weapon, Gun, Combat, Tesla
   parent: [ BaseMechWeaponRange, CombatMechEquipment, BaseSecurityContraband ]
   components:
@@ -142,8 +142,8 @@
 
 - type: entity
   id: WeaponMechCombatDisabler
-  name: CH-PD Disabler
-  description: A non-lethal mounted stun gun that allows you to immobilize intruders.
+  name: дизейблер CH-PD
+  description: Несмертельный станковый станнер для обездвиживания нарушителей.
   suffix: Mech Weapon, Gun, Combat, Disabler
   parent: [ BaseMechWeaponRange, CombatMechEquipment, BaseSecurityContraband ]
   components:
@@ -172,8 +172,8 @@
 
 - type: entity
   id: WeaponMechCombatTaser
-  name: PBT "Pacifier" Mounted Taser
-  description: A mounted non-lethal taser that allows you to stun intruders.
+  name: станковый тазер PBT «Миротворец»
+  description: Станковый несмертельный тазер для оглушения нарушителей.
   suffix: Mech Weapon, Gun, Combat, Disabler, admeme
   parent: [ BaseMechWeaponRange, CombatMechEquipment, BaseSecurityContraband ]
   components:
@@ -203,8 +203,8 @@
 
 - type: entity
   id: WeaponMechCombatShotgun
-  name: LBX AC 10 "Scattershot"
-  description: A mounted shotgun able to dispatch targets quickly in a CQC environement. # 🌟Starlight-Change Description fix
+  name: LBX AC 10 «Картечь»
+  description: Станковый дробовик для быстрого разбора целей в ближнем бою.
   suffix: Mech Weapon, Gun, Combat, Shotgun
   parent: [ BaseMechWeaponRange, CombatMechEquipment, BaseSecurityContraband ]
   components:
@@ -228,8 +228,8 @@
 
 - type: entity
   id: WeaponMechCombatShotgunIncendiary
-  name: FNX-99 "Hades" Carbine
-  description: Mounted shotgun, refit to fire incendiary ammo. # 🌟Starlight-Change Description fix
+  name: карабин FNX-99 «Аид»
+  description: Станковый дробовик под зажигательные.
   suffix: Mech Weapon, Gun, Combat, Shotgun, Incendiary
   parent: [ BaseMechWeaponRange, CombatMechEquipment, BaseSecurityContraband ]
   components:
@@ -253,8 +253,8 @@
 
 - type: entity
   id: WeaponMechCombatUltraRifle
-  name: Ultra AC-2
-  description: A cheap and reliable burst rifle. # 🌟Starlight-Change Description fix
+  name: Ультра AC-2
+  description: Дешёвая надёжная burst-винтовка.
   suffix: Mech Weapon, Gun, Combat, Rifle
   parent: [ BaseMechWeaponRange, CombatMechEquipment, BaseSecurityContraband ]
   components:
@@ -278,8 +278,8 @@
 
 - type: entity
   id: WeaponMechCombatUltraAC54
-  name: ULTRA AC54 'Hotchkiss' Rotary Cannon
-  description: An advanced rotary autocannon firing FMJ rounds. Admin only.
+  name: Роторная пушка ULTRA AC54 «Гочкисс»
+  description: Продвинутая роторная автопушка под FMJ. Только админам.
   suffix: Mech Weapon, Gun, Combat, Admin Only
   parent: [ BaseMechWeaponRange, CombatMechEquipment, BaseCentcommContraband ]
   components:
@@ -303,8 +303,8 @@
 
 - type: entity
   id: WeaponMechCombatIon
-  name: Mk.IV Ion Heavy Cannon
-  description: A mounted ion weapon that operates on the same principle as a handheld ion carbine. Extremely effective against synthetics, robots and other mechs.
+  name: тяжёлая ионная пушка МК.IV
+  description: Станковое ионное орудие как ручной ионный карабин. Крайне эффективно против синтетиков, роботов и мехов.
   suffix: Mech Weapon, Gun, Combat, Ion
   parent: [ BaseMechWeaponRange, CombatMechEquipment, BaseSecurityContraband ]
   components:
@@ -361,8 +361,8 @@
 
 - type: entity
   id: WeaponMechCombatXray
-  name: S-1 X-Ray Projector
-  description: Experimental mech weapon that fires X-rays, causing both surface and deep radiation burns. # 🌟Starlight-Change Description fix
+  name: Рентген-проектор S-1
+  description: "Экспериментальное орудие меха: бьёт рентгеном, ожоги и поверхностные, и глубокие."
   suffix: Mech Weapon, Gun, Combat, X-Ray
   parent: [ BaseMechWeaponRange, CombatMechEquipment, BaseSecurityContraband ]
   components:
@@ -389,8 +389,8 @@
 
 - type: entity
   id: WeaponMechCombatMissileRack8
-  name: SRM-8 Light Missile Rack
-  description: Launches low-explosive missiles. Relatively weak but able to supress enemy positions. # 🌟Starlight-Change Description fix
+  name: лёгкая ракетная установка SRM-8
+  description: Пускает слабые фугасные ракеты. Слабовато, но позиции подавляет.
   suffix: Mech Weapon, Gun, Combat, Light Missile
   parent: [ BaseMechWeaponRange, CombatMechEquipment, BaseSecurityContraband ]
   components:
@@ -414,8 +414,8 @@
 
 - type: entity
   id: WeaponMechCombatMissileRack6
-  name: BRM-6 Missile Rack
-  description: A set of heavy missiles designed to unleash utter carnage upon your foes. # 🌟Starlight-Change Description fix
+  name: ракетная установка BRM-6
+  description: Комплект тяжёлых ракет для тотального разноса врагов.
   suffix: Mech Weapon, Gun, Combat, Missile
   parent: [ BaseMechWeaponRange, CombatMechEquipment, BaseSecurityContraband ]
   components:
@@ -440,8 +440,8 @@
 
 - type: entity
   id: WeaponMechCombatFlashbangLauncher
-  name: SGL-6 Flashbang Launcher
-  description: A rotary grenade launcher able to manufacture and launch flash charges at unruly crowds. # 🌟Starlight-Change Description fix
+  name: гранатомёт SGL-6
+  description: "Роторный гранатомёт: штампует и пускает светошумовые по буйной толпе."
   suffix: Mech Weapon, Gun, Combat, Flashbang
   parent: [ BaseMechWeaponRange, CombatMechEquipment, BaseSecurityContraband ]
   components:
@@ -470,8 +470,8 @@
 
 - type: entity
   id: WeaponMechSniperMime
-  name: S.H.H. "Quietus" Carbine
-  description: A mime invention, field tests have shown that targets cannot even scream before going down.
+  name: карабин S.H.H. «Квайтус»
+  description: "Изобретение мимов: тесты показали, что цели не успевают даже вскрикнуть."
   suffix: Mech, Gun, Combat, Sniper
   parent: [ BaseMechWeaponRange, CombatMechEquipment, BaseSyndicateContraband ]
   components:

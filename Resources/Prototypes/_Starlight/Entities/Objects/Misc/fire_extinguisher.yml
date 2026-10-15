@@ -1,7 +1,7 @@
 - type: entity
   parent: [SolutionFireExtinguisherVeryLarge, FireExtinguisher, BaseAtmosContraband]
   id: FireExtinguisherAtmos
-  name: atmos fire extinguisher
+  name: атмосферный огнетушитель
   description: A bright, pressurized fire extinguisher for the brave warriors of atmosia. Refill with your selection of water and space cleaner at your leisure.
   components:
   - type: Sprite
@@ -59,7 +59,7 @@
 - type: entity
   parent: FireExtinguisher
   id: BluespaceFireExtinguisher
-  name: bluespace fire extinguisher
+  name: блюспейс-огнетушитель
   description: It extinguishes fires, and slowly refills with water.
   components:
   - type: Sprite

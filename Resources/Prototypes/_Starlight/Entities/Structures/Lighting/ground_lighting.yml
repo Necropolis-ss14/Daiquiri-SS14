@@ -2,7 +2,7 @@
 
 - type: entity
   id: FloorLight
-  name: floor light
+  name: напольный светильник
   description: "An always powered floor light."
   suffix: Always Powered
   parent: BaseStructure
@@ -60,7 +60,7 @@
 
 - type: entity
   id: PoweredFloorLightEmpty
-  name: floor light
+  name: напольный светильник
   description: "A lightbulb you can walk on without breaking it, amazing."
   suffix: Empty
   parent: FloorLight
@@ -107,7 +107,7 @@
 
 - type: entity
   id: PoweredFloorLight
-  name: floor light
+  name: напольный светильник
   suffix: ""
   parent: PoweredFloorLightEmpty
   components:
@@ -126,7 +126,7 @@
 
 - type: entity
   id: PoweredFloorLightLed
-  name: floor light
+  name: напольный светильник
   suffix: LED
   parent: PoweredFloorLight
   components:
@@ -146,7 +146,7 @@
 
 - type: entity
   id: PoweredFloorLightWarm
-  name: floor light
+  name: напольный светильник
   suffix: Warm
   parent: PoweredFloorLight
   components:
@@ -161,7 +161,7 @@
 
 - type: entity
   id: PoweredFloorLightDim
-  name: floor light
+  name: напольный светильник
   suffix: Dim
   parent: PoweredFloorLight
   components:

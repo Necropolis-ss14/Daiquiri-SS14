@@ -1,7 +1,7 @@
 - type: entity
   parent: [SolutionTiny, FoodBase]
   id: SpiderJelly
-  name: Royal Jelly
+  name: маточное молочко
   description: A strange jelly created by spiders possesses unreal regenerative powers.
   components:
   - type: Sprite

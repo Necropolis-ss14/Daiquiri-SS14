@@ -4,7 +4,7 @@
 - type: entity
   parent: AirAlarm
   id: AirAlarmUnlocked
-  name: unlocked air alarm
+  name: разблокированная воздушная сигнализация
   suffix: Unlocked
   description: An air alarm with its access reader deactivated. Anyone can adjust it.
   components:
@@ -17,7 +17,7 @@
 - type: entity
   parent: AirAlarm
   id: AirAlarmChamber
-  name: chamber air alarm
+  name: камерная воздушная сигнализация
   suffix: Chamber
   description: An air alarm set up for use in chambers. It doesn't report to the station's alert console.
   components:
@@ -30,6 +30,6 @@
 - type: entity
   parent: [AirAlarmChamber, AirAlarmUnlocked]
   id: AirAlarmChamberUnlocked
-  name: unlocked chamber air alarm
+  name: разблокированная камерная воздушная сигнализация
   suffix: Chamber, unlocked
   description: An air alarm set up for use in chambers. Anyone can adjust it, and it doesn't report to the station's alert console.

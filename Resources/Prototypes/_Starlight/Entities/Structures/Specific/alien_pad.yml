@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: AbductorAlienPad
   parent: [ BaseMachinePowered, ConstructibleMachine ]
-  name: alien pad
+  name: инопланетная платформа
   description: Beam in the pizzas and dig in.
   components:
   - type: AbductorAlienPad

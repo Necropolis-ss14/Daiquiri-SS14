@@ -1,7 +1,7 @@
 - type: entity
   parent: BaseItem
   id: TwistyCube
-  name: twisty cube
+  name: кубик-головоломка
   description: 4.325×10¹⁹ different combinations!
   components:
     - type: Appearance

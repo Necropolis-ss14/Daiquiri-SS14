@@ -1,6 +1,6 @@
 # Abstracts
 - type: entity
-  name: steal target
+  name: цель кражи
   id: BaseStealTargetParent
   abstract: true
 
@@ -300,7 +300,7 @@
 - type: entity
   parent: [BaseThiefObjective, BaseLivingObjective]
   id: EscapeMasterThiefObjective
-  name: Become the greatest thief, and steal anything you perceive as having value.
+  name: стань величайшим вором и укради всё, что считаешь ценным.
   description: Just make sure to get out alive and free.
   components:
   - type: Objective

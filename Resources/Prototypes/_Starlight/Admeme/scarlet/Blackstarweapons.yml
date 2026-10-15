@@ -1,10 +1,10 @@
 # Prometheus Battle Rifle
 - type: entity
-  name: Prometheus battle rifle
+  name: боевая винтовка «Прометеус»
   parent: [WeaponRifleLecter, BaseMajorContraband]
   id: WeaponRiflePrometheus
   suffix: Admeme
-  description: "A heavily modified Lecter battle rifle issued to Blackstar Dreadwalker operatives. A 3-round burst mechanism has been machined into the action, making it lethal at any range. Feeds from .20 rifle magazines."
+  description: "Сильно модифицированная боевая винтовка Lecter для оперативников-дредуокеров Blackstar. Отсечка по 3 патрона делает её смертельной на любой дистанции. Питается от магазинов .20."
   components:
   - type: Sprite
     sprite: _Starlight/Admeme/Scarlet/Prometheus.rsi
@@ -36,11 +36,11 @@
 
 # Blackstar MG42-inspired L6 variant. Weapon handling and .30 belt boxes are inherited.
 - type: entity
-  name: Blackstar MG-42
+  name: пулемёт MG-42 Blackstar
   parent: WeaponLightMachineGunL6
   id: WeaponLightMachineGunBlackstarMG42
   suffix: Admeme
-  description: A Blackstar belt-fed machine gun with a long ventilated barrel jacket, a folded bipod, and dark wooden furniture. Feeds from standard .30 rifle belt boxes.
+  description: Ленточный пулемёт Blackstar с длинным вентилируемым кожухом, складными сошками и тёмной деревянной фурнитурой. Питается от стандартных пулемётных коробок .30.
   components:
   - type: Sprite
     sprite: _Starlight/Admeme/Scarlet/blackstar_mg42.rsi

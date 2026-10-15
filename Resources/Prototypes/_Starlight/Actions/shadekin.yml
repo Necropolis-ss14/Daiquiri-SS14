@@ -1,6 +1,6 @@
 - type: entity
   id: NullPhaseAction
-  name: Phase Shift
+  name: Фазовый сдвиг
   description: Shift yourself out of alignment with realspace to travel quickly to different areas.
   categories: [HideSpawnMenu]
   components:
@@ -29,7 +29,7 @@
 
 - type: entity
   id: BrighteyePortalAction
-  name: Create Portal
+  name: Создать портал
   description: Create a portal to the dark at your current location.
   categories: [HideSpawnMenu]
   components:
@@ -46,7 +46,7 @@
 
 - type: entity
   id: BrighteyeDarkTrapAction
-  name: Create Trap
+  name: Создать ловушку
   description: Create a dark trap at your current location.
   categories: [HideSpawnMenu]
   components:
@@ -82,7 +82,7 @@
 
 - type: entity
   id: BrighteyeCreateShadeAction
-  name: Create Shade
+  name: Создать тень
   description: Create a field of darkness that follows you.
   categories: [HideSpawnMenu]
   components:

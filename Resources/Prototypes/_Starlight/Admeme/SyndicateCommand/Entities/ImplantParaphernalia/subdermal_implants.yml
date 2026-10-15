@@ -1,8 +1,8 @@
 - type: entity
   parent: MindShieldImplant
   id: SyndicateMindShieldImplant
-  name: ent-SyndicateMindShieldImplant
-  description: ent-SyndicateMindShieldImplant-desc
+  name: синдикатовский имплант «Щит разума»
+  description: Этот имплант обеспечит лояльность Синдикату. Нарушает торговую марку «Щита разума».
   categories: [ HideSpawnMenu ]
   components:
   - type: MindShieldImplant

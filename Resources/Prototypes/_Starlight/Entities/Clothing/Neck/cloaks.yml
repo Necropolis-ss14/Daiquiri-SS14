@@ -1,7 +1,7 @@
 - type: entity
   parent:  [ClothingNeckBase, BaseCommandContraband ]
   id: ClothingNeckCloakHosFireline
-  name: M-81 fireline cloak
+  name: плащ огневой линии М-81
   description: A cloak made for the most dedicated head of securities, it comes with durable warming fabric and has a fireline-like glow to it.
   components:
   - type: Sprite
@@ -18,7 +18,7 @@
 - type: entity
   parent: [ClothingNeckBase, BaseCommandContraband]
   id: ClothingNeckCloakCapElite
-  name: elite captain's cloak
+  name: плащ элитного капитана
   description: An elite captain's cloak made from the latest composite glowing fabric, ensuring you stand out and are easier to target. Live bright, die young.
   components:
   - type: Sprite
@@ -58,7 +58,7 @@
 - type: entity
   parent: [ ClothingNeckBase, BaseCommandContraband ]
   id: ClothingNeckCloakHopElite
-  name: elite hop's cloak
+  name: плащ элитного главы персонала
   description: An elite hop's cloak made from the latest composite glowing fabric, ensuring you stand out and are easier to target. Live bright, hop hard, and pray your team knows how to catch!
   components:
   - type: Sprite
@@ -75,7 +75,7 @@
 - type: entity
   parent: [ ClothingNeckBase, BaseCommandContraband ]
   id: ClothingCloakCmoElite
-  name: elite chief medical officer's cloak
+  name: плащ элитного главного врача
   description: An elite chief medical officer's cloak made from the latest composite glowing fabric. Not recommended for breaking cancer diagnoses to patients.
   components:
   - type: Sprite
@@ -92,7 +92,7 @@
 - type: entity
   parent:  [ClothingNeckBase, BaseCommandContraband ]
   id: ClothingNeckCloakHosElite
-  name: elite head of security's cloak
+  name: плащ элитного главы службы безопасности
   description: An elite head of security's cloak crafted from the latest composite glowing fabric. Only for a true paladin.
   components:
   - type: Sprite
@@ -109,7 +109,7 @@
 - type: entity
   parent: [ClothingNeckBase, BaseCommandContraband]
   id: ClothingNeckCloakHosRetro
-  name: retro-head of security cloak
+  name: ретро-плащ главы службы безопасности
   description: A retro-styled cloak for the head of security, reminiscent of days gone by.
   components:
   - type: Sprite
@@ -122,7 +122,7 @@
 - type: entity
   parent: [ ClothingNeckBase, BaseCommandContraband ]
   id: ClothingNeckCloakCeElite
-  name: elite chief engineer's cloak
+  name: плащ элитного старшего инженера
   description: Chief engineer's cloak made from the latest composite glowing fabric, ensuring you stand out. The brightest cloak—so everyone knows where all the station's light went.
   components:
   - type: Sprite
@@ -139,7 +139,7 @@
 - type: entity
   parent:  [ClothingNeckBase, BaseCommandContraband ]
   id: ClothingNeckCloakRdElite
-  name: elite research director's cloak
+  name: плащ элитного научного руководителя
   description: Research Director's cloak made from the latest composite glowing fabric, ensuring you stand out. Make sure to tell everyone you invented it.
   components:
   - type: Sprite
@@ -156,7 +156,7 @@
 - type: entity
   parent: [ ClothingNeckBase, BaseCommandContraband ]
   id: ClothingNeckCloakQmElite
-  name: elite quartermaster's cloak
+  name: плащ элитного квартирмейстера
   description: Quartermaster's cloak made from the latest composite glowing fabric, of course, you don't want to sell it.
   components:
   - type: Sprite
@@ -173,7 +173,7 @@
 - type: entity
   parent: [ ClothingNeckBase, BaseBlueShieldContraband ]
   id: ClothingNeckCloakBsoElite
-  name: elite blueshield cloak
+  name: плащ элитного блюшилда
   description: An elite Blueshield Officer's cloak crafted from the latest composite glowing fabric. No true BSO is afraid of shining in the dark!
   components:
   - type: Sprite
@@ -190,7 +190,7 @@
 - type: entity
   parent: [ ClothingNeckBase, BaseBlueShieldContraband ]
   id: ClothingNeckCloakBsoCape
-  name: blueshield formal cloak
+  name: торжественный плащ блюшилда
   description: An incredibly large coat, owned only by the most experienced Blueshield Officers. It's said the sleeves have never been worn.
   components:
   - type: Sprite
@@ -202,7 +202,7 @@
 - type: entity
   parent: [ ClothingNeckBase, BaseBlueShieldContraband ]
   id: ClothingNeckCloakBsoPoncho
-  name: blueshield poncho
+  name: пончо блюшилда
   description: This type of poncho was the signature garment of a legendary BSO with no name, or so it is said.
   components:
   - type: Sprite
@@ -214,7 +214,7 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckOldMantle
-  name: old wrap
+  name: старая накидка
   description: A tattered fabric wrap, faded over the years. Smells faintly of cigars.
   components:
   - type: Sprite
@@ -225,7 +225,7 @@
 - type: entity
   parent: [ClothingNeckBase, BaseCentcommContraband]
   id: ClothingNeckCloakCEDMantle
-  name: centeral engineering division mantle
+  name: мантия Центрального инженерного дивизиона
   description: Supermatters, Teslas and TEGs all tremble in fear from anyone wearing this mantle.
   components:
   - type: Sprite
@@ -236,7 +236,7 @@
 - type: entity
   parent: [ClothingNeckBase, BaseCentcommContraband]
   id: ClothingNeckCloakCCponcho
-  name: central command poncho
+  name: пончо центрального командования
   description: a stylish poncho for a CC offical that prefers field-work to pushing papers.
   components:
   - type: Sprite
@@ -250,7 +250,7 @@
 - type: entity
   parent: [ ClothingNeckBase ]
   id: ClothingNeckCloakCentcomBlack
-  name: special operations officer cloak
+  name: плащ офицера специальных операций
   description: The NanoTrasen logo embroidered in gold speaks for itself.
   components:
   - type: Sprite
@@ -259,7 +259,7 @@
 - type: entity
   parent: [ ClothingNeckBase ]
   id: ClothingNeckCloakCentcomAdmiral
-  name: admiral's cape
+  name: плащ адмирала
   description: A vibrant green cape with gold stitching, worn by NanoTrasen Navy Admirals.
   components:
   - type: Sprite
@@ -268,7 +268,7 @@
 - type: entity
   parent: [ ClothingNeckBase ]
   id: ClothingNeckMantleERTLeader
-  name: ERT leader's mantle
+  name: мантия лидера ОБР
   description: Extraordinary decorative drape over the shoulders.
   components:
   - type: Sprite
@@ -279,7 +279,7 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckHorrific
-  name: horrific necktie
+  name: кошмарный галстук
   description: The necktie is adorned with a garish pattern. It's disturbingly vivid. Somehow you feel as if it would be wrong to ever take it off. It's your friend now. You don't need to listen to it, but it makes some good points.
   components:
   - type: GhostRole
@@ -305,7 +305,7 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingUniformDama0965
-  name: black fur cloak
+  name: чёрный меховой плащ
   description: Neat cloak with fur around the neck and hem.
   components:
     - type: Sprite
@@ -316,7 +316,7 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingUniformShinelVampir
-  name: bloodstained aristocrat cloak
+  name: окровавленный плащ аристократа
   description: A dark leather greatcoat soaked in blood.
   components:
   - type: Sprite
@@ -327,7 +327,7 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckTieGeoffroyblack12
-  name:  noble mantle
+  name: благородная мантия
   description: A light-colored cloak with golden patterns and lush white fur on the shoulders.
   components:
   - type: Sprite
@@ -342,7 +342,7 @@
 - type: entity
   parent: [BaseItem, ClothingNeckBase, ClothingOuterBaseLarge, AllowSuitStorageClothing, BaseSovietContraband]
   id: ClothingNeckCloakCommissar
-  name: commissar overcoat
+  name: шинель комиссара
   description: Rumor has it entire regiments of aides exist solely to press seams, polish buttons, and remind the Commissar which coat goes over which.
   components:
   - type: Sprite
@@ -377,7 +377,7 @@
 - type: entity
   parent: [ ClothingNeckBase, BaseSalvageContraband ]
   id: ClothingNeckMantleDecoratedSalvager
-  name: ceremonial salvager's mantle
+  name: церемониальная мантия утилизатора
   description: A ceremonial mantle, worn by salvagers that have distinguished themselves.
   components:
     - type: Sprite
@@ -388,7 +388,7 @@
 - type: entity
   parent: [ ClothingNeckBase, BaseSalvageContraband ]
   id: ClothingNeckMantleDecoratedVeteranSalvager
-  name: veteran salvager's mantle
+  name: мантия ветерана-утилизатора
   description: A ceremonial mantle with waist-capes, worn by veteran salvagers that have distinguished themselves even further.
   components:
     - type: Sprite
@@ -399,7 +399,7 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckMantleUnidentified
-  name: unidentified mantle
+  name: неопознанная мантия
   description: A mysterious yet well made mantle of unknown origin.
   components:
     - type: Sprite
@@ -411,7 +411,7 @@
 - type: entity
   parent: [ ClothingNeckBase, BaseSalvageContraband ]
   id: ClothingNeckMantleMedic
-  name: salvage medic mantle
+  name: мантия медика-утилизатора
   description: A mantle used to designate an ITG medic
   components:
     - type: Sprite
@@ -424,7 +424,7 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckTatteredHood
-  name: tattered hood
+  name: рваный капюшон
   description: A tattered hood of dull fabric. It's weave is thick and coarse, whatever tore this took some effort.
   components:
   - type: Sprite
@@ -587,7 +587,7 @@
 - type: entity
   parent: [ClothingNeckMantleRD, BaseCentcommContraband]
   id: ClothingNeckCloakCRDMantle
-  name: central researching division mantle
+  name: мантия Центрального научного дивизиона
   description: Rumors say that anomalies stabilize on their own and artifacts start behaving the moment this mantle shows up in the lab.
   components:
   - type: Sprite
@@ -597,7 +597,7 @@
 - type: entity
   parent: [ClothingNeckMantleCMO, BaseCentcommContraband]
   id: ClothingNeckCloakCMDMantle
-  name: central medical division mantle
+  name: мантия Центрального медицинского дивизиона
   description: No ailment or wound can hide from the gaze of the one draped in this mantle.
   components:
   - type: Sprite
@@ -608,7 +608,7 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckCloakSupremeJanitor
-  name: supreme janitor cloak
+  name: плащ верховного уборщика
   description: A magnificent cloak worn only by the most dedicated janitors. Its ethereal glow is said to ward off dirt itself.
   components:
   - type: Sprite
@@ -617,7 +617,7 @@
 - type: entity
   parent: ClothingNeckBase
   id: RedRegaliaCloak
-  name: red regalia cloak
+  name: красный парадный плащ
   description: A fancy red cloak like a mafiaoso would wear.
   components:
   - type: Sprite
@@ -628,7 +628,7 @@
 - type: entity
   parent: [ ClothingNeckBase ]
   id: ClothingNeckCloakwarden
-  name: warden's Cloak
+  name: плащ смотрителя
   description: A rough cloak that has seen better days.
   components:
   - type: Sprite
@@ -639,7 +639,7 @@
 - type: entity
   parent: [ClothingNeckMantleCMO, BaseCentcommContraband]
   id: ClothingNeckCloakCMDShawl
-  name: central medical division shawl
+  name: шаль Центрального медицинского дивизиона
   description:  A shawl with a shoulder epaulette fitting of a member of the central medical division who wants to stay warm yet professional.
   components:
     - type: Sprite
@@ -650,7 +650,7 @@
 - type: entity
   parent: [ClothingNeckMantleCMO, BaseCentcommContraband]
   id: ClothingNeckCloakCCShawl
-  name: central command shawl
+  name: шаль центрального командования
   description:  A shawl with a shoulder epaulette fitting of a member of central command following complaints from a CID Minister of Intelligence that wanted the medical symbol removed from it as an excuse to wear it without being apart of CMD.
   components:
     - type: Sprite

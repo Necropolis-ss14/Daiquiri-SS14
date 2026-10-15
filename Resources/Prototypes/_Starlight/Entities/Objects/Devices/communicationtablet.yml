@@ -64,10 +64,10 @@
 
 
 - type: entity
-  name: ent-CommunicationTablet
+  name: управленческий планшет капитана
   parent: BaseCommunicationTablet
   id: CommunicationTablet
-  description: ent-CommunicationTablet-desc
+  description: Портативный компьютер для объявлений, зарезервированный за главным начальником станции.
   components:
     - type: AccessReader
       access: [[ "Captain" ]]
@@ -83,10 +83,10 @@
 
 
 - type: entity
-  name: ent-CentCommCommunicationTablet
+  name: планшет Центрального командования
   parent: [BaseCentcommContraband, BaseCommunicationTablet]
   id: CentCommCommunicationTablet
-  description: ent-CentCommCommunicationTablet-desc
+  description: Старший, более самовлюблённый брат управленческого планшета капитана. Комплектуется модной самозаряжающейся батареей.
   components:
     - type: Sprite
       layers:
