@@ -168,21 +168,29 @@
 - type: entity
   id: GasTurbineNormal
   parent: [BaseGasTurbine, GasTurbineCrew]
+  name: газовая турбина
+  description: Большая турбина для выработки энергии на горячем газе.
 
 - type: entity
   id: GasTurbineSmall
   parent: [BaseGasTurbineSmall, GasTurbineCrew]
+  name: малая газовая турбина
+  description: Малая турбина для выработки энергии на горячем газе.
 #endregion
 
 #region Salvage turbines
 - type: entity
   id: GasTurbineNormalSalvage
   parent: [BaseGasTurbine, GasTurbineSalvage]
+  name: газовая турбина
+  description: Большая турбина для выработки энергии на горячем газе.
   suffix: "Salvage"
 
 - type: entity
   id: GasTurbineSmallSalvage
   parent: [BaseGasTurbineSmall, GasTurbineSalvage]
+  name: малая газовая турбина
+  description: Малая турбина для выработки энергии на горячем газе.
   suffix: "Salvage"
 #endregion
 
@@ -292,8 +300,8 @@
 
 - type: entity
   id: GasTurbineBladeShrapnel
-  name: Gas Turbine Blade
-  description: Uh oh.
+  name: лопатка газовой турбины
+  description: Ой-ой.
   categories: [ HideSpawnMenu ]
   components:
   - type: FlyBySound

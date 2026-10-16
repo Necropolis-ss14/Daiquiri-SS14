@@ -1,8 +1,8 @@
 - type: entity
-  name: Clown Ian
+  name: Клоун Иан
   parent: MobCorgi
   id: MobCorgiClownIan
-  description: HONK! HONK! IAN HERE.
+  description: ХОНК! ХОНК! ИАН ЗДЕСЬ.
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -88,11 +88,11 @@
 ## STIR STIR
 
 - type: entity
-  name: Stir Stir
+  name: Стир Стир
   parent: MobMonkeyAdvanced # He's smarter than the average monkey. Also no vent crawling.
   id: MobMonkeyStirStir
   suffix: AI
-  description: A disreputable monkey who should not be trusted. A real cell stuffer.
+  description: Бесчестная обезьяна, которой нельзя доверять. Настоящий завсегдатай камер.
   components:
   - type: LanguageKnowledge
     speaks:
@@ -137,7 +137,7 @@
 - type: entity
   parent: MobMouse
   id: MobMouseRemy
-  name: Remy
+  name: Реми
   components:
   - type: LanguageKnowledge
     speaks:
@@ -181,7 +181,7 @@
   parent: BaseSimpleMob
   id: MobAdminMouse
   name: Мышь администратора
-  description: A troublemaking mouse that will most probably contribute to your death, one way or another.
+  description: Вредная мышь, которая так или иначе, скорее всего, поспособствует вашей смерти.
   components:
   - type: LanguageKnowledge
     speaks:
@@ -278,7 +278,7 @@
   parent: MobAdminMouse
   id: MobMentorMouse
   name: Мышь ментора
-  description: A helpful little mouse that will (hopefully) give good advice. Click on it to pick it up!
+  description: Полезная маленькая мышь, которая (надеемся) даст хороший совет. Кликните по ней, чтобы взять в руки!
   components:
   - type: Sprite
     drawdepth: SmallMobs
@@ -315,10 +315,10 @@
     - BluespaceImplant
 
 - type: entity
-  name: Rt Hon. Flippers
+  name: Достопочтенный Флипперс
   parent: MobPenguin
   id: MobPenguinFlippers
-  description: Emperor of the Court.
+  description: Император Двора.
   components:
   # Starlight-start: Languages
   - type: LanguageSpeaker
@@ -360,10 +360,10 @@
     - VimPilot
 
 - type: entity
-  name: Cecil
+  name: Сесил
   parent: MobLizard
   id: MobLizardCecil
-  description: A lounge lizard kept by Central Command to add ambiance to their conference rooms. Do not confuse for sea salt, his name is Cecil. Cecil. Cecil. Cecil command. Cecil. Sea salt command.
+  description: Комнатная ящерица, которую Центральное командование держит для атмосферы в залах заседаний. Не путать с морской солью, его зовут Сесил. Сесил. Сесил. Команда Сесил. Сесил. Команда морской соли.
   components:
   - type: LanguageKnowledge
     speaks:

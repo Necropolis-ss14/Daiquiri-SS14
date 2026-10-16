@@ -2,7 +2,7 @@
   parent: ClothingMiscBase
   id: ClothingSovietMedals
   name: советский набор медалей
-  description: A collection of medals meant to be replicas of the ones decorated. Wait, I think these actually might be real.
+  description: Коллекция медалей-реплик награждённых. Погодите, кажется, они настоящие.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Neck/Medals/SovietMedals.rsi

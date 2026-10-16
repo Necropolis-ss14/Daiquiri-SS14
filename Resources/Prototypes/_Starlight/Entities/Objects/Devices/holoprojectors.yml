@@ -2,7 +2,7 @@
   parent: Holoprojector
   id: HoloprojectorEngineering
   name: инженерный голопроектор-предупреждение
-  description: Creates a non-solid warning projection, meant for marking hazards.
+  description: Создаёт нетвёрдую предупреждающую проекцию для обозначения опасностей.
   components:
     - type: HolosignProjector
       signProto: HolosignEngineeringWarning
@@ -35,7 +35,7 @@
   parent: [ Holoprojector, BaseMinorContraband ]
   id: FalseShutterProjector
   name: проектор ложных ставней
-  description: Looks almost like the real thing. Useful for blocking the vision of the distracted or unobservant while you do what needs done.
+  description: Выглядит почти как настоящее. Полезно для блокировки обзора рассеянных или невнимательных, пока вы делаете то, что нужно.
   components:
   - type: HolosignProjector
     signProto: HolosignFalseShutter

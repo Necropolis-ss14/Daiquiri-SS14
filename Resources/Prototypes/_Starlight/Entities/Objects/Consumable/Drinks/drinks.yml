@@ -33,7 +33,7 @@
   id: DrinkWaterBottleEmpty
   suffix: Empty
   name: бутылка воды
-  description: Simple clean water of unknown origin. You think that maybe you don't want to know it.
+  description: Простая чистая вода неизвестного происхождения. Кажется, лучше не знать, откуда она.
   components:
   - type: Solution
     id: drink

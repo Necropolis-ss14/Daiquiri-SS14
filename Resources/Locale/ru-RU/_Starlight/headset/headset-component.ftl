@@ -11,6 +11,7 @@ chat-radio-global = Общий
 chat-radio-aspace = Аспейс
 chat-radio-medtak = МедТак
 chat-radio-medtak-borg = Кремний МедТак
+chat-radio-gorlex = Мародёры Горлекс
 
 headset-loud-mode-examine-active = Громкоговоритель гарнитуры [color=green]АКТИВЕН[/color].
 headset-loud-mode-examine-inactive = Громкоговоритель гарнитуры [color=red]НЕАКТИВЕН[/color].

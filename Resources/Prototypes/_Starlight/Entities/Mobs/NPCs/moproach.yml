@@ -15,7 +15,7 @@
   parent: BoxCardboard
   name: набор таракамоля
   id: MoproachBox
-  description: A kit to quickly get two moproaches ready to work.
+  description: Набор, позволяющий быстро подготовить двух таракамолей к работе.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -35,7 +35,7 @@
   name: куб таракамоля
   suffix: Wrapped
   id: MoproachCubeWrapped
-  description: Unwrap this to get a moproach cube.
+  description: Разверните, чтобы получить куб таракамоля.
   components:
   - type: SpawnItemsOnUse
     items:

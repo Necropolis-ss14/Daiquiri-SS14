@@ -1561,7 +1561,7 @@
   id: ProjectilePolyboltJohnToe
   parent: ProjectilePolyboltBase
   name: полиболт «Джон Тоу»
-  description: Nooo, I don't wanna be john toe!
+  description: Нееет, я не хочу быть джон тоу!
   categories: [ HideSpawnMenu ]
   components:
   - type: PolymorphOnTrigger
@@ -1615,7 +1615,7 @@
 # Energy Magnum
 
 - type: entity
-  name: magnum laser bolt
+  name: лазерный болт магнум
   id: BulletLaserMagnumSL
   categories: [ HideSpawnMenu ]
   parent:  EnergyTrace

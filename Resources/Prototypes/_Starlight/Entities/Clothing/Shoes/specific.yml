@@ -2,8 +2,8 @@
 - type: entity
   parent: [ ClothingShoesBase, ClothingShoesUnstainable, BaseJanitorContraband ]
   id: ClothingShoesGaloshnt
-  name: galoshes
-  description: Specialized slippery rubber boots, designed to increase janitorial workplace accidents; a tider's nightmare.
+  name: калоши
+  description: Специальные скользкие резиновые сапоги, повышающие травматизм уборщиков; кошмар тайдера.
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Specific/galoshes.rsi
@@ -16,7 +16,7 @@
   parent: ClothingShoesBase
   id: ClothingShoesGreenLizardskin
   name: зелёные туфли из кожи ящерицы
-  description: They may have lost some of their lustre over the years, but these green lizardskin shoes fit you perfectly.
+  description: Может, за годы они потеряли блеск, но эти зелёные туфли из ящерокожи сидят идеально.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Shoes/Specific/disco.rsi
@@ -27,7 +27,7 @@
   parent: ClothingShoesBase
   id: ClothingShoesAerostatic
   name: аэростатические ботинки
-  description: A crisp, clean set of boots for working long hours on the beat.
+  description: Чистый опрятный комплект ботинок для долгих часов патрулирования.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Shoes/Specific/kim.rsi
@@ -38,7 +38,7 @@
   parent: ClothingShoesBaseButcherable
   id: ClothingShoesSchoolBlack
   name: чёрные школьные туфли
-  description: Stylish and comfortable school shoes in dark color with stockings.
+  description: Стильные удобные школьные туфли тёмного цвета с чулками.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Shoes/Specific/schoolblackshoes.rsi
@@ -49,7 +49,7 @@
   parent: ClothingShoesBaseButcherable
   id: ClothingShoesSchoolWhite
   name: белые школьные туфли
-  description: Stylish and comfortable school shoes in light color with stockings.
+  description: Стильные удобные школьные туфли светлого цвета с чулками.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Shoes/Specific/schoolwhiteshoes.rsi
@@ -60,7 +60,7 @@
   parent: ClothingShoesSkates
   id: ClothingShoesSkatesCool
   name: крутые роликовые коньки
-  description: They're cooler than the other ones.
+  description: Они круче остальных.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Shoes/Specific/cool_skates.rsi
@@ -77,7 +77,7 @@
   parent: [ClothingShoesClown, BaseSyndicateContraband]
   id: ClownShoesNoSlip
   name: нескользящие туфли клоуна
-  description: Tyranny of Honk's latest clothing line targets more specialized clowning niches. Now with 100% less operator slipping!
+  description: Новая линейка одежды Тирании Хонка для узких клоунских ниш. Теперь со 100% меньшим скольжением оператора!
   suffix: No-slip
   components:
   - type: NoSlip

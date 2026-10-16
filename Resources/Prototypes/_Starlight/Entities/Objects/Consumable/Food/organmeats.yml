@@ -1,10 +1,10 @@
 # meaty dishes derived from grinding organs
 
 - type: entity
-  name: haggis
+  name: хаггис
   parent: FoodMealBase
   id: FoodHaggis
-  description: A delicacy among Dwarfs, the Scottish, and precisely no one else. Inexplicably nutritious.
+  description: Деликатес среди дворфов, шотландцев и больше никого. Необъяснимо питательный.
   components:
     - type: FlavorProfile
       flavors:
@@ -32,7 +32,7 @@
   name: кровяная колбаса
   parent: FoodMealBase
   id: FoodBlackPudding
-  description: Just when you thought English cuisine couldn't get any worse...
+  description: Когда казалось, что английская кухня уже не станет хуже...
   components:
     - type: FlavorProfile
       flavors:
@@ -62,7 +62,7 @@
   name: сырая колбаса
   parent: FoodMeatBase
   id: FoodSausage
-  description: Don't undercook it.
+  description: Не недожарь её.
   components:
     - type: FlavorProfile
       flavors:
@@ -93,10 +93,10 @@
         - Raw
 
 - type: entity
-  name: sausage
+  name: жареная колбаса
   parent: FoodMeatBase
   id: FoodSausageCooked
-  description: If you don't know how they're made, they're delicious. After that, it's a different story.
+  description: Если не знаешь, как их делают, — вкусно. А после — совсем другое дело.
   components:
     - type: FlavorProfile
       flavors:
@@ -132,7 +132,7 @@
   name: сосиска в булке
   parent: FoodMealBase
   id: FoodSausageBun
-  description: Don't forget the condiments!
+  description: Не забудь про соусы!
   components:
     - type: FlavorProfile
       flavors:

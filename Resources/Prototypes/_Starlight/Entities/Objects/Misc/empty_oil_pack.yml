@@ -1,7 +1,7 @@
 - type: entity
   name: пустой масляный пакет
   parent: BaseItem
-  description: Contains nothing.
+  description: Ничего не содержит.
   id: EmptyOilPack
   suffix: Full
   components:

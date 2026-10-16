@@ -27,8 +27,8 @@
 - type: entity
   id: AbductorExtractor
   parent: [ BaseItem, BaseMajorContraband ]
-  name: extractor
-  description: A device that extracts a heart for easier implantation of new heart.
+  name: экстрактор
+  description: Устройство, извлекающее сердце для более лёгкой имплантации нового сердца.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Misc/extractor.rsi

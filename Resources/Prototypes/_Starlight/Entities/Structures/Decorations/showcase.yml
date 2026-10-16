@@ -2,7 +2,7 @@
   id: ShowcaseRobotPobeda
   parent: BaseShowcaseRobot
   name: витрина меха «Победа»
-  description: A non-functional replica of an old USSP Pobeda mech.
+  description: Нерабочая реплика старого меха СССП «Победа».
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Decorations/showcase.rsi #SL Edit
@@ -13,7 +13,7 @@
   id: ShowcaseAbyssalSuit
   parent: BaseShowcaseRobot
   name: витрина бездонного водолазного костюма
-  description: A non-functional replica of an old diving suit recovered from beyond the Null Scar.
+  description: Нерабочая реплика старого водолазного костюма, поднятого из-за Нуль-шрама.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Decorations/showcase.rsi #SL Edit

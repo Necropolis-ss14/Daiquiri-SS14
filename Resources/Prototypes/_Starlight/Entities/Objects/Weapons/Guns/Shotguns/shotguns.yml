@@ -1,8 +1,8 @@
 - type: entity
-  name: riot shotgun
+  name: дробовик для разгона толпы
   parent: [ BaseContrabandTier3, BaseWeaponShotgunAny, BaseGunWieldable, BaseSecurityContraband ] # Blimpuf
   id: WeaponShotgunRiot
-  description: A sturdy shotgun with a longer magazine and a fixed tactical grip designed for non-lethal riot control.
+  description: Крепкий дробовик с удлинённым магазином и фиксированной тактической рукоятью для нелетального разгона беспорядков.
   components:
   - type: Item
     sprite: _Starlight/Objects/Weapons/Guns/Shotguns/riot_inhands_64x.rsi
@@ -51,10 +51,10 @@
   - type: Appearance
 
 - type: entity
-  name: combat shotgun
+  name: боевой дробовик
   parent: [ BaseContrabandTier3, BaseWeaponShotgun, BaseGunWieldable, BaseSecurityContraband ] # Blimpuf
   id: WeaponShotgunCombat
-  description: A semi automatic shotgun with tactical furniture and a seven-shell capacity underneath.
+  description: Полуавтоматический дробовик с тактическим обвесом и ёмкостью на семь патронов.
   components:
   - type: Item
     sprite: _Starlight/Objects/Weapons/Guns/Shotguns/cshotgun_inhands_64x.rsi
@@ -76,7 +76,7 @@
   name: дробовик «Сайклер»
   parent: [ BaseContrabandTier3, BaseWeaponShotgunAny, BaseGunWieldable, BaseSecurityContraband, BaseSalvageContraband ] # Blimpuf
   id: WeaponShotgunCycler
-  description: An advanced shotgun with two separate magazine tubes, allowing you to quickly toggle between ammo types.
+  description: Продвинутый дробовик с двумя трубчатыми магазинами, быстрое переключение типа патронов.
   components:
   - type: Item
     sprite: _Starlight/Objects/Weapons/Guns/Shotguns/cycler.rsi
@@ -110,7 +110,7 @@
   name: револьвер Tkach Ya-Sui GA 12
   parent: [ BaseContrabandTier3, BaseWeaponShotgunAny, BaseSecurityContraband, BaseSalvageContraband ] # Blimpuf
   id: WeaponShotgunGA12
-  description: An outdated sidearm rarely seen in use by certain PMCs that operate throughout the frontier systems, featuring a three-shell cylinder. Thats right, shell, this one shoots twelve gauge.
+  description: Устаревший пистолет, редкий у некоторых ЧВК фронтира, с трёхзарядным барабаном. Да, барабаном, этот стреляет двенадцатым калибром.
   components:
   - type: Item
     sprite: _Starlight/Objects/Weapons/Guns/Shotguns/ga12.rsi
@@ -155,7 +155,7 @@
   name: Tkach GA-6 «Фанг»
   parent: [ BaseContrabandTier3, BaseWeaponShotgunAny, BaseSecurityContraband, BaseSalvageContraband ] # Blimpuf
   id: WeaponRevolverGA6Fang
-  description: A heavier follow-up to the GA 12 line, featuring a six-shell cylinder and a hook spike for when shells run dry. Rare, and unpleasant to be on the wrong end of.
+  description: Утяжелённый наследник линейки GA 12, шестизарядный барабан и крюк-шип на случай пустых патронов. Редкий и неприятный не с той стороны.
   components:
   - type: Item
     sprite: _Starlight/Objects/Weapons/Guns/Shotguns/piratehandshotgun.rsi
@@ -216,7 +216,7 @@
   name: дробовик AS-12 «Минотавр»
   parent: [BaseWeaponShotgunAny, BaseGunWieldable, BaseSyndicateContraband]
   id: WeaponShotgunMinotaur
-  description: Smooth, powerful, highly illegal. The newest full auto shotgun available at the market, utilizes standard 12g drum mags. Property of Gorlex Marauders.
+  description: Гладкий, мощный, крайне нелегальный. Новейший полноавтоматический дробовик на рынке, ест стандартные барабанные магазины 12g. Собственность Мародёров Горлекс.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Guns/Shotguns/minotaur.rsi
@@ -268,10 +268,10 @@
   - type: Appearance
 
 - type: entity
-  name: forged double-barrel shotgun
+  name: кустарная двустволка
   parent: [BaseWeaponShotgun, BaseGunWieldable, BaseMinorContraband]
   id: WeaponShotgunForged
-  description: Decently made double-barrel shotgun, reinforced with mixed steel and plasteel plates to keep it together. Not as accurate as a real gun.
+  description: Прилично сделанная двустволка, стянута стальными и пласталевыми пластинами. Не такая точная, как настоящее ружьё.
   components:
   - type: Item
     sprite: _Starlight/Objects/Weapons/Guns/Shotguns/forged_shotgun_inhands_64x.rsi
@@ -293,7 +293,7 @@
   name: самодельный дробовик
   parent: [WeaponFlareGun, BaseMinorContraband]
   id: WeaponShotgunMakeshift
-  description: A small hand-cannon that fires 12 gauge shotgun shells. Has no cloth to hold it together, so it has a high chance of falling apart with every shot.
+  description: Малая ручная пушка под патроны 12 калибра. Тряпок нет, так что с каждым выстрелом высокий шанс развалиться.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Guns/Shotguns/makeshift_shotgun.rsi
@@ -351,10 +351,10 @@
     angleIncrease: 5
     angleDecay: 10
 - type: entity
-  name: ZOZ-106
+  name: ЗОЗ-106
   parent: [ BaseContrabandTier3, BaseWeaponShotgunAny, BaseGunWieldable, BaseSovietContraband ] # Blimpuf
   id: WeaponShotgunToz106
-  description: A cheap Soviet shotgun that received an indifferent welcome from hunters. Aim at the head and eyes for best results. Uses less-powerful 20 gauge shotgun shells.
+  description: Дешёвый советский дробовик, охотники встретили без восторга. Для лучшего результата цель в голову и глаза. Под ослабленные патроны 20 калибра.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Guns/Shotguns/toz.rsi
@@ -406,7 +406,7 @@
 - type: entity
   parent: WeaponShotgunToz106
   id: WeaponShotgunToz106Extended
-  description: A cheap Soviet shotgun that received an indifferent welcome from hunters. Aim at the head and eyes for best results. Uses less-powerful 20 gauge shotgun shells. Extended magazine version.
+  description: Дешёвый советский дробовик, охотники встретили без восторга. Для лучшего результата цель в голову и глаза. Под ослабленные патроны 20 калибра. Версия с расширенным магазином.
   suffix: extended mag
   components:
   - type: BallisticAmmoProvider
@@ -420,10 +420,10 @@
 
 # fully shitposted TOZ with no mag restrictions!
 - type: entity
-  name: TOZ-106
+  name: ТОЗ-106
   parent: [ BaseContrabandTier3, BaseWeaponShotgunAny, BaseGunWieldable, BaseSovietContraband ] # Blimpuf
   id: WeaponShotgunToz106Shitpost
-  description: Piotr said his custom ZOZ-106 could accept ANY magazine. No one believed him until it was too late.
+  description: Пётр говорил, его кастомный ZOZ-106 ест ЛЮБОЙ магазин. Никто не верил, пока не стало поздно.
   suffix: Admeme, DO NOT MAP
   components:
   - type: Sprite

@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseLightTube
-  name: black light tube
+  name: трубка чёрного света
   id: BlackLightTube
-  description: A colorful light tube. These emit "black light".
+  description: Разноцветная световая трубка. Излучает «чёрный свет».
   components:
   - type: LightBulb
     color: "#5D0CED"
@@ -16,8 +16,8 @@
 
 - type: entity
   parent: BaseLightTube
-  name: warm light tube
-  description: A warm light tube conducive to slowly bleeding out in the snow. Definitely contains sodium.
+  name: тёплая световая трубка
+  description: Тёплая световая трубка, располагающая к медленному истеканию кровью в снегу. Определённо содержит натрий.
   id: LightTubeWarm
   components:
   - type: LightBulb

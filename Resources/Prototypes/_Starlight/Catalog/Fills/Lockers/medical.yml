@@ -264,7 +264,7 @@
   parent: LockerChemistry
   id: LockerMedicineJugsFilled
   name: шкаф с кувшинами лекарств
-  description: A locker pre-filled with jugs. Chemists rejoice!
+  description: Шкаф, заранее заполненный кувшинами. Химики ликуют!
   categories: [ ShouldMapStation ]
   suffix: Filled
   components:

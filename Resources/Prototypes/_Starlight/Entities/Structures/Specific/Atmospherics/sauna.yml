@@ -38,7 +38,7 @@
 - type: entity
   parent: [AirSensorSaunaBase, AirSensor]
   id: AirSensorSauna
-  description: An air sensor set up for use in saunas. It ignores humidity, and heat until it turns harmful.
+  description: Датчик воздуха для саун. Игнорирует влажность и жар, пока он не станет опасным.
 
 # Gas Vent
 
@@ -62,7 +62,7 @@
   id: GasVentPumpSauna
   placement:
     mode: AlignAtmosPipeLayers
-  description: An air vent set up for use in saunas. It ignores humidity, and heat until it turns harmful.
+  description: Вентиляция для саун. Игнорирует влажность и жар, пока он не станет опасным.
   components:
   - type: SandboxCopyOverride
     override: GasVentPumpSauna
@@ -71,7 +71,7 @@
   parent: [GasVentPumpSaunaBase, GasVentPumpAlt1]
   id: GasVentPumpSaunaAlt1
   categories: [ HideSpawnMenu ]
-  description: An air vent set up for use in saunas. It ignores humidity, and heat until it turns harmful.
+  description: Вентиляция для саун. Игнорирует влажность и жар, пока он не станет опасным.
   components:
   - type: SandboxCopyOverride
     override: GasVentPumpSauna
@@ -80,7 +80,7 @@
   parent: [GasVentPumpSaunaBase, GasVentPumpAlt2]
   id: GasVentPumpSaunaAlt2
   categories: [ HideSpawnMenu ]
-  description: An air vent set up for use in saunas. It ignores humidity, and heat until it turns harmful.
+  description: Вентиляция для саун. Игнорирует влажность и жар, пока он не станет опасным.
   components:
   - type: SandboxCopyOverride
     override: GasVentPumpSauna
@@ -89,7 +89,7 @@
   parent: [GasVentPumpSaunaBase, GasVentPumpAlt3]
   id: GasVentPumpSaunaAlt3
   categories: [ HideSpawnMenu ]
-  description: An air vent set up for use in saunas. It ignores humidity, and heat until it turns harmful.
+  description: Вентиляция для саун. Игнорирует влажность и жар, пока он не станет опасным.
   components:
   - type: SandboxCopyOverride
     override: GasVentPumpSauna
@@ -98,7 +98,7 @@
   parent: [GasVentPumpSaunaBase, GasVentPumpAlt4]
   id: GasVentPumpSaunaAlt4
   categories: [ HideSpawnMenu ]
-  description: An air vent set up for use in saunas. It ignores humidity, and heat until it turns harmful.
+  description: Вентиляция для саун. Игнорирует влажность и жар, пока он не станет опасным.
   components:
   - type: SandboxCopyOverride
     override: GasVentPumpSauna
@@ -145,7 +145,7 @@
   id: GasVentScrubberSauna
   placement:
     mode: AlignAtmosPipeLayers
-  description: An air scrubber set up for use in saunas. It leaves water vapour where it is.
+  description: Скруббер воздуха для саун. Оставляет водяной пар на месте.
   components:
   - type: SandboxCopyOverride
     override: GasVentScrubberSauna
@@ -154,7 +154,7 @@
   parent: [GasVentScrubberSaunaBase, GasVentScrubberAlt1]
   id: GasVentScrubberSaunaAlt1
   categories: [ HideSpawnMenu ]
-  description: An air scrubber set up for use in saunas. It leaves water vapour where it is.
+  description: Скруббер воздуха для саун. Оставляет водяной пар на месте.
   components:
   - type: SandboxCopyOverride
     override: GasVentScrubberSauna
@@ -163,7 +163,7 @@
   parent: [GasVentScrubberSaunaBase, GasVentScrubberAlt2]
   id: GasVentScrubberSaunaAlt2
   categories: [ HideSpawnMenu ]
-  description: An air scrubber set up for use in saunas. It leaves water vapour where it is.
+  description: Скруббер воздуха для саун. Оставляет водяной пар на месте.
   components:
   - type: SandboxCopyOverride
     override: GasVentScrubberSauna
@@ -172,7 +172,7 @@
   parent: [GasVentScrubberSaunaBase, GasVentScrubberAlt3]
   id: GasVentScrubberSaunaAlt3
   categories: [ HideSpawnMenu ]
-  description: An air scrubber set up for use in saunas. It leaves water vapour where it is.
+  description: Скруббер воздуха для саун. Оставляет водяной пар на месте.
   components:
   - type: SandboxCopyOverride
     override: GasVentScrubberSauna
@@ -181,7 +181,7 @@
   parent: [GasVentScrubberSaunaBase, GasVentScrubberAlt4]
   id: GasVentScrubberSaunaAlt4
   categories: [ HideSpawnMenu ]
-  description: An air scrubber set up for use in saunas. It leaves water vapour where it is.
+  description: Скруббер воздуха для саун. Оставляет водяной пар на месте.
   components:
   - type: SandboxCopyOverride
     override: GasVentScrubberSauna
@@ -196,7 +196,7 @@
   id: AirAlarmSauna
   name: воздушная сигнализация сауны
   suffix: Sauna Atmosphere, unlocked, auto mode disabled
-  description: An air alarm set up for use in saunas. It doesn't report to the station's alert console.
+  description: Воздушная сигнализация для саун. Не передаёт сигналы на консоль оповещений станции.
   components:
   - type: AirAlarm
     autoMode: false

@@ -19,7 +19,7 @@
   id: WeatherMarkerRain
   parent: WeatherMarkerBase
   suffix: Rain
-  description: "A little perichor for the soul."
+  description: Немного петрикора для души.
   components:
   - type: Transform
   - type: WeatherMarker
@@ -33,7 +33,7 @@
   id: WeatherMarkerStorm
   parent: WeatherMarkerBase
   suffix: Rainstorm
-  description: "It was a dark and stormy night..."
+  description: Это была тёмная бурная ночь...
   components:
   - type: Transform
   - type: WeatherMarker
@@ -46,7 +46,7 @@
   id: WeatherMarkerHail
   parent: WeatherMarkerBase
   suffix: Hail
-  description: "Mostly not deadly."
+  description: В основном не смертельно.
   components:
   - type: Transform
   - type: WeatherMarker
@@ -59,7 +59,7 @@
   id: WeatherMarkerSnowfallLight
   parent: WeatherMarkerBase
   suffix: "Snowfall, Light"
-  description: "A light dusting of snow."
+  description: Лёгкая пороша.
   components:
   - type: Transform
   - type: WeatherMarker
@@ -72,7 +72,7 @@
   id: WeatherMarkerSnowfallMedium
   parent: WeatherMarkerBase
   suffix: "Snowfall, Medium"
-  description: "A large helping of snow."
+  description: Щедрая порция снега.
   components:
   - type: Transform
   - type: WeatherMarker
@@ -85,7 +85,7 @@
   id: WeatherMarkerSnowfallHeavy
   parent: WeatherMarkerBase
   suffix: "Snowfall, Whiteout"
-  description: "A howling blizzard with white-out conditions."
+  description: Воющий буран с белой мглой.
   components:
   - type: Transform
   - type: WeatherMarker
@@ -98,7 +98,7 @@
   id: WeatherMarkerSnowLobster
   parent: WeatherMarkerBase
   suffix: "Snowfall, Heavy"
-  description: "Heavy snow with light fog."
+  description: Сильный снег с лёгким туманом.
   components:
   - type: Transform
   - type: WeatherMarker
@@ -113,7 +113,7 @@
   id: WeatherMarkerAshfallLight
   parent: WeatherMarkerBase
   suffix: "Ashfall, Light"
-  description: "Maybe volcanic, definitely disasterous."
+  description: Возможно вулканический, определённо катастрофический.
   components:
   - type: Transform
   - type: WeatherMarker
@@ -126,7 +126,7 @@
   id: WeatherMarkerAshfallHeavy
   parent: WeatherMarkerBase
   suffix: "Ashfall, Heavy"
-  description: "Don't breath this!"
+  description: Не дышите этим!
   components:
   - type: Transform
   - type: WeatherMarker
@@ -139,7 +139,7 @@
   id: WeatherMarkerFallout
   parent: WeatherMarkerBase
   suffix: Fallout
-  description: "Crawl out through the fallout."
+  description: Выбирайтесь сквозь осадки.
   components:
   - type: Transform
   - type: WeatherMarker
@@ -152,7 +152,7 @@
   id: WeatherMarkerSandstorm
   parent: WeatherMarkerBase
   suffix: "Sandstorm, Light"
-  description: "Music not included."
+  description: Музыка не прилагается.
   components:
   - type: Transform
   - type: WeatherMarker
@@ -165,7 +165,7 @@
   id: WeatherMarkerSandstormHeavy
   parent: WeatherMarkerBase
   suffix: "Sandstorm, Heavy"
-  description: "It'll get everywhere."
+  description: Он проникнет повсюду.
   components:
   - type: Transform
   - type: WeatherMarker

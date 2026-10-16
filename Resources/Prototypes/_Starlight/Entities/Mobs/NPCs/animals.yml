@@ -27,11 +27,11 @@
   - type: GhostTakeoverAvailable
 
 - type: entity
-  name: monkey
+  name: обезьяна
   suffix: Advanced
   id: MobMonkeyAdvanced
   parent: [MobBaseAncestor, BaseSpeciesPickupable]
-  description: New church of neo-darwinists actually believe that EVERY animal evolved from a monkey. Tastes like pork, and killing them is both fun and relaxing.
+  description: Новая церковь неодарвинистов верит, что КАЖДОЕ животное произошло от обезьяны. На вкус как свинина, а убивать их весело и расслабляюще.
   components:
   - type: NameIdentifier
     group: Monkey
@@ -97,11 +97,11 @@
             state: hand-monkey
 
 - type: entity
-  name: kobold
+  name: кобольд
   suffix: Advanced
   id: MobKoboldAdvanced
   parent: MobBaseKobold
-  description: Cousins to the sentient race of lizard people, kobolds blend in with their natural habitat and are as nasty as monkeys; ready to pull out your hair and stab you to death.
+  description: Родичи разумной расы людоящеров, кобольды сливаются с родной средой и злобны как обезьяны; готовы вырвать вам волосы и зарезать вас.
   components:
   - type: GhostRole
     prob: 0.05
@@ -200,8 +200,8 @@
 - type: entity
   parent: MobSnail # Starlight Edit: Removed BaseMobMothroach
   id: MobSnouse
-  name: Snouse
-  description: Developed by Interdyne as one of their many attempts to stifle the ever-present problem of pests on agri-worlds, the Snouse is a transgenic organism intended to interfere and mingle with existing rodent populations. Populations of these were released into farming communities alongside Snoths in hopes they would pass on the snail genes, making future generations of pests unable to escape from traps and other forms of pest control. Unfortunately, this attempt proved futile as the hardened shells of these organisms made them resistant to commonly available mousetraps. Interdyne then moved onto their next attempt at solving the pest problem, the meowl.
+  name: сноус
+  description: Разработан Interdyne как одна из многих попыток обуздать вечную проблему вредителей на аграрных мирах. Сноус — трансгенный организм, призванный внедряться в существующие популяции грызунов. Эти особи были выпущены в фермерских поселениях вместе со снотами в надежде, что они передадут гены улиток, лишив будущие поколения вредителей возможности сбегать из ловушек. К сожалению, попытка оказалась тщетной, так как прочные панцири сделали их устойчивыми к обычным мышеловкам. После этого Interdyne перешла к следующей попытке — мяулу.
   components:
   - type: LanguageKnowledge
     speaks:
@@ -304,10 +304,10 @@
 
 # Immortal Roach from Funky, moved here since we're tweaking it
 - type: entity
-  name: hardened roach
+  name: закалённый таракан
   parent: MobCockroach
   id: ImmortalRoach
-  description: With an extremely robust carapace this foul creature is considered neigh invulnerable. Spacing is recommended.
+  description: Благодаря чрезвычайно прочному панцирю это мерзкое существо считается почти неуязвимым. Рекомендуется выбросить в космос.
   components:
   - type: Sprite
     drawdepth: SmallMobs

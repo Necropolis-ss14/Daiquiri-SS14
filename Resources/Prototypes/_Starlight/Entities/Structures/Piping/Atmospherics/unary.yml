@@ -12,7 +12,7 @@
   parent: GasUnaryBase
   id: GasInletSiphon
   name: воздушный сифон
-  description: Siphons air from adjacent tiles.
+  description: Откачивает воздух с соседних клеток.
   placement:
     mode: AlignAtmosPipeLayers
   components:

@@ -2,7 +2,7 @@
   parent: BaseSign
   id: SignBrigmed
   name: табличка бригмеда
-  description: A sign indicating the brig medical bay.
+  description: "Табличка: медотсек брига."
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Wallmounts/signs.rsi
@@ -12,7 +12,7 @@
   parent: BaseSign
   id: SignDisposalProper
   name: табличка утилизации
-  description: A sign indicating a disposal area.
+  description: "Табличка: зона утилизации."
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Wallmounts/signs.rsi
@@ -22,7 +22,7 @@
   parent: BaseSign
   id: SignSecureAreaSmall
   name: табличка охраняемой зоны
-  description: A sign indicating a secure area.
+  description: "Табличка: охраняемая зона."
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Wallmounts/signs.rsi
@@ -32,7 +32,7 @@
   parent: BaseSign
   id: SignWallBiohazard
   name: настенная табличка биологической опасности
-  description: A sign indicating a biohazard.
+  description: "Табличка: биологическая опасность."
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Wallmounts/signs.rsi
@@ -42,7 +42,7 @@
   parent: BaseSign
   id: SignWallExtremeHeat
   name: настенная табличка экстремальной жары
-  description: A sign indicating extreme heat.
+  description: "Табличка: экстремальная жара."
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Wallmounts/signs.rsi
@@ -52,7 +52,7 @@
   parent: BaseSign
   id: SignNoSmoking
   name: табличка «Не курить»
-  description: A sign indicating you can not smoke here.
+  description: "Табличка: здесь не курят."
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Wallmounts/signs.rsi
@@ -62,7 +62,7 @@
   parent: BaseSign
   id: SignYesSmoking
   name: табличка «Курить можно»
-  description: A sign indicating you can smoke here.
+  description: "Табличка: здесь можно курить."
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Wallmounts/signs.rsi
@@ -72,7 +72,7 @@
   parent: BaseSignDirectional
   id: SignDirectionalMining
   name: табличка шахтёров
-  description: A direction sign, pointing out which way the Mining department is.
+  description: "Указатель: туда — шахтёрский департамент."
   components:
     - type: Sprite
       sprite: _Starlight/Structures/Wallmounts/signs.rsi
@@ -82,7 +82,7 @@
   parent: BaseSign
   id: SignMining
   name: табличка шахтёров
-  description: A sign indicating the mining area.
+  description: "Табличка: зона добычи."
   components:
     - type: Sprite
       sprite: _Starlight/Structures/Wallmounts/signs.rsi
@@ -92,7 +92,7 @@
   parent: BaseSign
   id: SignRoboSurgery
   name: знак робохирургии
-  description: A sign indicating the presence of borgifcation and IPC repair.
+  description: "Табличка: здесь боргификация и ремонт СПИ."
   components:
     - type: Sprite
       sprite: _Starlight/Structures/Wallmounts/signs.rsi
@@ -102,7 +102,7 @@
   parent: BaseSign
   id: SignDrone
   name: табличка дронов
-  description: A sign indicating the drone area.
+  description: "Табличка: зона дронов."
   components:
     - type: Sprite
       sprite: _Starlight/Structures/Wallmounts/signs.rsi
@@ -112,7 +112,7 @@
   parent: BaseSign
   id: SignHeat
   name: табличка отопления
-  description: A sign indicating the presence of heating equipment.
+  description: "Табличка: отопительное оборудование."
   components:
     - type: Sprite
       sprite: _Starlight/Structures/Wallmounts/signs.rsi
@@ -122,7 +122,7 @@
   parent: BaseSign
   id: SignBreakCargo
   name: табличка комнаты отдыха карго
-  description: A sign indicating where the breakroom is.
+  description: "Табличка: комната отдыха."
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Wallmounts/signs.rsi
@@ -132,7 +132,7 @@
   parent: BaseSign
   id: SignBreakCommand
   name: табличка комнаты отдыха командования
-  description: A sign indicating where the breakroom is.
+  description: "Табличка: комната отдыха."
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Wallmounts/signs.rsi
@@ -142,7 +142,7 @@
   parent: BaseSign
   id: SignBreakEngineering
   name: табличка комнаты отдыха инженеров
-  description: A sign indicating where the breakroom is.
+  description: "Табличка: комната отдыха."
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Wallmounts/signs.rsi
@@ -152,7 +152,7 @@
   parent: BaseSign
   id: SignBreakMedical
   name: табличка комнаты отдыха медиков
-  description: A sign indicating where the breakroom is.
+  description: "Табличка: комната отдыха."
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Wallmounts/signs.rsi
@@ -162,7 +162,7 @@
   parent: BaseSign
   id: SignBreakScience
   name: табличка комнаты отдыха учёных
-  description: A sign indicating where the breakroom is.
+  description: "Табличка: комната отдыха."
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Wallmounts/signs.rsi
@@ -172,7 +172,7 @@
   parent: BaseSign
   id: SignBreakSecurity
   name: табличка комнаты отдыха СБ
-  description: A sign indicating where the breakroom is.
+  description: "Табличка: комната отдыха."
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Wallmounts/signs.rsi
@@ -182,7 +182,7 @@
   parent: BaseSign
   id: SignBreakService
   name: табличка комнаты отдыха сервиса
-  description: A sign indicating where the breakroom is.
+  description: "Табличка: комната отдыха."
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Wallmounts/signs.rsi
@@ -192,7 +192,7 @@
   parent: BaseSign
   id: SignLockerCargo
   name: табличка раздевалки карго
-  description: A sign indicating where the locker room is.
+  description: "Табличка: раздевалка."
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Wallmounts/signs.rsi
@@ -202,7 +202,7 @@
   parent: BaseSign
   id: SignLockerCommand
   name: табличка раздевалки командования
-  description: A sign indicating where the locker room is.
+  description: "Табличка: раздевалка."
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Wallmounts/signs.rsi
@@ -212,7 +212,7 @@
   parent: BaseSign
   id: SignLockerEngineering
   name: табличка раздевалки инженеров
-  description: A sign indicating where the locker room is.
+  description: "Табличка: раздевалка."
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Wallmounts/signs.rsi
@@ -222,7 +222,7 @@
   parent: BaseSign
   id: SignLockerMedical
   name: табличка раздевалки медиков
-  description: A sign indicating where the locker room is.
+  description: "Табличка: раздевалка."
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Wallmounts/signs.rsi
@@ -232,7 +232,7 @@
   parent: BaseSign
   id: SignLockerScience
   name: табличка раздевалки учёных
-  description: A sign indicating where the locker room is.
+  description: "Табличка: раздевалка."
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Wallmounts/signs.rsi
@@ -242,7 +242,7 @@
   parent: BaseSign
   id: SignLockerSecurity
   name: табличка раздевалки СБ
-  description: A sign indicating where the locker room is.
+  description: "Табличка: раздевалка."
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Wallmounts/signs.rsi
@@ -252,7 +252,7 @@
   parent: BaseSign
   id: SignLockerService
   name: табличка раздевалки сервиса
-  description: A sign indicating where the locker room is.
+  description: "Табличка: раздевалка."
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Wallmounts/signs.rsi
@@ -264,7 +264,7 @@
   parent: BaseSign
   id: SignCoreXeno
   name: табличка ядра
-  description: A sign indicating the xenoborg core. Nice of them to mark this for you.
+  description: "Табличка: ядро ксеноборга. Мило, что пометили."
   components:
     - type: Sprite
       sprite: _Starlight/Structures/Wallmounts/xeno_signs.rsi
@@ -274,7 +274,7 @@
   parent: BaseSign
   id: SignDoorsXeno
   name: табличка дверей
-  description: A sign warning of doors. Don't stand in them when closing, you wouldn't want to be gibbed would you?
+  description: Табличка предупреждает о дверях. Не стой в проёме при закрытии — не хочешь же превратиться в фарш?
   components:
     - type: Sprite
       sprite: _Starlight/Structures/Wallmounts/xeno_signs.rsi
@@ -284,7 +284,7 @@
   parent: BaseSign
   id: SignPowerXeno
   name: табличка энергии
-  description: A sign indicating the xenoborg power systems. Electrical hazards ahead.
+  description: "Табличка: энергосистемы ксеноборга. Впереди опасность поражения током."
   components:
     - type: Sprite
       sprite: _Starlight/Structures/Wallmounts/xeno_signs.rsi
@@ -294,7 +294,7 @@
   parent: BaseSign
   id: SignSpaceXeno
   name: табличка космоса
-  description: A sign indicating these doors leads to space. That heavy xenoborg might be lost forever! Don't end up like them.
+  description: "Табличка: эти двери ведут в космос. Тяжёлый ксеноборг может потеряться навсегда! Не кончи так же."
   components:
     - type: Sprite
       sprite: _Starlight/Structures/Wallmounts/xeno_signs.rsi
@@ -304,8 +304,8 @@
 - type: entity
   parent: BaseWallmountMachine
   id: SignEmergencyExit
-  name: exit
-  description: A sign indicating that an exit is this way.
+  name: выход
+  description: "Табличка: выход туда."
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Wallmounts/safety_signs.rsi
@@ -317,8 +317,8 @@
 - type: entity
   parent: BaseWallmountMachine
   id: SignEmergencyEvac
-  name: evac
-  description: A sign indicating that Evac is this way
+  name: эвакуация
+  description: "Табличка: эвакуация туда."
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Wallmounts/safety_signs.rsi
@@ -332,7 +332,7 @@
   parent: BaseSign
   id: SignIAA
   name: табличка внутренней службы
-  description: A sign indicating Internal Affairs and their impending audit of your department.
+  description: "Табличка: внутренняя инспекция и её грядущий аудит вашего департамента."
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Wallmounts/signs.rsi
@@ -342,7 +342,7 @@
   parent: BaseSign
   id: SignLawyerOffice
   name: табличка юриста
-  description: A sign indicating the presence of someone you better call.
+  description: "Табличка: здесь тот, кому лучше позвонить."
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Wallmounts/signs.rsi
@@ -352,7 +352,7 @@
   parent: BaseSign
   id: SignMagistrate
   name: табличка магистрата
-  description: A sign indicating the presence of the ultimate authority of Corporate Law.
+  description: "Табличка: здесь высшая власть Корпоративного закона."
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Wallmounts/signs.rsi
@@ -363,7 +363,7 @@
   parent: BaseSign
   id: SignNTR
   name: табличка НТР
-  description: A sign indicating the physical presence of NanoTrasen aboard the station.
+  description: Табличка о физическом присутствии NanoTrasen на станции.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Wallmounts/signs.rsi

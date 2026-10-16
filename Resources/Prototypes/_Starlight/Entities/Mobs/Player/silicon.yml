@@ -1,5 +1,5 @@
 - type: entity
-  name: drone
+  name: дрон
   id: Drone
   parent: BaseMob
   components:
@@ -309,7 +309,7 @@
 
 #Scrapper
 - type: entity
-  name: Scrapper drone
+  name: Дрон-скраппер
   id: DroneRogue
   parent: Drone
   components:

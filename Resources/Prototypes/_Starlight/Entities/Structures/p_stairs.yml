@@ -1,7 +1,7 @@
 - type: entity
   id: RMCStairs
-  name: stairs
-  description: The greatest invention since rocket-propelled grenades.
+  name: ступеньки
+  description: Величайшее изобретение после гранатомётов.
   placement:
     mode: SnapgridCenter
   components:

@@ -66,8 +66,8 @@
 
 - type: entity
   id: FancyWardrobe
-  name: wardrobe
-  description: A large fancy wardrobe. Its in pretty good condition.
+  name: гардероб
+  description: Большой шикарный гардероб. В довольно хорошем состоянии.
   parent: DresserNoCon
   suffix: Empty
   components:

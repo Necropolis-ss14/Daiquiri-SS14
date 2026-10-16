@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseStructure
   id: PropSnowman
-  name: snowman
-  description: A cheap decoration.
+  name: снеговик
+  description: Дешёвое украшение.
   components:
   - type: Destructible
     thresholds:

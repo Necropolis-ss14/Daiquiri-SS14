@@ -1,8 +1,8 @@
 - type: entity
-  name: wonderprod
+  name: вандерпрод
   parent: [ BaseItem, BaseMajorContraband ]
   id: Wonderprod
-  description: Universal tool of the abductor agent.
+  description: Универсальный инструмент агента абдукторов.
   components:
   - type: Item
     sprite: _Starlight/Objects/Weapons/Melee/wonderprod.rsi

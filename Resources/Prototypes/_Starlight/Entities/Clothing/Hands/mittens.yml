@@ -18,7 +18,7 @@
   parent: ClothingHandsMittensBase
   id: ClothingHandsMittensColorPurple
   name: фиолетовые варежки
-  description: Regular purple mittens to keep the cold out.
+  description: Обычные фиолетовые варежки, чтобы не мёрзнуть.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Hands/Mittens/Color/color.rsi
@@ -51,7 +51,7 @@
   parent: ClothingHandsMittensBase
   id: ClothingHandsMittensColorRed
   name: красные варежки
-  description: Regular red mittens to keep the cold out.
+  description: Обычные красные варежки, чтобы не мёрзнуть.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Hands/Mittens/Color/color.rsi
@@ -84,7 +84,7 @@
   parent: ClothingHandsMittensBase
   id: ClothingHandsMittensColorBlue
   name: синие варежки
-  description: Regular blue mittens to keep the cold out.
+  description: Обычные синие варежки, чтобы не мёрзнуть.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Hands/Mittens/Color/color.rsi
@@ -117,7 +117,7 @@
   parent: ClothingHandsMittensBase
   id: ClothingHandsMittensColorTeal
   name: бирюзовые варежки
-  description: Regular teal mittens to keep the cold out.
+  description: Обычные бирюзовые варежки, чтобы не мёрзнуть.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Hands/Mittens/Color/color.rsi
@@ -150,7 +150,7 @@
   parent: ClothingHandsMittensBase
   id: ClothingHandsMittensColorBrown
   name: коричневые варежки
-  description: Regular brown mittens to keep the cold out.
+  description: Обычные коричневые варежки, чтобы не мёрзнуть.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Hands/Mittens/Color/color.rsi
@@ -183,7 +183,7 @@
   parent: ClothingHandsMittensBase
   id: ClothingHandsMittensColorGray
   name: серые варежки
-  description: Regular grey mittens to keep the cold out.
+  description: Обычные серые варежки, чтобы не мёрзнуть.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Hands/Mittens/Color/color.rsi
@@ -216,7 +216,7 @@
   parent: ClothingHandsMittensBase
   id: ClothingHandsMittensColorGreen
   name: зелёные варежки
-  description: Regular green mittens to keep the cold out.
+  description: Обычные зелёные варежки, чтобы не мёрзнуть.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Hands/Mittens/Color/color.rsi
@@ -249,7 +249,7 @@
   parent: ClothingHandsMittensBase
   id: ClothingHandsMittensColorLightBrown
   name: светло-коричневые варежки
-  description: Regular light brown mittens to keep the cold out.
+  description: Обычные светло-коричневые варежки, чтобы не мёрзнуть.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Hands/Mittens/Color/color.rsi
@@ -282,7 +282,7 @@
   parent: ClothingHandsMittensBase
   id: ClothingHandsMittensColorOrange
   name: оранжевые варежки
-  description: Regular orange mittens to keep the cold out.
+  description: Обычные оранжевые варежки, чтобы не мёрзнуть.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Hands/Mittens/Color/color.rsi
@@ -315,7 +315,7 @@
   parent: ClothingHandsMittensBase
   id: ClothingHandsMittensColorWhite
   name: белые варежки
-  description: Regular white mittens to keep the cold out.
+  description: Обычные белые варежки, чтобы не мёрзнуть.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Hands/Mittens/Color/color.rsi
@@ -348,7 +348,7 @@
   parent: ClothingHandsMittensBase
   id: ClothingHandsMittensColorDarkBlack
   name: тёмно-чёрные варежки
-  description: Regular dark black mittens to keep the cold out.
+  description: Обычные тёмно-чёрные варежки, чтобы не мёрзнуть.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Hands/Mittens/Color/color.rsi
@@ -381,7 +381,7 @@
   parent: ClothingHandsMittensBase
   id: ClothingHandsMittensColorBlack
   name: чёрные варежки
-  description: Regular black mittens to keep the cold out.
+  description: Обычные чёрные варежки, чтобы не мёрзнуть.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Hands/Mittens/Color/black.rsi
@@ -395,7 +395,7 @@
   parent: ClothingHandsMittensBase
   id: ClothingHandsMittensColorYellow
   name: жёлтые варежки
-  description: Regular yellow mittens to keep the cold out.
+  description: Обычные жёлтые варежки, чтобы не мёрзнуть.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Hands/Mittens/Color/yellow.rsi
@@ -409,7 +409,7 @@
   parent: [ClothingHandsMittensBase, BaseSecurityContraband]
   id: ClothingHandsMittensSecurityRed
   name: красные варежки службы безопасности
-  description: Black mittens, but slightly red! The detective will LOVE you if you wear these.
+  description: Чёрные варежки, но слегка красные! Детектив ПОЛЮБИТ вас, если вы их наденете.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Hands/Mittens/securitymittensred.rsi

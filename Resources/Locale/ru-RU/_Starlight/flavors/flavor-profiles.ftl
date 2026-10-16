@@ -59,7 +59,9 @@ flavor-complex-syndie-land-ice-cream = как вишнёво-лаймовое м
 flavor-complex-tiramisu-ice-cream = как шоколад, эспрессо и корица
 flavor-complex-uranium-ice-cream = как тошнотворное зелёное карамельное яблоко
 flavor-complex-vox-ice-cream = как бодрящая мята с лёгким послевкусием сварочной жидкости
+flavor-complex-glubotoxin = как морская соль и свежая рыба
 flavor-base-cinnamon = коричное
+flavor-complex-sawian-blood = как наука и отсутствие этики
 
 # Milks
 flavor-complex-chocolate-milk = как шоколадное молоко

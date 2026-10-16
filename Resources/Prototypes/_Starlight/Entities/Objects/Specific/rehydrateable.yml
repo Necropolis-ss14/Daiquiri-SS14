@@ -14,8 +14,8 @@
 - type: entity
   parent: RehydratableAnimalCube
   id: ScurretCube
-  name: scurret cube
-  description: Just add rain!
+  name: куб скуррета
+  description: Просто добавь дождь!
   components:
   - type: Rehydratable
     possibleSpawns:
@@ -24,8 +24,8 @@
 - type: entity
   parent: RehydratableAnimalCube
   id: CCMoproachCube
-  name: cc moproach cube
-  description: Just add water! *chitters!*
+  name: куб мопроуча ЦК
+  description: Просто добавь воды! *стрекочет!*
   components:
     - type: Rehydratable
       possibleSpawns:
@@ -34,8 +34,8 @@
 - type: entity
   parent: RehydratableAnimalCube
   id: PigCube
-  name: pig cube
-  description: Just add water! Oink!
+  name: куб свиньи
+  description: Просто добавь воды! Хрю!
   components:
     - type: Rehydratable
       possibleSpawns:
@@ -44,8 +44,8 @@
 - type: entity
   parent: RehydratableAnimalCube
   id: ChickenCube
-  name: chicken cube
-  description: Just add water! Bokbok!
+  name: куб курицы
+  description: Просто добавь воды! Ко-ко!
   components:
     - type: Rehydratable
       possibleSpawns:
@@ -54,8 +54,8 @@
 - type: entity
   parent: RehydratableAnimalCube
   id: KoiCube
-  name: koi cube
-  description: Just add water! Glub!
+  name: куб кои
+  description: Просто добавь воды! Буль!
   components:
     - type: Rehydratable
       possibleSpawns:

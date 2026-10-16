@@ -2,7 +2,7 @@
   parent: SurgeryBase
   id: SurgeryLimbAttachmentHead
   name: Прикрепление головы
-  description: Surgical attachment of a limb.
+  description: Хирургическое прикрепление конечности.
   components:
   - type: Surgery
     requirement:
@@ -30,7 +30,7 @@
   parent: SurgeryLimbAttachmentHead
   id: SurgeryLimbAttachmentLeftArm
   name: Прикрепление левой руки
-  description: Surgical attachment of a limb.
+  description: Хирургическое прикрепление конечности.
   components:
   - type: SurgeryLimbSlotCondition
     slot: left arm
@@ -50,7 +50,7 @@
   parent: SurgeryLimbAttachmentHead
   id: SurgeryLimbAttachmentLeftHand
   name: Прикрепление левой кисти
-  description: Surgical attachment of a limb.
+  description: Хирургическое прикрепление конечности.
   components:
   - type: SurgeryLimbSlotCondition
     slot: left hand
@@ -59,7 +59,7 @@
   parent: SurgeryLimbAttachmentHead
   id: SurgeryLimbAttachmentRightArm
   name: Прикрепление правой руки
-  description: Surgical attachment of a limb.
+  description: Хирургическое прикрепление конечности.
   components:
   - type: SurgeryLimbSlotCondition
     slot: right arm
@@ -79,7 +79,7 @@
   parent: SurgeryLimbAttachmentHead
   id: SurgeryLimbAttachmentRightHand
   name: Прикрепление правой кисти
-  description: Surgical attachment of a limb.
+  description: Хирургическое прикрепление конечности.
   components:
   - type: SurgeryLimbSlotCondition
     slot: right hand
@@ -88,7 +88,7 @@
   parent: SurgeryLimbAttachmentHead
   id: SurgeryLimbAttachmentLeftLeg
   name: Прикрепление левой ноги
-  description: Surgical attachment of a limb.
+  description: Хирургическое прикрепление конечности.
   components:
   - type: SurgeryLimbSlotCondition
     slot: left leg
@@ -97,7 +97,7 @@
   parent: SurgeryLimbAttachmentHead
   id: SurgeryLimbAttachmentLeftFoot
   name: Прикрепление левой ступни
-  description: Surgical attachment of a limb.
+  description: Хирургическое прикрепление конечности.
   components:
   - type: SurgeryLimbSlotCondition
     slot: left foot
@@ -106,7 +106,7 @@
   parent: SurgeryLimbAttachmentHead
   id: SurgeryLimbAttachmentRightLeg
   name: Прикрепление правой ноги
-  description: Surgical attachment of a limb.
+  description: Хирургическое прикрепление конечности.
   components:
   - type: SurgeryLimbSlotCondition
     slot: right leg
@@ -115,7 +115,7 @@
   parent: SurgeryLimbAttachmentHead
   id: SurgeryLimbAttachmentRightFoot
   name: Прикрепление правой ступни
-  description: Surgical attachment of a limb.
+  description: Хирургическое прикрепление конечности.
   components:
   - type: SurgeryLimbSlotCondition
     slot: right foot
@@ -124,7 +124,7 @@
   parent: SurgeryLimbAttachmentHead
   id: SurgeryLimbAttachmentTail
   name: Прикрепление хвоста
-  description: Surgical attachment of a limb.
+  description: Хирургическое прикрепление конечности.
   components:
   - type: SurgeryLimbSlotCondition
     slot: tail
@@ -133,7 +133,7 @@
   parent: SurgeryLimbAttachmentHead
   id: SurgeryLimbAttachmentOther
   name: Прикрепление прочей части тела
-  description: Surgical attachment of a limb.
+  description: Хирургическое прикрепление конечности.
   components:
   - type: SurgeryLimbSlotCondition
     slot: other
@@ -162,7 +162,7 @@
   parent: SurgeryLimbAttachmentSlimeHead
   id: SurgeryLimbAttachmentSlimeLeftArm
   name: Прикрепление левой руки
-  description: Surgical attachment of a limb.
+  description: Хирургическое прикрепление конечности.
   components:
   - type: SurgeryLimbSlotCondition
     slot: left arm
@@ -178,7 +178,7 @@
   parent: SurgeryLimbAttachmentSlimeHead
   id: SurgeryLimbAttachmentSlimeLeftHand
   name: Прикрепление левой кисти
-  description: Surgical attachment of a limb.
+  description: Хирургическое прикрепление конечности.
   components:
   - type: SurgeryLimbSlotCondition
     slot: left hand
@@ -187,7 +187,7 @@
   parent: SurgeryLimbAttachmentSlimeHead
   id: SurgeryLimbAttachmentSlimeRightArm
   name: Прикрепление правой руки
-  description: Surgical attachment of a limb.
+  description: Хирургическое прикрепление конечности.
   components:
   - type: SurgeryLimbSlotCondition
     slot: right arm
@@ -203,7 +203,7 @@
   parent: SurgeryLimbAttachmentSlimeHead
   id: SurgeryLimbAttachmentSlimeRightHand
   name: Прикрепление правой кисти
-  description: Surgical attachment of a limb.
+  description: Хирургическое прикрепление конечности.
   components:
   - type: SurgeryLimbSlotCondition
     slot: right hand
@@ -212,7 +212,7 @@
   parent: SurgeryLimbAttachmentSlimeHead
   id: SurgeryLimbAttachmentSlimeLeftLeg
   name: Прикрепление левой ноги
-  description: Surgical attachment of a limb.
+  description: Хирургическое прикрепление конечности.
   components:
   - type: SurgeryLimbSlotCondition
     slot: left leg
@@ -221,7 +221,7 @@
   parent: SurgeryLimbAttachmentSlimeHead
   id: SurgeryLimbAttachmentSlimeLeftFoot
   name: Прикрепление левой ступни
-  description: Surgical attachment of a limb.
+  description: Хирургическое прикрепление конечности.
   components:
   - type: SurgeryLimbSlotCondition
     slot: left foot
@@ -230,7 +230,7 @@
   parent: SurgeryLimbAttachmentSlimeHead
   id: SurgeryLimbAttachmentSlimeRightLeg
   name: Прикрепление правой ноги
-  description: Surgical attachment of a limb.
+  description: Хирургическое прикрепление конечности.
   components:
   - type: SurgeryLimbSlotCondition
     slot: right leg
@@ -239,7 +239,7 @@
   parent: SurgeryLimbAttachmentSlimeHead
   id: SurgeryLimbAttachmentSlimeRightFoot
   name: Прикрепление правой ступни
-  description: Surgical attachment of a limb.
+  description: Хирургическое прикрепление конечности.
   components:
   - type: SurgeryLimbSlotCondition
     slot: right foot
@@ -248,7 +248,7 @@
   parent: SurgeryLimbAttachmentSlimeHead
   id: SurgeryLimbAttachmentSlimeTail
   name: Прикрепление хвоста
-  description: Surgical attachment of a limb.
+  description: Хирургическое прикрепление конечности.
   components:
   - type: SurgeryLimbSlotCondition
     slot: tail
@@ -257,7 +257,7 @@
   parent: SurgeryLimbAttachmentSlimeHead
   id: SurgeryLimbAttachmentSlimeOther
   name: Прикрепление прочей части тела
-  description: Surgical attachment of a limb.
+  description: Хирургическое прикрепление конечности.
   components:
   - type: SurgeryLimbSlotCondition
     slot: other

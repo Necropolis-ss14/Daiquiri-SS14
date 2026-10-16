@@ -3,7 +3,7 @@
   id: ClothingNeckCapeNTSF1
   name: накидка спецназа НаноТрейзен
   suffix: One. Do Not Map
-  description: An elite cape woven from reflective threads and integrated with state of the art technology to ensure NanoTrasens finest look their best.
+  description: Элитная накидка из светоотражающих нитей с передовыми технологиями, чтобы лучшие сотрудники NanoTrasen выглядели безупречно.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Neck/NTSF_Capes/one.rsi
@@ -42,7 +42,7 @@
   id: ClothingNeckCapeNTSF2
   name: накидка спецназа НаноТрейзен
   suffix: Two. Do Not Map
-  description: An elite cape woven from reflective threads and integrated with state of the art technology to ensure NanoTrasens finest look their best.
+  description: Элитная накидка из светоотражающих нитей с передовыми технологиями, чтобы лучшие сотрудники NanoTrasen выглядели безупречно.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Neck/NTSF_Capes/two.rsi
@@ -81,7 +81,7 @@
   id: ClothingNeckCapeNTSF3
   name: накидка спецназа НаноТрейзен
   suffix: Three. Do Not Map
-  description: An elite cape woven from reflective threads and integrated with state of the art technology to ensure NanoTrasens finest look their best.
+  description: Элитная накидка из светоотражающих нитей с передовыми технологиями, чтобы лучшие сотрудники NanoTrasen выглядели безупречно.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Neck/NTSF_Capes/three.rsi
@@ -120,7 +120,7 @@
   id: ClothingNeckCapeNTSF4
   name: накидка спецназа НаноТрейзен
   suffix: Four. Do Not Map
-  description: An elite cape woven from reflective threads and integrated with state of the art technology to ensure NanoTrasens finest look their best.
+  description: Элитная накидка из светоотражающих нитей с передовыми технологиями, чтобы лучшие сотрудники NanoTrasen выглядели безупречно.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Neck/NTSF_Capes/four.rsi
@@ -159,7 +159,7 @@
   id: ClothingNeckCapeNTSF5
   name: накидка спецназа НаноТрейзен
   suffix: Five. Do Not Map
-  description: An elite cape woven from reflective threads and integrated with state of the art technology to ensure NanoTrasens finest look their best.
+  description: Элитная накидка из светоотражающих нитей с передовыми технологиями, чтобы лучшие сотрудники NanoTrasen выглядели безупречно.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Neck/NTSF_Capes/five.rsi
@@ -198,7 +198,7 @@
   id: ClothingNeckCapeNTSF6
   name: накидка спецназа НаноТрейзен
   suffix: Six. Do Not Map
-  description: An elite cape woven from reflective threads and integrated with state of the art technology to ensure NanoTrasens finest look their best.
+  description: Элитная накидка из светоотражающих нитей с передовыми технологиями, чтобы лучшие сотрудники NanoTrasen выглядели безупречно.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Neck/NTSF_Capes/six.rsi
@@ -237,7 +237,7 @@
   id: ClothingNeckCapeNTSF7
   name: накидка спецназа НаноТрейзен
   suffix: Seven. Do Not Map
-  description: An elite cape woven from reflective threads and integrated with state of the art technology to ensure NanoTrasens finest look their best.
+  description: Элитная накидка из светоотражающих нитей с передовыми технологиями, чтобы лучшие сотрудники NanoTrasen выглядели безупречно.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Neck/NTSF_Capes/seven.rsi
@@ -276,7 +276,7 @@
   id: ClothingNeckCapeNTSF8
   name: накидка спецназа НаноТрейзен
   suffix: Eight. Do Not Map
-  description: An elite cape woven from reflective threads and integrated with state of the art technology to ensure NanoTrasens finest look their best.
+  description: Элитная накидка из светоотражающих нитей с передовыми технологиями, чтобы лучшие сотрудники NanoTrasen выглядели безупречно.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Neck/NTSF_Capes/eight.rsi
@@ -315,7 +315,7 @@
   id: ClothingNeckCapeNTSF9
   name: накидка спецназа НаноТрейзен
   suffix: Nine. Do Not Map
-  description: An elite cape woven from reflective threads and integrated with state of the art technology to ensure NanoTrasens finest look their best.
+  description: Элитная накидка из светоотражающих нитей с передовыми технологиями, чтобы лучшие сотрудники NanoTrasen выглядели безупречно.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Neck/NTSF_Capes/nine.rsi
@@ -354,7 +354,7 @@
   id: ClothingNeckCapeNTSFLead
   name: накидка спецназа НаноТрейзен
   suffix: NT. Do Not Map
-  description: An elite cape woven from reflective threads and integrated with state of the art technology to ensure NanoTrasens finest look their best.
+  description: Элитная накидка из светоотражающих нитей с передовыми технологиями, чтобы лучшие сотрудники NanoTrasen выглядели безупречно.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Neck/NTSF_Capes/nt.rsi
@@ -394,7 +394,7 @@
   categories: [ DoNotMap ]
   id: ClothingNeckGreenshield
   name: мантия гриншилда
-  description: Extraordinary decorative drape over the shoulders.
+  description: Изысканная декоративная накидка на плечи.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Neck/Mantles/ERTmantle.rsi

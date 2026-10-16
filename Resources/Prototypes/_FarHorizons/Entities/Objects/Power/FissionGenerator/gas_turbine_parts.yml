@@ -20,8 +20,8 @@
   id: BaseGasTurbineBlade
   parent: BaseGasTurbinePart
   categories: [ HideSpawnMenu ]
-  name: Gas Turbine Blade
-  description: A replacement blade for the gas turbine.
+  name: лопатка газовой турбины
+  description: Запасная лопатка для газовой турбины.
   components:
   - type: GasTurbineBlade
   - type: Tag
@@ -31,7 +31,7 @@
 - type: entity
   id: SteelGasTurbineBlade
   parent: BaseGasTurbineBlade
-  name: Steel Gas Turbine Blade
+  name: стальная лопатка газовой турбины
   components:
   - type: GasTurbineBlade
     material: Steel
@@ -42,7 +42,7 @@
 - type: entity
   id: BrassGasTurbineBlade
   parent: BaseGasTurbineBlade
-  name: Brass Gas Turbine Blade
+  name: латунная лопатка газовой турбины
   components:
   - type: GasTurbineBlade
     material: Brass
@@ -53,7 +53,7 @@
 - type: entity
   id: DiamondGasTurbineBlade
   parent: BaseGasTurbineBlade
-  name: Diamond Gas Turbine Blade
+  name: алмазная лопатка газовой турбины
   components:
   - type: GasTurbineBlade
     material: Diamond
@@ -64,7 +64,7 @@
 - type: entity
   id: GoldGasTurbineBlade
   parent: BaseGasTurbineBlade
-  name: Gold Gas Turbine Blade
+  name: золотая лопатка газовой турбины
   components:
   - type: GasTurbineBlade
     material: Gold
@@ -75,7 +75,7 @@
 - type: entity
   id: PlasteelGasTurbineBlade
   parent: BaseGasTurbineBlade
-  name: Plasteel Gas Turbine Blade
+  name: пласталевая лопатка газовой турбины
   components:
   - type: GasTurbineBlade
     material: Plasteel
@@ -88,8 +88,8 @@
   id: BaseGasTurbineStator
   parent: BaseGasTurbinePart
   categories: [ HideSpawnMenu ]
-  name: Gas Turbine Stator
-  description: A replacement stator for the gas turbine.
+  name: статор газовой турбины
+  description: Запасной статор для газовой турбины.
   components:
   - type: Sprite
     state: turbine_stator
@@ -101,7 +101,7 @@
 - type: entity
   id: SteelGasTurbineStator
   parent: BaseGasTurbineStator
-  name: Steel Gas Turbine Stator
+  name: стальной статор газовой турбины
   components:
   - type: GasTurbineStator
     material: Steel
@@ -112,7 +112,7 @@
 - type: entity
   id: SilverGasTurbineStator
   parent: BaseGasTurbineStator
-  name: Silver Gas Turbine Stator
+  name: серебряный статор газовой турбины
   components:
   - type: GasTurbineStator
     material: Silver
@@ -123,7 +123,7 @@
 - type: entity
   id: GoldGasTurbineStator
   parent: BaseGasTurbineStator
-  name: Gold Gas Turbine Stator
+  name: золотой статор газовой турбины
   components:
   - type: GasTurbineStator
     material: Gold

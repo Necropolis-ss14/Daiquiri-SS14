@@ -2,8 +2,8 @@
   parent: BaseComputerAiAccess
   id: ATM
   categories: [ ShouldMapStation ]
-  name: atm
-  description: A regular ATM, it eats money, spits out money, and transfers money.
+  name: банкомат
+  description: "Обычный банкомат: ест деньги, выдаёт деньги, переводит деньги."
   placement:
     mode: SnapgridCenter
     snap:

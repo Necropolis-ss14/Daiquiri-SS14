@@ -2,7 +2,7 @@
   parent: Bucket
   id: BucketSmall
   name: маленькое ведро
-  description: A boring old bucket, in a size that fits in a bag.
+  description: Скучное старое ведро, размером помещающееся в сумку.
   components:
   - type: Item
     size: Large

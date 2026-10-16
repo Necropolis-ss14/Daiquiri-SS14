@@ -1,6 +1,6 @@
 - type: entity
   name: целевой маяк
-  description: the current whereabouts of your target.
+  description: Текущее местонахождение вашей цели.
   id: PinpointerTerminator
   parent: PinpointerBase
   categories: [ HideSpawnMenu ]

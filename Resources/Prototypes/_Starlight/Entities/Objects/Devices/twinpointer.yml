@@ -25,7 +25,7 @@
 
 - type: entity
   name: левый твинпоинтер
-  description: The left half of a pair of twinpointers. Great when you're never right.
+  description: Левая половина пары твинпоинтеров. Отлично, когда ты никогда не прав.
   id: TwinPointerLeft
   parent: PinpointerBase
   categories: [ HideSpawnMenu ]
@@ -65,7 +65,7 @@
 
 - type: entity
   name: правый твинпоинтер
-  description: The right half of a pair of twinpointers. Perfect when you have nothing left.
+  description: Правая половина пары твинпоинтеров. Идеально, когда у тебя ничего не осталось.
   id: TwinPointerRight
   parent: PinpointerBase
   categories: [ HideSpawnMenu ]

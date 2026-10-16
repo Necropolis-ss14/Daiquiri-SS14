@@ -3,7 +3,7 @@
   parent: [ ClothingHeadEVAHelmetBase, BaseSovietContraband ]
   id: ClothingHeadHelmetSovietEVA
   name: советский ВКД-шлем
-  description: A sturdy EVA helmet with a red star emblazoned on the front. Glory to the workers of space!
+  description: Прочный шлем ВКД с красной звездой спереди. Слава работникам космоса!
   components:
   - type: Contraband # Blimpuf
     tier: Tier3

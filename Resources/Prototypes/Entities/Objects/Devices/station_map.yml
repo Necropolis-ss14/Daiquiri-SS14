@@ -64,9 +64,9 @@
 - type: entity
   parent: HandheldStationMap
   id: HandheldStationMapNukeops
-  name: target station map
+  name: карта станции цели
   suffix: Handheld, NukeOps
-  description: Displays a readout of the target station.
+  description: Показывает расположение целевой станции.
   components:
   - type: Sprite
     sprite: Objects/Devices/tablets.rsi

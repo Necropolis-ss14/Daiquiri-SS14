@@ -2,7 +2,7 @@
   parent: BaseStructureComputer
   id: SyndBath
   name: ванная нетраннера
-  description: A netrunner bathroom manufactured by CyberSun—about 50%, with the rest cobbled together from whatever was lying around.
+  description: Санузел нетраннера от CyberSun — наполовину, остальное собрано из того, что валялось под рукой.
   placement:
     mode: SnapgridCenter
   components:
@@ -89,7 +89,7 @@
   - BaseMob
   id: SyndicateConsoleEye
   name: "???"
-  description: "ERROR"
+  description: "ОШИБКА"
   categories: [ HideSpawnMenu ]
   suffix: DO NOT MAP
   components:

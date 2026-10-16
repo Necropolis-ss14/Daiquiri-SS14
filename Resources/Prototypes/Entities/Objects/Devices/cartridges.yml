@@ -11,8 +11,8 @@
 - type: entity
   parent: BasePDACartridge
   id: NotekeeperCartridge
-  name: notekeeper cartridge
-  description: A program for keeping notes.
+  name: картридж для заметок
+  description: Программа для ведения заметок.
   components:
   - type: Sprite
     state: cart-y
@@ -28,8 +28,8 @@
 - type: entity
   parent: BasePDACartridge
   id: NanoTaskCartridge
-  name: NanoTask cartridge
-  description: A program that allows you to keep a list of tasks to do.
+  name: картридж NanoTask
+  description: Программа, позволяющая вести список дел.
   components:
   - type: Sprite
     state: cart-nav
@@ -45,8 +45,8 @@
 - type: entity
   parent: BasePDACartridge
   id: NewsReaderCartridge
-  name: news cartridge
-  description: A program for reading news.
+  name: картридж новостей
+  description: Программа для чтения новостей.
   components:
   - type: Sprite
     state: cart-y
@@ -62,8 +62,8 @@
 - type: entity
   parent: BasePDACartridge
   id: CrewManifestCartridge
-  name: crew manifest cartridge
-  description: A program for listing your fellow crewmembers.
+  name: картридж манифеста экипажа
+  description: Программа для просмотра списка членов экипажа.
   components:
     - type: Sprite
       state: cart-y
@@ -79,8 +79,8 @@
 - type: entity
   parent: [ BasePDACartridge, BaseEngineeringContraband ] # TODO Starlight partial once space-wizards/RobustToolbox/pull/7084 gets fixed
   id: NetProbeCartridge
-  name: NetProbe cartridge
-  description: A program for getting the address and frequency of network devices.
+  name: картридж NetProbe
+  description: Программа для получения адреса и частоты сетевых устройств.
   components:
     - type: Sprite
       state: cart-y
@@ -96,8 +96,8 @@
 - type: entity
   parent: [ BasePDACartridge, BaseSecurityContraband ] # TODO Starlight partial once space-wizards/RobustToolbox/pull/7084 gets fixed
   id: LogProbeCartridge
-  name: LogProbe cartridge
-  description: A program for getting access logs from devices.
+  name: картридж LogProbe
+  description: Программа для получения журналов доступа с устройств.
   components:
     - type: Sprite
       state: cart-log
@@ -119,8 +119,8 @@
 - type: entity
   parent: [ BasePDACartridge, BaseSecurityContraband ] # TODO Starlight partial once space-wizards/RobustToolbox/pull/7084 gets fixed
   id: WantedListCartridge
-  name: Wanted list cartridge
-  description: A program to get a list of wanted persons.
+  name: картридж списка разыскиваемых
+  description: Программа для получения списка разыскиваемых лиц.
   components:
   - type: Sprite
     state: cart-sec
@@ -141,8 +141,8 @@
 - type: entity
   parent: BasePDACartridge
   id: MedTekCartridge
-  name: MedTek cartridge
-  description: A program that provides medical diagnostic tools.
+  name: картридж медтек
+  description: Программа с инструментами для медицинской диагностики.
   components:
     - type: Sprite
       state: cart-med
@@ -159,8 +159,8 @@
 - type: entity
   parent: BasePDACartridge
   id: AstroNavCartridge
-  name: AstroNav cartridge
-  description: A program for navigation that provides GPS coordinates.
+  name: картридж астронав
+  description: Навигационная программа, предоставляющая GPS-координаты.
   components:
     - type: Sprite
       state: cart-nav
@@ -179,8 +179,8 @@
 - type: entity
   parent: BasePDACartridge
   id: BookWriterCartridge
-  name: ent-BookWriterCartridge
-  description: ent-BookWriterCartridge-desc
+  name: картридж книжника
+  description: Картридж с программой для написания и печати книг.
   components:
     - type: Sprite
       state: cart-lib

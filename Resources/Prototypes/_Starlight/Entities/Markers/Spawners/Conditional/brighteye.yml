@@ -1,7 +1,7 @@
 - type: entity
   id: SpawnPointBrighteye
   parent: MarkerBase
-  name: brighteye
+  name: яркоглаз
   components:
   - type: SpawnPoint
   - type: Sprite

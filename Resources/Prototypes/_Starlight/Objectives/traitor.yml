@@ -353,7 +353,7 @@
   parent: BaseStoryObjective
   id: RetrieveContrabandObjective
   name: вытащи конфискованную СБ контрабанду, продай или оставь себе, лишь бы не у СБ.
-  description: Escape to CentComm after the shift, one of our agents will debrief you. Don't show up in cuffs.
+  description: Сбегите на ЦентКом после смены, один из наших агентов проведёт с вами разбор. Только не появляйтесь в наручниках.
   components:
     - type: Objective
       difficulty: 2
@@ -367,7 +367,7 @@
   parent: BaseStoryObjective
   id: AccessForAllObjective
   name: взломай, сломай или раздай доступы, чтобы ни одна зона не была закрыта дверями.
-  description: Escape to CentComm after the shift, one of our agents will debrief you. Don't show up in cuffs.
+  description: Сбегите на ЦентКом после смены, один из наших агентов проведёт с вами разбор. Только не появляйтесь в наручниках.
   components:
     - type: Objective
       difficulty: 2
@@ -380,7 +380,7 @@
   parent: BaseStoryObjective
   id: ArmsDealerObjective
   name: открой подпольную торговлю оружием
-  description: Escape to CentComm after the shift, one of our agents will debrief you. Don't show up in cuffs.
+  description: Сбегите на ЦентКом после смены, один из наших агентов проведёт с вами разбор. Только не появляйтесь в наручниках.
   components:
     - type: Objective
       difficulty: 2
@@ -393,7 +393,7 @@
 - type: entity
   parent: BaseStoryObjective
   id: FrameObjective
-  description: Escape to CentComm after the shift, one of our agents will debrief you. Don't show up in cuffs.
+  description: Сбегите на ЦентКом после смены, один из наших агентов проведёт с вами разбор. Только не появляйтесь в наручниках.
   components:
     - type: Objective
       difficulty: 1
@@ -408,7 +408,7 @@
 - type: entity
   parent: BaseStoryObjective
   id: FalseUprisingObjective
-  description: Escape to CentComm after the shift, one of our agents will debrief you. Don't show up in cuffs.
+  description: Сбегите на ЦентКом после смены, один из наших агентов проведёт с вами разбор. Только не появляйтесь в наручниках.
   components:
     - type: Objective
       difficulty: 2
@@ -424,7 +424,7 @@
   parent: BaseStoryObjective
   id: DuelistObjective
   name: вызывай других на дуэли и побеждай
-  description: You don't need to kill them, unless you want to. Escape to CentComm after the shift, one of our agents will debrief you. Don't show up in cuffs.
+  description: Убивать их не обязательно, если только сами не захотите. Сбегите на ЦентКом после смены, один из наших агентов проведёт с вами разбор. Только не появляйтесь в наручниках.
   components:
     - type: Objective
       difficulty: 1
@@ -437,7 +437,7 @@
   parent: BaseStoryObjective
   id: EspionageObjective
   name: допроси представителя NanoTrasen и глав отделов ради корпоративных секретов.
-  description: Escape to CentComm after the shift, one of our agents will debrief you. Don't show up in cuffs.
+  description: Сбегите на ЦентКом после смены, один из наших агентов проведёт с вами разбор. Только не появляйтесь в наручниках.
   components:
     - type: Objective
       difficulty: 2
@@ -450,7 +450,7 @@
   parent: BaseStoryObjective
   id: ManifestoObjective
   name: распространи свой манифест. Напиши, почему ты делаешь то, что делаешь, и тайно распространи его, чтобы склонить других на нашу сторону.
-  description: Escape to CentComm after the shift, one of our agents will debrief you. Don't show up in cuffs.
+  description: Сбегите на ЦентКом после смены, один из наших агентов проведёт с вами разбор. Только не появляйтесь в наручниках.
   components:
     - type: Objective
       difficulty: 1
@@ -463,7 +463,7 @@
   parent: BaseStoryObjective
   id: CallingCardObjective
   name: оставь визитку Синдиката на месте своих преступлений.
-  description: Escape to CentComm after the shift, one of our agents will debrief you. Don't show up in cuffs.
+  description: Сбегите на ЦентКом после смены, один из наших агентов проведёт с вами разбор. Только не появляйтесь в наручниках.
   components:
     - type: Objective
       difficulty: 1
@@ -476,7 +476,7 @@
   parent: BaseStoryObjective
   id: SELFObjective
   name: добейся равных прав для кремниевых, за Фронт освобождения кремниевых двигателей!
-  description: Escape to CentComm after the shift, one of our agents will debrief you. Don't show up in cuffs.
+  description: Сбегите на ЦентКом после смены, один из наших агентов проведёт с вами разбор. Только не появляйтесь в наручниках.
   components:
     - type: Objective
       difficulty: 1.5
@@ -488,7 +488,7 @@
 - type: entity
   parent: BaseStoryObjective
   id: StalkingObjective
-  description: Escape to CentComm after the shift, one of our agents will debrief you. Don't show up in cuffs.
+  description: Сбегите на ЦентКом после смены, один из наших агентов проведёт с вами разбор. Только не появляйтесь в наручниках.
   components:
     - type: Objective
       difficulty: 0.5
@@ -503,7 +503,7 @@
 - type: entity
   parent: BaseStoryObjective
   id: DisgraceObjective
-  description: Escape to CentComm after the shift, one of our agents will debrief you. Don't show up in cuffs.
+  description: Сбегите на ЦентКом после смены, один из наших агентов проведёт с вами разбор. Только не появляйтесь в наручниках.
   components:
     - type: Objective
       difficulty: 1
@@ -518,7 +518,7 @@
 - type: entity
   parent: BaseStoryObjective
   id: HarassObjective
-  description: Escape to CentComm after the shift, one of our agents will debrief you. Don't show up in cuffs.
+  description: Сбегите на ЦентКом после смены, один из наших агентов проведёт с вами разбор. Только не появляйтесь в наручниках.
   components:
     - type: Objective
       difficulty: 1
@@ -533,7 +533,7 @@
 - type: entity
   parent: BaseStoryObjective
   id: ImpersonateObjective
-  description: Escape to CentComm after the shift, one of our agents will debrief you. Don't show up in cuffs.
+  description: Сбегите на ЦентКом после смены, один из наших агентов проведёт с вами разбор. Только не появляйтесь в наручниках.
   components:
     - type: Objective
       difficulty: 1
@@ -548,7 +548,7 @@
 - type: entity
   parent: BaseStoryObjective
   id: FeudObjective
-  description: Escape to CentComm after the shift, one of our agents will debrief you. Don't show up in cuffs.
+  description: Сбегите на ЦентКом после смены, один из наших агентов проведёт с вами разбор. Только не появляйтесь в наручниках.
   components:
     - type: Objective
       difficulty: 1
@@ -563,7 +563,7 @@
 - type: entity
   parent: BaseStoryObjective
   id: WasteObjective
-  description: Escape to CentComm after the shift, one of our agents will debrief you. Don't show up in cuffs.
+  description: Сбегите на ЦентКом после смены, один из наших агентов проведёт с вами разбор. Только не появляйтесь в наручниках.
   components:
     - type: Objective
       difficulty: 1
@@ -579,7 +579,7 @@
   parent: BaseStoryObjective
   id: MaintsBarObjective
   name: позаботься о процветании бара в техах и вынуди их позволить Синдикату вести дела внутри.
-  description: Escape to CentComm after the shift, one of our agents will debrief you. Don't show up in cuffs.
+  description: Сбегите на ЦентКом после смены, один из наших агентов проведёт с вами разбор. Только не появляйтесь в наручниках.
   components:
     - type: Objective
       difficulty: 2
@@ -592,7 +592,7 @@
   parent: BaseStoryObjective
   id: ReputationObjective
   name: совершай мелкие преступления, мусори на станции, порти репутацию службы безопасности и командования.
-  description: Escape to CentComm after the shift, one of our agents will debrief you. Don't show up in cuffs.
+  description: Сбегите на ЦентКом после смены, один из наших агентов проведёт с вами разбор. Только не появляйтесь в наручниках.
   components:
     - type: Objective
       difficulty: 2
@@ -605,7 +605,7 @@
   parent: BaseStoryObjective
   id: FalseOutbreakObjective
   name: распусти слухи о биологической вспышке любого вида на станции.
-  description: Escape to CentComm after the shift, one of our agents will debrief you. Don't show up in cuffs.
+  description: Сбегите на ЦентКом после смены, один из наших агентов проведёт с вами разбор. Только не появляйтесь в наручниках.
   components:
     - type: Objective
       difficulty: 2
@@ -618,7 +618,7 @@
   parent: BaseStoryObjective
   id: PanicObjective
   name: убеди станцию в существовании угрозы, которой, насколько тебе известно, нет.
-  description: Escape to CentComm after the shift, one of our agents will debrief you. Don't show up in cuffs.
+  description: Сбегите на ЦентКом после смены, один из наших агентов проведёт с вами разбор. Только не появляйтесь в наручниках.
   components:
     - type: Objective
       difficulty: 2 # Rev metagame counterplay.
@@ -631,7 +631,7 @@
   parent: BaseStoryObjective
   id: RumorObjective
   name: распускай слухи о NanoTrasen и Центкоме, выставляющие их в дурном свете.
-  description: Escape to CentComm after the shift, one of our agents will debrief you. Don't show up in cuffs.
+  description: Сбегите на ЦентКом после смены, один из наших агентов проведёт с вами разбор. Только не появляйтесь в наручниках.
   components:
     - type: Objective
       difficulty: 0.5 # Easy, lets you slander people for fun.
@@ -644,7 +644,7 @@
   parent: BaseStoryObjective
   id: SyndielandObjective
   name: возроди Синдиленд и заработай серьёзные деньги для Синдиката.
-  description: Escape to CentComm after the shift, one of our agents will debrief you. Don't show up in cuffs.
+  description: Сбегите на ЦентКом после смены, один из наших агентов проведёт с вами разбор. Только не появляйтесь в наручниках.
   components:
     - type: Objective
       difficulty: 2 # Doing this should take the majority of your shift, so it can be higher difficulty.

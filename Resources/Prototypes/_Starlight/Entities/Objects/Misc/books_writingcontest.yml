@@ -1,8 +1,8 @@
 - type: entity
   parent: BookBase
   id: BookCapnsScruples
-  name: "A Cap'n's Scruples"
-  description: An award winning entry from a writing contest. Recommended for slow shifts, long shuttle rides, and avoiding actual work. This is a work of fiction. Probably.
+  name: "Капитанская совесть"
+  description: Награждённая работа литературного конкурса. Рекомендуется для тихих смен, долгих полётов и уклонения от работы. Это вымысел. Наверное.
   components:
     - type: Sprite
       layers:
@@ -20,8 +20,8 @@
 - type: entity
   parent: BookBase
   id: BookLastCow
-  name: "The Last Cow"
-  description: An award winning entry from a writing contest. Recommended for slow shifts, long shuttle rides, and avoiding actual work. This is a work of fiction. Probably.
+  name: "Последняя корова"
+  description: Награждённая работа литературного конкурса. Рекомендуется для тихих смен, долгих полётов и уклонения от работы. Это вымысел. Наверное.
   components:
     - type: Sprite
       layers:
@@ -40,8 +40,8 @@
 - type: entity
   parent: BookBase
   id: BookThroughTheGlass
-  name: "Through the Glass"
-  description: An award winning entry from a writing contest. Recommended for slow shifts, long shuttle rides, and avoiding actual work. This is a work of fiction. Probably.
+  name: "Сквозь стекло"
+  description: Награждённая работа литературного конкурса. Рекомендуется для тихих смен, долгих полётов и уклонения от работы. Это вымысел. Наверное.
   components:
     - type: Sprite
       layers:
@@ -59,8 +59,8 @@
 - type: entity
   parent: BookBase
   id: BookCavesOfUrania
-  name: "The Caves of Urania-9775"
-  description: An award winning entry from a writing contest. Recommended for slow shifts, long shuttle rides, and avoiding actual work. This is a work of fiction. Probably.
+  name: "Пещеры Урании-9775"
+  description: Награждённая работа литературного конкурса. Рекомендуется для тихих смен, долгих полётов и уклонения от работы. Это вымысел. Наверное.
   components:
     - type: Sprite
       layers:
@@ -78,8 +78,8 @@
 - type: entity
   parent: BookBase
   id: BookChuckles
-  name: "Chuckles"
-  description: An award winning entry from a writing contest. Recommended for slow shifts, long shuttle rides, and avoiding actual work. This is a work of fiction. Probably.
+  name: "Хихикалка"
+  description: Награждённая работа литературного конкурса. Рекомендуется для тихих смен, долгих полётов и уклонения от работы. Это вымысел. Наверное.
   components:
     - type: Sprite
       layers:
@@ -97,8 +97,8 @@
 - type: entity
   parent: BookBase
   id: BookCorridorNine
-  name: "Something Off with Corridor Nine"
-  description: An award winning entry from a writing contest. Recommended for slow shifts, long shuttle rides, and avoiding actual work. This is a work of fiction. Probably.
+  name: "Что-то не так с девятым коридором"
+  description: Награждённая работа литературного конкурса. Рекомендуется для тихих смен, долгих полётов и уклонения от работы. Это вымысел. Наверное.
   components:
     - type: Sprite
       layers:
@@ -116,8 +116,8 @@
 - type: entity
   parent: BookBase
   id: BookBedsidePhotograph
-  name: "Bedside Photograph"
-  description: An award winning entry from a writing contest. Recommended for slow shifts, long shuttle rides, and avoiding actual work. This is a work of fiction. Probably.
+  name: "Прикроватная фотография"
+  description: Награждённая работа литературного конкурса. Рекомендуется для тихих смен, долгих полётов и уклонения от работы. Это вымысел. Наверное.
   components:
     - type: Sprite
       layers:
@@ -135,8 +135,8 @@
 - type: entity
   parent: BookBase
   id: BookDeathAlways
-  name: "Death Always"
-  description: An award winning entry from a writing contest. Recommended for slow shifts, long shuttle rides, and avoiding actual work. This is a work of fiction. Probably.
+  name: "Смерть всегда"
+  description: Награждённая работа литературного конкурса. Рекомендуется для тихих смен, долгих полётов и уклонения от работы. Это вымысел. Наверное.
   components:
     - type: Sprite
       layers:
@@ -154,8 +154,8 @@
 - type: entity
   parent: BookBase
   id: BookMarty
-  name: "M.A.R.T.Y./Log#849211"
-  description: An award winning entry from a writing contest. Recommended for slow shifts, long shuttle rides, and avoiding actual work. This is a work of fiction. Probably.
+  name: "М.А.Р.Т.И./Журнал №849211"
+  description: Награждённая работа литературного конкурса. Рекомендуется для тихих смен, долгих полётов и уклонения от работы. Это вымысел. Наверное.
   components:
     - type: Sprite
       layers:
@@ -173,8 +173,8 @@
 - type: entity
   parent: [BookBase, BaseMinorContraband]
   id: BookNTsMartyr
-  name: "NT's Martyr"
-  description: An award winning entry from a writing contest. Recommended for slow shifts, long shuttle rides, and avoiding actual work. This is a work of fiction. Probably.
+  name: "Мученик НТ"
+  description: Награждённая работа литературного конкурса. Рекомендуется для тихих смен, долгих полётов и уклонения от работы. Это вымысел. Наверное.
   components:
     - type: Sprite
       layers:
@@ -192,8 +192,8 @@
 - type: entity
   parent: BookBase
   id: BookThoughtsEnd
-  name: "When Thoughts End"
-  description: An award winning entry from a writing contest. Recommended for slow shifts, long shuttle rides, and avoiding actual work. This is a work of fiction. Probably.
+  name: "Когда мысли кончаются"
+  description: Награждённая работа литературного конкурса. Рекомендуется для тихих смен, долгих полётов и уклонения от работы. Это вымысел. Наверное.
   components:
     - type: Sprite
       layers:
@@ -211,8 +211,8 @@
 - type: entity
   parent: BookBase
   id: BookApocolypse
-  name: "Apocolypse"
-  description: An award winning entry from a writing contest. Recommended for slow shifts, long shuttle rides, and avoiding actual work. This is a work of fiction. Probably.
+  name: "Апокалипсис"
+  description: Награждённая работа литературного конкурса. Рекомендуется для тихих смен, долгих полётов и уклонения от работы. Это вымысел. Наверное.
   components:
     - type: Sprite
       layers:
@@ -230,8 +230,8 @@
 - type: entity
   parent: BookBase
   id: BookWizardDice
-  name: "Wizard Dice"
-  description: An award winning entry from a writing contest. Recommended for slow shifts, long shuttle rides, and avoiding actual work. This is a work of fiction. Probably.
+  name: "Кости волшебника"
+  description: Награждённая работа литературного конкурса. Рекомендуется для тихих смен, долгих полётов и уклонения от работы. Это вымысел. Наверное.
   components:
     - type: Sprite
       layers:
@@ -249,8 +249,8 @@
 - type: entity
   parent: BookBase
   id: BookHopPlay
-  name: "A HOP Play"
-  description: An award winning entry from a writing contest. Recommended for slow shifts, long shuttle rides, and avoiding actual work. This is a work of fiction. Probably.
+  name: "Пьеса ГП"
+  description: Награждённая работа литературного конкурса. Рекомендуется для тихих смен, долгих полётов и уклонения от работы. Это вымысел. Наверное.
   components:
     - type: Sprite
       layers:
@@ -268,8 +268,8 @@
 - type: entity
   parent: BookBase
   id: BookConfession
-  name: "A Confession"
-  description: An award winning entry from a writing contest. Recommended for slow shifts, long shuttle rides, and avoiding actual work. This is a work of fiction. Probably.
+  name: "Исповедь"
+  description: Награждённая работа литературного конкурса. Рекомендуется для тихих смен, долгих полётов и уклонения от работы. Это вымысел. Наверное.
   components:
     - type: Sprite
       layers:
@@ -287,8 +287,8 @@
 - type: entity
   parent: BookBase
   id: BookLifeOfAClown
-  name: "A Day in the Life of a Clown"
-  description: An award winning entry from a writing contest. Recommended for slow shifts, long shuttle rides, and avoiding actual work. This is a work of fiction. Probably.
+  name: "Один день из жизни клоуна"
+  description: Награждённая работа литературного конкурса. Рекомендуется для тихих смен, долгих полётов и уклонения от работы. Это вымысел. Наверное.
   components:
     - type: Sprite
       layers:
@@ -306,8 +306,8 @@
 - type: entity
   parent: BookBase
   id: BookUnnamedGod
-  name: "Theological Studies — The unnamed God"
-  description: An award winning entry from a writing contest. Recommended for slow shifts, long shuttle rides, and avoiding actual work. This is a work of fiction. Probably.
+  name: "Богословские исследования — безымянный Бог"
+  description: Награждённая работа литературного конкурса. Рекомендуется для тихих смен, долгих полётов и уклонения от работы. Это вымысел. Наверное.
   components:
     - type: Sprite
       layers:

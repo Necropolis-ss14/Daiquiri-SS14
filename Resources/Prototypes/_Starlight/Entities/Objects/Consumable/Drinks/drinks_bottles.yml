@@ -2,7 +2,7 @@
   parent: [ DrinkVisualsAllFilled, DrinkBottleGlassBaseFull ]
   id: DrinkVodkizineBottleFull
   name: бутылка водкизина
-  description: The best cure for and cause of a hangover.
+  description: Лучшее средство от похмелья и её причина.
   components:
   - type: Solution
     id: drink

@@ -1,8 +1,8 @@
 - type: entity
-  name: finka
+  name: финка
   parent: [ BaseContrabandTier3, BaseKnife, BaseSovietContraband ] # Blimpuf
   id: Finka
-  description: Legendary SNKVD dagger, an excellent melee weapon, and it's said there was a secret technique for throwing this knife.
+  description: Легендарный кинжал СНКВД, отличное оружие ближнего боя, говорят, была секретная техника метания этого ножа.
   components:
   - type: Tag
     tags:
@@ -32,11 +32,11 @@
     price: 1250
 
 - type: entity
-  name: ForceableFollow finka
+  name: финка ForceableFollow
   parent: [Finka, BaseSovietContraband]
   id: FinkaAdmeme
   suffix: Admeme
-  description: Legendary SNKVD dagger, an excellent melee weapon, and it's said there was a secret technique for throwing this knife.
+  description: Легендарный кинжал СНКВД, отличное оружие ближнего боя, говорят, была секретная техника метания этого ножа.
   components:
   - type: Tag
     tags:
@@ -48,10 +48,10 @@
     state: icon
 
 - type: entity
-  name: shiv
+  name: заточка
   id: XenoShiv
   parent: ScalpelShiv
-  description: A weak knife, really only used to keep others away. # Could become a decent tool or weapon with right tool mods.
+  description: "Слабый нож, годится лишь держать других на расстоянии. # С нужными модами может стать приличным инструментом или оружием."
   components:
   - type: MeleeWeapon
     wideAnimationRotation: 90
@@ -64,11 +64,11 @@
       path: /Audio/Weapons/bladeslice.ogg
 
 - type: entity
-  name: combat knife
+  name: боевой нож
   parent: [ CombatKnife, BaseXenoborgContraband ]
   id: XenoKnife
   suffix: Xenoborg
-  description: A deadly knife intended for melee confrontations.
+  description: Смертельный нож для ближних схваток.
   components:
   - type: MeleeWeapon
     wideAnimationRotation: -135

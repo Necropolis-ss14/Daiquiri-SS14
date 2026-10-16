@@ -1,5 +1,5 @@
 - type: entity
-  name: shadekin Haze
+  name: дымка шейдкина
   id: ShadekinShadow
   parent: BaseShadow
   placement:
@@ -39,7 +39,7 @@
 
 - type: entity
   id: ShadekinPhaseInEffect
-  name: shadekin Phase in
+  name: фазовый вход шейдкина
   components:
     - type: EmitSoundOnSpawn
       sound:
@@ -58,7 +58,7 @@
 - type: entity
   id: ShadekinPhaseInEffect2
   parent: ShadekinPhaseInEffect
-  name: shadekin Phase in 2
+  name: фазовый вход шейдкина 2
   components:
     - type: Sprite
       layers:
@@ -72,7 +72,7 @@
 - type: entity
   id: ShadekinPhaseOutEffect
   parent: ShadekinPhaseInEffect
-  name: shadekin Phase out
+  name: фазовый выход шейдкина
   components:
     - type: Sprite
       layers:

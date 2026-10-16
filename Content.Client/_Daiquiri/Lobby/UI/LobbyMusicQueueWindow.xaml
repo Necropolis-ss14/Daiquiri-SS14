@@ -1,0 +1,33 @@
+<DefaultWindow xmlns="https://spacestation14.io"
+                 xmlns:graphics="clr-namespace:Robust.Client.Graphics;assembly=Robust.Client"
+                 Title="{Loc 'ui-lobby-music-queue-title'}"
+                 MinSize="680 340"
+                 Resizable="False">
+    <BoxContainer Orientation="Vertical" HorizontalExpand="True" VerticalExpand="True">
+    <BoxContainer Orientation="Horizontal" HorizontalExpand="True" VerticalExpand="True" SeparationOverride="6">
+        <PanelContainer StyleClasses="BackgroundPanel" VerticalExpand="True"
+                       MinWidth="190" MaxWidth="230" Margin="4">
+            <ScrollContainer VerticalExpand="True">
+                <BoxContainer Name="PlaylistList" Access="Public" Orientation="Vertical" VerticalExpand="True"
+                              HorizontalExpand="True" SeparationOverride="2" Margin="0 8 0 0" />
+            </ScrollContainer>
+        </PanelContainer>
+        <!-- Daiquiri: explicit gold divider, immune to glass/fade tints -->
+        <PanelContainer VerticalExpand="True"
+                        MinWidth="2" MaxWidth="2" Margin="0 8 0 8">
+            <PanelContainer.PanelOverride>
+                <graphics:StyleBoxFlat BackgroundColor="#c9a227" />
+            </PanelContainer.PanelOverride>
+        </PanelContainer>
+        <PanelContainer Name="TrackPanel" Access="Public" StyleClasses="BackgroundPanel"
+                        HorizontalExpand="True" VerticalExpand="True" Margin="4">
+            <ScrollContainer VerticalExpand="True" HorizontalExpand="True">
+                <BoxContainer Name="TrackList" Access="Public" Orientation="Vertical" VerticalExpand="True"
+                              HorizontalExpand="True" SeparationOverride="2" />
+            </ScrollContainer>
+        </PanelContainer>
+    </BoxContainer>
+        <Label Text="{Loc 'ui-lobby-music-queue-flavor'}" HorizontalAlignment="Right" Margin="0 6 4 0"
+               StyleClasses="font-small" FontColorOverride="#c0c0c0" />
+    </BoxContainer>
+</DefaultWindow>

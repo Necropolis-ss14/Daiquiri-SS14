@@ -3,7 +3,7 @@
   parent: [ BaseCentcommContraband, ClothingHeadEVAHelmetBase ] # Blimpuf
   id: ClothingHeadSoftsuitCBURN
   name: шлем ЦБХОР
-  description: A pressure resistant and fireproof hood worn by special cleanup units.
+  description: Устойчивый к давлению и огнеупорный капюшон специальных уборочных отрядов.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Head/Hardsuits/cburn.rsi
@@ -34,7 +34,7 @@
   parent: [BaseTSFContraband, ClothingHeadEVAHelmetBase, ClothingHeadHelmetArmoredBase]
   id: ClothingHeadHelmetTSF
   name: боевой шлем морпеха Федерации
-  description: A powered combat helmet used by the Trans-Solar Marine Corps. Provides excellent protection in all areas, while a modern OCULUS array augments the wearer's vision.
+  description: Усиленный боевой шлем Корпуса морпехов Транс-Солнечной Федерации. Отлично защищает со всех сторон, а современная матрица OCULUS улучшает зрение владельца.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Head/Helmets/tsf.rsi
@@ -50,7 +50,7 @@
   parent: ClothingHeadHelmetTSF
   id: ClothingHeadHelmetTSFLeader
   name: боевой шлем офицера морпехоты Федерации
-  description: A powered combat helmet used by officers of the Trans-Solar Marine Corps. Provides excellent protection in all areas, while a next-gen OCULUS array augments the wearer's vision.
+  description: Усиленный боевой шлем офицеров Корпуса морпехов Транс-Солнечной Федерации. Отлично защищает со всех сторон, а матрица OCULUS нового поколения улучшает зрение владельца.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Head/Helmets/tsfleader.rsi
@@ -65,7 +65,7 @@
   parent: ClothingHeadBase
   id: ClothingHeadBowlHelmet
   name: шлем-аквариум
-  description: It looks like a fish bowl, but somehow it functions as an EVA helmet.
+  description: Выглядит как аквариум, но каким-то образом работает как шлем ВКД.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Head/Helmets/wizard_bowl.rsi
@@ -108,7 +108,7 @@
   parent:  ClothingHeadEVAHelmetBase #, ClothingHeadSuitWithLightBase ]
   id: ClothingHeadHelmetsoftsuitWizard
   name: капюшон пустоты волшебника
-  description: A bizarre gem-encrusted hood that radiates magical energies.
+  description: Странный капюшон, инкрустированный самоцветами, излучающий магическую энергию.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Head/Hoods/wizard.rsi
@@ -132,7 +132,7 @@
   parent:  ClothingHeadHardsuitBase
   id: ClothingHeadHelmetsoftsuitWizardFire
   name: капюшон пироманта
-  description: A hood of living fire, the inferno within stares at you.
+  description: Капюшон из живого огня, инферно внутри смотрит на тебя.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Head/Hoods/wizardfire.rsi
@@ -167,7 +167,7 @@
   parent:  ClothingHeadHardsuitBase
   id: ClothingHeadHelmetsoftsuitWizardFrost
   name: капюшон криоманта
-  description: A hood of magical ice, the coldest of gaze pierces your very soul.
+  description: Капюшон из магического льда, леденящий взгляд пронзает саму душу.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Head/Hoods/wizardfrost.rsi

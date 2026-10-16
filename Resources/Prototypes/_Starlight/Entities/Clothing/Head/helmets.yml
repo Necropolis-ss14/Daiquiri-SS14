@@ -2,7 +2,7 @@
 - type: entity
   parent: [ ClothingHeadHelmetBase, BaseMajorContraband ]
   id: ClothingHeadHelmetAbductor
-  name: helmet
+  name: шлем
   components:
   - type: Pierceable
     level: Metal
@@ -32,8 +32,8 @@
 - type: entity
   parent: [ BaseContrabandTier2, ClothingHeadHelmetBase, BaseSecurityContraband ] # Blimpuf
   id: ClothingHeadHelmetDredd
-  name: helmet
-  description: I AM THE LAW!
+  name: шлем
+  description: Я — ЗАКОН!
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Head/Helmets/dredd.rsi
@@ -48,7 +48,7 @@
   parent: [ClothingHeadBase, BaseSecurityContraband, BaseToggleClothing]
   id: ClothingHeadHelmetBulletProof
   name: пуленепробиваемый шлем
-  description: Protects the face against bullets, can flip up and down.
+  description: Защищает лицо от пуль, поднимается и опускается.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Head/Helmets/bulletproof.rsi
@@ -93,7 +93,7 @@
   parent: [ BaseContrabandTier2, ClothingHeadHelmetBase, BaseSecurityContraband ] # Blimpuf
   id: ClothingHeadHelmetReflective
   name: отражающий шлем
-  description: A shiny helmet for your equally shiny vest. Provides 100% reflection when worn with the reflective vest.
+  description: Блестящий шлем к столь же блестящему жилету. Даёт 100% отражение при ношении со светоотражающим жилетом.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Head/Helmets/reflect.rsi
@@ -122,7 +122,7 @@
   parent: [ BaseContrabandTier2, ClothingHeadHelmetBase, BaseSecurityContraband ] # Blimpuf
   id: ClothingHeadHelmetPlate
   name: латный шлем
-  description: A modified security helmet with a ceramic plate insert, which means less padding for blunt hits.
+  description: Модифицированный шлем СБ с керамической вставкой, а значит меньше подкладки от тупых ударов.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Head/Helmets/plate.rsi
@@ -143,7 +143,7 @@
   parent: [ BaseContrabandTier2, ClothingHeadHelmetBase, BaseSecurityContraband ] # Blimpuf
   id: ClothingHeadHelmetStabproof
   name: ножостойкий шлем
-  description: The most "comfortable" security helmet, as rated by officers. Will take a blow to the head nicely, but a bullet'll go right through it.
+  description: Самый «удобный» шлем СБ по версии офицеров. Хорошо держит удар по голове, но пуля пройдёт насквозь.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Head/Helmets/stabproof.rsi
@@ -164,7 +164,7 @@
   parent: [ BaseContrabandTier2, ClothingHeadHelmetBase, BaseSecurityContraband ] # Blimpuf
   id: ClothingHeadHelmetHeatAbsorbent
   name: теплопоглощающий шлем
-  description: Advanced helmet best paired with the vest for pure style, has minor reflective properties and can absorb heat fairly well.
+  description: Продвинутый шлем, лучше всего сочетается с жилетом ради чистого стиля, слегка отражает и неплохо поглощает тепло.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Head/Helmets/heatabsorbent.rsi
@@ -185,7 +185,7 @@
   parent: [ClothingHeadHelmetBase, BaseMinorContraband]
   id: ClothingHeadHelmetMakeshift
   name: самодельный шлем
-  description: Cobbled together steel held together with lv cables in the vauge shape of a helmet. Barely does anything.
+  description: Собранная на скорую руку сталь на низковольтных кабелях в виде подобия шлема. Почти не защищает.
   components:
   - type: Armor
     modifiers:
@@ -206,7 +206,7 @@
   parent: [ClothingHeadHelmetBase, BaseMinorContraband]
   id: ClothingHeadHelmetImprovised
   name: импровизированный шлем
-  description: Interlocking steel plates provides some decent protection, but is still barely better than nothing.
+  description: Сцепленные стальные пластины дают неплохую защиту, но всё равно едва лучше, чем ничего.
   components:
   - type: Armor
     modifiers:
@@ -224,7 +224,7 @@
   parent: [ClothingHeadHelmetBase, BaseMinorContraband]
   id: ClothingHeadHelmetForged
   name: кованый шлем
-  description: A high-quality helmet made by some of the best Tidersmiths, it is finally worthwhile to have it on your head.
+  description: Высококачественный шлем от лучших тайдерских кузнецов, его наконец не стыдно носить.
   components:
   - type: Armor
     modifiers:
@@ -242,7 +242,7 @@
   parent: [ClothingHeadHelmetBase, BaseMajorContraband]
   id: ClothingHeadHelmetPaladin
   name: шлем паладина
-  description: No true paladin can go without their helmet!
+  description: Ни один истинный паладин не обойдётся без шлема!
   components:
   - type: Armor
     modifiers:
@@ -260,7 +260,7 @@
   parent: ClothingHeadHelmetERTLeader
   id: ClothingHeadHelmetNTNCConsortium
   name: морской шлем НТ-ЦК
-  description: An in-atmosphere helmet worn by NT-NC Naval Officers.
+  description: Шлем для внутриатмосферных операций офицеров флота NT-NC.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Head/Helmets/ntnc_helmet.rsi
@@ -274,7 +274,7 @@
   parent: ClothingHeadBase
   id: ClothingHeadHelmetRisk
   name: шлем станционного смельчака
-  description: A strong helmet with a cool red line in the middle.
+  description: Прочный шлем с крутой красной полосой посередине.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Head/Helmets/riskhelmet.rsi
@@ -291,7 +291,7 @@
   parent: [ BaseContrabandTier2, ClothingHeadHelmetArmoredBase, BaseSalvageContraband ] # Blimpuf
   id: ClothingHeadHelmetSalvageMerc
   name: шлем утилизатора
-  description: A durable, lightweight helmet favored by salvagers.
+  description: Прочный лёгкий шлем, любимый утилизаторами.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Head/Helmets/salvage.rsi
@@ -307,7 +307,7 @@
   id: ClothingHeadHelmetGreenshield
   categories: [ DoNotMap ]
   name: шлем гриншилда
-  description: A special helmet worn by Greenshield Officers.
+  description: Специальный шлем офицеров зелёного щита.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Head/Helmets/greenshield_helmet.rsi
@@ -321,7 +321,7 @@
   parent: ClothingHeadBase
   id: ChangelingClothingHeadHelmet
   name: хитиновый шлем
-  description: An all-consuming chitinous mass of armor.
+  description: Всепоглощающая хитиновая масса брони.
   suffix: Unremoveable
   components:
   - type: Sprite

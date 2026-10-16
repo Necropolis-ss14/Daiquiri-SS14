@@ -1,7 +1,7 @@
 - type: entity
   id: SupermatterCrystal
-  name: supermatter
-  description: A glowing supermatter crystal, with half an ID card lying next to it, and it says "Clown pira..." on it.
+  name: суперматерия
+  description: Светящийся кристалл суперматерии, рядом лежит половина ID-карты с надписью «Клоун пира...».
   placement:
     mode: SnapgridCenter
   components:
@@ -54,8 +54,8 @@
 
 - type: entity
   id: Cascad1
-  name: cascad
-  description: Consequences of the supermatter crystal's cascade failure.
+  name: каскад
+  description: Последствия каскадного разрушения кристалла суперматерии.
   placement:
     mode: SnapgridCenter
   components:
@@ -169,7 +169,7 @@
   id: CascadChunk
   parent: BaseItem
   name: осколок Каскада
-  description: A chunk of degenerate supermatter. The remains are still dangerously radioactive.
+  description: Осколок вырожденной суперматерии. Остатки всё ещё опасно радиоактивны.
   components:
     - type: Sprite
       sprite: Objects/Consumable/Food/Baked/cake.rsi

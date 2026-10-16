@@ -2,7 +2,7 @@
   id: AutoLoaderUnit
   parent: DisposalUnitBase
   name: автозагрузчик
-  description: A pneumatic autoloader delivery unit.
+  description: Пневматический автозагрузчик доставки.
   components:
   - type: Sprite
     sprite: Structures/Piping/disposal.rsi

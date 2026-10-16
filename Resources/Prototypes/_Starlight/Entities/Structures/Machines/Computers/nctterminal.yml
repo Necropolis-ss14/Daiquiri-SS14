@@ -3,7 +3,7 @@
   id: nctterminal
   categories: [ ShouldMapStation ]
   name: диспетчер НКТ
-  description: Contact NCT Dispatch for assistance.
+  description: Для помощи свяжитесь с диспетчером НКТ.
   placement:
     mode: SnapgridCenter
     snap:

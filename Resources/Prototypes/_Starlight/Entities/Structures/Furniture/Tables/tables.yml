@@ -2,7 +2,7 @@
   id: TableAbductor
   parent: TableBase
   name: инопланетный стол
-  description: Literally the sturdiest thing you have ever seen.
+  description: Буквально прочнейшая вещь, что ты видел.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Furniture/Tables/abductor_table.rsi
@@ -16,7 +16,7 @@
   id: TableCounterRetroSteel
   parent: CounterBase
   name: ретро-прилавок стальной
-  description: Looks like a good place to put a drink down.
+  description: Похоже на хорошее место для стакана.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Furniture/Tables/steel_counter.rsi
@@ -60,7 +60,7 @@
   id: TableCounterRetroWood
   parent: CounterBase
   name: ретро-прилавок деревянный
-  description: Looks like a good place to put a drink down.
+  description: Похоже на хорошее место для стакана.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Furniture/Tables/wood_counter.rsi
@@ -105,7 +105,7 @@
   id: TableCounterRetroKitchen
   parent: CounterBase
   name: ретро-прилавок кухонный
-  description: Looks like a good place to put a drink down.
+  description: Похоже на хорошее место для стакана.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Furniture/Tables/kitchen_counter.rsi
@@ -149,7 +149,7 @@
   id: TableCounterRetroSteelWood
   parent: CounterBase
   name: ретро-прилавок из стали и дерева
-  description: Looks like a good place to put a drink down.
+  description: Похоже на хорошее место для стакана.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Furniture/Tables/retro_counter_sw.rsi
@@ -193,7 +193,7 @@
   id: TableCounterRetroWhiteOrange
   parent: CounterBase
   name: ретро-прилавок бело-оранжевый
-  description: Looks like a good place to put a drink down.
+  description: Похоже на хорошее место для стакана.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Furniture/Tables/retro_counter_wo.rsi
@@ -237,7 +237,7 @@
   id: TableCounterRetroWhiteTeal
   parent: CounterBase
   name: ретро-прилавок бело-бирюзовый
-  description: Looks like a good place to put a drink down.
+  description: Похоже на хорошее место для стакана.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Furniture/Tables/retro_counter_wt.rsi
@@ -281,7 +281,7 @@
   id: TableCounterRetroDiner
   parent: CounterBase
   name: ретро-прилавок закусочной
-  description: Looks like a good place to put a drink down.
+  description: Похоже на хорошее место для стакана.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Furniture/Tables/diner_counter.rsi

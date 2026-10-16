@@ -243,20 +243,28 @@
 - type: entity
   id: NuclearReactorNormal
   parent: [BaseNuclearReactor, NuclearReactorCrew]
+  name: ядерный реактор
+  description: Корпус ядерного реактора с гнёздами для топливных стержней и других компонентов. Погодите, разве один из таких однажды не взорвался?
 
 - type: entity
   id: NuclearReactorEmpty
   parent: [BaseNuclearReactor, NuclearReactorCrew, ReactorPrefabEmpty]
+  name: ядерный реактор
+  description: Корпус ядерного реактора с гнёздами для топливных стержней и других компонентов. Погодите, разве один из таких однажды не взорвался?
   suffix: "Empty"
 
 - type: entity
   id: NuclearReactorRandom
   parent: [BaseNuclearReactor, NuclearReactorCrew, ReactorPrefabRandom]
+  name: ядерный реактор
+  description: Корпус ядерного реактора с гнёздами для топливных стержней и других компонентов. Погодите, разве один из таких однажды не взорвался?
   suffix: "Random"
 
 - type: entity
   id: NuclearReactorMeltdown
   parent: [BaseNuclearReactor, NuclearReactorCrew, ReactorPrefab7x7Meltdown]
+  name: ядерный реактор
+  description: Корпус ядерного реактора с гнёздами для топливных стержней и других компонентов. Погодите, разве один из таких однажды не взорвался?
   suffix: "Meltdown"
 #endregion
 
@@ -264,10 +272,14 @@
 - type: entity
   id: NuclearReactorSmall
   parent: [BaseNuclearReactorSmall, NuclearReactorCrew, ReactorPrefab5x5Normal]
+  name: малый ядерный реактор
+  description: Корпус ядерного реактора с гнёздами для топливных стержней и других компонентов. Погодите, разве один из таких однажды не взорвался?
 
 - type: entity
   id: NuclearReactorSmallRandom
   parent: [BaseNuclearReactorSmall, NuclearReactorCrew, ReactorPrefabRandom]
+  name: малый ядерный реактор
+  description: Корпус ядерного реактора с гнёздами для топливных стержней и других компонентов. Погодите, разве один из таких однажды не взорвался?
   suffix: "Random"
 #endregion
 
@@ -275,16 +287,22 @@
 - type: entity
   id: NuclearReactorNormalSalvage
   parent: [BaseNuclearReactor, NuclearReactorSalvage]
+  name: ядерный реактор
+  description: Корпус ядерного реактора с гнёздами для топливных стержней и других компонентов. Погодите, разве один из таких однажды не взорвался?
   suffix: "Salvage"
 
 - type: entity
   id: NuclearReactorEmptySalvage
   parent: [BaseNuclearReactor, NuclearReactorSalvage, ReactorPrefabEmpty]
+  name: ядерный реактор
+  description: Корпус ядерного реактора с гнёздами для топливных стержней и других компонентов. Погодите, разве один из таких однажды не взорвался?
   suffix: "Salvage, Empty"
 
 - type: entity
   id: NuclearReactorRandomSalvage
   parent: [BaseNuclearReactor, NuclearReactorSalvage, ReactorPrefabRandom]
+  name: ядерный реактор
+  description: Корпус ядерного реактора с гнёздами для топливных стержней и других компонентов. Погодите, разве один из таких однажды не взорвался?
   suffix: "Salvage, Random"
 #endregion
 
@@ -292,16 +310,22 @@
 - type: entity
   id: NuclearReactorSmallSalvage
   parent: [BaseNuclearReactorSmall, NuclearReactorSalvage, ReactorPrefab5x5Normal]
+  name: малый ядерный реактор
+  description: Корпус ядерного реактора с гнёздами для топливных стержней и других компонентов. Погодите, разве один из таких однажды не взорвался?
   suffix: "Salvage"
 
 - type: entity
   id: NuclearReactorSmallRandomSalvage
   parent: [BaseNuclearReactorSmall, NuclearReactorSalvage, ReactorPrefabRandom]
+  name: малый ядерный реактор
+  description: Корпус ядерного реактора с гнёздами для топливных стержней и других компонентов. Погодите, разве один из таких однажды не взорвался?
   suffix: "Salvage, Random"
 
 - type: entity
   id: NuclearReactorSmallEmptySalvage
   parent: [BaseNuclearReactorSmall, NuclearReactorSalvage, ReactorPrefabEmpty]
+  name: малый ядерный реактор
+  description: Корпус ядерного реактора с гнёздами для топливных стержней и других компонентов. Погодите, разве один из таких однажды не взорвался?
   suffix: "Salvage, Empty"
 #endregion
 
@@ -310,8 +334,8 @@
   id: NuclearReactorMelted # This is more of a decoration than anything else
   parent: BaseStructure
   suffix: "Melted"
-  name: Nuclear Reactor
-  description: A broken nuclear reactor vessel. It glows with heat and radiation.
+  name: ядерный реактор
+  description: Сломанный корпус ядерного реактора. Светится жаром и радиацией.
   components:
   - type: Sprite
     sprite: _FarHorizons/Structures/Power/Generation/FissionGenerator/nuclear_reactor.rsi
@@ -343,8 +367,8 @@
   id: NuclearReactorSmallMelted
   parent: NuclearReactorMelted
   suffix: "Melted"
-  name: Small Nuclear Reactor
-  description: A broken nuclear reactor vessel. It glows with heat and radiation.
+  name: малый ядерный реактор
+  description: Сломанный корпус ядерного реактора. Светится жаром и радиацией.
   components:
   - type: Sprite
     sprite: _FarHorizons/Structures/Power/Generation/FissionGenerator/small_nuclear_reactor.rsi
@@ -369,7 +393,7 @@
   id: NuclearReactorMeltedSalvage
   parent: NuclearReactorMelted
   suffix: "Salvage, Melted"
-  description: A nuclear reactor vessel, long since melted down. It still glows with residual heat and radiation.
+  description: Корпус ядерного реактора, давно расплавившийся. Всё ещё светится остаточным жаром и радиацией.
   components:
   - type: RadiationSource
     intensity: 3.5
@@ -380,7 +404,7 @@
   id: NuclearReactorSmallMeltedSalvage
   parent: NuclearReactorSmallMelted
   suffix: "Salvage, Melted"
-  description: A nuclear reactor vessel, long since melted down. It still glows with residual heat and radiation.
+  description: Корпус ядерного реактора, давно расплавившийся. Всё ещё светится остаточным жаром и радиацией.
   components:
   - type: RadiationSource
     intensity: 2.5
@@ -393,8 +417,8 @@
 - type: entity
   id: NuclearDebrisChunk
   parent: BaseItem
-  name: Nuclear Debris
-  description: You do not see the graphite on the floor. You're in shock. Report to medical.
+  name: ядерные обломки
+  description: Вы не видите графит на полу. Вы в шоке. Обратитесь в медпункт.
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

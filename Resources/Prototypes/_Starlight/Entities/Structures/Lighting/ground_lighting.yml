@@ -1,7 +1,7 @@
 - type: entity
   id: FloorLight
   name: напольный светильник
-  description: "An always powered floor light."
+  description: "Напольный светильник с постоянным питанием."
   suffix: Always Powered
   parent: BaseStructure
   components:
@@ -59,7 +59,7 @@
 - type: entity
   id: PoweredFloorLightEmpty
   name: напольный светильник
-  description: "A lightbulb you can walk on without breaking it, amazing."
+  description: "Лампочка, по которой можно ходить, не разбивая её. Удивительно."
   suffix: Empty
   parent: FloorLight
   components:
@@ -324,8 +324,8 @@
 
 - type: entity
   id: LightFloorEmpty
-  name: light floor
-  description: "A walking surface that doubles as area lighting. Unscrew the cover to change the bulb."
+  name: светящийся пол
+  description: "Напольное покрытие, одновременно служащее освещением. Открутите крышку, чтобы заменить лампочку."
   suffix: Empty
   parent: PoweredFloorLightEmpty
   components:
@@ -391,8 +391,8 @@
 
 - type: entity
   id: FloorTileItemLight
-  name: light floor tile
-  description: "A wired glass tile. Lay it on a floor, fit a light bulb, then screw the cover shut."
+  name: плитка светящегося пола
+  description: "Проводящая стеклянная плитка. Положите её на пол, вставьте лампочку, затем закрутите крышку."
   parent: FloorTileItemBase
   components:
     - type: Sprite
@@ -422,8 +422,8 @@
 
 - type: entity
   id: LightFloorAlwaysPowered
-  name: light floor
-  description: "A walking surface that doubles as area lighting. This one is sealed and never goes out."
+  name: светящийся пол
+  description: "Напольное покрытие, одновременно служащее освещением. Этот вариант герметичен и никогда не гаснет."
   suffix: Always Powered
   parent: FloorLight
   components:
@@ -644,7 +644,7 @@
 
 - type: entity
   id: LightFloorRandomColor
-  name: light floor
+  name: светящийся пол
   suffix: Random Color
   placement:
     mode: SnapgridCenter

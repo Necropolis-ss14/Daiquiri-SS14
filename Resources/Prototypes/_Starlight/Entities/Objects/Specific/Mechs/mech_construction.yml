@@ -22,7 +22,7 @@
   parent: BaseClarkePart
   id: ClarkeHarness
   name: каркас «Кларк»
-  description: The core of the Clarke.
+  description: Ядро «Clarke».
   components:
   - type: Appearance
   - type: ItemMapper
@@ -68,7 +68,7 @@
   parent: BaseClarkePartItem
   id: ClarkeHead
   name: голова «Кларк»
-  description: The head of the Clarke. It belongs on the chassis of the mech.
+  description: Голова «Clarke». Устанавливается на шасси меха.
   components:
   - type: Sprite
     state: clarke_head
@@ -80,7 +80,7 @@
   parent: BaseClarkePartItem
   id: ClarkeRArm
   name: правая рука «Кларк»
-  description: The right arm of the Clarke. It belongs on the chassis of the mech.
+  description: Правая рука «Clarke». Устанавливается на шасси меха.
   components:
   - type: Sprite
     state: clarke_r_arm
@@ -92,7 +92,7 @@
   parent: BaseClarkePartItem
   id: ClarkeLArm
   name: левая рука «Кларк»
-  description: The left arm of the Clarke. It belongs on the chassis of the mech.
+  description: Левая рука «Clarke». Устанавливается на шасси меха.
   components:
   - type: Sprite
     state: clarke_l_arm
@@ -104,7 +104,7 @@
   parent: BaseClarkePartItem
   id: ClarkeTreads
   name: гусеницы «Кларк»
-  description: The treads of the Clarke. It belongs on the chassis of the mech.
+  description: Гусеницы «Clarke». Устанавливаются на шасси меха.
   components:
   - type: Sprite
     state: clarke_treads
@@ -157,7 +157,7 @@
   parent: BaseDurandPart
   id: DurandHarness
   name: каркас «Дюранд»
-  description: The core of the Durand.
+  description: Ядро «Durand».
   components:
   - type: Appearance
   - type: ItemMapper
@@ -208,7 +208,7 @@
   parent: BaseDurandPartItem
   id: DurandHead
   name: голова «Дюранд»
-  description: The head of the Durand. It belongs on the chassis of the mech.
+  description: Голова «Durand». Устанавливается на шасси меха.
   components:
   - type: Sprite
     state: durand_head
@@ -220,7 +220,7 @@
   parent: BaseDurandPartItem
   id: DurandLArm
   name: левая рука «Дюранд»
-  description: The left arm of the Durand. It belongs on the chassis of the mech.
+  description: Левая рука «Durand». Устанавливается на шасси меха.
   components:
   - type: Sprite
     state: durand_l_arm
@@ -232,7 +232,7 @@
   parent: BaseDurandPartItem
   id: DurandLLeg
   name: левая нога «Дюранд»
-  description: The left leg of the Durand. It belongs on the chassis of the mech.
+  description: Левая нога «Durand». Устанавливается на шасси меха.
   components:
   - type: Sprite
     state: durand_l_leg
@@ -244,7 +244,7 @@
   parent: BaseDurandPartItem
   id: DurandRLeg
   name: правая нога «Дюранд»
-  description: The right leg of the Durand. It belongs on the chassis of the mech.
+  description: Правая нога «Durand». Устанавливается на шасси меха.
   components:
   - type: Sprite
     state: durand_r_leg
@@ -256,7 +256,7 @@
   parent: BaseDurandPartItem
   id: DurandRArm
   name: правая рука «Дюранд»
-  description: The right arm of the Durand. It belongs on the chassis of the mech.
+  description: Правая рука «Durand». Устанавливается на шасси меха.
   components:
   - type: Sprite
     state: durand_r_arm
@@ -309,7 +309,7 @@
   parent: BaseGygaxPart
   id: GygaxHarness
   name: каркас «Гайгэкс»
-  description: The core of the Gygax.
+  description: Ядро «Gygax».
   components:
   - type: Appearance
   - type: ItemMapper
@@ -360,7 +360,7 @@
   parent: BaseGygaxPartItem
   id: GygaxHead
   name: голова «Гайгэкс»
-  description: The head of the Gygax. It belongs on the chassis of the mech.
+  description: Голова «Gygax». Устанавливается на шасси меха.
   components:
   - type: Sprite
     state: gygax_head
@@ -372,7 +372,7 @@
   parent: BaseGygaxPartItem
   id: GygaxLArm
   name: левая рука «Гайгэкс»
-  description: The left arm of the Gygax. It belongs on the chassis of the mech.
+  description: Левая рука «Gygax». Устанавливается на шасси меха.
   components:
   - type: Sprite
     state: gygax_l_arm
@@ -384,7 +384,7 @@
   parent: BaseGygaxPartItem
   id: GygaxLLeg
   name: левая нога «Гайгэкс»
-  description: The left leg of the Gygax. It belongs on the chassis of the mech.
+  description: Левая нога «Gygax». Устанавливается на шасси меха.
   components:
   - type: Sprite
     state: gygax_l_leg
@@ -396,7 +396,7 @@
   parent: BaseGygaxPartItem
   id: GygaxRLeg
   name: правая нога «Гайгэкс»
-  description: The right leg of the Gygax. It belongs on the chassis of the mech.
+  description: Правая нога «Gygax». Устанавливается на шасси меха.
   components:
   - type: Sprite
     state: gygax_r_leg
@@ -408,7 +408,7 @@
   parent: BaseGygaxPartItem
   id: GygaxRArm
   name: правая рука «Гайгэкс»
-  description: The right arm of the Gygax. It belongs on the chassis of the mech.
+  description: Правая рука «Gygax». Устанавливается на шасси меха.
   components:
   - type: Sprite
     state: gygax_r_arm

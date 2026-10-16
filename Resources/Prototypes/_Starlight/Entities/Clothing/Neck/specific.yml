@@ -2,7 +2,7 @@
   parent: [ClothingMiscBase, BaseChameleon]
   id: ClothingMiscChameleon
   name: золотая медаль за службу экипажу
-  description: Given to crewmates who display excellent crewmanship.
+  description: Вручается членам экипажа за отличную службу.
   suffix: Chameleon
   components:
     - type: Tag

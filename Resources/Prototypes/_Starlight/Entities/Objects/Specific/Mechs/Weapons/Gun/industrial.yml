@@ -1,7 +1,7 @@
 - type: entity
   id: WeaponMechIndustrialKineticAccelerator
-  name: exosuit proto-kinetic accelerator
-  description: Fires normal-damage kinetic bolts at a short range.
+  name: прото-кинетический ускоритель экзокостюма
+  description: Стреляет кинетическими зарядами обычного урона на малую дистанцию.
   suffix: Mech Weapon, Gun, Industrial, Kinetic Accelerator
   parent: [ BaseContrabandTier2, BaseMechWeaponRange, IndustrialMechEquipment, BaseCargoContraband, BaseSalvageContraband ] # Blimpuf
   components:

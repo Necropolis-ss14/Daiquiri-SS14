@@ -3,7 +3,7 @@
   name: почтовая тележка
   id: MailTrolley
   parent: [BaseStructureDynamic, StructureWheeled]
-  description: Perfect for all your package delivery needs.
+  description: Идеально для всех нужд доставки посылок.
   components:
     - type: Sprite
       noRot: true
@@ -88,7 +88,7 @@
   parent: MailTrolley
   id: GoldenMailTrolley
   name: золотая почтовая тележка
-  description: A brilliantly shining gold-and-silver mail cart for the most elite of mail technicians.
+  description: Блистающая золото-серебряная почтовая тележка для самых элитных почтовых техников.
   components:
     - type: Sprite
       noRot: true

@@ -2,7 +2,7 @@
   parent: [BaseItem, BaseSovietContraband]
   id: SovietDeskFlag
   name: советский настольный флаг
-  description: Belikov. Have you dug up my mole yet?
+  description: Беликов. Ты уже откопал моего крота?
   components:
   - type: Contraband # Blimpuf
     tier: Tier3
@@ -16,7 +16,7 @@
 - type: entity
   id: RevolutionaryHeldBanner
   name: революционное знамя
-  description: A towering revolutionary banner that makes you an easy target. A makarov in the other hand is recommended.
+  description: Возвышающееся революционное знамя — отличная мишень. В другую руку рекомендуется макаров.
   parent: [BaseItem, BaseSovietContraband]
   components:
   - type: Contraband # Blimpuf

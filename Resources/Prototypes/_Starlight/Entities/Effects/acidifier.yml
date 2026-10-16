@@ -1,8 +1,8 @@
 - type: entity
   parent: Acidifier
   id: XenoborgAcidifier
-  name: acid
-  description: Dissolves a xenoborg chassis into a puddle of acid.
+  name: кислота
+  description: Растворяет шасси ксеноборга в лужу кислоты.
   components:
   - type: EmitSoundOnSpawn
     sound:
@@ -12,8 +12,8 @@
 
 - type: entity
   id: GearAcidifier
-  name: acid
-  description: Melts your gear into a puddle of yuck!
+  name: кислота
+  description: Расплавляет ваше снаряжение в лужу гадости!
   components:
   - type: Transform
     anchored: True

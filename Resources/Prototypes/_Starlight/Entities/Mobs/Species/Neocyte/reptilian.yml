@@ -106,7 +106,7 @@
   parent: [BaseNeocyteAppearance, BaseSpeciesDummy]
   id: AppearanceNeoReptilian
   categories: [ HideSpawnMenu ]
-  description: A dummy neo-reptile meant to be used in character setup.
+  description: Манекен нео-рептилии для настройки персонажа.
   components:
   - type: HumanoidAppearance
     species: NeoReptilian

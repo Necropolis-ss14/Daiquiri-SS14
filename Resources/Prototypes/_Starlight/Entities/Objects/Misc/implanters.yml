@@ -102,7 +102,7 @@
   suffix: Death Rattle
   parent: BaseImplantOnlyImplanterSyndi_StarLight
   name: имплантер «предсмертного хрипа» СКБ
-  description: A brittle disposable syringe exclusively designed for the injection of subdermal implants for SKB agents. Dissolves on use.
+  description: Хрупкий одноразовый шприц для введения подкожных имплантов агентам СКБ. Растворяется при использовании.
   components:
   - type: Implanter
     implant: DeathRattleImplantUSSP

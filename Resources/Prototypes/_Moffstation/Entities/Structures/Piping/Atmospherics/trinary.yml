@@ -1,8 +1,8 @@
 - type: entity
   parent: GasTrinaryBase
   id: GasMolarMixer
-  name: molar gas mixer
-  description: Very useful for mixing gases.
+  name: молярный газовый смеситель
+  description: Очень полезен для смешивания газов.
   placement:
     mode: AlignAtmosPipeLayers
   components:
@@ -74,7 +74,7 @@
 - type: entity
   parent: GasMolarMixer
   id: GasMolarMixerFlipped
-  name: molar gas mixer
+  name: молярный газовый смеситель
   suffix: Flipped
   placement:
     mode: AlignAtmosPipeLayers

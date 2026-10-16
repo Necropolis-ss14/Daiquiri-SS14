@@ -92,7 +92,7 @@
 - type: entity
   id: TrashDebrisSmall
   parent: BaseTrashDebris
-  name: trash debris small
+  name: мелкие обломки мусора
   categories: [ HideSpawnMenu ]
   components:
     - type: MapGrid
@@ -102,7 +102,7 @@
 - type: entity
   id: TrashDebrisMedium
   parent: BaseTrashDebris
-  name: trash debris medium
+  name: средние обломки мусора
   categories: [ HideSpawnMenu ]
   components:
     - type: MapGrid
@@ -112,7 +112,7 @@
 - type: entity
   id: TrashDebrisLarge
   parent: BaseTrashDebris
-  name: trash debris large
+  name: крупные обломки мусора
   categories: [ HideSpawnMenu ]
   components:
     - type: MapGrid
@@ -123,7 +123,7 @@
 - type: entity
   id: MeatDebrisSmall
   parent: BaseMeatDebris
-  name: meat debris small
+  name: мелкие мясные обломки
   categories: [ HideSpawnMenu ]
   components:
     - type: MapGrid
@@ -133,7 +133,7 @@
 - type: entity
   id: MeatDebrisMedium
   parent: BaseMeatDebris
-  name: meat debris medium
+  name: средние мясные обломки
   categories: [ HideSpawnMenu ]
   components:
     - type: MapGrid
@@ -143,7 +143,7 @@
 - type: entity
   id: MeatDebrisLarge
   parent: BaseMeatDebris
-  name: meat debris large
+  name: крупные мясные обломки
   categories: [ HideSpawnMenu ]
   components:
     - type: MapGrid

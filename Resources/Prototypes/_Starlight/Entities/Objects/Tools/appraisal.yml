@@ -2,7 +2,7 @@
   parent: AppraisalTool
   id: GoldenAppraisalTool
   name: золотой оценочный инструмент
-  description: A golden appraisal tool, reserved for the most elite of cargo technicians. Can it determine the worth of the universe?
+  description: Золотой оценочный инструмент для самых элитных карго-техников. Сможет ли он определить стоимость вселенной?
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Tools/golden_appraisal_tool.rsi

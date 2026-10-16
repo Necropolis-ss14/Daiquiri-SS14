@@ -24,7 +24,7 @@
   parent: ClothingBackpackTrunk
   id: ClothingBackpackTrunkMail
   name: почтовый сундук
-  description: A huge trunk made of every aspiring mail technician's dreams.
+  description: Огромный сундук из грёз каждого начинающего почтового техника.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Back/Trunks/mailtrunk.rsi
@@ -33,7 +33,7 @@
   parent: ClothingBackpackTrunk
   id: ClothingBackpackTrunkMailSenior
   name: сундук старшего почтальона
-  description: A huge trunk for the station's strongest mail technicians.
+  description: Огромный сундук для сильнейших почтовых техников станции.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Back/Trunks/mailseniortrunk.rsi
@@ -42,7 +42,7 @@
   parent: [ClothingBackpackTrunk, BaseMinorContraband]
   id: ClothingBackpackTrunkSyndicate
   name: сундук Синдиката
-  description: Huge, metal, and stylish. All the other syndicates will want to get their hands on this trunk.
+  description: Огромный, металлический и стильный. Все остальные синдикаты захотят заполучить этот сундук.
   components:
   - type: Contraband # Blimpuf
     contrabandType: Syndicate
@@ -65,7 +65,7 @@
   parent: ClothingBackpackTrunk
   id: ClothingBackpackTrunkSpaceCourier
   name: сундук космического курьера
-  description: A huge trunk themed after a legendary space courier.
+  description: Огромный сундук в стиле легендарного космического курьера.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Back/Trunks/space_courier_trunk.rsi
@@ -75,7 +75,7 @@
   id: ClothingBackpackTrunkSpaceCourierPAI
   name: сундук космического курьера
   suffix: Ghost Role
-  description: A huge trunk themed after a legendary space courier.
+  description: Огромный сундук в стиле легендарного космического курьера.
   components:
   - type: GhostRole
     makeSentient: true

@@ -3,7 +3,7 @@
   parent: BaseVinylDisc
   id: VinylCrazyBot
   name: "винил: Crazy Bot"
-  description: "A somewhat slow paced instrumental hip-hop DJ mix. By: Andrew R Codeman"
+  description: "Довольно медленный инструментальный хип-хоп диджей-микс. Автор: Andrew R Codeman"
   components:
   - type: Sprite
     state: default
@@ -19,7 +19,7 @@
   parent: BaseVinylDisc
   id: VinylD2
   name: "винил: D2"
-  description: "A slow but futuristic sounding electronic tune. By: Amarent"
+  description: "Медленная, но футуристично звучащая электронная мелодия. Автор: Amarent"
   components:
   - type: Sprite
     state: default
@@ -35,7 +35,7 @@
   parent: BaseVinylDisc
   id: VinylAcidRaindream
   name: "винил: Acid Raindream"
-  description: "A somewhat slow sounding rock tune. By: ROZKOL"
+  description: "Довольно медленная рок-мелодия. Автор: ROZKOL"
   components:
   - type: Sprite
     state: default
@@ -51,7 +51,7 @@
   parent: BaseVinylDisc
   id: VinylUntitled7
   name: "винил: Untitled #7"
-  description: "A slow paced shoegaze esque tune. Heavy synth lead. By: Tommaso Croce"
+  description: "Медленная мелодия в духе шугейза. Выраженная ведущая синтезаторная партия. Автор: Tommaso Croce"
   components:
   - type: Sprite
     state: default
@@ -67,7 +67,7 @@
   parent: BaseVinylDisc
   id: VinylSmarties
   name: "винил: Smarties"
-  description: "An electronic tune with a distorted guitar and synth lead. By: Birds for Scale"
+  description: "Электронная мелодия с перегруженной гитарой и ведущим синтезатором. Автор: Birds for Scale"
   components:
   - type: Sprite
     state: default
@@ -83,7 +83,7 @@
   parent: BaseVinylDisc
   id: VinylSilverAndCold
   name: "винил: Silver and Cold"
-  description: "A digital electronic sounding tune with some rock mixed in. By: Kevin Hartnell"
+  description: "Электронная мелодия с цифровым звучанием и примесью рока. Автор: Kevin Hartnell"
   components:
   - type: Sprite
     state: default
@@ -99,7 +99,7 @@
   parent: BaseVinylDisc
   id: VinylCirclesOfBlackAndRed
   name: "винил: Circles of Black and Red"
-  description: "An electronic beat with some rock mixed in and a lead synth. By: Kevin Hartnell"
+  description: "Электронный бит с примесью рока и ведущим синтезатором. Автор: Kevin Hartnell"
   components:
   - type: Sprite
     state: default
@@ -116,7 +116,7 @@
   parent: BaseVinylDisc
   id: VinylDepressedWawaTriesToProtest
   name: "винил: Depressed Wawa tries to protest"
-  description: "A slow then fast paced electronic dance tune, with lead vocals of a famous Wawa singer group that you've never heard of. By: theprofessorix"
+  description: "Сначала медленная, затем быстрая электронная танцевальная мелодия с ведущим вокалом известной певческой группы Вава, о которой вы никогда не слышали. Автор: theprofessorix"
   components:
   - type: Sprite
     state: default
@@ -132,7 +132,7 @@
   parent: BaseVinylDisc
   id: VinylSpaceAsshole
   name: "винил: Space Asshole"
-  description: "The unofficial anthem of this god-forsaken station. By: Chris Remo"
+  description: "Неофициальный гимн этой богом забытой станции. Автор: Chris Remo"
   components:
   - type: Sprite
     layers:
@@ -146,7 +146,7 @@
   parent: BaseVinylDisc
   id: VinylDriverUpdate
   name: "винил: Driver Update"
-  description: "A synth heavy ambient track. By: randomcuts" #SL  Addition
+  description: "Эмбиент-трек с насыщенными синтезаторами. Автор: randomcuts" #SL  Addition
   components:
   - type: Sprite
     state: default
@@ -162,7 +162,7 @@
   parent: BaseVinylDisc
   id: VinylResonantInfinite
   name: "винил: Resonant Infinite"
-  description: "An ambient track with a peaceful resolution. By: randomcuts" #SL  Addition
+  description: "Эмбиент-трек с умиротворяющей развязкой. Автор: randomcuts" #SL  Addition
   components:
   - type: Sprite
     state: default
@@ -178,7 +178,7 @@
   parent: BaseVinylDisc
   id: VinylVadeRetro
   name: "винил: Vade Retro"
-  description: "A fast paced repetitive electronic track. By: randomcuts" #SL  Addition
+  description: "Быстрый повторяющийся электронный трек. Автор: randomcuts" #SL  Addition
   components:
   - type: Sprite
     state: default
@@ -194,7 +194,7 @@
   parent: BaseVinylDisc
   id: VinylConcreteFlavoured
   name: "винил: Concrete Flavoured"
-  description: "A mysterious ambient track. By: randomcuts" #SL  Addition
+  description: "Загадочный эмбиент-трек. Автор: randomcuts" #SL  Addition
   components:
   - type: Sprite
     state: default
@@ -210,7 +210,7 @@
   parent: BaseVinylDisc
   id: VinylDamperII
   name: "винил: Damper II"
-  description: "A remix of a very familiar, dramatically fast paced electronic tune. By: Beptol Corporation Acoustics" #SL  Addition
+  description: "Ремикс очень знакомой, невероятно быстрой электронной мелодии. Автор: Beptol Corporation Acoustics" #SL  Addition
   components:
   - type: Sprite
     state: default
@@ -226,7 +226,7 @@
   parent: BaseVinylDisc
   id: VinylCathode
   name: "винил: Cathode"
-  description: "A retro-inspired electronic track with an energetic rhythm. By: Beptol Corporation Acoustics" #SL  Addition
+  description: "Электронный трек в ретро-стиле с энергичным ритмом. Автор: Beptol Corporation Acoustics" #SL  Addition
   components:
   - type: Sprite
     state: default

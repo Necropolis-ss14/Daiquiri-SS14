@@ -2,7 +2,7 @@
   id: RadcasterCyber
   parent: BaseWeaponBatterySmall
   name: кибернетический радкастер
-  description: This seems a little unsafe...
+  description: Выглядит слегка небезопасно...
   components:
   - type: Tag
     tags:
@@ -35,7 +35,7 @@
   id: FreezeRayCyber
   parent: BaseWeaponBatterySmall
   name: кибернетический замораживающий луч
-  description: Brr...! Cold!
+  description: Брр... Холодно!
   components:
   - type: Gun
     soundGunshot:

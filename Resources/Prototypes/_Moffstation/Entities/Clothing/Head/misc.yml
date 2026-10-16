@@ -1,7 +1,7 @@
 - type: entity
   parent: ClothingHeadHatHairFlowerBase
   id: ClothingHeadHatHairFlowerWhite
-  name: blank white hairflower
+  name: белый цветок для волос
   components:
   - type: Sprite
     layers:
@@ -16,7 +16,7 @@
 - type: entity
   parent: ClothingHeadHatHairFlowerBase
   id: ClothingHeadHatHairFlowerBlue
-  name: command blue hairflower
+  name: синий цветок для волос командования
   components:
   - type: Sprite
     layers:
@@ -33,7 +33,7 @@
 - type: entity
   parent: ClothingHeadHatHairFlowerBase
   id: ClothingHeadHatHairFlowerLightBlue
-  name: medical light blue hairflower
+  name: светло-синий цветок для волос медиков
   components:
   - type: Sprite
     layers:
@@ -50,7 +50,7 @@
 - type: entity
   parent: ClothingHeadHatHairFlowerBase
   id: ClothingHeadHatHairFlowerLime
-  name: service lime hairflower
+  name: лаймовый цветок для волос сервиса
   components:
   - type: Sprite
     layers:
@@ -67,7 +67,7 @@
 - type: entity
   parent: ClothingHeadHatHairFlowerBase
   id: ClothingHeadHatHairFlowerYellow
-  name: engineering yellow hairflower
+  name: жёлтый цветок для волос инженеров
   components:
   - type: Sprite
     layers:
@@ -84,7 +84,7 @@
 - type: entity
   parent: ClothingHeadHatHairFlowerBase
   id: ClothingHeadHatHairFlowerRed
-  name: security red hairflower
+  name: красный цветок для волос охраны
   components:
   - type: Sprite
     layers:
@@ -101,7 +101,7 @@
 - type: entity
   parent: ClothingHeadHatHairFlowerBase
   id: ClothingHeadHatHairFlowerPink
-  name: science pink hairflower
+  name: розовый цветок для волос науки
   components:
   - type: Sprite
     layers:
@@ -118,7 +118,7 @@
 - type: entity
   parent: ClothingHeadHatHairFlowerBase
   id: ClothingHeadHatHairFlowerBrown
-  name: cargo brown hairflower
+  name: коричневый цветок для волос карго
   components:
   - type: Sprite
     layers:
@@ -135,7 +135,7 @@
 - type: entity
   parent: ClothingHeadHatHairFlowerBase
   id: ClothingHeadHatHairFlowerOrange
-  name: chemistry orange hairflower
+  name: оранжевый цветок для волос химии
   components:
   - type: Sprite
     layers:
@@ -152,7 +152,7 @@
 - type: entity
   parent: ClothingHeadHatHairFlowerBase
   id: ClothingHeadHatHairFlowerGreen
-  name: virology green hairflower
+  name: зелёный цветок для волос вирусолога
   components:
   - type: Sprite
     layers:
@@ -169,7 +169,7 @@
 - type: entity
   parent: ClothingHeadHatHairFlowerBase
   id: ClothingHeadHatHairFlowerTeal
-  name: atmospherics teal hairflower
+  name: бирюзовый цветок для волос атмосферников
   components:
   - type: Sprite
     layers:
@@ -186,7 +186,7 @@
 - type: entity
   parent: ClothingHeadHatHairFlowerBase
   id: ClothingHeadHatHairFlowerPurple
-  name: salvage purple hairflower
+  name: фиолетовый цветок для волос утилизаторов
   components:
   - type: Sprite
     layers:
@@ -203,7 +203,7 @@
 - type: entity
   parent: ClothingHeadHatHairFlowerBase
   id: ClothingHeadHatHairFlowerGrey
-  name: visitor grey hairflower # Starlight rename to visitor since we don't have passengers
+  name: серый цветок для волос посетителя # Starlight rename to visitor since we don't have passengers
   components:
   - type: Sprite
     layers:
@@ -220,7 +220,7 @@
 - type: entity
   parent: ClothingHeadHatHairFlowerBase
   id: ClothingHeadHatHairFlowerBlack
-  name: void black hairflower
+  name: чёрный цветок для волос пустоты
   components:
   - type: Sprite
     layers:
@@ -237,7 +237,7 @@
 - type: entity
   parent: ClothingHeadHatHairFlowerBase
   id: ClothingHeadHatHairFlowerGold
-  name: pirate gold hairflower
+  name: золотой цветок для волос пирата
   components:
   - type: Sprite
     layers:

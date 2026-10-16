@@ -2,7 +2,7 @@
   parent: BaseItem
   id: TapeRecorder
   name: диктофон
-  description: Anything said into this device can and will be used against you in a court of space law.
+  description: Всё сказанное в это устройство может и будет использовано против вас в суде космического права.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Devices/tape_recorder.rsi
@@ -56,7 +56,7 @@
   parent: BaseItem
   id: CassetteTape
   name: кассета
-  description: A magnetic tape that can hold up to two minutes of content on either side.
+  description: Магнитная кассета, способная хранить до двух минут записи на каждой стороне.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Devices/cassette_tapes.rsi

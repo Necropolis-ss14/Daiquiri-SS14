@@ -2,7 +2,7 @@
   parent: BaseItem
   id: GavelHammer
   name: судейский молоток
-  description: This is what they hit with.
+  description: Это то, чем бьют.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Tools/gavelhammer.rsi

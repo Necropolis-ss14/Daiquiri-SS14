@@ -2,7 +2,7 @@
   parent: BaseItem
   id: UnfinishedForgedShotgun
   name: собранный кованый дробовик
-  description: Just needs the welding to keep everything in place.
+  description: Нужна лишь сварка, чтобы всё держалось.
   components:
   - type: Item
     size: Normal
@@ -25,7 +25,7 @@
   parent: BaseItem
   id: UnfinishedPistolForged
   name: детали кованого пистолета
-  description: Some assembly may be reqiured. Needs welding.
+  description: Может потребоваться сборка. Нужна сварка.
   components:
   - type: Item
     size: Small
@@ -46,7 +46,7 @@
   parent: BaseItem
   id: UnfinishedRevolverForged
   name: детали кованого револьвера
-  description: Some assembly may be reqiured. Needs welding.
+  description: Может потребоваться сборка. Нужна сварка.
   components:
   - type: Item
     size: Small
@@ -67,7 +67,7 @@
   parent: BaseItem
   id: UnfinishedSubMachineGunForged
   name: детали кованого ПП
-  description: Some assembly may be reqiured. Needs welding.
+  description: Может потребоваться сборка. Нужна сварка.
   components:
   - type: Item
     size: Large
@@ -88,7 +88,7 @@
   parent: BaseItem
   id: UnfinishedSniperForged
   name: детали кованой снайперской винтовки
-  description: Some assembly may be reqiured. Needs welding.
+  description: Может потребоваться сборка. Нужна сварка.
   components:
   - type: Item
     size: Large
@@ -109,7 +109,7 @@
   parent: BaseItem
   id: ModularBarrel
   name: модульный ствол
-  description: A vital component in guncrafting.
+  description: Важный компонент оружейного крафта.
   components:
   - type: Item
     size: Normal

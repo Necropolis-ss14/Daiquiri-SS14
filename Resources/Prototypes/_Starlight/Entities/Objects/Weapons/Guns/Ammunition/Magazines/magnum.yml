@@ -52,7 +52,7 @@
   name: пистолетный магазин (.45 магнум любые)
   suffix: empty
   parent: BaseMagazineMagnum
-  description: 7-round single stack pistol magazine.
+  description: Однорядный пистолетный магазин на 7 патронов.
   components:
   - type: BallisticAmmoProvider
     proto: null
@@ -73,7 +73,7 @@
   id: MagazineMagnum
   name: пистолетный магазин (.45 магнум)
   parent: BaseMagazineMagnum
-  description: 7-round single stack pistol magazine. Intended to hold general-purpose kinetic ammunition.
+  description: Однорядный пистолетный магазин на 7 патронов. Под стандартные кинетические патроны.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeMagnumSP
@@ -98,7 +98,7 @@
   id: MagazineMagnumPractice
   name: пистолетный магазин (.45 магнум учебные)
   parent: BaseMagazineMagnum
-  description: 7-round single stack pistol magazine. Intended to hold non-harmful chalk ammunition.
+  description: Однорядный пистолетный магазин на 7 патронов. Под учебные меловые патроны.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeMagnumPractice
@@ -123,7 +123,7 @@
   id: MagazineMagnumUranium
   name: пистолетный магазин (.45 магнум урановые)
   parent: BaseMagazineMagnum
-  description: 7-round single stack pistol magazine. Intended to hold exotic uranium-core ammunition.
+  description: Однорядный пистолетный магазин на 7 патронов. Под урановые патроны.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeMagnumUranium
@@ -148,7 +148,7 @@
   id: MagazineMagnumAP
   name: пистолетный магазин (.45 магнум бронебойные)
   parent: BaseMagazineMagnum
-  description: 7-round single stack pistol magazine. Intended to hold rare armor-piercing ammunition.
+  description: Однорядный пистолетный магазин на 7 патронов. Под бронебойные патроны.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeMagnumAP

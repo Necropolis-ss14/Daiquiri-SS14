@@ -1,4 +1,6 @@
 - type: entity
   id: NuclearReactorSmallEmpty
   parent: [BaseNuclearReactorSmall, NuclearReactorCrew, ReactorPrefabEmpty]
+  name: малый ядерный реактор
+  description: Корпус ядерного реактора с гнёздами для топливных стержней и других компонентов. Погодите, разве один из таких однажды не взорвался?
   suffix: "Empty"

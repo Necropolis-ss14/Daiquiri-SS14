@@ -2,7 +2,7 @@
   parent: [ClothingBackpackDuffel, BaseSovietContraband]
   id: ClothingBackpackDuffelSSF
   name: вещмешок ССФ
-  description: Bulky olive-drab bag stamped with a faded SSF insignia.
+  description: Громоздкая оливковая сумка с выцветшей эмблемой ССФ.
   components:
   - type: Contraband # Blimpuf
     tier: Tier3
@@ -18,7 +18,7 @@
   id: ClothingBackpackDuffelSovietEVABundle
   name: советский ВКД-комплект
   parent: ClothingBackpackDuffelSSF
-  description: Contains a soviet EVA suit and helmet, along with emergency oxygen and nitrogen tanks. For the workers of space!
+  description: Содержит советский скафандр ВКД и шлем, а также аварийные баллоны с кислородом и азотом. Для работников космоса!
   components:
   - type: EntityTableContainerFill
     containers:
@@ -34,7 +34,7 @@
   id: ClothingBackpackDuffelZaporozhianBundle
   name: комплект запорожской сечи
   parent: ClothingBackpackDuffelSSF
-  description: Cossacks- have gone to space, and have earned respect within the union.
+  description: Казаки вышли в космос и заслужили уважение в союзе.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -61,7 +61,7 @@
   id: ClothingBackpackDuffelMarineHardsuitBundle
   name: комплект скафандра морпеха ССФ
   parent: ClothingBackpackDuffelSSF
-  description: Contains the USSP's elite marine hardsuit.
+  description: Содержит элитный скафандр морпеха USSP.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -77,7 +77,7 @@
   id: ClothingBackpackDuffelMarineLoadout
   name: вещмешок ССФ
   parent: ClothingBackpackDuffelSSF
-  description: Bulky olive-drab bag stamped with a faded SSF insignia.
+  description: Громоздкая оливковая сумка с выцветшей эмблемой ССФ.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -100,7 +100,7 @@
   name: кожаная сумка
   parent: ClothingBackpackSatchelLeather
   suffix: USSP official
-  description: A trend-setting satchel from a bygone era.
+  description: Модный ранец из ушедшей эпохи.
   components:
   - type: EntityTableContainerFill
     containers:

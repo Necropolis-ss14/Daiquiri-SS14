@@ -1,7 +1,7 @@
 - type: entity
-  name: golden beaker
+  name: золотая мензурка
   parent: LargeBeaker
-  description: Used to contain a gigantic amount of chemicals and solutions.
+  description: Используется для хранения огромного количества химикатов и растворов.
   id: GoldenBeaker
   components:
   - type: Sprite
@@ -31,9 +31,9 @@
       maxVol: 240
 
 - type: entity
-  name: golden jug
+  name: золотой кувшин
   parent: [SolutionHuge, Jug]
-  description: Used to contain a titanic amount of chemicals or solutions.
+  description: Используется для хранения титанического количества химикатов или растворов.
   id: GoldenJug
   components:
   - type: Sprite
@@ -48,9 +48,9 @@
       Gold: 13
 
 - type: entity
-  name: silver jug
+  name: серебряный кувшин
   parent: Jug
-  description: Used to contain a ginormous amount of chemicals or solutions.
+  description: Используется для хранения гигантского количества химикатов или растворов.
   id: SilverJug
   components:
   - type: Sprite
@@ -71,8 +71,8 @@
 - type: entity
   id: VialCase
   parent: [ BaseStorageItem, BaseBagOpenClose ]
-  name: vial case
-  description: A convenient, compact box with 6 empty vials.
+  name: кейс для виал
+  description: Удобный компактный кейс с 6 пустыми виалами.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Specific/Chemistry/vial_case.rsi
@@ -128,9 +128,9 @@
   - type: Appearance
 
 - type: entity
-  name: silver beaker
+  name: серебряная мензурка
   parent: LargeBeaker
-  description: Used to contain a huge amount of chemicals and solutions.
+  description: Используется для хранения большого количества химикатов и растворов.
   id: SilverBeaker
   components:
   - type: Sprite
@@ -160,9 +160,9 @@
       maxVol: 180
 
 - type: entity
-  name: light beaker
+  name: светлая мензурка
   parent: [SolutionNormal, BaseBeakerMetallic, DrinkBaseOpenable, DrinkVisualsOpenable]
-  description: The light side of an unbreakable beaker. Its true power can be sealed.
+  description: Светлая сторона небьющейся мензурки. Её истинную силу можно запечатать.
   id: LightBeaker
   components:
   - type: Sprite
@@ -206,9 +206,9 @@
         Blunt: 5
 
 - type: entity
-  name: dark beaker
+  name: тёмная мензурка
   parent: [SolutionNormal, BaseBeakerMetallic, DrinkBaseOpenable, DrinkVisualsOpenable, BaseSecurityContraband]
-  description: The dark side of an unbreakable beaker. Its true power can be sealed.
+  description: Тёмная сторона небьющейся мензурки. Её истинную силу можно запечатать.
   id: DarkBeaker
   components:
   - type: Sprite
@@ -253,8 +253,8 @@
 - type: entity
   parent: ChemBag
   id: SeniorChemBag
-  name: senior chemistry bag
-  description: A limited edition chemistry bag, only obtained by those seriously devoted to their craft.
+  name: сумка старшего химика
+  description: Лимитированная сумка химика, доступная лишь тем, кто по-настоящему предан своему ремеслу.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Specific/Chemistry/senior_chem_bag.rsi
@@ -268,8 +268,8 @@
 - type: entity
   parent: HandLabeler
   id: GoldenHandLabeler
-  name: golden hand labeler
-  description: A golden hand labeler, awarded only to the most elite of chemists. Don't test its composition.
+  name: золотой ручной маркировщик
+  description: Золотой ручной маркировщик, вручаемый лишь самым элитным химикам. Лучше не проверять его состав.
   components:
     - type: Sprite
       sprite: _Starlight/Objects/Specific/Chemistry/golden_hand_labeler.rsi

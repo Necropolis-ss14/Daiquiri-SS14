@@ -2,7 +2,7 @@
   parent: BaseGenerator
   id: DarkGenerator
   name: тёмный генератор
-  description: Somehow... this generate power... but only in the dark...
+  description: Каким-то образом... это вырабатывает энергию... но только в темноте...
   suffix: 10kW
   components:
     - type: PowerSupplier

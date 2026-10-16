@@ -46,9 +46,9 @@ namespace Content.Client.IoC
         {
             SharedContentIoC.Register(collection);
             collection.Register<IParallaxManager, ParallaxManager>();
-            collection.Register<Content.Shared._Starlight.Playtime.IServerPlaytimeManager, Content.Client._Starlight.Playtime.ClientPlaytimeManager>();
-            collection.Register<Content.Shared._Starlight.Admin.IServerAdminManager, Content.Client._Starlight.Admin.ClientAdminFlagManager>();
-            collection.Register<Content.Shared._Starlight.GhostTheme.IGhostThemeGrantManager, Content.Client._Starlight.GhostTheme.ClientGhostThemeGrantManager>();
+            collection.Register<Content.Shared._Starlight.Playtime.IServerPlaytimeManager, Content.Client._Daiquiri.Playtime.ClientPlaytimeManager>();
+            collection.Register<Content.Shared._Starlight.Admin.IServerAdminManager, Content.Client._Daiquiri.Admin.ClientAdminFlagManager>();
+            collection.Register<Content.Shared._Starlight.GhostTheme.IGhostThemeGrantManager, Content.Client._Daiquiri.GhostTheme.ClientGhostThemeGrantManager>();
             collection.Register<GeneratedParallaxCache>();
             collection.Register<IChatManager, ChatManager>();
             collection.Register<ISharedChatManager, ChatManager>();

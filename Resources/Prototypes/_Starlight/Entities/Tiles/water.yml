@@ -1,8 +1,8 @@
 - type: entity
   parent: FloorWaterEntity
   id: FloorAzureWaterEntity
-  name: azure water
-  description: A real thirst quencher. Corals are not included!
+  name: лазурная вода
+  description: Настоящее утоление жажды. Кораллы не включены!
   components:
   - type: Sprite
     sprite: _Starlight/Tiles/Planet/azure_water.rsi
@@ -14,7 +14,7 @@
   parent: FloorWaterEntity
   id: FloorWaterDestructibleEntity
   suffix: Station
-  name: water
+  name: вода
   components:
   - type: Construction
     graph: Water
@@ -34,8 +34,8 @@
 - type: entity
   parent: FloorWaterDestructibleEntity
   id: FloorAzureWaterDestructibleEntity
-  name: azure water
-  description: A real thirst quencher. Corals are not included!
+  name: лазурная вода
+  description: Настоящее утоление жажды. Кораллы не включены!
   components:
   - type: Sprite
     sprite: _Starlight/Tiles/Planet/azure_water.rsi

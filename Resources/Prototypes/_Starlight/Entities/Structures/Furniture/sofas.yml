@@ -4,7 +4,7 @@
   suffix: End Left
   id: DinerEndLeft
   parent: SeatBase
-  description: It looks like cheap plastic, and smells like fries.
+  description: Выглядит как дешёвый пластик и пахнет картошкой фри.
   components:
   - type: Transform
     anchored: true
@@ -25,7 +25,7 @@
   suffix: End Right
   id: DinerEndRight
   parent: SeatBase
-  description: It looks like cheap plastic, and smells like fries.
+  description: Выглядит как дешёвый пластик и пахнет картошкой фри.
   components:
   - type: Transform
     anchored: true
@@ -46,7 +46,7 @@
   suffix: Middle
   id: DinerMiddle
   parent: SeatBase
-  description: It looks like cheap plastic, and smells like fries.
+  description: Выглядит как дешёвый пластик и пахнет картошкой фри.
   components:
   - type: Transform
     anchored: true
@@ -68,7 +68,7 @@
   suffix: End Left
   id: SofaFancyEndLeft
   parent: SeatBase
-  description: It looks comfy.
+  description: Выглядит удобно.
   components:
   - type: Transform
     anchored: true
@@ -89,7 +89,7 @@
   suffix: End Right
   id: SofaFancyEndRight
   parent: SeatBase
-  description: It looks comfy.
+  description: Выглядит удобно.
   components:
   - type: Transform
     anchored: true
@@ -110,7 +110,7 @@
   suffix: Middle
   id: SofaFancyMiddle
   parent: SeatBase
-  description: It looks comfy.
+  description: Выглядит удобно.
   components:
   - type: Transform
     anchored: true
@@ -128,11 +128,11 @@
 
 #region Sofa Gray
 - type: entity
-  name: sofa
+  name: диван
   suffix: Corner. Gray
   id: SofaCorner
   parent: SeatBase
-  description: It looks comfy.
+  description: Выглядит удобно.
   components:
   - type: Transform
     anchored: true
@@ -151,11 +151,11 @@
     node: graySofaCorner
 
 - type: entity
-  name: sofa
+  name: диван
   suffix: End Left. Gray
   id: SofaEndLeft
   parent: SeatBase
-  description: It looks comfy.
+  description: Выглядит удобно.
   components:
   - type: Transform
     anchored: true
@@ -174,11 +174,11 @@
     node: graySofaLeft
 
 - type: entity
-  name: sofa
+  name: диван
   suffix: End Right. Gray
   id: SofaEndRight
   parent: SeatBase
-  description: It looks comfy.
+  description: Выглядит удобно.
   components:
   - type: Transform
     anchored: true
@@ -197,11 +197,11 @@
     node: graySofaRight
 
 - type: entity
-  name: sofa
+  name: диван
   suffix: Middle. Gray
   id: SofaMiddle
   parent: SeatBase
-  description: It looks comfy.
+  description: Выглядит удобно.
   components:
   - type: Transform
     anchored: true
@@ -221,11 +221,11 @@
 
 #region Sofa White
 - type: entity
-  name: sofa
+  name: диван
   suffix: Corner. White
   id: SofaCornerWhite
   parent: SeatBase
-  description: It looks comfy.
+  description: Выглядит удобно.
   components:
   - type: Transform
     anchored: true
@@ -244,11 +244,11 @@
     node: whiteSofaCorner
 
 - type: entity
-  name: sofa
+  name: диван
   suffix: End Left. White
   id: SofaEndLeftWhite
   parent: SeatBase
-  description: It looks comfy.
+  description: Выглядит удобно.
   components:
   - type: Transform
     anchored: true
@@ -267,11 +267,11 @@
     node: whiteSofaLeft
 
 - type: entity
-  name: sofa
+  name: диван
   suffix: End Right. White
   id: SofaEndRightWhite
   parent: SeatBase
-  description: It looks comfy.
+  description: Выглядит удобно.
   components:
   - type: Transform
     anchored: true
@@ -290,11 +290,11 @@
     node: whiteSofaRight
 
 - type: entity
-  name: sofa
+  name: диван
   suffix: Middle. White
   id: SofaMiddleWhite
   parent: SeatBase
-  description: It looks comfy.
+  description: Выглядит удобно.
   components:
   - type: Transform
     anchored: true
@@ -314,11 +314,11 @@
 
 #region Sofa Blue
 - type: entity
-  name: sofa
+  name: диван
   suffix: Corner. Blue
   id: SofaCornerBlue
   parent: SeatBase
-  description: It looks comfy.
+  description: Выглядит удобно.
   components:
   - type: Transform
     anchored: true
@@ -337,11 +337,11 @@
     node: blueSofaCorner
 
 - type: entity
-  name: sofa
+  name: диван
   suffix: End Left. Blue
   id: SofaEndLeftBlue
   parent: SeatBase
-  description: It looks comfy.
+  description: Выглядит удобно.
   components:
   - type: Transform
     anchored: true
@@ -360,11 +360,11 @@
     node: blueSofaLeft
 
 - type: entity
-  name: sofa
+  name: диван
   suffix: End Right. Blue
   id: SofaEndRightBlue
   parent: SeatBase
-  description: It looks comfy.
+  description: Выглядит удобно.
   components:
   - type: Transform
     anchored: true
@@ -383,11 +383,11 @@
     node: blueSofaRight
 
 - type: entity
-  name: sofa
+  name: диван
   suffix: Middle. Blue
   id: SofaMiddleBlue
   parent: SeatBase
-  description: It looks comfy.
+  description: Выглядит удобно.
   components:
   - type: Transform
     anchored: true
@@ -407,11 +407,11 @@
 
 #region Sofa Red
 - type: entity
-  name: sofa
+  name: диван
   suffix: Corner. Red
   id: SofaCornerRed
   parent: SeatBase
-  description: It looks comfy.
+  description: Выглядит удобно.
   components:
   - type: Transform
     anchored: true
@@ -430,11 +430,11 @@
     node: redSofaCorner
 
 - type: entity
-  name: sofa
+  name: диван
   suffix: End Left. Red
   id: SofaEndLeftRed
   parent: SeatBase
-  description: It looks comfy.
+  description: Выглядит удобно.
   components:
   - type: Transform
     anchored: true
@@ -453,11 +453,11 @@
     node: redSofaLeft
 
 - type: entity
-  name: sofa
+  name: диван
   suffix: End Right. Red
   id: SofaEndRightRed
   parent: SeatBase
-  description: It looks comfy.
+  description: Выглядит удобно.
   components:
   - type: Transform
     anchored: true
@@ -476,11 +476,11 @@
     node: redSofaRight
 
 - type: entity
-  name: sofa
+  name: диван
   suffix: Middle. Red
   id: SofaMiddleRed
   parent: SeatBase
-  description: It looks comfy.
+  description: Выглядит удобно.
   components:
   - type: Transform
     anchored: true
@@ -500,11 +500,11 @@
 
 #region Sofa Green
 - type: entity
-  name: sofa
+  name: диван
   suffix: Corner. Green
   id: SofaCornerGreen
   parent: SeatBase
-  description: It looks comfy.
+  description: Выглядит удобно.
   components:
   - type: Transform
     anchored: true
@@ -523,11 +523,11 @@
     node: greenSofaCorner
 
 - type: entity
-  name: sofa
+  name: диван
   suffix: End Left. Green
   id: SofaEndLeftGreen
   parent: SeatBase
-  description: It looks comfy.
+  description: Выглядит удобно.
   components:
   - type: Transform
     anchored: true
@@ -546,11 +546,11 @@
     node: greenSofaLeft
 
 - type: entity
-  name: sofa
+  name: диван
   suffix: End Right. Green
   id: SofaEndRightGreen
   parent: SeatBase
-  description: It looks comfy.
+  description: Выглядит удобно.
   components:
   - type: Transform
     anchored: true
@@ -569,11 +569,11 @@
     node: greenSofaRight
 
 - type: entity
-  name: sofa
+  name: диван
   suffix: Middle. Green
   id: SofaMiddleGreen
   parent: SeatBase
-  description: It looks comfy.
+  description: Выглядит удобно.
   components:
   - type: Transform
     anchored: true
@@ -593,11 +593,11 @@
 
 #region Sofa Brown
 - type: entity
-  name: sofa
+  name: диван
   suffix: Corner. Brown
   id: SofaCornerBrown
   parent: SeatBase
-  description: It looks comfy.
+  description: Выглядит удобно.
   components:
   - type: Transform
     anchored: true
@@ -616,11 +616,11 @@
     node: brownSofaCorner
 
 - type: entity
-  name: sofa
+  name: диван
   suffix: End Left. Brown
   id: SofaEndLeftBrown
   parent: SeatBase
-  description: It looks comfy.
+  description: Выглядит удобно.
   components:
   - type: Transform
     anchored: true
@@ -639,11 +639,11 @@
     node: brownSofaLeft
 
 - type: entity
-  name: sofa
+  name: диван
   suffix: End Right. Brown
   id: SofaEndRightBrown
   parent: SeatBase
-  description: It looks comfy.
+  description: Выглядит удобно.
   components:
   - type: Transform
     anchored: true
@@ -662,11 +662,11 @@
     node: brownSofaRight
 
 - type: entity
-  name: sofa
+  name: диван
   suffix: Middle. Brown
   id: SofaMiddleBrown
   parent: SeatBase
-  description: It looks comfy.
+  description: Выглядит удобно.
   components:
   - type: Transform
     anchored: true

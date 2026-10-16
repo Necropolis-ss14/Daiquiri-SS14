@@ -45,8 +45,8 @@
 - type: entity
   parent: BaseHostilePortal
   id: HellPortal
-  name: hellportal
-  description: A portal letting loose the worst hell has to offer.
+  name: адский портал
+  description: Портал, выпускающий худшее, что может предложить ад.
   components:
   - type: Sprite
     sprite: Structures/Specific/Anomalies/shadow_anom.rsi

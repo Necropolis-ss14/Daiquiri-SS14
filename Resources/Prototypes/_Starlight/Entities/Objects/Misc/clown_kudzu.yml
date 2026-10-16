@@ -2,7 +2,7 @@
   id: ClownKudzu
   parent: FleshKudzu
   suffix: clown
-  description: A rapidly growing cluster of slippery tendons. WHY THE HONKING HONK ARE YOU STOPPING TO LOOK AT IT?!
+  description: Быстро растущее скопление скользких сухожилий. КАКОГО ХОНКА ТЫ ОСТАНОВИЛСЯ ПЯЛИТЬСЯ?!
   components:
     - type: Sprite
       sprite: _Starlight/Objects/Misc/clownkudzu.rsi ### SL Start

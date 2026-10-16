@@ -1,6 +1,6 @@
 # Rubber
 - type: entity
-  name: Drozd
+  name: дрозд
   parent: [ BaseContrabandTier3, WeaponSubMachineGunDrozd, BaseSecurityContraband ] # Blimpuf
   id: WeaponSubMachineGunDrozdRubber
   suffix: Non-Lethal
@@ -25,10 +25,10 @@
               - CartridgePistol
 
 - type: entity
-  name: SP-91-RC
+  name: СП-91-РС
   parent: [ BaseContrabandTier3, BaseWeaponSubMachineGun, BaseGunWieldable, BaseSecurityContraband ] # Blimpuf
   id: WeaponSubMachineGunSP91RC
-  description: Compact submachine gun designed for riot control.
+  description: Компактный пистолет-пулемёт для разгона беспорядков.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Guns/SMGs/sp91rc.rsi
@@ -67,7 +67,7 @@
   name: Узи типа U3
   parent: [BaseWeaponSubMachineGun, BaseGunWieldable, BaseMajorContraband]
   id: WeaponSubMachineGunUzi
-  description: Lightweight submachine gun with a 32-round magazine that has single or 4 round firing modes.
+  description: Лёгкий пистолет-пулемёт с магазином на 32 патрона, режимы одиночный или по 4.
   components:
   - type: Item
     size: Normal
@@ -129,10 +129,10 @@
     maxAngleDivider: 2.6
     angleIncreaseDivider: 3
 - type: entity
-  name: PPSH 59 SMG
+  name: ППШ 59
   parent: [ BaseContrabandTier3, BaseWeaponSubMachineGun, BaseSovietContraband ] # Blimpuf
   id: WeaponSubMachineGunPPSH
-  description: Beloved by USSP veterans and feared by friendly fire protocols everywhere. Uses .35 ammo.
+  description: Любимец ветеранов СССП и кошмар протоколов дружественного огня. Под патроны .35.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Guns/SMGs/PPSh59.rsi
@@ -192,10 +192,10 @@
             - CartridgePistol
 
 - type: entity
-  name: makeshift SMG
+  name: самодельный ПП
   parent: [BaseWeaponSubMachineGun, BaseMinorContraband]
   id: WeaponSubMachineGunMakeshift
-  description: Held together with cloth and dreams, it rattles ominously with every shot.
+  description: Держится на тряпках и мечтах, зловеще гремит каждым выстрелом.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Guns/SMGs/makeshift_smg.rsi
@@ -273,10 +273,10 @@
     supportedPins: [ Makeshift, GunUpgrade ]
 
 - type: entity
-  name: improvised SMG
+  name: импровизированный ПП
   parent: WeaponSubMachineGunMakeshift
   id: WeaponSubMachineGunImprovised
-  description: It's tightly held together by cloth, steel and determination.
+  description: Плотно стянут тряпками, сталью и решимостью.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Guns/SMGs/improvised_smg.rsi
@@ -333,7 +333,7 @@
   name: кустарный ПП
   parent: WeaponSubMachineGunImprovised
   id: WeaponSubMachineGunForged
-  description: The best a tider could get, steel and plasteel welded together for a pretty decent SMG, though the heavy bolt on it does slow the shooting down.
+  description: Лучшее, что досталось тайдеру, сталь и пласталь, сваренные в приличный ПП, хотя тяжёлый затвор замедляет стрельбу.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Guns/SMGs/forged_smg.rsi
@@ -364,10 +364,10 @@
 
 
 - type: entity
-  name: WT550r
+  name: ВТ550-К
   parent: [WeaponSubMachineGunWt550, BaseGrandTheftContraband] # Starlight, grand theft
   id: WeaponSubMachineGunWt550r
-  description: A special red-colored limited edition of the WT550, the WT550r.  Designed by NanoTrasen's Small Arms Division as a compact submachine gun fully controllable with one hand. It contains an exotic internal recoil buffer and feeds from special top-mounted .35 magazines.
+  description: Красная лимитка WT550, WT550r. Спроектирован Оружейным отделом NanoTrasen как компактный ПП под одну руку. Экзотический внутренний буфер отдачи, питание от верхних магазинов .35.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Guns/SMGs/wt550r.rsi
@@ -389,10 +389,10 @@
 
 
 - type: entity
-  name: WT550g
+  name: ВТ550-З
   parent: [ WeaponSubMachineGunWt550 ]
   id: WeaponSubMachineGunWt550g
-  description: A special green-colored limited edition of the WT550, the WT550g.  Designed by NanoTrasen's Small Arms Division as a compact submachine gun fully controllable with one hand. It contains an exotic internal recoil buffer and feeds from special top-mounted .35 magazines.
+  description: Зелёная лимитка WT550, WT550g. Спроектирован Оружейным отделом NanoTrasen как компактный ПП под одну руку. Экзотический внутренний буфер отдачи, питание от верхних магазинов .35.
   components:
     - type: Sprite
       sprite: _Starlight/Objects/Weapons/Guns/SMGs/wt550g.rsi

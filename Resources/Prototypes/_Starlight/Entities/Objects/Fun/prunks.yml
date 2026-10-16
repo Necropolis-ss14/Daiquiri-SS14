@@ -1,6 +1,6 @@
 - type: entity
   name: осколочная граната
-  description: "Makes a fake boom! The label reads: With love from HonkHonkers!"
+  description: Издаёт поддельный бум! На этикетке — с любовью от HonkHonkers!
   suffix: Fake
   id: FakeGrenade
   parent: GrenadeDummy
@@ -33,7 +33,7 @@
 
 - type: entity
   name: инъектор поддельного холопаразита
-  description: The most intricate piece of art, based on... Oh, wait. It's a fake. The HonkHonkers store logo can be seen on the side.
+  description: Сложнейшее произведение искусства, основанное на... Ой, погодите. Это подделка. Сбоку виден логотип магазина HonkHonkers.
   id: HoloparasiteFakeInjector
   parent: BaseHypospray
   components:
@@ -61,7 +61,7 @@
 
 - type: entity
   name: игрушечный двулезвийный меч
-  description: The new dual plastic sword from Sandy-Cat! Twice the epicness and twice the loud sounds!
+  description: Новый двойной пластиковый меч от Sandy-Cat! Вдвое больше эпичности и вдвое громче звуки!
   id: ToySwordDoubled
   parent: ToySword
   components:
@@ -104,7 +104,7 @@
 
 - type: entity
   name: упакованная аномалия
-  description: A universal assembly package used to create a fake anomaly. Specially from Hohohonkers!
+  description: Универсальный сборочный комплект для создания поддельной аномалии. Специально от Hohohonkers!
   id: FakeAnomalyFlatpack
   parent: BaseFlatpack
   components:
@@ -125,8 +125,8 @@
     - state: icon-default
 
 - type: entity
-  name: anomaly
-  description: An incomprehensible joke in space. Should you really be standing this close to it?
+  name: аномалия
+  description: Непостижимая шутка в космосе. А стоит ли стоять так близко к ней?
   id: FakeAnomalyIce
   parent: BaseStructureDynamic
   components:
@@ -292,7 +292,7 @@
   name: корпус поддельной светошумовой гранаты
   suffix: Chono Loke
   parent: BaseGrenade
-  description: A DONK CO. brand grenade shell. The label promises a "BOOM!" but the fine print says "cosmetic only."
+  description: Корпус гранаты бренда DONK CO. Этикетка обещает «БУМ!», а мелкий шрифт гласит «только для вида».
   components:
   - type: CartridgeAmmo
     proto: BulletChonoLokeFakeBlast
@@ -316,7 +316,7 @@
   name: корпус поддельной осколочной гранаты
   suffix: Chono Loke
   parent: BaseGrenade
-  description: A DONK CO. brand frag shell. Features a very convincing explosive label. The fuse is a piece of string.
+  description: Осколочный корпус бренда DONK CO. С очень убедительной этикеткой взрывчатки. Запал — кусок верёвки.
   components:
   - type: CartridgeAmmo
     proto: BulletChonoLokeFakeBlast
@@ -340,7 +340,7 @@
   name: форма для бананового кремового пирога Чоно
   suffix: Chono Loke
   parent: BaseGrenade
-  description: A DONK CO. "shell" that's literally just a banana cream pie crammed into a tube of a chono loke. Somehow, it works.
+  description: «Корпус» DONK CO., который буквально является банановым кремовым пирогом, запихнутым в тубус чоно-локе. Каким-то образом это работает.
   components:
   - type: CartridgeAmmo
     proto: FoodPieBananaCream
@@ -358,7 +358,7 @@
   parent: Foolbox
   id: ChonoLokeBundleBag
   name: набор Чоно Локе от DONK CO.
-  description: A DONK CO. carry bag containing one (1) "totally real" grenade launcher and six (6) "totally real" grenade shells. DONK CO. accepts no liability for accidental honking.
+  description: Сумка-переноска DONK CO. с одним (1) «полностью настоящим» гранатомётом и шестью (6) «полностью настоящими» корпусами гранат. DONK CO. не несёт ответственности за случайные хонки.
   components:
   - type: Item
     size: Huge

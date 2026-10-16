@@ -245,7 +245,7 @@
   parent: BaseBorgiChassis
   id: BaseSyndicateBorgiChassis
   name: Синди-борги
-  description: An unusually smart dog, but hell bent on MURDER.
+  description: Необычайно умный пёс, но одержим УБИЙСТВАМИ.
   suffix: Antag
   components:
     - type: GhostRole

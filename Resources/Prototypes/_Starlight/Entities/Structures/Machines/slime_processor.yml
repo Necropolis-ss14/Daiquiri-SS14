@@ -2,7 +2,7 @@
   id: SlimeProcessor
   parent: [ BaseMachinePowered, ConstructibleMachine ]
   name: переработчик слаймов
-  description: Turns slime corpses into extracts. Try freezing them first!
+  description: Превращает трупы слаймов в экстракты. Попробуй сначала заморозить!
   placement:
     mode: SnapgridCenter
   components:

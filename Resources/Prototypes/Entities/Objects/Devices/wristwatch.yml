@@ -45,8 +45,8 @@
 - type: entity
   id: WristwatchGold
   parent: Wristwatch
-  name: gold watch
-  description: A fancy watch worth more than your kidney. It was owned by the notorious Syndicate mobster Vunibaldo "200 Pound Horse Meat Grinder" Frediani.
+  name: золотые часы
+  description: Модные часы дороже твоей почки. Когда-то принадлежали печально известному синдикатскому мафиози Вунибальдо «200 фунтов мясорубки для конины» Фредиани.
   components:
   - type: Sprite
     sprite: Objects/Devices/goldwatch.rsi

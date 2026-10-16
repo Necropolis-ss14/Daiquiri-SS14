@@ -3,7 +3,7 @@
   id: KeycardAuth
   categories: [ ShouldMapStation ]
   name: устройство аутентификации по ключ-карте
-  description: This device is used to approve/deny station functions, which require more than one ID card to authenticate.
+  description: Устройство для одобрения/отклонения функций станции, требующих больше одной ID-карты для подтверждения.
   components:
     - type: WallMount
     - type: Physics

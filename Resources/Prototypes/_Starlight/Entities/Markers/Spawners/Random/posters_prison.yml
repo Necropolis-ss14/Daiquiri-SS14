@@ -1,7 +1,7 @@
 - type: entity
   parent: MarkerBase
   id: RandomPosterPrison
-  name: random prison poster spawner
+  name: спавнер случайного тюремного постера
   components:
   - type: Sprite
     layers:

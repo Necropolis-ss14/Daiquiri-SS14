@@ -79,7 +79,7 @@
 - type: entity
   parent: BaseAnomalyCore
   id: AnomalyCoreFlesh
-  description: The core of a destroyed flesh anomaly. Pulsates sickeningly, but might be a hearty meal if cooked.
+  description: Ядро уничтоженной аномалии плоти. Тошнотворно пульсирует, но после готовки может стать сытным обедом.
   suffix: Flesh
   components:
   - type: Sprite
@@ -259,7 +259,7 @@
 - type: entity
   parent: BaseAnomalyInertCore
   id: AnomalyCoreFleshInert # Can be microwaved to turn it into a massive piece of meat
-  description: The inert core of a destroyed flesh anomaly. Pulsates sickeningly, but might be good food in the right hands?
+  description: Инертное ядро уничтоженной аномалии плоти. Тошнотворно пульсирует, но в умелых руках может стать хорошей едой?
   suffix: Flesh, Inert
   components:
   - type: Sprite

@@ -619,7 +619,7 @@
   id: FloorTileItem3x3Black
   parent: FloorTileItemBase
   name: чёрная плитка 3x3
-  description: A 3 by 3 set of black tiles.
+  description: Набор чёрной плитки 3 на 3.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Tiles/tiles.rsi
@@ -635,7 +635,7 @@
   id: FloorTileItem3x3Brown
   parent: FloorTileItemBase
   name: коричневая плитка 3x3
-  description: A 3 by 3 set of brown tiles.
+  description: Набор коричневой плитки 3 на 3.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Tiles/tiles.rsi
@@ -651,7 +651,7 @@
   id: FloorTileItem3x3Steel
   parent: FloorTileItemBase
   name: стальная плитка 3x3
-  description: A 3 by 3 set of steel tiles.
+  description: Набор стальной плитки 3 на 3.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Tiles/tiles.rsi
@@ -667,7 +667,7 @@
   id: FloorTileItem3x3White
   parent: FloorTileItemBase
   name: белая плитка 3x3
-  description: A 3 by 3 set of steel tiles.
+  description: Набор стальной плитки 3 на 3.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Tiles/tiles.rsi
@@ -683,7 +683,7 @@
   id: FloorTileItemOldConcreteBricks
   parent: FloorTileItemBase
   name: старые бетонные кирпичи
-  description: Old, heavily worn concrete bricks.
+  description: Старые сильно изношенные бетонные блоки.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Tiles/tiles.rsi
@@ -699,7 +699,7 @@
   id: FloorTileItemOldConcreteTile
   parent: FloorTileItemBase
   name: старая бетонная плитка
-  description: Old, heavily worn concrete tiles.
+  description: Старая сильно изношенная бетонная плитка.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Tiles/tiles.rsi
@@ -715,7 +715,7 @@
   id: FloorTileItemOrnate
   parent: FloorTileItemBase
   name: узорная плитка
-  description: Old orante tiles.
+  description: Старая орнаментированная плитка.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Tiles/tiles.rsi
@@ -731,7 +731,7 @@
   id: FloorTileItemRoughMetal
   parent: FloorTileItemBase
   name: грубый металл
-  description: Its seen a lot of use.
+  description: Видал немало использования.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Tiles/tiles.rsi
@@ -747,7 +747,7 @@
   id: FloorTileItemRustyMetal
   parent: FloorTileItemBase
   name: ржавый металл
-  description: Its seen a lot of use.
+  description: Видал немало использования.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Tiles/tiles.rsi
@@ -763,7 +763,7 @@
   id: FloorTileItemSteelGrate
   parent: FloorTileItemBase
   name: стальная решётка
-  description: A steel grate.
+  description: Стальная решётка.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Tiles/tiles.rsi
@@ -779,7 +779,7 @@
   id: FloorTileItemTechGreeb
   parent: FloorTileItemBase
   name: техническая плитка техов
-  description: Over designed and dirty.
+  description: Переусложнено и грязно.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Tiles/tiles.rsi
@@ -796,7 +796,7 @@
   id: FloorTileItemAstroDirt
   parent: FloorTileItemBase
   name: плитка астроземли
-  description: Fake dirt. It's easily removable, but completely devoid of the nutrients that plants crave.
+  description: Фальшивая грязь. Легко убирается, но начисто лишена питательных веществ, что так нужны растениям.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Tiles/tiles.rsi

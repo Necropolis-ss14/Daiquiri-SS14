@@ -2,7 +2,7 @@
   id: BoxFolderNanoTrasenClipboard
   parent: BoxFolderClipboard
   name: планшет NanoTrasen
-  description: A stylish clipboard in NanoTrasen colors.
+  description: Стильный планшет в цветах NanoTrasen.
   components:
     - type: Sprite
       sprite: _Starlight/Objects/Misc/nt-clipboard.rsi
@@ -31,7 +31,7 @@
   parent: BoxFolderClipboard
   categories: [ HideSpawnMenu ]
   name: планшет киборга
-  description: A clipboard mounted to a cyborg's chassis.
+  description: Планшет, установленный на шасси киборга.
   components:
     - type: Sprite
       sprite: _Starlight/Objects/Misc/borg-clipboard.rsi
@@ -63,7 +63,7 @@
   id: BoxFolderHoPClipboard
   parent: [BoxFolderClipboard, BaseGrandTheftContraband]
   name: бюрократическая диги-доска
-  description: A bulky electric clipboard, filled with bureaucracy. Contains a portable ID card computer. Vulnerable to assistants.
+  description: Громоздкий электронный планшет, полный бюрократии. Содержит портативный компьютер ID-карт. Уязвим к ассистентам.
   components:
     - type: Sprite
       sprite: _Starlight/Objects/Misc/hop_clipboard.rsi
@@ -193,7 +193,7 @@
   id: BoxFolderAssistantManagerClipboard
   parent: [BoxFolderClipboard]
   name: диги-доска мастера задач
-  description: Allows an assistant manager to assign titles and change the job icons of their yellow gloved underlings. Doesn't change access.
+  description: Позволяет замменеджера раздавать титулы и менять иконки должностей желтперчаточным подчинённым. Доступ не меняет.
   components:
     - type: Sprite
       sprite: _Starlight/Objects/Misc/assistantmanager_clipboard.rsi
@@ -311,7 +311,7 @@
   parent: [BoxFolderClipboardEmpty]
   id: BoxFolderClipboardSalvageLead
   name: планшет старшего утилизатора
-  description: Looks like its been taped back together. Covered in space dust.
+  description: Словно склеено скотчем обратно. Покрыто космической пылью.
   components:
   - type: EntityTableContainerFill
     containers:

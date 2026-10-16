@@ -15,10 +15,10 @@
       collection: MetalThud
 
 - type: entity
-  name: makeshift sword
+  name: самодельный меч
   parent: [ BaseSword, BaseMinorContraband ]
   id: SwordMakeshift
-  description: Some sharp steel affixed to a metal rod, it can hardly be called a sword.
+  description: Какая-то острая сталь на металлическом пруте, мечом это назвать сложно.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Melee/makeshift_sword.rsi
@@ -40,10 +40,10 @@
     node: sword
 
 - type: entity
-  name: improvised sword
+  name: импровизированный меч
   parent: [ BaseSword, BaseMinorContraband ]
   id: SwordImprovised
-  description: Not too sharp, but it does the job just fine.
+  description: Не слишком острый, но работу делает.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Melee/improvised_sword.rsi
@@ -65,10 +65,10 @@
     node: sword
 
 - type: entity
-  name: forged sword
+  name: кованый меч
   parent: [ BaseSword, BaseMinorContraband ]
   id: SwordForged
-  description: Made with plasteel, a single touch of the blade is enough to draw blood.
+  description: Сделан из пластали, одного касания клинка хватает для крови.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Melee/forged_sword.rsi
@@ -92,10 +92,10 @@
     - SwordForged
 
 - type: entity
-  name: dawnbreaker
+  name: рассветный меч
   parent: [ BaseSword, BaseMajorContraband, Welder ]
   id: SwordFlaming
-  description: How do you perfect upon perfection? Why, use fire of course! Be the shining light through maints and fight valiantly!
+  description: Что может быть лучше совершенства. Конечно, огонь! Будь сияющим светом в техах и сражайся доблестно!
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Melee/dawnbreaker.rsi
@@ -164,10 +164,10 @@
     node: sword
 
 - type: entity
-  name: tidebreaker
+  name: тайдбрейкер
   parent: [ BaseSword, BaseMajorContraband ]
   id: ClaymoreForged
-  description: The perfect weapon for an aspiring maints knight!
+  description: Идеальное оружие для начинающего рыцаря техов!
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Melee/tidebreaker.rsi
@@ -196,10 +196,10 @@
       path: /Audio/_Starlight/Medical/Surgery/scalpel2.ogg
 
 - type: entity
-  name: Spectral Blade
+  name: спектральный клинок
   parent: [ BaseSword, BaseMagicalContraband ]
   id: ManaBlade
-  description: A sword formed from hardened mana.
+  description: Меч из закалённой маны.
   components:
     - type: Sprite
       sprite: _Starlight/Objects/Weapons/Melee/Mana_Blade.rsi
@@ -215,10 +215,10 @@
 
 # TODO: Make this part of Chaplain Nullrod when its coded...
 - type: entity
-  name: sacred chainsaw sword
+  name: священный цепной меч
   parent: BaseSword
   id: ChainsawSword
-  description: Suffer not a heretic to live.
+  description: Не дай еретику жить.
   components:
     - type: Sprite
       sprite: _Starlight/Objects/Weapons/Melee/chainsaw_sword.rsi
@@ -241,10 +241,10 @@
       allowedJobs: [ Chaplain ]
 
 - type: entity
-  name: ares
+  name: арес
   parent: [ BaseSword, BaseSecurityContraband ]
   id: SwordAres
-  description: The combat sword "Ares" is a mono-molecular-edged blade. This highly engineered sword is made for close-quarter combat, befitting the cramped nature of NanoTrasen's stations.
+  description: Боевой меч «Арес» с мономолекулярной кромкой. Высокотехнологичный меч для тесных боёв, под стать узким коридорам станций NanoTrasen.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Melee/ares.rsi

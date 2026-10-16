@@ -61,7 +61,7 @@
 - type: entity
   id: ScanGate
   parent: BaseScanGate
-  description: It scans items for contraband when they pass through.
+  description: Сканирует проходящие предметы на контрабанду.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Machines/scan_gate.rsi

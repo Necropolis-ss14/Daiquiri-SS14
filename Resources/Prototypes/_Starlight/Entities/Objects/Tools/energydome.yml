@@ -1,6 +1,6 @@
 - type: entity
   name: кроваво-красный персональный генератор щита
-  description: A personal shield generator that protects the wearer from lasers and bullets but prevents from using ranged weapons himself. Uses a power cell.
+  description: Персональный генератор щита, защищающий носителя от лазеров и пуль, но не позволяющий самому использовать дальнобойное оружие. Использует энергоячейку.
   id: EnergyDomeGeneratorPersonalSyndie
   parent: BaseItem
   components:
@@ -39,7 +39,7 @@
 
 - type: entity
   name: BR-40c «Черепаха»
-  description: A two-handed and heavy energy barrier with extremely low passive energy consumption. Can be tethered with a multitool.
+  description: Двуручный тяжёлый энергетический барьер с крайне низким пассивным энергопотреблением. Можно привязать с помощью мультитула.
   id: EnergyDomeTurtle
   parent: BaseItem
   components:
@@ -103,7 +103,7 @@
 - type: entity
   id: EnergyDomeWiredTest
   name: статический купол
-  description: Test energy barrier powered by station wiring. I don't know how the hell to balance it.....
+  description: Тестовый энергетический барьер, питаемый от станционной сети. Понятия не имею, как это балансировать.....
   parent: BaseMachine
   suffix: DO NOT MERGE
   placement:
@@ -181,7 +181,7 @@
 - type: entity
   id: NullspaceAnchor
   name: якорь нуль-пространства
-  description: Imposing the physical into Nullspace itself. Using Bluespace Crystals to produce a resonating force, it brings that of which dwells in between states into the physical. Entities that are travelling using these methods will be anchored and rooted into the world by force, being incapable of reaching through to Nullspace whilst in it’s range.
+  description: Навязывает физическое Нуль-пространству. Используя блюспейс-кристаллы для создания резонирующей силы, вытаскивает обитающее между состояниями в физическое. Сущности, путешествующие такими методами, будут насильно заякорены в мире и не смогут дотянуться до Нуль-пространства, пока находятся в его радиусе.
   parent: PortableGeneratorBase
   placement:
     mode: SnapgridCenter
@@ -236,7 +236,7 @@
   id: protectionanchor
   categories: [ ShouldMapStation ]
   name: якорь защиты
-  description: Imposing the physical into Nullspace itself. it brings that of which dwells in between states into the physical. Entities that are travelling using these methods will be anchored and rooted into the world by force, being incapable of reaching through to Nullspace whilst in it’s range.
+  description: Навязывает физическое Нуль-пространству. Вытаскивает обитающее между состояниями в физическое. Сущности, путешествующие такими методами, будут насильно заякорены в мире и не смогут дотянуться до Нуль-пространства, пока находятся в его радиусе.
   parent: BaseMachinePowered
   components:
   - type: Anchorable

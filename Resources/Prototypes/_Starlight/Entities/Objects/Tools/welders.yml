@@ -2,7 +2,7 @@
   name: сварочник похитителей
   parent: [ SolutionToolWelderExperimental, BaseWelder, BaseMajorContraband ]
   id: WelderAbductor
-  description: "An experimental welder capable of self-fuel generation and less harmful to the eyes."
+  description: Экспериментальный сварочник, способный к самогенерации топлива и менее вредный для глаз.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Tools/welder_abductor.rsi

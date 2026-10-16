@@ -376,15 +376,16 @@ namespace Content.Server.Voting.Managers
                     pickedIndex = _random.Pick(tied);
                     picked = (GameMapPrototype) options.Options[pickedIndex].data;
                     _chatManager.DispatchServerAnnouncement(
-                        Loc.GetString("ui-vote-map-tie"));
+                        Loc.GetString("ui-vote-map-tie", ("picked", picked.MapName)));
                 }
                 else
                 {
                     pickedIndex = args.Votes.IndexOf(topVotes);
                     picked = (GameMapPrototype) args.Winner;
+                    _chatManager.DispatchServerAnnouncement(
+                        Loc.GetString("ui-vote-map-win", ("winner", picked.MapName)));
                 }
                 // Starlight End
-                _chatManager.DispatchServerAnnouncement(Loc.GetString("ui-vote-map-win"));
 
                 _adminLogger.Add(LogType.Vote, LogImpact.Medium, $"Map vote finished: {picked.MapName}");
                 var ticker = _entityManager.EntitySysManager.GetEntitySystem<GameTicker>();

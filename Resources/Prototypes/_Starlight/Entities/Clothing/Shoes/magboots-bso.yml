@@ -2,7 +2,7 @@
   parent: [ BaseContrabandTier2, ClothingShoesBootsMagBase, BaseBlueShieldContraband, ClothingShoesMilitaryBase ] # Blimpuf
   id: ClothingShoesBootsMagBSO
   name: магнитные ботинки блюшилда
-  description: A pair of standard magnetic boots, issued alongside the BSO hardsuit.
+  description: Пара стандартных магнитных ботинок, выдаваемых со скафандром ОСО.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Shoes/Boots/magboots-bso.rsi
@@ -26,7 +26,7 @@
   categories: [ DoNotMap ]
   id: ClothingShoesBootsMagGreenshield
   name: магнитные ботинки гриншилда
-  description: Upgraded magnetic boots that you swiped from the ERT lockers.
+  description: Улучшенные магнитные ботинки, стащенные из шкафчиков ОБР.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Shoes/Boots/magboots-greenshield.rsi

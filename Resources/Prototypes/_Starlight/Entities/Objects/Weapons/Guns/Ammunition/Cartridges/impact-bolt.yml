@@ -2,7 +2,7 @@
   parent: [ BaseItem, BaseMajorContraband ]
   id: CartridgeImpactBolt
   name: ударный болт
-  description: The standard explosive caseless ammunition used by bolt weapons.
+  description: Штатные взрывные безгильзовые боеприпасы для болтового оружия.
   components:
   - type: Tag
     tags:

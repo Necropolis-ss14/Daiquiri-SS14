@@ -62,7 +62,7 @@
 - type: entity
   parent: [DoorRemoteDefault, BaseCommandContraband]
   id: DoorRemoteCommand
-  name: command door remote
+  name: пульт дверей командования
   components:
   - type: Sprite
     layers:
@@ -79,8 +79,8 @@
 - type: entity
   parent: [DoorRemoteDefault, BaseCommandContraband]
   id: DoorRemoteCustom
-  name: custom door remote
-  description: A gadget which can open and bolt doors remotely. This advanced variant does not have built-in access, instead inheriting the ID access of the user.
+  name: настраиваемый пульт дверей
+  description: Гаджет, способный дистанционно открывать двери и блокировать их болты. Этот продвинутый вариант не имеет встроенного доступа, вместо этого наследуя доступ ID-карты пользователя.
   components:
   - type: Sprite
     layers:
@@ -96,7 +96,7 @@
 - type: entity
   parent: [DoorRemoteDefault, BaseCommandContraband]
   id: DoorRemoteSecurity
-  name: security door remote
+  name: пульт дверей СБ
   components:
   - type: Sprite
     layers:
@@ -112,7 +112,7 @@
 - type: entity
   parent: [ DoorRemoteDefault, BaseSecurityContraband, BaseCommandContraband ] # Blimpuf
   id: DoorRemoteArmory
-  name: armory door remote
+  name: пульт дверей оружейной
   components:
   - type: Sprite
     layers:
@@ -128,7 +128,7 @@
 - type: entity
   parent: [DoorRemoteDefault, BaseCommandContraband]
   id: DoorRemoteService
-  name: service door remote
+  name: пульт дверей сервиса
   components:
   - type: Sprite
     layers:
@@ -144,7 +144,7 @@
 - type: entity
   parent: [DoorRemoteDefault, BaseCommandContraband]
   id: DoorRemoteResearch
-  name: research door remote
+  name: пульт дверей исследований
   components:
   - type: Sprite
     layers:
@@ -160,7 +160,7 @@
 - type: entity
   parent: [DoorRemoteDefault, BaseCommandContraband]
   id: DoorRemoteCargo
-  name: cargo door remote
+  name: пульт дверей карго
   components:
   - type: Sprite
     layers:
@@ -176,7 +176,7 @@
 - type: entity
   parent: [DoorRemoteDefault, BaseCommandContraband]
   id: DoorRemoteMedical
-  name: medical door remote
+  name: пульт дверей медотсека
   components:
   - type: Sprite
     layers:
@@ -192,7 +192,7 @@
 - type: entity
   parent: [DoorRemoteDefault, BaseCommandContraband]
   id: DoorRemoteEngineering
-  name: engineering door remote
+  name: пульт дверей инженеров
   components:
   - type: Sprite
     layers:
@@ -208,8 +208,8 @@
 - type: entity
   parent: [ BaseContrabandTier3, DoorRemoteCanEletrifyDoors, BaseCommandContraband ] # Blimpuf
   id: DoorRemoteAll
-  name: super door remote
-  description: A gadget which can open and bolt doors remotely. This one works even on wooden doors!
+  name: супер-пульт дверей
+  description: Гаджет, способный дистанционно открывать двери и блокировать их болты. Этот работает даже на деревянных дверях!
   suffix: Admeme
   components:
   - type: Sprite
@@ -237,7 +237,7 @@
 - type: entity
   parent: [DoorRemoteCanEletrifyDoors, BaseXenoborgContraband]
   id: DoorRemoteXenoborg
-  name: xenoborg door remote
+  name: пульт дверей ксеноборгов
   components:
   - type: Sprite
     layers:

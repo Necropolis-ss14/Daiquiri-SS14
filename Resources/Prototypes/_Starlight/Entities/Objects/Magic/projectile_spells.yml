@@ -2,7 +2,7 @@
   parent: ActionFireball #Remove actionupregadable if spell is put in shop alone
   id: ActionFirebolt
   name: Огненный болт
-  description: Fires a fast but weaker bolt of fire toward the aimed location. (Cooldown of 5 seconds)
+  description: Выпускает быстрый, но слабый сгусток огня в выбранную точку. (Перезарядка 5 секунд)
   components:
   - type: Action
     useDelay: 5
@@ -26,7 +26,7 @@
   parent: ActionFireball #Remove actionupregadable if spell is put in shop alone
   id: ActionFireOrb
   name: Огненная сфера
-  description: Fires a slow moving Orb of fire that will ignite everyone in a big radius in a glorious inferno. (Cooldown of 4 minutes)
+  description: Выпускает медленно летящую сферу огня, которая поджигает всех в большом радиусе славным инферно. (Перезарядка 4 минуты)
   components:
   - type: Action
     useDelay: 240
@@ -51,7 +51,7 @@
   parent: ActionFireball #Remove actionupregadable if spell is put in shop alone
   id: ActionFireArrow
   name: Огненная стрела
-  description: Fires a solid flame in the form of an arrow. (Cooldown of 10 seconds)
+  description: Выпускает плотное пламя в виде стрелы. (Перезарядка 10 секунд)
   components:
   - type: Action
     useDelay: 10
@@ -77,7 +77,7 @@
   parent: BaseAction
   id: ActionArcticGlare
   name: Арктическое сияние
-  description: Glare at your enemies with the fury of the artic, freezing anyone close (short range spell, 2 min cooldown).
+  description: Смотри на врагов с яростью Арктики, замораживая всех рядом (заклинание ближнего боя, перезарядка 2 мин).
   components:
   - type: Magic
   - type: Action
@@ -105,7 +105,7 @@
   parent: BaseAction
   id: ActionIceShard
   name: Ледяной осколок
-  description: Throw a sharp shard of ice that will slice and freeze the first person it touches. (30 seconds cooldown)
+  description: Бросает острый осколок льда, который режет и замораживает первого, кого коснётся. (Перезарядка 30 секунд)
   components:
   - type: Magic
   - type: Action
@@ -130,7 +130,7 @@
   parent: ActionFireball #Remove actionupregadable if spell is put in shop alone
   id: ActionIceOrb
   name: Сердце зимы
-  description: Unleash a slow moving orb of ice, the orb throws icy shards every seconds and a half. Also destroys anything non living on impact. (3 min cooldown)
+  description: Высвобождает медленно летящую сферу льда, которая каждые полторы секунды разбрасывает ледяные осколки. Также уничтожает всё неживое при ударе. (Перезарядка 3 мин)
   components:
   - type: Action
     useDelay: 180
@@ -155,7 +155,7 @@
   parent: BaseAction
   id: ActionIceStorm
   name: Ледяной шторм
-  description: Summon a freezing blast of ice that chills everything it touches! (Cooldown of 2 minutes)
+  description: Призывает леденящий взрыв льда, который морозит всё, чего касается! (Перезарядка 2 минуты)
   components:
   - type: Magic
   - type: Action

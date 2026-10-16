@@ -1,5 +1,6 @@
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
+using Content.Server._Daiquiri.TextToSpeech;
 using Content.Server._Starlight.Language;
 using Content.Server._Starlight.Radio.Systems;
 using Content.Shared._Starlight.Speech;

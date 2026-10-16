@@ -4,7 +4,7 @@
   parent: [PowerCellSlotMediumItem, BaseHandheldComputer]
   id: DigiboardMassMedia
   name: диги-доска медиа-менеджера
-  description: Write your message to the world! Now portable!
+  description: Напишите своё сообщение миру! Теперь портативно!
   components:
     - type: Sprite
       sprite: _Starlight/Objects/Specific/Service/reporter_digiboard.rsi

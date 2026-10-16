@@ -27,3 +27,4 @@ reagent-desc-pseudoceramic-platelets = Грубые, хрустящие и ск�
 
 reagent-name-doll-blood = аномальная кровь
 reagent-desc-doll-blood = Как густой мясной суп...
+reagent-name-sawian-blood = кровь савиан

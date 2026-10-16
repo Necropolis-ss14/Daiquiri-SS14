@@ -1,7 +1,7 @@
 - type: entity
   parent: [ IDCardStandard, BaseNanoTrasenContraband ]
   id: MagistrateIDCard
-  name: magistrate ID card
+  name: ID-карта магистрата
   components:
     - type: Sprite
       sprite: _Starlight/Objects/Misc/id_cards.rsi
@@ -93,7 +93,7 @@
 - type: entity
   parent: [ IDCardStandard, BaseLawContraband ]
   id: IAAIDCard
-  name: internal affairs agent ID card
+  name: ID-карта агента внутренних дел
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Misc/id_cards.rsi
@@ -178,7 +178,7 @@
   categories: [ DoNotMap ]
   id: CCGreenShieldIDCard
   name: ID-карта зелёного щита
-  description: Why are you looking at this instead of the person you're supposed to protect?
+  description: Чего смотришь сюда вместо того, кого должен защищать?
   components:
     - type: Sprite
       sprite: _Starlight/Objects/Misc/id_cards.rsi
@@ -665,7 +665,7 @@
   parent: [IDCardStandard, BaseTSFContraband]
   id: TSFIdCard
   name: ID-карта СолГов
-  description: An identification card issued by the Trans Solar Federation.
+  description: Удостоверение личности Транс-Солнечной Федерации.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Misc/id_cards.rsi
@@ -785,7 +785,7 @@
   id: nctdatachip
   parent: [Clothing, BaseCommandContraband]
   name: чип доступа стажёра НКТ
-  description: A small electronic access token that allows its user to copy the access of their Trainee. Only accessible by NT Career Trainers!
+  description: "Малый электронный жетон доступа: копирует доступ стажёра. Только для карьерных тренеров НТ!"
   components:
   - type: Clothing
     quickEquip: false
@@ -813,7 +813,7 @@
   parent: [IDCardStandard, BaseMinorContraband]
   id: MakeshiftID
   name: самодельная ID-карта
-  description: A set of door electronics rewired to act as an ID card.
+  description: Дверная электроника, переделанная в ID-карту.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Misc/id_cards.rsi
@@ -830,7 +830,7 @@
 - type: entity
   parent: [ BaseCentcommContraband, IDCardStandard ] # Blimpuf
   id: CentcomIDCard
-  name: command officer ID card
+  name: ID-карта офицера командования
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Misc/id_cards.rsi
@@ -856,7 +856,7 @@
 - type: entity
   parent: [ BaseCentcommContraband, IDCardStandard ] # Blimpuf
   id: ERTLeaderIDCard
-  name: ERT leader ID card
+  name: ID-карта лидера ОБР
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Misc/id_cards.rsi
@@ -882,7 +882,7 @@
 - type: entity
   parent: [ BaseCentcommContraband, IDCardStandard ] # Blimpuf
   id: ERTChaplainIDCard
-  name: ERT chaplain ID card
+  name: ID-карта капеллана ОБР
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Misc/id_cards.rsi
@@ -908,7 +908,7 @@
 - type: entity
   parent: [ BaseCentcommContraband, IDCardStandard ] # Blimpuf
   id: ERTEngineerIDCard
-  name: ERT engineer ID card
+  name: ID-карта инженера ОБР
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Misc/id_cards.rsi
@@ -934,7 +934,7 @@
 - type: entity
   parent: [ BaseCentcommContraband, IDCardStandard ] # Blimpuf
   id: ERTJanitorIDCard
-  name: ERT janitor ID card
+  name: ID-карта уборщика ОБР
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Misc/id_cards.rsi
@@ -960,7 +960,7 @@
 - type: entity
   parent: [ BaseCentcommContraband, IDCardStandard ] # Blimpuf
   id: ERTMedicIDCard
-  name: ERT medic ID card
+  name: ID-карта медика ОБР
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Misc/id_cards.rsi
@@ -986,7 +986,7 @@
 - type: entity
   parent: [ BaseCentcommContraband, IDCardStandard ] # Blimpuf
   id: ERTSecurityIDCard
-  name: ERT security ID card
+  name: ID-карта офицера ОБР
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Misc/id_cards.rsi
@@ -1012,7 +1012,7 @@
 - type: entity
   parent: [ BaseCentcommContraband, IDCardStandard ] # Blimpuf
   id: CentcomIDCardDeathsquad
-  name: death squad ID card
+  name: ID-карта эскадрона смерти
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Misc/id_cards.rsi
@@ -1038,7 +1038,7 @@
 - type: entity
   parent: [ BaseCentcommContraband, IDCardStandard ] # Blimpuf
   id: CBURNIDcard
-  name: CBURN ID card
+  name: ID-карта CBURN
   suffix: CBURN
   components:
   - type: Sprite

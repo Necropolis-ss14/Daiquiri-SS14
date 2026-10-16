@@ -2,7 +2,7 @@
   parent: [ BaseContrabandTier2, ClothingShoesBootsMagBase, BaseSecurityContraband, ClothingShoesMilitaryBase ] # Blimpuf
   id: ClothingShoesBootsMagSec
   name: магнитные ботинки службы безопасности
-  description: A pair of standard magnetic boots, issued alongside the Security Hardsuit.
+  description: Пара стандартных магнитных ботинок, выдаваемых со скафандром СБ.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Shoes/Boots/magboots-security.rsi

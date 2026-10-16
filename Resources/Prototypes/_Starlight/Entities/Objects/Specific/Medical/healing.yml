@@ -1,5 +1,5 @@
 - type: entity
-  name: pill
+  name: пилюля
   suffix: Psicodine 10u
   parent: Pill
   id: PillPsicodine
@@ -19,7 +19,7 @@
         Quantity: 10
 
 - type: entity
-  name: pill canister
+  name: контейнер для пилюль
   parent: PillCanister
   id: PillCanisterPsicodine
   suffix: Psicodine 10u, 5

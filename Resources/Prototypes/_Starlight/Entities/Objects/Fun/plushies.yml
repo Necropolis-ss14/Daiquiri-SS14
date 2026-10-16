@@ -3,7 +3,7 @@
   parent: BaseFelionoidPlushie
   id: PlushieBarfo # Original_Username2 (SS14) / greasi (Discord)
   name: плюшевый барфо
-  description: Soft, cuddly, and suspiciously up to something! This talking Barfo plushie has lots to say!
+  description: Мягкий, обнимательный и явно что-то замышляет! Этому говорящему плюшевому Барфо есть что сказать!
   components:
     - type: Item
       size: Small
@@ -62,7 +62,7 @@
   parent: BaseShadekinPlushie
   id: PlushieBrightheart # rtasva
   name: плюшевый брайтхарт
-  description: A plushie of a small, elusive, and odd looking security officer. Seems familiar somehow.
+  description: Плюш маленького, неуловимого и странно выглядящего офицера службы безопасности. Почему-то кажется знакомым.
   components:
   - type: Item
     size: Small
@@ -84,10 +84,36 @@
         - state: equipped-HELMET
 
 - type: entity
+  parent: PlushieHuman
+  id: PlushieCentCommRG # Nova
+  name: плюшевый ПЦК
+  description: Потратил все деньги центкома на акулок и пиццу... мда.
+  components:
+  - type: Item
+    size: Small
+    sprite: _Starlight/Objects/Fun/Plushies/ethan_plushie.rsi
+  - type: Sprite
+    sprite: _Starlight/Objects/Fun/Plushies/ethan_plushie.rsi
+    state: icon
+  - type: Clothing
+    quickEquip: false
+    sprite: _Starlight/Objects/Fun/Plushies/ethan_plushie.rsi
+    slots:
+      - HEAD
+    clothingVisuals:
+      head:
+        - state: equipped-HELMET
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/Animals/cat_meow.ogg
+  - type: UseDelay
+    delay: 1.0
+
+- type: entity
   parent: BaseResomiPlushie
   id: PlushieChemmi # huaqas
   name: плюшевый хемми
-  description: An adorable plushie of the orange juice addicted senior researcher Chemmi. She comes equipped with her own XL orange juice bottle, and jam-jar glasses to match.
+  description: Очаровательный плюш старшего научного сотрудника Хемми, зависимой от апельсинового сока. Идёт в комплекте с собственной XL-бутылкой апельсинового сока и очками в стиле банок для варенья.
   components:
   - type: Item
     size: Small
@@ -112,7 +138,7 @@
   parent: BaseLizardPlushie
   id: PlushieDoxes # SanityGecko
   name: плюшевый Доксес-капитан
-  description: An adorable stuffed toy that resembles Doxes-the-Captain. "Captain's IP is 189.47.108.519!"
+  description: Очаровательная мягкая игрушка, похожая на Доксеса-капитана. «IP капитана — 189.47.108.519!»
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Fun/Plushies/doxes_plushie.rsi
@@ -173,7 +199,7 @@
   parent: BaseAvaliPlushie
   id: PlushieEinalia # CaptainComedy
   name: плюшевая эйналия
-  description: A marketable plushie of one of the shortest Captains in NT-CC employ, and Nebula's husband. The two amber eyes on its face feel as if they're boring into your soul.
+  description: Коллекционный плюш одного из самых низкорослых капитанов на службе НТ-ЦК и мужа Небулы. Два янтарных глаза на его мордочке будто сверлят твою душу.
   components:
   - type: Item
     size: Small
@@ -194,7 +220,7 @@
   parent: BaseLizardPlushie
   id: PlushieGalio # galiotheblepdragon
   name: плюшевый галио
-  description: Carry with you to feel silly wherever you go!
+  description: Носи с собой, чтобы дурачиться где угодно!
   components:
   - type: Item
     size: Small
@@ -250,7 +276,7 @@
   parent: BaseVoxPlushie
   id: PlushieHrek # FlameyTheRandom
   name: плюшевый хрекративи
-  description: Has probably built more civilian infrastructure than any engineer you'll come across. Smells like space cleaner... and missing permits.
+  description: Вероятно, построил больше гражданской инфраструктуры, чем любой встречный инженер. Пахнет средством для уборки... и отсутствием разрешений.
   components:
   - type: Item
     size: Small
@@ -297,7 +323,7 @@
   parent: BaseMothPlushie
   id: PlushieKoni # neomoth
   name: плюшевый кони
-  description: Some sort of moth-cat hybrid. You can't help but find it really cute. Can squeak and meow!
+  description: Некий гибрид моли и кота. Невозможно не найти его милым. Умеет пищать и мяукать!
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Fun/Plushies/koni_plushie.rsi

@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseStructure
   id: AbductorExperimentator
-  name: experimentator
-  description: A device that analyzes the result of the experiment and resets the subject to the place from where they were taken.
+  name: экспериментатор
+  description: Устройство анализирует результат эксперимента и возвращает субъекта туда, откуда его забрали.
   components:
   - type: AbductorExperimentator
   - type: Sprite

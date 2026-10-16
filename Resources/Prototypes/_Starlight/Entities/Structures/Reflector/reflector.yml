@@ -1,7 +1,7 @@
 - type: entity
   id: Reflector
   parent: BaseStructure
-  name: reflector
+  name: отражатель
   placement:
     mode: SnapgridCenter
   components:

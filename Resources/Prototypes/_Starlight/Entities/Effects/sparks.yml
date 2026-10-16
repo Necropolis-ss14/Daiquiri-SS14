@@ -1,7 +1,7 @@
 - type: entity
   parent: ESEffectSparks
   id: SLEffectSparksBaton
-  name: sparks
+  name: искры
   components:
   - type: Sprite
     sprite: _ES/Effects/sparks.rsi
@@ -16,7 +16,7 @@
 - type: entity
   parent: MoffEffectSparksWelding
   id: SLEffectSparksRCD
-  name: sparks
+  name: искры
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

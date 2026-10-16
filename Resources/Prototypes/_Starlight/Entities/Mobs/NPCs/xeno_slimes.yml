@@ -49,7 +49,7 @@
   name: серый ксенобиологический слайм
   id: XenobiologySlimeGray
   parent: XenobiologySlimeBase
-  description: GRAY
+  description: СЕРЫЙ
   components:
     - type: Slime
       splitInto: XenobiologySlimeGray
@@ -66,7 +66,7 @@
   name: оранжевый ксенобиологический слайм
   id: XenobiologySlimeOrange
   parent: XenobiologySlimeBase
-  description: ORANGE
+  description: ОРАНЖЕВЫЙ
   components:
     - type: Slime
       splitInto: XenobiologySlimeOrange
@@ -83,7 +83,7 @@
   name: фиолетовый ксенобиологический слайм
   id: XenobiologySlimePurple
   parent: XenobiologySlimeBase
-  description: PURPLE
+  description: ФИОЛЕТОВЫЙ
   components:
     - type: Slime
       splitInto: XenobiologySlimePurple
@@ -100,7 +100,7 @@
   name: синий ксенобиологический слайм
   id: XenobiologySlimeBlue
   parent: XenobiologySlimeBase
-  description: BLUE
+  description: СИНИЙ
   components:
     - type: Slime
       splitInto: XenobiologySlimeBlue
@@ -117,7 +117,7 @@
   name: металлический ксенобиологический слайм
   id: XenobiologySlimeMetal
   parent: XenobiologySlimeBase
-  description: METAL
+  description: МЕТАЛЛИЧЕСКИЙ
   components:
     - type: Slime
       splitInto: XenobiologySlimeMetal
@@ -138,7 +138,7 @@
   name: жёлтый ксенобиологический слайм
   id: XenobiologySlimeYellow
   parent: XenobiologySlimeBase
-  description: YELLOW
+  description: ЖЁЛТЫЙ
   components:
     - type: Slime
       splitInto: XenobiologySlimeYellow
@@ -155,7 +155,7 @@
   name: тёмно-фиолетовый ксенобиологический слайм
   id: XenobiologySlimeDarkPurple
   parent: XenobiologySlimeBase
-  description: DARK PURPLE
+  description: ТЁМНО-ФИОЛЕТОВЫЙ
   components:
     - type: Slime
       splitInto: XenobiologySlimeDarkPurple
@@ -172,7 +172,7 @@
   name: тёмно-синий ксенобиологический слайм
   id: XenobiologySlimeDarkBlue
   parent: XenobiologySlimeBase
-  description: DARK BLUE
+  description: ТЁМНО-СИНИЙ
   components:
     - type: Slime
       splitInto: XenobiologySlimeDarkBlue
@@ -189,7 +189,7 @@
   name: серебряный ксенобиологический слайм
   id: XenobiologySlimeSilver
   parent: XenobiologySlimeBase
-  description: SILVER
+  description: СЕРЕБРЯНЫЙ
   components:
     - type: Slime
       splitInto: XenobiologySlimeSilver
@@ -210,7 +210,7 @@
   name: блюспейс ксенобиологический слайм
   id: XenobiologySlimeBluespace
   parent: XenobiologySlimeBase
-  description: BLUESPACE
+  description: БЛЮСПЕЙС
   components:
     - type: Slime
       splitInto: XenobiologySlimeBluespace
@@ -222,7 +222,7 @@
   name: сепия ксенобиологический слайм
   id: XenobiologySlimeSepia
   parent: XenobiologySlimeBase
-  description: SEPIA
+  description: СЕПИЯ
   components:
     - type: Slime
       splitInto: XenobiologySlimeSepia
@@ -234,7 +234,7 @@
   name: лазурный ксенобиологический слайм
   id: XenobiologySlimeCerulean
   parent: XenobiologySlimeBase
-  description: CERULEAN
+  description: ЛАЗУРНЫЙ
   components:
     - type: Slime
       splitInto: XenobiologySlimeCerulean
@@ -246,7 +246,7 @@
   name: пиритовый ксенобиологический слайм
   id: XenobiologySlimePyrite
   parent: XenobiologySlimeBase
-  description: PYRITE
+  description: ПИРИТОВЫЙ
   components:
     - type: Slime
       splitInto: XenobiologySlimePyrite
@@ -258,7 +258,7 @@
   name: красный ксенобиологический слайм
   id: XenobiologySlimeRed
   parent: XenobiologySlimeBase
-  description: RED
+  description: КРАСНЫЙ
   components:
     - type: Slime
       splitInto: XenobiologySlimeRed
@@ -272,7 +272,7 @@
   name: зелёный ксенобиологический слайм
   id: XenobiologySlimeGreen
   parent: XenobiologySlimeBase
-  description: GREEN
+  description: ЗЕЛЁНЫЙ
   components:
     - type: Slime
       splitInto: XenobiologySlimeGreen
@@ -286,7 +286,7 @@
   name: розовый ксенобиологический слайм
   id: XenobiologySlimePink
   parent: XenobiologySlimeBase
-  description: PINK
+  description: РОЗОВЫЙ
   components:
     - type: Slime
       splitInto: XenobiologySlimePink
@@ -300,7 +300,7 @@
   name: золотой ксенобиологический слайм
   id: XenobiologySlimeGold
   parent: XenobiologySlimeBase
-  description: GOLD
+  description: ЗОЛОТОЙ
   components:
     - type: Slime
       splitInto: XenobiologySlimeGold
@@ -318,7 +318,7 @@
   name: масляный ксенобиологический слайм
   id: XenobiologySlimeOil
   parent: XenobiologySlimeBase
-  description: OIL
+  description: МАСЛЯНЫЙ
   components:
     - type: Slime
       splitInto: XenobiologySlimeOil
@@ -334,7 +334,7 @@
   name: чёрный ксенобиологический слайм
   id: XenobiologySlimeBlack
   parent: XenobiologySlimeBase
-  description: BLACK
+  description: ЧЁРНЫЙ
   components:
     - type: Slime
       splitInto: XenobiologySlimeBlack
@@ -346,7 +346,7 @@
   name: светло-розовый ксенобиологический слайм
   id: XenobiologySlimeLightPink
   parent: XenobiologySlimeBase
-  description: LIGHT PINK
+  description: СВЕТЛО-РОЗОВЫЙ
   components:
     - type: Slime
       splitInto: XenobiologySlimeLightPink
@@ -358,7 +358,7 @@
   name: адамантиновый ксенобиологический слайм
   id: XenobiologySlimeAdamantine
   parent: XenobiologySlimeBase
-  description: ADAMANTINE
+  description: АДАМАНТИНОВЫЙ
   components:
     - type: Slime
       splitInto: XenobiologySlimeAdamantine
@@ -374,7 +374,7 @@
   name: радужный ксенобиологический слайм
   id: XenobiologySlimeRainbow
   parent: XenobiologySlimeBase
-  description: RAINBOW
+  description: РАДУЖНЫЙ
   components:
     - type: Slime
       splitInto: XenobiologySlimeRainbow

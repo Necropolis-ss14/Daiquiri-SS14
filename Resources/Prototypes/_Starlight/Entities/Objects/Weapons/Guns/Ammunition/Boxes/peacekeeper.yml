@@ -36,7 +36,7 @@
   parent: BasePeacekeeperBox
   id: BoxPeacekeeperFlash
   name: коробка светошумовых патронов миротворца
-  description: A box of flash grenades for the Peacekeeper, good for catching up to a running fiend or for dispersing crowds.
+  description: Коробка светошумовых гранат для «Миротворца», чтобы догнать убегающего или разогнать толпу.
   components:
     - type: BallisticAmmoProvider
       proto: GrenadeFlash
@@ -53,7 +53,7 @@
   parent: BasePeacekeeperBox
   id: BoxPeacekeeperStinger
   name: коробка стингер-патронов миротворца
-  description: A box of stinger grenades for the Peacekeeper, very good at dispersing crowds and getting lawsuits.
+  description: Коробка стингер-гранат для «Миротворца», отлично разгоняет толпу и собирает иски.
   components:
     - type: BallisticAmmoProvider
       proto: GrenadeStingerlauncher
@@ -70,7 +70,7 @@
   parent: BasePeacekeeperBox
   id: BoxPeacekeeperGas
   name: коробка слезоточивых патронов миротворца
-  description: A box of teargas grenades for the Peacekeeper, the label has a big "DO NOT FORGET INTERNALS" written in red.
+  description: Коробка слезоточивых гранат для «Миротворца», на этикетке красным написано «НЕ ЗАБУДЬ ВНУТРЯНКУ».
   components:
     - type: BallisticAmmoProvider
       proto: GrenadeGaslauncher
@@ -87,7 +87,7 @@
   parent: BasePeacekeeperBox
   id: BoxPeacekeeperBaton
   name: коробка патронов дубинки миротворца
-  description: A box of less-lethal baton grenades for the Peacekeeper, do not forget that "less" means you can kill with it, just less.
+  description: Коробка дубиночных гранат пониженной летальности для «Миротворца», помни, «пониженная» не значит безопасная.
   components:
     - type: BallisticAmmoProvider
       proto: GrenadeBaton
@@ -104,7 +104,7 @@
   parent: BasePeacekeeperBox
   id: BoxPeacekeeperBola
   name: коробка бола-патронов миротворца
-  description: A box of bola grenades for the Peacekeeper, to make tripping suspects even more fun!
+  description: Коробка бола-гранат для «Миротворца», ронять подозреваемых станет ещё веселее!
   components:
     - type: BallisticAmmoProvider
       proto: GrenadeBola

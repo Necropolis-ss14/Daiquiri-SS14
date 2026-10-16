@@ -3,7 +3,7 @@
   parent: [ BaseCentcommContraband, ClothingOuterEVASuitBase ]
   id: ClothingOuterSoftsuitCBURN
   name: утеплённый ВКД-костюм ЦБХОР
-  description: A heavyweight, tough and padded EVA capable biosuit used for special cleanup operations.
+  description: Тяжёлый прочный утеплённый биокостюм ВКД для специальных уборочных операций.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/OuterClothing/Hardsuits/cburn.rsi
@@ -42,7 +42,7 @@
   parent: [ClothingOuterEVASuitBase, BaseTSFContraband]
   id: ClothingOuterArmorTSF
   name: боевая броня морпеха Федерации
-  description: A full-body suit of semi-powered assault armor used by the Trans-Solar Marine Corps. Offers excellent protection in all areas without impairing movement.
+  description: Полный комплект полуусиленной штурмовой брони Корпуса морпехов Транс-Солнечной Федерации. Отлично защищает со всех сторон, не сковывая движения.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/OuterClothing/Armor/tsf.rsi
@@ -84,7 +84,7 @@
   parent: ClothingOuterArmorTSF
   id: ClothingOuterArmorTSFLeader
   name: боевая броня офицера морпехоты Федерации
-  description: A full-body suit of semi-powered assault armor used by the Trans-Solar Marine Corps. Offers excellent protection in all areas without impairing movement. This suit has golden stripes instead of the typical white.
+  description: Полный комплект полуусиленной штурмовой брони Корпуса морпехов. Отлично защищает, не сковывая движения. Этот с золотыми полосами вместо белых.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/OuterClothing/Armor/tsfleader.rsi
@@ -106,7 +106,7 @@
   parent: [ ClothingOuterEVASuitBase, BaseMagicalContraband ]
   id: ClothingOuterSoftsuitWizard
   name: робы пустоты волшебника
-  description: A cumbersome gem-encrusted robe that is magically resistant to the void of space
+  description: Громоздкая мантия в самоцветах, магически устойчивая к пустоте космоса.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/OuterClothing/Suits/wizard.rsi
@@ -136,7 +136,7 @@
   parent: [ ClothingOuterHardsuitBase, BaseMagicalContraband ]
   id: ClothingOuterSoftsuitWizardFire
   name: робы пироманта
-  description: A magical robe made of living fire, conjured only by the most skilled of pyromancers.
+  description: Магическая мантия из живого огня, conjured лишь искуснейшими пиромантами.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/OuterClothing/Suits/wizardfire.rsi
@@ -179,7 +179,7 @@
   parent: ClothingOuterSoftsuitWizardFire
   id: ClothingOuterSoftsuitWizardFrost
   name: робы криоманта
-  description: A magical robe weaved from the most ancient of ice, befitting the most talented of cryomancers.
+  description: Магическая мантия из древнейшего льда, достойная талантливейших криомантов.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/OuterClothing/Suits/wizardfrost.rsi

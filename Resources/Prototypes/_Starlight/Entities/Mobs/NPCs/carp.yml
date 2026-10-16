@@ -120,10 +120,10 @@
     color: "#4faffb"
 
 - type: entity
-  name: sharkminnow
+  name: акулмуж
   id: RiftSharkminnow
   parent: MobShark
-  description: A sharkminnow here to protect the space dragon's rift.
+  description: Акулмуж, охраняющий разлом космического дракона.
   components:
     - type: GhostRole
       allowMovement: true
@@ -149,10 +149,10 @@
         path: /Audio/Items/crowbar.ogg
 
 - type: entity
-  name: holocarp
+  name: голокарп
   id: RiftCarpHolo
   parent: MobCarpHolo
-  description: A holocarp here to protect the space dragon's rift.
+  description: Голокарп, охраняющий разлом космического дракона.
   components:
     - type: HTN
       rootTask:

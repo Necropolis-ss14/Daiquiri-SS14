@@ -86,7 +86,7 @@
   id: LatticeFalse
   parent: GrateBase
   name: хлипкая решётка
-  description: "Not structurally viable."
+  description: "Конструктивно несостоятельно."
   suffix: False, Grate
   components:
   - type: Sprite

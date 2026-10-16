@@ -2,7 +2,7 @@
   name: торт сновидений
   parent: [FoodCakeBase, BaseSlicingRefinableFood]
   id: FoodResomiCake
-  description: The poor Resomi can no longer chase their dreams
+  description: Бедные резоми больше не могут гнаться за своими мечтами
   components:
     - type: Sprite
       sprite: _Starlight/Objects/Consumable/Food/Custcake.rsi
@@ -36,7 +36,7 @@
   name: хлопковый торт
   parent: [FoodCakeBase, BaseSlicingRefinableFood]
   id: FoodCottonCake
-  description: A sweet treat for the moth to eat
+  description: Сладкое лакомство для моли
   components:
     - type: Sprite
       sprite: _Starlight/Objects/Consumable/Food/Custcake.rsi
@@ -74,7 +74,7 @@
   name: кусок хлопкового торта
   parent: FoodCakeSliceBase
   id: FoodCottonCakeSlice
-  description: You cut up the moff how dare you
+  description: Ты разрезал моффа, как ты посмел
   components:
     - type: Sprite
       sprite: _Starlight/Objects/Consumable/Food/Custcake.rsi
@@ -110,7 +110,7 @@
   name: кусок сновидений
   parent: FoodCakeSliceBase
   id: FoodCakeResomiSlice
-  description: Broken wings cant fly, neither can the Resomi this was made with.
+  description: Сломанные крылья не летают, как и резоми, из которых это сделано.
   components:
     - type: Sprite
       sprite: _Starlight/Objects/Consumable/Food/Custcake.rsi

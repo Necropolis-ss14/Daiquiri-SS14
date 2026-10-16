@@ -2,7 +2,7 @@
   parent: BaseBorgiChassis
   id: DerelictBorgiChassis
   name: заброшенный борги
-  description: even after all these years. still loves chasing it's tail.
+  description: спустя столько лет всё ещё любит гоняться за своим хвостом.
   components:
     - type: ContainerFill
       containers:
@@ -38,7 +38,7 @@
 
 - type: entity
   parent: BaseStationBorgiChassis
-  description: A smart dog, loves stating it's laws.
+  description: Умный пёс, любит излагать свои законы.
   id: StationBorgiChassis
   components:
     - type: ItemSlots
@@ -58,7 +58,7 @@
   parent: BaseStationBorgiChassis
   id: SmartSubwooferBorgiChassis
   name: Умный сабвуфер
-  description: An unusually smart dog, with an obsession for sick bass beats and stating laws.
+  description: Необычайно умный пёс, помешанный на жирных басах и изложении законов.
   components:
     - type: ActionGrant
       actions:
@@ -79,8 +79,8 @@
 - type: entity
   parent: SmartSubwooferBorgiChassis
   id: SubwooferBorgiChassis
-  name: SubWoofer
-  description: A smart dog, with an obsession for sick bass beats and stating laws.
+  name: Сабвуфер
+  description: Умный пёс, помешанный на жирных басах и изложении законов.
   components:
     - type: ItemSlots
       slots:
@@ -102,7 +102,7 @@
   id: SyndiBorgiKit1
   name: Синди-борги
   suffix: Antag, L6 Esword
-  description: An unusually smart dog, but hell bent on MURDER.
+  description: Необычайно умный пёс, но одержим УБИЙСТВАМИ.
   components:
     - type: ContainerFill
       containers:
@@ -120,7 +120,7 @@
   id: SyndiBorgiKit2
   name: Синди-борги
   suffix: Antag, Quick Dagger
-  description: An unusually smart dog, but hell bent on MURDER.
+  description: Необычайно умный пёс, но одержим УБИЙСТВАМИ.
   components:
     - type: MovementSpeedModifier
       baseWalkSpeed : 4
@@ -144,8 +144,8 @@
 - type: entity
   parent: [ BaseXenoBorgiLanguages, BaseXenoborgChassis, BaseXenoborgTransponder, BaseBorgiChassis ]
   id: XenoBorgiChassis
-  name: XenoBorgi
-  description:  A man-machine hybrid that aims to replicate itself. They love extracting brains to insert into fresh Xenoborg chassis to grow their army. This one seems to be an borgi type, as it has inferior flesh in exchange for hands to support the other Xenoborgs.
+  name: Ксеноборги
+  description: "Гибрид человека и машины, стремящийся к самовоспроизведению. Любят извлекать мозги и вставлять их в свежие шасси ксеноборгов, наращивая армию. Этот, похоже, типа борги: слабая плоть в обмен на руки для поддержки других ксеноборгов."
   components:
     - type: Sprite
       drawdepth: Mobs
@@ -271,7 +271,7 @@
 - type: entity
   parent: XenoBorgiPrinted
   id: FilledXenoBorgiChassis
-  name: XenoBorgi
+  name: Ксеноборги
   suffix: Cell, Brain
   components:
     - type: GhostRole
@@ -346,7 +346,7 @@
   parent: [ BaseXenoBorgiLanguages, BaseXenoborgChassisDerelict, BaseXenoborgTransponder, DerelictBorgiChassis ]
   id: DerelictXenoBorgiBase
   name: заброшенный ксеноборги
-  description:  even after all these years. still loves the color blue.
+  description: спустя столько лет всё ещё любит синий цвет.
   components:
     - type: Sprite
       drawdepth: Mobs
@@ -471,7 +471,7 @@
   parent: BaseBorgiChassis
   id: ITGBorgiChassis
   name: ИТГ борги
-  description: Rescued from deep space, this chassis is the perfect tool for sniffing out loot.
+  description: Шасси, спасённое из дальнего космоса, — идеальный инструмент для вынюхивания добычи.
   components:
     - type: ContainerFill
       containers:

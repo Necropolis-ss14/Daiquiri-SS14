@@ -11,7 +11,7 @@
   categories: [ HideSpawnMenu ]
   name: самодельные наручники
   parent: BorgHolocuffs
-  description: Makeshift and shoddy, but there sure is a lot of them.
+  description: Самодельные и хлипкие, зато их очень много.
   components:
     - type: Handcuff
       breakoutTime: 3
@@ -60,11 +60,11 @@
     icon: { sprite: Interface/Actions/actions_borg.rsi, state: wire-module }
 
 - type: entity
-  name: mobroach
+  name: моброуч
   parent: MobMothroach
   suffix: syndicate agent
   id: MobMobroach # Oh yeah, we're going far with this one. Mobmob.
-  description: This little mothroach has ... is that a pair of cuffs?
+  description: У этого маленького таракамоля... это что, пара наручников?
   components:
     - type: Sprite
       sprite: Mobs/Animals/mothroach/mothroach.rsi

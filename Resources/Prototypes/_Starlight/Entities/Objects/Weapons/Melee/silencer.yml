@@ -1,8 +1,8 @@
 - type: entity
-  name: silencer
+  name: глушитель
   parent: [ BaseItem, BaseMajorContraband ]
   id: Silencer
-  description: Tool for silencing humans.
+  description: Инструмент для глушения людей.
   components:
   - type: Item
     sprite: _Starlight/Objects/Weapons/Melee/silencer.rsi

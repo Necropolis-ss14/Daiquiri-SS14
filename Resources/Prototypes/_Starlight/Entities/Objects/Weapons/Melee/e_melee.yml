@@ -1,8 +1,8 @@
 - type: entity
-  name: marriage axe
+  name: свадебный топор
   parent: [BaseMeleeWeaponEnergy, BaseSyndicateContraband, BaseStringInstrument]
   id: MarriageAxe
-  description: A charming subtle instrument of chaos—perfect for when diplomacy fails. Screams like a banshee, cuts like a demon, and turns people into regrettable memories. Handle with enthusiasm.
+  description: Обаятельный тонкий инструмент хаоса, идеален, когда дипломатия провалилась. Визжит как банши, рубит как демон и превращает людей в прискорбные воспоминания. Берись с энтузиазмом.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Melee/marriage_axe.rsi
@@ -76,8 +76,8 @@
 - type: entity
   id: EnergySwordBanana
   parent: [BaseMeleeWeaponEnergy, BaseSyndicateContraband]
-  name: banana energy sword
-  description: Cybersun's research into bananium weaponry produced some unexpected results. Honk!
+  name: банановый энергомеч
+  description: Исследования Cybersun в области бананиумного оружия дали неожиданные результаты. Хонк!
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/e_sword.rsi

@@ -33,7 +33,7 @@
 - type: entity
   parent: [ ClothingHeadHatTophat , BaseMinorContraband ]
   id: ClothingHeadHatTophatArmored
-  name: tophat
+  name: цилиндр
   suffix: armored, admeme
   description: Стильный чёрный цилиндр на кевларовой подкладке.
   components:

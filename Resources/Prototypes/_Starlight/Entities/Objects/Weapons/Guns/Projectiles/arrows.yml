@@ -2,7 +2,7 @@
   parent: BaseArrow
   id: CorgiArrow
   name: стрела корги
-  description: Polymorphs someone into a corgi.  Permanently.
+  description: Превращает в корги. Навсегда.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Projectiles/arrows.rsi

@@ -3,8 +3,8 @@
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: ClothingShoesHighheelShoes
-  name: high-heels
-  description: Snazy shoes for when you want to be stylish and noticed.
+  name: туфли на каблуках
+  description: Щегольские туфли, когда хочется быть стильным и заметным.
   components:
   - type: MeleeWeapon
     damage:

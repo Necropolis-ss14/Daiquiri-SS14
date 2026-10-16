@@ -2,7 +2,7 @@
   parent: BaseStructure
   id: PetBed
   name: лежанка для питомца
-  description: A comfy-looking bed for your pets. You can even strap your pet in, in case the gravity turns off.
+  description: Уютная лежанка для питомцев. Питомца можно даже пристегнуть — на случай отключения гравитации.
   components:
   - type: HealOnBuckle
     damage:
@@ -68,7 +68,7 @@
   parent: PetBed
   id: CatBed
   name: кошачья лежанка
-  description: A comfy-looking bed for your cat. You can even strap your pet in, in case the gravity turns off.
+  description: Уютная лежанка для кота. Питомца можно даже пристегнуть — на случай отключения гравитации.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Furniture/pet_beds.rsi
@@ -78,7 +78,7 @@
   parent: PetBed
   id: RaccoonBed
   name: енотовая лежанка
-  description: A slightly smelly bed for your raccoon. You can even strap your pet in, in case the gravity turns off.
+  description: Слегка пахучая лежанка для енота. Питомца можно даже пристегнуть — на случай отключения гравитации.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Furniture/pet_beds.rsi
@@ -88,7 +88,7 @@
   parent: PetBed
   id: SoftPetBedBlue
   name: мягкая лежанка для питомца
-  description: A very soft looking bed for your pet. Soft enough you almost want to sleep in it.
+  description: Очень мягкая лежанка для питомца. Так и хочется лечь самому.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Furniture/pet_beds.rsi
@@ -98,7 +98,7 @@
   parent: PetBed
   id: SoftPetBedDarkBlue
   name: мягкая лежанка для питомца
-  description: A very soft looking bed for your pet. Soft enough you almost want to sleep in it.
+  description: Очень мягкая лежанка для питомца. Так и хочется лечь самому.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Furniture/pet_beds.rsi
@@ -108,7 +108,7 @@
   parent: PetBed
   id: SoftPetBedGray
   name: мягкая лежанка для питомца
-  description: A very soft looking bed for your pet. Soft enough you almost want to sleep in it.
+  description: Очень мягкая лежанка для питомца. Так и хочется лечь самому.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Furniture/pet_beds.rsi
@@ -118,7 +118,7 @@
   parent: PetBed
   id: SoftPetBedGreen
   name: мягкая лежанка для питомца
-  description: A very soft looking bed for your pet. Soft enough you almost want to sleep in it.
+  description: Очень мягкая лежанка для питомца. Так и хочется лечь самому.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Furniture/pet_beds.rsi
@@ -128,7 +128,7 @@
   parent: PetBed
   id: SoftPetBedOrange
   name: мягкая лежанка для питомца
-  description: A very soft looking bed for your pet. Soft enough you almost want to sleep in it.
+  description: Очень мягкая лежанка для питомца. Так и хочется лечь самому.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Furniture/pet_beds.rsi
@@ -138,7 +138,7 @@
   parent: PetBed
   id: SoftPetBedPink
   name: мягкая лежанка для питомца
-  description: A very soft looking bed for your pet. Soft enough you almost want to sleep in it.
+  description: Очень мягкая лежанка для питомца. Так и хочется лечь самому.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Furniture/pet_beds.rsi
@@ -148,7 +148,7 @@
   parent: PetBed
   id: SoftPetBedPurple
   name: мягкая лежанка для питомца
-  description: A very soft looking bed for your pet. Soft enough you almost want to sleep in it.
+  description: Очень мягкая лежанка для питомца. Так и хочется лечь самому.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Furniture/pet_beds.rsi
@@ -158,7 +158,7 @@
   parent: PetBed
   id: SoftPetBedRed
   name: мягкая лежанка для питомца
-  description: A very soft looking bed for your pet. Soft enough you almost want to sleep in it.
+  description: Очень мягкая лежанка для питомца. Так и хочется лечь самому.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Furniture/pet_beds.rsi
@@ -168,7 +168,7 @@
   parent: PetBed
   id: SoftPetBedYellow
   name: мягкая лежанка для питомца
-  description: A very soft looking bed for your pet. Soft enough you almost want to sleep in it.
+  description: Очень мягкая лежанка для питомца. Так и хочется лечь самому.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Furniture/pet_beds.rsi

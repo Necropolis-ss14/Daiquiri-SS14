@@ -73,7 +73,7 @@
   placement:
     mode: SnapgridCenter
   name: паутинный кокон
-  description: "A strange web cocoon."
+  description: "Странный паутинный кокон."
   components:
   - type: Appearance
   - type: Clickable

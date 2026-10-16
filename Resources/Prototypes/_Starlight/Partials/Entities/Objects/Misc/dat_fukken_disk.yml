@@ -1,5 +1,7 @@
 - type: !PartialOnly entity
   id: NukeDisk
+  name: ядерный диск
+  description: "Ядерный диск, способный взвести бомбу при использовании вместе с кодом. Записка от НаноТрейзен гласит: ЭТО ВАШЕ САМОЕ ВАЖНОЕ ИМУЩЕСТВО, БЕРЕГИТЕ ЭТОТ ЧЁРТОВ ДИСК!"
   components:
   - type: Tag
     tags:
@@ -13,6 +15,8 @@
 
 - type: !PartialOnly entity
   id: NukeDiskFake
+  name: ядерный диск
+  description: "Поддельный ядерный диск. Записка от НаноТрейзен гласит: ЭТО ВАШЕ САМОЕ ВАЖНОЕ ИМУЩЕСТВО, БЕРЕГИТЕ ЭТОТ ЧЁРТОВ ДИСК!"
   components:
   - type: Tag
     tags:

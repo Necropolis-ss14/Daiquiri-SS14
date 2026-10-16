@@ -4,7 +4,7 @@
   parent: [SolutionSmall, DrinkBaseMaterialPorcelain, DrinkBase]
   id: DrinkGravyBoat
   name: соусник
-  description: A gravy boat. It simply oozes... gravy.
+  description: Соусник. Он так и сочится... подливой.
   components:
   - type: Solution
     id: drink

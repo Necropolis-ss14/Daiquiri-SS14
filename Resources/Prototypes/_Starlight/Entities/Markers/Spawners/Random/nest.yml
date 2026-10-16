@@ -1,6 +1,6 @@
 - type: entity
   id: RandomNest
-  name: random nest spawner
+  name: спавнер случайного гнезда
   parent: MarkerBase
   components:
   - type: Sprite

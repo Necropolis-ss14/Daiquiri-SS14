@@ -113,7 +113,7 @@
   parent: BaseMagazineGrenade
   id: MagazineDravon75mmHE
   name: магазин фугасных снарядов DVN-75 75мм
-  description: A 15-round magazine of 75mm HE shells for the Dravon cannon system.
+  description: Магазин на 15 фугасных снарядов 75мм для пушки Dravon.
   components:
   - type: Tag
     tags:
@@ -195,7 +195,7 @@
   parent: BaseMagazineGrenade
   id: MagazineAK570_90mmHE
   name: магазин фугасных снарядов AK-90 90мм
-  description: A 20-round magazine of 90mm HE shells for the AK570 cannon system.
+  description: Магазин на 20 фугасных снарядов 90мм для пушки AK570.
   components:
   - type: Tag
     tags:

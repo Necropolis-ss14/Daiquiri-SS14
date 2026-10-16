@@ -2,7 +2,7 @@
   parent: [ ClothingHeadset, BaseNanoTrasenContraband ]
   id: ClothingHeadsetIAA
   name: гарнитура АВД
-  description: A headset for internal affairs agents to hear the captain's last words.
+  description: Гарнитура для агентов внутренних дел, чтобы слышать последние слова капитана.
   components:
     - type: ContainerFill
       containers:
@@ -17,7 +17,7 @@
   parent: [ ClothingHeadset, BaseNanoTrasenContraband ]
   id: ClothingHeadsetMagistrate
   name: гарнитура магистрата
-  description: A headset for magistrates to hear the captain's last words.
+  description: Гарнитура для магистратов, чтобы слышать последние слова капитана.
   components:
     - type: ContainerFill
       containers:
@@ -34,7 +34,7 @@
   parent: ClothingHeadset
   id: ClothingHeadsetLawyer
   name: гарнитура юриста
-  description: Headset used by the lawyers, tasked with keeping the station's crew properly represented.
+  description: Гарнитура, используемая юристами для надлежащего представления экипажа станции.
   components:
   - type: ContainerFill
     containers:
@@ -51,7 +51,7 @@
   parent: [ ClothingHeadset, BaseCommandContraband, BaseAssistantManagerContraband ]
   id: ClothingHeadsetAssistantManager
   name: гарнитура ассистента управляющего
-  description: A headset for the least poor among the poor.
+  description: Гарнитура для наименее бедного среди бедных.
   components:
     - type: ContainerFill
       containers:
@@ -77,7 +77,7 @@
   parent: [ ClothingHeadset, BaseSecurityContraband ]
   id: ClothingHeadsetSecurityWarden
   name: гарнитура смотрителя
-  description: This is used by your elite warden.
+  description: Им пользуется ваш элитный смотритель.
   components:
   - type: ContainerFill
     containers:
@@ -96,7 +96,7 @@
   parent: [ClothingHeadsetSecurity]
   id: ClothingHeadsetDetective
   name: гарнитура детектива
-  description: This is used by your wise detective.
+  description: Им пользуется ваш мудрый детектив.
   components:
   - type: ContainerFill
     containers:
@@ -115,7 +115,7 @@
   parent: [ ClothingHeadsetAlt, BaseSovietContraband ]
   id: ClothingHeadsetAltSoviet
   name: полноразмерная гарнитура морпеха ССФ
-  description: Priyom.
+  description: Приём.
   components:
   - type: Contraband # Blimpuf
     tier: Tier3
@@ -136,7 +136,7 @@
   parent: ClothingHeadsetCargo
   id: ClothingHeadsetSalvageLead
   name: гарнитура ведущего утилизатора
-  description: Headset used by the salvage lead.
+  description: Гарнитура, используемая ведущим утилизатором.
   components:
   - type: ContainerFill
     containers:
@@ -171,7 +171,7 @@
   parent: [ClothingHeadset, BaseNanoTrasenContraband]
   id: ClothingHeadsetNCT
   name: радиогарнитура карьерного тренера НаноТрейзен
-  description: This is used by your well-taught corporate training team.
+  description: Им пользуются ваши хорошо обученные корпоративные тренеры.
   components:
   - type: ContainerFill
     containers:
@@ -192,7 +192,7 @@
   parent: ClothingHeadsetCargo
   id: ClothingHeadsetVisitor
   name: гарнитура посетителя
-  description: Headset used by people visiting the station, usually for a short time.
+  description: Гарнитура для посетителей станции, обычно на короткое время.
   components:
   - type: ContainerFill
     containers:

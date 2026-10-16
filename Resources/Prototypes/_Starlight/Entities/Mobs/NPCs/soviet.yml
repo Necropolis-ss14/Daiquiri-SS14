@@ -1,5 +1,5 @@
 - type: entity
-  name: comrade
+  name: товарищ
   parent: BaseMobHuman
   id: MobSovietComrade
   categories: [ Spawner ]
@@ -76,7 +76,7 @@
   name: советский медведь
   id: MobBearSoviet
   parent: [SimpleSpaceMobBase, BaseSlicingRefinable]
-  description: Smells like booze.
+  description: Пахнет выпивкой.
   components:
   - type: HTN
     rootTask:

@@ -222,7 +222,7 @@
   parent: SurgeryBase
   id: SurgeryEliminateVocalCordDefects
   name: Устранить дефекты голосовых связок
-  description: Remove speech defects, accents.
+  description: Устранение дефектов речи, акцентов.
   components:
   - type: Surgery
     requirement:
@@ -1416,7 +1416,7 @@
   parent: SurgeryBase
   id: SurgeryRemoveShellDoll
   name: Снять панцирь
-  description: Surgical removal of a dolls shell.
+  description: Хирургическое снятие панциря куклы.
   components:
   - type: Surgery
     steps:
@@ -1435,7 +1435,7 @@
   parent: SurgeryBase
   id: SurgeryReattachShellDoll
   name: Прикрепить панцирь обратно
-  description: Surgical reattachment of a dolls shell.
+  description: Хирургическое прикрепление панциря куклы обратно.
   components:
   - type: Surgery
     requirement:

@@ -2,8 +2,8 @@
   id: CrewMonitoringServer
   categories: [ ShouldMapStation ] # Starlight
   parent: [ BaseCrewMonitoringServer, BaseMachinePowered, ConstructibleMachine ] # Moffstation - Add abstract crewmon server parent
-  name: crew monitoring server
-  description: Receives and relays the status of all active suit sensors on the station.
+  name: сервер мониторинга экипажа
+  description: Принимает и ретранслирует состояние всех активных сенсоров костюмов на станции.
   components:
     - type: Sprite
       sprite: Structures/Machines/server.rsi

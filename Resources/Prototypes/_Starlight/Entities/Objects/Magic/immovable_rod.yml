@@ -4,7 +4,7 @@
   parent: ImmovableRodKeepTilesStill
   id: ImmovableRodSlug
   suffix: Slug
-  description: Its coming right for us!
+  description: Оно летит прямо на нас!
   components:
   - type: ImmovableRod
     randomizeVelocity: false

@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseRuneAction
   id: ActionRuneSummonIce
-  name: Summon ice sculpture
-  description: Summons an ice familiar after two seconds.
+  name: Призыв ледяной скульптуры
+  description: Призывает ледяного фамильяра через две секунды.
   components:
   - type: Action
     useDelay: 60
@@ -26,7 +26,7 @@
 - type: entity
   id: RuneSummonIce
   parent: BaseRune
-  name: summoning pentagram
+  name: пентаграмма призыва
   components:
     - type: Sprite
       sprite: _Starlight/Objects/Magic/summoning.rsi
@@ -45,8 +45,8 @@
 - type: entity
   parent: ActionForceWall #kind of a summon wasnt sure where to put it
   id: ActionIcePillars
-  name: Ice Pillars
-  description: Creates a row of ice pillars in front of you (20 seconds cooldown).
+  name: Ледяные столбы
+  description: Создаёт ряд ледяных столбов перед вами (перезарядка 20 секунд).
   components:
   - type: Action
     useDelay: 20

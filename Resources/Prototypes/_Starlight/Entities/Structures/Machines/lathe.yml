@@ -24,7 +24,7 @@
   id: TiderLathe
   parent: BaseLatheFuel
   name: импровизированная наковальня
-  description: Every maints blacksmith's dream, a forge for producing gear in bulk.
+  description: "Мечта каждого теховского кузнеца: кузница для массового производства снаряжения."
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Machines/tider_anvil.rsi
@@ -67,7 +67,7 @@
   categories: [ ShouldMapStation ]
   parent: BaseLatheLube
   name: грузовой ТехФаб
-  description: Prints equipment for use by the station's supply department.
+  description: Печатает снаряжение для департамента снабжения станции.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Machines/techfab.rsi
@@ -125,7 +125,7 @@
   categories: [ ShouldMapStation ]
   parent: BaseLatheLube
   name: инженерный ТехФаб
-  description: Prints equipment for use by the station's engineering department.
+  description: Печатает снаряжение для инженерного департамента станции.
   components:
   - type: Sprite
     sprite: Structures/Machines/techfab.rsi
@@ -182,7 +182,7 @@
   categories: [ ShouldMapStation ]
   parent: BaseLatheLube
   name: сервисный ТехФаб
-  description: Prints equipment for use by the station's service department.
+  description: Печатает снаряжение для сервисного департамента станции.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Machines/techfab.rsi
@@ -232,7 +232,7 @@
   categories: [ ShouldMapStation ]
   parent: BaseLatheLube
   name: научный ТехФаб
-  description: Prints equipment for use by the station's research department.
+  description: Печатает снаряжение для научного департамента станции.
   components:
   - type: Sprite
     sprite: Structures/Machines/techfab.rsi
@@ -312,7 +312,7 @@
   categories: [ ShouldMapStation ]
   parent: BaseLatheLube
   name: командный ТехФаб
-  description: Prints equipment for use by the station's command department.
+  description: Печатает снаряжение для командного департамента станции.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Machines/techfab.rsi
@@ -363,7 +363,7 @@
   categories: [ DoNotMap ]
   parent: BaseLatheLube
   name: ТехФаб NanoTrasen
-  description: Prints equipment for use by NanoTrasen.
+  description: Печатает снаряжение для NanoTrasen.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Machines/techfab.rsi
@@ -473,7 +473,7 @@
   categories: [ DoNotMap ]
   parent: NanoTrasenTechFab
   name: ТехФаб Центрального командования
-  description: Prints equipment for use by Central Command.
+  description: Печатает снаряжение для Центрального командования.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Machines/techfab.rsi
@@ -497,7 +497,7 @@
   categories: [ DoNotMap ]
   parent: BaseLatheLube
   name: ТехФаб Синдиката
-  description: Prints equipment for use by the Syndicate.
+  description: Печатает снаряжение для Синдиката.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Machines/techfab.rsi
@@ -605,7 +605,7 @@
   id: SalvageTechFab
   parent: BaseLatheLube
   name: ТехФаб утилизаторов
-  description: Prints equipment for use by the ITG's salvage team.
+  description: Печатает снаряжение для команды утилизаторов МТГ.
   components:
     - type: Sprite
       sprite: _Starlight/Structures/Machines/techfab.rsi
@@ -666,7 +666,7 @@
   id: RogueExofabricator
   parent: BaseLatheLube
   name: экзопроизводитель сборщиков
-  description: A derelict fabricator, its engine still faintly hums.
+  description: Заброшенный фабрикатор, двигатель всё ещё слабо гудит.
   components:
   - type: Sprite
     sprite: Structures/Machines/exosuit_fabricator.rsi

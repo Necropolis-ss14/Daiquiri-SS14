@@ -16,7 +16,7 @@
 - type: entity
   parent: BorgEngineerSubtypeBase
   id: BorgEngineerSubtypeGeneric
-  name: Generic
+  name: Обычный
   components:
     - type: BorgSubtypeDefinition
       spritePath: Mobs/Silicon/Chassis/engineer.rsi
@@ -29,7 +29,7 @@
 - type: entity
   parent: BorgEngineerSubtypeBase
   id: BorgEngineerSubtypeAntique
-  name: Antique
+  name: Антикварный
   components:
     - type: BorgSubtypeDefinition
       spritePath: Mobs/Silicon/Chassis/engineer.rsi
@@ -42,7 +42,7 @@
 - type: entity
   parent: BorgEngineerSubtypeBase
   id: BorgEngineerSubtypeNoble
-  name: Noble-ENG
+  name: Благородный-ИНЖ
   components:
     - type: BorgSubtypeDefinition
       spritePath: Mobs/Silicon/Chassis/engineer.rsi
@@ -55,7 +55,7 @@
 - type: entity
   parent: BorgEngineerSubtypeBase
   id: BorgEngineerSubtypeCricket
-  name: Cricket
+  name: Сверчок
   components:
     - type: BorgSubtypeDefinition
       spritePath: Mobs/Silicon/Chassis/engineer.rsi
@@ -81,7 +81,7 @@
 - type: entity
   parent: BorgEngineerSubtypeBase
   id: BorgEngineerSubtypeMezo
-  name: Mezo
+  name: Мезо
   components:
     - type: BorgSubtypeDefinition
       spritePath: _Starlight/Mobs/Silicon/Chassis/mezo.rsi
@@ -95,7 +95,7 @@
 - type: entity
   parent: BorgGenericSubtypeBase
   id: BorgGenericSubtypeGeneric
-  name: Generic
+  name: Обычный
   components:
     - type: BorgSubtypeDefinition
       spritePath: Mobs/Silicon/Chassis/generic.rsi
@@ -108,7 +108,7 @@
 - type: entity
   parent: BorgGenericSubtypeBase
   id: BorgGenericSubtypeDroid
-  name: Android
+  name: Андроид
   components:
     - type: BorgSubtypeDefinition
       spritePath: Mobs/Silicon/Chassis/generic.rsi
@@ -121,7 +121,7 @@
 - type: entity
   parent: BorgGenericSubtypeBase
   id: BorgGenericSubtypeNoble
-  name: Noble-STD
+  name: Благородный-СТД
   components:
     - type: BorgSubtypeDefinition
       spritePath: Mobs/Silicon/Chassis/generic.rsi
@@ -134,7 +134,7 @@
 - type: entity
   parent: BorgGenericSubtypeBase
   id: BorgGenericSubtypeMezo
-  name: Mezo
+  name: Мезо
   components:
     - type: BorgSubtypeDefinition
       spritePath: _Starlight/Mobs/Silicon/Chassis/mezo.rsi
@@ -148,7 +148,7 @@
 - type: entity
   parent: BorgJanitorSubtypeBase
   id: BorgJanitorSubtypeStandard
-  name: "Standard # ITS ISNT A TYPO ITS STANDARD INSTEAD OF STANDART"
+  name: Стандарт
   components:
     - type: BorgSubtypeDefinition
       spritePath: Mobs/Silicon/Chassis/janitor.rsi
@@ -161,7 +161,7 @@
 - type: entity
   parent: BorgJanitorSubtypeBase
   id: BorgJanitorSubtypeGeneric
-  name: Generic
+  name: Обычный
   components:
     - type: BorgSubtypeDefinition
       spritePath: Mobs/Silicon/Chassis/janitor.rsi
@@ -174,7 +174,7 @@
 - type: entity
   parent: BorgJanitorSubtypeBase
   id: BorgJanitorSubtypeMopbot
-  name: Mopbot
+  name: Швабробот
   components:
     - type: BorgSubtypeDefinition
       spritePath: Mobs/Silicon/Chassis/janitor.rsi
@@ -187,7 +187,7 @@
 - type: entity
   parent: BorgJanitorSubtypeBase
   id: BorgJanitorSubtypeNoble
-  name: Noble-CLN
+  name: Благородный-УБР
   components:
     - type: BorgSubtypeDefinition
       spritePath: Mobs/Silicon/Chassis/janitor.rsi
@@ -200,7 +200,7 @@
 - type: entity
   parent: BorgJanitorSubtypeBase
   id: BorgJanitorSubtypeCricket
-  name: Cricket
+  name: Сверчок
   components:
     - type: BorgSubtypeDefinition
       spritePath: Mobs/Silicon/Chassis/janitor.rsi
@@ -226,7 +226,7 @@
 - type: entity
   parent: BorgJanitorSubtypeBase
   id: BorgJanitorSubtypeMezo
-  name: Mezo
+  name: Мезо
   components:
     - type: BorgSubtypeDefinition
       spritePath: _Starlight/Mobs/Silicon/Chassis/mezo.rsi
@@ -240,7 +240,7 @@
 - type: entity
   parent: BorgMedicalSubtypeBase
   id: BorgMedicalSubtypeStandard
-  name: Standard
+  name: Стандартный
   components:
     - type: BorgSubtypeDefinition
       spritePath: Mobs/Silicon/Chassis/medical.rsi
@@ -253,7 +253,7 @@
 - type: entity
   parent: BorgMedicalSubtypeBase
   id: BorgMedicalSubtypeGeneric
-  name: Generic
+  name: Обычный
   components:
     - type: BorgSubtypeDefinition
       spritePath: Mobs/Silicon/Chassis/medical.rsi
@@ -266,7 +266,7 @@
 - type: entity
   parent: BorgMedicalSubtypeBase
   id: BorgMedicalSubtypeNeedles
-  name: Needles
+  name: Иглы
   components:
     - type: BorgSubtypeDefinition
       spritePath: Mobs/Silicon/Chassis/medical.rsi
@@ -292,7 +292,7 @@
 - type: entity
   parent: BorgMedicalSubtypeBase
   id: BorgMedicalSubtypeNoble
-  name: Noble-MED
+  name: Благородный-МЕД
   components:
     - type: BorgSubtypeDefinition
       spritePath: Mobs/Silicon/Chassis/medical.rsi
@@ -305,7 +305,7 @@
 - type: entity
   parent: BorgMedicalSubtypeBase
   id: BorgMedicalSubtypeCricket
-  name: Cricket
+  name: Сверчок
   components:
     - type: BorgSubtypeDefinition
       spritePath: Mobs/Silicon/Chassis/medical.rsi
@@ -331,7 +331,7 @@
 - type: entity
   parent: BorgMedicalSubtypeBase
   id: BorgMedicalSubtypeMezo
-  name: Mezo
+  name: Мезо
   components:
     - type: BorgSubtypeDefinition
       spritePath: _Starlight/Mobs/Silicon/Chassis/mezo.rsi
@@ -345,7 +345,7 @@
 - type: entity
   parent: BorgMiningSubtypeBase
   id: BorgMiningSubtypeMiningStandard
-  name: Standard
+  name: Стандартный
   components:
     - type: BorgSubtypeDefinition
       spritePath: Mobs/Silicon/Chassis/miner.rsi
@@ -358,7 +358,7 @@
 - type: entity
   parent: BorgMiningSubtypeBase
   id: BorgMiningSubtypeMiningGeneric
-  name: Generic
+  name: Обычный
   components:
     - type: BorgSubtypeDefinition
       spritePath: Mobs/Silicon/Chassis/miner.rsi
@@ -384,7 +384,7 @@
 - type: entity
   parent: BorgMiningSubtypeBase
   id: BorgMiningSubtypeMiningNoble
-  name: Noble-DIG
+  name: Благородный-ДОБ
   components:
     - type: BorgSubtypeDefinition
       spritePath: Mobs/Silicon/Chassis/miner.rsi
@@ -397,7 +397,7 @@
 - type: entity
   parent: BorgMiningSubtypeBase
   id: BorgMiningSubtypeMiningCricket
-  name: Cricket
+  name: Сверчок
   components:
     - type: BorgSubtypeDefinition
       spritePath: Mobs/Silicon/Chassis/miner.rsi
@@ -410,7 +410,7 @@
 - type: entity
   parent: BorgMiningSubtypeBase
   id: BorgMiningSubtypeMiningBeetle
-  name: Beetle
+  name: Жук
   components:
     - type: BorgSubtypeDefinition
       spritePath: Mobs/Silicon/Chassis/miner.rsi
@@ -436,7 +436,7 @@
 - type: entity
   parent: BorgMiningSubtypeBase
   id: BorgMiningSubtypeMezo
-  name: Mezo
+  name: Мезо
   components:
     - type: BorgSubtypeDefinition
       spritePath: _Starlight/Mobs/Silicon/Chassis/mezo.rsi
@@ -450,7 +450,7 @@
 - type: entity
   parent: BorgServiceSubtypeBase
   id: BorgServiceSubtypeStandard
-  name: Standard
+  name: Стандартный
   components:
     - type: BorgSubtypeDefinition
       spritePath: Mobs/Silicon/Chassis/service.rsi
@@ -463,7 +463,7 @@
 - type: entity
   parent: BorgServiceSubtypeBase
   id: BorgServiceSubtypeGeneric
-  name: Generic
+  name: Обычный
   components:
     - type: BorgSubtypeDefinition
       spritePath: Mobs/Silicon/Chassis/service.rsi
@@ -473,7 +473,7 @@
 - type: entity
   parent: BorgServiceSubtypeBase
   id: BorgServiceSubtypeWaitress
-  name: Waitress
+  name: Официантка
   components:
     - type: BorgSubtypeDefinition
       spritePath: Mobs/Silicon/Chassis/service.rsi
@@ -483,7 +483,7 @@
 - type: entity
   parent: BorgServiceSubtypeBase
   id: BorgServiceSubtypeBrobot
-  name: Brobot
+  name: Бробот
   components:
     - type: BorgSubtypeDefinition
       spritePath: Mobs/Silicon/Chassis/service.rsi
@@ -495,7 +495,7 @@
 - type: entity
   parent: BorgServiceSubtypeBase
   id: BorgServiceSubtypeMaximillion
-  name: Maximillion
+  name: Максимиллион
   components:
     - type: BorgSubtypeDefinition
       spritePath: Mobs/Silicon/Chassis/service.rsi
@@ -508,7 +508,7 @@
 - type: entity
   parent: BorgServiceSubtypeBase
   id: BorgServiceSubtypeNoble
-  name: Noble-SRV
+  name: Благородный-СРВ
   components:
     - type: BorgSubtypeDefinition
       spritePath: Mobs/Silicon/Chassis/service.rsi
@@ -521,7 +521,7 @@
 - type: entity
   parent: BorgServiceSubtypeBase
   id: BorgServiceSubtypeCricket
-  name: Cricket
+  name: Сверчок
   components:
     - type: BorgSubtypeDefinition
       spritePath: Mobs/Silicon/Chassis/service.rsi
@@ -547,7 +547,7 @@
 - type: entity
   parent: BorgServiceSubtypeBase
   id: BorgServiceSubtypeMezo
-  name: Mezo
+  name: Мезо
   components:
     - type: BorgSubtypeDefinition
       spritePath: _Starlight/Mobs/Silicon/Chassis/mezo.rsi
@@ -587,7 +587,7 @@
 - type: entity
   parent: BorgSecuritySubtypeBase
   id: BorgSecuritySubtypeStandard
-  name: Standard
+  name: Стандартный
   components:
     - type: BorgSubtypeDefinition
       spritePath: _Starlight/Mobs/Silicon/Chassis/security.rsi
@@ -600,7 +600,7 @@
 - type: entity
   parent: BorgSecuritySubtypeBase
   id: BorgSecuritySubtypeNoble
-  name: Noble-SEC
+  name: Благородный-СБ
   components:
     - type: BorgSubtypeDefinition
       spritePath: _Starlight/Mobs/Silicon/Chassis/security.rsi
@@ -613,7 +613,7 @@
 - type: entity
   parent: BorgSecuritySubtypeBase
   id: BorgSecuritySubtypeCricket
-  name: Cricket
+  name: Сверчок
   components:
     - type: BorgSubtypeDefinition
       spritePath: _Starlight/Mobs/Silicon/Chassis/security.rsi
@@ -626,7 +626,7 @@
 - type: entity
   parent: BorgSecuritySubtypeBase
   id: BorgSecuritySubtypeHeavy
-  name: Heavy
+  name: Тяжёлый
   components:
     - type: BorgSubtypeDefinition
       spritePath: _Starlight/Mobs/Silicon/Chassis/security.rsi
@@ -641,7 +641,7 @@
 - type: entity
   parent: BorgCargoSubtypeBase
   id: BorgMiningSubtypeCargoStandard
-  name: Standard
+  name: Стандартный
   components:
     - type: BorgSubtypeDefinition
       spritePath: Mobs/Silicon/Chassis/cargo.rsi
@@ -654,7 +654,7 @@
 - type: entity
   parent: BorgCargoSubtypeBase
   id: BorgMiningSubtypeCargoNoble
-  name: Noble-SUP
+  name: Благородный-СНБ
   components:
     - type: BorgSubtypeDefinition
       spritePath: Mobs/Silicon/Chassis/cargo.rsi
@@ -666,7 +666,7 @@
 - type: entity
   parent: BorgCargoSubtypeBase
   id: BorgMiningSubtypeCargoCricket
-  name: Cricket
+  name: Сверчок
   components:
     - type: BorgSubtypeDefinition
       spritePath: Mobs/Silicon/Chassis/cargo.rsi
@@ -718,7 +718,7 @@
 - type: entity
   parent: BorgCargoSubtypeBase
   id: BorgCargoSubtypeMezo
-  name: Mezo
+  name: Мезо
   components:
     - type: BorgSubtypeDefinition
       spritePath: _Starlight/Mobs/Silicon/Chassis/mezo.rsi

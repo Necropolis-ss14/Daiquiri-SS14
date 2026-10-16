@@ -1,0 +1,11 @@
+contraband-type-syndicate = Синдикат
+contraband-type-magical = магическая
+contraband-type-ussp = СССП
+contraband-type-tsf = Транс-Солнечная Федерация
+contraband-type-cybernetic = кибернетическая
+contraband-type-medtak = МедТак
+contraband-type-casino = Казино Гаморра
+contraband-type-cosmic = космический культ
+contraband-type-central-command = Центральное командование
+contraband-type-nanotrasen = NanoTrasen
+contraband-type-eto = ОТО

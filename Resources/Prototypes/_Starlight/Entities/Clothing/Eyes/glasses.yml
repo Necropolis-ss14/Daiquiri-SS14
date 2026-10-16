@@ -2,7 +2,7 @@
   parent: [ClothingEyesBase, ShowSecurityIcons, BaseSecurityContraband]
   id: ClothingEyesGlassesBrigmedic
   name: очки бригмедика
-  description: High-quality hud that can protect against flashes. Tamashi-style!
+  description: Высококачественный худ, защищающий от вспышек. В стиле Тамаси!
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Glasses/brigmedicglasses.rsi
@@ -34,7 +34,7 @@
   parent: [ClothingEyesBase, ShowSecurityIcons, BaseSecurityContraband]
   id: ClothingEyesGlassesCorpsman
   name: очки санитара
-  description: Can protect against flashes much like security glasses, and track vitals!
+  description: Защищает от вспышек не хуже очков службы безопасности, а также отслеживает жизненные показатели!
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Eyes/Glasses/corpsman.rsi
@@ -65,7 +65,7 @@
   parent: ClothingEyesBase
   id: ClothingEyesGlassesJensenChemical
   name: улучшенные очки Дженсена
-  description: A pair of magenta tinted folding glasses that can scan the chemical composition of a solution. You specifically asked for these.
+  description: Пара складных очков с пурпурным оттенком, сканирующих химический состав раствора. Вы специально просили именно эти.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Eyes/Glasses/advancedjensen.rsi
@@ -82,7 +82,7 @@
   parent: ClothingEyesGlassesCheapSunglasses
   id: ClothingEyesGlassesMusicianSunglasses
   name: очки музыканта
-  description: A stylish pair of purple shades. They function as sunglasses, too.
+  description: Стильная пара фиолетовых очков. Работают и как солнцезащитные.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Eyes/Glasses/musicianglasses.rsi
@@ -104,7 +104,7 @@
   parent: ClothingEyesBase
   id: ClothingEyesSunGlassesHudSkill
   name: солнцезащитные очки навыков
-  description: Sunglasses with a build-in skills HUD, showing the employment history of nearby NT crew members.
+  description: Солнцезащитные очки со встроенным HUD навыков, показывающим трудовую историю ближайших членов экипажа НТ.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Eyes/Glasses/sunhudskill.rsi
@@ -124,7 +124,7 @@
   parent: [ ClothingEyesBase, BaseBlueShieldContraband ]
   id: ClothingEyesGlassesBlueShield
   name: очки блюшилда
-  description: The innovative blue lenses hide your eyes from light flashes and have a built-in visor.
+  description: Инновационные синие линзы скрывают глаза от вспышек света и имеют встроенный визор.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Eyes/Glasses/blueshield.rsi
@@ -157,7 +157,7 @@
   parent: ClothingEyesGlassesBlueShield
   id: ClothingEyesGlassesNanotrasen
   name: очки НаноТрейзен
-  description: The latest in NanoTrasen technology has lead up to these glasses, only given to the best of the best.
+  description: Новейшие технологии NanoTrasen, воплощённые в этих очках, выдаваемых только лучшим из лучших.
   components:
   - type: FlashImmunity
     blocksSpecialVision: False
@@ -202,7 +202,7 @@
   parent: ClothingEyesGlassesCentCommBase
   id: ClothingEyesGlassesCentComm
   name: очки офицера ЦК
-  description: The innovative green lenses hide your eyes from light flashes and have a built-in visor.
+  description: Инновационные зелёные линзы скрывают глаза от вспышек света и имеют встроенный визор.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Eyes/Glasses/centcomm.rsi
@@ -222,7 +222,7 @@
   parent: [ClothingEyesBase, ShowSecurityIcons, BaseSecurityContraband]
   id: ClothingEyesGlassesBrigmedicPrescription
   name: рецептурные очки бригмедика
-  description: A set of unshielded prescription glasses for Brigmedics.
+  description: Набор неэкранированных рецептурных очков для бригмедиков.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Eyes/Glasses/prescriptionbrigmedicglasses.rsi
@@ -244,7 +244,7 @@
   parent: [ClothingEyesBase, ShowMedicalIcons]
   id: ClothingEyeGlassesMedicalPrescription
   name: рецептурные медицинские очки
-  description: A set of prescription glasses for Doctors. Not covered under insurance.
+  description: Набор рецептурных очков для врачей. Страховкой не покрывается.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Eyes/Glasses/prescriptionmedical.rsi
@@ -261,7 +261,7 @@
   parent: [ClothingEyesBase, ShowSecurityIcons, BaseSecurityContraband]
   id: ClothingEyeGlassesSecurityPrescription
   name: рецептурные очки службы безопасности
-  description: A set of unshielded prescription glasses for Security.
+  description: Набор неэкранированных рецептурных очков для службы безопасности.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Eyes/Glasses/prescriptionsecglasses.rsi
@@ -277,7 +277,7 @@
   parent: ClothingEyesGlassesChemical
   id: ClothingEyeGlassesChemicalPrescription
   name: рецептурные очки химического анализа
-  description: A set of prescription glasses for chemists.
+  description: Набор рецептурных очков для химиков.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Eyes/Glasses/prescriptionscience.rsi
@@ -289,7 +289,7 @@
   parent: ClothingEyesGlassesCentCommBase
   id: ClothingEyesGlassesCentCommPrescription
   name: рецептурные очки ЦК
-  description: A set of prescription glasses for CentComm personnel. Protects against flashes and has a built-in visor.
+  description: Набор рецептурных очков для персонала ЦК. Защищает от вспышек и имеет встроенный визор.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Eyes/Glasses/prescriptioncentcomm.rsi
@@ -303,7 +303,7 @@
   parent: ClothingEyesBase
   id: ClothingEyesGlassesSKBGlasses
   name: дешёвые солнцезащитные очки
-  description: A pair of black sunglasses. Doesn't block light well, more of an accessory than something useful.
+  description: Пара чёрных солнцезащитных очков. Плохо блокирует свет, скорее аксессуар, чем полезная вещь.
   suffix: SKB
   components:
   - type: Sprite
@@ -324,7 +324,7 @@
   parent: [ClothingEyesBase, BaseSecurityContraband, BaseScienceContraband, BaseCommandContraband]
   id: ClothingEyesGlassesNullSpace
   name: гогглы нуль-пространства
-  description: An unusual pair of goggles developed during a time of inhumane experimentation involving Shadekin. They are designed to allow the wearer to peer into NullSpace.
+  description: Необычная пара гогглов, разработанных во времена бесчеловечных экспериментов с участием шейдкинов. Позволяют владельцу заглянуть в Нуль-пространство.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Eyes/Glasses/nullspacegoogles.rsi
@@ -341,7 +341,7 @@
   parent: [ ClothingEyesBase, BaseSalvageContraband ]
   id: ClothingEyesGlassesSalvageMercenary
   name: очки утилизатора
-  description: Glasses made for salvaging. They provide protection from welding and flashes.
+  description: Очки для утилизаторов. Защищают от сварки и вспышек.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Eyes/Glasses/salvage.rsi
@@ -357,7 +357,7 @@
   parent: [ClothingEyesBase, BaseToggleClothing]
   id: ClothingEyesSpaceCourierGoggles
   name: гогглы космического курьера
-  description: Stylish space courier replica goggles. Provides nominal eye protection, but you shouldn't count on it.
+  description: Стильные гогглы-реплика космического курьера. Дают номинальную защиту глаз, но рассчитывать на неё не стоит.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Eyes/Glasses/spacecourier.rsi
@@ -392,7 +392,7 @@
   parent: ClothingEyesGlassesCentCommBase
   id: ClothingEyesGlassesJamjarCentComm
   name: толстые очки ЦК
-  description: For looking at their profits with even wider eyes.
+  description: Чтобы смотреть на свою прибыль ещё более широко раскрытыми глазами.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Eyes/Glasses/jamjarcentcomm.rsi
@@ -404,7 +404,7 @@
   parent: ClothingEyesBase
   id: ClothingEyesGlassesNoirAssistant
   name: дешёвые нуар-тек очки
-  description: A pair of glasses that simulate what the world looked like before the invention of color.
+  description: Пара очков, показывающих, каким был мир до изобретения цвета.
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Glasses/noir.rsi

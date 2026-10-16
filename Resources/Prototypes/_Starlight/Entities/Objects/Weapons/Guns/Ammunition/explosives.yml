@@ -33,7 +33,7 @@
   parent: Base120mmGrenade
   id: Grenade120mmBlast
   name: фугасная граната 120мм
-  description: A devastating 120mm blast grenade designed for the CYERXA cannon system. Three times more powerful than standard blast grenades.
+  description: Разрушительная фугасная граната 120мм для пушки CYERXA. Втрое мощнее обычных.
   components:
   - type: CartridgeAmmo
     proto: BulletGrenade120mmBlast
@@ -54,7 +54,7 @@
   parent: BaseMagazineGrenade
   id: Magazine120mmGrenadeBlast
   name: магазин фугасных гранат 120мм
-  description: A large 20-round magazine loaded with powerful blast grenades for the CYERXA cannon system.
+  description: Большой магазин на 20 фугасных гранат для пушки CYERXA.
   components:
   - type: Tag
     tags:
@@ -125,7 +125,7 @@
   parent: [BaseItem, BaseMajorContraband]
   id: Cartridge60mmRocket
   name: ракета 60мм
-  description: A 60mm rocket cartridge designed for the Vanyk-MK2 shuttle cannon system. Smaller and lighter than standard RPG rounds but still packs a punch.
+  description: Ракетный патрон 60мм для челночной пушки Vanyk-MK2. Меньше и легче обычных снарядов РПГ, но бьёт сильно.
   components:
   - type: Tag
     tags:
@@ -146,7 +146,7 @@
   parent: BaseMagazineGrenade
   id: Magazine60mmRocket
   name: магазин ракет 60мм
-  description: A high-capacity 30-round magazine loaded with 60mm rockets for the Vanyk-MK2 shuttle cannon system.
+  description: Магазин повышенной ёмкости на 30 ракет 60мм для челночной пушки Vanyk-MK2.
   components:
   - type: Tag
     tags:
@@ -200,7 +200,7 @@
 - type: entity
   id: GrenadeGaslauncher
   name: газовая граната
-  description: Able to choke a room or several of your friends.
+  description: Можно задымить комнату или парочку друзей.
   parent: [ BaseContrabandTier2, BaseGrenade, BaseSecurityContraband ] # Blimpuf
   components:
   - type: CartridgeAmmo
@@ -221,7 +221,7 @@
 - type: entity
   id: GrenadeStingerlauncher
   name: стингер-граната
-  description: An unruly crowd's favourite.
+  description: Любимица неуправляемой толпы.
   parent: [ BaseContrabandTier2, BaseGrenade, BaseSecurityContraband ] # Blimpuf
   components:
   - type: CartridgeAmmo

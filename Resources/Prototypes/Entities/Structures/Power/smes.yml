@@ -140,8 +140,8 @@
   parent: BaseSMES
   id: SMESAdvanced
   suffix: Advanced, 16MJ
-  name: advanced SMES
-  description: An even-higher-capacity superconducting magnetic energy storage (SMES) unit.
+  name: продвинутый СМЭС
+  description: Сверхпроводящая Магнитная Энергонакопительная Станция (СМЭС) ещё большей ёмкости.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Power/smes.rsi #SL Edit

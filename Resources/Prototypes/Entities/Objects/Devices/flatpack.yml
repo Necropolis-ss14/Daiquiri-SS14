@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: BaseFlatpack
-  name: base flatpack
-  description: A flatpack used for constructing something.
+  name: флатпак базовый
+  description: Флатпак для строительства чего-то.
   categories:
   - HideSpawnMenu
   components:
@@ -39,8 +39,8 @@
 - type: entity
   parent: BaseFlatpack
   id: SolarAssemblyFlatpack
-  name: solar assembly flatpack
-  description: A flatpack used for constructing a solar assembly.
+  name: флатпак каркаса солнечной панели
+  description: Флатпак для строительства каркаса солнечной панели.
   components:
   - type: Flatpack
     entity: SolarAssembly
@@ -53,8 +53,8 @@
 - type: entity
   parent: BaseFlatpack
   id: AmePartFlatpack
-  name: AME flatpack
-  description: A flatpack used for constructing an antimatter engine reactor.
+  name: флатпак ДАМ
+  description: Флатпак для строительства двигателя антиматерии.
   components:
   - type: Sprite
     layers:
@@ -73,8 +73,8 @@
 - type: entity
   parent: BaseFlatpack
   id: SingularityGeneratorFlatpack
-  name: singularity generator flatpack
-  description: A flatpack used for constructing a singularity generator.
+  name: флатпак генератора сингулярности
+  description: Флатпак для строительства генератора сингулярности.
   components:
   - type: Flatpack
     entity: SingularityGenerator
@@ -89,8 +89,8 @@
 - type: entity
   parent: BaseFlatpack
   id: RadiationCollectorFlatpack
-  name: radiation collector flatpack
-  description: A flatpack used for constructing a radiation collector.
+  name: флатпак коллектора радиации
+  description: Флатпак для строительства коллектора радиации.
   components:
   - type: Flatpack
     entity: RadiationCollectorNoTank
@@ -105,8 +105,8 @@
 - type: entity
   parent: BaseFlatpack
   id: ContainmentFieldGeneratorFlatpack
-  name: containment field generator flatpack
-  description: A flatpack used for constructing a containment field generator.
+  name: флатпак генератора сдерживающего поля
+  description: Флатпак для строительства генератора сдерживающего поля.
   components:
   - type: Flatpack
     entity: ContainmentFieldGenerator
@@ -121,8 +121,8 @@
 - type: entity
   parent: BaseFlatpack
   id: EmitterFlatpack
-  name: emitter flatpack
-  description: A flatpack used for constructing an emitter.
+  name: флатпак эмиттера
+  description: Флатпак для строительства эмиттера.
   components:
   - type: Flatpack
     entity: Emitter
@@ -137,8 +137,8 @@
 - type: entity
   parent: BaseFlatpack
   id: TeslaGeneratorFlatpack
-  name: tesla generator flatpack
-  description: A flatpack used for constructing a tesla generator.
+  name: флатпак генератора Теслы
+  description: Флатпак для строительства генератора Теслы.
   components:
   - type: Flatpack
     entity: TeslaGenerator
@@ -153,8 +153,8 @@
 - type: entity
   parent: BaseFlatpack
   id: TeslaCoilFlatpack
-  name: tesla coil flatpack
-  description: A flatpack used for constructing a tesla coil.
+  name: флатпак катушки Теслы
+  description: Флатпак для строительства катушки Теслы.
   components:
   - type: Flatpack
     entity: TeslaCoil
@@ -169,8 +169,8 @@
 - type: entity
   parent: BaseFlatpack
   id: TeslaGroundingRodFlatpack
-  name: grounding rod flatpack
-  description: A flatpack used for constructing a grounding rod.
+  name: флатпак заземляющего стержня
+  description: Флатпак для строительства заземляющего стержня.
   components:
   - type: Flatpack
     entity: TeslaGroundingRod
@@ -185,8 +185,8 @@
 - type: entity
   parent: BaseFlatpack
   id: GyroscopeFlatpack
-  name: gyroscope flatpack
-  description: A flatpack used for constructing a gyroscope.
+  name: флатпак гироскопа
+  description: Флатпак для строительства гироскопа.
   components:
   - type: Flatpack
     entity: Gyroscope
@@ -200,8 +200,8 @@
 - type: entity
   parent: BaseFlatpack
   id: ThrusterFlatpack
-  name: thruster flatpack
-  description: A flatpack used for constructing a thruster.
+  name: флатпак ракетного двигателя
+  description: Флатпак для строительства ракетного двигателя.
   components:
   - type: Flatpack
     entity: Thruster
@@ -215,8 +215,8 @@
 - type: entity
   parent: BaseFlatpack
   id: SpaceHeaterFlatpack
-  name: space heater flatpack
-  description: A flatpack used for constructing a space heater.
+  name: флатпак термостата
+  description: Флатпак для строительства термостата.
   components:
   - type: Flatpack
     entity: SpaceHeaterAnchored
@@ -224,8 +224,8 @@
 - type: entity
   parent: BaseFlatpack
   id: FaxMachineFlatpack
-  name: fax machine flatpack
-  description: A flatpack used for constructing a fax machine.
+  name: флатпак факса
+  description: Флатпак для строительства факса.
   components:
   - type: Sprite
     layers:
@@ -236,8 +236,8 @@
 - type: entity
   parent: BaseFlatpack
   id: CrewMonitoringServerFlatpack
-  name: crew monitoring server flatpack
-  description: A flatpack used for constructing a crew monitoring server.
+  name: флатпак сервера мониторинга экипажа
+  description: Флатпак для строительства сервера мониторинга экипажа.
   components:
   - type: Flatpack
     entity: CrewMonitoringServer
@@ -245,8 +245,8 @@
 - type: entity
   parent: BaseFlatpack
   id: CrewMonitoringComputerFlatpack
-  name: crew monitoring computer flatpack
-  description: A flatpack used for constructing a crew monitoring console.
+  name: флатпак консоли мониторинга экипажа
+  description: Флатпак для строительства консоли мониторинга экипажа.
   components:
   - type: Flatpack
     entity: ComputerCrewMonitoring
@@ -254,8 +254,8 @@
 - type: entity
   parent: BaseFlatpack
   id: HydroponicsTrayFlatpack
-  name: hydroponics tray flatpack
-  description: A flatpack used for constructing a hydroponics tray.
+  name: флатпак гидропонного лотка
+  description: Флатпак для строительства гидропонного лотка.
   components:
   - type: Flatpack
     entity: hydroponicsTray
@@ -270,8 +270,8 @@
 - type: entity
   parent: [ BaseFlatpack, BaseSyndicateContraband ]
   id: SyndicateMicrowaveFlatpack
-  name: donk co. microwave flatpack
-  description: A flatpack used for constructing a microwave too hot for Nanotrasen to handle.
+  name: флатпак микроволновки Донк Ко
+  description: Флатпак для строительства микроволновки, слишком горячей для NanoTrasen.
   components:
   - type: Item
     size: Normal

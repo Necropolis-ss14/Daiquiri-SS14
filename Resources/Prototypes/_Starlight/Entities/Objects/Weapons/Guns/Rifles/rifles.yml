@@ -24,10 +24,10 @@
             - CartridgeRifle
 
 - type: entity
-  name: lr-30
+  name: лр-30
   parent: [ BaseContrabandTier3, BaseItem, BaseGunWieldable, BaseSecurityContraband, BaseSalvageContraband ] # Blimpuf
   id: WeaponRifleLr30
-  description: Energy carbine with lethal mode.
+  description: Энергокарабин с летальным режимом.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Guns/Rifles/lr30.rsi
@@ -83,10 +83,10 @@
     heatPerShot: 1600
 
 - type: entity
-  name: IK-60 laser carbine
+  name: лазерный карабин ИК-60
   parent: [ BaseContrabandTier3, BaseItem, BaseGunWieldable, BaseSecurityContraband ] # Blimpuf
   id: WeaponRifleIK60
-  description: A short, compact rifle-like carbine that relies more on battery-powered ammunition rather than a built-in battery. Used by the NanoTrasen Space Force in combat operations.
+  description: Короткий компактный карабин под батарейные патроны вместо встроенной батареи. На вооружении космических сил NanoTrasen.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Guns/Rifles/laser_carbine.rsi
@@ -139,10 +139,10 @@
     heatPerShot: 1000
 
 - type: entity
-  name: Aussec Armory M-52
+  name: Ауссек Армори М-52
   parent: [BaseTSFContraband, WeaponRifleLecter]
   id: WeaponRifleM52
-  description: One of the least popular examples of heavy assault rifles. It has impressive firepower.
+  description: Один из самых непопулярных тяжёлых автоматов. Зато впечатляющая огневая мощь.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Guns/Rifles/m-52.rsi
@@ -179,10 +179,10 @@
             - CartridgeRifle
 
 - type: entity
-  name: L10 DMR
+  name: Л10 ДМР
   parent: [ BaseContrabandTier3, BaseWeaponRifle, BaseSecurityContraband ] # Blimpuf
   id: WeaponRifleL10
-  description: "A scoped marksman rifle for medium range engagements, built on the Lecter platform.\nChambered in .45 magnum."
+  description: Марксманская винтовка с оптикой для средних дистанций на платформе Lecter. Под .45 магнум.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Guns/Rifles/L10.rsi
@@ -249,10 +249,10 @@
 
 
 - type: entity
-  name: Pitbull
+  name: Питбуль
   parent: [ BaseWeaponRifle, BaseSyndicateContraband ]
   id: WeaponRiflePitbull
-  description: A large bullpup rifle with a low fire-rate but excellent accuracy. Chambered in .45 magnum.
+  description: Крупная буллпап-винтовка с низкой скорострельностью, но отличной точностью. Под .45 магнум.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Guns/Rifles/pitbull.rsi
@@ -302,10 +302,10 @@
 
 
 - type: entity
-  name: Peacemaker
+  name: Миротворец
   parent: [ BaseContrabandTier3, BaseWeaponRifle, BaseSecurityContraband ] # Blimpuf
   id: WeaponRiflePeacemaker
-  description: The best or worst thing you'll ever see, depending if it's pointed at you or not. Uses .20 rifle ammo.
+  description: Лучшее или худшее, что ты увидишь, смотря с какой стороны ствола. Под винтовочные .20.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Guns/Rifles/ert.rsi
@@ -360,21 +360,21 @@
     angleIncreaseDivider: 2
 
 - type: entity
-  name: ForceableFollow AKMS
+  name: АКМС
   parent: [ WeaponRifleAk, BaseSovietContraband ]
   id: WeaponRifleAkAdmeme
   suffix: Admeme
-  description: An iconic weapon of war. Uses .30 rifle ammo.
+  description: Культовое оружие войны. Под винтовочные .30.
   components:
   - type: Tag
     tags:
     - ForceableFollow
 
 - type: entity
-  name: Lawbringer
+  name: Законодатель
   parent: [ BaseContrabandTier3, BaseWeaponRifle, BaseSecurityContraband ] # Blimpuf
   id: WeaponRifleLawbringer
-  description: "A bullpup carbine of modern design, commissioned by CentComm for their security forces.\nFeeds from .30 rifle magazines."
+  description: Буллпап-карабин современного дизайна, заказан CentComm для своих охранных сил. Питается от винтовочных магазинов .30.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Guns/Rifles/lawbringer.rsi
@@ -417,10 +417,10 @@
   - type: Appearance
 
 - type: entity
-  name: Bolt Rifle
+  name: болтовая винтовка
   parent: [ BaseWeaponRifle, BaseSalvageContraband ]
   id: WeaponRifleBolt
-  description: A terrifyingly powerful and rugged rifle commonly used by the ITG for their frontier logistic escorts and salvage teams. Fires high-caliber explosive impact bolts. Watch out for the recoil.
+  description: Жутко мощная и прочная винтовка, обычная у фронтирных конвоев логистики и добывающих команд ITG. Стреляет крупными взрывными ударными болтами. Осторожно с отдачей.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Guns/Rifles/impact_bolt_rifle.rsi

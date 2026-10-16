@@ -1,7 +1,7 @@
 - type: entity
   parent: ESEffectSparks
   id: MoffEffectSparksSilent
-  name: sparks
+  name: искры
   categories: [ HideSpawnMenu ]
   components:
   - type: EmitSoundOnSpawn
@@ -10,7 +10,7 @@
 - type: entity
   parent: ESEffectSparks
   id: MoffEffectSparksWelding
-  name: sparks
+  name: искры
   categories: [ HideSpawnMenu ]
   components:
   - type: EmitSoundOnSpawn
@@ -24,7 +24,7 @@
 - type: entity
   parent: ESEffectSparks
   id: MoffEffectSparksBluespace
-  name: sparks
+  name: искры
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -54,7 +54,7 @@
 - type: entity
   parent: ESEffectSparks
   id: MoffEffectSparksRedspace
-  name: sparks
+  name: искры
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite # Starlight start

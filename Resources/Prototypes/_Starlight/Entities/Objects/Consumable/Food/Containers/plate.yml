@@ -6,7 +6,7 @@
   name: праздничная тарелка
   parent: FoodPlate
   id: FoodPlateFestive
-  description: A festive plate. Cheerful.
+  description: Праздничная тарелка. Весёленькая.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Consumable/Food/plate.rsi
@@ -45,7 +45,7 @@
 - type: entity
   parent: FoodPlateTrash
   id: FoodPlateFestiveTrash
-  description: Christmas is over.
+  description: Рождество закончилось.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Consumable/Food/plate.rsi

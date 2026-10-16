@@ -1,8 +1,8 @@
 - type: entity
-  name: Breaching Hammer
+  name: штурмовой молот
   parent: [ BaseContrabandTier3, BaseItem, BaseSecurityContraband ] # Blimpuf
   id: HammerBreachingNT
-  description: A robust heavy hammer made for breaching through walls and doors. Its reinforced head and sturdy handle make it ideal for demolition tasks.
+  description: Прочный тяжёлый молот для пролома стен и дверей. Усиленная голова и крепкая рукоять идеальны для сноса.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Melee/BreachingHammer.rsi

@@ -18,7 +18,7 @@
   parent: [BaseItem, BaseMajorContraband]
   id: Cartridge50mmRocket
   name: ракета 50мм
-  description: A 50mm rocket cartridge designed for the ADMP-27 VESPERA shuttle cannon system. Smaller and lighter than standard RPG rounds but still packs a punch.
+  description: Ракетный патрон 50мм для челночной пушки ADMP-27 VESPERA. Меньше и легче обычных снарядов РПГ, но бьёт сильно.
   components:
   - type: Tag
     tags:
@@ -39,7 +39,7 @@
   parent: BaseMagazineGrenade
   id: Magazine50mmRocket
   name: магазин ракет 50мм
-  description: A high-capacity 26-round magazine loaded with 60mm rockets for the ADMP-27 VESPERA shuttle cannon system.
+  description: Магазин повышенной ёмкости на 26 ракет 60мм для челночной пушки ADMP-27 VESPERA.
   components:
   - type: Tag
     tags:

@@ -2,7 +2,7 @@
   parent: [BaseComputerCircuitboard, BaseGrandTheftContraband]
   id: RecruitmentComputerCircuitboard
   name: плата компьютера рекрутинга
-  description: A computer printed circuit board for an recruitment computer.
+  description: Плата компьютера рекрутинга
   components:
     - type: Sprite
       state: cpu_command
@@ -18,7 +18,7 @@
   parent: BaseComputerCircuitboard
   id: SalvageShuttleConsoleCircuitboard
   name: плата удалённой консоли шаттла утилизаторов
-  description: A computer printed circuit board for a remote salvage shuttle console.
+  description: Плата удалённой консоли шаттла утилизаторов
   components:
   - type: Sprite
     state: cpu_supply
@@ -29,7 +29,7 @@
   parent: BaseComputerCircuitboard
   id: MassDriverComputerCircuitboard
   name: плата компьютера масс-драйвера
-  description: A computer printed circuit board for an mass driver computer.
+  description: Плата компьютера масс-драйвера
   components:
     - type: Sprite
       state: net_wired
@@ -42,7 +42,7 @@
   parent: [BaseComputerCircuitboard, BaseCommandContraband]
   id: UniversalIdConsoleCircuitboard
   name: плата консоли универсальных ID
-  description: A circuit board for a Universal ID console.
+  description: Плата консоли универсальных ID
   components:
     - type: Sprite
       state: cpu_command
@@ -58,7 +58,7 @@
   parent: BaseComputerCircuitboard
   id: MiningShuttleConsoleCircuitboard
   name: плата удалённой консоли шахтёрского шаттла
-  description: A computer printed circuit board for a remote mining shuttle console.
+  description: Плата удалённой консоли шахтёрского шаттла
   components:
     - type: Sprite
       state: cpu_supply
@@ -71,7 +71,7 @@
   parent: BaseComputerCircuitboard
   id: SecurityShuttleConsoleCircuitboard
   name: плата удалённой консоли шаттла охраны
-  description: A computer printed circuit board for a remote security shuttle console.
+  description: Плата удалённой консоли шаттла охраны
   components:
     - type: Sprite
       state: cpu_supply
@@ -82,7 +82,7 @@
   parent: BaseComputerCircuitboard
   id: XenobiologyConsoleCircuitboard
   name: плата консоли ксенобиологии
-  description: A computer printed circuit board for a xenobiology console.
+  description: Плата консоли ксенобиологии
   components:
     - type: Sprite
       state: cpu_science
@@ -96,7 +96,7 @@
   parent: [ BaseComputerCircuitboard, BaseCommandContraband ]
   id: EngineeringCommsComputerCircuitboard
   name: плата консоли связи инженеров
-  description: A computer printed circuit board for a engineering communications console.
+  description: Плата консоли связи инженеров
   components:
     - type: Sprite
       state: cpu_engineering
@@ -107,7 +107,7 @@
   parent: [ BaseComputerCircuitboard, BaseCommandContraband ]
   id: MedicalCommsComputerCircuitboard
   name: плата консоли связи медиков
-  description: A computer printed circuit board for a medical communications console.
+  description: Плата консоли связи медиков
   components:
     - type: Sprite
       state: cpu_medical
@@ -118,7 +118,7 @@
   parent: [ BaseComputerCircuitboard, BaseCommandContraband ]
   id: ScienceCommsComputerCircuitboard
   name: плата консоли связи науки
-  description: A computer printed circuit board for a science communications console.
+  description: Плата консоли связи науки
   components:
     - type: Sprite
       state: cpu_science
@@ -129,7 +129,7 @@
   parent: [ BaseComputerCircuitboard, BaseCommandContraband ]
   id: SecurityCommsComputerCircuitboard
   name: плата консоли связи СБ
-  description: A computer printed circuit board for a security communications console.
+  description: Плата консоли связи СБ
   components:
     - type: Sprite
       state: cpu_security
@@ -140,7 +140,7 @@
   parent: [ BaseComputerCircuitboard, BaseCommandContraband ]
   id: ServiceCommsComputerCircuitboard
   name: плата консоли связи сервиса
-  description: A computer printed circuit board for a service communications console.
+  description: Плата консоли связи сервиса
   components:
     - type: Sprite
       state: cpu_service
@@ -151,7 +151,7 @@
   parent: [ BaseComputerCircuitboard, BaseCommandContraband ]
   id: CargoCommsComputerCircuitboard
   name: плата консоли связи карго
-  description: A computer printed circuit board for a cargo communications console.
+  description: Плата консоли связи карго
   components:
     - type: Sprite
       state: cpu_supply
@@ -164,7 +164,7 @@
   parent: BaseComputerCircuitboard
   id: ShipyardComputerCircuitboard
   name: плата компьютера верфи
-  description: A computer printed circuit board for a shipyard computer.
+  description: Плата компьютера верфи
   components:
     - type: Sprite
       state: cpu_supply

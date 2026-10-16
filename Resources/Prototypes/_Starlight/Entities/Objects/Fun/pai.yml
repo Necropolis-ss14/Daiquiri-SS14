@@ -2,7 +2,7 @@
   parent: BaseMentalAction
   id: ActionPAIPDA
   name: Открыть КПК
-  description: Opens the PDA UI if you are in one.
+  description: Открывает интерфейс КПК, если вы находитесь в нём.
   components:
     - type: Action
       icon:
@@ -16,7 +16,7 @@
   parent: BaseMentalAction
   id: ActionPAIConsole
   name: Доступ к консоли
-  description: Opens the console UI if you are slotted in one.
+  description: Открывает интерфейс консоли, если вы вставлены в неё.
   components:
   - type: Action
     icon: { sprite: Structures/Machines/computers.rsi, state: avionics-systems }
@@ -34,7 +34,7 @@
   parent: [ PersonalAI, BaseMagicalContraband ]
   id: WizardPersonalAI
   name: персональное ИИ-устройство мага
-  description: Your magical pal who's fun to be with!
+  description: Твой волшебный друг, с которым весело!
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Fun/pai.rsi

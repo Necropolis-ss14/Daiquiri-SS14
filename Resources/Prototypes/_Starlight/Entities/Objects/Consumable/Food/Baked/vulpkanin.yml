@@ -2,7 +2,7 @@
   name: запечённый вульпканин
   parent: [ FoodMealBase, BaseMajorContraband ]
   id: FoodBakedVulpkaninPlate
-  description: You can still see bits of fur on the surface of the dish..
+  description: На поверхности блюда всё ещё видны клочки шерсти..
   components:
     - type: FlavorProfile
       flavors:

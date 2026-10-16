@@ -1,8 +1,8 @@
 - type: entity
   parent: [ BorgHypo, BaseXenoborgContraband ]
   id: LicoxideHypo
-  name: licoxide hypo
-  description: A self-refilling injector for rapid administration of licoxide to victims.
+  name: гипо ликоксид
+  description: Самозаполняющийся инъектор для быстрого введения ликоксида жертвам.
   components:
   - type: Solution
     id: hypospray
@@ -20,8 +20,8 @@
 - type: entity
   parent: [ BorgHypo, BaseXenoborgContraband ]
   id: LicoxideHypoPlus
-  name: licoxide hypo
-  description: A self-refilling injector for rapid administration of licoxide to victims. Has 1.5x the storage of the base one.
+  name: гипо ликоксид
+  description: Самозаполняющийся инъектор для быстрого введения ликоксида жертвам. Вмещает в 1.5 раза больше базового.
   components:
   - type: Solution
     id: hypospray
@@ -39,8 +39,8 @@
 - type: entity
   parent: [ BorgHypo, BaseXenoborgContraband ]
   id: NocturineHypoPlus
-  name: extended nocturine hypo
-  description: A self-refilling injector for rapid administration of nocturine to victims. Has 1.5x the storage of the base one.
+  name: улучшенное гипо ноктурин
+  description: Самозаполняющийся инъектор для быстрого введения ноктурина жертвам. Вмещает в 1.5 раза больше базового.
   components:
   - type: Solution
     id: hypospray
@@ -58,8 +58,8 @@
 - type: entity
   parent: [ BorgHypo, BaseXenoborgContraband ]
   id: MuteToxinHypo
-  name: mute toxin hypo
-  description: A self-refilling injector for rapid administration of mute toxin to victims.
+  name: гипо мутатоксин
+  description: Самозаполняющийся инъектор для быстрого введения мутатоксина жертвам.
   components:
   - type: Solution
     id: hypospray

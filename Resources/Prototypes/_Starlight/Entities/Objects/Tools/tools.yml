@@ -115,7 +115,7 @@
   name: самодельный ломик-ключ
   parent: BaseItem
   id: CrowbarWrenchMakeshift
-  description: Still pretty bad.
+  description: Всё ещё довольно плохо.
   components:
   - type: EmitSoundOnLand
     sound:
@@ -166,7 +166,7 @@
   name: самодельный ломик-ключ-отвёртка
   parent: CrowbarWrenchMakeshift
   id: CrowbarWrenchScrewdriverMakeshift
-  description: It's.. useful?
+  description: Это... полезно?
   components:
   - type: MeleeWeapon
     wideAnimationRotation: -135
@@ -209,7 +209,7 @@
   name: самодельный омни-инструмент
   parent: CrowbarWrenchScrewdriverMakeshift
   id: OmnitoolMakeshift
-  description: Who would've thought a red toolbox would have so many uses?
+  description: Кто бы мог подумать, что у красного ящика с инструментами столько применений?
   components:
   - type: MeleeWeapon
     wideAnimationRotation: -135
@@ -256,7 +256,7 @@
   name: импровизированная отвёртка
   parent: BaseItem
   id: ScrewdriverImprovised
-  description: A handful of metal with some cloth wrapped around it, and sharpened at the tip. It works.
+  description: Горсть металла с намотанной тканью, заточенная на конце. Работает.
   components:
   - type: EmitSoundOnLand
     sound:
@@ -295,7 +295,7 @@
   name: импровизированные кусачки
   parent: BaseItem
   id: WirecutterImprovised
-  description: The metal's just sharp enough to cut through thick wires.
+  description: Металл достаточно остр, чтобы резать толстые провода.
   components:
   - type: EmitSoundOnLand
     sound:
@@ -337,7 +337,7 @@
   name: импровизированный гаечный ключ
   parent: BaseItem
   id: WrenchImprovised
-  description: One size fits all.. Kinda.
+  description: Один размер подходит всем... Вроде.
   components:
   - type: EmitSoundOnLand
     sound:
@@ -379,7 +379,7 @@
   name: импровизированный мультитул
   parent: BaseItem
   id: MultitoolImprovised
-  description: A not so advanced tool to break into places. Why else would you have this?
+  description: Не самый продвинутый инструмент для проникновения. А зачем ещё он вам?
   components:
   - type: EmitSoundOnLand
     sound:
@@ -428,7 +428,7 @@
   name: импровизированный омнитул
   parent: BaseItem
   id: OmnitoolImprovised
-  description: An unholy abomination only second to the great Throngler itself.
+  description: Нечестивая мерзость, уступающая лишь великому Тронклеру.
   components:
   - type: EmitSoundOnLand
     sound:
@@ -683,7 +683,7 @@
   name: кованый омнитул
   parent: [SolutionWelder, BaseItem]
   id: OmnitoolForged
-  description: Some absolute psychopath decided to saw off the heads of all tools they could find and smash it together into a makeshift drill. Looks nice, considering it's origins.
+  description: Какой-то абсолютный психопат решил отпилить головки всех инструментов, что смог найти, и слепить их в импровизированную дрель. Выглядит неплохо, учитывая происхождение.
   components:
   - type: EmitSoundOnLand
     sound:
@@ -924,7 +924,7 @@
   id: RCDChiefEngineer
   parent: RCD
   name: экспериментальное РСУ главного инженера
-  description: A highly advanced Rapid Construction Device which creates compressed matter on the fly using an internal fabricator.
+  description: Высокотехнологичное устройство быстрого строительства, создающее сжатое вещество на лету с помощью внутреннего фабрикатора.
   components:
   - type: LimitedCharges
     maxCharges: 40
@@ -992,7 +992,7 @@
   id: RPDRecharging
   parent: RPD
   name: экспериментальный раздатчик труб
-  description: Cyborg-mounted Rapid Piping Device which creates compressed matter on the fly using an internal fabricator.
+  description: Установленное на киборга устройство быстрой прокладки труб, создающее сжатое вещество на лету с помощью внутреннего фабрикатора.
   suffix: AutoRecharge
   components:
   - type: LimitedCharges
@@ -1005,7 +1005,7 @@
   parent: RPD
   suffix: Admeme
   name: экспериментальный раздатчик труб
-  description: A bluespace-enhanced rapid piping device that passively generates its own compressed matter.
+  description: Улучшенное блюспейс-устройство быстрой прокладки труб, пассивно генерирующее собственное сжатое вещество.
   components:
   - type: AutoRecharge
     rechargeDuration: 1
@@ -1060,7 +1060,7 @@
   id: RPLDRecharging
   parent: RPLD
   name: экспериментальный сантехнический раздатчик
-  description: Cyborg-mounted Rapid Plumbing Device which creates compressed matter on the fly using an internal fabricator.
+  description: Установленное на киборга устройство быстрой прокладки сантехники, создающее сжатое вещество на лету с помощью внутреннего фабрикатора.
   suffix: AutoRecharge
   components:
   - type: LimitedCharges
@@ -1073,7 +1073,7 @@
   parent: RPLD
   suffix: Admeme
   name: экспериментальный сантехнический раздатчик
-  description: A bluespace-enhanced rapid plumbing device that passively generates its own compressed matter.
+  description: Улучшенное блюспейс-устройство быстрой прокладки сантехники, пассивно генерирующее собственное сжатое вещество.
   components:
   - type: AutoRecharge
     rechargeDuration: 1
@@ -1082,7 +1082,7 @@
   id: RCDXeno
   parent: [ BaseContrabandTier2, BaseItem, BaseEngineeringContraband ] # Blimpuf
   name: РСУ ксеноборга
-  description: Xenoborg-mounted Rapid Construction Device which creates compressed matter on the fly using an internal fabricator.
+  description: Установленное на ксеноборга устройство быстрого строительства, создающее сжатое вещество на лету с помощью внутреннего фабрикатора.
   components:
   - type: RCD
     availablePrototypes:
@@ -1145,7 +1145,7 @@
   id: LoadoutRadioERTSec
   parent: ToolboxThief
   name: блюспейс-радио снаряжения
-  description: Highly advanced bluespace technology packed into a radio, allowing you to call for a variety of different loadouts.
+  description: Высокотехнологичная блюспейс-технология в корпусе рации, позволяющая вызывать различные наборы снаряжения.
   suffix: Security
   components:
   - type: Sprite

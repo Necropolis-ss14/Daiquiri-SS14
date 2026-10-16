@@ -1,5 +1,5 @@
 - type: entity
-  name: Clown Corgi Spawner
+  name: спавнер корги-клоуна
   id: SpawnMobClownCorgi
   parent: MarkerBase
   components:
@@ -14,7 +14,7 @@
         - MobCorgiClownIan
 
 - type: entity
-  name: smart subwoofer borgi spawner
+  name: спавнер смарт-сабвуферного борги
   id: SpawnSmartSubwoofer
   parent: MarkerBase
   components:
@@ -27,7 +27,7 @@
         - SmartSubwooferBorgiChassis
 
 - type: entity
-  name: Cargorilla Spawner
+  name: спавнер каргориллы
   id: SpawnMobCargorilla
   parent: MarkerBase
   components:
@@ -42,7 +42,7 @@
         - MobCargorilla
 
 - type: entity
-  name: Gray Xenobiology Slime Spawner
+  name: спавнер серого ксенобиологического слайма
   id: SpawnGrayXenobiologySlime
   parent: MarkerBase
   components:
@@ -57,7 +57,7 @@
         - XenobiologySlimeGray
 
 - type: entity
-  name: space koi spawner
+  name: спавнер космического кои
   id: SpawnSpaceKoi
   parent: MarkerBase
   components:
@@ -78,7 +78,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobMonkeyAdvanced
-  name: Advanced Monkey Spawner
+  name: спавнер продвинутой обезьяны
   components:
   - type: Sprite
     layers:
@@ -92,7 +92,7 @@
 - type: entity
   id: CosmicVoidspawner
   parent: MarkerBase
-  name: wisp spawn point
+  name: точка появления виспа
   components:
     - type: Sprite
       sprite: Markers/cross.rsi
@@ -105,7 +105,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobKobold
-  name: Kobold Spawner
+  name: спавнер кобольда
   components:
   - type: Sprite
     layers:
@@ -119,7 +119,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobKoboldAdvanced
-  name: Advanced Kobold Spawner
+  name: спавнер продвинутого кобольда
   components:
   - type: Sprite
     layers:

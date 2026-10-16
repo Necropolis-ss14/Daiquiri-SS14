@@ -2,7 +2,7 @@
   parent: ClothingBackpack
   id: ClothingBackpackRoboticist
   name: рюкзак робототехника
-  description: A backpack specifically designed for oil and short circuit protection.
+  description: Рюкзак, специально разработанный для защиты от масла и коротких замыканий.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Back/Backpacks/roboticist.rsi
@@ -11,7 +11,7 @@
   parent: ClothingBackpack
   id: ClothingBackpackCargoSenior
   name: рюкзак старшего курьера
-  description: A robust backpack for those who know the station's map by heart.
+  description: Прочный рюкзак для тех, кто знает карту станции наизусть.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Back/Backpacks/cargosenior.rsi
@@ -20,7 +20,7 @@
   parent: ClothingBackpack
   id: ClothingBackpackChemistrySenior
   name: рюкзак старшего химика
-  description: A specially designed backpack that will never be stained, no matter what liquids are spilled on it.
+  description: Специально разработанный рюкзак, который никогда не испачкается, какие бы жидкости на него ни пролили.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Back/Backpacks/chemistrysenior.rsi
@@ -29,7 +29,7 @@
   parent: [ClothingBackpack, BaseSecurityContraband]
   id: ClothingBackpackCorpsman
   name: рюкзак санитара
-  description: A backpack with easy to access pockets for the organized corpsman!
+  description: Рюкзак с удобными карманами для организованного корпсмена!
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Back/Backpacks/corpsman.rsi
@@ -38,7 +38,7 @@
   parent: [ClothingBackpack, BaseCommandContraband]
   id: ClothingBackpackHoP
   name: рюкзак главы персонала
-  description: A luxurious backpack, perfect for filling to the brim with paperwork.
+  description: Роскошный рюкзак, идеальный для заполнения доверху бумажной работой.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Back/Backpacks/hop.rsi
@@ -47,7 +47,7 @@
   parent: [ ClothingBackpack, BaseCommandContraband, BaseAssistantManagerContraband ]
   id: ClothingBackpackCommandGeneric
   name: рюкзак командования
-  description: A Command-colored backpack with NanoTrasen's colors. It has an aura of non-descript authority.
+  description: Рюкзак цвета командования в цветах NanoTrasen. Излучает ауру неопределённой власти.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Back/Backpacks/command.rsi
@@ -56,7 +56,7 @@
   parent: [ ClothingBackpack, BaseBlueShieldContraband ]
   id: ClothingBackpackBlueShield
   name: рюкзак блюшилда
-  description: A lightweight but reliable backpack. Can't go wrong with the classics!
+  description: Лёгкий, но надёжный рюкзак. Классика не подводит!
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Back/Backpacks/blueshield.rsi
@@ -65,7 +65,7 @@
   parent: [ClothingBackpackERTLeader, BaseNanoTrasenContraband]
   id: ClothingBackpackNTNC
   name: рюкзак НТНК
-  description: A spacious backpack with lots of pockets, worn by NTNC Officers
+  description: Вместительный рюкзак с множеством карманов, который носят офицеры NTNC.
   components:
     - type: ExplosionResistance
       damageCoefficient: 0.1
@@ -76,7 +76,7 @@
   parent: [BaseTSFContraband, ClothingBackpackERTLeader]
   id: ClothingBackpackTSF
   name: рюкзак морпеха ТСФ
-  description: A spacious rucksack covered in pouches and pockets, worn by marines of the Trans-Solar Federation.
+  description: Вместительный ранец в подсумках и карманах, который носят морпехи Транс-Солнечной Федерации.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Back/Backpacks/tsf.rsi
@@ -85,7 +85,7 @@
   parent: [ ClothingBackpack, BaseMagicalContraband ]
   id: ClothingBackpackWizard
   name: рюкзак волшебника
-  description: A magical backpack carried by members of the Space Wizards Federation.
+  description: Магический рюкзак, который носят члены Федерации космических волшебников.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Back/Backpacks/wizard.rsi
@@ -99,7 +99,7 @@
   parent: [ClothingBackpack, BaseSheatheWeapon]
   id: ClothingBackpackBunnyGang
   name: рюкзак заячьей банды
-  description: A sword that is actually a backpack. It's impressive how they managed to fit things in there, even so, inventory management will be a trial.
+  description: Меч, который на самом деле рюкзак. Впечатляет, как им удалось всё туда впихнуть, но учёт инвентаря будет испытанием.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Back/Backpacks/bunnygang.rsi
@@ -111,7 +111,7 @@
   parent: ClothingBackpack
   id: ClothingBackpackStar
   name: звёздный рюкзак
-  description: A star-shaped ita backpack, for the cutie patooties among us.
+  description: Ита-рюкзак в форме звезды для милашек среди нас.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Back/Backpacks/star.rsi
@@ -120,7 +120,7 @@
   parent: ClothingBackpack
   id: ClothingBackpackKitty
   name: кошачий рюкзак
-  description: A cat-shaped ita backpack, for the cutie patooties among us.
+  description: Ита-рюкзак в форме котика для милашек среди нас.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Back/Backpacks/kitty.rsi

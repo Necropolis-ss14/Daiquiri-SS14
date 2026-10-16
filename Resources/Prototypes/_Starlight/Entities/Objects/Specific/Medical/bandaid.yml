@@ -27,7 +27,7 @@
 
 - type: entity
   id: PatchBrute
-  name: грубый пластырь
+  name: пластырь от ушибов
   parent: BasePatch
   components:
   - type: Sprite
@@ -107,7 +107,7 @@
         Quantity: 10
 
 - type: entity
-  name: patch pack
+  name: набор пластырей
   id: PatchPack
   parent: BaseStorageItem
   description: Компактно хранит несколько пластырей.

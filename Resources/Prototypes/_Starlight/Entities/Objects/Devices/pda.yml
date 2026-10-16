@@ -29,7 +29,7 @@
   parent: BaseMedicalPDA
   id: SeniorChemistPDA
   name: КПК ведущего химика
-  description: Smells faintly of bratwurst.
+  description: Слегка пахнет братвурстом.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Devices/pda.rsi
@@ -51,7 +51,7 @@
   parent: BaseMedicalPDA
   id: VeteranBrigmedicPDA
   name: КПК ветерана-бригмедика
-  description: This pulse has never stopped under my watch.
+  description: Этот пульс никогда не останавливался под моим наблюдением.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Devices/pda.rsi
@@ -83,7 +83,7 @@
   parent: BaseMedicalPDA
   id: CorpsmanPDA
   name: КПК корпсмена
-  description: How's it going to end?
+  description: Чем же это закончится?
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Devices/pda.rsi
@@ -115,7 +115,7 @@
   parent: BaseMedicalPDA
   id: VeteranCorpsmanPDA
   name: КПК ветерана-корпсмена
-  description: I've seen the end. I couldn't change a thing...
+  description: Я видел конец. Я ничего не смог изменить...
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Devices/pda.rsi
@@ -147,7 +147,7 @@
   parent: BaseSecurityPDA
   id: DutyOfficerPDA
   name: КПК дежурного офицера
-  description: Look around, there was never a way out. Every path leads down.
+  description: Оглянись, выхода никогда не было. Каждый путь ведёт вниз.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Devices/pda.rsi
@@ -235,7 +235,7 @@
   parent: BasePDA
   id: IAAPDA
   name: КПК агента внутренних дел
-  description: Corporation and profit are best friends.
+  description: Корпорация и прибыль — лучшие друзья.
   components:
   - type: Pda
     id: IAAIDCard
@@ -253,7 +253,7 @@
   parent: [ BasePDA, BaseBlueShieldContraband ]
   id: BlueShieldPDA
   name: КПК синего щита
-  description: Comes with a built-in medtek to assess command staff's wounds after you heroically save them.
+  description: Поставляется со встроенным медтеком для оценки ран командного состава после того, как вы героически их спасёте.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Devices/pda.rsi
@@ -284,7 +284,7 @@
   parent: BlueShieldPDA
   id: VeteranBlueShieldPDA
   name: КПК ветерана синего щита
-  description: Comes with a built-in medtek to assess command staff's wounds after you heroically save them.
+  description: Поставляется со встроенным медтеком для оценки ран командного состава после того, как вы героически их спасёте.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Devices/pda.rsi
@@ -307,7 +307,7 @@
   parent: BasePDA
   id: AssistantManagerPDA
   name: КПК ассистента менеджера
-  description: The least poor among the poor.
+  description: Наименее бедный среди бедных.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Devices/pda.rsi
@@ -329,7 +329,7 @@
   parent: BasePDA
   id: SalvageLeadPDA
   name: КПК старшего утилизатора
-  description: Smells like blood and ash.
+  description: Пахнет кровью и пеплом.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Devices/pda.rsi
@@ -361,7 +361,7 @@
   parent: SalvageLeadPDA
   id: VeteranSalvageLeadPDA
   name: КПК ветерана-старшего утилизатора
-  description: looks like this was patched up with a bunch of scrap. barely.
+  description: Выглядит так, будто его подлатали кучей хлама. Едва.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Devices/pda.rsi
@@ -384,7 +384,7 @@
   parent: SalvagePDA
   id: VeteranSalvagePDA
   name: КПК ветерана-утилизатора
-  description: looks like this was patched up with a bunch of scrap. barely.
+  description: Выглядит так, будто его подлатали кучей хлама. Едва.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Devices/pda.rsi
@@ -406,7 +406,7 @@
   parent: BasePDA
   id: MiningPDA
   name: КПК шахтёра
-  description: there is dirt in every crack.
+  description: В каждой щели грязь.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Devices/pda.rsi
@@ -437,7 +437,7 @@
   parent: MiningPDA
   id: VeteranMiningPDA
   name: КПК ветерана-шахтёра
-  description: the screen is cracked, and the buttons barely work.
+  description: Экран треснут, а кнопки едва работают.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Devices/pda.rsi
@@ -459,7 +459,7 @@
   parent: BasePDA
   id: MailPDA
   name: КПК почты
-  description: Watch out for papercuts.
+  description: Осторожно, можно порезаться о бумагу.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Devices/pda.rsi
@@ -481,7 +481,7 @@
   parent: BasePDA
   id: SeniorMailPDA
   name: КПК старшего почтальона
-  description: Nothing stops the mail.
+  description: Ничто не остановит почту.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Devices/pda.rsi
@@ -503,7 +503,7 @@
   parent: BasePDA
   id: PerformerPDA
   name: КПК артиста
-  description: Why isn't it purple, pink, black, or white?
+  description: Почему он не фиолетовый, розовый, чёрный или белый?
   components:
   - type: Pda
     id: PerformerIDCard
@@ -523,7 +523,7 @@
   parent: BasePDA
   id: PunPunPDA
   name: КПК Пан Пана
-  description: Smells like bananas.
+  description: Пахнет бананами.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Devices/pda.rsi
@@ -545,7 +545,7 @@
   parent: BotanistPDA
   id: KikiPDA
   name: КПК Кики
-  description: Has an earthy scent.
+  description: Имеет землистый запах.
   components:
   - type: Pda
     id: KikiIDCard
@@ -554,7 +554,7 @@
   parent: ClearPDA
   id: StirStirPDA
   name: КПК Стир Стира
-  description: Has been used as a hammer before.
+  description: Ранее использовался в качестве молотка.
   components:
   - type: Pda
     id: StirStirIDCard
@@ -570,7 +570,7 @@
   parent: ClearPDA
   id: PrisonerPDA
   name: КПК заключённого
-  description: Has been used as a hammer before.
+  description: Ранее использовался в качестве молотка.
   components:
   - type: Pda
     id: PrisonerJobIDCard
@@ -586,7 +586,7 @@
   parent: BasePDA
   id: CommanderPDA
   name: КПК командира
-  description: Screw captiancy, LETS GET THAT FUKKIN DISK
+  description: К чёрту капитанство, ДОСТАНЬТЕ ЭТОТ ЧЁРТОВ ДИСК
   components:
     - type: Sprite
       sprite: _Starlight/Objects/Devices/pda.rsi
@@ -722,7 +722,7 @@
   parent: ParamedicPDA
   id: SeniorParamedicPDA
   name: КПК старшего парамедика
-  description: Shiny and sterile, despite the scuffs and scratches
+  description: Блестящий и стерильный, несмотря на потёртости и царапины.
   components:
   - type: Appearance
     appearanceDataInit:
@@ -740,7 +740,7 @@
   parent: CentcomPDA
   id: NTSFPDA
   name: КПК НТ
-  description: A stately blue PDA used by top NanoTrasen Officials and Special Forces.
+  description: Статный синий КПК, используемый высшими должностными лицами NanoTrasen и спецназом.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Devices/pda.rsi
@@ -778,7 +778,7 @@
   parent: CentcomPDA
   id: DecimusPDA
   name: взломанный КПК
-  description: An illegally modified generic NanoTrasen PDA. Please report this to your nearest NanoTrasen Representative for investigation.
+  description: Нелегально модифицированный стандартный КПК NanoTrasen. Сообщите об этом ближайшему представителю NanoTrasen для расследования.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Devices/pda.rsi
@@ -844,7 +844,7 @@
   parent: [BasePDA, BaseTSFContraband]
   id: SolGovPDA
   name: КПК СолГов
-  description: A personal data assistant issued by the Trans Solar Federation.
+  description: Персональный наладонник, выдаваемый Транс-Солнечной Федерацией.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Devices/pda.rsi
@@ -914,7 +914,7 @@
   parent: BasePDA
   id: BlackstarPDA
   name: КПК «Блэкстар»
-  description: Why isn't it black?
+  description: Почему он не чёрный?
   components:
     - type: Pda
       id: BlackstarIDCard
@@ -926,7 +926,7 @@
   id: CluwneBeastPDA
   name: КПК клуня
   suffix: Unremoveable
-  description: Cursed cluwne PDA.
+  description: Проклятый КПК клуня.
   components:
   - type: Pda
     id: CluwneBeastIDCard
@@ -1011,7 +1011,7 @@
   parent: BasePDA
   id: SalvageMedicPDA
   name: КПК медика-утилизатора
-  description: Smells like blood and ash.
+  description: Пахнет кровью и пеплом.
   components:
     - type: Sprite
       sprite: _Starlight/Objects/Devices/pda.rsi

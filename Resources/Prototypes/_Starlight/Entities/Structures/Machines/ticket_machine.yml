@@ -43,7 +43,7 @@
   id: TicketMachine
   parent: BaseTicketMachine
   name: билетный автомат
-  description: It prints out numbered tickets for queue management.
+  description: Печатает номерные талоны для управления очередью.
   suffix: No Access, Empty
   components:
   - type: Sprite

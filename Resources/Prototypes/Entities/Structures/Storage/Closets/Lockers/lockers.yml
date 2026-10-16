@@ -624,7 +624,7 @@
 # Representative
 - type: entity
   id: LockerRepresentative
-  name: NanoTrasen representative's locker # Starlight, added apostrophe s
+  name: шкаф представителя NanoTrasen
   parent: LockerBaseSecure
   components:
   - type: Appearance

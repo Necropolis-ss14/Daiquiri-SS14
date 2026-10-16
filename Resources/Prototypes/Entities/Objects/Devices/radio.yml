@@ -26,8 +26,8 @@
     - Radio
 
 - type: entity
-  name: security radio
-  description: A handy security radio.
+  name: рация СБ
+  description: Удобная рация службы безопасности.
   parent: [ RadioHandheld, BaseSecurityContraband ]
   id: RadioHandheldSecurity
   components:

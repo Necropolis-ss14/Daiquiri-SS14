@@ -2,7 +2,7 @@
   id: SlimeProcessorMachineCircuitboard
   parent: BaseMachineCircuitboard
   name: машинная плата переработчика слаймов
-  description: A machine printed circuit board for a slime processor
+  description: Плата механизма переработчика слаймов
   components:
     - type: MachineBoard
       prototype: SlimeProcessor
@@ -13,7 +13,7 @@
   id: PrinterDocMachineCircuitboard
   parent: BaseMachineCircuitboard
   name: плата принтера документов
-  description: A machine printed circuit board for an document printer
+  description: Плата механизма принтера документов
   components:
     - type: MachineBoard
       prototype: PrinterDoc
@@ -59,7 +59,7 @@
   id: ScanGateMachineCircuitboard
   parent: BaseMachineCircuitboard
   name: машинная плата сканирующих ворот
-  description: A machine printed circuit board for a scan gate
+  description: Плата механизма сканирующих ворот
   components:
     - type: Sprite
       state: service
@@ -77,7 +77,7 @@
   id: SlopDispenserMachineCircuitboard
   parent: BaseMachineCircuitboard
   name: машинная плата раздатчика питательной пасты
-  description: A machine printed circuit board for a nutrient paste dispenser.
+  description: Плата механизма раздатчика питательной пасты
   components:
     - type: Sprite
       state: service
@@ -91,7 +91,7 @@
   parent: BaseMachineCircuitboard
   id: AssortedForgeParts
   name: разные кузнечные заготовки
-  description: A small pile of components for making a forge for an anvil, contains an igniter and valves.
+  description: Небольшая кучка компонентов для создания кузницы для наковальни, содержит воспламенитель и клапаны.
   components:
     - type: MachineBoard
       prototype: TiderLathe
@@ -113,7 +113,7 @@
   id: VendingMachineCondimentsCircuitboard
   parent: BaseMachineCircuitboard
   name: плата станции приправ
-  description: A machine printed circuit board for a condiment station machine
+  description: Плата механизма станции приправ
   components:
     - type: Sprite
       state: service
@@ -128,7 +128,7 @@
   id: VendingMachineAmmoCircuitboard
   parent: BaseMachineCircuitboard
   name: плата станции «Освобождение»
-  description: A machine printed circuit board for a liberation station machine
+  description: Плата механизма станции «Освобождение»
   components:
     - type: Sprite
       state: security
@@ -143,7 +143,7 @@
   id: VendingMachineBoozeCircuitboard
   parent: BaseMachineCircuitboard
   name: плата Буз-О-Мата
-  description: A machine printed circuit board for a Booze-O-Mat machine
+  description: Плата механизма Буз-О-Мата
   components:
     - type: Sprite
       state: service
@@ -158,7 +158,7 @@
   id: VendingMachineBoozeSyndicateCircuitboard
   parent: [BaseMachineCircuitboard, BaseMinorContraband]
   name: плата Бруз-О-Мата
-  description: A machine printed circuit board for a Bruise-O-Mat machine
+  description: Плата механизма Бруз-О-Мата
   components:
     - type: Sprite
       state: cpu_syndicate
@@ -173,7 +173,7 @@
   id: VendingMachineCartCircuitboard
   parent: BaseMachineCircuitboard
   name: плата ПТех
-  description: A machine printed circuit board for a PTech machine
+  description: Плата механизма ПТех
   components:
     - type: Sprite
       state: command
@@ -190,7 +190,7 @@
   id: VendingMachineChefvendCircuitboard
   parent: BaseMachineCircuitboard
   name: плата ШефВенда
-  description: A machine printed circuit board for a ChefVend machine
+  description: Плата механизма ШефВенда
   components:
     - type: Sprite
       state: service
@@ -205,7 +205,7 @@
   id: VendingMachineCigsCircuitboard
   parent: BaseMachineCircuitboard
   name: плата ШейдиСигс Делюкс
-  description: A machine printed circuit board for a ShadyCigs Deluxe machine
+  description: Плата механизма ШейдиСигс Делюкс
   components:
     - type: MachineBoard
       prototype: VendingMachineCigsEmpty
@@ -218,7 +218,7 @@
   id: VendingMachineClothingCircuitboard
   parent: BaseMachineCircuitboard
   name: плата КлозМейта
-  description: A machine printed circuit board for a ClothesMate machine
+  description: Плата механизма КлозМейта
   components:
     - type: MachineBoard
       prototype: VendingMachineClothingEmpty
@@ -231,7 +231,7 @@
   id: VendingMachineWinterCircuitboard
   parent: BaseMachineCircuitboard
   name: плата ВинтерДроба
-  description: A machine printed circuit board for a WinterDrobe machine
+  description: Плата механизма ВинтерДроба
   components:
     - type: MachineBoard
       prototype: VendingMachineWinterEmpty
@@ -244,7 +244,7 @@
   id: VendingMachineCoffeeCircuitboard
   parent: BaseMachineCircuitboard
   name: плата «Лучших горячих напитков Соляр»
-  description: A machine printed circuit board for a Solar's Best Hot Drinks machine
+  description: Плата механизма «Лучших горячих напитков Соляр»
   components:
     - type: MachineBoard
       prototype: VendingMachineCoffeeEmpty
@@ -257,7 +257,7 @@
   id: VendingMachineDonkCircuitboard
   parent: BaseMachineCircuitboard
   name: плата «Донк на ходу»
-  description: A machine printed circuit board for a Donk on the Go machine
+  description: Плата механизма «Донк на ходу»
   components:
     - type: MachineBoard
       prototype: VendingMachineDonkEmpty
@@ -270,7 +270,7 @@
   id: VendingMachineIceCreamCircuitboard
   parent: BaseMachineCircuitboard
   name: плата «Ай Скрим Айс-Крим»
-  description: A machine printed circuit board for a I Scream Ice-Cream machine
+  description: Плата механизма «Ай Скрим Айс-Крим»
   components:
     - type: MachineBoard
       prototype: VendingMachineIceCreamEmpty
@@ -283,7 +283,7 @@
   id: VendingMachineGumballsCircuitboard
   parent: BaseMachineCircuitboard
   name: плата автомата жвачек
-  description: A machine printed circuit board for a gumball dispenser
+  description: Плата механизма автомата жвачек
   components:
     - type: MachineBoard
       prototype: VendingMachineGumballsEmpty
@@ -296,7 +296,7 @@
   id: VendingMachineLegalDrobeCircuitboard
   parent: BaseMachineCircuitboard
   name: плата ЛегалДроба
-  description: A machine printed circuit board for a LegalDrobe machine
+  description: Плата механизма ЛегалДроба
   components:
     - type: MachineBoard
       prototype: VendingMachineLegalDrobeEmpty
@@ -309,7 +309,7 @@
   id: VendingMachineColaCircuitboard
   parent: BaseMachineCircuitboard
   name: плата «Робаст Софтдринкс (кола)»
-  description: A machine printed circuit board for a Robust Softdrinks machine serving cola
+  description: Плата механизма «Робаст Софтдринкс (кола)»
   components:
     - type: MachineBoard
       prototype: VendingMachineColaEmpty
@@ -322,7 +322,7 @@
   id: VendingMachineColaBlackCircuitboard
   parent: BaseMachineCircuitboard
   name: плата «Робаст Софтдринкс (кола, чёрная)»
-  description: A machine printed circuit board for a Robust Softdrinks machine serving cola, colored black
+  description: Плата механизма «Робаст Софтдринкс (кола, чёрная)»
   components:
     - type: MachineBoard
       prototype: VendingMachineColaBlackEmpty
@@ -335,7 +335,7 @@
   id: VendingMachineColaRedCircuitboard
   parent: BaseMachineCircuitboard
   name: плата вендора «Спейс-Кола»
-  description: A machine printed circuit board for a Space Cola Vendor machine
+  description: Плата механизма вендора «Спейс-Кола»
   components:
     - type: MachineBoard
       prototype: VendingMachineColaRedEmpty
@@ -348,7 +348,7 @@
   id: VendingMachineSodaCircuitboard
   parent: BaseMachineCircuitboard
   name: плата «Робаст Софтдринкс (содовая)»
-  description: A machine printed circuit board for a Robust Softdrinks machine serving soda
+  description: Плата механизма «Робаст Софтдринкс (содовая)»
   components:
     - type: MachineBoard
       prototype: VendingMachineSodaEmpty
@@ -361,7 +361,7 @@
   id: VendingMachineSpaceUpCircuitboard
   parent: BaseMachineCircuitboard
   name: плата вендора «Спейс-Ап!»
-  description: A machine printed circuit board for a Space-Up! Vendor machine
+  description: Плата механизма вендора «Спейс-Ап!»
   components:
     - type: MachineBoard
       prototype: VendingMachineSpaceUpEmpty
@@ -374,7 +374,7 @@
   id: VendingMachineStarkistCircuitboard
   parent: BaseMachineCircuitboard
   name: плата вендора «Стар-кист»
-  description: A machine printed circuit board for a Star-kist Vendor machine
+  description: Плата механизма вендора «Стар-кист»
   components:
     - type: MachineBoard
       prototype: VendingMachineStarkistEmpty
@@ -387,7 +387,7 @@
   id: VendingMachineShamblersJuiceCircuitboard
   parent: BaseMachineCircuitboard
   name: плата вендора «Джус Шамблера»
-  description: A machine printed circuit board for a Shambler's Juice Vendor machine
+  description: Плата механизма вендора «Джус Шамблера»
   components:
     - type: MachineBoard
       prototype: VendingMachineShamblersJuiceEmpty
@@ -400,7 +400,7 @@
   id: VendingMachinePwrGameCircuitboard
   parent: BaseMachineCircuitboard
   name: плата вендора «Пауэр Гейм»
-  description: A machine printed circuit board for a Pwr Game Vendor machine
+  description: Плата механизма вендора «Пауэр Гейм»
   components:
     - type: Sprite
       state: service
@@ -415,7 +415,7 @@
   id: VendingMachineDrGibbCircuitboard
   parent: BaseMachineCircuitboard
   name: плата вендора «Доктор Гибб»
-  description: A machine printed circuit board for a Dr. Gibb Vendor machine
+  description: Плата механизма вендора «Доктор Гибб»
   components:
     - type: MachineBoard
       prototype: VendingMachineDrGibbEmpty
@@ -428,7 +428,7 @@
   id: VendingMachineSmiteCircuitboard
   parent: BaseMachineCircuitboard
   name: плата вендора «Смайт»
-  description: A machine printed circuit board for a Smite Vendor machine
+  description: Плата механизма вендора «Смайт»
   components:
     - type: MachineBoard
       prototype: VendingMachineSmiteEmpty
@@ -441,7 +441,7 @@
   id: VendingMachineDinnerwareCircuitboard
   parent: BaseMachineCircuitboard
   name: плата вендора пласталевой посуды шефа
-  description: A machine printed circuit board for a Plasteel Chef's Dinnerware Vendor machine
+  description: Плата механизма вендора пласталевой посуды шефа
   components:
     - type: Sprite
       state: service
@@ -456,7 +456,7 @@
   id: VendingMachineDiscountCircuitboard
   parent: BaseMachineCircuitboard
   name: плата «Дискаунт Дэна»
-  description: A machine printed circuit board for a Discount Dan's machine
+  description: Плата механизма «Дискаунт Дэна»
   components:
     - type: MachineBoard
       prototype: VendingMachineDiscountEmpty
@@ -469,7 +469,7 @@
   id: VendingMachineEngivendCircuitboard
   parent: BaseMachineCircuitboard
   name: плата ИнжиВенда
-  description: A machine printed circuit board for a Engi-Vend machine
+  description: Плата механизма ИнжиВенда
   components:
     - type: Sprite
       state: engineering
@@ -484,7 +484,7 @@
   id: VendingMachineMedicalCircuitboard
   parent: BaseMachineCircuitboard
   name: плата НаноМед Плюс
-  description: A machine printed circuit board for a NanoMed Plus machine
+  description: Плата механизма НаноМед Плюс
   components:
     - type: Sprite
       state: medical
@@ -499,7 +499,7 @@
   id: VendingMachineNutriCircuitboard
   parent: BaseMachineCircuitboard
   name: плата НутриМакс
-  description: A machine printed circuit board for a NutriMax machine
+  description: Плата механизма НутриМакс
   components:
     - type: Sprite
       state: service
@@ -514,7 +514,7 @@
   id: VendingMachineSecCircuitboard
   parent: BaseMachineCircuitboard
   name: плата СекТех
-  description: A machine printed circuit board for a SecTech machine
+  description: Плата механизма СекТех
   components:
     - type: Sprite
       state: security
@@ -529,7 +529,7 @@
   id: VendingMachineSeedsUnlockedCircuitboard
   parent: BaseMachineCircuitboard
   name: плата МегаСид Сервитор (разблокированный)
-  description: A machine printed circuit board for a MegaSeed Servitor machine, set to public access
+  description: Плата механизма МегаСид Сервитора с открытым доступом
   components:
     - type: Sprite
       state: service
@@ -544,7 +544,7 @@
   id: VendingMachineSeedsCircuitboard
   parent: BaseMachineCircuitboard
   name: плата МегаСид Сервитор
-  description: A machine printed circuit board for a MegaSeed Servitor machine
+  description: Плата механизма МегаСид Сервитор
   components:
     - type: Sprite
       state: service
@@ -559,7 +559,7 @@
   id: VendingMachineSnackCircuitboard
   parent: BaseMachineCircuitboard
   name: плата «Гетмор Чоколейт Корп»
-  description: A machine printed circuit board for a Getmore Chocolate Corp machine
+  description: Плата механизма «Гетмор Чоколейт Корп»
   components:
     - type: MachineBoard
       prototype: VendingMachineSnackEmpty
@@ -572,7 +572,7 @@
   id: VendingMachineSustenanceCircuitboard
   parent: BaseMachineCircuitboard
   name: плата вендора «Пища»
-  description: A machine printed circuit board for a Sustenance Vendor machine
+  description: Плата механизма вендора «Пища»
   components:
     - type: MachineBoard
       prototype: VendingMachineSustenanceEmpty
@@ -585,7 +585,7 @@
   id: VendingMachineSnackBlueCircuitboard
   parent: BaseMachineCircuitboard
   name: плата вендора «Пища (синий)»
-  description: A machine printed circuit board for a Sustenance Vendor machine, in blue
+  description: Плата механизма вендора «Пища (синий)»
   components:
     - type: MachineBoard
       prototype: VendingMachineSnackBlueEmpty
@@ -598,7 +598,7 @@
   id: VendingMachineSnackOrangeCircuitboard
   parent: BaseMachineCircuitboard
   name: плата вендора «Пища (оранжевый)»
-  description: A machine printed circuit board for a Sustenance Vendor machine, in orange
+  description: Плата механизма вендора «Пища (оранжевый)»
   components:
     - type: MachineBoard
       prototype: VendingMachineSnackOrangeEmpty
@@ -611,7 +611,7 @@
   id: VendingMachineSnackGreenCircuitboard
   parent: BaseMachineCircuitboard
   name: плата вендора «Пища (зелёный)»
-  description: A machine printed circuit board for a Sustenance Vendor machine, in green
+  description: Плата механизма вендора «Пища (зелёный)»
   components:
     - type: MachineBoard
       prototype: VendingMachineSnackGreenEmpty
@@ -624,7 +624,7 @@
   id: VendingMachineSnackTealCircuitboard
   parent: BaseMachineCircuitboard
   name: плата вендора «Пища (бирюзовый)»
-  description: A machine printed circuit board for a Sustenance Vendor machine, in teal
+  description: Плата механизма вендора «Пища (бирюзовый)»
   components:
     - type: MachineBoard
       prototype: VendingMachineSnackTealEmpty
@@ -637,7 +637,7 @@
   id: VendingMachineSovietSodaCircuitboard
   parent: BaseMachineCircuitboard
   name: плата БОДА
-  description: A machine printed circuit board for a BODA machine
+  description: Плата механизма БОДА
   components:
     - type: MachineBoard
       prototype: VendingMachineSovietSodaEmpty
@@ -650,7 +650,7 @@
   id: VendingMachineTheaterCircuitboard
   parent: BaseMachineCircuitboard
   name: плата АвтоДроба
-  description: A machine printed circuit board for a AutoDrobe machine
+  description: Плата механизма АвтоДроба
   components:
     - type: MachineBoard
       prototype: VendingMachineTheaterEmpty
@@ -663,7 +663,7 @@
   id: VendingMachineVendomatCircuitboard
   parent: BaseMachineCircuitboard
   name: плата Вендомата
-  description: A machine printed circuit board for a Vendomat machine
+  description: Плата механизма Вендомата
   components:
     - type: MachineBoard
       prototype: VendingMachineVendomatEmpty
@@ -676,7 +676,7 @@
   id: VendingMachineRoboticsCircuitboard
   parent: BaseMachineCircuitboard
   name: плата Роботех Делюкс
-  description: A machine printed circuit board for a Robotech Deluxe machine
+  description: Плата механизма Роботех Делюкс
   components:
     - type: Sprite
       state: science
@@ -691,7 +691,7 @@
   id: VendingMachineYouToolCircuitboard
   parent: BaseMachineCircuitboard
   name: плата ЮТул
-  description: A machine printed circuit board for a YouTool machine
+  description: Плата механизма ЮТул
   components:
     - type: Sprite
       state: engineering
@@ -706,7 +706,7 @@
   id: VendingMachineGamesCircuitboard
   parent: BaseMachineCircuitboard
   name: плата «Гуд Клин Фан»
-  description: A machine printed circuit board for a Good Clean Fun machine
+  description: Плата механизма «Гуд Клин Фан»
   components:
     - type: Sprite
       state: service
@@ -721,7 +721,7 @@
   id: VendingMachineChangCircuitboard
   parent: BaseMachineCircuitboard
   name: плата Мистера Чанга
-  description: A machine printed circuit board for a Mr. Chang machine
+  description: Плата механизма Мистера Чанга
   components:
     - type: MachineBoard
       prototype: VendingMachineChangEmpty
@@ -734,7 +734,7 @@
   id: VendingMachineSalvageCircuitboard
   parent: BaseMachineCircuitboard
   name: плата вендора утилизаторов
-  description: A machine printed circuit board for a Salvage Vendor machine
+  description: Плата механизма вендора утилизаторов
   components:
     - type: Sprite
       state: supply
@@ -749,7 +749,7 @@
   id: VendingMachineDonutCircuitboard
   parent: BaseMachineCircuitboard
   name: плата «Манкин Донатс»
-  description: A machine printed circuit board for a Monkin' Donuts machine
+  description: Плата механизма «Манкин Донатс»
   components:
     - type: Sprite
       state: security
@@ -764,7 +764,7 @@
   id: VendingMachineHydrobeCircuitboard
   parent: BaseMachineCircuitboard
   name: плата ГидроДроба
-  description: A machine printed circuit board for a HyDrobe machine
+  description: Плата механизма ГидроДроба
   components:
     - type: Sprite
       state: service
@@ -779,7 +779,7 @@
   id: VendingMachineLawDrobeCircuitboard
   parent: BaseMachineCircuitboard
   name: плата ЛоДроба
-  description: A machine printed circuit board for a LawDrobe machine
+  description: Плата механизма ЛоДроба
   components:
     - type: Sprite
       state: security
@@ -794,7 +794,7 @@
   id: VendingMachineSecDrobeCircuitboard
   parent: BaseMachineCircuitboard
   name: плата СекДроба
-  description: A machine printed circuit board for a SecDrobe machine
+  description: Плата механизма СекДроба
   components:
     - type: Sprite
       state: security
@@ -809,7 +809,7 @@
   id: VendingBarDrobeCircuitboard
   parent: BaseMachineCircuitboard
   name: плата БарДроба
-  description: A machine printed circuit board for a BarDrobe machine
+  description: Плата механизма БарДроба
   components:
     - type: Sprite
       state: service
@@ -824,7 +824,7 @@
   id: VendingMachineChapelCircuitboard
   parent: BaseMachineCircuitboard
   name: плата ПайетиВенда
-  description: A machine printed circuit board for a PietyVend machine
+  description: Плата механизма ПайетиВенда
   components:
     - type: Sprite
       state: service
@@ -839,7 +839,7 @@
   id: VendingMachineCargoDrobeCircuitboard
   parent: BaseMachineCircuitboard
   name: плата КаргоДроба
-  description: A machine printed circuit board for a CargoDrobe machine
+  description: Плата механизма КаргоДроба
   components:
     - type: Sprite
       state: supply
@@ -854,7 +854,7 @@
   id: VendingMachineMediDrobeCircuitboard
   parent: BaseMachineCircuitboard
   name: плата МедиДроба
-  description: A machine printed circuit board for a MediDrobe machine
+  description: Плата механизма МедиДроба
   components:
     - type: Sprite
       state: medical
@@ -869,7 +869,7 @@
   id: VendingMachineChemDrobeCircuitboard
   parent: BaseMachineCircuitboard
   name: плата ХимДроба
-  description: A machine printed circuit board for a ChemDrobe machine
+  description: Плата механизма ХимДроба
   components:
     - type: Sprite
       state: medical
@@ -884,7 +884,7 @@
   id: VendingMachineCuraDrobeCircuitboard
   parent: BaseMachineCircuitboard
   name: плата КураДроба
-  description: A machine printed circuit board for a CuraDrobe machine
+  description: Плата механизма КураДроба
   components:
     - type: Sprite
       state: service
@@ -899,7 +899,7 @@
   id: VendingMachineAtmosDrobeCircuitboard
   parent: BaseMachineCircuitboard
   name: плата АтмосДроба
-  description: A machine printed circuit board for a AtmosDrobe machine
+  description: Плата механизма АтмосДроба
   components:
     - type: Sprite
       state: engineering
@@ -914,7 +914,7 @@
   id: VendingMachineEngiDrobeCircuitboard
   parent: BaseMachineCircuitboard
   name: плата ИнжиДроба
-  description: A machine printed circuit board for a EngiDrobe machine
+  description: Плата механизма ИнжиДроба
   components:
     - type: Sprite
       state: engineering
@@ -929,7 +929,7 @@
   id: VendingMachineChefDrobeCircuitboard
   parent: BaseMachineCircuitboard
   name: плата ШефДроба
-  description: A machine printed circuit board for a ChefDrobe machine
+  description: Плата механизма ШефДроба
   components:
     - type: Sprite
       state: service
@@ -944,7 +944,7 @@
   id: VendingMachineDetDrobeCircuitboard
   parent: BaseMachineCircuitboard
   name: плата ДетДроба
-  description: A machine printed circuit board for a DetDrobe machine
+  description: Плата механизма ДетДроба
   components:
     - type: Sprite
       state: security
@@ -959,7 +959,7 @@
   id: VendingMachineJaniDrobeCircuitboard
   parent: BaseMachineCircuitboard
   name: плата ДжаниДроба
-  description: A machine printed circuit board for a JaniDrobe machine
+  description: Плата механизма ДжаниДроба
   components:
     - type: Sprite
       state: service
@@ -974,7 +974,7 @@
   id: VendingMachineSciDrobeCircuitboard
   parent: BaseMachineCircuitboard
   name: плата СайДроба
-  description: A machine printed circuit board for a SciDrobe machine
+  description: Плата механизма СайДроба
   components:
     - type: Sprite
       state: science
@@ -989,7 +989,7 @@
   id: VendingMachineSyndieDrobeCircuitboard
   parent: [BaseMachineCircuitboard, BaseMinorContraband]
   name: плата СиндиДроба
-  description: A machine printed circuit board for a SyndieDrobe machine
+  description: Плата механизма СиндиДроба
   components:
     - type: Sprite
       state: cpu_syndicate
@@ -1004,7 +1004,7 @@
   id: VendingMachineRoboDrobeCircuitboard
   parent: BaseMachineCircuitboard
   name: плата РобоДроба
-  description: A machine printed circuit board for a RoboDrobe machine
+  description: Плата механизма РобоДроба
   components:
     - type: Sprite
       state: science
@@ -1019,7 +1019,7 @@
   id: VendingMachineGeneDrobeCircuitboard
   parent: BaseMachineCircuitboard
   name: плата ГеноДроба
-  description: A machine printed circuit board for a GeneDrobe machine
+  description: Плата механизма ГеноДроба
   components:
     - type: Sprite
       state: medical
@@ -1034,7 +1034,7 @@
   id: VendingMachineViroDrobeCircuitboard
   parent: BaseMachineCircuitboard
   name: плата ВироДроба
-  description: A machine printed circuit board for a ViroDrobe machine
+  description: Плата механизма ВироДроба
   components:
     - type: Sprite
       state: medical
@@ -1049,7 +1049,7 @@
   id: VendingMachineCentDrobeCircuitboard
   parent: BaseMachineCircuitboard
   name: плата ЦентДроба
-  description: A machine printed circuit board for a CentDrobe machine
+  description: Плата механизма ЦентДроба
   components:
     - type: Sprite
       state: command
@@ -1064,7 +1064,7 @@
   id: VendingMachineHappyHonkCircuitboard
   parent: BaseMachineCircuitboard
   name: плата «Хэппи Хонк»
-  description: A machine printed circuit board for a Happy Honk Dispenser machine
+  description: Плата механизма «Хэппи Хонк»
   components:
     - type: Sprite
       state: service
@@ -1079,7 +1079,7 @@
   id: VendingMachinePrideCircuitboard
   parent: BaseMachineCircuitboard
   name: плата Прайд-О-Мат
-  description: A machine printed circuit board for a Pride-O-Mat machine
+  description: Плата механизма Прайд-О-Мат
   components:
     - type: MachineBoard
       prototype: VendingMachinePrideEmpty
@@ -1092,7 +1092,7 @@
   id: VendingMachineTankDispenserEVACircuitboard
   parent: BaseMachineCircuitboard
   name: плата раздатчика газовых баллонов
-  description: A machine printed circuit board for a gas tank dispenser machine
+  description: Плата механизма раздатчика газовых баллонов
   components:
     - type: Sprite
       state: service
@@ -1107,7 +1107,7 @@
   id: VendingMachineTankDispenserEngineeringCircuitboard
   parent: BaseMachineCircuitboard
   name: плата раздатчика газовых баллонов (с плазмой)
-  description: A machine printed circuit board for a gas tank dispenser (with plasma) machine
+  description: Плата механизма раздатчика газовых баллонов (с плазмой)
   components:
     - type: Sprite
       state: engineering
@@ -1122,7 +1122,7 @@
   id: VendingMachineChemicalsCircuitboard
   parent: BaseMachineCircuitboard
   name: плата ХимВенда
-  description: A machine printed circuit board for a ChemVend machine
+  description: Плата механизма ХимВенда
   components:
     - type: Sprite
       state: medical
@@ -1137,7 +1137,7 @@
   id: VendingMachineChemicalsSyndicateCircuitboard
   parent: [BaseMachineCircuitboard, BaseMinorContraband]
   name: плата СиндиДжус
-  description: A machine printed circuit board for a SyndieJuice machine
+  description: Плата механизма СиндиДжус
   components:
     - type: Sprite
       state: cpu_syndicate
@@ -1152,7 +1152,7 @@
   id: VendingMachineWallMedicalCivilianCircuitboard
   parent: BaseMachineCircuitboard
   name: плата НаноМед первой помощи
-  description: A machine printed circuit board for a NanoMed band-aid machine
+  description: Плата механизма НаноМед первой помощи
   components:
     - type: Sprite
       state: medical
@@ -1167,7 +1167,7 @@
   id: VendingMachineWallMedicalCircuitboard
   parent: BaseMachineCircuitboard
   name: плата НаноМед
-  description: A machine printed circuit board for a NanoMed machine
+  description: Плата механизма НаноМед
   components:
     - type: Sprite
       state: medical
@@ -1182,7 +1182,7 @@
   id: CoffeeDispenserMachineCircuitboard
   parent: BaseMachineCircuitboard
   name: плата кофейного автомата
-  description: A machine printed circuit board for a coffee dispenser
+  description: Плата механизма кофейного автомата
   components:
     - type: Sprite
       state: service
@@ -1197,7 +1197,7 @@
   id: GramophoneCircuitBoard
   parent: BaseMachineCircuitboard
   name: плата граммофона
-  description: A machine printed circuit board for a gramophone. Wait, why does it need a circuit board?
+  description: Плата механизма граммофона. Стоп, а зачем ему вообще плата?
   components:
     - type: Sprite
       state: service
@@ -1211,7 +1211,7 @@
   id: NullspaceAnchorMachineCircuitboard
   parent: BaseMachineCircuitboard
   name: машинная плата якоря нуль-пространства
-  description: A machine printed circuit board for a nullspace anchor
+  description: Плата механизма якоря нуль-пространства
   components:
     - type: Sprite
       state: science
@@ -1240,7 +1240,7 @@
   id: DarkBreacherMachineCircuitboard
   parent: BaseMachineCircuitboard
   name: плата тёмного проходчика
-  description: A machine printed circuit board for a dark breacher
+  description: Плата механизма тёмного проходчика
   components:
     - type: Sprite
       state: science
@@ -1269,7 +1269,7 @@
   id: SMESHyperAdvancedMachineCircuitboard
   parent: BaseMachineCircuitboard
   name: машинная плата гипер-улучшенного СМЭС
-  description: A machine printed circuit board for a Hyper Advanced SMES.
+  description: Плата механизма гипер-улучшенного СМЭС
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -1304,7 +1304,7 @@
   id: ChemApprenticeMachineCircuitboard
   parent: BaseMachineCircuitboard
   name: машинная плата ХимМастера 1000
-  description: A machine printed circuit board for a ChemMaster 1000.
+  description: Плата механизма ХимМастера 1000
   components:
     - type: Sprite
       state: medical
@@ -1324,7 +1324,7 @@
   id: CargoTechFabCircuitboard
   parent: [BaseMachineCircuitboard, BaseCargoContraband]
   name: машинная плата карго-техфаба
-  description: A machine printed circuit board for a cargo techfab.
+  description: Плата механизма карго-техфаба
   components:
     - type: Sprite
       state: supply
@@ -1343,7 +1343,7 @@
   id: EngineeringTechFabCircuitboard
   parent: [BaseMachineCircuitboard, BaseEngineeringContraband]
   name: машинная плата инженерного техфаба
-  description: A machine printed circuit board for an engineering techfab.
+  description: Плата механизма инженерного техфаба
   components:
     - type: Sprite
       state: engineering
@@ -1362,7 +1362,7 @@
   id: ServiceTechFabCircuitboard
   parent: [BaseMachineCircuitboard, BaseCivilianContraband]
   name: машинная плата сервисного техфаба
-  description: A machine printed circuit board for a service techfab.
+  description: Плата механизма сервисного техфаба
   components:
     - type: Sprite
       state: service
@@ -1379,7 +1379,7 @@
   id: ScienceTechFabCircuitboard
   parent: [BaseMachineCircuitboard, BaseScienceContraband]
   name: машинная плата научного техфаба
-  description: A machine printed circuit board for a science techfab.
+  description: Плата механизма научного техфаба
   components:
     - type: Sprite
       state: science
@@ -1398,7 +1398,7 @@
   id: CommandTechFabCircuitboard
   parent: [BaseMachineCircuitboard, BaseCommandContraband]
   name: машинная плата техфаба командования
-  description: A machine printed circuit board for a command techfab.
+  description: Плата механизма техфаба командования
   components:
     - type: Sprite
       state: command
@@ -1418,7 +1418,7 @@
   categories: [ DoNotMap ]
   parent: [ BaseMachineCircuitboard, BaseNanoTrasenContraband ]
   name: машинная плата техфаба NanoTrasen
-  description: A machine printed circuit board for a NanoTrasen techfab.
+  description: Плата механизма техфаба NanoTrasen
   components:
     - type: Sprite
       state: command
@@ -1438,7 +1438,7 @@
   categories: [ DoNotMap ]
   parent: [BaseMachineCircuitboard, BaseCentcommContraband]
   name: машинная плата техфаба Центрального командования
-  description: A machine printed circuit board for a Central Command techfab.
+  description: Плата механизма техфаба Центрального командования
   components:
     - type: Sprite
       state: service
@@ -1458,7 +1458,7 @@
   categories: [ DoNotMap ]
   parent: [BaseMachineCircuitboard, BaseSyndicateContraband]
   name: машинная плата техфаба Синдиката
-  description: A machine printed circuit board for a Syndicate techfab.
+  description: Плата механизма техфаба Синдиката
   components:
     - type: Sprite
       state: cpu_syndicate
@@ -1475,7 +1475,7 @@
   id: SalvageTechFabCircuitboard
   parent: [BaseMachineCircuitboard, BaseSalvageContraband]
   name: машинная плата техфаба утилизаторов
-  description: A machine printed circuit board for a salvage techfab.
+  description: Плата механизма техфаба утилизаторов
   components:
     - type: Sprite
       state: supply

@@ -12,8 +12,8 @@
 - type: entity
   parent: BaseActionPolymorph
   id: MoffActionPolymorphWraithJaunt
-  name: Abyssal Jaunt
-  description: Melt into the the shadows, ambush your prey
+  name: Бездонный скачок
+  description: Растворитесь в тенях и устройте засаду на добычу
   components:
   - type: Action
     useDelay: 10
@@ -28,7 +28,7 @@
 - type: entity
   parent: BaseMobJaunt
   id: MoffDemonWraithJaunt
-  name: narsian wraith
+  name: нарсианский призрак
   suffix: Hellportal, Jaunt
   components:
   - type: Sprite

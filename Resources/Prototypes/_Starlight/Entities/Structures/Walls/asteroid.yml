@@ -1,7 +1,7 @@
 - type: entity
   id: AsteroidRockBluespace
   parent: AsteroidRock
-  description: An ore vein rich with bluespace.
+  description: Рудная жила, богатая блюспейсом.
   suffix: Bluespace
   components:
   - type: OreVein
@@ -25,7 +25,7 @@
 - type: entity
   id: IronRockBluespace
   parent: IronRock
-  description: An ore vein rich with bluespace.
+  description: Рудная жила, богатая блюспейсом.
   suffix: Bluespace
   components:
   - type: OreVein
@@ -71,7 +71,7 @@
 - type: entity
   id: WallRockDarkBluespace
   parent: WallRockDark
-  description: An ore vein rich with bluespace.
+  description: Рудная жила, богатая блюспейсом.
   suffix: Bluespace
   components:
   - type: OreVein
@@ -95,7 +95,7 @@
 - type: entity
   id: WallRockDarkPasma
   parent: WallRockDark
-  description: An ore vein rich with plasma.
+  description: Рудная жила, богатая плазмой.
   suffix: Plasma
   components:
   - type: OreVein

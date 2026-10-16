@@ -2,7 +2,7 @@
   id: WindowBlinds
   parent: BaseCurtains
   suffix: Closed
-  description: Contains less than 1% mercury.
+  description: Содержит менее 1% ртути.
   components:
   - type: Sprite
     snapCardinals: true

@@ -1,8 +1,8 @@
 - type: entity
-  name: improvised pneumatic crew cannon
+  name: самодельная пневмопушка для экипажа
   parent: WeaponImprovisedPneumaticCannon
   id: WeaponImprovisedPneumaticCrewCannon
-  description: Trading variety for the ability to throw smaller crew at people, accept no substitute. Doesn't accept tanks without enough gas.
+  description: Меняем разнообразие на возможность швырять мелкий экипаж в людей, замены нет. Не принимает баллоны без достаточного газа.
   components:
   - type: Storage
     maxItemSize: Huge

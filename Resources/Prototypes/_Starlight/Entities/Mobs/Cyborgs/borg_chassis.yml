@@ -118,7 +118,7 @@
   id: PurrfusBorgChassisDerelict
   parent: BaseBorgChassisDerelict
   name: заброшенный киборг-пурфус
-  description: A man-machine hybrid of the purrfus variety. This one is in a state of great disrepair.
+  description: Гибрид человека и машины разновидности пуррфус. Этот находится в очень запущенном состоянии.
   components:
   - type: Sprite
     sprite: _Starlight/Mobs/Silicon/Chassis/derelict.rsi
@@ -243,7 +243,7 @@
   parent: MiningBorgChassisDerelict
   id: SalvageMiningBorg
   name: киборг-утилизатор
-  description: A man-machine hybrid that assists the guild. This one has seen more than its share of use.
+  description: Гибрид человека и машины, помогающий гильдии. Этот повидал немало.
   suffix: Battery, Module
   components:
   - type: ContainerFill

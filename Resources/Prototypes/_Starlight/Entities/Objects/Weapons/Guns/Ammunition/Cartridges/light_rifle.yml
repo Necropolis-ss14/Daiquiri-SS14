@@ -16,7 +16,7 @@
 - type: entity
   id: CartridgeLightRifleImprovised
   name: самодельный патрон (.30 rifle)
-  description: A handmade rifle bullet, uses phosphorus as a propellent instead of gunpowder which makes it much less effective.
+  description: Самодельная винтовочная пуля, вместо пороха фосфор, поэтому заметно слабее.
   parent: [BaseCartridgeLightRifleSP, BaseMinorContraband]
   components:
   - type: CartridgeAmmo

@@ -1,6 +1,6 @@
 
 - type: entity
-  name: Ripley APLU MK-II Spawner
+  name: спавнер Ripley APLU MK-II
   id: SpawnMechRipley2
   parent: MarkerBase
   components:
@@ -15,7 +15,7 @@
       - MechRipley2Battery
 
 - type: entity
-  name: H.O.N.K. Spawner
+  name: спавнер H.O.N.K.
   suffix: Filled
   id: SpawnMechHonkerFilled
   parent: SpawnMechHonker
@@ -25,7 +25,7 @@
       - MechHonkerFilled
 
 - type: entity
-  name: Clarke Spawner
+  name: спавнер Clarke
   id: SpawnMechClarke
   parent: MarkerBase
   components:
@@ -40,7 +40,7 @@
       - MechClarkeBattery
 
 - type: entity
-  name: Gygax Spawner
+  name: спавнер Gygax
   id: SpawnMechGygax
   parent: MarkerBase
   components:
@@ -55,7 +55,7 @@
       - MechGygaxBattery
 
 - type: entity
-  name: Durand Spawner
+  name: спавнер Durand
   id: SpawnMechDurand
   parent: MarkerBase
   components:
@@ -70,7 +70,7 @@
       - MechDurandBattery
 
 - type: entity
-  name: Marauder Spawner
+  name: спавнер Marauder
   id: SpawnMechMarauder
   parent: MarkerBase
   components:
@@ -85,7 +85,7 @@
       - MechMarauderBattery
 
 - type: entity
-  name: Marauder Spawner
+  name: спавнер Marauder
   suffix: Filled
   id: SpawnMechMarauderFilled
   parent: MarkerBase
@@ -101,7 +101,7 @@
       - MechMarauderFilled
 
 - type: entity
-  name: Seraph Spawner
+  name: спавнер Seraph
   id: SpawnMechSeraph
   parent: MarkerBase
   components:
@@ -116,7 +116,7 @@
       - MechSeraphBattery
 
 - type: entity
-  name: Seraph Spawner
+  name: спавнер Seraph
   suffix: Filled
   id: SpawnMechSeraphFilled
   parent: MarkerBase
@@ -132,7 +132,7 @@
       - MechSeraphFilled
 
 - type: entity
-  name: Dark Gygax Spawner
+  name: спавнер тёмного Gygax
   id: SpawnMechGygaxSyndie
   parent: MarkerBase
   components:
@@ -147,7 +147,7 @@
       - MechGygaxSyndieBattery
 
 - type: entity
-  name: Dark Gygax Spawner
+  name: спавнер тёмного Gygax
   suffix: Filled
   id: SpawnMechGygaxSyndieFilled
   parent: MarkerBase
@@ -163,7 +163,7 @@
       - MechGygaxSyndieFilled
 
 - type: entity
-  name: Mauler Spawner
+  name: спавнер Mauler
   id: SpawnMechMaulerSyndie
   parent: MarkerBase
   components:
@@ -178,7 +178,7 @@
       - MechMaulerSyndieBattery
 
 - type: entity
-  name: Mauler Spawner
+  name: спавнер Mauler
   suffix: Filled
   id: SpawnMechMaulerSyndieFilled
   parent: MarkerBase
@@ -194,7 +194,7 @@
       - MechMaulerSyndieFilled
 
 - type: entity
-  name: Paddy Spawner
+  name: спавнер Paddy
   suffix: Filled
   id: SpawnMechPaddyFilled
   parent: MarkerBase

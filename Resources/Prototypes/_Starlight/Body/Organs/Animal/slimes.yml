@@ -23,7 +23,7 @@
   parent: BaseHumanOrgan
   name: газовые мешки слайма
   suffix: Slimes
-  description: "Collects nitrogen, which slime cells use for maintenance."
+  description: "Собирает азот, который клетки слайма используют для жизнедеятельности."
   components:
     - type: Sprite
       sprite: Mobs/Species/Slime/organs.rsi

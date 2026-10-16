@@ -4,7 +4,7 @@
   parent: [BaseJetpack, BaseSovietContraband]
   name: джетпак морпеха SSF
   suffix: Empty
-  description: Standard issued soviet-made jetpack for the kosmos.
+  description: Стандартный джетпак советского производства для космоса.
   components:
     - type: Contraband # Blimpuf
       tier: Tier3
@@ -27,7 +27,7 @@
   id: JetpackSSFMarineFilled
   parent: [JetpackSSFMarine, BaseSovietContraband]
   name: джетпак морпеха SSF
-  description: Standard issued soviet-made jetpack for the kosmos.
+  description: Стандартный джетпак советского производства для космоса.
   components:
     - type: Item
       sprite: _Starlight/Objects/Tanks/Jetpacks/marine_jetpack.rsi
@@ -53,7 +53,7 @@
   id: JetpackImprovised
   parent: [ BaseJetpack, BaseMinorContraband ]
   name: импровизированный джетпак
-  description: It's a jetpack. It can hold 1.5 L of gas.
+  description: Это джетпак. Вмещает 1,5 л газа.
   suffix: Empty
   components:
     - type: Item
@@ -145,7 +145,7 @@
   id: JetpackCyborgCentcomm
   name: джетпак ЦентКома
   suffix: Cyborg, Infinite
-  description: Specialised jetpack for cyborgs which harvests moles on the go.
+  description: Специализированный джетпак для киборгов, собирающий моли на ходу.
   components:
   - type: Jump
     action: JumpJetNoMoles

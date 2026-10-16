@@ -2,7 +2,7 @@
   parent:  [ClothingNeckBase, BaseCommandContraband ]
   id: ClothingNeckCloakHosFireline
   name: плащ огневой линии М-81
-  description: A cloak made for the most dedicated head of securities, it comes with durable warming fabric and has a fireline-like glow to it.
+  description: Плащ для самого преданного главы службы безопасности, из прочной тёплой ткани со свечением как линия огня.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Neck/Cloaks/hos_poncho.rsi
@@ -19,7 +19,7 @@
   parent: [ClothingNeckBase, BaseCommandContraband]
   id: ClothingNeckCloakCapElite
   name: плащ элитного капитана
-  description: An elite captain's cloak made from the latest composite glowing fabric, ensuring you stand out and are easier to target. Live bright, die young.
+  description: Элитный плащ капитана из новейшей композитной светящейся ткани, чтобы выделяться и быть лёгкой мишенью. Живи ярко, умри молодым.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Neck/Cloaks/cap_elite.rsi
@@ -59,7 +59,7 @@
   parent: [ ClothingNeckBase, BaseCommandContraband ]
   id: ClothingNeckCloakHopElite
   name: плащ элитного главы персонала
-  description: An elite hop's cloak made from the latest composite glowing fabric, ensuring you stand out and are easier to target. Live bright, hop hard, and pray your team knows how to catch!
+  description: Элитный плащ главы персонала из новейшей светящейся ткани, чтобы выделяться и быть лёгкой мишенью. Живи ярко, прыгай жёстко и молись, чтобы команда умела ловить!
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Neck/Cloaks/hop_elite.rsi
@@ -76,7 +76,7 @@
   parent: [ ClothingNeckBase, BaseCommandContraband ]
   id: ClothingCloakCmoElite
   name: плащ элитного главного врача
-  description: An elite chief medical officer's cloak made from the latest composite glowing fabric. Not recommended for breaking cancer diagnoses to patients.
+  description: Элитный плащ главного врача из новейшей светящейся ткани. Не рекомендуется для сообщения пациентам онкологических диагнозов.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Neck/Cloaks/cmo_elite.rsi
@@ -93,7 +93,7 @@
   parent:  [ClothingNeckBase, BaseCommandContraband ]
   id: ClothingNeckCloakHosElite
   name: плащ элитного главы службы безопасности
-  description: An elite head of security's cloak crafted from the latest composite glowing fabric. Only for a true paladin.
+  description: Элитный плащ главы СБ из новейшей светящейся ткани. Только для истинного паладина.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Neck/Cloaks/hos_elite.rsi
@@ -110,7 +110,7 @@
   parent: [ClothingNeckBase, BaseCommandContraband]
   id: ClothingNeckCloakHosRetro
   name: ретро-плащ главы службы безопасности
-  description: A retro-styled cloak for the head of security, reminiscent of days gone by.
+  description: Ретро-плащ главы СБ, напоминающий о былых днях.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Neck/Cloaks/RetroHos.rsi
@@ -123,7 +123,7 @@
   parent: [ ClothingNeckBase, BaseCommandContraband ]
   id: ClothingNeckCloakCeElite
   name: плащ элитного старшего инженера
-  description: Chief engineer's cloak made from the latest composite glowing fabric, ensuring you stand out. The brightest cloak—so everyone knows where all the station's light went.
+  description: Плащ главного инженера из новейшей светящейся ткани. Самый яркий плащ — чтобы все знали, куда делся свет станции.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Neck/Cloaks/ce_elite.rsi
@@ -140,7 +140,7 @@
   parent:  [ClothingNeckBase, BaseCommandContraband ]
   id: ClothingNeckCloakRdElite
   name: плащ элитного научного руководителя
-  description: Research Director's cloak made from the latest composite glowing fabric, ensuring you stand out. Make sure to tell everyone you invented it.
+  description: Плащ директора исследований из новейшей светящейся ткани. Не забудьте рассказать всем, что изобрели его вы.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Neck/Cloaks/rd_elite.rsi
@@ -157,7 +157,7 @@
   parent: [ ClothingNeckBase, BaseCommandContraband ]
   id: ClothingNeckCloakQmElite
   name: плащ элитного квартирмейстера
-  description: Quartermaster's cloak made from the latest composite glowing fabric, of course, you don't want to sell it.
+  description: Плащ квартирмейстера из новейшей светящейся ткани, его-то продавать не хочется.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Neck/Cloaks/qm_elite.rsi
@@ -174,7 +174,7 @@
   parent: [ ClothingNeckBase, BaseBlueShieldContraband ]
   id: ClothingNeckCloakBsoElite
   name: плащ элитного блюшилда
-  description: An elite Blueshield Officer's cloak crafted from the latest composite glowing fabric. No true BSO is afraid of shining in the dark!
+  description: Элитный плащ офицера синего щита из новейшей светящейся ткани. Истинный ОСО не боится сиять в темноте!
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Neck/Cloaks/bso_elite.rsi
@@ -191,7 +191,7 @@
   parent: [ ClothingNeckBase, BaseBlueShieldContraband ]
   id: ClothingNeckCloakBsoCape
   name: торжественный плащ блюшилда
-  description: An incredibly large coat, owned only by the most experienced Blueshield Officers. It's said the sleeves have never been worn.
+  description: Невероятно большое пальто самых опытных офицеров синего щита. Говорят, рукава ни разу не надевали.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Neck/Cloaks/bso_formal.rsi
@@ -203,7 +203,7 @@
   parent: [ ClothingNeckBase, BaseBlueShieldContraband ]
   id: ClothingNeckCloakBsoPoncho
   name: пончо блюшилда
-  description: This type of poncho was the signature garment of a legendary BSO with no name, or so it is said.
+  description: Пончо такого типа было фирменной одеждой легендарного безымянного ОСО, так говорят.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Neck/Cloaks/bso_poncho
@@ -215,7 +215,7 @@
   parent: ClothingNeckBase
   id: ClothingNeckOldMantle
   name: старая накидка
-  description: A tattered fabric wrap, faded over the years. Smells faintly of cigars.
+  description: Потрёпанная тканевая обёртка, выцветшая за годы. Слегка пахнет сигарами.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Neck/Mantles/oldmantle.rsi
@@ -226,7 +226,7 @@
   parent: [ClothingNeckBase, BaseCentcommContraband]
   id: ClothingNeckCloakCEDMantle
   name: мантия Центрального инженерного дивизиона
-  description: Supermatters, Teslas and TEGs all tremble in fear from anyone wearing this mantle.
+  description: Суперматерия, теслы и ТЭГи трепещут от страха перед носителем этой мантии.
   components:
   - type: Sprite
     sprite:  _Starlight/Clothing/Neck/Cloaks/CED_mantle.rsi
@@ -237,7 +237,7 @@
   parent: [ClothingNeckBase, BaseCentcommContraband]
   id: ClothingNeckCloakCCponcho
   name: пончо центрального командования
-  description: a stylish poncho for a CC offical that prefers field-work to pushing papers.
+  description: Стильное пончо для офицера ЦК, предпочитающего полевую работу бумагам.
   components:
   - type: Sprite
     sprite:  _Starlight/Clothing/Neck/Cloaks/CC_poncho.rsi
@@ -251,7 +251,7 @@
   parent: [ ClothingNeckBase ]
   id: ClothingNeckCloakCentcomBlack
   name: плащ офицера специальных операций
-  description: The NanoTrasen logo embroidered in gold speaks for itself.
+  description: Вышитый золотом логотип NanoTrasen говорит сам за себя.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Neck/Cloaks/centcom_officer_black.rsi
@@ -260,7 +260,7 @@
   parent: [ ClothingNeckBase ]
   id: ClothingNeckCloakCentcomAdmiral
   name: плащ адмирала
-  description: A vibrant green cape with gold stitching, worn by NanoTrasen Navy Admirals.
+  description: Ярко-зелёная накидка с золотой вышивкой, которую носят адмиралы флота NanoTrasen.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Neck/Cloaks/admiral.rsi
@@ -269,7 +269,7 @@
   parent: [ ClothingNeckBase ]
   id: ClothingNeckMantleERTLeader
   name: мантия лидера ОБР
-  description: Extraordinary decorative drape over the shoulders.
+  description: Изысканная декоративная накидка на плечи.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Neck/Mantles/ERTmantle.rsi
@@ -280,7 +280,7 @@
   parent: ClothingNeckBase
   id: ClothingNeckHorrific
   name: кошмарный галстук
-  description: The necktie is adorned with a garish pattern. It's disturbingly vivid. Somehow you feel as if it would be wrong to ever take it off. It's your friend now. You don't need to listen to it, but it makes some good points.
+  description: Галстук с кричащим узором. Тревожно яркий. Кажется, снимать его было бы неправильно. Теперь он твой друг. Слушать его не обязательно, но мысли у него дельные.
   components:
   - type: GhostRole
     makeSentient: true
@@ -306,7 +306,7 @@
   parent: ClothingNeckBase
   id: ClothingUniformDama0965
   name: чёрный меховой плащ
-  description: Neat cloak with fur around the neck and hem.
+  description: Аккуратный плащ с мехом на воротнике и подоле.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Neck/Cloaks/shuba.rsi
@@ -317,7 +317,7 @@
   parent: ClothingNeckBase
   id: ClothingUniformShinelVampir
   name: окровавленный плащ аристократа
-  description: A dark leather greatcoat soaked in blood.
+  description: Тёмное кожаное пальто, пропитанное кровью.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Neck/Cloaks/ari.rsi
@@ -328,7 +328,7 @@
   parent: ClothingNeckBase
   id: ClothingNeckTieGeoffroyblack12
   name: благородная мантия
-  description: A light-colored cloak with golden patterns and lush white fur on the shoulders.
+  description: Светлый плащ с золотыми узорами и пышным белым мехом на плечах.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Neck/Cloaks/belpero.rsi
@@ -343,7 +343,7 @@
   parent: [BaseItem, ClothingNeckBase, ClothingOuterBaseLarge, AllowSuitStorageClothing, BaseSovietContraband]
   id: ClothingNeckCloakCommissar
   name: шинель комиссара
-  description: Rumor has it entire regiments of aides exist solely to press seams, polish buttons, and remind the Commissar which coat goes over which.
+  description: Ходят слухи, целые полки адъютантов существуют лишь чтобы гладить швы, чистить пуговицы и напоминать комиссару, какое пальто поверх какого.
   components:
   - type: Contraband # Blimpuf
     tier: Tier3
@@ -380,7 +380,7 @@
   parent: [ ClothingNeckBase, BaseSalvageContraband ]
   id: ClothingNeckMantleDecoratedSalvager
   name: церемониальная мантия утилизатора
-  description: A ceremonial mantle, worn by salvagers that have distinguished themselves.
+  description: Церемониальная мантия отличившихся утилизаторов.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Neck/Mantles/salvagemantle.rsi
@@ -391,7 +391,7 @@
   parent: [ ClothingNeckBase, BaseSalvageContraband ]
   id: ClothingNeckMantleDecoratedVeteranSalvager
   name: мантия ветерана-утилизатора
-  description: A ceremonial mantle with waist-capes, worn by veteran salvagers that have distinguished themselves even further.
+  description: Церемониальная мантия с наплечными накидками для заслуженных ветеранов-утилизаторов.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Neck/Mantles/veteran_salvagemantle.rsi
@@ -402,7 +402,7 @@
   parent: ClothingNeckBase
   id: ClothingNeckMantleUnidentified
   name: неопознанная мантия
-  description: A mysterious yet well made mantle of unknown origin.
+  description: Таинственная, но добротно сделанная мантия неизвестного происхождения.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Neck/Mantles/Unidentifiedmantle.rsi
@@ -414,7 +414,7 @@
   parent: [ ClothingNeckBase, BaseSalvageContraband ]
   id: ClothingNeckMantleMedic
   name: мантия медика-утилизатора
-  description: A mantle used to designate an ITG medic
+  description: Мантия для обозначения медика ITG.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Neck/Mantles/medicmantle.rsi
@@ -427,7 +427,7 @@
   parent: ClothingNeckBase
   id: ClothingNeckTatteredHood
   name: рваный капюшон
-  description: A tattered hood of dull fabric. It's weave is thick and coarse, whatever tore this took some effort.
+  description: Рваный капюшон из тусклой ткани. Плетение толстое и грубое, что бы его ни порвало, пришлось постараться.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Neck/Cloaks/tattered_hood.rsi
@@ -590,7 +590,7 @@
   parent: [ClothingNeckMantleRD, BaseCentcommContraband]
   id: ClothingNeckCloakCRDMantle
   name: мантия Центрального научного дивизиона
-  description: Rumors say that anomalies stabilize on their own and artifacts start behaving the moment this mantle shows up in the lab.
+  description: Говорят, аномалии стабилизируются сами, а артефакты начинают вести себя прилично, стоит этой мантии появиться в лаборатории.
   components:
   - type: Sprite
     sprite:  _Starlight/Clothing/Neck/Cloaks/CRD_mantle.rsi
@@ -600,7 +600,7 @@
   parent: [ClothingNeckMantleCMO, BaseCentcommContraband]
   id: ClothingNeckCloakCMDMantle
   name: мантия Центрального медицинского дивизиона
-  description: No ailment or wound can hide from the gaze of the one draped in this mantle.
+  description: Ни одна болезнь или рана не скроется от взора того, кто облачён в эту мантию.
   components:
   - type: Sprite
     sprite:  _Starlight/Clothing/Neck/Cloaks/CMD_mantle.rsi
@@ -611,7 +611,7 @@
   parent: ClothingNeckBase
   id: ClothingNeckCloakSupremeJanitor
   name: плащ верховного уборщика
-  description: A magnificent cloak worn only by the most dedicated janitors. Its ethereal glow is said to ward off dirt itself.
+  description: Великолепный плащ самых преданных уборщиков. Говорят, его эфирное свечение отпугивает саму грязь.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Neck/supreme-janitor-cloak.rsi
@@ -620,7 +620,7 @@
   parent: ClothingNeckBase
   id: RedRegaliaCloak
   name: красный парадный плащ
-  description: A fancy red cloak like a mafiaoso would wear.
+  description: Щегольской красный плащ, какой носил бы мафиозо.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Neck/Cloaks/red_regalia.rsi
@@ -631,7 +631,7 @@
   parent: [ ClothingNeckBase ]
   id: ClothingNeckCloakwarden
   name: плащ смотрителя
-  description: A rough cloak that has seen better days.
+  description: Грубый плащ, видавший лучшие дни.
   components:
   - type: Sprite
     sprite:  _Starlight/Clothing/Neck/Cloaks/warden.rsi
@@ -642,7 +642,7 @@
   parent: [ClothingNeckMantleCMO, BaseCentcommContraband]
   id: ClothingNeckCloakCMDShawl
   name: шаль Центрального медицинского дивизиона
-  description:  A shawl with a shoulder epaulette fitting of a member of the central medical division who wants to stay warm yet professional.
+  description: Шаль с наплечным эполетом члена центрального медицинского дивизиона, желающего оставаться в тепле и выглядеть профессионально.
   components:
     - type: Sprite
       sprite:  _Starlight/Clothing/Neck/Cloaks/CMD_shawl.rsi
@@ -653,7 +653,7 @@
   parent: [ClothingNeckMantleCMO, BaseCentcommContraband]
   id: ClothingNeckCloakCCShawl
   name: шаль центрального командования
-  description:  A shawl with a shoulder epaulette fitting of a member of central command following complaints from a CID Minister of Intelligence that wanted the medical symbol removed from it as an excuse to wear it without being apart of CMD.
+  description: Шаль с наплечным эполетом члена центрального командования после жалоб министра разведки, желавшего убрать медицинский символ как предлог носить её не будучи частью командования.
   components:
     - type: Sprite
       sprite:  _Starlight/Clothing/Neck/Cloaks/CC_shawl.rsi

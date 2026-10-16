@@ -2,7 +2,7 @@
   parent: [ BaseItem, BaseMajorContraband ]
   id: MagazineBoltRifle
   name: магазин болт-винтовки (стандартный)
-  description: A 21-round magazine for impact bolts.
+  description: Магазин на 21 ударный болт.
   components:
   - type: Tag
     tags:

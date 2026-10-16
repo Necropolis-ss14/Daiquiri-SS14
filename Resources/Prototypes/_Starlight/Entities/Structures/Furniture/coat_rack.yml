@@ -2,7 +2,7 @@
   name: вешалка
   id: FurnitureCoatRack
   parent: BaseStructure
-  description: Holds your coat or hat, and is always mistaken for a person in the dark.
+  description: Держит пальто или шляпу, а в темноте всегда кажется человеком.
   components:
   - type: Rotatable
   - type: Anchorable
@@ -63,7 +63,7 @@
   name: деревянная стойка
   id: FurnitureWoodRack
   parent: FurnitureCoatRack
-  description: A wooden rack for storing things.
+  description: Деревянная стойка для хранения вещей.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Furniture/woodrack.rsi

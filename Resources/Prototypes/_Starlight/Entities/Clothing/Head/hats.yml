@@ -2,7 +2,7 @@
   parent: [ClothingHeadBase, BaseNanoTrasenContraband]
   id: ClothingHeadHatCapNtrep
   name: кепка представителя НаноТрейзен
-  description: The cap of justice over command!
+  description: Кепка правосудия над командованием!
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Head/Hats/ntrep.rsi
@@ -13,7 +13,7 @@
   parent: [ ClothingHeadBase, BaseBlueShieldContraband ]
   id: ClothingHeadHatBeretBlueShield
   name: берет блюшилда
-  description: This beret completes the outfit of any true Blueshield Officer.
+  description: Этот берет завершает наряд любого истинного офицера синего щита.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Head/Hats/blueshield.rsi
@@ -24,7 +24,7 @@
   parent: [ ClothingHeadBaseSummer, BaseBlueShieldContraband ]
   id: ClothingHeadHatBlueShieldSheriff
   name: шляпа охотника за головами блюшилда
-  description: For when your charges do not wish to be tracked down.
+  description: На случай, если ваши подопечные не желают быть найденными.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Head/Hats/BSO_Bounty_Hunter_hat.rsi
@@ -38,7 +38,7 @@
   parent: ClothingHeadBase
   id: ClothingHeadHatBeretChemist
   name: берет химика
-  description: An orange beret. Defender of bald heads everywhere.
+  description: Оранжевый берет. Защитник лысых голов повсюду.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Head/Hats/beret_chemist.rsi
@@ -54,7 +54,7 @@
   parent: ClothingHeadBase
   id: ClothingHeadNurseHatChemist
   name: сестринская шапка химика
-  description: I'm technically a doctor, you know.
+  description: Я вообще-то врач, знаете ли.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Head/Hats/nursehat_chemist.rsi
@@ -71,7 +71,7 @@
   parent: ClothingHeadBase
   id: ClothingHeadHatTruckerChemist
   name: кепка дальнобойщика химика
-  description: My chemical chariot cannot be stopped!
+  description: Мою химическую колесницу не остановить!
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Head/Hats/truckershat_chemist.rsi
@@ -82,7 +82,7 @@
   parent: ClothingHeadBase
   id: ClothingHeadHatFishCapChemist
   name: рыбацкая кепка химика
-  description: Do mechanical brides fish in chemical spills?
+  description: Ловят ли механические невесты рыбу в химических разливах?
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Head/Hats/fishcap_chemist.rsi
@@ -93,7 +93,7 @@
   parent: [ClothingHeadBase, BaseSecurityContraband]
   id: ClothingHeadHatBeretCorpsman
   name: берет санитара
-  description: Losing this hat is considered grounds for demotion. Kidding, though you will be ridiculed by your fellow corpsmans.
+  description: Потеря этой шапки считается поводом для понижения. Шутка, но сослуживцы-корпсмены вас высмеют.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Head/Hats/beret_corpsman.rsi
@@ -104,7 +104,7 @@
   parent: [ClothingHeadBase, BaseSecurityContraband]
   id: ClothingHeadNurseHatBrigmedic
   name: медицинская шапка бригмедика
-  description: For those long nights on the shift.
+  description: Для тех долгих ночей на смене.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Head/Hats/nursehat_brigmedic.rsi
@@ -121,7 +121,7 @@
   parent: [ClothingHeadBase, BaseSecurityContraband]
   id: ClothingHeadNurseHatCorpsman
   name: медицинская шапка санитара
-  description: Dark enough to hide blood and tears alike.
+  description: Достаточно тёмная, чтобы скрыть и кровь, и слёзы.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Head/Hats/nursehat_corpsman.rsi
@@ -138,7 +138,7 @@
   parent: ClothingHeadBase
   id: ClothingHeadNurseHatOfLife
   name: сестринская шапка жизни
-  description: A hat that symbolizes the joy and positivity of our life.
+  description: Шапка, символизирующая радость и позитив нашей жизни.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Head/Hats/nursehatoflife.rsi
@@ -155,7 +155,7 @@
   parent: ClothingHeadBase
   id: ClothingHeadHatDutyOfficer
   name: кепка дежурного офицера
-  description: I'm the only thing that can protect this station from chaos.
+  description: Я единственное, что может защитить эту станцию от хаоса.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Head/Hats/dutyofficer_hat.rsi
@@ -171,7 +171,7 @@
   parent: ClothingHeadBase
   id: ClothingHeadHatBeretDutyOfficer
   name: берет дежурного офицера
-  description: A dark-red beret themed after the warden's. Not bad, not bad.
+  description: Тёмно-красный берет в стиле смотрителя. Неплохо, неплохо.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Head/Hats/beret_dutyofficer.rsi
@@ -187,7 +187,7 @@
   parent: [ClothingHeadBaseSummer, BaseCommandContraband]
   id: ClothingHeadHatSheriffHat
   name: шерифская шляпа главы службы безопасности
-  description: It's high noon.
+  description: Полдень.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Head/Hats/sheriffhat.rsi
@@ -204,7 +204,7 @@
   parent: [ClothingHeadBase, BaseSecurityContraband]
   id: ClothingHeadDeputyHat
   name: шляпа заместителя
-  description: el desperados...
+  description: эль десперадос...
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Head/Hats/deputy_hat.rsi
@@ -222,7 +222,7 @@
   parent: [ClothingHeadBaseWinter, BaseSovietContraband]
   id: ClothingHeadHatUshankaAlt
   name: ушанка СНКВД
-  description: Disappearances are entirely voluntary, tovarisch.
+  description: Исчезновения полностью добровольны, товарищ.
   components:
     - type: Contraband # Blimpuf
       tier: Tier3
@@ -241,7 +241,7 @@
   parent: [ClothingHeadBase, BaseSovietContraband]
   id: ClothingHeadHatSovietAdmiralHat
   name: шапка советского адмирала
-  description: This hat clearly belongs to someone very important.
+  description: Эта шляпа явно принадлежит кому-то очень важному.
   components:
     - type: Contraband # Blimpuf
       tier: Tier3
@@ -259,7 +259,7 @@
   parent: ClothingHeadBaseSummer
   id: ClothingHeadHatBrimHat
   name: широкополая шляпа
-  description: Keep that bloody sun out of your eyes.
+  description: Держи это чёртово солнце подальше от глаз.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Head/Hats/brim_hat.rsi
@@ -274,7 +274,7 @@
   parent: ClothingHeadBase
   id: ClothingHeadHatFeatheredHat
   name: шляпа с перьями
-  description: You own theses streets.
+  description: Эти улицы твои.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Head/Hats/feather_hat.rsi
@@ -289,7 +289,7 @@
   parent: ClothingHeadBase
   id: ClothingHeadHatTVHead
   name: голова-телевизор
-  description: The label says it will make you look like a true Tumblr sexyman. What does that even mean?
+  description: На этикетке сказано, что вы будете выглядеть как настоящий Tumblr-соблазнитель. Что это вообще значит?
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Head/Hats/tv_head.rsi
@@ -304,7 +304,7 @@
   parent: ClothingHeadBase # Hat, not an actual helmet
   id: ClothingHeadHelmetSilverMusician
   name: легендарный серебряный шлем
-  description: The old silver helm of the famous musician duo. One more time?
+  description: Старый серебряный шлем знаменитого музыкального дуэта. Ещё разок?
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Head/Hats/daft_punk_silver.rsi
@@ -342,7 +342,7 @@
   parent: ClothingHeadBase
   id: ClothingHeadHoney
   name: медовая шляпа-блин
-  description: Hat shaped like golden pancakes drizzled with honey, creating a warm and delightful look.
+  description: Шляпа в форме золотых блинчиков, политых мёдом, создаёт тёплый и милый образ.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Head/Hats/pancake.rsi
@@ -353,7 +353,7 @@
   parent: ClothingHeadBase
   id: ClothingHeadBase0121
   name: позолоченная широкополая шляпа
-  description: A cream-white wide-brimmed hat with large white feathers and golden trim.
+  description: Кремово-белая широкополая шляпа с большими белыми перьями и золотой отделкой.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Head/Hats/belpero.rsi
@@ -364,7 +364,7 @@
   parent: [ClothingHeadBase]
   id: ClothingHeadHatTophatBig
   name: большой цилиндр
-  description: This hat clearly belongs to someone very, very important.
+  description: Эта шляпа явно принадлежит кому-то очень, очень важному.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Head/Hats/tophatbig.rsi
@@ -379,7 +379,7 @@
   parent: [ClothingHeadHatTophatBig]
   id: ClothingHeadHatTophatBigWhite
   name: большой цилиндр
-  description: This hat clearly belongs to someone very, very important.
+  description: Эта шляпа явно принадлежит кому-то очень, очень важному.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Head/Hats/tophatbigcolorable.rsi
@@ -390,7 +390,7 @@
   parent: [ClothingHeadHatTophat]
   id: ClothingHeadHatTophatBrass
   name: заводной цилиндр
-  description: This hat draws attention with it's whirly gizmos!
+  description: Эта шляпа привлекает внимание своими вертящимися штуковинами!
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Head/Hats/tophatbrass.rsi
@@ -408,7 +408,7 @@
   parent: [ClothingHeadBaseSummer]
   id: ClothingHeadHatStrawHatWide
   name: широкая соломенная шляпа
-  description: Makes you look mysterious.
+  description: Делает вас загадочным.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Head/Hats/widestrawhat.rsi
@@ -424,7 +424,7 @@
   parent: ClothingHeadBase
   id: ClothingHeadHatNTRTophat
   name: цилиндр представителя НТ
-  description: A fancy black tophat, handmade for the NanoTrasen Rep. It looks expensive.
+  description: Щегольской чёрный цилиндр ручной работы для представителя NanoTrasen. Выглядит дорого.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Head/Hats/ntr_tophat.rsi
@@ -444,7 +444,7 @@
   parent: ClothingHeadBase
   id: ClothingHeadHatNTREliteTophat
   name: элитный цилиндр представителя НТ
-  description: An expensive looking black tophat. the gold embossing on the front shows the NanoTrasen logo, fitting for an NT rep.
+  description: Дорогой чёрный цилиндр. Золотое тиснение спереди с логотипом NanoTrasen, достойно представителя НТ.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Head/Hats/ntr_elite_tophat.rsi
@@ -464,7 +464,7 @@
   parent: [ClothingHeadBase, BaseCentcommContraband]
   id: ClothingHeadHatCCberet
   name: берет ЦК
-  description: A green beret, like any other beret but green and you can't have it.
+  description: Зелёный берет, как любой другой, только зелёный, и вам его нельзя.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Head/Hats/CC_beret.rsi
@@ -479,7 +479,7 @@
   parent: [ClothingHeadBase, BaseCentcommContraband]
   id: ClothingHeadHatCapCentcommCMD
   name: кепка Центрального медицинского дивизиона
-  description: A light blue cap, that's too cool for you crewmate.
+  description: Светло-синяя кепка, слишком крутая для тебя, член экипажа.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Head/Hats/centcommcapCMD.rsi
@@ -494,7 +494,7 @@
   parent: [ClothingHeadBase, BaseCentcommContraband]
   id: ClothingHeadHatCapCentcommCRD
   name: кепка Центрального научного дивизиона
-  description: A light purple cap, that's too cool for you crewmate.
+  description: Светло-фиолетовая кепка, слишком крутая для тебя, член экипажа.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Head/Hats/centcommcapCRD.rsi
@@ -509,7 +509,7 @@
   parent: [ClothingHeadBase, BaseCentcommContraband]
   id: ClothingHeadHatCapCentcommCAD
   name: кепка Центрального административного дивизиона
-  description: A blue cap, that's too cool for you crewmate.
+  description: Синяя кепка, слишком крутая для тебя, член экипажа.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Head/Hats/centcommcapCAD.rsi
@@ -524,7 +524,7 @@
   parent: [ClothingHeadBase, BaseCentcommContraband]
   id: ClothingHeadHatCapCentcommCCD
   name: кепка Центрального грузового дивизиона
-  description: An orange cap, that's too cool for you crewmate.
+  description: Оранжевая кепка, слишком крутая для тебя, член экипажа.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Head/Hats/centcommcapCCD.rsi
@@ -539,7 +539,7 @@
   parent: [ClothingHeadBase, BaseCentcommContraband]
   id: ClothingHeadHatCapCentcommCSOD
   name: кепка Центрального дивизиона спецопераций
-  description: A pink cap, that's too cool for you crewmate.
+  description: Розовая кепка, слишком крутая для тебя, член экипажа.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Head/Hats/centcommcapCSOD.rsi
@@ -554,7 +554,7 @@
   parent: [ClothingHeadBase, BaseCentcommContraband]
   id: ClothingHeadHatCapCentcommCID
   name: кепка Центрального разведывательного дивизиона
-  description: A purple cap, that's too cool for you crewmate.
+  description: Фиолетовая кепка, слишком крутая для тебя, член экипажа.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Head/Hats/centcommcapCID.rsi
@@ -569,7 +569,7 @@
   parent: [ClothingHeadBase, BaseCentcommContraband]
   id: ClothingHeadHatCapCentcommCSD
   name: кепка Центрального дивизиона безопасности
-  description: A red cap, that's too cool for you crewmate.
+  description: Красная кепка, слишком крутая для тебя, член экипажа.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Head/Hats/centcommcapCSD.rsi
@@ -584,7 +584,7 @@
   parent: [ClothingHeadBase, BaseCentcommContraband]
   id: ClothingHeadHatCapCentcommCED
   name: кепка Центрального инженерного дивизиона
-  description: A yellow cap, that's too cool for you crewmate.
+  description: Жёлтая кепка, слишком крутая для тебя, член экипажа.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Head/Hats/centcommcapCED.rsi
@@ -599,7 +599,7 @@
   parent: [ClothingHeadBase, BaseCentcommContraband]
   id: ClothingHeadHatBountyCentcommCMD
   name: шляпа охотника за головами Центрального медицинского дивизиона
-  description: A sheriff's hat in the signature Central Medical Division's colors, one look at this might make a tider think twice from sneaking into debrief.
+  description: Шерифская шляпа в фирменных цветах Центрального медицинского дивизиона, один взгляд может заставить тайдера дважды подумать перед проникновением на брифинг.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Head/Hats/centcommbountyCMD.rsi
@@ -614,7 +614,7 @@
   parent: [ClothingHeadBase, BaseCentcommContraband]
   id: ClothingHeadHatBountyCentcommCRD
   name: шляпа охотника за головами Центрального научного дивизиона
-  description: A sheriff's hat in the signature Central Research Division's colors, one look at this might make a tider think twice from sneaking into debrief.
+  description: Шерифская шляпа в фирменных цветах Центрального научного дивизиона, один взгляд может заставить тайдера дважды подумать перед проникновением на брифинг.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Head/Hats/centcommbountyCRD.rsi
@@ -629,7 +629,7 @@
   parent: [ClothingHeadBase, BaseCentcommContraband]
   id: ClothingHeadHatBountyCentcommCAD
   name: шляпа охотника за головами Центрального административного дивизиона
-  description: A sheriff's hat in the signature Central Administration Division's colors, one look at this might make a tider think twice from sneaking into debrief.
+  description: Шерифская шляпа в фирменных цветах Центрального административного дивизиона, один взгляд может заставить тайдера дважды подумать перед проникновением на брифинг.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Head/Hats/centcommbountyCAD.rsi
@@ -644,7 +644,7 @@
   parent: [ClothingHeadBase, BaseCentcommContraband]
   id: ClothingHeadHatBountyCentcommCCD
   name: шляпа охотника за головами Центрального грузового дивизиона
-  description: A sheriff's hat in the signature Central Cargo Division's colors, one look at this might make a tider think twice from sneaking into debrief.
+  description: Шерифская шляпа в фирменных цветах Центрального грузового дивизиона, один взгляд может заставить тайдера дважды подумать перед проникновением на брифинг.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Head/Hats/centcommbountyCCD.rsi
@@ -659,7 +659,7 @@
   parent: [ClothingHeadBase, BaseCentcommContraband]
   id: ClothingHeadHatBountyCentcommCSOD
   name: шляпа охотника за головами Центрального дивизиона спецопераций
-  description: A sheriff's hat in the signature Central Special Operations Division's colors, one look at this might make a tider think twice from sneaking into debrief.
+  description: Шерифская шляпа в фирменных цветах Центрального дивизиона спецопераций, один взгляд может заставить тайдера дважды подумать перед проникновением на брифинг.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Head/Hats/centcommbountyCSOD.rsi
@@ -674,7 +674,7 @@
   parent: [ClothingHeadBase, BaseCentcommContraband]
   id: ClothingHeadHatBountyCentcommCID
   name: шляпа охотника за головами Центрального разведывательного дивизиона
-  description: A sheriff's hat in the signature Central Intelligence Division's colors, one look at this might make a tider think twice from sneaking into debrief.
+  description: Шерифская шляпа в фирменных цветах Центрального разведывательного дивизиона, один взгляд может заставить тайдера дважды подумать перед проникновением на брифинг.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Head/Hats/centcommbountyCID.rsi
@@ -689,7 +689,7 @@
   parent: [ClothingHeadBase, BaseCentcommContraband]
   id: ClothingHeadHatBountyCentcommCSD
   name: шляпа охотника за головами Центрального дивизиона безопасности
-  description: A sheriff's hat in the signature Central Security Division's colors, one look at this might make a tider think twice from sneaking into debrief.
+  description: Шерифская шляпа в фирменных цветах Центрального дивизиона безопасности, один взгляд может заставить тайдера дважды подумать перед проникновением на брифинг.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Head/Hats/centcommbountyCSD.rsi
@@ -704,7 +704,7 @@
   parent: [ClothingHeadBase, BaseCentcommContraband]
   id: ClothingHeadHatBountyCentcommCED
   name: шляпа охотника за головами Центрального инженерного дивизиона
-  description: A sheriff's hat in the signature Central Engineering Division's colors, one look at this might make a tider think twice from sneaking into debrief.
+  description: Шерифская шляпа в фирменных цветах Центрального инженерного дивизиона, один взгляд может заставить тайдера дважды подумать перед проникновением на брифинг.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Head/Hats/centcommbountyCED.rsi
@@ -719,7 +719,7 @@
   parent: [ClothingHeadBase, BaseCentcommContraband]
   id: ClothingHeadHatBeretCentcommCMD
   name: берет Центрального медицинского дивизиона
-  description: A light blue beret, like any other beret, you can't have it.
+  description: Светло-синий берет, как любой другой, вам его нельзя.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Head/Hats/centcommberetCMD.rsi
@@ -734,7 +734,7 @@
   parent: [ClothingHeadBase, BaseCentcommContraband]
   id: ClothingHeadHatBeretCentcommCRD
   name: берет Центрального научного дивизиона
-  description: A light purple beret, like any other beret, you can't have it.
+  description: Светло-фиолетовый берет, как любой другой, вам его нельзя.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Head/Hats/centcommberetCRD.rsi
@@ -749,7 +749,7 @@
   parent: [ClothingHeadBase, BaseCentcommContraband]
   id: ClothingHeadHatBeretCentcommCAD
   name: берет Центрального административного дивизиона
-  description: A blue beret, like any other beret, you can't have it.
+  description: Синий берет, как любой другой, вам его нельзя.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Head/Hats/centcommberetCAD.rsi
@@ -764,7 +764,7 @@
   parent: [ClothingHeadBase, BaseCentcommContraband]
   id: ClothingHeadHatBeretCentcommCCD
   name: берет Центрального грузового дивизиона
-  description: An orange beret, like any other beret, you can't have it.
+  description: Оранжевый берет, как любой другой, вам его нельзя.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Head/Hats/centcommberetCCD.rsi
@@ -779,7 +779,7 @@
   parent: [ClothingHeadBase, BaseCentcommContraband]
   id: ClothingHeadHatBeretCentcommCSOD
   name: берет Центрального дивизиона спецопераций
-  description: A pink beret, like any other beret, you can't have it.
+  description: Розовый берет, как любой другой, вам его нельзя.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Head/Hats/centcommberetCSOD.rsi
@@ -794,7 +794,7 @@
   parent: [ClothingHeadBase, BaseCentcommContraband]
   id: ClothingHeadHatBeretCentcommCID
   name: берет Центрального разведывательного дивизиона
-  description: A purple beret, like any other beret, you can't have it.
+  description: Фиолетовый берет, как любой другой, вам его нельзя.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Head/Hats/centcommberetCID.rsi
@@ -809,7 +809,7 @@
   parent: [ClothingHeadBase, BaseCentcommContraband]
   id: ClothingHeadHatBeretCentcommCSD
   name: берет Центрального дивизиона безопасности
-  description: A red beret, like any other beret, you can't have it.
+  description: Красный берет, как любой другой, вам его нельзя.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Head/Hats/centcommberetCSD.rsi
@@ -824,7 +824,7 @@
   parent: [ClothingHeadBase, BaseCentcommContraband]
   id: ClothingHeadHatBeretCentcommCED
   name: берет Центрального инженерного дивизиона
-  description: A yellow beret, like any other beret, you can't have it.
+  description: Жёлтый берет, как любой другой, вам его нельзя.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Head/Hats/centcommberetCED.rsi
@@ -839,7 +839,7 @@
   parent: [ClothingHeadBase, BaseCentcommContraband]
   id: ClothingHeadHatCCSheriffhat
   name: шерифская шляпа центрального командования
-  description: A sheriff's hat in the signature CC colors, one look at this might make a tider think twice from sneaking into debrief.
+  description: Шерифская шляпа в фирменных цветах ЦК, один взгляд может заставить тайдера дважды подумать перед проникновением на брифинг.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Head/Hats/CC_Bounty_Hunter_hat.rsi
@@ -850,7 +850,7 @@
   parent: ClothingHeadBase
   id: ClothingHeadHatBeretCargo
   name: берет грузчика
-  description: A beret with the cargo department's insignia. Deliver crates in style.
+  description: Берет с эмблемой отдела карго. Доставляйте ящики со стилем.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Head/Hats/cargo_beret.rsi
@@ -869,7 +869,7 @@
   parent: ClothingHeadBase
   id: ClothingHeadHatBeretCargoFormal
   name: торжественный берет грузчика
-  description: A distinguished beret with the cargo department's insignia. Reserved for cargo's finest.
+  description: Отличительный берет с эмблемой отдела карго. Для лучших из карго.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Head/Hats/cargo_beret_formal.rsi
@@ -888,7 +888,7 @@
   parent: [ClothingHeadBase, BaseSalvageContraband]
   id: ClothingHeadHatBeretSalvageMercBrown
   name: коричневый берет утилизатора
-  description: A brown beret.
+  description: Коричневый берет.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Head/Hats/salvage-brown.rsi
@@ -903,7 +903,7 @@
   parent: [ClothingHeadBase, BaseSalvageContraband]
   id: ClothingHeadHatBeretSalvageMercGreen
   name: зелёный берет утилизатора
-  description: A green beret.
+  description: Зелёный берет.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Head/Hats/salvage-green.rsi
@@ -918,7 +918,7 @@
   parent: [ClothingHeadBase, BaseSalvageContraband]
   id: ClothingHeadHatBeretSalvageMercPurple
   name: фиолетовый берет утилизатора
-  description: A purple beret.
+  description: Фиолетовый берет.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Head/Hats/salvage-purple.rsi
@@ -933,7 +933,7 @@
   parent: [BaseTSFContraband, ClothingHeadBase]
   id: ClothingHeadHatBeretTSF
   name: берет ТСФ
-  description: A beret worn by marines of the Trans-Solar Federation.
+  description: Берет морпехов Транс-Солнечной Федерации.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Head/Hats/beret_tsf.rsi
@@ -944,7 +944,7 @@
   parent: [BaseTSFContraband, ClothingHeadBase]
   id: ClothingHeadHatBeretTSFElite
   name: берет MARSOC
-  description: A beret worn by junior officers of the Trans-Solar Federation's Marine Special Operations Command.
+  description: Берет младших офицеров Командования специальных операций морпехов Транс-Солнечной Федерации.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Head/Hats/beret_tsfelite.rsi
@@ -955,7 +955,7 @@
   parent: ClothingHeadBase
   id: RedRegaliaHat
   name: красная парадная шляпа
-  description: A fancy red hat like a mafiaoso would wear.
+  description: Щегольская красная шляпа, какую носил бы мафиозо.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Head/Hats/red_regalia.rsi
@@ -966,7 +966,7 @@
   parent: [ClothingHeadBase, BaseNanoTrasenContraband]
   id: ClothingHeadHatBeretNCTBlack
   name: берет тренера НТ
-  description: A beret worn by the mentors and trainers of the Career Training Team. This one is black!
+  description: Берет наставников и тренеров команды карьерного обучения. Этот чёрный!
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Head/Hats/beret_nct_black.rsi
@@ -976,7 +976,7 @@
 - type: entity
   parent: ClothingHeadHatBeretNCTBlack
   id: ClothingHeadHatBeretNCTGreen
-  description: A beret worn by the mentors and trainers of the Career Training Team. This one is green!
+  description: Берет наставников и тренеров команды карьерного обучения. Этот зелёный!
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Head/Hats/beret_nct_green.rsi
@@ -987,7 +987,7 @@
   parent: [ClothingHeadBaseSummer, BaseNanoTrasenContraband]
   id: ClothingHeadHatDrilltrainer
   name: шляпа инструктора
-  description: A wide-brimmed campaign hat with a drill sergeant feel, worn by Career Trainers to project knowledge and guide new employees with classic style.
+  description: Широкополая шляпа в духе сержанта-строевика, которую носят карьерные тренеры, чтобы нести знания и наставлять новичков с классическим стилем.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Head/Hats/drilltrainer.rsi
@@ -998,7 +998,7 @@
   parent: [ClothingHeadBase, BaseTSFContraband]
   id: ClothingHeadHatRetroOfficer
   name: кепка офицера ТСФ
-  description: A peaked cap from the Trans Solar Federation's law enforcement division. This peacekeeping headgear symbolizes TSF authority across known space.
+  description: Фуражка правоохранительного дивизиона Транс-Солнечной Федерации. Этот миротворческий головной убор символизирует власть ТСФ в известном космосе.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Head/Hats/retro_officer_cap.rsi
@@ -1009,7 +1009,7 @@
   parent: ClothingHeadHatWizard
   id: ClothingHeadHatWitchyHat
   name: ведьмина шляпа
-  description: Wicky-wicky-witchy hat!
+  description: Ведьмина шляпа-вики-вики!
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Head/Hats/witchyhat.rsi
@@ -1021,7 +1021,7 @@
   parent: ClothingHeadHatRedwizard # Parents red since red wizard hat sprite base
   id: ClothingHeadHatYellowwizard
   name: жёлтая шляпа волшебника
-  description: A strange-looking yellow hat that most certainly belongs to a powerful magic-user.
+  description: Странная жёлтая шляпа, явно принадлежащая могущественному магу.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Head/Hats/wizard_yellow.rsi
@@ -1032,7 +1032,7 @@
   parent: ClothingHeadHatWizard # Parents blue since blue wizard hat sprite base
   id: ClothingHeadHatGreenwizard
   name: зелёная шляпа волшебника
-  description: A strange-looking green hat that most certainly belongs to a powerful magic-user.
+  description: Странная зелёная шляпа, явно принадлежащая могущественному магу.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Head/Hats/wizard_green.rsi
@@ -1043,7 +1043,7 @@
   parent: ClothingHeadHatWizard # Parents blue since blue wizard hat sprite base
   id: ClothingHeadHatPurplewizard
   name: фиолетовая шляпа волшебника
-  description: A strange-looking purple hat that most certainly belongs to a powerful magic-user.
+  description: Странная фиолетовая шляпа, явно принадлежащая могущественному магу.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Head/Hats/wizard_purple.rsi
@@ -1054,7 +1054,7 @@
   parent: ClothingHeadHatWizard # Parents blue since blue wizard hat sprite base
   id: ClothingHeadHatOrangewizard
   name: оранжевая шляпа волшебника
-  description: A strange-looking orange hat that most certainly belongs to a powerful magic-user.
+  description: Странная оранжевая шляпа, явно принадлежащая могущественному магу.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Head/Hats/wizard_orange.rsi
@@ -1065,7 +1065,7 @@
   parent: ClothingHeadHatWizardBase # Parents base since no hamster sprite
   id: ClothingHeadHatPeachwizard
   name: персиковая шляпа волшебника
-  description: A strange-looking peach hat that most certainly belongs to a powerful magic-user.
+  description: Странная персиковая шляпа, явно принадлежащая могущественному магу.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Head/Hats/wizard_peach.rsi
@@ -1082,7 +1082,7 @@
   parent: ClothingHeadBase
   id: ClothingHeadHatBunnyGang
   name: шляпа заячьей банды
-  description: The hat of a secretive group of bunny mercenaries.
+  description: Шляпа тайной группы наёмников-зайчиков.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Head/Hats/bunnygang.rsi
@@ -1093,7 +1093,7 @@
   parent: ClothingHeadBase
   id: ClothingHeadHatBeretPrison
   name: тюремный берет
-  description: A criminal's least favorite headwear.
+  description: Наименее любимый головной убор преступников.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Head/Hats/beret_prison.rsi
@@ -1112,7 +1112,7 @@
   parent: [ClothingHeadBase, BaseCommandContraband]
   id: ClothingHeadHatBeretCaptain
   name: берет капитана
-  description: A tight fitting beret that leaves you questioning if the headache is really from the crew.
+  description: Тесный берет, от которого задумаешься, точно ли головная боль от экипажа.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Head/Hats/beret_captain.rsi
@@ -1129,7 +1129,7 @@
   parent: ClothingHeadBase
   id: ClothingHeadHatPastelFrill
   name: пастельный головной убор с рюшами
-  description: A pretty pink headpiece with frills and lace.
+  description: Милый розовый головной убор с оборками и кружевом.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Head/Hats/pastel_frill_headpiece.rsi
@@ -1140,7 +1140,7 @@
   parent: ClothingHeadBase
   id: ClothingHeadHatGothicFrill
   name: готический головной убор с рюшами
-  description: A pretty black headpiece with frills and lace.
+  description: Милый чёрный головной убор с оборками и кружевом.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Head/Hats/gothic_frill_headpiece.rsi
@@ -1151,7 +1151,7 @@
   parent: ClothingHeadBase
   id: ClothingHeadHatFloppyBunny
   name: висячие заячьи уши
-  description: A pair of floppy bunny ears with piercings.
+  description: Пара висячих заячьих ушей с пирсингом.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Head/Hats/floppy_bunny_ears_black.rsi
@@ -1162,7 +1162,7 @@
   parent: ClothingHeadBase
   id: ClothingHeadHatFloppyBunnyWhite
   name: белые висячие заячьи уши
-  description: A pair of floppy bunny ears with piercings.
+  description: Пара висячих заячьих ушей с пирсингом.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Head/Hats/floppy_bunny_ears_white.rsi
@@ -1173,7 +1173,7 @@
   parent: ClothingHeadBase
   id: ClothingHeadHatFroggyHat
   name: лягушачья шапка
-  description: A froggy hat - is froggy, is hat. What more is there to say?
+  description: Лягушачья шляпа — лягушачья, шляпа. Что ещё сказать?
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Head/Hats/froggy_hat.rsi
@@ -1184,7 +1184,7 @@
   parent: ClothingHeadBase
   id: ClothingHeadHatKittyHat
   name: шапка с кошачьими ушками
-  description: A black cat hat, with dangly pom poms.
+  description: Чёрная котошапка с болтающимися помпонами.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Head/Hats/kitty_hat.rsi
@@ -1195,7 +1195,7 @@
   parent: ClothingHeadBase
   id: ClothingHeadLittleAngelEars
   name: пернатые ушки маленького ангела
-  description: A pair of angelic feathered ears, matches with the rest of the set!
+  description: Пара ангельских перьевых ушек, сочетается с остальным набором!
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Head/Hats/little_angel_ears.rsi
@@ -1206,7 +1206,7 @@
   parent: ClothingHeadBase
   id: ClothingHeadLittleDevilHorns
   name: рожки маленького дьявола
-  description: A pair of devilish horns, matches with the rest of the set!
+  description: Пара дьявольских рожек, сочетается с остальным набором!
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Head/Hats/little_devil_horns.rsi
@@ -1217,7 +1217,7 @@
   parent: [ClothingHeadBase, BaseCommandContraband]
   id: ClothingHeadHatBeretRD
   name: берет научного руководителя
-  description: A nice beret were it not tainted by the scars of many experiments.
+  description: Хороший берет, если бы не шрамы множества экспериментов.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Head/Hats/beret_rd.rsi
@@ -1234,7 +1234,7 @@
   parent: [ClothingHeadBase, BaseNanoTrasenContraband]
   id: ClothingHeadHatBeretMagistrate
   name: берет магистрата
-  description: A beret for when a wig really doesn't cut it.
+  description: Берет на случай, когда парик совсем не спасает.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Head/Hats/beret_magistrate.rsi
@@ -1251,7 +1251,7 @@
   parent: [ClothingHeadBase, BaseNanoTrasenContraband]
   id: ClothingHeadHatBeretNTR
   name: берет представителя НаноТрейзен
-  description: A decorated beret awarded to the best paperpushers in NT.
+  description: Украшенный берет, вручаемый лучшим бумажным работникам НТ.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Head/Hats/beret_ntr.rsi

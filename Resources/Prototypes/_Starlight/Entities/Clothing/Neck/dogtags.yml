@@ -2,7 +2,7 @@
   parent: ClothingNeckBase
   id: ClothingDogTags
   name: армейские жетоны
-  description: Never forget.
+  description: Никогда не забывай.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Neck/Misc/dogtags.rsi

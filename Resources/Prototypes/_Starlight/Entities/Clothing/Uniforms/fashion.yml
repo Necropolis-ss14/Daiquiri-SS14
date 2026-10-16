@@ -2,7 +2,7 @@
   parent: ClothingUniformBase
   id: BodysuitJeansUniformSuit
   name: боди и джинсы
-  description: Fashionable and practicle. You could fight someone in this.
+  description: Модно и практично. В этом можно драться.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/bodysuit_jeans.rsi
@@ -13,7 +13,7 @@
   parent: [ClothingUniformBase, ClothingUniformFoldableBase]
   id: DarkTurtleneckSuit
   name: тёмная водолазка
-  description: The look of an innovator, or a killer, depending on the context.
+  description: Вид новатора или убийцы, смотря по контексту.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/dark_turtleneck.rsi
@@ -24,7 +24,7 @@
   parent: ClothingUniformBase
   id: CamoUniformSuit
   name: камуфляжный комбинезон
-  description: Youd blend in if this was a forest.
+  description: Ты бы слился, будь это лес.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/camo_jumpsuit.rsi
@@ -35,7 +35,7 @@
   parent: ClothingUniformBase
   id: CandyClownUniformSuit
   name: леденцовый клоун
-  description: Oh god this makes your eyes hurt!
+  description: О боже, от этого болят глаза!
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/candy_clown.rsi
@@ -50,7 +50,7 @@
   parent: ClothingUniformBase
   id: CoolTanktopUniformSuit
   name: крутая майка
-  description: Just like heroes wear when they fight Xenos.
+  description: Такое носят герои, сражаясь с ксеносами.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/cool_tanktop.rsi
@@ -61,7 +61,7 @@
   parent: ClothingUniformBase
   id: DruidRobesUniformSuit
   name: робы друида
-  description: A humble robe, for a humble druid.
+  description: Скромная мантия для скромного друида.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/druid_robes.rsi
@@ -72,7 +72,7 @@
   parent: ClothingUniformBase
   id: FlamboyantUniformSuit
   name: вычурный наряд
-  description: You must really like vampires.
+  description: Ты, должно быть, очень любишь вампиров.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/flamboyant.rsi
@@ -83,7 +83,7 @@
   parent: ClothingUniformBase
   id: FlamencoUniformSuit
   name: платье фламенко
-  description: Very festive!
+  description: Очень празднично!
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/flamenco.rsi
@@ -94,7 +94,7 @@
   parent: ClothingUniformBase
   id: FlyCaptainUniformSuit
   name: форма летучего капитана
-  description: People born in the 2480s think this is really cool. It has a certain retro appeal.
+  description: Рождённые в 2480-х считают это крутым. Есть ретро-шарм.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/fly_captain.rsi
@@ -104,8 +104,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: KiltUniformSuit
-  name: kilt
-  description: SCOOOOOOTLAAAANDDDDD!!!
+  name: килт
+  description: ШОООТЛАААНДИИИЯЯЯ!!!
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/kilt.rsi
@@ -116,7 +116,7 @@
   parent: ClothingUniformBase
   id: LilacDressUniformSuit
   name: сиреневое платье
-  description: An elaborate dress that seems woven from lilac petals at a glance.
+  description: Изысканное платье, будто сотканное из сиреневых лепестков.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/lilac_dress.rsi
@@ -127,7 +127,7 @@
   parent: ClothingUniformBase
   id: LittleBlackDressUniformSuit
   name: маленькое чёрное платье
-  description: Just a little too short, only worn by the brave.
+  description: Чуть коротковато, носят лишь смелые.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/little_black_dress.rsi
@@ -138,7 +138,7 @@
   parent: ClothingUniformBase
   id: LumberjackOverallsUniformSuit
   name: комбинезон лесоруба
-  description: Worn by real hard people who hate trees. Smells like pine.
+  description: Носят настоящие жёсткие люди, ненавидящие деревья. Пахнет сосной.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/lumberjack.rsi
@@ -149,7 +149,7 @@
   parent: ClothingUniformBase
   id: MechanicOverallsUniformSuit
   name: комбинезон механика
-  description: A durable set of threads for hard working mechanics. Smells like oil.
+  description: Прочный комплект одежды трудолюбивых механиков. Пахнет маслом.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/mechanic_overalls.rsi
@@ -160,7 +160,7 @@
   parent: [ClothingUniformBase, ClothingUniformFoldableBase]
   id: TrendyTopSuit
   name: модный топ
-  description: A trendy top. What determines a trend, anyways?
+  description: Модный топ. А что вообще определяет тренд?
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Uniforms/trendy_top.rsi
@@ -171,7 +171,7 @@
   parent: ClothingUniformBase
   id: MessyDressShirtUniformSuit
   name: мятая рубашка
-  description: Thrown on in a hurry, probably hasnt been washed in a few days.
+  description: Наброшено в спешке, видимо, не стиралось несколько дней.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/messy_dress_shirt.rsi
@@ -182,7 +182,7 @@
   parent: ClothingUniformBase
   id: MimeFrillsUniformSuit
   name: платье мима с рюшами
-  description: How do they move so silently in these things?
+  description: Как они так бесшумно двигаются в этом?
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/mime_frills.rsi
@@ -193,7 +193,7 @@
   parent: ClothingUniformBase
   id: OldWomanUniformSuit
   name: одежда старухи
-  description: Makes anyone look like theyre 65.
+  description: В этом любой выглядит на 65.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/old_woman.rsi
@@ -204,7 +204,7 @@
   parent: ClothingUniformBase
   id: PunkJeansUniformSuit
   name: панк-джинсы
-  description: Slightly goth, very metal.
+  description: Слегка гот, очень метал.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/punk_jeans.rsi
@@ -215,7 +215,7 @@
   parent: ClothingUniformBase
   id: RefereeUniformSuit
   name: форма судьи
-  description: If theyre holding a red card you might as well shoot them. The time in genpop would be less painful.
+  description: Если у них красная карта, проще пристрелить. Срок в общей камере менее болезнен.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/referee.rsi
@@ -226,7 +226,7 @@
   parent: ClothingUniformBase
   id: SailorUniformSuit
   name: матроска
-  description: Worn by the saltiest seamen. Wait what?
+  description: Носят самые просоленные моряки. Погоди, что?
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/sailor.rsi
@@ -237,7 +237,7 @@
   parent: ClothingUniformBase
   id: StripedClownUniformSuit
   name: полосатая форма клоуна
-  description: Somehow its brighter than anything youve ever seen.
+  description: Каким-то образом ярче всего, что ты видел.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/striped_clown.rsi
@@ -251,8 +251,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: SundressUniformSuit
-  name: sundress
-  description: A lovely sundress, perfect for any summer stroll.
+  name: сарафан
+  description: Милый сарафан, идеален для летней прогулки.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/sundress.rsi
@@ -263,7 +263,7 @@
   parent: ClothingUniformBase
   id: TatteredClothesUniformSuit
   name: рваная одежда
-  description: What one shift as Head of Personnel does to a motherfucker.
+  description: Что одна смена главой персонала делает с человеком.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/tattered_clothes.rsi
@@ -274,7 +274,7 @@
   parent: [ClothingUniformBase, ClothingUniformFoldableBase]
   id: RuggedClothesUniformSuit
   name: грубая одежда
-  description: Don't ask me how my day's going.
+  description: Не спрашивай, как проходит мой день.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/rugged_shirt.rsi
@@ -285,7 +285,7 @@
   parent: ClothingUniformBase
   id: TieDyeUniformSuit
   name: рубашка тай-дай
-  description: Straight out of the 2470s, or the 1970s. You get those two confused a lot.
+  description: Прямо из 2470-х, или из 1970-х. Ты их часто путаешь.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/tiedye.rsi
@@ -295,8 +295,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: TogaUniformSuit
-  name: toga
-  description: TO-GA TO-GA TO-GA!
+  name: тога
+  description: ТО-ГА ТО-ГА ТО-ГА!
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/toga.rsi
@@ -307,7 +307,7 @@
   parent: ClothingUniformBase
   id: VintageUniformSuit
   name: винтажная одежда
-  description: Very retro.
+  description: Очень ретро.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/vintage.rsi
@@ -318,7 +318,7 @@
   parent: ClothingUniformBase
   id: CargoOverallsUniformSuit
   name: грузовой комбинезон
-  description: A durable set of overalls that smell like cardboard.
+  description: Прочный комбинезон, пахнущий картоном.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/cargo_overalls.rsi
@@ -329,7 +329,7 @@
   parent: ClothingUniformBase
   id: RedRegaliaSuit
   name: красный парадный костюм
-  description: A fancy red suit like a mafiaoso would wear.
+  description: Щегольской красный костюм, какой носил бы мафиозо.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/red_regalia.rsi
@@ -340,7 +340,7 @@
   parent: ClothingUniformBase
   id: SpottedClownUniformSuit
   name: пятнистый клоун
-  description: An older clown suit from a more civilized time.
+  description: Старый клоунский костюм из более цивилизованных времён.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/clown_spots.rsi
@@ -355,7 +355,7 @@
   parent: ClothingUniformBase
   id: CuteTurtleNeck
   name: милая водолазка
-  description: This won't actually keep you warm.
+  description: На самом деле не согреет.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Uniforms/cuteturtleneck.rsi
@@ -366,7 +366,7 @@
   parent: ClothingUniformBase
   id: CuteTurtleNeckBlack
   name: милая чёрная водолазка
-  description: This won't actually keep you warm.
+  description: На самом деле не согреет.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Uniforms/cuteturtleneckblack.rsi
@@ -377,7 +377,7 @@
   parent: ClothingUniformBase
   id: GothicFrillDressUniformSuit
   name: готическое платье с рюшами
-  description: A victorian style dress with a frilly petticoat.
+  description: Платье в викторианском стиле с оборчатой нижней юбкой.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Uniforms/gothic_frill.rsi
@@ -388,7 +388,7 @@
   parent: ClothingUniformBase
   id: PastelFrillDressUniformSuit
   name: пастельное платье с рюшами
-  description: A victorian style dress with a frilly petticoat.
+  description: Платье в викторианском стиле с оборчатой нижней юбкой.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Uniforms/pastel_frill.rsi
@@ -399,7 +399,7 @@
   parent: ClothingUniformBase
   id: PunkOffShoulderUniformSuit
   name: панк-топ с открытыми плечами
-  description: A loose fitting shirt that hangs off the shoulder, fit with a spikey choker and cuffs.
+  description: Свободная рубашка со спущенным плечом, с шипастым чокером и манжетами.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Uniforms/punk_off_shoulder.rsi
@@ -410,7 +410,7 @@
   parent: ClothingUniformBase
   id: LittleAngelUniformSuit
   name: платье маленького ангела
-  description: An angelically cute costume dress, matches with the rest of the set!
+  description: Ангельски милое костюмное платье, сочетается с набором!
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Uniforms/little_angel.rsi
@@ -421,7 +421,7 @@
   parent: ClothingUniformBase
   id: LittleDevilUniformSuit
   name: платье маленького дьявола
-  description: A devilishly cute costume dress, matches with the rest of the set!
+  description: Дьявольски милое костюмное платье, сочетается с набором!
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Uniforms/little_devil.rsi

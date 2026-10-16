@@ -1,7 +1,7 @@
 - type: entity
   parent: PackageDelivery
   id: PackageDeliveryEvil
-  name: package
+  name: посылка
   components:
   - type: EntityTableContainerFill
     containers:
@@ -11,7 +11,7 @@
 - type: entity
   parent: LetterDelivery
   id: LetterDeliveryEvil
-  name: letter
+  name: письмо
   components:
   - type: EntityTableContainerFill
     containers:

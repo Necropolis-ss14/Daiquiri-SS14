@@ -2,7 +2,7 @@
   parent: [ EncryptionKey, BaseLawContraband ]
   id: EncryptionKeyLaw
   name: юридический ключ шифрования
-  description: An encryption key used by the most meticulous person.
+  description: Ключ шифрования, используемый самым дотошным человеком.
   components:
     - type: EncryptionKey
       channels:
@@ -17,7 +17,7 @@
   parent: [ EncryptionKey, BaseNanoTrasenContraband ]
   id: EncryptionKeyNanoTrasen
   name: ключ шифрования NanoTrasen
-  description: An encryption key used by captain's bosses' bosses.
+  description: Ключ шифрования, используемый начальниками начальников капитана.
   components:
   - type: EncryptionKey
     channels:
@@ -32,7 +32,7 @@
   parent: EncryptionKeyNanoTrasen
   id: EncryptionKeyNanoTrasenUnremovable
   name: несъёмный ключ шифрования NanoTrasen
-  description: An encryption key used by captain's bosses' bosses.
+  description: Ключ шифрования, используемый начальниками начальников капитана.
   suffix: Unremovable
   components:
   - type: Unremoveable
@@ -41,7 +41,7 @@
   parent: [ EncryptionKey, BaseSovietContraband ]
   id: EncryptionKeySoviet
   name: советский ключ шифрования
-  description: Priyom. Priyom.
+  description: Приём. Приём.
   components:
   - type: Contraband # Blimpuf
     tier: Tier3
@@ -60,7 +60,7 @@
   parent: [ EncryptionKey, BaseCargoContraband ]
   id: EncryptionKeyExpedition
   name: ключ шифрования экспедиции
-  description: An encryption key used by daring explorers.
+  description: Ключ шифрования, используемый отважными исследователями.
   components:
   - type: EncryptionKey
     channels:
@@ -77,7 +77,7 @@
   parent: [ EncryptionKey, BaseSalvageContraband, BaseMiningContraband ]
   id: EncryptionKeySalvage
   name: ключ шифрования утилизаторов
-  description: A dual encryption key used by box-loving explorers.
+  description: Двойной ключ шифрования, используемый исследователями, любящими коробки.
   components:
     - type: EncryptionKey
       channels:
@@ -97,7 +97,7 @@
   parent: [ EncryptionKey, BaseSecurityContraband ]
   id: EncryptionKeyMedicalSecurity
   name: ключ шифрования мед-СБ
-  description: An encryption key used by someone who both takes and saves lives.
+  description: Ключ шифрования, используемый тем, кто и отнимает, и спасает жизни.
   components:
   - type: EncryptionKey
     channels:
@@ -116,7 +116,7 @@
   parent: [ EncryptionKey, BaseSecurityContraband ]
   id: EncryptionKeyLawSecurity
   name: ключ шифрования юр-СБ
-  description: An encryption key used by those who judge, and those who execute.
+  description: Ключ шифрования, используемый теми, кто судит, и теми, кто приводит приговор в исполнение.
   components:
   - type: EncryptionKey
     channels:
@@ -134,7 +134,7 @@
   parent: [ EncryptionKey, BaseNanoTrasenContraband ]
   id: EncryptionKeyNCTrainer
   name: ключ шифрования карьерного тренера NanoTrasen
-  description: An encryption key used by your well-taught corporate training team.
+  description: Ключ шифрования, используемый вашей хорошо обученной корпоративной командой тренеров.
   components:
   - type: EncryptionKey
     channels:
@@ -170,7 +170,7 @@
   parent: EncryptionKey
   id: EncryptionKeyMerchant
   name: ключ шифрования торговца
-  description: An encryption key used by only the most serious of merchants.
+  description: Ключ шифрования, используемый только самыми серьёзными торговцами.
   components:
     - type: EncryptionKey
       channels:
@@ -186,7 +186,7 @@
   parent: EncryptionKey
   id: EncryptionKeyBlackstar
   name: ключ шифрования «Блэкстар»
-  description: An encryption key used by elite Blackstar mercenaries.
+  description: Ключ шифрования, используемый элитными наёмниками «Блэкстар».
   components:
     - type: EncryptionKey
       channels:
@@ -203,7 +203,7 @@
   parent: [ EncryptionKey, BaseMagicalContraband ]
   id: EncryptionKeyWinds
   name: ключ шифрования ветров магии
-  description: An encryption key that grants limited access to the Winds of Magic.
+  description: Ключ шифрования, дающий ограниченный доступ к Ветрам Магии.
   components:
     - type: EncryptionKey
       channels:
@@ -220,7 +220,7 @@
   parent: EncryptionKeyWinds
   id: EncryptionKeyWindsUnremovable
   name: несъёмный ключ шифрования ветров магии
-  description: An encryption key that grants permanent access to the Winds of Magic.
+  description: Ключ шифрования, дающий постоянный доступ к Ветрам Магии.
   suffix: Unremovable
   components:
     - type: Unremoveable
@@ -229,7 +229,7 @@
   parent: [ EncryptionKey, BaseMagicalContraband ]
   id: EncryptionKeyWizardMaster
   name: ключ шифрования мага
-  description: A magical encryption key used by members of the Space Wizards Federation.
+  description: Магический ключ шифрования, используемый членами Федерации космических волшебников.
   components:
   - type: EncryptionKey
     channels:
@@ -254,7 +254,7 @@
   parent: EncryptionKeyWizardMaster
   id: EncryptionKeyWizardMasterUnremovable
   name: несъёмный ключ шифрования мага
-  description: A magical encryption key used by members of the Space Wizards Federation.
+  description: Магический ключ шифрования, используемый членами Федерации космических волшебников.
   suffix: Unremovable
   components:
     - type: Unremoveable
@@ -263,7 +263,7 @@
   parent: EncryptionKey
   id: EncryptionKeyAspace
   name: ключ шифрования аспейс
-  description: An encryption key for people being tortured by admins.
+  description: Ключ шифрования для людей, которых пытают администраторы.
   suffix: Admeme
   components:
     - type: EncryptionKey
@@ -281,7 +281,7 @@
   parent: EncryptionKey
   id: EncryptionKeyGlobal
   name: глобальный ключ шифрования
-  description: Despite the name, this encryption key does not grant all available channels.
+  description: Несмотря на название, этот ключ шифрования не даёт доступ ко всем каналам.
   suffix: Admeme
   components:
     - type: EncryptionKey
@@ -300,7 +300,7 @@
   parent: [ EncryptionKey, BaseSyndicateContraband ]
   id: EncryptionKeyGorlex
   name: ключ шифрования Горлекс
-  description: An encryption key used by... wait... Who is the owner of this chip?
+  description: Ключ шифрования, используемый... погодите... А кто владелец этого чипа?
   components:
   - type: EncryptionKey
     channels:

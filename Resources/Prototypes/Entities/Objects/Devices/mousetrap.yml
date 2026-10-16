@@ -62,11 +62,11 @@
     - type: Rotatable
 
 - type: entity
-  name: mousetrap
+  name: мышеловка
   suffix: Armed
   parent: Mousetrap
   id: MousetrapArmed
-  description: Useful for catching rodents sneaking into your kitchen.
+  description: Полезна для ловли грызунов, пробирающихся на вашу кухню.
   components:
   - type: Sprite
     layers:

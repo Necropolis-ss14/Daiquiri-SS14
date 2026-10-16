@@ -718,8 +718,8 @@
 - type: entity
   parent: BaseStructureDynamic
   id: GasCanisterBrokenBase
-  name: broken gas canister
-  description: A broken gas canister. Not useless yet, as it can be salvaged for high quality materials.
+  name: сломанный газовый баллон
+  description: Сломанный газовый баллон. Ещё не бесполезен — его можно разобрать на качественные материалы.
   categories: [ HideSpawnMenu ] # Starlight: Removed from spawn menu in favor of all the variants
   components:
     - type: Destructible
@@ -829,7 +829,7 @@
 - type: entity
   parent: GasCanisterBrokenBase
   id: WaterVaporCanisterBroken
-  name: broken water vapor canister
+  name: сломанный баллон с водяным паром
   # categories: [ HideSpawnMenu ] # Starlight Edit: Added to spawn menu
   components:
     - type: Sprite

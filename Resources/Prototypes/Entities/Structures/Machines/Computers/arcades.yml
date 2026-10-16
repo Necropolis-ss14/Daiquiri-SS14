@@ -72,7 +72,7 @@
 
 - type: entity
   id: SpaceVillainArcade
-  name: space villain arcade
+  name: аркада Космический злодей
   parent: ArcadeBase
   components:
   - type: Sprite
@@ -133,8 +133,8 @@
 
 - type: entity
   id: BlockGameArcade
-  description: An arcade cabinet with a strangely familiar game.
-  name: NT block game
+  description: Игровой автомат со странно знакомой игрой.
+  name: аркада NT-блоки
   parent: ArcadeBase
   components:
   - type: Sprite

@@ -1,8 +1,8 @@
 - type: entity
-  name: ice sculpture
+  name: ледяная скульптура
   id: SummonIceSculpture
   parent: MobElementalBase
-  description: An animated ice construct, filled with malevolent magic.
+  description: Оживлённый ледяной конструкт, наполненный злобной магией.
   components:
     - type: LanguageKnowledge
       speaks:

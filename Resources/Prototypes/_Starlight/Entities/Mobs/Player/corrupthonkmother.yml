@@ -28,7 +28,7 @@
 - type: entity
   parent: [MobCorruptHonkmotherBase, BaseMob, MobPolymorphable, MobCombat, BaseAnomaly]
   id: CorruptHonkmother
-  name: Honkmother
+  name: Хонкоматерь
   categories: [ HideSpawnMenu ]
   components:
     - type: StaticPrice

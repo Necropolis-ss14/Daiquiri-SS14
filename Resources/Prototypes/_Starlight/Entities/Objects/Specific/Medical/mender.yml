@@ -1,6 +1,6 @@
 - type: entity
   name: автомендер
-  description: Прибор лечит грубый и ожоговый урон пациентов.
+  description: Прибор лечит ушибы и ожоги пациентов.
   parent: BaseStarlightHealingItem
   id: BaseAutoMender
   abstract: true
@@ -39,8 +39,8 @@
 
 - type: entity
   id: AutoMenderBrute
-  name: грубый автомендер
-  description: Прибор лечит грубый и ожоговый урон. Работает на бикаридине.
+  name: автомендер от ушибов
+  description: Прибор лечит ушибы и ожоги. Работает на бикаридине.
   parent: BaseAutoMender
   components:
   - type: Sprite
@@ -88,7 +88,7 @@
 - type: entity
   id: AutoMenderBurn
   name: ожоговый автомендер
-  description: Прибор лечит грубый и ожоговый урон. Работает на дермалине.
+  description: Прибор лечит ушибы и ожоги. Работает на дермалине.
   parent: BaseAutoMender
   components:
   - type: Sprite

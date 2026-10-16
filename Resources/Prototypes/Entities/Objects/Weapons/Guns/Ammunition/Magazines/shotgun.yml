@@ -44,9 +44,9 @@
 
 - type: entity
   id: MagazineShotgunEmpty
-  name: ammo drum (.50 shells any)
+  name: барабан (.50 любые)
   suffix: empty
-  description: A large drum magazine used by some military-grade automatic shotguns.
+  description: Большой барабанный магазин для автоматических дробовиков военного класса.
   parent: BaseMagazineShotgun
   components:
   - type: BallisticAmmoProvider
@@ -55,8 +55,8 @@
 - type: entity
   parent: BaseMagazineShotgun
   id: MagazineShotgun
-  name: ammo drum (.50 pellet)
-  description: A large drum magazine used by some military-grade automatic shotguns. Intended to hold general-purpose kinetic ammunition.
+  name: барабан (.50 картечь)
+  description: Большой барабанный магазин для автоматических дробовиков военного класса. Подходит для кинетических боеприпасов общего назначения.
   components:
   - type: BallisticAmmoProvider
     proto: ShellShotgun
@@ -80,8 +80,8 @@
 - type: entity
   parent: BaseMagazineShotgun
   id: MagazineShotgunBeanbag
-  name: ammo drum (.50 beanbag)
-  description: A large drum magazine used by some military-grade automatic shotguns. Intended to hold less-than-lethal beanbag ammunition.
+  name: барабан (.50 мешочек)
+  description: Большой барабанный магазин для автоматических дробовиков военного класса. Подходит для менее летальных боеприпасов с мешочком.
   components:
   - type: BallisticAmmoProvider
     proto: ShellShotgunBeanbag
@@ -105,8 +105,8 @@
 - type: entity
   parent: BaseMagazineShotgun
   id: MagazineShotgunSlug
-  name: ammo drum (.50 slug)
-  description: A large drum magazine used by some military-grade automatic shotguns. Intended to hold long-ranged slug ammunition.
+  name: барабан (.50 пуля)
+  description: Большой барабанный магазин для автоматических дробовиков военного класса. Подходит для дальнобойных боеприпасов с пулей.
   components:
   - type: BallisticAmmoProvider
     proto: ShellShotgunSlug
@@ -130,8 +130,8 @@
 - type: entity
   parent: BaseMagazineShotgun
   id: MagazineShotgunIncendiary
-  name: ammo drum (.50 incendiary)
-  description: A large drum magazine used by some military-grade automatic shotguns. Intended to hold self-igniting incendiary ammunition.
+  name: барабан (.50 зажигательные)
+  description: Большой барабанный магазин для автоматических дробовиков военного класса. Подходит для самовоспламеняющихся зажигательных боеприпасов.
   components:
   - type: BallisticAmmoProvider
     proto: ShellShotgunIncendiary

@@ -2,7 +2,7 @@
   id: BluespaceHarvester
   parent: BaseMachine
   name: блюспейс-сборщик
-  description: A massive bluespace harvester that converts energy into research points.
+  description: Массивный блюспейс-комбайн, преобразующий энергию в очки исследований.
   placement:
     mode: AlignTileAny
   components:

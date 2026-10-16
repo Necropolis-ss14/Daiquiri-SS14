@@ -1,8 +1,8 @@
 - type: entity
-  name: diamond pickaxe
+  name: алмазная кирка
   parent: Pickaxe
   id: PickaxeDiamond
-  description: Sharp as a diamond, perfect for mining gibtonite.
+  description: Остра как алмаз, идеальна для добычи гибтонита.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Melee/pickaxediamond.rsi

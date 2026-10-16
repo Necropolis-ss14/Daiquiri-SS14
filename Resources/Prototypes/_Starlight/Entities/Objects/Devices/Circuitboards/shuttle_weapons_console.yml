@@ -4,7 +4,7 @@
   parent: BaseComputerCircuitboard
   id: ShuttleWeaponsConsoleCircuitboard
   name: плата оружейной консоли шаттла
-  description: A computer printed circuit board for a shuttle weapons control console.
+  description: Плата оружейной консоли шаттла
   components:
   - type: Sprite
     state: cpu_supply

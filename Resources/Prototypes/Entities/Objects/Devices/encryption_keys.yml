@@ -14,8 +14,8 @@
 - type: entity
   parent: EncryptionKey
   id: EncryptionKeyCommon
-  name: common encryption key
-  description: An encryption key used by anyone.
+  name: общий ключ шифрования
+  description: Ключ шифрования, используемый всеми.
   components:
   - type: EncryptionKey
     channels:
@@ -32,8 +32,8 @@
 - type: entity
   parent: [ EncryptionKey, BaseCargoContraband ]
   id: EncryptionKeyCargo
-  name: cargo encryption key
-  description: An encryption key used by supply employees.
+  name: ключ шифрования карго
+  description: Ключ шифрования, используемый сотрудниками снабжения.
   components:
   - type: EncryptionKey
     channels:
@@ -50,8 +50,8 @@
 - type: entity
   parent: [ EncryptionKey, BaseCentcommContraband ]
   id: EncryptionKeyCentCom
-  name: central command encryption key
-  description: An encryption key used by captain's bosses.
+  name: ключ шифрования ЦентКом
+  description: Ключ шифрования, используемый начальством капитана.
   components:
   - type: EncryptionKey
     channels:
@@ -65,8 +65,8 @@
 - type: entity
   parent: [ EncryptionKey, BaseCentcommContraband, BaseCommandContraband, BaseNanoTrasenContraband ] # Starlight/Blimpuf
   id: EncryptionKeyStationMaster
-  name: station master encryption key
-  description: An encryption key used by station's bosses.
+  name: ключ шифрования начальника станции
+  description: Ключ шифрования, используемый начальством станции.
   components:
   - type: EncryptionKey
     channels:
@@ -87,8 +87,8 @@
 - type: entity
   parent: [ EncryptionKey, BaseCommandContraband ]
   id: EncryptionKeyCommand
-  name: command encryption key
-  description: An encryption key used by crew's bosses.
+  name: ключ шифрования командования
+  description: Ключ шифрования, используемый командованием экипажа.
   components:
   - type: EncryptionKey
     channels:
@@ -105,8 +105,8 @@
 - type: entity
   parent: [ EncryptionKey, BaseEngineeringContraband ]
   id: EncryptionKeyEngineering
-  name: engineering encryption key
-  description: An encryption key used by the engineers.
+  name: ключ шифрования инженеров
+  description: Ключ шифрования, используемый инженерами.
   components:
   - type: EncryptionKey
     channels:
@@ -123,8 +123,8 @@
 - type: entity
   parent: [ EncryptionKey, BaseMedicalContraband ]
   id: EncryptionKeyMedical
-  name: medical encryption key
-  description: An encryption key used by those who save lives.
+  name: ключ шифрования медиков
+  description: Ключ шифрования, используемый теми, кто спасает жизни.
   components:
   - type: EncryptionKey
     channels:
@@ -141,8 +141,8 @@
 - type: entity
   parent: [ EncryptionKey, BaseMedicalContraband, BaseScienceContraband ] # Blimpuf
   id: EncryptionKeyMedicalScience
-  name: med-sci encryption key
-  description: An encryption key used by someone who hasn't decided which side to take.
+  name: ключ шифрования мед-сай
+  description: Ключ шифрования, используемый теми, кто ещё не определился, чью сторону принять.
   components:
   - type: EncryptionKey
     channels:
@@ -157,8 +157,8 @@
 - type: entity
   parent: [ EncryptionKey, BaseScienceContraband ]
   id: EncryptionKeyScience
-  name: science encryption key
-  description: An encryption key used by scientists. Maybe it is plasmaproof?
+  name: ключ шифрования учёных
+  description: Ключ шифрования, используемый учёными. Может, он плазмоустойчивый?
   components:
   - type: EncryptionKey
     channels:
@@ -175,8 +175,8 @@
 - type: entity
   parent: [ EncryptionKey, BaseScienceContraband ]
   id: EncryptionKeyRobo
-  name: robotech encryption key
-  description: An encryption key used by robototech engineers. Maybe it has a LAH-6000 on it?
+  name: ключ шифрования робототехники
+  description: Ключ шифрования, используемый инженерами-робототехниками. Может, на нём есть LAH-6000?
   components:
   - type: EncryptionKey
     channels:
@@ -190,8 +190,8 @@
 - type: entity
   parent: [ EncryptionKey, BaseSecurityContraband, BaseInternalAffairsContraband ] # TODO Starlight partial once space-wizards/RobustToolbox/pull/7084 gets fixed
   id: EncryptionKeySecurity
-  name: security encryption key
-  description: An encryption key used by security.
+  name: ключ шифрования СБ
+  description: Ключ шифрования, используемый службой безопасности.
   components:
   - type: EncryptionKey
     channels:
@@ -208,8 +208,8 @@
 - type: entity
   parent: [ EncryptionKey, BaseCivilianContraband ]
   id: EncryptionKeyService
-  name: service encryption key
-  description: An encryption key used by the service staff, tasked with keeping the station full, happy and clean.
+  name: ключ шифрования сервиса
+  description: Ключ шифрования, используемый сервисным персоналом, который следит за тем, чтобы станция была сытой, счастливой и чистой.
   components:
   - type: EncryptionKey
     channels:
@@ -226,8 +226,8 @@
 - type: entity
   parent: [ EncryptionKey, BaseSyndicateContraband ]
   id: EncryptionKeySyndie
-  name: blood-red encryption key
-  description: An encryption key used by... wait... Who is the owner of this chip?
+  name: кроваво-красный ключ шифрования
+  description: Ключ шифрования, используемый... погодите... А кому принадлежит этот чип?
   components:
   - type: EncryptionKey
     channels:
@@ -243,8 +243,8 @@
 - type: entity
   parent: [ EncryptionKey, BaseScienceContraband, BaseSiliconContraband ] # Blimpuf
   id: EncryptionKeyBinary
-  name: binary translator key
-  description: An encryption key that translates binary signals used by silicons.
+  name: бинарный ключ-переводчик
+  description: Ключ шифрования, переводящий бинарные сигналы, используемые кремниевыми формами жизни.
   components:
   - type: EncryptionKey
     channels:
@@ -258,8 +258,8 @@
 - type: entity
   parent: [ EncryptionKey, BaseSyndicateContraband ]
   id: EncryptionKeyBinarySyndicate
-  name: binary translator key
-  description: A syndicate encryption key that translates binary signals used by silicons.
+  name: синдикатский бинарный ключ-переводчик
+  description: Синдикатский ключ шифрования, переводящий бинарные сигналы, используемые кремниевыми формами жизни.
   components:
   - type: EncryptionKey
     channels:
@@ -275,8 +275,8 @@
 - type: entity
   parent: EncryptionKey
   id: EncryptionKeyFreelance
-  name: freelancer encryption key
-  description: An encryption key used by freelancers, who may or may not have an affiliation. It looks like it's worn out.
+  name: ключ шифрования фрилансера
+  description: Ключ шифрования, используемый фрилансерами, у которых может быть, а может и не быть принадлежности. Выглядит поношенным.
   components:
     - type: EncryptionKey
       channels:

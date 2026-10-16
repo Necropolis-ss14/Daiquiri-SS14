@@ -1,8 +1,8 @@
 - type: entity
-  name: true arm blade
+  name: настоящий ручной клинок
   parent: ArmBlade
   id: ArmBladePlus
-  description: A truly beautiful blade made out of bone and flesh that tears the flesh off of its victims. Can pry open doors very quickly. Gives off a mild red glow.
+  description: По-настоящему красивый клинок из кости и плоти, сдирающий плоть с жертв. Очень быстро вскрывает двери. Слабо светится красным.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Melee/arm_blade_plus.rsi

@@ -1,7 +1,7 @@
 - type: entity
   id: ActionToggleWeldingMask
   name: переключить сварочную маску
-  description: Covers or reveals your face.
+  description: Скрывает или открывает лицо.
   components:
   - type: Action
     useDelay: 1

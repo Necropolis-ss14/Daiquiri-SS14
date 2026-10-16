@@ -17,3 +17,7 @@ thief-backpack-category-sleeper-description-starlight =
     чтобы держать других во сне.
     Включает: баллон сонного веселящего газа, баллон хилиума,
     две бутылки ноктурина, бутылку тазинида и гипоспрей.
+
+thief-backpack-category-saboteur-self-name = Взломщик
+thief-backpack-category-press-self-name = Пресса
+thief-backpack-category-spy-self-name = Шпион

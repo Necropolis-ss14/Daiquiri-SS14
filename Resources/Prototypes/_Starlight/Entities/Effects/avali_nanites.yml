@@ -1,7 +1,7 @@
 - type: entity
   id: EffectNanitesEnter
   categories: [ HideSpawnMenu ]
-  name: nanite shell (building)
+  name: оболочка из нанитов (сборка)
   components:
   - type: Transform
     anchored: false
@@ -33,7 +33,7 @@
 - type: entity
   id: EffectNanitesCurrent
   categories: [ HideSpawnMenu ]
-  name: nanite shell
+  name: оболочка из нанитов
   components:
   - type: Physics
     bodyType: Static
@@ -69,7 +69,7 @@
 - type: entity
   id: EffectNanitesExit
   categories: [ HideSpawnMenu ]
-  name: nanite shell (deconstructing)
+  name: оболочка из нанитов (разборка)
   components:
   - type: Transform
     anchored: false

@@ -1,8 +1,8 @@
 - type: entity
-  name: spyglass
+  name: подзорная труба
   parent: BaseItem
   id: Spyglass
-  description: Used for long-distance spying. Makes you feel like a pirate.
+  description: Используется для слежки на дальних дистанциях. Заставляет чувствовать себя пиратом.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Tools/spyglass.rsi
@@ -27,7 +27,7 @@
   name: подзорная труба капитана
   parent: [ BaseItem, BaseGrandTheftContraband ]
   id: SpyglassCaptain
-  description: Used for long-distance spying. Makes you feel like a captain.
+  description: Используется для слежки на дальних дистанциях. Заставляет чувствовать себя капитаном.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Tools/spyglass.rsi
@@ -57,7 +57,7 @@
   name: импровизированная подзорная труба
   parent: BaseItem
   id: SpyglassImprovised
-  description: Used for long-distance spying. Makes you worry you might cut your eye on the lens.
+  description: Используется для слежки на дальних дистанциях. Кажется, можно порезать глаз о линзу.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Tools/spyglass.rsi

@@ -25,14 +25,20 @@
 - type: entity
   id: GasTurbineEmptySalvage
   parent: [GasTurbinePrefabEmpty, GasTurbineSalvage, BaseGasTurbine]
+  name: газовая турбина
+  description: Большая турбина для выработки энергии на горячем газе.
   suffix: "Salvage, Empty"
 
 - type: entity
   id: GasTurbineSmallEmpty
   parent: [GasTurbinePrefabEmpty, GasTurbineCrew, BaseGasTurbineSmall]
+  name: малая газовая турбина
+  description: Малая турбина для выработки энергии на горячем газе.
   suffix: "Empty"
 
 - type: entity
   id: GasTurbineSmallEmptySalvage
   parent: [GasTurbinePrefabEmpty, GasTurbineSalvage, BaseGasTurbineSmall]
+  name: малая газовая турбина
+  description: Малая турбина для выработки энергии на горячем газе.
   suffix: "Salvage, Empty"

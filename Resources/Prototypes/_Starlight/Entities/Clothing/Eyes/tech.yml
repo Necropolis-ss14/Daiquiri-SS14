@@ -3,7 +3,7 @@
   parent: ClothingEyesBase
   id: ClothingEyesTechnology
   name: роботизированный аппарат
-  description: It’s heavy and covered in a mess of wires.
+  description: Тяжёлый и покрытый спутанными проводами.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Eyes/Tech/tech.rsi
@@ -16,7 +16,7 @@
   parent: ClothingEyesBase
   id: ClothingEyesTechnologyZero
   name: роботизированные окуляры
-  description: A pair of oculars crackling with static electricity.
+  description: Пара окуляров, трещащих статическим электричеством.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Eyes/Tech/tech0.rsi
@@ -29,7 +29,7 @@
   parent: ClothingEyesBase
   id: ClothingEyesTechnologyTwo
   name: роботизированный глаз
-  description: A one-of-a-kind among the old.
+  description: Единственный в своём роде среди старых.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Eyes/Tech/tech2.rsi
@@ -42,7 +42,7 @@
   parent: ClothingEyesBase
   id: ClothingEyesTechnologyLudovic
   name: очки бессонника
-  description: With these glasses I see everything! …Oh no, that’s just dust.
+  description: В этих очках я вижу всё! …О нет, это просто пыль.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Eyes/Tech/techlou.rsi
@@ -55,7 +55,7 @@
   parent: ClothingEyesBase
   id: ClothingEyesTechnologyX
   name: экранные очки
-  description: Time to step into the 8-bit world.
+  description: Время шагнуть в 8-битный мир.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Eyes/Tech/techx.rsi
@@ -68,7 +68,7 @@
   parent: ClothingHeadBase
   id: ClothingHeadHatTechnologyFive
   name: налобный лазер
-  description: A pointer for the lazy.
+  description: Указка для ленивых.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Eyes/Tech/tech5.rsi

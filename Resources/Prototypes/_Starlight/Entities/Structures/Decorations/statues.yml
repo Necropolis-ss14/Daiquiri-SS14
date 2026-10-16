@@ -2,7 +2,7 @@
   id: StatueStoneCUP
   parent: [BaseStructure, BaseSovietContraband] # Blimpuf
   name: каменная чайная статуя
-  description: A stone statue depicting a tea-drinking revolutionary. It stands as a symbol of unity and shared purpose among comrades.
+  description: Каменная статуя революционера с чаем. Символ единства и общей цели товарищей.
   components:
     - type: Sprite
       noRot: true
@@ -29,7 +29,7 @@
   id: Phoronic
   parent: BaseStructure
   name: форонный каскад
-  description: A huge structure made of pure plasma. Dark energy roils and bursts within it.
+  description: Огромная структура из чистой плазмы. Внутри бурлит тёмная энергия.
   components:
     - type: StationAnchor
     - type: Transform
@@ -96,7 +96,7 @@
   id: StatueAngel
   parent: BaseStructure
   name: статуя ангела
-  description: An ancient marble statue. The subject is depicted with flowing robes and wide spread wings.
+  description: Древняя мраморная статуя. Фигура в развевающихся одеждах с широко распахнутыми крыльями.
   components:
   - type: Sprite
     noRot: true

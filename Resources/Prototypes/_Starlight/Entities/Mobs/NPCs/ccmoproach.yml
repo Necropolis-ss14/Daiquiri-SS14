@@ -2,7 +2,7 @@
   id: CCMoproachGlasses
   parent: ClothingEyesGlassesCentComm
   categories: [HideSpawnMenu]
-  description: Centcomm officer glasses that are compatible with mothroaches. Unfortunately as a result, these are stuck to their face.
+  description: Очки офицера ЦК, совместимые с таракамолями. К сожалению, они намертво прилипают к их морде.
   components:
     - type: Unremoveable
 
@@ -22,7 +22,7 @@
   id: MobCCMoproach
   suffix: Jani ERT
   name: таракамоль ЦК
-  description: A moproach specially trained in the ways of janitorial duties by the best NT has to offer.
+  description: Таракамоль, специально обученный тонкостям уборки лучшими специалистами NanoTrasen.
   components:
     - type: CanEscapeInventory
       baseResistTime: 2 # better at escaping grasps
@@ -86,7 +86,7 @@
   parent: MoproachCubeWrapped
   id: CCMoproachCubeWrapped
   name: куб швабракана ЦК
-  description: Just add water! *chitters*
+  description: Просто добавь воды! *стрекочет*
   components:
     - type: SpawnItemsOnUse
       items:

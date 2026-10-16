@@ -51,7 +51,7 @@
 
 - type: entity
   id: AnomalyClown
-  description: It's an otherwise normal car that seems to bend the very space within it. You sense that the creatures within are coming to make you laugh at all costs...
+  description: Это в остальном обычная машина, которая словно искривляет само пространство внутри себя. Вы чувствуете, что существа внутри идут, чтобы рассмешить вас любой ценой...
   parent: BaseAnomaly
   suffix: Clown
   components:
@@ -154,7 +154,7 @@
 - type: entity
   id: PortalShadekin
   suffix: Dark
-  description: The portal to the dark...
+  description: Портал во тьму...
   parent: AnomalyShadow
   components:
     - type: Portal
@@ -257,7 +257,7 @@
   id: PortalShadekinHub
   parent: BasePortal
   name: тёмный узел
-  description: This portal is used by shadekins to go nearly anywhere in the universe!
+  description: Шадекины используют этот портал, чтобы попасть почти в любую точку вселенной!
   placement:
     mode: SnapgridCenter
   components:
@@ -391,7 +391,7 @@
   id: PortalDarkBreacher
   parent: BasePortal
   name: портал тёмного прорыва
-  description: The portal to the light...
+  description: Портал к свету...
   placement:
     mode: SnapgridCenter
   components:
@@ -421,9 +421,9 @@
 - type: entity
   parent: BaseStructure
   id: CosmicMalignRift
-  name: anomaly
+  name: аномалия
   suffix: Cosmic
-  description: A malign light pours forth from within.
+  description: Изнутри льётся зловещий свет.
   placement:
     mode: SnapgridCenter
   components:
@@ -526,9 +526,9 @@
 
 - type: entity
   id: CosmicMalignEmpoweredRift
-  name: anomaly
+  name: аномалия
   suffix: Cosmic, Empowered
-  description: A malign light pours forth from within.
+  description: Изнутри льётся зловещий свет.
   placement:
     mode: SnapgridCenter
   components:
@@ -633,7 +633,7 @@
 - type: entity
   parent: HellPortal
   id: HellPortalAnomaly
-  name: anomaly
+  name: аномалия
   suffix: Hellportal
   components:
   - type: Physics

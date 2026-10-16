@@ -1,8 +1,8 @@
 - type: entity
   parent: [BookBase, BaseMinorContraband]
   id: BookConspiracies
-  name: "What They Don't Want You To Know"
-  description: Frantic writings are scribbled across multiple pages. Should you really be reading this?
+  name: "Что они скрывают"
+  description: Безумные записи на многих страницах. А стоит ли это вообще читать?
   components:
     - type: Sprite
       layers:
@@ -22,8 +22,8 @@
 - type: entity
   parent: [BookBase, BaseMinorContraband]
   id: BookMoreConspiracies
-  name: "What Else They Don't Want You To Know"
-  description: Frantic writings are scribbled across multiple pages. Should you really be reading this?
+  name: "Что ещё они скрывают"
+  description: Безумные записи на многих страницах. А стоит ли это вообще читать?
   components:
     - type: Sprite
       layers:
@@ -43,8 +43,8 @@
 - type: entity
   parent: BookBase
   id: BookClownMimeWar
-  name: "History of the Clown-Mime Intergalactic War"
-  description: Frantic writings are scribbled across multiple pages. Most of the text is covered in handwritten question marks.
+  name: "История межгалактической войны клоунов и мимов"
+  description: Безумные записи на многих страницах. Большая часть текста покрыта рукописными знаками вопроса.
   components:
     - type: Sprite
       layers:
@@ -63,8 +63,8 @@
 - type: entity
   parent: BookBase
   id: BookMarsIncident
-  name: "History from the 22nd Century: The Mars Incident"
-  description: Frantic writings are scribbled across multiple pages. Most of the text is covered in handwritten question marks.
+  name: "История XXII века: марсианский инцидент"
+  description: Безумные записи на многих страницах. Большая часть текста покрыта рукописными знаками вопроса.
   components:
     - type: Sprite
       layers:
@@ -85,8 +85,8 @@
 - type: entity
   parent: BaseGuidebook
   id: BookSecureTerminalManual
-  name: Secure Terminal Manual
-  description: A guide to using the Secure Terminal system. Required reading for all command staff.
+  name: Руководство по защищённым терминалам
+  description: Руководство по системе защищённых терминалов. Обязательно к прочтению всему командованию.
   components:
     - type: Sprite
       layers:

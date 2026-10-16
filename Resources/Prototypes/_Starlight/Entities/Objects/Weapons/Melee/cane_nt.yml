@@ -1,8 +1,8 @@
 - type: entity
-  name: fancy cane
+  name: элегантная трость
   parent: [ BaseItem, BaseNanoTrasenContraband ]
   id: CaneNT
-  description: A cane with special engraving on it. It seems well suited for fending off assailants...
+  description: Трость с особой гравировкой. Кажется, хорошо подходит для отбивания от нападающих...
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Melee/cane_nt.rsi

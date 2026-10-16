@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseWallmountMachine
   id: Speaker
-  name: speaker
-  description: Ensuring you consume a minimum number of advertisements per shift.
+  name: динамик
+  description: Гарантирует минимальную дозу рекламы за смену.
   components:
   - type: Physics
     bodyType: Static

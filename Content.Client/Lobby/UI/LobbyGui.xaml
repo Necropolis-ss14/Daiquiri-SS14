@@ -7,6 +7,7 @@
     xmlns:vote="clr-namespace:Content.Client.Voting.UI"
     xmlns:style="clr-namespace:Content.Client.Stylesheets"
     xmlns:lobbyUi="clr-namespace:Content.Client.Lobby.UI"
+    xmlns:daiquiri="clr-namespace:Content.Client._Daiquiri.Lobby.UI"
     xmlns:info="clr-namespace:Content.Client.Info"
     xmlns:profile="clr-namespace:Content.Client.Lobby.UI.ProfileEditorControls"
     xmlns:widgets="clr-namespace:Content.Client.UserInterface.Systems.Chat.Widgets">
@@ -57,7 +58,7 @@
 
                     <!-- Left Bot Panel -->
                     <BoxContainer Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Bottom" MaxWidth="600">
-                        <lobbyUi:LobbyMusicSwitcher Name="MusicSwitcher" Access="Public" /> <!-- Daiquiri: music switcher instead of servers hub -->
+                        <daiquiri:LobbyMusicSwitcher Name="MusicSwitcher" Access="Public" /> <!-- Daiquiri: music switcher instead of servers hub -->
                         <PanelContainer Name="SongPanel" Access="Public" StyleClasses="BackgroundPanel" Margin="3 3 3 3">
                             <BoxContainer Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="3 3 3 3">
                                 <RichTextLabel Name="LobbySong" Access="Public" HorizontalAlignment="Left" />
@@ -100,6 +101,16 @@
                     </PanelContainer>
                     <!-- Daiquiri: character card + server info side by side -->
                     <BoxContainer Name="CharacterRow" Access="Public" Orientation="Horizontal" HorizontalExpand="True" HorizontalAlignment="Stretch" SeparationOverride="4">
+                        <!-- Server info -->
+                        <PanelContainer Name="ServerInfoCard" Access="Public" StyleClasses="BackgroundPanel">
+                            <BoxContainer Orientation="Vertical" Margin="4">
+                            <controls:NanoHeading Text="{Loc 'ui-lobby-server-info-block'}" />
+                            <info:ServerInfo Name="ServerInfo" Access="Public" MinSize="0 30" VerticalExpand="false"
+                                             Margin="3 3 3 3" MaxWidth="400" HorizontalAlignment="Left" />
+                            <Label Name="StationTime" Access="Public" FontColorOverride="{x:Static maths:Color.LightGray}"
+                                   Margin="3 3 3 3" HorizontalAlignment="Left" />
+                        </BoxContainer>
+                    </PanelContainer>
                         <PanelContainer Name="CharacterCard" Access="Public" StyleClasses="BackgroundPanel" HorizontalExpand="True">
                             <BoxContainer Orientation="Vertical" Margin="4" SeparationOverride="4">
                                 <controls:NanoHeading Text="{Loc 'lobby-character-preview-panel-header'}" />
@@ -121,16 +132,6 @@
                                          HorizontalAlignment="Center" Margin="0 -6 0 0" />
                             </BoxContainer>
                         </PanelContainer>
-                        <!-- Server info -->
-                        <PanelContainer Name="ServerInfoCard" Access="Public" StyleClasses="BackgroundPanel">
-                            <BoxContainer Orientation="Vertical" Margin="4">
-                            <controls:NanoHeading Text="{Loc 'ui-lobby-server-info-block'}" />
-                            <info:ServerInfo Name="ServerInfo" Access="Public" MinSize="0 30" VerticalExpand="false"
-                                             Margin="3 3 3 3" MaxWidth="400" HorizontalAlignment="Left" />
-                            <Label Name="StationTime" Access="Public" FontColorOverride="{x:Static maths:Color.LightGray}"
-                                   Margin="3 3 3 3" HorizontalAlignment="Left" />
-                        </BoxContainer>
-                    </PanelContainer>
                     </BoxContainer>
                     <PanelContainer Name="JobsCard" Access="Public" StyleClasses="BackgroundPanel">
                         <lobbyUi:LobbyCharacterPreviewPanel Name="CharacterPreview" Access="Public" Margin="4" />

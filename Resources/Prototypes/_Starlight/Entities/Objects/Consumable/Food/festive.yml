@@ -3,7 +3,7 @@
   name: жареная индейка
   parent: [SolutionHuge, FoodMealBase, BaseSlicingRefinableFood]
   id: FoodFeastTurkey
-  description: "An entire roast turkey. You're going to share, right?"
+  description: "Целая жареная индейка. Поделишься, правда?"
   components:
     - type: MultiHandedItem
     - type: FlavorProfile
@@ -47,7 +47,7 @@
   name: кусок жареной индейки
   parent: [SolutionTiny, FoodMealBase]
   id: FoodTurkeySlice
-  description: A serving of roast turkey. Next time make the whole feast!
+  description: Порция жареной индейки. В следующий раз готовь целый пир!
   components:
     - type: MultiHandedItem
     - type: FlavorProfile
@@ -76,7 +76,7 @@
   name: праздничный пир
   parent: BoxCardboard
   id: FoodFeastFestiveDinner
-  description: Collectively it contains at least 32,000 calories.
+  description: В общей сложности тут не меньше 32 000 калорий.
   components:
     - type: MultiHandedItem
     - type: Storage
@@ -131,7 +131,7 @@
   name: праздничный ужин
   parent: FoodMealBase
   id: FoodMealFestiveDinner
-  description: Roast turkey, mashed potatoes, and cabbage. Not bad!
+  description: Жареная индейка, картофельное пюре и капуста. Неплохо!
   components:
     - type: FlavorProfile
       flavors:
@@ -173,7 +173,7 @@
   name: праздничный ужин
   parent: FoodMealBase
   id: FoodMealFestiveDinnerGravy
-  description: Roast turkey, mashed potatoes with gravy, and cabbage. Dinner has officially peaked.
+  description: Индейка, пюре с подливой и капуста. Ужин официально удался.
   components:
     - type: FlavorProfile
       flavors:
@@ -219,7 +219,7 @@
   name: семейная порция картофельного пюре
   parent: [SolutionNormal, FoodMealBase, BaseSlicingRefinableFood]
   id: FoodFeastPotatoMashed
-  description: Feeds five... or ten if you cut it properly.
+  description: Хватит на пятерых... или на десятерых, если резать правильно.
   components:
     - type: FlavorProfile
       flavors:
@@ -253,7 +253,7 @@
   name: картофельное пюре
   parent: [SolutionTiny, FoodMealBase]
   id: FoodPotatoMashed
-  description: Legally, I have to tell you to get a plate.
+  description: По закону я обязан сказать тебе взять тарелку.
   components:
     - type: FlavorProfile
       flavors:
@@ -280,7 +280,7 @@
   name: семейная порция картофеля с подливой
   parent: [SolutionNormal, FoodMealBase, BaseSlicingRefinableFood]
   id: FoodFeastPotatoGravy
-  description: Remember to serve individually!
+  description: Не забудь подавать порционно!
   components:
     - type: FlavorProfile
       flavors:
@@ -317,7 +317,7 @@
   name: картофель с подливой
   parent: [SolutionTiny, FoodMealBase]
   id: FoodPotatoGravy
-  description: "What, butter isn't enough for you?"
+  description: "Что, масла тебе мало?"
   components:
     - type: FlavorProfile
       flavors:
@@ -344,10 +344,10 @@
 
 # stuffing
 - type: entity
-  name: stuffing
+  name: начинка
   parent: [SolutionNormal, FoodMealBase]
   id: FoodStuffing
-  description: This goes in the turkey, not your mouth.
+  description: Это кладут в индейку, а не в рот.
   components:
     - type: FlavorProfile
       flavors:
@@ -385,7 +385,7 @@
   name: хлопковая начинка
   parent: [SolutionNormal, FoodMealBase]
   id: FoodStuffingCotton
-  description: Festive bread, but for moff.
+  description: Праздничный хлеб, но для мофф.
   components:
     - type: FlavorProfile
       flavors:

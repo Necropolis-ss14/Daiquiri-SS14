@@ -2,7 +2,7 @@
   name: SPKA
   id: WeaponSPKA
   parent: [ BaseContrabandTier2, WeaponProtoKineticAcceleratorBase, BaseSalvageContraband ]
-  description: Fires a barrage of low-damage kinetic bolts at a short range.
+  description: Выпускает очередь кинетических болтов с малым уроном на короткой дистанции.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Guns/Basic/spka.rsi
@@ -56,10 +56,10 @@
     maxAngle: -16
 
 - type: entity
-  name: Regulator
+  name: Регулятор
   id: WeaponRegulator
   parent: [ BaseContrabandTier2, WeaponProtoKineticAcceleratorBase, BaseSalvageContraband ]
-  description: Vulkan Industries competitor to the standard Appraisal tool, better used on more durable products.
+  description: Конкурент штатного оценочного инструмента от Vulkan Industries, лучше подходит для прочной продукции.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Guns/Basic/regulator.rsi
@@ -124,7 +124,7 @@
   name: Цепной ускоритель
   id: WeaponChainAccelerator
   parent: [ BaseContrabandTier2, WeaponProtoKineticAcceleratorBase, BaseSalvageContraband ]
-  description: Fires a steady stream of low-damage kinetic bolts at a short range.
+  description: Ведёт непрерывный огонь кинетическими болтами с малым уроном на короткой дистанции.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Guns/Basic/pkmg.rsi

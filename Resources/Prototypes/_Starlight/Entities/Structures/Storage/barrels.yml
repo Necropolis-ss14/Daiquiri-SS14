@@ -3,7 +3,7 @@
   id: BarrelFlaming
   name: металлическая бочка
   suffix: Flaming
-  description: For warming canned food in the winter.
+  description: Для подогрева консервов зимой.
   components:
   - type: Sprite
     noRot: true

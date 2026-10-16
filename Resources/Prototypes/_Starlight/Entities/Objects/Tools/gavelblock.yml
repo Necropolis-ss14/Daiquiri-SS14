@@ -1,8 +1,8 @@
 - type: entity
   id: GavelBlock
   parent: BaseItem
-  name: gavel block
-  description: This is what they hit.
+  name: подставка для молотка
+  description: Это то, по чему бьют.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Tools/gavelhammer.rsi

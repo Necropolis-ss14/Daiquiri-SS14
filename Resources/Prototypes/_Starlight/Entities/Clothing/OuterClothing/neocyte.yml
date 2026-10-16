@@ -29,7 +29,7 @@
   parent: ClothingOuterArmorNeocyteBase
   id: ClothingOuterArmorNeocyteLightBasic
   name: лёгкий неоцитовый каркас базового класса
-  description: Comes in-built with light armor plating to shield the cybernetics within. Removal of this would require killing you.
+  description: Встроенная лёгкая бронепластина для защиты кибернетики внутри. Для снятия придётся вас убить.
   components:
   - type: Sprite
     sprite: _FarHorizons/Clothing/OuterClothing/Armor/protogen.rsi
@@ -46,7 +46,7 @@
   parent: ClothingOuterArmorNeocyteBase
   id: ClothingOuterArmorNeocyteLightSpeed
   name: лёгкий неоцитовый каркас класса «Гермес»
-  description: Augments your body's agility, at the cost of being incredibly susceptible to sharp objects. Removal of this would require killing you.
+  description: Усиливает ловкость тела ценой крайней уязвимости к острым предметам. Для снятия придётся вас убить.
   components:
   - type: Sprite
     sprite: _FarHorizons/Clothing/OuterClothing/Armor/protogen.rsi
@@ -80,7 +80,7 @@
   parent: ClothingOuterArmorNeocyteBase
   id: ClothingOuterArmorNeocyteMediumBasic
   name: средний неоцитовый каркас базового класса
-  description: Comes in-built with moderate armor plating to shield the cybernetics within and protect the user. Removal of this would require killing you.
+  description: Встроенная умеренная броня для защиты кибернетики и владельца. Для снятия придётся вас убить.
   components:
   - type: Sprite
     sprite: _FarHorizons/Clothing/OuterClothing/Armor/protogen.rsi
@@ -99,7 +99,7 @@
   parent: ClothingOuterArmorNeocyteBase
   id: ClothingOuterArmorNeocyteMediumMagic
   name: средний неоцитовый каркас класса «Геката»
-  description: Its self-cleansing module grants resistance to biological hazards. Removal of this would require killing you.
+  description: Модуль самоочистки даёт сопротивление биологическим угрозам. Для снятия придётся вас убить.
   components:
   - type: Sprite
     sprite: _FarHorizons/Clothing/OuterClothing/Armor/protogen.rsi
@@ -143,7 +143,7 @@
   parent: ClothingOuterArmorNeocyteBase
   id: ClothingOuterArmorNeocyteHeavyBasic
   name: тяжёлый неоцитовый каркас базового класса
-  description: Comes in-built with heavy armor plating for active combat scenarios. Very heavy. Removal of this would require killing you.
+  description: Встроенная тяжёлая броня для активных боёв. Очень тяжёлая. Для снятия придётся вас убить.
   components:
   - type: Sprite
     sprite: _FarHorizons/Clothing/OuterClothing/Armor/protogen.rsi
@@ -164,7 +164,7 @@
   parent: [ClothingOuterArmorNeocyteBase, AllowSuitStorageClothing]
   id: ClothingOuterArmorNeocyteHeavySpace
   name: тяжёлый неоцитовый каркас класса «Никс»
-  description: Comes in-built with heavy insulation for spacefaring. A bit weighty. Removal of this would require killing you.
+  description: Встроенная тяжёлая изоляция для космоса. Тяжеловата. Для снятия придётся вас убить.
   components:
   - type: Sprite
     sprite: _FarHorizons/Clothing/OuterClothing/Armor/protogen.rsi
@@ -210,7 +210,7 @@
   parent: ClothingOuterArmorNeocyteBase
   id: ChangelingClothingNeocyteArmor
   name: лёгкий неоцитовый каркас базового класса
-  description: Comes in-built with light armor plating to shield the cybernetics within. Removal of this would require killing you.
+  description: Встроенная лёгкая бронепластина для защиты кибернетики внутри. Для снятия придётся вас убить.
   suffix: Changeling
   components:
   - type: Sprite

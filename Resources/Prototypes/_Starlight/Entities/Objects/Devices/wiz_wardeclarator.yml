@@ -2,7 +2,7 @@
   parent: [BaseItem, BaseMagicalContraband ]
   id: WizardWarTablet
   name: печать войны
-  description: Raw magic is sealed in this stone. Unleashing it will allow the use of more powerful abilities. However, anyone with advanced sensors in proximity will detect such a magic surge as an act of aggression. If unused, the stone will crumble to dust in 5 minutes, forever sealing the magic within.
+  description: В этом камне запечатана сырая магия. Её высвобождение позволит использовать более мощные способности. Однако все с продвинутыми сенсорами поблизости зафиксируют такой магический всплеск как акт агрессии. Если не использовать, камень рассыплется в пыль через 5 минут, навсегда запечатав магию внутри.
   components:
     - type: Sprite
       sprite: _Starlight/Objects/Devices/wiz_declarationofwar.rsi
@@ -19,7 +19,7 @@
   parent: [BaseItem, BaseMagicalContraband ]
   id: WizardWarTabletdrained
   name: пустая печать войны
-  description: An emptied magical seal.
+  description: Опустошённая магическая печать.
   components:
     - type: Sprite
       sprite: _Starlight/Objects/Devices/wiz_declarationofwar.rsi

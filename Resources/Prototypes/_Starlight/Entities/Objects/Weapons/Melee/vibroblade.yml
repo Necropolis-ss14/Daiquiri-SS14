@@ -2,8 +2,8 @@
 - type: entity
   parent: [ BaseContrabandTier3, BaseSword, BaseCommandContraband ] # Blimpuf
   id: PrototypeVibroblade
-  name: SCSPT-101 vibroblade
-  description: During the initial period of development of the SCS-111 for the Corporate Consortium, many test designs were conducted and finalized into the SCS-101 Prototype. These blades were the starting template for the Corporate Consortiums jump from Crusher-type weaponry into subsonic piercing vibroweaponry.
+  name: виброклинок SCSPT-101
+  description: На раннем этапе разработки SCS-111 для Корпоративного Консорциума было много тестовых проектов, финализованных в прототип SCS-101. Эти клинки стали шаблоном для прыжка Консорциума от дробильного оружия к дозвуковому колющему виброоружию.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Melee/crusher_sword.rsi
@@ -39,8 +39,8 @@
 - type: entity
   parent: [ BaseSword, BaseCentcommContraband ]
   id: CentcommVibroblade
-  name: SCSPT-111 vibroblade
-  description: Vulcan Industries was contracted by the Corporate Consortium to design and mass-produce weaponry focusing more on existing crusher-weaponry technology. Through this research, the SCS-111 Corporate Consortium Variant was born, a blade of pure precision relying on a subsonic slashing design and material that can hold it's own against weaponry made of phoron.
+  name: виброклинок SCSPT-111
+  description: Vulcan Industries по заказу Корпоративного Консорциума спроектировала и массово выпускала оружие с упором на дробильные технологии. Так родился вариант SCS-111, клинок чистой точности на дозвуковом режущем дизайне из материала, держащегося против форонового оружия.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Melee/cc_crusher_sword.rsi

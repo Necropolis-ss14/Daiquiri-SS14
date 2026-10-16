@@ -34,8 +34,8 @@
 - type: entity
   parent: BaseMobBluespaceHarvester
   id: MobBluespaceHarvesterMiGo
-  name: Creature
-  description: A fast, insectoid creature from the depths of bluespace. Its movements are erratic and hard to predict.
+  name: Существо
+  description: Быстрое насекомообразное существо из глубин блюспейса. Его движения хаотичны и непредсказуемы.
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -77,7 +77,7 @@
   parent: BaseMobBluespaceHarvester
   id: MobBluespaceHarvesterBlankBody
   name: пустое тело
-  description: A shambling humanoid husk, empty of thought but driven by malice.
+  description: Шаркающий гуманоидный остов, пустой разумом, но движимый злобой.
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -110,8 +110,8 @@
 - type: entity
   parent: BaseMobBluespaceHarvester
   id: MobBluespaceHarvesterOtherthing
-  name: otherthing
-  description: A massive, lumbering abomination. It moves slowly but can take tremendous punishment.
+  name: иносущество
+  description: Огромное неповоротливое чудовище. Двигается медленно, но выдерживает колоссальный урон.
   components:
   - type: Sprite
     drawdepth: Mobs

@@ -144,7 +144,7 @@
   id: MagazinePistolSubMachineGunTopMounted
   name: магазин WT550 (.35 авто, надствольный)
   parent: [ BaseContrabandTier3, BaseItem, BaseSecurityContraband ] # Blimpuf
-  description: Unconventional 30-round top feeding magazine for the WT550 SMG. Intended to hold general-purpose kinetic ammunition.
+  description: Необычный верхний магазин на 30 патронов для ПП WT550. Под стандартные кинетические патроны.
   components:
   - type: Tag
     tags:
@@ -176,7 +176,7 @@
   id: MagazinePistolSubMachineGunTopMountedFMJ
   name: магазин WT550 (.35 FMJ авто, верхний)
   parent: [ MagazinePistolSubMachineGunTopMounted ]
-  description: Unconventional 30-round top feeding magazine for the WT550 SMG. Intended to hold general-purpose kinetic ammunition. This one is loaded with FMJ.
+  description: Необычный верхний магазин на 30 патронов для ПП WT550. Под стандартные кинетические патроны. Заряжен FMJ.
   components:
     - type: BallisticAmmoProvider
       proto: CartridgePistolFMJ # Starlight
@@ -185,7 +185,7 @@
   id: MagazinePistolSubMachineGunTopMountedHP
   name: магазин WT550 (.35 HP авто, верхний)
   parent: [ MagazinePistolSubMachineGunTopMounted ]
-  description: Unconventional 30-round top feeding magazine for the WT550 SMG. Intended to hold general-purpose kinetic ammunition. This one is loaded with HP.
+  description: Необычный верхний магазин на 30 патронов для ПП WT550. Под стандартные кинетические патроны. Заряжен HP.
   components:
     - type: BallisticAmmoProvider
       proto: CartridgePistolHP # Starlight
@@ -194,7 +194,7 @@
   id: MagazinePistolSubMachineGunTopMountedEmpty
   name: магазин WT550 (.35 авто, любые, надствольный)
   parent: MagazinePistolSubMachineGunTopMounted
-  description: Unconventional 30-round top feeding magazine for the WT550 SMG.
+  description: Необычный верхний магазин на 30 патронов для ПП WT550.
   components:
   - type: BallisticAmmoProvider
     proto: null
@@ -247,7 +247,7 @@
   id: MagazinePistolSP
   name: пистолетный магазин (.35 auto SP)
   parent: BaseMagazinePistol
-  description: 10-round single-stack magazine for pistols. Intended to hold general-purpose kinetic ammunition.
+  description: Однорядный пистолетный магазин на 10 патронов. Под стандартные кинетические патроны.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgePistolSP
@@ -272,7 +272,7 @@
   id: MagazinePistolSPGolden
   name: золотой пистолетный магазин (.35 auto SP)
   parent: BaseMagazinePistolGolden
-  description: 10-round single-stack magazine for pistols. Comes in a golden magazine.
+  description: Однорядный пистолетный магазин на 10 патронов. Золотой.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgePistolSP
@@ -393,7 +393,7 @@
   id: MagazinePistolPractice
   name: пистолетный магазин (.35 авто учебные)
   parent: BaseMagazinePistol
-  description: 10-round single-stack magazine for pistols. Intended to hold non-harmful chalk ammunition.
+  description: Однорядный пистолетный магазин на 10 патронов. Под учебные меловые патроны.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgePistolPractice
@@ -418,7 +418,7 @@
   id: MagazinePistolUranium
   name: пистолетный магазин (.35 авто урановые)
   parent: BaseMagazinePistol
-  description: 10-round single-stack magazine for pistols. Intended to hold exotic uranium-core ammunition.
+  description: Однорядный пистолетный магазин на 10 патронов. Под урановые патроны.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgePistolUranium
@@ -794,7 +794,7 @@
   id: MagazinePistolSubMachineGunSP
   name: магазин ПП (.35 auto SP)
   parent: BaseMagazinePistolSubMachineGun
-  description: 30-round double-stack magazine for submachine guns. Intended to hold general-purpose kinetic ammunition.
+  description: Двухрядный магазин на 30 патронов для ПП. Под стандартные кинетические патроны.
   components:
   - type: BallisticAmmoProvider
     capacity: 30
@@ -825,7 +825,7 @@
   id: MagazinePistolSubMachineGunHP
   name: магазин ПП (.35 auto HP)
   parent: BaseMagazinePistolSubMachineGun
-  description: 30-round double-stack magazine for submachine guns.
+  description: Двухрядный магазин на 30 патронов для ПП.
   components:
   - type: BallisticAmmoProvider
     capacity: 30
@@ -916,7 +916,7 @@
   id: MagazinePistolSubMachineGunPractice
   name: магазин ПП (.35 авто учебные)
   parent: BaseMagazinePistolSubMachineGun
-  description: 30-round double-stack magazine for submachine guns. Intended to hold non-harmful chalk ammunition.
+  description: Двухрядный магазин на 30 патронов для ПП. Под учебные меловые патроны.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgePistolPractice
@@ -941,7 +941,7 @@
   id: MagazinePistolSubMachineGunUranium
   name: магазин ПП (.35 авто урановые)
   parent: BaseMagazinePistolSubMachineGun
-  description: 30-round double-stack magazine for submachine guns. Intended to hold exotic uranium-core ammunition.
+  description: Двухрядный магазин на 30 патронов для ПП. Под урановые патроны.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgePistolUranium
@@ -966,7 +966,7 @@
   id: MagazinePistolSubMachineGunIncendiary
   name: магазин ПП (.35 авто зажигательные)
   parent: BaseMagazinePistolSubMachineGun
-  description: 30-round double-stack magazine for submachine guns. Intended to hold self-igniting incendiary ammunition.
+  description: Двухрядный магазин на 30 патронов для ПП. Под самовоспламеняющиеся зажигательные патроны.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgePistolIncendiary

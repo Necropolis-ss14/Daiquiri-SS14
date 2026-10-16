@@ -83,65 +83,65 @@
 - type: entity
   parent: BaseNewspaper
   id: NewspaperBigWatermelon
-  name: Galaxy NOW - October 1st, 2525 #SL Edit and the line under but it wont let me comment on that line?
-  description: "A paperback newspaper. The headline reads: 'World's Biggest 'SuperHuge' Watermelon Ever Grown On Garanir, Botanist Community In Shock'"
+  name: Galaxy NOW — 1 октября 2525
+  description: "Бумажная газета. Заголовок гласит: «Самый большой в мире арбуз «СуперГигант», выращенный на Гаранире, шокировал сообщество ботаников»"
 
 - type: entity
   parent: BaseNewspaper
   id: NewspaperSpores
-  name: Galaxy NOW - October 8th, 2525 #SL Edit
-  description: "A paperback newspaper. The headline reads: 'Experts Warn Against Dangers of Spore Gas; Leak Aboard Botanist Ship Leaves 3 Hospitalized'"
+  name: Galaxy NOW — 8 октября 2525
+  description: "Бумажная газета. Заголовок гласит: «Эксперты предупреждают об опасности спорового газа; утечка на корабле ботаников, трое госпитализированы»"
 
 - type: entity
   parent: BaseNewspaper
   id: NewspaperGasLeaks
-  name: Galaxy NOW - October 15th, 2525 #SL Edit
-  description: "A paperback newspaper. The headline reads: 'New Space Travel Technology Potentially Linked to Dangerous Gas Leaks, Experts Say'"
+  name: Galaxy NOW — 15 октября 2525
+  description: "Бумажная газета. Заголовок гласит: «Новая технология космических путешествий может быть связана с опасными утечками газа, считают эксперты»"
 
 - type: entity
   parent: BaseNewspaper
   id: NewspaperMaintenanceTar
-  name: Galaxy NOW - October 22nd, 2525 #SL Edit
-  description: "A paperback newspaper. The headline reads: 'Doctors Concerned About Rising Freezon Usage Amongst Teens'" #SL Edit
+  name: Galaxy NOW — 22 октября 2525
+  description: "Бумажная газета. Заголовок гласит: «Врачи обеспокоены ростом употребления фризона среди подростков»"
 
 - type: entity
   parent: BaseNewspaper
   id: NewspaperWater
-  name: Galaxy NOW - October 30th, 2525 #SL Edit
-  description: "A paperback newspaper. The headline reads: 'Water Shortage Creates Concern For Halloween Plans on Indar'" #SL Edit
+  name: Galaxy NOW — 30 октября 2525
+  description: "Бумажная газета. Заголовок гласит: «Нехватка воды ставит под угрозу планы на Хэллоуин на Индаре»"
 
 - type: entity
   parent: BaseNewspaper
   id: NewspaperWeldingFuel
-  name: Galaxy NOW - December 5th, 2525 #SL Edit
-  description: "A paperback newspaper. The headline reads: 'Citizens Concerned About Rising Tricordrazine Prices'" #SL Edit
+  name: Galaxy NOW — 5 декабря 2525
+  description: "Бумажная газета. Заголовок гласит: «Граждане обеспокоены ростом цен на трикордразин»"
 
 - type: entity
   parent: BaseNewspaper
   id: NewspaperParasite
-  name: Galaxy NOW - December 12th, 2525 #SL Edit
-  description: "A paperback newspaper. The headline reads: 'Parasite-Infested Cruise Ship Shot Down'" #SL Edit
+  name: Galaxy NOW — 12 декабря 2525
+  description: "Бумажная газета. Заголовок гласит: «Круизный лайнер, заражённый паразитами, сбит»"
 
 - type: entity
   parent: BaseNewspaper
   id: NewspaperMining
-  name: Galaxy NOW - December 17th, 2525 #SL Edit
-  description: "A paperback newspaper. The headline reads: 'Mining Company Goes To War Over Asteroid Ownership Dispute'"
+  name: Galaxy NOW — 17 декабря 2525
+  description: "Бумажная газета. Заголовок гласит: «Горнодобывающая компания развязала войну из-за спора о владении астероидом»"
 
 - type: entity
   parent: BaseNewspaper
   id: NewspaperMining2
-  name: Galaxy NOW - January 2nd, 2526 #SL Edit
-  description: "A paperback newspaper. The headline reads: 'Mining Company Cold War Ended, Jensen Mining Co. Claims Ownership Of Valuable Asteroid'"
+  name: Galaxy NOW — 2 января 2526
+  description: "Бумажная газета. Заголовок гласит: «Холодная война горнодобывающих компаний окончена, «Дженсен Майнинг» заявляет права на ценный астероид»"
 
 - type: entity
   parent: BaseNewspaper
   id: NewspaperMining3
-  name: Galaxy NOW - January 9th, 2526 #SL Edit
-  description: "A paperback newspaper. The headline reads: 'New Plasma Deposites Discovered in Asteroid Belt XLR-2781. Bidding War Begins'" #SL Edit
+  name: Galaxy NOW — 9 января 2526
+  description: "Бумажная газета. Заголовок гласит: «В поясе астероидов XLR-2781 обнаружены новые залежи плазмы. Начинается война ставок»"
 
 - type: entity
   parent: BaseNewspaper
   id: NewspaperForeshadowing
-  name: Galaxy NOW - January 15th, 2526 #SL Edit
-  description: "A paperback newspaper. The headline reads: 'Reports of Worsening Cosmic Radiation Storms in Diphda Sector Confirmed by the Ministry of Health and Welfare'" #SL Edit
+  name: Galaxy NOW — 15 января 2526
+  description: "Бумажная газета. Заголовок гласит: «Министерство здравоохранения подтверждает сообщения об усилении штормов космической радиации в секторе Дифда»"

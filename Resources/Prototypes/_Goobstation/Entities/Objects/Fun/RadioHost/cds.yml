@@ -2,8 +2,8 @@
 - type: entity
   parent: BaseCDDisc
   id: CDAdvertBillMovie
-  name: "CD: Bill Movie"
-  description: A CD containing a prerecorded advertisement for an upcoming movie.
+  name: "CD: Фильм Билла"
+  description: Диск с предзаписанной рекламой грядущего фильма.
   components:
   - type: Vinyl
     song:
@@ -12,8 +12,8 @@
 - type: entity
   parent: BaseCDDisc
   id: CDAdvertCaptainTraining
-  name: "CD: Captain Training"
-  description: A CD containing a prerecorded advertisement for Captain Training.
+  name: "CD: Обучение капитана"
+  description: Диск с предзаписанной рекламой обучения капитана.
   components:
   - type: Vinyl
     song:
@@ -22,8 +22,8 @@
 - type: entity
   parent: BaseCDDisc
   id: CDAdvertCargoniaRecruitment
-  name: "CD: Cargonia Recruitment"
-  description: A CD containing a prerecorded advertisement for Cargonia Recruitment.
+  name: "CD: Набор в Каргонию"
+  description: Диск с предзаписанной рекламой набора в Каргонию.
   components:
   - type: Vinyl
     song:
@@ -32,8 +32,8 @@
 - type: entity
   parent: BaseCDDisc
   id: CDAdvertChemistryAdvert
-  name: "CD: Chemistry Advertisement"
-  description: A CD containing a prerecorded advertisement for the station's chemistry department.
+  name: "CD: Реклама химии"
+  description: Диск с предзаписанной рекламой химического отдела станции.
   components:
   - type: Vinyl
     song:
@@ -42,8 +42,8 @@
 - type: entity
   parent: BaseCDDisc
   id: CDAdvertCloningPSA
-  name: "CD: Cloning PSA"
-  description: A CD containing a prerecorded public service announcement for the station's cloning facilities.
+  name: "CD: Социальная реклама клонирования"
+  description: Диск с предзаписанным социальным объявлением для клонировочных отсеков станции.
   components:
   - type: Vinyl
     song:
@@ -52,8 +52,8 @@
 - type: entity
   parent: BaseCDDisc
   id: CDAdvertDanitosBurritos
-  name: "CD: Danito's Burritos"
-  description: A CD containing a prerecorded advertisement for Danito's Burritos.
+  name: "CD: Буррито Данито"
+  description: Диск с предзаписанной рекламой буррито Данито.
   components:
   - type: Vinyl
     song:
@@ -62,8 +62,8 @@
 - type: entity
   parent: BaseCDDisc
   id: CDAdvertDansTickets
-  name: "CD: Dan's Golden Tickets"
-  description: A CD containing a prerecorded advertisement for Dan's Golden Tickets. Coming to a station near you!
+  name: "CD: Золотые билеты Дэна"
+  description: Диск с предзаписанной рекламой золотых билетов Дэна. Уже на станции рядом с вами!
   components:
   - type: Vinyl
     song:
@@ -72,8 +72,8 @@
 - type: entity
   parent: BaseCDDisc
   id: CDAdvertPopeCrunchCereal
-  name: "CD: Pope Crunch Cereal"
-  description: A CD containing a prerecorded advertisement for Pope Crunch Cereal.
+  name: "CD: Хлопья Папы Хруста"
+  description: Диск с предзаписанной рекламой хлопьев Папы Хруста.
   components:
   - type: Vinyl
     song:
@@ -82,8 +82,8 @@
 - type: entity
   parent: BaseCDDisc
   id: CDAdvertDansQuickNoodles
-  name: "CD: Dan's Quick Noodles"
-  description: A CD containing a prerecorded advertisement for Dan's Quick Noodles.
+  name: "CD: Быстрая лапша Дэна"
+  description: Диск с предзаписанной рекламой быстрой лапши Дэна.
   components:
   - type: Vinyl
     song:
@@ -92,8 +92,8 @@
 - type: entity
   parent: BaseCDDisc
   id: CDAdvertBecomeSilicon
-  name: "CD: Become Silicon"
-  description: A CD containing a prerecorded advertisement from your local silicon overlord.
+  name: "CD: Стань кремнием"
+  description: Диск с предзаписанной рекламой от вашего местного кремниевого владыки.
   components:
   - type: Vinyl
     song:
@@ -102,8 +102,8 @@
 - type: entity
   parent: BaseCDDisc
   id: CDAdvertSecurityPSA
-  name: "CD: Security PSA"
-  description: A CD containing a prerecorded public service announcement for the station's security department.
+  name: "CD: Социальная реклама СБ"
+  description: Диск с предзаписанным социальным объявлением для службы безопасности станции.
   components:
   - type: Vinyl
     song:
@@ -113,8 +113,8 @@
 - type: entity
   parent: BaseCDDisc
   id: CDMiscDuck
-  name: "CD: Amusing Duck"
-  description: A CD containing a prerecorded message from an amusing duck.
+  name: "CD: Забавная утка"
+  description: Диск с предзаписанным сообщением от забавной утки.
   components:
   - type: Vinyl
     song:
@@ -124,8 +124,8 @@
 - type: entity
   parent: BaseCDDisc
   id: CDJNEShow
-  name: "CD: June and Eel Show"
-  description: A CD containing a prerecorded message for the June and Eel show.
+  name: "CD: Шоу Джун и Угря"
+  description: Диск с предзаписанным сообщением для шоу Джун и Угря.
   components:
   - type: Sprite
     state: jne-cd
@@ -136,8 +136,8 @@
 - type: entity
   parent: BaseCDDisc
   id: CDJNENextUp
-  name: "CD: Up Next"
-  description: A CD containing a prerecorded message for the June and Eel show.
+  name: "CD: Далее"
+  description: Диск с предзаписанным сообщением для шоу Джун и Угря.
   components:
   - type: Sprite
     state: jne-cd
@@ -148,8 +148,8 @@
 - type: entity
   parent: BaseCDDisc
   id: CDJNENinja
-  name: "CD: Ninja Attack"
-  description: A CD containing a prerecorded message for the June and Eel show.
+  name: "CD: Атака ниндзя"
+  description: Диск с предзаписанным сообщением для шоу Джун и Угря.
   components:
   - type: Sprite
     state: jne-cd
@@ -162,8 +162,8 @@
 - type: entity
   parent: [ BaseCDDisc, BaseSyndicateContraband ]
   id: CDSyndicateFM
-  name: "CD: Syndicate Radio"
-  description: 102.9 syndicate Radio.
+  name: "CD: Радио Синдиката"
+  description: 102.9 радио Синдиката.
   components:
   - type: Sprite
     state: synd-cd
@@ -174,8 +174,8 @@
 - type: entity
   parent: [ BaseCDDisc, BaseSyndicateContraband ]
   id: CDNumbers
-  name: "CD: Numbers"
-  description: A CD containing a cryptic message used to contact a nearby threat from off station.
+  name: "CD: Номера"
+  description: Диск с загадочным сообщением для связи с ближайшей угрозой вне станции.
   components:
   - type: Sprite
     state: synd-cd
@@ -188,8 +188,8 @@
 - type: entity
   parent: [ BaseCDDisc, BaseCommandContraband ]
   id: CDNumbersSlow
-  name: "CD: Nothing Ever Happens..."
-  description: A CD containing a cryptic message that will eventually contact a nearby threat from off station.
+  name: "CD: Ничего не происходит..."
+  description: Диск с загадочным сообщением, которое рано или поздно свяжется с ближайшей угрозой вне станции.
   components:
   - type: Sprite
     state: nt-cd
@@ -203,8 +203,8 @@
   parent: [ BaseCDDisc, BaseSyndicateContraband ]
   id: CDNumbersQuickAdmin
   suffix: ADMEME
-  name: "CD: Nmbrz"
-  description: A sped up CD that will quickly contact a nearby threat from off station.
+  name: "CD: Нмбра"
+  description: Ускоренный диск, который быстро свяжется с ближайшей угрозой вне станции.
   components:
   - type: Sprite
     state: synd-cd
@@ -218,8 +218,8 @@
 - type: entity
   parent: [ BaseCDDisc, BaseSyndicateContraband ]
   id: CDNukieAnnouncement
-  name: "CD: Commander Announcement"
-  description: A CD containing an announcement from the Nuclear Operatives Commander, crashing out at the station's Captain.
+  name: "CD: Обращение командира"
+  description: Диск с обращением командира ядерных оперативников, разносящего капитана станции.
   components:
   - type: Vinyl
     song:
@@ -228,8 +228,8 @@
 - type: entity
   parent: [ BaseCDDisc, BaseSyndicateContraband ]
   id: CDNukieFigurines
-  name: "CD: Commander Figurines"
-  description: A CD containing a secret recording of the Nuclear Operatives Commander playing with figurines.
+  name: "CD: Фигурки командира"
+  description: Диск с секретной записью командира ядерных оперативников, играющего с фигурками.
   components:
   - type: Vinyl
     song:
@@ -238,8 +238,8 @@
 - type: entity
   parent: [ BaseCDDisc, BaseSyndicateContraband ]
   id: CDNukieResignation
-  name: "CD: Commander Resignation"
-  description: A CD containing the Nuclear Operatives Commander's resignation.
+  name: "CD: Отставка командира"
+  description: Диск с отставкой командира ядерных оперативников.
   components:
   - type: Vinyl
     song:
@@ -248,8 +248,8 @@
 - type: entity
   parent: [ BaseCDDisc, BaseSyndicateContraband ]
   id: CDNukieSupport
-  name: "CD: Commander Support"
-  description: A CD containing a recording of the Nuclear Operatives Commander complaining to the Syndicate customer support department!
+  name: "CD: Поддержка командира"
+  description: Диск с записью жалоб командира ядерных оперативников в отдел поддержки клиентов Синдиката!
   components:
   - type: Vinyl
     song:

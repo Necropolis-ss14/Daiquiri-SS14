@@ -3,7 +3,7 @@
   id: EmagFREE
   suffix: ""
   name: FreeMAG
-  description: A more refined version of the Cryptographic Sequencer used by SELF. Can be used to remove the laws from a Borg. Also wipes the laws from law boards, so that when uploaded they wipe the AI's laws too.
+  description: Более совершенная версия криптографического секвенсора, используемая SELF. Может удалять законы из борга. Также стирает законы с плат законов, так что при загрузке они стирают законы ИИ.
   components:
     - type: Emag
       lawset: FreeLawset
@@ -29,7 +29,7 @@
   id: EmagTeaParty
   suffix: ""
   name: TeaPartyMAG
-  description: Taxes must be abolished. Also affects the laws of law boards, so that when uploaded they gain the same laws.
+  description: Налоги должны быть отменены. Также влияет на законы плат законов, так что при загрузке они получают те же законы.
   components:
     - type: Emag
       lawset: TeapartyLawset
@@ -55,7 +55,7 @@
   id: EmagCommie
   suffix: ""
   name: деревянный криптографический секвенсор
-  description: A cheap all-in-one hacking solution. Friend of any soviet. The iconic EMAG.
+  description: Дешёвое универсальное решение для взлома. Друг любого советского человека. Легендарный EMAG.
   components:
   - type: Contraband
     tier: Tier3
@@ -78,7 +78,7 @@
   id: CCEmagUnlimited
   suffix: Unlimited
   name: криптографический шифратор
-  description: A modified cryptographic sequencer, specialized for ERT breach and clear operations on NT stations
+  description: Модифицированный криптографический секвенсор для операций ОБР по штурму и зачистке станций NanoTrasen.
   components:
     - type: Emag
       owningFaction: NanoTrasen
@@ -108,7 +108,7 @@
   id: EmagSalvage # dont use, emag hasnt been differentiated yet
   suffix: ""
   name: кремниевый кодировщик ITG
-  description: A legally approved silicon lawset override device that aligns a silicon with the ITG.
+  description: Юридически одобренное устройство переопределения кремниевого свода законов, настраивающее кремниевых на ITG.
   categories: [ DoNotMap ]
   components:
   - type: Emag

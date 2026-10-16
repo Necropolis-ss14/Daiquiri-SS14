@@ -2,7 +2,7 @@
   parent: [DrinkVisualsAllFilled, DrinkBottlePlasticSmallBaseFull]
   id: DrinkAleBottlePlasticFull
   name: бутылка эля
-  description: Simple clean ale of Dwarf origin. The plastic bottle somewhat ruins the taste.
+  description: Простой чистый эль дворфийского происхождения. Пластиковая бутылка слегка портит вкус.
   components:
   - type: Solution
     id: drink

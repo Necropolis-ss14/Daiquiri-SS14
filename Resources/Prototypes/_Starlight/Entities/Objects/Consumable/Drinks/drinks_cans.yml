@@ -2,7 +2,7 @@
   parent: DrinkCanBaseFull
   id: DrinkCrabJuiceCan
   name: банка крабового сока
-  description: Now, what do you have to wash that awful taste out of my mouth?
+  description: Ну и чем теперь запить этот ужасный привкус?
   components:
   - type: Solution
     id: drink

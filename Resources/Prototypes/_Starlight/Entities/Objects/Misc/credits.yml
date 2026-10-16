@@ -8,8 +8,8 @@
 - type: entity
   parent: BaseItem
   id: NTCredit
-  name: credit
-  description: You gotta have real money. Can be used in place of Spesos, at a 1:1 conversion rate.
+  name: кредит
+  description: Нужны настоящие деньги. Заменяют спесос по курсу 1 к 1.
   components:
   - type: NTCash
   - type: Cash

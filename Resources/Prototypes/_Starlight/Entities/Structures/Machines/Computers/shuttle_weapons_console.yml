@@ -3,8 +3,8 @@
 - type: entity
   parent: BaseComputer
   id: ShuttleWeaponsConsole
-  name: shuttle weapons control console
-  description: A computer for controlling linked shuttle weapons and scanning nearby objects.
+  name: консоль управления орудиями шаттла
+  description: Компьютер управления подключёнными орудиями шаттла и сканирования ближайших объектов.
   components:
   - type: Sprite
     layers:

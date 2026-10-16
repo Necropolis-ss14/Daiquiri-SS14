@@ -53,7 +53,7 @@
   - type: AnimationPlayer
 
 - type: entity
-  name: pinpointer
+  name: ядерный пинпоинтер
   id: PinpointerNuclear
   parent: [ PinpointerBase, BaseGrandTheftContraband ] # TODO Starlight partial once space-wizards/RobustToolbox/pull/7084 gets fixed
   components:
@@ -62,8 +62,8 @@
     targetName: nuclear authentication disk
 
 - type: entity
-  name: syndicate pinpointer
-  description: Produced specifically for nuclear operative missions, get that disk!
+  name: синдикатский пинпоинтер
+  description: Произведён специально для миссий ядерных оперативников, добудь этот диск!
   id: PinpointerSyndicateNuclear
   parent: [ PinpointerBase, BaseSyndicateContraband ]
   components:
@@ -96,8 +96,8 @@
     targetName: nuclear authentication disk
 
 - type: entity
-  name: universal pinpointer
-  description: A handheld tracking device that locks onto any physical entity while off. Keep upright to retain accuracy.
+  name: универсальный пинпоинтер
+  description: Ручное отслеживающее устройство, наводящееся на любую физическую сущность в выключенном состоянии. Держите вертикально для сохранения точности.
   id: PinpointerUniversal
   parent: PinpointerBase
   components:
@@ -131,8 +131,8 @@
 
 - type: entity
   parent: PinpointerBase
-  name: station pinpointer
-  description: A handheld tracking device that leads to the direction of any nearby station.
+  name: пинпоинтер станции
+  description: Ручное отслеживающее устройство, указывающее направление к ближайшей станции.
   id: PinpointerStation
   suffix: Station
   components:
@@ -167,8 +167,8 @@
 - type: entity
   parent: [ PinpointerBase, BaseXenoborgContraband ]
   id: PinpointerMothership
-  name: core pinpointer
-  description: A handheld tracking device that leads to the direction of the Mothership core.
+  name: пинпоинтер ядра
+  description: Ручное отслеживающее устройство, указывающее направление к ядру материнского корабля.
   components:
   - type: Sprite
     layers:
@@ -201,8 +201,8 @@
 - type: entity
   parent: BaseItem
   id: PinpointerMothershipPiece
-  name: piece of core pinpointer
-  description: A piece of a core pinpointer. You need four pieces to repair it.
+  name: часть пинпоинтера ядра
+  description: Часть пинпоинтера ядра. Для его починки нужно четыре части.
   components:
   - type: Sprite
     sprite: Objects/Devices/pinpointer.rsi
@@ -224,8 +224,8 @@
 - type: entity
   parent: PinpointerMothership
   id: PinpointerMothershipRepaired
-  name: repaired core pinpointer
-  description: A handheld tracking device that leads to the direction of the Mothership core. This one has seen better days.
+  name: отремонтированный пинпоинтер ядра
+  description: Ручное отслеживающее устройство, указывающее направление к ядру материнского корабля. Этот видывал и лучшие времена.
   components:
   - type: Sprite
     layers:

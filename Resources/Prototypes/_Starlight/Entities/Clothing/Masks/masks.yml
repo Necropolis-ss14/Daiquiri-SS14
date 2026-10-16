@@ -2,7 +2,7 @@
   parent: [ BaseContrabandTier2, ClothingMaskGas, BaseBlueShieldContraband ]
   id: ClothingMaskGasBSO
   name: синий штурмовой противогаз
-  description: A elite issue Security gas mask. Now in blue!
+  description: Элитный противогаз СБ. Теперь в синем!
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Mask/blueswat.rsi
@@ -30,7 +30,7 @@
   parent: [ BaseContrabandTier2, ClothingMaskGas, BaseSecurityContraband ] # Blimpuf
   id: ClothingMaskGasCorpsman
   name: биомаска безопасности
-  description: VERY Expensive medical PPE that provides superior pathological protection.
+  description: ОЧЕНЬ дорогое медицинское СИЗ с превосходной патологической защитой.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Mask/corpsmangas.rsi
@@ -58,7 +58,7 @@
   parent: [ClothingMaskGas]
   id: ClothingMaskRoboticist
   name: противогаз робототехника
-  description: What a sublime color set, newbie.
+  description: Какой возвышенный набор цветов, новичок.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Mask/gasroboticist.rsi
@@ -69,7 +69,7 @@
   parent: [ClothingMaskPullableBase]
   id: ClothingMaskGasHalf
   name: полумаска
-  description: A half mask that covers the mouth and nose, but not the eyes.
+  description: Полумаска, закрывающая рот и нос, но не глаза.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Mask/gashalf.rsi
@@ -86,7 +86,7 @@
   parent: [ClothingMaskBase]
   id: ClothingMaskBreathTube
   name: дыхательная трубка
-  description: A thin nose tube that connects to internals. Not very comfortable and falls out often, but good if you want people to see your pretty face.
+  description: Тонкая носовая трубка для подключения к внутренним баллонам. Неудобная и часто выпадает, но лицо видно.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Mask/breathtube.rsi
@@ -98,7 +98,7 @@
   parent: [ClothingMaskGas, BaseSovietContraband]
   id: ClothingSovietGasMask
   name: противогаз ГП-32
-  description: An old uncomfortable mechanical gas mask of standard use in USSP. Meant to protect from radioactive fallout.
+  description: Старый неудобный механический противогаз стандартного образца USSP. Защищает от радиоактивных осадков.
   components:
   - type: Contraband # Blimpuf
     tier: Tier3
@@ -124,7 +124,7 @@
   parent: ClothingMaskBreathMedicalSecurity
   id: ClothingMaskBreathMedicalSecurityBudget
   name: бюджетная медицинская маска в военном стиле
-  description: A low-cost medical mask with a small layer of protection against damage and viruses. It's less effective than the standard issue medical mask, but it's better than nothing.
+  description: Дешёвая медицинская маска с небольшой защитой от урона и вирусов. Хуже стандартной, но лучше, чем ничего.
   components:
   - type: Armor
     modifiers:
@@ -136,7 +136,7 @@
   parent: ClothingMaskGas
   id: ClothingKitsuneMask
   name: маска кицунэ
-  description: A ceramic mask fox mask.
+  description: Керамическая маска лисы.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Mask/kitsune_mask.rsi
@@ -153,7 +153,7 @@
   parent: ClothingMaskGas
   id: ClothingSquidOneMask
   name: опасная маска с кругом
-  description: SEE MY EYE?
+  description: ВИДИШЬ МОЙ ГЛАЗ?
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Mask/squid_one.rsi
@@ -164,7 +164,7 @@
   parent: ClothingMaskGas
   id: ClothingSquidTwoMask
   name: опасная маска с квадратом
-  description: Glory to square!
+  description: Слава квадрату!
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Mask/squid_two.rsi
@@ -175,7 +175,7 @@
   parent: ClothingMaskGas
   id: ClothingSquidThreeMask
   name: опасная маска с треугольником
-  description: On top. Like always.
+  description: Наверху. Как всегда.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Mask/squid_three.rsi
@@ -187,7 +187,7 @@
   parent: ClothingMaskBase
   id: ClothingMaskGeneralBorg
   name: маска протогена
-  description: You don't understand, we are not cybor- POW POW POW
+  description: Вы не понимаете, мы не кибор... ПАУ ПАУ ПАУ
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Mask/general.rsi
@@ -210,7 +210,7 @@
   parent: ClothingMaskGeneralBorg
   id: ClothingMaskCargoBorg
   name: маска протогена-утилизатора
-  description: Now that's a mask that really digs the look.
+  description: Да это маска, которая реально в теме.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Mask/cargo.rsi
@@ -221,7 +221,7 @@
   parent: ClothingMaskGeneralBorg
   id: ClothingMaskMedicBorg
   name: маска протогена-медика
-  description: Look me in the face while i cut you.
+  description: Смотри мне в лицо, пока я тебя режу.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Mask/medic.rsi
@@ -232,7 +232,7 @@
   parent: ClothingMaskGeneralBorg
   id: ClothingMaskEngiBorg
   name: маска протогена-инженера
-  description: Bolts it all together.
+  description: Скрепляет всё болтами.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Mask/eng.rsi
@@ -243,7 +243,7 @@
   parent: ClothingMaskGeneralBorg
   id: ClothingMaskJanitorBorg
   name: маска протогена-уборщика
-  description: Sweep the floor with protogen style!
+  description: Подметай пол в стиле протогена!
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Mask/janitor.rsi
@@ -254,7 +254,7 @@
   parent: ClothingMaskGeneralBorg
   id: ClothingMaskSecBorg
   name: маска протогена-охранника
-  description: Always on guard, nothing escapes those mechanical eyes.
+  description: Всегда начеку, ничто не укроется от механических глаз.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Mask/sec.rsi
@@ -268,7 +268,7 @@
   id: ClothingMaskGasGSO
   categories: [ DoNotMap ]
   name: противогаз гриншилда
-  description: The gas mask of the elite of the elite, even protects the user from the dangers of welding.
+  description: Противогаз элиты из элит, защищает даже от сварки.
   components:
   - type: Sprite
     sprite: Clothing/Mask/ert.rsi
@@ -280,7 +280,7 @@
   parent: ClothingMaskMime
   id: ClothingMaskSusMime
   name: подозрительная маска мима
-  description: For when your crewmates say something a little sus.
+  description: На случай, когда коллеги говорят что-то подозрительное.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Mask/mime_sus.rsi
@@ -291,7 +291,7 @@
   parent: [ClothingMaskGasAtmos, BaseCommandContraband]
   id: ClothingMaskGasCaptainPodWars
   name: противогаз капитана
-  description: A repainted military surplus gas mask from the Pod Wars. In pretty good shape, considering it is slightly over 100 years old.
+  description: Перекрашенный армейский противогаз времён Под-войн. В неплохом состоянии, учитывая, что ему чуть больше 100 лет.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Mask/gascaptain_podwars.rsi

@@ -2,7 +2,7 @@
   parent: ClothingMultipleHeadphones
   id: ClothingMultipleHeadphonesReporter
   name: наушники репортёра
-  description: Checking in with the studio now... you don't say!?
+  description: На связи со студией... да неужели!?
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Multiple/headphones_reporter.rsi
@@ -21,7 +21,7 @@
   parent: ClothingMultipleHeadphones
   id: ClothingMultipleHeadphonesHighEnd
   name: высококлассные наушники
-  description: Perfect for audiophiles everywhere.
+  description: Идеален для аудиофилов повсюду.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Multiple/headphones_high-end.rsi

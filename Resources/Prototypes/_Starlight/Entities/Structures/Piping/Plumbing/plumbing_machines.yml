@@ -58,7 +58,7 @@
   parent: PlumbingMachineBase
   id: PlumbingTank
   name: сантехнический бак
-  description: Stores up to 2400u of reagents. Use tanks to buffer reagents between production stages or just store large amounts of reagents.
+  description: Хранит до 2400 ед. реагентов. Используйте баки для буферизации реагентов между этапами производства или просто для хранения больших объёмов.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Piping/Plumbing/plumbers.rsi
@@ -134,7 +134,7 @@
   parent: PlumbingTank
   id: PlumbingBuffer
   name: сантехнический буфер
-  description: Stores up to 240u of reagents. Useful for supplying separate duct networks with its unconnected outlets.
+  description: Хранит до 240 ед. реагентов. Полезен для питания отдельных сетей труб через неподключённые выходы.
   components:
   - type: CollideOnAnchor
     enable: false
@@ -176,7 +176,7 @@
   parent: PlumbingMachineBase
   id: PlumbingInput
   name: сантехнический ввод
-  description: A small tank you pour reagents into. Other machines pull from this. Connects in all directions.
+  description: Небольшой бак, в который наливают реагенты. Другие машины забирают из него. Подключается во все стороны.
   components:
   - type: Physics
     bodyType: Static
@@ -252,7 +252,7 @@
   parent: PlumbingMachineBase
   id: PlumbingSink
   name: сантехническая раковина
-  description: A sink connected to the plumbing network. Draw reagents from it with a container, or dump reagents into it to send them down the drain. Connects in all directions.
+  description: Раковина, подключённая к сантехнической сети. Набирайте из неё реагенты ёмкостью или сливайте реагенты, чтобы отправить их в сток. Подключается во все стороны.
   components:
   - type: Sprite
     sprite: Structures/Furniture/sink.rsi
@@ -350,7 +350,7 @@
   parent: PlumbingMachineBase
   id: PlumbingOutput
   name: сантехнический вывод
-  description: A small tank that pulls reagents from the network. Draw from it with a container. Connects in all directions.
+  description: Небольшой бак, забирающий реагенты из сети. Набирайте из него ёмкостью. Подключается во все стороны.
   components:
   - type: Physics
     bodyType: Static
@@ -427,7 +427,7 @@
   parent: PlumbingMachineBase
   id: PlumbingReactor
   name: сантехнический реактор
-  description: Pulls target reagents in up to configured quantities from its inlet and triggers reactions. Requires power.
+  description: Забирает целевые реагенты в заданных количествах со входа и запускает реакции. Требует питания.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Piping/Plumbing/plumbers.rsi
@@ -527,7 +527,7 @@
   parent: PlumbingMachineBase
   id: PlumbingSmartDispenser
   name: умный сантехнический раздатчик
-  description: Pulls in all reagents from its inlets and stores up to 240u of each type. Use a labeled container to auto-dispense a matching reagent, or use a refillable container on it to manually dispense. Requires power.
+  description: Забирает все реагенты со входов и хранит до 240 ед. каждого типа. Используйте маркированную ёмкость для автовыдачи подходящего реагента или многоразовую ёмкость для ручной выдачи. Требует питания.
   components:
   - type: Transform
     noRot: true
@@ -636,7 +636,7 @@
   parent: PlumbingMachineBase
   id: PlumbingPillPress
   name: сантехнический пресс для таблеток
-  description: Pulls in reagents and presses them into pills or patches at a configurable dosage. Has optional mixing inlets for ratio-controlled mixing. Requires power.
+  description: Забирает реагенты и прессует их в таблетки или пластыри с настраиваемой дозировкой. Имеет дополнительные смесительные входы для смешивания в заданных пропорциях. Требует питания.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Piping/Plumbing/plumbers.rsi
@@ -745,7 +745,7 @@
   parent: PlumbingMachineBase
   id: PlumbingFilter
   name: сантехнический фильтр
-  description: Filters up to 10 specific reagents from a duct network. Filtered reagents are sent to the side outlet while other reagents passthrough.
+  description: Фильтрует до 10 определённых реагентов из сети труб. Отфильтрованные реагенты направляются в боковой выход, а остальные проходят дальше.
   components:
   - type: Physics
     bodyType: Static
@@ -848,7 +848,7 @@
   parent: PlumbingFilter
   id: PlumbingFilterFlipped
   suffix: Flipped
-  description: Filters up to 10 specific reagents from a duct network. Filtered reagents are sent to the side outlet while other reagents passthrough.
+  description: Фильтрует до 10 определённых реагентов из сети труб. Отфильтрованные реагенты направляются в боковой выход, а остальные проходят дальше.
   components:
   - type: Physics
     bodyType: Static
@@ -888,7 +888,7 @@
   parent: PlumbingMachineBase
   id: PlumbingInlineFilter
   name: встроенный сантехнический фильтр
-  description: Sits inline on a duct run and draws up to 10 specific reagents off it, holding 10u of each. Everything else is left on the network.
+  description: Устанавливается в разрыв трубы и отбирает до 10 определённых реагентов, удерживая по 10 ед. каждого. Всё остальное остаётся в сети.
   components:
   - type: Physics
     bodyType: Static
@@ -968,7 +968,7 @@
   parent: PlumbingMachineBase
   id: PlumbingSynthesizer
   name: сантехнический синтезатор
-  description: Generates basic reagents using power from an internal battery.
+  description: Генерирует базовые реагенты, используя энергию внутренней батареи.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Piping/Plumbing/plumbers.rsi
@@ -1084,7 +1084,7 @@
   parent: PlumbingMachineBase
   id: PlumbingDisposal
   name: сантехническая утилизация
-  description: Pulls reagents from a south inlet into an internal 240u buffer and destroys them.
+  description: Забирает реагенты с южного входа во внутренний буфер на 240 ед. и уничтожает их.
   components:
   - type: Sprite
     drawdepth: FloorObjects
@@ -1155,7 +1155,7 @@
   parent: PlumbingMachineBase
   id: PlumbingDrain
   name: сантехнический слив
-  description: A floor drain that absorbs puddles and routes them into the plumbing network instead of disposing them.
+  description: Напольный слив, впитывающий лужи и направляющий их в сантехническую сеть вместо утилизации.
   placement:
     mode: SnapgridCenter
   components:

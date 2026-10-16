@@ -3,7 +3,7 @@
   parent: BaseBlueprint
   id: BlueprintBasicAmmo
   name: базовые боеприпасы
-  description: A blueprint containing the schematics to basic ammo and magazines for weapons commonly used by the salvage team.
+  description: Чертёж со схемами базовых боеприпасов и магазинов для оружия, обычно используемого утилизаторами.
   components:
     - type: Blueprint
       providedRecipes:
@@ -22,7 +22,7 @@
   parent: BaseBlueprint
   id: BlueprintBasicMedical
   name: базовые медикаменты
-  description: A blueprint containing the schematics to basic medical supplies for use by the salvage team.
+  description: Чертёж со схемами базовых медикаментов для использования утилизаторами.
   components:
     - type: Blueprint
       providedRecipes:

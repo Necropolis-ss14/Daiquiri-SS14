@@ -1,8 +1,8 @@
 - type: entity
-  name: neural link disruptor
+  name: разрушитель нейросвязи
   parent: BaseItem
   id: NeuralLinkDisruptor
-  description: A device that can be used on a person to disrupt their cybernetics from functioning for a long duration, most useful for prisoners who have dangerous cybernetic limbs. It has no effect on passive implants.
+  description: Устройство надолго выводит из строя кибернетику человека. Полезнее всего для заключённых с опасными киберконечностями. На пассивные импланты не действует.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Specific/Security/neural_link_disruptor.rsi

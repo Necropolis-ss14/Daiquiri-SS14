@@ -43,7 +43,7 @@
   id: RoundTableSteel
   parent: RoundTableBase
   name: круглый стол
-  description: A smaller, round table.
+  description: Меньший круглый стол.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Furniture/Tables/roundtable.rsi
@@ -86,7 +86,7 @@
   id: RoundTableWood
   parent: RoundTableBase
   name: круглый стол
-  description: A smaller, round table.
+  description: Меньший круглый стол.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Furniture/Tables/roundtable.rsi
@@ -129,7 +129,7 @@
   id: RoundTableCarpet
   parent: RoundTableBase
   name: круглый стол
-  description: A smaller, round table.
+  description: Меньший круглый стол.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Furniture/Tables/roundtable.rsi
@@ -172,7 +172,7 @@
   id: RoundTablePlastic
   parent: RoundTableBase
   name: круглый стол
-  description: A smaller, round table.
+  description: Меньший круглый стол.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Furniture/Tables/roundtable.rsi
@@ -215,7 +215,7 @@
   id: RoundTableGlass
   parent: RoundTableBase
   name: круглый стол
-  description: A smaller, round table.
+  description: Меньший круглый стол.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Furniture/Tables/roundtable.rsi
@@ -258,7 +258,7 @@
   id: RoundTablePlasma
   parent: RoundTableBase
   name: круглый стол
-  description: A smaller, round table.
+  description: Меньший круглый стол.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Furniture/Tables/roundtable.rsi

@@ -83,7 +83,7 @@
   parent: [ClothingHeadsetAlt, BaseNanoTrasenContraband]
   id: ClothingHeadsetAltNCTrainer
   name: полноразмерная гарнитура тренера НТ
-  description: This is used by your well-taught corporate training team.
+  description: Им пользуются ваши хорошо обученные корпоративные тренеры.
   components:
   - type: ContainerFill
     containers:
@@ -156,7 +156,7 @@
   parent: [ClothingHeadsetAlt, BaseSyndicateContraband]
   id: ClothingHeadsetAltSyndicateCommander
   name: кроваво-красная полноразмерная гарнитура командира
-  description: An updated, modular syndicate intercom that fits over the head and takes encryption keys (there are 5 key slots.).
+  description: Обновлённый модульный переговорник Синдиката, надеваемый на голову, с разъёмами под ключи шифрования (всего 5 слотов).
   components:
   - type: Contraband # Blimpuf
     tier: Tier4
@@ -180,7 +180,7 @@
   parent: [ClothingHeadsetAlt, BaseSyndicateContraband]
   id: ClothingHeadsetAltSyndicateAgent
   name: кроваво-красная полноразмерная гарнитура агента
-  description: An updated, modular syndicate intercom that fits over the head and takes encryption keys (there are 5 key slots.).
+  description: Обновлённый модульный переговорник Синдиката, надеваемый на голову, с разъёмами под ключи шифрования (всего 5 слотов).
   components:
   - type: Contraband # Blimpuf
     tier: Tier4
@@ -203,7 +203,7 @@
   parent: [ClothingHeadsetAlt, BaseSyndicateContraband]
   id: ClothingHeadsetAltGorlex
   name: кроваво-красная полноразмерная гарнитура
-  description: An updated, modular syndicate intercom that fits over the head and takes encryption keys (there are 5 key slots.).
+  description: Обновлённый модульный переговорник Синдиката, надеваемый на голову, с разъёмами под ключи шифрования (всего 5 слотов).
   components:
   - type: Headset
   - type: EncryptionKeyHolder
@@ -265,7 +265,7 @@
   id: ClothingHeadsetAltGlobal
   name: глобальная гарнитура
   suffix: Admeme
-  description: A headset capable of transmitting globally! Oh wait, that's just the name of the channel.
+  description: Гарнитура, способная передавать глобально! Ой, погодите, это просто название канала.
   components:
     - type: Headset
     - type: ContainerFill
@@ -283,7 +283,7 @@
   id: ClothingHeadsetAltAspace
   name: гарнитура аспейса
   suffix: Admeme
-  description: A mystical headset bestowed by the deity known as The Admin.
+  description: Мистическая гарнитура, дарованная божеством, известным как Администратор.
   components:
     - type: Headset
     - type: ContainerFill
@@ -300,7 +300,7 @@
   parent: ClothingHeadsetAlt
   id: ClothingHeadsetAltMerchant
   name: гарнитура торговца
-  description: A headset for merchants to communicate with one another.
+  description: Гарнитура для общения торговцев между собой.
   components:
     - type: Headset
     - type: ContainerFill
@@ -316,7 +316,7 @@
   parent: ClothingHeadsetAlt
   id: ClothingHeadsetAltBlackstar
   name: гарнитура наёмника «Блэкстар»
-  description: A headset used by elite Blackstar mercenaries.
+  description: Гарнитура, используемая элитными наёмниками «Блэкстар».
   components:
     - type: Headset
     - type: ContainerFill
@@ -332,8 +332,8 @@
 - type: entity
   parent: ClothingHeadsetAlt
   id: ClothingHeadsetAltEmpty
-  name: headset
-  description: A standard headset.
+  name: гарнитура
+  description: Стандартная гарнитура.
   components:
     - type: Headset
     - type: Sprite

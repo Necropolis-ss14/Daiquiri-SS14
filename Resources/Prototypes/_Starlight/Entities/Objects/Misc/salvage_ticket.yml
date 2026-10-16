@@ -8,8 +8,8 @@
 - type: entity
   parent: BaseItem
   id: SalvageTicket
-  name: ticket
-  description: exchange your tickets for equipment!
+  name: билет
+  description: обменивайте билеты на снаряжение!
   components:
   - type: Item
     shape:

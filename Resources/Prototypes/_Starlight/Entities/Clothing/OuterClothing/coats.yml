@@ -2,7 +2,7 @@
   parent: [ BaseContrabandTier2, ClothingOuterStorageBase, ClothingOuterBaseWinter, AllowSuitStorageClothing, BaseBlueShieldContraband ] # Blimpuf
   id: ClothingOuterCoatBlueShield
   name: шинель блюшилда
-  description: A coat worn by Blueshield Officers who don't mind a lighter wear. Heavily reinforced, for when diplomacy won't cut it.
+  description: Пальто офицеров синего щита для лёгкой носки. Усиленное, на случай провала дипломатии.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/OuterClothing/Coats/blueshield_coat.rsi
@@ -26,7 +26,7 @@
   parent: [ ClothingOuterStorageBase, ClothingOuterBaseWinter, BaseNanoTrasenContraband ]
   id: ClothingOuterCoatMagi
   name: длинное пальто магистрата
-  description: New and improved, this jacket actually keeps you warm! Brought to you by the NanoTrasen Fashion Board.
+  description: Новое и улучшенное, эта куртка реально греет! От Совета моды NanoTrasen.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/OuterClothing/Coats/magi_overcoat.rsi
@@ -52,7 +52,7 @@
   parent: [ ClothingOuterBase, ClothingOuterBaseWinter, BaseNanoTrasenContraband, AllowSuitStorageClothingGasTanks ]
   id: ClothingOuterRobesMagistrate
   name: роба магистрата
-  description: This robe commands authority. Much more dense than the commoner variants.
+  description: Эта мантия внушает власть. Намного плотнее обычных вариантов.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/OuterClothing/Coats/magistrate.rsi
@@ -72,7 +72,7 @@
   parent: [ ClothingOuterStorageFoldableBase, ClothingOuterBaseWarm, BaseNanoTrasenContraband, AllowSuitStorageClothingGasTanks ]
   id: ClothingOuterCoatNtrep
   name: куртка представителя НаноТрейзен
-  description: A fancy black jacket, standard issue to NanoTrasen Representatives.
+  description: Щегольская чёрная куртка, стандартная выдача представителям NanoTrasen.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/OuterClothing/Coats/ntrep.rsi
@@ -100,7 +100,7 @@
   parent: [ClothingOuterStorageFoldableBase, ClothingOuterBaseWarm]
   id: ClothingOuterCoatLabSeniorChemist
   name: халат старшего химика
-  description: A suit that protects against minor chemical spills. Has orange sleeves, an orange waist trim, and two pink stripes on the shoulders.
+  description: Костюм, защищающий от мелких химических разливов. С оранжевыми рукавами, оранжевой отделкой и двумя розовыми полосами на плечах.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/OuterClothing/Coats/labcoat_senior_chemist.rsi
@@ -126,7 +126,7 @@
   parent: [ BaseContrabandTier2, ClothingOuterStorageBase, AllowSuitStorageClothing, BaseSecurityContraband, ClothingOuterWinterCoatToggleable ] # Blimpuf
   id: ClothingOuterCoatCorpsman
   name: бронированная куртка санитара
-  description: Stylish black and red jacket, with tacticooly placed armor plating.
+  description: Стильная чёрно-красная куртка с тактикульно размещённой бронёй.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/OuterClothing/Coats/corpsman.rsi
@@ -161,7 +161,7 @@
   parent: [ BaseContrabandTier2, ClothingOuterStorageFoldableBase, ClothingOuterBaseWarm, AllowSuitStorageClothing, BaseSecurityContraband ] # Blimpuf
   id: ClothingOuterCoatLabBrigmedic
   name: ностальгическая шинель бригмедика
-  description: A labcoat from reminisced, peaceful days. It's been reinforced several times over.
+  description: Халат из вспоминаемых мирных дней. Укреплялся не раз.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/OuterClothing/Coats/brigmedic_overcoat.rsi
@@ -190,7 +190,7 @@
   parent: [ BaseContrabandTier2, ClothingOuterStorageFoldableBase, ClothingOuterBaseWarm, AllowSuitStorageClothing, BaseSecurityContraband ] # Blimpuf
   id: ClothingOuterCoatLabCorpsman
   name: ностальгическая шинель санитара
-  description: A dark labcoat that's been reinforced several times over. Peaceful days died.
+  description: Тёмный халат, укреплявшийся не раз. Мирные дни умерли.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/OuterClothing/Coats/corpsman_overcoat.rsi
@@ -220,7 +220,7 @@
   parent: [ClothingOuterStorageBase, ClothingOuterBaseWinter]
   id: ClothingOuterCoatSpaceCourier
   name: тяжёлое пальто космического курьера
-  description: A luxurious coat, made to honor a legendary space courier. Fly, space courier!
+  description: Роскошное пальто в честь легендарного космического курьера. Лети, курьер!
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/OuterClothing/Coats/space_courier_coat.rsi
@@ -247,7 +247,7 @@
   parent: [ClothingOuterStorageBase, ClothingOuterBaseWarm]
   id: ClothingOuterCoatSquidPrisoner
   name: последнее пальто
-  description: Will look great on your body! Oh.
+  description: Отлично будет смотреться на вашем теле! О.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/OuterClothing/Coats/squid_prisoner.rsi
@@ -258,7 +258,7 @@
   parent: [ClothingOuterStorageBase, ClothingOuterBaseWarm]
   id: ClothingOuterCoatInspector
   name: пальто инспектора
-  description: A strict inspector's coat from a bygone era.
+  description: Строгое пальто инспектора из ушедшей эпохи.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/OuterClothing/Coats/insp_coat.rsi
@@ -279,7 +279,7 @@
   parent: [ClothingOuterStorageBase, ClothingOuterBaseWinter, AllowSuitStorageClothing, BaseSovietContraband]
   id: ClothingOuterSovietCoat
   name: советская шинель
-  description: Smells like damp concrete and expired rations.
+  description: Пахнет сырым бетоном и просроченными пайками.
   components:
   - type: Contraband
     tier: Tier3
@@ -302,7 +302,7 @@
   parent: [ClothingOuterStorageBase, ClothingOuterBaseWarm, AllowSuitStorageClothing]
   id: ClothingOuterCoatGreytiderTrenchcoat
   name: тренч грейтайдера
-  description: Ah, your trusty coat. There's a few tears here and there, giving it a more timely look. Or at least, that's what you told yourself when you found out gettin' it repaired would set you back 200 spesos.
+  description: Ах, твоё верное пальто. Пара разрывов тут и там придают вид поношенности. По крайней мере, ты так себе говорил, узнав, что ремонт встанет в 200 спесо.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/OuterClothing/Coats/greytider_trenchcoat.rsi
@@ -320,7 +320,7 @@
   parent: [ClothingOuterStorageFoldableBase, ClothingOuterBaseWinter, AllowSuitStorageClothing, BaseSecurityContraband]
   id: ClothingOuterSecurityBomber
   name: бомбер безопасности
-  description: A regular bomber, but with armored inserts.
+  description: Обычный бомбер, но с бронированными вставками.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/OuterClothing/Coats/security_bomber.rsi
@@ -347,7 +347,7 @@
   parent: [ClothingOuterStorageFoldableBase, ClothingOuterBaseWinter, AllowSuitStorageClothing, BaseSecurityContraband]
   id: ClothingOuterWindbreakerSecurity
   name: ветровка службы безопасности
-  description: A stylish red windbreaker with additional inserted plate padding for security usage.
+  description: Стильный красный ветровик с дополнительной пластинчатой подкладкой для СБ.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/OuterClothing/Coats/windbreaker_security
@@ -372,7 +372,7 @@
   parent: [ClothingOuterStorageFoldableBase, ClothingOuterBaseWinter, AllowSuitStorageClothing]
   id: ClothingOuterWindbreakerCargo
   name: ветровка грузчика
-  description: A simple windbreaker with a fur collar.
+  description: Простой ветровик с меховым воротником.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/OuterClothing/Coats/windbreaker_cargo
@@ -389,7 +389,7 @@
   parent: [ClothingOuterStorageFoldableBase, ClothingOuterBaseWinter, AllowSuitStorageClothing]
   id: ClothingOuterWindbreakerEngineering
   name: ветровка инженера
-  description: A reflective windbreaker for engineers.
+  description: Светоотражающий ветровик для инженеров.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/OuterClothing/Coats/windbreaker_engineering
@@ -414,7 +414,7 @@
   parent: [ClothingOuterStorageFoldableBase, ClothingOuterBaseWinter, AllowSuitStorageClothing]
   id: ClothingOuterWindbreakerMedical
   name: ветровка медика
-  description: A light windbreaker to see when you accidentally cut an artery.
+  description: Лёгкий ветровик, чтобы видеть, когда случайно перережешь артерию.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/OuterClothing/Coats/windbreaker_medical
@@ -431,7 +431,7 @@
   parent: ClothingOuterCoatLabSeniorChemist
   id: ClothingOuterCoatLabSeniorChemistLong
   name: длинный халат старшего химика
-  description: A NanoTrasen standard labcoat for medical personnel but long with bright orange and purple accents.
+  description: Стандартный халат NanoTrasen для медперсонала, но длинный с ярко-оранжевыми и фиолетовыми вставками.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/OuterClothing/Coats/senior_chemistry_long_lab.rsi
@@ -449,7 +449,7 @@
   parent: ClothingOuterCoatLab
   id: ClothingOuterCoatLabVirologyLong
   name: длинный халат вирусолога
-  description: A NanoTrasen standard labcoat for medical personnel but with bright green accents.
+  description: Стандартный халат NanoTrasen для медперсонала, но с ярко-зелёными вставками.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/OuterClothing/Coats/virology_long_lab.rsi
@@ -466,7 +466,7 @@
   parent: ClothingOuterCoatLab
   id: ClothingOuterCoatLabBlackLong
   name: длинный чёрный халат
-  description: A NanoTrasen standard labcoat for medical personnel but in black.
+  description: Стандартный халат NanoTrasen для медперсонала, но чёрный.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/OuterClothing/Coats/black_long_lab.rsi
@@ -483,7 +483,7 @@
   parent: ClothingOuterCoatLab
   id: ClothingOuterCoatLabCoronerLong
   name: длинный халат коронера
-  description: A NanoTrasen standard labcoat for medical personnel but in black with white accents.
+  description: Стандартный халат NanoTrasen для медперсонала, но чёрный с белыми вставками.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/OuterClothing/Coats/coroner_long_lab.rsi
@@ -502,7 +502,7 @@
   parent: [ClothingOuterStorageFoldableBase, ClothingOuterBaseWinter, AllowSuitStorageClothing]
   id: ClothingOuterWindbreakerScience
   name: ветровка учёного
-  description: a labcoat style windbreaker with a pocket for all of your pens.
+  description: Халат-ветровик с карманом под все ручки.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/OuterClothing/Coats/windbreaker_science
@@ -542,7 +542,7 @@
   parent: [ ClothingOuterStorageBase, ClothingOuterBaseWinter, BaseNanoTrasenContraband, AllowSuitStorageClothingGasTanks ]
   id: ClothingOuterCoatNCT
   name: куртка тренера НТ
-  description: A sharp black coat with beige trim around the cuffs and collar, offering a mix of professionalism and approachability.
+  description: Строгое чёрное пальто с бежевой отделкой манжет и воротника, сочетание профессионализма и дружелюбия.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/OuterClothing/Coats/nct.rsi
@@ -562,7 +562,7 @@
   parent: [ClothingOuterStorageBase, ClothingOuterBaseWarm, AllowSuitStorageClothing]
   id: ClothingOuterCoatRatvarRobes
   name: робы Ратвара
-  description: A leathery coat adorned in dull gems, brass buttons, and brass sheets carved with clockwork patterns.
+  description: Кожаное пальто с тусклыми самоцветами, латунными пуговицами и пластинами с часовыми узорами.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/OuterClothing/OverClothes/ratvar_robes.rsi
@@ -573,7 +573,7 @@
   parent: ClothingOuterCoatPirate
   id: ClothingOuterCoatPirateDark
   name: тёмный пиратский наряд
-  description: Yarr, but dark.
+  description: Йарр, но тёмный.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/OuterClothing/Coats/dark_pirate.rsi
@@ -584,7 +584,7 @@
   parent: [ClothingOuterStorageBase, ClothingOuterBaseWarm]
   id: ClothingOuterCoatField
   name: полевая куртка
-  description: A thick, well-worn field jacket.
+  description: Толстая, хорошо поношенная полевая куртка.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/OuterClothing/Coats/field_jacket.rsi
@@ -595,7 +595,7 @@
   parent: [ClothingOuterStorageBase, ClothingOuterBaseWarm]
   id: ClothingOuterCoatChefSenior
   name: куртка старшего шеф-повара
-  description: A pristine black jacket worn by the head of the kitchen. Tasteful, with a hint of authority.
+  description: Безупречная чёрная куртка главы кухни. Со вкусом, с ноткой власти.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/OuterClothing/Coats/chef-senior.rsi
@@ -617,7 +617,7 @@
   parent: ClothingOuterStorageBase
   id: ClothingOuterRockerHeartBomber
   name: бомбер сердца рокера
-  description: Been good to know ya...
+  description: Было приятно знать тебя...
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/OuterClothing/Coats/rockersheartbomber.rsi
@@ -635,7 +635,7 @@
   parent: ClothingOuterStorageBase
   id: ClothingOuterJohnnySamuraiJacket
   name: самурайская куртка Джонни
-  description: Never fade away...
+  description: Никогда не угасай...
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/OuterClothing/Coats/johnnysamurai.rsi
@@ -653,7 +653,7 @@
   parent: ClothingOuterStorageBase
   id: ClothingOuterEdgerunnerJacket
   name: куртка эджраннера
-  description: I'm dead, just like disco
+  description: Я мёртв, как диско.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/OuterClothing/Coats/edgerunners.rsi
@@ -671,7 +671,7 @@
   parent: [ClothingOuterStorageBase, ClothingOuterBaseWarm]
   id: ClothingOuterCoatLeatherJacket
   name: кожаная куртка
-  description: A plain leather jacket, pairs well with a lit cigarette.
+  description: Простая кожаная куртка, хорошо сочетается с зажжённой сигаретой.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/OuterClothing/Coats/leather_jacket.rsi
@@ -684,7 +684,7 @@
   parent: [ClothingOuterStorageBase, ClothingOuterBaseWarm]
   id: ClothingOuterCoatLeatherJacketFiery
   name: огненная кожаная куртка
-  description: The cooler leather jacket, for the more fiery personalities.
+  description: Более крутая кожаная куртка для огненных натур.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/OuterClothing/Coats/leather_jacket_firey.rsi
@@ -697,7 +697,7 @@
   parent: [ClothingOuterStorageBase, ClothingOuterBaseWarm]
   id: ClothingOuterCoatLeatherJacketHellfire
   name: адская кожаная куртка
-  description: The COOLEST leather jacket, for the biggest of personalities.
+  description: САМАЯ крутая кожаная куртка для самых больших личностей.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/OuterClothing/Coats/leather_jacket_hellfire.rsi
@@ -710,7 +710,7 @@
   parent: [ClothingOuterStorageBase, ClothingOuterBaseWarm]
   id: ClothingOuterCoatLeatherEldritch
   name: элдрическая кожаная куртка
-  description: You get the feeling it's watching you.
+  description: Кажется, оно за тобой наблюдает.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/OuterClothing/Coats/leather_jacket_eldritch.rsi

@@ -1,9 +1,9 @@
 # Mechwright
 - type: entity
-  name: wrench
+  name: гаечный ключ
   parent: Wrench
   id: WrenchCyber
-  description: 'A common tool for assembly and disassembly. Remember: lefty latchy, righty removey.'
+  description: "Обычный инструмент для сборки и разборки. Помните: влево — крепи, вправо — снимай."
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Tools/cyberling.rsi
@@ -33,10 +33,10 @@
       path: /Audio/Items/ratchet.ogg
 
 - type: entity
-  name: screwdriver
+  name: отвёртка
   parent: BaseItem
   id: ScrewdriverCyber
-  description: Industrial grade torque in a small screwdriving package.
+  description: Промышленный крутящий момент в компактном корпусе отвёртки.
   components:
   - type: EmitSoundOnLand
     sound:
@@ -115,10 +115,10 @@
       path: /Audio/Items/crowbar.ogg
 
 - type: entity
-  name: wirecutter
+  name: кусачки
   parent: BaseItem
   id: WirecutterCyber
-  description: This kills the wire.
+  description: Это убивает провод.
   components:
   - type: EmitSoundOnLand
     sound:
@@ -161,7 +161,7 @@
   name: сварочник
   parent: [ SolutionToolWelder, BaseItem ]
   id: WelderCyber
-  description: "Melts anything as long as it's fueled, don't forget your eye protection!"
+  description: Плавит всё, пока есть топливо, не забудьте защиту для глаз!
   components:
   - type: EmitSoundOnLand
     sound:
@@ -266,7 +266,7 @@
 - type: entity
   id: ProtokineticAcceleratorCyber
   name: кибер-протокинетический ускоритель
-  description: Fires low-damage kinetic bolts at a short range. The lack of stabilisation leads to decreased accuracy when firing in short succession.
+  description: Стреляет слабоповреждающими кинетическими болтами на короткой дистанции. Отсутствие стабилизации снижает точность при частой стрельбе.
   parent: BaseItem
   components:
     - type: Sprite
@@ -364,7 +364,7 @@
   parent: [ BaseKnife, BaseWeaponCrusher]
   id: WeaponCrusherDaggerCyber
   name: кибер-кинжал дробитель
-  description: A scaled down version of a proto-kinetic crusher. Uses kinetic energy to vibrate the blade at high speeds.
+  description: Уменьшенная версия прото-кинетического дробителя. Использует кинетическую энергию для вибрации лезвия на высокой скорости.
   components:
     - type: Sprite
       sprite: _Starlight/Objects/Tools/cyberling.rsi
@@ -387,7 +387,7 @@
   name: наручная перчатка Г.О.Р.И.Л.Л.А.
   parent: BaseItem
   id: WeaponGauntletGorillaCyber
-  description: A robust piece of research equipment. When powered with an anomaly core, a single blow can launch anomalous objects through the air.
+  description: Прочное исследовательское оборудование. При питании от ядра аномалии одним ударом может запускать аномальные объекты по воздуху.
   components:
     - type: Sprite
       sprite: _Starlight/Objects/Tools/cyberling.rsi
@@ -432,7 +432,7 @@
   name: наручная ручная пушка Ш.И.М.П.
   parent: BaseWeaponBatterySmall
   id: WeaponPistolCHIMPCyber
-  description: Just because it's a little C.H.I.M.P. doesn't mean it can't punch like an A.P.E.
+  description: То, что это маленький C.H.I.M.P., не значит, что он не бьёт как A.P.E.
   components:
     - type: Sprite
       sprite: _Starlight/Objects/Tools/cyberling.rsi
@@ -478,7 +478,7 @@
   parent: BaseItem
   id: AnomalyScannerCyber
   name: кибернетический сканер аномалий
-  description: An arm-mounted scanner built to collect information on various anomalous objects.
+  description: Наручный сканер, созданный для сбора информации о различных аномальных объектах.
   components:
     - type: Sprite
       sprite: _Starlight/Objects/Tools/cyberling.rsi
@@ -503,7 +503,7 @@
 - type: entity
   name: кибернетический автоинъектор на руку
   parent: BaseItem
-  description: A sterile injector for rapid administration of drugs to patients.
+  description: Стерильный инъектор для быстрого введения препаратов пациентам.
   id: AutoinjectorCyber
   components:
     - type: Sprite
@@ -543,7 +543,7 @@
 - type: entity
   name: кибер-автоинъектор с трикордразином
   parent: AutoinjectorCyber
-  description: A sterile injector for rapid administration of drugs to patients.
+  description: Стерильный инъектор для быстрого введения препаратов пациентам.
   id: AutoinjectorCyberTricordrazine
   components:
     - type: Solution
@@ -565,7 +565,7 @@
 - type: entity
   name: кибер-автоинъектор с инапровалином
   parent: AutoinjectorCyber
-  description: A sterile injector for rapid administration of drugs to patients.
+  description: Стерильный инъектор для быстрого введения препаратов пациентам.
   id: AutoinjectorCyberInaprovaline
   components:
     - type: Solution
@@ -591,7 +591,7 @@
   parent: AdvancedJetInjector
   id: AdvancedJetInjectorCyber
   name: кибернетический струйный инъектор
-  description: A pristine, fashionable, high quality injector. Now integrated into your arm!
+  description: Безупречный, модный, высококачественный инъектор. Теперь встроен в вашу руку!
   components:
     - type: Sprite
       sprite: _Starlight/Objects/Tools/cyberling.rsi
@@ -610,7 +610,7 @@
   id: DefibrillatorCyber
   parent: BaseDefibrillator
   name: кибер-дефибриллятор
-  description: Arm-mounted device that can save lives, and act as a weapon in a pinch.
+  description: Наручное устройство, способное спасать жизни, а в крайнем случае сойти за оружие.
   components:
     - type: Sprite
       sprite: _Starlight/Objects/Tools/cyberling.rsi
@@ -673,7 +673,7 @@
 
 - type: entity
   name: батарейка кибер-дефибриллятора
-  description: A tiny microreactor... Has some startup lag after use.
+  description: Крошечный микрореактор... Имеет некоторую задержку запуска после использования.
   id: PowerCellTinyCyber
   suffix: Full
   parent: BasePowerCell
@@ -707,7 +707,7 @@
   id: CyberEquipmentGrabber
   parent: BaseItem
   name: зажим риплет
-  description: Gives you the ability to carry things, like a tiny Ripley!
+  description: Даёт возможность переносить вещи, как крошечная «Рипли»!
   components:
     - type: LargeGrabber
       maxContents: 1
@@ -761,7 +761,7 @@
   id: CyberReagentGrinder
   parent: BaseItem
   name: встроенный измельчитель реагентов
-  description: From BlenderTech. Will It Blend? Let's find out!
+  description: От BlenderTech. Смешает ли он? Давайте узнаем!
   suffix: grinder/juicer
   components:
     - type: ReagentGrinder
@@ -809,7 +809,7 @@
   name: кибернетическая мотыга на руку
   parent: HydroponicsToolMiniHoe
   id: CyberToolMiniHoe
-  description: It's used for removing weeds or scratching your back.
+  description: Используется для удаления сорняков или чтобы почесать спину.
   components:
     - type: Sprite
       sprite: _Starlight/Objects/Tools/cyberling.rsi
@@ -822,7 +822,7 @@
   name: кибернетические садовые ножницы на руку
   parent: HydroponicsToolClippers
   id: CyberToolClippers
-  description: A tool used to take samples from plants.
+  description: Инструмент, используемый для взятия образцов растений.
   components:
     - type: Sprite
       sprite: _Starlight/Objects/Tools/cyberling.rsi
@@ -836,7 +836,7 @@
   name: кибернетическая коса на руку
   parent: HydroponicsToolScythe
   id: CyberToolScythe
-  description: A sharp and curved blade on a long fibremetal handle, this tool makes it easy to reap what you sow.
+  description: Острое изогнутое лезвие на длинной фиброметаллической рукояти, этим инструментом легко пожинать то, что посеял.
   components:
     - type: Sprite
       sprite: _Starlight/Objects/Tools/cyberling.rsi
@@ -849,7 +849,7 @@
   name: кибернетический топорик на руку
   parent: HydroponicsToolHatchet
   id: CyberToolHatchet
-  description: A very sharp axe blade upon a short fibremetal handle. It has a long history of chopping things, but now it is used for chopping wood.
+  description: Очень острое лезвие топора на короткой фиброметаллической рукояти. У него долгая история рубки, но теперь он используется для рубки дров.
   components:
     - type: Sprite
       sprite: _Starlight/Objects/Tools/cyberling.rsi
@@ -863,7 +863,7 @@
   name: кибернетическая лопата на руку
   parent: HydroponicsToolSpade
   id: CyberToolSpade
-  description: A small tool for digging and moving dirt.
+  description: Небольшой инструмент для копания и перемещения земли.
   components:
     - type: Sprite
       sprite: _Starlight/Objects/Tools/cyberling.rsi
@@ -878,7 +878,7 @@
   parent: Dropper
   id: CyberToolDropper
   name: кибернетическая гидравлическая пипетка на руку
-  description: State-of-the-art hydraulic dropper built into a cybernetic arm. It features a higher capacity than hand-powered droppers, able to hold 15 units of liquid.
+  description: Современный гидравлический дозатор, встроенный в кибернетическую руку. Вмещает больше, чем ручные дозаторы, до 15 единиц жидкости.
   components:
     - type: Sprite
       sprite: _Starlight/Objects/Tools/cyberling.rsi
@@ -905,7 +905,7 @@
   name: кибер-дрель
   parent: PowerDrill
   id: PowerDrillCyber
-  description: A simple powered hand drill.
+  description: Простая электрическая ручная дрель.
   components:
   - type: Tag
     tags:
@@ -945,7 +945,7 @@
   name: кибернетические челюсти жизни
   parent: JawsOfLife
   id: JawsOfLifeCyber
-  description: A set of jaws of life, compressed through the magic of science.
+  description: Набор «челюстей жизни», сжатый с помощью магии науки.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Tools/cyberling.rsi
@@ -985,7 +985,7 @@
   name: экспериментальный кибер-сварочник
   parent: WelderExperimental
   id: WelderExperimentalCyber
-  description: "An experimental welder capable of self-fuel generation and less harmful to the eyes."
+  description: Экспериментальный сварочник, способный к самогенерации топлива и менее вредный для глаз.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Tools/cyberling.rsi
@@ -1007,7 +1007,7 @@
   id: RCDCyber
   parent: RCD
   name: кибернетическое РСУ
-  description: The rapid construction device can be used to quickly place and remove various station structures and fixtures. Requires compressed matter to function.
+  description: Устройство быстрого строительства для быстрой установки и удаления различных станционных конструкций. Для работы требуется сжатое вещество.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Tools/cyberling.rsi
@@ -1017,7 +1017,7 @@
   id: PrinterCyber
   parent: BaseItem
   name: кибернетический принтер
-  description: The dream of every paperwork afficionado.
+  description: Мечта каждого любителя бумажной работы.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Tools/cyberling.rsi
@@ -1055,7 +1055,7 @@
   id: PenCyber
   parent: Pen
   name: кибернетическая ручка
-  description: The pen of the future.
+  description: Ручка будущего.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Tools/cyberling.rsi
@@ -1070,7 +1070,7 @@
   id: StampCyber
   parent: BaseItem
   name: кибернетическая мультипечать
-  description: The bad boy can fit so many (3) stamps in it!
+  description: Этот плохой мальчик вмещает так много (3) печатей!
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Tools/cyberling.rsi
@@ -1118,8 +1118,8 @@
 - type: entity
   parent: BaseItem
   id: HoloRestrainerCyber
-  name: holorestrainer
-  description: Creates solid, but temporary holographic cuffs.
+  name: голофиксатор
+  description: Создаёт прочные, но временные голографические наручники.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Tools/cyberling.rsi
@@ -1162,7 +1162,7 @@
     - CyberHandItem
 
 - type: entity
-  name: holocuffs
+  name: голонаручники
   id: HandcuffsHolographic
   parent: [Handcuffs]
   components:
@@ -1181,7 +1181,7 @@
   id: VialCyber
   parent: BaseItem
   name: кибернетический флакон
-  description: Fluid storage, integrated right into your arm!
+  description: Хранилище жидкости, встроенное прямо в вашу руку!
   components:
   - type: Tag
     tags:
@@ -1234,7 +1234,7 @@
   id: VialCyberEmpty
   parent: VialCyber
   name: кибернетический флакон
-  description: Fluid storage, integrated right into your arm!
+  description: Хранилище жидкости, встроенное прямо в вашу руку!
   suffix: Water
   components:
   - type: MixableSolution
@@ -1248,7 +1248,7 @@
   id: VialCyberWater
   parent: VialCyber
   name: кибернетический флакон
-  description: Fluid storage, integrated right into your arm! This one slowly draws water from the air.
+  description: Хранилище жидкости, встроенное прямо в вашу руку! Это медленно конденсирует воду из воздуха.
   suffix: Water
   components:
   - type: SolutionRegeneration
@@ -1261,7 +1261,7 @@
   id: VialCyberBlood
   parent: VialCyber
   name: кибернетический флакон
-  description: Fluid storage, integrated right into your arm! This one slowly draws blood from... somewhere. It does not seem to be yours..?
+  description: Хранилище жидкости, встроенное прямо в вашу руку! Это медленно вытягивает кровь из... откуда-то. Кажется, это не ваша..?
   suffix: Blood
   components:
   - type: SolutionRegeneration
@@ -1274,7 +1274,7 @@
   id: NodeScannerCyber
   parent: NodeScanner
   name: кибернетический сканер узлов
-  description: A node scanner, for scanning your science rocks!
+  description: Сканер узлов для сканирования ваших научных камней!
   components:
   - type: Tag
     tags:
@@ -1288,7 +1288,7 @@
   id: FilingCabinetCyber
   parent: [ BaseItem, BaseBagOpenClose ]
   name: кибернетический картотечный шкаф
-  description: Keeping all your forms organised since 2524!
+  description: Хранит все ваши формы в порядке с 2524 года!
   components:
   - type: Tag
     tags:

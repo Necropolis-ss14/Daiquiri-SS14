@@ -2,7 +2,7 @@
   parent: [ ClothingUniformSkirtBase, BaseNanoTrasenContraband ]
   id: ClothingUniformJumpskirtNtrep
   name: юбка представителя НаноТрейзен
-  description: That skirt that is better not to see.
+  description: Та юбка, которую лучше не видеть.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpskirt/ntrep.rsi
@@ -13,7 +13,7 @@
   parent: [ ClothingUniformSkirtBase, BaseNanoTrasenContraband ]
   id: ClothingUniformJumpskirtNtrepTurtleneck
   name: юбка-комбинезон с водолазкой представителя НаноТрейзен
-  description: For a more casual look while on the job.
+  description: Для более повседневного вида на работе.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpskirt/ntrepturtleneckskirt.rsi
@@ -24,7 +24,7 @@
   parent: [ ClothingUniformSkirtBase, BaseBlueShieldContraband ]
   id: ClothingUniformJumpskirtBlueShield
   name: юбка-комбинезон блюшилда
-  description: The skirt of a glorified bodyguard.
+  description: Юбка прославленного телохранителя.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpskirt/blueshield.rsi
@@ -35,7 +35,7 @@
   parent: [ ClothingUniformSkirtBase, BaseBlueShieldContraband ]
   id: ClothingUniformJumpskirtEliteBlueShield
   name: юбка элитного блюшилда
-  description: The skirt of an elite BSO. To reach such a level, you must have protected Command from [REDACTED].
+  description: Юбка элитного ОСО. Чтобы достичь такого уровня, нужно было защитить командование от [УДАЛЕНО].
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpskirt/eliteblueshield.rsi
@@ -46,7 +46,7 @@
   parent: [ ClothingUniformBase, BaseBlueShieldContraband ]
   id: ClothingUniformJumpskirtBlueShieldSkirt
   name: юбка-карандаш офицера блюшилда
-  description: A collared shirt and pencil skirt for the blueshield officer who likes to keep it business casual.
+  description: Рубашка с воротником и юбка-карандаш для офицера синего щита в стиле business casual.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpskirt/blueshieldskirt.rsi
@@ -58,7 +58,7 @@
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtSeniorChemist
   name: юбка-комбинезон старшего химика
-  description: A sign of skill, prestige, and alchemical prowess
+  description: Знак мастерства, престижа и алхимической мощи.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpskirt/senior_chemist.rsi
@@ -69,7 +69,7 @@
   parent: [ ClothingUniformSkirtBase, BaseSecurityContraband ]
   id: ClothingUniformJumpskirtCorpsman
   name: юбка санитара
-  description: Die in style on the front lines!
+  description: Умри стильно на передовой!
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpskirt/corpsman.rsi
@@ -85,7 +85,7 @@
   parent: [ ClothingUniformSkirtBase, BaseSecurityContraband ]
   id: ClothingUniformJumpskirtCorpsmanTrauma
   name: травматологическая форма санитара
-  description: I've seen worse. I've seen far worse.
+  description: Видал и хуже. Видал куда хуже.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpskirt/corpsman_trauma.rsi
@@ -101,7 +101,7 @@
   parent: [ClothingUniformSkirtBase, BaseSecurityContraband]
   id: ClothingUniformJumpskirtFormalBrigmedic
   name: торжественная юбка-комбинезон бригмедика
-  description: A formal suit for the brigmedic.
+  description: Формальный костюм бригмедика.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpskirt/brigmedic_alt.rsi
@@ -117,7 +117,7 @@
   parent: [ClothingUniformSkirtBase, BaseSecurityContraband]
   id: ClothingUniformJumpskirtSeniorBrigmedic
   name: торжественная юбка-комбинезон старшего бригмедика
-  description: A formal suit for the seasoned brigmedic.
+  description: Формальный костюм опытного бригмедика.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpskirt/brigmedic_senior.rsi
@@ -133,7 +133,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformJumpskirtSecBlue
   name: синяя юбка с галстуком
-  description: Stylish and functional.
+  description: Стильно и функционально.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpskirt/security_blue.rsi
@@ -144,7 +144,7 @@
   parent: [ClothingUniformSkirtBase, BaseSecurityContraband]
   id: ClothingUniformJumpskirtFormalDeputy
   name: юбка-комбинезон заместителя
-  description: An attire for one who feels destined for the desert.
+  description: Наряд для тех, кто чувствует себя рождённым для пустыни.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpskirt/deputy.rsi
@@ -155,7 +155,7 @@
   parent: [ClothingUniformSkirtBase, BaseSecurityContraband]
   id: ClothingUniformJumpskirtFormalSecoff
   name: торжественная юбка-комбинезон службы безопасности
-  description: A formal attire for the security officer.
+  description: Формальный наряд офицера службы безопасности.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpskirt/secoff_formal.rsi
@@ -166,7 +166,7 @@
   parent: [ClothingUniformSkirtBase, BaseSecurityContraband]
   id: ClothingUniformJumpskirtFormalSeniorSecoff
   name: торжественная юбка-комбинезон старшего офицера безопасности
-  description: A formal attire for the senior security officer.
+  description: Формальный наряд старшего офицера службы безопасности.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpskirt/secoff_formal_senior.rsi
@@ -177,7 +177,7 @@
   parent: [ClothingUniformSkirtBase, BaseSecurityContraband]
   id: ClothingUniformJumpskirtFormalWarden
   name: торжественная юбка-комбинезон смотрителя
-  description: A formal attire for the warden, missing a holster for the truncheon sadly...
+  description: Формальный наряд смотрителя, увы без кобуры под дубинку...
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpskirt/warden_formal.rsi
@@ -188,7 +188,7 @@
   parent: [ClothingUniformSkirtBase, BaseSecurityContraband]
   id: ClothingUniformJumpskirtDutyOfficer
   name: форма дежурного офицера
-  description: A vibrant security skirt for the warden's partner in chains.
+  description: Яркая юбка СБ для партнёра смотрителя по цепям.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpskirt/dutyofficer.rsi
@@ -199,7 +199,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformJumpskirtServiceWorkerBartender
   name: юбка-комбинезон официанта
-  description: A sharp and tidy uniform for the bartender's footsoldiers.
+  description: Строгая и опрятная форма для пехотинцев бармена.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpskirt/serviceworker_bartender.rsi
@@ -210,7 +210,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformJumpskirtServiceWorkerBotany
   name: юбка-комбинезон садовника
-  description: Has a light earthy smell to it. Has to be routinely bleached.
+  description: Имеет лёгкий землистый запах. Требует регулярного отбеливания.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpskirt/serviceworker_botany.rsi
@@ -221,7 +221,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformJumpskirtServiceWorkerChef
   name: юбка-комбинезон су-шефа
-  description: The noble jumpsuit of the chef's co-conspirator.
+  description: Благородный комбинезон соучастника шеф-повара.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpskirt/serviceworker_chef.rsi
@@ -232,7 +232,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformJumpskirtPerformerClown
   name: юбка-комбинезон ассистента клоуна
-  description: Yet to be worthy of honking.
+  description: Ещё недостоин гудка.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpskirt/performer_clown.rsi
@@ -243,7 +243,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformJumpskirtPerformerMime
   name: юбка-комбинезон ученика мима
-  description: Still have to learn how to be quiet...
+  description: Ещё предстоит научиться быть тихим...
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpskirt/performer_mime.rsi
@@ -254,7 +254,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformJumpskirtPerformerMusician
   name: юбка-комбинезон сессионного музыканта
-  description: A formal suit with a luxurious pair of pants. It's time to act!
+  description: Формальный костюм с роскошными брюками. Время действовать!
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpskirt/performer_musician.rsi
@@ -265,7 +265,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformJumpskirtClownFormal
   name: благородная юбка клоуна
-  description: Why, I daresay, HONK!
+  description: Да осмелюсь сказать, ХОНК!
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpskirt/clown_distinguished.rsi
@@ -276,7 +276,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformJumpskirtLawyerService
   name: зелёная юбка-костюм адвоката
-  description: A flashy green suitskirt worn by lawyers and show-offs.
+  description: Броская зелёная юбка-костюм для юристов и выпендрёжников.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpskirt/service_lawyer.rsi
@@ -287,7 +287,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformJumpskirtLawyerGray
   name: серая юбка-костюм адвоката
-  description: A plain gray suitskirt worn by lawyers and show-offs.
+  description: Простая серая юбка-костюм для юристов и выпендрёжников.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpskirt/lawyergray.rsi
@@ -298,7 +298,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformJumpskirtLawyerPink
   name: розовая юбка-костюм адвоката
-  description: A bright pink suitskirt worn by lawyers that you should call.
+  description: Ярко-розовая юбка-костюм для юристов, которым стоит позвонить.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpskirt/lawyerpink.rsi
@@ -309,7 +309,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformJumpskirtLawyerBlackTwo
   name: показная юбка-костюм адвоката
-  description: A stylish black piece worn by lawyers and show people.
+  description: Стильный чёрный наряд, который носят юристы и шоумены.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpskirt/lawyerblacktwo.rsi
@@ -320,7 +320,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformJumpskirtLawyerBad
   name: юбка-костюм плохого адвоката
-  description: A bold suitskirt. Perfect for finding your one way, going wherever you want to go.
+  description: Смелая юбка-костюм. Идеальна, чтобы найти свой путь, куда бы ты ни шёл.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Uniforms/Jumpskirt/lawyerbad.rsi
@@ -334,7 +334,7 @@
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtGothic
   name: готическое платье
-  description: A gothic dress is an elegant and mysterious garment characterized by its dark and intriguing style. Deep, dark shades like black, burgundy, or navy blue add an aura of mystery and aristocratic allure. Delicate lace accents, luxurious drapery, and ruffles evoke a sense of ancient romance. Keyhole or high neckline cuts give the gothic dress uniqueness and opulence. This dress is perfect for those who want to stand out and emphasize their individuality and mystique. In it, every woman feels refined and captivating, ready to enchant at first sight.
+  description: Готическое платье — элегантный и загадочный наряд в тёмных интригующих тонах. Глубокие оттенки чёрного, бордо и тёмно-синего добавляют тайны и аристократизма. Кружево, драпировка и рюши навевают дух старинной романтики. Вырезы и высокий ворот придают уникальность и роскошь. Платье для тех, кто хочет выделиться и подчеркнуть индивидуальность.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpskirt/dress_gothic.rsi
@@ -345,7 +345,7 @@
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtMaid
   name: вечернее платье горничной
-  description: This refined evening dress, inspired by the elegant maid's style, combines sophistication with a touch of playful femininity. Made from high-quality black satin, it is designed to highlight the refined taste and style of its wearer.
+  description: Изысканное вечернее платье в стиле элегантной горничной сочетает утончённость с игривой женственностью. Чёрный атлас подчёркивает вкус и стиль владелицы.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpskirt/dress_maid.rsi
@@ -356,7 +356,7 @@
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtDressRed
   name: вечернее красное платье
-  description: This stunning evening gown embodies passion and boldness, blended with elegance and sophistication. Crafted from deep red silk, it captivates attention and exudes luxury and sensuality.
+  description: Потрясающее вечернее платье воплощает страсть и смелость с элегантностью. Тёмно-красный шёлк притягивает взгляды, излучая роскошь и чувственность.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpskirt/dress_red.rsi
@@ -367,7 +367,7 @@
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtTango
   name: платье для танго
-  description: This dress is made for tango, embodying passion and elegance. Its fitted silhouette, with a back cutout and decorative draping, accentuates feminine curves while offering freedom of movement and enhancing the beauty of the dance.
+  description: Платье для танго, воплощающее страсть и элегантность. Приталенный силуэт с вырезом на спине и драпировкой подчёркивает формы, давая свободу движения.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpskirt/dress_tango.rsi
@@ -378,7 +378,7 @@
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtVictorianBlack
   name: викторианское чёрное платье
-  description: This black Victorian dress captures the essence of the era. Cutouts, lace, and cuffs add mystery, while the corset creates a refined silhouette. It's perfect for evening events where elegance and intrigue are desired.
+  description: Чёрное викторианское платье передаёт дух эпохи. Вырезы, кружево и манжеты добавляют тайны, а корсет создаёт утончённый силуэт.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpskirt/dress_victorian_black.rsi
@@ -389,7 +389,7 @@
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtReporter
   name: юбка-комбинезон репортёра
-  description: A good reporter remains a skeptic for life.
+  description: Хороший репортёр остаётся скептиком на всю жизнь.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpskirt/reporter.rsi
@@ -400,7 +400,7 @@
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtJournalist
   name: юбка-комбинезон журналиста
-  description: If journalism is good, it is contradictory by nature.
+  description: Если журналистика хороша, она по природе противоречива.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpskirt/journalist.rsi
@@ -411,7 +411,7 @@
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtVictorianrRed
   name: викторианское красное платье
-  description: Inspired by Victorian style, this red dress embodies passion and luxury. Intricate details like lace, puffed sleeves, and a voluminous skirt make it the perfect choice for special events where standing out and making an impression is key.
+  description: Красное платье в викторианском стиле воплощает страсть и роскошь. Кружево, пышные рукава и объёмная юбка идеальны для особых событий.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpskirt/dress_victorian_red.rsi
@@ -422,7 +422,7 @@
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtSuitNurse
   name: форма медсестры
-  description: This nurse uniform combines functionality and style. Durable, comfortable pants paired with a blouse and signature cap create a professional and neat look, making it an ideal choice for healthcare staff.
+  description: Форма медсестры сочетает функциональность и стиль. Прочные брюки, блуза и фирменная шапочка создают опрятный профессиональный вид.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpskirt/suit_nurse.rsi
@@ -433,7 +433,7 @@
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtPencilTan
   name: бежевая юбка-карандаш
-  description: The beige "pencil" style skirt exudes softness and elegance. The fitted blazer and straight skirt create a refined silhouette, making it suitable for various occasions, from business meetings to evening dinners.
+  description: Бежевая юбка-карандаш излучает мягкость и элегантность. Приталенный пиджак и прямая юбка подойдут и для деловых встреч, и для ужина.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpskirt/pencil_tan.rsi
@@ -444,7 +444,7 @@
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtPencilCentcomOfficial
   name: юбка-карандаш ЦК
-  description: A strict green "pencil" skirt exudes authority and poise. The fitted blazer and straight skirt form an elegant silhouette, suitable for various occasions, from business meetings to a captain's dismissal.
+  description: Строгая зелёная юбка-карандаш излучает власть и собранность. Подойдёт от деловых встреч до увольнения капитана.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpskirt/pencil_centcom_official.rsi
@@ -455,7 +455,7 @@
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtPencilSpecialOperationsOfficer
   name: юбка-карандаш офицера ССО
-  description: A formal black Special Operations Corps officer's "pencil" skirt embodies authority and sophistication. The tailored blazer and straight skirt create a refined silhouette, suitable for various occasions, from strategic meetings to... well, less conventional operations.
+  description: Формальная чёрная юбка-карандаш офицера Корпуса спецопераций воплощает власть и утончённость. От стратегических совещаний до... менее обычных операций.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpskirt/pencil_special_operations_officer.rsi
@@ -466,7 +466,7 @@
   parent: [ ClothingUniformBase, BaseCentcommContraband ]
   id: ClothingUniformJumpskirtCentcomFormalCAD
   name: торжественная юбка-комбинезон офицера Центрального административного дивизиона
-  description: It's a formal jumpskirt worn by CentComm officers.
+  description: Это формальная юбка-комбинезон, которую носят офицеры ЦК.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Uniforms/Jumpskirt/centcommformalCAD.rsi
@@ -477,7 +477,7 @@
   parent: [ ClothingUniformBase, BaseCentcommContraband ]
   id: ClothingUniformJumpskirtCentcomFormalCMD
   name: торжественная юбка-комбинезон офицера Центрального медицинского дивизиона
-  description: It's a formal jumpskirt worn by CentComm officers.
+  description: Это формальная юбка-комбинезон, которую носят офицеры ЦК.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Uniforms/Jumpskirt/centcommformalCMD.rsi
@@ -488,7 +488,7 @@
   parent: [ ClothingUniformBase, BaseCentcommContraband ]
   id: ClothingUniformJumpskirtCentcomFormalCRD
   name: торжественная юбка-комбинезон офицера Центрального научного дивизиона
-  description: It's a formal jumpskirt worn by CentComm officers.
+  description: Это формальная юбка-комбинезон, которую носят офицеры ЦК.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Uniforms/Jumpskirt/centcommformalCRD.rsi
@@ -499,7 +499,7 @@
   parent: [ ClothingUniformBase, BaseCentcommContraband ]
   id: ClothingUniformJumpskirtCentcomFormalCCD
   name: торжественная юбка-комбинезон офицера Центрального грузового дивизиона
-  description: It's a formal jumpskirt worn by CentComm officers.
+  description: Это формальная юбка-комбинезон, которую носят офицеры ЦК.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Uniforms/Jumpskirt/centcommformalCCD.rsi
@@ -510,7 +510,7 @@
   parent: [ ClothingUniformBase, BaseCentcommContraband ]
   id: ClothingUniformJumpskirtCentcomFormalCSOD
   name: торжественная юбка-комбинезон офицера Центрального дивизиона спецопераций
-  description: It's a formal jumpskirt worn by CentComm officers.
+  description: Это формальная юбка-комбинезон, которую носят офицеры ЦК.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Uniforms/Jumpskirt/centcommformalCSOD.rsi
@@ -521,7 +521,7 @@
   parent: [ ClothingUniformBase, BaseCentcommContraband ]
   id: ClothingUniformJumpskirtCentcomFormalCID
   name: торжественная юбка-комбинезон офицера Центрального разведывательного дивизиона
-  description: It's a formal jumpskirt worn by CentComm officers.
+  description: Это формальная юбка-комбинезон, которую носят офицеры ЦК.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Uniforms/Jumpskirt/centcommformalCID.rsi
@@ -532,7 +532,7 @@
   parent: [ ClothingUniformBase, BaseCentcommContraband ]
   id: ClothingUniformJumpskirtCentcomFormalCSD
   name: торжественная юбка-комбинезон офицера Центрального дивизиона безопасности
-  description: It's a formal jumpskirt worn by CentComm officers.
+  description: Это формальная юбка-комбинезон, которую носят офицеры ЦК.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Uniforms/Jumpskirt/centcommformalCSD.rsi
@@ -543,7 +543,7 @@
   parent: [ ClothingUniformBase, BaseCentcommContraband ]
   id: ClothingUniformJumpskirtCentcomFormalCED
   name: торжественная юбка-комбинезон офицера Центрального инженерного дивизиона
-  description: It's a formal jumpskirt worn by CentComm officers.
+  description: Это формальная юбка-комбинезон, которую носят офицеры ЦК.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Uniforms/Jumpskirt/centcommformalCED.rsi
@@ -554,7 +554,7 @@
   parent: [ ClothingUniformBase, BaseCentcommContraband ]
   id: ClothingUniformJumpskirtCentcomFormalDressCAD
   name: парадная юбка-комбинезон офицера Центрального административного дивизиона
-  description: It's a formal dress jumpskirt worn by CentComm officers.
+  description: Это формальное платье-юбка-комбинезон, которое носят офицеры ЦК.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Uniforms/Jumpskirt/centcommformaldressCAD.rsi
@@ -565,7 +565,7 @@
   parent: [ ClothingUniformBase, BaseCentcommContraband ]
   id: ClothingUniformJumpskirtCentcomFormalDressCMD
   name: парадная юбка-комбинезон офицера Центрального медицинского дивизиона
-  description: It's a formal dress jumpskirt worn by CentComm officers.
+  description: Это формальное платье-юбка-комбинезон, которое носят офицеры ЦК.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Uniforms/Jumpskirt/centcommformaldressCMD.rsi
@@ -576,7 +576,7 @@
   parent: [ ClothingUniformBase, BaseCentcommContraband ]
   id: ClothingUniformJumpskirtCentcomFormalDressCRD
   name: парадная юбка-комбинезон офицера Центрального научного дивизиона
-  description: It's a formal dress jumpskirt worn by CentComm officers.
+  description: Это формальное платье-юбка-комбинезон, которое носят офицеры ЦК.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Uniforms/Jumpskirt/centcommformaldressCRD.rsi
@@ -587,7 +587,7 @@
   parent: [ ClothingUniformBase, BaseCentcommContraband ]
   id: ClothingUniformJumpskirtCentcomFormalDressCCD
   name: парадная юбка-комбинезон офицера Центрального грузового дивизиона
-  description: It's a formal dress jumpskirt worn by CentComm officers.
+  description: Это формальное платье-юбка-комбинезон, которое носят офицеры ЦК.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Uniforms/Jumpskirt/centcommformaldressCCD.rsi
@@ -598,7 +598,7 @@
   parent: [ ClothingUniformBase, BaseCentcommContraband ]
   id: ClothingUniformJumpskirtCentcomFormalDressCSOD
   name: парадная юбка-комбинезон офицера Центрального дивизиона спецопераций
-  description: It's a formal dress jumpskirt worn by CentComm officers.
+  description: Это формальное платье-юбка-комбинезон, которое носят офицеры ЦК.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Uniforms/Jumpskirt/centcommformaldressCSOD.rsi
@@ -609,7 +609,7 @@
   parent: [ ClothingUniformBase, BaseCentcommContraband ]
   id: ClothingUniformJumpskirtCentcomFormalDressCID
   name: парадная юбка-комбинезон офицера Центрального разведывательного дивизиона
-  description: It's a formal dress jumpskirt worn by CentComm officers.
+  description: Это формальное платье-юбка-комбинезон, которое носят офицеры ЦК.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Uniforms/Jumpskirt/centcommformaldressCID.rsi
@@ -620,7 +620,7 @@
   parent: [ ClothingUniformBase, BaseCentcommContraband ]
   id: ClothingUniformJumpskirtCentcomFormalDressCSD
   name: парадная юбка-комбинезон офицера Центрального дивизиона безопасности
-  description: It's a formal dress jumpskirt worn by CentComm officers.
+  description: Это формальное платье-юбка-комбинезон, которое носят офицеры ЦК.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Uniforms/Jumpskirt/centcommformaldressCSD.rsi
@@ -631,7 +631,7 @@
   parent: [ ClothingUniformBase, BaseCentcommContraband ]
   id: ClothingUniformJumpskirtCentcomFormalDressCED
   name: парадная юбка-комбинезон офицера Центрального инженерного дивизиона
-  description: It's a formal dress jumpskirt worn by CentComm officers.
+  description: Это формальное платье-юбка-комбинезон, которое носят офицеры ЦК.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Uniforms/Jumpskirt/centcommformaldressCED.rsi
@@ -642,7 +642,7 @@
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtCargoSalvage
   name: юбка-комбинезон специалиста по утилизации
-  description: Perfectly pairs with a pickaxe, this versatile and durable skirt jumpsuit is designed for tough work, offering both practicality and a rugged, stylish appearance.
+  description: Идеально сочетается с киркой, прочная юбка-комбинезон для тяжёлой работы, практично и стильно.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpskirt/salvage.rsi
@@ -653,7 +653,7 @@
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtCargoSalvageFormal
   name: торжественная юбка-комбинезон утилизатора
-  description: Perfectly pairs with a pickaxe, this rugged yet stylish skirt jumpsuit combines functionality and toughness, ideal for salvaging work with a practical, efficient design.
+  description: Идеально сочетается с киркой, прочная стильная юбка-комбинезон для утилизационных работ.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpskirt/salvageformal.rsi
@@ -664,7 +664,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformJumpskirtSalvageLead
   name: юбка-комбинезон ведущего утилизатора
-  description: It's a snappy jumpskirt with a sturdy set of overalls. It's very dirty.
+  description: Щегольская юбка-комбинезон с прочным полукомбинезоном. Очень грязная.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Uniforms/Jumpskirt/salvagelead.rsi
@@ -675,7 +675,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformJumpskirtMiningSpecialist
   name: юбка-комбинезон специалиста по добыче
-  description: A suit passed down through many generations. a fine layer of dust trails behind it.
+  description: Костюм, передаваемый через поколения. За ним тянется тонкий слой пыли.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpskirt/mining.rsi
@@ -686,7 +686,7 @@
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtCargoFormal
   name: торжественная юбка-комбинезон грузчика
-  description: An official jumpsuit skirt combines practicality with a professional appearance. The tailored design offers comfort and mobility, while maintaining a structured look suitable for work settings requiring efficiency and formality.
+  description: Официальная юбка-комбинезон сочетает практичность и профессионализм. Удобна и подвижна, но строга.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpskirt/cargoformal.rsi
@@ -697,7 +697,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformJumpskirtMail
   name: юбка-комбинезон почтальона
-  description: A stylish cargo yellow and mail bag-blue uniform custom made for mail technicians.
+  description: Стильная жёлто-карговая и сине-почтовая форма, сшитая на заказ для почтовых техников.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpskirt/mailtech.rsi
@@ -708,7 +708,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformJumpskirtSeniorMail
   name: юбка-комбинезон старшего почтальона
-  description: A more vibrant mail technician outfit made in the color of cargo's formal uniforms. Perfect for deliver the mail in style, and looking good while doing it.
+  description: Более яркий наряд почтового техника в цветах парадной формы карго. Идеален для доставки почты со стилем и шиком.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpskirt/senior_mail.rsi
@@ -719,7 +719,7 @@
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtScientistFormal
   name: торжественная юбка-комбинезон учёного
-  description: A uniform for discerning scientists, best paired with a matching tie, offering a blend of professionalism and intellectual flair. Perfect for prestigious events or high-level research settings.
+  description: Форма для разборчивых учёных, лучше с matching галстуком, сочетание профессионализма и интеллекта.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpskirt/scientist_formal.rsi
@@ -730,7 +730,7 @@
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtCoroner
   name: юбка-комбинезон коронера
-  description: Made from specialized fibers offering minimal protection against biological hazards, this jumpsuit proves that style doesn’t have to die with the patients. Perfect for the professional with a sense of dark humor.
+  description: Комбинезон из спецволокон с минимальной биозащитой доказывает, что стиль не умирает вместе с пациентами. Для профессионалов с чёрным юмором.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpskirt/coroner.rsi
@@ -741,7 +741,7 @@
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtCentcomOfficial
   name: юбка-комбинезон офицера ЦК
-  description: It's a suitskirt worn by CentComm's highest-tier Commanders.
+  description: Юбка-костюм высших командиров ЦК.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Uniforms/Jumpskirt/centcom_official.rsi
@@ -752,7 +752,7 @@
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtCentcomOfficer
   name: водолазка с юбкой ЦК
-  description: A skirt version of the CentComm turtleneck, rarer and more sought after than the original.
+  description: Юбочная версия водолазки ЦК, реже и желаннее оригинала.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpskirt/centcom_officer.rsi
@@ -763,7 +763,7 @@
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtElegantMaid
   name: элегантная форма горничной
-  description: Call me master and bring me some beer.
+  description: Называй меня мастером и принеси пива.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpskirt/elegantmaid.rsi
@@ -774,7 +774,7 @@
   parent: ClothingUniformSkirtBase
   id: ClothingUniformColorJumpskirtRainbow
   name: радужная юбка-комбинезон
-  description: A multi-colored jumpskirt!
+  description: Разноцветная юбка-комбинезон!
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpskirt/rainbow.rsi
@@ -785,7 +785,7 @@
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtSchool
   name: школьная юбка
-  description: Stylish and comfortable school skirt.
+  description: Стильная удобная школьная юбка.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpskirt/schoolskirt.rsi
@@ -796,7 +796,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformJumpskirtCapTurtleneck
   name: юбка-водолазка капитана
-  description: True captain's turtleneck.
+  description: Настоящая водолазка капитана.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpskirt/cap_turtleneck.rsi
@@ -807,7 +807,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformJumpskirtHoPTurtleneck
   name: юбка-водолазка главы персонала
-  description: It's Head of Personal's turtleneck.
+  description: Водолазка главы персонала.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpskirt/hop_turtleneck.rsi
@@ -818,7 +818,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformJumpskirtHoSBlack
   name: чёрная юбка-комбинезон главы службы безопасности
-  description: It's Head of Security's black skirt.
+  description: Чёрная юбка главы службы безопасности.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpskirt/hos_black.rsi
@@ -829,7 +829,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformJumpskirtRDClassical
   name: классическая юбка-костюм научного руководителя
-  description: It's Research Director's classical skirt.
+  description: Классическая юбка директора исследований.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpskirt/rd_classical.rsi
@@ -840,7 +840,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformJulianneVA11HALLA
   name: пропахшая дымом форма бармена
-  description: Smoke clings to it, heavy and suffocating. Somehow, it makes you want to cry. Care for another round, sir?
+  description: Дым въелся, тяжёлый и удушающий. От него хочется плакать. Ещё по одной, сэр?
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpskirt/alt_purplebartender.rsi
@@ -851,7 +851,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformJumpskirtBartenderBlackAlt
   name: нарядная форма бармена
-  description: A nice and tidy uniform, with leggings to match.
+  description: Аккуратная форма с matching леггинсами.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpskirt/alt_blackbartender.rsi
@@ -862,7 +862,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformElegantLadyDress
   name: платье элегантной леди
-  description: "A voluminous white blouse with a black skirt-perfect for highlighting your beauty, darling!"
+  description: Объёмная белая блуза с чёрной юбкой — идеально подчеркнёт твою красоту, дорогая!
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpskirt/lady.rsi
@@ -873,7 +873,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformPastryDress
   name: платье «сладкая выпечка»
-  description: A delicate pastry dress made from light, comfortable fabric with an elegant cut.
+  description: Нежное платье-десерт из лёгкой удобной ткани с элегантным кроем.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Uniforms/Jumpskirt/pastry.rsi
@@ -884,7 +884,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformTimelessSkirt
   name: вневременная юбка
-  description: A luxury skirt with a timeless design.
+  description: Роскошная юбка вневременного дизайна.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Uniforms/Jumpskirt/timeless_skirt.rsi
@@ -895,7 +895,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformJumpskirtPunkSkirt
   name: панк-юбка с носками
-  description: Slightly metal, very goth.
+  description: Слегка метал, очень гот.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpskirt/punk_skirt_socks.rsi
@@ -908,7 +908,7 @@
   parent: [ ClothingUniformSkirtBase, BaseCentcommContraband ]
   id: ClothingUniformJumpskirtCentcommDomesticFormalWear
   name: торжественная форма бытового дивизиона центрального командования
-  description: A dress for special occasions.
+  description: Платье для особых случаев.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpskirt/centcommdomesticformalwear.rsi
@@ -919,7 +919,7 @@
   parent: [ ClothingUniformSkirtBase, BaseCentcommContraband ]
   id: ClothingUniformJumpskirtCentcommAdminFormalWear
   name: торжественная форма административного дивизиона центрального командования
-  description: A dress for special occasions.
+  description: Платье для особых случаев.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpskirt/centcommadminformalwear.rsi
@@ -930,7 +930,7 @@
   parent: [ ClothingUniformSkirtBase, BaseCentcommContraband ]
   id: ClothingUniformJumpskirtCentcommCargoFormalWear
   name: торжественная форма грузового дивизиона центрального командования
-  description: A dress for special occasions.
+  description: Платье для особых случаев.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpskirt/centcommcargoformalwear.rsi
@@ -941,7 +941,7 @@
   parent: [ ClothingUniformSkirtBase, BaseCentcommContraband ]
   id: ClothingUniformJumpskirtEngiCentcommFormalWear
   name: торжественная форма инженерного дивизиона центрального командования
-  description: A dress for special occasions.
+  description: Платье для особых случаев.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpskirt/centcommengiformalwear.rsi
@@ -952,7 +952,7 @@
   parent: [ ClothingUniformSkirtBase, BaseCentcommContraband ]
   id: ClothingUniformJumpskirtCentcommIntelFormalWear
   name: торжественная форма разведывательного дивизиона центрального командования
-  description: A dress for special occasions.
+  description: Платье для особых случаев.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpskirt/centcommintelformalwear.rsi
@@ -963,7 +963,7 @@
   parent: [ ClothingUniformSkirtBase, BaseCentcommContraband ]
   id: ClothingUniformJumpskirtCentcommMedFormalWear
   name: торжественная форма медицинского дивизиона центрального командования
-  description: A dress for special occasions.
+  description: Платье для особых случаев.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpskirt/centcommmedformalwear.rsi
@@ -974,7 +974,7 @@
   parent: [ ClothingUniformSkirtBase, BaseCentcommContraband ]
   id: ClothingUniformJumpskirtCentcommResearchFormalWear
   name: торжественная форма научного дивизиона центрального командования
-  description: A dress for special occasions.
+  description: Платье для особых случаев.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpskirt/centcommresearchformalwear.rsi
@@ -985,7 +985,7 @@
   parent: [ ClothingUniformSkirtBase, BaseCentcommContraband ]
   id: ClothingUniformJumpskirtCentcommSecurityFormalWear
   name: торжественная форма дивизиона безопасности центрального командования
-  description: A dress for special occasions.
+  description: Платье для особых случаев.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpskirt/centcommsecformalwear.rsi
@@ -996,7 +996,7 @@
   parent: [ ClothingUniformSkirtBase, BaseCentcommContraband ]
   id: ClothingUniformJumpskirtCentcommSpecialOpsFormalWear
   name: торжественная форма дивизиона спецопераций центрального командования
-  description: A dress for special occasions.
+  description: Платье для особых случаев.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpskirt/centcommspecialopsformalwear.rsi
@@ -1017,7 +1017,7 @@
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtSeniorParamedic
   name: юбка-комбинезон старшего парамедика
-  description: These epaulettes mark a paramedic that has walked through fire and void to save those in need
+  description: Эти эполеты отличают парамедика, прошедшего огонь и пустоту ради спасения нуждающихся.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpskirt/senior_paramedic.rsi
@@ -1028,7 +1028,7 @@
   parent: [ ClothingUniformSkirtBase, BaseNanoTrasenContraband ]
   id: ClothingUniformJumpskirtNCT
   name: юбка тренера НТ
-  description: A neatly pressed olive green shirt paired with a sleek black skirt, worn by those committed to mentoring the next generation.
+  description: Отглаженная оливковая рубашка с чёрной юбкой для наставников нового поколения.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpskirt/nct.rsi
@@ -1039,7 +1039,7 @@
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtAssistant
   name: юбка-комбинезон ассистента
-  description: A tasteful green jumpskirt that reminds you of the good old days.
+  description: Приличная зелёная юбка-комбинезон, напоминающая о старых добрых временах.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirt/color.rsi
@@ -1069,7 +1069,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformJumpskirtSalvageMedic
   name: юбка-комбинезон медика-утилизатора
-  description: It's a snappy jumpskirt with a sturdy set of overalls. It's very bloody.
+  description: Щегольская юбка-комбинезон с прочным полукомбинезоном. Вся в крови.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Uniforms/Jumpskirt/salvagemedic.rsi

@@ -6,7 +6,7 @@
   id: AirAlarmUnlocked
   name: разблокированная воздушная сигнализация
   suffix: Unlocked
-  description: An air alarm with its access reader deactivated. Anyone can adjust it.
+  description: Воздушная тревога с отключённым считывателем доступа. Настроить может кто угодно.
   components:
   - type: AccessReader
     enabled: false
@@ -19,7 +19,7 @@
   id: AirAlarmChamber
   name: камерная воздушная сигнализация
   suffix: Chamber
-  description: An air alarm set up for use in chambers. It doesn't report to the station's alert console.
+  description: Воздушная тревога для камер. На консоль тревог станции не докладывает.
   components:
   - type: AirAlarm
     currentMode: None
@@ -32,4 +32,4 @@
   id: AirAlarmChamberUnlocked
   name: разблокированная камерная воздушная сигнализация
   suffix: Chamber, unlocked
-  description: An air alarm set up for use in chambers. Anyone can adjust it, and it doesn't report to the station's alert console.
+  description: Воздушная тревога для камер. Настраивать может кто угодно, на консоль тревог станции не докладывает.

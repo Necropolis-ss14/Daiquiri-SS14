@@ -43,7 +43,7 @@
   id: BarricadeSteel
   parent: BaseBarricadeCover
   name: стальная баррикада
-  description: Steel plates welded into a waist-high barrier. Stops a good share of the shots crossing it.
+  description: Стальные плиты, сваренные в барьер по пояс. Останавливает изрядную долю пролетающих выстрелов.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Furniture/Barricades/steel.rsi
@@ -92,7 +92,7 @@
   id: BarricadeWood
   parent: BaseBarricadeCover
   name: деревянная баррикада
-  description: Planks nailed into a waist-high barrier. Better than nothing.
+  description: Доски, прибитые в барьер по пояс. Лучше, чем ничего.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Furniture/Barricades/wooden.rsi
@@ -148,7 +148,7 @@
   id: BarricadeGlass
   parent: BaseBarricadeCover
   name: стеклянная баррикада
-  description: Glass panes set in a wooden frame. You can see through it, and so can bullets, often enough.
+  description: Стёкла в деревянной раме. Ты видишь сквозь неё — и пули тоже, частенько.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Furniture/Barricades/glass.rsi
@@ -195,7 +195,7 @@
   id: BarricadeSandbags
   parent: BaseBarricadeCover
   name: баррикада из мешков с песком
-  description: A wall of sandbags. Few things you could carry soak up gunfire better.
+  description: Стена из мешков с песком. Мало что из носимого лучше гасит пули.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Furniture/Barricades/sandbags.rsi
@@ -228,7 +228,7 @@
   id: BarricadeSandbagsFrame
   parent: BaseStructure
   name: недостроенная баррикада из мешков с песком
-  description: A few sandbags on top of each other. Some cover already, and a few more bags would finish it.
+  description: Несколько мешков с песком друг на друге. Какое-никакое укрытие, ещё пара мешков — и будет готово.
   placement:
     mode: SnapgridCenter
   components:

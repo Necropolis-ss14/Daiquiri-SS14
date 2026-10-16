@@ -1,7 +1,7 @@
 - type: entity
   parent: OreBase
   id: AbyssiumOre
-  name: abyssium ore
+  name: руда абиссиума
   suffix: Full
   components:
   - type: Stack
@@ -56,8 +56,8 @@
 - type: entity
   parent: OreBase
   id: RawBluespaceCrystal
-  name: raw bluespace crystal
-  description: A glowing bluespace crystal, not much is known about how they work. It looks very delicate.
+  name: сырой блюспейс-кристалл
+  description: Светящийся блюспейс-кристалл, о принципе работы которого почти ничего не известно. Выглядит очень хрупким.
   suffix: Full
   components:
     - type: Stack

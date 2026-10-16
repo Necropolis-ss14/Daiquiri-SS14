@@ -1,6 +1,6 @@
 - type: entity
   id: RetroShuttleWindow
-  name: retro shuttle window
+  name: ретро-окно шаттла
   parent: [ WindowRCDResistant, BaseDeltaPressureReinforcedGlass ]
   components:
   - type: Sprite

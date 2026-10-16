@@ -2,7 +2,7 @@
   name: хлопковое тесто
   parent: FoodBakingBase
   id: FoodMothBatter
-  description: Cook it to get a cute moth cake.
+  description: Приготовь его, чтобы получился милый торт для моли.
   components:
     - type: Sprite
       sprite: _Starlight/Objects/Consumable/Food/Custcake.rsi

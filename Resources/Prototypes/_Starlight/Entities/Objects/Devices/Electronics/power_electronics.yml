@@ -3,7 +3,7 @@
   id: APCAdvancedElectronics
   parent: BaseElectronics
   name: продвинутая электроника ЛКП
-  description: Circuit used to construct an advanced APC.
+  description: Схема, используемая для сборки продвинутого ЛКП.
   components:
     - type: Tag
       tags:

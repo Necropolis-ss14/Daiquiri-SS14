@@ -305,7 +305,7 @@
   parent: BaseSpeciesDummy
   id: AppearanceNeoResomi
   categories: [ HideSpawnMenu ]
-  description: A dummy neo-resomi meant to be used in character setup.
+  description: Манекен нео-резоми для настройки персонажа.
   components:
   - type: HumanoidAppearance
     species: NeoResomi

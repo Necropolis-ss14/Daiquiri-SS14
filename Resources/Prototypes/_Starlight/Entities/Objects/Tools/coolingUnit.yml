@@ -2,7 +2,7 @@
   parent: BaseItem
   id: CoolingUnit
   name: портативный охладитель
-  description: A large portable heat sink with liquid cooled radiator packaged into a modified backpack.
+  description: Большой портативный теплоотвод с радиатором жидкостного охлаждения, упакованный в модифицированный рюкзак.
   components:
     - type: Sprite
       sprite: _Starlight/Objects/Tanks/coolingunit.rsi
@@ -57,7 +57,7 @@
   parent: CoolingUnit
   id: EmergencyCoolingUnit
   name: аварийный охладитель
-  description: An easily portable heat sink for emergencies. Contains very little power, rated for survival use only.
+  description: Легко переносимый теплоотвод для чрезвычайных ситуаций. Содержит очень мало энергии, рассчитан только на выживание.
   components:
     - type: Sprite
       sprite: _Starlight/Objects/Tanks/coolingunit.rsi

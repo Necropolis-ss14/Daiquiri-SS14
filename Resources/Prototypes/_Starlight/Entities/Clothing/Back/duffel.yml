@@ -2,7 +2,7 @@
   parent: ClothingBackpackDuffel
   id: ClothingBackpackDuffelAbductor
   name: хирургический вещмешок похитителя
-  description: A large duffel bag for holding various surgery goods.
+  description: Большая вещевая сумка для хранения различных хирургических принадлежностей.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Back/Duffels/abductor.rsi
@@ -24,7 +24,7 @@
   parent: ClothingBackpackDuffel
   id: ClothingBackpackDuffelRoboticist
   name: вещмешок робототехника
-  description: A large duffel bag for holding extra Roboticist related goods.
+  description: Большая вещевая сумка для хранения дополнительных товаров роботиста.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Back/Duffels/roboticist.rsi
@@ -33,7 +33,7 @@
   parent: ClothingBackpackDuffel
   id: ClothingBackpackDuffelCargoSenior
   name: вещмешок старшего курьера
-  description: A large duffel bag for the Quartermaster's most devoted couriers.
+  description: Большая вещевая сумка для самых преданных курьеров квартирмейстера.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Back/Duffels/cargosenior.rsi
@@ -42,7 +42,7 @@
   parent: ClothingBackpackDuffel
   id: ClothingBackpackDuffelChemistrySenior
   name: вещмешок старшего химика
-  description: A large duffel bag for holding a wide assortment of advanced chemical supplies.
+  description: Большая вещевая сумка для широкого ассортимента продвинутых химических запасов.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Back/Duffels/chemistrysenior.rsi
@@ -51,7 +51,7 @@
   parent: [ClothingBackpackDuffel, BaseSecurityContraband]
   id: ClothingBackpackDuffelCorpsman
   name: вещмешок санитара
-  description: An odd duffelbag that uses flaps instead of zippers for quicker access. Handy!
+  description: Странный вещмешок на клапанах вместо молний для быстрого доступа. Удобно!
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Back/Duffels/corpsman.rsi
@@ -60,7 +60,7 @@
   parent: [ClothingBackpackDuffel, BaseCommandContraband]
   id: ClothingBackpackDuffelHoP
   name: вещмешок главы персонала
-  description: A large duffel bag for the Captain's second in command.
+  description: Большая вещевая сумка для заместителя капитана.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Back/Duffels/hop.rsi
@@ -69,7 +69,7 @@
   parent: [ ClothingBackpackDuffel, BaseCommandContraband, BaseAssistantManagerContraband ]
   id: ClothingBackpackDuffelCommandGeneric
   name: вещмешок командования
-  description: A generic Command-colored duffel bag not associated with any particular department.
+  description: Обычная вещевая сумка цвета командования, не привязанная к конкретному отделу.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Back/Duffels/command.rsi
@@ -78,7 +78,7 @@
   parent: [ ClothingBackpackDuffel, BaseBlueShieldContraband ]
   id: ClothingBackpackDuffelBlueShield
   name: вещмешок блюшилда
-  description: The bag for a Blueshield Officer who is ready for any contingency.
+  description: Сумка для офицера синего щита, готового к любым неожиданностям.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Back/Duffels/blueshield.rsi
@@ -87,7 +87,7 @@
   parent: ClothingBackpackDuffel
   id: ClothingBackpackDuffelCryostorageBelongings
   name: мешок потерянного имущества
-  description: A sealed bag holding the belongings of a crew member who left for cryosleep. Things can be taken out, but nothing can be put back in.
+  description: Запечатанная сумка с вещами члена экипажа, ушедшего в криосон. Вещи можно доставать, но положить обратно ничего нельзя.
   components:
   - type: Sprite
     sprite: Clothing/Back/Duffels/duffel.rsi
@@ -101,7 +101,7 @@
   parent: [ClothingBackpackDuffel, BaseMinorContraband]
   id: ClothingBackpackDuffelSyndicateDeluxe
   name: делюкс-вещмешок Синдиката
-  description: A huge duffel bag for holding an obscene amount of Syndicate goods.
+  description: Огромная вещевая сумка для неприлично большого количества товаров Синдиката.
   components:
   - type: Contraband # Blimpuf
     contrabandType: Syndicate

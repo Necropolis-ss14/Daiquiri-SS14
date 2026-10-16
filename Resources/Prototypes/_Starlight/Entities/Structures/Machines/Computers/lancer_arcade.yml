@@ -2,7 +2,7 @@
   parent: BaseComputerCircuitboard
   id: LancerArcadeComputerCircuitboard
   name: аркадная плата Лансер Соло Страйк
-  description: A computer printed circuit board for a Lancer Solo Strike arcade cabinet.
+  description: Печатная плата компьютера для аркадного автомата Lancer Solo Strike.
   components:
   - type: ComputerBoard
     prototype: LancerArcade
@@ -10,7 +10,7 @@
 - type: entity
   id: LancerArcade
   name: Лансер Соло Страйк
-  description: An arcade cabinet running Lancer Solo Strike.
+  description: Аркадный автомат с игрой Lancer Solo Strike.
   parent: ArcadeBase
   components:
   - type: Sprite

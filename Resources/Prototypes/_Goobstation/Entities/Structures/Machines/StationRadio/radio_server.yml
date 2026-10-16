@@ -1,8 +1,8 @@
 - type: entity
   id: StationRadioServer
-  name: station radio server
+  name: сервер станционного радио
   parent: [ BaseMachinePowered, ConstructibleMachine ]
-  description: A rack of servers, controls whether your voice is being broadcasted or not
+  description: Стойка серверов, определяет, транслируется ли ваш голос
   components:
   - type: Appearance
   - type: Sprite
@@ -53,8 +53,8 @@
 - type: entity
   id: StationRadioRig
   parent: [ BaseMachinePowered, ConstructibleMachine ]
-  name: station radio rig
-  description: A collection of everything you need to play music over the station.
+  name: радиоустановка станции
+  description: Всё необходимое для трансляции музыки по станции.
   components:
   - type: Appearance
   - type: Sprite

@@ -293,7 +293,7 @@
   parent: DeathRattleImplant
   id: DeathRattleImplantUSSP
   name: имплант «предсмертный хрип» СССП
-  description: This implant will inform the USSP radio channel should the user fall into critical condition or die.
+  description: Имплант сообщит в радиоканал СССП, если носитель впадёт в критическое состояние или умрёт.
   categories: [ HideSpawnMenu ]
   components:
   - type: RattleOnTrigger
@@ -304,7 +304,7 @@
   parent: BaseSubdermalImplant
   id: RadioImplantUSSP
   name: радиоимплант СССП
-  description: This implant will allow you to listen and talk in the USSP radio channel without a headset.
+  description: Имплант позволяет слушать и говорить в радиоканале СССП без гарнитуры.
   categories: [ HideSpawnMenu ]
   components:
   - type: SubdermalImplant

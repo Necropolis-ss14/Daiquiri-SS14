@@ -1,8 +1,8 @@
 - type: entity
-  name: honeybar
+  name: медовый батончик
   parent: [SolutionFood, SolutionTiny, BaseItem]
   id: FoodHoneybar
-  description: A sticky and sweet grain bar coated in honey.
+  description: Липкий сладкий злаковый батончик, покрытый мёдом.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Consumable/Food/honey_bar.rsi
@@ -28,7 +28,7 @@
   name: медовая рамка
   parent: [SolutionFood, SolutionTiny, BaseItem]
   id: FoodHoneyFrame
-  description: A wooden slate with honeycombs built inside.
+  description: Деревянная рамка с сотами внутри.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Consumable/Food/honey_frame.rsi
@@ -55,7 +55,7 @@
   name: медовый батон
   parent: [SolutionFood, SolutionTiny, BaseItem]
   id: FoodHoneyLoaf
-  description: A warm and soft loaf of bread drizzled with honey.
+  description: Тёплый мягкий батон, политый мёдом.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Consumable/Food/honey_loaf.rsi
@@ -81,7 +81,7 @@
   name: медовый рулет
   parent: [SolutionFood, SolutionTiny, BaseItem]
   id: FoodHoneyRoll
-  description: Whats the matter, someone steal your honey roll?
+  description: В чём дело, кто-то украл твой медовый рулет?
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Consumable/Food/honey_roll.rsi
@@ -107,7 +107,7 @@
   name: медовый ломтик
   parent: [SolutionFood, SolutionTiny, BaseItem]
   id: FoodHoneyLoafSlice
-  description: A warm and soft slice of bread drizzled with honey.
+  description: Тёплый мягкий ломтик хлеба, политый мёдом.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Consumable/Food/honey_slice.rsi
@@ -130,10 +130,10 @@
       - FoodSnack
 
 - type: entity
-  name: honeycomb
+  name: медовые соты
   parent: [SolutionFood, SolutionTiny, BaseItem]
   id: Honeycomb
-  description: A comb of honey. It took a lot of bees a lot of time to make this.
+  description: Соты с мёдом. Пчёлы потратили на них уйму времени.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Consumable/Food/honeycomb.rsi

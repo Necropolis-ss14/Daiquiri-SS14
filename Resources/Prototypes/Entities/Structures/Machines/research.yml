@@ -2,8 +2,8 @@
   id: ResearchAndDevelopmentServer
   categories: [ ShouldMapStation ] # Starlight
   parent: [ BaseResearchAndDevelopmentServer, BaseMachinePowered, ConstructibleMachine ] # Moffstation - Inherit from moffstation's abstract parent version
-  name: R&D server
-  description: Contains the collective knowledge of the station's scientists. Destroying it would send them back to the stone age. You don't want that do you?
+  name: сервер R&D
+  description: Содержит коллективные знания учёных станции. Его уничтожение отбросит их в каменный век. Вы же этого не хотите, правда?
   components:
   - type: Sprite
     sprite: Structures/Machines/server.rsi
@@ -95,7 +95,7 @@
 - type: entity
   id: BaseResearchAndDevelopmentPointSource
   parent: BaseMachinePowered
-  name: "base R&D point source"
+  name: "базовый источник очков R&D"
   # We should make this abstract once there are actual point sources.
   components:
   - type: Sprite

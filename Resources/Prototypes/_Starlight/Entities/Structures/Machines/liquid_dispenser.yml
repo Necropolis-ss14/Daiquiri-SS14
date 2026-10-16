@@ -1,7 +1,7 @@
 - type: entity
   id: LiquidDispenser
   name: раздатчик жидкости
-  description: A thin device, what spills liquid all over the floor
+  description: Тонкое устройство, разливающее жидкость по полу.
   placement:
     mode: SnapgridCenter
   components:

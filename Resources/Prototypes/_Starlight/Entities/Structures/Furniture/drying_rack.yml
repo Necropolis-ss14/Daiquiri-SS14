@@ -2,7 +2,7 @@
   name: сушилка для стеклянной посуды
   id: DryingRackGlassware
   parent: BaseStructure
-  description: A convenient way to dry and store your glasses behind the bar. Be careful not to overfill the tray!
+  description: Удобный способ сушить и хранить стаканы за баром. Не переполняйте поднос!
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Furniture/glass_drying_rack.rsi

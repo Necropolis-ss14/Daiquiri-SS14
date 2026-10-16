@@ -3,6 +3,7 @@ using System.Linq;
 using Content.Client.Audio;
 using Content.Client.GameTicking.Managers;
 using Content.Client.Lobby.UI;
+using Content.Client._Daiquiri.Lobby.UI; // Daiquiri
 using Content.Client.Message;
 using Content.Client.Options.UI; // Daiquiri
 using Content.Client.Playtime;

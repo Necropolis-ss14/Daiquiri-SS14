@@ -3,3 +3,4 @@ reagent-desc-devil-juice = Вещество, которое считают зл�
 
 reagent-name-zxa-metabolites = Метаболиты ЗХА
 reagent-desc-zxa-metabolites = Побочный продукт ЗХА, нарушающий химические запасы генокрадов ещё сильнее, чем БЗ.
+reagent-name-neuralprion = нейроприон

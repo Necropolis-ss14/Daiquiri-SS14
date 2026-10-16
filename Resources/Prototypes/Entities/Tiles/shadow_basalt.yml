@@ -1,7 +1,7 @@
 - type: entity
   id: ShadowBasaltOne
-  name: shadowstone
-  description: Glowing cracks in reality. It's probably fine.
+  name: теневой камень
+  description: Светящиеся трещины в реальности. Наверное, всё в порядке.
   placement:
     mode: SnapgridCenter
   components:

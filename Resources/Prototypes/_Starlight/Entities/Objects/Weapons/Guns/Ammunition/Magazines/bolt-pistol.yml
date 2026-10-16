@@ -2,7 +2,7 @@
   parent: [ BaseItem, BaseMajorContraband ]
   id: MagazineBoltPistol
   name: магазин болт-пистолета (стандартный)
-  description: An 8-round magazine for impact bolts.
+  description: Магазин на 8 ударных болтов.
   components:
   - type: Tag
     tags:

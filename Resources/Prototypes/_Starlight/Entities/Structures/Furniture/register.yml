@@ -2,7 +2,7 @@
   name: кассовый аппарат
   id: CashRegister
   parent: [ BaseStructure, BaseBagOpenClose ]
-  description: A vaguely secure way to store currency. Wheres the lock...?
+  description: Смутно надёжный способ хранить валюту. А где замок...?
   components:
   - type: Anchorable
     delay: 1

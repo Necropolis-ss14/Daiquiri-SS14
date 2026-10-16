@@ -55,7 +55,7 @@
 - type: entity
   id: CargoMailBox
   name: почтовый ящик карго
-  description: A mailbox for storing and retrieving mail. Allows for Cargo to store and retrieve their mail.
+  description: Почтовый ящик для хранения и получения почты. Позволяет карго хранить и забирать свою почту.
   parent: BaseMailBox
   components:
       - type: MailBox
@@ -69,7 +69,7 @@
 - type: entity
   id: CommandMailBox
   name: почтовый ящик командования
-  description: A mailbox for storing and retrieving mail. Allows for Command to store and retrieve their mail.
+  description: Почтовый ящик для хранения и получения почты. Позволяет командованию хранить и забирать свою почту.
   parent: BaseMailBox
   components:
     - type: MailBox
@@ -83,7 +83,7 @@
 - type: entity
   id: EngineeringMailBox
   name: почтовый ящик инженеров
-  description: A mailbox for storing and retrieving mail. Allows for Engineering to store and retrieve their mail.
+  description: Почтовый ящик для хранения и получения почты. Позволяет инженерам хранить и забирать свою почту.
   parent: BaseMailBox
   components:
     - type: MailBox
@@ -97,7 +97,7 @@
 - type: entity
   id: MedicalMailBox
   name: почтовый ящик медиков
-  description: A mailbox for storing and retrieving mail. Allows for Medical to store and retrieve their mail.
+  description: Почтовый ящик для хранения и получения почты. Позволяет медикам хранить и забирать свою почту.
   parent: BaseMailBox
   components:
     - type: MailBox
@@ -111,7 +111,7 @@
 - type: entity
   id: ScienceMailBox
   name: почтовый ящик учёных
-  description: A mailbox for storing and retrieving mail. Allows for Science to store and retrieve their mail.
+  description: Почтовый ящик для хранения и получения почты. Позволяет учёным хранить и забирать свою почту.
   parent: BaseMailBox
   components:
     - type: MailBox
@@ -125,7 +125,7 @@
 - type: entity
   id: SecurityMailBox
   name: почтовый ящик СБ
-  description: A mailbox for storing and retrieving mail. Allows for Security to store and retrieve their mail.
+  description: Почтовый ящик для хранения и получения почты. Позволяет СБ хранить и забирать свою почту.
   parent: BaseMailBox
   components:
     - type: MailBox
@@ -139,7 +139,7 @@
 - type: entity
   id: ServiceMailBox
   name: почтовый ящик сервиса
-  description: A mailbox for storing and retrieving mail. Allows for Service to store and retrieve their mail.
+  description: Почтовый ящик для хранения и получения почты. Позволяет сервису хранить и забирать свою почту.
   parent: BaseMailBox
   components:
     - type: MailBox

@@ -3,7 +3,7 @@
   suffix: Pirate, Turret
   parent: ToolboxElectrical
   id: ToolboxElectricalTurretPirate
-  description: A toolbox typically stocked with electrical gear.
+  description: Ящик с инструментами, обычно укомплектованный электрическим снаряжением.
   components:
   - type: Damageable
     damageContainer: Inorganic

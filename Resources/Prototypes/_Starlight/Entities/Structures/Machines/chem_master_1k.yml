@@ -2,7 +2,7 @@
   id: ChemMaster1k
   parent: [ BaseMachinePowered, ConstructibleMachine ]
   name: ХимМастер 1000
-  description: An ancient chemical manipulator that was the precursor to the 4000. Careful of leaks.
+  description: Древний химический манипулятор — предшественник 4000-й модели. Осторожно, протечки.
   placement:
     mode: SnapgridCenter
   components:

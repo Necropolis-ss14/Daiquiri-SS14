@@ -147,7 +147,7 @@
   id: BorgModuleUppies
   parent: [ BaseBorgModule, BaseProviderBorgModule ]
   name: модуль перевозки персонала
-  description: A universal cyborg module which allows the unit to carry small personnel.
+  description: Универсальный модуль киборга, позволяющий переносить небольшой персонал.
   components:
   - type: Tag
     tags:
@@ -1243,8 +1243,8 @@
 - type: entity
   id: BorgModuleMiningDefense
   parent: [ BaseBorgModuleMining, BaseProviderBorgModule ]
-  name: mining defense cyborg module
-  description: Enables the borg to provide some measaure of defense. Is Law 1 still intact?
+  name: оборонительный модуль шахтёрского киборга
+  description: Позволяет боргу обеспечить некоторую защиту. А Закон 1 ещё цел?
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Specific/Robotics/borgmodule.rsi
@@ -1281,8 +1281,8 @@
 - type: entity
   parent: [ BaseXenoborgModuleGeneric, BaseProviderBorgModule, BaseXenoborgContraband ]
   id: DerelictXenoborgModuleBasic
-  name: basic xenoborg module
-  description: Essential items for any Xenoborg.
+  name: базовый модуль ксеноборга
+  description: Необходимые предметы для любого ксеноборга.
   components:
     - type: Sprite
       layers:
@@ -1305,8 +1305,8 @@
 - type: entity
   parent: [ BaseXenoborgModuleScout, BaseProviderBorgModule, BaseXenoborgContraband ]
   id: DerelictXenoborgModuleSpaceMovement
-  name: space movement xenoborg module
-  description: Module that helps a Xenoborg move better in space.
+  name: модуль перемещения в космосе ксеноборга
+  description: Модуль, помогающий ксеноборгу лучше двигаться в космосе.
   components:
     - type: Sprite
       layers:
@@ -1328,8 +1328,8 @@
 - type: entity
   parent: [BaseBorgModuleCentcomm,BaseProviderBorgModule,BaseCentcommContraband]
   id: CentcommLaserModule
-  name: CentComm cyborg laser module.
-  description: Module with a standard issue HAW laser.
+  name: лазерный модуль киборга ЦентКом.
+  description: Модуль со штатным лазером HAW.
   components:
   - type: Sprite
     layers:
@@ -1344,8 +1344,8 @@
 - type: entity
   parent: [ BaseBorgModuleCentcomm, BaseProviderBorgModule, BaseCentcommContraband ]
   id: CentcommAccessBreakerModule
-  name: CentComm Breacher Module
-  description: Module with an ERT-modified Access Configurator designed to quickly allow access into an area.
+  name: штурмовой модуль ЦентКом
+  description: Модуль с модифицированным ОБР конфигуратором доступа для быстрого проникновения в отсек.
   components:
   - type: Sprite
     layers:
@@ -1360,8 +1360,8 @@
 - type: entity
   id: CentcommBulwarkModule
   parent: [ BaseBorgModuleCentcomm, BaseProviderBorgModule, BaseCentcommContraband ]
-  name: CentComm bulwark module
-  description: A module that comes with an energy chainsword and shield.
+  name: защитный модуль ЦентКом
+  description: Модуль с энергетическим цепным мечом и щитом.
   components:
     - type: Sprite
       layers:
@@ -1377,8 +1377,8 @@
 - type: entity
   parent: [ BaseBorgModuleCentcomm, BaseProviderBorgModule, BaseCentcommContraband ]
   id: CentcommModuleSpaceMovement
-  name: CentComm space movement module
-  description: After seeing the success of the thruster module, CentComm decided to develop a proper jetpack for their most valued cyborgs.
+  name: модуль перемещения в космосе ЦентКом
+  description: Увидев успех модуля двигателей, ЦентКом разработал полноценный джетпак для своих самых ценных киборгов.
   components:
   - type: Sprite
     layers:
@@ -1398,8 +1398,8 @@
 - type: entity
   parent: [ BaseXenoborgModuleScoutWeapon, BaseProviderBorgModule, BaseXenoborgContraband ]
   id: XenoborgModuleEnergyBlade
-  name: energy sword xenoborg module
-  description: Module with an energy sword and a shield.
+  name: модуль энергомеча ксеноборга
+  description: Модуль с энергомечом и щитом.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Specific/Robotics/borgmodule.rsi
@@ -1417,8 +1417,8 @@
 - type: entity
   parent: [ BaseXenoborgModuleHeavyWeapon, BaseProviderBorgModule, BaseXenoborgContraband ]
   id: XenoborgModuleSuperHeavyLaser
-  name: bitterfrost cannon xenoborg module
-  description: Module with a bitterfrost cannon.
+  name: модуль пушки «Биттерфрост» ксеноборга
+  description: Модуль с пушкой «Биттерфрост».
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Specific/Robotics/borgmodule.rsi
@@ -1435,8 +1435,8 @@
 - type: entity
   parent: [ BaseXenoborgModuleStealthWeapon, BaseProviderBorgModule, BaseXenoborgContraband ]
   id: XenoborgModuleHypoPlus
-  name: advanced hypo xenoborg module
-  description: Module with a better set of self-refilling hypos.
+  name: улучшенный гипо-модуль ксеноборга
+  description: Модуль с улучшенным набором самозаполняющихся гипо.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Specific/Robotics/borgmodule.rsi

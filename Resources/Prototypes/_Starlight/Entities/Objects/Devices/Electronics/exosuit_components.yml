@@ -20,7 +20,7 @@
   id: DurandArmorPlate
   parent: BaseExosuitParts
   name: бронепластины «Дюранда»
-  description: Armor plates made of plasteel for Durand exosuit.
+  description: Бронепластины из пластали для экзокостюма «Дюранд».
   components:
     - type: Item
       storedRotation: 0
@@ -38,7 +38,7 @@
   id: GygaxArmorPlate
   parent: BaseExosuitParts
   name: бронепластины «Гигакс»
-  description: Armor plates made of steel for Gygax exosuit.
+  description: Бронепластины из стали для экзокостюма «Гигакс».
   components:
     - type: Item
       storedRotation: 0
@@ -56,7 +56,7 @@
   id: RipleyUpgradeKit
   parent: BaseExosuitParts
   name: набор улучшения экзокостюма
-  description: This kit allows you to assemble an exosuit Ripley MK-II.
+  description: Этот набор позволяет собрать экзокостюм «Рипли» MK-II.
   components:
     - type: Item
       storedRotation: 0
@@ -73,7 +73,7 @@
   id: PaddyUpgradeKit
   parent: BaseExosuitParts
   name: набор для конверсии Падди
-  description: This kit allows you to turn a Ripley MK-II into a Paddy.
+  description: Этот набор позволяет превратить «Рипли» MK-II в «Падди».
   components:
     - type: Item
       storedRotation: 0
@@ -90,7 +90,7 @@
   id: MechAirTank
   parent: BaseExosuitParts
   name: воздушный баллон экзокостюма
-  description: A special air canister capable of holding a large amount of air.
+  description: Специальный воздушный баллон, способный удерживать большое количество воздуха.
   components:
     - type: Item
       storedRotation: 0
@@ -119,7 +119,7 @@
   id: MechThruster
   parent: BaseExosuitParts
   name: двигатель экзокостюма
-  description: A thruster with which the exosuit can safely move in the absence of gravity.
+  description: Двигатель, с помощью которого экзокостюм может безопасно перемещаться в отсутствие гравитации.
   components:
     - type: Item
       storedRotation: 0

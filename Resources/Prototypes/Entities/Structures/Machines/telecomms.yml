@@ -1,8 +1,8 @@
 - type: entity
   parent: [ BaseMachinePowered, ConstructibleMachine ]
   id: TelecomServer
-  name: telecommunication server
-  description: When powered and filled with encryption keys it allows radio headset communication.
+  name: телекоммуникационный сервер
+  description: При наличии питания и ключей шифрования обеспечивает радиосвязь через гарнитуры.
   components:
   - type: Sprite
     sprite: Structures/Machines/telecomms.rsi

@@ -31,7 +31,7 @@
   parent: ClothingMiscBase
   id: ClothingNeckCentralCommandMedal
   name: медаль центрального командования
-  description: Given by central command to commend exemplary behavior.
+  description: Вручена центральным командованием за образцовое поведение.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Neck/Medals/Centcomm/ccmedal.rsi
@@ -46,7 +46,7 @@
   parent: ClothingMiscBase
   id: ClothingNeckCentralCommandMedalValor
   name: медаль центрального командования за доблесть
-  description: Given by central command to recognize valor.
+  description: Вручена центральным командованием за доблесть.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Neck/Medals/Centcomm/ccmedalvalor.rsi
@@ -61,7 +61,7 @@
   parent: ClothingMiscBase
   id: ClothingNeckCentralCommandMedalGaudy
   name: медаль центрального командования за выдающиеся заслуги
-  description: Humbly given by central command to commend excellency.
+  description: Скромно вручена центральным командованием за превосходство.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Neck/Medals/Centcomm/ccmedalletters.rsi

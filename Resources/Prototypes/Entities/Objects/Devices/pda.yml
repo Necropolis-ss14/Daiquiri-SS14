@@ -177,8 +177,8 @@
 - type: entity
   parent: BasePDA
   id: AssistantPDA
-  name: assistant PDA
-  description: Why isn't it gray?
+  name: КПК ассистента
+  description: Почему он не серый?
   components:
   - type: Pda
     id: AssistantIDCard
@@ -188,8 +188,8 @@
 - type: entity
   parent: BasePDA
   id: TechnicalAssistantPDA
-  name: technical assistant PDA
-  description: Why isn't it yellow?
+  name: КПК технического ассистента
+  description: Почему он не жёлтый?
   components:
   - type: Pda
     id: TechnicalAssistantIDCard
@@ -218,8 +218,8 @@
 - type: entity
   parent: BaseMedicalPDA
   id: MedicalInternPDA
-  name: medical intern PDA
-  description: Why isn't it white?
+  name: КПК интерна
+  description: Почему он не белый?
   components:
   - type: Pda
     id: MedicalInternIDCard
@@ -240,8 +240,8 @@
 - type: entity
   parent: BaseSecurityPDA
   id: SecurityCadetPDA
-  name: security cadet PDA
-  description: Why isn't it red?
+  name: КПК кадета СБ
+  description: Почему он не красный?
   components:
   - type: Pda
     id: SecurityCadetIDCard
@@ -259,8 +259,8 @@
 - type: entity
   parent: BasePDA
   id: ResearchAssistantPDA
-  name: research assistant PDA
-  description: Why isn't it purple?
+  name: КПК научного ассистента
+  description: Почему он не фиолетовый?
   components:
   - type: Pda
     id: ResearchAssistantIDCard
@@ -278,8 +278,8 @@
 - type: entity
   parent: BasePDA
   id: ServiceWorkerPDA
-  name: service worker PDA
-  description: Why isn't it gray?
+  name: КПК сервисного работника
+  description: Почему он не серый?
   components:
   - type: Pda
     id: ServiceWorkerIDCard
@@ -297,8 +297,8 @@
 - type: entity
   parent: BasePDA
   id: ChefPDA
-  name: chef PDA
-  description: Covered in grease and flour.
+  name: КПК повара
+  description: Весь в жире и муке.
   components:
   - type: Pda
     id: ChefIDCard
@@ -315,8 +315,8 @@
 - type: entity
   parent: BasePDA
   id: BotanistPDA
-  name: botanist PDA
-  description: Has an earthy scent.
+  name: КПК ботаника
+  description: Пахнет землёй.
   components:
   - type: Pda
     id: BotanistIDCard
@@ -334,8 +334,8 @@
 - type: entity
   parent: BasePDA
   id: ClownPDA
-  name: clown PDA
-  description: Looks can be deceiving.
+  name: КПК клоуна
+  description: Внешность обманчива.
   components:
   - type: Pda
     id: ClownIDCard
@@ -394,8 +394,8 @@
 - type: entity
   parent: BasePDA
   id: MimePDA
-  name: mime PDA
-  description: Suprisingly not on mute.
+  name: КПК мима
+  description: Удивительно, но он не на беззвучном.
   components:
   - type: Pda
     id: MimeIDCard
@@ -444,10 +444,10 @@
   - type: Muted # for random sentience event
 
 - type: entity
-  name: chaplain PDA
+  name: КПК капеллана
   parent: BasePDA
   id: ChaplainPDA
-  description: Is the black austere, or luxurious? It's a matter of faith. # Starlight
+  description: Чёрный — это аскетично или роскошно? Вопрос веры. # Starlight
   components:
   - type: Pda
     id: ChaplainIDCard
@@ -473,10 +473,10 @@
     - DoorBumpOpener
 
 - type: entity
-  name: quartermaster PDA
+  name: КПК квартирмейстера
   parent: BasePDA
   id: QuartermasterPDA
-  description: PDA for the guy that orders the guns.
+  description: КПК для того парня, что заказывает пушки.
   components:
   - type: Pda
     id: QuartermasterIDCard
@@ -502,8 +502,8 @@
 - type: entity
   parent: BasePDA
   id: CargoPDA
-  name: cargo PDA
-  description: PDA for the guys that order the pizzas.
+  name: грузовой КПК
+  description: КПК для ребят, что заказывают пиццу.
   components:
   - type: Pda
     id: CargoIDCard
@@ -520,8 +520,8 @@
 - type: entity
   parent: BasePDA
   id: SalvagePDA
-  name: salvage PDA
-  description: Smells like ash.
+  name: КПК утилизатора
+  description: Пахнет пеплом.
   components:
   - type: Pda
     id: SalvageIDCard
@@ -548,8 +548,8 @@
 - type: entity
   parent: BasePDA
   id: BartenderPDA
-  name: bartender PDA
-  description: Smells like beer.
+  name: КПК бармена
+  description: Пахнет пивом.
   components:
   - type: Pda
     id: BartenderIDCard
@@ -566,8 +566,8 @@
 - type: entity
   parent: BaseWidePDA
   id: LibrarianPDA
-  name: librarian PDA
-  description: Smells like books.
+  name: КПК библиотекаря
+  description: Пахнет книгами.
   components:
   - type: Pda
     id: LibrarianIDCard
@@ -618,8 +618,8 @@
 - type: entity
   parent: BaseSecurityPDA
   id: LawyerPDA
-  name: lawyer PDA
-  description: For lawyers to poach dubious clients.
+  name: КПК юриста
+  description: Чтобы юристы заманивали сомнительных клиентов.
   components:
   - type: Pda
     id: LawyerIDCard
@@ -653,8 +653,8 @@
 - type: entity
   parent: BasePDA
   id: JanitorPDA
-  name: janitor PDA
-  description: Smells like bleach.
+  name: КПК уборщика
+  description: Пахнет хлоркой.
   components:
   - type: Pda
     id: JanitorIDCard
@@ -671,8 +671,8 @@
 - type: entity
   parent: BasePDA
   id: CaptainPDA
-  name: captain PDA
-  description: Surprisingly no different from your PDA.
+  name: КПК капитана
+  description: Удивительно, ничем не отличается от твоего КПК.
   components:
   - type: Pda
     id: CaptainIDCard
@@ -695,8 +695,8 @@
 - type: entity
   parent: BasePDA
   id: HoPPDA
-  name: head of personnel PDA
-  description: Looks like it's been chewed on.
+  name: КПК главы персонала
+  description: Выглядит так, будто его жевали.
   components:
   - type: Pda
     id: HoPIDCard
@@ -720,8 +720,8 @@
 - type: entity
   parent: BasePDA
   id: CEPDA
-  name: chief engineer PDA
-  description: Looks like it's barely been used.
+  name: КПК главного инженера
+  description: Выглядит почти неиспользованным.
   components:
   - type: Pda
     id: CEIDCard
@@ -748,8 +748,8 @@
 - type: entity
   parent: BasePDA
   id: EngineerPDA
-  name: engineer PDA
-  description: Rugged and well-worn.
+  name: КПК инженера
+  description: Прочный и изрядно потёртый.
   components:
   - type: Pda
     id: EngineeringIDCard
@@ -776,8 +776,8 @@
 - type: entity
   parent: BaseMedicalPDA
   id: CMOPDA
-  name: chief medical officer PDA
-  description: Extraordinarily shiny and sterile.
+  name: КПК главного врача
+  description: Необычайно блестящий и стерильный.
   components:
   - type: Pda
     id: CMOIDCard
@@ -796,8 +796,8 @@
 - type: entity
   parent: BaseMedicalPDA
   id: MedicalPDA
-  name: medical PDA
-  description: Shiny and sterile.
+  name: КПК медика
+  description: Блестящий и стерильный.
   components:
   - type: Pda
     id: MedicalIDCard
@@ -829,8 +829,8 @@
 - type: entity
   parent: BaseMedicalPDA
   id: ParamedicPDA
-  name: paramedic PDA
-  description: Shiny and sterile.
+  name: КПК парамедика
+  description: Блестящий и стерильный.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Devices/pda.rsi #Starlight
@@ -863,8 +863,8 @@
 - type: entity
   parent: BaseMedicalPDA
   id: ChemistryPDA
-  name: chemist PDA # Starlight
-  description: It has a few discolored blotches here and there.
+  name: КПК химика # Starlight
+  description: Кое-где видны обесцвеченные пятна.
   components:
   - type: Pda
     id: ChemistIDCard
@@ -882,8 +882,8 @@
 - type: entity
   parent: BasePDA
   id: RnDPDA
-  name: research director PDA
-  description: It appears surprisingly ordinary.
+  name: КПК научного руководителя
+  description: Выглядит на удивление обыденно.
   components:
   - type: Pda
     id: RDIDCard
@@ -902,8 +902,8 @@
 - type: entity
   parent: BasePDA
   id: SciencePDA
-  name: science PDA
-  description: It's covered with an unknown gooey substance.
+  name: КПК учёного
+  description: Покрыт неизвестной липкой субстанцией.
   components:
   - type: Pda
     id: ResearchIDCard
@@ -921,8 +921,8 @@
 - type: entity
   parent: BaseSecurityPDA
   id: HoSPDA
-  name: head of security PDA
-  description: Whosoever bears this PDA is the law.
+  name: КПК главы службы безопасности
+  description: Тот, кто носит этот КПК, и есть закон.
   components:
   - type: Pda
     id: HoSIDCard
@@ -949,8 +949,8 @@
 - type: entity
   parent: BaseSecurityPDA
   id: WardenPDA
-  name: warden PDA
-  description: The OS appears to have been jailbroken.
+  name: КПК смотрителя
+  description: Похоже, операционка подверглась джейлбрейку.
   components:
   - type: Pda
     id: WardenIDCard
@@ -968,8 +968,8 @@
 - type: entity
   parent: BaseSecurityPDA
   id: SecurityPDA
-  name: security PDA
-  description: Red to hide the stains of assistant blood.
+  name: КПК офицера СБ
+  description: Красный, чтобы скрыть пятна крови ассистентов.
   components:
   - type: Pda
     id: SecurityIDCard
@@ -986,8 +986,8 @@
 - type: entity
   parent: [ BaseCentcommContraband, BaseSecurityPDA ] # Blimpuf
   id: CentcomPDA
-  name: CentComm PDA
-  description: Light green sign of walking bureaucracy.
+  name: КПК ЦентКома
+  description: Светло-зелёный символ ходячей бюрократии.
   components:
   - type: Pda
     id: CentcomIDCard
@@ -1022,9 +1022,9 @@
 - type: entity
   parent: CentcomPDA
   id: AdminPDA
-  name: Admin PDA
+  name: КПК админа
   suffix: Admin
-  description: If you are not an admin please return this PDA to the nearest admin.
+  description: Если вы не админ, верните этот КПК ближайшему админу.
   components:
   - type: Pda
     id: UniversalIDCard
@@ -1069,8 +1069,8 @@
 - type: entity
   parent: BasePDA
   id: MusicianPDA
-  name: musician PDA
-  description: It fills you with inspiration.
+  name: КПК музыканта
+  description: Наполняет вдохновением.
   components:
   - type: Pda
     id: MusicianIDCard
@@ -1103,8 +1103,8 @@
 - type: entity
   parent: BasePDA
   id: AtmosPDA
-  name: atmos PDA
-  description: Still smells like plasma.
+  name: КПК атмос-техника
+  description: Всё ещё пахнет плазмой.
   components:
   - type: Pda
     id: AtmosIDCard
@@ -1131,8 +1131,8 @@
 - type: entity
   parent: BasePDA
   id: ClearPDA
-  name: clear PDA
-  description: 99 and 44/100ths percent pure plastic.
+  name: прозрачный КПК
+  description: Чистый пластик на 99 и 44/100 процента.
   components:
   - type: Pda
     id: AssistantIDCard
@@ -1164,8 +1164,8 @@
 - type: entity
   parent: [ BasePDA, BaseSyndicateContraband ]
   id: SyndiPDA
-  name: syndicate PDA
-  description: Ok, time to be a productive member of- oh cool I'm a bad guy time to kill people!
+  name: КПК Синдиката
+  description: Так, пора быть продуктивным членом экипажа... о, круто, я злодей, пора убивать!
   components:
   - type: Pda
     id: OperativeIDCard
@@ -1188,8 +1188,8 @@
 - type: entity
   parent: [ SyndiPDA, BaseSyndicateContraband ]
   id: SyndiOperativePDA
-  name: syndicate operative PDA
-  description: Death to NT!
+  name: КПК оперативника Синдиката
+  description: Смерть НТ!
   components:
   - type: Pda
     id: SyndiOperativeIDCard
@@ -1204,8 +1204,8 @@
 - type: entity
   parent: [ SyndiOperativePDA, BaseSyndicateContraband ]
   id: SyndiCorpsmanPDA
-  name: syndicate corpsman PDA
-  description: Commander... I need to cook!
+  name: КПК корпсмена Синдиката
+  description: Командир... мне нужно готовить!
   components:
   - type: Pda
     id: SyndiCorpsmanIDCard
@@ -1227,8 +1227,8 @@
 - type: entity
   parent: [ SyndiOperativePDA, BaseSyndicateContraband ]
   id: SyndiCommanderPDA
-  name: syndicate commander PDA
-  description: So what are we, some kind of Nukie squad?
+  name: КПК командира Синдиката
+  description: Так что мы, типа отряд нюкеров?
   components:
   - type: Pda
     id: SyndiCommanderIDCard
@@ -1243,9 +1243,9 @@
 - type: entity
   parent: [ BaseCentcommContraband, BaseSecurityPDA ] # Blimpuf
   id: ERTLeaderPDA
-  name: ERT leader PDA # Starlight: capitalization
+  name: КПК ОБР-лидера # Starlight: capitalization
   suffix: Leader
-  description: Red for firepower.
+  description: Красный — цвет огневой мощи.
   components:
   - type: Pda
     id: ERTLeaderIDCard
@@ -1276,9 +1276,9 @@
 - type: entity
   parent: ERTLeaderPDA
   id: ERTChaplainPDA
-  name: ERT chaplain PDA # Starlight: capitalization
+  name: КПК ОБР-капеллана # Starlight: capitalization
   suffix: Chaplain
-  description: Red for the blood of sinners. # Starlight
+  description: Красный — цвет крови грешников. # Starlight
   components:
   - type: Pda
     id: ERTChaplainIDCard
@@ -1286,9 +1286,9 @@
 - type: entity
   parent: ERTLeaderPDA
   id: ERTEngineerPDA
-  name: ERT engineer PDA # Starlight: capitalization
+  name: КПК ОБР-инженера # Starlight: capitalization
   suffix: Engineer
-  description: Red for firepower. It's well-worn. # Starlight
+  description: Красный — цвет огневой мощи. Изрядно потёрт. # Starlight
   components:
   - type: Pda
     id: ERTEngineerIDCard
@@ -1296,9 +1296,9 @@
 - type: entity
   parent: ERTLeaderPDA
   id: ERTJanitorPDA
-  name: ERT janitor PDA # Starlight: capitalization
+  name: КПК ОБР-уборщика # Starlight: capitalization
   suffix: Janitor
-  description: Red for firepower. It's squeaky clean. # Starlight
+  description: Красный — цвет огневой мощи. Сверкает чистотой. # Starlight
   components:
   - type: Pda
     id: ERTJanitorIDCard
@@ -1306,9 +1306,9 @@
 - type: entity
   parent: ERTLeaderPDA
   id: ERTMedicPDA
-  name: ERT medic PDA # Starlight: capitalization
+  name: КПК ОБР-медика # Starlight: capitalization
   suffix: Medic
-  description: Red for firepower. It's shiny and sterile. # Starlight
+  description: Красный — цвет огневой мощи. Блестящий и стерильный. # Starlight
   components:
   - type: Pda
     id: ERTMedicIDCard
@@ -1316,9 +1316,9 @@
 - type: entity
   parent: ERTLeaderPDA
   id: ERTSecurityPDA
-  name: ERT security PDA # Starlight: capitalization
+  name: КПК ОБР-офицера # Starlight: capitalization
   suffix: Security
-  description: Red for firepower. It has tally marks etched on the side. # Starlight
+  description: Красный — цвет огневой мощи. Сбоку выцарапаны зарубки. # Starlight
   components:
   - type: Pda
     id: ERTSecurityIDCard
@@ -1326,8 +1326,8 @@
 - type: entity
   parent: ERTLeaderPDA
   id: CBURNPDA
-  name: CBURN PDA
-  description: Smells like rotten flesh.
+  name: КПК CBURN
+  description: Пахнет гнилой плотью.
   components:
   - type: Pda
     id: CBURNIDcard
@@ -1339,8 +1339,8 @@
 - type: entity
   parent: BasePDA
   id: PsychologistPDA
-  name: psychologist PDA
-  description: Looks immaculately cleaned.
+  name: КПК психолога
+  description: Выглядит безупречно чистым.
   components:
   - type: Pda
     id: PsychologistIDCard
@@ -1358,8 +1358,8 @@
 - type: entity
   parent: BasePDA
   id: ReporterPDA
-  name: reporter PDA
-  description: Smells like freshly printed press.
+  name: КПК репортёра
+  description: Пахнет свежей типографской краской.
   components:
   - type: Pda
     id: ReporterIDCard
@@ -1382,8 +1382,8 @@
 - type: entity
   parent: BasePDA
   id: ZookeeperPDA
-  name: zookeeper PDA
-  description: Made with genuine synthetic leather. Crikey!
+  name: КПК смотрителя зоопарка
+  description: Из настоящей искусственной кожи. Ничего себе!
   components:
   - type: Pda
     id: ZookeeperIDCard
@@ -1400,8 +1400,8 @@
 - type: entity
   parent: BasePDA
   id: BoxerPDA
-  name: boxer PDA
-  description: Float like a butterfly, ringtone like a bee.
+  name: КПК боксёра
+  description: Порхай как бабочка, звони как пчела.
   components:
   - type: Pda
     id: BoxerIDCard
@@ -1419,8 +1419,8 @@
 - type: entity
   parent: BaseSecurityPDA
   id: DetectivePDA
-  name: detective PDA
-  description: Smells like rain... pouring down the rooftops...
+  name: КПК детектива
+  description: Пахнет дождём... стекающим по крышам...
   components:
   - type: Pda
     id: DetectiveIDCard
@@ -1446,8 +1446,8 @@
 - type: entity
   parent: BaseMedicalPDA
   id: BrigmedicPDA
-  name: brigmedic PDA
-  description: I wonder whose pulse is on the screen? I hope it doesn't stop...
+  name: КПК бригмедика
+  description: Интересно, чей пульс на экране? Надеюсь, он не остановится...
   components:
   - type: Pda
     id: BrigmedicIDCard
@@ -1475,9 +1475,9 @@
 - type: entity
   parent: ClownPDA
   id: CluwnePDA
-  name: cluwne PDA
+  name: КПК клувна
   suffix: Unremoveable
-  description: Cursed cluwne PDA.
+  description: Проклятый КПК клувна.
   components:
   - type: Pda
     id: CluwneIDCard
@@ -1510,8 +1510,8 @@
 - type: entity
   parent: BasePDA
   id: SeniorEngineerPDA
-  name: senior engineer PDA
-  description: Seems to have been taken apart and put back together several times.
+  name: КПК старшего инженера
+  description: Кажется, его не раз разбирали и собирали заново.
   components:
   - type: Pda
     id: SeniorEngineerIDCard
@@ -1538,8 +1538,8 @@
 - type: entity
   parent: BasePDA
   id: SeniorResearcherPDA
-  name: senior researcher PDA
-  description: Looks like it's been through years of chemical burns and explosions.
+  name: КПК старшего исследователя
+  description: Видно годы химических ожогов и взрывов.
   components:
   - type: Pda
     id: SeniorResearcherIDCard
@@ -1558,8 +1558,8 @@
 - type: entity
   parent: BaseMedicalPDA
   id: SeniorPhysicianPDA
-  name: senior physician PDA
-  description: Smells faintly like iron and chemicals.
+  name: КПК старшего врача
+  description: Слабо пахнет железом и химикатами.
   components:
   - type: Pda
     id: SeniorPhysicianIDCard
@@ -1578,8 +1578,8 @@
 - type: entity
   parent: BaseSecurityPDA
   id: SeniorOfficerPDA
-  name: senior officer PDA
-  description: Beaten, battered and broken, but just barely useable.
+  name: КПК старшего офицера СБ
+  description: Побитый, потрёпанный и сломанный, но ещё работает.
   components:
   - type: Pda
     id: SeniorOfficerIDCard
@@ -1597,8 +1597,8 @@
 - type: entity
   parent: BasePDA
   id: SeniorCourierPDA
-  name: senior courier PDA
-  description: Smells like postage stamps and shuttle fuel.
+  name: КПК старшего курьера
+  description: Пахнет почтовыми марками и шаттловым топливом.
   components:
   - type: Pda
     id: CargoIDCard
@@ -1616,8 +1616,8 @@
 - type: entity
   parent: [ BaseContrabandTier4, BasePDA ] # Blimpuf
   id: NinjaPDA
-  name: ninja PDA
-  description: You stealthy bastard, you!
+  name: КПК ниндзя
+  description: Ах ты скрытный ублюдок!
   components:
   - type: Pda
     id: NinjaIDCard
@@ -1632,8 +1632,8 @@
 - type: entity
   parent: [ BaseMajorContraband, SyndiPDA ]
   id: PiratePDA
-  name: pirate PDA
-  description: Yargh!
+  name: "КПК пирата: Ярр!"
+  description: Ярр!
   components:
   - type: Pda
     id: PirateIDCard
@@ -1648,8 +1648,8 @@
 - type: entity
   parent: [BasePDA, SelectableLock]
   id: ChameleonPDA
-  name: assistant PDA
-  description: Why isn't it gray?
+  name: КПК ассистента
+  description: Почему он не серый?
   suffix: Chameleon
   components:
   - type: PdaBorderColor
@@ -1687,8 +1687,8 @@
 - type: entity
   parent: BaseWidePDA
   id: WizardPDA
-  name: wizard PDA
-  description: You hear faint whispers coming from it.
+  name: КПК волшебника
+  description: От него доносится тихий шёпот.
   components:
   - type: Pda
     id: WizardIDCard
@@ -1711,7 +1711,7 @@
 - type: entity
   parent: ClearPDA
   id: ScurretPDA
-  description: A temporary PDA granted to scurret temps. Doesn't do much. Wawa!
+  description: Временный КПК для работников-скурретов. Почти ничего не умеет. Вава!
   components:
   - type: Pda
     id: VisitorIDCard

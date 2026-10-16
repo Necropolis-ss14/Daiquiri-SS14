@@ -1,8 +1,8 @@
 - type: entity
-  name: cadet
+  name: кадет
   parent: MobSovietComrade
   id: MobSecurityCadet
-  description: You've randomly been randomly selected for a random search
+  description: Вас случайно выбрали для случайного обыска
   categories: [ Spawner ]
   components:
   - type: NpcFactionMember
@@ -15,7 +15,7 @@
     - SecurityCadetNpcGear
 
 - type: entity
-  name: cadet
+  name: кадет
   parent: MobSecurityCadet
   id: MobSecurityCadetHostile
   suffix: hostile

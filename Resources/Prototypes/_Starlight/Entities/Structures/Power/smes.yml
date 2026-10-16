@@ -3,7 +3,7 @@
   id: SMESBlue
   suffix: Hyper Advanced, 64MJ
   name: гиперпродвинутый СМЭС
-  description: An even-higher-capacity superconducting magnetic energy storage (SMES) unit.
+  description: Сверхпроводящая магнитная энергонакопительная установка (СМЭС) сверхвысокой ёмкости.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Power/smes.rsi #SL Edit

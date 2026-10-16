@@ -20,7 +20,7 @@
   parent: BaseAction
   id: ActionRandomizeLanguages
   name: Смена языка
-  description: You ever heard of the Tower of Babel?
+  description: Слышал когда-нибудь о Вавилонской башне?
   components:
   - type: Magic
     requiresClothes: true
@@ -43,7 +43,7 @@
   parent: BaseAction
   id: ActionRetractableItemManaBlade
   name: Явить спектральный клинок
-  description: Channel your power into your hand and create a sword out of hardened mana.
+  description: Направьте силу в свою руку и создайте меч из затвердевшей маны.
   components:
     - type: Action
       useDelay: 2

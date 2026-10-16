@@ -4,7 +4,7 @@
   parent: BaseAction
   id: ActionCantripGlow
   name: Светящаяся сфера
-  description: Creates a short-lived luminous ball of light. Decays after 25 seconds.
+  description: Создаёт недолговечный светящийся шар света. Исчезает через 25 секунд.
   components:
   - type: Magic
     requiresClothes: false
@@ -31,7 +31,7 @@
   parent: BaseAction
   id: ActionCantripSpark
   name: Магический уголёк
-  description: Creates a short-lived flame suitable for use as an ignition source. Decays after 5 seconds.
+  description: Создаёт недолговечное пламя, подходящее как источник огня. Исчезает через 5 секунд.
   components:
   - type: Magic
     requiresClothes: false
@@ -57,7 +57,7 @@
   parent: BaseAction
   id: ActionCantripAntidote
   name: Омолаживающее семя
-  description: Creates a magic seed that restores vitality to an ailing plant. Vanishes if not used within 15 seconds.
+  description: Создаёт волшебное семя, возвращающее жизненные силы больному растению. Исчезает, если не использовать в течение 15 секунд.
   components:
   - type: Magic
     requiresClothes: false
@@ -108,7 +108,7 @@
   parent: BaseAction
   id: ActionCantripBandage
   name: Кровоостанавливающий глиф
-  description: Creates a magic rune that stops bleeding. Vanishes if not used within 15 seconds.
+  description: Создаёт волшебную руну, останавливающую кровотечение. Исчезает, если не использовать в течение 15 секунд.
   components:
   - type: Magic
     requiresClothes: false
@@ -134,7 +134,7 @@
   parent: BaseAction
   id: ActionCantripMessage
   name: Психический шёпот
-  description: Transmits a secret message into the mind of a single target.
+  description: Передаёт тайное сообщение в разум одной цели.
   components:
   - type: Magic
     requiresClothes: false

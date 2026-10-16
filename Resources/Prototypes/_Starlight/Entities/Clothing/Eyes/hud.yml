@@ -2,7 +2,7 @@
   parent: [ClothingEyesBase, BaseBlueShieldContraband]
   id: ClothingEyesHudBlueShield
   name: HUD блюшилда
-  description: An innovative heads-up display that scans the humanoids in view and provides accurate data about their ID status, security records, and medical information.
+  description: Инновационный нашлемный дисплей, сканирующий гуманоидов в поле зрения и выдающий точные данные об их ID, записях СБ и медицинской информации.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Eyes/Hud/blueshield.rsi
@@ -32,7 +32,7 @@
   parent: [ClothingEyesHudBlueShield, ClothingHeadEyeBaseFlippable]
   id: ClothingEyesEyepatchHudBlueShield
   name: моновизор блюшилда
-  description: An innovative heads-up display that scans the humanoids in view and provides accurate data about their ID status, security records, and medical information. For true patriots.
+  description: Инновационный нашлемный дисплей, сканирующий гуманоидов в поле зрения и выдающий точные данные об их ID, записях СБ и медицинской информации. Для истинных патриотов.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Eyes/Hud/blueshieldpatch.rsi
@@ -53,7 +53,7 @@
   parent: [ BaseCommandContraband, BaseAssistantManagerContraband, ClothingEyesHudCommand ]
   id: ClothingEyesEyepatchHudAssistantManager
   name: моновизор ассистента управляющего
-  description: A jade-colored heads-up display that scans the humanoids in view and provides accurate data about their ID status. Surrender witness to its' near-invisible string.
+  description: Нефритовый нашлемный дисплей, сканирующий гуманоидов в поле зрения и выдающий точные данные об их ID. Узри его почти невидимую нить.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Eyes/Hud/assistantpatch.rsi
@@ -68,7 +68,7 @@
   parent: [ClothingEyesBase, ShowSecurityIcons, BaseSecurityContraband]
   id: ClothingEyesHudBrigmedic
   name: HUD бригмедика
-  description: Tamashi-upgraded HUDs. Yes. Brigmedic ones.
+  description: HUD, улучшенные Тамаси. Да. Бригмедиковские.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Eyes/Hud/brigmedichud.rsi
@@ -97,7 +97,7 @@
   parent: [ClothingEyesHudBrigmedic, ClothingHeadEyeBaseFlippable]
   id: ClothingEyesEyepatchHudBrigmedic
   name: моновизор бригмедика
-  description: Tamashi-upgraded HUDs for true patriots. Yes. Brigmedic ones.
+  description: HUD, улучшенные Тамаси для истинных патриотов. Да. Бригмедиковские.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Eyes/Hud/brigmedpatch.rsi
@@ -119,7 +119,7 @@
   parent: [ClothingEyesBase, ShowSecurityIcons, BaseSecurityContraband]
   id: ClothingEyesHudCorpsman
   name: HUD санитара
-  description: Tamashi-upgraded HUDs for true patriots. Yes. Corpsman ones.
+  description: HUD, улучшенные Тамаси для истинных патриотов. Да. Корпсменские.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Eyes/Hud/corpsmanhud.rsi
@@ -148,7 +148,7 @@
   parent: ClothingEyesBase
   id: ClothingEyesHudChemical
   name: химический HUD
-  description: A heads-up display that scans the chemical composition of a solution.
+  description: Нашлемный дисплей, сканирующий химический состав раствора.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Eyes/Hud/chemhud.rsi
@@ -165,7 +165,7 @@
   parent: [ClothingEyesHudChemical, ClothingHeadEyeBaseFlippable]
   id: ClothingEyesEyepatchHudChemical
   name: химический моновизор
-  description: A heads-up display that scans the chemical composition of a solution. For true patriots.
+  description: Нашлемный дисплей, сканирующий химический состав раствора. Для истинных патриотов.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Eyes/Hud/chempatch.rsi
@@ -186,7 +186,7 @@
   parent: ClothingEyesBase
   id: ClothingEyesHudSkills
   name: HUD навыков
-  description: Visor with a built-in skills HUD, showing the employment history of nearby NT crew members.
+  description: Визор со встроенным HUD навыков, показывающим трудовую историю ближайших членов экипажа НТ.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Eyes/Hud/hudskill.rsi
@@ -203,7 +203,7 @@
   parent: [ClothingEyesBase, BaseCentcommContraband]
   id: ClothingEyesHudCentComm
   name: HUD офицера ЦК
-  description: A Innovative heads-up display that scans the humanoids in view and provides accurate data about their ID status, security records, and medical information.
+  description: Инновационный нашлемный дисплей, сканирующий гуманоидов в поле зрения и выдающий точные данные об их ID, записях СБ и медицинской информации.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Eyes/Hud/centcomm.rsi
@@ -231,7 +231,7 @@
   parent: [ClothingEyesBase, BaseNanoTrasenContraband]
   id: ClothingEyesNTRMonocle
   name: монокль представителя НаноТрейзен
-  description: A fancy monocle that also functions as a HUD to make sure no functionality is lost for style.
+  description: Щегольской монокль, работающий и как HUD, чтобы стиль не вредил функциональности.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Eyes/Hud/ntrmonocle.rsi
@@ -247,7 +247,7 @@
   parent: [ClothingEyesBase, ShowSecurityIcons, BaseSovietContraband]
   id: ClothingEyesHudSovietMarine
   name: гогглы морпеха ССФ
-  description: The iconic soviet goggles, in use broadly by the soviet forces throughout.
+  description: Культовые советские гогглы, широко используемые советскими войсками.
   components:
     - type: Contraband
       tier: Tier3
@@ -289,7 +289,7 @@
   parent: [BaseTSFContraband, ClothingHeadset]
   id: ClothingHudTSF
   name: HUD Солнечного правительства
-  description: Visor with a built-in modern OCULUS array augments the wearer's vision.
+  description: Визор со встроенной современной матрицей OCULUS, улучшающей зрение владельца.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Eyes/Hud/tsf.rsi

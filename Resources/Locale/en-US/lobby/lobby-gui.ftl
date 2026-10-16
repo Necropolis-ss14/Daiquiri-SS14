@@ -19,6 +19,7 @@ ui-lobby-ready-button-tooltip-join-state = Clock in late to the current crew shi
 ui-lobby-lock-priorities-checkbox-tooltip = Allow dragging and dropping of job priorities directly.
 ui-lobby-lock-priorities-checkbox-label = Allow dragging
 ui-lobby-music-queue-title = Music queue
+ui-lobby-music-queue-flavor = You have excellent music taste
 ui-lobby-music-queue-tooltip = Show queue
 ui-lobby-music-pause-tooltip = Pause / resume music
 ui-lobby-music-seek-tooltip = Seek track

@@ -1,7 +1,7 @@
 - type: entity
   id: FloorWaterCatwalkBorderlessEntity
-  name: water catwalk
-  description: A catwalk for easier water-based maneuvering.
+  name: мостки над водой
+  description: Мостки для удобного передвижения по воде.
   placement:
     mode: SnapgridCenter
     snap:
@@ -59,7 +59,7 @@
 - type: entity
   id: FloorWaterCatwalkEntity
   parent: FloorWaterCatwalkBorderlessEntity
-  name: water catwalk
+  name: мостки над водой
   components:
   - type: IconSmooth
     key: floor

@@ -1,5 +1,7 @@
 - type: !PartialOnly entity
   id: TechnologyDisk
+  name: технологический диск
+  description: Диск с технологическими данными для сервера РНД.
   components:
   - type: Tag
     tags:
@@ -7,6 +9,8 @@
 
 - type: !PartialOnly entity
   id: TechnologyDiskRare
+  name: технологический диск
+  description: Диск с технологическими данными для сервера РНД.
   components:
   - type: Tag
     tags:
@@ -14,6 +18,8 @@
 
 - type: !PartialOnly entity
   id: ResearchDisk
+  name: диск исследовательских очков (1000)
+  description: Диск для сервера РНД, содержащий 1000 очков.
   components:
   - type: Tag
     tags:
@@ -27,6 +33,8 @@
 
 - type: !PartialOnly entity
   id: ResearchDisk5000
+  name: диск исследовательских очков (5000)
+  description: Диск для сервера РНД, содержащий 5000 очков.
   components:
   - type: Tag
     tags:
@@ -34,6 +42,8 @@
 
 - type: !PartialOnly entity
   id: ResearchDisk10000
+  name: диск исследовательских очков (10000)
+  description: Диск для сервера РНД, содержащий 10000 очков.
   components:
   - type: Tag
     tags:
@@ -41,6 +51,8 @@
 
 - type: !PartialOnly entity
   id: ResearchDiskDebug
+  name: диск исследовательских очков
+  description: Диск для сервера РНД, содержащий столько очков, сколько вам надо.
   components:
   - type: Tag
     tags:

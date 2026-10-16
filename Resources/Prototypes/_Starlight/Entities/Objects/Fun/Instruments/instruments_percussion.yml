@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseHandheldInstrument
   id: SuperSynthesizerInstrument
-  name: super synthesizer
-  description: Blasting the ghetto with Touhou MIDIs since 2020.
+  name: суперсинтезатор
+  description: Качаем гетто мидишками Touhou с 2020 года.
   components:
   - type: Instrument
     allowPercussion: true

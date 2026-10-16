@@ -2,7 +2,7 @@
   parent: ClothingHeadHeadHatBaseFlippable
   id: ClothingHeadHatCargoFormalsoft
   name: торжественная кепка грузчика
-  description: A baseball cap colored to match cargo's formal uniforms.
+  description: Бейсболка в цветах парадной формы карго.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Head/Soft/cargoformalsoft.rsi
@@ -29,7 +29,7 @@
   parent: ClothingHeadHeadHatBaseFlippable
   id: ClothingHeadHatMailsoftVisor
   name: козырёк почтальона
-  description: A lightweight sun visor for every aspiring mail technician.
+  description: Лёгкий солнцезащитный козырёк для каждого начинающего почтового техника.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Head/Soft/mailvisor.rsi
@@ -56,7 +56,7 @@
   parent: ClothingHeadHeadHatBaseFlippable
   id: ClothingHeadHatMailsoftVisorSenior
   name: козырёк старшего почтальона
-  description: A lightweight sun visor for the most devoted of mail technicians.
+  description: Лёгкий солнцезащитный козырёк для самых преданных почтовых техников.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Head/Soft/mailvisorsenior.rsi

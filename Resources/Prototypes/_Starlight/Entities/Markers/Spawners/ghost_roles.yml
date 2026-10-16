@@ -21,7 +21,7 @@
   categories: [ HideSpawnMenu, Spawner ]
   parent: BaseAntagSpawner
   id: SpawnPointGhostBrighteye
-  name: ghost role spawn point
+  name: точка появления гостроли
   suffix: brighteye
   components:
   - type: GhostRole
@@ -42,7 +42,7 @@
   categories: [ HideSpawnMenu, Spawner ]
   parent: BaseAntagSpawner
   id: SpawnPointGhostTerminator
-  name: exterminator spawn point
+  name: точка появления экстерминатора
   components:
   - type: GhostRole
     important: true
@@ -171,7 +171,7 @@
   categories: [ HideSpawnMenu, Spawner ]
   parent: MarkerBase
   id: SpawnPointXenoroach
-  name: xenoroach spawn point
+  name: точка появления ксенороуча
   components:
   - type: GhostRole
     name: ghost-role-information-xenoroach-name
@@ -191,7 +191,7 @@
 
 - type: entity
   id: SpawnPointGhostCluwneBeast
-  name: ghost role spawn point
+  name: точка появления гостроли
   suffix: cluwnebeast
   parent: MarkerBase
   components:
@@ -212,7 +212,7 @@
 - type: entity
   parent: BaseAntagSpawner
   id: SpawnPointGhostDroneRogue
-  name: rogue drone ghost role spawn point
+  name: точка появления гостроли дрона-ренегата
   components:
   - type: GhostRole
     name: ghost-role-information-roguedrone-name

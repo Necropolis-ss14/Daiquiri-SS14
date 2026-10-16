@@ -1,6 +1,6 @@
 - type: entity
   name: стручок органов
-  description: Strangest salad you've ever seen.
+  description: Страннейший салат, что ты видел.
   parent: [FoodProduceBase, BaseSlicingRefinable]
   id: FoodOrganTree
   components:
@@ -44,7 +44,7 @@
   name: дьявольское яблоко
   parent: FoodProduceBase
   id: FoodEvilApple
-  description: A fruit born of pure evil, eating it just might bring the doctors to you.
+  description: Фрукт, рождённый чистым злом, съешь — и врачи тут как тут.
   components:
     - type: FlavorProfile
       flavors:
@@ -66,10 +66,10 @@
         - Fruit
 
 - type: entity
-  name: resinfera
+  name: резинфера
   parent: FoodProduceBase
   id: FoodResinfera
-  description: A plant used to nurse minor bruises, careful of the spines.
+  description: Растение для лечения лёгких ушибов, осторожно с шипами.
   components:
     - type: FlavorProfile
       flavors:
@@ -94,7 +94,7 @@
   name: лист мяты
   parent: FoodProduceBase
   id: FoodMintLeaf
-  description: A mint leaf to be made into mint extract, great for tea.
+  description: Лист мяты для мятного экстракта, отлично идёт в чай.
   components:
     - type: FlavorProfile
       flavors:
@@ -121,10 +121,10 @@
         - Vegetable
 
 - type: entity
-  name: spearmint
+  name: мятное копьё
   parent: Spear
   id: SpearMint
-  description: A spear cut from a mutated mint plant.
+  description: Копьё, вырезанное из мутировавшей мяты.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Melee/spearmint.rsi
@@ -144,7 +144,7 @@
   name: палочка корицы
   parent: FoodProduceBase
   id: FoodCinnamonStick
-  description: Dried bark rolled into a cinnamon stick, ready to bring the spice.
+  description: Высушенная кора, скрученная в палочку корицы, готова добавить пряности.
   components:
     - type: FlavorProfile
       flavors:
@@ -169,7 +169,7 @@
   name: палочка синнафлэр
   parent: Flare
   id: CinnaflareStick
-  description: Dried bark rolled into a stick, ready to ignite and light the way.
+  description: Высушенная кора, скрученная в палочку, готова вспыхнуть и осветить путь.
   components:
     - type: PotencyVisuals
     - type: Extractable
@@ -208,7 +208,7 @@
   parent: FoodMushroom
   id: FoodBrownMushroom
   name: коричневые грибы
-  description: Plump brown button mushrooms with a mild, earthy flavor.
+  description: Пухлые коричневые шампиньоны с мягким землистым вкусом.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Specific/Hydroponics/brown_mushroom.rsi

@@ -61,10 +61,10 @@
     size: Tiny
 
 - type: entity
-  name: ticket
+  name: билет
   parent: BaseTicket
   id: Ticket
-  description: 'A piece of paper with printed number.'
+  description: "Листок с напечатанным номером."
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Misc/ticket.rsi
@@ -86,7 +86,7 @@
 - type: entity
   parent: Ticket
   id: TicketNT
-  description: 'A piece of paper with printed number and NT logo.'
+  description: "Листок с напечатанным номером и логотипом НТ."
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Misc/ticket.rsi

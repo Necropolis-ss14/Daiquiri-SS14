@@ -2,7 +2,7 @@
   parent: AlertsComputerCircuitboard
   id: AlertsComputerCircuitboardDesktop
   name: плата настольного компьютера атмосферных тревог
-  description: A circuit board for an atmospheric alerts dekstop computer.
+  description: Плата настольного компьютера атмосферных тревог
   components:
     - type: ComputerBoard
       prototype: ComputerAlertDesktop
@@ -15,7 +15,7 @@
   parent: AtmosMonitoringComputerCircuitboard
   id: AtmosMonitoringComputerCircuitboardDesktop
   name: плата настольного компьютера мониторинга атмосферы
-  description: A circuit board for a desktop atmospheric network monitor.
+  description: Плата настольного компьютера мониторинга атмосферы
   components:
     - type: ComputerBoard
       prototype: ComputerAtmosMonitoringDesktop
@@ -28,7 +28,7 @@
   parent: SurveillanceCameraMonitorCircuitboard
   id: SurveillanceCameraMonitorCircuitboardDesktop
   name: плата настольного монитора камер наблюдения
-  description: A circuit board for a desktop surveillance camera monitor.
+  description: Плата настольного монитора камер наблюдения
   components:
   - type: ComputerBoard
     prototype: ComputerSurveillanceCameraMonitorDesktop
@@ -41,7 +41,7 @@
   parent: CargoBountyComputerCircuitboard
   id: CargoBountyComputerCircuitboardDesktop
   name: плата настольного компьютера наград карго
-  description: A circuit board for a cargo bounty desktop computer.
+  description: Плата настольного компьютера наград карго
   components:
   - type: ComputerBoard
     prototype: ComputerCargoBountyDesktop
@@ -54,7 +54,7 @@
   parent: CrewMonitoringComputerCircuitboard
   id: CrewMonitoringComputerCircuitboardDesktop
   name: плата настольного компьютера мониторинга экипажа
-  description: A circuit board for a desktop crew monitoring console.
+  description: Плата настольного компьютера мониторинга экипажа
   components:
   - type: ComputerBoard
     prototype: ComputerCrewMonitoringDesktop
@@ -67,7 +67,7 @@
   parent: CriminalRecordsComputerCircuitboard
   id: CriminalRecordsComputerCircuitboardDesktop
   name: плата настольного компьютера криминальных записей
-  description: A circuit board for a criminal records desktop computer.
+  description: Плата настольного компьютера криминальных записей
   components:
     - type: ComputerBoard
       prototype: ComputerCriminalRecordsDesktop
@@ -80,7 +80,7 @@
   parent: StationRecordsComputerCircuitboard
   id: StationRecordsComputerCircuitboardDesktop
   name: плата настольного компьютера трудовых записей
-  description: A circuit board for an employment records desktop computer.
+  description: Плата настольного компьютера трудовых записей
   components:
     - type: ComputerBoard
       prototype: ComputerStationRecordsDesktop
@@ -93,7 +93,7 @@
   parent: ComputerMassMediaCircuitboard
   id: ComputerMassMediaCircuitboardDesktop
   name: плата настольного компьютера медиа-менеджера
-  description: A circuit board for a news manager desktop computer.
+  description: Плата настольного компьютера медиа-менеджера
   components:
     - type: ComputerBoard
       prototype: ComputerMassMediaDesktop
@@ -106,7 +106,7 @@
   parent: PowerComputerCircuitboard
   id: PowerComputerCircuitboardDesktop
   name: плата настольного компьютера мониторинга энергии
-  description: A circuit board for a power monitoring desktop computer.
+  description: Плата настольного компьютера мониторинга энергии
   components:
     - type: ComputerBoard
       prototype: ComputerPowerMonitoringDesktop
@@ -119,7 +119,7 @@
   parent: SalvageJobBoardComputerCircuitboard
   id: SalvageJobBoardComputerCircuitboardDesktop
   name: плата настольного компьютера доски работ утилизаторов
-  description: A circuit board for a salvage job board desktop computer.
+  description: Плата настольного компьютера доски работ утилизаторов
   components:
   - type: ComputerBoard
     prototype: ComputerSalvageJobBoardDesktop
@@ -132,7 +132,7 @@
   parent: CargoRequestComputerCircuitboard
   id: CargoRequestComputerCircuitboardDesktop
   name: плата настольного компьютера заказов карго
-  description: A circuit board for a cargo request desktop computer.
+  description: Плата настольного компьютера заказов карго
   components:
     - type: ComputerBoard
       prototype: ComputerCargoOrdersDesktop
@@ -145,7 +145,7 @@
   parent: CargoRequestEngineeringComputerCircuitboard
   id: CargoRequestEngineeringComputerCircuitboardDesktop
   name: плата настольного компьютера инженерных заказов
-  description: A circuit board for an engineering request desktop computer.
+  description: Плата настольного компьютера инженерных заказов
   components:
   - type: ComputerBoard
     prototype: ComputerCargoOrdersEngineeringDesktop
@@ -158,7 +158,7 @@
   parent: CargoRequestMedicalComputerCircuitboard
   id: CargoRequestMedicalComputerCircuitboardDesktop
   name: плата настольного компьютера медицинских заказов
-  description: A circuit board for a medical request desktop computer.
+  description: Плата настольного компьютера медицинских заказов
   components:
   - type: ComputerBoard
     prototype: ComputerCargoOrdersMedicalDesktop
@@ -171,7 +171,7 @@
   parent: CargoRequestScienceComputerCircuitboard
   id: CargoRequestScienceComputerCircuitboardDesktop
   name: плата настольного компьютера научных заказов
-  description: A circuit board for a science request desktop computer.
+  description: Плата настольного компьютера научных заказов
   components:
   - type: ComputerBoard
     prototype: ComputerCargoOrdersScienceDesktop
@@ -184,7 +184,7 @@
   parent: CargoRequestSecurityComputerCircuitboard
   id: CargoRequestSecurityComputerCircuitboardDesktop
   name: плата настольного компьютера заказов СБ
-  description: A circuit board for a security request desktop computer.
+  description: Плата настольного компьютера заказов СБ
   components:
   - type: ComputerBoard
     prototype: ComputerCargoOrdersSecurityDesktop
@@ -197,7 +197,7 @@
   parent: CargoRequestServiceComputerCircuitboard
   id: CargoRequestServiceComputerCircuitboardDesktop
   name: плата настольного компьютера сервисных заказов
-  description: A circuit board for a service request desktop computer.
+  description: Плата настольного компьютера сервисных заказов
   components:
   - type: ComputerBoard
     prototype: ComputerCargoOrdersServiceDesktop
@@ -212,7 +212,7 @@
   parent: BaseComputerCircuitboard
   id: ComputerPersonalCircuitboardDesktop
   name: плата персонального настольного компьютера
-  description: A circuit board for a personal desktop computer.
+  description: Плата персонального настольного компьютера
   components:
     - type: ComputerBoard
       prototype: ComputerPersonalDesktop

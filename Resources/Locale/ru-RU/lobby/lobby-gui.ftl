@@ -18,6 +18,7 @@ ui-lobby-ready-button-tooltip-join-state = Присоединиться к те�
 ui-lobby-lock-priorities-checkbox-tooltip = Разрешить перетаскивание приоритетов должностей напрямую.
 ui-lobby-lock-priorities-checkbox-label = Разрешить перетаскивание
 ui-lobby-music-queue-title = Очередь музыки
+ui-lobby-music-queue-flavor = У тебя отличный музыкальный вкус
 ui-lobby-music-queue-tooltip = Показать очередь
 ui-lobby-music-pause-tooltip = Пауза / продолжить музыку
 ui-lobby-music-seek-tooltip = Перемотать трек

@@ -2,7 +2,7 @@
   id: SpiderWebAirtight
   parent: SpiderWebBase
   name: герметичная паутина
-  description: It's stringy, sticky, and airtight.
+  description: Тягучая, липкая и герметичная.
   components:
   - type: Airtight
   - type: Sprite
@@ -36,7 +36,7 @@
   id: SpiderWebStrong
   parent: SpiderWebBase
   name: прочная паутина
-  description: It's stringy, sticky, and strong.
+  description: Тягучая, липкая и прочная.
   components:
   - type: Sprite
     color: "#ffffffdd"
@@ -69,7 +69,7 @@
   id: SpiderWebStrongThick
   parent: SpiderWebStrong
   name: толстая паутина
-  description: It's stringy, sticky, solid, and strong.
+  description: Тягучая, липкая, плотная и прочная.
   components:
   - type: Sprite
     color: "#826d8cdd"
@@ -87,7 +87,7 @@
   id: SpiderWebSlime
   parent: SpiderWebBase
   name: слизевая паутина
-  description: It's stringy, sticky, and slimy.
+  description: Тягучая, липкая и склизкая.
   components:
   - type: Sprite
     color: "#94ffcdbe"
@@ -128,7 +128,7 @@
   id: SpiderWebPoison
   parent: SpiderWebSlime
   name: ядовитая паутина
-  description: It's stringy, sticky, and sickly.
+  description: Тягучая, липкая и болезненная.
   components:
   - type: Sprite
     color: "#009926bd"
@@ -148,7 +148,7 @@
   id: SpiderWebStealth
   parent: SpiderWebBase
   name: скрытная паутина
-  description: It's stringy and sticky.
+  description: Тягучая и липкая.
   components:
   - type: Sprite
     color: "#ffffff5e"
@@ -181,7 +181,7 @@
   id: SpiderWebSpiderlings
   parent: SpiderWebBase
   name: паутина с паучками
-  description: It's stringy and sticky. Contains a solution that keeps spiderlings away.
+  description: Тягучая и липкая. Содержит раствор, отпугивающий паучков.
   components:
   - type: Sprite
     color: "#eaadc6ff"

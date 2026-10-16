@@ -2,7 +2,7 @@
   id: SlopDispenser
   parent: BaseLathe
   name: раздатчик питательной пасты
-  description: Produces tha slop using biomass. Can also convert plants to biomass for direct use.
+  description: Производит ту самую баланду из биомассы. Может перерабатывать растения в биомассу напрямую.
   components:
     - type: Sprite
       sprite: _Starlight/Structures/Machines/slop_machine.rsi

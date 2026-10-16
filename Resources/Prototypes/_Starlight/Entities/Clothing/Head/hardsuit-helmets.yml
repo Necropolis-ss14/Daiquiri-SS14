@@ -100,7 +100,7 @@
   parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase, ClothingHeadLightParamsIntermediate ]
   id: ClothingHeadHelmetBattlesuitClown
   name: шлем боевого костюма клоуна
-  description: Armored battlesuit helmet for silly needs.
+  description: Бронированный шлем боевого костюма для дурацких нужд.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Head/Hardsuits/clown_bs_helmet.rsi
@@ -145,7 +145,7 @@
   parent: ClothingHeadHardsuitBase
   id: ClothingHeadHelmetHardsuitSpaceHazard
   name: шлем космической опасности
-  description: Keeps the cold sulfuric embrace of space out.
+  description: Не пропускает холодные серные объятия космоса.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Head/Hardsuits/spacehazard.rsi
@@ -203,7 +203,7 @@
   parent: [ ClothingHeadHardsuitBase, BaseSovietContraband, ClothingHeadSuitWithLightBase, ClothingHeadLightParamsIntermediate ]
   id: ClothingHeadHelmetHardsuitSovietMarine
   name: шлем морпеха ССФ
-  description: From the soviet dieselpunk world.
+  description: Из советского дизельпанк-мира.
   components:
   - type: Contraband # Blimpuf
     tier: Tier3
@@ -255,7 +255,7 @@
   id: ClothingHeadHelmetHardsuitLuxmax
   categories: [ HideSpawnMenu ]
   name: шлем роскошного скафандра «Максим» квартирмейстера
-  description: This thing is made of solid gold, its a wonder you can keep your head up with it on.
+  description: Эта штука сделана из цельного золота, удивительно, как вы вообще держите голову.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Head/Hardsuits/luxmax.rsi
@@ -276,7 +276,7 @@
   parent: [ ClothingHeadHelmetHardsuitSecurity, ClothingHeadSuitWithLightBase, ClothingHeadLightParamsAdvanced ]
   id: ClothingHeadHelmetHardsuitSecurityExperimental
   name: шлем экспериментального скафандра безопасности
-  description: Heavily armored hardsuit helmet for security needs, now with lights!
+  description: Тяжело бронированный шлем скафандра для нужд безопасности, теперь с фонарями!
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Head/Hardsuits/experimental_security.rsi
@@ -299,7 +299,7 @@
   parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase, ClothingHeadLightParamsAdvanced ]
   id: ClothingHeadHelmetHardsuitSpatioLead
   name: шлем скафандра ведущего спатионавта
-  description: A sturdy decorated helmet designed for complex industrial operations in space.
+  description: Прочный украшенный шлем для сложных промышленных работ в космосе.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Head/Hardsuits/leadspatiohelm.rsi
@@ -378,7 +378,7 @@
   parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase, ClothingHeadLightParamsFloodlight ]
   id: ClothingHeadHelmetHardsuitAdvancedMining
   name: шлем улучшенного шахтёрского скафандра
-  description: A specially designed helmet for mining operations.
+  description: Специально разработанный шлем для шахтёрских работ.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Head/Hardsuits/advmining.rsi
@@ -457,7 +457,7 @@
   parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase, ClothingHeadLightParamsProfessional ]
   id: ClothingHeadHelmetHardsuitMining
   name: шлем шахтёрского скафандра
-  description: A special helmet designed for work in a hazardous, low pressure environments encountered during space mining. Has dual floodlights.
+  description: Специальный шлем для работы в опасных условиях низкого давления при космической добыче. С двойными прожекторами.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Head/Hardsuits/mining.rsi
@@ -528,7 +528,7 @@
   parent: ClothingHeadHelmetHardsuitAtmos
   id: ClothingHeadHelmetHardsuitAtmosGolden
   name: шлем золотого атмосферного скафандра
-  description: A golden hardsuit that protects against hazardous, low pressure environments. Has thermal shielding. Use of expensive alloys have made it lighter than its non-golden counterpart.
+  description: Золотой скафандр, защищающий от опасных условий низкого давления. С теплоэкраном. Дорогие сплавы сделали его легче незолотого аналога.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Head/Hardsuits/atmospherics_golden.rsi
@@ -547,7 +547,7 @@
   parent: ClothingHeadHelmetHardsuitEngineering
   id: ClothingHeadHelmetHardsuitEngineeringGolden
   name: шлем золотого инженерного скафандра
-  description: A golden hardsuit that protects against hazardous, low pressure environments. Has radiation shielding. Use of expensive alloys have made it lighter than its non-golden counterpart.
+  description: Золотой скафандр, защищающий от опасных условий низкого давления. С радиационной защитой. Дорогие сплавы сделали его легче незолотого аналога.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Head/Hardsuits/engineering_golden.rsi
@@ -568,7 +568,7 @@
   parent: [ BaseNanoTrasenContraband, ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase, ClothingHeadLightParamsProfessional ]
   id: ClothingHeadHelmetHardsuitNTSF
   name: шлем спецназа НаноТрейзен
-  description: A robust helmet for special operations.
+  description: Прочный шлем для специальных операций.
   components:
   - type: BreathMask
   - type: Sprite
@@ -619,7 +619,7 @@
   parent: [ BaseNanoTrasenContraband, ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
   id: ClothingHeadHelmetHardsuitNTSFPrimus
   name: шлем НТСФ «Примус»
-  description: A robust helmet for special operations.
+  description: Прочный шлем для специальных операций.
   components:
   - type: BreathMask
   - type: Sprite
@@ -671,7 +671,7 @@
   parent: [ BaseNanoTrasenContraband, ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
   id: ClothingHeadHelmetHardsuitNTSFSecundus
   name: шлем НТСФ «Секундус»
-  description: A robust helmet for special operations.
+  description: Прочный шлем для специальных операций.
   components:
   - type: BreathMask
   - type: Sprite
@@ -723,7 +723,7 @@
   parent: [ BaseNanoTrasenContraband, ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
   id: ClothingHeadHelmetHardsuitNTSFTertius
   name: шлем НТСФ «Тертиус»
-  description: A robust helmet for special operations.
+  description: Прочный шлем для специальных операций.
   components:
   - type: BreathMask
   - type: Sprite
@@ -776,7 +776,7 @@
   parent: [ BaseNanoTrasenContraband, ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
   id: ClothingHeadHelmetHardsuitNTSFQuartus
   name: шлем НТСФ «Квартус»
-  description: A robust helmet for special operations.
+  description: Прочный шлем для специальных операций.
   components:
   - type: BreathMask
   - type: Sprite
@@ -830,7 +830,7 @@
   parent: [ BaseNanoTrasenContraband, ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
   id: ClothingHeadHelmetHardsuitNTSFQuintus
   name: шлем НТСФ «Квинтус»
-  description: A robust helmet for special operations.
+  description: Прочный шлем для специальных операций.
   components:
   - type: BreathMask
   - type: Sprite
@@ -882,7 +882,7 @@
   parent: [ BaseNanoTrasenContraband, ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
   id: ClothingHeadHelmetHardsuitNTSFSextus
   name: шлем НТСФ «Секстус»
-  description: A robust helmet for special operations.
+  description: Прочный шлем для специальных операций.
   components:
   - type: BreathMask
   - type: Sprite
@@ -937,7 +937,7 @@
   parent: [ BaseNanoTrasenContraband, ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
   id: ClothingHeadHelmetHardsuitNTSFSeptimus
   name: шлем НТСФ «Септимус»
-  description: A robust helmet for special operations.
+  description: Прочный шлем для специальных операций.
   components:
   - type: BreathMask
   - type: Sprite
@@ -989,7 +989,7 @@
   parent: [ BaseNanoTrasenContraband, ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
   id: ClothingHeadHelmetHardsuitNTSFOctavius
   name: шлем НТСФ «Октавиус»
-  description: A robust helmet for special operations.
+  description: Прочный шлем для специальных операций.
   components:
   - type: BreathMask
   - type: Sprite
@@ -1041,7 +1041,7 @@
   parent: [ BaseNanoTrasenContraband, ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
   id: ClothingHeadHelmetHardsuitNTSFNonus
   name: шлем НТСФ «Нонус»
-  description: A robust helmet for special operations.
+  description: Прочный шлем для специальных операций.
   components:
   - type: BreathMask
   - type: Sprite
@@ -1092,7 +1092,7 @@
   parent: [ BaseNanoTrasenContraband, ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase, ClothingHeadLightParamsProfessional ]
   id: ClothingHeadHelmetHardsuitDecimus
   name: шлем скафандра «Децимус»
-  description: A robust helmet for special operations.
+  description: Прочный шлем для специальных операций.
   components:
   - type: BreathMask
   - type: Sprite
@@ -1144,7 +1144,7 @@
   parent: [BaseTSFContraband, ClothingHeadHardsuitBase]
   id: ClothingHeadHelmetHardsuitTSFMARSOC
   name: шлем MARSOC
-  description: A helmet worn by marines of the Trans-Solar Federation's Marine Special Operations Command. Armored, space ready, and fireproof.
+  description: Шлем морпехов Командования специальных операций морпехов Транс-Солнечной Федерации. Бронированный, пригодный для космоса и огнеупорный.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Head/Hardsuits/tsf_marsoc.rsi
@@ -1187,7 +1187,7 @@
   parent: [BaseTSFContraband, ClothingHeadHardsuitBase]
   id: ClothingHeadHelmetHardsuitTSFPhantom
   name: шлем «Фантом»
-  description: A helmet worn by marines of the Trans-Solar Federation's Marine special Operations Phantom. Armored, space ready and stealthy.
+  description: Шлем морпехов подразделения «Фантом» Транс-Солнечной Федерации. Бронированный, пригодный для космоса и скрытный.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Head/Hardsuits/tsf_phantom.rsi
@@ -1231,7 +1231,7 @@
   parent: [ BaseCentcommContraband, ClothingHeadHardsuitBase ]
   id: ClothingHeadHelmetHardsuitThanatos
   name: шлем «Танатос»
-  description: A robust helmet for special operations.
+  description: Прочный шлем для специальных операций.
   components:
   - type: BreathMask
   - type: Sprite
@@ -1263,7 +1263,7 @@
   parent: [ ClothingHeadHardsuitBase, BaseCosmicCultItem ]
   id: ClothingHeadHelmetCosmicCult
   name: энтропийный головной убор
-  description: This headpiece seems to extrude from the hardsuit it's attached to as if the material is one single, contiguous whole.
+  description: Кажется, этот головной убор выдавливается из скафандра, к которому прикреплён, будто материал един и непрерывен.
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -1294,7 +1294,7 @@
   id: ClothingHeadHelmetHardsuitGreenshield
   categories: [ DoNotMap ]
   name: шлем скафандра гриншилда
-  description: A special hardsuit helmet worn by Greenshield Officers.
+  description: Специальный шлем скафандра офицеров зелёного щита.
   components:
     - type: Sprite
       sprite: Clothing/Head/Hardsuits/ERThelmets/ertleader.rsi
@@ -1317,7 +1317,7 @@
   parent: ClothingHeadHardsuitBase
   id: ChangelingClothingHeadHelmetHardsuit
   name: органический космический шлем
-  description: A spaceworthy biomass of pressure and temperature resistant tissue.
+  description: Живая биомасса, пригодная для космоса, устойчивая к давлению и перепадам температур.
   suffix: Unremoveable
   components:
   - type: Item
@@ -1341,7 +1341,7 @@
   parent: [ ClothingHeadHardsuitBase ]
   id: ClothingHeadHelmetHardsuitLossPrevention
   name: шлем отдела предотвращения потерь
-  description: Theres a scratch mark on the side for every shoplifter that has had the displeasure of seeing this helmet.
+  description: Царапина сбоку за каждого воришку, имевшего несчастье увидеть этот шлем.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Head/Hardsuits/lossprevention.rsi

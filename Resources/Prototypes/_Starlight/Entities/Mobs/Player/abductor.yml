@@ -1,5 +1,5 @@
 ﻿- type: entity
-  name: abductor
+  name: похититель
   parent: BaseMobAbductor
   id: MobAbductor
   components:
@@ -38,7 +38,7 @@
       - AbductorScientistGear
 
 - type: entity
-  name: abductor agent
+  name: агент похитителей
   parent: MobAbductor
   id: MobAbductorAgent
   components:
@@ -119,7 +119,7 @@
         state: radiation
 
 - type: entity
-  name: abductor scientist spawner
+  name: спавнер учёного похитителей
   id: SpawnPointAbductorScientist
   parent: MarkerBase
   components:

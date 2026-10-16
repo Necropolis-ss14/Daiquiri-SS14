@@ -4,7 +4,7 @@
   parent: RemoteSignaller
   id: RemoteSignallerCombat
   name: боевой дистанционный сигнализатор
-  description: A military-grade handheld device used for remotely sending signals to weapons systems within a 100 meter radius. Commonly used for triggering shuttle-mounted weapons.
+  description: Ручное устройство военного класса для дистанционной отправки сигналов системам вооружения в радиусе 100 метров. Обычно используется для активации оружия, установленного на шаттлах.
   components:
   - type: Sprite
     sprite: Objects/Devices/signaller.rsi

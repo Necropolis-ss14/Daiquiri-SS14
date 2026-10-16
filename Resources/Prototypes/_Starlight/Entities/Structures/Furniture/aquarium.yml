@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseStructureDynamic
   id: FurnitureAquarium
-  name: aquarium
-  description: Do not tap the glass.
+  name: аквариум
+  description: По стеклу не стучать.
   components:
   - type: AmbientSound
     volume: -4

@@ -2,7 +2,7 @@
   parent: [BaseTSFContraband, ClothingBackpackSatchel]
   id: ClothingBackpackRadioTSF
   name: ранцевая радиостанция ТСФ
-  description: A heavy-duty pack, used for telecommunications between central command.
+  description: Прочный ранец, используемый для связи с центральным командованием.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Back/rtp.rsi
@@ -47,7 +47,7 @@
   parent: [BaseTSFContraband, ClothingBackpackSatchel, BaseToggleClothing]
   id: ClothingBackpackThermalCloakTSF
   name: термоплащ «Фантом»
-  description: The lightweight thermal dampeners and optical camouflage provided by this cloak are weaker than those found in standard UNMC ghillie suits. In exchange, the cloak can be worn over combat armor and offers the wearer high maneuverability and adaptability to many environments.
+  description: Лёгкие термодемпферы и оптический камуфляж этого плаща слабее, чем у стандартных маскировочных костюмов UNMC. Взамен плащ можно носить поверх боевой брони, обеспечивая высокую мобильность и адаптивность.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Back/thermalcloak.rsi

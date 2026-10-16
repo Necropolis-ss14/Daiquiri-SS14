@@ -27,7 +27,7 @@
 - type: entity
   parent: BaseAnomalyCore
   id: AnomalyCoreClown
-  description: The core of a destroyed clown anomaly. It emanates the purest essence of the Honkmother.
+  description: Ядро разрушенной клоунской аномалии. Источает чистейшую эссенцию Хонкоматери.
   suffix: Clown
   components:
   - type: Sprite
@@ -79,7 +79,7 @@
 - type: entity
   parent: BaseAnomalyInertCore
   id: AnomalyCoreClownInert
-  description: The inert core of a destroyed clown anomaly. It emanates the purest essence of the Honkmother.
+  description: Инертное ядро разрушенной клоунской аномалии. Источает чистейшую эссенцию Хонкоматери.
   suffix: Clown, Inert
   components:
   - type: Sprite

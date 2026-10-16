@@ -2,8 +2,8 @@
   parent: BaseWallmount
   categories: [ HideSpawnMenu ]
   id: BaseAPC
-  name: APC
-  description: A control terminal for the area's electrical systems.
+  name: ЛКП
+  description: Терминал управления питанием зоны.
   placement:
     mode: SnapgridCenter
   components:
@@ -161,8 +161,8 @@
   parent: BaseWallmountMetallic
   categories: [ HideSpawnMenu ]
   id: APCFrame
-  name: APC frame
-  description: A control terminal for the area's electrical systems, lacking the electronics.
+  name: каркас ЛКП
+  description: Терминал управления питанием зоны, без электроники.
   placement:
     mode: SnapgridCenter
   components:

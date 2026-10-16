@@ -2,7 +2,7 @@
   parent: [ClothingOuterStorageBase, AllowSuitStorageClothing, ClothingOuterBaseWarm]
   id: ClothingOuterBurnedRobes
   name: обгоревшие робы
-  description: They are riddles with burn marks and smell like ash.
+  description: Они испещрены следами ожогов и пахнут пеплом.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/OuterClothing/OverClothes/burned_robes.rsi
@@ -16,8 +16,8 @@
 - type: entity
   parent: [ClothingOuterStorageBase, AllowSuitStorageClothing]
   id: ClothingOutercorset
-  name: corset
-  description: A little bit tight.
+  name: корсет
+  description: Немного тесновато.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/OuterClothing/OverClothes/corset.rsi
@@ -32,7 +32,7 @@
   parent: [ClothingOuterStorageBase, ClothingOuterBaseWarm, AllowSuitStorageClothing]
   id: ClothingOuterRedLeather
   name: красная кожаная куртка
-  description: Slick. Would look greasy with a pair of sunglasses.
+  description: Гладко. С солнцезащитными очками смотрелось бы засаленно.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/OuterClothing/OverClothes/red_leather.rsi
@@ -47,7 +47,7 @@
   parent: [ClothingOuterStorageBase, ClothingOuterBaseWarm, AllowSuitStorageClothing]
   id: ClothingOuterRoughSweater
   name: грубый свитер
-  description: Smells like buttercups.
+  description: Пахнет лютиками.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/OuterClothing/OverClothes/rough_sweater.rsi
@@ -62,7 +62,7 @@
   parent: [ClothingOuterStorageBase, ClothingOuterBaseWarm, AllowSuitStorageClothing]
   id: ClothingOuterSoftSweater
   name: мягкий свитер
-  description: Smells like determination.
+  description: Пахнет решимостью.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/OuterClothing/OverClothes/soft_sweater.rsi
@@ -77,7 +77,7 @@
   parent: [ClothingOuterStorageBase, ClothingOuterBaseWarm, AllowSuitStorageClothing]
   id: ClothingOuterLargeShirt
   name: большая рубашка
-  description: It could fit two of you!
+  description: В него влезут двое вас!
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/OuterClothing/OverClothes/large_shirt.rsi
@@ -93,7 +93,7 @@
   parent: ClothingOuterStorageBase
   id: ClothingUniformApron
   name: элегантный фартук
-  description: Apron made from high-quality, smooth fabric with a soft sheen. Fits perfectly.
+  description: Фартук из высококачественной гладкой ткани с мягким блеском. Сидит идеально.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/OuterClothing/OverClothes/apron.rsi
@@ -104,7 +104,7 @@
   parent: ClothingOuterBase
   id: ClothingOuterBrimstoneDT4
   name: адская метка
-  description: Blood laser barrage!
+  description: Кровавый лазерный обстрел!
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/OuterClothing/OverClothes/brimstone.rsi
@@ -115,7 +115,7 @@
   parent: ClothingOuterBaseWarm
   id: ClothingOuterBunnyGang
   name: роба заячьей банды
-  description: The robe of a secretive group of bunny mercenaries.
+  description: Мантия тайной группы наёмников-зайчиков.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/OuterClothing/OverClothes/bunnygang.rsi

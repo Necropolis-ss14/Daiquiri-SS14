@@ -40,7 +40,7 @@
 - type: entity
   parent: [AirSensorChamberBase, AirSensor]
   id: AirSensorChamber
-  description: An air sensor set up for use in chambers. It only alarms on extreme pressure.
+  description: Датчик воздуха, настроенный для камер. Срабатывает только при экстремальном давлении.
 
 # Gas Vent
 
@@ -64,7 +64,7 @@
   id: GasVentPumpChamber
   placement:
     mode: AlignAtmosPipeLayers
-  description: An air vent set up for use in chambers. It only alarms on extreme pressure.
+  description: Вентиляция, настроенная для камер. Сигнализирует только при экстремальном давлении.
   components:
   - type: SandboxCopyOverride
     override: GasVentPumpChamber
@@ -73,7 +73,7 @@
   parent: [GasVentPumpChamberBase, GasVentPumpAlt1]
   id: GasVentPumpChamberAlt1
   categories: [ HideSpawnMenu ]
-  description: An air vent set up for use in chambers. It only alarms on extreme pressure.
+  description: Вентиляция, настроенная для камер. Сигнализирует только при экстремальном давлении.
   components:
   - type: SandboxCopyOverride
     override: GasVentPumpChamber
@@ -82,7 +82,7 @@
   parent: [GasVentPumpChamberBase, GasVentPumpAlt2]
   id: GasVentPumpChamberAlt2
   categories: [ HideSpawnMenu ]
-  description: An air vent set up for use in chambers. It only alarms on extreme pressure.
+  description: Вентиляция, настроенная для камер. Сигнализирует только при экстремальном давлении.
   components:
   - type: SandboxCopyOverride
     override: GasVentPumpChamber
@@ -91,7 +91,7 @@
   parent: [GasVentPumpChamberBase, GasVentPumpAlt3]
   id: GasVentPumpChamberAlt3
   categories: [ HideSpawnMenu ]
-  description: An air vent set up for use in chambers. It only alarms on extreme pressure.
+  description: Вентиляция, настроенная для камер. Сигнализирует только при экстремальном давлении.
   components:
   - type: SandboxCopyOverride
     override: GasVentPumpChamber
@@ -100,7 +100,7 @@
   parent: [GasVentPumpChamberBase, GasVentPumpAlt4]
   id: GasVentPumpChamberAlt4
   categories: [ HideSpawnMenu ]
-  description: An air vent set up for use in chambers. It only alarms on extreme pressure.
+  description: Вентиляция, настроенная для камер. Сигнализирует только при экстремальном давлении.
   components:
   - type: SandboxCopyOverride
     override: GasVentPumpChamber
@@ -129,7 +129,7 @@
   id: GasVentScrubberChamber
   placement:
     mode: AlignAtmosPipeLayers
-  description: An air scrubber set up for use in chambers. It only alarms on extreme pressure.
+  description: Скруббер воздуха, настроенный для камер. Сигнализирует только при экстремальном давлении.
   components:
   - type: SandboxCopyOverride
     override: GasVentScrubberChamber
@@ -138,7 +138,7 @@
   parent: [GasVentScrubberChamberBase, GasVentScrubberAlt1]
   id: GasVentScrubberChamberAlt1
   categories: [ HideSpawnMenu ]
-  description: An air scrubber set up for use in chambers. It only alarms on extreme pressure.
+  description: Скруббер воздуха, настроенный для камер. Сигнализирует только при экстремальном давлении.
   components:
   - type: SandboxCopyOverride
     override: GasVentScrubberChamber
@@ -147,7 +147,7 @@
   parent: [GasVentScrubberChamberBase, GasVentScrubberAlt2]
   id: GasVentScrubberChamberAlt2
   categories: [ HideSpawnMenu ]
-  description: An air scrubber set up for use in chambers. It only alarms on extreme pressure.
+  description: Скруббер воздуха, настроенный для камер. Сигнализирует только при экстремальном давлении.
   components:
   - type: SandboxCopyOverride
     override: GasVentScrubberChamber
@@ -156,7 +156,7 @@
   parent: [GasVentScrubberChamberBase, GasVentScrubberAlt3]
   id: GasVentScrubberChamberAlt3
   categories: [ HideSpawnMenu ]
-  description: An air scrubber set up for use in chambers. It only alarms on extreme pressure.
+  description: Скруббер воздуха, настроенный для камер. Сигнализирует только при экстремальном давлении.
   components:
   - type: SandboxCopyOverride
     override: GasVentScrubberChamber
@@ -165,7 +165,7 @@
   parent: [GasVentScrubberChamberBase, GasVentScrubberAlt4]
   id: GasVentScrubberChamberAlt4
   categories: [ HideSpawnMenu ]
-  description: An air scrubber set up for use in chambers. It only alarms on extreme pressure.
+  description: Скруббер воздуха, настроенный для камер. Сигнализирует только при экстремальном давлении.
   components:
   - type: SandboxCopyOverride
     override: GasVentScrubberChamber

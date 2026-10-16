@@ -2,7 +2,7 @@
   parent: [ BaseContrabandTier2, ClothingOuterArmorBase, BaseBlueShieldContraband ] # Blimpuf
   id: ClothingOuterArmorBlueShield
   name: пуленепробиваемый жилет синего щита
-  description: Much better than a standard Type 1 security vest. Try not to lose it, you won't get a second replacement.
+  description: Намного лучше стандартного жилета СБ типа 1. Постарайся не потерять, второй не выдадут.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/OuterClothing/Armor/blueshield.rsi
@@ -90,7 +90,7 @@
   parent: ClothingOuterBaseLarge
   id: ChangelingClothingOuterArmor
   name: хитиновая броня
-  description: An all-consuming chitinous mass of armor.
+  description: Всепоглощающая хитиновая масса брони.
   suffix: Unremoveable
   components:
   - type: Sprite
@@ -122,7 +122,7 @@
   parent: [ BaseContrabandTier2, ClothingOuterArmorBase, BaseSecurityContraband ] # Blimpuf
   id: ClothingOuterArmorPlate
   name: плитоносец
-  description: A standard Type II armored vest that provides good protection against bullets and lasers with the help of a plate inserted in the back and front, but not much else.
+  description: Стандартный бронированный жилет типа II с хорошей защитой от пуль и лазеров благодаря пластинам спереди и сзади, но не более.
   components:
     - type: Pierceable
       level: Metal
@@ -144,7 +144,7 @@
   parent: [ BaseContrabandTier2, ClothingOuterArmorBase, BaseSecurityContraband ] # Blimpuf
   id: ClothingOuterArmorStab
   name: ножостойкий жилет
-  description: Contrary to it's name, it's just a Type II armored vest that provides good protection against stabs and punches, but not much else.
+  description: Вопреки названию, это просто жилет типа II с хорошей защитой от порезов и ударов, но не более.
   components:
     - type: Pierceable
       level: Metal
@@ -168,7 +168,7 @@
   parent: [ BaseContrabandTier2, ClothingOuterArmorBase, BaseSecurityContraband ] # Blimpuf
   id: ClothingOuterArmorHeatAbsorb
   name: теплопоглощающий жилет
-  description: Advanced vest designed to absorb heat rather than reflect it, but still has some reflective properties itself. Not good against bullets or blunt impacts due to the fragile material.
+  description: Продвинутый жилет, поглощающий тепло, а не отражающий, но с некоторыми отражающими свойствами. Плох против пуль и тупых ударов из-за хрупкого материала.
   components:
     - type: Pierceable
       level: Metal
@@ -188,7 +188,7 @@
   parent: [ClothingOuterArmorForged, BaseMinorContraband]
   id: ClothingOuterArmorMakeshift
   name: самодельный жилет
-  description: Might catch a bullet. Might.
+  description: Может поймать пулю. А может и нет.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/OuterClothing/Armor/makeshift.rsi
@@ -214,7 +214,7 @@
   parent: [ClothingOuterArmorForged, BaseMinorContraband]
   id: ClothingOuterArmorImprovised
   name: импровизированный жилет
-  description: Interlocking metal plates ensure you're decently protected against stabs, but not much else.
+  description: Сцепленные металлические пластины неплохо защищают от порезов, но не более.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/OuterClothing/Armor/improvised.rsi
@@ -241,7 +241,7 @@
     ] #BaseSecurityContraband overwrites BaseMinorContraband, annoyingly enough.
   id: ClothingOuterArmorForged
   name: кованый жилет
-  description: A product of high-quality tidesmithing, the additional leather padding and the swap for plasteel over steel ensures the armor is lightweight and effective.
+  description: Продукт высококачественного тайдерского кузнечества, кожаная подкладка и замена стали на пласталь делают броню лёгкой и эффективной.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/OuterClothing/Armor/forged.rsi
@@ -264,7 +264,7 @@
     [ClothingOuterBaseMedium, AllowSuitStorageClothing, BaseMajorContraband]
   id: ClothingOuterArmorPaladin
   name: доспех паладина
-  description: Be the paladin you want to be! Swing swords in maints at the terrified security officer! Battle MONSTERS that are totally not vent creatures! Get shot by lasers and die-! Wait what?
+  description: Будь паладином, каким хочешь быть! Маши мечами в техах перед перепуганным офицером СБ! Сражайся с МОНСТРАМИ, которые точно не вент-существа! Получи лазером и умри... Погоди, что?
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/OuterClothing/Armor/paladin.rsi
@@ -318,7 +318,7 @@
   parent: [ BaseContrabandTier2, BaseSalvageContraband, ClothingOuterVestWeb ] #web vest so it should have some pockets for ammo; Blimpuf
   id: ClothingOuterVestWebSalvageMerc
   name: разгрузочный жилет утилизатора
-  description: A versatile armored vest, popular among salvagers for its protective yet lightweight design.
+  description: Универсальный бронированный жилет, популярный среди утилизаторов за защиту и лёгкость.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/OuterClothing/Vests/salvagevest.rsi
@@ -341,7 +341,7 @@
   parent: [BaseGrandTheftContraband, ClothingOuterArmorBase]
   id: ClothingOuterReactiveArmourShell
   name: реактивная бронеоболочка
-  description: An experimental suit of armour, awaiting installation of an anomaly core.
+  description: Экспериментальный доспех, ожидающий установки ядра аномалии.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/OuterClothing/Armor/reactive.rsi
@@ -383,7 +383,7 @@
   parent: [ClothingOuterBaseMedium, BaseSovietContraband, AllowSuitStorageClothing ] #"ClothingOuterArmorBase" is stupid and overrides any contraband level.
   id: ClothingOuterArmorSovietPlate
   name: советский бронежилет
-  description: An old Soviet-era flak vest designed to mitigate damage from explosives, with minor penetration resistance. However, it's just a cheap reproduction model. quality may vary.
+  description: Старый советский осколочный жилет для смягчения урона от взрывов с небольшой пулестойкостью. Впрочем, это дешёвая реплика, качество варьируется.
   components:
   - type: Contraband # Blimpuf
     tier: Tier3
@@ -410,7 +410,7 @@
   parent: [ClothingOuterStorageBase, AllowSuitStorageClothing, BaseTSFContraband]
   id: ClothingOuterVestRetroOfficer
   name: дежурный жилет офицера ТСФ
-  description: A tactical vest from the Trans Solar Federation. Provides basic protection and some storage for patrol duty.
+  description: Тактический жилет Транс-Солнечной Федерации. Базовая защита и место для патрульного снаряжения.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/OuterClothing/Vests/retro_officer_vest.rsi
@@ -431,7 +431,7 @@
   parent: ClothingOuterVestRetroOfficer
   id: ClothingOuterVestRetroOfficerHiVis
   name: светоотражающий жилет офицера ТСФ
-  description: A high-visibility tactical vest from the Trans Solar Federation. Essential for traffic control and maintaining visibility in dangerous situations.
+  description: Высоковидимый тактический жилет ТСФ. Необходим для регулировки движения и видимости в опасных ситуациях.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/OuterClothing/Vests/retro_officer_hivis_vest.rsi
@@ -444,7 +444,7 @@
   categories: [ DoNotMap ]
   id: ClothingOuterVestGreenshield
   name: жилет гриншилда
-  description: A protective vest worn by Greenshields. It even has pockets and a flashlight!
+  description: Защитный жилет гриншилдов. Даже с карманами и фонариком!
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/OuterClothing/Vests/greenshield_vest.rsi
@@ -467,7 +467,7 @@
   parent: [ BaseContrabandTier2, BaseReporterContraband, ClothingOuterArmorBase ] # Blimpuf
   id: ClothingOuterPressArmor
   name: броня прессы
-  description: It has 'PRESS' written on it in white. It will help you stay alive while sniffing out ledes!
+  description: На нём белым написано «PRESS». Поможет выжить, вынюхивая лиды!
   components:
     - type: Item
       size: Large

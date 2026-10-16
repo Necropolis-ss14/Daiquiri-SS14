@@ -32,7 +32,7 @@
   parent: BasePinata
   id: ClownPinata
   name: пиньята-клоун
-  description: Looks kinda funny. Do the real ones also explode into candy when you beat them?
+  description: Выглядит забавно. А настоящие тоже взрываются конфетами, если их бить?
   components:
   - type: Pinata
     hitTable: !type:NestedSelector
@@ -72,7 +72,7 @@
   id: ClownPinataDamaged
   name: пиньята-клоун
   suffix: Damaged
-  description: Looks kinda sad. Show no mercy.
+  description: Выглядит грустно. Без пощады.
   components:
   - type: Pinata
     hitTable: !type:NestedSelector
@@ -111,7 +111,7 @@
   parent: BaseItem
   id: ClownPinataDestroyed
   name: остатки пиньяты-клоуна
-  description: Like stealing candy from a clown.
+  description: Словно отбирать конфеты у клоуна.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Fun/Pinatas/clown.rsi

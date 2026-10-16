@@ -23,7 +23,7 @@
   parent: BaseEventSelector
   id: SyndicateDisruptor
   name: дизраптор Синдиката
-  description: Call in various disruptions to create opportunities, such as power or comms outages. Each feature applies a different cooldown.
+  description: Вызывайте различные диверсии для создания возможностей, такие как отключения энергии или связи. Каждая функция имеет отдельную перезарядку.
   suffix: agent
   components:
     - type: EventSelectorRadialMenu
@@ -69,7 +69,7 @@
   parent: BaseEventSelector
   id: SyndicateDisruptorSignaller
   name: сигнализатор дизраптора Синдиката
-  description: Call in various disruptions to create opportunities, such as power or comms outages. Each feature applies a different cooldown.
+  description: Вызывайте различные диверсии для создания возможностей, такие как отключения энергии или связи. Каждая функция имеет отдельную перезарядку.
   suffix: signaller
   components:
     - type: EventSelectorRadialMenu

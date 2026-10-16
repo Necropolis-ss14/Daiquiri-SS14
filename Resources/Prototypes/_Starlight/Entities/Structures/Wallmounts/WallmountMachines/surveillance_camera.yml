@@ -1,7 +1,7 @@
 - type: entity
   parent: SurveillanceCameraBase
   id: SurveillanceCameraIsolatedNetwork
-  name: camera
+  name: камера
   suffix: Isolated Network
   components:
     - type: DeviceNetwork

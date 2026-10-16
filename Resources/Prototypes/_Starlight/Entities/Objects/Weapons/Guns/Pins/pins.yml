@@ -2,7 +2,7 @@
   parent: [ BaseContrabandTier3, BaseItem, BaseSecurityContraband ] # Blimpuf
   id: FiringPin
   name: ударник
-  description: Somebody probably really needs this right now...
+  description: Кому-то это сейчас очень нужно...
   components:
   - type: Item
     size: Small
@@ -37,7 +37,7 @@
   parent: FiringPin
   id: FiringPinMakeshift
   name: самодельный ударник
-  description: It's a nail. Welded to a bottle cap.
+  description: Это гвоздь. Приваренный к крышке от бутылки.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Guns/Pins/firing_pins.rsi
@@ -51,7 +51,7 @@
   parent: FiringPin
   id: FiringPinSmartLMG
   name: затворный механизм смартгана
-  description: One of a kind, unreplaceable. Includes a round counter.
+  description: Единственный в своём роде, незаменимый. Со счётчиком патронов.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Guns/Pins/firing_pins.rsi
@@ -64,7 +64,7 @@
   parent: FiringPin
   id: FiringPinLaser
   name: лазерный кристалл
-  description: Fragile, not unlike the assistants killed by it.
+  description: Хрупкий, как и ассистенты, убитые им.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Guns/Pins/firing_pins.rsi
@@ -127,7 +127,7 @@
   parent: FiringPinLaser
   id: FiringPinAdvancedLaser
   name: прототип лазерного кристалла
-  description: DO NOT DROP is inscribed on the side. whatever.
+  description: На боку написано НЕ РОНЯТЬ. Ну ладно.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Guns/Pins/firing_pins.rsi
@@ -186,7 +186,7 @@
   parent: FiringPin
   id: FiringPinExpedition
   name: экспедиционный ударник
-  description: This universal pin prevents the gun from firing when on station, useful for managing weaponry used on offstation exploration.
+  description: Универсальный ударник не даёт пушке стрелять на станции, удобно для оружия внестанционных экспедиций.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Guns/Pins/firing_pins.rsi
@@ -199,7 +199,7 @@
   parent: BaseItem
   id: FiringPinMelted
   name: расплавленный ударник
-  description: A lump of metal that used to be a firing pin, before someone kept shooting.
+  description: Комок металла, бывший ударником, пока кто-то не продолжил стрелять.
   components:
   - type: Item
     size: Tiny
@@ -222,7 +222,7 @@
   parent: FiringPinMelted
   id: FiringPinLaserCracked
   name: треснувший лазерный кристалл
-  description: The lens crystal of an energy weapon, cracked by heat. It won't focus a beam ever again.
+  description: Линза энергопушки, треснувшая от жара. Луч уже не сфокусирует.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Guns/Pins/firing_pins.rsi
@@ -238,7 +238,7 @@
   parent: FiringPinLaserCracked
   id: FiringPinAdvancedLaserCracked
   name: треснувший прототип лазерного кристалла
-  description: What is left of a prototype laser crystal after someone kept firing. At least it didn't explode.
+  description: Остатки прототипного лазерного кристалла после того, как кто-то продолжил стрелять. Хоть не взорвался.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Guns/Pins/firing_pins.rsi
@@ -249,7 +249,7 @@
   parent: FiringPinAdvancedLaser
   id: FiringPinAdvancedLaserReplacement
   name: выращенный в лаборатории прототип лазерного кристалла
-  description: A lab-grown copy of a prototype laser crystal. Just as fragile as the original.
+  description: Лабораторная копия прототипного лазерного кристалла. Такая же хрупкая, как оригинал.
   components:
   - type: StealTarget
     stealGroup: FiringPin
@@ -260,7 +260,7 @@
   parent: FiringPinSmartLMG
   id: FiringPinSmartLMGReplacement
   name: запасной затворный механизм смартгана
-  description: A machined copy of a smartgun bolt assembly. Includes a round counter.
+  description: Фрезерованная копия затворного механизма смартгана. Со счётчиком патронов.
   components:
   - type: StealTarget
     stealGroup: FiringPin

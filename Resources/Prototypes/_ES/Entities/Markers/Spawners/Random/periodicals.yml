@@ -2,7 +2,7 @@
 - type: entity
   parent: MarkerBase
   id: ESSpawnerRandomPeriodicals
-  name: Periodical Spawner
+  name: Спавнер периодики
   suffix: Magazines / Newspapers
   components:
   - type: Sprite
@@ -62,7 +62,7 @@
 - type: entity
   parent: MarkerBase
   id: ESSpawnerRandomPeriodicalsLegit
-  name: Periodical Spawner
+  name: Спавнер периодики
   suffix: Magazines / Newspapers, Legit
   components:
   - type: Sprite
@@ -108,7 +108,7 @@
 - type: entity
   parent: MarkerBase
   id: ESSpawnerRandomPeriodicalsContraband
-  name: Periodical Spawner
+  name: Спавнер периодики
   suffix: Magazines / Newspapers, Contraband
   components:
   - type: Sprite

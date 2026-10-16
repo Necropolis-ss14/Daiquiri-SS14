@@ -21,3 +21,6 @@ signal-port-description-set-particle-lambda = Устанавливает тип 
 
 signal-port-name-trigger-spawn = Вызвать появление
 signal-port-description-trigger-spawn = Активирует спавнер, заставляя его что-нибудь создать.
+
+signal-port-name-turret-controller-sync-receiver = Синхронизация
+signal-port-description-turret-controller-sync-receiver = Обменивается настройками вооружения и авторизации с другой панелью управления турелями.

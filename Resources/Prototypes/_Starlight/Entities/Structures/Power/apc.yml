@@ -46,7 +46,7 @@
   categories: [ HideSpawnMenu ]
   id: BaseAPCAdvanced
   name: продвинутый ЛКП
-  description: An advanced control terminal for the area's electrical systems, capable of handling a much higher network load.
+  description: Продвинутый терминал управления питанием зоны, способный выдерживать куда большую нагрузку сети.
   components:
   - type: Apc
     voltage: Apc
@@ -108,7 +108,7 @@
   categories: [ HideSpawnMenu ]
   id: APCAdvancedFrame
   name: каркас продвинутого ЛКП
-  description: An advanced control terminal for the area's electrical systems, lacking the electronics.
+  description: Продвинутый терминал управления питанием зоны, без электроники.
   components:
   - type: Construction
     graph: APC
@@ -154,7 +154,7 @@
   categories: [ HideSpawnMenu ]
   id: APCITG
   name: ЛКП ITG
-  description: A control terminal for local electronics, this one is branded with the guild insignia.
+  description: Терминал управления питанием зоны для локальной электроники, с символикой гильдии.
   components:
   - type: AccessReader
     access: [["Salvage"]]

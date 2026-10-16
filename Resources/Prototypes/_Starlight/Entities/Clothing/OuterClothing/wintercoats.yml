@@ -96,7 +96,7 @@
   parent: [ BaseContrabandTier2, ClothingOuterWinterCoatToggleable, BaseSecurityContraband, AllowSuitStorageClothing ] # Blimpuf
   id: ClothingOuterWinterDutyOfficer
   name: бронированная зимняя куртка дежурного офицера
-  description: A sturdy, utilitarian winter coat designed to protect a duty officer from any uppity perma prisoners.
+  description: Прочное практичное зимнее пальто для защиты дежурного офицера от дерзких перма-заключённых.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/OuterClothing/WinterCoats/coatdutyofficerarmored.rsi
@@ -130,7 +130,7 @@
   id: ClothingOuterWinterCapUnarmored
   name: зимняя куртка капитана
   suffix: Unarmored
-  description: A sturdy coat, a warm coat, but not an armored coat.
+  description: Прочное пальто, тёплое пальто, но не бронированное.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coat.rsi

@@ -47,7 +47,7 @@
     lifetime: 10
 
 - type: entity
-  name: taser bolt
+  name: тейзерный болт
   id: BulletAdvTaser
   parent: BaseBulletStarlight
   categories: [ HideSpawnMenu ]
@@ -220,7 +220,7 @@
 - type: entity
   id: ProjectileCosmicNova
   name: Астральная нова
-  description: Uh oh.
+  description: Ой-ой.
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
   components:
@@ -268,7 +268,7 @@
   name: Злобный болт
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
-  description: Ouch.
+  description: Ай.
   components:
   - type: Reflective
     reflective:
@@ -320,7 +320,7 @@
   name: Астральный болт
   parent: ProjectileCosmic
   categories: [ HideSpawnMenu ]
-  description: Ouch.
+  description: Ай.
   components:
   - type: DamageMarkerOnCollide
     whitelist:
@@ -466,7 +466,7 @@
   name: малый кинетический болт
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
-  description: Not too bad, but you still don't want to get hit by it.
+  description: Не так уж плохо, но попадать под него всё равно не хочется.
   components:
   - type: Reflective
     reflective:
@@ -493,7 +493,7 @@
   name: малый кинетический болт
   parent: BulletKineticSub
   categories: [ HideSpawnMenu ]
-  description: Not too bad, but you still don't want to get hit by it.
+  description: Не так уж плохо, но попадать под него всё равно не хочется.
   components:
   - type: Projectile
     impactEffect: BulletImpactEffectKinetic

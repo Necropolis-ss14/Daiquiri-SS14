@@ -13,7 +13,7 @@
   id: CigPackRollie
   parent: PackPaperRolling
   name: пачка самокруток
-  description: An old rolling paper packet full of things to make rollies with.
+  description: Старая пачка бумаги для самокруток со всем необходимым для скручивания самокруток.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -32,7 +32,7 @@
   id: CigPackMedRollie
   parent: PackPaperRolling
   name: пачка лечебных блантов
-  description: An old rolling paper packet full of things to make blunts with. Its purely medicinal man..
+  description: Старая пачка бумаги для самокруток со всем для блантов. Это чисто в лечебных целях, чувак..
   components:
   - type: EntityTableContainerFill
     containers:
@@ -49,7 +49,7 @@
   id: CigPackBub
   parent: PackPaperRolling
   name: пачка особых Греймена
-  description: An old rolling paper packet full of Greyman's special cigarettes. You feel more surgically inclined while smoking them.
+  description: Старая пачка бумаги для самокруток с особыми сигаретами Греймена. Пока куришь, тянет к хирургии.
   components:
   - type: EntityTableContainerFill
     containers:

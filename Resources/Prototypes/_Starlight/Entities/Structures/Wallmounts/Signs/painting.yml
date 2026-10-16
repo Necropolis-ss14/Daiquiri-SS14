@@ -2,7 +2,7 @@
   parent: PaintingBase
   id: PaintingRedTide
   name: картина «Красный прилив»
-  description: A vivid painting depicting a crimson wave crashing against dark rocks.
+  description: "Яркая картина: багровая волна бьётся о тёмные скалы."
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Wallmounts/paintings.rsi
@@ -12,7 +12,7 @@
   parent: [PaintingBase, BaseSovietContraband] # Blimpuf
   id: PaintingHammer
   name: картина «Советский молот»
-  description: A bold painting of a hammer, symbolizing strength and unity.
+  description: Смелая картина с молотом — символом силы и единства.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Wallmounts/paintings.rsi
@@ -22,7 +22,7 @@
   parent: PaintingBase
   id: PaintingSeaside
   name: У моря
-  description: This painting depicts several women and children relaxing on a beach along Shinnecock Bay in New York, 1892 Earth.
+  description: На картине — женщины и дети отдыхают на пляже залива Шиннекок в Нью-Йорке, Земля 1892 года.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Wallmounts/paintings.rsi
@@ -32,7 +32,7 @@
   parent: PaintingBase
   id: PaintingElijahBoardman
   name: Элайджа Бордман
-  description: This painting depicts Elijah Boardman, a dry-goods merchant in his shop in New Milford, Connecticut, 1789 Earth.
+  description: На картине — Элайджа Бордман, торговец галантереей в своей лавке в Нью-Милфорде, Коннектикут, Земля 1789 года.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Wallmounts/paintings.rsi
@@ -41,8 +41,8 @@
 - type: entity
   parent: PaintingBase
   id: PaintingKurukulla
-  name: Kurukulla
-  description: This painting depicts a large-scale appliqué showing the Vajrayana goddess Kurukulla, known as a beautiful bewitcher of men. Tibet, 1900s Earth.
+  name: Курукулла
+  description: На картине — большое апплике с богиней Ваджраяны Курукуллой, прекрасной чаровницей мужчин. Тибет, Земля 1900-х.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Wallmounts/paintings.rsi
@@ -52,7 +52,7 @@
   parent: PaintingBase
   id: PaintingImmortals
   name: Панель с бессмертными
-  description: This painting depicts the Eight Immortals, Baxian, and the God of Longevity, Shoulao, important deities in the Chinese legend. China, 1800s Earth.
+  description: На картине — Восемь Бессмертных, Басянь, и бог долголетия Шоулао, важные божества китайских легенд. Китай, Земля 1800-х.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Wallmounts/paintings.rsi
@@ -62,7 +62,7 @@
   parent: PaintingBase
   id: PaintingMarco
   name: Пьяцца Сан-Марко
-  description: This painting depicts a belltower in Piazza San Marco, Venice, 1720s Earth.
+  description: На картине — колокольня на площади Сан-Марко, Венеция, Земля 1720-х.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Wallmounts/paintings.rsi
@@ -72,7 +72,7 @@
   parent: PaintingBase
   id: PaintingShitao
   name: пейзаж Шитао
-  description: This painting depicts a small house on an oceanside cliff with two fishing boats departing. China, 1690 Earth.
+  description: На картине — домик на прибрежной скале и две отплывающие рыбацкие лодки. Китай, Земля 1690 года.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Wallmounts/paintings.rsi
@@ -82,7 +82,7 @@
   parent: PaintingBase
   id: PaintingShankara
   name: Шри Шанкара Шива
-  description: This painting depicts Shiva's divine family, dressed richly and adorned with jewels. India, 1800s Earth.
+  description: На картине — божественная семья Шивы в богатых одеждах и драгоценностях. Индия, Земля 1800-х.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Wallmounts/paintings.rsi
@@ -92,7 +92,7 @@
   parent: PaintingBase
   id: PaintingParadise
   name: Сотворение мира и изгнание из рая
-  description: This painting depicts a vision of Paradise reminiscent of 'The Divine Comedy', with the universe as a celestial globe with the Earth at its center. Italy, 1445 Earth.
+  description: "На картине — видение Рая в духе «Божественной комедии»: вселенная как небесная сфера с Землёй в центре. Италия, Земля 1445 года."
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Wallmounts/paintings.rsi
@@ -102,7 +102,7 @@
   parent: PaintingBase
   id: PaintingLandersPeak
   name: Скалистые горы, пик Лендера
-  description: This painting depicts the Rocky Mountains in Wyoming, with a camp of the Shoshone Indigenous people in the foreground. 1863 Earth.
+  description: На картине — Скалистые горы в Вайоминге и лагерь индейцев шошонов на переднем плане. Земля 1863 года.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Wallmounts/paintings.rsi
@@ -112,7 +112,7 @@
   parent: PaintingBase
   id: PaintingKanagawa
   name: Большая волна в Канагаве
-  description: This painting depicts a crashing wave overcoming several fishing boats, framed to make Mount Fuji appear small in the distance beneath the enormous wave's crest. Japan, 1830s Earth.
+  description: На картине — гигантская волна накрывает рыбацкие лодки, а гора Фудзи кажется малой вдали под гребнем. Япония, Земля 1830-х.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Wallmounts/paintings.rsi
@@ -122,7 +122,7 @@
   parent: PaintingBase
   id: PaintingVanGogh
   name: Автопортрет в соломенной шляпе Ван Гога
-  description: This painting depicts Van Gogh wearing a straw hat in a Neo-Impressionist style. 1880s Earth.
+  description: На картине — Ван Гог в соломенной шляпе в стиле неоимпрессионизма. Земля 1880-х.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Wallmounts/paintings.rsi
@@ -132,7 +132,7 @@
   parent: PaintingBase
   id: PaintingWheatFields
   name: Пшеничное поле с кипарисами
-  description: This painting depicts a golden wheat field with cypress trees and rolling clouds depicted as swirling shapes in the sky, painted by Van Gogh. 1889 Earth.
+  description: На картине — золотое пшеничное поле с кипарисами и клубящимися облаками-завитками в небе, кисти Ван Гога. Земля 1889 года.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Wallmounts/paintings.rsi

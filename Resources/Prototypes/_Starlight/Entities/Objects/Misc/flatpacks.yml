@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseFlatpack
   id: PrinterDocFlatpack
-  name: document printer flatpack
-  description: A flatpack used for constructing a document printer.
+  name: флэтпак принтера документов
+  description: Флэтпак для сборки принтера документов.
   components:
   - type: Flatpack
     entity: PrinterDoc
@@ -13,7 +13,7 @@
   parent: BaseFlatpack
   id: KitchenOvenFlatpack
   name: упаковка кухонной печи
-  description: A flatpack used for constructing an oven.
+  description: Флэтпак для сборки печи.
   components:
   - type: Flatpack
     entity: KitchenOven
@@ -22,7 +22,7 @@
   parent: BaseFlatpack
   id: MailTrolleyFlatpack
   name: упаковка почтовой тележки
-  description: A flatpack used for constructing an mail trolley.
+  description: Флэтпак для сборки почтовой тележки.
   components:
   - type: Flatpack
     entity: MailTrolley
@@ -31,7 +31,7 @@
   parent: BaseFlatpack
   id: GoldenMailTrolleyFlatpack
   name: упаковка золотой почтовой тележки
-  description: A flatpack used for constructing a brilliant golden mail trolley.
+  description: Флэтпак для сборки блестящей золотой почтовой тележки.
   components:
   - type: Flatpack
     entity: GoldenMailTrolley
@@ -40,7 +40,7 @@
   parent: BaseFlatpack
   id: KitchenStoveFlatpack
   name: упаковка кухонной плиты
-  description: A flatpack used for constructing an stove.
+  description: Флэтпак для сборки плиты.
   components:
   - type: Flatpack
     entity: KitchenStove
@@ -49,7 +49,7 @@
   parent: BaseFlatpack
   id: SlopDispenserFlatpack
   name: упаковка раздатчика питательной пасты
-  description: A flatpack used for constructing a nutrient paste dispenser.
+  description: Флэтпак для сборки диспенсера питательной пасты.
   components:
   - type: Flatpack
     entity: SlopDispenser
@@ -58,7 +58,7 @@
   parent: BaseFlatpack
   id: FloraTreeChristmas02Flatpack
   name: упаковка рождественской ёлки
-  description: A flatpack used for constructing a christmas tree.
+  description: Флэтпак для сборки рождественской ёлки.
   components:
   - type: Flatpack
     entity: FloraTreeChristmas02
@@ -67,7 +67,7 @@
   parent: [BaseFlatpack, BaseMinorContraband]
   id: SyndieDrobeFlatpack
   name: упаковка СиндиДроба
-  description: Looks like Syndieland's back in business.
+  description: Похоже, Синдиленд снова в деле.
   components:
   - type: Flatpack
     entity: VendingMachineSyndieDrobe
@@ -76,7 +76,7 @@
   parent: BaseFlatpack
   id: IceCreamMakerFlatpack
   name: упаковка аппарата мороженого
-  description: One ice cream maker in one multitool press!
+  description: Одна мороженица в одном нажатии мультитула!
   components:
   - type: Flatpack
     entity: IceCreamMaker
@@ -86,7 +86,7 @@
   parent: [BaseFlatpack, BaseMedicalContraband]
   id: MedicalTechFabFlatpack
   name: упаковка медицинского техфаба
-  description: A flatpack used for constructing a medical techfab.
+  description: Флэтпак для сборки техфаба медицинского отдела.
   components:
   - type: Flatpack
     entity: MedicalTechFab
@@ -95,7 +95,7 @@
   parent: [BaseFlatpack, BaseSecurityContraband]
   id: SecurityTechFabFlatpack
   name: упаковка техфаба СБ
-  description: A flatpack used for constructing a security techfab.
+  description: Флэтпак для сборки техфаба службы безопасности.
   components:
   - type: Flatpack
     entity: SecurityTechFab
@@ -104,7 +104,7 @@
   parent: [BaseFlatpack, BaseCargoContraband]
   id: CargoTechFabFlatpack
   name: упаковка карго-техфаба
-  description: A flatpack used for constructing a cargo techfab.
+  description: Флэтпак для сборки техфаба карго.
   components:
   - type: Flatpack
     entity: CargoTechFab
@@ -113,7 +113,7 @@
   parent: [BaseFlatpack, BaseEngineeringContraband]
   id: EngineeringTechFabFlatpack
   name: упаковка инженерного техфаба
-  description: A flatpack used for constructing an engineering techfab.
+  description: Флэтпак для сборки техфаба инженерного отдела.
   components:
   - type: Flatpack
     entity: EngineeringTechFab
@@ -122,7 +122,7 @@
   parent: [BaseFlatpack, BaseCivilianContraband]
   id: ServiceTechFabFlatpack
   name: упаковка сервисного техфаба
-  description: A flatpack used for constructing a service techfab.
+  description: Флэтпак для сборки техфаба сервисного отдела.
   components:
   - type: Flatpack
     entity: ServiceTechFab
@@ -131,7 +131,7 @@
   parent: [BaseFlatpack, BaseScienceContraband]
   id: ScienceTechFabFlatpack
   name: упаковка научного техфаба
-  description: A flatpack used for constructing a science techfab.
+  description: Флэтпак для сборки техфаба научного отдела.
   components:
   - type: Flatpack
     entity: ScienceTechFab
@@ -140,7 +140,7 @@
   parent: [BaseFlatpack, BaseCommandContraband]
   id: CommandTechFabFlatpack
   name: упаковка техфаба командования
-  description: A flatpack used for constructing a command techfab.
+  description: Флэтпак для сборки техфаба командования.
   components:
   - type: Flatpack
     entity: CommandTechFab
@@ -149,7 +149,7 @@
   parent: [BaseFlatpack, BaseNanoTrasenContraband]
   id: NanoTrasenTechFabFlatpack
   name: упаковка техфаба NanoTrasen
-  description: A flatpack used for constructing a NanoTrasen techfab.
+  description: Флэтпак для сборки техфаба NanoTrasen.
   components:
   - type: Flatpack
     entity: NanoTrasenTechFab
@@ -158,7 +158,7 @@
   parent: [BaseFlatpack, BaseCentcommContraband]
   id: CentralCommandTechFabFlatpack
   name: упаковка техфаба Центрального командования
-  description: A flatpack used for constructing a Central Command techfab.
+  description: Флэтпак для сборки техфаба Центрального командования.
   components:
   - type: Flatpack
     entity: CentralCommandTechFab
@@ -167,7 +167,7 @@
   parent: [BaseFlatpack, BaseSyndicateContraband]
   id: SyndicateTechFabFlatpack
   name: упаковка техфаба Синдиката
-  description: A flatpack used for constructing a Syndicate techfab.
+  description: Флэтпак для сборки техфаба Синдиката.
   components:
   - type: Flatpack
     entity: SyndicateTechFab
@@ -176,7 +176,7 @@
   parent: [BaseFlatpack, BaseSalvageContraband]
   id: SalvageTechFabFlatpack
   name: упаковка техфаба утилизаторов
-  description: A flatpack used for constructing a Salvage techfab.
+  description: Флэтпак для сборки техфаба утилизаторов.
   components:
   - type: Flatpack
     entity: SalvageTechFab

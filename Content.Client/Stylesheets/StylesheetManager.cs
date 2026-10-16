@@ -11,6 +11,7 @@ using Timer = Robust.Shared.Timing.Timer;
 
 #region Starlight
 using Content.Client._Starlight;
+using Content.Client._Daiquiri.Stylesheets; // Daiquiri
 #endregion Starlight
 
 namespace Content.Client.Stylesheets

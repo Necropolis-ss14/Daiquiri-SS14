@@ -3,7 +3,7 @@
   id: ClothingNeckAngelPin
   name: значок добрых дел
   suffix: DO NOT MAP, Admeme
-  description: For the best!
+  description: Для лучших!
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Neck/Misc/angeldevil.rsi
@@ -24,7 +24,7 @@
   id: ClothingNeckDevilPin
   name: значок злых дел
   suffix: DO NOT MAP, Admeme
-  description: For the worst!
+  description: Для худших!
   components:
   - type: Sprite
     state: devil
@@ -39,7 +39,7 @@
   parent: [BaseItem, BaseToggleClothing, BaseReporterContraband]
   id: HoloReporterPin
   name: холо-значок репортёра
-  description: "It's an electronic pin with a microphone-shaped button. A way of more clearly saying, DON'T SHOOT!"
+  description: "Электронный значок с кнопкой-микрофоном. Способ яснее сказать: «НЕ СТРЕЛЯЙ!»"
   components:
     - type: Item
       size: Tiny
@@ -70,4 +70,4 @@
   parent: BaseToggleAction
   id: ActionHoloPin
   name: активировать холо-пин
-  description: "BREAKING NEWS! DON'T KILL ME PLEASE!"
+  description: ЭКСТРЕННЫЕ НОВОСТИ! НЕ УБИВАЙТЕ МЕНЯ, ПОЖАЛУЙСТА!

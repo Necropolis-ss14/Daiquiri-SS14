@@ -80,7 +80,7 @@
 - type: entity
   id: CartridgePistolImprovised
   name: самодельный патрон (.35 auto)
-  description: A handmade pistol bullet, uses phosphorus as a propellent instead of gunpowder which makes it much less effective.
+  description: Самодельная пистолетная пуля, вместо пороха фосфор, поэтому заметно слабее.
   parent: [BaseCartridgePistol, BaseMinorContraband]
   components:
   - type: CartridgeAmmo

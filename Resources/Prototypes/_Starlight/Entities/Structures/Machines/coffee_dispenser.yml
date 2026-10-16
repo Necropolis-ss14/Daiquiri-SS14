@@ -2,7 +2,7 @@
   parent: ReagentDispenserBasePowerCell # Starlight edit: power cell soda dispenser
   id: CoffeeDispenserEmpty
   name: раздатчик кофе
-  description: A beverage dispenser with a selection of coffee and tea. Has a single fill slot for containers.
+  description: Диспенсер напитков с кофе и чаем. Одно заправочное гнездо для ёмкостей.
   suffix: Empty
   components:
   - type: Rotatable

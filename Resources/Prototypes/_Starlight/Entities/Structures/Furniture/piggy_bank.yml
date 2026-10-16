@@ -2,7 +2,7 @@
   parent: BasePinata
   id: PropPiggyBank
   name: копилка
-  description: It squeals in fear, for it knows what comes next.
+  description: Визжит от страха — знает, что будет дальше.
   components:
   - type: Pinata
     hitTable: !type:NestedSelector

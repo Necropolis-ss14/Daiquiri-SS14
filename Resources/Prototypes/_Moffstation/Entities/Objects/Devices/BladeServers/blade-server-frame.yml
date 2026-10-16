@@ -1,8 +1,8 @@
 ﻿- type: entity
   id: UnfinishedBladeServerFrame
   parent: BaseItem
-  name: blade server frame
-  description: A blade server frame under construction. Needs more parts.
+  name: каркас блейд-сервера
+  description: Каркас блейд-сервера в процессе сборки. Требуются дополнительные детали.
   suffix: Unfinished
   components:
   - type: Sprite
@@ -58,7 +58,7 @@
 - type: entity
   id: BladeServerFrame
   parent: BaseItem
-  name: blade server frame
+  name: каркас блейд-сервера
   suffix: Ready
   components:
   - type: Sprite

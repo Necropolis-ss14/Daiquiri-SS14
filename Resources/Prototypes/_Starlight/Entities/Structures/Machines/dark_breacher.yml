@@ -2,7 +2,7 @@
   id: MachineDarkBreacher
   parent: [BaseMachinePowered, ConstructibleMachine]
   name: тёмный прорыватель
-  description: The portal to the dark...
+  description: Портал во тьму...
   components:
   - type: Machine
     board: DarkBreacherMachineCircuitboard

@@ -2,7 +2,7 @@
   parent: ClothingBeltStorageBase
   id: ClothingBeltStorageWaistbagScience
   name: научная поясная сумка
-  description: A purple waist bag meant for carrying the tools of the luscious.
+  description: Фиолетовая поясная сумка для инструментов роскошных.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Belt/waistbag_science.rsi

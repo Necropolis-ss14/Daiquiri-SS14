@@ -3,7 +3,7 @@
   parent: FoodMeatBase
   # MeatFish?...
   id: FoodThavenMeat
-  description: Concerning.
+  description: Тревожно.
   components:
   - type: FlavorProfile
     flavors:

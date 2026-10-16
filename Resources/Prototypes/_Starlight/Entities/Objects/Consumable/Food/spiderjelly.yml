@@ -2,7 +2,7 @@
   parent: [SolutionTiny, FoodBase]
   id: SpiderJelly
   name: маточное молочко
-  description: A strange jelly created by spiders possesses unreal regenerative powers.
+  description: Странное желе, созданное пауками, с невероятной регенеративной силой.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Consumable/Food/spiderjelly.rsi

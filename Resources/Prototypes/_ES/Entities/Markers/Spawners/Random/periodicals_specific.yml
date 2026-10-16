@@ -1,7 +1,7 @@
 - type: entity
   parent: MarkerBase
   id: ESSpawnerRandomPeriodicalsNewspaper
-  name: Periodical Spawner
+  name: Спавнер периодики
   suffix: Newspaper
   components:
   - type: Sprite
@@ -26,7 +26,7 @@
 - type: entity
   parent: MarkerBase
   id: ESSpawnerRandomPeriodicalsPuzzle
-  name: Periodical Spawner
+  name: Спавнер периодики
   suffix: Puzzle
   components:
   - type: Sprite
@@ -42,7 +42,7 @@
 - type: entity
   parent: MarkerBase
   id: ESSpawnerRandomPeriodicalsSpacePeople
-  name: Periodical Spawner
+  name: Спавнер периодики
   suffix: Space People
   components:
   - type: Sprite
@@ -60,7 +60,7 @@
 - type: entity
   parent: MarkerBase
   id: ESSpawnerRandomPeriodicalsFashion
-  name: Periodical Spawner
+  name: Спавнер периодики
   suffix: Fashion
   components:
   - type: Sprite

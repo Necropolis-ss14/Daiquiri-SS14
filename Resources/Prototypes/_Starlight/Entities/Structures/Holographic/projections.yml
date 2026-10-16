@@ -1,7 +1,7 @@
 - type: entity
   id: HolosignEngineeringWarning
   name: инженерный предупреждающий барьер
-  description: A barrier of non-solid light, warning everyone of danger around it.
+  description: Барьер из нетвёрдого света, предупреждающий всех об опасности.
   placement:
     mode: SnapgridCenter
   components:
@@ -22,8 +22,8 @@
 - type: entity
   id: HolosignFalseShutter
   parent: HolosignWetFloor
-  name: shutter?
-  description: A shutter, you think?
+  name: ставень?
+  description: Ставень, как думаешь?
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Holo/shutter.rsi

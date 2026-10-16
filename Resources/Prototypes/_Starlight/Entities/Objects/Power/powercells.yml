@@ -29,7 +29,7 @@
 - type: entity
   parent: BasePowerCell
   id: YellowSlimeExtractPowercell
-  name: yellow slime extract powercell
+  name: энергоячейка из экстракта жёлтого слайма
   components:
     - type: Sprite
       layers:

@@ -4,7 +4,7 @@
   parent: GasPipeSansLayers
   id: GasPipeTankSubfloor
   name: подполовой газовый бак
-  description: A 750L gas tank built into the subfloor. Perfect when space is at a premium.
+  description: Газовый бак на 750 л, встроенный в подпол. Идеален, когда место в дефиците.
   placement:
     mode: AlignAtmosPipeLayers
   components:
@@ -114,7 +114,7 @@
   parent: GasPipeSansLayers
   id: GasPipeTankTall
   name: высокий газовый бак
-  description: A tank that stores 2000L of gas. It's very big. Bigger than you. The warning label reads, "If you can read this, you are standing too close!".
+  description: "Бак, хранящий 2000 л газа. Он очень большой. Больше тебя. Предупреждающая табличка гласит: \"Если ты это читаешь, ты стоишь слишком близко!\"."
   placement:
     mode: AlignAtmosPipeLayers
   components:

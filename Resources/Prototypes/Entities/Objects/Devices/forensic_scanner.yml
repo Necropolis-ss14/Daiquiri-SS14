@@ -31,10 +31,10 @@
     stealGroup: ForensicScanner
 
 - type: entity
-  name: forensic scanner report
+  name: отчёт криминалистического сканера
   parent: Paper
   id: ForensicReportPaper
-  description: Circumstantial evidence, at best.
+  description: Косвенные улики, в лучшем случае.
   components:
   - type: Sprite
     sprite: Objects/Misc/bureaucracy.rsi
@@ -61,8 +61,8 @@
 - type: entity
   parent: ForensicReportPaper
   id: PaperAccessLogs
-  name: access logs
-  description: A printout from the detective's trusty LogProbe.
+  name: журналы доступа
+  description: Распечатка с верного LogProbe детектива.
   components:
   - type: PaperVisuals
     headerImagePath: null

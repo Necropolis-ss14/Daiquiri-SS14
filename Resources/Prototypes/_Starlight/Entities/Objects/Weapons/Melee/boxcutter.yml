@@ -1,8 +1,8 @@
 - type: entity
-  name: boxcutter
+  name: канцелярский нож
   parent: [ BaseContrabandTier3, BaseSecurityContraband, BaseCargoContraband, CombatKnife ] # Blimpuf
   id: WeaponMeleeBoxcutter
-  description: Always accidentally cuts whatever is inside the box.
+  description: Вечно случайно режет то, что внутри коробки.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Melee/boxcutter.rsi

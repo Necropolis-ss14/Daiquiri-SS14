@@ -1,8 +1,8 @@
 - type: entity
   parent: SheetMetalBase
   id: SheetAdamantine
-  name: adamantine
-  description: An adamantine bar, obtained from those slime wranglers who refuse to go outside.
+  name: адамантин
+  description: Слиток адамантина, добытый у тех укротителей слаймов, что отказываются выходить наружу.
   suffix: Full
   components:
     - type: Material
@@ -28,7 +28,7 @@
 - type: entity
   parent: SheetAdamantine
   id: SheetAdamantine1
-  name: adamantine
+  name: адамантин
   suffix: Single
   components:
     - type: Sprite

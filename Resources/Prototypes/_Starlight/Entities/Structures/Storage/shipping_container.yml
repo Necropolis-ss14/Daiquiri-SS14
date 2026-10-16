@@ -1,7 +1,7 @@
 - type: entity
   id: BaseShippingContainer
   name: "{ \"\" }"
-  description: Reinforced steel frames meant to survive being thrown around by lazy Cargo Technicians who forged their crane licenses.
+  description: Усиленные стальные рамы, способные выдержать швыряние ленивыми карго-техниками с поддельными лицензиями на кран.
   placement:
     mode: SnapgridCenter
   components:
@@ -78,7 +78,7 @@
   parent: BaseShippingContainer
   id: ShippingContainerAmsco
   name: грузовой контейнер
-  description: Reinforced steel frames meant to survive being thrown around by lazy Cargo Technicians who forged their crane licenses.
+  description: Усиленные стальные рамы, способные выдержать швыряние ленивыми карго-техниками с поддельными лицензиями на кран.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Storage/shipping_container.rsi
@@ -88,7 +88,7 @@
   parent: BaseShippingContainer
   id: ShippingContainerAqua
   name: грузовой контейнер
-  description: Reinforced steel frames meant to survive being thrown around by lazy Cargo Technicians who forged their crane licenses.
+  description: Усиленные стальные рамы, способные выдержать швыряние ленивыми карго-техниками с поддельными лицензиями на кран.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Storage/shipping_container.rsi
@@ -98,7 +98,7 @@
   parent: BaseShippingContainer
   id: ShippingContainerBlack
   name: грузовой контейнер
-  description: Reinforced steel frames meant to survive being thrown around by lazy Cargo Technicians who forged their crane licenses.
+  description: Усиленные стальные рамы, способные выдержать швыряние ленивыми карго-техниками с поддельными лицензиями на кран.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Storage/shipping_container.rsi
@@ -108,7 +108,7 @@
   parent: BaseShippingContainer
   id: ShippingContainerBloodRed
   name: грузовой контейнер
-  description: Reinforced steel frames meant to survive being thrown around by explosions in the middle of a battle.
+  description: Усиленные стальные рамы, способные выдержать швыряние взрывами в разгар боя.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Storage/shipping_container.rsi
@@ -118,7 +118,7 @@
   parent: BaseShippingContainer
   id: ShippingContainerBlue
   name: грузовой контейнер
-  description: Reinforced steel frames meant to survive being thrown around by lazy Cargo Technicians who forged their crane licenses.
+  description: Усиленные стальные рамы, способные выдержать швыряние ленивыми карго-техниками с поддельными лицензиями на кран.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Storage/shipping_container.rsi
@@ -128,7 +128,7 @@
   parent: BaseShippingContainer
   id: ShippingContainerBrown
   name: грузовой контейнер
-  description: Reinforced steel frames meant to survive being thrown around by lazy Cargo Technicians who forged their crane licenses.
+  description: Усиленные стальные рамы, способные выдержать швыряние ленивыми карго-техниками с поддельными лицензиями на кран.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Storage/shipping_container.rsi
@@ -138,7 +138,7 @@
   parent: BaseShippingContainer
   id: ShippingContainerConarex
   name: грузовой контейнер Conarex Aeronautics
-  description: Reinforced steel frames meant to survive being thrown around by lazy Cargo Technicians who forged their crane licenses.
+  description: Усиленные стальные рамы, способные выдержать швыряние ленивыми карго-техниками с поддельными лицензиями на кран.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Storage/shipping_container.rsi
@@ -148,7 +148,7 @@
   parent: BaseShippingContainer
   id: ShippingContainerCybersun
   name: грузовой контейнер Cybersun Industries
-  description: Heavily reinforced steel frames meant to protect expensive computing and artificial intelligence components. They should make armor out of this stuff!
+  description: Сильно усиленные стальные рамы для защиты дорогостоящих вычислительных компонентов и компонентов искусственного интеллекта. Из этого стоило бы делать броню!
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Storage/shipping_container.rsi
@@ -158,7 +158,7 @@
   parent: BaseShippingContainer
   id: ShippingContainerDeForest
   name: грузовой контейнер
-  description: Reinforced steel frames meant to transport delicate medical equipment and supplies.
+  description: Усиленные стальные рамы для перевозки хрупкого медицинского оборудования и припасов.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Storage/shipping_container.rsi
@@ -168,7 +168,7 @@
   parent: BaseShippingContainer
   id: ShippingContainerDonk
   name: грузовой контейнер
-  description: Cheap steel frames meant to get their products to where they need to be at the least cost. Smells like stale Donk Pockets.
+  description: Дешёвые стальные рамы, чтобы доставить продукцию куда нужно с наименьшими затратами. Пахнет залежавшимися Donk Pockets.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Storage/shipping_container.rsi
@@ -178,7 +178,7 @@
   parent: BaseShippingContainer
   id: ShippingContainerGorlex
   name: грузовой контейнер Gorlex Securities
-  description: Plastitanium frames meant to survive being thrown around by explosions in the middle of a battle.
+  description: Рамы из пластатитана, способные выдержать швыряние взрывами в разгар боя.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Storage/shipping_container.rsi
@@ -188,7 +188,7 @@
   parent: BaseShippingContainer
   id: ShippingContainerGray
   name: грузовой контейнер
-  description: Reinforced steel frames meant to survive being thrown around by lazy Cargo Technicians who forged their crane licenses.
+  description: Усиленные стальные рамы, способные выдержать швыряние ленивыми карго-техниками с поддельными лицензиями на кран.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Storage/shipping_container.rsi
@@ -198,7 +198,7 @@
   parent: BaseShippingContainer
   id: ShippingContainerGreatNorthern
   name: грузовой контейнер
-  description: Reinforced steel frames meant to survive being thrown around by lazy Cargo Technicians who forged their crane licenses.
+  description: Усиленные стальные рамы, способные выдержать швыряние ленивыми карго-техниками с поддельными лицензиями на кран.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Storage/shipping_container.rsi
@@ -208,7 +208,7 @@
   parent: BaseShippingContainer
   id: ShippingContainerGreen
   name: грузовой контейнер
-  description: Reinforced steel frames meant to survive being thrown around by lazy Cargo Technicians who forged their crane licenses.
+  description: Усиленные стальные рамы, способные выдержать швыряние ленивыми карго-техниками с поддельными лицензиями на кран.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Storage/shipping_container.rsi
@@ -218,7 +218,7 @@
   parent: BaseShippingContainer
   id: ShippingContainerInterdyne
   name: грузовой контейнер Interdyne
-  description: Reinforced steel frames meant to protect expensive medical supplies. Smells too sterile, like a hospital.
+  description: Усиленные стальные рамы для защиты дорогостоящих медикаментов. Пахнет слишком стерильно, как больница.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Storage/shipping_container.rsi
@@ -228,7 +228,7 @@
   parent: BaseShippingContainer
   id: ShippingContainerKahraman
   name: грузовой контейнер Kahraman Heavy Industry
-  description: Reinforced steel frames meant to ship heavy duty machinery across the stars.
+  description: Усиленные стальные рамы для перевозки тяжёлой техники между звёздами.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Storage/shipping_container.rsi
@@ -238,7 +238,7 @@
   parent: BaseShippingContainer
   id: ShippingContainerMicrostar
   name: грузовой контейнер
-  description: Reinforced steel frames rated to survive every energy cell stored within exploding all at once.
+  description: Усиленные стальные рамы, рассчитанные на одновременный взрыв всех хранящихся внутри энергоячеек.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Storage/shipping_container.rsi
@@ -248,7 +248,7 @@
   parent: BaseShippingContainer
   id: ShippingContainerNanoTrasen
   name: грузовой контейнер
-  description: Sturdy steel frames meant to survive being thrown around by lazy Cargo Technicians who forged their crane licenses.
+  description: Прочные стальные рамы, способные выдержать швыряние ленивыми карго-техниками с поддельными лицензиями на кран.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Storage/shipping_container.rsi
@@ -258,7 +258,7 @@
   parent: BaseShippingContainer
   id: ShippingContainerNanoTrasenVandal
   name: грузовой контейнер
-  description: Sturdy steel frames meant to survive being thrown around by lazy Cargo Technicians who forged their crane licenses. This one is heavily vandalized.
+  description: Прочные стальные рамы, способные выдержать швыряние ленивыми карго-техниками с поддельными лицензиями на кран. Этот сильно вандализирован.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Storage/shipping_container.rsi
@@ -268,7 +268,7 @@
   parent: BaseShippingContainer
   id: ShippingContainerOrange
   name: грузовой контейнер
-  description: Reinforced steel frames meant to survive being thrown around by lazy Cargo Technicians who forged their crane licenses.
+  description: Усиленные стальные рамы, способные выдержать швыряние ленивыми карго-техниками с поддельными лицензиями на кран.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Storage/shipping_container.rsi
@@ -278,7 +278,7 @@
   parent: BaseShippingContainer
   id: ShippingContainerPurple
   name: грузовой контейнер
-  description: Reinforced steel frames meant to survive being thrown around by lazy Cargo Technicians who forged their crane licenses.
+  description: Усиленные стальные рамы, способные выдержать швыряние ленивыми карго-техниками с поддельными лицензиями на кран.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Storage/shipping_container.rsi
@@ -288,7 +288,7 @@
   parent: BaseShippingContainer
   id: ShippingContainerRed
   name: грузовой контейнер
-  description: Reinforced steel frames meant to survive being thrown around by lazy Cargo Technicians who forged their crane licenses.
+  description: Усиленные стальные рамы, способные выдержать швыряние ленивыми карго-техниками с поддельными лицензиями на кран.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Storage/shipping_container.rsi
@@ -298,7 +298,7 @@
   parent: BaseShippingContainer
   id: ShippingContainerRusted
   name: грузовой контейнер
-  description: Reinforced steel frames meant to survive being thrown around by lazy Cargo Technicians who forged their crane licenses. Rust has eaten holes through the metal sheets, and it is heavily dented.
+  description: Усиленные стальные рамы, способные выдержать швыряние ленивыми карго-техниками с поддельными лицензиями на кран. Ржавчина проела дыры в металлических листах, корпус сильно помят.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Storage/shipping_container.rsi
@@ -308,7 +308,7 @@
   parent: BaseShippingContainer
   id: ShippingContainerShamblers
   name: грузовой контейнер
-  description: Reinforced steel frames meant to transport Shamblers beverages. Its sticky and smells like grapes and sugar.
+  description: Усиленные стальные рамы для перевозки напитков Shamblers. Липкие, пахнут виноградом и сахаром.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Storage/shipping_container.rsi
@@ -318,7 +318,7 @@
   parent: BaseShippingContainer
   id: ShippingContainerStarkist
   name: грузовой контейнер
-  description: Reinforced steel frames meant to transport Starkist beverages. Its sticky and smells like citrus and sugar.
+  description: Усиленные стальные рамы для перевозки напитков Starkist. Липкие, пахнут цитрусом и сахаром.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Storage/shipping_container.rsi
@@ -328,7 +328,7 @@
   parent: BaseShippingContainer
   id: ShippingContainerTigerCooperative
   name: грузовой контейнер
-  description: Reinforced steel frames meant to be ripped open from the inside by whatever is contained within. The writing is painted on hastily, and the inside is splattered with blood.
+  description: Усиленные стальные рамы, которые вот-вот будут разорваны изнутри тем, что находится внутри. Надпись наспех намалевана, изнутри всё забрызгано кровью.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Storage/shipping_container.rsi
@@ -338,7 +338,7 @@
   parent: BaseShippingContainer
   id: ShippingContainerVitezstvi
   name: грузовой контейнер Vítězství Arms
-  description: Plastitanium frames meant to survive every bullet stored within going off at the same time.
+  description: Рамы из пластатитана, рассчитанные на одновременную детонацию всех хранящихся внутри патронов.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Storage/shipping_container.rsi
@@ -348,7 +348,7 @@
   parent: BaseShippingContainer
   id: ShippingContainerVulcan
   name: грузовой контейнер
-  description: Reinforced steel frames meant to survive being accidentally stabbed with a crusher glaive. It has a few holes in it.
+  description: Усиленные стальные рамы, способные пережить случайный удар глефой-дробителем. В корпусе пара дыр.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Storage/shipping_container.rsi
@@ -358,7 +358,7 @@
   parent: BaseShippingContainer
   id: ShippingContainerYellow
   name: грузовой контейнер
-  description: Reinforced steel frames meant to survive being thrown around by lazy Cargo Technicians who forged their crane licenses.
+  description: Усиленные стальные рамы, способные выдержать швыряние ленивыми карго-техниками с поддельными лицензиями на кран.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Storage/shipping_container.rsi

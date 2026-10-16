@@ -131,7 +131,7 @@
   parent: [ BaseContrabandTier3, GunSafeBaseArmorySL, BaseSecurityContraband ] # Blimpuf
   id: GunSafeHeavyWeapons # To save remapping
   name: сейф DMR
-  description: Contains a set of L10 DMRs
+  description: Содержит набор DMR L10.
   components:
   - type: EntityStorageVisuals
     stateDoorClosed: dmr_gunsafe_doors
@@ -153,7 +153,7 @@
   id: GunSafeLMG
   categories: [ DoNotMap ]
   name: сейф тяжёлого оружия
-  description: For when talking it out just isn't enough.
+  description: На случай, когда договориться не получается.
   components:
   - type: EntityStorageVisuals
     stateDoorClosed: lmg_gunsafe_doors
@@ -178,7 +178,7 @@
   parent: [GunSafeBaseArmorySL, BaseSecurityContraband]
   id: GunSafeMelee
   name: сейф ближнего боя
-  description: Contains a set of heavy melee weapons.
+  description: Содержит набор тяжёлого оружия ближнего боя.
   components:
   - type: EntityStorageVisuals
     stateDoorClosed: melee_gunsafe_doors

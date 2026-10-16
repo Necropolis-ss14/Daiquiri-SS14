@@ -2,7 +2,7 @@
   name: вулканический взрыв
   parent: [ FoodMealBase, BaseMajorContraband ]
   id: FoodCookedLizardPlate
-  description: An art piece showing the demise of a forest.
+  description: Арт-объект, изображающий гибель леса.
   components:
     - type: FlavorProfile
       flavors:
@@ -36,7 +36,7 @@
   name: фелионоид по-кентуккийски
   parent: [ FoodMealBase, BaseMajorContraband ]
   id: FoodFriedfelionoid
-  description: An old dish modernized to fit new trends.
+  description: Старое блюдо на новый лад.
   components:
     - type: FlavorProfile
       flavors:
@@ -68,7 +68,7 @@
   name: родентия по-кентуккийски
   parent: [ FoodMealBase, BaseMajorContraband ]
   id: FoodFriedRodentia
-  description: Vitamin rich rodent on a stick.
+  description: Богатый витаминами грызун на палочке.
   components:
     - type: FlavorProfile
       flavors:
@@ -98,7 +98,7 @@
   name: питательная паста
   parent: FoodMealBase
   id: FoodThaSlop #tha slop
-  description: A synthetic mixture of protein, carbohydrates, and vitamins, amino acids and minerals. Everything the body needs, and absolutely disgusting.
+  description: Синтетическая смесь белков, углеводов, витаминов, аминокислот и минералов. Всё, что нужно организму, и абсолютная гадость.
   components:
     - type: FlavorProfile
       flavors:
@@ -124,7 +124,7 @@
   name: закусочная доска
   parent: FoodMealBase
   id: FoodCharcuterie
-  description: A heaping of bite-sized meats, cheeses, and breads.
+  description: Горка мясных, сырных и хлебных закусок на один укус.
   components:
     - type: FlavorProfile
       flavors:
@@ -155,7 +155,7 @@
   parent: FoodMealBase
   id: FoodMealKhlavKalash
   name: хлав калаш
-  description: No pizza, only khlav kalash.
+  description: Нет пиццы, только хлав калаш.
   components:
     - type: Item
       storedOffset: 0,-2
@@ -188,7 +188,7 @@
   parent: [ FoodBowlBase, BaseMajorContraband]
   id: FoodSoupStewBlinding
   name: минутное ослепляющее рагу
-  description: "My daughter is eating hair! Best way to tell her this is not ok with out being too harsh?"
+  description: "Моя дочь ест волосы! Как ей помягче сказать, что так нельзя?"
   components:
     - type: FlavorProfile
       flavors:
@@ -211,7 +211,7 @@
   parent: [FoodNoodlesBase, BaseMajorContraband]
   id: FoodCookedShadekinCore
   name: спагетти с ядром шейдкина
-  description: An edible representation of your victory.
+  description: Съедобный символ твоей победы.
   components:
   - type: Item
     storedOffset: 0,-4
@@ -242,10 +242,10 @@
     - Meat
 
 - type: entity
-  name: pelmeni
+  name: пельмени
   parent: FoodMealBase
   id: FoodPelmeni
-  description: A delicious Russian Dumpling, made with love.
+  description: Вкусные русские пельмени, сделанные с любовью.
   components:
     - type: FlavorProfile
       flavors:
@@ -272,10 +272,10 @@
         - Meat
 
 - type: entity
-  name: empanadas
+  name: эмпанадас
   parent: FoodMealBase
   id: FoodEmpanadas
-  description: Just like mama used to make.
+  description: Совсем как мамины.
   components:
     - type: FlavorProfile
       flavors:
@@ -305,7 +305,7 @@
   name: крабовые рангуны
   parent: FoodMealBase
   id: FoodCrabRangoons
-  description: Now made with real crab!
+  description: Теперь с настоящим крабом!
   components:
     - type: FlavorProfile
       flavors:
@@ -336,7 +336,7 @@
   name: карельские пирожки
   parent: FoodMealBase
   id: FoodKarelianPastries
-  description: Actually named karjalanpiirakka, a traditional food from old world Finland. Kind of odd, but filling and delicious.
+  description: Вообще-то называется карьяланпииракка, традиционное блюдо из Финляндии Старого мира. Странновато, но сытно и вкусно.
   components:
     - type: FlavorProfile
       flavors:
@@ -366,7 +366,7 @@
   parent: FoodBowlBase
   id: FoodStroganoff
   name: бефстроганов
-  description: Tender beef cutlets and brown mushrooms in a rich, creamy onion sauce, served in a wooden bowl.
+  description: Нежные говяжьи котлетки и шампиньоны в насыщенном сливочно-луковом соусе, подаются в деревянной миске.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Consumable/Food/wooden_bowl.rsi

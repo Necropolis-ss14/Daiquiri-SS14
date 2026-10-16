@@ -1,8 +1,8 @@
 - type: entity
   id: MailCompanion
   parent: BaseHandheldComputer
-  name: MailCompanion™ v11.037
-  description: A handheld tracker tuned for station deliveries. Scan a letter or package to locate its intended recipient for a short time.
+  name: ПочтовыйКомпаньон™ v11.037
+  description: Ручной трекер для станционной почты. Отсканируйте письмо или посылку, чтобы на короткое время отследить получателя.
   components:
   # Sprite credit: Mail Companion sprites by @wonderfulnewworld. Thanks for the sprite work.
   - type: Sprite

@@ -32,10 +32,10 @@
       collection: ClawsSheathe # Placeholder
 
 - type: entity
-  name: advanced claws
+  name: улучшенные когти
   parent: [ BaseContrabandTier3, BaseClaws, BaseSecurityContraband ] # Blimpuf
   id: AdvancedClaws
-  description: Sharp, retractable plasteel claws, embedded in your hand.
+  description: Острые выдвижные пласталевые когти прямо в руке.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Melee/claws.rsi

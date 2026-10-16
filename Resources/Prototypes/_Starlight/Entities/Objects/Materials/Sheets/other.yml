@@ -45,8 +45,8 @@
 - type: entity
   parent: [BaseItem, BaseSlicingRefinable]
   id: CheapInsulatedFabric
-  name: cheap insulated fabric
-  description: A bolt of rough insulated fabric, not much use in it's current form.
+  name: дешёвая изолированная ткань
+  description: Рулон грубой изолированной ткани, в нынешнем виде почти бесполезен.
   components:
     - type: Sprite
       sprite: _Starlight/Objects/Misc/insults.rsi
@@ -63,8 +63,8 @@
 - type: entity
   parent: BaseItem
   id: PlasteelFilament
-  name: plasteel filament
-  description: A spool of thin plasteel filaments, useful for making cheap insulated fabric truly insulated.
+  name: нить из пластали
+  description: Катушка тонких нитей из пластали, полезная для превращения дешёвой изолированной ткани в по-настоящему изолированную.
   components:
     - type: Sprite
       sprite: _Starlight/Objects/Misc/insults.rsi
@@ -78,8 +78,8 @@
 - type: entity
   parent: BaseItem
   id: InsulatedThread
-  name: insulated thread
-  description: A spool of insulated thread, useful for stitching together gloves.
+  name: изолированная нить
+  description: Катушка изолированной нити, полезной для сшивания перчаток.
   components:
     - type: Sprite
       sprite: _Starlight/Objects/Misc/insults.rsi
@@ -93,8 +93,8 @@
 - type: entity
   parent: BaseItem
   id: InsulatedFabric
-  name: insulated fabric
-  description: A bolt of smooth insulated fabric, not much use in it's current form.
+  name: изолированная ткань
+  description: Рулон гладкой изолированной ткани, в нынешнем виде почти бесполезен.
   components:
     - type: Sprite
       sprite: _Starlight/Objects/Misc/insults.rsi

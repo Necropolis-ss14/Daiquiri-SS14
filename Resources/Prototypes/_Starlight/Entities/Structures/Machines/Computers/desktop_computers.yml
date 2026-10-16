@@ -87,7 +87,7 @@
   id: DesktopComputerFrame
   parent: BaseStructureDesktopComputer
   name: корпус настольного компьютера
-  description: A desktop computer under construction.
+  description: Настольный компьютер в процессе сборки.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Machines/desktop_frame.rsi
@@ -112,7 +112,7 @@
   parent: BaseStructureDesktopComputer
   id: DesktopComputerBroken
   name: сломанный настольный компьютер
-  description: Oh no! Cloopy is dead!
+  description: О нет! Клупи мёртв!
   components:
   - type: Construction
     graph: DesktopComputer
@@ -154,7 +154,7 @@
   parent: [ BaseDesktop, ComputerAlert ]
   id: ComputerAlertDesktop
   name: настольный компьютер атмосферных тревог
-  description: Used to access the station's atmospheric automated alert system.
+  description: Доступ к автоматической системе атмосферных оповещений станции.
   components:
   - type: Computer
     board: AlertsComputerCircuitboardDesktop
@@ -163,7 +163,7 @@
   parent: [ BaseDesktop, ComputerAtmosMonitoring ]
   id: ComputerAtmosMonitoringDesktop
   name: настольный монитор атмосферной сети
-  description: Used to monitor the station's atmospheric networks.
+  description: Мониторинг атмосферных сетей станции.
   components:
   - type: Computer
     board: AtmosMonitoringComputerCircuitboardDesktop
@@ -172,7 +172,7 @@
   parent: [ BaseDesktop, ComputerSurveillanceCameraMonitor ]
   id: ComputerSurveillanceCameraMonitorDesktop
   name: монитор камер
-  description: A surveillance camera monitor. You're watching them. Maybe.
+  description: Монитор камер наблюдения. Ты следишь за ними. Наверное.
   components:
   - type: Computer
     board: SurveillanceCameraMonitorCircuitboardDesktop
@@ -193,7 +193,7 @@
   parent: [ BaseDesktop, ComputerCargoBounty ]
   id: ComputerCargoBountyDesktop
   name: настольный компьютер наград карго
-  description: Used to manage currently active bounties.
+  description: Управление текущими активными наградами.
   components:
   - type: Computer
     board: CargoBountyComputerCircuitboardDesktop
@@ -202,7 +202,7 @@
   parent: [ BaseDesktop, ComputerCrewMonitoring ]
   id: ComputerCrewMonitoringDesktop
   name: настольная консоль мониторинга экипажа
-  description: Used to monitor active health sensors built into most of the crew's uniforms.
+  description: Мониторинг активных датчиков здоровья, встроенных в форму экипажа.
   components:
   - type: Computer
     board: CrewMonitoringComputerCircuitboardDesktop
@@ -211,7 +211,7 @@
   parent: [ BaseDesktop, ComputerCriminalRecords ]
   id: ComputerCriminalRecordsDesktop
   name: настольный компьютер записей СБ
-  description: This can be used to access security records.
+  description: Можно использовать для доступа к записям службы безопасности.
   components:
   - type: Computer
     board: CriminalRecordsComputerCircuitboardDesktop
@@ -220,7 +220,7 @@
   parent: [ BaseDesktop, ComputerStationRecords ]
   id: ComputerStationRecordsDesktop
   name: настольный компьютер кадровых записей
-  description: This can be used to check employment records.
+  description: Можно использовать для проверки трудовых записей.
   components:
   - type: Computer
     board: StationRecordsComputerCircuitboardDesktop
@@ -237,7 +237,7 @@
   parent: [ BaseDesktop, ComputerPowerMonitoring ]
   id: ComputerPowerMonitoringDesktop
   name: настольный компьютер мониторинга энергии
-  description: It monitors power levels across the station.
+  description: Отслеживает уровень энергии по станции.
   components:
   - type: Computer
     board: PowerComputerCircuitboardDesktop
@@ -246,7 +246,7 @@
   parent: [ BaseDesktop, ComputerSalvageJobBoard ]
   id: ComputerSalvageJobBoardDesktop
   name: доска заданий утилизаторов
-  description: Console for accessing salvage jobs, if you're tough enough.
+  description: Консоль доступа к заказам утилизаторов — если кишка не тонка.
   components:
   - type: Computer
     board: SalvageJobBoardComputerCircuitboardDesktop
@@ -255,7 +255,7 @@
   parent: [ BaseDesktop, ComputerCargoOrders ]
   id: ComputerCargoOrdersDesktop
   name: настольный компьютер запросов карго
-  description: Used to order supplies and approve requests.
+  description: Заказ поставок и одобрение запросов.
   components:
   - type: Computer
     board: CargoRequestComputerCircuitboardDesktop
@@ -265,7 +265,7 @@
   parent: [ BaseDesktop, ComputerCargoOrdersEngineering ]
   id: ComputerCargoOrdersEngineeringDesktop
   name: настольный компьютер инженерных запросов
-  description: Used by the engineering department to order supplies.
+  description: Используется инженерным департаментом для заказа поставок.
   components:
   - type: Computer
     board: CargoRequestEngineeringComputerCircuitboardDesktop
@@ -274,7 +274,7 @@
   parent: [ BaseDesktop, ComputerCargoOrdersMedical ]
   id: ComputerCargoOrdersMedicalDesktop
   name: настольный компьютер медицинских запросов
-  description: Used by the medical department to order supplies.
+  description: Используется медицинским департаментом для заказа поставок.
   components:
   - type: Computer
     board: CargoRequestMedicalComputerCircuitboardDesktop
@@ -283,7 +283,7 @@
   parent: [ BaseDesktop, ComputerCargoOrdersScience ]
   id: ComputerCargoOrdersScienceDesktop
   name: настольный компьютер научных запросов
-  description: Used by the science department to order supplies.
+  description: Используется научным департаментом для заказа поставок.
   components:
   - type: Computer
     board: CargoRequestScienceComputerCircuitboardDesktop
@@ -292,7 +292,7 @@
   parent: [ BaseDesktop, ComputerCargoOrdersSecurity ]
   id: ComputerCargoOrdersSecurityDesktop
   name: настольный компьютер запросов СБ
-  description: Used by the security department to order supplies.
+  description: Используется департаментом безопасности для заказа поставок.
   components:
   - type: Computer
     board: CargoRequestSecurityComputerCircuitboardDesktop
@@ -301,7 +301,7 @@
   parent: [ BaseDesktop, ComputerCargoOrdersService ]
   id: ComputerCargoOrdersServiceDesktop
   name: настольный компьютер сервисных запросов
-  description: Used by the service department to order supplies.
+  description: Используется сервисным департаментом для заказа поставок.
   components:
   - type: Computer
     board: CargoRequestServiceComputerCircuitboardDesktop
@@ -313,7 +313,7 @@
   parent: [ BaseDesktop, BaseComputerAiAccess, StorePresetUplink ]
   id: ComputerPersonalDesktop
   name: персональный настольный компьютер
-  description: For all your stationary computing needs!
+  description: Для всех ваших стационарных вычислительных нужд!
   components:
   - type: Sprite
     layers:

@@ -28,7 +28,7 @@
   name: поддельная печать капитана
   parent: RubberStampBaseFake
   id: RubberStampCaptainFake
-  description: A rubber stamp for forging important documents. Hopefully they don't look too closely.
+  description: Резиновая печать для подделки важных документов. Будем надеяться, присматриваться не станут.
   categories: [ DoNotMap ]
   components:
     - type: Stamp
@@ -56,7 +56,7 @@
   name: шуточная печать капитана
   parent: RubberStampCaptainFake
   id: RubberStampCaptainJoke
-  description: A funny rubber stamp for forging important documents. Hopefully they don't look too closely.
+  description: Забавная резиновая печать для подделки важных документов. Будем надеяться, присматриваться не станут.
   components:
     - type: Stamp
       stampedName: "Clown"
@@ -65,7 +65,7 @@
   name: поддельная печать священника
   parent: RubberStampBaseFake
   id: RubberStampChaplainFake
-  description: A rubber stamp for forging important documents. Hopefully they don't look too closely.
+  description: Резиновая печать для подделки важных документов. Будем надеяться, присматриваться не станут.
   categories: [ DoNotMap ]
   components:
     - type: Stamp
@@ -93,7 +93,7 @@
   name: шуточная печать священника
   parent: RubberStampChaplainFake
   id: RubberStampChaplainJoke
-  description: A funny rubber stamp for forging important documents. Hopefully they don't look too closely.
+  description: Забавная резиновая печать для подделки важных документов. Будем надеяться, присматриваться не станут.
   components:
     - type: Stamp
       stampedName: "Cultist"
@@ -102,7 +102,7 @@
   name: поддельная печать адвоката
   parent: RubberStampBaseFake
   id: RubberStampLawyerFake
-  description: A rubber stamp for forging important documents. Hopefully they don't look too closely.
+  description: Резиновая печать для подделки важных документов. Будем надеяться, присматриваться не станут.
   categories: [ DoNotMap ]
   components:
     - type: Stamp
@@ -132,7 +132,7 @@
   name: шуточная печать адвоката
   parent: RubberStampLawyerFake
   id: RubberStampLawyerJoke
-  description: A funny rubber stamp for forging important documents. Hopefully they don't look too closely.
+  description: Забавная резиновая печать для подделки важных документов. Будем надеяться, присматриваться не станут.
   components:
     - type: Stamp
       stampedName: "Goodman"
@@ -141,7 +141,7 @@
   name: поддельная печать клоуна
   parent: RubberStampBaseFake
   id: RubberStampClownFake
-  description: A rubber stamp for forging important documents. Hopefully they don't look too closely.
+  description: Резиновая печать для подделки важных документов. Будем надеяться, присматриваться не станут.
   categories: [ DoNotMap ]
   components:
     - type: Stamp
@@ -169,7 +169,7 @@
   name: шуточная печать клоуна
   parent: RubberStampClownFake
   id: RubberStampClownJoke
-  description: An extra funny rubber stamp for forging important documents.
+  description: Особо смешная резиновая печать для подделки важных документов.
   components:
     - type: Stamp
       stampedName: "Captain"
@@ -178,7 +178,7 @@
   name: поддельная печать главного инженера
   parent: RubberStampBaseFake
   id: RubberStampCEFake
-  description: A rubber stamp for forging important documents. Hopefully they don't look too closely.
+  description: Резиновая печать для подделки важных документов. Будем надеяться, присматриваться не станут.
   categories: [ DoNotMap ]
   components:
     - type: Stamp
@@ -206,7 +206,7 @@
   name: шуточная печать главного инженера
   parent: RubberStampCEFake
   id: RubberStampCEJoke
-  description: A funny rubber stamp for forging important documents.
+  description: Забавная резиновая печать для подделки важных документов.
   components:
     - type: Stamp
       stampedName: "Chief Looser"
@@ -215,7 +215,7 @@
   name: поддельная печать главного врача
   parent: RubberStampBaseFake
   id: RubberStampCMOFake
-  description: A rubber stamp for forging important documents. Hopefully they don't look too closely.
+  description: Резиновая печать для подделки важных документов. Будем надеяться, присматриваться не станут.
   categories: [ DoNotMap ]
   components:
     - type: Stamp
@@ -243,7 +243,7 @@
   name: шуточная печать главного врача
   parent: RubberStampCMOFake
   id: RubberStampCMOJoke
-  description: A funny rubber stamp for forging important documents.
+  description: Забавная резиновая печать для подделки важных документов.
   components:
     - type: Stamp
       stampedName: "Chief Drug Dealer"
@@ -252,7 +252,7 @@
   name: поддельная печать главы персонала
   parent: RubberStampBaseFake
   id: RubberStampHopFake
-  description: A rubber stamp for forging important documents. Hopefully they don't look too closely.
+  description: Резиновая печать для подделки важных документов. Будем надеяться, присматриваться не станут.
   categories: [ DoNotMap ]
   components:
     - type: Stamp
@@ -280,7 +280,7 @@
   name: шуточная печать главы персонала
   parent: RubberStampHopFake
   id: RubberStampHopJoke
-  description: A funny rubber stamp for forging important documents.
+  description: Забавная резиновая печать для подделки важных документов.
   components:
     - type: Stamp
       stampedName: "Head of Tiders"
@@ -289,7 +289,7 @@
   name: поддельная печать главы СБ
   parent: RubberStampBaseFake
   id: RubberStampHosFake
-  description: A rubber stamp for forging important documents. Hopefully they don't look too closely.
+  description: Резиновая печать для подделки важных документов. Будем надеяться, присматриваться не станут.
   categories: [ DoNotMap ]
   components:
     - type: Stamp
@@ -317,7 +317,7 @@
   name: шуточная печать главы СБ
   parent: RubberStampHosFake
   id: RubberStampHosJoke
-  description: A funny rubber stamp for forging important documents.
+  description: Забавная резиновая печать для подделки важных документов.
   components:
     - type: Stamp
       stampedName: "Head of Shitcurity"
@@ -327,7 +327,7 @@
   name: поддельная печать мима
   parent: RubberStampBaseFake
   id: RubberStampMimeFake
-  description: A rubber stamp for forging important documents. Hopefully they don't look too closely.
+  description: Резиновая печать для подделки важных документов. Будем надеяться, присматриваться не станут.
   categories: [ DoNotMap ]
   components:
     - type: Stamp
@@ -341,7 +341,7 @@
   name: поддельная печать квартирмейстера
   parent: RubberStampBaseFake
   id: RubberStampQmFake
-  description: A rubber stamp for forging important documents. Hopefully they don't look too closely.
+  description: Резиновая печать для подделки важных документов. Будем надеяться, присматриваться не станут.
   categories: [ DoNotMap ]
   components:
     - type: Stamp
@@ -369,7 +369,7 @@
   name: шуточная печать квартирмейстера
   parent: RubberStampQmFake
   id: RubberStampQmJoke
-  description: A funny rubber stamp for forging important documents.
+  description: Забавная резиновая печать для подделки важных документов.
   components:
     - type: Stamp
       stampedName: "Spesos Slave"
@@ -378,7 +378,7 @@
   name: поддельная печать научного руководителя
   parent: RubberStampBaseFake
   id: RubberStampRdFake
-  description: A rubber stamp for forging important documents. Hopefully they don't look too closely.
+  description: Резиновая печать для подделки важных документов. Будем надеяться, присматриваться не станут.
   categories: [ DoNotMap ]
   components:
     - type: Stamp
@@ -406,7 +406,7 @@
   name: шуточная печать научного руководителя
   parent: RubberStampRdFake
   id: RubberStampRdJoke
-  description: A funny rubber stamp for forging important documents.
+  description: Забавная резиновая печать для подделки важных документов.
   components:
     - type: Stamp
       stampedName: "Mats Gobbler"
@@ -416,7 +416,7 @@
   name: поддельная печать торговца
   parent: RubberStampBaseFake
   id: RubberStampTraderFake
-  description: A rubber stamp for forging important documents. Hopefully they don't look too closely.
+  description: Резиновая печать для подделки важных документов. Будем надеяться, присматриваться не станут.
   components:
     - type: Stamp
       stampedName: "Traitor"
@@ -429,7 +429,7 @@
   name: поддельная печать смотрителя
   parent: RubberStampBaseFake
   id: RubberStampWardenFake
-  description: A rubber stamp for forging important documents. Hopefully they don't look too closely.
+  description: Резиновая печать для подделки важных документов. Будем надеяться, присматриваться не станут.
   categories: [ DoNotMap ]
   components:
     - type: Stamp
@@ -443,7 +443,7 @@
   name: поддельная печать «ОДОБРЕНО»
   parent: [RubberStampBaseAlt, BaseSyndicateContraband]
   id: RubberStampApprovedFake
-  description: A rubber stamp for accepting forged documents. At least the syndicate didn't mess this one up.
+  description: Резиновая печать для одобрения поддельных документов. Её хоть Синдикат не испортил.
   components:
     - type: Stamp
       stampedName: stamp-component-stamped-name-approved
@@ -456,7 +456,7 @@
   name: поддельная печать «ОТКАЗАНО»
   parent: [RubberStampBaseAlt, BaseSyndicateContraband]
   id: RubberStampDeniedFake
-  description: A rubber stamp for rejecting forged documents. At least the syndicate didn't mess this one up.
+  description: Резиновая печать для отклонения поддельных документов. Её хоть Синдикат не испортил.
   components:
     - type: Stamp
       stampedName: stamp-component-stamped-name-denied
@@ -469,7 +469,7 @@
   name: поддельная печать детектива
   parent: RubberStampBaseFake
   id: RubberStampDetectiveFake
-  description: A rubber stamp for forging important documents. Hopefully they don't look too closely.
+  description: Резиновая печать для подделки важных документов. Будем надеяться, присматриваться не станут.
   categories: [ DoNotMap ]
   components:
     - type: Stamp
@@ -484,7 +484,7 @@
   parent: RubberStampBaseFake
   id: RubberStampPsychologistFake
   categories: [ DoNotMap ]
-  description: A rubber stamp for forging important documents. Hopefully they don't look too closely.
+  description: Резиновая печать для подделки важных документов. Будем надеяться, присматриваться не станут.
   components:
     - type: Stamp
       stampedName: "Pschologist"
@@ -497,7 +497,7 @@
   name: поддельная печать магистрата
   parent: RubberStampBaseFake
   id: RubberStampMagistrateFake
-  description: A rubber stamp for forging important documents. Hopefully they don't look too closely.
+  description: Резиновая печать для подделки важных документов. Будем надеяться, присматриваться не станут.
   suffix: DO NOT MAP
   components:
     - type: Stamp
@@ -512,7 +512,7 @@
   name: поддельная печать представителя НТ
   parent: RubberStampBaseFake
   id: RubberStampNtrepFake
-  description: A rubber stamp for forging important documents. Hopefully they don't look too closely.
+  description: Резиновая печать для подделки важных документов. Будем надеяться, присматриваться не станут.
   suffix: DO NOT MAP
   components:
     - type: Stamp
@@ -527,7 +527,7 @@
   name: поддельная печать агента внутренних дел
   parent: RubberStampBaseFake
   id: RubberStampIAAFake
-  description: A rubber stamp for forging important documents. Hopefully they don't look too closely.
+  description: Резиновая печать для подделки важных документов. Будем надеяться, присматриваться не станут.
   suffix: DO NOT MAP
   components:
     - type: Stamp
@@ -542,7 +542,7 @@
   name: поддельная печать синего щита
   parent: RubberStampBaseFake
   id: RubberStampBSOFake
-  description: A rubber stamp for forging important documents. Hopefully they don't look too closely.
+  description: Резиновая печать для подделки важных документов. Будем надеяться, присматриваться не станут.
   suffix: DO NOT MAP
   components:
     - type: Stamp
@@ -557,7 +557,7 @@
   name: шуточная печать синего щита
   parent: RubberStampBSOFake
   id: RubberStampBSOJoke
-  description: A funny rubber stamp for forging important documents.
+  description: Забавная резиновая печать для подделки важных документов.
   components:
     - type: Stamp
       stampedName: "Blushit Officer"
@@ -567,7 +567,7 @@
   name: поддельная печать бригмедика
   parent: RubberStampBaseFake
   id: RubberStampBrigmedicFake
-  description: A rubber stamp for forging important documents. Hopefully they don't look too closely.
+  description: Резиновая печать для подделки важных документов. Будем надеяться, присматриваться не станут.
   suffix: DO NOT MAP
   components:
     - type: Stamp
@@ -582,7 +582,7 @@
   name: поддельная печать старшего утилизатора
   parent: RubberStampBaseFake
   id: RubberStampSalvageLeadFake
-  description: A rubber stamp for forging important documents. Hopefully they don't look too closely.
+  description: Резиновая печать для подделки важных документов. Будем надеяться, присматриваться не станут.
   suffix: DO NOT MAP
   components:
     - type: Stamp
@@ -597,7 +597,7 @@
   name: поддельная печать репортёра
   parent: RubberStampBaseFake
   id: RubberStampReporterFake
-  description: A rubber stamp for forging important documents. Hopefully they don't look too closely.
+  description: Резиновая печать для подделки важных документов. Будем надеяться, присматриваться не станут.
   components:
     - type: Stamp
       stampedName: "Reporfer"
@@ -611,7 +611,7 @@
   name: коробка поддельных печатей
   parent: [BoxCardboard, BaseSyndicateContraband]
   id: BoxStampsFake
-  description: A small box containing fake stamps.
+  description: Небольшая коробка с поддельными печатями.
   components:
     - type: Storage
       maxItemSize: Small
@@ -652,7 +652,7 @@
   name: коробка шуточных печатей
   parent: [BoxCardboard, BaseSyndicateContraband]
   id: BoxStampsJoke
-  description: A small box containing fake stamps.
+  description: Небольшая коробка с поддельными печатями.
   components:
     - type: Storage
       maxItemSize: Small

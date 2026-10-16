@@ -1,8 +1,8 @@
 - type: entity
-  name: amethyst lizitar
+  name: аметистовый лизитар
   parent: [ BaseSword, BaseSecurityContraband, BaseCargoContraband ]
   id: AmethystLizitar
-  description: Now you really have no clue what this thing is made from.
+  description: Теперь ты точно не знаешь, из чего эта штука сделана.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Melee/amethyst_lizitar.rsi

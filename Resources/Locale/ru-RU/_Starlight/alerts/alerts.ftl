@@ -29,3 +29,7 @@ alerts-k9-sprint-name = [color=lightblue]Спринт[/color]
 alerts-k9-sprint-desc = Вы движетесь с повышенной скоростью.
 alerts-nanochat-name = [color=red]Новое сообщение![/color]
 alerts-nanochat-desc = Вы получили новое сообщение!
+alerts-cards-name = [color=lightblue]Доступен выбор[/color]
+alerts-cards-desc = Вы [color=lightblue]стоите перед выбором[/color]. Нажмите на оповещение, чтобы открыть меню персонажа и увидеть доступные пути.
+alerts-tracking-scent-name = Отслеживание запаха
+alerts-tracking-scent-desc = Вы активно идёте по запаховому следу. Вы не сможете удерживать его вечно.

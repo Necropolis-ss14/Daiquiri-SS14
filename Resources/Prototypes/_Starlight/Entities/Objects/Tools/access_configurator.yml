@@ -3,7 +3,7 @@
   parent: [BaseItem, BaseSyndicateContraband]
   id: SyndicateAccessConfigurator
   name: конфигуратор доступа Синдиката
-  description: Used to modify the access level requirements for airlocks and other lockable devices.
+  description: Используется для изменения требований уровня доступа для шлюзов и других запираемых устройств.
   components:
     - type: EmitSoundOnLand
       sound:

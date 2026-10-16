@@ -2,7 +2,7 @@
   name: сумка для экстрактов слайма
   id: SlimeExtractBag
   parent: BaseStorageItem
-  description: A bag for greedy xenobiologists to store unreasonable amounts of extracts.
+  description: Сумка для жадных ксенобиологов, чтобы хранить неразумное количество экстрактов.
   components:
     - type: Sprite
       sprite: _Starlight/Objects/Specific/Hydroponics/Equipment/plant_bag.rsi # TODO: Replace with unique sprite
@@ -28,7 +28,7 @@
   name: ручной сканер слаймов
   id: HandheldSlimeScanner
   parent: BaseItem
-  description: A hand-held scanner for collecting information on slimes.
+  description: Ручной сканер для сбора информации о слаймах.
   components:
     - type: Sprite
       sprite: _Starlight/Objects/Specific/Xenobiology/test_slime_analyzer.rsi
@@ -39,7 +39,7 @@
   name: камерный тэггер консоли ксенобиологии
   id: XenobiologyConsoleCameraTagger
   parent: BaseItem
-  description: Can tag any camera to register it to the xenobiology network. Spy on slimes further away, or even your neighbors!
+  description: Может помечать любую камеру для регистрации в сети ксенобиологии. Следите за слаймами издалека или даже за соседями!
   components:
     - type: Sprite
       sprite: _Starlight/Objects/Specific/Xenobiology/test_camera_tagger.rsi

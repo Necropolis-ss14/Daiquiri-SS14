@@ -1,14 +1,14 @@
 - type: entity
   parent: Paper
   id: TapeRecorderTranscript
-  name: record transcript
+  name: стенограмма записи
   # TODO: could have a unique sprite in the future
 
 - type: entity
-  name: nt-cc paper
+  name: бумага НТ-ЦК
   parent: Paper
   id: PaperNTCC
-  description: A single unit of bureaucracy, branded with the logos of NanoTrasen and Central Command.
+  description: Единица бюрократии с логотипами NanoTrasen и Центрального командования.
   components:
   - type: Sprite
     sprite: Objects/Misc/bureaucracy.rsi
@@ -38,8 +38,8 @@
 - type: entity
   parent: BaseItem
   id: JailFree
-  name: get out of jail free card
-  description: Get out of jail free! is written on this card, and a drawing depicting a man with a clown mask and monocle escaping a cage is drawn on the right. Both the text and drawing are in crayon.
+  name: карта «выход из тюрьмы»
+  description: "На карте написано «Выйди из тюрьмы бесплатно!», справа — рисунок мелком: человек в маске клоуна и с моноклем сбегает из клетки. И текст, и рисунок — мелком."
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Misc/paper.rsi
@@ -63,10 +63,10 @@
     size: Tiny
 
 - type: entity
-  name: itg paper
+  name: бумага ITG
   parent: Paper
   id: PaperITG
-  description: A single unit of bureaucracy, branded with the logo of the Interstellar Trade Guild.
+  description: Единица бюрократии с логотипом Межзвёздной торговой гильдии.
   components:
   - type: Sprite
     sprite: Objects/Misc/bureaucracy.rsi

@@ -2,7 +2,7 @@
   name: ручка представителя NanoTrasen
   parent: [ PenEmbeddable, BaseNanoTrasenContraband ]
   id: PenNTR
-  description: The NT Representative's own unique pen, just not as sharp.
+  description: Собственная уникальная ручка представителя НТ, только не такая острая.
   components:
     - type: Sprite
       sprite: _Starlight/Objects/Misc/pens.rsi
@@ -17,7 +17,7 @@
   id: PenQuillBurnt
   parent: [PenEmbeddable, BaseMajorContraband]
   name: обгоревшее перо
-  description: This quill seems to have a lot of weight to it.
+  description: Это перо кажется весьма весомым.
   components:
     - type: Sprite
       sprite: _Starlight/Objects/Misc/pens.rsi

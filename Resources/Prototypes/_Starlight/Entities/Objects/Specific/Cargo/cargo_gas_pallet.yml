@@ -1,8 +1,8 @@
 - type: entity
   parent: GasUnaryBase
   id: CargoGasPalletSell
-  name: cargo gas selling tank
-  description: Stores gasses pumped through piping for sale. Made of plastitanium to discourage pesky vandals.
+  name: грузовой газовый бак продажи
+  description: Хранит газы, закачанные по трубам, для продажи. Сделан из пластитания, чтобы отвадить надоедливых вандалов.
   components:
   - type: Anchorable
     flags:
@@ -34,8 +34,8 @@
 - type: entity
   parent: CargoGasPalletSell
   id: CargoGasPalletBuy
-  name: cargo gas buying tank
-  description: Stores gasses purchased in bulk, ready to be pumped. Made of plastitanium to discourage pesky vandals.
+  name: грузовой газовый бак покупки
+  description: Хранит газы, закупленные оптом, готовые к закачке. Сделан из пластитания, чтобы отвадить надоедливых вандалов.
   components:
     - type: CargoGasPallet
       palletType: Buy

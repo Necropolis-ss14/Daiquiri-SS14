@@ -1,8 +1,8 @@
 - type: entity
   id: Gramophone
-  name: gramophone
+  name: граммофон
   parent: Jukebox
-  description: A machine capable of playing a wide variety of tunes. Enjoyment not guaranteed.
+  description: Аппарат, играющий множество мелодий. Удовольствие не гарантируется.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Machines/gramophone.rsi

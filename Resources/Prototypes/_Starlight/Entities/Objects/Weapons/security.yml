@@ -3,7 +3,7 @@
   id: WeaponPistolPDW9TaserBorg
   name: встроенный тазер PDW-9
   parent: WeaponPistolPDW9
-  description: A self-recharging PDW-9 taser integrated directly into a security cyborg's chassis. Lethal mode requires Code Red or higher.
+  description: Самоперезаряжающийся тазер PDW-9, встроенный прямо в корпус охранного киборга. Летальный режим требует Красный код или выше.
   components:
   - type: StationGridMemory
   - type: Battery
@@ -35,7 +35,7 @@
   id: BorgStunbatonRechargeable
   name: встроенная дубинка
   parent: Stunbaton
-  description: A self-recharging stun baton integrated directly into a security cyborg's chassis.
+  description: Самоперезаряжающаяся электрошоковая дубинка, встроенная прямо в шасси охранного киборга.
   components:
   - type: Battery
     maxCharge: 1000
@@ -51,7 +51,7 @@
   id: BorgHolocuffs
   name: голонаручники
   parent: Handcuffs
-  description: Holographic restraining cuffs emitted directly from a security cyborg's chassis. A fresh pair reappears moments after use, retrieved when the target is freed.
+  description: Голографические наручники, излучаемые прямо из шасси охранного киборга. Новая пара появляется спустя мгновения после использования и возвращается, когда цель освобождают.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Tools/cyberling.rsi
@@ -72,7 +72,7 @@
   id: BorgFlashRechargeable
   name: встроенная вспышка
   parent: Flash
-  description: An ultrabright flashbulb integrated directly into a security cyborg's chassis. The internal capacitor recharges automatically.
+  description: Сверхъяркая вспышка, встроенная прямо в шасси охранного киборга. Внутренний конденсатор перезаряжается автоматически.
   components:
   - type: LimitedCharges
     maxCharges: 5
@@ -83,10 +83,10 @@
 # Integrated holobarrier projector for security borg — self-recharging microreactor cell, undroppable
 - type: entity
   id: BorgHoloprojectorSecurity
-  name: integrated holobarrier projector
+  name: встроенный проектор голобарьера
   parent: HoloprojectorSecurity
   suffix: borg
-  description: A holographic barrier projector integrated directly into a security cyborg's chassis. The sealed microreactor keeps it self-charging.
+  description: Проектор голографического барьера, встроенный прямо в шасси охранного киборга. Герметичный микрореактор обеспечивает самозарядку.
   components:
   - type: ItemSlots
     slots:
@@ -101,7 +101,7 @@
   - type: Unremoveable
 
 - type: entity
-  name: double stun baton
+  name: двойная дубинка
   parent: [ BaseContrabandTier2, Stunbaton, BaseSecurityContraband ] # Blimpuf
   id: DoubleStunbaton
   components:
@@ -119,7 +119,7 @@
       map: [ "enum.StunbatonVisualLayers.Stunbaton_nocell" ]
 
 - type: entity
-  name: purple stun baton
+  name: фиолетовая дубинка
   parent: [ BaseContrabandTier2, Stunbaton, BaseSecurityContraband ] # Blimpuf
   id: PurpleStunbaton
   components:

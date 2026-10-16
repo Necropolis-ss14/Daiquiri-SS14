@@ -1,6 +1,6 @@
 # Hydrogen
 - type: entity
-  name: pill
+  name: пилюля
   suffix: Hydrogen 5u
   parent: Pill
   id: PillHydrogen5
@@ -20,7 +20,7 @@
         Quantity: 5
 
 - type: entity
-  name: pill
+  name: пилюля
   suffix: Hydrogen 10u
   parent: Pill
   id: PillHydrogen10
@@ -40,7 +40,7 @@
         Quantity: 10
 
 - type: entity
-  name: pill canister
+  name: контейнер для пилюль
   parent: PillCanister
   id: PillCanisterHydrogen
   suffix: Hydrogen 10u, 5
@@ -55,7 +55,7 @@
 
 # Nitrogen
 - type: entity
-  name: pill
+  name: пилюля
   suffix: Nitrogen 5u
   parent: Pill
   id: PillNitrogen5
@@ -75,7 +75,7 @@
         Quantity: 5
 
 - type: entity
-  name: pill
+  name: пилюля
   suffix: Nitrogen 10u
   parent: Pill
   id: PillNitrogen10
@@ -95,7 +95,7 @@
         Quantity: 10
 
 - type: entity
-  name: pill canister
+  name: контейнер для пилюль
   parent: PillCanister
   id: PillCanisterNitrogen
   suffix: Nitrogen 10u, 5

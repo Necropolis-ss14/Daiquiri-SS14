@@ -2,7 +2,7 @@
   id: SLVendingMachine
   parent: BaseMachinePowered
   name: торговый автомат
-  description: Just add capitalism!
+  description: Просто добавь капитализм!
   abstract: true
   components:
   - type: Sprite
@@ -95,6 +95,7 @@
   id: SLVendingMachineHugDispenser
   categories: [ ShouldMapStation ]
   name: раздатчик обнимашек
+  description: Обнимашки и мягкие игрушки для всего экипажа.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Machines/VendingMachines/plushiemat.rsi
@@ -111,8 +112,8 @@
   parent: SLVendingMachine
   id: SLVendingMachineFashion
   categories: [ ShouldMapStation ]
-  name: Fashion-o-Mat
-  description: Happiness should be expensive.
+  name: Фешн-о-Мат
+  description: Счастье должно стоить дорого.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Machines/VendingMachines/fashionmat.rsi
@@ -131,6 +132,7 @@
   id: SLVendingMachineMedical
   categories: [ ShouldMapStation ]
   name: медицинский раздатчик
+  description: Лекарства и медицинские принадлежности.
   components:
   - type: AccessReader
     access: [["Medical"]]
@@ -149,6 +151,7 @@
   id: SLVendingMachineEngi
   categories: [ ShouldMapStation ]
   name: инженерный раздатчик
+  description: Инструменты и материалы для инженеров.
   components:
   - type: AccessReader
     access: [["Engineering"]]
@@ -165,8 +168,8 @@
   parent: SLVendingMachine
   id: VendingMachineClown
   categories: [ ShouldMapStation ]
-  name: HohohonkersVend
-  description: Get your honk fix here! Surprise the station with HohohonkersVend — the ultimate machine for hilarious pranks. Hack it, and you'll unlock something special!
+  name: Хохонкерс
+  description: Получи свою дозу хонка! Удиви станцию с Хохонкерсом — лучшим автоматом для уморительных розыгрышей. Взломай — откроешь нечто особенное!
   components:
   - type: AccessReader
     access: [["Clown"]]
@@ -183,7 +186,7 @@
   id: VendingMachineMime
   categories: [ ShouldMapStation ]
   name: торгомат тишины
-  description: All the gear a mime could need. Go put the captain in an invisible box!
+  description: Всё, что нужно миму. Иди посади капитана в невидимую коробку!
   components:
   - type: AccessReader
     access: [["Mime"]]
@@ -200,6 +203,7 @@
   id: SLVendingMachineSecurity
   categories: [ ShouldMapStation ]
   name: охранный раздатчик
+  description: Снаряжение для офицеров службы безопасности.
   components:
   - type: AccessReader
     access: [["Security"], ["Cadet"]]
@@ -217,6 +221,7 @@
   id: SLVendingMachineSalvage
   categories: [ ShouldMapStation ]
   name: билетный автомат утилизаторов
+  description: Снаряжение и оружие за билеты утилизаторов.
   components:
   - type: AccessReader
     access: [["Salvage"]]
@@ -239,6 +244,7 @@
   id: SLVendingMachineSalvageITG
   categories: [ ShouldMapStation ]
   name: билетный автомат утилизаторов
+  description: Снаряжение и оружие за билеты утилизаторов.
   components:
   - type: AccessReader
     access: [["Salvage"]]
@@ -263,6 +269,7 @@
   id: SLVendingMachineMining
   categories: [ ShouldMapStation ]
   name: билетный автомат шахтёров
+  description: Снаряжение для шахтёров.
   components:
     - type: AccessReader
       access: [["Mining"]]
@@ -281,7 +288,7 @@
   parent: VendingMachine
   id: VendingMachineAbductorDispenser
   name: инопланетный раздатчик
-  description: Dispenses something weird.
+  description: Выдаёт что-то странное.
   components:
     - type: VendingMachine
       pack: AbductorGlandInventory
@@ -307,7 +314,7 @@
   parent: VendingMachine
   id: VendingMachineDonk
   name: Донк на ходу
-  description: Hot and ready when you're on the run! Donk Pockets- It's food, legally.
+  description: Горячо и готово на бегу! Донк-покетсы — это еда. Юридически.
   components:
   - type: VendingMachine
     pack: DonkPocketsMachineInventory
@@ -344,7 +351,7 @@
   parent: VendingMachine
   id: VendingMachineIceCream
   name: Ай Скрим мороженое
-  description: A vending machine full of delicious ice cream. ScaryCorp assures that you don't actually have to scream anything.
+  description: "Вендинговый автомат с вкусным мороженым. ScaryCorp уверяет: кричать вовсе не обязательно."
   components:
   - type: VendingMachine
     pack: IceCreamInventory
@@ -380,7 +387,7 @@
   parent: VendingMachine
   id: VendingMachineGumballs
   name: раздатчик жвачек
-  description: Full of tasty gumballs.
+  description: Полон вкусных жвачек-шариков.
   components:
   - type: VendingMachine
     pack: GumballInventory
@@ -407,8 +414,8 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineLegalDrobe
-  name: LegalDrobe
-  description: Objection! This wardrobe dispenses the rule of law... wait, haven't you seen this before?
+  name: ЛигалДроб
+  description: Протестую! Этот гардероб выдаёт власть закона... постой, ты это уже видел?
   components:
   - type: VendingMachine
     pack: LegalDrobeInventory
@@ -440,7 +447,7 @@
   id: VendingMachineMedicalSecurity
   name: НаноМед для СБ
   suffix: Security
-  description: It's a medical drug dispenser. Natural chemicals only!
+  description: Диспенсер лекарств. Только натуральные химикаты!
   components:
   - type: VendingMachine
     pack: NanoMedSecurityInventory
@@ -467,7 +474,7 @@
   id: VendingMachineMedicalBaseSyndicate
   name: Interdyne коммерческий
   suffix: Civilian
-  description: It's a medical drug dispenser by Interdyne Pharmaceutics. For the Health of Humankind.
+  description: Диспенсер лекарств от Interdyne Pharmaceutics. Для здоровья человечества.
   components:
   - type: VendingMachine
     pack: InterdyneCommercialInventory
@@ -525,7 +532,7 @@
   id: VendingMachineWallMedicalCivilianSyndicate
   name: Interdyne медпомощь коммерческая
   suffix: Civilian, Wallmount
-  description: It's a wall-mounted medical equipment dispenser by Interdyne Pharmaceutics. For the Health of Humankind.
+  description: Настенный диспенсер медоборудования от Interdyne Pharmaceutics. Для здоровья человечества.
   components:
   - type: VendingMachine
     pack: InterdyneCommercialWallInventory
@@ -581,7 +588,7 @@
   id: VendingMachineMedicalBaseDeforest
   name: DeForest планетарный
   suffix: Civilian
-  description: It's a medical drug dispenser by DeForest Medical. Health that Touches the Sky.
+  description: Диспенсер лекарств от DeForest Medical. Здоровье, касающееся неба.
   components:
   - type: VendingMachine
     pack: DeforestPlanetaryInventory
@@ -639,7 +646,7 @@
   id: VendingMachineWallMedicalCivilianDeforest
   name: DeForest медпомощь планетарная
   suffix: Civilian, Wallmount
-  description: It's a wall-mounted medical equipment dispenser by DeForest Medical. Health that Touches the Sky.
+  description: Настенный диспенсер медоборудования от DeForest Medical. Здоровье, касающееся неба.
   components:
   - type: VendingMachine
     pack: DeforestPlanetaryWallInventory
@@ -695,7 +702,7 @@
   id: VendingMachineMedicalBaseGold
   name: НаноМед гражданский GOLD
   suffix: Civilian
-  description: The fact that you've arrived here-rather, to this NanoMed GOLD- at this moment in your life is nothing short of a miracle. It delights me to no end.
+  description: То, что ты оказался здесь — точнее, у этого NanoMed GOLD — именно в этот момент жизни, не иначе как чудо. Это бесконечно меня радует.
   components:
   - type: VendingMachine
     pack: GoldNanoMedCivilianInventory
@@ -753,7 +760,7 @@
   id: VendingMachineWallMedicalCivilianGold
   name: НаноМед пластырь GOLD
   suffix: Civilian, Wallmount
-  description: It's a luxury wall-mounted medical equipment dispenser.  It delights you to no end.
+  description: Роскошный настенный диспенсер медоборудования. Восхищает бесконечно.
   components:
   - type: VendingMachine
     pack: GoldNanoMedCivilianWallInventory
@@ -806,8 +813,8 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineCAD
-  name: AdmiMax
-  description: Need to manage some documents? CAD has you covered!
+  name: АдмиМакс
+  description: Нужно разобраться с документами? САПР вас прикроет!
   components:
     - type: VendingMachine
       pack: AdmiMaxInventory

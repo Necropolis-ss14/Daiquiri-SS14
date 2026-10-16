@@ -4,8 +4,8 @@
 - type: entity
   id: ShuttleGunCyerxa120mm
   parent: ShuttleGunBase
-  name: CYERXA Dual 120mm Cannons
-  description: A powerful dual 120mm cannon system designed for heavy shuttle combat. Fires devastating blast grenades with extreme destructive power. Each activation fires both barrels in rapid succession.
+  name: Спаренные пушки CYERXA 120 мм
+  description: Мощная спаренная 120-мм пушечная система для тяжёлого шаттлового боя. Стреляет разрушительными фугасными гранатами с огромной разрушительной силой. Каждая активация выпускает оба ствола быстрой очередью.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Guns/Shuttleguns/cyerxa_120mm.rsi
@@ -92,8 +92,8 @@
 - type: entity
   id: ShuttleGunApollo
   parent: ShuttleGunBase
-  name: Apollo Heavy Laser Cannon
-  description: A precision ship-to-ship plasma cannon. Fires focused plasma bolts that deal concentrated heat damage with a small detonation radius — ideal for disabling enemy systems without collateral devastation. Sustained fire possible while power cells remain. [Hardpoint Class]
+  name: Тяжёлая лазерная пушка «Аполлон»
+  description: Точная плазменная пушка для боёв корабль-корабль. Стреляет сфокусированными плазменными сгустками, наносящими концентрированный тепловой урон с малым радиусом детонации — идеально для вывода из строя вражеских систем без сопутствующих разрушений. Возможна продолжительная стрельба, пока хватает энергозарядов. [Класс хардпоинта]
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Guns/Shuttleguns/Apollo.rsi
@@ -156,8 +156,8 @@
 - type: entity
   id: ShuttleGunVanyk
   parent: ShuttleGunBase
-  name: Vanyk-MK2 Multi-Rocket System
-  description: A 60mm single-shot rocket launcher system. Each pull of the trigger launches one rocket. Accurate and reliable, well suited for precision strikes against individual targets. Uses magazine-fed 30-round capacity.
+  name: Мультиракетная система Vanyk-MK2
+  description: 60-мм однозарядная ракетная система. Каждое нажатие на спуск запускает одну ракету. Точная и надёжная, хорошо подходит для точечных ударов по одиночным целям. Магазинное питание, ёмкость 30 снарядов.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Guns/Shuttleguns/vanyk-MK2.rsi
@@ -250,8 +250,8 @@
 - type: entity
   id: ShuttleGunCharon
   parent: ShuttleGunBase
-  name: M321-CHARYBDIS 'Thanatos' 280mm Railgun
-  description: A single-shot electromagnetic railgun of unparalleled destructive capability. Accelerates a 280mm slug to devastating velocities. The standard kinetic slug punches through layered armour and structure with minimal blast — a surgical penetrator. Load a subnuclear slug instead to trade penetration for a ship-annihilating nuclear detonation. Requires manual loading of each round. Named for the devouring whirlpool of legend.
+  name: Рельсотрон M321-CHARYBDIS «Танатос» 280 мм
+  description: Однозарядный электромагнитный рельсотрон с непревзойдённой разрушительной мощью. Разгоняет 280-мм снаряд до сокрушительных скоростей. Штатный кинетический снаряд пробивает слоистую броню и конструкции с минимальным взрывом — хирургически точный бронебойный снаряд. Зарядите субъядерный снаряд, чтобы обменять пробитие на уничтожающий корабль ядерный взрыв. Требует ручного заряжания каждого выстрела. Назван в честь поглощающего водоворота из легенд.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Guns/Shuttleguns/Charon.rsi
@@ -333,8 +333,8 @@
 - type: entity
   id: ShuttleGunTarnyx
   parent: ShuttleGunBase
-  name: SSG-TARNYX EMP Grenade Cannon
-  description: A heavy-duty electromagnetic grenade lobber. Fires EMP grenades in a wide arc, designed to saturate an area with electromagnetic pulses and disable enemy ship systems. Holds 4 rounds. Does not cause structural damage.
+  name: ЭМИ-гранатомёт SSG-TARNYX
+  description: Тяжёлый электромагнитный гранатомёт. Стреляет ЭМИ-гранатами по широкой дуге, предназначен для насыщения зоны электромагнитными импульсами и вывода из строя вражеских корабельных систем. Вмещает 4 снаряда. Не наносит структурного урона.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Guns/Shuttleguns/tarnyx.rsi
@@ -417,7 +417,7 @@
   id: WeaponTurretVespera
   parent: ShuttleGunBase
   name: скорострельный ракетный комплекс ADMP-27 VESPERA 50мм
-  description: A rapid-fire swarm missile rack. Saturates targets with guided warheads to overwhelm defenses.
+  description: Скорострельная рой-ракетная установка. Накрывает цели управляемыми боеголовками, подавляя оборону.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Guns/Shuttleguns/Vespera.rsi
@@ -511,8 +511,8 @@
 - type: entity
   id: ShuttleGunAutocannon
   parent: ShuttleGunBase
-  name: L85 20mm autocannon
-  description: A light 20mm ballistic autocannon for anti-personnel suppression. Fires fully automatic while the trigger is held. Rounds are too small to damage walls or structures — effective against infantry and unarmored targets only. [Light Class]
+  name: Автопушка L85 20 мм
+  description: Лёгкая 20-мм баллистическая автопушка для подавления живой силы. Ведёт полностью автоматический огонь, пока зажат спуск. Снаряды слишком малы, чтобы повредить стены или конструкции — эффективна только против пехоты и небронированных целей. [Лёгкий класс]
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Guns/Shuttleguns/50cal.rsi
@@ -589,8 +589,8 @@
 - type: entity
   id: ShuttleGunDravon
   parent: ShuttleGunBase
-  name: Dravon 75mm Artillery Cannon
-  description: A full-automatic 75mm artillery cannon designed for sustained suppression fire. Despite its smaller caliber compared to the AK570, its longer barrel and higher muzzle velocity give it greater effective range. Magazine-fed, 15-round capacity.
+  name: Артиллерийская пушка Dravon 75 мм
+  description: Полностью автоматическая 75-мм артиллерийская пушка для длительного подавляющего огня. Несмотря на меньший калибр по сравнению с AK570, более длинный ствол и высокая начальная скорость дают ей большую эффективную дальность. Магазинное питание, ёмкость 15 снарядов.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Guns/Shuttleguns/Dravon.rsi
@@ -674,8 +674,8 @@
 - type: entity
   id: ShuttleGunAK570
   parent: ShuttleGunBase
-  name: AK570 90mm Artillery Cannon
-  description: A rapid-fire 90mm artillery cannon optimized for overwhelming volume of fire. Higher caliber than the Dravon with more explosive force per shell, though its shorter barrel means slightly less range. Magazine-fed, 20-round capacity.
+  name: Артиллерийская пушка AK570 90 мм
+  description: Скорострельная 90-мм артиллерийская пушка для шквального огня. Больший калибр, чем у Dravon, с более мощным взрывом каждого снаряда, хотя более короткий ствол даёт чуть меньшую дальность. Магазинное питание, ёмкость 20 снарядов.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Guns/Shuttleguns/AK570.rsi
@@ -759,8 +759,8 @@
 - type: entity
   id: ShuttleGunLeviathan
   parent: ShuttleGunBase
-  name: Leviathan 240mm Siege Cannon
-  description: The largest area-of-effect artillery piece cleared for shuttle deployment. This monstrous 240mm siege cannon fires a single manually-loaded HE shell that detonates in a catastrophic blast radius, obliterating everything within its kill zone. It does not discriminate between armour, crew, and structure. Extremely difficult to anchor. Each shot requires physically inserting a 240mm shell into the open breech. The Leviathan does not forgive mistakes.
+  name: Осадная пушка «Левиафан» 240 мм
+  description: Крупнейшее площадное артиллерийское орудие, допущенное к установке на шаттлы. Это чудовищная 240-мм осадная пушка выпускает вручную заряжаемый фугасный снаряд, детонирующий с катастрофическим радиусом взрыва и стирающий всё в зоне поражения. Не различает броню, экипаж и конструкции. Чрезвычайно сложна в закреплении. Каждый выстрел требует вручную вставить 240-мм снаряд в открытый затвор. Левиафан не прощает ошибок.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Guns/Shuttleguns/Leviathan.rsi
@@ -841,8 +841,8 @@
 - type: entity
   id: ShuttleGunScylla
   parent: ShuttleGunBase
-  name: Scylla Laser Railgun
-  description: An experimental capital-class energy railgun. Charges enormous amounts of ship power into a single concentrated laser bolt that travels at extreme velocity, burning through armour and detonating in an intense focused blast on impact. The energy draw is so severe it can destabilise under-powered ships. Draws directly from the ship's APC grid. [Capital Class]
+  name: Лазерный рельсотрон «Сцилла»
+  description: Экспериментальный энергетический рельсотрон капитального класса. Концентрирует огромное количество корабельной энергии в единый лазерный сгусток, летящий с экстремальной скоростью, прожигающий броню и детонирующий сфокусированным взрывом при попадании. Потребление энергии настолько велико, что может дестабилизировать слабо запитанные корабли. Питается напрямую от корабельной сети APC. [Капитальный класс]
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Guns/Shuttleguns/Scylla.rsi
@@ -918,8 +918,8 @@
 - type: entity
   id: ShuttleGunDynamre
   parent: ShuttleGunBase
-  name: AMX-9 DYNAMRE Dual Turbolaser
-  description: A twin-barreled plasma cannon built for violent area destruction. Each trigger pull launches two massive plasma blobs simultaneously — each detonating in a catastrophic explosion that obliterates armour, crew, and structure alike. Significantly heavier than the Apollo and requires an Omega-capacity power cage. [Capital Class]
+  name: Спаренный турболазер AMX-9 DYNAMRE
+  description: Двуствольная плазменная пушка для жёсткого площадного разрушения. Каждое нажатие на спуск выпускает сразу два массивных плазменных сгустка — каждый детонирует катастрофическим взрывом, стирающим броню, экипаж и конструкции. Значительно тяжелее «Аполлона», требует энергоячейку ёмкости Omega. [Капитальный класс]
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Guns/Shuttleguns/Dynamre.rsi

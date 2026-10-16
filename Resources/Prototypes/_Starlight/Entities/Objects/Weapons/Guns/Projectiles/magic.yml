@@ -1,7 +1,7 @@
 - type: entity
   id: ProjectileFirebolt
-  name: firebolt
-  description: Ignis!
+  name: огненный болт
+  description: Игнис!
   parent: ProjectileFireball
   categories: [ HideSpawnMenu ]
   components:
@@ -33,8 +33,8 @@
 
 - type: entity
   id: ProjectileFireOrb
-  name: fireorb
-  description: The air twists and wraps around the orb, staying close would be ill advised.
+  name: огненная сфера
+  description: Воздух закручивается вокруг сферы, лучше рядом не стоять.
   parent: ProjectileFireball
   categories: [ HideSpawnMenu ]
   components:
@@ -67,7 +67,7 @@
   id: ProjectileFireArrow
   parent: BaseItem
   name: огненная стрела
-  description: Flagra!
+  description: Флагра!
   categories: [ HideSpawnMenu ]
   components:
   - type: PointLight
@@ -151,7 +151,7 @@
   id: ProjectileIceShard
   parent: BaseBulletTrigger
   name: ледяной осколок
-  description: A freezing and razor sharp projectile of ice.
+  description: Морозный и бритвенно острый ледяной снаряд.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Guns/Projectiles/magic.rsi
@@ -187,7 +187,7 @@
   id: ProjectileIceOrb
   parent: BaseBulletTrigger
   name: ледяная сфера
-  description: The freezing wrath of a cryomancer given form.
+  description: Замороженный гнев криоманта, обретший форму.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Guns/Projectiles/magic.rsi

@@ -21,6 +21,8 @@ chat-emote-name-snort = Фырканье
 chat-emote-name-stomp = Топот
 chat-emote-name-hum = Гудение
 chat-emote-name-glub = Бульк
+chat-emote-name-arf = Гав
+chat-emote-name-blink = Моргание
 
 # Emote Messages
 chat-emote-msg-mew = мяукает
@@ -44,6 +46,8 @@ chat-emote-msg-snort = фыркает
 chat-emote-msg-stomp = топает
 chat-emote-msg-hum = гудит
 chat-emote-msg-glub = булькает
+chat-emote-msg-arf = гавкает
+chat-emote-msg-blink = моргает
 
 # Emote binding
 

@@ -135,6 +135,7 @@ loadout-group-lawyer-shoes = Обувь адвоката
 loadout-group-scarves = Шарф
 loadout-group-pins = Значки
 loadout-group-pens = Ручка
+loadout-group-ties = Галстуки
 
 # Brighteye
 loadout-group-brighteye-jumpsuit = Комбинезон яркоокого

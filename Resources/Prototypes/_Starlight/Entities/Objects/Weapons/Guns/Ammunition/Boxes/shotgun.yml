@@ -17,7 +17,7 @@
 
 - type: entity
   name: pellet ammunition box, 20 gauge калибра
-  description: Open and ready to be used.
+  description: Открыта и готова к использованию.
   parent: AmmoProviderShotgunShellToz
   suffix: opened
   id: BoxLethalshotTozOpen
@@ -27,7 +27,7 @@
 
 - type: entity
   name: pellet ammunition box, 20 gauge калибра
-  description: The nearly-illegible text on the packaging says you should use a knife, but it's so cheap you can just rip it open.
+  description: Надпись на упаковке почти не читается, советует взять нож, но она такая дешёвая, что можно просто разорвать.
   parent: BaseItem
   suffix: sealed
   id: BoxLethalshotToz

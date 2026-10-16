@@ -2,7 +2,7 @@
   name: самодельный ломик
   parent: BaseItem
   id: CrowbarMakeshift
-  description: Barely better than nothing. Could be made into something greater with a welder, though..
+  description: Едва лучше, чем ничего. Впрочем, с помощью сварочника можно сделать что-то большее.
   components:
   - type: EmitSoundOnLand
     sound:
@@ -45,7 +45,7 @@
   name: импровизированный ломик
   parent: CrowbarMakeshift
   id: CrowbarImprovised
-  description: A few pieces of metal welded together and sharpened at the edges. Not the best tool, but it'll do.
+  description: Несколько кусков металла, сваренных вместе и заточенных по краям. Не лучший инструмент, но сойдёт.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Tools/improvised_crowbar.rsi

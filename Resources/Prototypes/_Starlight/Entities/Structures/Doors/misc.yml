@@ -2,7 +2,7 @@
   id: ShadekinDoor
   parent: HospitalCurtains
   name: дверь шейдкинов
-  description: A door, where will it lead?
+  description: Дверь, куда же она ведёт?
   suffix: ""
   components:
     - type: Fixtures

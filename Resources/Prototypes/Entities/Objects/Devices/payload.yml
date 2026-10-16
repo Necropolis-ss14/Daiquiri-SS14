@@ -20,7 +20,7 @@
         acts: [ "Destruction" ]
 
 - type: entity
-  name: explosive payload
+  name: взрывная полезная нагрузка
   parent: [ BaseContrabandTier3, BasePayload, BaseSecurityContraband ] # Blimpuf
   id: ExplosivePayload
   components:
@@ -44,10 +44,10 @@
         acts: [ "Destruction" ]
 
 - type: entity
-  name: chemical payload
+  name: химическая полезная нагрузка
   parent: [ BaseContrabandTier2, BasePayload, BaseMedicalContraband, BaseScienceContraband ] # Blimpuf
   id: ChemicalPayload
-  description: A chemical payload. Has space to store two beakers. In combination with a trigger and a case, this can be used to initiate chemical reactions.
+  description: Химическая полезная нагрузка. Имеет место для двух стаканов. В сочетании с триггером и корпусом может использоваться для запуска химических реакций.
   components:
   - type: Sprite
     sprite: Objects/Devices/payload.rsi
@@ -80,10 +80,10 @@
     price: 60
 
 - type: entity
-  name: flash payload
+  name: светошумовая полезная нагрузка
   parent: [ BaseContrabandTier2, BasePayload, BaseSecurityContraband, BaseScienceContraband, BaseCommandContraband ] # Blimpuf
   id: FlashPayload
-  description: A single-use flash payload.
+  description: Одноразовая светошумовая полезная нагрузка.
   components:
     - type: Sprite
       sprite: Objects/Devices/payload.rsi

@@ -5,7 +5,7 @@
   parent: [SolutionNormal, FoodBakingBase]
   id: FoodDoughPita
   name: тесто для питы
-  description: A twice-flattened piece of wheat dough.
+  description: Дважды раскатанный кусок пшеничного теста.
   components:
   - type: Item
     size: Normal
@@ -32,8 +32,8 @@
 - type: entity
   parent: FoodBreadBase
   id: FoodBreadPita
-  name: pita
-  description: A flatbread with internal pocket. Best when eaten stuffed.
+  name: пита
+  description: Лепёшка с внутренним кармашком. Лучше всего есть с начинкой.
   components:
   - type: FlavorProfile
     flavors:
@@ -54,8 +54,8 @@
 - type: entity
   parent: FoodInjectableBase
   id: FoodFalafel
-  name: falafel
-  description: A hearty pea-based mince. The vegan meatloaf of the Middle East.
+  name: фалафель
+  description: Сытный фарш из гороха. Веганская котлета Ближнего Востока.
   components:
   - type: FlavorProfile
     flavors:
@@ -82,7 +82,7 @@
   parent: FoodBowlBase
   id: FoodHummusDip
   name: хумус
-  description: A hearty pea-based paste, served with strips of pita. The ultimate dip of the Middle East.
+  description: Сытная гороховая паста с полосками питы. Лучший соус Ближнего Востока.
   components:
   - type: FlavorProfile
     flavors:
@@ -113,7 +113,7 @@
   parent: FoodInjectableBase
   id: FoodShawarma
   name: куриная шаурма
-  description: A pita loaded with hummus, tomato, onions, and a cutlet of chicken. Fresh!
+  description: Пита с хумусом, помидорами, луком и куриной котлетой. Свежая!
   components:
   - type: FlavorProfile
     flavors:
@@ -154,7 +154,7 @@
   parent: FoodInjectableBase
   id: FoodFalafelSandwich
   name: сэндвич с фалафелем
-  description: A pita loaded with onions, tomato, falafel, and a zesty sauce. Surprisingly diet-friendly.
+  description: Пита с луком, помидорами, фалафелем и пряным соусом. Удивительно диетическая.
   components:
   - type: FlavorProfile
     flavors:
@@ -191,7 +191,7 @@
   parent: FoodInjectableBase
   id: FoodSouvlaki
   name: сувлаки-гирос
-  description: A pita loaded with tzatziki, tomato, and a cutlet of meat. Sodium beyond belief!
+  description: Пита с дзадзики, помидорами и мясной котлетой. Соли — запредельно много!
   components:
   - type: FlavorProfile
     flavors:
@@ -229,7 +229,7 @@
   parent: FoodInjectableBase
   id: FoodDonerKebab
   name: донер-кебаб
-  description: A pita loaded with hummus, cabbage, tomato, and a cutlet of mystery meat. Pairs best with cheap beer.
+  description: Пита с хумусом, капустой, помидорами и котлетой из загадочного мяса. Лучше всего идёт с дешёвым пивом.
   components:
   - type: FlavorProfile
     flavors:
@@ -266,7 +266,7 @@
   parent: [SolutionNormal, FoodInjectableBase, BaseSlicingRefinableFood]
   id: FoodTurkishDelight
   name: ненарезанный рахат-лукум
-  description: A massive, wobbling gelatin dessert. May contains nuts.
+  description: Огромный дрожащий желейный десерт. Может содержать орехи.
   components:
   - type: FlavorProfile
     flavors:
@@ -300,7 +300,7 @@
   parent: [SolutionTiny, FoodInjectableBase]
   id: FoodTurkishDelightCube
   name: рахат-лукум
-  description: A tiny, wobbling gelatin dessert. May contains nuts.
+  description: Крошечный дрожащий желейный десерт. Может содержать орехи.
   components:
   - type: FlavorProfile
     flavors:

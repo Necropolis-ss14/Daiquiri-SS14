@@ -2,7 +2,7 @@
   name: невидимые кусачки
   parent: BaseItem
   id: WirecuttersInvisible
-  description: The perfect piece of invisible equipment to snip those nasty wires of that invisible door! Insulation not included.
+  description: Идеальный невидимый инструмент, чтобы перекусить эти противные провода той невидимой двери! Изоляция не включена.
   components:
   - type: Sprite
     sprite: /Textures/_Starlight/Objects/Tools/Invisible/wirecutters_invisible.rsi
@@ -27,7 +27,7 @@
   name: невидимая отвёртка
   parent: BaseItem
   id: ScrewdriverInvisible
-  description: Go ahead. Open the invisible maintenance panel.
+  description: Давайте. Откройте невидимую панель обслуживания.
   components:
   - type: Sprite
     sprite: /Textures/_Starlight/Objects/Tools/Invisible/screwdriver_invisible.rsi
@@ -50,7 +50,7 @@
   name: невидимый гаечный ключ
   parent: BaseItem
   id: WrenchInvisible
-  description: Impress everyone by anchoring that invisible machine!
+  description: Впечатлите всех, заякорив эту невидимую машину!
   components:
   - type: Sprite
     sprite: /Textures/_Starlight/Objects/Tools/Invisible/wrench_invisible.rsi
@@ -73,7 +73,7 @@
   name: невидимый ломик
   parent: BaseItem
   id: CrowbarInvisible
-  description: Why cry those silent tears when you could pry instead!
+  description: Зачем лить беззвучные слёзы, когда можно поддеть!
   components:
   - type: Sprite
     sprite: /Textures/_Starlight/Objects/Tools/Invisible/crowbar_invisible.rsi
@@ -98,7 +98,7 @@
   name: невидимый мультитул
   parent: BaseItem
   id: MultitoolInvisible
-  description: Pulse, pulse, pulse- wait, I thought it was supposed to be silent?
+  description: Пульс, пульс, пульс... погодите, разве не должно было быть тихо?
   components:
   - type: Sprite
     sprite: /Textures/_Starlight/Objects/Tools/Invisible/multitool_invisible.rsi
@@ -116,7 +116,7 @@
   name: невидимый сварочник
   parent: Welder
   id: WelderInvisible
-  description: Despite being invisible, you still need eye protection. Somehow.
+  description: Несмотря на невидимость, защита для глаз всё равно нужна. Каким-то образом.
   components:
   - type: Sprite
     sprite: /Textures/_Starlight/Objects/Tools/Invisible/welder_invisible.rsi
@@ -130,7 +130,7 @@
   name: невидимый ящик с инструментами
   parent: ToolboxBase
   id: ToolboxInvisible
-  description: The perfect invisible carrier to hold your invisible equipment!
+  description: Идеальный невидимый носитель для вашего невидимого снаряжения!
   components:
   - type: Sprite
     sprite: /Textures/_Starlight/Objects/Tools/Invisible/toolbox_invisible.rsi

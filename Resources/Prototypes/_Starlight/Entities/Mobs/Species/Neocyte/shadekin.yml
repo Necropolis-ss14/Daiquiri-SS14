@@ -276,7 +276,7 @@
   parent: [BaseNeocyteAppearance, BaseSpeciesDummy]
   id: AppearanceNeoKin
   categories: [HideSpawnMenu]
-  description: A dummy neokin meant to be used in character setup.
+  description: Манекен нео-кина для настройки персонажа.
   components:
     - type: HumanoidAppearance
       species: NeoKin

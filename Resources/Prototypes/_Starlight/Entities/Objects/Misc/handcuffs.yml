@@ -1,6 +1,6 @@
 - type: entity
-  name: handcuffs
-  description: Used to detain criminals and other assholes.
+  name: наручники
+  description: Для задержания преступников и прочих засранцев.
   id: AbductorHandcuffs
   parent: Handcuffs
   components:
@@ -23,7 +23,7 @@
 
 - type: entity
   name: паутинные наручники
-  description: Used to slightly hinder people's escape.
+  description: Слегка затрудняет побег людей.
   id: WebHandcuffs
   parent: Handcuffs
   components:

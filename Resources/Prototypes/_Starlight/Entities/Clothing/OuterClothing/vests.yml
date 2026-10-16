@@ -3,7 +3,7 @@
   parent: [ClothingOuterBase, AllowSuitStorageClothing, BaseMinorContraband]
   id: ClothingOuterWireVest
   name: проволочная сбруя
-  description: An assortment of knots used to hold things on your back.
+  description: Набор узлов, чтобы держать вещи на спине.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Vests/wireharness.rsi

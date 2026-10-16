@@ -1,8 +1,8 @@
 - type: entity
-  name: switchblade
+  name: выкидной нож
   parent: [CombatKnife, BaseMinorContraband]
   id: WeaponMeleeSwitchblade
-  description: SCHINK! So cool.
+  description: ЩЁЛК! Как круто.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Melee/switchblade.rsi

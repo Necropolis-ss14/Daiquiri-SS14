@@ -2,7 +2,7 @@
   id: MechEquipmentBorgPilot
   parent: [ BaseMechEquipment ]
   name: силиконовый маяк управления экзокостюмом
-  description: A device used to transmit exosuit data. Also allows active cyborg units to take control of said exosuit.
+  description: Устройство для передачи данных экзокостюма. Также позволяет активным киборгам брать управление экзокостюмом.
   components:
   - type: MechEquipment
     equipmentType: Passive
@@ -25,7 +25,7 @@
   id: MechEquipmentSecGrabber
   parent: [ BaseContrabandTier2, BaseMechEquipment, CombatMechEquipment, BaseSecurityContraband ] # Blimpuf
   name: Гидравлическая клешня
-  description: A specialized Hydraulic claw designed for the containment of multiple subjects. Can hold up to 4 items at once.
+  description: Специализированная гидравлическая клешня для удержания нескольких субъектов. Вмещает до 4 предметов за раз.
   components:
   - type: Sprite
     state: paddy_claw
@@ -55,7 +55,7 @@
   id: MechEquipmentCamera
   parent: [ BaseMechEquipment, CombatMechEquipment ]
   name: камера ночного видения меха
-  description: night vision camera, allows you to switch the visor to night vision for increased visibility in poorly lit areas.
+  description: Камера ночного видения, позволяет переключать визор в режим ночного видения для лучшей видимости в плохо освещённых местах.
   components:
   - type: MechEquipment
     equipmentType: Passive

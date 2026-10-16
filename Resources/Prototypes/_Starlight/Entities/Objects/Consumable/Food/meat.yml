@@ -4,7 +4,7 @@
   # MeatFish?...
   id: FoodMeatKoiFish
   name: сырое филе кои
-  description: A fillet of space koi. You feel a little guilty about eating something so friendly.
+  description: Филе космического кои. Тебе даже немного стыдно есть такое дружелюбное существо.
   components:
   - type: FlavorProfile
     flavors:

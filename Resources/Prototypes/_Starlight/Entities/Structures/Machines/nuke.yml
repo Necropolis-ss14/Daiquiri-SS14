@@ -2,7 +2,7 @@
   parent: [NuclearBomb]
   id: NuclearBombSafe
   name: ядерное взрывное устройство
-  description: You probably shouldn't stick around to see if this is armed.
+  description: Лучше не задерживаться проверять, взведено ли это.
   suffix: Non-round ending
   components:
   - type: Nuke

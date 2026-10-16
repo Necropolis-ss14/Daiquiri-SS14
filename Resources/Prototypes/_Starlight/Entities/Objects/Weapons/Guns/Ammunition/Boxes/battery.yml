@@ -27,7 +27,7 @@
   parent: BaseMagazineBoxBattery
   id: MagazineBoxBattery
   name: коробка патронов (laser)
-  description: A cardboard box of laser rounds. Intended to hold general-purpose kinetic ammunition.
+  description: Картонная коробка лазерных патронов. Под стандартные кинетические патроны.
   components:
   - type: Sprite
     layers:

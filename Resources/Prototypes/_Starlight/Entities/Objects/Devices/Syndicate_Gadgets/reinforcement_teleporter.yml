@@ -2,7 +2,7 @@
   parent: ReinforcementRadio
   id: ReinforcementRadioSyndicateCyborgMedical # Reinforcement radio exclusive to nukeops uplink
   name: радио подкрепления медицинского киборга Синдиката
-  description: Call in a medical cyborg, instantly!
+  description: Вызовите медицинского киборга, мгновенно!
   suffix: NukeOps
   components:
     - type: GhostRole
@@ -20,7 +20,7 @@
   parent: ReinforcementRadio
   id: ReinforcementRadioSyndicateCyborgSaboteur # Reinforcement radio exclusive to nukeops uplink
   name: радио подкрепления диверсанта Синдиката
-  description: Call in a saboteur cyborg, instantly!
+  description: Вызовите киборга-диверсанта, мгновенно!
   suffix: NukeOps
   components:
     - type: GhostRole
@@ -38,7 +38,7 @@
   parent: ReinforcementRadio
   id: ReinforcementRadioSyndicateCyborgStealth # Reinforcement radio exclusive to nukeops uplink
   name: радио подкрепления скрытного киборга Синдиката
-  description: Call in a stealth cyborg, instantly!
+  description: Вызовите скрытного киборга, мгновенно!
   suffix: NukeOps
   components:
     - type: GhostRole
@@ -56,7 +56,7 @@
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelSyndicateFilledSyndicateCyborgAssault
   name: набор штурмового киборга Синдиката
-  description: Radio in a syndicate assault cyborg, equipped with a modified L6, a double esword and basic hacking tools. Comes bundled with a few Syndicate IDs for you and your buddies, just to make sure you're on the Cyborg's good side.
+  description: Рация в штурмовом киборге Синдиката с модифицированным Л6, двойным энергомечом и базовыми хакерскими инструментами. В комплекте несколько ID-карт Синдиката для вас и ваших приятелей, чтобы вы были на хорошем счету у киборга.
   components:
   - type: StorageFill
     contents:
@@ -69,7 +69,7 @@
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelSyndicateFilledSyndicateCyborgMedical
   name: набор медицинского киборга Синдиката
-  description: A medical borg, with syndicate variants of items where applicable. Comes with basic weapons. Comes bundled with a few Syndicate IDs for you and your buddies, just to make sure you're on the Cyborg's good side.
+  description: Медицинский борг с синдикатскими вариантами предметов, где применимо. Поставляется с базовым вооружением. В комплекте несколько ID-карт Синдиката для вас и ваших приятелей, чтобы вы были на хорошем счету у киборга.
   components:
   - type: StorageFill
     contents:
@@ -82,7 +82,7 @@
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelSyndicateFilledSyndicateCyborgSaboteur
   name: набор киборга-диверсанта Синдиката
-  description: A saboteur cyborg, complete with syndicate advanced tools, standard hacking equipment and basic weapons. Comes bundled with a few Syndicate IDs for you and your buddies, just to make sure you're on the Cyborg's good side.
+  description: Киборг-диверсант в полной комплектации с продвинутыми инструментами Синдиката, стандартным хакерским оборудованием и базовым вооружением. В комплекте несколько ID-карт Синдиката для вас и ваших приятелей, чтобы вы были на хорошем счету у киборга.
   components:
   - type: StorageFill
     contents:
@@ -95,7 +95,7 @@
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelSyndicateFilledSyndicateCyborgStealth
   name: набор скрытного киборга Синдиката
-  description: A stealth cyborg. Whilst it is incapable of fighting, it has the ability to disguise, go invisible and move through vents. Comes bundled with a few Syndicate IDs for you and your buddies, just to make sure you're on the Cyborg's good side.
+  description: Скрытный киборг. Хоть он и не способен сражаться, он умеет маскироваться, становиться невидимым и перемещаться по вентиляции. В комплекте несколько ID-карт Синдиката для вас и ваших приятелей, чтобы вы были на хорошем счету у киборга.
   components:
   - type: StorageFill
     contents:
@@ -108,7 +108,7 @@
   parent: ReinforcementRadio
   id: ReinforcementRadioSyndicateMothroach
   name: радио подкрепления моброуча Синдиката
-  description: Calls in a specially trained mobroach.
+  description: Вызывает специально обученного моброуча.
   components:
     - type: GhostRole
       name: ghost-role-information-syndicate-mothroach-reinforcement-name

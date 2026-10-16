@@ -1,8 +1,8 @@
 - type: entity
-  name: xenoroach
+  name: ксенороуч
   parent: MobSiliconBase
   id: MobXenoroach
-  description: A tiny biomechanical spy-bot produced by the Xenoborg Mothership. It lacks the processing power for complex tasks, but its small frame lets it slip through vents and under doors with ease.
+  description: Крошечный биомеханический шпионский бот, произведённый Материнским кораблём ксеноборгов. Ему не хватает вычислительной мощности для сложных задач, но компактный корпус позволяет ему проскальзывать через вентиляцию и под дверями.
   save: false
   components:
   # Xenoborg faction marker - passes SpawnPointXenoborg whitelist

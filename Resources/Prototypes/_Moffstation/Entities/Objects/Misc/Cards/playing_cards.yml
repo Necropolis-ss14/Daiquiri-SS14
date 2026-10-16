@@ -2,7 +2,7 @@
 - type: entity
   parent: BasePlayingCardDeckBox
   id: PlayingCardDeckBoxBlack
-  name: box of playing cards
+  name: коробка чёрных игральных карт
   suffix: black
   components:
   - type: Sprite
@@ -15,7 +15,7 @@
 - type: entity
   parent: BasePlayingCardDeck
   id: PlayingCardDeckBlack
-  name: deck of cards
+  name: колода чёрных игральных карт
   suffix: black
   components:
   - type: PlayingCardDeck
@@ -30,7 +30,7 @@
 - type: entity
   parent: BasePlayingCardDeckBox
   id: PlayingCardDeckBoxSyndicate
-  name: box of playing cards
+  name: коробка игральных карт Синдиката
   suffix: syndicate
   components:
   - type: Sprite
@@ -43,7 +43,7 @@
 - type: entity
   parent: BasePlayingCardDeck
   id: PlayingCardDeckSyndicate
-  name: deck of cards
+  name: колода игральных карт Синдиката
   suffix: syndicate
   components:
   - type: PlayingCardDeck
@@ -58,7 +58,7 @@
 - type: entity
   parent: BasePlayingCardDeckBox
   id: PlayingCardDeckBoxNanotrasen
-  name: box of playing cards
+  name: коробка игральных карт НаноТрейзен
   suffix: nanotrasen
   components:
   - type: Sprite
@@ -71,7 +71,7 @@
 - type: entity
   parent: BasePlayingCardDeck
   id: PlayingCardDeckNanotrasen
-  name: deck of cards
+  name: колода игральных карт НаноТрейзен
   suffix: nanotrasen
   components:
   - type: PlayingCardDeck

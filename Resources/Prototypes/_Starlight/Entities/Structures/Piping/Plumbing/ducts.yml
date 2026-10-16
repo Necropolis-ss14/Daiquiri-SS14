@@ -255,7 +255,7 @@
   parent: PlumbingDuctBase
   id: PlumbingDuctManifold
   name: жидкостный коллектор
-  description: A manifold for connecting ducts on all layers.
+  description: Коллектор для соединения труб на всех слоях.
   placement:
     mode: AlignAtmosPipeLayers
   components:

@@ -2,7 +2,7 @@
   name: напольные часы
   id: FurnitureGrandfatherClock
   parent: BaseStructure
-  description: Tick, tock. Old but reliable.
+  description: Тик-так. Старые, но надёжные.
   components:
   - type: AmbientSound
     volume: -5

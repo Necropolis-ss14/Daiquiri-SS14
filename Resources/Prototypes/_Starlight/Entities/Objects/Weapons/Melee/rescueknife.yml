@@ -1,8 +1,8 @@
 - type: entity
-  name: rescue knife
+  name: спасательный нож
   parent: [ BaseContrabandTier2, BaseKnife, BaseMedicalContraband ] # Blimpuf
   id: RescueKnife
-  description: A rescue knife issued to paramedics, with a built in striker for breaking thorugh anything keeping them from a patient.
+  description: Спасательный нож парамедиков со встроенным бойком, чтобы пробиться сквозь всё, что отделяет от пациента.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Melee/rescueknife.rsi

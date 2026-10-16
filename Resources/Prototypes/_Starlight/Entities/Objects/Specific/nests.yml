@@ -39,8 +39,8 @@
 - type: entity
   parent: BaseNest
   id: NestBeeHive
-  name: bee hive
-  description: You probably shouldnt anger them.
+  name: пчелиный улей
+  description: Их лучше не злить.
   components:
   - type: Pinata
     hitTable: !type:NestedSelector
@@ -76,8 +76,8 @@
 - type: entity
   parent: BaseNest
   id: NestBeeBox
-  name: bee box
-  description: You probably shouldnt anger them.
+  name: пчелиный ящик
+  description: Их лучше не злить.
   components:
   - type: Pinata
     hitTable: !type:NestedSelector
@@ -113,8 +113,8 @@
 - type: entity
   parent: BaseNest
   id: NestSnake
-  name: snake nest
-  description: Smells like sulfur and rotten meat.
+  name: змеиное гнездо
+  description: Пахнет серой и тухлым мясом.
   components:
   - type: Pinata
     hitTable: !type:NestedSelector
@@ -144,8 +144,8 @@
 - type: entity
   parent: BaseNest
   id: NestMouse
-  name: mouse nest
-  description: Smells like ammonia and cheese.
+  name: мышиное гнездо
+  description: Пахнет аммиаком и сыром.
   components:
   - type: Pinata
     hitTable: !type:NestedSelector

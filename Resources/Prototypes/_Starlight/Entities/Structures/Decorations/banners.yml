@@ -53,7 +53,7 @@
   parent: [BaseWallBanner, BaseSovietContraband] # Blimpuf
   id: BannerWallHammer
   name: революционный настенный баннер
-  description: Gone are the days of oppression and the unfair treatment of contractors! URAA!
+  description: Долой гнёт и несправедливость к контрактникам! УРАА!
   components:
   - type: Sprite
     state: banner0
@@ -62,7 +62,7 @@
   parent: [BaseWallBanner, BaseSovietContraband] # Blimpuf
   id: BannerWallSoviet
   name: настенный баннер СССП
-  description: Banner of the United Soviet Socialist Planets. Hang it up. Obey it. Try not to salute by reflex.
+  description: Знамя Объединённых Советских Социалистических Планет. Повесь. Подчинись. Постарайся не отдать честь рефлекторно.
   components:
   - type: Sprite
     state: banner1
@@ -71,7 +71,7 @@
   id: BannerSovietRegular
   parent: [BannerBaseAlt, BaseSovietContraband] # Blimpuf
   name: баннер СССП
-  description: Banner of the United Soviet Socialist Planets. Features the glorious hammer and wrench. Symbols of industry, progress, fraternity and fixing what you broke.
+  description: Знамя Объединённых Советских Социалистических Планет. Славные молот и гаечный ключ — символы труда, прогресса, братства и починки сломанного тобой.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Decorations/Banners.rsi
@@ -81,7 +81,7 @@
   id: BannerSovietHammer
   parent: [BannerBaseAlt, BaseSovietContraband] # Blimpuf
   name: революционный баннер
-  description: Gone are the days of oppression and the unfair treatment of contractors! URAA!
+  description: Долой гнёт и несправедливость к контрактникам! УРАА!
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Decorations/Banners.rsi
@@ -91,7 +91,7 @@
   id: BannerSNKVD
   parent: [BannerBaseAlt, BaseSovietContraband] # Blimpuf
   name: советский баннер СНКВД
-  description: One wrong move and you're dead comrade. For good.
+  description: Одно неверное движение — и ты мёртв, товарищ. Навсегда.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Decorations/Banners.rsi
@@ -101,7 +101,7 @@
   id: BannerSGKB
   parent: [BannerBaseAlt, BaseSovietContraband] # Blimpuf
   name: советский баннер СКБ
-  description: Implementing workers rights. Yeah, we do that in your stations. You're welcome.
+  description: Внедряем права рабочих. Да, прямо на ваших станциях. Пожалуйста.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Decorations/Banners.rsi

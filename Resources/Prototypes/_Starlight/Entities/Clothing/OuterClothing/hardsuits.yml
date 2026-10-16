@@ -3,7 +3,7 @@
   parent: [ BaseContrabandTier2, ClothingOuterHardsuitBase, BaseBlueShieldContraband ] # Blimpuf
   id: ClothingOuterHardsuitBlueshield
   name: скафандр синего щита
-  description: A high-tech hardsuit perfect for diving in front of Mr. Pre- Er, Captain.
+  description: Высокотехнологичный скафандр, идеальный чтобы бросаться под пули ради господина... э, капитана.
   components:
   - type: Tag
     tags:
@@ -44,7 +44,7 @@
   parent: [ClothingOuterHardsuitBase, BaseNanoTrasenContraband]
   id: ClothingOuterHardsuitNtrep
   name: скафандр представителя НаноТрейзен
-  description: It used to be blue, but too many premium cigars turned it tobacco brown.
+  description: Когда-то был синим, но слишком много премиальных сигар сделали его табачно-коричневым.
   components:
     - type: Contraband
       tier: Tier3
@@ -87,7 +87,7 @@
   parent: [ClothingOuterHardsuitBase]
   id: ClothingOuterBattlesuitClown
   name: боевой костюм клоуна
-  description: A funny suit that protects against hazardous, low pressure environments. Has an additional layer of armor.
+  description: Забавный костюм, защищающий от опасных условий низкого давления. С дополнительным слоем брони.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/OuterClothing/Hardsuits/clown_battlesuit.rsi
@@ -122,7 +122,7 @@
   parent: [ClothingOuterHardsuitBase, BaseSalvageContraband]
   id: ClothingOuterHardsuitMercenary
   name: наёмный скафандр
-  description: It's a hardsuit. It could stop a bullet. It's sealed with top of the line duct tape.
+  description: Это скафандр. Может остановить пулю. Герметизирован лучшей изолентой.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/OuterClothing/Hardsuits/mercenary.rsi
@@ -156,7 +156,7 @@
   parent: [ClothingOuterHardsuitBase, BaseCargoContraband]
   id: ClothingOuterHardsuitSpaceHazard
   name: скафандр космической опасности
-  description: A special suit that protects against hazardous, low pressure environments. Specifically for the dangers of space mining.
+  description: Специальный костюм, защищающий от опасных условий низкого давления. Специально для опасностей космической добычи.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/OuterClothing/Hardsuits/spacehazard.rsi
@@ -200,7 +200,7 @@
     ]
   id: ClothingOuterHardsuitInfiltration
   name: диверсионный скафандр Синдиката
-  description: The Syndicate's Special Operations' hardsuit of choice, this hardsuit, as well as durability, has been built with stealth in mind.
+  description: Штатный скафандр спецопераций Синдиката, прочный и созданный с уклоном в скрытность.
   components:
     - type: Contraband # Blimpuf
       tier: Tier4
@@ -272,7 +272,7 @@
   parent: [ClothingOuterHardsuitBase, BaseSovietContraband]
   id: ClothingOuterHardsuitSovietMarine
   name: скафандр морпеха ССФ
-  description: SMIRNO!
+  description: СМИРНО!
   components:
     - type: Contraband # Blimpuf
       tier: Tier3
@@ -318,7 +318,7 @@
   parent: [ClothingOuterHardsuitBase, BaseGrandTheftContraband]
   id: ClothingOuterHardsuitLuxmax
   name: роскошный скафандр «Максим» квартирмейстера
-  description: This luxury maxim hardsuit has been retrofitted with solid gold fittings and furnishings, making it more cumbersome, and less protective than a standard maxim hardsuit.
+  description: Этот люксовый скафандр «Максим» отделан цельным золотом, став громоздким и менее защитным, чем стандартный.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/OuterClothing/Hardsuits/luxmax.rsi
@@ -358,7 +358,7 @@
   parent: [ BaseContrabandTier2, ClothingOuterHardsuitBase, BaseSecurityContraband ] # Blimpuf
   id: ClothingOuterHardsuitSecurityExperimental
   name: экспериментальный скафандр безопасности
-  description: A high-tech hardsuit meant to eventually replace the standard security suit, it boasts an ID-Lock and Gun-Lock system. Rumors have it that the first prototype was stolen by the syndicate..
+  description: Высокотехнологичный скафандр на замену стандартному СБ, с системами ID-Lock и Gun-Lock. Ходят слухи, первый прототип украл Синдикат.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/OuterClothing/Hardsuits/experimental_security.rsi
@@ -415,7 +415,7 @@
   parent: [ClothingOuterHardsuitBase, BaseSalvageContraband]
   id: ClothingOuterHardsuitSpatioLead
   name: скафандр ведущего спатионавта
-  description: A lightweight decorated hardsuit designed for industrial EVA in zero gravity.
+  description: Лёгкий украшенный скафандр для промышленных ВКД в невесомости.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/OuterClothing/Hardsuits/leadspatio.rsi
@@ -451,7 +451,7 @@
   parent: [ClothingOuterHardsuitBase, BaseSalvageContraband, BaseMiningContraband]
   id: ClothingOuterHardsuitAdvancedMining
   name: улучшенный шахтёрский скафандр
-  description: An advanced jetpack-equipped hardsuit designed for mining operations.
+  description: Продвинутый скафандр с джетпаком для шахтёрских работ.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/OuterClothing/Hardsuits/advmining.rsi
@@ -518,7 +518,7 @@
   parent: [ClothingOuterHardsuitBase, BaseSalvageContraband, BaseMiningContraband]
   id: ClothingOuterHardsuitMining
   name: шахтёрский скафандр
-  description: A special suit that protects against hazardous, low pressure environments encountered during space mining.
+  description: Специальный костюм, защищающий от опасных условий низкого давления при космической добыче.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/OuterClothing/Hardsuits/mining.rsi
@@ -558,7 +558,7 @@
   parent: ClothingOuterHardsuitAtmos
   id: ClothingOuterHardsuitAtmosGolden
   name: золотой атмосферный скафандр
-  description: A golden hardsuit that protects against hazardous, low pressure environments. Has thermal shielding.
+  description: Золотой скафандр, защищающий от опасных условий низкого давления. С теплоэкраном.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/OuterClothing/Hardsuits/atmospherics_golden.rsi
@@ -571,7 +571,7 @@
   parent: ClothingOuterHardsuitEngineering
   id: ClothingOuterHardsuitEngineeringGolden
   name: золотой инженерный скафандр
-  description: A golden hardsuit that protects against hazardous, low pressure environments. Has radiation shielding.
+  description: Золотой скафандр, защищающий от опасных условий низкого давления. С радиационной защитой.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/OuterClothing/Hardsuits/engineering_golden.rsi
@@ -586,7 +586,7 @@
   parent: [BaseNanoTrasenContraband, ClothingOuterHardsuitBase]
   id: ClothingOuterHardsuitNTSF
   name: скафандр спецназа НаноТрейзен
-  description: An advanced hardsuit favored by commandos for use in special operations.
+  description: Продвинутый скафандр, предпочитаемый коммандос для специальных операций.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/OuterClothing/Hardsuits/NTSF_Hardsuit.rsi
@@ -634,7 +634,7 @@
   parent: [BaseNanoTrasenContraband, ClothingOuterHardsuitBase]
   id: ClothingOuterHardsuitNTSFPrimus
   name: скафандр НТСФ «Примус»
-  description: The famous blue striped armor of NTSF Task Force One "Primus". The best of the best NanoTrasen has to offer.
+  description: Знаменитая синяя полосатая броня оперативной группы НТСФ «Примус». Лучшее из лучшего, что есть у NanoTrasen.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/OuterClothing/Hardsuits/NTSF_Hardsuit_Primus.rsi
@@ -682,7 +682,7 @@
   parent: [BaseNanoTrasenContraband, ClothingOuterHardsuitBase]
   id: ClothingOuterHardsuitNTSFSecundus
   name: скафандр НТСФ «Секундус»
-  description: The reinforced chassis of this armor makes it extremely slow, but supremely durable. Worn by NTSF Task force "Secundus", and their steamroller approach to combat.
+  description: Усиленный каркас делает броню крайне медленной, но невероятно прочной. Носится опергруппой НТСФ «Секундус» с их тактикой катка.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/OuterClothing/Hardsuits/NTSF_Hardsuit_Secundus.rsi
@@ -730,7 +730,7 @@
   parent: [BaseNanoTrasenContraband, ClothingOuterHardsuitBase]
   id: ClothingOuterHardsuitNTSFTertius
   name: скафандр НТСФ «Тертиус»
-  description: Nailing it down won't save you. Utilized by Task Force "Tertius", infamous for being the "Repo Men" of NanoTrasen, taking what is theirs - and usually plenty more. Comes with built in blue space storage!
+  description: Пригвоздить не спасёт. Используется опергруппой «Тертиус», печально известной как «Коллекторы» NanoTrasen, забирающей своё — и обычно побольше. Со встроенным блюспейс-хранилищем!
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/OuterClothing/Hardsuits/NTSF_Hardsuit_Tertius.rsi
@@ -791,7 +791,7 @@
   parent: [BaseNanoTrasenContraband, ClothingOuterHardsuitBase]
   id: ClothingOuterHardsuitNTSFQuartus
   name: скафандр НТСФ «Квартус»
-  description: Only the most dangerous transports, volatile artifacts, and deadly prisoners fall under the watchful eye of NTSF Task Force Quartus.
+  description: Лишь самые опасные грузы, нестабильные артефакты и смертоносные заключённые под надзором опергруппы НТСФ «Квартус».
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/OuterClothing/Hardsuits/NTSF_Hardsuit_Quartus.rsi
@@ -839,7 +839,7 @@
   parent: [BaseNanoTrasenContraband, ClothingOuterHardsuitBase]
   id: ClothingOuterHardsuitNTSFQuintus
   name: скафандр НТСФ «Квинтус»
-  description: Specially designed to combat Syndicate weaponry, there's no better gear for crushing Gorlex skulls.
+  description: Специально для борьбы с вооружением Синдиката, нет лучшего снаряжения для дробления черепов Горлекс.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/OuterClothing/Hardsuits/NTSF_Hardsuit_Quintus.rsi
@@ -887,7 +887,7 @@
   parent: [BaseNanoTrasenContraband, ClothingOuterHardsuitBase]
   id: ClothingOuterHardsuitNTSFSextus
   name: скафандр НТСФ «Секстус»
-  description: The uncanny markings upon the armor cause great discomfort to all who see them. Its labyrinthine gold inlays tell an esoteric story of magecraft.
+  description: Жуткие знаки на броне вызывают дискомфорт у всех, кто их видит. Лабиринтные золотые инкрустации рассказывают эзотерическую историю магии.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/OuterClothing/Hardsuits/NTSF_Hardsuit_Sextus.rsi
@@ -936,7 +936,7 @@
   parent: [BaseNanoTrasenContraband, ClothingOuterHardsuitBase]
   id: ClothingOuterHardsuitNTSFSeptimus
   name: скафандр НТСФ «Септимус»
-  description: I am pest control guy. *Grabs Pulse Rifle* - and THIS is my pest control.
+  description: Я борец с вредителями. *Хватает пульс-винтовку* — вот моя борьба с вредителями.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/OuterClothing/Hardsuits/NTSF_Hardsuit_Septimus.rsi
@@ -984,7 +984,7 @@
   parent: [BaseNanoTrasenContraband, ClothingOuterHardsuitBase]
   id: ClothingOuterHardsuitNTSFOctavius
   name: скафандр НТСФ «Октавиус»
-  description: Start prayin', commie.
+  description: Начинай молиться, комми.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/OuterClothing/Hardsuits/NTSF_Hardsuit_Octavius.rsi
@@ -1032,7 +1032,7 @@
   parent: [BaseNanoTrasenContraband, ClothingOuterHardsuitBase, BaseToggleClothing]
   id: ClothingOuterHardsuitNTSFNonus
   name: скафандр НТСФ «Нонус»
-  description: May NanoTrasen have mercy, for I have none.
+  description: Пусть NanoTrasen смилуется, ибо я — нет.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/OuterClothing/Hardsuits/NTSF_Hardsuit_Nonus.rsi
@@ -1116,7 +1116,7 @@
   parent: [BaseNanoTrasenContraband, ClothingOuterHardsuitBase]
   id: ClothingOuterHardsuitDecimus
   name: скафандр «Децимус»
-  description: If you can read this, it's already too late.
+  description: Если ты это читаешь, уже слишком поздно.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/OuterClothing/Hardsuits/Decimus_Hardsuit.rsi
@@ -1165,7 +1165,7 @@
   parent: [BaseTSFContraband, ClothingOuterHardsuitDecimus]
   id: ClothingOuterHardsuitTSFMARSOC
   name: скафандр MARSOC
-  description: A suit worn by marines of the Trans-Solar Federation's Marine Special Operations Command. Armored, space ready, and fireproof.
+  description: Костюм морпехов Командования спецопераций Транс-Солнечной Федерации. Бронированный, пригодный для космоса и огнеупорный.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/OuterClothing/Hardsuits/tsf_marsoc.rsi
@@ -1191,7 +1191,7 @@
   parent: [BaseTSFContraband, ClothingOuterHardsuitNTSF]
   id: ClothingOuterHardsuitTSFPhantom
   name: скафандр «Фантом»
-  description: A suit worn by marines of the Trans-Solar Federation's Marine special Operations Phantom. Armored, space ready and stealthy.
+  description: Костюм морпехов подразделения «Фантом» Транс-Солнечной Федерации. Бронированный, пригодный для космоса и скрытный.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/OuterClothing/Hardsuits/tsf_phantom.rsi
@@ -1218,8 +1218,8 @@
 - type: entity
   parent: [BaseCentcommContraband, ClothingOuterHardsuitBase]
   id: ClothingOuterHardsuitThanatos
-  name: Thanatos
-  description: An advanced hardsuit favored by commandos for use in special operations.
+  name: Танатос
+  description: Продвинутый скафандр, предпочитаемый коммандос для специальных операций.
   components:
     - type: Sprite
       sprite: Clothing/OuterClothing/Hardsuits/deathsquad.rsi
@@ -1265,7 +1265,7 @@
   parent: [ ClothingOuterHardsuitBase, BaseCosmicCultItem ] # Starlight Edit: Contraband
   id: ClothingOuterHardsuitCosmicCult
   name: энтропийная броня
-  description: An unsettling hardsuit, numbing to the touch. It pulses with a glow that makes you feel like you've forgotten something...
+  description: Тревожный скафандр, немеющий на ощупь. Пульсирует свечением, от которого кажется, что ты что-то забыл...
   components:
   - type: CosmicEquipment
   - type: Sprite
@@ -1363,7 +1363,7 @@
   categories: [ DoNotMap ]
   id: ClothingOuterHardsuitGreenshield
   name: скафандр гриншилда
-  description: A protective hardsuit worn by Greenshields. It even has pockets!
+  description: Защитный скафандр гриншилдов. Даже с карманами!
   components:
     - type: Sprite
       sprite: Clothing/OuterClothing/Hardsuits/ERTSuits/ertleader.rsi
@@ -1403,7 +1403,7 @@
   parent: [ ClothingOuterBaseLarge, AllowSuitStorageClothing ]
   id: ChangelingClothingOuterHardsuit
   name: органический скафандр
-  description: A spaceworthy biomass of pressure and temperature resistant tissue.
+  description: Живая биомасса, пригодная для космоса, устойчивая к давлению и перепадам температур.
   suffix: Unremoveable
   components:
   - type: Sprite
@@ -1439,7 +1439,7 @@
   parent: [ClothingOuterHardsuitBase, BaseSalvageContraband]
   id: ClothingOuterHardsuitITGLossPrevention
   name: скафандр отдела предотвращения потерь
-  description: A suit made by the ITG to protect expensive assets in dangerous sectors.
+  description: Костюм от ITG для защиты ценных активов в опасных секторах.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/OuterClothing/Hardsuits/lossprevention.rsi

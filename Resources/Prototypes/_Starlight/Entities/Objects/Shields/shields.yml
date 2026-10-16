@@ -609,7 +609,7 @@
   parent: [BaseLightShield, BaseCentcommContraband]
   id: GreenLightShield
   name: фазовый щит X-03
-  description: Reverse engineered from a prototype that NT loaned CentComm, the wavelength has been tweaked to the glorious CentComm Green. While active, the micro-reactor cannot vent excess heat and needs to be shut off for a while to re-charge.
+  description: Реверс прототипа, который NT одолжили ЦентКому, длина волны подкручена под славный зелёный ЦентКома. Активный микрореактор не сбрасывает избыточное тепло — нужно выключить на время для подзарядки.
   components:
   - type: PointLight
     color: "#439909"

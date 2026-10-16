@@ -193,7 +193,7 @@
 - type: entity
   id: RandomHumanoidSpawnerNTSFPrimus
   name: Оперативник НТСФ Примус
-  description: Used as the primary strike team for any and all operations.
+  description: Используется как основная ударная группа для любых операций.
   suffix: AllPurpose
   components:
     - type: Sprite
@@ -233,7 +233,7 @@
 - type: entity
   id: RandomHumanoidSpawnerNTSFSecundus
   name: Оперативник НТСФ Секундус
-  description: Used as general backup in situations where other NTSF teams have fallen.
+  description: Используется как общее подкрепление, когда другие отряды НТСФ пали.
   suffix: Backup
   components:
     - type: Sprite
@@ -273,7 +273,7 @@
 - type: entity
   id: RandomHumanoidSpawnerNTSFTertius
   name: Оперативник НТСФ Тертиус
-  description: Used to conduct repossession operations to recover lost assets.
+  description: Используется для операций по возврату утраченных активов.
   suffix: Repossession
   components:
     - type: Sprite
@@ -314,7 +314,7 @@
 - type: entity
   id: RandomHumanoidSpawnerNTSFQuartus
   name: Оперативник НТСФ Квартус
-  description: Used to guard dangerous and anomalous assets in containment.
+  description: Используется для охраны опасных и аномальных объектов на содержании.
   suffix: Anomaly
   components:
     - type: Sprite
@@ -354,7 +354,7 @@
 - type: entity
   id: RandomHumanoidSpawnerNTSFQuintus
   name: Оперативник НТСФ Квинтус
-  description: Used to conduct raids and eliminate enemy targets.
+  description: Используется для рейдов и ликвидации вражеских целей.
   suffix: Raiders
   components:
     - type: Sprite
@@ -394,7 +394,7 @@
 - type: entity
   id: RandomHumanoidSpawnerNTSFSextus
   name: Оперативник НТСФ Секстус
-  description: Used to kill anomalies, gods, cults, and other phenomena that is deemed magical.
+  description: Используется для уничтожения аномалий, богов, культов и других явлений, признанных магическими.
   suffix: Occult
   components:
     - type: Sprite
@@ -438,7 +438,7 @@
 - type: entity
   id: RandomHumanoidSpawnerNTSFSeptimus
   name: Оперативник НТСФ Септимус
-  description: Used to kill zombies, xenos, and all forms of pests and monsters.
+  description: Используется для уничтожения зомби, ксено и всех видов вредителей и монстров.
   suffix: PestControl
   components:
     - type: Sprite
@@ -479,7 +479,7 @@
 - type: entity
   id: RandomHumanoidSpawnerNTSFOctavius
   name: Оперативник НТСФ Октавиус
-  description: Used to bust unions and kill communist scum.
+  description: Используется для разгона профсоюзов и уничтожения коммунистической нечисти.
   suffix: UnionBusters
   components:
     - type: Sprite
@@ -519,7 +519,7 @@
 - type: entity
   id: RandomHumanoidSpawnerNTSFNonus
   name: Оперативник НТСФ Нонус
-  description: Used to conduct assassinations and stealth operations.
+  description: Используется для заказных убийств и скрытных операций.
   suffix: Assassination
   components:
     - type: Sprite
@@ -560,7 +560,7 @@
 - type: entity
   id: RandomHumanoidSpawnerDecimus
   name: Оперативник Децимус
-  description: Used to conduct alert level epsilon and to exterminate any and all life.
+  description: Используется для объявления уровня тревоги эпсилон и истребления всего живого.
   suffix: ERTRole, Decimus, Extermination
   components:
     - type: Sprite
@@ -916,7 +916,7 @@
       settings: CCGreenshieldBasic
 
 - type: entity
-  name: Greenshield Officer
+  name: офицер гриншилда
   suffix: EVA
   id: RandomHumanoidCCGreenshieldSpawnerEVA
   components:

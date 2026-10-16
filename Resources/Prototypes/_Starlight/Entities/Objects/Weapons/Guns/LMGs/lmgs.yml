@@ -2,7 +2,7 @@
   name: M492 Smart LMG
   id: WeaponLightMachineGunM492
   parent: [ BaseContrabandTier3, BaseWeaponLightMachineGun, BaseSecurityContraband ] # Blimpuf
-  description: A high tech non-traditional LMG built specifically for combating the big threats among us. Uses .30 ammo.
+  description: Высокотехнологичный нетрадиционный ручной пулемёт специально против больших угроз. Под патроны .30.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Guns/LMGs/M492.rsi
@@ -56,10 +56,10 @@
     supportedPins: [ SmartLMG ]
 
 - type: entity
-  name: DP-28 LMG
+  name: пулемёт ДП-28
   id: WeaponLightMachineGunDP28
   parent: [ BaseContrabandTier3, BaseWeaponLightMachineGun, BaseSovietContraband ] # Blimpuf
-  description: From RA-TA-TA-TA with love. Uses .30 ammo.
+  description: С любовью от РА-ТА-ТА-ТА. Под патроны .30.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Guns/LMGs/DP28.rsi

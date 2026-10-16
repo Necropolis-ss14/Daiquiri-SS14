@@ -2,7 +2,7 @@
   parent: [ClothingEyesBase, BaseToggleClothing]
   id: ClothingEyesWeldingGoggles
   name: сварочные гогглы
-  description: Protects the eyes from welders, approved by the mad scientist association.
+  description: Защищает глаза от сварочников, одобрено ассоциацией безумных учёных.
   components:
     - type: Sprite
       sprite: Clothing/Eyes/Glasses/welding.rsi

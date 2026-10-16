@@ -3,9 +3,9 @@
 - type: entity
   parent: [ BaseItem, StorePresetCantrips ]
   id: BookOfCantrips
-  name: abridged grimoire
+  name: сокращённый гримуар
   suffix: Elf
-  description: A thin manuscript containing just some of the lesser secrets of Elvenkind.
+  description: Тонкая рукопись, содержащая лишь часть малых секретов эльфов.
   components:
     - type: Sprite
       sprite: _Starlight/Objects/Misc/books.rsi
@@ -30,7 +30,7 @@
   parent: BookOfCantrips
   id: BookOfCantripsDebug
   suffix: Elf, DEBUG
-  description: A thin manuscript containing just some of the lesser secrets of Elvenkind. Someone wrote "PROPERTY OF M.A.G.E." on the inside cover.
+  description: Тонкая рукопись, содержащая лишь часть малых секретов эльфов. Кто-то написал «СОБСТВЕННОСТЬ М.А.Г.И.» на внутренней стороне обложки.
   components:
     - type: Store
       refundAllowed: true

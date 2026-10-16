@@ -4,7 +4,7 @@
   parent: DrinkGlass
   id: DrinkTheLastCall
   suffix: the last call
-  description: There are no good or bad choices. Only consequences.
+  description: Нет хороших или плохих решений. Есть только последствия.
   components:
   - type: Solution
     id: drink

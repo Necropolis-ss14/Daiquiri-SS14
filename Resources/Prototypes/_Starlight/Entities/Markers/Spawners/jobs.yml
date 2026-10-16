@@ -1,7 +1,7 @@
 - type: entity
   id: SpawnPointRoboticist
   parent: SpawnPointJobBase
-  name: roboticist
+  name: робототехник
   components:
   - type: SpawnPoint
     job_id: Roboticist
@@ -14,7 +14,7 @@
 - type: entity
   id: SpawnPointMagistrate
   parent: SpawnPointJobBase
-  name: Magistrate
+  name: магистрат
   components:
   - type: SpawnPoint
     job_id: Magistrate
@@ -28,7 +28,7 @@
 - type: entity
   id: SpawnPointNtrep
   parent: SpawnPointJobBase
-  name: NanoTrasen representative
+  name: представитель NanoTrasen
   components:
   - type: SpawnPoint
     job_id: NanoTrasenRepresentative
@@ -42,7 +42,7 @@
 - type: entity
   id: SpawnPointIAA
   parent: SpawnPointJobBase
-  name: internal affairs agent
+  name: агент внутренних дел
   components:
   - type: SpawnPoint
     job_id: IAA
@@ -56,7 +56,7 @@
 - type: entity
   id: SpawnPointBlueShield
   parent: SpawnPointJobBase
-  name: blue shield officer
+  name: офицер синего щита
   components:
   - type: SpawnPoint
     job_id: BlueShield
@@ -70,7 +70,7 @@
 - type: entity
   id: SpawnPointAssistantManager
   parent: SpawnPointJobBase
-  name: assistant manager
+  name: менеджер ассистентов
   components:
   - type: SpawnPoint
     job_id: AssistantManager
@@ -84,7 +84,7 @@
 - type: entity
   id: SpawnPointSalvageLead
   parent: SpawnPointJobBase
-  name: salvage lead
+  name: глава утилизаторов
   components:
   - type: SpawnPoint
     job_id: SalvageLead
@@ -98,7 +98,7 @@
 - type: entity
   id: SpawnPointminingspecialist
   parent: SpawnPointJobBase
-  name: miningspecialist
+  name: специалист по добыче
   components:
   - type: SpawnPoint
     job_id: MiningSpecialist
@@ -112,7 +112,7 @@
 - type: entity
   id: SpawnPointmailtech
   parent: SpawnPointJobBase
-  name: mailtech
+  name: почтовый техник
   components:
   - type: SpawnPoint
     job_id: MailTech
@@ -126,7 +126,7 @@
 - type: entity
   id: SpawnPointDutyOfficer
   parent: SpawnPointJobBase
-  name: dutyofficer
+  name: дежурный офицер
   components:
     - type: SpawnPoint
       job_id: DutyOfficer
@@ -140,7 +140,7 @@
 - type: entity
   id: SpawnPointPerformer
   parent: SpawnPointJobBase
-  name: performer
+  name: артист
   components:
     - type: SpawnPoint
       job_id: Performer
@@ -154,7 +154,7 @@
 - type: entity
   id: SpawnPointSurgeon
   parent: SpawnPointJobBase
-  name: surgeon
+  name: хирург
   components:
   - type: SpawnPoint
     job_id: Surgeon
@@ -168,7 +168,7 @@
 - type: entity
   id: SpawnPointBoxer
   parent: SpawnPointJobBase
-  name: boxer
+  name: боксёр
   components:
   - type: SpawnPoint
     job_id: Boxer
@@ -181,7 +181,7 @@
 - type: entity
   id: SpawnPointNCT
   parent: SpawnPointJobBase
-  name: NanoTrasen Career Trainer
+  name: карьерный наставник NanoTrasen
   components:
   - type: SpawnPoint
     job_id: NanotrasenCareerTrainer
@@ -195,7 +195,7 @@
 - type: entity
   id: SpawnPointSalvageSpecialistITG
   parent: SpawnPointJobBase
-  name: salvagespecialist
+  name: специалист-утилизатор
   components:
   - type: SpawnPoint
     job_id: SalvageSpecialist
@@ -208,7 +208,7 @@
 - type: entity
   id: SpawnPointSalvageLeadITG
   parent: SpawnPointJobBase
-  name: salvage lead
+  name: глава утилизаторов
   components:
   - type: SpawnPoint
     job_id: SalvageLead
@@ -222,7 +222,7 @@
 - type: entity
   id: SpawnPointSalvageMedic
   parent: SpawnPointJobBase
-  name: salvage medic
+  name: медик-утилизатор
   components:
   - type: SpawnPoint
     job_id: SalvageMedic
@@ -235,7 +235,7 @@
 - type: entity
   id: SpawnPointK9
   parent: SpawnPointJobBase
-  name: security K9
+  name: К-9 службы безопасности
   components:
   - type: SpawnPoint
     job_id: K9

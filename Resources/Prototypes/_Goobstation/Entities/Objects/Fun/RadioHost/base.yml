@@ -76,8 +76,8 @@
 - type: entity
   parent: BaseItem
   id: VinylBroken
-  name: broken vinyl disc
-  description: A vinyl disk that has been broken into pieces. It is completely unplayable.
+  name: разбитая виниловая пластинка
+  description: Виниловая пластинка, разбитая на куски. Совершенно непригодна для проигрывания.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Fun/RadioHost/vinyl.rsi

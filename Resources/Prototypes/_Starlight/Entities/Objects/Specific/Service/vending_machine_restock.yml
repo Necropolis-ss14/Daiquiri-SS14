@@ -17,8 +17,8 @@
 - type: entity
   parent: [ BaseSyndicateContraband, BaseVendingMachineRestock ]
   id: VendingMachineRestockSyndicate
-  name: Syndicate vending restock box
-  description: A box of illicit supplies that coincidentally looks a lot like a donksoft restock...
+  name: ящик пополнения вендомата Синдиката
+  description: Ящик с нелегальными припасами, который случайно очень похож на пополнение ДонкСофт...
   components:
   - type: VendingMachineRestock
     canRestock:
@@ -34,8 +34,8 @@
 - type: entity
   parent: [ BaseCentcommContraband, BaseVendingMachineRestock ]
   id: VendingMachineRestockCentComm
-  name: CentComm vending restock box
-  description: Fine wares for fine tastes.
+  name: ящик пополнения вендомата ЦентКом
+  description: Отличные товары для утончённых вкусов.
   components:
   - type: VendingMachineRestock
     canRestock:
@@ -50,8 +50,8 @@
 - type: entity
   parent: [ BaseMagicalContraband, BaseVendingMachineRestock ]
   id: VendingMachineRestockMagical
-  name: MagiVend restock box
-  description: Restock to recast.
+  name: ящик пополнения MagiVend
+  description: Пополнение для повторного колдовства.
   components:
   - type: VendingMachineRestock
     canRestock:
@@ -66,8 +66,8 @@
 - type: entity
   parent: BaseVendingMachineRestock
   id: VendingMachineRestockDonk
-  name: donk on the go restock box
-  description: A box full of what is legally food. Load it into a Donk on the Go Vendor for a refill.
+  name: ящик пополнения Donk on the Go
+  description: Ящик с тем, что юридически считается едой. Загрузите в вендомат Donk on the Go для пополнения.
   components:
   - type: VendingMachineRestock
     canRestock:
@@ -82,8 +82,8 @@
 - type: entity
   parent: BaseVendingMachineRestock
   id: VendingMachineRestockIceCream
-  name: ice-cream restock box
-  description: A box full of ice-cream and near-liquid nitrogen.
+  name: ящик пополнения мороженого
+  description: Ящик с мороженым и почти жидким азотом.
   components:
   - type: VendingMachineRestock
     canRestock:
@@ -99,8 +99,8 @@
 - type: entity
   parent: BaseVendingMachineRestock
   id: VendingMachineRestockGumball
-  name: gumball dispenser restock box
-  description: A box full of loose gumballs of various colors. Load it into a gumball dispenser for a refill.
+  name: ящик пополнения жвачек
+  description: Ящик с россыпью разноцветных жвачек. Загрузите в диспенсер жвачек для пополнения.
   components:
   - type: VendingMachineRestock
     canRestock:

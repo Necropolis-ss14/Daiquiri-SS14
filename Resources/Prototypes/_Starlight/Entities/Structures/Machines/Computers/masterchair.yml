@@ -2,7 +2,7 @@
   parent: BaseStructureComputer
   id: Masterchair
   name: наблюдательное мастер-кресло
-  description: If you think you are safe from prying eyes, you would be dead wrong— Big Brother from 1984 trembles whenever John NanoTrasen sits in this, watching every move, fining you for each inconsistency, and noting down collective failures.
+  description: "Думаешь, скрылся от чужих глаз? Как бы не так: Большой Брат из «1984» дрожит, когда Джон NanoTrasen садится сюда, следит за каждым шагом, штрафует за каждую провинность и записывает коллективные провалы."
   placement:
     mode: SnapgridCenter
   components:
@@ -71,7 +71,7 @@
   - BaseMob
   id: CentcommConsoleEye
   name: "???"
-  description: "ERROR"
+  description: "ОШИБКА"
   categories: [ HideSpawnMenu ]
   suffix: DO NOT MAP
   components:

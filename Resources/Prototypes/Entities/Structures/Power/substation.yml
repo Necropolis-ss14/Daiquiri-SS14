@@ -152,8 +152,8 @@
   id: BaseSubstationWall
   parent: CoreSubstation
   categories: [ HideSpawnMenu ]
-  name: wallmount substation
-  description: A substation designed for compact shuttles and spaces.
+  name: настенная подстанция
+  description: Подстанция, предназначенная для компактных шаттлов и помещений.
   placement:
     mode: SnapgridCenter
   components:
@@ -263,8 +263,8 @@
 - type: entity
   id: BaseSubstationWallFrame
   categories: [ HideSpawnMenu ]
-  name: wallmount substation frame
-  description: A substation frame for construction.
+  name: каркас настенной подстанции
+  description: Каркас для строительства подстанции.
   placement:
     mode: SnapgridCenter
   components:

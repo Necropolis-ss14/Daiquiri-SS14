@@ -3,7 +3,7 @@
   name: королевский стул
   id: ChairRegal
   parent: UnanchoredChairBase
-  description: A gilded chair. You think this might be paint actually.
+  description: Позолоченный стул. Кажется, это всё же краска.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Furniture/Chairs/regal_chair.rsi
@@ -49,7 +49,7 @@
   name: королевский трон
   id: ChairThrone
   parent: ChairBase
-  description: A gaudy throne made of gold. Its too heavy to move.
+  description: Кричащий золотой трон. Слишком тяжёлый, чтобы двигать.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Furniture/Chairs/throne.rsi
@@ -79,7 +79,7 @@
   suffix: Gray
   id: ComfyChair
   parent: ChairBase
-  description: It looks comfy.
+  description: Выглядит удобно.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Furniture/Chairs/comfy_chair.rsi
@@ -100,7 +100,7 @@
   suffix: White
   id: ComfyChairWhite
   parent: ChairBase
-  description: It looks comfy.
+  description: Выглядит удобно.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Furniture/Chairs/comfy_chair.rsi
@@ -121,7 +121,7 @@
   suffix: Blue
   id: ComfyChairBlue
   parent: ChairBase
-  description: It looks comfy.
+  description: Выглядит удобно.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Furniture/Chairs/comfy_chair.rsi
@@ -142,7 +142,7 @@
   suffix: Red
   id: ComfyChairRed
   parent: ChairBase
-  description: It looks comfy.
+  description: Выглядит удобно.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Furniture/Chairs/comfy_chair.rsi
@@ -163,7 +163,7 @@
   suffix: Green
   id: ComfyChairGreen
   parent: ChairBase
-  description: It looks comfy.
+  description: Выглядит удобно.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Furniture/Chairs/comfy_chair.rsi
@@ -184,7 +184,7 @@
   suffix: Brown
   id: ComfyChairBrown
   parent: ChairBase
-  description: It looks comfy.
+  description: Выглядит удобно.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Furniture/Chairs/comfy_chair.rsi
@@ -203,7 +203,7 @@
   name: кресло из карпа
   id: ChairCarp
   parent: SeatBase
-  description: A luxurious chair, the many purple scales reflect the light in a most pleasing manner.
+  description: "Роскошный стул: множество фиолетовых чешуек отражают свет самым приятным образом."
   components:
     - type: Transform
       anchored: true
@@ -220,7 +220,7 @@
   name: стул-лягушка
   id: ChairFroggy
   parent: SeatBase
-  description: The coveted froggy chair, beloved by the masses.
+  description: Вожделенный лягушачий стул, любимец масс.
   components:
     - type: Transform
       anchored: true
@@ -239,7 +239,7 @@
   name: милый стул
   id: ChairLovey
   parent: SeatBase
-  description: Wait a second ... this isn't a froggy chair. Well, whatever it is, it's repulsively cute!
+  description: Погоди... это не лягушачий стул. Впрочем, что бы это ни было — оно отвратительно милое!
   components:
     - type: Transform
       anchored: true
@@ -258,7 +258,7 @@
   name: эвакуационное сиденье
   id: ChairEvacSeat
   parent: ChairBase
-  description: A reclining seat for maximum comfort while you get the hell out of Barratry.
+  description: Кресло-реклайнер для максимального комфорта, пока вы уносите ноги из Барратри.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Furniture/Chairs/evac_chair.rsi
@@ -271,7 +271,7 @@
   name: сиденье мостика
   id: ChairBridgeSeat
   parent: ChairOfficeSleek
-  description: A luxury chair for the Captain to sit in and giggle while BSO spins them while contemplating the nearest external airlock.
+  description: "Роскошное кресло: капитан сидит и хихикает, пока ОБО крутит его, размышляя о ближайшем внешнем шлюзе."
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Furniture/Chairs/bridge_chair.rsi

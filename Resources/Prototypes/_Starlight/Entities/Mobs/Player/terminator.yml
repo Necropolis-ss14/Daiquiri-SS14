@@ -2,7 +2,7 @@
   parent: MobHuman
   id: MobHumanTerminator
   # uses random name generator dont worry
-  name: exterminator
+  name: истребитель
   components:
   # reduced barotrauma damage
   - type: Barotrauma
@@ -132,7 +132,7 @@
   id: MobTerminatorEndoskeleton
   # you are now valid
   name: эндоскелет нт-800 «Истребитель»
-  description: The inner powerhouse of an infiltrator android. Ridiculously hard alloy on the inside, unassuming flesh on the outside.
+  description: Внутренняя силовая установка андроида-инфильтратора. Невероятно прочный сплав внутри, неприметная плоть снаружи.
   components:
   - type: HumanoidAppearance
     species: Terminator

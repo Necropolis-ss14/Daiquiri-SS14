@@ -1,28 +1,28 @@
 - type: entity
-  name: changeling target
+  name: мишень-генокрад
   id: TargetChangeling
   parent: BaseTarget
-  description: A shooting target. This one is a changeling.
+  description: Мишень для стрельбы. Это генокрад.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Furniture/targets.rsi
     state: changeling
 
 - type: entity
-  name: tider target
+  name: мишень-тайдер
   id: TargetTider
   parent: BaseTarget
-  description: A shooting target. This one is a tider- better lethal it.
+  description: Мишень для стрельбы. Это тайдер — лучше пристрели его.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Furniture/targets.rsi
     state: tider
 
 - type: entity
-  name: wizard target
+  name: мишень-волшебник
   id: TargetWizard
   parent: BaseTarget
-  description: A shooting target. This one is a wizard.
+  description: Мишень для стрельбы. Это волшебник.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Furniture/targets.rsi

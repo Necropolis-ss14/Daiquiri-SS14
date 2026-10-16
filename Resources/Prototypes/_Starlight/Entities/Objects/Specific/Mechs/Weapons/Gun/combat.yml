@@ -333,8 +333,8 @@
 - type: entity
   id: WeaponMechCombatAMLG90
 # 🌟Starlight-start🌟
-  name: AMLG-90 "Reaver"
-  description: A powerful and advanced burst-laser machine gun designed for maximum firepower.
+  name: пулемёт AMLG-90 «Ривер»
+  description: Мощный продвинутый burst-лазерный пулемёт для максимальной огневой мощи.
 # 🌟Starlight-end🌟
   suffix: Mech Weapon, Gun, Combat, Laser
   parent: [ BaseContrabandTier3, BaseMechWeaponRange, CombatMechEquipment, BaseSecurityContraband ] # Blimpuf

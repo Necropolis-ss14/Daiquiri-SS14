@@ -2,8 +2,8 @@
   id: KitchenOven
   categories: [ ShouldMapStation ]
   parent: [ BaseMachinePowered, SmallConstructibleMachine ]
-  name: oven
-  description: It's a huge magic.
+  name: печь
+  description: Это большая магия.
   components:
   - type: CookingDevice
     capacity: 10

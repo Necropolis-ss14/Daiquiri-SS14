@@ -1,8 +1,8 @@
 - type: entity
   id: VampiricClawsItem
-  name: vampiric claws
+  name: вампирские когти
   parent: BaseItem
-  description: Blood-forged claws that siphon vitae on hit. They will dissipate after a 15 swings, or if dispelled.
+  description: Когти из крови, вытягивают витэ при ударе. Исчезнут после 15 ударов или если развеять.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Melee/vampire_claws.rsi

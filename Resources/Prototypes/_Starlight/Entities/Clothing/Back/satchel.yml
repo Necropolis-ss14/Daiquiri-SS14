@@ -2,7 +2,7 @@
   parent: ClothingBackpackSatchel
   id: ClothingBackpackSatchelRoboticist
   name: сумка робототехника
-  description: Useful for holding borg parts.
+  description: Пригодится для хранения деталей боргов.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Back/Satchels/roboticist.rsi
@@ -11,7 +11,7 @@
   parent: ClothingBackpackSatchel
   id: ClothingBackpackSatchelCargoSenior
   name: сумка старшего курьера
-  description: A robust satchel for those who compartmentalize their bags exactly the same every shift.
+  description: Прочный ранец для тех, кто раскладывает сумку одинаково каждую смену.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Back/Satchels/cargosenior.rsi
@@ -20,7 +20,7 @@
   parent: ClothingBackpackSatchel
   id: ClothingBackpackSatchelChemistrySenior
   name: сумка старшего химика
-  description: A sterile satchel with vibrant, senior chemist colors.
+  description: Стерильный ранец в ярких цветах ведущего химика.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Back/Satchels/chemistrysenior.rsi
@@ -29,7 +29,7 @@
   parent: [ClothingBackpackSatchel, BaseSecurityContraband]
   id: ClothingBackpackSatchelCorpsman
   name: сумка санитара
-  description: Has more than enough pockets to organize everything.
+  description: Более чем достаточно карманов, чтобы всё организовать.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Back/Satchels/corpsman.rsi
@@ -38,7 +38,7 @@
   parent: [ClothingBackpackSatchel, BaseCommandContraband]
   id: ClothingBackpackSatchelHoP
   name: сумка главы персонала
-  description: Filled to the brim with dog treats and paperwork. Smells like wintergreen.
+  description: Набит доверху собачьими лакомствами и бумажной работой. Пахнет винтергрином.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Back/Satchels/hop.rsi
@@ -47,7 +47,7 @@
   parent: [ ClothingBackpackSatchel, BaseCommandContraband, BaseAssistantManagerContraband ]
   id: ClothingBackpackSatchelCommandGeneric
   name: сумка командования
-  description: A satchel in command's distinctive shade of blue.
+  description: Ранец в фирменном синем цвете командования.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Back/Satchels/command.rsi
@@ -56,7 +56,7 @@
   parent: [ ClothingBackpackSatchel, BaseBlueShieldContraband ]
   id: ClothingBackpackSatchelBlueShield
   name: сумка офицера блюшилда
-  description: Useful for holding everything a speedy Blueshield Officer needs!
+  description: Пригодится для хранения всего, что нужно быстрому офицеру синего щита!
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Back/Satchels/blueshield.rsi
@@ -74,7 +74,7 @@
   parent: [ClothingBackpackSatchel, BaseMinorContraband]
   id: ClothingBackpackSatchelSyndicate
   name: сумка Синдиката
-  description: Ask not what the syndicate satchel can do for you, but rather, what can't it do.
+  description: Не спрашивай, что синдикатский ранец может сделать для тебя, а спрашивай, чего он не может.
   components:
   - type: Contraband # Blimpuf
     contrabandType: Syndicate
@@ -94,7 +94,7 @@
   parent: ClothingBackpackSatchel
   id: ClothingBackpackSatchelStar
   name: звёздная сумка
-  description: A star-shaped ita satchel, for the cutie patooties among us.
+  description: Ита-ранец в форме звезды для милашек среди нас.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Back/Satchels/star.rsi
@@ -103,7 +103,7 @@
   parent: ClothingBackpackSatchel
   id: ClothingBackpackSatchelKitty
   name: кошачья сумка
-  description: A cat-shaped ita satchel, for the cutie patooties among us.
+  description: Ита-ранец в форме котика для милашек среди нас.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Back/Satchels/kitty.rsi
@@ -112,7 +112,7 @@
   parent: ClothingBackpackSatchel
   id: ClothingBackpackSatchelIta
   name: ита-сумка
-  description: A standard, pink ita bag.
+  description: Стандартная розовая ита-сумка.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Back/Satchels/ita.rsi

@@ -2,7 +2,7 @@
   parent: BaseItem
   id: UnfinishedImprovisedCrowbar
   name: детали ломика
-  description: Needs welding to hold it together.
+  description: Нужна сварка, чтобы держалось.
   components:
   - type: Item
     size: Small
@@ -23,7 +23,7 @@
   parent: BaseItem
   id: UnfinishedImprovisedScrewdriver
   name: детали отвёртки
-  description: Needs welding to hold it together.
+  description: Нужна сварка, чтобы держалось.
   components:
   - type: Item
     size: Small
@@ -44,7 +44,7 @@
   parent: BaseItem
   id: UnfinishedImprovisedWirecutter
   name: детали кусачек
-  description: Needs welding to hold it together.
+  description: Нужна сварка, чтобы держалось.
   components:
   - type: Item
     size: Small
@@ -65,7 +65,7 @@
   parent: BaseItem
   id: UnfinishedImprovisedWrench
   name: детали гаечного ключа
-  description: Needs welding to hold it together.
+  description: Нужна сварка, чтобы держалось.
   components:
   - type: Item
     size: Small
@@ -86,7 +86,7 @@
   parent: BaseItem
   id: UnfinishedImprovisedMultitool
   name: детали мультитула
-  description: Needs welding and some patience to put it all together.
+  description: Нужны сварка и немного терпения для сборки.
   components:
   - type: Item
     size: Small
@@ -107,7 +107,7 @@
   parent: BaseItem
   id: UnfinishedImprovisedOmnitool
   name: детали импровизированного омнитула
-  description: What are you doing..? Needs.. to be welded.
+  description: Что ты делаешь..? Нужно... сварить.
   components:
   - type: Item
     size: Normal
@@ -128,7 +128,7 @@
   parent: BaseItem
   id: UnfinishedForgedOmnitool
   name: детали кованого омнитула
-  description: You are either crazy, or a psychopath. Likely both, needs to be welded.
+  description: Ты либо безумен, либо психопат. Вероятно, и то и другое. Нужна сварка.
   components:
   - type: Item
     size: Normal
@@ -149,7 +149,7 @@
   parent: BaseItem
   id: HiltWood
   name: деревянная рукоять
-  description: People will try to convince you otherwise, but wooden handles are not part of a high-quality sword, nor a knife.
+  description: Тебя будут убеждать в обратном, но деревянные рукояти — не часть качественного меча. И ножа тоже.
   components:
   - type: Item
     size: Small
@@ -167,7 +167,7 @@
   parent: BaseItem
   id: HiltPlasteel
   name: пласталевая рукоять
-  description: Part of high-quality sword & knife crafting.
+  description: Часть крафта качественных мечей и ножей.
   components:
   - type: Item
     size: Small
@@ -185,7 +185,7 @@
   parent: BaseItem
   id: BladeSteel
   name: стальное лезвие
-  description: Doesn't look very sharp..
+  description: Не выглядит особо острым...
   components:
   - type: Item
     size: Normal
@@ -203,7 +203,7 @@
   parent: BaseItem
   id: BladePlasteel
   name: пласталевое лезвие
-  description: Ouch! Just touching the edge can cut you.
+  description: Ай! Даже край может порезать.
   components:
   - type: Item
     size: Normal
@@ -221,7 +221,7 @@
   parent: BaseItem
   id: UnfinishedSwordForged
   name: детали кованого меча
-  description: Simply needs a bit of welding around the edges.
+  description: Нужна лишь небольшая сварка по краям.
   components:
   - type: Item
     size: Normal
@@ -242,7 +242,7 @@
   parent: BaseItem
   id: UnfinishedClaymoreForged
   name: детали волнореза
-  description: Simply needs a bit of welding around the edges.
+  description: Нужна лишь небольшая сварка по краям.
   components:
   - type: Item
     size: Normal
@@ -263,7 +263,7 @@
   parent: BaseItem
   id: UnfinishedImprovisedShield
   name: детали импровизированного щита
-  description: Some assembly required, and welding too.
+  description: Требуется сборка, а также сварка.
   components:
   - type: Item
     size: Ginormous
@@ -284,7 +284,7 @@
   parent: BaseItem
   id: UnfinishedForgedShieldBuckler
   name: детали кованого баклера
-  description: Some assembly required, and welding too.
+  description: Требуется сборка, а также сварка.
   components:
   - type: Item
     size: Ginormous
@@ -305,7 +305,7 @@
   parent: BaseItem
   id: UnfinishedForgedShieldTower
   name: детали кованого башенного щита
-  description: Some assembly required, and welding too.
+  description: Требуется сборка, а также сварка.
   components:
   - type: Item
     size: Ginormous
@@ -326,7 +326,7 @@
   parent: BaseItem
   id: UnfinishedPaladinShield
   name: детали щита паладина
-  description: The shield of a true paladin..! In pieces. Needs some welding.
+  description: Щит истинного паладина..! По частям. Нужна сварка.
   components:
   - type: Item
     size: Ginormous
@@ -347,7 +347,7 @@
   parent: BaseItem
   id: UnfinishedPaladinShieldGreat
   name: детали большого щита паладина
-  description: You're either crazy, or want to become a mobile emplacement. Needs a lot of welding..
+  description: Ты либо безумен, либо хочешь стать мобильной огневой точкой. Нужно много сварки...
   components:
   - type: Item
     size: Ginormous
@@ -368,7 +368,7 @@
   parent: BaseItem
   id: UnfinishedClothingOuterArmorImprovised
   name: детали импровизированного бронежилета
-  description: Some assembly required, and welding too.
+  description: Требуется сборка, а также сварка.
   components:
   - type: Item
     size: Normal
@@ -389,7 +389,7 @@
   parent: BaseItem
   id: UnfinishedClothingOuterArmorForged
   name: детали кованого бронежилета
-  description: Some assembly required, and welding too.
+  description: Требуется сборка, а также сварка.
   components:
   - type: Item
     size: Normal
@@ -410,7 +410,7 @@
   parent: BaseItem
   id: UnfinishedClothingOuterArmorPaladin
   name: детали костюма паладина
-  description: A LOT of assembly required, minimal welding needed. Become the paladin you've always wanted to be!
+  description: Требуется БОЛЬШАЯ сборка, сварки минимум. Стань паладином, каким всегда хотел быть!
   components:
   - type: Item
     size: Ginormous
@@ -431,7 +431,7 @@
   parent: BaseItem
   id: UnfinishedClothingHeadHelmetImprovised
   name: детали импровизированного шлема
-  description: Some assembly required, and welding too.
+  description: Требуется сборка, а также сварка.
   components:
   - type: Item
     size: Normal
@@ -452,7 +452,7 @@
   parent: BaseItem
   id: UnfinishedClothingHeadHelmetForged
   name: детали кованого шлема
-  description: Some assembly required, and welding too.
+  description: Требуется сборка, а также сварка.
   components:
   - type: Item
     size: Normal
@@ -473,7 +473,7 @@
   parent: BaseItem
   id: UnfinishedClothingHeadHelmetPaladin
   name: детали шлема паладина
-  description: No Paladin LARP is good without the helmet! Needs welding.
+  description: Ни один паладиний ЛАРП не обходится без шлема! Нужна сварка.
   components:
   - type: Item
     size: Normal

@@ -2,7 +2,7 @@
   parent: [UnsensoredClothingUniformBase, BaseSovietContraband]
   id: ClothingUniformJumpsuitSoviet
   name: старая военная форма
-  description: Relics of war, many of which have laid the foundation of the USSP. Wearing this may cause unsolicited war stories.
+  description: Реликвии войны, заложившие фундамент USSP. Ношение может вызывать непрошеные военные байки.
   components:
   - type: Contraband # Blimpuf
     tier: Tier3
@@ -42,7 +42,7 @@
   parent: [ ClothingUniformBase, BaseNanoTrasenContraband]
   id: ClothingUniformJumpsuitNtrep
   name: костюм представителя НаноТрейзен
-  description: That suit that is better not to see.
+  description: Тот костюм, который лучше не видеть.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpsuit/ntrep.rsi
@@ -53,7 +53,7 @@
   parent: [ ClothingUniformBase, BaseNanoTrasenContraband]
   id: ClothingUniformJumpsuitNtrepFormal
   name: торжественный костюм представителя НаноТрейзен
-  description: That suit that is better not to see.
+  description: Тот костюм, который лучше не видеть.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpsuit/ntrepformal.rsi
@@ -64,7 +64,7 @@
   parent: [ ClothingUniformBase, BaseNanoTrasenContraband]
   id: ClothingUniformJumpsuitNtrepTurtleNeck
   name: комбинезон с водолазкой представителя НаноТрейзен
-  description: For a more casual look while on the job.
+  description: Для более повседневного вида на работе.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpsuit/ntrepturtleneck.rsi
@@ -75,7 +75,7 @@
   parent: [ ClothingUniformBase, BaseNanoTrasenContraband]
   id: ClothingUniformJumpsuitNtrepNoble
   name: благородный комбинезон представителя НаноТрейзен
-  description: A more classical and elegant style of clothing, designed to emulate the fashion of old earth nobility.
+  description: Более классический и элегантный стиль одежды, подражающий моде знати старой Земли.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpsuit/ntrepnoble.rsi
@@ -86,7 +86,7 @@
   parent: [ ClothingUniformBase, BaseBlueShieldContraband ]
   id: ClothingUniformJumpsuitBlueShield
   name: костюм блюшилда
-  description: The suit of a glorified bodyguard.
+  description: Костюм прославленного телохранителя.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpsuit/blueshield.rsi
@@ -97,7 +97,7 @@
   parent: [ ClothingUniformBase, BaseBlueShieldContraband ]
   id: ClothingUniformJumpsuitEliteBlueShield
   name: костюм элитного блюшилда
-  description: The suit of an elite BSO. To reach such a level, you must have protected Command from [REDACTED].
+  description: Костюм элитного ОСО. Чтобы достичь такого уровня, нужно было защитить командование от [УДАЛЕНО].
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpsuit/eliteblueshield.rsi
@@ -108,7 +108,7 @@
   parent: [ ClothingUniformBase, BaseBlueShieldContraband ]
   id: ClothingUniformJumpsuitBlueShieldShirt
   name: рубашка офицера блюшилда
-  description: A collared shirt and pants for the blueshield officer who likes to keep it business casual.
+  description: Рубашка с воротником и брюки для офицера синего щита в стиле business casual.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpsuit/blueshieldshirt.rsi
@@ -119,7 +119,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitSalvageLead
   name: комбинезон ведущего утилизатора
-  description: It's a snappy jumpsuit with a sturdy set of overalls. It's very dirty.
+  description: Щегольский комбинезон с прочным полукомбинезоном. Очень грязный.
   components:
   - type: RollUpSleeves
   - type: Sprite
@@ -131,7 +131,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitMiningSpecialist
   name: комбинезон специалиста по добыче
-  description: A suit passed down through many generations. A fine layer of dust trails behind it.
+  description: Костюм, передаваемый через поколения. За ним тянется тонкий слой пыли.
   components:
   - type: RollUpSleeves
   - type: Sprite
@@ -144,7 +144,7 @@
   parent: [ClothingUniformBase, ClothingUniformFoldableBase]
   id: ClothingUniformJumpsuitSeniorChemist
   name: комбинезон старшего химика
-  description: A sign of skill, prestige, and alchemical prowess.
+  description: Знак мастерства, престижа и алхимической мощи.
   components:
   - type: RollUpSleeves
   - type: Sprite
@@ -156,7 +156,7 @@
   parent: [ClothingUniformBase, BaseSecurityContraband]
   id: ClothingUniformJumpsuitCorpsman
   name: костюм санитара
-  description: Die in style on the front lines!
+  description: Умри стильно на передовой!
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpsuit/corpsman.rsi
@@ -172,7 +172,7 @@
   parent: [ClothingUniformBase, BaseSecurityContraband]
   id: ClothingUniformJumpsuitCorpsmanResponse
   name: форма реагирования санитара
-  description: If only I'd been faster.
+  description: Если бы я только был быстрее.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpsuit/corpsman_response.rsi
@@ -188,7 +188,7 @@
   parent: [ClothingUniformBase, BaseSecurityContraband]
   id: ClothingUniformJumpsuitFormalBrigmedic
   name: торжественный комбинезон бригмедика
-  description: A formal suit for the brigmedic.
+  description: Формальный костюм бригмедика.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpsuit/brigmedic_alt.rsi
@@ -204,7 +204,7 @@
   parent: [ClothingUniformBase, BaseSecurityContraband]
   id: ClothingUniformJumpsuitSeniorBrigmedic
   name: торжественный комбинезон старшего бригмедика
-  description: A formal suit for the seasoned brigmedic.
+  description: Формальный костюм опытного бригмедика.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpsuit/brigmedic_senior.rsi
@@ -220,7 +220,7 @@
   parent: [ClothingUniformBase, ClothingUniformFoldableBase]
   id: ClothingUniformJumpsuitOfLife
   name: костюм жизни
-  description: A suit that symbolizes the joy and positivity of our life.
+  description: Костюм, символизирующий радость и позитив нашей жизни.
   components:
   - type: RollUpSleeves
   - type: Sprite
@@ -237,7 +237,7 @@
   parent: [ClothingUniformBase, BaseSecurityContraband]
   id: ClothingUniformJumpsuitFormalDeputy
   name: комбинезон заместителя
-  description: An attire for one who feels destined for the desert.
+  description: Наряд для тех, кто чувствует себя рождённым для пустыни.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpsuit/deputy.rsi
@@ -248,7 +248,7 @@
   parent: [ClothingUniformBase, BaseSecurityContraband]
   id: ClothingUniformJumpsuitFormalSecoff
   name: торжественный комбинезон службы безопасности
-  description: A formal attire for the security officer.
+  description: Формальный наряд офицера службы безопасности.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpsuit/secoff_formal.rsi
@@ -259,7 +259,7 @@
   parent: [ClothingUniformBase, BaseSecurityContraband]
   id: ClothingUniformJumpsuitFormalSeniorSecoff
   name: торжественный комбинезон старшего офицера безопасности
-  description: A formal attire for the senior security officer.
+  description: Формальный наряд старшего офицера службы безопасности.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpsuit/secoff_formal_senior.rsi
@@ -270,7 +270,7 @@
   parent: [ClothingUniformBase, BaseSecurityContraband]
   id: ClothingUniformJumpsuitDutyOfficer
   name: форма дежурного офицера
-  description: A vibrant security suit for the warden's partner in chains.
+  description: Яркий костюм СБ для партнёра смотрителя по цепям.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpsuit/dutyofficer.rsi
@@ -281,7 +281,7 @@
   parent: [ClothingUniformBase, BaseSecurityContraband]
   id: ClothingUniformJumpsuitFormalWarden
   name: торжественный комбинезон смотрителя
-  description: A formal attire for the warden, missing a holster for the truncheon sadly.
+  description: Формальный наряд смотрителя, увы без кобуры под дубинку.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpsuit/warden_formal.rsi
@@ -292,7 +292,7 @@
   parent: [ClothingUniformBase, ClothingUniformFoldableBase]
   id: ClothingUniformJumpsuitServiceWorkerBartender
   name: комбинезон официанта
-  description: A sharp and tidy uniform for the bartender's footsoldiers.
+  description: Строгая и опрятная форма для пехотинцев бармена.
   components:
   - type: RollUpSleeves
   - type: Sprite
@@ -304,7 +304,7 @@
   parent: [ClothingUniformBase, ClothingUniformFoldableBase]
   id: ClothingUniformJumpsuitServiceWorkerBotany
   name: комбинезон садовника
-  description: Has a light earthy smell to it. Has to be routinely bleached.
+  description: Имеет лёгкий землистый запах. Требует регулярного отбеливания.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpsuit/serviceworker_botany.rsi
@@ -315,7 +315,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitServiceWorkerChef
   name: комбинезон су-шефа
-  description: The noble jumpsuit of the chef's co-conspirator.
+  description: Благородный комбинезон соучастника шеф-повара.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpsuit/serviceworker_chef.rsi
@@ -326,7 +326,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitPerformerClown
   name: комбинезон ассистента клоуна
-  description: Yet to be worthy of honking.
+  description: Ещё недостоин гудка.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpsuit/performer_clown.rsi
@@ -337,7 +337,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitPerformerMime
   name: комбинезон ученика мима
-  description: Still have to learn how to be quiet...
+  description: Ещё предстоит научиться быть тихим...
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpsuit/performer_mime.rsi
@@ -348,7 +348,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitPerformerMusician
   name: комбинезон сессионного музыканта
-  description: A formal suit with a luxurious pair of pants. It's time to act!
+  description: Формальный костюм с роскошными брюками. Время действовать!
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpsuit/performer_musician.rsi
@@ -359,7 +359,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitClownFormal
   name: благородный костюм клоуна
-  description: Why, I daresay, HONK!
+  description: Да осмелюсь сказать, ХОНК!
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpsuit/clown_distinguished.rsi
@@ -370,7 +370,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitLawyerService
   name: зелёный костюм адвоката
-  description: A flashy green suit worn by lawyers and show-offs.
+  description: Броский зелёный костюм для юристов и выпендрёжников.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpsuit/service_lawyer.rsi
@@ -381,7 +381,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitLawyerGray
   name: серый костюм адвоката
-  description: A plain gray suit worn by lawyers and show-offs.
+  description: Простой серый костюм для юристов и выпендрёжников.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpsuit/lawyergray.rsi
@@ -392,7 +392,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitLawyerPink
   name: розовый костюм адвоката
-  description: A bright pink suit worn by lawyers that you should call.
+  description: Ярко-розовый костюм для юристов, которым стоит позвонить.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpsuit/lawyerpink.rsi
@@ -403,7 +403,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitLawyerBlackTwo
   name: показной костюм адвоката
-  description: A stylish black piece worn by lawyers and show people.
+  description: Стильный чёрный наряд, который носят юристы и шоумены.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpsuit/lawyerblacktwo.rsi
@@ -414,7 +414,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitLawyerBad
   name: костюм плохого адвоката
-  description: A bold suit. Perfect for finding your one way, going wherever you want to go.
+  description: Смелый костюм. Идеален, чтобы найти свой путь, куда бы ты ни шёл.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Uniforms/Jumpsuit/lawyerbad.rsi
@@ -427,7 +427,7 @@
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpsuitSuitCheckered
   name: вечерний клетчатый костюм
-  description: This plaid suit blends formality and style. The expertly tailored blazer and straight trousers create a modern silhouette, while the plaid pattern adds a fashionable touch. Perfect for office meetings and everyday business gatherings.
+  description: Клетчатый костюм сочетает формальность и стиль. Для офисных встреч и деловых будней.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpsuit/suit_checkered.rsi
@@ -438,7 +438,7 @@
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpsuitSuitTan
   name: вечерний бежевый костюм
-  description: This chocolate-colored evening suit embodies luxury and elegance. The fitted blazer and flared trousers create a refined silhouette, while the rich chocolate hue adds warmth and sophistication. Perfect for special evening events.
+  description: Шоколадный вечерний костюм воплощает роскошь и элегантность. Для особых вечерних событий.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpsuit/suit_tan.rsi
@@ -449,7 +449,7 @@
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpsuitSuitWaiter
   name: костюм официанта
-  description: This waiter uniform combines style and comfort. The collared blouse and cuffed trousers create a formal yet relaxed look. Additional details like the apron and bowtie add a playful touch, completing the stylish appearance of a waiter serving with grace and professionalism.
+  description: Форма официанта сочетает стиль и комфорт. Блуза, брюки с манжетами, фартук и бабочка завершают образ.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpsuit/suit_waiter.rsi
@@ -460,7 +460,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitMimeSuaveWhite
   name: элегантный костюм мима с белыми штанами
-  description: A suave mime costume with white pants combines playful charm and allure. The outfit typically features a fitted top, suspenders, and white trousers, with bold black-and-white details. It's perfect for an entertaining yet chic look, exuding both mystery and confidence.
+  description: Щегольской костюм мима с белыми брюками. Подтяжки, контрастные детали, тайна и уверенность.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpsuit/suave-mime.rsi
@@ -471,7 +471,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitMimeSuaveBlack
   name: элегантный костюм мима с чёрными штанами
-  description: A suave mime costume with black pants combines playful charm and allure. The outfit typically features a fitted top, suspenders, and white trousers, with bold black-and-white details. It's perfect for an entertaining yet chic look, exuding both mystery and confidence.
+  description: Щегольской костюм мима с чёрными брюками. Подтяжки, контрастные детали, тайна и уверенность.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpsuit/suave-mime-black.rsi
@@ -482,7 +482,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitCargoAlt
   name: костюм грузчика
-  description: A good suit for supply department workers combines practicality and professionalism. Featuring durable fabric, functional pockets, and a comfortable fit, it ensures ease of movement while maintaining a neat and polished appearance. Ideal for day-to-day operations and meetings.
+  description: Добротный костюм снабженцев сочетает практичность и профессионализм. Прочная ткань, карманы, удобная посадка.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpsuit/cargo.rsi
@@ -493,7 +493,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitCargoFormal
   name: торжественный комбинезон грузчика
-  description: Designed for fashion shows on a conveyor belt, this sleek and structured cargo jumpsuit blends utility with high-fashion appeal. Perfect for showcasing bold, industrial-inspired looks with a refined edge.
+  description: Карго-комбинезон для модных показов на конвейере, утилитарность с высокой модой.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpsuit/cargoformal.rsi
@@ -504,7 +504,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitMail
   name: комбинезон почтальона
-  description: A stylish cargo yellow and mail bag-blue uniform custom made for mail technicians.
+  description: Стильная жёлто-карговая и сине-почтовая форма, сшитая на заказ для почтовых техников.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpsuit/mailtech.rsi
@@ -515,7 +515,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitSeniorMail
   name: комбинезон старшего почтальона
-  description: A more vibrant mail technician outfit made in the color of cargo's formal uniforms. Perfect for deliver the mail in style, and looking good while doing it.
+  description: Более яркий наряд почтового техника в цветах парадной формы карго. Идеален для доставки почты со стилем и шиком.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpsuit/senior_mail.rsi
@@ -526,7 +526,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitSalvageFormal
   name: торжественный комбинезон утилизатора
-  description: A practical and durable outfit designed for waste management and reclamation tasks, combining functionality with a professional look. Perfect for those in the field, ensuring comfort, efficiency, and a polished appearance.
+  description: Практичный прочный наряд для утилизации отходов, функциональность с профессиональным видом.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpsuit/salvageformal.rsi
@@ -537,7 +537,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitCoroner
   name: комбинезон коронера
-  description: Issued to qualified and trained professionals, this jumpsuit features the phrase "I don't just work with the dead, I dance with them on their final parade!" adding a unique touch of dark humor to the professional uniform.
+  description: Комбинезон квалифицированных специалистов с фразой «Я не просто работаю с мёртвыми, я танцую с ними на последнем параде!»
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpsuit/coroner.rsi
@@ -548,7 +548,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitCoronerAlt
   name: хирургический халат
-  description: Guaranteed to protect your wardrobe from bloody details, but we can't make any promises. Ideal for medical professionals who need both protection and a touch of uncertainty.
+  description: Гарантированно защищает гардероб от кровавых деталей, но это не точно. Для медиков, которым нужны защита и неопределённость.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpsuit/coroneralt.rsi
@@ -560,7 +560,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitSuperstarCop
   name: форма полицейского суперзвезды
-  description: Flare cut trousers and a dirty shirt that might have been classy before someone took a piss in the armpits. It's the dress of a superstar.
+  description: Расклешённые брюки и грязная рубашка, бывшая классной, пока кто-то не намочил подмышки. Наряд суперзвезды.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpsuit/disco.rsi
@@ -571,7 +571,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitAerostatic
   name: костюм воздухоплавателя
-  description: A crisp and well-pressed suit; professional, comfortable and curiously authoritative.
+  description: Отглаженный костюм; профессиональный, удобный и любопытно властный.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpsuit/kim.rsi
@@ -582,7 +582,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitCentcomOfficerBlack
   name: униформа офицера специальных операций
-  description: Special Operations Officer uniform, nothing like that. Although... If you have time to read this, it's too late...
+  description: Форма офицера спецопераций, ничего такого. Хотя... Если ты это читаешь, уже поздно...
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpsuit/centcom_officer_black.rsi
@@ -593,7 +593,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitCentcomAdmiral
   name: униформа адмирала
-  description: A uniform worn by those with the rank Admiral in the NanoTrasen Navy.
+  description: Форма адмиралов флота NanoTrasen.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpsuit/centcom_admiral.rsi
@@ -604,7 +604,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitCapTurtleneck
   name: водолазка капитана
-  description: True captain's turtleneck.
+  description: Настоящая водолазка капитана.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpsuit/cap_turtleneck.rsi
@@ -615,7 +615,7 @@
   parent: [ ClothingUniformBase, BaseCommandContraband ]
   id: ClothingUniformJumpsuitCaptainNoble
   name: благородный комбинезон капитана
-  description: A more classical and elegant style of clothing, designed to emulate the fashion of old earth nobility.
+  description: Более классический и элегантный стиль одежды, подражающий моде знати старой Земли.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpsuit/captainnoble.rsi
@@ -626,7 +626,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitHoPTurtleneck
   name: водолазка главы персонала
-  description: It's Head of Personal's turtleneck.
+  description: Водолазка главы персонала.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpsuit/hop_turtleneck.rsi
@@ -637,7 +637,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitHoSBlack
   name: чёрный комбинезон главы службы безопасности
-  description: It's Head of Security's black suit.
+  description: Чёрный костюм главы службы безопасности.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpsuit/hos_black.rsi
@@ -659,7 +659,7 @@
   parent: [ ClothingUniformBase, BaseBlueShieldContraband ]
   id: ClothingUniformJumpsuitFormalBlueShield
   name: торжественный костюм офицера блюшилда
-  description: A textile jumpsuit, reinforced with thick leather in some areas.
+  description: Тканевый комбинезон, местами укреплённый толстой кожей.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpsuit/formal_blueshield.rsi
@@ -670,7 +670,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitSpaceCourier
   name: нательное бельё космического курьера
-  description: Luxurious underclothes, styled after a legendary space courier. Fly, my space courier!
+  description: Роскошное бельё в стиле легендарного космического курьера. Лети, мой курьер!
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpsuit/space_courier.rsi
@@ -681,7 +681,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformTimelessSuit
   name: вневременной костюм
-  description: A luxury suit with a timeless design.
+  description: Роскошный костюм вневременного дизайна.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Uniforms/Jumpsuit/timeless_suit.rsi
@@ -694,7 +694,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitSquidTheseGames
   name: форма этих игр
-  description: I PLAYED THESE GAMES B4!!! I said i play-GET OUT!
+  description: Я ИГРАЛ В ЭТИ ИГРЫ!!! Я сказал играю — ВОН!
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpsuit/squid_prisoner.rsi
@@ -705,7 +705,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitSquidDangerous
   name: опасная форма
-  description: Please, no, i will give yo-POW POW POW!
+  description: Пожалуйста, нет, я отдам... ПАУ ПАУ ПАУ!
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpsuit/squid.rsi
@@ -717,7 +717,7 @@
   parent: [ UnsensoredClothingUniformBase, BaseSovietContraband ]
   id: ClothingUniformJumpsuitSovietAdmiral
   name: комбинезон советского адмирала
-  description: They are one phone call away from ruining your life.
+  description: Они в одном звонке от того, чтобы разрушить твою жизнь.
   components:
   - type: Contraband # Blimpuf
     tier: Tier3
@@ -730,7 +730,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitTrackSuit
   name: чёрный спортивный костюм
-  description: Tider? Nyet, gopnik.
+  description: Тайдер? Нет, гопник.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpsuit/track_suit.rsi
@@ -741,7 +741,7 @@
   parent: [ UnsensoredClothingUniformBase, BaseSovietContraband ]
   id: ClothingUniformJumpsuitSovietFatigues
   name: боевая форма морпеха ССФ
-  description: Not one step back.
+  description: Ни шагу назад.
   components:
   - type: Contraband # Blimpuf
     tier: Tier3
@@ -754,7 +754,7 @@
   parent: [ ClothingUniformBase, BaseCentcommContraband ]
   id: ClothingAltUniformJumpsuitCentcomOfficial
   name: комбинезон офицера ЦК
-  description: It's a jumpsuit worn by CentComm officers.
+  description: Комбинезон, который носят офицеры ЦК.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpsuit/centcom_official.rsi
@@ -765,7 +765,7 @@
   parent: [ ClothingUniformBase, BaseCentcommContraband ]
   id: ClothingUniformJumpsuitCentcomFormalCAD
   name: торжественный комбинезон офицера Центрального административного дивизиона
-  description: It's a formal jumpsuit worn by CentComm officers.
+  description: Это формальный комбинезон, который носят офицеры ЦК.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Uniforms/Jumpsuit/centcommformalCAD.rsi
@@ -776,7 +776,7 @@
   parent: [ ClothingUniformBase, BaseCentcommContraband ]
   id: ClothingUniformJumpsuitCentcomFormalCMD
   name: торжественный комбинезон офицера Центрального медицинского дивизиона
-  description: It's a formal jumpsuit worn by CentComm officers.
+  description: Это формальный комбинезон, который носят офицеры ЦК.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Uniforms/Jumpsuit/centcommformalCMD.rsi
@@ -787,7 +787,7 @@
   parent: [ ClothingUniformBase, BaseCentcommContraband ]
   id: ClothingUniformJumpsuitCentcomFormalCRD
   name: торжественный комбинезон офицера Центрального научного дивизиона
-  description: It's a formal jumpsuit worn by CentComm officers.
+  description: Это формальный комбинезон, который носят офицеры ЦК.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Uniforms/Jumpsuit/centcommformalCRD.rsi
@@ -798,7 +798,7 @@
   parent: [ ClothingUniformBase, BaseCentcommContraband ]
   id: ClothingUniformJumpsuitCentcomFormalCCD
   name: торжественный комбинезон офицера Центрального грузового дивизиона
-  description: It's a formal jumpsuit worn by CentComm officers.
+  description: Это формальный комбинезон, который носят офицеры ЦК.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Uniforms/Jumpsuit/centcommformalCCD.rsi
@@ -809,7 +809,7 @@
   parent: [ ClothingUniformBase, BaseCentcommContraband ]
   id: ClothingUniformJumpsuitCentcomFormalCSOD
   name: торжественный комбинезон офицера Центрального дивизиона спецопераций
-  description: It's a formal jumpsuit worn by CentComm officers.
+  description: Это формальный комбинезон, который носят офицеры ЦК.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Uniforms/Jumpsuit/centcommformalCSOD.rsi
@@ -820,7 +820,7 @@
   parent: [ ClothingUniformBase, BaseCentcommContraband ]
   id: ClothingUniformJumpsuitCentcomFormalCID
   name: торжественный комбинезон офицера Центрального разведывательного дивизиона
-  description: It's a formal jumpsuit worn by CentComm officers.
+  description: Это формальный комбинезон, который носят офицеры ЦК.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Uniforms/Jumpsuit/centcommformalCID.rsi
@@ -831,7 +831,7 @@
   parent: [ ClothingUniformBase, BaseCentcommContraband ]
   id: ClothingUniformJumpsuitCentcomFormalCSD
   name: торжественный комбинезон офицера Центрального дивизиона безопасности
-  description: It's a formal jumpsuit worn by CentComm officers.
+  description: Это формальный комбинезон, который носят офицеры ЦК.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Uniforms/Jumpsuit/centcommformalCSD.rsi
@@ -842,7 +842,7 @@
   parent: [ ClothingUniformBase, BaseCentcommContraband ]
   id: ClothingUniformJumpsuitCentcomFormalCED
   name: торжественный комбинезон офицера Центрального инженерного дивизиона
-  description: It's a formal jumpsuit worn by CentComm officers.
+  description: Это формальный комбинезон, который носят офицеры ЦК.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Uniforms/Jumpsuit/centcommformalCED.rsi
@@ -853,7 +853,7 @@
   parent: [ ClothingUniformBase, BaseCentcommContraband ]
   id: ClothingUniformJumpsuitCentcomFormalDressCAD
   name: парадный комбинезон офицера Центрального административного дивизиона
-  description: It's a formal dress jumpsuit worn by CentComm officers.
+  description: Это формальный комбинезон-платье, который носят офицеры ЦК.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Uniforms/Jumpsuit/centcommformaldressCAD.rsi
@@ -864,7 +864,7 @@
   parent: [ ClothingUniformBase, BaseCentcommContraband ]
   id: ClothingUniformJumpsuitCentcomFormalDressCMD
   name: парадный комбинезон офицера Центрального медицинского дивизиона
-  description: It's a formal dress jumpsuit worn by CentComm officers.
+  description: Это формальный комбинезон-платье, который носят офицеры ЦК.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Uniforms/Jumpsuit/centcommformaldressCMD.rsi
@@ -875,7 +875,7 @@
   parent: [ ClothingUniformBase, BaseCentcommContraband ]
   id: ClothingUniformJumpsuitCentcomFormalDressCRD
   name: парадный комбинезон офицера Центрального научного дивизиона
-  description: It's a formal dress jumpsuit worn by CentComm officers.
+  description: Это формальный комбинезон-платье, который носят офицеры ЦК.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Uniforms/Jumpsuit/centcommformaldressCRD.rsi
@@ -886,7 +886,7 @@
   parent: [ ClothingUniformBase, BaseCentcommContraband ]
   id: ClothingUniformJumpsuitCentcomFormalDressCCD
   name: парадный комбинезон офицера Центрального грузового дивизиона
-  description: It's a formal dress jumpsuit worn by CentComm officers.
+  description: Это формальный комбинезон-платье, который носят офицеры ЦК.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Uniforms/Jumpsuit/centcommformaldressCCD.rsi
@@ -897,7 +897,7 @@
   parent: [ ClothingUniformBase, BaseCentcommContraband ]
   id: ClothingUniformJumpsuitCentcomFormalDressCSOD
   name: парадный комбинезон офицера Центрального дивизиона спецопераций
-  description: It's a formal dress jumpsuit worn by CentComm officers.
+  description: Это формальный комбинезон-платье, который носят офицеры ЦК.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Uniforms/Jumpsuit/centcommformaldressCSOD.rsi
@@ -908,7 +908,7 @@
   parent: [ ClothingUniformBase, BaseCentcommContraband ]
   id: ClothingUniformJumpsuitCentcomFormalDressCID
   name: парадный комбинезон офицера Центрального разведывательного дивизиона
-  description: It's a formal dress jumpsuit worn by CentComm officers.
+  description: Это формальный комбинезон-платье, который носят офицеры ЦК.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Uniforms/Jumpsuit/centcommformaldressCID.rsi
@@ -919,7 +919,7 @@
   parent: [ ClothingUniformBase, BaseCentcommContraband ]
   id: ClothingUniformJumpsuitCentcomFormalDressCSD
   name: парадный комбинезон офицера Центрального дивизиона безопасности
-  description: It's a formal dress jumpsuit worn by CentComm officers.
+  description: Это формальный комбинезон-платье, который носят офицеры ЦК.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Uniforms/Jumpsuit/centcommformaldressCSD.rsi
@@ -930,7 +930,7 @@
   parent: [ ClothingUniformBase, BaseCentcommContraband ]
   id: ClothingUniformJumpsuitCentcomFormalDressCED
   name: парадный комбинезон офицера Центрального инженерного дивизиона
-  description: It's a formal dress jumpsuit worn by CentComm officers.
+  description: Это формальный комбинезон-платье, который носят офицеры ЦК.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Uniforms/Jumpsuit/centcommformaldressCED.rsi
@@ -941,7 +941,7 @@
   parent: [ClothingUniformBase, BaseSecurityContraband]
   id: ClothingUniformSecurityTshirt
   name: форма безопасности с футболкой
-  description: Light and unrestrictive uniform, so that nothing can stop you from swinging a stunbaton.
+  description: Лёгкая свободная форма, чтобы ничто не мешало махать дубинкой.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpsuit/security_tshirt.rsi
@@ -952,7 +952,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitRisk
   name: комбинезон станционного смельчака
-  description: A jumpsuit with red lines along the sides.
+  description: Комбинезон с красными полосами по бокам.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpsuit/riskjumpsuit.rsi
@@ -963,7 +963,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitSeniorParamedic
   name: комбинезон старшего парамедика
-  description: These epaulettes mark a paramedic that has walked through fire and void to save those in need
+  description: Эти эполеты отличают парамедика, прошедшего огонь и пустоту ради спасения нуждающихся.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpsuit/senior_paramedic.rsi
@@ -974,7 +974,7 @@
   parent: [ ClothingUniformBase , BaseSalvageContraband ]
   id: ClothingUniformJumpsuitSalvageMercWhite
   name: белый комбинезон утилизатора
-  description: Utilitarian clothing for salvagers.
+  description: Практичная одежда для утилизаторов.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Uniforms/Jumpsuit/salvagewhite.rsi
@@ -985,7 +985,7 @@
   parent: [ ClothingUniformBase , BaseSalvageContraband ]
   id: ClothingUniformJumpsuitSalvageMercGreen
   name: зелёный комбинезон утилизатора
-  description: Utilitarian clothing for salvagers.
+  description: Практичная одежда для утилизаторов.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Uniforms/Jumpsuit/salvagegreen.rsi
@@ -996,7 +996,7 @@
   parent: [ ClothingUniformBase , BaseSalvageContraband ]
   id: ClothingUniformJumpsuitSalvageMercBrown
   name: коричневый комбинезон утилизатора
-  description: Utilitarian clothing for salvagers.
+  description: Практичная одежда для утилизаторов.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Uniforms/Jumpsuit/salvagebrown.rsi
@@ -1007,7 +1007,7 @@
   parent: [ClothingUniformBase, BaseTSFContraband]
   id: ClothingUniformJumpsuitTSF
   name: форма морпеха ТСФ
-  description: A comfortable and durable combat uniform worn by the forces of the Trans-Solar Marine Corps.
+  description: Удобная прочная боевая форма войск Корпуса морпехов Транс-Солнечной Федерации.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpsuit/tsf.rsi
@@ -1018,7 +1018,7 @@
   parent: [ClothingUniformBase, BaseTSFContraband]
   id: ClothingUniformJumpsuitTSFRep
   name: форма представителя ТСФ
-  description: A formal uniform worn by the diplomatic representatives of the Trans-Solar Federation.
+  description: Парадная форма дипломатических представителей Транс-Солнечной Федерации.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpsuit/tsfrep.rsi
@@ -1029,7 +1029,7 @@
   parent: [ClothingUniformBase, BaseTSFContraband]
   id: ClothingUniformJumpsuitTSFElite
   name: форма MARSOC
-  description: A comfortable and durable combat uniform worn by marines of the Trans-Solar Federation's Marine Special Operations Command.
+  description: Удобная прочная боевая форма морпехов Командования спецопераций Транс-Солнечной Федерации.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpsuit/tsfelite.rsi
@@ -1040,7 +1040,7 @@
   parent: [ ClothingUniformBase, BaseNanoTrasenContraband ]
   id: ClothingUniformJumpsuitNCT
   name: форма тренера НТ
-  description: A neatly pressed olive green shirt paired with black jeans, worn by those dedicated to shaping the future of the workforce.
+  description: Отглаженная оливковая рубашка с чёрными джинсами для тех, кто формирует будущее кадров.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpsuit/nct.rsi
@@ -1052,7 +1052,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitVampir
   name: окровавленный костюм аристократа
-  description: An aristocratic suit reeking of blood and lost dreams.
+  description: Аристократический костюм, смердящий кровью и потерянными мечтами.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpsuit/ari.rsi
@@ -1063,7 +1063,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformDama235123
   name: благородный костюм
-  description: A blue noble suit that exudes elegance and refinement.
+  description: Синий благородный костюм, излучающий элегантность и утончённость.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Uniforms/Jumpsuit/belpero.rsi
@@ -1075,7 +1075,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitTraditionalReptilian
   name: традиционная рептилоидная одежда
-  description: Traditional garments crafted from cloth, worn by the reptilians. This does not stop you from wearing it, if you want.
+  description: Традиционные тканевые одеяния рептилий. Это не мешает носить их вам, если хотите.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpsuit/traditional_reptilian.rsi
@@ -1089,7 +1089,7 @@
   parent: [ClothingUniformBase, BaseTSFContraband]
   id: ClothingUniformJumpsuitRetroOfficer
   name: форма офицера ТСФ
-  description: A standard uniform from the Trans Solar Federation's law enforcement division. This classic peacekeeping attire represents TSF authority across the galaxy.
+  description: Стандартная форма правоохранительного дивизиона Транс-Солнечной Федерации. Классический миротворческий наряд, символ власти ТСФ в галактике.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpsuit/RetroSec.rsi
@@ -1102,7 +1102,7 @@
   categories: [ DoNotMap ]
   id: ClothingUniformJumpsuitGreenshield
   name: форма гриншилда
-  description: A special suit made for the best of the elites under CentComm.
+  description: Особый костюм для лучших из элиты ЦК.
   components:
     - type: Sprite
       sprite: Clothing/Uniforms/Jumpsuit/ert_leader.rsi
@@ -1113,7 +1113,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitAssistant
   name: комбинезон ассистента
-  description: A tasteful green jumpsuit that reminds you of the good old days.
+  description: Приличный зелёный комбинезон, напоминающий о старых добрых временах.
   components:
   - type: RollUpSleeves
   - type: Sprite
@@ -1144,7 +1144,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitChefSenior
   name: комбинезон старшего шеф-повара
-  description: A sharp black jumpsuit for that Kitchen drip.
+  description: Строгий чёрный комбинезон для кухонного стиля.
   components:
   - type: RollUpSleeves
   - type: Sprite
@@ -1175,7 +1175,7 @@
   parent: [ ClothingUniformBase, BaseCentcommContraband ]
   id: ClothingUniformJumpsuitCentCommServiceWorker
   name: комбинезон сервисного работника ЦК
-  description: It's a jumpsuit worn by CentComm service workers. Those boots need licking.
+  description: Комбинезон работников сервиса ЦК. Эти ботинки нужно лизать.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpsuit/centcommserviceworker.rsi
@@ -1186,7 +1186,7 @@
   parent: [ ClothingUniformBase, BaseCentcommContraband ]
   id: ClothingUniformJumpsuitCentCommBartender
   name: комбинезон бармена ЦК
-  description: It's a jumpsuit worn by CentComm bartenders. Those drinks won't serve themselves.
+  description: Комбинезон барменов ЦК. Напитки сами себя не подадут.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpsuit/centcommbartender.rsi
@@ -1197,7 +1197,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitFirefighter
   name: куртка пожарного
-  description: A brown covering with a red flame emblazoned on the back. It's covered in an unwashable layer of soot.
+  description: Коричневая накидка с красным пламенем на спине. Покрыта несмываемым слоем сажи.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/firefighter.rsi
@@ -1220,7 +1220,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitSalvageMedic
   name: комбинезон медика-утилизатора
-  description: It's a snappy jumpsuit with a sturdy set of overalls. It's very bloody.
+  description: Щегольский комбинезон с прочным полукомбинезоном. Весь в крови.
   components:
   - type: RollUpSleeves
   - type: Sprite

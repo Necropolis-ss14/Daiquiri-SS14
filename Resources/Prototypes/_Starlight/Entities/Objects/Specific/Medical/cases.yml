@@ -170,9 +170,9 @@
 - type: entity
   id: BottleCaseRobotics
   parent: [ BaseBottleCase, BaseRoboticistContraband ]
-  name: chemical case
+  name: чемодан с химикатами
   suffix: Robotics
-  description: A plastic case with slots for bottles.
+  description: Пластиковый кейс с гнёздами под бутылки.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Specific/Robotics/cases.rsi
@@ -212,9 +212,9 @@
 - type: entity
   id: PenPackMedical
   parent: [ BasePenPack, BaseMedicalContraband ]
-  name: autoinjector pack
+  name: набор автоинжекторов
   suffix: Medical
-  description: A pouch filled with some autoinjectors.
+  description: Подсумок с автоинжекторами.
   components:
   - type: Storage
     maxItemSize: Tiny
@@ -232,9 +232,9 @@
 - type: entity
   id: PenPackSecurity
   parent: [ BasePenPack, BaseSecurityContraband ]
-  name: autoinjector pack
+  name: набор автоинжекторов
   suffix: Security
-  description: A pouch filled with some autoinjectors.
+  description: Подсумок с автоинжекторами.
   components:
   - type: Storage
     maxItemSize: Tiny
@@ -256,12 +256,12 @@
 - type: entity
   id: SurgicalKitMedical
   parent: [ BaseSurgicalKit, BaseMedicalContraband ]
-  name: surgical kit
+  name: хирургический набор
   suffix: Medical
-  description: A compact kit of surgical tools.
+  description: Компактный набор хирургических инструментов.
 
 - type: entity
-  name: surgical kit
+  name: хирургический набор
   suffix: Medical, Filled
   parent: [SurgicalKitMedical, SurgicalKitFill]
   id: SurgicalKitMedicalFilled
@@ -269,9 +269,9 @@
 - type: entity
   id: SurgicalKitRobotics
   parent: [ BaseSurgicalKit, BaseRoboticistContraband ]
-  name: surgical kit
+  name: хирургический набор
   suffix: Robotics
-  description: A compact kit of surgical tools.
+  description: Компактный набор хирургических инструментов.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Specific/Robotics/cases.rsi
@@ -283,7 +283,7 @@
     sprite: _Starlight/Objects/Specific/Robotics/cases.rsi
 
 - type: entity
-  name: surgical kit
+  name: хирургический набор
   suffix: Robotics, Filled
   parent: [SurgicalKitRobotics, SurgicalKitFill]
   id: SurgicalKitRoboticsFilled

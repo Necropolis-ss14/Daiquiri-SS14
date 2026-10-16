@@ -2,7 +2,7 @@
   name: челюсти жизни
   parent: JawsOfLife
   id: SyndicateJawsOfLifeStealth # For the saboteur borg: It's syndie jaws painted as normal jaws.
-  description: A set of jaws of life. The paint job seems to be a bit strange...
+  description: Набор «челюстей жизни». Покраска выглядит слегка странно...
   components:
   - type: Prying
     force: true
@@ -17,7 +17,7 @@
   name: медицинские челюсти жизни
   parent: [ BaseContrabandTier2, BaseItem, BaseMedicalContraband, BaseSecurityContraband ] # Blimpuf
   id: JawsOfLifeMed
-  description: A set of jaws of life, for pulling the injured out of whatever mess they put themselves in.
+  description: Набор «челюстей жизни» для вытаскивания пострадавших из любой передряги, в которую они влезли.
   components:
   - type: Tag
     tags:

@@ -1,7 +1,7 @@
 - type: entity
   parent: [BaseWeaponTurret, ConstructibleMachine]
   id: WeaponTurretPointDefense
-  description: A Kuiper pattern anti-meteor battery. Capable of destroying most threats in a single salvo.
+  description: Противометеорная батарея паттерна «Койпер». Уничтожает большинство угроз одним залпом.
   name: батарея точечной обороны
   components:
   - type: Sprite
@@ -96,7 +96,7 @@
 - type: entity
   parent: WeaponTurretPointDefense
   id: WeaponTurretMilitaryPointDefense
-  description: A Military-Kuiper pattern defense battery. Capable of destroying most threats in a single salvo.
+  description: Военная батарея обороны паттерна «Милитари-Койпер». Уничтожает большинство угроз одним залпом.
   name: военная батарея точечной обороны
   components:
   - type: Sprite

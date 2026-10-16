@@ -2,7 +2,7 @@
   parent: BaseWallmountMetallic
   id: HandDryer
   name: сушилка для рук
-  description: A hand dryer, for when youre too good for paper towels.
+  description: Сушилка для рук — для тех, кто слишком хорош для бумажных полотенец.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Decorations/toilet_decor.rsi
@@ -12,7 +12,7 @@
   parent: BaseWallmount
   id: ToiletPaper
   name: туалетная бумага
-  description: One-ply, for maximum inefficiency. Company has to save pennies where they can, you guess.
+  description: Однослойная — для максимальной неэффективности. Компания экономит гроши где может, как ты понимаешь.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Decorations/toilet_decor.rsi
@@ -31,7 +31,7 @@
   parent: BaseWallmountMetallic
   id: HandSanitiser
   name: раздатчик антисептика для рук
-  description: Don't get any in your eyes.
+  description: Береги глаза.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Decorations/toilet_decor.rsi

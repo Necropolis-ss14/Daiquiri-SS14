@@ -1,8 +1,8 @@
 - type: entity
   id: DarkTile
   parent: BaseShadow
-  name: Dark
-  description: It's a strange, impenetrable darkness.
+  name: Тьма
+  description: Странная, непроницаемая тьма.
   placement:
     mode: SnapgridCenter
   components:

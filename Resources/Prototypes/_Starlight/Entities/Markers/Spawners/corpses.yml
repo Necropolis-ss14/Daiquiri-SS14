@@ -11,7 +11,7 @@
       - MobRandomSyndicateCorpse
 
 - type: entity
-  name: Random Nukie Corpse Spawner
+  name: Спавнер случайного трупа нюкера
   id: RandomNukieCorpseSpawner
   parent: SalvageHumanCorpseSpawner
   components:
@@ -23,7 +23,7 @@
       - MobRandomNukieCorpse
 
 - type: entity
-  name: Random Soviet Corpse Spawner
+  name: Спавнер случайного трупа советского солдата
   id: RandomSovietCorpseSpawner
   parent: SalvageHumanCorpseSpawner
   components:
@@ -35,7 +35,7 @@
       - MobRandomSovietCorpse
 
 - type: entity
-  name: Random Mercenary Corpse Spawner
+  name: Спавнер случайного трупа наёмника
   id: RandomMercenaryCorpseSpawner
   parent: SalvageHumanCorpseSpawner
   components:
@@ -47,7 +47,7 @@
       - MobRandomMercenaryCorpse
 
 - type: entity
-  name: Random Pirate Corpse Spawner
+  name: Спавнер случайного трупа пирата
   id: RandomPirateCorpseSpawner
   parent: SalvageHumanCorpseSpawner
   components:

@@ -2,7 +2,7 @@
   parent: GasFilter
   id: GasFilterInline
   name: встроенный газовый фильтр
-  description: Filters gases from a pipenet without splitting it in two.
+  description: Фильтрует газы из трубопроводной сети, не разделяя её на две части.
   components:
     - type: Sprite
       sprite: _Starlight/Structures/Piping/Atmospherics/inlinegasfilter.rsi

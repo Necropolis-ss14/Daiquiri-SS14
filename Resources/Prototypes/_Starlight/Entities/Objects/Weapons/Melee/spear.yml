@@ -1,8 +1,8 @@
 - type: entity
-  name: steel spear
+  name: стальное копьё
   parent: Spear
   id: SpearSteel
-  description: A solid steel spear.
+  description: Прочное стальное копьё.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Melee/steel_spear.rsi
@@ -19,10 +19,10 @@
         Piercing: 25
 
 - type: entity
-  name: athena
+  name: афина
   parent: Spear
   id: SpearAthena
-  description: Impressed by a crewmember managing to kill their bodyguard with a spear, a CentComm official commissioned the “Athena” tactical spear for their security forces.
+  description: Впечатлившись членом экипажа, убившим телохранителя копьём, чиновник CentComm заказал тактическое копьё «Афина» для своих охранных сил.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Melee/athena.rsi

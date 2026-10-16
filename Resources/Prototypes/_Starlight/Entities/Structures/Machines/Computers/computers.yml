@@ -2,7 +2,7 @@
   parent: BaseComputerAiAccess
   id: RecruitmentComputer
   name: компьютер найма
-  description: A computer for managing crew hiring.
+  description: Компьютер управления наймом экипажа.
   components:
   - type: RecruitmentComputer
   - type: ActivatableUI
@@ -51,7 +51,7 @@
   parent: BaseComputer
   id: AbductorConsole
   name: консоль похитителей
-  description: retrieve people marked by scientist tools. Also used for buying replacement gear and linking the agent's vest.
+  description: возвращает людей, помеченных инструментами учёных. Также покупает запасное снаряжение и привязывает жилет агента.
   components:
   - type: AbductorConsole
   - type: Sprite
@@ -82,7 +82,7 @@
   parent: ComputerComms
   id: CentCommSectoralConsole
   name: секторальная консоль ЦентКом
-  description: Use this to annoy captains of all stations at once.
+  description: Используй, чтобы достать капитанов всех станций сразу.
   components:
     - type: AccessReader
       access: [[ "CentralCommand" ]]
@@ -113,7 +113,7 @@
   parent: BaseComputer
   id: AbductorHumanObservationConsole
   name: консоль наблюдения за людьми
-  description: A computer that is used for spying and teleporting on the station.
+  description: Компьютер для слежки и телепортации по станции.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Machines/abductor_camera_console.rsi
@@ -155,7 +155,7 @@
   - BaseMob
   id: AbductorHumanObservationConsoleEye
   name: "???"
-  description: "ERROR"
+  description: "ОШИБКА"
   categories: [ HideSpawnMenu ]
   suffix: DO NOT MAP
   components:
@@ -197,7 +197,7 @@
   - BaseMob
   id: EnemyConsoleEye
   name: "???"
-  description: "ERROR"
+  description: "ОШИБКА"
   categories: [ HideSpawnMenu ]
   suffix: DO NOT MAP
   components:
@@ -224,8 +224,8 @@
 - type: entity
   parent: BaseComputerAiAccess
   id: RemoteControlConsole
-  name: remote control console
-  description: Enables operators to view and control a linked robotic body over virtually any distance, with minimal loss of control precision.
+  name: консоль дистанционного управления
+  description: Позволяет операторам видеть и управлять подключённым телом робота практически на любом расстоянии с минимальной потерей точности.
   components:
   - type: Sprite
     layers:
@@ -255,8 +255,8 @@
 - type: entity
   parent: BaseComputerShuttle
   id: CompuerShuttleSalvage
-  name: remote salvage shuttle console
-  description: Used to pilot the salvage shuttle remotely.
+  name: консоль дистанционного управления шаттлом утилизаторов
+  description: Дистанционное пилотирование шаттла утилизаторов.
   components:
   - type: Sprite
     layers:
@@ -289,8 +289,8 @@
   parent: BaseComputerShuttle
   id: CompuerShuttleSalvageITG
   categories: [ ShouldMapStation ]
-  name: remote salvage shuttle console
-  description: Used to pilot the salvage shuttle remotely.
+  name: консоль дистанционного управления шаттлом утилизаторов
+  description: Дистанционное пилотирование шаттла утилизаторов.
   components:
   - type: Sprite
     layers:
@@ -325,7 +325,7 @@
   parent: BaseComputerAiAccess
   id: MassDriverComputer
   name: компьютер масс-драйвера
-  description: A computer for control mass driver.
+  description: Компьютер управления масс-драйвером.
   components:
   - type: MassDriverConsole
   - type: ActivatableUI
@@ -375,7 +375,7 @@
   parent: BaseComputerAiAccess
   id: UniversalIdConsole
   name: компьютер универсальных ID-карт
-  description: A terminal for programming NanoTrasen and non-NanoTrasen ID cards with extended access levels.
+  description: Терминал программирования ID-карт NanoTrasen и сторонних с расширенными доступами.
   components:
   - type: IdCardConsole
     allIconsUnlocked: true # Starlight-edit
@@ -469,8 +469,8 @@
   parent: BaseComputerShuttle
   id: ComputerShuttleMining
   categories: [ ShouldMapStation ]
-  name: remote mining shuttle console
-  description: Used to pilot the mining shuttle remotely.
+  name: консоль дистанционного управления шахтёрским шаттлом
+  description: Дистанционное пилотирование шахтёрского шаттла.
   components:
     - type: Sprite
       layers:
@@ -508,8 +508,8 @@
 - type: entity
   parent: BaseComputerShuttle
   id: ComputerShuttleSecurity
-  name: remote security shuttle console
-  description: Used to pilot the security shuttle remotely.
+  name: консоль дистанционного управления шаттлом службы безопасности
+  description: Дистанционное пилотирование шаттла службы безопасности.
   components:
     - type: Sprite
       layers:
@@ -582,7 +582,7 @@
   id: ComputerCommsEngineering
   categories: [ ShouldMapStation ]
   name: инженерная консоль связи
-  description: A computer used to make station wide announcements via keyboard, set the appropriate alert level, and call the emergency shuttle.
+  description: Компьютер для общестанционных объявлений с клавиатуры, установки уровня тревоги и вызова аварийного шаттла.
   components:
     - type: Sprite
       layers:
@@ -624,7 +624,7 @@
   id: ComputerCommsMedical
   categories: [ ShouldMapStation ]
   name: медицинская консоль связи
-  description: A computer used to make station wide announcements via keyboard, set the appropriate alert level, and call the emergency shuttle.
+  description: Компьютер для общестанционных объявлений с клавиатуры, установки уровня тревоги и вызова аварийного шаттла.
   components:
     - type: Sprite
       layers:
@@ -663,7 +663,7 @@
   id: ComputerCommsScience
   categories: [ ShouldMapStation ]
   name: научная консоль связи
-  description: A computer used to make station wide announcements via keyboard, set the appropriate alert level, and call the emergency shuttle.
+  description: Компьютер для общестанционных объявлений с клавиатуры, установки уровня тревоги и вызова аварийного шаттла.
   components:
     - type: Sprite
       layers:
@@ -702,7 +702,7 @@
   id: ComputerCommsSecurity
   categories: [ ShouldMapStation ]
   name: консоль связи СБ
-  description: A computer used to make station wide announcements via keyboard, set the appropriate alert level, and call the emergency shuttle.
+  description: Компьютер для общестанционных объявлений с клавиатуры, установки уровня тревоги и вызова аварийного шаттла.
   components:
     - type: Sprite
       layers:
@@ -744,7 +744,7 @@
   id: ComputerCommsService
   categories: [ ShouldMapStation ]
   name: сервисная консоль связи
-  description: A computer used to make station wide announcements via keyboard, set the appropriate alert level, and call the emergency shuttle.
+  description: Компьютер для общестанционных объявлений с клавиатуры, установки уровня тревоги и вызова аварийного шаттла.
   components:
     - type: Sprite
       layers:
@@ -783,7 +783,7 @@
   id: ComputerCommsCargo
   categories: [ ShouldMapStation ]
   name: грузовая консоль связи
-  description: A computer used to make station wide announcements via keyboard, set the appropriate alert level, and call the emergency shuttle.
+  description: Компьютер для общестанционных объявлений с клавиатуры, установки уровня тревоги и вызова аварийного шаттла.
   components:
     - type: Sprite
       layers:
@@ -949,7 +949,7 @@
   id: ComputerShipyard
   parent: BaseComputer
   name: консоль верфи
-  description: Used to purchase shuttles.
+  description: Покупка шаттлов.
   components:
   - type: Sprite
     layers:
@@ -987,7 +987,7 @@
   id: ComputerSalvageExpeditionITG
   parent: BaseComputerAiAccess
   name: компьютер экспедиций утилизаторов
-  description: Used to accept salvage missions, if you're tough enough.
+  description: Принимает заказы утилизаторов — если кишка не тонка.
   components:
     - type: Sprite
       layers:
@@ -1050,7 +1050,7 @@
   parent: BaseComputerAiAccess
   id: ComputerSalvageJobBoardITG
   name: доска заданий утилизаторов
-  description: Console for accessing salvage jobs, if you're tough enough.
+  description: Консоль доступа к заказам утилизаторов — если кишка не тонка.
   components:
   - type: Sprite
     layers:

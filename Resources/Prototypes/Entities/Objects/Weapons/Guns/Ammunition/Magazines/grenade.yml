@@ -2,7 +2,7 @@
   abstract: true
   parent: BaseItem # TODO Starlight partial once space-wizards/RobustToolbox/pull/7084 gets fixed
   id: BaseMagazineGrenade
-  name: grenade cartridge
+  name: гранатный картридж
   components:
   - type: Tag
     tags:
@@ -42,14 +42,14 @@
 - type: entity
   parent: BaseMagazineGrenade
   id: MagazineGrenadeEmpty
-  name: grenade cartridge
+  name: гранатный картридж
   components:
   - type: BallisticAmmoProvider
 
 - type: entity
   parent: [ BaseMagazineGrenade, BaseSyndicateContraband ] # TODO Starlight partial once space-wizards/RobustToolbox/pull/7084 gets fixed
   id: MagazineGrenadeFrag
-  name: frag grenade cartridge
+  name: осколочный гранатный картридж
   components:
   - type: BallisticAmmoProvider
     proto: GrenadeFrag
@@ -57,7 +57,7 @@
 - type: entity
   parent: [ BaseContrabandTier2, BaseMagazineGrenade, BaseSecurityContraband ] # TODO Starlight partial once space-wizards/RobustToolbox/pull/7084 gets fixed
   id: MagazineGrenadeEMP
-  name: EMP grenade cartridge
+  name: ЭМИ-гранатный картридж
   components:
   - type: BallisticAmmoProvider
     proto: GrenadeEMP
@@ -65,7 +65,7 @@
 - type: entity
   parent: [ BaseContrabandTier2, BaseMagazineGrenade, BaseSecurityContraband ] # TODO Starlight partial once space-wizards/RobustToolbox/pull/7084 gets fixed
   id: MagazineGrenadeFlash
-  name: flash grenade cartridge
+  name: световой гранатный картридж
   components:
   - type: BallisticAmmoProvider
     proto: GrenadeFlash
@@ -73,7 +73,7 @@
 - type: entity
   parent: [ BaseContrabandTier3, BaseMagazineGrenade, BaseSecurityContraband ] # TODO Starlight partial once space-wizards/RobustToolbox/pull/7084 gets fixed
   id: MagazineGrenadeBlast
-  name: blast grenade cartridge
+  name: фугасный гранатный картридж
   components:
   - type: BallisticAmmoProvider
     proto: GrenadeBlast
@@ -81,7 +81,7 @@
 - type: entity
   parent: [ BaseContrabandTier2, BaseMagazineGrenade, BaseSecurityContraband ] # TODO Starlight partial once space-wizards/RobustToolbox/pull/7084 gets fixed
   id: MagazineGrenadeBaton
-  name: baton grenade cartridge
+  name: гранатный картридж с дубинкой
   components:
   - type: BallisticAmmoProvider
     proto: GrenadeBaton

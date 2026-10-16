@@ -3,7 +3,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformTurtleneckSkirtColorWhite
   name: белая водолазка с юбкой
-  description: A generic white turtleneck with no rank markings.
+  description: Обычная белая водолазка без знаков различия.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpskirt/color_turtle.rsi
@@ -30,7 +30,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformTurtleneckSkirtColorGrey
   name: серая водолазка с юбкой
-  description: A tasteful grey turtleneck that reminds you of the good old days.
+  description: Приличная серая водолазка, напоминающая о старых добрых временах.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpskirt/color_turtle.rsi
@@ -61,7 +61,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformTurtleneckSkirtColorBlack
   name: чёрная водолазка с юбкой
-  description: A generic black turtleneck with no rank markings.
+  description: Обычная чёрная водолазка без знаков различия.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpskirt/color_turtle.rsi
@@ -92,7 +92,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformTurtleneckSkirtColorBlue
   name: синяя водолазка с юбкой
-  description: A generic blue turtleneck with no rank markings.
+  description: Обычная синяя водолазка без знаков различия.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpskirt/color_turtle.rsi
@@ -123,7 +123,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformTurtleneckSkirtColorDarkBlue
   name: тёмно-синяя водолазка с юбкой
-  description: A generic dark blue turtleneck with no rank markings.
+  description: Обычная тёмно-синяя водолазка без знаков различия.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpskirt/color_turtle.rsi
@@ -154,7 +154,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformTurtleneckSkirtColorTeal
   name: бирюзовая водолазка с юбкой
-  description: A generic teal turtleneck with no rank markings.
+  description: Обычная бирюзовая водолазка без знаков различия.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpskirt/color_turtle.rsi
@@ -185,7 +185,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformTurtleneckSkirtColorGreen
   name: зелёная водолазка с юбкой
-  description: A generic green turtleneck with no rank markings.
+  description: Обычная зелёная водолазка без знаков различия.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpskirt/color_turtle.rsi
@@ -216,7 +216,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformTurtleneckSkirtColorDarkGreen
   name: тёмно-зелёная водолазка с юбкой
-  description: A generic dark green turtleneck with no rank markings.
+  description: Обычная тёмно-зелёная водолазка без знаков различия.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpskirt/color_turtle.rsi
@@ -247,7 +247,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformTurtleneckSkirtColorOrange
   name: оранжевая водолазка с юбкой
-  description: A generic orange turtleneck with no rank markings.
+  description: Обычная оранжевая водолазка без знаков различия.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpskirt/color_turtle.rsi
@@ -278,7 +278,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformTurtleneckSkirtColorPink
   name: розовая водолазка с юбкой
-  description: A generic pink turtleneck with no rank markings.
+  description: Обычная розовая водолазка без знаков различия.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpskirt/color_turtle.rsi
@@ -309,7 +309,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformTurtleneckSkirtColorRed
   name: красная водолазка с юбкой
-  description: A generic red turtleneck with no rank markings.
+  description: Обычная красная водолазка без знаков различия.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpskirt/color_turtle.rsi
@@ -340,7 +340,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformTurtleneckSkirtColorYellow
   name: жёлтая водолазка с юбкой
-  description: A generic yellow turtleneck with no rank markings.
+  description: Обычная жёлтая водолазка без знаков различия.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpskirt/color_turtle.rsi
@@ -371,7 +371,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformTurtleneckSkirtColorPurple
   name: фиолетовая водолазка с юбкой
-  description: A generic light purple turtleneck with no rank markings.
+  description: Обычная светло-фиолетовая водолазка без знаков различия.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpskirt/color_turtle.rsi
@@ -402,7 +402,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformTurtleneckSkirtColorLightBrown
   name: светло-коричневая водолазка с юбкой
-  description: A generic light brown turtleneck with no rank markings.
+  description: Обычная светло-коричневая водолазка без знаков различия.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpskirt/color_turtle.rsi
@@ -433,7 +433,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformTurtleneckSkirtColorBrown
   name: коричневая водолазка с юбкой
-  description: A generic brown turtleneck with no rank markings.
+  description: Обычная коричневая водолазка без знаков различия.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpskirt/color_turtle.rsi
@@ -464,7 +464,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformTurtleneckSkirtColorMaroon
   name: бордовая водолазка с юбкой
-  description: A generic maroon turtleneck with no rank markings.
+  description: Обычная бордовая водолазка без знаков различия.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Uniforms/Jumpskirt/color_turtle.rsi

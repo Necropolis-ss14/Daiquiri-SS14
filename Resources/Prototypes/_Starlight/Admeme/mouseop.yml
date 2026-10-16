@@ -70,7 +70,7 @@
   parent: [SimpleMobBase, StripableInventoryBase, BaseSlicingRefinable]
   id: MobNyrMouseOps
   suffix: DO NOT MAP, Admeme
-  description: THAT'S THE FUCKING MOUSE IT CAME FOR A FUCKING CHEESE
+  description: ЭТО ЧЁРТОВА МЫШЬ, ОНА ПРИШЛА ЗА ЧЁРТОВЫМ СЫРОМ
   components:
   - type: LanguageKnowledge
     speaks:

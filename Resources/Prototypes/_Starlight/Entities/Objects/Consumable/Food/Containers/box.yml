@@ -92,7 +92,7 @@
   parent: BoxCardboard
   id: FoodBoxCrispyRiceBar
   name: коробка хрустящих рисовых батончиков
-  description: 'A legally distinct bar of crispy rice held together with marshmallow.'
+  description: Юридически оригинальный батончик из воздушного риса на маршмеллоу.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Consumable/Food/crispy_rice_bars.rsi

@@ -1,8 +1,8 @@
 - type: entity
-  name: makeshift revolver
+  name: самодельный револьвер
   parent: [BaseWeaponRevolver, BaseMinorContraband]
   id: WeaponRevolverMakeshift
-  description: Little more than a hand-cannon with a high chance of blowing up in your face.
+  description: Чуть больше чем ручная пушка с высоким шансом взорваться в руках.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Guns/Revolvers/makeshift_revolver.rsi
@@ -43,7 +43,7 @@
   name: самодельный револьвер
   parent: WeaponRevolverMakeshift
   id: WeaponRevolverImprovised
-  description: A revolver that has two barrels and no cylinder. Can you really call this a revolver?
+  description: Револьвер с двумя стволами и без барабана. Это вообще можно назвать револьвером?
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Guns/Revolvers/improvised_revolver.rsi
@@ -76,7 +76,7 @@
   name: кустарный револьвер
   parent: WeaponRevolverImprovised
   id: WeaponRevolverForged
-  description: The best Tider engineering can offer, a revolver with the ability to hold 4 bullets!
+  description: Лучшее, что может предложить инженерия тайдеров, револьвер аж на 4 патрона!
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Guns/Revolvers/forged_revolver.rsi
@@ -90,10 +90,10 @@
     dismantleChance: 0
 
 - type: entity
-  name: dispatcher
+  name: диспетчер
   parent: [ BaseContrabandTier3, BaseWeaponRevolver, BaseSecurityContraband ] # Blimpuf
   id: WeaponRevolverDispatcher
-  description: The NT Model 7 Service Revolver, known unofficially as the 'Dispatcher.' chambered in .45 Magnum with robust stopping power for putting an end to any non-compliance. A true timeless classic carried amongst NanoTrasen's elite security staff.
+  description: Служебный револьвер NT Model 7, неофициально «Диспетчер». Под .45 Magnum с отличным останавливающим действием против любого неподчинения. Настоящая вневременная классика элиты охраны NanoTrasen.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Guns/Revolvers/Dispatcher.rsi
@@ -126,7 +126,7 @@
   name: ТОЗ-82 «Юпитер»
   parent: [ BaseContrabandTier3, BaseWeaponRevolver, BaseSecurityContraband, BaseSalvageContraband ] # Blimpuf
   id: WeaponRevolverZOZ
-  description: An oversized bullpup revolver whose design was smuggled out of the USSP. You might need both hands for this one. It's got a flip-out bayonet, but the damned thing is stuck shut. Loads 6 rounds of .45 magnum.
+  description: Огромный буллпап-револьвер, чей чертёж выкрали из СССП. Могут понадобиться обе руки. Есть откидной штык, но он намертво заклинил. На 6 патронов .45 магнум.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Guns/Revolvers/ZOZ82.rsi

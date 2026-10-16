@@ -1,8 +1,8 @@
 ﻿- type: entity
   id: NuclearFabricatorMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: nuclear fabricator machine board
-  description: A machine printed circuit board for a nuclear fabricator.
+  name: плата ядерного фабрикатора
+  description: Печатная плата механизма для ядерного фабрикатора.
   components:
   - type: Sprite
     state: engineering
@@ -15,8 +15,8 @@
 - type: entity
   id: NuclearCentrifugeMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: nuclear centrifuge machine board
-  description: A machine printed circuit board for a nuclear centrifuge.
+  name: плата ядерной центрифуги
+  description: Печатная плата механизма для ядерной центрифуги.
   components:
   - type: Sprite
     state: engineering

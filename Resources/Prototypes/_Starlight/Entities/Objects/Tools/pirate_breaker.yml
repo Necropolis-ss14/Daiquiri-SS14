@@ -3,7 +3,7 @@
   id: PirateBreakerUnlimited
   suffix: PirateBreaker
   name: пиратский взломщик замков
-  description: A hacked access configurator, held together with pirate curses and gum
+  description: Взломанный конфигуратор доступа, держащийся на пиратских проклятиях и жвачке.
   components:
   - type: Emag
     emagType: Access

@@ -93,7 +93,7 @@
   suffix: Corner. White
   id: BenchComfyCorner
   parent: SeatBase
-  description: A bench with an extremely comfortable backrest.
+  description: Скамейка с чрезвычайно удобной спинкой.
   components:
   - type: Transform
     anchored: true
@@ -117,7 +117,7 @@
   suffix: End Left. White
   id: BenchComfyEndLeft
   parent: SeatBase
-  description: A bench with an extremely comfortable backrest.
+  description: Скамейка с чрезвычайно удобной спинкой.
   components:
   - type: Transform
     anchored: true
@@ -141,7 +141,7 @@
   suffix: End Right. White
   id: BenchComfyEndRight
   parent: SeatBase
-  description: A bench with an extremely comfortable backrest.
+  description: Скамейка с чрезвычайно удобной спинкой.
   components:
   - type: Transform
     anchored: true
@@ -165,7 +165,7 @@
   suffix: Middle. White
   id: BenchComfyMiddle
   parent: SeatBase
-  description: A bench with an extremely comfortable backrest.
+  description: Скамейка с чрезвычайно удобной спинкой.
   components:
   - type: Transform
     anchored: true

@@ -1,9 +1,9 @@
 # NT stamps
 - type: entity
-  name: magistrate stamp
+  name: печать магистрата
   parent: [ BaseContrabandTier2, RubberStampBase, BaseNanoTrasenContraband ] # Blimpuf
   id: RubberStampMagistrate
-  description: A rubber stamp for stamping important documents. Your word is law. This stamp is order.
+  description: Резиновая печать для штамповки важных документов. Твоё слово — закон. Эта печать — порядок.
   suffix: DO NOT MAP
   components:
   - type: Stamp
@@ -18,7 +18,7 @@
   name: печать представителя НТ
   parent: [ BaseContrabandTier2, RubberStampBase, BaseNanoTrasenContraband ] # Blimpuf
   id: RubberStampNtrep
-  description: A rubber stamp for stamping important documents. Heads will roll.
+  description: Резиновая печать для штамповки важных документов. Головы полетят.
   suffix: DO NOT MAP
   components:
   - type: Stamp
@@ -30,10 +30,10 @@
     state: stamp-ntrep
 
 - type: entity
-  name: internal affairs agent's rubber stamp
+  name: резиновая печать агента внутренних дел
   parent: [ BaseContrabandTier2, RubberStampBase, BaseLawContraband ] # Blimpuf
   id: RubberStampIAA
-  description: A rubber stamp for stamping important documents. For when you want your fax to CC to have that bit more authority.
+  description: Резиновая печать для штамповки важных документов. Когда хочется придать факсу в ЦК чуть больше веса.
   suffix: DO NOT MAP
   components:
     - type: Stamp
@@ -48,7 +48,7 @@
   name: печать синего щита
   parent: [ BaseContrabandTier2, RubberStampBase, BaseBlueShieldContraband ] # Blimpuf
   id: RubberStampBSO
-  description: A rubber stamp for stamping important documents. While you are stamping a document, the captain is getting his shoes stolen AGAIN.
+  description: Резиновая печать для штамповки важных документов. Пока штампуешь документ, у капитана СНОВА крадут ботинки.
   suffix: DO NOT MAP
   components:
   - type: Stamp
@@ -64,7 +64,7 @@
   name: печать бригмедика
   parent: RubberStampBase
   id: RubberStampBrigmedic
-  description: A rubber stamp for stamping important documents. No authority, yet you will still stamp every single document you can.
+  description: Резиновая печать для штамповки важных документов. Власти никакой, но ты всё равно проштампуешь каждый документ.
   suffix: DO NOT MAP
   components:
     - type: Stamp
@@ -83,7 +83,7 @@
   name: печать ассистента менеджера
   parent: RubberStampBase
   id: RubberStampAssistantManager
-  description: A rubber stamp for stamping important documents. The only vestige of authority for middle managers.
+  description: Резиновая печать для штамповки важных документов. Последний остаток власти менеджеров среднего звена.
   suffix: DO NOT MAP
   components:
     - type: Stamp
@@ -99,7 +99,7 @@
   name: печать ассистента
   parent: RubberStampBase
   id: RubberStampAssistant
-  description: A rubber stamp for stamping important documents. The greenest of the green. The assistant's assistant. The assistant to the assistant. When you see this stamp, things are about to get real. You are about to get stamped.
+  description: Резиновая печать для штамповки важных документов. Зеленее зелёного. Ассистент ассистента. Заместитель заместителя. Видишь эту печать — дело серьёзно. Тебя сейчас проштампуют.
   suffix: DO NOT MAP
   components:
     - type: Stamp
@@ -430,7 +430,7 @@
   name: печать старшего утилизатора
   parent: RubberStampBase
   id: RubberStampSalvageLead
-  description: A rubber stamp for stamping important documents. You should probably use this more often than you do.
+  description: Резиновая печать для штамповки важных документов. Ей бы пользоваться почаще.
   suffix: DO NOT MAP
   components:
   - type: Stamp
@@ -449,7 +449,7 @@
   name: печать Транс-Солнечной Федерации
   parent: [ BaseContrabandTier3, RubberStampBase, BaseTSFContraband ] # Blimpuf
   id: RubberStampTSF
-  description: A rubber stamp for stamping important documents. Oh god...
+  description: Резиновая печать для штамповки важных документов. О боже...
   categories: [ DoNotMap ]
   components:
   - type: Stamp
@@ -463,7 +463,7 @@
   name: печать Корпуса морской пехоты ТСФ
   parent: [ BaseContrabandTier3, RubberStampBase, BaseTSFContraband ] # Blimpuf
   id: RubberStampTSMC
-  description: A rubber stamp for stamping important documents. OH GOD OH FUCK...!
+  description: Резиновая печать для штамповки важных документов. О БОЖЕ О ЧЁРТ...!
   categories: [ DoNotMap ]
   components:
   - type: Stamp
@@ -477,7 +477,7 @@
   name: печать правоохранителей СолГов
   parent: [ BaseContrabandTier3, RubberStampBase, BaseTSFContraband ] # Blimpuf
   id: RubberStampSolgovLaw
-  description: A rubber stamp for stamping important documents. Oh fuck...
+  description: Резиновая печать для штамповки важных документов. О чёрт...
   categories: [ DoNotMap ]
   components:
   - type: Stamp
@@ -491,7 +491,7 @@
   name: печать представителя СолГов
   parent: [ BaseContrabandTier3, RubberStampBase, BaseTSFContraband ] # Blimpuf
   id: RubberStampSolgovRep
-  description: A rubber stamp for stamping important documents. Reminds people that CC and NT answer to somebody.
+  description: Резиновая печать для штамповки важных документов. Напоминает, что ЦК и НТ тоже кому-то подчиняются.
   categories: [ DoNotMap ]
   components:
   - type: Stamp
@@ -505,7 +505,7 @@
   name: печать торговцев СолГов
   parent: [ BaseContrabandTier3, RubberStampBase, BaseTSFContraband ] # Blimpuf
   id: RubberStampSolgovTraders
-  description: A rubber stamp for stamping important documents. Where is money to be made, that is.
+  description: Резиновая печать для штамповки важных документов. Где деньги делают, там и она.
   categories: [ DoNotMap ]
   components:
   - type: Stamp
@@ -520,7 +520,7 @@
   name: печать репортёра
   parent: RubberStampBase
   id: RubberStampReporter
-  description: A rubber stamp for stamping important documents. Write all the articles!
+  description: Резиновая печать для штамповки важных документов. Пиши все статьи!
   components:
     - type: Stamp
       stampedName: Reporter
@@ -536,7 +536,7 @@
   name: печать ITG
   parent: RubberStampBase
   id: RubberStampITG
-  description: A rubber stamp for stamping important documents.
+  description: Резиновая печать для штамповки важных документов.
   suffix: DO NOT MAP
   components:
   - type: Stamp

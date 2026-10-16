@@ -2,7 +2,7 @@
   parent: WeaponEnergyTurretStationControlPanelBase
   id: WeaponEnergyTurretStatusPanel
   name: панель статуса охранной турели
-  description: A read-only wall-mounted interface for monitoring linked sentry turrets and control panel settings.
+  description: "Настенный интерфейс только для чтения: мониторинг подключённых турелей и настроек панели."
   suffix: Status
   categories: [ ShouldMapStation ]
   components:

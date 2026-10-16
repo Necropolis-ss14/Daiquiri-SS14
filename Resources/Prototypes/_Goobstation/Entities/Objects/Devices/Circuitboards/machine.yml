@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseMachineCircuitboard
   id: VinylPlayerCircuitboard
-  name: vinyl player machine board
-  description: A machine printed circuit board for a vinyl player.
+  name: плата проигрывателя винила
+  description: Печатная плата механизма для проигрывателя винила.
   components:
   - type: Sprite
     state: service
@@ -16,8 +16,8 @@
 - type: entity
   parent: BaseMachineCircuitboard
   id: TapeDeckCircuitboard
-  name: tape deck machine board
-  description: A machine printed circuit board for a tape deck.
+  name: плата кассетной деки
+  description: Печатная плата механизма для кассетной деки.
   components:
   - type: Sprite
     state: service
@@ -31,8 +31,8 @@
 - type: entity
   parent: BaseMachineCircuitboard
   id: StationRadioServerCircuitboard
-  name: station radio server machine board
-  description: A machine printed circuit board for a station radio server.
+  name: плата сервера станционного радио
+  description: Печатная плата механизма для сервера станционного радио.
   components:
   - type: Sprite
     state: service
@@ -48,8 +48,8 @@
 - type: entity
   parent: BaseMachineCircuitboard
   id: StationRadioRigCircuitboard
-  name: station radio rig machine board
-  description: A machine printed circuit board for a station radio rig.
+  name: плата радиоустановки станции
+  description: Печатная плата механизма для радиоустановки станции.
   components:
   - type: Sprite
     state: service
@@ -65,8 +65,8 @@
 - type: entity
   parent: BaseMachineCircuitboard
   id: StationRadioCircuitboard
-  name: station radio machine board
-  description: A machine printed circuit board for a station radio receiver.
+  name: плата станционного радио
+  description: Печатная плата механизма для приёмника станционного радио.
   components:
   - type: Sprite
     state: service

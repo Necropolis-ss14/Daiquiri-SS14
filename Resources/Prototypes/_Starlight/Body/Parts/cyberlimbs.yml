@@ -775,7 +775,7 @@
   id: LeftArmCyberBulwark
   name: левая рука бастиона
   parent: [ BaseContrabandTier3, PartCyber, BaseLeftArm, BaseSecurityContraband ] # Blimpuf
-  description: A surgically-installed cybernetic arm geared for security use, including a built-in energy shield and energy chainsword, perfect for when non-lethals aren't enough.
+  description: Хирургически установленная кибернетическая рука для нужд охраны, со встроенным энергощитом и энергетическим цепным мечом — отлично, когда нелетального уже мало.
   components:
     - type: BaseLayerId
       layers:
@@ -805,7 +805,7 @@
   id: LeftHandCyberBulwark
   name: левая кисть бастиона
   parent: [ BaseContrabandTier3, PartCyber, BaseLeftHand, BaseSecurityContraband ] # Blimpuf
-  description: A surgically-installed cybernetic hand geared for security use, including a built-in energy shield and energy chainsword, perfect for when non-lethals aren't enough.
+  description: Хирургически установленная кибернетическая кисть для нужд охраны, со встроенным энергощитом и энергетическим цепным мечом — отлично, когда нелетального уже мало.
   components:
     - type: BaseLayerId
       layers:
@@ -841,7 +841,7 @@
   id: RightArmCyberBulwark
   name: правая рука бастиона
   parent: [ BaseContrabandTier3, PartCyber, BaseRightArm, BaseSecurityContraband ] # Blimpuf
-  description: A surgically-installed cybernetic arm geared for security use, including a built-in energy shield and energy chainsword, perfect for when non-lethals aren't enough.
+  description: Хирургически установленная кибернетическая рука для нужд охраны, со встроенным энергощитом и энергетическим цепным мечом — отлично, когда нелетального уже мало.
   components:
     - type: BaseLayerId
       layers:
@@ -871,7 +871,7 @@
   id: RightHandCyberBulwark
   name: правая кисть бастиона
   parent: [ BaseContrabandTier3, PartCyber, BaseRightHand, BaseSecurityContraband ] # Blimpuf
-  description: A surgically-installed cybernetic hand geared for security use, including a built-in energy shield and energy chainsword, perfect for when non-lethals aren't enough.
+  description: Хирургически установленная кибернетическая кисть для нужд охраны, со встроенным энергощитом и энергетическим цепным мечом — отлично, когда нелетального уже мало.
   components:
     - type: BaseLayerId
       layers:
@@ -1546,7 +1546,7 @@
   id: LeftArmCyberZeus
   name: левая рука Зевса
   parent: [ BaseContrabandTier2, PartCyber, BaseLeftArm, BaseSecurityContraband ] # Blimpuf
-  description: A surgically-installed cybernetic arm geared for security use, perfect for when you need some non-lethals. Includes a stun fist and an EMP fist, allowing for disabling of both organics and silicons.
+  description: Хирургически установленная кибернетическая рука для нужд охраны — то, что нужно, когда требуется нелетал. Включает оглушающий кулак и ЭМИ-кулак, позволяющие выводить из строя как органиков, так и кремниевых.
   components:
     - type: BaseLayerId
       layers:
@@ -1568,7 +1568,7 @@
   id: LeftHandCyberZeus
   name: левая кисть Зевса
   parent: [ BaseContrabandTier2, PartCyber, BaseLeftHand, BaseSecurityContraband ] # Blimpuf
-  description: A surgically-installed cybernetic hand geared for security use, perfect for when you need some non-lethals. Includes a stun fist and an EMP fist, allowing for disabling of both organics and silicons.
+  description: Хирургически установленная кибернетическая кисть для нужд охраны — то, что нужно, когда требуется нелетал. Включает оглушающий кулак и ЭМИ-кулак, позволяющие выводить из строя как органиков, так и кремниевых.
   components:
     - type: BaseLayerId
       layers:
@@ -1604,7 +1604,7 @@
   id: RightArmCyberZeus
   name: правая рука Зевса
   parent: [ BaseContrabandTier2, PartCyber, BaseRightArm, BaseSecurityContraband ] # Blimpuf
-  description: A surgically-installed cybernetic arm geared for security use, perfect for when you need some non-lethals. Includes a stun fist and an EMP fist, allowing for disabling of both organics and silicons.
+  description: Хирургически установленная кибернетическая рука для нужд охраны — то, что нужно, когда требуется нелетал. Включает оглушающий кулак и ЭМИ-кулак, позволяющие выводить из строя как органиков, так и кремниевых.
   components:
     - type: BaseLayerId
       layers:
@@ -1626,7 +1626,7 @@
   id: RightHandCyberZeus
   name: правая кисть Зевса
   parent: [ BaseContrabandTier2, PartCyber, BaseRightHand, BaseSecurityContraband ] # Blimpuf
-  description: A surgically-installed cybernetic hand geared for security use, perfect for when you need some non-lethals. Includes a stun fist and an EMP fist, allowing for disabling of both organics and silicons.
+  description: Хирургически установленная кибернетическая кисть для нужд охраны — то, что нужно, когда требуется нелетал. Включает оглушающий кулак и ЭМИ-кулак, позволяющие выводить из строя как органиков, так и кремниевых.
   components:
     - type: BaseLayerId
       layers:
@@ -2022,7 +2022,7 @@
   id: LeftArmCyberHerakles
   name: левая рука Геракла
   parent: [ BaseContrabandTier2, PartCyber, BaseLeftArm, BaseSecurityContraband ] # Blimpuf
-  description: A surgically-installed cybernetic arm geared for security use, for when you need to force your way in. Includes a herakles fist that can pry open doors and knocks people back on hit, and a holographic restrainer that can restrain someone with holographic cuffs.
+  description: Хирургически установленная кибернетическая рука для нужд охраны — когда нужно проложить себе путь силой. Включает кулак «Геракл», вскрывающий двери и отбрасывающий при ударе, а также голографический удерживатель с голографическими наручниками.
   components:
     - type: BaseLayerId
       layers:
@@ -2044,7 +2044,7 @@
   id: LeftHandCyberHerakles
   name: левая кисть Геракла
   parent: [ BaseContrabandTier2, PartCyber, BaseLeftHand, BaseSecurityContraband ] # Blimpuf
-  description: A surgically-installed cybernetic hand geared for security use, for when you need to force your way in. Includes a herakles fist that can pry open doors and knocks people back on hit, and a holographic restrainer that can restrain someone with holographic cuffs.
+  description: Хирургически установленная кибернетическая кисть для нужд охраны — когда нужно проложить себе путь силой. Включает кулак «Геракл», вскрывающий двери и отбрасывающий при ударе, а также голографический удерживатель с голографическими наручниками.
   components:
     - type: BaseLayerId
       layers:
@@ -2080,7 +2080,7 @@
   id: RightArmCyberHerakles
   name: правая рука Геракла
   parent: [ BaseContrabandTier2, PartCyber, BaseRightArm, BaseSecurityContraband ] # Blimpuf
-  description: A surgically-installed cybernetic arm geared for security use, for when you need to force your way in. Includes a herakles fist that can pry open doors and knocks people back on hit, and a holographic restrainer that can restrain someone with holographic cuffs.
+  description: Хирургически установленная кибернетическая рука для нужд охраны — когда нужно проложить себе путь силой. Включает кулак «Геракл», вскрывающий двери и отбрасывающий при ударе, а также голографический удерживатель с голографическими наручниками.
   components:
     - type: BaseLayerId
       layers:
@@ -2102,7 +2102,7 @@
   id: RightHandCyberHerakles
   name: правая кисть Геракла
   parent: [ BaseContrabandTier2, PartCyber, BaseRightHand, BaseSecurityContraband ] # Blimpuf
-  description: A surgically-installed cybernetic hand geared for security use, for when you need to force your way in. Includes a herakles fist that can pry open doors and knocks people back on hit, and a holographic restrainer that can restrain someone with holographic cuffs.
+  description: Хирургически установленная кибернетическая кисть для нужд охраны — когда нужно проложить себе путь силой. Включает кулак «Геракл», вскрывающий двери и отбрасывающий при ударе, а также голографический удерживатель с голографическими наручниками.
   components:
     - type: BaseLayerId
       layers:

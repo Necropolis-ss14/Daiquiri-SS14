@@ -2,7 +2,7 @@
   parent: ClothingScarfBase
   id: ClothingNeckScarfRoboticist
   name: шарф робототехника
-  description: A stylish scarf favored by roboticists. The perfect winter accessory for those with a keen fashion sense, and those who just can't handle a cold breeze on their necks.
+  description: Стильный шарф, любимый роботистами. Идеальный зимний аксессуар для модников и тех, кто не выносит холод на шее.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Neck/Scarfs/robo.rsi
@@ -13,7 +13,7 @@
   parent: ClothingScarfBase
   id: ClothingNeckScarfSolidRed
   name: однотонный красный шарф
-  description: A stylish solid red scarf. Cozy and warm, the perfect winter accessory... But something puts you at some kind of slight unease when you look at it.
+  description: Стильный однотонный красный шарф. Уютный и тёплый, идеальный зимний аксессуар... Но что-то слегка тревожит при взгляде на него.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Neck/Scarfs/SolidColors/red.rsi
@@ -24,7 +24,7 @@
   parent: ClothingScarfBase
   id: ClothingNeckScarfSolidBlue
   name: однотонный синий шарф
-  description: A stylish solid blue scarf. The perfect winter accessory for those with a keen fashion sense, and those who can't handle a cold breeze on their necks.
+  description: Стильный однотонный синий шарф. Идеальный зимний аксессуар для модников и тех, кто не выносит холод на шее.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Neck/Scarfs/SolidColors/blue.rsi
@@ -35,7 +35,7 @@
   parent: ClothingScarfBase
   id: ClothingNeckScarfSolidGreen
   name: однотонный зелёный шарф
-  description: A stylish solid green scarf. The perfect winter accessory for those with a keen fashion sense, and those who can't handle a cold breeze on their necks.
+  description: Стильный однотонный зелёный шарф. Идеальный зимний аксессуар для модников и тех, кто не выносит холод на шее.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Neck/Scarfs/SolidColors/green.rsi
@@ -46,7 +46,7 @@
   parent: ClothingScarfBase
   id: ClothingNeckScarfSolidBrown
   name: однотонный коричневый шарф
-  description: A stylish solid brown scarf. The perfect winter accessory for those with a keen fashion sense, and those who can't handle a cold breeze on their necks.
+  description: Стильный однотонный коричневый шарф. Идеальный зимний аксессуар для модников и тех, кто не выносит холод на шее.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Neck/Scarfs/SolidColors/brown.rsi
@@ -57,7 +57,7 @@
   parent: ClothingScarfBase
   id: ClothingNeckScarfSolidBlack
   name: однотонный чёрный шарф
-  description: A stylish solid black scarf. The perfect winter accessory for those with a keen fashion sense, and those who can't handle a cold breeze on their necks.
+  description: Стильный однотонный чёрный шарф. Идеальный зимний аксессуар для модников и тех, кто не выносит холод на шее.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Neck/Scarfs/SolidColors/black.rsi
@@ -68,7 +68,7 @@
   parent: ClothingScarfBase
   id: ClothingNeckScarfSolidOrange
   name: однотонный оранжевый шарф
-  description: A stylish solid orange scarf. The perfect winter accessory for those with a keen fashion sense, and those who can't handle a cold breeze on their necks.
+  description: Стильный однотонный оранжевый шарф. Идеальный зимний аксессуар для модников и тех, кто не выносит холод на шее.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Neck/Scarfs/SolidColors/orange.rsi
@@ -79,7 +79,7 @@
   parent: ClothingScarfBase
   id: ClothingNeckScarfSolidPurple
   name: однотонный фиолетовый шарф
-  description: A stylish solid purple scarf. The perfect winter accessory for those with a keen fashion sense, and those who can't handle a cold breeze on their necks.
+  description: Стильный однотонный фиолетовый шарф. Идеальный зимний аксессуар для модников и тех, кто не выносит холод на шее.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Neck/Scarfs/SolidColors/purple.rsi
@@ -90,7 +90,7 @@
   parent: ClothingScarfBase
   id: ClothingNeckScarfSolidLightBlue
   name: однотонный светло-синий шарф
-  description: A stylish solid light blue scarf. The perfect winter accessory for those with a keen fashion sense, and those who can't handle a cold breeze on their necks.
+  description: Стильный однотонный светло-синий шарф. Идеальный зимний аксессуар для модников и тех, кто не выносит холод на шее.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Neck/Scarfs/SolidColors/lightblue.rsi

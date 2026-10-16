@@ -41,9 +41,9 @@
 - type: entity
   parent: CMPlatformBase
   id: CMPlatform
-  name: platform
+  name: платформа
   suffix: Steel
-  description: A raised surface. Wait, thats illegal!
+  description: Приподнятая поверхность. Стойте, это незаконно!
   placement:
     mode: SnapgridCenter
     snap:
@@ -73,9 +73,9 @@
 - type: entity
   parent: CMPlatformBase
   id: CMPlatformCorner
-  name: platform
+  name: платформа
   suffix: Steel, Corner
-  description: A raised surface. Wait, thats illegal!
+  description: Приподнятая поверхность. Стойте, это незаконно!
   placement:
     mode: SnapgridCenter
     snap:
@@ -114,9 +114,9 @@
 - type: entity
   parent: CMPlatformBase
   id: RMCPlatformCornerSmall
-  name: platform
+  name: платформа
   suffix: Steel, Corner Small
-  description: A raised surface. Wait, thats illegal!
+  description: Приподнятая поверхность. Стойте, это незаконно!
   placement:
     mode: SnapgridCenter
     snap:
@@ -174,9 +174,9 @@
 - type: entity
   parent: CMPlatformBase
   id: CMPlatformDark
-  name: platform
+  name: платформа
   suffix: Dark
-  description: A raised surface. Wait, thats illegal!
+  description: Приподнятая поверхность. Стойте, это незаконно!
   placement:
     mode: SnapgridCenter
     snap:
@@ -206,9 +206,9 @@
 - type: entity
   parent: CMPlatformBase
   id: CMPlatformCornerDark
-  name: platform
+  name: платформа
   suffix: Dark, Corner
-  description: A raised surface. Wait, thats illegal!
+  description: Приподнятая поверхность. Стойте, это незаконно!
   placement:
     mode: SnapgridCenter
     snap:
@@ -247,9 +247,9 @@
 - type: entity
   parent: CMPlatformBase
   id: RMCPlatformCornerSmallDark
-  name: platform
+  name: платформа
   suffix: Dark, Corner Small
-  description: A raised surface. Wait, thats illegal!
+  description: Приподнятая поверхность. Стойте, это незаконно!
   placement:
     mode: SnapgridCenter
     snap:
@@ -307,9 +307,9 @@
 - type: entity
   parent: CMPlatformBase
   id: CMPlatformWood
-  name: platform
+  name: платформа
   suffix: Wood
-  description: A raised surface. Wait, thats illegal!
+  description: Приподнятая поверхность. Стойте, это незаконно!
   placement:
     mode: SnapgridCenter
     snap:
@@ -339,9 +339,9 @@
 - type: entity
   parent: CMPlatformBase
   id: CMPlatformCornerWood
-  name: platform
+  name: платформа
   suffix: Wood, Corner
-  description: A raised surface. Wait, thats illegal!
+  description: Приподнятая поверхность. Стойте, это незаконно!
   placement:
     mode: SnapgridCenter
     snap:
@@ -380,9 +380,9 @@
 - type: entity
   parent: CMPlatformBase
   id: RMCPlatformCornerSmallWood
-  name: platform
+  name: платформа
   suffix: Wood, Corner Small
-  description: A raised surface. Wait, thats illegal!
+  description: Приподнятая поверхность. Стойте, это незаконно!
   placement:
     mode: SnapgridCenter
     snap:

@@ -222,7 +222,7 @@
     baseSprintSpeed : 4.00
 
 - type: entity
-  name: terror red
+  name: красный террор
   parent: MobTerrorRedUnevolvable
   id: MobTerrorRed
   components:

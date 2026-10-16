@@ -2,7 +2,7 @@
   parent: [ ClothingHeadBase ]
   id: ClothingHeadHatWhiteCatEars
   name: белые кошачьи уши
-  description: "NYAH!"
+  description: НЯ!
   components:
   - type: Tag
     tags: [] # ignore "WhitelistChameleon" tag

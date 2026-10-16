@@ -2,7 +2,7 @@
   parent: BaseWallmountMetallic
   id: WallmountMassScannerBroken
   name: сканер массы
-  description: A computer for detecting nearby bodies, displaying them by position and mass.
+  description: Компьютер обнаружения ближайших тел с показом их позиции и массы.
   suffix: Wall broken
   components:
     - type: Sprite
@@ -26,7 +26,7 @@
   parent: BaseWallmountMachine
   id: WallmountMassScanner
   name: сканер массы
-  description: A computer for detecting nearby bodies, displaying them by position and mass.
+  description: Компьютер обнаружения ближайших тел с показом их позиции и массы.
   suffix: Wall
   components:
     - type: WallMount

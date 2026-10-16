@@ -24,7 +24,7 @@
   parent: ClothingOuterCoatRandomBase
   id: ClothingOuterCoatRandom
   name: разноцветное пальто
-  description: A colorful coat. Warm and exceptionally fashionable!
+  description: Разноцветное пальто. Тёплое и исключительно модное!
   components:
   - type: RandomSprite
     available:

@@ -104,7 +104,7 @@
     allowContainerPlacement: true
 
 - type: entity
-  name: spiderling
+  name: паучонок
   parent: MobSpiderling
   id: MobSpiderlingTerrorRed
   suffix: Terror Red
@@ -115,7 +115,7 @@
     allowContainerPlacement: true
 
 - type: entity
-  name: spiderling
+  name: паучонок
   parent: MobSpiderling
   id: MobSpiderlingTerrorGray
   suffix: Terror Gray
@@ -126,7 +126,7 @@
     allowContainerPlacement: true
 
 - type: entity
-  name: spiderling
+  name: паучонок
   parent: MobSpiderling
   id: MobSpiderlingTerrorGreen
   suffix: Terror Green
@@ -137,7 +137,7 @@
     allowContainerPlacement: true
 
 - type: entity
-  name: spiderling
+  name: паучонок
   parent: MobSpiderling
   id: MobSpiderlingSpiderAngry
   suffix: Giant Spider

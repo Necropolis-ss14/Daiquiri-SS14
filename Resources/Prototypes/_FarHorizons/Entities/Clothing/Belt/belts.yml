@@ -3,8 +3,8 @@
 - type: entity
   parent: ClothingBeltStorageBase
   id: ClothingBeltCargo
-  name: cargo utility belt # Starlight
-  description: Can hold various cargo related things. # Starlight
+  name: грузовой утилитарный пояс # Starlight
+  description: Может хранить различные грузовые принадлежности. # Starlight
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Belt/cargo_utility.rsi # Starlight

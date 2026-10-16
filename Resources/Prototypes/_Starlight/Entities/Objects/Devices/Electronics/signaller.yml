@@ -4,7 +4,7 @@
   parent: RemoteSignaller
   id: DeadManRemoteSignaller
   name: дистанционный сигнализатор «мёртвая рука»
-  description: A handheld device used for remotely sending signals to objects within a small radius of about 15 meters. This one has some wire kludged to the side that will cause it to trigger if dropped.
+  description: Ручное устройство для дистанционной отправки сигналов объектам в небольшом радиусе около 15 метров. К нему криво примотан провод, из-за которого оно срабатывает при падении.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Devices/deadmansignaller.rsi
@@ -22,7 +22,7 @@
   parent: RemoteSignallerAdvanced
   id: DeadManRemoteSignallerAdvanced
   name: улучшенный дистанционный сигнализатор «мёртвая рука»
-  description: A handheld device used for remotely sending signals to objects within a small radius of about 50 meters. This one has some wire kludged to the side that will cause it to trigger if dropped.
+  description: Ручное устройство для дистанционной отправки сигналов объектам в небольшом радиусе около 50 метров. К нему криво примотан провод, из-за которого оно срабатывает при падении.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Devices/deadmansignaller.rsi

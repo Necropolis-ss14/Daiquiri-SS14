@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: ResearchDisk
-  name: research point disk (1000)
-  description: A disk for the R&D server containing 1000 points.
+  name: диск исследовательских очков (1000)
+  description: Диск для сервера РНД, содержащий 1000 очков.
   components:
   - type: Sprite
     sprite: Objects/Specific/Research/researchdisk.rsi
@@ -15,8 +15,8 @@
 - type: entity
   parent: ResearchDisk
   id: ResearchDisk5000
-  name: research point disk (5000)
-  description: A disk for the R&D server containing 5000 points.
+  name: диск исследовательских очков (5000)
+  description: Диск для сервера РНД, содержащий 5000 очков.
   components:
   - type: ResearchDisk
     points: 5000
@@ -24,8 +24,8 @@
 - type: entity
   parent: ResearchDisk
   id: ResearchDisk10000
-  name: research point disk (10000)
-  description: A disk for the R&D server containing 10000 points.
+  name: диск исследовательских очков (10000)
+  description: Диск для сервера РНД, содержащий 10000 очков.
   components:
   - type: ResearchDisk
     points: 10000
@@ -33,10 +33,10 @@
 - type: entity
   parent: ResearchDisk
   id: ResearchDiskDebug
-  name: research point disk
+  name: диск исследовательских очков
   suffix: DEBUG, DO NOT MAP
   categories: [ DoNotMap ]
-  description: A disk for the R&D server containing all the points you could ever need.
+  description: Диск для сервера РНД, содержащий все очки, которые вам когда-либо понадобятся.
   components:
   - type: ResearchDisk
     unlockAllTech: true
@@ -44,7 +44,8 @@
 - type: entity
   parent: BaseItem
   id: TechnologyDisk
-  name: technology disk
+  name: технологический диск
+  description: Диск с технологическими данными для сервера РНД.
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -94,6 +95,8 @@
 - type: entity
   parent: TechnologyDisk
   id: TechnologyDiskT1
+  name: технологический диск
+  description: Диск с технологическими данными для сервера РНД.
   suffix: Tier 1
   components:
   - type: TechnologyDisk
@@ -102,6 +105,8 @@
 - type: entity
   parent: TechnologyDisk
   id: TechnologyDiskT2
+  name: технологический диск
+  description: Диск с технологическими данными для сервера РНД.
   suffix: Tier 2
   components:
   - type: TechnologyDisk
@@ -110,6 +115,8 @@
 - type: entity
   parent: TechnologyDisk
   id: TechnologyDiskT3
+  name: технологический диск
+  description: Диск с технологическими данными для сервера РНД.
   suffix: Tier 3
   components:
   - type: TechnologyDisk
@@ -119,6 +126,8 @@
 - type: entity
   parent: TechnologyDisk
   id: TechnologyDiskIndustrial
+  name: технологический диск
+  description: Диск с технологическими данными для сервера РНД.
   suffix: Industrial
   components:
   - type: TechnologyDisk
@@ -127,6 +136,8 @@
 - type: entity
   parent: TechnologyDisk
   id: TechnologyDiskArsenal
+  name: технологический диск
+  description: Диск с технологическими данными для сервера РНД.
   suffix: Arsenal
   components:
   - type: TechnologyDisk
@@ -135,6 +146,8 @@
 - type: entity
   parent: TechnologyDisk
   id: TechnologyDiskExperimental
+  name: технологический диск
+  description: Диск с технологическими данными для сервера РНД.
   suffix: Experimental
   components:
   - type: TechnologyDisk
@@ -143,6 +156,8 @@
 - type: entity
   parent: TechnologyDisk
   id: TechnologyDiskCivilianServices
+  name: технологический диск
+  description: Диск с технологическими данными для сервера РНД.
   suffix: Civilian Services
   components:
   - type: TechnologyDisk
@@ -151,6 +166,8 @@
 - type: entity
   parent: TechnologyDisk
   id: TechnologyDiskRare
+  name: технологический диск
+  description: Диск с технологическими данными для сервера РНД.
   suffix: rare.
   components:
   - type: TechnologyDisk

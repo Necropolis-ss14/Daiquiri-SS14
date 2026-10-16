@@ -2,7 +2,7 @@
   parent: BaseWallmountMetallic
   id: JunctionBox
   name: распределительная коробка
-  description: Used to house breakers and power switches, but its been cut from the main lines for a decade.
+  description: Корпус для рубильников и выключателей, но от магистралей отрезан уже десяток лет.
   components:
   - type: StaticPrice
     price: 5

@@ -2,7 +2,7 @@
   parent: ClothingHandsButcherable
   id: ClothingHandsGlovesBlackNitrile
   name: чёрные нитриловые перчатки
-  description: High-quality nitrile gloves. Expensive medical PPE, now in black!
+  description: Высококачественные нитриловые перчатки. Дорогое медицинское СИЗ, теперь в чёрном!
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Hands/Gloves/blacknitrile.rsi
@@ -22,7 +22,7 @@
   parent: [ClothingHandsButcherable, ClothingHandsBaseWarm, BaseSecurityContraband]
   id: ClothingHandsGlovesSecurityRed
   name: красные перчатки службы безопасности
-  description: Black gloves, but slightly red! The detective will LOVE you if you wear these.
+  description: Чёрные перчатки, но слегка красные! Детектив ПОЛЮБИТ вас, если вы их наденете.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Hands/Gloves/securityglovesred.rsi
@@ -36,7 +36,7 @@
   parent: [ClothingHandsButcherable, BaseSecurityContraband]
   id: ClothingHandsGlovesSecurityFingerlessRed
   name: красные беспалые перчатки службы безопасности
-  description: Black gloves, but slightly red! The detective will HATE you if you wear these.
+  description: Чёрные перчатки, но слегка красные! Детектив ВОЗНЕНАВИДИТ вас, если вы их наденете.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Hands/Gloves/securityglovesfingerlessred.rsi
@@ -49,7 +49,7 @@
   parent: ClothingHandsBase
   id: ClothingHandsGlovesFingerlessBudget
   name: бюджетные беспалые изолированные перчатки
-  description: You're not sure what's more insulting, the fact that these are fingerless, or the fact that they're not even real insuls.
+  description: "Не знаете, что оскорбительнее: то, что они без пальцев, или то, что это даже не настоящие изоляционки."
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/fingerlessinsuls.rsi
@@ -135,7 +135,7 @@
   parent: [ BaseContrabandTier2, BaseEngineeringContraband, BaseSecurityContraband, BaseCommandContraband, BaseSalvageContraband, BaseMiningContraband, ClothingHandsGlovesCombat ] # Blimpuf
   id: ClothingHandsSalvageMercGlovesCombat
   name: боевые перчатки утилизатора
-  description: High-quality insulated gloves that provide protection while salvaging.
+  description: Высококачественные изолированные перчатки, защищающие при утилизации.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Hands/Gloves/salvage.rsi
@@ -149,7 +149,7 @@
   parent: ClothingHandsButcherable
   id: RedRegaliaGloves
   name: красные перчатки регалии
-  description: A pair of fancy red gloves like a mafiaoso would wear.
+  description: Пара щегольских красных перчаток, какие носил бы мафиозо.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Hands/Gloves/red_regalia.rsi
@@ -163,7 +163,7 @@
   parent: ClothingHandsGlovesSyntheticBase
   id: ClothingHandsTacticalMaidGlovesDelicate
   name: изящные тактические перчатки горничной
-  description: Tactical maid gloves, every self-respecting maid should be able to discreetly eliminate her goals. Made of a thin material, far too thin to be insulated.
+  description: Тактические перчатки горничной, каждая уважающая себя горничная должна уметь незаметно устранять цели. Сделаны из тонкого материала, слишком тонкого для изоляции.
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/tacticalmaidgloves.rsi
@@ -176,7 +176,7 @@
   parent: ClothingHandsGlovesSyntheticBase
   id: ClothingHandsMaidGlovesElegant
   name: элегантные перчатки горничной
-  description: Pristine maid gloves, like any self-respecting maid should possess.
+  description: Безупречные перчатки горничной, какие должны быть у каждой уважающей себя горничной.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Hands/Gloves/elegantmaidgloves.rsi

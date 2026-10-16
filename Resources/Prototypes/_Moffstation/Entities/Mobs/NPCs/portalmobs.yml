@@ -352,7 +352,7 @@
 - type: entity
   parent: MoffMobDemonNarsieConstructBase
   id: MoffMobDemonNarsieArtificer
-  name: narsian artificer
+  name: нарсианский артифицер
   components:
   - type: Sprite
     sprite: _Moffstation/Mobs/Demons/artificer.rsi
@@ -369,7 +369,7 @@
 - type: entity
   parent: MoffMobDemonNarsieConstructBase
   id: MoffMobDemonNarsieHarvester
-  name: narsian harvester
+  name: нарсианский жнец
   components:
   - type: Sprite
     sprite: _Moffstation/Mobs/Demons/harvester.rsi
@@ -416,7 +416,7 @@
 - type: entity
   parent: MoffMobDemonNarsieConstructBase
   id: MoffMobDemonNarsieJuggernaut
-  name: narsian juggernaut
+  name: нарсианский джаггернаут
   components:
   - type: Sprite
     sprite: _Moffstation/Mobs/Demons/juggernaut.rsi
@@ -474,7 +474,7 @@
 - type: entity
   parent: MoffMobDemonNarsieConstructFlyingBase
   id: MoffMobDemonNarsieShade
-  name: narsian shade
+  name: нарсианская тень
   components:
   - type: Gun
     fireRate: 0.25
@@ -501,7 +501,7 @@
 - type: entity
   parent: MoffMobDemonNarsieConstructFlyingBase
   id: MoffMobDemonNarsieWraith
-  name: narsian wraith
+  name: нарсианский призрак
   components:
   - type: Sprite
     sprite: _Moffstation/Mobs/Demons/wraith.rsi

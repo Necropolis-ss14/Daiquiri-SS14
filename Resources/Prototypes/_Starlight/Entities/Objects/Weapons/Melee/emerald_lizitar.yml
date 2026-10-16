@@ -1,8 +1,8 @@
 - type: entity
-  name: emerald lizitar
+  name: изумрудный лизитар
   parent: [ BaseContrabandTier3, BaseSword, BaseSecurityContraband, BaseCargoContraband ] # Blimpuf
   id: EmeraldLizitar
-  description: Caledscratch && Emerald Contraband. Why is it so expensive? What the hell is 'grist'? This weapon leaves you with so many questions.
+  description: Caledscratch и Изумрудная контрабанда. Почему так дорого. Что за грист. Это оружие оставляет слишком много вопросов.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Melee/emerald_lizitar.rsi

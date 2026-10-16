@@ -11,7 +11,7 @@
   id: BedsheetBrigmedicStrange
   parent: [BedsheetBaseStarlight, HarmonicaInstrument]
   name: странная простыня бригмедика
-  description: Upon closer inspection, this seems to be multiple brigmedic bedsheets sewn together including a harmonica for good measure along with the initials 'K.T' sewn in. Stealing such a prized posession would make a certain vulpine very angry.
+  description: Присмотревшись, видишь несколько сшитых простыней бригмедика, губную гармошку для верности и вышитые инициалы «К.Т». Кража такой ценности очень разозлит одного вульпина.
   components:
   - type: Sprite
     state: sheetbrigmedicstrange

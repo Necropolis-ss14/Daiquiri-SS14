@@ -1,8 +1,8 @@
 - type: entity
-  name: Rampaging Gorilla
+  name: Буйствующая горилла
   parent: MobGorilla
   id: MobGorillaRampaging
-  description: A gorilla that has gone wild. Run!
+  description: Горилла, вышедшая из-под контроля. Бегите!
   components:
     - type: Sprite
       drawdepth: Mobs
@@ -43,10 +43,10 @@
         - SyndicateSilicon
 
 - type: entity
-  name: Cargorilla
+  name: Каргорилла
   parent: MobGorilla
   id: MobCargorilla
-  description: Cargo's pet gorilla. He seems to have an 'I love Mom' tattoo.
+  description: Ручная горилла карго. Кажется, у него татуировка «Я люблю маму».
   components:
     - type: LanguageKnowledge
       speaks:

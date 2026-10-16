@@ -3,7 +3,7 @@
   categories: [ ShouldMapStation ]
   parent: [BaseMachinePowered, SmallConstructibleMachine]
   name: мороженица
-  description: "Morale-boosting deserts, coming up."
+  description: "Поднимающие дух десерты уже на подходе."
   components:
   - type: CookingDevice
     capacity: 10

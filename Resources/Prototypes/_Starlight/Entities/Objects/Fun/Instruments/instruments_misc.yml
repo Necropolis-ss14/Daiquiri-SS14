@@ -22,7 +22,7 @@
   parent: BaseHandheldInstrument
   id: NT4PlayerInstrument
   name: NT4-плеер
-  description: The 4th iteration of NanoTrasen's portable music player. One day, everyone will have one of these in their pockets.
+  description: Четвёртая версия портативного музыкального плеера NanoTrasen. Однажды такой будет в кармане у каждого.
   components:
   - type: Instrument
     allowPercussion: false

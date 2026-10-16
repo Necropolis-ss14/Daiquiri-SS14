@@ -2,7 +2,7 @@
   name: пицца с нутрикирпичом
   parent: [FoodPizzaBase, BaseSlicingRefinableFood]
   id: FoodPizzaNutribrick
-  description: Topped with chunky, dense nuggets of nutribrick.
+  description: С крупными плотными кусочками нутрикирпича сверху.
   components:
   - type: FlavorProfile
     flavors:
@@ -30,7 +30,7 @@
   name: кусок пиццы с нутрикирпичом
   parent: FoodPizzaSliceBase
   id: FoodPizzaNutriSlice
-  description: A nutribrickious slice of pizza.
+  description: Кусок пиццы с нутрикирпичом.
   components:
   - type: FlavorProfile
     flavors:
@@ -56,7 +56,7 @@
   name: пицца в обёртке
   parent: FoodPizzaCotton
   id: FoodPizzaWrapper
-  description: The phrase 'tastes like cardboard' taken too literally.
+  description: Фраза «на вкус как картон» в буквальном смысле.
   components:
   - type: FlavorProfile
     flavors:
@@ -88,7 +88,7 @@
   name: кусок пиццы в обёртке
   parent: FoodPizzaCottonSlice
   id: FoodPizzaWrapperSlice
-  description: Just one slice of sadness.
+  description: Всего лишь кусочек грусти.
   components:
   - type: FlavorProfile
     flavors:

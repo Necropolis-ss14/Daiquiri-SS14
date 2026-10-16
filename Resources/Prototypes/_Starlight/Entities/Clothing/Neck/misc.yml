@@ -2,7 +2,7 @@
   parent: ClothingNeckBase
   id: ClothingNeckEyeAmulet
   name: амулет глаза
-  description: It watches.
+  description: Оно наблюдает.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Neck/Misc/eye_amulet.rsi
@@ -13,7 +13,7 @@
   parent: ClothingNeckBase
   id: ClothingNeckMoonAmulet
   name: амулет луны
-  description: Shines in the moonlight.
+  description: Сияет в лунном свете.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Neck/Misc/moon_amulet.rsi
@@ -24,7 +24,7 @@
   parent: ClothingNeckBase
   id: ClothingNeckStarAmulet
   name: амулет звезды
-  description: Twinkles like a star.
+  description: Мерцает как звезда.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Neck/Misc/star_amulet.rsi
@@ -35,7 +35,7 @@
   parent: ClothingNeckBase
   id: ClothingNeckSunAmulet
   name: амулет солнца
-  description: Glows like the sun.
+  description: Светится как солнце.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Neck/Misc/sun_amulet.rsi
@@ -46,7 +46,7 @@
   parent: [ClothingNeckBase, BaseSyndicateContraband]
   id: ClothingNeckExplosiveCollar
   name: взрывной ошейник
-  description: The legally distinct reverse beartrap from a certin movie franchise
+  description: Юридически отличный обратный капкан из определённой кинофраншизы.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Neck/Misc/explosivecollar.rsi
@@ -75,7 +75,7 @@
   parent: [ClothingNeckBase, BaseTSFContraband]
   id: ClothingNeckTSFBadge
   name: значок ТСФ
-  description: An official badge from the Trans Solar Federation. This polished piece of law enforcement equipment bears the distinctive TSF eagle emblem, a symbol of authority recognized across known space.
+  description: Официальный значок Транс-Солнечной Федерации. Этот начищенный предмет снаряжения несёт орла ТСФ, символ власти, признанный в известном космосе.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Neck/Misc/tsf_badge.rsi
@@ -89,7 +89,7 @@
   parent: ClothingScarfBase
   id: ClothingNeckBunnyGang
   name: шарф заячьей банды
-  description: The scarf of a secretive group of bunny mercenaries.
+  description: Шарф тайной группы наёмников-зайчиков.
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Neck/Misc/bunnygang.rsi
@@ -101,7 +101,7 @@
   parent: ClothingNeckBase
   id: ClothingNeckFoxfire
   name: амулет лисьего огня
-  description: Flittering ghostly flames have started following you upon donning this around your neck.
+  description: Призрачные огоньки начали следовать за вами, стоило надеть это на шею.
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Neck/Misc/foxfire.rsi
@@ -124,7 +124,7 @@
   parent: ClothingNeckBase
   id: ClothingNeckLittleAngelWings
   name: крылья маленького ангела
-  description: Fluffy costume angel wings, matches with the rest of the set!
+  description: Пушистые костюмные крылья ангела, сочетаются с набором!
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Neck/Misc/little_angel_wings.rsi
@@ -135,7 +135,7 @@
   parent: ClothingNeckBase
   id: ClothingNeckLittleDevilWings
   name: крылья маленького дьявола
-  description: Velvety costume devil wings, matches with the rest of the set!
+  description: Бархатные костюмные крылья дьявола, сочетаются с набором!
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Neck/Misc/little_devil_wings.rsi

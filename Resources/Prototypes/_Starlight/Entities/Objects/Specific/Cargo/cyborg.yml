@@ -2,8 +2,8 @@
 - type: entity
   parent: BaseStructure
   id: BorgHold
-  name: Borg Cargo Hold
-  description: A small cargo hold built into a cyborg's chassis
+  name: грузовой отсек борга
+  description: Небольшой грузовой отсек, встроенный в шасси киборга
   components:
   - type: Animateable
   - type: Transform
@@ -40,8 +40,8 @@
 - type: entity
   id: BorgClamp
   parent: BaseItem
-  name: cyborg hydraulic clamp
-  description: A small hydraulic clamp designed to interface with a cyborg
+  name: гидравлический зажим киборга
+  description: Небольшой гидравлический зажим, предназначенный для стыковки с киборгом
   components:
     - type: LargeGrabber
       maxContents: 1

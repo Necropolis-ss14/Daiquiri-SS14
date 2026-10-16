@@ -3,7 +3,7 @@
   id: AccessOveriderUnlimited
   suffix: Unlimited
   name: обходчик аутентификации
-  description: A modified access configurator, specialized for ERT breach and clear operations on NT stations
+  description: Модифицированный конфигуратор доступа для операций ОБР по штурму и зачистке станций NanoTrasen.
   components:
   - type: Emag
     emagType: Access

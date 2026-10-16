@@ -1,9 +1,9 @@
 - type: entity
-  name: rd's doctorate
+  name: докторская степень НР
   categories: [ DoNotMap ]
   parent: [ BasePaper, BaseGrandTheftContraband ]
   id: RDDiploma
-  description: "The RD's PhD. You can't believe they went to that school!"
+  description: "Диплом НР. Не верится, что он учился именно там!"
   components:
   - type: Tag
     tags:
@@ -21,11 +21,11 @@
     size: Small
 
 - type: entity
-  name: cmo's medical license
+  name: медицинская лицензия СМО
   categories: [ DoNotMap ]
   parent: [ BasePaper, BaseGrandTheftContraband ]
   id: CMOLicense
-  description: "The CMO's medical license. You can't believe it's not expired."
+  description: "Медицинская лицензия СМО. Не верится, что она не просрочена."
   components:
   - type: Tag
     tags:

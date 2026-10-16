@@ -15,7 +15,7 @@
 - type: entity
   parent: [MobPureHonkmotherBase, BaseMob, MobCombat]
   id: PureHonkmother
-  name: Honkmother
+  name: Хонкоматерь
   components:
     - type: StaticPrice
       price: -500000.1 # Pay someone to take her

@@ -1,5 +1,7 @@
 - type: !PartialOnly entity
   id: CoordinatesDisk
+  name: диск координат
+  description: Диск с координатами места в космосе. Необходим любому кораблю со сверхсветовым двигателем для достижения цели. Подходит к консолям шаттлов.
   components:
   - type: EmitSoundOnPickup
     sound:

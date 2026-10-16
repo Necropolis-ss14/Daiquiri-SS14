@@ -1,8 +1,8 @@
 - type: entity
-  name: homerun bat
+  name: бита для хоумрана
   parent: [BaseItem, BaseSyndicateContraband]
   id: HomerunBat
-  description: Somewhere, a cat smiles.
+  description: Где-то улыбается кот.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Melee/homerun_bat.rsi

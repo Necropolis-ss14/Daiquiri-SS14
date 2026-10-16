@@ -118,13 +118,13 @@ internal static class ServerContentIoC
         // 🌟Starlight🌟 end
         // nulllink start
         deps.Register<IActorRouter, ActorRouter>();
-        deps.Register<CartridgeLoader.Cartridges.BookLibraryManager>();
+        deps.Register<Content.Server._Daiquiri.CartridgeLoader.Cartridges.BookLibraryManager>();
         deps.Register<NullLinkPlayerManager>();
         deps.Register<INullLinkPlayerManager, NullLinkPlayerManager>();
                 deps.Register<INullLinkPlayTimeManager, NullLinkPlayTimeManager>();
-        deps.Register<Content.Shared._Starlight.Playtime.IServerPlaytimeManager, Content.Server._Starlight.Playtime.ServerPlaytimeManager>();
-        deps.Register<Content.Shared._Starlight.Admin.IServerAdminManager, Content.Server._Starlight.Admin.ServerAdminManager>();
-        deps.Register<Content.Shared._Starlight.GhostTheme.IGhostThemeGrantManager, Content.Server._Starlight.GhostTheme.GhostThemeGrantManager>();        deps.Register<INullLinkEventBusManager, NullLinkEventBusManager>();
+        deps.Register<Content.Shared._Starlight.Playtime.IServerPlaytimeManager, Content.Server._Daiquiri.Playtime.ServerPlaytimeManager>();
+        deps.Register<Content.Shared._Starlight.Admin.IServerAdminManager, Content.Server._Daiquiri.Admin.ServerAdminManager>();
+        deps.Register<Content.Shared._Starlight.GhostTheme.IGhostThemeGrantManager, Content.Server._Daiquiri.GhostTheme.GhostThemeGrantManager>();        deps.Register<INullLinkEventBusManager, NullLinkEventBusManager>();
         deps.Register<ISharedNullLinkPlayerRolesReqManager, PlayerRolesReqManager>();
         deps.Register<ISharedNullLinkPlayerResourcesManager, NullLinkPlayerResourcesManager>();
 

@@ -78,6 +78,6 @@
 
 - type: entity
   save: false
-  name: Urist McEars
+  name: Урист МакИрс
   parent: BaseMobThaven
   id: MobThaven

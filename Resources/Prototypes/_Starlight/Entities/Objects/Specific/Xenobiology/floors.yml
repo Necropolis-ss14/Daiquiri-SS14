@@ -1,7 +1,7 @@
 # Bluespace Tiles
 - type: entity
   id: FloorBluespaceEntity
-  name: bluespace floor
+  name: блюспейс-пол
   placement:
     mode: SnapgridCenter
   components:
@@ -56,7 +56,7 @@
             - MidImpassable
 
 - type: entity
-  name: bluespace tile
+  name: блюспейс-плитка
   parent: FloorTileItemBase
   id: FloorTileItemBluespace
   components:
@@ -78,7 +78,7 @@
 - type: stack
   parent: BaseTileStack
   id: FloorTileBluespace
-  name: stack-bluespace-tile
+  name: стопка блюспейс-плиток
   spawn: FloorTileItemBluespace
 
 - type: entity
@@ -100,7 +100,7 @@
 # Sepia Tiles
 - type: entity
   id: FloorSepiaXenobiologyEntity
-  name: sepia floor
+  name: сепия-пол
   placement:
     mode: SnapgridCenter
   components:
@@ -155,7 +155,7 @@
             - MidImpassable
 
 - type: entity
-  name: sepia tile
+  name: сепия-плитка
   parent: FloorTileItemBase
   id: FloorTileItemSepiaXenobiology
   components:
@@ -177,7 +177,7 @@
 - type: stack
   parent: BaseTileStack
   id: FloorTileSepiaXenobiology
-  name: stack-sepia-xenobiology-tile
+  name: стопка сепия-плиток ксенобиологии
   spawn: FloorTileItemSepiaXenobiology
 
 - type: entity

@@ -2,7 +2,7 @@
   name: микрофон на стойке
   id: StandingMicrophone
   parent: BaseStructure
-  description: So whats the deal with airplane food?
+  description: Так в чём прикол с самолётной едой?
   components:
   - type: Rotatable
   - type: Anchorable
