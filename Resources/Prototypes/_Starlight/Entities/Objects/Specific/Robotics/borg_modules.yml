@@ -855,6 +855,9 @@
   name: модуль маскировочного проектора синдиката
   description: Адаптация маскировочного проектора для стелс-киборга синдиката.
   components:
+  - type: Tag
+    tags:
+      - BorgModuleGeneric
   - type: Sprite
     layers:
     - state: syndicate
