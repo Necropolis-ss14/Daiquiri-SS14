@@ -1,5 +1,5 @@
 - type: entity
-  parent: [ BaseItem, BaseMajorContraband ]
+  parent: [ BaseItem, BaseSalvageContraband ]
   id: MagazineBoltRifle
   name: магазин болт-винтовки (стандартный)
   description: Магазин на 21 ударный болт.

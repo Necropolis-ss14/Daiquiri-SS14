@@ -1031,3 +1031,42 @@
       state: pda-salvagemedic
     - type: CartridgeLoader
       uiKey: enum.PdaUiKey.Key
+      preinstalled:
+        - CrewManifestCartridge
+        - NotekeeperCartridge
+        - NewsReaderCartridge
+        - AstroNavCartridge
+        - MedTekCartridge
+        - NanoChatCartridge
+
+- type: entity
+  parent: BasePDA
+  id: VeteranSalvageMedicPDA
+  name: КПК ветерана-медика-утилизатора
+  description: Пахнет кровью и пеплом.
+  components:
+    - type: Sprite
+      sprite: _Starlight/Objects/Devices/pda.rsi
+    - type: Pda
+      id: SalvageMedicIDCard
+    - type: Appearance
+      appearanceDataInit:
+        enum.PdaVisuals.PdaType:
+          !type:String
+          pda-veteransalvagemedic
+    - type: PdaBorderColor
+      borderColor: "#af9366"
+      accentHColor: "#edddc4"
+      accentVColor: "#8900c9"
+    - type: Icon
+      sprite: _Starlight/Objects/Devices/pda.rsi
+      state: pda-veteransalvagemedic
+    - type: CartridgeLoader
+      uiKey: enum.PdaUiKey.Key
+      preinstalled:
+        - CrewManifestCartridge
+        - NotekeeperCartridge
+        - NewsReaderCartridge
+        - AstroNavCartridge
+        - MedTekCartridge
+        - NanoChatCartridge

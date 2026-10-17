@@ -1,5 +1,5 @@
 - type: entity
-  parent: [ BaseItem, BaseMajorContraband ]
+  parent: [ BaseItem, BaseSalvageContraband ]
   id: MagazineBoltPistol
   name: магазин болт-пистолета (стандартный)
   description: Магазин на 8 ударных болтов.
