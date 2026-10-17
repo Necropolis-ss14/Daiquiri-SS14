@@ -1,6 +1,5 @@
-# Daiquiri: trimmed voice pool, 1:1 with the TTS box.
-# The box maps prototype voice number % 3 to Piper models:
-# 0 = dmitri (male), 1 = irina (female), 2 = ruslan (male).
+# Daiquiri: voice pool for the TTS box.
+# The voice number is sent to the TTS server as-is.
 # vid >= 1000 counts as silicon (same voice, lowered pitch).
 # Announce voice 2001 needs no prototype: 2001 % 3 = 0 (dmitri).
 
@@ -37,6 +36,75 @@
   tags:
   - russian
   - harsh
+
+- type: voice
+  id: skyrimGrelka
+  voice: 3
+  name: tts-voice-name-3
+  sex: Female
+  silicon: false
+  copyright: Mantella RU Piper (Skyrim)
+  license: The use of the voice is authorized by the voice holder
+  pitch: Medium
+  tags:
+  - harsh
+  - clear
+
+- type: voice
+  id: skyrimSaadia
+  voice: 4
+  name: tts-voice-name-4
+  sex: Female
+  silicon: false
+  copyright: Mantella RU Piper (Skyrim)
+  license: The use of the voice is authorized by the voice holder
+  pitch: Medium
+  tags:
+  - soft
+  - breathy
+  - clear
+
+- type: voice
+  id: skyrimJzargo
+  voice: 5
+  name: tts-voice-name-5
+  sex: Unsexed
+  silicon: false
+  copyright: Mantella RU Piper (Skyrim)
+  license: The use of the voice is authorized by the voice holder
+  pitch: Medium
+  tags:
+  - nasal
+  - raspy
+  - clear
+
+- type: voice
+  id: skyrimRalof
+  voice: 6
+  name: tts-voice-name-6
+  sex: Male
+  silicon: false
+  copyright: Mantella RU Piper (Skyrim)
+  license: The use of the voice is authorized by the voice holder
+  pitch: Medium
+  tags:
+  - serious
+  - raspy
+  - clear
+
+- type: voice
+  id: skyrimNazeem
+  voice: 7
+  name: tts-voice-name-7
+  sex: Male
+  silicon: false
+  copyright: Mantella RU Piper (Skyrim)
+  license: The use of the voice is authorized by the voice holder
+  pitch: Medium
+  tags:
+  - fancy
+  - nasal
+  - clear
 
 - type: voice
   id: borg_voice_1
