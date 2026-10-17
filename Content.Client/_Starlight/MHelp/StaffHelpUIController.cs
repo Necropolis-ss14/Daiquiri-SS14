@@ -1,5 +1,6 @@
 using Content.Client.UserInterface.Systems.Bwoink;
 using Robust.Client.UserInterface.Controllers;
+using Content.Client._Starlight.AIHelp;
 using Content.Client._Starlight.MHelp.UI;
 using Content.Client.Stylesheets;
 
@@ -9,6 +10,7 @@ public sealed partial class StaffHelpUIController : UIController
 {
     [Dependency] private AHelpUIController _aHelp = default!;
     [Dependency] private MHelpUIController _mHelp = default!;
+    [Dependency] private AIHelpUIController _aiHelp = default!;
 
     private StaffHelpWindow? _staffHelpWindow;
 
@@ -47,6 +49,13 @@ public sealed partial class StaffHelpUIController : UIController
             _mHelp.Open();
             _staffHelpWindow.Close();
             _mHelp._hasUnreadMHelp = false;
+            SetAHelpButtonPressed(false);
+        };
+
+        _staffHelpWindow.AIHelpButton.OnPressed += _ =>
+        {
+            _aiHelp.ToggleWindow();
+            _staffHelpWindow.Close();
             SetAHelpButtonPressed(false);
         };
     }

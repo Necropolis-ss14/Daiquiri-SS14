@@ -30,3 +30,21 @@ staff-help-admin-hint = Для жалоб на другого игрока ад�
 staff-help-mentor = Помощь ментора
 staff-help-mentor-hint = Для вопросов по игре
 staff-help-title = Помощь админов и менторов
+
+staff-help-ai-hint = Для быстрых вопросов по игре, отвечает ИИ (бета)
+staff-help-ai = Помощь ИИ (бета)
+
+ai-help-title = Помощь ИИ (бета)
+ai-help-hint = Бета-функция. Ответы генерирует ИИ, они могут быть неверными. Здесь не жалуются на игроков.
+ai-help-clear = Очистить историю
+ai-help-typing = ИИ печатает...
+ai-help-tag-ai = ИИ
+ai-help-tag-you = Вы
+ai-help-tag-system = Система
+ai-help-disabled = помощь ИИ отключена на этом сервере.
+ai-help-not-configured = помощь ИИ не настроена на этом сервере.
+ai-help-rate-limited = вы отправляете сообщения слишком быстро.
+ai-help-error = не удалось получить ответ от ИИ. Попробуйте позже.
+ai-help-auth-error = не удалось авторизоваться в API ИИ. Проверьте настройки сервера.
+ai-help-empty-response = ИИ вернул пустой ответ.
+ai-help-timeout = ИИ не ответил вовремя. Попробуйте позже.

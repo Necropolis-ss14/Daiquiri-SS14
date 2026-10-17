@@ -314,3 +314,7 @@ Resources/MapImages
 .direnv/
 .idea/
 /Resources/Textures/_Starlight/Logo/CClogo - Copy.png
+
+# Локальный серверный конфиг с ключами API (не коммитить!)
+server_config.local.toml
+*.local.toml

@@ -48,6 +48,15 @@ public sealed partial class ConversationView : BoxContainer
     }
 
     /// <summary>
+    ///     Removes every message from the conversation view.
+    /// </summary>
+    public void ClearMessages()
+    {
+        _messages.Clear();
+        Output.Clear();
+    }
+
+    /// <summary>
     /// Sets the text for the typing indicator.
     /// </summary>
     public void SetTyping(string text)
