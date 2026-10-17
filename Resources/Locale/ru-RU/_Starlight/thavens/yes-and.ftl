@@ -13,7 +13,7 @@ thaven-mood-least-important-desc = Вы твёрдо верите, что вы �
 thaven-mood-must-do-drugs-name = Употребляй вещества
 thaven-mood-must-do-drugs-desc = Трезвость так старомодна. Не круто. Следует кайфовать, или напиваться, или что-то такое, и оставаться таким.
 
-thaven-mood-worship-silicons-name = Ты обязан поклоняться кремниевым как богам
+thaven-mood-worship-silicons-name = Ты обязан поклоняться силиконовым как богам
 thaven-mood-worship-silicons-desc = Их слово — закон.
 
 thaven-mood-dinner-etiquette-name = Этикет приёма пищи

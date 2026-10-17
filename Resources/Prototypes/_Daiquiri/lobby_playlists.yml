@@ -1,6 +1,7 @@
 - type: lobbyPlaylist
   id: Lobby
   name: Лобби
+  weight: 0
   tracks:
     - /Audio/Lobby/thunderdome.ogg
     - /Audio/Lobby/space_asshole.ogg
@@ -16,6 +17,104 @@
     - /Audio/Lobby/every_light_is_blinking_at_once.ogg
     - /Audio/Lobby/atomicamnesiammx.ogg
     - /Audio/Lobby/skubstep.ogg
+
+- type: lobbyPlaylist
+  id: Other
+  name: Другое
+  weight: 9
+  turnon: false
+  tracks:
+    - /Audio/_Daiquiri/Lobby/test_alone.ogg
+    - /Audio/_Daiquiri/Lobby/test_ifyouwerehere.ogg
+    - /Audio/_Daiquiri/Lobby/test_nox_lux.ogg
+
+- type: lobbyPlaylist
+  id: JPOP
+  name: JPOP
+  weight: 4
+  turnon: false
+  tracks:
+    - /Audio/_Daiquiri/Lobby/Jpop/Ado_-_Useewa.ogg
+    - /Audio/_Daiquiri/Lobby/Jpop/Aimer_with_chelly_(EGOIST)_-_ninelie.ogg
+    - /Audio/_Daiquiri/Lobby/Jpop/Alive_-ClariS.ogg
+    - /Audio/_Daiquiri/Lobby/Jpop/Crossing_field_-_Lisa.ogg
+    - /Audio/_Daiquiri/Lobby/Jpop/Koko_de_ikiteru_-_jon-YAKITORY.ogg
+
+- type: lobbyPlaylist
+  id: KPOP
+  name: KPOP
+  weight: 5
+  turnon: false
+  tracks:
+    - /Audio/_Daiquiri/Lobby/Kpop/A2O_-_Neon.ogg
+    - /Audio/_Daiquiri/Lobby/Kpop/BTS_-_Butter.ogg
+    - /Audio/_Daiquiri/Lobby/Kpop/BTS_-_Dynamite.ogg
+    - /Audio/_Daiquiri/Lobby/Kpop/Stray_Kids_-_Stray_Kids.ogg
+
+- type: lobbyPlaylist
+  id: POP
+  name: POP
+  weight: 6
+  turnon: false
+  tracks:
+    - /Audio/_Daiquiri/Lobby/test_judos.ogg
+    - /Audio/_Daiquiri/Lobby/Pop/Elley_Duhe_-_Middle_of_the_Night.ogg
+    - /Audio/_Daiquiri/Lobby/Pop/Katy_Perry_-_Hot_N_Cold.ogg
+
+- type: lobbyPlaylist
+  id: Videogames
+  name: Видеоигры
+  weight: 8
+  turnon: false
+  tracks:
+    - /Audio/_Daiquiri/Lobby/Videogames/08_Sciel_(Music_Box).ogg
+    - /Audio/_Daiquiri/Lobby/Videogames/13_Spring_Meadows_-_Eveil.ogg
+    - /Audio/_Daiquiri/Lobby/Videogames/23_Clair-Obscur.ogg
+    - /Audio/_Daiquiri/Lobby/Videogames/62_The_Reacher_-_Vers_le_Sommet.ogg
+    - /Audio/_Daiquiri/Lobby/Videogames/Keiichi_Okabe_NieR_Automata_-_Weight_of_the_World.ogg
+    - /Audio/_Daiquiri/Lobby/Videogames/Terraria_Calamity_Mod_-_The_Devourer_of_Gods.ogg
+    - /Audio/_Daiquiri/Lobby/Videogames/The_Rebel_Path_-_CD_Project_Red.ogg
+    - /Audio/_Daiquiri/Lobby/Videogames/V_-_CD_Project_Red.ogg
+
+- type: lobbyPlaylist
+  id: Rock
+  name: Рок
+  weight: 7
+  turnon: false
+  tracks:
+    - /Audio/_Daiquiri/Lobby/Rock/174_-_The_Rolling_Stones_-_Paint_It_Black_1966.ogg
+
+- type: lobbyPlaylist
+  id: Corvax
+  name: Corvax
+  weight: 2
+  turnon: true
+  tracks:
+    - /Audio/Lobby/absconditus.ogg
+    - /Audio/Lobby/the_wizard.ogg
+    - /Audio/Corvax/Lobby/service.ogg
+    - /Audio/Corvax/Lobby/nodecision.ogg
+
+- type: lobbyPlaylist
+  id: AdventureSpace
+  name: Adventure Space
+  weight: 3
+  turnon: true
+  tracks:
+    - /Audio/_Adventure/Lobby/Codebrain.ogg
+    - /Audio/_Adventure/Lobby/Downtown.ogg
+    - /Audio/_Adventure/Lobby/Exploring.ogg
+    - /Audio/_Adventure/Lobby/Metropolis.ogg
+    - /Audio/_Adventure/Lobby/PhoronLeak.ogg
+    - /Audio/_Adventure/Lobby/Phoronindustry.ogg
+    - /Audio/_Adventure/Lobby/Runner_in_motion.ogg
+
+- type: lobbyPlaylist
+  id: StarLight
+  name: StarLight
+  weight: 1
+  turnon: true
+  tracks:
     - /Audio/_Starlight/Lobby/cosmonaut.ogg
     - /Audio/_Starlight/Lobby/breacher.ogg
     - /Audio/_Starlight/Lobby/Resistance.ogg
@@ -31,47 +130,4 @@
     - /Audio/_Starlight/Lobby/HOME_Burn_Chamber_Starlight.ogg
     - /Audio/_Starlight/Lobby/stenchOfWhiskey.ogg
     - /Audio/_Starlight/Lobby/Null_Scar_Gaze.ogg
-
-- type: lobbyPlaylist
-  id: Other
-  name: Другое
-  turnon: false
-  tracks:
-    - /Audio/_Starlight/Lobby/test_ifyouwerehere.ogg
-    - /Audio/_Starlight/Lobby/test_alone.ogg
-
-- type: lobbyPlaylist
-  id: JPOP
-  name: JPOP
-  turnon: false
-  tracks:
-    - /Audio/_Starlight/Lobby/Jpop/Ado_-Useewa.ogg
-    - /Audio/_Starlight/Lobby/Jpop/Alive.ogg
-    - /Audio/_Starlight/Lobby/Jpop/ninelie.ogg
-
-- type: lobbyPlaylist
-  id: KPOP
-  name: KPOP
-  turnon: false
-  tracks:
-    - /Audio/_Starlight/Lobby/Kpop/BTS_-_butter.ogg
-    - /Audio/_Starlight/Lobby/Kpop/BTS_-_Dynamite.ogg
-    - /Audio/_Starlight/Lobby/Kpop/Stray_kids_-_Stray_kids.ogg
-
-- type: lobbyPlaylist
-  id: POP
-  name: POP
-  turnon: false
-  tracks:
-    - /Audio/_Starlight/Lobby/Pop/Elley_Duhe_-_Middle_of_the_Night.ogg
-    - /Audio/_Starlight/Lobby/Pop/Katy_Perry_-_Hot_N_Cold.ogg
-    - /Audio/_Starlight/Lobby/test_judos.ogg
-
-- type: lobbyPlaylist
-  id: Videogames
-  name: Видеоигры
-  turnon: false
-  tracks:
-    - /Audio/_Starlight/Lobby/Videogames/The_Rebel_Path.ogg
-    - /Audio/_Starlight/Lobby/Videogames/Keiichi_Okabe_NieR_Automata_-_Weight_of_the_World.ogg
-    - /Audio/_Starlight/Lobby/Videogames/V_-_CD_Project_Red.ogg
+    - /Audio/_Starlight/Lobby/Liberation.ogg

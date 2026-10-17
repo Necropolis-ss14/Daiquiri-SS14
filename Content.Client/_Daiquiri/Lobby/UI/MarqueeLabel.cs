@@ -77,7 +77,7 @@ public sealed partial class MarqueeLabel : Label
             return;
         }
 
-        // Daiquiri: tile the text to fill the whole width so there is never an empty gap.
+        // Daiquiri
         var unit = _fullText + Gap;
         var need = unit.Length;
         if (Size.X > 0)

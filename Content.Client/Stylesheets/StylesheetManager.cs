@@ -49,7 +49,7 @@ namespace Content.Client.Stylesheets
         }
 
         /// <summary>
-        /// Daiquiri: live swap between the opaque and translucent ("liquid glass") interface theme.
+        /// Daiquiri
         /// </summary>
         public void SetGlassTheme(bool enabled)
         {

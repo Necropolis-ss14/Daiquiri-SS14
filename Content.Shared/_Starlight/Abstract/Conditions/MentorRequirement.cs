@@ -21,7 +21,7 @@ public sealed partial class MentorRequirement : BaseRequirement
     {
         base.Handle(user);
 
-        // Daiquiri: anyone who may answer mentor helps - NullLink mentors or admins with the adminhelp flag.
+        // Daiquiri
         return _roles.IsMentor(user) || _admins.HasFlag(user, AdminFlags.Adminhelp);
     }
 }

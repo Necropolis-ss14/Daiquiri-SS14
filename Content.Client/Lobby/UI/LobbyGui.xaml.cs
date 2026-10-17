@@ -23,7 +23,7 @@ namespace Content.Client.Lobby.UI
 
         private string _serverName = string.Empty;
 
-        // Daiquiri: panel hover fade, 1% per 0.05s down to 95% opacity and back.
+        // Daiquiri
         // Fades only the panel's own background: ModulateSelf never reaches children,
         // so inner plaques (e.g. the name/age card) stay crisp. Reads the live
         // stylesheet tint each step, so glass transparency keeps working.
@@ -54,9 +54,9 @@ namespace Content.Client.Lobby.UI
             ServerName.Text = Loc.GetString("ui-lobby-welcome", ("name", _serverName));
             //Starlight end
 
-        // Daiquiri: fade panel backgrounds while hovering them (works with glass too).
+        // Daiquiri
         Timer.Spawn(120, () => PollPanelHover());
-        // Daiquiri: theme switch drops stale fade overrides so panels redraw fully fresh.
+        // Daiquiri
         _configurationManager.OnValueChanged(StarlightCCVars.StyleTheme, _ => ResetPanelFades());
         }
 
@@ -104,7 +104,7 @@ namespace Content.Client.Lobby.UI
                 if (panel.Disposed)
                     continue;
                 var hovered = panel.GlobalRect.Contains(mouse);
-                // Daiquiri: with the glass theme on, the fade runs in reverse —
+                // Daiquiri
                 // panels rest slightly faded and turn solid under the cursor.
                 // Rest fade is 10% with glass, hover fade is 5% without it.
                 float target;
@@ -154,7 +154,7 @@ namespace Content.Client.Lobby.UI
         }
 
         /// <summary>
-        /// Daiquiri: background-only fade for a panel. ModulateSelf never propagates
+        /// Daiquiri
         /// to children, so text and inner plaques stay crisp. At rest the override
         /// is cleared so the stylesheet (including live glass) rules fully.
         /// </summary>

@@ -17,6 +17,6 @@ access-group-name-pirate = Пират
 access-group-name-research = Наука
 access-group-name-security = Безопасность
 access-group-name-service = Сервис
-access-group-name-silicon = Кремний
+access-group-name-silicon = Силикон
 access-group-name-syndicate = Синдикат
 access-group-name-xenoborg = Ксеноборг

@@ -35,7 +35,7 @@ public sealed partial class LobbyMusicSwitcher : BoxContainer
     private ContentAudioSystem? _audio;
 
     /// <summary>
-    /// Daiquiri: whether animations should freeze (music paused). Never throws.
+    /// Daiquiri
     /// </summary>
     private bool AnimPaused()
     {
@@ -85,7 +85,7 @@ public sealed partial class LobbyMusicSwitcher : BoxContainer
 
     private bool _bouncing;
 
-    // Daiquiri: smooth high jump with a second bounce on landing.
+    // Daiquiri
     // Clicks are ignored until the whole sequence finishes.
     private static readonly float[] BounceHeights =
     {

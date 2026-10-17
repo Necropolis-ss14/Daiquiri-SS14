@@ -66,7 +66,7 @@ public sealed partial class DevilSystem : SharedDevilSystem
             // adds true name to the required patterns, as this dynamically changes between devils
             // this is also shit, preferably this would somehow be able to exist entirely in yaml
             var regexSanitisedTruename = NameSanitizeRegex().Replace(devilComp.TrueName, "");
-            // Daiquiri: single alternation pattern (IsPaperValid requires ALL patterns,
+            // Daiquiri
             // so en and ru clauses must live in one). Victims may sign in either language.
             parsableComp.RequiredPatterns.Add($"{Regex.Escape(regexSanitisedTruename)}, (an agent of hell\\.|агентом ада\\.).*");
         }
@@ -79,7 +79,7 @@ public sealed partial class DevilSystem : SharedDevilSystem
         return paper;
     }
 
-    // Daiquiri: allow Cyrillic so Russian true names survive sanitizing.
+    // Daiquiri
     [GeneratedRegex("^[-, a-zA-Z0-9А-Яа-яЁё]")]
     private static partial Regex NameSanitizeRegex();
 

@@ -9,7 +9,7 @@ using Robust.Shared.IoC;
 namespace Content.Server._Daiquiri.CartridgeLoader.Cartridges;
 
 /// <summary>
-/// Daiquiri: player-written PDA books, persisted to the server user data dir across rounds.
+/// Daiquiri
 /// </summary>
 public sealed partial class BookLibraryManager
 {
@@ -96,7 +96,7 @@ public sealed partial class BookLibraryManager
 
         var books = Books;
         var existing = bookId != null ? books.FirstOrDefault(b => b.Id == bookId) : null;
-        // Daiquiri: edit/delete only by the creator or an admin.
+        // Daiquiri
         if (existing != null && existing.AuthorKey != authorKey && !isAdmin)
         {
             error = "not-yours";

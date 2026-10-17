@@ -74,7 +74,7 @@ namespace Content.Client.Info
             creditsButton.OnPressed += args => new CreditsWindow().Open();
             buttons.AddChild(creditsButton);
 
-            // Daiquiri: small lobby music play/pause button right after authors.
+            // Daiquiri
             var musicButton = new Button { Text = "■", MinWidth = 32, Margin = new Thickness(6, 0, 0, 0) };
             musicButton.ToolTip = Loc.GetString("ui-lobby-music-pause-tooltip");
             musicButton.OnPressed += _ =>

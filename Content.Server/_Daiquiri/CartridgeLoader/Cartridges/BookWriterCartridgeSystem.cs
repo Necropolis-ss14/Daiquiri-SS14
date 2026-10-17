@@ -14,7 +14,7 @@ using Robust.Server.Player;
 namespace Content.Server._Daiquiri.CartridgeLoader.Cartridges;
 
 /// <summary>
-/// Daiquiri: PDA book writer. Books persist on the server across rounds.
+/// Daiquiri
 /// </summary>
 public sealed partial class BookWriterCartridgeSystem : EntitySystem
 {
@@ -52,7 +52,7 @@ public sealed partial class BookWriterCartridgeSystem : EntitySystem
             return;
         }
 
-        // Daiquiri: drafts bind to the player account name, not the character.
+        // Daiquiri
         var viewerKey = session.Name;
         _lastViewer[uid] = viewerKey;
 
@@ -72,7 +72,7 @@ public sealed partial class BookWriterCartridgeSystem : EntitySystem
         if (message.Action == BookWriterUiAction.Save)
         {
             var isAdmin = _admins.HasAdminFlag(session, AdminFlags.Admin);
-            // Daiquiri: ownership key is the account name, display name is the character.
+            // Daiquiri
             if (_library.TrySaveBook(
                     viewerKey,
                     MetaData(args.Actor).EntityName,
@@ -106,7 +106,7 @@ public sealed partial class BookWriterCartridgeSystem : EntitySystem
     }
 
     /// <summary>
-    /// Daiquiri: spawn a physical book copy. Once per minute per player.
+    /// Daiquiri
     /// </summary>
     private void TryPrintBook(EntityUid actor, string viewerKey, string bookId)
     {
@@ -120,7 +120,7 @@ public sealed partial class BookWriterCartridgeSystem : EntitySystem
         if (book.Draft && book.AuthorKey != viewerKey)
             return;
 
-        // Daiquiri: old records lack decor — default like in the list view.
+        // Daiquiri
         var decor = string.IsNullOrEmpty(book.CoverDecor) ? "decor_spine" : book.CoverDecor;
         var variant = BookCoverVariants.Variants.FirstOrDefault(v =>
             v.Color == book.CoverColor && v.Decor == decor && v.Icon == book.CoverIcon);
@@ -137,7 +137,7 @@ public sealed partial class BookWriterCartridgeSystem : EntitySystem
 
         if (TryComp<PaperComponent>(printed, out var paper))
         {
-            // Daiquiri: formal page separation in printed copies.
+            // Daiquiri
             var body = book.Pages[0];
             for (var i = 1; i < book.Pages.Count; i++)
             {

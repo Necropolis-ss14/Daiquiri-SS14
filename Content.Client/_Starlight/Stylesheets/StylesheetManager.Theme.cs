@@ -87,7 +87,7 @@ public sealed partial class StylesheetManager
         SheetNanotrasen = sheet.Stylesheet;
         _userInterfaceManager.Stylesheet = SheetNanotrasen;
         RebuildHudSheet();
-        // Daiquiri: keep the glass variant in sync with the fresh base sheet.
+        // Daiquiri
         RequestGlassRebuild();
     }
 

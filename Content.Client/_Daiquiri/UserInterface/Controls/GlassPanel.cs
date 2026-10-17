@@ -64,7 +64,7 @@ public partial class GlassPanel : PanelContainer
         _cfg.OnValueChanged(StarlightCCVars.UIGlassTransparency, _onGlassInt);
         _cfg.OnValueChanged(StarlightCCVars.UIGlassAccentEnabled, _onGlassBool);
         _cfg.OnValueChanged(StarlightCCVars.UIGlassAccent, _onGlassString);
-        // Daiquiri: refresh backgrounds on interface theme switch too.
+        // Daiquiri
         _cfg.OnValueChanged(StarlightCCVars.StyleTheme, _onGlassString);
         _cfg.OnValueChanged(StarlightCCVars.StyleAccent, _onGlassString);
         _cfg.OnValueChanged(StarlightCCVars.StyleCustomAccent, _onGlassBool);

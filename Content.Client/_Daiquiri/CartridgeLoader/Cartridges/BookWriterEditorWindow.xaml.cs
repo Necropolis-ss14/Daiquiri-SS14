@@ -10,7 +10,7 @@ using Robust.Shared.Utility;
 namespace Content.Client._Daiquiri.CartridgeLoader.Cartridges;
 
 /// <summary>
-/// Daiquiri: standalone book editor window. PDA programs are too small for writing.
+/// Daiquiri
 /// </summary>
 public sealed partial class BookWriterEditorWindow : DefaultWindow
 {
@@ -202,7 +202,7 @@ public sealed partial class BookWriterEditorWindow : DefaultWindow
     }
 
     /// <summary>
-    /// Daiquiri: open with a draft to continue writing it.
+    /// Daiquiri
     /// </summary>
     public void LoadDraft(
         string id,

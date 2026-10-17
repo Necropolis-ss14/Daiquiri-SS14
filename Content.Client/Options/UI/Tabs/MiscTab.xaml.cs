@@ -48,7 +48,7 @@ public sealed partial class MiscTab : Control
         Control.AddOptionCheckBox(StarlightCCVars.ForceTestersTab, ForceTestersTab);
         // Starlight-end
 
-        // Daiquiri: sliders appear only when their checkbox is on.
+        // Daiquiri
         Control.Initialize();
         GlassTransparencyCheckBox.Visible = GlassThemeCheckBox.Pressed;
         GlassAlphaSlider.Visible = GlassThemeCheckBox.Pressed && GlassTransparencyCheckBox.Pressed;

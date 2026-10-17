@@ -1,7 +1,8 @@
 <DefaultWindow xmlns="https://spacestation14.io"
                xmlns:ui="clr-namespace:Content.Client.Options.UI"
+               xmlns:sui="clr-namespace:Content.Client._Starlight.Options.UI"
                Title="{Loc 'ui-glass-prompt-title'}"
-               MinSize="460 0">
+               MinSize="720 0">
     <BoxContainer Orientation="Vertical">
         <BoxContainer Name="GlassPage" Access="Public" Orientation="Vertical" Margin="8" SeparationOverride="8" Visible="False">
             <Label Text="{Loc 'ui-glass-prompt-line1'}" />
@@ -22,9 +23,8 @@
         <BoxContainer Name="ThemePage" Access="Public" Orientation="Vertical" Margin="8" SeparationOverride="8">
             <Label Text="{Loc 'ui-glass-prompt-theme-line'}" />
             <Label Text="{Loc 'ui-glass-prompt-theme-line2'}" />
-            <ui:OptionDropDown Name="ThemeDropDown" Access="Public" Title="{Loc 'ui-glass-prompt-theme'}" />
-            <CheckBox Name="StyleCustomAccentCheckBox" Access="Public" Text="{Loc 'ui-options-style-custom-accent'}" />
-            <ui:OptionColorSlider Name="StyleAccentSlider" Access="Public" Title="{Loc 'ui-options-style-accent'}" />
+            <sui:StyleThemePicker Name="ThemePicker" Access="Public" />
+            <sui:AccentPicker Name="AccentPicker" Access="Public" />
             <Button Name="NextButton" Access="Public" Text="{Loc 'ui-glass-prompt-next'}"
                     HorizontalAlignment="Right" />
         </BoxContainer>

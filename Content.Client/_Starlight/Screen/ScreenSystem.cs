@@ -470,7 +470,7 @@ public sealed partial class ScreenSystem : VisualizerSystem<ScreenVisualsCompone
             return value;
 
         // Or else it checks if its a normal letter or digit.
-        // Daiquiri: text.rsi has latin and Cyrillic glyphs; anything else is skipped.
+        // Daiquiri
         var str = character.Value.ToString().ToLowerInvariant();
         if (str.Length == 1)
         {

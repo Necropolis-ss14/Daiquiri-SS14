@@ -13,12 +13,12 @@
     xmlns:widgets="clr-namespace:Content.Client.UserInterface.Systems.Chat.Widgets">
     <!-- Background -->
     <TextureRect Access="Public" VerticalExpand="True" HorizontalExpand="True" Name="Background"
-                 Stretch="KeepAspectCovered" />
-    <BoxContainer Name="MainContainer" VerticalExpand="True" HorizontalExpand="True" Orientation="Horizontal"
+                 Stretch="KeepAspectCovered" MouseFilter="Stop" />
+    <BoxContainer Name="MainContainer" Access="Public" VerticalExpand="True" HorizontalExpand="True" Orientation="Horizontal"
                   Margin="10 10 10 10" SeparationOverride="2">
         <SplitContainer State="Auto" ResizeMode="NotResizable" HorizontalExpand="True">
             <!-- LHS Controls -->
-            <BoxContainer Name="LeftSide" Orientation="Vertical" SeparationOverride="4" HorizontalExpand="True">
+            <BoxContainer Name="LeftSide" Access="Public" Orientation="Vertical" SeparationOverride="4" HorizontalExpand="True">
                 <Control Name="DefaultState" VerticalExpand="True">
                     <BoxContainer Name="TopLeft" Orientation="Vertical">
                         <!-- Left Top Panel -->
@@ -58,7 +58,7 @@
 
                     <!-- Left Bot Panel -->
                     <BoxContainer Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Bottom" MaxWidth="600">
-                        <daiquiri:LobbyMusicSwitcher Name="MusicSwitcher" Access="Public" /> <!-- Daiquiri: music switcher instead of servers hub -->
+                        <daiquiri:LobbyMusicSwitcher Name="MusicSwitcher" Access="Public" /> <!-- Daiquiri -->
                         <PanelContainer Name="SongPanel" Access="Public" StyleClasses="BackgroundPanel" Margin="3 3 3 3">
                             <BoxContainer Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="3 3 3 3">
                                 <RichTextLabel Name="LobbySong" Access="Public" HorizontalAlignment="Left" />
@@ -66,6 +66,9 @@
                             </BoxContainer>
                         </PanelContainer>
                         <info:DevInfoBanner Name="DevInfoBanner" VerticalExpand="false" Margin="3 3 3 3" />
+                        <!-- Daiquiri -->
+                        <Button Name="HideUIButton" Access="Public" Text="{Loc 'ui-lobby-hide-ui-button'}"
+                                HorizontalAlignment="Left" Margin="3 3 3 3" />
                     </BoxContainer>
                     <!-- NullLink end -->
                 </Control>
@@ -87,7 +90,7 @@
                     </BoxContainer> STARLIGHT-->
                     <!-- Gold line
                     <controls:HLine StyleClasses="highlight" Thickness="2" /> STARLIGHT-->
-                    <!-- Daiquiri: 4 separate background cards -->
+                    <!-- Daiquiri -->
                     <PanelContainer Name="ButtonsCard" Access="Public" StyleClasses="BackgroundPanel" HorizontalAlignment="Right">
                         <BoxContainer Orientation="Horizontal" MinSize="0 40" HorizontalAlignment="Right" Margin="4">
                             <Button Name="AHelpButton" Access="Public" Text="{Loc 'ui-lobby-ahelp-button'}"
@@ -95,33 +98,37 @@
                             <vote:VoteCallMenuButton Name="CallVoteButton" StyleClasses="ButtonBig" />
                             <Button Name="OptionsButton" Access="Public" StyleClasses="ButtonBig"
                                     Text="{Loc 'ui-lobby-options-button'}" />
-                            <Button Name="LeaveButton" Access="Public" StyleClasses="ButtonBig"
-                                    Text="{Loc 'ui-lobby-leave-button'}" />
+                            <Button Name="LeaveButton" Access="Public" Text="{Loc 'ui-lobby-leave-button'}" StyleClasses="ButtonBig" />
                         </BoxContainer>
                     </PanelContainer>
-                    <!-- Daiquiri: character card + server info side by side -->
+                    <!-- Daiquiri -->
                     <BoxContainer Name="CharacterRow" Access="Public" Orientation="Horizontal" HorizontalExpand="True" HorizontalAlignment="Stretch" SeparationOverride="4">
-                        <!-- Server info -->
-                        <PanelContainer Name="ServerInfoCard" Access="Public" StyleClasses="BackgroundPanel">
-                            <BoxContainer Orientation="Vertical" Margin="4">
-                            <controls:NanoHeading Text="{Loc 'ui-lobby-server-info-block'}" />
-                            <info:ServerInfo Name="ServerInfo" Access="Public" MinSize="0 30" VerticalExpand="false"
-                                             Margin="3 3 3 3" MaxWidth="400" HorizontalAlignment="Left" />
-                            <Label Name="StationTime" Access="Public" FontColorOverride="{x:Static maths:Color.LightGray}"
-                                   Margin="3 3 3 3" HorizontalAlignment="Left" />
-                        </BoxContainer>
-                    </PanelContainer>
-                        <PanelContainer Name="CharacterCard" Access="Public" StyleClasses="BackgroundPanel" HorizontalExpand="True">
+                        <!-- Daiquiri -->
+                        <PanelContainer Name="ServerInfoCard" Access="Public" StyleClasses="BackgroundPanel"
+                                        MinWidth="300" MaxWidth="300">
+                            <!-- Daiquiri -->
+                            <ScrollContainer HScrollEnabled="False">
+                                <BoxContainer Orientation="Vertical" Margin="4">
+                                <controls:NanoHeading Text="{Loc 'ui-lobby-server-info-block'}" />
+                                <info:ServerInfo Name="ServerInfo" Access="Public" MinSize="0 30" VerticalExpand="false"
+                                                 Margin="3 3 3 3" HorizontalAlignment="Left" />
+                                <Label Name="StationTime" Access="Public" FontColorOverride="{x:Static maths:Color.LightGray}"
+                                       Margin="3 3 3 3" HorizontalAlignment="Left" />
+                                </BoxContainer>
+                            </ScrollContainer>
+                        </PanelContainer>
+                        <PanelContainer Name="CharacterCard" Access="Public" StyleClasses="BackgroundPanel"
+                                        HorizontalExpand="True" SizeFlagsStretchRatio="1">
                             <BoxContainer Orientation="Vertical" Margin="4" SeparationOverride="4">
                                 <controls:NanoHeading Text="{Loc 'lobby-character-preview-panel-header'}" />
-                                <!-- Daiquiri: own background for the name/age, never faded -->
+                                <!-- Daiquiri -->
                                 <PanelContainer Name="CharacterTextCard" Access="Public" StyleClasses="BackgroundPanel" HorizontalAlignment="Center">
                                     <BoxContainer Orientation="Vertical" Margin="4" SeparationOverride="2">
                                         <Label Name="CharacterName" Access="Public"
-                                               HorizontalExpand="True" HorizontalAlignment="Center"
+                                               HorizontalAlignment="Center"
                                                FontColorOverride="{x:Static maths:Color.White}" />
                                         <Label Name="CharacterAge" Access="Public"
-                                               HorizontalExpand="True" HorizontalAlignment="Center"
+                                               HorizontalAlignment="Center"
                                                FontColorOverride="{x:Static maths:Color.White}" />
                                     </BoxContainer>
                                 </PanelContainer>
@@ -146,7 +153,7 @@
                         </BoxContainer>
                     </PanelContainer>
                 </BoxContainer>
-                <TextureButton Name="CollapseButton"
+                <TextureButton Name="CollapseButton" Access="Public"
                                 TexturePath="filled_right_arrow.svg.192dpi"
                                 HorizontalAlignment="Right"
                                 VerticalAlignment="Top"
@@ -155,7 +162,7 @@
                                 Scale="0.5 0.5"/>
             </PanelContainer>
         </SplitContainer>
-        <PanelContainer Name="ExpandPanel"
+        <PanelContainer Name="ExpandPanel" Access="Public"
                         StyleClasses="BackgroundPanel"
                         HorizontalAlignment="Right"
                         VerticalAlignment="Top"

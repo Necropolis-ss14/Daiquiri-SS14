@@ -82,7 +82,7 @@ public sealed partial class BookWriterUiFragment : BoxContainer
         genrePick.OnItemSelected += args =>
         {
             _genreFilter = args.Id <= 0 ? "" : BookWriterCovers.Genres[args.Id - 1].Value;
-            // Daiquiri: engine doesn't refresh the label on pick — do it manually.
+            // Daiquiri
             genrePick.Select(args.Id <= 0
                 ? 0
                 : Array.FindIndex(BookWriterCovers.Genres, g => g.Value == _genreFilter) + 1);
@@ -118,14 +118,14 @@ public sealed partial class BookWriterUiFragment : BoxContainer
     }
 
     /// <summary>
-    /// Daiquiri: refresh only the content area so the search box never loses focus.
+    /// Daiquiri
     /// </summary>
     private void RefreshList()
     {
         EnsureChrome();
         if (_content == null || _chrome == null)
             return;
-        // Daiquiri: search belongs to the list view only.
+        // Daiquiri
         if (_searchRow != null)
         {
             if (_searchRow.Parent == null)
@@ -233,7 +233,7 @@ public sealed partial class BookWriterUiFragment : BoxContainer
 
     private bool MatchesFilter(BookWriterBookInfo book)
     {
-        // Daiquiri: drafts view shows only the viewer's own drafts (server filters).
+        // Daiquiri
         if (_draftsOnly && !book.Draft)
             return false;
         if (!string.IsNullOrEmpty(_genreFilter) && book.Genre != _genreFilter)
@@ -247,7 +247,7 @@ public sealed partial class BookWriterUiFragment : BoxContainer
     }
 
     /// <summary>
-    /// Daiquiri: continue writing a draft (or editing an own book) in the editor window.
+    /// Daiquiri
     /// </summary>
     private void OpenDraft(string id)
     {
@@ -285,7 +285,7 @@ public sealed partial class BookWriterUiFragment : BoxContainer
         EnsureChrome();
         if (_content == null)
             return;
-        // Daiquiri: search out of layout in read view (it rebuilds the list).
+        // Daiquiri
         _searchRow?.Orphan();
         _content.RemoveAllChildren();
         _readPage = Math.Clamp(_readPage, 0, book.Pages.Count - 1);
@@ -343,7 +343,7 @@ public sealed partial class BookWriterUiFragment : BoxContainer
         var print = new Button { Text = Loc.GetString("book-writer-print"), HorizontalExpand = true };
         print.OnPressed += _ =>
         {
-            // Daiquiri: cooldown warning popup at the cursor.
+            // Daiquiri
             if (_printCooldown > 0)
             {
                 var popup = new Popup();

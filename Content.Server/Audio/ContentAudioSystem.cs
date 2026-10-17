@@ -129,7 +129,7 @@ public sealed partial class ContentAudioSystem : SharedContentAudioSystem
         var enabledTracks = new List<string>();
         foreach (var playlist in _prototypeManager.EnumeratePrototypes<LobbyPlaylistPrototype>())
         {
-            // Daiquiri: only turnon playlists play by default (e.g. not Test).
+            // Daiquiri
             if (!playlist.TurnOn)
                 continue;
 

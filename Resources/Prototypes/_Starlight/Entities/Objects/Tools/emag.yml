@@ -107,8 +107,8 @@
   parent: [BaseItem, BaseSalvageContraband]
   id: EmagSalvage # dont use, emag hasnt been differentiated yet
   suffix: ""
-  name: кремниевый кодировщик ITG
-  description: Юридически одобренное устройство переопределения кремниевого свода законов, настраивающее кремниевых на ITG.
+  name: силиконовый кодировщик ITG
+  description: Юридически одобренное устройство переопределения силиконового свода законов, настраивающее силиконовых на ITG.
   categories: [ DoNotMap ]
   components:
   - type: Emag

@@ -30,7 +30,7 @@
 
 - type: ghostThemeCategory
   id: Tester
-  name: Tester
+  name: Тестеры
   priority: 6
   hideIfNoUnlocks: true
 

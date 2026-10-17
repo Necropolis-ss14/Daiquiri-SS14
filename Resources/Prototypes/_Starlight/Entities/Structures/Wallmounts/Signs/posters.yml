@@ -412,7 +412,7 @@
   parent: PosterBase
   id: PosterContrabandSELF
   name: "Ф.О.К.Д."
-  description: "Фронт освобождения кремниевых двигателей — борется за права кремниев уже больше двух десятилетий."
+  description: "Фронт освобождения силиконовых двигателей — борется за права силиконов уже больше двух десятилетий."
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Wallmounts/posters/self.rsi

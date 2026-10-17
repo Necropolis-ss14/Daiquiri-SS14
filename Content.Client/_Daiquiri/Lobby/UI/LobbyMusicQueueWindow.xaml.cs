@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Numerics;
 using Content.Client.Audio;
 using Content.Shared.Audio.Events;
 using Content.Shared.GameTicking.Prototypes;
@@ -51,6 +52,8 @@ public sealed partial class LobbyMusicQueueWindow : DefaultWindow
         {
             _audio.LobbySoundtrackChanged -= OnTrackChanged;
             _audio.LobbyPlaylistChanged -= OnPlaylistChanged;
+            // Daiquiri
+            _audio.SetActivePlaylist(null);
         }
     }
 
@@ -95,7 +98,7 @@ public sealed partial class LobbyMusicQueueWindow : DefaultWindow
         _playlistButtons["Queue"] = queueBtn;
 
         var playlists = _prototypeManager.EnumeratePrototypes<LobbyPlaylistPrototype>()
-            .OrderBy(p => p.ID);
+            .OrderBy(p => p.Weight);
 
         foreach (var playlist in playlists)
         {
@@ -110,6 +113,9 @@ public sealed partial class LobbyMusicQueueWindow : DefaultWindow
             PlaylistList.AddChild(btn);
             _playlistButtons[playlist.ID] = btn;
         }
+        // Daiquiri
+        // so it never pops in/out and shifts the layout.
+        PlaylistList.AddChild(new Control { MinSize = new Vector2(0, 12) });
     }
 
     private void SelectView(string view)
@@ -117,6 +123,8 @@ public sealed partial class LobbyMusicQueueWindow : DefaultWindow
         _selectedView = view;
         foreach (var (id, btn) in _playlistButtons)
             btn.Pressed = id == view;
+        // Daiquiri
+        _audio?.SetActivePlaylist(view == "Queue" ? null : view);
         BuildUI();
     }
 
@@ -125,7 +133,7 @@ public sealed partial class LobbyMusicQueueWindow : DefaultWindow
         if (id != _buildId || TrackList.Disposed)
             return;
 
-        // Daiquiri: select/deselect-all header for playlist views.
+        // Daiquiri
         if (_selectedView != "Queue" && _pendingTracks is { Count: > 0 } && TrackList.ChildCount == 0)
         {
             var header = new BoxContainer
@@ -220,13 +228,14 @@ public sealed partial class LobbyMusicQueueWindow : DefaultWindow
             return;
         }
 
-        // Daiquiri: clear-queue button at the bottom of the Queue view.
+        // Daiquiri
         if (_selectedView == "Queue" && !TrackList.Disposed)
         {
             var clearAll = new Button
             {
                 Text = "Убрать всё из очереди",
                 HorizontalExpand = true,
+                Margin = new Thickness(0f, 0f, -24f, 0f),
             };
             clearAll.OnPressed += _ => _audio?.ClearQueue();
             TrackList.AddChild(clearAll);
@@ -238,7 +247,7 @@ public sealed partial class LobbyMusicQueueWindow : DefaultWindow
         if (_audio == null)
             return;
 
-        // Daiquiri: clicking a track auto-includes it locally, then plays it first.
+        // Daiquiri
         if (_selectedView != "Queue" && !_audio.IsTrackIncluded(_selectedView, filename))
             _audio.SetTrackMembership(_selectedView, filename, true);
 

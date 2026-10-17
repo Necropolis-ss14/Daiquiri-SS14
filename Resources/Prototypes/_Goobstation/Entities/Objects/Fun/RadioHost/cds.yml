@@ -92,8 +92,8 @@
 - type: entity
   parent: BaseCDDisc
   id: CDAdvertBecomeSilicon
-  name: "CD: Стань кремнием"
-  description: Диск с предзаписанной рекламой от вашего местного кремниевого владыки.
+  name: "CD: Стань силиконом"
+  description: Диск с предзаписанной рекламой от вашего местного силиконового владыки.
   components:
   - type: Vinyl
     song:

@@ -363,9 +363,11 @@ public sealed partial class ContentAudioSystem
         EnsureQueueState();
         if (add)
         {
-            if (_localRemovedTracks.TryGetValue(playlistId, out var set))
-                set.Remove(trackPath);
             // Daiquiri
+            // in several playlists whose untouched turnon:false sets would veto it.
+            foreach (var set in _localRemovedTracks.Values)
+                set.Remove(trackPath);
+            _localRemovedGlobal.Remove(trackPath);
             if ((_lobbyPlaylist == null || !_lobbyPlaylist.Contains(trackPath))
                 && !_localAddedTracks.Contains(trackPath))
                 _localAddedTracks.Add(trackPath);
@@ -608,7 +610,7 @@ public sealed partial class ContentAudioSystem
 
     private void SkipLobbyTrack(int direction)
     {
-        var pool = LocalPool();
+        var pool = ActivePool() is { Length: > 0 } active ? active : LocalPool();
         if (pool is not { Length: > 0 }
             || !_configManager.GetCVar(CCVars.LobbyMusicEnabled)
             || _state.CurrentState is not LobbyState)
@@ -621,6 +623,29 @@ public sealed partial class ContentAudioSystem
         var nextIndex = (index + direction + pool.Length) % pool.Length;
 
         PlayLobbyTrack(pool[nextIndex]);
+    }
+
+    /// <summary>
+    /// Daiquiri
+    /// </summary>
+    private string? _activePlaylistId;
+
+    public void SetActivePlaylist(string? playlistId)
+    {
+        _activePlaylistId = playlistId;
+    }
+
+    private string[]? ActivePool()
+    {
+        if (_activePlaylistId == null)
+            return null;
+        if (!_proto.TryIndex<LobbyPlaylistPrototype>(_activePlaylistId, out var proto))
+            return null;
+        var included = proto.Tracks
+            .Select(t => t.ToString())
+            .Where(t => IsTrackIncluded(_activePlaylistId, t))
+            .ToArray();
+        return included.Length > 0 ? included : null;
     }
 
     #endregion
@@ -795,7 +820,8 @@ public sealed partial class ContentAudioSystem
             return;
         }
 
-        var pool = LocalPool();
+        // Daiquiri
+        var pool = ActivePool() is { Length: > 0 } active ? active : LocalPool();
         if (pool is not { Length: > 0 })
         {
             // Daiquiri
@@ -815,6 +841,13 @@ public sealed partial class ContentAudioSystem
             && (!TryComp(_lobbySoundtrackInfo.MusicStreamEntityUid, out AudioComponent? comp) || !comp.Playing))
         {
             // Daiquiri
+            if (_lobbySoundtrackInfo.NextTrackOn - _timing.CurTime <= TimeSpan.FromSeconds(5))
+            {
+                var loopSoundtrackFilename = GetNextSoundtrackFromPlaylist(_lobbySoundtrackInfo.Filename, pool);
+                EndLobbyMusic();
+                PlaySoundtrack(loopSoundtrackFilename);
+                return;
+            }
             _sawmill.Debug("Lobby stream died mid-track, pausing instead of advancing.");
             if (LobbyTrackLengthSeconds is { } deadLength)
                 _lobbyPausePosition = Math.Clamp(deadLength - (float) (_lobbySoundtrackInfo.NextTrackOn - _timing.CurTime).TotalSeconds, 0f, deadLength);

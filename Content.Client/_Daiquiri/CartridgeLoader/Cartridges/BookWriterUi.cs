@@ -23,7 +23,7 @@ public sealed partial class BookWriterUi : UIFragment
             SendBookMessage(BookWriterUiAction.Delete, id, "", "", "", "", "", "", false, new List<string>(), userInterface);
         _fragment.OnPrintBook += id =>
             SendBookMessage(BookWriterUiAction.Print, id, "", "", "", "", "", "", false, new List<string>(), userInterface);
-        // Daiquiri: identify the viewer so the server sends their drafts.
+        // Daiquiri
         SendBookMessage(BookWriterUiAction.Hello, "", "", "", "", "", "", "", false, new List<string>(), userInterface);
     }
 

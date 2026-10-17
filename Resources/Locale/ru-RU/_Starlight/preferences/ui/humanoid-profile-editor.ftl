@@ -4,7 +4,7 @@ humanoid-profile-editor-width-label = Вес: {$weight}кг
 humanoid-profile-editor-slider-reset = Сбросить
 
 humanoid-profile-editor-voice-select = Выбрать голос
-humanoid-profile-editor-silicon-voice-select = Выбрать голос кремниевого
+humanoid-profile-editor-silicon-voice-select = Выбрать голос киборга
 
 voice-selector-title = Выбор голоса
 voice-selector-gender-all = Все гендеры

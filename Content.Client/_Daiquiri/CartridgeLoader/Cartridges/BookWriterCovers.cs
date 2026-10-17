@@ -9,12 +9,12 @@ using Robust.Shared.Utility;
 namespace Content.Client._Daiquiri.CartridgeLoader.Cartridges;
 
 /// <summary>
-/// Daiquiri: shared cover presets and cover preview for PDA books.
+/// Daiquiri
 /// </summary>
 public static class BookWriterCovers
 {
     /// <summary>
-    /// Daiquiri: cover variants (single source in shared).
+    /// Daiquiri
     /// </summary>
     public static (string Loc, string Color, string Decor, string Icon, string Proto)[] Variants =>
         Content.Shared.CartridgeLoader.Cartridges.BookCoverVariants.Variants;
@@ -52,11 +52,11 @@ public static class BookWriterCovers
     private const string DecorTint = "#e8dcc0";
 
     /// <summary>
-    /// Daiquiri: book cover like in-game books — colored cover, decor stripe, icon on top.
+    /// Daiquiri
     /// </summary>
     public static PanelContainer CoverPanel(string colorHex, string decor, string icon)
     {
-        // Daiquiri: old records lack these — fall back to defaults.
+        // Daiquiri
         if (string.IsNullOrEmpty(colorHex))
             colorHex = "#1134A6";
         if (string.IsNullOrEmpty(decor))

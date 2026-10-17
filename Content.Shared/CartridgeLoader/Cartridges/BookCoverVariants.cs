@@ -1,7 +1,7 @@
 namespace Content.Shared.CartridgeLoader.Cartridges;
 
 /// <summary>
-/// Daiquiri: printable book cover variants. Single source for client preview and server printing.
+/// Daiquiri
 /// </summary>
 public static class BookCoverVariants
 {

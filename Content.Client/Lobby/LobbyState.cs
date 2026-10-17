@@ -7,6 +7,7 @@ using Content.Client._Daiquiri.Lobby.UI; // Daiquiri
 using Content.Client.Message;
 using Content.Client.Options.UI; // Daiquiri
 using Content.Client.Playtime;
+using Content.Client.Resources; // Daiquiri
 using Content.Client.UserInterface.Systems.Chat;
 using Content.Client.Voting;
 using Content.Shared.CCVar;
@@ -14,10 +15,12 @@ using Content.Shared.GameTicking.Prototypes;
 using Content.Shared._Starlight.CCVar; // Daiquiri
 using Robust.Client;
 using Robust.Client.Console;
+using Robust.Client.Input; // Daiquiri
 using Robust.Client.ResourceManagement;
 using Robust.Client.UserInterface;
 using Robust.Client.UserInterface.Controls;
 using Robust.Shared.Configuration;
+using Robust.Shared.Input; // Daiquiri
 using Robust.Shared.Player;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Timing;
@@ -38,6 +41,8 @@ namespace Content.Client.Lobby
         [Dependency] private IEntityManager _entityManager = default!;
         [Dependency] private IResourceCache _resourceCache = default!;
         [Dependency] private IUserInterfaceManager _userInterfaceManager = default!;
+        // Daiquiri
+        [Dependency] private IInputManager _input = default!;
         [Dependency] private IGameTiming _gameTiming = default!;
         [Dependency] private IVoteManager _voteManager = default!;
         [Dependency] private ClientsidePlaytimeTrackingManager _playtimeTracking = default!;
@@ -88,6 +93,9 @@ namespace Content.Client.Lobby
             UpdateLobbyUi();
 
             Lobby.CharacterSetupButton.OnPressed += OnSetupPressed;
+            // Daiquiri
+            Lobby.HideUIButton.OnPressed += OnHideUIPressed;
+            Lobby.Background.OnKeyBindDown += OnLobbyBackgroundPressed;
             Lobby.MusicSwitcher.PrevButton.OnPressed += OnMusicPrevPressed;
             Lobby.MusicSwitcher.NextButton.OnPressed += OnMusicNextPressed;
             Lobby.MusicSwitcher.QueueButton.OnPressed += OnMusicQueuePressed;
@@ -142,6 +150,11 @@ namespace Content.Client.Lobby
             _voteManager.ClearPopupContainer();
 
             Lobby!.CharacterSetupButton.OnPressed -= OnSetupPressed;
+            // Daiquiri
+            Lobby!.HideUIButton.OnPressed -= OnHideUIPressed;
+            Lobby!.Background.OnKeyBindDown -= OnLobbyBackgroundPressed;
+            // Daiquiri
+            _input.FirstChanceOnKeyEvent -= OnAnyInputRestore;
             Lobby!.MusicSwitcher.PrevButton.OnPressed -= OnMusicPrevPressed;
             Lobby!.MusicSwitcher.NextButton.OnPressed -= OnMusicNextPressed;
             Lobby!.MusicSwitcher.QueueButton.OnPressed -= OnMusicQueuePressed;
@@ -161,6 +174,54 @@ namespace Content.Client.Lobby
         {
             SetReady(false);
             Lobby?.SwitchState(LobbyGui.LobbyGuiState.CharacterSetup);
+        }
+
+        // Daiquiri
+        private bool _expandPanelWasVisible;
+        private bool _uiHidden;
+
+        // Daiquiri
+        private void OnHideUIPressed(BaseButton.ButtonEventArgs args)
+        {
+            if (Lobby == null)
+                return;
+            _expandPanelWasVisible = Lobby.ExpandPanel.Visible;
+            Lobby.LeftSide.Visible = false;
+            Lobby.RightSide.Visible = false;
+            Lobby.CollapseButton.Visible = false;
+            Lobby.ExpandPanel.Visible = false;
+            _uiHidden = true;
+            _input.FirstChanceOnKeyEvent += OnAnyInputRestore;
+        }
+
+        // Daiquiri
+        private void OnAnyInputRestore(KeyEventArgs keyEvent, KeyEventType type)
+        {
+            if (type != KeyEventType.Down)
+                return;
+            _input.FirstChanceOnKeyEvent -= OnAnyInputRestore;
+            // Daiquiri
+            keyEvent.Handle();
+            if (Lobby == null)
+                return;
+            _uiHidden = false;
+            Lobby.LeftSide.Visible = true;
+            Lobby.RightSide.Visible = true;
+            Lobby.CollapseButton.Visible = true;
+            Lobby.ExpandPanel.Visible = _expandPanelWasVisible;
+        }
+
+        // Daiquiri
+        private void OnLobbyBackgroundPressed(GUIBoundKeyEventArgs args)
+        {
+            // Daiquiri
+            if (args.Function != EngineKeyFunctions.UIClick || Lobby == null || !_uiHidden)
+                return;
+            _uiHidden = false;
+            Lobby.LeftSide.Visible = true;
+            Lobby.RightSide.Visible = true;
+            Lobby.CollapseButton.Visible = true;
+            Lobby.ExpandPanel.Visible = _expandPanelWasVisible;
         }
 
         private void OnReadyPressed(BaseButton.ButtonEventArgs args)
@@ -309,6 +370,24 @@ namespace Content.Client.Lobby
             }
             Lobby.CharacterSprite.LoadPreview(profile);
             Lobby.CharacterName.Text = Loc.GetString("lobby-character-card-name", ("name", profile.Name));
+
+            // Daiquiri
+            var nameLength = profile.Name.Length;
+            if (nameLength > 15)
+            {
+                var size = Math.Max(9, (int)MathF.Round(12f * MathF.Max(0.75f, 15f / nameLength)));
+                Lobby.CharacterName.FontOverride = _resourceCache.GetFont(new[]
+                {
+                    "/Fonts/NotoSans/NotoSans-Regular.ttf",
+                    "/Fonts/NotoSans/NotoSansSymbols-Regular.ttf",
+                    "/Fonts/NotoSans/NotoSansSymbols2-Regular.ttf"
+                }, size);
+            }
+            else
+            {
+                Lobby.CharacterName.FontOverride = null;
+            }
+
             Lobby.CharacterAge.Text = Loc.GetString("lobby-character-card-age", ("age", profile.Age), ("gender", profile.Gender.ToString().ToLowerInvariant()));
         }
 

@@ -244,7 +244,7 @@
   parent: [ EncryptionKey, BaseScienceContraband, BaseSiliconContraband ] # Blimpuf
   id: EncryptionKeyBinary
   name: бинарный ключ-переводчик
-  description: Ключ шифрования, переводящий бинарные сигналы, используемые кремниевыми формами жизни.
+  description: Ключ шифрования, переводящий бинарные сигналы, используемые силиконовыми формами жизни.
   components:
   - type: EncryptionKey
     channels:
@@ -259,7 +259,7 @@
   parent: [ EncryptionKey, BaseSyndicateContraband ]
   id: EncryptionKeyBinarySyndicate
   name: синдикатский бинарный ключ-переводчик
-  description: Синдикатский ключ шифрования, переводящий бинарные сигналы, используемые кремниевыми формами жизни.
+  description: Синдикатский ключ шифрования, переводящий бинарные сигналы, используемые силиконовыми формами жизни.
   components:
   - type: EncryptionKey
     channels:

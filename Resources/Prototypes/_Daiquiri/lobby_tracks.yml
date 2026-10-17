@@ -115,65 +115,149 @@
   title: Null Scar Gaze
 
 - type: lobbyTrack
-  id: /Audio/_Starlight/Lobby/test_nox_lux.ogg
+  id: /Audio/_Daiquiri/Lobby/test_nox_lux.ogg
   title: NOX LUX
 
-- type: lobbyTrack
-  id: /Audio/_Starlight/Lobby/test_moment_apart.ogg
-  title: A Moment Apart VIP
 
 - type: lobbyTrack
-  id: /Audio/_Starlight/Lobby/test_judos.ogg
+  id: /Audio/_Daiquiri/Lobby/test_judos.ogg
   title: Judos
 
 - type: lobbyTrack
-  id: /Audio/_Starlight/Lobby/test_ifyouwerehere.ogg
+  id: /Audio/_Daiquiri/Lobby/test_ifyouwerehere.ogg
   title: If You Were Here
 
 - type: lobbyTrack
-  id: /Audio/_Starlight/Lobby/test_alone.ogg
+  id: /Audio/_Daiquiri/Lobby/test_alone.ogg
   title: Alone
 
 - type: lobbyTrack
-  id: /Audio/_Starlight/Lobby/Jpop/Ado_-Useewa.ogg
+  id: /Audio/_Daiquiri/Lobby/Jpop/Ado_-_Useewa.ogg
   title: Ado - Useewa
 
 - type: lobbyTrack
-  id: /Audio/_Starlight/Lobby/Jpop/Alive.ogg
-  title: Alive
+  id: /Audio/_Daiquiri/Lobby/Jpop/Aimer_with_chelly_(EGOIST)_-_ninelie.ogg
+  title: Aimer with chelly (EGOIST) - ninelie
 
 - type: lobbyTrack
-  id: /Audio/_Starlight/Lobby/Jpop/ninelie.ogg
-  title: ninelie
+  id: /Audio/_Daiquiri/Lobby/Jpop/Alive_-ClariS.ogg
+  title: Alive - ClariS
 
 - type: lobbyTrack
-  id: /Audio/_Starlight/Lobby/Kpop/BTS_-_butter.ogg
+  id: /Audio/_Daiquiri/Lobby/Jpop/Crossing_field_-_Lisa.ogg
+  title: Crossing field - Lisa
+
+- type: lobbyTrack
+  id: /Audio/_Daiquiri/Lobby/Jpop/Koko_de_ikiteru_-_jon-YAKITORY.ogg
+  title: Koko de ikiteru - jon-YAKITORY
+
+- type: lobbyTrack
+  id: /Audio/_Daiquiri/Lobby/Kpop/A2O_-_Neon.ogg
+  title: A2O - Neon
+
+- type: lobbyTrack
+  id: /Audio/_Daiquiri/Lobby/Kpop/BTS_-_Butter.ogg
   title: BTS - Butter
 
 - type: lobbyTrack
-  id: /Audio/_Starlight/Lobby/Kpop/BTS_-_Dynamite.ogg
+  id: /Audio/_Daiquiri/Lobby/Kpop/BTS_-_Dynamite.ogg
   title: BTS - Dynamite
 
 - type: lobbyTrack
-  id: /Audio/_Starlight/Lobby/Kpop/Stray_kids_-_Stray_kids.ogg
+  id: /Audio/_Daiquiri/Lobby/Kpop/Stray_Kids_-_Stray_Kids.ogg
   title: Stray Kids - Stray Kids
 
 - type: lobbyTrack
-  id: /Audio/_Starlight/Lobby/Pop/Elley_Duhe_-_Middle_of_the_Night.ogg
+  id: /Audio/_Daiquiri/Lobby/Pop/Elley_Duhe_-_Middle_of_the_Night.ogg
   title: Elley Duhe - Middle of the Night
 
 - type: lobbyTrack
-  id: /Audio/_Starlight/Lobby/Pop/Katy_Perry_-_Hot_N_Cold.ogg
+  id: /Audio/_Daiquiri/Lobby/Pop/Katy_Perry_-_Hot_N_Cold.ogg
   title: Katy Perry - Hot N Cold
 
 - type: lobbyTrack
-  id: /Audio/_Starlight/Lobby/Videogames/The_Rebel_Path.ogg
-  title: The Rebel Path
+  id: /Audio/_Daiquiri/Lobby/Videogames/08_Sciel_(Music_Box).ogg
+  title: Sciel (Music Box)
 
 - type: lobbyTrack
-  id: /Audio/_Starlight/Lobby/Videogames/Keiichi_Okabe_NieR_Automata_-_Weight_of_the_World.ogg
+  id: /Audio/_Daiquiri/Lobby/Videogames/13_Spring_Meadows_-_Eveil.ogg
+  title: Spring Meadows - Eveil
+
+- type: lobbyTrack
+  id: /Audio/_Daiquiri/Lobby/Videogames/23_Clair-Obscur.ogg
+  title: Clair-Obscur
+
+- type: lobbyTrack
+  id: /Audio/_Daiquiri/Lobby/Videogames/62_The_Reacher_-_Vers_le_Sommet.ogg
+  title: The Reacher - Vers le Sommet
+
+- type: lobbyTrack
+  id: /Audio/_Daiquiri/Lobby/Videogames/Keiichi_Okabe_NieR_Automata_-_Weight_of_the_World.ogg
   title: Weight of the World
 
 - type: lobbyTrack
-  id: /Audio/_Starlight/Lobby/Videogames/V_-_CD_Project_Red.ogg
+  id: /Audio/_Daiquiri/Lobby/Videogames/Terraria_Calamity_Mod_-_The_Devourer_of_Gods.ogg
+  title: Terraria Calamity Mod - The Devourer of Gods
+
+- type: lobbyTrack
+  id: /Audio/_Daiquiri/Lobby/Videogames/The_Rebel_Path_-_CD_Project_Red.ogg
+  title: The Rebel Path - CD Project Red
+
+- type: lobbyTrack
+  id: /Audio/_Daiquiri/Lobby/Videogames/V_-_CD_Project_Red.ogg
   title: V - CD Project Red
+
+- type: lobbyTrack
+  id: /Audio/_Daiquiri/Lobby/Rock/174_-_The_Rolling_Stones_-_Paint_It_Black_1966.ogg
+  title: The Rolling Stones - Paint It Black (1966)
+
+- type: lobbyTrack
+  id: /Audio/Lobby/absconditus.ogg
+  title: Absconditus
+
+- type: lobbyTrack
+  id: /Audio/Lobby/the_wizard.ogg
+  title: The Wizard
+
+- type: lobbyTrack
+  id: /Audio/Corvax/Lobby/service.ogg
+  title: Service
+
+- type: lobbyTrack
+  id: /Audio/Corvax/Lobby/nodecision.ogg
+  title: No Decision
+
+- type: lobbyTrack
+  id: /Audio/_Adventure/Lobby/Codebrain.ogg
+  title: Codebrain
+
+- type: lobbyTrack
+  id: /Audio/_Adventure/Lobby/Downtown.ogg
+  title: Downtown
+
+
+- type: lobbyTrack
+  id: /Audio/_Adventure/Lobby/Exploring.ogg
+  title: Exploring
+
+
+- type: lobbyTrack
+  id: /Audio/_Adventure/Lobby/Metropolis.ogg
+  title: Metropolis
+
+- type: lobbyTrack
+  id: /Audio/_Adventure/Lobby/PhoronLeak.ogg
+  title: Phoron Leak
+
+- type: lobbyTrack
+  id: /Audio/_Adventure/Lobby/Phoronindustry.ogg
+  title: Phoron Industry
+
+- type: lobbyTrack
+  id: /Audio/_Adventure/Lobby/Runner_in_motion.ogg
+  title: Runner in Motion
+
+
+- type: lobbyTrack
+  id: /Audio/_Starlight/Lobby/Liberation.ogg
+  title: Liberation

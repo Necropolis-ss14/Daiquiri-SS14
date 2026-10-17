@@ -45,6 +45,8 @@ ui-options-tab-ui = Интерфейс
 ui-options-ui-style = Стиль интерфейса
 ui-options-style-theme = Тема интерфейса
 ui-options-style-accent = Цвет акцента
+ui-options-style-accent-theme = Тема
+ui-options-style-accent-custom = Свой
 ui-options-style-custom-accent = Использовать свой цвет акцента
 style-theme-void = Войд
 style-theme-graphite = Графит
@@ -138,14 +140,14 @@ ui-options-sprite-quality-low = Низкое
 ui-options-sprite-quality-medium = Среднее
 ui-options-sprite-quality-high = Высокое
 ui-options-sprite-quality-tooltip =
-    Выбирает качество изображения, используемое спрайтами и эффектами, у которых есть альтернативные версии.
+    Качество спрайтов и эффектов.
 
 ui-options-interaction-particles = Частицы взаимодействия:
 ui-options-interaction-particles-all = Все
 ui-options-interaction-particles-without-inhand = Кроме в руках
 ui-options-interaction-particles-none = Нет
 ui-options-interaction-particles-tooltip =
-    Частицы в руках и в инвентаре отображаются только для действий, выполняемых вашим персонажем.
+    Частицы только для действий вашего персонажа.
 
 ## Audio sections and per-category volumes
 

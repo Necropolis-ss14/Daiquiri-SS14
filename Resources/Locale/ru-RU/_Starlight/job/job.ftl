@@ -37,7 +37,7 @@ job-name-medtak-leader = лидер группы МедТак
 job-name-medtak-medic = медик МедТак
 job-name-medtak-pilot = пилот МедТак
 job-name-medtak-security = охранник МедТак
-job-name-medtak-borg = кремний МедТак
+job-name-medtak-borg = силикон МедТак
 
 job-greet-information-rules = { $jobRules }
 

@@ -59,7 +59,7 @@ public sealed partial class LobbyUIController : UIController, IOnStateEntered<Lo
     public event Action? OnAnyCharacterOrJobChange;
 
     /// <summary>
-    /// Daiquiri: slot picked in Personalization (null = none picked yet).
+    /// Daiquiri
     /// The lobby character card follows it.
     /// </summary>
     public int? SelectedCardSlot => _characterSetup?.SelectedCharacterSlot;
@@ -431,7 +431,7 @@ public sealed partial class LobbyUIController : UIController, IOnStateEntered<Lo
             _profileEditor.SetProfile(args);
             if (_characterSetup != null)
                 _characterSetup.SelectedCharacterSlot = args;
-            // Daiquiri: refresh the lobby card (and ready state) on character switch.
+            // Daiquiri
             OnAnyCharacterOrJobChange?.Invoke();
             ReloadCharacterSetup();
         };

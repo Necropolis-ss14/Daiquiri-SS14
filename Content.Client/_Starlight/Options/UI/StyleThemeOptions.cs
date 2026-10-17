@@ -44,6 +44,7 @@ public sealed class StyleThemePicker : GridContainer
                     new BoxContainer
                     {
                         Orientation = BoxContainer.LayoutOrientation.Horizontal,
+                        HorizontalAlignment = HAlignment.Center,
                         Children =
                         {
                             Swatch(theme.Stock ? Palettes.Navy.BackgroundDark : theme.Background, 22, 32),

@@ -19,7 +19,7 @@ public static class GlassTheme
 {
     private const float GlassBorderAlpha = 0.9f;
     private const float GlassBorderLighten = 0.15f;
-    // Daiquiri: no whitening — translucent panels over bright lobby art already look washed out.
+    // Daiquiri
     private const float GlassWhiten = 0.0f;
     private const float GlassAccentMix = 0.35f;
     private const float GlassMinAlpha = 0.25f;
@@ -54,7 +54,7 @@ public static class GlassTheme
             ? cfg.GetCVar(star)
             : star.DefaultValue;
         var alpha = TransparencyToAlpha(percent);
-        // Daiquiri: glass is tinted only by our own glass accent,
+        // Daiquiri
         // the Starlight theme accent never touches it.
         Color? accent = null;
         if (cfg.GetCVar(Content.Shared._Starlight.CCVar.StarlightCCVars.UIGlassAccentEnabled))

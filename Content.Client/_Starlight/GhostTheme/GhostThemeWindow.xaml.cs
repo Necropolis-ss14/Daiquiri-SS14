@@ -104,7 +104,7 @@ public sealed partial class GhostThemeWindow : DefaultWindow
 
         public void ReloadGhostThemes()
     {
-        // Daiquiri: required playtime of a theme, zero when it has no time requirement.
+        // Daiquiri
         static TimeSpan ThemeUnlockTime(GhostThemePrototype theme)
         {
             foreach (var req in theme.Requirements)

@@ -15,4 +15,4 @@ lathe-category-conclusions-and-decisions = Заключения и решени�
 lathe-category-error = Ошибка
 lathe-category-communication = Связь
 
-lathe-category-silicon = Кремний
+lathe-category-silicon = Силикон
