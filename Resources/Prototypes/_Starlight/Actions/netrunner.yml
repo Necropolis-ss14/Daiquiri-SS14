@@ -1,7 +1,7 @@
 - type: entity
   id: SyntrunnerActionExitConsole
-  name: Exit
-  description: Exit console.
+  name: Выход
+  description: Выйти из консоли.
   components:
   - type: Action
     priority: -20

@@ -10,8 +10,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: UniformScrubsColorCyan
-  name: cyan scrubs
-  description: A combination of comfort and utility intended to make removing every last organ someone has and selling them to a space robot much more official looking.
+  name: голубая медицинская роба
+  description: Сочетание комфорта и практичности, придающее процессу извлечения всех органов человека ради продажи космическому роботу куда более официальный вид.
   components:
     - type: Sprite
       sprite: DeltaV/Clothing/Uniforms/Scrubs/cyan.rsi
@@ -19,8 +19,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: UniformScrubsColorCybersun
-  name: cybersun scrubs
-  description: The official uniform of Cybersun's biotechnology division
+  name: медицинская роба Cybersun
+  description: Официальная униформа биотехнологического подразделения Cybersun.
   components:
     - type: Sprite
       sprite: DeltaV/Clothing/Uniforms/Scrubs/cybersun.rsi
@@ -28,8 +28,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: UniformScrubsColorPink
-  name: pink scrubs
-  description: A combination of comfort and utility intended to make removing every last organ someone has and selling them to a space robot much more official looking.
+  name: розовая медицинская роба
+  description: Сочетание комфорта и практичности, придающее процессу извлечения всех органов человека ради продажи космическому роботу куда более официальный вид.
   components:
     - type: Sprite
       sprite: DeltaV/Clothing/Uniforms/Scrubs/pink.rsi
@@ -37,8 +37,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: UniformScrubsColorRainbow
-  name: rainbow scrubs
-  description: A combination of comfort and utility intended to make removing every last organ someone has and selling them to a space robot much more official looking.
+  name: радужная медицинская роба
+  description: Сочетание комфорта и практичности, придающее процессу извлечения всех органов человека ради продажи космическому роботу куда более официальный вид.
   components:
     - type: Sprite
       sprite: DeltaV/Clothing/Uniforms/Scrubs/rainbow.rsi
@@ -46,8 +46,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: UniformScrubsColorWhite
-  name: white scrubs
-  description: A combination of comfort and utility intended to make removing every last organ someone has and selling them to a space robot much more official looking.
+  name: белая медицинская роба
+  description: Сочетание комфорта и практичности, придающее процессу извлечения всех органов человека ради продажи космическому роботу куда более официальный вид.
   components:
     - type: Sprite
       sprite: DeltaV/Clothing/Uniforms/Scrubs/white.rsi

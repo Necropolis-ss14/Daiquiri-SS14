@@ -1,7 +1,7 @@
 - type: entity
   parent: Bible
-  name: kitab al-hikma
-  description: "The sacred text of the Druze faith, which promise the faithful will be reincarnated as new Druze."
+  name: китаб аль-хикма
+  description: "Священный текст друзской веры, обещающий верующим, что они переродятся новыми друзами."
   id: BibleAlHikma
   components:
   - type: Sprite

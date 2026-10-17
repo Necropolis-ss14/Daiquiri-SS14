@@ -20,8 +20,8 @@
 - type: entity
   parent: BaseCartridgePistol
   id: CartridgePistolSP
-  name: cartridge (.35 auto SP)
-  description: Arguably the most popular caliber on the market, used by all manner of pistols and submachine guns. Standard kinetic ammunition is common and useful in most situations.
+  name: патрон (.35 авто SP)
+  description: Пожалуй, самый популярный калибр на рынке, используется во всех видах пистолетов и пистолетов-пулемётов. Кинетические боеприпасы общего назначения распространены и полезны в большинстве ситуаций.
   components:
   - type: CartridgeAmmo
     proto: BulletPistolTraceSP

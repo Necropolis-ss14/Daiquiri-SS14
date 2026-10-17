@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseSign
   id: SignEvidence
-  name: evidence sign
-  description: A sign, pointing out where the evidence storage room is.
+  name: табличка улик
+  description: Табличка, указывающая, где находится комната хранения улик.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Wallmounts/signs.rsi #SL Edit

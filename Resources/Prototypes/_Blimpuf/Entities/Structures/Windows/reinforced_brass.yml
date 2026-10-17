@@ -1,6 +1,6 @@
 - type: entity
   id: ReinforcedBrassWindow
-  name: reinforced brass window
+  name: укреплённое латунное окно
   parent: [BaseDeltaPressureReinforcedGlass, Window]
   components:
   - type: Sprite
@@ -108,8 +108,8 @@
 - type: entity
   id: WindowReinforcedDirectionalBrass
   parent: [BaseDeltaPressureReinforcedGlassQuarter, WindowDirectional]
-  name: directional reinforced brass window
-  description: Don't smudge up the glass down there.
+  name: направленное укреплённое латунное окно
+  description: Только не заляпай стекло внизу.
   placement:
     mode: SnapgridCenter
     snap:

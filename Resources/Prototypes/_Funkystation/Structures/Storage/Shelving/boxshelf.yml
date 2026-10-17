@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseStructure
   id: BoxShelf
-  name: box shelf
-  description: A shelf for storing boxes.
+  name: коробочный стеллаж
+  description: Стеллаж для хранения коробок.
   components:
   - type: MeleeSound
     soundGroups:

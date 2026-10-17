@@ -3,7 +3,7 @@
 - type: entity
   parent: BaseItem
   id: BasePlayingCard
-  name: playing card
+  name: игральная карта
   abstract: true
   components:
   - type: Sprite
@@ -24,8 +24,8 @@
 - type: entity
   parent: BaseItem
   id: BasePlayingCardDeck
-  name: deck of cards
-  description: Cards with vibrant designs and colors to enchant the eyes while waiting for your turn.
+  name: колода карт
+  description: Карты с яркими узорами и цветами, чтобы радовать глаз, пока ждёшь свой ход.
   abstract: true
   components:
   - type: Sprite
@@ -47,8 +47,8 @@
   parent: [ BoxCardboard, BaseBagOpenClose ]
   id: BasePlayingCardDeckBox
   abstract: true
-  name: box of playing cards
-  description: A small carton meant to contain a collection of little pieces of cardstock. Thrilling.
+  name: коробка игральных карт
+  description: Небольшая коробочка, предназначенная хранить коллекцию маленьких кусочков картона. Захватывающе.
   components:
   # Starlight start
   - type: Tag

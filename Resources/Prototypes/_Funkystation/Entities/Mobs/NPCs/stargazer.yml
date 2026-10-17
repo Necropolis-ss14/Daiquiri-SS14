@@ -1,8 +1,8 @@
 - type: entity
   id: MobStargazer
   parent: [ BaseMobAsteroid, MobBloodstream ]
-  name: stargazer
-  description: A mysterious creature from another dimension, its burning gaze melts away those that it finds irritating. It's outer shell is made with caramelan polymers mixed with ethyl butyrate, giving it a sticky but resistant protective layer. It is said that it makes a good watermelon lollipop.
+  name: звездочёт
+  description: Таинственное существо из другого измерения; его пылающий взгляд расплавляет тех, кто его раздражает. Его внешняя оболочка сделана из карамелановых полимеров, смешанных с этилбутиратом, что придаёт ей липкий, но прочный защитный слой. Говорят, из него получается отличный арбузный леденец.
   components:
   - type: Sprite
     sprite: _Funkystation/Mobs/XenoArch/stargazer.rsi
@@ -87,8 +87,8 @@
 - type: entity
   parent: BaseItem
   id: StargazerShell1
-  name: shard
-  description: A strange shell shard. The remains of the stargazer.
+  name: осколок
+  description: Странный осколок панциря. Останки звездочёта.
   components:
   - type: Sprite
     sprite: _Funkystation/Objects/XenoArch/stargazer_shell.rsi
@@ -112,8 +112,8 @@
 - type: entity
   parent: BaseItem
   id: StargazerShell2
-  name: shard
-  description: A strange shell shard. The remains of the stargazer.
+  name: осколок
+  description: Странный осколок панциря. Останки звездочёта.
   components:
   - type: Sprite
     sprite: _Funkystation/Objects/XenoArch/stargazer_shell.rsi
@@ -127,8 +127,8 @@
 - type: entity
   parent: BaseItem
   id: StargazerShell3
-  name: shard
-  description: A strange shell shard. The remains of the stargazer.
+  name: осколок
+  description: Странный осколок панциря. Останки звездочёта.
   components:
   - type: Sprite
     sprite: _Funkystation/Objects/XenoArch/stargazer_shell.rsi
@@ -142,8 +142,8 @@
 - type: entity
   parent: FoodSnackSwirlLollipop
   id: FoodSnackStargazerLollipop
-  name: stargazer lollipop
-  description: A sweet fleshy lollipop made from the carcass of a stargazer. It tastes vaguely of watermelon.
+  name: леденец звездочёта
+  description: Сладкий мясистый леденец, сделанный из туши звездочёта. Отдаёт слабым арбузом.
   suffix: DO NOT MAP
   components:
   - type: Sprite

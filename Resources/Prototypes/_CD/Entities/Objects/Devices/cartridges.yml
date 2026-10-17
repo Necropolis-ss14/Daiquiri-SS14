@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: NanoChatCartridge
-  name: NanoChat cartridge
-  description: Lets you message other people!
+  name: картридж NanoChat
+  description: Позволяет обмениваться сообщениями с другими людьми!
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Devices/cartridge.rsi # Starlight Edit: _CD -> _Starlight

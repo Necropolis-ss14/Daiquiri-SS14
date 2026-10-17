@@ -13,7 +13,7 @@
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentReportMorgue
-  name: Morgue DNR Report
+  name: отчёт морга о запрете реанимации
   categories: [ HideSpawnMenu ]
   components:
     - type: Paper
@@ -40,7 +40,7 @@
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentReportDepartment
-  name: Departmental Review
+  name: обзор отдела
   categories: [ HideSpawnMenu ]
   components:
     - type: Paper
@@ -85,7 +85,7 @@
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentObjectInvestigationReport
-  name: Unknown Object Investigation Report
+  name: отчёт о расследовании неизвестного объекта
   categories: [ HideSpawnMenu ]
   components:
     - type: Paper
@@ -112,7 +112,7 @@
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentArrestReport
-  name: Arrest Report
+  name: отчёт об аресте
   categories: [ HideSpawnMenu ]
   components:
     - type: Paper
@@ -121,7 +121,7 @@
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentSalvageLeadReport
-  name: Salvage Lead Report
+  name: отчёт руководителя утилизации
   categories: [ HideSpawnMenu ]
   components:
     - type: Paper
@@ -130,7 +130,7 @@
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentPsychologicalReport
-  name: Psychological Report
+  name: психологический отчёт
   categories: [ HideSpawnMenu ]
   components:
     - type: Paper
@@ -140,7 +140,7 @@
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentStatementAppointmentInterimChapter
-  name: Interim Command Appointment
+  name: временное назначение на командование
   categories: [ HideSpawnMenu ]
   components:
     - type: Paper
@@ -149,7 +149,7 @@
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentReportResearchAnomalyLog
-  name: Anomaly Research Log
+  name: журнал исследований аномалий
   categories: [ HideSpawnMenu ]
   components:
     - type: TextFilePaperContent
@@ -158,7 +158,7 @@
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentEmploymentStatement
-  name: Employment Contract
+  name: трудовой договор
   categories: [ HideSpawnMenu ]
   components:
     - type: Paper
@@ -167,7 +167,7 @@
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentResignationStatement
-  name: Notice of Resignation
+  name: уведомление об увольнении
   categories: [ HideSpawnMenu ]
   components:
     - type: Paper
@@ -176,7 +176,7 @@
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentAccessRequestStatement
-  name: Access Request
+  name: запрос доступа
   categories: [ HideSpawnMenu ]
   components:
     - type: Paper
@@ -185,7 +185,7 @@
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentEquipmentRequestStatement
-  name: Equipment Request
+  name: запрос снаряжения
   categories: [ HideSpawnMenu ]
   components:
     - type: Paper
@@ -196,7 +196,7 @@
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentInvocation
-  name: Notice of Summons
+  name: уведомление о вызове
   categories: [ HideSpawnMenu ]
   components:
     - type: Paper
@@ -232,7 +232,7 @@
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentRequestRequestEstablishThreatLevel
-  name: Request to Establish Threat Level
+  name: запрос на установление уровня угрозы
   categories: [ HideSpawnMenu ]
   components:
     - type: Paper
@@ -304,7 +304,7 @@
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentRequestERT
-  name: Emergency Response Team (ERT) Request
+  name: запрос отряда экстренного реагирования (ОЭР)
   categories: [ HideSpawnMenu ]
   components:
     - type: Paper
@@ -313,7 +313,7 @@
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentProductOrder
-  name: Product Order
+  name: заказ продукции
   categories: [ HideSpawnMenu ]
   components:
     - type: Paper
@@ -352,7 +352,7 @@
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentPermissionResearchEquipment
-  name: Research Equipment Permit
+  name: разрешение на исследовательское оборудование
   categories: [ HideSpawnMenu ]
   components:
     - type: TextFilePaperContent
@@ -361,7 +361,7 @@
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentPermissionResearchSiliconConversion
-  name: Cyborg Conversion Form
+  name: форма киборгизации
   categories: [ HideSpawnMenu ]
   components:
     - type: TextFilePaperContent
@@ -370,7 +370,7 @@
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentPermissionResearchAnomalyHost
-  name: Anomaly Host Form
+  name: форма носителя аномалии
   categories: [ HideSpawnMenu ]
   components:
     - type: TextFilePaperContent
@@ -407,7 +407,7 @@
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentSurgeryConsentPermit
-  name: Surgery Consent Form
+  name: форма согласия на операцию
   categories: [ HideSpawnMenu ]
   components:
     - type: Paper
@@ -416,7 +416,7 @@
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentArtPermit
-  name: Art Permit
+  name: разрешение на искусство
   categories: [ HideSpawnMenu ]
   components:
     - type: Paper
@@ -425,7 +425,7 @@
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentBorgificationConsentForm
-  name: Borgification Consent Form
+  name: форма согласия на боргификацию
   categories: [ HideSpawnMenu ]
   components:
     - type: Paper
@@ -434,7 +434,7 @@
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentMechAuthorizationForm
-  name: Mech Authorization Form
+  name: форма авторизации меха
   categories: [ HideSpawnMenu ]
   components:
     - type: Paper
@@ -445,7 +445,7 @@
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentDismissalOrder
-  name: Dismissal Order
+  name: приказ об увольнении
   categories: [ HideSpawnMenu ]
   components:
     - type: Paper
@@ -454,7 +454,7 @@
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentAccessRevocationOrder
-  name: Access Revocation Order
+  name: приказ об отзыве доступа
   categories: [ HideSpawnMenu ]
   components:
     - type: Paper
@@ -463,7 +463,7 @@
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentIncentiveOrder
-  name: Recognition of Merit
+  name: признание заслуг
   categories: [ HideSpawnMenu ]
   components:
     - type: Paper
@@ -472,7 +472,7 @@
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentPrisonerParoleOrder
-  name: Order of Mandatory Parole
+  name: приказ об обязательном условно-досрочном освобождении
   categories: [ HideSpawnMenu ]
   components:
     - type: Paper
@@ -481,7 +481,7 @@
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentOrderRecognizingReasonablenessCreature
-  name: Declaration of Sentience
+  name: декларация разумности
   categories: [ HideSpawnMenu ]
   components:
     - type: Paper
@@ -490,7 +490,7 @@
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentMedicalInterventionOrder
-  name: Medical Intervention Order
+  name: приказ о медицинском вмешательстве
   categories: [ HideSpawnMenu ]
   components:
     - type: Paper
@@ -499,7 +499,7 @@
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentExecutionDNROrder
-  name: Execution & DNR Order
+  name: приказ о казни и запрете реанимации
   categories: [ HideSpawnMenu ]
   components:
     - type: Paper
@@ -508,7 +508,7 @@
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentEOCDesignation
-  name: Enemy of Corporation Designation
+  name: присвоение статуса врага корпорации
   categories: [ HideSpawnMenu ]
   components:
     - type: Paper
@@ -542,7 +542,7 @@
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentGreenshiftAlert
-  name: Notice of Station Location
+  name: уведомление о расположении станции
   categories: [ HideSpawnMenu ]
   components:
     - type: Paper
@@ -553,7 +553,7 @@
 - type: entity
   parent: PrintedDocument
   id: PrintedDocumentEndymionMemorial
-  name: Endymion Memorial Unveiled
+  name: открытие мемориала Эндимиона
   categories: [ HideSpawnMenu ]
   components:
     - type: Paper

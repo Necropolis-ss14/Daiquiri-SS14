@@ -1,5 +1,5 @@
 - type: entity
-  name: Eeeplet Spawner
+  name: спавнер иплетов
   id: SpawnMobEeeplet
   parent: MarkerBase
   components:
@@ -16,7 +16,7 @@
 
 - type: entity
   id: SpawnPointGhostEeeplet
-  name: ghost role spawn point
+  name: точка спавна роли-призрака
   suffix: eeeplet
   categories: [ HideSpawnMenu, Spawner ]
   parent: BaseAntagSpawner

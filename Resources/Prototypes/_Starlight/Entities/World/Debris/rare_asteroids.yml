@@ -4,7 +4,7 @@
 - type: entity
   id: BaseTrashDebris
   parent: BaseDebris
-  name: trash debris
+  name: мусорные обломки
   abstract: true
   components:
     - type: MapGrid
@@ -43,7 +43,7 @@
 - type: entity
   id: BaseMeatDebris
   parent: BaseDebris
-  name: meat debris
+  name: мясные обломки
   abstract: true
   components:
     - type: MapGrid

@@ -25,8 +25,8 @@
   id: BaseReactorFuelRod
   parent: [ BaseReactorPart, BaseEngineeringContraband ]
   abstract: true
-  name: Fuel Rod
-  description: A fuel rod for a nuclear reactor.
+  name: топливный стержень
+  description: Тепловыделяющий элемент для ядерного реактора.
   components:
   - type: ReactorPart
     rodType: 1
@@ -63,8 +63,8 @@
   id: BaseReactorControlRod
   parent: BaseReactorPart
   abstract: true
-  name: Control Rod
-  description: A control rod assembly for a nuclear reactor.
+  name: управляющий стержень
+  description: Сборка управляющих стержней для ядерного реактора.
   components:
   - type: ReactorPart
     rodType: 2
@@ -80,8 +80,8 @@
   id: BaseReactorGasChannel
   parent: BaseReactorPart
   abstract: true
-  name: Gas Channel Rod
-  description: A gas channel for a nuclear reactor.
+  name: газоотводящий стержень
+  description: Газовый канал для ядерного реактора.
   components:
   - type: ReactorPart
     rodType: 4
@@ -98,8 +98,8 @@
   id: BaseReactorHeatExchanger
   parent: BaseReactorPart
   abstract: true
-  name: Heat Exchanger Rod
-  description: A heat exchanger for a nuclear reactor.
+  name: теплообменный стержень
+  description: Теплообменник для ядерного реактора.
   components:
   - type: ReactorPart
     iconStateInserted: "heat"

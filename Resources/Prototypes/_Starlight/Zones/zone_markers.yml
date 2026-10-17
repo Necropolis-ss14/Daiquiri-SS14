@@ -14,7 +14,7 @@
 - type: entity
   id: ZoneMarkerHallway
   parent: ZoneMarkerBase
-  name: zone marker (hallway)
+  name: маркер зоны (коридор)
   components:
   - type: ZoneMarker
     zone: Hallway
@@ -24,7 +24,7 @@
 - type: entity
   id: ZoneMarkerMaintenance
   parent: ZoneMarkerBase
-  name: zone marker (maintenance)
+  name: маркер зоны (техобслуживание)
   components:
   - type: ZoneMarker
     zone: Maintenance
@@ -34,7 +34,7 @@
 - type: entity
   id: ZoneMarkerCommand
   parent: ZoneMarkerBase
-  name: zone marker (command)
+  name: маркер зоны (командование)
   components:
   - type: ZoneMarker
     zone: Command
@@ -44,7 +44,7 @@
 - type: entity
   id: ZoneMarkerSecurity
   parent: ZoneMarkerBase
-  name: zone marker (security)
+  name: маркер зоны (служба безопасности)
   components:
   - type: ZoneMarker
     zone: Security
@@ -54,7 +54,7 @@
 - type: entity
   id: ZoneMarkerMedical
   parent: ZoneMarkerBase
-  name: zone marker (medical)
+  name: маркер зоны (медицинский)
   components:
   - type: ZoneMarker
     zone: Medical
@@ -64,7 +64,7 @@
 - type: entity
   id: ZoneMarkerEngineering
   parent: ZoneMarkerBase
-  name: zone marker (engineering)
+  name: маркер зоны (инженерный)
   components:
   - type: ZoneMarker
     zone: Engineering
@@ -74,7 +74,7 @@
 - type: entity
   id: ZoneMarkerScience
   parent: ZoneMarkerBase
-  name: zone marker (science)
+  name: маркер зоны (научный)
   components:
   - type: ZoneMarker
     zone: Science
@@ -84,7 +84,7 @@
 - type: entity
   id: ZoneMarkerCargo
   parent: ZoneMarkerBase
-  name: zone marker (cargo)
+  name: маркер зоны (снабжение)
   components:
   - type: ZoneMarker
     zone: Cargo
@@ -94,7 +94,7 @@
 - type: entity
   id: ZoneMarkerService
   parent: ZoneMarkerBase
-  name: zone marker (service)
+  name: маркер зоны (сервис)
   components:
   - type: ZoneMarker
     zone: Service
@@ -104,7 +104,7 @@
 - type: entity
   id: ZoneMarkerArrivals
   parent: ZoneMarkerBase
-  name: zone marker (arrivals)
+  name: маркер зоны (прибытие)
   components:
   - type: ZoneMarker
     zone: Arrivals
@@ -114,7 +114,7 @@
 - type: entity
   id: ZoneMarkerAtmospherics
   parent: ZoneMarkerBase
-  name: zone marker (atmospherics)
+  name: маркер зоны (атмосферика)
   components:
   - type: ZoneMarker
     zone: Atmospherics
@@ -124,7 +124,7 @@
 - type: entity
   id: ZoneMarkerBar
   parent: ZoneMarkerBase
-  name: zone marker (bar)
+  name: маркер зоны (бар)
   components:
   - type: ZoneMarker
     zone: Bar
@@ -134,7 +134,7 @@
 - type: entity
   id: ZoneMarkerKitchen
   parent: ZoneMarkerBase
-  name: zone marker (kitchen)
+  name: маркер зоны (кухня)
   components:
   - type: ZoneMarker
     zone: Kitchen
@@ -144,7 +144,7 @@
 - type: entity
   id: ZoneMarkerChapel
   parent: ZoneMarkerBase
-  name: zone marker (chapel)
+  name: маркер зоны (часовня)
   components:
   - type: ZoneMarker
     zone: Chapel
@@ -154,7 +154,7 @@
 - type: entity
   id: ZoneMarkerDormitory
   parent: ZoneMarkerBase
-  name: zone marker (dormitory)
+  name: маркер зоны (общежитие)
   components:
   - type: ZoneMarker
     zone: Dormitory
@@ -164,7 +164,7 @@
 - type: entity
   id: ZoneMarkerSolars
   parent: ZoneMarkerBase
-  name: zone marker (solars)
+  name: маркер зоны (солнечные)
   components:
   - type: ZoneMarker
     zone: Solars
@@ -174,7 +174,7 @@
 - type: entity
   id: ZoneMarkerDetective
   parent: ZoneMarkerBase
-  name: zone marker (detective)
+  name: маркер зоны (детектив)
   components:
   - type: ZoneMarker
     zone: Detective
@@ -184,7 +184,7 @@
 - type: entity
   id: ZoneMarkerVirology
   parent: ZoneMarkerBase
-  name: zone marker (virology)
+  name: маркер зоны (вирусология)
   components:
   - type: ZoneMarker
     zone: Virology

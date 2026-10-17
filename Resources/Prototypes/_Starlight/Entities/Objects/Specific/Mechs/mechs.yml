@@ -877,7 +877,7 @@
 - type: entity
   id: MechPobeda
   parent: [ BaseMech, CombatMech, SpecialMech, BaseSovietContraband ]
-  name: Pobeda
+  name: Победа
   description: Советский боевой мех. Медленнее и старше прочих, но берёт живучестью и мощью.
   components:
     - type: Sprite

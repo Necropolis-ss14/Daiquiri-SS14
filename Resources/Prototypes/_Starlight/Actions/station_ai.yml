@@ -3,8 +3,8 @@
 - type: entity
   parent: BaseMentalAction
   id: ActionStationAiOpenPDA
-  name: Open PDA
-  description: Opens your personal data assistant.
+  name: Открыть КПК
+  description: Открывает ваш личный цифровой помощник.
   components:
   - type: Action
     icon:
@@ -16,8 +16,8 @@
 - type: entity
   parent: BaseMentalAction
   id: ActionAIShunt
-  name: Shunt
-  description: Shunt into a borg chassis with a AI interface installed.
+  name: Перенос
+  description: Перенестись в корпус борга с установленным интерфейсом ИИ.
   components:
     - type: Action
       icon:
@@ -40,8 +40,8 @@
 - type: entity
   parent: BaseMentalAction
   id: ActionAIRemoteControl
-  name: Remote Control
-  description: Remotely control a shuntable chassis or interface without shunting into it.
+  name: Удалённое управление
+  description: Удалённо управлять переносным корпусом или интерфейсом, не переносясь в него.
   components:
     - type: Action
       useDelay: 1
@@ -60,8 +60,8 @@
 - type: entity
   parent: BaseMentalAction
   id: ActionAIUnShunt
-  name: UnShunt
-  description: Disengage from the chassis/interface returning to your core.
+  name: Отмена переноса
+  description: Отключиться от корпуса/интерфейса, вернувшись в ядро.
   components:
     - type: Action
       useDelay: 1
@@ -89,8 +89,8 @@
 - type: entity
   parent: BaseAction
   id: ActionAIWarp
-  name: Warp
-  description: Open a list of crew and locations to warp to.
+  name: Прыжок
+  description: Открыть список экипажа и локаций для перемещения.
   components:
     - type: Action
       priority: 3

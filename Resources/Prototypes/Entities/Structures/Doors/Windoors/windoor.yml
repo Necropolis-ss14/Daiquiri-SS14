@@ -7,14 +7,14 @@
 - type: entity
   id: WindoorSecure
   parent: BaseSecureWindoor
-  name: secure windoor
-  description: It's a sturdy window and a sliding door. Wow!
+  name: защищённая ветродверь
+  description: Это прочное окно и раздвижная дверь. Вау!
 
 - type: entity
   id: WindoorClockwork
   parent: BaseClockworkWindoor
-  name: clockwork windoor
-  description: It's a sturdy window and a sliding door. Wow!
+  name: часовая ветродверь
+  description: Это прочное окно и раздвижная дверь. Вау!
 
 - type: entity
   id: WindoorPlasma
@@ -25,8 +25,8 @@
 - type: entity
   id: WindoorSecurePlasma
   parent: BaseSecurePlasmaWindoor
-  name: secure plasma windoor
-  description: It's a sturdy purple window *and* a sliding door. Spectacular!
+  name: защищённая плазменная ветродверь
+  description: Это прочное фиолетовое окно *и* раздвижная дверь. Впечатляюще!
 
 - type: entity
   id: WindoorUranium
@@ -37,8 +37,8 @@
 - type: entity
   id: WindoorSecureUranium
   parent: BaseSecureUraniumWindoor
-  name: secure uranium windoor
-  description: It's a sturdy window and a sliding door. It's so neon green, it might even taste like limes!
+  name: защищённая урановая ветродверь
+  description: Это прочное окно и раздвижная дверь. Оно настолько неоново-зелёное, что, возможно, даже отдаёт лаймом!
 
 # TODO remove these with parameterized prototypes/whatever we end up doing
 # Windoors (alphabetical)

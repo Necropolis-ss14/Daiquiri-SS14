@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseStorageItem
   id: EvidenceBag
-  name: evidence bag
-  description: A small bag for holding criminal evidence.
+  name: пакет для улик
+  description: Небольшой пакет для хранения криминалистических улик.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Specific/Security/evidence_bag.rsi #SL Edit
@@ -72,8 +72,8 @@
 - type: entity
   parent: EvidenceBag
   id: EvidenceBagFilled
-  name: evidence bag
-  description: A small bag for holding criminal evidence.
+  name: пакет для улик
+  description: Небольшой пакет для хранения криминалистических улик.
   suffix: Filled
   components:
   - type: EntityTableContainerFill
@@ -93,7 +93,7 @@
 - type: entity
   parent: CardboardBoxLargeEvidence
   id: CardboardBoxLargeEvidenceFilled
-  name: evidence supplies box
+  name: ящик охранных улик
   suffix: FILLED
   components:
   - type: EntityTableContainerFill
@@ -106,7 +106,7 @@
 - type: entity
   parent: CardboardBoxLargeEvidence
   id: CardboardBoxLargeEvidenceFilledExtras
-  name: extra evidence supplies box
+  name: ящик дополнительных охранных улик
   suffix: EXTRAS
   components:
   - type: EntityTableContainerFill

@@ -3,8 +3,8 @@
 - type: entity
   abstract: true
   id: BorgSubtypeBase
-  name: borg subtype base
-  description: Default state for other subtypes to use.
+  name: базовый подтип борга
+  description: Состояние по умолчанию для других подтипов.
   components:
     - type: BorgSubtypeDefinition
       # Visuals
@@ -33,7 +33,7 @@
   parent: BorgSubtypeBase
   abstract: true
   id: BorgGenericSubtypeBase
-  name: borg generic subtype
+  name: универсальный подтип борга
   components:
     - type: BorgSubtypeDefinition
       parentType: generic
@@ -46,7 +46,7 @@
   parent: BorgSubtypeBase
   abstract: true
   id: BorgMiningSubtypeBase
-  name: borg mining subtype
+  name: шахтёрский подтип борга
   components:
     - type: BorgSubtypeDefinition
       parentType: mining
@@ -59,7 +59,7 @@
   parent: BorgSubtypeBase
   abstract: true
   id: BorgEngineerSubtypeBase
-  name: borg engineering subtype
+  name: инженерный подтип борга
   components:
     - type: BorgSubtypeDefinition
       parentType: engineering
@@ -72,7 +72,7 @@
   parent: BorgSubtypeBase
   abstract: true
   id: BorgJanitorSubtypeBase
-  name: borg janitor subtype
+  name: уборочный подтип борга
   components:
     - type: BorgSubtypeDefinition
       parentType: janitor
@@ -85,7 +85,7 @@
   parent: BorgSubtypeBase
   abstract: true
   id: BorgMedicalSubtypeBase
-  name: borg medical subtype
+  name: медицинский подтип борга
   components:
     - type: BorgSubtypeDefinition
       parentType: medical
@@ -98,7 +98,7 @@
   parent: BorgSubtypeBase
   abstract: true
   id: BorgServiceSubtypeBase
-  name: borg service subtype
+  name: сервисный подтип борга
   components:
     - type: BorgSubtypeDefinition
       parentType: service

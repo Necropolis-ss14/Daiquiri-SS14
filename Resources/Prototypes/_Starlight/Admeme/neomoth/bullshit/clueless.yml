@@ -1,6 +1,6 @@
 - type: entity
   id: Clueless
-  name: clueless
+  name: недогадливый
   description: ":clueless:"
   parent: BaseItem
   suffix: Admeme

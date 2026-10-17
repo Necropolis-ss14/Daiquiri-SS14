@@ -1,7 +1,7 @@
 - type: entity
   id: BaseBulletStarlight
-  name: BaseBullet
-  description: If you can see this you're probably dead!
+  name: базовая пуля
+  description: Если вы это видите — вы, вероятно, уже мертвы!
   abstract: true
   components:
   - type: Reflective

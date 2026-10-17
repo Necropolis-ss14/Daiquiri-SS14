@@ -1,5 +1,5 @@
 - type: entity
-  name: Urist McRapster
+  name: Урист МакРапстер
   parent: [BaseSpeciesPickupable, BaseMobNeocyte, BaseColdBird]
   id: BaseMobNeoResomi
   abstract: true

@@ -9,8 +9,8 @@
 - type: entity
   parent: BaseFlagInferus
   id: MoachFlag
-  name: mothroach flag
-  description: A flag depicting a mothroach. Look, she's even taking a little bite out of the fabric!
+  name: флаг таракамоля
+  description: Флаг с изображением таракамоля. Смотри, она даже откусила кусочек ткани!
   components:
     - type: Sprite
       state: moach_flag
@@ -21,8 +21,8 @@
 - type: entity
   parent: BaseFlagInferus
   id: IntersexFlag
-  name: intersex flag
-  description: The sex inbetween… There is a sex inbetween.
+  name: интерсекс-флаг
+  description: Пол между... Есть пол между.
   components:
     - type: Sprite
       state: intersex_flag
@@ -33,8 +33,8 @@
 - type: entity
   parent: BaseFlagInferus
   id: TransFlag
-  name: trans flag
-  description: Trans rights! And lefts. And wrongs.
+  name: транс-флаг
+  description: Транс-права! И лева. И неправа.
   components:
     - type: Sprite
       state: trans_flag
@@ -45,8 +45,8 @@
 - type: entity
   parent: BaseFlagInferus
   id: DisabilityFlag
-  name: disability flag
-  description: Not all disabilities are visible. No, that doesn't mean *you're* invisible.
+  name: флаг инвалидности
+  description: Не все формы инвалидности видны. Нет, это не значит, что *ты* невидимка.
   components:
     - type: Sprite
       state: disability_flag
@@ -57,8 +57,8 @@
 - type: entity
   parent: BaseFlagInferus
   id: AceFlag
-  name: asexual flag
-  description: Got no fucks to give.
+  name: асексуальный флаг
+  description: Плевать хотел.
   components:
     - type: Sprite
       state: ace_flag
@@ -69,8 +69,8 @@
 - type: entity
   parent: BaseFlagInferus
   id: AroFlag
-  name: aromantic flag
-  description: Ooo, you lighting a candle or someth- oh, wait, there's an N.
+  name: аромантический флаг
+  description: О, ты зажигаешь свечу или что-то- о, погоди, тут буква N.
   components:
     - type: Sprite
       state: aro_flag
@@ -81,8 +81,8 @@
 - type: entity
   parent: BaseFlagInferus
   id: BiFlag
-  name: bisexual flag
-  description: You know what'd be nice? A bicycle ride to the grocery store.
+  name: бисексуальный флаг
+  description: Знаешь, что было бы неплохо? Прокатиться на велосипеде до магазина.
   components:
     - type: Sprite
       state: bi_flag
@@ -93,8 +93,8 @@
 - type: entity
   parent: BaseFlagInferus
   id: LesbianFlag
-  name: lesbian flag
-  description: Wolowolowolowolowolowolowolowolowolo…
+  name: лесбийский флаг
+  description: Воловоловоловоловол...
   components:
     - type: Sprite
       state: lesbian_flag
@@ -105,8 +105,8 @@
 - type: entity
   parent: BaseFlagInferus
   id: NonbinaryFlag
-  name: nonbinary flag
-  description: Silicons hate them! …Not really, bigotry is banned on NT stations.
+  name: небинарный флаг
+  description: Силиконы их ненавидят! …На самом деле нет, ксенофобия запрещена на станциях NT.
   components:
     - type: Sprite
       state: enby_flag
@@ -117,8 +117,8 @@
 - type: entity
   parent: BaseFlagInferus
   id: GenderfluidFlag
-  name: genderfluid flag
-  description: Don't let it wash down the drain.
+  name: гендерфлюидный флаг
+  description: Не дай ему смыться в сток.
   components:
     - type: Sprite
       state: genderfluid_flag
@@ -129,8 +129,8 @@
 - type: entity
   parent: BaseFlagInferus
   id: GenderqueerFlag
-  name: genderqueer flag
-  description: We get a little silly with it.
+  name: гендерквир-флаг
+  description: Тут мы немного дурачимся.
   components:
     - type: Sprite
       state: genderqueer_flag

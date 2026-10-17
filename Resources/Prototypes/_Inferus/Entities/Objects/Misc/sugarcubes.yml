@@ -1,8 +1,8 @@
 - type: entity
-  name: sugar cube
+  name: кубик сахара
   parent: BaseItem
   id: SugarCube
-  description: You could build a tiny house with these.
+  description: Из таких можно построить крошечный домик.
   components:
   - type: SolutionSpiker
     sourceSolution: food

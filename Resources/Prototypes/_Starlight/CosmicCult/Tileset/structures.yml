@@ -2,8 +2,8 @@
 - type: entity
   parent: BaseStructure
   id: CosmicShuttleCore
-  name: malign instrument
-  description: Its surface glows with a myriad of inscrutable glyphs that commmunicate a single word into your mind; "Flight".
+  name: злокачественный инструмент
+  description: "Её поверхность светится мириадами непостижимых глифов, что вкладывают в ваш разум единственное слово: «Полёт»."
   components:
   - type: Sprite
     sprite: _Starlight/CosmicCult/Tileset/cosmiccomputer.rsi
@@ -60,7 +60,7 @@
 
 ##################### CHAIR
 - type: entity
-  name: malign settee
+  name: злокачественная кушетка
   id: CosmicChair
   parent: SeatBase
   placement:
@@ -87,8 +87,8 @@
 - type: entity
   parent: BaseStructure
   id: CosmicObelisk
-  name: malign obelisk
-  description: A mysterious-yet-inert sturcture. Unsettling.
+  name: злокачественный обелиск
+  description: Загадочная, но инертная структура. Тревожит.
   components:
   - type: Sprite
     sprite: _Starlight/CosmicCult/Tileset/cosmicpillar.rsi
@@ -126,7 +126,7 @@
 - type: entity
   parent: BaseStructure
   id: CosmicThruster
-  name: malign engine
+  name: злокачественный двигатель
   components:
   - type: CosmicCultExamine
     cultistText: cosmic-examine-text-forthecult
@@ -188,9 +188,9 @@
 ##################### LAMP
 - type: entity
   id: CosmicLamp
-  description: A mote of un-light shimmers within.
+  description: Внутри мерцает пылинка не-света.
   suffix: Always Powered
-  name: malign light
+  name: злокачественный свет
   placement:
     mode: SnapgridCenter
   components:
@@ -237,8 +237,8 @@
 - type: entity
   id: CosmicVacuousSpire
   parent: BaseStructure
-  name: vacuous spire
-  description: Also known as the "chuuni fork".
+  name: пустотный шпиль
+  description: Известен также как «вилка чууни».
   components:
   - type: Pullable
   - type: Anchorable
@@ -318,8 +318,8 @@
 - type: entity
   id: AltarCosmic
   parent: AltarNanotrasen
-  name: cosmic altar
-  description: Altar of.. Something.
+  name: космический алтарь
+  description: Алтарь... чего-то.
   components:
   - type: Sprite
     sprite: _Starlight/CosmicCult/Tileset/altar.rsi
@@ -338,8 +338,8 @@
 - type: entity
   id: CosmicTable
   parent: CounterBase
-  name: malign table
-  description: Unfathomably, cosmically.. Square.
+  name: злокачественный стол
+  description: Непостижимо, космически... квадратный.
   components:
   - type: Sprite
     sprite: _Starlight/CosmicCult/Tileset/cosmictable.rsi

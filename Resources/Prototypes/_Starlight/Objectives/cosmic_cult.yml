@@ -104,8 +104,8 @@
 - type: entity
   parent: [BaseCosmicColossusObjective, BaseSurviveObjective]
   id: ColossusSurviveObjective
-  name: PERSIST
-  description: Persist until the end of all things.
+  name: СУЩЕСТВОВАТЬ
+  description: Просуществовать до конца всех вещей.
   components:
   - type: Objective
     icon:
@@ -115,8 +115,8 @@
 - type: entity
   parent: [BaseCosmicColossusObjective, BaseCodeObjective]
   id: ColossusEffigyObjective
-  name: BECKON
-  description: Call forth an Effigy of Entropy.
+  name: ВОЗЗВАТЬ
+  description: Призвать Чучело Энтропии.
   components:
   - type: Objective
     icon:
@@ -127,8 +127,8 @@
 - type: entity
   parent: [BaseCosmicColossusObjective]
   id: ColossusSacrificeObjective
-  name: SACRIFICE
-  description: Sacrifice crew to empowered rifts.
+  name: ПОЖЕРТВОВАТЬ
+  description: Приносить экипаж в жертву усиленным разломам.
   components:
   - type: Objective
     icon:

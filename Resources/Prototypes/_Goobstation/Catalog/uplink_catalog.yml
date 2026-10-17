@@ -43,8 +43,8 @@
 - type: entity
   id: BoxNuclearCommanderCds
   parent: [BoxCardboardSmall, BaseSyndicateContraband]
-  name: nuclear operative announcement cds
-  description: A box filled with disgruntled messages. Recorded and burnt onto CDs. Ready for play.
+  name: CD-объявления ядерного оперативника
+  description: Коробка, полная недовольных посланий. Записаны и обожжены на CD. Готовы к воспроизведению.
   components:
   - type: EntityTableContainerFill
     containers:

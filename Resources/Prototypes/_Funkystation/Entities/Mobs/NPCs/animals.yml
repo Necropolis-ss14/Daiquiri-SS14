@@ -229,10 +229,10 @@
 #Special Cows
 
 - type: entity
-  name: chocolate cow
+  name: шоколадная корова
   parent: MobCow
   id: MobCowChocolate
-  description: Moo.
+  description: Муу.
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -265,10 +265,10 @@
         Quantity: 30
 
 - type: entity
-  name: strawberry cow
+  name: клубничная корова
   parent: MobCow
   id: MobCowStrawberry
-  description: Moo.
+  description: Муу.
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -301,10 +301,10 @@
         Quantity: 30
 
 - type: entity
-  name: banana cow
+  name: банановая корова
   parent: MobCow
   id: MobCowBanana
-  description: Moo.
+  description: Муу.
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -373,10 +373,10 @@
 #Devil Birds
 
 - type: entity
-  name: goose
+  name: золотой гусь
   parent: MobGoose
   id: MobGooseGolden
-  description: Its stomach and mind are an enigma beyond human comprehension.
+  description: Его желудок и разум — загадка за пределами человеческого понимания.
   suffix: GOLD
   components:
   - type: ExaminableHunger
@@ -385,10 +385,10 @@
     - id: WeirdEggGold
 
 - type: entity
-  name: goose
+  name: урановый гусь
   parent: MobGoose
   id: MobGooseUranium
-  description: Its stomach and mind are an enigma beyond human comprehension.
+  description: Его желудок и разум — загадка за пределами человеческого понимания.
   suffix: URANIUM
   components:
   - type: ExaminableHunger
@@ -397,10 +397,10 @@
     - id: WeirdEggUranium
 
 - type: entity
-  name: goose
+  name: плазменный гусь
   parent: MobGoose
   id: MobGoosePlasma
-  description: Its stomach and mind are an enigma beyond human comprehension.
+  description: Его желудок и разум — загадка за пределами человеческого понимания.
   suffix: PLASMA
   components:
   - type: ExaminableHunger
@@ -409,10 +409,10 @@
     - id: WeirdEggPlasma
 
 - type: entity
-  name: servant of nar'sie # Starlight
+  name: слуга Нар'Си # Starlight
   parent: MobGoose
   id: MobGooseNarsie
-  description: A damned beast that yearns for blood.
+  description: Проклятый зверь, жаждущий крови.
   suffix: EVIL
   components:
   - type: Sprite
@@ -467,7 +467,7 @@
 - type: entity
   parent: BaseStructure
   id: GooseRune_drawing
-  name: "goose rune"
+  name: "«гусиная руна»"
   components:
   - type: Sprite
     sprite: _Funkystation/Mobs/Animals/goose.rsi
@@ -484,8 +484,8 @@
 # Meowl
 - type: entity
   id: MobMeowl
-  name: meowl
-  description: The peak of evolution, the most efficient pest hunter any side of the galaxy. Considered highly invasive on every planet.
+  name: мяува
+  description: Вершина эволюции, самый эффективный охотник на вредителей в этой части галактики. Считается крайне инвазивным на каждой планете.
   parent: [SimpleMobBase, FlyingMobBase]
   components:
   - type: Sprite

@@ -2,8 +2,8 @@
   id: TP14FoodMothSticks
   parent: FoodSnackBase
   suffix: Trieste, Food
-  name: motharella sticks
-  description: A fried snack for moths everywhere! They prefer it with honey.
+  name: моттерелла-палочки
+  description: Жареная закуска для мотыльков! Они предпочитают её с мёдом.
   components:
   - type: Edible
     requiresSpecialDigestion: true
@@ -31,8 +31,8 @@
   id: TP14FoodCheeseSticks
   parent: FoodSnackBase
   suffix: Trieste, Food
-  name: mozzarella sticks
-  description: Also known as 'Cheese Sticks'. Goes good with salsa.
+  name: палочки моцареллы
+  description: Также известны как «сырные палочки». Хорошо идут с сальсой.
   components:
   - type: FlavorProfile
     flavors:
@@ -58,8 +58,8 @@
   parent: FoodSnackBase
   id: TP14FoodCorndog
   suffix: Trieste, Food
-  name: corndog
-  description: Tasty carnival food, but has an after-taste of dogfood.
+  name: корн-дог
+  description: Вкусная ярмарочная еда, но с послевкусием собачьего корма.
   components:
   - type: FlavorProfile
     flavors:
@@ -95,8 +95,8 @@
   parent: FoodSnackBase
   id: TP14FoodFriedIceCream
   suffix: Trieste, Food
-  name: fried ice cream
-  description: Disgustingly sweet and the crunch doesn't help.
+  name: жареное мороженое
+  description: Приторно сладкое, и хрустящая корочка не помогает.
   components:
   - type: FlavorProfile
     flavors:
@@ -122,8 +122,8 @@
   parent: FoodSnackBase
   id: TP14FoodFunnelCake
   suffix: Trieste, Food
-  name: funnel cake
-  description: A sweet treat! Not really a cake, though.
+  name: жареный хворост
+  description: Сладкое угощение! Впрочем, не совсем пирог.
   components:
   - type: FlavorProfile
     flavors:

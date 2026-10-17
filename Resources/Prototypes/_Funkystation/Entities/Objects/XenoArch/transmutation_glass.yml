@@ -2,8 +2,8 @@
   parent: DrinkShotGlass
   id: TransmutationGlass
   suffix: Transmutation
-  name: strange glass
-  description: At a glance this glass appears normal, except for an abnormal amount of condensation on the bottom, even when empty.
+  name: странное стекло
+  description: На первый взгляд стекло как стекло, только на дне — ненормальное количество конденсата, даже когда оно пустое.
   components:
   - type: Reactive
     groups:

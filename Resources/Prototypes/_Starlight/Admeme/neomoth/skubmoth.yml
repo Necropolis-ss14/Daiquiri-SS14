@@ -2,7 +2,7 @@
   id: MobSkubmoth
   parent: MobMoth
   suffix: Admeme
-  name: skubmoth
+  name: скабмот
   description: Хм, скуб.
   components:
     - type: PassiveDamage
@@ -35,7 +35,7 @@
   id: SkubPack
   categories: [HideSpawnMenu]
   suffix: Admeme, DO NOT MAP
-  name: skubpack
+  name: скабпак
   description: что... за хрень...
   components:
     - type: Clothing

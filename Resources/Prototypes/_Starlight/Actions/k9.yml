@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseAction
   id: Latch
-  name: "[color=orange]Latch[/color]"
-  description: Pin a target in place. Bite harder to extend the hold; taking hits shortens it.
+  name: "[color=orange]Захват[/color]"
+  description: Прижать цель на месте. Укус сильнее продлевает удержание; полученные удары сокращают его.
   components:
   - type: Action
     useDelay: 60
@@ -41,8 +41,8 @@
 - type: entity
   parent: BaseAction
   id: LatchRelease
-  name: "[color=orange]Release[/color]"
-  description: Let go of the latch immediately.
+  name: "[color=orange]Отпустить[/color]"
+  description: Немедленно отпустить захват.
   components:
   - type: Action
     itemIconStyle: BigAction
@@ -55,8 +55,8 @@
 - type: entity
   parent: BaseAction
   id: K9Sprint
-  name: "[color=lightblue]Sprint[/color]"
-  description: A short burst of speed.
+  name: "[color=lightblue]Рывок[/color]"
+  description: Короткий всплеск скорости.
   components:
   - type: Action
     useDelay: 30

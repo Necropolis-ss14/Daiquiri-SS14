@@ -1,8 +1,8 @@
 - type: entity
   id: EffectTerrorCocoon
   categories: [ HideSpawnMenu ]
-  name: cocoon
-  description: Web cocoon with people inside!
+  name: кокон
+  description: Паутинный кокон с людьми внутри!
   components:
   - type: Clickable
   - type: Transform

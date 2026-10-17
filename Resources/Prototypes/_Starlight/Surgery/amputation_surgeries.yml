@@ -1,8 +1,8 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryAmputation
-  name: Amputation
-  description: Surgical removal of a limb.
+  name: Ампутация
+  description: Хирургическое удаление конечности.
   components:
   - type: Surgery
     requirement:
@@ -32,8 +32,8 @@
 - type: entity
   parent: SurgeryAmputation
   id: SurgeryAmputationHead
-  name: Amputation
-  description: Surgical removal of a head.
+  name: Ампутация
+  description: Хирургическое удаление головы.
   components:
   - type: Surgery
     requirement:

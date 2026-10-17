@@ -1,6 +1,6 @@
 - type: entity
   parent: SeedBase
-  name: packet of organ tree seeds
+  name: пакет семян дерева органов
   id: OrganTreeSeeds
   components:
   - type: Seed
@@ -11,7 +11,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of devilish apple seeds
+  name: пакет семян дьявольских яблок
   id: EvilAppleSeeds
   components:
     - type: Seed
@@ -21,7 +21,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of resinfera seeds
+  name: пакет семян резинферы
   id: ResinferaSeeds
   components:
     - type: Seed
@@ -31,7 +31,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of mint seeds
+  name: пакет семян мяты
   id: MintSeeds
   components:
     - type: Seed
@@ -41,7 +41,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of spear mint seeds
+  name: пакет семян колосистой мяты
   id: SpearMintSeeds
   components:
     - type: Seed
@@ -51,7 +51,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of cinnamon seeds
+  name: пакет семян корицы
   id: CinnamonSeeds
   components:
     - type: Seed
@@ -61,7 +61,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of cinnaflare seeds
+  name: пакет семян синнафлейра
   id: CinnaflareSeeds
   components:
     - type: Seed
@@ -72,8 +72,8 @@
 - type: entity
   parent: SeedBase
   id: BrownMushroomSeeds
-  name: packet of brown mushroom spores
-  description: Spores for growing edible brown button mushrooms.
+  name: пакет спор коричневых грибов
+  description: Споры для выращивания съедобных коричневых шампиньонов.
   components:
   - type: Seed
     plantId: BrownMushroomPlants

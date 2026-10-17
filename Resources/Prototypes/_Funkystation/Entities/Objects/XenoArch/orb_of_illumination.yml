@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: GlowingOrb
-  name: glowing orb
-  description: A bright orb of light. It seems fragile.
+  name: светящаяся сфера
+  description: Яркая сфера света. Кажется хрупкой.
   suffix: ARTIFACT
   components:
   - type: Sprite

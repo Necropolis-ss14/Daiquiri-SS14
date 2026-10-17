@@ -1,7 +1,7 @@
 - type: entity
   id: EffectUnknownHumanoid
-  name: unknown humanoid
-  description: Ignore.
+  name: неизвестный гуманоид
+  description: Игнорируйте.
   components:
   - type: Sprite
     sprite: _Starlight/Effects/unknown_humanoid.rsi

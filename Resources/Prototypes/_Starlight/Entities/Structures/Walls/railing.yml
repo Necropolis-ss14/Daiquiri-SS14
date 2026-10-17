@@ -130,8 +130,8 @@
   parent: [ BaseStructure, BaseStructureDissolvable ] # Starlight-edit
   id: BaseRailingWood
   abstract: true
-  name: railing
-  description: Basic railing meant to protect idiots like you from falling.
+  name: перила
+  description: Простые перила, призванные защитить таких идиотов, как вы, от падения.
   components:
   - type: Sprite
     drawdepth: SmallObjects
@@ -479,8 +479,8 @@
   parent: [ BaseStructure, BaseStructureDissolvable ] # Starlight-edit
   id: BaseRailingYellow
   abstract: true
-  name: railing
-  description: Basic railing meant to protect idiots like you from falling.
+  name: перила
+  description: Простые перила, призванные защитить таких идиотов, как вы, от падения.
   components:
   - type: Sprite
     drawdepth: SmallObjects

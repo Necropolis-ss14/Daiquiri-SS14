@@ -1,6 +1,6 @@
 - type: entity
   save: false
-  name: Urist McHandster the Neo-Dwarf
+  name: Урист МакРучка-нео-дворф
   parent: [BaseSpeciesPickupable, BaseMobNeocyte]
   id: BaseMobNeoDwarf
   abstract: true

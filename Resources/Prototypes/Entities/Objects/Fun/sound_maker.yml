@@ -241,8 +241,8 @@
 - type: entity
   parent: [BaseWhistle, BaseMinorContraband]
   id: CommanderWhistle
-  name: trench whistle
-  description: A whistle used by commanders to draw attention. Avanti!
+  name: окопный свисток
+  description: Свисток, которым командиры привлекают внимание. Аванти!
   components:
   - type: Sprite
     state: trench

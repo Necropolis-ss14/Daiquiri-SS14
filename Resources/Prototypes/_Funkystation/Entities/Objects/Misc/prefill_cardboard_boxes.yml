@@ -1,7 +1,7 @@
 - type: entity
   parent: CardboardBoxLargeInternals
   id: CardboardBoxLargeInternalsFilled
-  name: small emergency breathing supplies box
+  name: ящик аварийного дыхательного снаряжения
   suffix: FILLED
   components:
   - type: EntityTableContainerFill
@@ -21,7 +21,7 @@
 - type: entity
   parent: CardboardBoxLargeCargo
   id: CardboardBoxLargeCargoRoundstart
-  name: cargo supplies box
+  name: ящик грузовых припасов
   suffix: Cargo roundstart
   components:
   - type: EntityTableContainerFill
@@ -38,7 +38,7 @@
 - type: entity
   parent: CardboardBoxLargeEngi
   id: CardboardBoxLargeEngiRoundstart
-  name: engineering supplies box
+  name: ящик инженерных припасов
   suffix: Engi roundstart
   components:
   - type: EntityTableContainerFill
@@ -57,7 +57,7 @@
 - type: entity
   parent: CardboardBoxLarge
   id: CardboardBoxLargeBureaucracy
-  name: office supplies box
+  name: ящик канцелярских принадлежностей
   suffix: Office
   components:
   - type: EntityTableContainerFill
@@ -84,7 +84,7 @@
 - type: entity
   parent: CardboardBoxLargeService
   id: CardboardBoxLargeServiceJani
-  name: janitorial supplies box
+  name: ящик уборочных принадлежностей
   suffix: Jani
   components:
   - type: EntityTableContainerFill

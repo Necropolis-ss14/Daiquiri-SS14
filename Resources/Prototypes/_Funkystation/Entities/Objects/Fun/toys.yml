@@ -1,8 +1,8 @@
 - type: entity
   id: BoxFunLizardPlushieBulk
   parent: CardboardBoxLargeWeh
-  name: bulk lizard plushie box
-  description: A buncha soft lizard plushies. Throw them around and then wonder how you're gonna explain this purchase to NT.
+  name: набор плюшевых ящерок
+  description: Куча мягких плюшевых ящерок. Разбросайте их, а потом думайте, как объяснить эту покупку NT.
   components:
   - type: StorageFill
     contents:
@@ -14,8 +14,8 @@
 - type: entity
   id: BoxFunSharkPlushieBulk
   parent: CardboardBoxLargeWeh
-  name: bulk soft toy shark box
-  description: A crate filled with a variety of everyone's favorite finned friend. Rawr!
+  name: набор плюшевых акул
+  description: Ящик, полный разнообразных плюшевых любимцев — акул. Ррррав!
   components:
   - type: StorageFill
     contents:
@@ -29,8 +29,8 @@
 - type: entity
   id: BoxFunArtSupplies
   parent: CardboardBoxLarge
-  name: art supplies
-  description: Make some happy little accidents with lots of crayons!
+  name: художественные принадлежности
+  description: Устройте пару счастливых маленьких случайностей с кучей мелков!
   components:
   - type: StorageFill
     contents:

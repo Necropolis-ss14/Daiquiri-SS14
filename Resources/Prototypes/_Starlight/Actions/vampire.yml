@@ -25,8 +25,8 @@
 - type: entity
   parent: BaseAction
   id: ActionVampireGlare
-  name: Glare
-  description: Stare down nearby targets to paralyze and mute them.
+  name: Взгляд
+  description: Уставиться на ближайшие цели, парализуя и лишая их голоса.
   components:
     - type: Action
       useDelay: 60
@@ -73,8 +73,8 @@
 - type: entity
   parent: BaseAction
   id: ActionVampireRejuvenateI
-  name: Rejuvenate
-  description: Removes any and all stuns, restores stamina.
+  name: Омоложение
+  description: Снимает любые оглушения, восстанавливает выносливость.
   components:
     - type: Action
       useDelay: 35

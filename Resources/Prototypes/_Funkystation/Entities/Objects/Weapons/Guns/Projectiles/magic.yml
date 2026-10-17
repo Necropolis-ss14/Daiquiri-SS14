@@ -1,7 +1,7 @@
 - type: entity
   id: ProjectileWeakFireball
-  name: weak fireball
-  description: Burnin up for you.
+  name: слабый огненный шар
+  description: Горит для тебя.
   parent: BulletRocket
   categories: [ HideSpawnMenu ]
   components:

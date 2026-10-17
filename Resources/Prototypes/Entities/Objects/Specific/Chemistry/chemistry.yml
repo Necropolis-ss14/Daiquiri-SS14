@@ -329,8 +329,8 @@
 - type: entity
   parent: [SolutionLarge, BaseBeakerMetallic, BaseSyndicateContraband]
   id: SyndicateBluespaceBeaker
-  name: redspace beaker # Starlight
-  description: An illegal reagent container that violates the laws of physics.
+  name: краснопространственный стакан # Starlight
+  description: Нелегальная ёмкость для реагентов, нарушающая законы физики.
   components:
   - type: Spillable
     solution: beaker

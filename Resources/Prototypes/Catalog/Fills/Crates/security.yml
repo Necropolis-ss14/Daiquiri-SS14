@@ -16,8 +16,8 @@
 - type: entity
   parent: CrateSecgear
   id: CrateSecurityHelmet
-  name: helmet crate
-  description: Contains three standard-issue brain buckets. Requires Security access to open.
+  name: ящик шлемов
+  description: Содержит три стандартных каски. Для вскрытия нужен охранный доступ.
   components:
   - type: EntityTableContainerFill
     containers:

@@ -69,7 +69,7 @@
 - type: entity
   id: SpawnPointGhostERTLeaderArmed
   parent: MarkerBase
-  name: ERT spawn point
+  name: точка спавна ОБР
   suffix: Leader, Armed, EVA
   components:
   - type: Sprite
@@ -84,7 +84,7 @@
 - type: entity
   id: SpawnPointGhostERTLeader
   parent: MarkerBase
-  name: ERT spawn point
+  name: точка спавна ОБР
   suffix: Leader
   components:
   - type: Sprite
@@ -99,7 +99,7 @@
 - type: entity
   id: SpawnPointGhostERTSecurityArmedEVA
   parent: MarkerBase
-  name: ERT spawn point
+  name: точка спавна ОБР
   suffix: Security, Armed, EVA
   components:
   - type: Sprite
@@ -114,7 +114,7 @@
 - type: entity
   id: SpawnPointGhostERTSecurity
   parent: MarkerBase
-  name: ERT spawn point
+  name: точка спавна ОБР
   suffix: Security
   components:
   - type: Sprite
@@ -129,7 +129,7 @@
 - type: entity
   id: SpawnPointGhostERTMedical
   parent: MarkerBase
-  name: ERT spawn point
+  name: точка спавна ОБР
   suffix: Medical
   components:
   - type: Sprite
@@ -144,7 +144,7 @@
 - type: entity
   id: SpawnPointGhostERTEngineerEVA
   parent: MarkerBase
-  name: ERT spawn point
+  name: точка спавна ОБР
   suffix: Engineer, EVA
   components:
   - type: Sprite
@@ -159,7 +159,7 @@
 - type: entity
   id: SpawnPointGhostERTJanitor
   parent: MarkerBase
-  name: ERT spawn point
+  name: точка спавна ОБР
   suffix: Janitor
   components:
   - type: Sprite
@@ -174,7 +174,7 @@
 - type: entity
   id: SpawnPointGhostERTJanitorEVA
   parent: MarkerBase
-  name: ERT spawn point
+  name: точка спавна ОБР
   suffix: Janitor, EVA
   components:
   - type: Sprite
@@ -189,7 +189,7 @@
 - type: entity
   id: SpawnPointGhostERTMedicalArmedEVA
   parent: MarkerBase
-  name: ERT spawn point
+  name: точка спавна ОБР
   suffix: Medical, Armed, EVA
   components:
   - type: Sprite
@@ -204,7 +204,7 @@
 - type: entity
   id: SpawnPointGhostERTCBURN
   parent: MarkerBase
-  name: ERT spawn point
+  name: точка спавна ОБР
   suffix: CBURN
   components:
   - type: Sprite
@@ -219,7 +219,7 @@
 - type: entity
   id: SpawnPointGhostERTCBURNCorpsman
   parent: MarkerBase
-  name: ERT spawn point
+  name: точка спавна ОБР
   suffix: CBURN, Medical
   components:
   - type: Sprite
@@ -234,7 +234,7 @@
 - type: entity
   id: SpawnPointGhostERTChaplain
   parent: MarkerBase
-  name: ERT spawn point
+  name: точка спавна ОБР
   suffix: Chaplain
   components:
   - type: Sprite
@@ -249,7 +249,7 @@
 - type: entity
   id: SpawnPointGhostERTChaplainEVA
   parent: MarkerBase
-  name: ERT spawn point
+  name: точка спавна ОБР
   suffix: Chaplain, EVA
   components:
   - type: Sprite

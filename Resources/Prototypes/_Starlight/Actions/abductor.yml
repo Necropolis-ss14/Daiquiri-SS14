@@ -38,8 +38,8 @@
 
 - type: entity
   id: ActionGizmoMark
-  name: Mark
-  description: using gizmo from your pockets to mark agent.
+  name: Отметить
+  description: Использовать гаджет из карманов, чтобы отметить агента.
   components:
   - type: Action
     useDelay: 10
@@ -55,8 +55,8 @@
 
 - type: entity
   id: ActionReturnToShip
-  name: return
-  description: return to the ship.
+  name: Возврат
+  description: Возвращение на корабль.
   components:
   - type: Action
     useDelay: 5

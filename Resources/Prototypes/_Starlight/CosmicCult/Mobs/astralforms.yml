@@ -2,8 +2,8 @@
 - type: entity
   parent: [ Incorporeal, BaseMob ]
   id: MobCosmicAstralProjection
-  name: astral projection
-  description: Neither here nor there.
+  name: астральная проекция
+  description: Ни здесь, ни там.
   components:
   - type: ActionGrant
     actions:
@@ -68,8 +68,8 @@
 - type: entity
   parent: [ BaseSimpleMob ]
   id: MobCosmicAstralAscended
-  name: astral ascended
-  description: Transcendant, ascendant.
+  name: астральный вознёсшийся
+  description: Трансцендентный, возвышенный.
   components:
   - type: Puller
     needsHands: false
@@ -135,8 +135,8 @@
 - type: entity
   parent: MobCosmicAstralAscended
   id: MobCosmicCustodian
-  name: malign custodian
-  description: An abomination wrought of malign mass. It floats with a weightless, unnerving grace.
+  name: злокачественный смотритель
+  description: Мерзость, сотканная из злокачественной массы. Парит с невесомой, пугающей грацией.
   components:
   - type: MovementSpeedModifier
     baseWalkSpeed: 3
@@ -162,8 +162,8 @@
 - type: entity
   parent: MobCosmicAstralAscended
   id: MobCosmicOracle
-  name: malign oracle
-  description: An abomination wrought of malign mass. Its gaze seeks relentlessly.
+  name: злокачественный оракул
+  description: Мерзость, сотканная из злокачественной массы. Его взгляд неумолимо ищет.
   components:
   - type: MovementSpeedModifier
     baseWalkSpeed: 3
@@ -189,8 +189,8 @@
 - type: entity
   parent: MobCosmicAstralAscended
   id: MobCosmicLodestar
-  name: malign lodestar
-  description: An abomination wrought of malign mass. A searing light glimmers within.
+  name: злокачественный путеводный свет
+  description: Мерзость, сотканная из злокачественной массы. Внутри мерцает обжигающий свет.
   components:
   - type: Sprite
     sprite: _Starlight/CosmicCult/Mobs/lodestar.rsi

@@ -1,9 +1,9 @@
 # Funky atmos - Metal Hydrogen
 - type: entity
   id: MetalHydrogenAxe
-  name: metal hydrogen axe
+  name: топор из металлического водорода
   parent: [BaseEngineeringContraband, FireAxe]
-  description: A lightweight crowbar with an extremely sharp fire axe head attached.
+  description: Лёгкий лом с прикреплённым чрезвычайно острым лезвием пожарного топора.
   components:
   - type: MeleeWeapon
     attackRate: 0.85

@@ -491,8 +491,8 @@
     node: helmet
 
 - type: entity
-  name: Saw blade
-  description: Blade for create a saw, requires a sharp tool.
+  name: пильное полотно
+  description: Полотно для создания пилы, требуется острый инструмент.
   id: SawBlade
   parent: BaseItem
   components:

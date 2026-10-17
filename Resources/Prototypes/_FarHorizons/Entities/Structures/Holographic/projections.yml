@@ -1,8 +1,8 @@
 - type: entity
   id: HolosignRadiationBlocking
   parent: HolosignWetFloor
-  name: holographic radiation barrier
-  description: A barrier of hard light that blocks light and radiation, but nothing else.
+  name: голографический радиационный барьер
+  description: Барьер из твёрдого света, блокирующий свет и радиацию, но ничего больше.
   components:
   - type: Sprite
     sprite: _FarHorizons/Structures/Holo/radiation.rsi

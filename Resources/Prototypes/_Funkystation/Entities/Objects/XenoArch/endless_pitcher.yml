@@ -2,8 +2,8 @@
   parent: Pitcher
   id: PitcherEndlessWater
   suffix: Water ARTIFACT
-  name: odd metal pitcher
-  description: A strangely heavy pitcher. The inner walls seem extra thick and it almost feels as if there are mechanisms working inside it.
+  name: странный металлический кувшин
+  description: Странно тяжёлый кувшин. Внутренние стенки кажутся слишком толстыми, и почти чудится, будто внутри работает какой-то механизм.
   components:
   - type: SolutionRegeneration
     duration: 3

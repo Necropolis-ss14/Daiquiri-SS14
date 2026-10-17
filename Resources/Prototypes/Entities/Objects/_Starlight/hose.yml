@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: GasCanisterHose
-  name: hose
-  description: A flexible hose for connecting gas canisters and tanks.
+  name: шланг
+  description: Гибкий шланг для соединения газовых баллонов и резервуаров.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Tools/hose.rsi

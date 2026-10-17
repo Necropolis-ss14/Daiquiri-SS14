@@ -41,8 +41,8 @@
 - type: entity
   parent: CrateMedical
   id: CrateChemistryVials
-  name: vial supply crate
-  description: Crate filled with a box of vials.
+  name: ящик флаконов
+  description: Ящик, наполненный коробкой флаконов.
   components:
   - type: EntityTableContainerFill
     containers:

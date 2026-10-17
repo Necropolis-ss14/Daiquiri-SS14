@@ -3,8 +3,8 @@
   parent: BaseWallmount
   id: ShelfBase
   abstract: true
-  name: shelf
-  description: A strange place to place, well, anything really. You feel like you shouldn't be seeing this.
+  name: полка
+  description: Странное место, чтобы что-то ставить, ну, вообще-то что угодно. Вам кажется, вы не должны это видеть.
   components:
   - type: Sprite
     drawdepth: WallMountedItems

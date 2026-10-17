@@ -1,8 +1,8 @@
 - type: entity
-  name: phenylpiperidine crystal # Starlight, lowercase
+  name: кристалл фенилпиперидина # Starlight, lowercase
   parent: [ BaseItem, BaseMedicalContraband ]
   id: PhenylpiperidineSolidified
-  description: 5u of phenylpiperidine solidified with tricordrazine. Worth a lot. # Starlight, lowercase
+  description: 5 ед. фенилпиперидина, отверждённые трикордразином. Стоит немало. # Starlight, lowercase
   components:
   - type: Sprite
     sprite: _Mono/Objects/Misc/phenylpiperidine.rsi

@@ -1,8 +1,8 @@
 - type: entity
   id: CosmicDeconversionJail
   parent: ConstructibleMachine
-  name: containment oubliette
-  description: An advanced mobile containment cell. When powered, its interior space is actively caustic towards anomalous influences.
+  name: изоляционная темница
+  description: Продвинутая мобильная камера содержания. При подаче питания её внутреннее пространство активно разъедает аномальные влияния.
   placement:
     mode: SnapgridCenter
   components:
@@ -146,8 +146,8 @@
 - type: entity
   parent: BaseMachineCircuitboard
   id: OublietteCircuitBoard
-  name: containment oubliette machine board
-  description: A machine printed circuit board for a containment oubliette.
+  name: плата машины изоляционной темницы
+  description: Печатная плата машины для изоляционной темницы.
   components:
     - type: Sprite
       state: science

@@ -47,8 +47,8 @@
 - type: entity
   parent: BaseMagazineBoxRifle
   id: MagazineBoxRifleSP
-  name: ammunition box (.20 rifle SP)
-  description: A cardboard box of .20 rifle rounds. Intended to hold general-purpose kinetic ammunition.
+  name: коробка патронов (.20 винтовка SP)
+  description: Картонная коробка патронов .20 для винтовки. Предназначена для кинетических боеприпасов общего назначения.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeRifleSP
@@ -63,7 +63,7 @@
 - type: entity
   parent: BaseMagazineBoxRifle
   id: MagazineBoxRifleHP
-  name: ammunition box (.20 rifle HP)
+  name: коробка патронов (.20 винтовка HP)
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeRifleHP

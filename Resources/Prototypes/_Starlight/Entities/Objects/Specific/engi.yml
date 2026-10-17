@@ -1,8 +1,8 @@
 - type: entity
-  name: prototype of the jaws of life
+  name: прототип челюстей жизни
   parent: [ BaseContrabandTier2, JawsOfLife, BaseEngineeringContraband ] # Blimpuf
   id: PrototypeJawsOfLife
-  description: Early version, not as effective.
+  description: Ранняя версия, менее эффективная.
   components:
   - type: Tag
     tags:

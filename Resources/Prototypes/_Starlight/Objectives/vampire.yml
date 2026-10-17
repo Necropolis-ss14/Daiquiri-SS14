@@ -125,8 +125,8 @@
 - type: entity
   parent: [BaseVampireObjective, BaseSurviveObjective]
   id: VampireSurviveObjective
-  name: Survive
-  description: I must survive no matter what.
+  name: Выжить
+  description: Я должен выжить любой ценой.
   components:
   - type: Objective
     icon:

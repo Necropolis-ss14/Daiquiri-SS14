@@ -1,8 +1,8 @@
 - type: entity
   parent: Holoprojector
   id: RadiationBlockingProjector
-  name: radiation barrier projector
-  description: Stop the deadly radiation from a delamination or meltdown, at least for a little while.
+  name: проектор радиационного барьера
+  description: Остановите смертельную радиацию от расгерметизации или расплавления — хотя бы на время.
   components:
   - type: HolosignProjector
     signProto: HolosignRadiationBlocking

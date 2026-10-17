@@ -1,9 +1,9 @@
 - type: entity
   parent: BaseMob
   id: MobParadoxArtifact
-  name: space-time paradox
+  name: пространственно-временной парадокс
   suffix: "ARTIFACT"
-  description: A big ball of wibbly wobbly, timey wimey stuff.
+  description: Большой комок дрожащей-трясущейся, временно-местечковой штуки.
   components:
   - type: Sprite
     drawdepth: Mobs

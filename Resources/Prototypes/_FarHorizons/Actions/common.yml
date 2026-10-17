@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseMentalAction
   id: ActionSiliconPlayMidi
-  name: Play MIDI
-  description: Open your in-built MIDI program to jam to some electronic tunes.
+  name: Играть MIDI
+  description: Открыть встроенную MIDI-программу, чтобы побаловаться электронными мелодиями.
   components:
   - type: Action
     icon: _FarHorizons/Interface/Actions/silicon-midi.png

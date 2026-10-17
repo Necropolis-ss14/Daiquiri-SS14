@@ -39,7 +39,7 @@
 - type: entity
   parent: ClothingHeadset
   id: ClothingHeadsetAssistant
-  name: assistant headset
+  name: гарнитура ассистента
   description: A headset used by assistants. # Starlight
   components:
   - type: Sprite

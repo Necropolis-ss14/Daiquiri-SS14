@@ -1,8 +1,8 @@
 - type: entity
-  name: crisis button
+  name: кнопка кризиса
   parent: BaseItem
   id: CrisisButton
-  description: Used to broadcast an distress call to security comms.
+  description: Используется для передачи сигнала бедствия в охранные каналы связи.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Specific/Security/crisisButton.rsi

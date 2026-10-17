@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseSign
   id: SignRadioHost
-  name: radio host sign
-  description: A sign indicating the studio for the radio host.
+  name: табличка радиоведущего
+  description: Табличка, указывающая студию радиоведущего.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Wallmounts/signs.rsi

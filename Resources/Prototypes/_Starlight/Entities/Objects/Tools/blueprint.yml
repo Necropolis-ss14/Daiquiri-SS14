@@ -36,8 +36,8 @@
 - type: entity
   parent: BaseBlueprint
   id: BlueprintPKAModkits
-  name: PKA Modkits
-  description: A blueprint containing the schematics to pka modkits for use by the salvage team.
+  name: чертёж модкитов PKA
+  description: Чертёж со схемами модкитов PKA для использования утилизационной командой.
   components:
     - type: Blueprint
       providedRecipes:

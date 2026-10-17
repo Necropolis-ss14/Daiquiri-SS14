@@ -1,8 +1,8 @@
 - type: entity
   parent: WeaponGrapplingGun
   id: WeaponNinjaChainSickle
-  name: kusarigama # Starlight
-  description: A sickle attached to a websilk chain. The Spider Clan embodies the ancient ways, even as they steal the future.
+  name: кусаригама # Starlight
+  description: Серп, прикреплённый к цепи из паутинного шелка. Клан Паука чтит древние традиции, даже похищая будущее.
   components:
   - type: GrapplingGun
     reelMassCoefficient: 200 # You can pull everyone.

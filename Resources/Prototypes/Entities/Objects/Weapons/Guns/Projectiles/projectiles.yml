@@ -861,7 +861,7 @@
 
 - type: entity
   id: Bullet60mmRocket
-  name: 60mm rocket
+  name: 60-мм ракета
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
   components:
@@ -1389,7 +1389,7 @@
         Heat: 20
 
 - type: entity
-  name: destroying bolt
+  name: уничтожающий заряд
   id: BulletLaserDestroy
   parent: BaseBullet
   categories: [ HideSpawnMenu ]

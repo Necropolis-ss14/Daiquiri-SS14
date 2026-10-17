@@ -2,8 +2,8 @@
   parent: [ BaseSimpleMob, FlyingMobBase, BaseSlicingRefinable ]
   abstract: true
   id: MobCosmicColossusBase
-  name: entropic colossus
-  description: A colossal monstrosity of malign plating and dendritic infestation.
+  name: энтропийный колосс
+  description: Колоссальная мерзость из злокачественной обшивки и древовидного заражения.
   components:
   - type: SocialInteractionGiver
     interactionPrototypes:

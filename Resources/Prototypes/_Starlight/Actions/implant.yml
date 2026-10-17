@@ -113,8 +113,8 @@
 - type: entity
   parent: [BaseSuicideAction, BaseImplantAction]
   id: ActionActivateXenoroachSelfDestruct
-  name: Self-Destruct
-  description: Activates your self-destruct sequence, dissolving your chassis and leaving only a pool of acid.
+  name: Самоуничтожение
+  description: Активирует вашу последовательность самоуничтожения, растворяя корпус и оставляя лишь лужу кислоты.
   components:
   - type: Action
     checkCanInteract: false

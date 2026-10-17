@@ -1,7 +1,7 @@
 - type: entity
   id: BluespaceHarvesterPortal
-  name: bluespace rift
-  description: A tear in reality leading to somewhere... else. Hostile entities pour through.
+  name: блюспейс-разлом
+  description: Разрыв в реальности, ведущий куда-то... ещё. Оттуда рвутся враждебные сущности.
   components:
   - type: Transform
     anchored: true

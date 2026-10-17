@@ -2,7 +2,7 @@
 - type: entity
   parent: GasCanister
   id: BZCanister
-  name: bz canister
+  name: баллон BZ
   components:
   - type: Sprite
     layers:
@@ -44,7 +44,7 @@
 - type: entity
   parent: GasCanister
   id: HealiumCanister
-  name: healium canister
+  name: баллон хилиума
   components:
   - type: Sprite
     layers:
@@ -86,7 +86,7 @@
 - type: entity
   parent: GasCanister
   id: NitriumCanister
-  name: nitrium canister
+  name: баллон нитриума
   components:
   - type: Sprite
     layers:
@@ -128,7 +128,7 @@
 - type: entity
   parent: GasCanister
   id: PluoxiumCanister
-  name: pluoxium canister
+  name: баллон плюоксия
   components:
   - type: Sprite
     layers:
@@ -170,7 +170,7 @@
 - type: entity
   parent: GasCanister
   id: HydrogenCanister
-  name: hydrogen canister
+  name: баллон водорода
   components:
   - type: Sprite
     layers:
@@ -212,7 +212,7 @@
 - type: entity
   parent: GasCanister
   id: HyperNobliumCanister
-  name: hyper-noblium canister
+  name: баллон гиперноблия
   components:
   - type: Sprite
     layers:
@@ -254,7 +254,7 @@
 - type: entity
   parent: GasCanister
   id: ProtoNitrateCanister
-  name: proto-nitrate canister
+  name: баллон протонитрата
   components:
   - type: Sprite
     layers:
@@ -296,7 +296,7 @@
 - type: entity
   parent: GasCanister
   id: ZaukerCanister
-  name: zauker canister
+  name: баллон заукера
   components:
   - type: Sprite
     layers:
@@ -338,7 +338,7 @@
 - type: entity
   parent: GasCanister
   id: HalonCanister
-  name: halon canister
+  name: баллон галона
   components:
   - type: Sprite
     layers:
@@ -380,7 +380,7 @@
 - type: entity
   parent: GasCanister
   id: HeliumCanister
-  name: helium canister
+  name: баллон гелия
   components:
   - type: Sprite
 
@@ -423,7 +423,7 @@
 - type: entity
   parent: GasCanister
   id: AntiNobliumCanister
-  name: anti-noblium canister
+  name: баллон антиноблия
   components:
   - type: Sprite
     layers:

@@ -1,5 +1,5 @@
 - type: entity
   save: false
-  name: Urist McElgi
+  name: Урист МакЭльфи
   parent: BaseMobElf
   id: MobElf

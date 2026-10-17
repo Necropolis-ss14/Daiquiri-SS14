@@ -1,8 +1,8 @@
 - type: entity
   parent: RehydratableAnimalCube
   id: BorgiCube
-  name: borgi cube
-  description: Just add water! BORK!
+  name: куб борги
+  description: Просто добавь воды! БОРК!
   components:
   - type: Rehydratable
     possibleSpawns:

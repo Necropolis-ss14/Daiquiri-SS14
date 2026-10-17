@@ -1,8 +1,8 @@
 - type: entity
-  name: terror spider
+  name: паук ужаса
   parent: [ SimpleSpaceMobBaseAntag, MobRespirator, BaseSlicingRefinable ]
   id: MobTerrorSpider
-  description: a deadly hybrid of a giant spider and xenomorph.
+  description: смертоносный гибрид гигантского паука и ксеноморфа.
   abstract: true
   components:
   - type: Prying

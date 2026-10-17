@@ -2,8 +2,8 @@
   parent: [SolutionAmmo, BaseBullet]
   id: MoffBloodBolt
   categories: [ HideSpawnMenu ]
-  name: blood bolt
-  description: gross.
+  name: кровавый заряд
+  description: Мерзко.
   components:
   - type: Ammo
     muzzleFlash: null

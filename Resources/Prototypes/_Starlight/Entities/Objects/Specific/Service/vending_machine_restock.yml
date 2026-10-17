@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseVendingMachineRestock
   id: VendingMachineRestockSustenance
-  name: prisoner sustenance restock box
-  description: A box full of what is legally food. Load it into a Sustenance Vendor for a refill.
+  name: набор пополнения автомата с пищей для заключённых
+  description: Коробка, полная того, что юридически считается едой. Загрузите её в автомат «Пропитание» для пополнения.
   components:
   - type: VendingMachineRestock
     canRestock:

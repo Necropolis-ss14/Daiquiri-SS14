@@ -1,8 +1,8 @@
 - type: entity
-  name: senior mail bag
+  name: сумка старшего почтальона
   id: SeniorMailBag
   parent: MailBag
-  description: A bright blue mail bag for the most devoted of mail technicians. Only contains a trace amount of Blue172.81!
+  description: Ярко-синяя почтовая сумка для самых преданных почтовых техников. Содержит лишь следовое количество Blue172.81!
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Specific/Cargo/senior_mail_bag.rsi

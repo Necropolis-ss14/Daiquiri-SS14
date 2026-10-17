@@ -1,8 +1,8 @@
 - type: entity
-  name: entropic blade
+  name: энтропийный клинок
   parent: [ BaseSword, BaseCosmicCultItem  ] # Starlight Edit: Contraband
   id: SwordCosmicCult
-  description: An eerie greatsword wrought of indescribable material, forcibly extruded down into reality. Your instincts tell you that it does not belong here.
+  description: Жуткий двуручный меч, сотканный из неописуемого материала, насильно выдавленный в реальность. Инстинкты подсказывают вам, что ему здесь не место.
   components:
   - type: CosmicEquipment
   - type: Sprite
@@ -73,10 +73,10 @@
       - state: inhand-right
 
 - type: entity
-  name: vacuous lance
+  name: пустотное копьё
   parent: BaseCosmicCultItem # Starlight Edit: Contraband
   id: SpearCosmicCult
-  description: An unnerving spear, wrought of indescribable material. Being near it feels like a prickle of static spreading through your nerves.
+  description: Жуткое копьё, сотканное из неописуемого материала. Рядом с ним по нервам разливается покалывание статики.
   components:
   - type: CosmicEquipment
   - type: EmbeddableProjectile
@@ -169,7 +169,7 @@
 
 
 - type: entity
-  name: astral razor
+  name: астральная бритва
   parent: BaseCosmicCultItem # Starlight Edit: Contraband
   id: ScytheCosmicCult
   components:

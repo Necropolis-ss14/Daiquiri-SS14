@@ -2,8 +2,8 @@
 - type: entity
   id: BaseNewspaper
   parent: BaseItem
-  name: newspaper
-  description: A paperback newspaper. This one is several years out of date and doesn't seem to contain any information you don't already know.
+  name: газета
+  description: Мягкая газета. Эта выпущена несколько лет назад и, похоже, не содержит ничего, чего вы уже не знаете.
   abstract: true
   components:
   - type: Sprite

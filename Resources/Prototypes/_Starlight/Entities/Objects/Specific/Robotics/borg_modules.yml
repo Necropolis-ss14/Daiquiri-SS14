@@ -1230,7 +1230,7 @@
 - type: entity
   id: BorgModuleTeaPartyMAG
   parent: [ BaseBorgModule, BaseProviderBorgModule, BaseMajorContraband ]
-  name: TeaPartyMAG cyborg module
+  name: киборг-модуль TeaPartyMAG
   components:
   - type: Sprite
     layers:

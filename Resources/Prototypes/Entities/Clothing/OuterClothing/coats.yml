@@ -422,7 +422,7 @@
 - type: entity
   parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterCoatParamedicWB]
   id: ClothingOuterCoatParamedicWBOpened
-  name: paramedic windbreaker
+  name: куртка парамедика
 
 - type: entity
   parent: [ClothingOuterStorageBase, ClothingOuterBaseWarm, BaseMinorContraband] # Starlight

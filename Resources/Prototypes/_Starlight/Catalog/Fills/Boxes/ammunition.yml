@@ -1,8 +1,8 @@
 - type: entity
-  name: box of .25 caseless (rubber) magazines
+  name: коробка магазинов (.25 безгильзовые, резиновые)
   parent: BoxMagazine
   id: BoxMagazineCaselessRifleRubber
-  description: A box full of
+  description: Коробка, полная магазинов .25 (резиновых).
   components:
   - type: EntityTableContainerFill
     containers:
@@ -12,10 +12,10 @@
           amount: 4
 
 - type: entity
-  name: box of .30 rifle (rubber) magazines
+  name: коробка магазинов (.30 винтовка, резиновые)
   parent: BoxMagazine
   id: BoxMagazineLightRifleRubber
-  description: A box full of .30 rifle (practice) magazines.
+  description: Коробка, полная магазинов .30 винтовки (учебных).
   components:
   - type: EntityTableContainerFill
     containers:
@@ -25,10 +25,10 @@
           amount: 4
 
 - type: entity
-  name: box of Vector (rubber) magazines
+  name: коробка магазинов Vector (резиновые)
   parent: BoxMagazine
   id: BoxMagazineMagnumSubMachineGunRubber
-  description: A box full of Vector (rubber) magazines.
+  description: Коробка, полная магазинов Vector (резиновых).
   components:
   - type: EntityTableContainerFill
     containers:
@@ -38,10 +38,10 @@
           amount: 3
 
 - type: entity
-  name: box of pistol .35 auto (rubber) magazines
+  name: коробка магазинов пистолета .35 авто (резиновые)
   parent: BoxMagazine
   id: BoxMagazinePistolRubber
-  description: A box full of pistol .35 auto (rubber) magazines.
+  description: Коробка, полная магазинов пистолета .35 авто (резиновых).
   components:
   - type: EntityTableContainerFill
     containers:
@@ -51,10 +51,10 @@
           amount: 4
 
 - type: entity
-  name: box of machine pistol .35 auto (rubber) magazines
+  name: коробка магазинов автоматического пистолета .35 авто (резиновые)
   parent: BoxMagazine
   id: BoxMagazinePistolHighCapacityRubber
-  description: A box full of machine pistol .35 auto (rubber) magazines.
+  description: Коробка, полная магазинов автоматического пистолета .35 авто (резиновых).
   components:
   - type: EntityTableContainerFill
     containers:
@@ -65,10 +65,10 @@
 
 
 - type: entity
-  name: box of SMG .35 auto (rubber) magazines
+  name: коробка магазинов ПП .35 авто (резиновые)
   parent: BoxMagazine
   id: BoxMagazinePistolSubMachineGunRubber
-  description: A box full of SMG .35 auto (rubber) magazines.
+  description: Коробка, полная магазинов пистолета-пулемёта .35 авто (резиновых).
   components:
   - type: EntityTableContainerFill
     containers:
@@ -78,10 +78,10 @@
           amount: 3
 
 - type: entity
-  name: box of .20 rifle (rubber) magazines
+  name: коробка магазинов (.20 винтовка, резиновые)
   parent: BoxMagazine
   id: BoxMagazineRifleRubber
-  description: A box full of .20 rifle (rubber) magazines.
+  description: Коробка, полная магазинов .20 винтовки (резиновых).
   components:
   - type: EntityTableContainerFill
     containers:

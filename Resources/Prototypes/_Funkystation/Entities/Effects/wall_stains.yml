@@ -19,8 +19,8 @@
 
 - type: entity
   id: WallStainFireEffect
-  name: fire
-  description: Oops...
+  name: огонь
+  description: Ой...
   categories: [ HideSpawnMenu ]
   components:
   - type: Transform

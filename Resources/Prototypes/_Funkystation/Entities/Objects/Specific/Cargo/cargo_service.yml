@@ -1,8 +1,8 @@
 - type: entity
   id: BoxServiceCustomSmokable
   parent: CardboardBoxLarge
-  name: DIY smokeables box
-  description: Want to get a little creative with what you use to destroy your lungs? Then this box is for you! Has everything you need to roll your own cigarettes.
+  name: набор для самостоятельного скручивания
+  description: Хотите проявить креативность в том, чем губить свои лёгкие? Тогда этот набор для вас! В нём есть всё для самостоятельного скручивания сигарет.
   components:
   - type: StorageFill
     contents:
@@ -17,8 +17,8 @@
 - type: entity
   id: BoxServiceBlankBooks
   parent: CardboardBoxLarge
-  name: blank books box
-  description: Contains 10 empty books of random appearance.
+  name: коробка пустых книг
+  description: Содержит 10 пустых книг случайного вида.
   components:
   - type: StorageFill
     contents:
@@ -28,8 +28,8 @@
 - type: entity
   id: BoxServiceGuidebooks
   parent: CardboardBoxLarge
-  name: guidebooks box
-  description: Contains guidebooks.
+  name: коробка руководств
+  description: Содержит руководства.
   components:
   - type: StorageFill
     contents:

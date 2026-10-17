@@ -1,8 +1,8 @@
 - type: entity
   id: BrassWindow
   parent: [BaseDeltaPressureGlass, BaseStructure, BaseStructureDissolvable] # Starlight-edit
-  name: brass window
-  description: Don't smudge up the glass down there.
+  name: латунное окно
+  description: Только не заляпай стекло внизу.
   placement:
     mode: SnapgridCenter
     snap:
@@ -151,8 +151,8 @@
 - type: entity
   id: WindowBrassDirectional
   parent: [BaseDeltaPressureGlassQuarter, BaseStructure]
-  name: directional brass window
-  description: Don't smudge up the glass down there.
+  name: направленное латунное окно
+  description: Только не заляпай стекло внизу.
   placement:
     mode: SnapgridCenter
     snap:

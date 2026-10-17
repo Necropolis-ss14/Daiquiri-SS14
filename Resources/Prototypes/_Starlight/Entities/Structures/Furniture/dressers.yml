@@ -2,8 +2,8 @@
   id: DresserNoCon
   abstract: true
   parent: BaseStructure
-  name: dresser
-  description: Wooden dresser, can store things inside itself, ideal for underwear, and someone's kidneys?...
+  name: комод
+  description: "Деревянный комод, внутри можно хранить вещи: идеален для нижнего белья и чьих-то почек?..."
   components:
   - type: Damageable
     damageModifierSet: Wood

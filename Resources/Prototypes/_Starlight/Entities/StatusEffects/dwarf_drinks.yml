@@ -54,7 +54,7 @@
 - type: entity
   abstract: true
   id: BonusArmorDwarfGeneric
-  name: <<Dwarf Armor Mod Status Effect>>
+  name: <<Статусный эффект модификатора брони дворфа>>
   components:
   - type: StatusEffect
     whitelist:
@@ -342,7 +342,7 @@
 - type: entity
   abstract: true
   id: BonusScalarDwarfGeneric
-  name: <<Dwarf BonusScalar Status Effect>>
+  name: <<Статусный эффект бонуса дворфа>>
   components:
   - type: StatusEffect
     whitelist:

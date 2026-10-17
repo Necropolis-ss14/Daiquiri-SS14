@@ -2,8 +2,8 @@
 - type: entity
   parent: BaseAction
   id: ActionToggleSniff
-  name: Toggle Smelling
-  description: Start or stop actively smelling, letting you see lingering scent trails in the world.
+  name: Включить обоняние
+  description: Начать или прекратить активное обоняние, позволяя видеть оставшиеся следы запахов в мире.
   components:
   - type: Action
     useDelay: 0.5
@@ -15,8 +15,8 @@
 - type: entity
   parent: BaseAction
   id: ActionSneeze
-  name: Sneeze
-  description: Clear your nose of whatever scent you were tracking.
+  name: Чихнуть
+  description: Очистить нос от запаха, который вы отслеживали.
   components:
   - type: Action
     useDelay: 2
@@ -27,8 +27,8 @@
 - type: entity
   parent: BaseAction
   id: ActionSniffObject
-  name: Smell Target
-  description: Smell a target to identify the scents left on it.
+  name: Понюхать цель
+  description: Понюхать цель, чтобы определить оставленные на ней запахи.
   components:
   - type: Action
     useDelay: 0.5

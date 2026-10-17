@@ -461,7 +461,7 @@
 - type: entity
   parent: PosterBase
   id: PosterContrabandInterdyneSyndicate
-  name: "Interdyne Pharmaceutics?"
+  name: "«Interdyne Pharmaceutics?»"
   description: "Кроваво-красная версия рекламы Interdyne Pharmaceutics. «Стань капитаном своей души»."
   components:
   - type: Sprite

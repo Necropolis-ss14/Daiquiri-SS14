@@ -145,8 +145,8 @@
     - timer
 
 - type: entity
-  name: molotov cocktail
-  description: The right hand of the free tider. Do not drink.
+  name: коктейль Молотова
+  description: Правая рука свободного тайдера. Не пить.
   parent: [ DrinkBaseMaterialGlass, BaseMajorContraband, BaseItem]
   id: Molotov
   components:
@@ -257,7 +257,7 @@
         energy: 10.0
 
 - type: entity
-  name: burning rag
+  name: горящая тряпка
   parent: BaseItem
   id: burningrag
   components:
@@ -273,9 +273,9 @@
 - type: entity
   parent: [ DrinkBottleGlassBase, BaseMajorContraband ]
   id: MolotovBottleEmpty
-  name: empty bottle
+  name: пустая бутылка
   suffix: empty
-  description: An empty bottle ready to be filled with welding fuel.
+  description: Пустая бутылка, готовая к заполнению сварочным топливом.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Grenades/molotov.rsi
@@ -293,9 +293,9 @@
 - type: entity
   parent: MolotovBottleEmpty
   id: MolotovBottleFuel
-  name: molotov bottle
+  name: бутылка для коктейля Молотова
   suffix: fuel
-  description: One step away from civil unrest.
+  description: В одном шаге от гражданских беспорядков.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Grenades/molotov.rsi

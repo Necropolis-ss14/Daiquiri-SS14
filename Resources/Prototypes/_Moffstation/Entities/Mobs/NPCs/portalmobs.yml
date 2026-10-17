@@ -4,9 +4,9 @@
   abstract: true
   parent: SimpleSpaceMobBase
   id: MoffMobDemonNarsieBase
-  name: narsian demon
+  name: нарсианский демон
   suffix: Hellportal
-  description: A runecarved fiend of blood and shadow.
+  description: Изрезанный рунами демон крови и тени.
   components:
   - type: HellportalMob
   - type: NpcFactionMember
@@ -109,8 +109,8 @@
   abstract: true
   parent: MoffMobDemonNarsieBase
   id: MoffMobDemonNarsieFleshBase
-  name: runecarved flesh
-  description: A writhing mass of muscle and sinew, etched with bloodied scars.
+  name: плоть, изрезанная рунами
+  description: Копошащаяся масса мышц и сухожилий, покрытая кровавыми шрамами.
   components:
   - type: Sprite
     drawdepth: Mobs

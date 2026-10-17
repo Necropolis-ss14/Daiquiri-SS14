@@ -2,7 +2,7 @@
   id: TP14DeepFryerCircuitboard
   parent: BaseMachineCircuitboard
   suffix: Machine board
-  name: deep fryer machine board
+  name: плата фритюрницы
   components:
   - type: Sprite
     state: service

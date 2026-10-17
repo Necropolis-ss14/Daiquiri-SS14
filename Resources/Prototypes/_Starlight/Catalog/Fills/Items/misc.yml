@@ -1,8 +1,8 @@
 - type: entity
   id: SecureBriefings
-  name: Secure Briefing Documents
+  name: секретные документы для брифинга
   suffix: Do Not Map
-  description: A set of classified documents to inform new members of Security
+  description: Набор секретных документов для ознакомления новых сотрудников службы безопасности.
   parent: [ BoxFolderRedEmpty, BaseCommandContraband ]
   components:
   - type: EntityTableContainerFill

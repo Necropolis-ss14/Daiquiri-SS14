@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: TP14ClothingUniformJumpskirtDarkPerformer
-  name: dark performer's jumpskirt
-  description: The true AI, once hired by SolGov to fight off Hatsune Miku. Real story.
+  name: юбка-комбинезон тёмного исполнителя
+  description: Истинный ИИ, когда-то нанятый SolGov для борьбы с Хацунэ Мику. Реальная история.
   components:
   - type: Sprite
     sprite: _TP/Clothing/Uniforms/Jumpskirt/TP14darkperformer.rsi

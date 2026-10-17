@@ -1,7 +1,7 @@
 - type: entity
   id: BaseTheDarkDebris
   parent: BaseDebris
-  name: the dark debris
+  name: обломки Тьмы
   abstract: true
   components:
     - type: PreventPilot
@@ -41,7 +41,7 @@
 - type: entity
   id: TheDarkDebrisSmall
   parent: BaseTheDarkDebris
-  name: the dark debris small
+  name: обломки Тьмы (малые)
   categories: [HideSpawnMenu]
   components:
     - type: MapGrid
@@ -51,7 +51,7 @@
 - type: entity
   id: TheDarkDebrisMedium
   parent: BaseTheDarkDebris
-  name: the dark debris medium
+  name: обломки Тьмы (средние)
   categories: [HideSpawnMenu]
   components:
     - type: MapGrid
@@ -61,7 +61,7 @@
 - type: entity
   id: TheDarkDebrisLarge
   parent: BaseTheDarkDebris
-  name: the dark debris large
+  name: обломки Тьмы (большие)
   categories: [HideSpawnMenu]
   components:
     - type: MapGrid
@@ -71,7 +71,7 @@
 - type: entity
   id: TheDarkDebrisLarger
   parent: BaseTheDarkDebris
-  name: the dark debris larger
+  name: обломки Тьмы (огромные)
   categories: [HideSpawnMenu]
   components:
     - type: MapGrid
@@ -82,7 +82,7 @@
 - type: entity
   id: TheDarkForest
   parent: BaseDebris
-  name: dark forest
+  name: тёмный лес
   components:
     - type: PreventPilot
     - type: MapGrid
@@ -124,7 +124,7 @@
 - type: entity
   id: BaseTheDarkScrapDebris
   parent: BaseDebris
-  name: scrap debris
+  name: металлоломные обломки
   abstract: true
   components:
     - type: MapGrid
@@ -171,7 +171,7 @@
 - type: entity
   id: TheDarkScrapDebrisSmall
   parent: BaseTheDarkScrapDebris
-  name: scrap debris small
+  name: металлоломные обломки (малые)
   categories: [HideSpawnMenu]
   components:
     - type: MapGrid
@@ -181,7 +181,7 @@
 - type: entity
   id: TheDarkScrapDebrisMedium
   parent: BaseTheDarkScrapDebris
-  name: scrap debris medium
+  name: металлоломные обломки (средние)
   categories: [HideSpawnMenu]
   components:
     - type: MapGrid

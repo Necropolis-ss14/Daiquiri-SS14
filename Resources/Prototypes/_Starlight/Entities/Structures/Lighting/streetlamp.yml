@@ -1,7 +1,7 @@
 - type: entity
   id: BaseLightStreetLamp
-  name: street lamp
-  description: A street lamp.
+  name: уличный фонарь
+  description: Уличный фонарь.
   parent: BaseStructure
   abstract: true
   components:
@@ -46,8 +46,8 @@
 
 - type: entity
   id: LightStreetLamp
-  name: street lamp
-  description: A street lamp.
+  name: уличный фонарь
+  description: Уличный фонарь.
   suffix: Always Powered
   parent: BaseLightStreetLamp
   components:
@@ -151,8 +151,8 @@
 
 - type: entity
   id: LightStreetLampBroken
-  name: broken street lamp
-  description: A broken street lamp.
+  name: сломанный уличный фонарь
+  description: Сломанный уличный фонарь.
   parent: BaseLightStreetLamp
   components:
   - type: Sprite
@@ -163,8 +163,8 @@
 
 - type: entity
   id: LightStreetLampUnfinished
-  name: unfinished street lamp
-  description: A partially constructed street lamp.
+  name: недостроенный уличный фонарь
+  description: Частично построенный уличный фонарь.
   parent: BaseLightStreetLamp
   categories: [ HideSpawnMenu ]
   components:

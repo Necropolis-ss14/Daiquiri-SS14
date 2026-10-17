@@ -83,7 +83,7 @@
 - type: entity
   parent: BaseBoardTabletop
   id: *GrassBoard
-  name: grass battlemap
+  name: травяная полевая карта
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -93,7 +93,7 @@
 - type: entity
   parent: BaseBoardTabletop
   id: *MoonBoard
-  name: grass battlemap
+  name: лунная полевая карта
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -103,7 +103,7 @@
 - type: entity
   parent: BaseBoardTabletop
   id: *SandBoard
-  name: sand battlemap
+  name: песчаная полевая карта
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -113,7 +113,7 @@
 - type: entity
   parent: BaseBoardTabletop
   id: *SnowBoard
-  name: snow battlemap
+  name: снежная полевая карта
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -123,7 +123,7 @@
 - type: entity
   parent: BaseBoardTabletop
   id: *ShipBoard
-  name: ship battlemap
+  name: корабельная полевая карта
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

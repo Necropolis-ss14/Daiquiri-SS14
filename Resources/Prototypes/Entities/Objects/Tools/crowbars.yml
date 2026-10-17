@@ -194,8 +194,8 @@
 - type: entity
   parent: BaseCrowbar
   id: CrowbarAbductor
-  name: abductor's crowbar
-  description: A multipurpose tool to pry open doors and fight interdimensional invaders.
+  name: лом абдуктора
+  description: Многоцелевой инструмент, чтобы вскрывать двери и сражаться с межмерными захватчиками.
   components:
   - type: Sprite
     state: abductor

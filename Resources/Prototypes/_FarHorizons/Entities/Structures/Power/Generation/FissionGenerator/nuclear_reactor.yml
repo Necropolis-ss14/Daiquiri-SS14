@@ -3,8 +3,8 @@
   id: BaseNuclearReactor
   parent: BaseStructure
   abstract: true
-  name: Nuclear Reactor
-  description: A nuclear reactor vessel, with slots for fuel rods and other components. Hey wait, didn't one of these explode once?
+  name: ядерный реактор
+  description: Корпус ядерного реактора со слотами для топливных стержней и других компонентов. Погоди-ка, разве один из таких уже не взрывался?
   components:
   - type: Sprite
     sprite: _FarHorizons/Structures/Power/Generation/FissionGenerator/nuclear_reactor.rsi
@@ -147,7 +147,7 @@
   id: BaseNuclearReactorSmall
   parent: BaseNuclearReactor
   abstract: true
-  name: Small Nuclear Reactor
+  name: малый ядерный реактор
   components:
   - type: Sprite
     sprite: _FarHorizons/Structures/Power/Generation/FissionGenerator/small_nuclear_reactor.rsi

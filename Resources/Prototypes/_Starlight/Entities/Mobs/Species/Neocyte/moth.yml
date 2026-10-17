@@ -1,6 +1,6 @@
 - type: entity
   save: false
-  name: Urist McFluffster
+  name: Урист МакПух
   parent: BaseMobNeocyte
   id: BaseMobNeoMoth
   abstract: true

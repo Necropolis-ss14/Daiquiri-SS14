@@ -88,8 +88,8 @@
 - type: entity
   parent: BaseUnburnablePaper
   id: BasePaperQuietChaos
-  name: "end of Q # no longer \"the\" since when you emote it would come out to \"the the end of Q x\""
-  description: dreadful paper that cant be faxed. but has it's own ways of getting around.
+  name: конец Q
+  description: Ужасная бумага, которую нельзя отправить по факсу. Но у неё свои способы передвигаться.
   abstract: true
   components:
     - type: Tag
@@ -127,8 +127,8 @@
 - type: entity
   parent: BasePaperQuietChaos
   id: PaperTooQuietNeedChaos
-  name: the end of Q
-  description: dreadful paper that cant fit in a fax machine.
+  name: конец Q
+  description: Ужасная бумага, которая не влезает в факс.
   components:
     - type: Paper
       content: paper-too-quiet-need-chaos
@@ -159,8 +159,8 @@
 
 - type: entity
   id: PaperIonstormBorgs
-  name: robots too orderly?
-  description: A paper. it seems to feel slightly electric in your hands. would probally destroy a fax if you insered it.
+  name: роботы слишком дисциплинированы?
+  description: Бумага. Кажется, слегка электризует руки. Вероятно, уничтожит факс, если вставить её.
   parent: [ Paper ]
   components:
     - type: Paper
@@ -171,8 +171,8 @@
 - type: entity
   parent: BaseStarlightAdmemePaper
   id: PaperEndGreenshift
-  name: restart the clock.
-  description: A paper that seems to "start the clock" again? the countdown causes it to be too big to fix into a fax.
+  name: перезапустить часы.
+  description: Бумага, которая, кажется, «запускает часы» заново? Отсчёт делает её слишком большой, чтобы влезть в факс.
   components:
     - type: Paper
       content: paper-end-greenshift-vote

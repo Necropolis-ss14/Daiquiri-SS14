@@ -1,8 +1,8 @@
 - type: entity
-  name: space koi
+  name: космический кои
   id: BaseMobKoi
   parent: [BaseMobCarp, BaseSlicingRefinable]
-  description: Result of hundreds of years of selective breeding and genetic engineering, a friendly and colourful variant of the common space carp
+  description: Результат сотен лет селекции и генной инженерии — дружелюбный и красочный вариант обычного космического карпа
   abstract: true
   components:
     - type: HTN

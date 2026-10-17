@@ -2,8 +2,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatSurgcapBlack
-  name: black surgical cap
-  description: A black cap surgeons wear during operations. Keeps their hair from tickling your internal organs.
+  name: чёрная хирургическая шапочка
+  description: Чёрная шапочка, которую хирурги носят во время операций. Не даёт волосам щекотать ваши внутренние органы.
   components:
     - type: Sprite
       sprite: DeltaV/Clothing/Head/Hats/surgcap_black.rsi
@@ -11,8 +11,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatSurgcapCyan
-  name: cyan surgical cap
-  description: A cyan cap surgeons wear during operations. Keeps their hair from tickling your internal organs.
+  name: голубая хирургическая шапочка
+  description: Голубая шапочка, которую хирурги носят во время операций. Не даёт волосам щекотать ваши внутренние органы.
   components:
     - type: Sprite
       sprite: DeltaV/Clothing/Head/Hats/surgcap_cyan.rsi
@@ -20,8 +20,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatSurgcapCybersun
-  name: cybersun surgical cap
-  description: A cybersun themed cap surgeons wear during operations. Keeps their hair from tickling your internal organs.
+  name: хирургическая шапочка Cybersun
+  description: Шапочка в стиле Cybersun, которую хирурги носят во время операций. Не даёт волосам щекотать ваши внутренние органы.
   components:
     - type: Sprite
       sprite: DeltaV/Clothing/Head/Hats/surgcap_cybersun.rsi
@@ -29,8 +29,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatSurgcapPink
-  name: pink surgical cap
-  description: A pink cap surgeons wear during operations. Keeps their hair from tickling your internal organs.
+  name: розовая хирургическая шапочка
+  description: Розовая шапочка, которую хирурги носят во время операций. Не даёт волосам щекотать ваши внутренние органы.
   components:
     - type: Sprite
       sprite: DeltaV/Clothing/Head/Hats/surgcap_pink.rsi
@@ -38,8 +38,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatSurgcapRainbow
-  name: rainbow surgical cap
-  description: A rainbow cap surgeons wear during operations. Keeps their hair from tickling your internal organs.
+  name: радужная хирургическая шапочка
+  description: Радужная шапочка, которую хирурги носят во время операций. Не даёт волосам щекотать ваши внутренние органы.
   components:
     - type: Sprite
       sprite: DeltaV/Clothing/Head/Hats/surgcap_rainbow.rsi
@@ -47,8 +47,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatSurgcapWhite
-  name: white surgical cap
-  description: A white cap surgeons wear during operations. Keeps their hair from tickling your internal organs.
+  name: белая хирургическая шапочка
+  description: Белая шапочка, которую хирурги носят во время операций. Не даёт волосам щекотать ваши внутренние органы.
   components:
     - type: Sprite
       sprite: DeltaV/Clothing/Head/Hats/surgcap_white.rsi
@@ -57,8 +57,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatWrestlingMaskLuchaBlue
-  name: blue lucha libre mask
-  description: Don't touch the mask
+  name: синяя маска луча либре
+  description: Не трогай маску.
   components:
     - type: Sprite
       sprite: DeltaV/Clothing/Head/Hats/WrestlerMaskLuchaBlue.rsi
@@ -69,8 +69,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatWrestlingMaskLuchaRed
-  name: red lucha libre mask
-  description: The luchador never removes his mask
+  name: красная маска луча либре
+  description: Лучадор никогда не снимает маску.
   components:
     - type: Sprite
       sprite: DeltaV/Clothing/Head/Hats/WrestlerMaskLuchaRed.rsi
@@ -82,8 +82,8 @@
 - type: entity
   parent: [ClothingHeadBase, BaseSecurityContraband]
   id: ClothingHeadHatDutyOfficerOrange
-  name: duty officer's orange cap
-  description: The orange hat signifies your superiority towards the poor inmates that have to stand you.
+  name: оранжевая фуражка дежурного офицера
+  description: Оранжевая фуражка означает ваше превосходство над жалкими заключёнными, которым приходится вас терпеть.
   components:
     - type: Sprite
       sprite: DeltaV/Clothing/Head/Hats/prisonguard.rsi
@@ -92,8 +92,8 @@
 - type: entity
   parent: [ClothingHeadBase, BaseCommandContraband]
   id: ClothingHeadHatHopCapFormal
-  name: head of personnel's formal cap
-  description: An ever so slightly bluer cap to complement the dashing outfit of the modern HoP.
+  name: парадная фуражка главы персонала
+  description: Чуть более синяя фуражка, дополняющая шикарный наряд современного ГП.
   components:
     - type: Sprite
       sprite: DeltaV/Clothing/Head/Hats/hopcap.rsi

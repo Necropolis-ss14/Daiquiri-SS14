@@ -76,7 +76,7 @@
 - type: entity
   parent: BaseMaterialDoorNavMap
   id: MetalDoor
-  name: metal door
+  name: металлическая дверь
   components:
   - type: Construction
     graph: DoorGraph
@@ -188,7 +188,7 @@
 - type: entity
   parent: BaseMaterialDoorNavMap
   id: BananiumDoor
-  name: bananium door
+  name: бананиумовая дверь
   components:
   - type: Sprite
     sprite: Structures/Doors/MineralDoors/bananium_door.rsi
@@ -379,8 +379,8 @@
 - type: entity
   parent: BaseMaterialDoorNavMap
   id: IronstoneDoor
-  name: ironstone door
-  description: A mysterious door made of rune-etched stone.
+  name: железнокаменная дверь
+  description: Загадочная дверь из камня с выгравированными рунами.
   components:
   - type: Sprite
     sprite: Structures/Doors/MineralDoors/ironstone_door.rsi
@@ -419,8 +419,8 @@
 - type: entity
   parent: IronstoneDoor
   id: EncrustedIronstoneDoor
-  name: encrusted ironstone door
-  description: A stone door covered in nacreous blobs of an unknown substance.
+  name: инкрустированная железнокаменная дверь
+  description: Каменная дверь, покрытая перламутровыми сгустками неизвестного вещества.
   components:
   - type: Sprite
     sprite: Structures/Doors/MineralDoors/encrusted_ironstone_door.rsi

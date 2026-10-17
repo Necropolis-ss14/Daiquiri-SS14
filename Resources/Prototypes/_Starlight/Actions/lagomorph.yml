@@ -18,8 +18,8 @@
 
 - type: entity
   id: Zoomies
-  name: "[color=lightblue]Zoomies!![/color]"
-  description: Boost sprint speed at the cost of drastically increased thirst.
+  name: "[color=lightblue]Зуми!![/color]"
+  description: Повышает скорость бега ценой резко возросшей жажды.
   components:
     - type: Action
       useDelay: 15

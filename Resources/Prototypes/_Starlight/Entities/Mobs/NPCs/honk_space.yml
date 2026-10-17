@@ -1,5 +1,5 @@
 - type: entity
-  name: lost clown
+  name: потерянный клоун
   parent: BaseMobHuman
   id: MobLostClown
   components:

@@ -86,8 +86,8 @@
 
 - type: entity
   id: ActionCosmicReturn
-  name: Return
-  description: Dissipate your astral projection and return to your body.
+  name: Возврат
+  description: Рассеять своё астральное проектирование и вернуться в тело.
   components:
   - type: Action
     checkCanInteract: false

@@ -1,7 +1,7 @@
 - type: entity
   id: ArmorSparkEffect
-  name: sparks
-  description: Sparks flying from armor impact.
+  name: искры
+  description: Искры, летящие от удара по броне.
   categories: [ HideSpawnMenu ]
   components:
   - type: TimedDespawn

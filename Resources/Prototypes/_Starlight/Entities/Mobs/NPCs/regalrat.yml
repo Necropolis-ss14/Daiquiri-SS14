@@ -1,8 +1,8 @@
 - type: entity
-  name: larger rat servant
+  name: большой крысиный служитель
   id: MobLargeRatServant
   parent: MobRatServant
-  description: He's da larger mini rat. He don't make da roolz yet.
+  description: Он большой мини-крыс. Он пока не устанавливает правила.
   categories: [ HideSpawnMenu ] #Must be configured to a King or the AI breaks.
   components:
   - type: ThermalVision

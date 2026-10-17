@@ -1,6 +1,6 @@
 - type: entity
   save: false
-  name: Urist McAvalister
+  name: Урист МакАвалистер
   parent: [ BaseSpeciesPickupable, BaseInventoryNeoAvali, BaseMobNeocyte, BaseColdBird ]
   id: BaseMobNeoAvali
   abstract: true

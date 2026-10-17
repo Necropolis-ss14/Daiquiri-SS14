@@ -91,7 +91,7 @@
 - type: entity
   id: SpawnPointAssistant
   parent: SpawnPointJobBase
-  name: assistant
+  name: ассистент
   components:
   - type: SpawnPoint
     job_id: Assistant

@@ -1,6 +1,6 @@
 - type: entity
   id: ThermiteEntity
-  name: Thermite
+  name: термит
   components:
   - type: WallMount
   - type: Thermite

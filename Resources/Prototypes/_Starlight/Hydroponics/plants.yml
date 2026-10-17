@@ -1,7 +1,7 @@
 - type: entity
   parent: BasePlant
   id: OrganTreePlants
-  name: organ tree
+  name: дерево органов
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Specific/Hydroponics/organtree.rsi
@@ -33,7 +33,7 @@
 - type: entity
   parent: BasePlant
   id: EvilApplePlants
-  name: evil apple tree
+  name: дерево злых яблок
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Specific/Hydroponics/evil_apple.rsi
@@ -62,7 +62,7 @@
 - type: entity
   parent: BasePlant
   id: ResinferaPlants
-  name: Resinfera tree
+  name: дерево резинферы
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Specific/Hydroponics/resinfera.rsi
@@ -90,7 +90,7 @@
 - type: entity
   parent: BasePlant
   id: MintPlants
-  name: Mint tree
+  name: дерево мяты
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Specific/Hydroponics/mint.rsi
@@ -119,7 +119,7 @@
 - type: entity
   parent: BasePlant
   id: SpearMintPlants
-  name: Spear mint tree
+  name: дерево колосистой мяты
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Specific/Hydroponics/spearmint.rsi
@@ -141,7 +141,7 @@
 - type: entity
   parent: BasePlant
   id: CinnamonPlants
-  name: Cinnamon tree
+  name: дерево корицы
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Specific/Hydroponics/cinnamon.rsi
@@ -170,7 +170,7 @@
 - type: entity
   parent: BasePlant
   id: CinnaflarePlants
-  name: Cinnaflare tree
+  name: дерево синнафлейра
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Specific/Hydroponics/cinnaflare.rsi
@@ -198,7 +198,7 @@
 - type: entity
   parent: ChanterellePlants
   id: BrownMushroomPlants
-  name: brown mushrooms
+  name: коричневые грибы
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Specific/Hydroponics/brown_mushroom.rsi

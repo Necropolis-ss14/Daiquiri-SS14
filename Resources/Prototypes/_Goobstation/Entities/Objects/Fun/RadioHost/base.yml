@@ -2,8 +2,8 @@
 - type: entity
   parent: BaseItem
   id: BaseVinylDisc
-  name: vinyl disc
-  description: A flat round disc with music encoded onto it's surface. Very fragile!
+  name: виниловая пластинка
+  description: Плоский круглый диск с закодированной на поверхности музыкой. Очень хрупкий!
   abstract: true
   components:
   - type: Sprite
@@ -111,8 +111,8 @@
 - type: entity
   parent: BaseVinylDisc
   id: BaseCDDisc
-  name: cd disk
-  description: A compact disc with sound encoded onto it's surface. Requires care when handling.
+  name: компакт-диск
+  description: Компакт-диск со звуком, закодированным на поверхности. Требует бережного обращения.
   abstract: true
   components:
   - type: Sprite
@@ -143,8 +143,8 @@
 - type: entity
   parent: BaseItem
   id: BaseVinylSleeve
-  name: vinyl disc sleeve
-  description: A sleeve designed to hold and store vinyl disks.
+  name: конверт для виниловой пластинки
+  description: Конверт, предназначенный для хранения виниловых пластинок.
   abstract: true
   components:
   - type: Sprite
@@ -169,8 +169,8 @@
 - type: entity
   parent: BaseItem
   id: BaseVinylSleeveFilled
-  name: vinyl disc sleeve
-  description: A sleeve designed to hold and store vinyl disks.
+  name: конверт для виниловой пластинки
+  description: Конверт, предназначенный для хранения виниловых пластинок.
   abstract: true
   components:
   - type: Sprite

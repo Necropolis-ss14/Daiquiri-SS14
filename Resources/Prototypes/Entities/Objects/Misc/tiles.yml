@@ -95,7 +95,7 @@
     node: darktile
 
 - type: entity
-  name: dark steel diagonal mini tile
+  name: тёмная стальная диагональная мини-плитка
   parent: FloorTileItemDark
   id: FloorTileItemDarkDiagonalMini
   components:
@@ -109,7 +109,7 @@
     stackType: FloorTileDarkDiagonalMini
 
 - type: entity
-  name: dark steel diagonal tile
+  name: тёмная стальная диагональная плитка
   parent: FloorTileItemDark
   id: FloorTileItemDarkDiagonal
   components:
@@ -195,7 +195,7 @@
 - type: entity
   parent: FloorTileItemDark
   id: FloorTileItemDarkSlatsContinuous
-  name: dark steel continuous slat tile
+  name: тёмная стальная непрерывная реечная плитка
   components:
   - type: Sprite
     state: dark-vertical-slats
@@ -235,7 +235,7 @@
     stackType: FloorTileDarkHorizontalSlatsBordered
 
 - type: entity
-  name: offset dark steel tile
+  name: смещённая тёмная стальная плитка
   parent: FloorTileItemDark
   id: FloorTileItemDarkOffset
   components:
@@ -268,7 +268,7 @@
     node: steeltile
 
 - type: entity
-  name: offset steel tile
+  name: смещённая стальная плитка
   parent: FloorTileItemSteel
   id: FloorTileItemSteelOffset
   components:
@@ -282,7 +282,7 @@
     stackType: FloorTileSteelOffset
 
 - type: entity
-  name: steel diagonal mini tile
+  name: стальная диагональная мини-плитка
   parent: FloorTileItemSteel
   id: FloorTileItemSteelDiagonalMini
   components:
@@ -296,7 +296,7 @@
     stackType: FloorTileSteelDiagonalMini
 
 - type: entity
-  name: steel diagonal tile
+  name: стальная диагональная плитка
   parent: FloorTileItemSteel
   id: FloorTileItemSteelDiagonal
   components:
@@ -312,7 +312,7 @@
 - type: entity
   parent: FloorTileItemSteel
   id: FloorTileItemSteelSlatsContinuous
-  name: steel continuous slat tile
+  name: стальная непрерывная реечная плитка
   components:
   - type: Sprite
     state: steel-vertical-slats
@@ -441,7 +441,7 @@
     node: whitetile
 
 - type: entity
-  name: offset white steel tile
+  name: смещённая белая стальная плитка
   parent: FloorTileItemWhite
   id: FloorTileItemWhiteOffset
   components:
@@ -455,7 +455,7 @@
     stackType: FloorTileWhiteOffset
 
 - type: entity
-  name: white steel diagonal mini tile
+  name: белая стальная диагональная мини-плитка
   parent: FloorTileItemWhite
   id: FloorTileItemWhiteDiagonalMini
   components:
@@ -469,7 +469,7 @@
     stackType: FloorTileWhiteDiagonalMini
 
 - type: entity
-  name: white steel diagonal tile
+  name: белая стальная диагональная плитка
   parent: FloorTileItemWhite
   id: FloorTileItemWhiteDiagonal
   components:
@@ -569,7 +569,7 @@
 - type: entity
   parent: FloorTileItemWhite
   id: FloorTileItemWhiteSlatsContinuous
-  name: white steel continuous slat tile
+  name: белая стальная непрерывная реечная плитка
   components:
   - type: Sprite
     state: white-vertical-slats
@@ -633,7 +633,7 @@
     node: woodtile
 
 - type: entity
-  name: techmaint floor
+  name: пол техобслуживания
   parent: FloorTileItemBase
   id: FloorTileItemTechmaint
   components:
@@ -667,7 +667,7 @@
 # TODO add a catwalk tile item once tile smoothing is supported
 
 - type: entity
-  name: mono tile
+  name: моно-плитка
   parent: FloorTileItemBase
   id: FloorTileItemMono
   components:
@@ -699,7 +699,7 @@
     stackType: FloorTileLino
 
 - type: entity
-  name: filled brass plate
+  name: залитая латунная плита
   parent: FloorTileItemBase
   id: FloorTileItemBrassFilled
   components:
@@ -718,7 +718,7 @@
     node: filledPlate
 
 - type: entity
-  name: smooth brass plate
+  name: гладкая латунная плита
   parent: FloorTileItemBase
   id: FloorTileItemBrassReebe
   components:
@@ -737,7 +737,7 @@
     node: reebe
 
 - type: entity
-  name: dirty tile
+  name: грязная плитка
   parent: FloorTileItemBase
   id: FloorTileItemDirty
   components:
@@ -753,7 +753,7 @@
     stackType: FloorTileDirty
 
 - type: entity
-  name: elevator shaft tile
+  name: плитка шахты лифта
   parent: FloorTileItemBase
   id: FloorTileItemElevatorShaft
   components:
@@ -769,7 +769,7 @@
     stackType: FloorTileElevatorShaft
 
 - type: entity
-  name: rock vault tile
+  name: плитка каменного свода
   parent: FloorTileItemBase
   id: FloorTileItemRockVault
   components:
@@ -817,7 +817,7 @@
     stackType: FloorTileLime
 
 - type: entity
-  name: mining tile
+  name: шахтная плитка
   parent: FloorTileItemBase
   id: FloorTileItemMining
   components:
@@ -833,7 +833,7 @@
     stackType: FloorTileMining
 
 - type: entity
-  name: dark mining tile
+  name: тёмная шахтная плитка
   parent: FloorTileItemBase
   id: FloorTileItemMiningDark
   components:
@@ -849,7 +849,7 @@
     stackType: FloorTileMiningDark
 
 - type: entity
-  name: light mining tile
+  name: светлая шахтная плитка
   parent: FloorTileItemBase
   id: FloorTileItemMiningLight
   components:
@@ -882,7 +882,7 @@
     stackType: FloorTileFreezer
 
 - type: entity
-  name: showroom tile
+  name: плитка шоурума
   parent: FloorTileItemBase
   id: FloorTileItemShowroom
   components:
@@ -898,7 +898,7 @@
     stackType: FloorTileShowroom
 
 - type: entity
-  name: hydro tile
+  name: гидропонная плитка
   parent: FloorTileItemBase
   id: FloorTileItemHydro
   components:
@@ -1041,7 +1041,7 @@
 - type: entity
   parent: FloorTileItemBase
   id: FloorTileItemGrayConcrete
-  name: gray concrete tile
+  name: серая бетонная плитка
   components:
   - type: Sprite
     state: grayconcrete
@@ -1055,7 +1055,7 @@
     stackType: FloorTileGrayConcrete
 
 - type: entity
-  name: gray concrete mono tile
+  name: серая бетонная моно-плитка
   parent: FloorTileItemGrayConcrete
   id: FloorTileItemGrayConcreteMono
   components:
@@ -1069,7 +1069,7 @@
     stackType: FloorTileGrayConcreteMono
 
 - type: entity
-  name: gray concrete smooth
+  name: гладкий серый бетон
   parent: FloorTileItemGrayConcrete
   id: FloorTileItemGrayConcreteSmooth
   components:
@@ -1085,7 +1085,7 @@
 - type: entity
   parent: FloorTileItemBase
   id: FloorTileItemOldConcrete
-  name: old concrete tile
+  name: старая бетонная плитка
   components:
   - type: Sprite
     state: oldconcrete
@@ -1099,7 +1099,7 @@
     stackType: FloorTileOldConcrete
 
 - type: entity
-  name: old concrete mono tile
+  name: старая бетонная моно-плитка
   parent: FloorTileItemOldConcrete
   id: FloorTileItemOldConcreteMono
   components:
@@ -1113,7 +1113,7 @@
     stackType: FloorTileOldConcreteMono
 
 - type: entity
-  name: old concrete smooth
+  name: гладкий старый бетон
   parent: FloorTileItemOldConcrete
   id: FloorTileItemOldConcreteSmooth
   components:
@@ -1129,7 +1129,7 @@
 - type: entity
   parent: FloorTileItemBase
   id: FloorTileItemIronsandConcrete
-  name: iron sand concrete tile
+  name: железопесчаная бетонная плитка
   components:
   - type: Sprite
     state: ironsandconcrete
@@ -1145,7 +1145,7 @@
 - type: entity
   parent: FloorTileItemIronsandConcrete
   id: FloorTileItemIronsandConcreteMono
-  name: iron sand concrete mono tile
+  name: железопесчаная бетонная моно-плитка
   components:
   - type: Sprite
     state: ironsandconcrete-mono
@@ -1159,7 +1159,7 @@
 - type: entity
   parent: FloorTileItemIronsandConcrete
   id: FloorTileItemIronsandConcreteSmooth
-  name: iron sand concrete smooth
+  name: гладкий железопесчаный бетон
   components:
   - type: Sprite
     state: ironsandconcrete-smooth
@@ -1188,7 +1188,7 @@
     stackType: FloorTileStackArcadeBlue
 
 - type: entity
-  name: blue arcade floor
+  name: пол синего аркадного автомата
   parent: FloorTileItemBase
   id: FloorTileItemArcadeBlue2
   components:
@@ -1220,7 +1220,7 @@
     stackType: FloorTileStackArcadeRed
 
 - type: entity
-  name: eighties floor
+  name: пол восьмидесятых
   parent: FloorTileItemBase
   id: FloorTileItemEighties
   components:
@@ -1700,8 +1700,8 @@
 - type: entity
   parent: FloorTileItemBase
   id: FloorTileItemLightAstroGrass
-  name: light astro-grass
-  description: Fake grass that covers up wires and even comes with realistic NanoTrimmings!
+  name: светлая астроземляная трава
+  description: Искусственная трава, которая скрывает провода и даже имеет реалистичное нано-оформление от NanoTrimmings!
   components:
   - type: Sprite
     state: grasslight
@@ -1889,8 +1889,8 @@
     stackType: FloorTileDarkMarble
 
 - type: entity
-  name: plasmarble tile
-  description: A chiseled, polished square of the finest Space Marble. Plasma-infused for extra... something.
+  name: плазмамраморная плитка
+  description: Высеченный, отполированный квадрат из лучшего космического мрамора. Пропитан плазмой для дополнительного... чего-то.
   parent: FloorTileItemWhiteMarble
   id: FloorTileItemPlasmaMarble
   components:
@@ -1910,8 +1910,8 @@
         Blunt: 6
 
 - type: entity
-  name: uranium marble tile
-  description: A chiseled, polished square of the finest Space Marble. Uranium-infused to make it extra rad! Pun intended!
+  name: ураново-мраморная плитка
+  description: Высеченный, отполированный квадрат из лучшего космического мрамора. Пропитан ураном для дополнительной радиоактивности! Каламбур намеренный!
   parent: FloorTileItemWhiteMarble
   id: FloorTileItemUraniumMarble
   components:
@@ -1939,7 +1939,7 @@
 - type: entity
   id: FloorTileItemXeno
   parent: FloorTileItemBase
-  name: xeno floor
+  name: ксено-пол
   components:
   - type: Sprite
     state: xenofloor
@@ -1955,7 +1955,7 @@
 - type: entity
   id: FloorTileItemXenoSteel
   parent: FloorTileItemBase
-  name: xeno steel floor
+  name: ксено-стальной пол
   components:
   - type: Sprite
     state: xeno-steel
@@ -1971,7 +1971,7 @@
 - type: entity
   id: FloorTileItemXenoSteelCorner
   parent: FloorTileItemBase
-  name: xeno steel corner floor
+  name: угловой ксено-стальной пол
   components:
   - type: Sprite
     state: xeno-steel-corner
@@ -1985,7 +1985,7 @@
     stackType: FloorTileXenoSteelCorner
 
 - type: entity
-  name: xeno techmaint floor
+  name: ксено-пол техобслуживания
   parent: FloorTileItemBase
   id: FloorTileItemXenoMaint
   components:
@@ -2003,7 +2003,7 @@
 - type: entity
   id: FloorTileItemXenoborg
   parent: FloorTileItemBase
-  name: xenoborg floor
+  name: пол ксеноборга
   components:
   - type: Sprite
     state: xenoborg-floor
@@ -2017,7 +2017,7 @@
 - type: entity
   parent: FloorTileItemDark
   id: FloorTileItemDarkSquiggly
-  name: dark steel squiggly tile
+  name: тёмная стальная волнистая плитка
   components:
   - type: Sprite
     state: dark-squiggly

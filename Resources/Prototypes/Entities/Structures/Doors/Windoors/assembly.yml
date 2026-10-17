@@ -79,8 +79,8 @@
 
 - type: entity
   id: WindoorAssemblyClockwork
-  name: clockwork windoor assembly
-  description: It opens, it closes, and you can see through it! This one looks tough.
+  name: каркас часовой ветродвери
+  description: Открывается, закрывается, и сквозь неё видно! Эта выглядит прочной.
   parent: WindoorAssembly
   components:
   - type: Sprite
@@ -137,8 +137,8 @@
 
 - type: entity
   id: WindoorAssemblySecurePlasma
-  name: secure plasma windoor assembly
-  description: It opens, it closes, and you can see through it! This one looks strong and pin-, no, purple. Hold on...
+  name: каркас защищённой плазменной ветродвери
+  description: Открывается, закрывается, и сквозь неё видно! Эта выглядит прочной и фиолет-, нет, фиолетовой. Погоди...
   parent: WindoorAssembly
   components:
   - type: Sprite
@@ -199,8 +199,8 @@
 
 - type: entity
   id: WindoorAssemblySecureUranium
-  name: secure uranium windoor assembly
-  description: It opens, it closes, and you can see through it! This one looks strong and radioactive-lime-green!
+  name: каркас защищённой урановой ветродвери
+  description: Открывается, закрывается, и сквозь неё видно! Эта выглядит прочной и радиоактивно-лаймово-зелёной!
   parent: WindoorAssembly
   components:
   - type: Sprite

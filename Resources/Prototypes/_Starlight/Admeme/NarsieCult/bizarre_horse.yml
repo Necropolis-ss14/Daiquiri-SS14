@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseAction
   id: ActionHorseStand
-  name: Stand Up
-  description: Rise up onto your hind hooves, or drop back down onto all fours.
+  name: Встать
+  description: Подняться на задние копыта или опуститься обратно на все четыре.
   components:
   - type: Action
     useDelay: 10
@@ -15,8 +15,8 @@
 - type: entity
   parent: BaseAction
   id: ActionHorseEyes
-  name: Make Eyes Fall
-  description: Make someone's eyes fall out of their head and onto the ground.
+  name: Выронить глаза
+  description: Заставить чьи-то глаза выпасть из головы на землю.
   components:
   - type: Action
     useDelay: 10
@@ -33,8 +33,8 @@
 - type: entity
   parent: BaseAction
   id: ActionHorseStun
-  name: Hoof Stun
-  description: Stun and knock down someone in reach.
+  name: Удар копытом
+  description: Оглушить и сбить с ног кого-то в пределах досягаемости.
   components:
   - type: Action
     useDelay: 20
@@ -51,8 +51,8 @@
 - type: entity
   parent: BaseAction
   id: ActionHorseRestrain
-  name: Bind
-  description: Instantly bind someone's hands.
+  name: Связать
+  description: Мгновенно связать кому-то руки.
   components:
     - type: Action
       useDelay: 5
@@ -73,8 +73,8 @@
 - type: entity
   parent: Zipties
   id: HorseBindingCuffs
-  name: hoof bindings
-  description: Something tough and unpleasantly warm is wrapped around your wrists.
+  name: копытные путы
+  description: Что-то прочное и неприятно тёплое обвивает ваши запястья.
   categories: [ HideSpawnMenu ]
   components:
   - type: Handcuff
@@ -83,8 +83,8 @@
 - type: entity
   parent: BaseAction
   id: ActionHorseSleep
-  name: Put to Sleep
-  description: Instantly put someone to sleep.
+  name: Усыпить
+  description: Мгновенно усыпить кого-то.
   components:
     - type: Action
       useDelay: 15
@@ -101,8 +101,8 @@
 - type: entity
   parent: SimpleMobBase
   id: MobBizarreHorse
-  name: parade
-  description: It is not two people in a costume. It is not two people in a costume. Oh god, it is not two people in a costume. Something about it is wrong.
+  name: парад
+  description: Это не два человека в костюме. Это не два человека в костюме. О боже, это не два человека в костюме. Что-то с ним не так.
   components:
   # DamageStateVisuals is intentionally not used, it would reset the layer state on every mob state change.
   - type: Sprite

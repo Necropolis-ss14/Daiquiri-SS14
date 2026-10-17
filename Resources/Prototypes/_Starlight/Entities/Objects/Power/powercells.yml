@@ -1,6 +1,6 @@
 - type: entity
-  name: brigmedic defibrillator battery
-  description: You are fairly certain this is a AA battery in disguse..
+  name: батарея дефибриллятора бригмедика
+  description: Вы почти уверены, что это батарейка AA под видом чего-то большего..
   id: PowerCellTiny
   suffix: Full
   parent: BasePowerCell

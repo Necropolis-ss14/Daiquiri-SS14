@@ -29,8 +29,8 @@
 - type: entity
   id: StatueBananiumClown
   parent: BaseStructure
-  name: bananium savior statue
-  description: A bananium statue. It portrays the return of the savior who will rise up and lead the clowns to the great honk.
+  name: бананиумовая статуя спасителя
+  description: Статуя из бананиума. Изображает возвращение спасителя, который восстанет и поведёт клоунов к великому хонку.
   components:
   - type: Sprite
     noRot: true

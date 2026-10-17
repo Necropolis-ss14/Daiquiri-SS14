@@ -1,6 +1,6 @@
 - type: entity
   save: false
-  name: Urist McShadowster
+  name: Урист МакТеньстер
   parent: [MobBloodstream, MobAtmosStandard, MobFlammable, BaseMobSpecies, BaseSpeciesPickupableHuge]
   id: BaseMobNeoKin
   abstract: true

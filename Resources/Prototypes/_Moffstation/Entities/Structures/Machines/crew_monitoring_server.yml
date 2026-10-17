@@ -4,8 +4,8 @@
 - type: entity
   id: BaseCrewMonitoringServer
   abstract: true
-  name: abstract crew monitoring server
-  description: Receives and relays the status of all active suit sensors on the station.
+  name: абстрактный сервер мониторинга экипажа
+  description: Принимает и передаёт статус всех активных датчиков костюмов на станции.
   components:
   - type: CrewMonitoringServer
   - type: SingletonDeviceNetServer

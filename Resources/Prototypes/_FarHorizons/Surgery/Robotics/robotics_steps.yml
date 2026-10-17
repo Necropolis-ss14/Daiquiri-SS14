@@ -1,7 +1,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepRemoveScrews
-  name: Remove Screws
+  name: Выкрутить винты
   components:
   - type: SurgeryStep
     tools:
@@ -13,7 +13,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepRestoreScrews
-  name: Restore Screws
+  name: Вкрутить винты
   components:
   - type: SurgeryStep
     tools:
@@ -26,7 +26,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepRemoveInnerScrews
-  name: Remove Inner Screws
+  name: Выкрутить внутренние винты
   components:
   - type: SurgeryStep
     duration: 5
@@ -39,7 +39,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepRestoreInnerScrews
-  name: Restore Inner Screws
+  name: Вкрутить внутренние винты
   components:
   - type: SurgeryStep
     duration: 4
@@ -52,7 +52,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepExposeCoolantChannels
-  name: Expose Coolant Channels
+  name: Открыть охлаждающие каналы
   components:
   - type: SurgeryStep
     duration: 4
@@ -65,7 +65,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepConnectCoolantChannels
-  name: Connect Coolant Channels
+  name: Соединить охлаждающие каналы
   components:
   - type: SurgeryStep
     duration: 5
@@ -78,7 +78,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepUnweldJoints
-  name: Unweld Joints
+  name: Разварить соединения
   components:
   - type: SurgeryStep
     tools:
@@ -90,7 +90,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepWeldJoints
-  name: Weld Joints
+  name: Заварить соединения
   components:
   - type: SurgeryStep
     tools:
@@ -103,7 +103,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepPryPlating
-  name: Pry Outer Plating
+  name: Отжать внешнюю обшивку
   components:
   - type: SurgeryStep
     tools:
@@ -115,7 +115,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepPositionPlating
-  name: Position Plating Back
+  name: Установить обшивку на место
   components:
   - type: SurgeryStep
   - type: Sprite
@@ -125,7 +125,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepExposeWiringConnections
-  name: Expose Wiring Connections
+  name: Открыть проводные соединения
   components:
   - type: SurgeryStep
     duration: 4
@@ -137,7 +137,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepConnectWiringConnections
-  name: Connect Wiring Connections
+  name: Соединить проводные соединения
   components:
   - type: SurgeryStep
     duration: 5
@@ -150,7 +150,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepUnboltNuts
-  name: Unbolt Nuts
+  name: Открутить гайки
   components:
   - type: SurgeryStep
     tools:
@@ -162,7 +162,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepRobotAmputation
-  name: Unweld Limb
+  name: Отварить конечность
   components:
   - type: SurgeryStep
     duration: 16
@@ -176,7 +176,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepUnweldSkull
-  name: Unweld Skull
+  name: Отварить череп
   components:
     - type: SurgeryStep
       duration: 20
@@ -190,7 +190,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepRemoveInnerPlating
-  name: Remove Inner Plating
+  name: Снять внутреннюю обшивку
   components:
   - type: SurgeryStep
     duration: 2
@@ -203,7 +203,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepPrepareImplantSiteCavityRobot
-  name: Prepare Implant Site
+  name: Подготовить место для импланта
   components:
   - type: SurgeryStep
     duration: 4
@@ -216,7 +216,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepRemoveItemCavityRobot
-  name: Remove Item
+  name: Извлечь предмет
   components:
   - type: SurgeryStep
     duration: 6
@@ -233,7 +233,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepCutOpticWire
-  name: Cut Optic Wire
+  name: Перерезать оптический провод
   components:
   - type: SurgeryStep
     duration: 3
@@ -246,7 +246,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepRemoveEyeImplantRobot
-  name: Remove Eye Implant
+  name: Извлечь имплант глаза
   components:
   - type: SurgeryStep
     duration: 3
@@ -262,7 +262,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepPrepareImplantSiteEyesRobot
-  name: Prepare Implant Site
+  name: Подготовить место для импланта
   components:
   - type: SurgeryStep
     duration: 2
@@ -275,7 +275,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepConnectOpticWire
-  name: Connect Optic Wire
+  name: Соединить оптический провод
   components:
   - type: SurgeryStep
     duration: 4
@@ -287,7 +287,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepRemoveEyesRobot
-  name: Remove Eye
+  name: Извлечь глаз
   components:
   - type: SurgeryStep
     duration: 3
@@ -303,7 +303,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepDisconnectModulator
-  name: Disconnect Voice Modulator
+  name: Отсоединить голосовой модулятор
   components:
   - type: SurgeryStep
     duration: 2
@@ -316,7 +316,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepUnscrewModulator
-  name: Unscrew Voice Modulator
+  name: Выкрутить голосовой модулятор
   components:
   - type: SurgeryStep
     duration: 3
@@ -332,7 +332,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepScrewModulator
-  name: Screw In Voice Modulator
+  name: Вкрутить голосовой модулятор
   components:
   - type: SurgeryStep
     duration: 2
@@ -345,7 +345,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepConnectModulator
-  name: Reconnect Voice Modulator
+  name: Подсоединить голосовой модулятор
   components:
   - type: SurgeryStep
     duration: 3
@@ -358,7 +358,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepPositionModulator
-  name: Position Voice Modulator
+  name: Установить голосовой модулятор
   components:
   - type: SurgeryStep
     duration: 2

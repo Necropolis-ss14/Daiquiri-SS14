@@ -78,7 +78,7 @@
 - type: entity
   id: MechAlways
   parent: [ BaseMech, CombatMech, BaseCasinoContraband ]
-  name: Always Wins
+  name: Всегда выигрывает
   description: Нельзя ждать, что Бог сделает всю работу. Дом всегда выигрывает.
   components:
     - type: Sprite

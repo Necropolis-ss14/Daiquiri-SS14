@@ -4,7 +4,7 @@
 - type: entity
   id: BaseResearchAndDevelopmentServer
   abstract: true
-  name: abstract R&D server
+  name: абстрактный сервер НИОКР
   components:
   - type: ResearchServer
   - type: TechnologyDatabase

@@ -1,8 +1,8 @@
 - type: entity
   parent: [Paper, BaseMajorContraband]
   id: InfernalContract
-  name: infernal contract
-  description: The more you look at it, the more you feel like it is gazing back at you...
+  name: инфернальный договор
+  description: Чем дольше вы смотрите на него, тем сильнее вам кажется, что он смотрит в ответ...
   components:
     - type: Sprite
       sprite: _Starlight/Objects/Misc/infernal_contract.rsi

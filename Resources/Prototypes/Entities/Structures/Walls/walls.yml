@@ -143,7 +143,7 @@
 - type: entity
   parent: BaseWall
   id: WallClock
-  name: clock wall
+  name: часовая стена
   components:
   - type: Sprite
     sprite: Structures/Walls/clock.rsi
@@ -172,7 +172,7 @@
 - type: entity
   parent: BaseWall
   id: WallClown
-  name: bananium wall
+  name: бананиумовая стена
   components:
   - type: Sprite
     sprite: Structures/Walls/clown.rsi
@@ -250,7 +250,7 @@
 - type: entity
   parent: BaseWall
   id: WallCult
-  name: cult wall
+  name: стена культа
   components:
   - type: Sprite
     sprite: Structures/Walls/cult.rsi
@@ -306,7 +306,7 @@
 - type: entity
   parent: BaseWall
   id: WallDiamond
-  name: diamond wall
+  name: алмазная стена
   components:
   - type: Ricochetable
     chance: 1
@@ -391,7 +391,7 @@
 - type: entity
   parent: BaseWall
   id: WallIce
-  name: ice wall
+  name: ледяная стена
   components:
   - type: Sprite
     sprite: Structures/Walls/ice.rsi
@@ -461,7 +461,7 @@
 - type: entity
   parent: BaseWall
   id: WallPlastic
-  name: plastic wall
+  name: пластиковая стена
   components:
   - type: Ricochetable
     chance: 0.1
@@ -782,7 +782,7 @@
 - type: entity
   parent: BaseWall
   id: WallRiveted
-  name: riveted wall
+  name: клёпаная стена
   components:
   - type: Sprite
     sprite: Structures/Walls/riveted.rsi
@@ -813,7 +813,7 @@
 - type: entity
   parent: BaseWall
   id: WallSandstone
-  name: sandstone wall
+  name: песчаниковая стена
   components:
   - type: Sprite
     sprite: Structures/Walls/sandstone.rsi
@@ -1427,7 +1427,7 @@
 - type: entity
   parent: BaseWall
   id: WallNecropolis
-  name: stone wall
+  name: каменная стена
   components:
   - type: Sprite
     sprite: Structures/Walls/necropolis.rsi
@@ -1518,8 +1518,8 @@
 - type: entity
   parent: BaseWall
   id: WallVaultAlien
-  name: alien vault wall
-  description: A mysterious ornate looking wall. There may be ancient dangers inside.
+  name: стена чужого хранилища
+  description: Загадочная стена с затейливым орнаментом. Внутри могут таиться древние опасности.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Walls/vault.rsi #Starlight
@@ -1544,7 +1544,7 @@
 - type: entity
   parent: BaseWall #Starlight
   id: WallVaultRock
-  name: rock vault wall
+  name: стена каменного хранилища
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Walls/vault.rsi #Starlight
@@ -1569,7 +1569,7 @@
 - type: entity
   parent: WallVaultRock #Starlight
   id: WallVaultSandstone
-  name: sandstone vault wall
+  name: стена песчаникового хранилища
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Walls/vault.rsi #Starlight
@@ -1640,8 +1640,8 @@
 - type: entity
   parent: BaseWall
   id: WallCobblebrick
-  name: cobblestone brick wall
-  description: Stone by stone, perfectly fitted together to form a wall.
+  name: стена из булыжника
+  description: Камень к камню, идеально подогнанные, образуют стену.
   components:
   - type: Sprite
     sprite: Structures/Walls/cobblebrick.rsi
@@ -1666,7 +1666,7 @@
 - type: entity
   parent: WallCobblebrick
   id: WallBasaltCobblebrick
-  name: basalt brick wall
+  name: базальтовая кирпичная стена
   components:
   - type: Sprite
     sprite: Structures/Walls/cobblebrick_basalt.rsi
@@ -1679,8 +1679,8 @@
 - type: entity
   parent: WallCobblebrick
   id: WallSnowCobblebrick
-  name: snow brick wall
-  description: A cold, not-so-impenetrable wall.
+  name: снежная кирпичная стена
+  description: Холодная, не столь уж непроницаемая стена.
   components:
   - type: Sprite
     sprite: Structures/Walls/cobblebrick_snow.rsi
@@ -1693,7 +1693,7 @@
 - type: entity
   parent: WallCobblebrick
   id: WallAsteroidCobblebrick
-  name: asteroid stone brick wall
+  name: астероидная каменно-кирпичная стена
   components:
   - type: Sprite
     sprite: Structures/Walls/cobblebrick_asteroid.rsi
@@ -1706,7 +1706,7 @@
 - type: entity
   parent: WallCobblebrick
   id: WallSandCobblebrick
-  name: sandstone brick wall
+  name: песчаниковая кирпичная стена
   components:
   - type: Sprite
     sprite: Structures/Walls/cobblebrick_sand.rsi
@@ -1719,7 +1719,7 @@
 - type: entity
   parent: WallCobblebrick
   id: WallChromiteCobblebrick
-  name: chromite brick wall
+  name: хромитовая кирпичная стена
   components:
   - type: Sprite
     sprite: Structures/Walls/cobblebrick_chromite.rsi
@@ -1732,7 +1732,7 @@
 - type: entity
   parent: WallCobblebrick
   id: WallAndesiteCobblebrick
-  name: andesite brick wall
+  name: андезитовая кирпичная стена
   components:
   - type: Sprite
     sprite: Structures/Walls/cobblebrick_andesite.rsi
@@ -1745,8 +1745,8 @@
 - type: entity
   parent: WallCobblebrick
   id: WallIronsandCobblebrick
-  name: ironsand brick wall
-  description: The pale, rounded shapes that make up this wall look strikingly different from the iron sands they were allegedly made from.
+  name: кирпичная стена из железного песка
+  description: Бледные округлые формы, из которых состоит эта стена, выглядят поразительно непохожими на железный песок, из которого её якобы сделали.
   components:
   - type: Sprite
     sprite: Structures/Walls/cobblebrick_ironsand.rsi

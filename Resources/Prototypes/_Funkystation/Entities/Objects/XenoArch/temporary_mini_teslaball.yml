@@ -1,7 +1,7 @@
 - type: entity
   parent: TeslaMiniEnergyBall
   id: BaseEnergyBallTemporary
-  name: "temporary tesla"
+  name: "временная тесла"
   components:
   - type: LightningArcShooter
     arcDepth: 2

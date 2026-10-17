@@ -1,8 +1,8 @@
 - type: entity
-  name: tape recorder box
+  name: коробка с диктофоном
   parent: BoxCardboard
   id: BoxTapeRecorder
-  description: A box with colorful cassette tapes and a tape recorder.
+  description: Коробка с разноцветными кассетами и диктофоном.
   components:
   - type: EntityTableContainerFill
     containers:

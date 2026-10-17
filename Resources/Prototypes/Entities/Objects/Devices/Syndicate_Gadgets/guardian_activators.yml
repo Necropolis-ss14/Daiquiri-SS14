@@ -20,10 +20,10 @@
     guardianProto: MobHoloClownGuardian
 
 - type: entity
-  name: magical lamp
+  name: волшебная лампа
   id: MagicalLamp
   parent: BaseItem
-  description: The wizard federation had to cut costs after the jinn merchandise scandal somehow.
+  description: Федерации волшебников пришлось урезать расходы после скандала с мерчем джиннов.
   components:
   - type: Sprite
     sprite: Objects/Misc/Lights/lamp.rsi

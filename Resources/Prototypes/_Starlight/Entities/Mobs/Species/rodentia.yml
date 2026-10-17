@@ -1,6 +1,6 @@
 - type: entity
   save: false
-  name: Urist McRat
+  name: Урист МакКрыс
   parent: [BaseMobSpeciesOrganic, BaseSpeciesPickupable, BaseInventoryRodentia]
   id: BaseMobRodentia
   abstract: true

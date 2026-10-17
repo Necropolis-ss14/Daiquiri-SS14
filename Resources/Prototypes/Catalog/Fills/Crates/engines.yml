@@ -119,7 +119,7 @@
 - type: entity
   parent: CrateEngineering
   id: CrateEngineeringGenerator
-  name:  generator crate
+  name:  ящик генератора
   suffix: DEBUG
   components:
   - type: EntityTableContainerFill
@@ -145,8 +145,8 @@
 - type: entity
   parent: CrateEngineeringSecure
   id: CrateEngineeringShuttle
-  name: shuttle powering crate
-  description: A crate containing all needs for shuttle powering.
+  name: ящик питания шаттла
+  description: Ящик, содержащий всё необходимое для питания шаттла.
   components:
   - type: EntityTableContainerFill
     containers:

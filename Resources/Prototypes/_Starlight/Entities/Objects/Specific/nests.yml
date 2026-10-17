@@ -4,7 +4,7 @@
   parent: BaseStructure
   id: BaseNest
   abstract: true
-  name: Base Nest
+  name: базовое гнездо
   components:
   - type: Anchorable
     delay: 1

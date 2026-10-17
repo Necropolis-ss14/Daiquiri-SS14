@@ -1,8 +1,8 @@
 - type: entity
   id: CrateSovietArmaments
   parent: [CrateGeneric, BaseSovietContraband]
-  name: SKB armaments crate
-  description: The red tide is here.
+  name: ящик вооружения СКБ
+  description: Красная волна нагрянула.
   components:
   - type: Contraband # Blimpuf
     tier: Tier3

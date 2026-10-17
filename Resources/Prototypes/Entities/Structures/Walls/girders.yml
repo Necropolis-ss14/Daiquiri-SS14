@@ -101,8 +101,8 @@
 - type: entity
   id: ClockworkGirder
   parent: ReinforcedGirder
-  name: wall gear
-  description: A large gear with mounting brackets for additional plating; This could be made into a wall with more brass plating.
+  name: каркас стены
+  description: Большая шестерня с монтажными кронштейнами для дополнительной обшивки; из неё можно сделать стену, добавив латунных листов.
   components:
     - type: Sprite
       sprite: Structures/Walls/clock.rsi

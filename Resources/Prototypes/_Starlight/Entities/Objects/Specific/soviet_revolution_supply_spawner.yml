@@ -1,6 +1,6 @@
 - type: entity
   id: SovietRevolutionSupplySpawner
-  name: soviet revolution supply spawner
+  name: спавнер припасов советской революции
   parent: MarkerBase
   components:
     - type: Sprite

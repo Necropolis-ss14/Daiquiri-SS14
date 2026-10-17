@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseVendingMachineRestock
   id: VendingMachineRestockAbductorDispenser
-  name: alien dispenser restock
-  description: A box filled with weird organs. Load it into a alien dispenser to begin.
+  name: набор пополнения чужого автомата
+  description: Коробка, полная странных органов. Загрузите её в чужой автомат, чтобы начать.
   components:
     - type: VendingMachineRestock
       canRestock:

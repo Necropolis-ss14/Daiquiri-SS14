@@ -143,8 +143,8 @@
 - type: entity
   parent: CrateGenericSteel
   id: CrateEngineeringJetpack
-  name: jetpack crate
-  description: Two jetpacks for those who don't know how to use fire extinguishers.
+  name: ящик джетпаков
+  description: Два джетпака для тех, кто не умеет пользоваться огнетушителями.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -155,8 +155,8 @@
 - type: entity
   parent: CrateGenericSteel
   id: CrateEngineeringMiniJetpack
-  name: mini jetpack crate
-  description: Two mini jetpacks for those who want an extra challenge.
+  name: ящик мини-джетпаков
+  description: Два мини-джетпака для желающих испытание посложнее.
   components:
   - type: EntityTableContainerFill
     containers:

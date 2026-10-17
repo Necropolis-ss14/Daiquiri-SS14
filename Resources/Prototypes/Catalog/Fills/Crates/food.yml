@@ -29,8 +29,8 @@
 - type: entity
   parent: CrateFreezer
   id: CrateFoodCooking
-  name: kitchen supplies crate
-  description: Extra kitchen supplies, in case the botanists are absent.
+  name: ящик кухонных принадлежностей
+  description: Дополнительные кухонные принадлежности на случай отсутствия ботаников.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -57,8 +57,8 @@
 - type: entity
   parent: CratePlastic
   id: CrateFoodDinnerware
-  name: kitchen dinnerware crate
-  description: Extra kitchen supplies, in case the clown was allowed in the cafeteria unsupervised.
+  name: ящик кухонной посуды
+  description: Дополнительные кухонные принадлежности на случай, если клоуна пустили в столовую без присмотра.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -84,8 +84,8 @@
 - type: entity
   parent: CrateFreezer
   id: CrateFoodBarSupply
-  name: bartending supplies crate
-  description: Extra Bar supplies, in case the clown was allowed in the bar unsupervised.
+  name: ящик барных принадлежностей
+  description: Дополнительные барные принадлежности на случай, если клоуна пустили в бар без присмотра.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -138,8 +138,8 @@
 - type: entity
   parent: CrateFreezer
   id: CrateFoodGetMore
-  name: Getmore Bakemore crate
-  description: Getmore branded snacks and baking supplies for the creative chef, all without the need of emptying your station's Getmore machines!
+  name: ящик Getmore Bakemore
+  description: Снэки и пекарские принадлежности бренда Getmore для креативного повара — и всё это без опустошения автоматов Getmore на станции!
   components:
   - type: EntityTableContainerFill
     containers:

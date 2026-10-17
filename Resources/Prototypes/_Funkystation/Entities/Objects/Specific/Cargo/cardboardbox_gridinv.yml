@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: CardboardBoxLarge
-  name: large cardboard box
-  description: A large cardboard box for storing things. # Starlight
+  name: большая картонная коробка
+  description: Большая картонная коробка для хранения вещей. # Starlight
   components:
   - type: Item
     size: Ginormous
@@ -92,7 +92,7 @@
 - type: entity
   parent: CardboardBoxLarge
   id: CardboardBoxLargeRestock
-  name: restock box
+  name: коробка пополнения
   components:
   - type: Item
     size: Ginormous
@@ -108,7 +108,7 @@
 - type: entity
   parent: CardboardBoxLarge
   id: CardboardBoxLargeHazard
-  name: hazard box
+  name: коробка опасных материалов
   components:
   - type: Item
     size: Ginormous
@@ -124,7 +124,7 @@
 - type: entity
   parent: CardboardBoxLarge
   id: CardboardBoxLargeWeh
-  name: weh box
+  name: коробка вех
   components:
   - type: Item
     size: Ginormous
@@ -140,7 +140,7 @@
 - type: entity
   parent: CardboardBoxLarge
   id: CardboardBoxLargeInternals
-  name: internals box
+  name: коробка дыхательного снаряжения
   components:
   - type: Item
     size: Ginormous
@@ -156,7 +156,7 @@
 - type: entity
   parent: CardboardBoxLarge
   id: CardboardBoxLargeBotany
-  name: botany box
+  name: коробка ботаники
   components:
   - type: Item
     size: Ginormous
@@ -172,7 +172,7 @@
 - type: entity
   parent: CardboardBoxLarge
   id: CardboardBoxLargeCargo
-  name: cargo box
+  name: грузовая коробка
   components:
     - type: Item
       size: Ginormous
@@ -188,7 +188,7 @@
 - type: entity
   parent: CardboardBoxLarge
   id: CardboardBoxLargeChemistry
-  name: chemistry box
+  name: коробка химии
   components:
     - type: Item
       size: Ginormous
@@ -204,7 +204,7 @@
 - type: entity
   parent: CardboardBoxLarge
   id: CardboardBoxLargeCommand
-  name: command box
+  name: командная коробка
   components:
     - type: Item
       size: Ginormous
@@ -220,7 +220,7 @@
 - type: entity
   parent: CardboardBoxLarge
   id: CardboardBoxLargeEngi
-  name: engineering box
+  name: инженерная коробка
   components:
     - type: Item
       size: Ginormous
@@ -236,7 +236,7 @@
 - type: entity
   parent: CardboardBoxLarge
   id: CardboardBoxLargeEvidence
-  name: evidence box
+  name: коробка улик
   components:
     - type: Item
       size: Ginormous
@@ -252,7 +252,7 @@
 - type: entity
   parent: CardboardBoxLarge
   id: CardboardBoxLargeMedical
-  name: medical box
+  name: медицинская коробка
   components:
     - type: Item
       size: Ginormous
@@ -268,7 +268,7 @@
 - type: entity
   parent: CardboardBoxLarge
   id: CardboardBoxLargeScience
-  name: science box
+  name: научная коробка
   components:
     - type: Item
       size: Ginormous
@@ -284,7 +284,7 @@
 - type: entity
   parent: CardboardBoxLarge
   id: CardboardBoxLargeSecurity
-  name: security box
+  name: охранная коробка
   components:
     - type: Item
       size: Ginormous
@@ -300,7 +300,7 @@
 - type: entity
   parent: CardboardBoxLarge
   id: CardboardBoxLargeService
-  name: service box
+  name: сервисная коробка
   components:
     - type: Item
       size: Ginormous

@@ -2,8 +2,8 @@
 - type: entity
   parent: ClothingOuterArmorBase
   id: ClothingOuterArmorMetalHydrogen
-  name: metal hydrogen armor
-  description: A superb armor made with the toughest and rarest materials available to man.
+  name: броня из металлического водорода
+  description: Превосходная броня, сделанная из самых прочных и редких материалов, доступных человеку.
   components:
   - type: Sprite
     sprite: _Funkystation/Clothing/OuterClothing/Armor/metal_hydrogen_armor.rsi
@@ -30,8 +30,8 @@
 - type: entity
   parent: [ClothingOuterBaseLarge, AllowSuitStorageClothing]
   id: ClothingOuterArmorAtmosian
-  name: atmosian armor
-  description: An atmos fire suit bolstered with metal hydrogen.
+  name: атмосферная броня
+  description: Пожарный костюм атмосферника, усиленный металлическим водородом.
   components:
   - type: Sprite
     sprite: _Funkystation/Clothing/OuterClothing/Armor/atmosian_armor.rsi

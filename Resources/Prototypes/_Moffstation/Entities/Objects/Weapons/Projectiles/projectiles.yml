@@ -1,7 +1,7 @@
 - type: entity
   parent: GrapplingHook
   id: ChainSickle
-  name: chain sickle
+  name: цепной серп
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

@@ -1,8 +1,8 @@
 - type: entity
   parent: ToolboxMechanical
   id: ToolboxOfHolding
-  name: strange toolbox
-  description: A strangely heavy toolbox. The inside appears incredibly spacious.
+  name: странный ящик для инструментов
+  description: Странно тяжёлый ящик для инструментов. Внутри он кажется невероятно вместительным.
   suffix: ARTIFACT
   components:
   - type: Storage

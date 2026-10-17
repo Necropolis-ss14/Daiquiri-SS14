@@ -3,8 +3,8 @@
   id: BaseGasTurbine
   parent: BaseStructure
   abstract: true
-  name: Gas Turbine
-  description: A large turbine used for generating power using hot gas.
+  name: газовая турбина
+  description: Большая турбина для выработки энергии из горячего газа.
   components:
   - type: Sprite
     sprite: _FarHorizons/Structures/Power/Generation/FissionGenerator/gas_turbine.rsi
@@ -124,8 +124,8 @@
   id: BaseGasTurbineSmall
   parent: BaseGasTurbine
   abstract: true
-  name: Small Gas Turbine
-  description: A small turbine used for generating power using hot gas.
+  name: малая газовая турбина
+  description: Малая турбина для выработки энергии из горячего газа.
   components:
   - type: Sprite
     sprite: _FarHorizons/Structures/Power/Generation/FissionGenerator/small_gas_turbine.rsi

@@ -1,5 +1,5 @@
 - type: entity
   save: false
-  name: Urist McRat
+  name: Урист МакКрыс
   parent: BaseMobRodentia
   id: MobRodentia

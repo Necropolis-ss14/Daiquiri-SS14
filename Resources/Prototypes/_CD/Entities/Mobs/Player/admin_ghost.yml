@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseAGhostAction
   id: ActionAGhostShowCharacterRecords
-  name: Character Records Interface
-  description: View all of the character records
+  name: Интерфейс записей персонажа
+  description: Просмотреть все записи персонажей
   components:
   - type: Action
     icon: { sprite: Structures/Machines/parts.rsi, state: box_0 }

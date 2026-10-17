@@ -38,7 +38,7 @@
     size: Normal
 
 - type: entity
-  name: trash bag
+  name: синий мешок для мусора
   id: TrashBagBlue
   parent: TrashBag
   components:

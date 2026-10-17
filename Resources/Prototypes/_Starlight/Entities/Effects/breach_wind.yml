@@ -1,6 +1,6 @@
 - type: entity
   id: BreachWindSound
-  name: breach wind
+  name: ветер пробоины
   categories: [ HideSpawnMenu ]
   components:
   - type: AmbientSound

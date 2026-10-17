@@ -1,6 +1,6 @@
 - type: entity
-  name: Aspace radio [ADMEME]
-  description: A radio with which admins mess with you.
+  name: радио Aspace [ADMEME]
+  description: Радио, с помощью которого админы вас донимают.
   parent: [RadioHandheld]
   id: RadioHandheldAdmeme
   components:

@@ -522,8 +522,8 @@
   parent: [ClothingBackpack]
   id: ClothingBackpackXenomoproach
   suffix: admeme
-  name: backpack
-  description: You wear this on your back and put items into it.
+  name: рюкзак
+  description: Вы носите это на спине и кладёте внутрь вещи.
   components:
     - type: Clothing
       clothingVisuals:

@@ -2,8 +2,8 @@
   parent: FoodMeatBase
   id: TP14FoodMeatFishFingers
   suffix: Trieste, Food
-  name: fish fingers
-  description: Fried strips of fish. Doctors love it with custard.
+  name: рыбные палочки
+  description: Жареные полоски рыбы. Врачи обожают их с заварным кремом.
   components:
   - type: FlavorProfile
     flavors:
@@ -27,8 +27,8 @@
 - type: entity
   parent: FoodMeatBase
   id: TP14FoodMeatSausage
-  name: raw sausage
-  description: Let's sausage!
+  name: сырая колбаса
+  description: Давай сосисонить!
   components:
   - type: Tag
     tags:

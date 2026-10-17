@@ -3,8 +3,8 @@
 - type: entity
   parent: [BaseXenoSiliconLanguages, BaseBorgChassis]
   id: BaseXenoborgChassisDerelict
-  name: xenoborg
-  description: A man-machine hybrid that aims to replicate itself. This one has seen better days.
+  name: ксеноборг
+  description: Гибрид человека и машины, стремящийся к самовоспроизводству. Этот видал лучшие дни.
   abstract: true
   components:
   - type: NpcFactionMember
@@ -114,7 +114,7 @@
   parent: BaseBorgChassisNotIonStormable
   id: BaseNTNCChassis
   name: NT-NC
-  description: A special chassis produced by NanoTrasen to aid Centcomm forces in their duties. # SL
+  description: Особое шасси, произведённое NanoTrasen для содействия силам Центкомма в их службе. # SL
   save: false
   abstract: true
   components:

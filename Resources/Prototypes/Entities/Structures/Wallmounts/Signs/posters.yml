@@ -88,8 +88,8 @@
 - type: entity
   parent: PosterBase
   id: PosterContrabandLustyExomorph
-  name: "Lusty Exomorph"
-  description: "A heretical poster depicting the titular star of an equally heretical book."
+  name: "«Lusty Exomorph»"
+  description: "Еретический плакат, изображающий титульную звезду столь же еретической книги."
   components:
   - type: Sprite
     state: poster4_contraband
@@ -358,8 +358,8 @@
 - type: entity
   parent: PosterBase
   id: PosterContrabandBustyBackdoorExoBabes6
-  name: "Exomorphs: Not What They Seem?"
-  description: "A poster debating the common misconceptions about Exomorphs. Or at least, that's what you think this poster's about."
+  name: "«Экзоморфы: не то, чем кажутся?»"
+  description: "Плакат, рассуждающий о распространённых заблуждениях об экзоморфах. Или, по крайней мере, вам так кажется."
   components:
   - type: Sprite
     state: poster36_contraband

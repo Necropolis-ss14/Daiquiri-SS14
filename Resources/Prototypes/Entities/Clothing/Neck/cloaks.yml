@@ -164,8 +164,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckCloakHonk
-  name: honk cloak
-  description: A cloak often worn by a sect of the honkmother.
+  name: плащ хонка
+  description: Плащ, который часто носят последователи культа Хонкоматери.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Cloaks/honk.rsi

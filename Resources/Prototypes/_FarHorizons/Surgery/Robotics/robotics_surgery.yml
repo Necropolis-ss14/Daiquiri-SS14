@@ -1,8 +1,8 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryRemovePlating
-  name: Remove Outer Plating
-  description: Removes the protective outer plating.
+  name: Снять внешнюю обшивку
+  description: Снимает защитную внешнюю обшивку.
   components:
   - type: Surgery
     priority: -100
@@ -18,8 +18,8 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryRestorePlating
-  name: Restore Outer Plating
-  description: Restores the protective outer plating.
+  name: Восстановить внешнюю обшивку
+  description: Восстанавливает защитную внешнюю обшивку.
   components:
   - type: Surgery
     priority: 100
@@ -37,8 +37,8 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryAmputationRobot
-  name: Amputation
-  description: Surgical removal of a limb.
+  name: Ампутация
+  description: Хирургическое удаление конечности.
   components:
   - type: Surgery
     requirement:
@@ -65,8 +65,8 @@
 - type: entity
   parent: SurgeryAmputationRobot
   id: SurgeryAmputationHeadRobot
-  name: Amputation
-  description: Surgical removal of a head.
+  name: Ампутация
+  description: Хирургическое удаление головы.
   components:
   - type: Surgery
     requirement:
@@ -88,8 +88,8 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryLimbAttachmentHeadRobot
-  name: Limb Attachment Head
-  description: Surgical attachment of a limb.
+  name: "Присоединение конечности: голова"
+  description: Хирургическое присоединение конечности.
   components:
   - type: Surgery
     requirement:
@@ -114,8 +114,8 @@
 - type: entity
   parent: SurgeryLimbAttachmentHeadRobot
   id: SurgeryLimbAttachmentLeftArmRobot
-  name: Limb Attachment Left Arm
-  description: Surgical attachment of a limb.
+  name: "Присоединение конечности: левая рука"
+  description: Хирургическое присоединение конечности.
   components:
   - type: SurgeryLimbSlotCondition
     slot: left arm
@@ -123,8 +123,8 @@
 - type: entity
   parent: SurgeryLimbAttachmentHeadRobot
   id: SurgeryLimbAttachmentLeftHandRobot
-  name: Limb Attachment Left Hand
-  description: Surgical attachment of a limb.
+  name: "Присоединение конечности: левая кисть"
+  description: Хирургическое присоединение конечности.
   components:
   - type: SurgeryLimbSlotCondition
     slot: left hand
@@ -132,8 +132,8 @@
 - type: entity
   parent: SurgeryLimbAttachmentHeadRobot
   id: SurgeryLimbAttachmentRightArmRobot
-  name: Limb Attachment Right Arm
-  description: Surgical attachment of a limb.
+  name: "Присоединение конечности: правая рука"
+  description: Хирургическое присоединение конечности.
   components:
   - type: SurgeryLimbSlotCondition
     slot: right arm
@@ -141,8 +141,8 @@
 - type: entity
   parent: SurgeryLimbAttachmentHeadRobot
   id: SurgeryLimbAttachmentRightHandRobot
-  name: Limb Attachment Right Hand
-  description: Surgical attachment of a limb.
+  name: "Присоединение конечности: правая кисть"
+  description: Хирургическое присоединение конечности.
   components:
   - type: SurgeryLimbSlotCondition
     slot: right hand
@@ -150,8 +150,8 @@
 - type: entity
   parent: SurgeryLimbAttachmentHeadRobot
   id: SurgeryLimbAttachmentLeftLegRobot
-  name: Limb Attachment Left Leg
-  description: Surgical attachment of a limb.
+  name: "Присоединение конечности: левая нога"
+  description: Хирургическое присоединение конечности.
   components:
   - type: SurgeryLimbSlotCondition
     slot: left leg
@@ -159,8 +159,8 @@
 - type: entity
   parent: SurgeryLimbAttachmentHeadRobot
   id: SurgeryLimbAttachmentLeftFootRobot
-  name: Limb Attachment Left Foot
-  description: Surgical attachment of a limb.
+  name: "Присоединение конечности: левая ступня"
+  description: Хирургическое присоединение конечности.
   components:
   - type: SurgeryLimbSlotCondition
     slot: left foot
@@ -168,8 +168,8 @@
 - type: entity
   parent: SurgeryLimbAttachmentHeadRobot
   id: SurgeryLimbAttachmentRightLegRobot
-  name: Limb Attachment Right Leg
-  description: Surgical attachment of a limb.
+  name: "Присоединение конечности: правая нога"
+  description: Хирургическое присоединение конечности.
   components:
   - type: SurgeryLimbSlotCondition
     slot: right leg
@@ -177,8 +177,8 @@
 - type: entity
   parent: SurgeryLimbAttachmentHeadRobot
   id: SurgeryLimbAttachmentRightFootRobot
-  name: Limb Attachment Right Foot
-  description: Surgical attachment of a limb.
+  name: "Присоединение конечности: правая ступня"
+  description: Хирургическое присоединение конечности.
   components:
   - type: SurgeryLimbSlotCondition
     slot: right foot
@@ -186,7 +186,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryExtractCavityItemRobot
-  name: Extract Item
+  name: Извлечь предмет
   components:
   - type: Surgery
     requirement:
@@ -212,7 +212,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryImplantCavityItemRobot
-  name: Implant Item
+  name: Имплантировать предмет
   components:
   - type: Surgery
     requirement:
@@ -238,7 +238,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryExtractEyeImplantRobot
-  name: Extract Eye Implant
+  name: Извлечь имплант глаза
   components:
   - type: Surgery
     requirement:
@@ -265,7 +265,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryImplantEyeImplantRobot
-  name: Implant Eye Implant
+  name: Имплантировать имплант глаза
   components:
   - type: Surgery
     requirement:
@@ -292,7 +292,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryExtractEyesRobot
-  name: Extract Eyes
+  name: Извлечь глаза
   components:
   - type: Surgery
     requirement:
@@ -320,7 +320,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryImplantEyesRobot
-  name: Implant Eyes
+  name: Имплантировать глаза
   components:
   - type: Surgery
     requirement:
@@ -348,7 +348,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryExtractModulator
-  name: Extract Voice Modulator
+  name: Извлечь голосовой модулятор
   components:
   - type: Surgery
     requirement:
@@ -373,7 +373,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryImplantModulator
-  name: Implant Voice Modulator
+  name: Имплантировать голосовой модулятор
   components:
   - type: Surgery
     requirement:

@@ -496,8 +496,8 @@
 
 - type: entity
   id: ActionBiodegrade
-  name: Biodegrade
-  description: Vomit a caustic substance onto any restraints, or someone's face. Costs 30 chemicals.
+  name: Биоразложение
+  description: Извергните едкое вещество на любые путы или кому-нибудь в лицо. Стоит 30 химикатов.
   categories: [ HideSpawnMenu ]
   components:
   - type: Action
@@ -594,8 +594,8 @@
 
 - type: entity
   id: ActionFleshmend
-  name: Fleshmend
-  description: Rapidly heal yourself. Costs 35 chemicals.
+  name: Восстановление плоти
+  description: Быстро исцелите себя. Стоит 35 химикатов.
   categories: [ HideSpawnMenu ]
   components:
   - type: Action

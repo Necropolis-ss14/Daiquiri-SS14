@@ -2,8 +2,8 @@
   abstract: true
   parent: BaseItem
   id: BaseSheatheWeapon
-  name: base sheathe
-  description: It's a sheathe.
+  name: базовые ножны
+  description: Это ножны.
   components:
   - type: MeleeWeapon
     animation: WeaponArcSlash

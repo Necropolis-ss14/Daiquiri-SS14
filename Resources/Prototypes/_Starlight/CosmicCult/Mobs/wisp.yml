@@ -1,5 +1,5 @@
 - type: entity
-  name: Wisp
+  name: Огонёк
   parent: [ BaseSimpleMob, FlyingMobBase ]
   id: MobCosmicWisp
   components:
@@ -70,7 +70,7 @@
   categories: [ HideSpawnMenu ]
   # parent: BaseStructure
   id: CosmicChantryWisp
-  name: Trapped Wisp
+  name: Пойманный огонёк
   components:
   - type: Sprite
     sprite: _Starlight/CosmicCult/Mobs/wisp.rsi

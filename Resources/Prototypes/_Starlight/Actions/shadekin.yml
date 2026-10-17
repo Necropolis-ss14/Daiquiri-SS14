@@ -61,8 +61,8 @@
 
 - type: entity
   id: BrighteyeShadeSkipAction
-  name: ShadeSkip
-  description: Stun a creature with the dark.
+  name: Теневой шаг
+  description: Оглушить существо тьмой.
   categories: [HideSpawnMenu]
   components:
     - type: Action

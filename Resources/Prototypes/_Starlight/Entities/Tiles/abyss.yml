@@ -1,7 +1,7 @@
 - type: entity
   id: AbyssOne
-  name: abyss
-  description: Rock.
+  name: бездна
+  description: Камень.
   placement:
     mode: SnapgridCenter
   components:

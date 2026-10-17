@@ -1,8 +1,8 @@
 - type: entity
-  name: construction bag
+  name: строительная сумка
   id: MatBag
   parent: BaseStorageItem
-  description: A rough, dirty, heavy duty construction bag with a magnet messily welded onto its side, it can be placed inside your backpack or attached to the hip like a belt.
+  description: Грубая, грязная, тяжёлая строительная сумка с неаккуратно приваренным сбоку магнитом. Её можно положить в рюкзак или прикрепить к бедру как пояс.
   components:
   - type: ItemToggle
     onUse: false

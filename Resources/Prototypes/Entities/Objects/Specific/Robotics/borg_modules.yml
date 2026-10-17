@@ -1608,8 +1608,8 @@
 - type: entity
   parent: [ BaseXenoborgModuleEngi, BaseProviderBorgModule, BaseXenoborgContraband ]
   id: XenoborgModuleFireExtinguisher
-  name: fire extinguisher xenoborg module
-  description: Module with a self-refueling fire extinguisher.
+  name: модуль ксеноборга с огнетушителем
+  description: Модуль с самозаправляющимся огнетушителем.
   components:
   - type: Sprite
     layers:

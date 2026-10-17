@@ -1,8 +1,8 @@
 - type: entity
   id: LoadoutDummyK9Brown
   categories: [ HideSpawnMenu ]
-  name: brown
-  description: A brown-coated security K9.
+  name: коричневый
+  description: Служебная собака К9 с коричневой шерстью.
   components:
   - type: Sprite
     sprite: _Starlight/Mobs/Pets/k9.rsi
@@ -11,8 +11,8 @@
 - type: entity
   id: LoadoutDummyK9Black
   categories: [ HideSpawnMenu ]
-  name: black
-  description: A black-coated security K9.
+  name: чёрный
+  description: Служебная собака К9 с чёрной шерстью.
   components:
   - type: Sprite
     sprite: _Starlight/Mobs/Pets/k9.rsi
@@ -21,8 +21,8 @@
 - type: entity
   id: LoadoutDummyK9Tan
   categories: [ HideSpawnMenu ]
-  name: tan
-  description: A tan-coated security K9.
+  name: палевый
+  description: Служебная собака К9 с палевой шерстью.
   components:
   - type: Sprite
     sprite: _Starlight/Mobs/Pets/k9.rsi
@@ -31,8 +31,8 @@
 - type: entity
   id: LoadoutDummyK9Grey
   categories: [ HideSpawnMenu ]
-  name: grey
-  description: A grey-coated security K9.
+  name: серый
+  description: Служебная собака К9 с серой шерстью.
   components:
   - type: Sprite
     sprite: _Starlight/Mobs/Pets/k9.rsi

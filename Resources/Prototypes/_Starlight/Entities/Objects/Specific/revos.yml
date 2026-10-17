@@ -1,9 +1,9 @@
 - type: entity
-  name: telebond
+  name: телебонд
   parent: [BaseItem, BaseSovietContraband]
   id: Telebond
   suffix: 20 TB
-  description: Outdated tickets printed with a microcrystalline pattern, used to summon supplies via an old radio uplink, the old way. "DO NOT EAT!" — Boris
+  description: Устаревшие билеты с микрокристаллическим узором, используемые для вызова припасов через старый радио-аплинк, по старинке. «НЕ ЕШЬ!» — Борис
   components:
   - type: Contraband # Blimpuf
     tier: Tier3

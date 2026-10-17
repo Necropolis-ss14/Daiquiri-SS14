@@ -1,8 +1,8 @@
 - type: entity
   id: BoxFoodHappyHonkBigBite
   parent: CardboardBoxLargeService
-  name: Happy Honk meal delivery
-  description: Two fully loaded Happy Honk Big Bite burger meals, complete with cheesy fries, a bottle of Space Cola, a slice of apple pie and a toy!
+  name: доставка еды Happy Honk
+  description: Два полноценных бургер-набора Happy Honk Big Bite, с сырными фри, бутылкой Space Cola, куском яблочного пирога и игрушкой!
   components:
   - type: StorageFill
     contents:
@@ -12,8 +12,8 @@
 - type: entity
   id: BoxFoodSoftdrinks
   parent: CardboardBoxLargeService
-  name: softdrinks box
-  description: A variety of sodas to complement a small party, without having to empty the soda machines. Includes 16 sodas.
+  name: коробка газировки
+  description: Разнообразные газированные напитки для небольшой вечеринки, не опустошая автоматы с напитками. Включает 16 бутылок.
   components:
   - type: StorageFill
     contents:

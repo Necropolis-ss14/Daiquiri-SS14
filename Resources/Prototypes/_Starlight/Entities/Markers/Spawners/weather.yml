@@ -1,6 +1,6 @@
 - type: entity
   id: WeatherMarkerBase
-  name: Weather Marker
+  name: маркер погоды
   abstract: true
   placement:
     mode: SnapgridCenter

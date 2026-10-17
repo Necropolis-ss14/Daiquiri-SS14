@@ -274,7 +274,7 @@
 - type: entity
   parent: BaseStationEvent
   id: UtilityLineRupture
-  name: Utility Line Rupture
+  name: разрыв коммунальной линии
   components:
   - type: UtilityLineRuptureRule
   - type: StationEvent

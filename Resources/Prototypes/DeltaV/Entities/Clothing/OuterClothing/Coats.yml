@@ -2,8 +2,8 @@
 - type: entity
   parent: ClothingOuterCoatLab # Starlight
   id: ClothingOuterCoatLabLong
-  name: long lab coat
-  description: A NanoTrasen standard labcoat for medical personnel but long.
+  name: длинный лабораторный халат
+  description: Стандартный лабораторный халат NanoTrasen для медицинского персонала, но длинный.
   components:
     - type: Sprite
       sprite: DeltaV/Clothing/OuterClothing/Coats/long_lab.rsi
@@ -15,14 +15,14 @@
 - type: entity
   parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterCoatLabLong]
   id: ClothingOuterCoatLabLongOpened
-  name: long lab coat
+  name: длинный лабораторный халат
 
 #Chemist long coat
 - type: entity
   parent: ClothingOuterCoatLabChem # Starlight
   id: ClothingOuterCoatLabChemistLong
-  name: long chemist lab coat
-  description: A NanoTrasen standard labcoat for medical personnel but long with bright orange accents.
+  name: длинный лабораторный халат химика
+  description: Стандартный лабораторный халат NanoTrasen для медперсонала, но длинный, с ярко-оранжевыми акцентами.
   components:
     - type: Sprite
       sprite: DeltaV/Clothing/OuterClothing/Coats/chemistry_long_lab.rsi
@@ -34,14 +34,14 @@
 - type: entity
   parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterCoatLabChemistLong]
   id: ClothingOuterCoatLabChemistLongOpened
-  name: long chemist lab coat
+  name: длинный лабораторный халат химика
 
 #CMO long coat
 - type: entity
   parent: ClothingOuterCoatLabCmo # Starlight
   id: ClothingOuterCoatLabCmoLong
-  name: long chief medical officer lab coat
-  description: A NanoTrasen blue long lab coat with green accents, designed for chief medical officers.
+  name: длинный лабораторный халат главного врача
+  description: Синий длинный лабораторный халат NanoTrasen с зелёными акцентами, созданный для главных врачей.
   components:
     - type: Sprite
       sprite: DeltaV/Clothing/OuterClothing/Coats/cmo_long_lab.rsi
@@ -53,14 +53,14 @@
 - type: entity
   parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterCoatLabCmoLong]
   id: ClothingOuterCoatLabCmoLongOpened
-  name: long chief medical officer lab coat
+  name: длинный лабораторный халат главного врача
 
 #Geneticist long coat
 - type: entity
   parent: ClothingOuterCoatLabGene # Starlight
   id: ClothingOuterCoatLabGeneLong
-  name: long geneticist lab coat
-  description: A NanoTrasen standard labcoat for medical personnel but long with light blue accents.
+  name: длинный лабораторный халат генетика
+  description: Стандартный лабораторный халат NanoTrasen для медперсонала, но длинный, со светло-голубыми акцентами.
   components:
     - type: Sprite
       sprite: DeltaV/Clothing/OuterClothing/Coats/medical_long_lab.rsi
@@ -72,14 +72,14 @@
 - type: entity
   parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterCoatLabGeneLong]
   id: ClothingOuterCoatLabGeneLongOpened
-  name: long geneticist lab coat
+  name: длинный лабораторный халат генетика
 
 #Paramedic jacket
 - type: entity
   parent: [ClothingOuterStorageFoldableBase, ClothingOuterBaseWinter] # Starlight
   id: ClothingOuterCoatParamedicJacket
-  name: paramedic jacket
-  description: A stylish dark blue jacket decorated with white stripes and cross. Nine out of ten paramedic recommend "Do Not Revive."
+  name: куртка парамедика
+  description: "Стильная тёмно-синяя куртка с белыми полосами и крестом. Девять из десяти парамедиков советуют: «Не реанимируйте»."
   components:
     - type: Sprite
       sprite: DeltaV/Clothing/OuterClothing/Coats/paramedic.rsi
@@ -87,14 +87,14 @@
 - type: entity
   parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterCoatParamedicJacket]
   id: ClothingOuterCoatParamedicJacketOpened
-  name: paramedic jacket
+  name: куртка парамедика
 
 #Rugged duster
 - type: entity
   parent: [ClothingOuterStorageBase, ClothingOuterBaseWinter] # Starlight
   id: ClothingOuterCoatDuster
-  name: rugged duster
-  description: A rugged duster with a bandana scarf made for keeping off the ash and dust. Not much of that up in space though.
+  name: потрёпанный пыльник
+  description: Потрёпанный пыльник с платком-банданой, созданный защищать от пепла и пыли. Впрочем, в космосе этого добра мало.
   components:
     - type: Sprite
       sprite: DeltaV/Clothing/OuterClothing/Coats/duster.rsi

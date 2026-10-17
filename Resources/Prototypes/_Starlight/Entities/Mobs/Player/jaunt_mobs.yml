@@ -1,5 +1,5 @@
 - type: entity
-  name: jaunt
+  name: рывок
   parent: EtherealJaunt
   id: InfernalJaunt
   suffix: Devil

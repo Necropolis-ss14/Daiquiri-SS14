@@ -1,8 +1,8 @@
 - type: entity
   id: CrateNPCMeowl
   parent: CrateLivestock
-  name: meowl crate
-  description: A crate containing three of the deadliest beings known.
+  name: ящик мяулов
+  description: Ящик, содержащий трёх самых смертоносных существ из известных.
   components:
   - type: StorageFill
     contents:

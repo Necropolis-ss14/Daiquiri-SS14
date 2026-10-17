@@ -1,6 +1,6 @@
 - type: entity
   id: QuantityDespawnScent
-  name: scent despawn category
+  name: категория удаления запаха
   categories: [ HideSpawnMenu ]
   components:
   - type: QuantityDespawnCategory

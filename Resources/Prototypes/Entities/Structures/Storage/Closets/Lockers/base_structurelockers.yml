@@ -105,7 +105,7 @@
 - type: entity
   id: LockerBaseSecure
   parent: LockerBase
-  name: secure closet # Starlight-edit
+  name: защищённый шкаф # Starlight-edit
   components:
   - type: Damageable
     damageContainer: StructuralInorganic

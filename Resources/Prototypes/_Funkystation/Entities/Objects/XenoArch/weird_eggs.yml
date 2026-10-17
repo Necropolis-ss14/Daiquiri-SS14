@@ -30,8 +30,8 @@
 - type: entity
   parent: WeirdEggBase
   id: WeirdEggGold
-  name: golden egg
-  description: A golden egg! # Starlight
+  name: золотое яйцо
+  description: Золотое яйцо! # Starlight
   components:
   - type: Sprite
     sprite: _Funkystation/Objects/XenoArch/weirdeggs.rsi
@@ -46,8 +46,8 @@
 - type: entity
   parent: WeirdEggBase
   id: WeirdEggUranium
-  name: uranium egg
-  description: A uranium egg! # Starlight
+  name: урановое яйцо
+  description: Урановое яйцо! # Starlight
   components:
   - type: Sprite
     sprite: _Funkystation/Objects/XenoArch/weirdeggs.rsi
@@ -62,8 +62,8 @@
 - type: entity
   parent: WeirdEggBase
   id: WeirdEggPlasma
-  name: plasma egg
-  description: A plasma egg! # Starlight
+  name: плазменное яйцо
+  description: Плазменное яйцо! # Starlight
   components:
   - type: Sprite
     sprite: _Funkystation/Objects/XenoArch/weirdeggs.rsi
@@ -80,8 +80,8 @@
 - type: entity
   parent: [BaseItem, SolutionVeryTiny, FoodInjectableBase, ItemHeftyBase]
   id: ReagentEggBase
-  name: weird egg
-  description: A strange egg!
+  name: странное яйцо
+  description: Странное яйцо!
   abstract: true
   components:
   - type: Sprite

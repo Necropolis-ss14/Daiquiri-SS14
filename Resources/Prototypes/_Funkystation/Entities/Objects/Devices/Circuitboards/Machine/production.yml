@@ -2,8 +2,8 @@
 - type: entity
   id: ElectrolyzerMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: electrolyzer machine board
-  description: A machine printed circuit board for an electrolyzer.
+  name: плата электролизёра
+  description: Плата машины для электролизёра.
   components:
   - type: Sprite
     state: engineering
@@ -17,8 +17,8 @@
 - type: entity
   parent: BaseMachineCircuitboard
   id: WashingMachineCircuitboard
-  name: washing machine board # Starlight
-  description: A machine printed circuit board for a NanoTrasen Model-C industrial-grade washing machine. # Starlight
+  name: плата стиральной машины # Starlight
+  description: Плата машины для промышленной стиральной машины модели C от NanoTrasen. # Starlight
   components:
   - type: MachineBoard
     prototype: WashingMachine

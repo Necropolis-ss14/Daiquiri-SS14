@@ -363,8 +363,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatHairFlowerBase # Moffstation - Color Changing Hairflower
-  name: hairflower
-  description: A beautiful hairflower that can be inserted between locks of hair.
+  name: цветок в волосах
+  description: Прекрасный цветок, который можно вставить между прядями волос.
   # Moffstation - Begin - Color Changing Hairflower
   abstract: true
   components:

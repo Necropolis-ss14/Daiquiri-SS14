@@ -1,5 +1,5 @@
 - type: entity
-  name: casino chip
+  name: фишка казино
   parent: BaseItem
   id: CasinoChip
   description: Фишка казино. Стоит столько, сколько скажет дом.

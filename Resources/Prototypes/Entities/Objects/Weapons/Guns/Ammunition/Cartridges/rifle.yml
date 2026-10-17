@@ -20,8 +20,8 @@
 - type: entity
   parent: BaseCartridgeRifle
   id: CartridgeRifleSP
-  name: cartridge (.20 rifle SP)
-  description: A modern intermediate cartridge for combat rifles. Standard kinetic ammunition is common and useful in most situations.
+  name: патрон (.20 винтовка SP)
+  description: Современный промежуточный патрон для боевых винтовок. Кинетические боеприпасы общего назначения распространены и полезны в большинстве ситуаций.
   components:
   - type: CartridgeAmmo
     proto: BulletRifleTraceSP

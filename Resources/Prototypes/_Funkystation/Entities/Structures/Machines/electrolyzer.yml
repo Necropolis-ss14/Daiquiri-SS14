@@ -2,8 +2,8 @@
   parent: [ BaseMachinePowered, ConstructibleMachine ]
   id: Electrolyzer
   categories: [ ShouldMapStation ] # Starlight
-  name: electrolyzer
-  description: A machine that processes and transforms gases through electrolysis. Runs off massive amounts of electricity but can be turbo charged with plasma sheets. # Starlight
+  name: электролизёр
+  description: Машина, обрабатывающая и преобразующая газы методом электролиза. Работает на огромных объёмах электричества, но может быть форсирована плазменными листами. # Starlight
   components:
   - type: Electrolyzer
     efficiency: 0.95 # Starlight

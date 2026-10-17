@@ -1126,9 +1126,9 @@
 - type: entity
   id: WeaponLaser
   parent: BaseWeaponBatterySmall
-  name: beam emitter
+  name: излучатель луча
   suffix: Debug
-  description: It looks old and weathered, what use is this?
+  description: Выглядит старым и потрёпанным, какая от него польза?
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Guns/Pistols/beamemitter.rsi

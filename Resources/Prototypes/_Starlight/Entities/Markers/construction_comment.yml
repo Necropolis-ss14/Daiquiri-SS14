@@ -1,7 +1,7 @@
 - type: entity
   id: ConstructionCommentMarker
-  name: comment
-  description: A note left behind by a fellow crewmember.
+  name: комментарий
+  description: Записка, оставленная товарищем по экипажу.
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

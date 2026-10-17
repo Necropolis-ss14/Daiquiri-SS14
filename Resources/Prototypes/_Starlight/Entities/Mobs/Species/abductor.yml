@@ -1,6 +1,6 @@
 - type: entity
   save: false
-  name: Urist McAbductor
+  name: Урист МакАбдуктор
   parent:
   - MobBloodstream
   - MobFlammable

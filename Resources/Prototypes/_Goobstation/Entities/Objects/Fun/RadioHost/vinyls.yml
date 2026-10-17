@@ -2,8 +2,8 @@
 - type: entity
   parent: BaseVinylDisc
   id: VinylAirportLounge
-  name: "vinyl: Airport Lounge"
-  description: "A long, relaxing song reminiscent of elevator music. By: Kevin MacLeod" #SL  Addition
+  name: "пластинка: Airport Lounge"
+  description: "Долгая расслабляющая композиция, напоминающая музыку в лифте. Автор: Kevin MacLeod" #SL  Addition
   components:
   - type: Sprite
     state: default
@@ -18,8 +18,8 @@
 - type: entity
   parent: BaseVinylDisc
   id: VinylBoogiePart
-  name: "vinyl: Boogie Part"
-  description: "A funky jazz song that makes you want to boogie. By: Kevin MacLeod" #SL  Addition
+  name: "пластинка: Boogie Part"
+  description: "Стёбная джазовая композиция, под которую хочется танцевать буги. Автор: Kevin MacLeod" #SL  Addition
   components:
   - type: Sprite
     state: default
@@ -34,8 +34,8 @@
 - type: entity
   parent: BaseVinylDisc
   id: VinylBurnTheWorldWaltz
-  name: "vinyl: Burn The World Waltz"
-  description: "Heavy metal and brimstone. By: Kevin MacLeod" #SL  Addition
+  name: "пластинка: Burn The World Waltz"
+  description: "Хэви-метал и адское пламя. Автор: Kevin MacLeod" #SL  Addition
   components:
   - type: Sprite
     state: default
@@ -50,8 +50,8 @@
 - type: entity
   parent: BaseVinylDisc
   id: VinylCorncob
-  name: "vinyl: Corncob"
-  description: "A fast pace country tune. By: Kevin MacLeod" #SL  Addition
+  name: "пластинка: Corncob"
+  description: "Быстрый кантри-мотив. Автор: Kevin MacLeod" #SL  Addition
   components:
   - type: Sprite
     state: default
@@ -66,8 +66,8 @@
 - type: entity
   parent: BaseVinylDisc
   id: VinylDeadlyRoulette
-  name: "vinyl: Deadly Roulette"
-  description: "A slow pace basey tune. By: Kevin MacLeod" #SL  Addition
+  name: "пластинка: Deadly Roulette"
+  description: "Медленный басовый мотив. Автор: Kevin MacLeod" #SL  Addition
   components:
   - type: Sprite
     state: default
@@ -82,8 +82,8 @@
 - type: entity
   parent: BaseVinylDisc
   id: VinylFeralAngelWaltz
-  name: "vinyl: Feral Angel Waltz"
-  description: "A slow pace rock waltz. By: Kevin MacLeod" #SL  Addition
+  name: "пластинка: Feral Angel Waltz"
+  description: "Медленный рок-вальс. Автор: Kevin MacLeod" #SL  Addition
   components:
   - type: Sprite
     state: default
@@ -98,8 +98,8 @@
 - type: entity
   parent: BaseVinylDisc
   id: VinylJingleBells
-  name: "vinyl: Jingle Bells"
-  description: "The classic festive tune. By: Kevin MacLeod" #SL  Addition
+  name: "пластинка: Jingle Bells"
+  description: "Классическая праздничная мелодия. Автор: Kevin MacLeod" #SL  Addition
   components:
   - type: Sprite
     state: default
@@ -114,8 +114,8 @@
 - type: entity
   parent: BaseVinylDisc
   id: VinylLateNightRadio
-  name: "vinyl: Late Night Radio"
-  description: "A slow pace jazzy tune. By: Kevin MacLeod" #SL  Addition
+  name: "пластинка: Late Night Radio"
+  description: "Медленная джазовая композиция. Автор: Kevin MacLeod" #SL  Addition
   components:
   - type: Sprite
     state: default
@@ -130,8 +130,8 @@
 - type: entity
   parent: BaseVinylDisc
   id: VinylMesmerizingGalaxyLoop
-  name: "vinyl: Mesmerizing Galaxy Loop"
-  description: "A hypnotic eletronic tune. By: Kevin MacLeod" #SL  Addition
+  name: "пластинка: Mesmerizing Galaxy Loop"
+  description: "Гипнотизирующая электронная композиция. Автор: Kevin MacLeod" #SL  Addition
   components:
   - type: Sprite
     state: default
@@ -146,8 +146,8 @@
 - type: entity
   parent: BaseVinylDisc
   id: VinylNightInVenice
-  name: "vinyl: Night In Venice"
-  description: "A slow pace jazzy tune with a romantic vibe. By: Kevin MacLeod" #SL  Addition
+  name: "пластинка: Night In Venice"
+  description: "Медленная джазовая композиция с романтической атмосферой. Автор: Kevin MacLeod" #SL  Addition
   components:
   - type: Sprite
     state: default
@@ -162,8 +162,8 @@
 - type: entity
   parent: BaseVinylAI
   id: VinylSpaceJazz
-  name: "vinyl: Space Jazz"
-  description: "A slow pace jazzy tune reminiscent of elevator music. By: Kevin MacLeod" #SL  Addition
+  name: "пластинка: Space Jazz"
+  description: "Медленная джазовая композиция, напоминающая музыку в лифте. Автор: Kevin MacLeod" #SL  Addition
   components:
   # Starlight-start
   - type: Sprite
@@ -180,8 +180,8 @@
 - type: entity
   parent: BaseVinylDisc
   id: VinylVibingOverVenus
-  name: "vinyl: Vibing Over Venus"
-  description: "A slow pace jazzy tune. By: Kevin MacLeod" #SL  Addition
+  name: "пластинка: Vibing Over Venus"
+  description: "Медленная джазовая композиция. Автор: Kevin MacLeod" #SL  Addition
   components:
   - type: Sprite
     state: default
@@ -198,8 +198,8 @@
 - type: entity
   parent: BaseVinylDisc
   id: VinylChristmasSong
-  name: "vinyl: Christmas Song"
-  description: "A festive tune about giving your heart away to someone special. By: Goonstation" #SL  Addition
+  name: "пластинка: Christmas Song"
+  description: "Праздничная песня о том, как отдать своё сердце кому-то особенному. Автор: Goonstation" #SL  Addition
   components:
   - type: Sprite
     state: default
@@ -216,8 +216,8 @@
 - type: entity
   parent: BaseVinylDisc
   id: VinylAlsoSprachZarathustra
-  name: "vinyl: Also Sprach Zarathustra"
-  description: "A classical piece that slowly builds to an climactic crescendo. By: PM Music" #SL  Addition
+  name: "пластинка: Also Sprach Zarathustra"
+  description: "Классическое произведение, медленно нарастающее до кульминационного крещендо. Автор: PM Music" #SL  Addition
   components:
   - type: Sprite
     state: default
@@ -232,8 +232,8 @@
 - type: entity
   parent: BaseVinylDisc
   id: VinylRussianDance
-  name: "vinyl: Russian Dance"
-  description: "A classical piece with a fast pace and a lively rhythm. By: PM Music" #SL  Addition
+  name: "пластинка: Russian Dance"
+  description: "Классическое произведение в быстром темпе с живым ритмом. Автор: PM Music" #SL  Addition
   components:
   - type: Sprite
     state: default
@@ -248,8 +248,8 @@
 - type: entity
   parent: BaseVinylDisc
   id: VinylTheFlowerDuet
-  name: "vinyl: The Flower Duet"
-  description: "A classical opera duet. By: PM Music" #SL  Addition
+  name: "пластинка: The Flower Duet"
+  description: "Классический оперный дуэт. Автор: PM Music" #SL  Addition
   components:
   - type: Sprite
     state: default
@@ -264,8 +264,8 @@
 - type: entity
   parent: BaseVinylDisc
   id: VinylWinterVivaldi
-  name: "vinyl: Vivaldi's Winter"
-  description: "A classical tune from Vivaldi, representing the winter season. By: PM Music" #SL  Addition
+  name: "пластинка: Vivaldi's Winter"
+  description: "Классическая композиция Вивальди, олицетворяющая зимний сезон. Автор: PM Music" #SL  Addition
   components:
   - type: Sprite
     state: default
@@ -280,8 +280,8 @@
 - type: entity
   parent: BaseVinylDisc
   id: VinylCelloSuite
-  name: "vinyl: Cello Suite"
-  description: "A classical cello solo. By: PM Music" #SL  Addition
+  name: "пластинка: Cello Suite"
+  description: "Классическое соло на виолончели. Автор: PM Music" #SL  Addition
   components:
   - type: Sprite
     state: default
@@ -296,8 +296,8 @@
 - type: entity
   parent: BaseVinylDisc
   id: VinylRideOfTheValkyries
-  name: "vinyl: Ride Of The Valkyries"
-  description: "A classical piece best paired with the charging of cavalry. By: PM Music" #SL  Addition
+  name: "пластинка: Ride Of The Valkyries"
+  description: "Классическое произведение, лучше всего звучащее под наступление кавалерии. Автор: PM Music" #SL  Addition
   components:
   - type: Sprite
     state: default
@@ -312,8 +312,8 @@
 - type: entity
   parent: BaseVinylDisc
   id: VinylRomeoAndJuliet
-  name: "vinyl: Romeo And Juliet"
-  description: "A classical romantic piece. By: PM Music" #SL  Addition
+  name: "пластинка: Romeo And Juliet"
+  description: "Классическая романтическая композиция. Автор: PM Music" #SL  Addition
   components:
   - type: Sprite
     state: default
@@ -330,8 +330,8 @@
 - type: entity
   parent: BaseVinylDevil
   id: VinylMaxi
-  name: "vinyl: Maxi"
-  description: "An exciting rock/metal song. By: Goonstation" #SL  Addition
+  name: "пластинка: Maxi"
+  description: "Зажигательная рок/метал-композиция. Автор: Goonstation" #SL  Addition
   components:
   - type: Vinyl
     song:
@@ -340,8 +340,8 @@
 - type: entity
   parent: BaseVinylDevil
   id: VinylXtra
-  name: "vinyl: Xtra"
-  description: "An exciting rock/metal song. By: Goonstation" #SL  Addition
+  name: "пластинка: Xtra"
+  description: "Зажигательная рок/метал-композиция. Автор: Goonstation" #SL  Addition
   components:
   - type: Vinyl
     song:
@@ -350,8 +350,8 @@
 - type: entity
   parent: BaseVinylDevil
   id: VinylGiga
-  name: "vinyl: Giga"
-  description: "An exciting rock/metal song. By: Goonstation" #SL  Addition
+  name: "пластинка: Giga"
+  description: "Зажигательная рок/метал-композиция. Автор: Goonstation" #SL  Addition
   components:
   - type: Vinyl
     song:
@@ -360,8 +360,8 @@
 - type: entity
   parent: BaseVinylDisc
   id: VinylEveryoneIsSoAlive
-  name: "vinyl: Everyone Is So Alive"
-  description: "A slow pace electronic tune. By: Goonstation" #SL  Addition
+  name: "пластинка: Everyone Is So Alive"
+  description: "Медленная электронная композиция. Автор: Goonstation" #SL  Addition
   components:
   - type: Sprite
     state: default
@@ -376,8 +376,8 @@
 - type: entity
   parent: BaseVinylDisc
   id: VinylHighTechnologicBeat
-  name: "vinyl: High Technologic Beat"
-  description: "A fast pace electronic dance beat. By: Goonstation" #SL  Addition
+  name: "пластинка: High Technologic Beat"
+  description: "Быстрый электронный танцевальный бит. Автор: Goonstation" #SL  Addition
   components:
   - type: Sprite
     state: default
@@ -392,8 +392,8 @@
 - type: entity
   parent: BaseVinylDisc
   id: VinylAfterParty
-  name: "vinyl: After Party"
-  description: "A slow pace electronic tune. By: Goonstation" #SL  Addition
+  name: "пластинка: After Party"
+  description: "Медленная электронная композиция. Автор: Goonstation" #SL  Addition
   components:
   - type: Sprite
     state: default
@@ -408,8 +408,8 @@
 - type: entity
   parent: BaseVinylDisc
   id: VinylItFeelsGoodToBeAliveToo
-  name: "vinyl: It Feels Good To Be Alive Too"
-  description: "A fast pace electronic tune. By: Goonstation" #SL  Addition
+  name: "пластинка: It Feels Good To Be Alive Too"
+  description: "Быстрая электронная композиция. Автор: Goonstation" #SL  Addition
   components:
   - type: Sprite
     state: default
@@ -424,8 +424,8 @@
 - type: entity
   parent: BaseVinylDisc
   id: VinylFunkadelic
-  name: "vinyl: Funkadelic"
-  description: "A slow pace funky electronic tune. By: Goonstation" #SL  Addition
+  name: "пластинка: Funkadelic"
+  description: "Медленная фанковая электронная композиция. Автор: Goonstation" #SL  Addition
   components:
   - type: Sprite
     state: default
@@ -440,8 +440,8 @@
 - type: entity
   parent: BaseVinylDisc
   id: VinylLunch
-  name: "vinyl: Lunch"
-  description: "A fast pace groovy electronic tune. By: Goonstation" #SL  Addition
+  name: "пластинка: Lunch"
+  description: "Быстрая грувовая электронная композиция. Автор: Goonstation" #SL  Addition
   components:
   - type: Sprite
     state: default
@@ -456,8 +456,8 @@
 - type: entity
   parent: BaseVinylDisc
   id: VinylGroovy
-  name: "vinyl: Groovy"
-  description: "A fast pace electronic tune. By: Goonstation" #SL  Addition
+  name: "пластинка: Groovy"
+  description: "Быстрая электронная композиция. Автор: Goonstation" #SL  Addition
   components:
   - type: Sprite
     state: default
@@ -475,8 +475,8 @@
 - type: entity
   parent: BaseVinylDisc
   id: VinylAnonymous
-  name: "vinyl: Anonymous"
-  description: "A fast pace hypnotic electronic tune. By: Goonstation" #SL  Addition
+  name: "пластинка: Anonymous"
+  description: "Быстрая гипнотизирующая электронная композиция. Автор: Goonstation" #SL  Addition
   components:
   - type: Sprite
     state: default
@@ -494,8 +494,8 @@
 - type: entity
   parent: BaseVinylDisc
   id: VinylDistantStar
-  name: "vinyl: Distant Star"
-  description: "A fast pace electronic tune. By: Goonstation" #SL  Addition
+  name: "пластинка: Distant Star"
+  description: "Быстрая электронная композиция. Автор: Goonstation" #SL  Addition
   components:
   - type: Sprite
     state: default
@@ -513,8 +513,8 @@
 - type: entity
   parent: BaseVinylDisc
   id: VinylEphedrineOverdose
-  name: "vinyl: Ephedrine Overdose"
-  description: "A fast pace electronic tune. By: mrjajkes" #SL  Addition
+  name: "пластинка: Ephedrine Overdose"
+  description: "Быстрая электронная композиция. Автор: mrjajkes" #SL  Addition
   components:
   - type: Sprite
     state: default
@@ -529,8 +529,8 @@
 - type: entity
   parent: BaseVinylDisc
   id: VinylGetThatAntag
-  name: "vinyl: Get That Antag!"
-  description: "A fast pace electronic tune. By: mrjajkes" #SL  Addition
+  name: "пластинка: Get That Antag!"
+  description: "Быстрая электронная композиция. Автор: mrjajkes" #SL  Addition
   components:
   - type: Sprite
     state: default
@@ -545,8 +545,8 @@
 - type: entity
   parent: BaseVinylDisc
   id: VinylGreytideSong
-  name: "vinyl: Greytide Song"
-  description: "A hip tune by DJ Tider. By: mrjajkes" #SL  Addition
+  name: "пластинка: Greytide Song"
+  description: "Хиповая композиция от DJ Tider. Автор: mrjajkes" #SL  Addition
   components:
   - type: Sprite
     state: default
@@ -561,8 +561,8 @@
 - type: entity
   parent: BaseVinylDisc
   id: VinylNukiesTrap
-  name: "vinyl: Nukies Trap Remix"
-  description: "A fast pace electronic tune. By: mrjajkes" #SL  Addition
+  name: "пластинка: Nukies Trap Remix"
+  description: "Быстрая электронная композиция. Автор: mrjajkes" #SL  Addition
   components:
   - type: Sprite
     state: default
@@ -577,8 +577,8 @@
 - type: entity
   parent: BaseVinylDisc
   id: VinylRunningOut
-  name: "vinyl: Running Out"
-  description: "A dramatic fast pace electronic tune. By: mrjajkes" #SL  Addition
+  name: "пластинка: Running Out"
+  description: "Драматичная быстрая электронная композиция. Автор: mrjajkes" #SL  Addition
   components:
   - type: Sprite
     state: default
@@ -593,8 +593,8 @@
 - type: entity
   parent: BaseVinylDisc
   id: VinylSponsoredBySyndicate
-  name: "vinyl: Sponsored By Syndicate"
-  description: "A fast pace rock tune. By: mrjajkes" #SL  Addition
+  name: "пластинка: Sponsored By Syndicate"
+  description: "Быстрая рок-композиция. Автор: mrjajkes" #SL  Addition
   components:
   - type: Sprite
     state: default
@@ -609,8 +609,8 @@
 - type: entity
   parent: BaseVinylDisc
   id: VinylTraitorousIntent
-  name: "vinyl: Traitorous Intent"
-  description: "A eerie low pace electronic tune. By: mrjajkes" #SL  Addition
+  name: "пластинка: Traitorous Intent"
+  description: "Жутковатая медленная электронная композиция. Автор: mrjajkes" #SL  Addition
   components:
   - type: Sprite
     state: default
@@ -625,8 +625,8 @@
 - type: entity
   parent: BaseVinylDisc
   id: VinylViolet
-  name: "vinyl: Violet"
-  description: "A fast pace electronic tune. By: mrjajkes" #SL  Addition
+  name: "пластинка: Violet"
+  description: "Быстрая электронная композиция. Автор: mrjajkes" #SL  Addition
   components:
   - type: Sprite
     state: default
@@ -645,8 +645,8 @@
 - type: entity
   parent: BaseVinylDisc
   id: VinylWaystations
-  name: "vinyl: Waystations"
-  description: "A slow pace electronic tune. By: Goonstation" #SL  Addition
+  name: "пластинка: Waystations"
+  description: "Медленная электронная композиция. Автор: Goonstation" #SL  Addition
   components:
   - type: Sprite
     state: default
@@ -661,8 +661,8 @@
 - type: entity
   parent: BaseVinylDisc
   id: VinylUpbeatOne
-  name: "vinyl: Upbeat 1"
-  description: "A groovy upbeat tune. By: Goonstation" #SL  Addition
+  name: "пластинка: Upbeat 1"
+  description: "Грувовая бодрая композиция. Автор: Goonstation" #SL  Addition
   components:
   - type: Sprite
     state: default
@@ -677,8 +677,8 @@
 - type: entity
   parent: BaseVinylDisc
   id: VinylUpbeatTwo
-  name: "vinyl: Upbeat 2"
-  description: "A groovy upbeat tune. By: Goonstation" #SL  Addition
+  name: "пластинка: Upbeat 2"
+  description: "Грувовая бодрая композиция. Автор: Goonstation" #SL  Addition
   components:
   - type: Sprite
     state: default
@@ -693,8 +693,8 @@
 - type: entity
   parent: BaseVinylDisc
   id: VinylPlanets
-  name: "vinyl: Planets"
-  description: "A slow pace electronic tune. By: Goonstation" #SL  Addition
+  name: "пластинка: Planets"
+  description: "Медленная электронная композиция. Автор: Goonstation" #SL  Addition
   components:
   - type: Sprite
     state: default
@@ -709,8 +709,8 @@
 - type: entity
   parent: BaseVinylDisc
   id: VinylChillOne
-  name: "vinyl: Chill 1"
-  description: "A slow pace calming tune. By: Goonstation" #SL  Addition
+  name: "пластинка: Chill 1"
+  description: "Медленная успокаивающая композиция. Автор: Goonstation" #SL  Addition
   components:
   - type: Sprite
     state: default
@@ -725,8 +725,8 @@
 - type: entity
   parent: BaseVinylDisc
   id: VinylChillTwo
-  name: "vinyl: Chill 2"
-  description: "A slow pace calming tune. By: Goonstation" #SL  Addition
+  name: "пластинка: Chill 2"
+  description: "Медленная успокаивающая композиция. Автор: Goonstation" #SL  Addition
   components:
   - type: Sprite
     state: default
@@ -741,8 +741,8 @@
 - type: entity
   parent: BaseVinylDisc
   id: VinylChillThree
-  name: "vinyl: Chill 3"
-  description: "A slow pace calming tune. By: Goonstation" #SL  Addition
+  name: "пластинка: Chill 3"
+  description: "Медленная успокаивающая композиция. Автор: Goonstation" #SL  Addition
   components:
   - type: Sprite
     state: default
@@ -757,8 +757,8 @@
 - type: entity
   parent: BaseVinylDisc
   id: VinylChillFour
-  name: "vinyl: Chill 4"
-  description: "A slow pace calming tune. By: Goonstation" #SL  Addition
+  name: "пластинка: Chill 4"
+  description: "Медленная успокаивающая композиция. Автор: Goonstation" #SL  Addition
   components:
   - type: Sprite
     state: default
@@ -773,8 +773,8 @@
 - type: entity
   parent: BaseVinylDisc
   id: VinylBeaches
-  name: "vinyl: Beaches"
-  description: "A slow pace electronic tune. By: aquariofury, Not Tom"  #SL  Addition
+  name: "пластинка: Beaches"
+  description: "Медленная электронная композиция. Автор: aquariofury, Not Tom"  #SL  Addition
   components:
   - type: Sprite
     state: default
@@ -789,8 +789,8 @@
 - type: entity
   parent: BaseVinylDisc
   id: VinylDanceOnASpaceVolcano
-  name: "vinyl: Dance On A Space Volcano"
-  description: "A funky fast pace electronic dance tune. By: Goonstation" #SL  Addition
+  name: "пластинка: Dance On A Space Volcano"
+  description: "Фанковая быстрая электронная танцевальная композиция. Автор: Goonstation" #SL  Addition
   components:
   - type: Sprite
     state: default
@@ -805,8 +805,8 @@
 - type: entity
   parent: BaseVinylFloaty
   id: VinylFloaty
-  name: "vinyl: Floaty"
-  description: "A slow pace hypnotic tune. By: aquariofury, Not Tom" #SL  Addition
+  name: "пластинка: Floaty"
+  description: "Медленная гипнотизирующая композиция. Автор: aquariofury, Not Tom" #SL  Addition
   components:
   - type: Vinyl
     song:
@@ -815,8 +815,8 @@
 - type: entity
   parent: BaseVinylDisc
   id: VinylGraveyard
-  name: "vinyl: Graveyard"
-  description: "A slow pace eerie tune. By: aquariofury, Not Tom" #SL  Addition
+  name: "пластинка: Graveyard"
+  description: "Медленная жутковатая композиция. Автор: aquariofury, Not Tom" #SL  Addition
   components:
   - type: Sprite
     state: default
@@ -831,8 +831,8 @@
 - type: entity
   parent: BaseVinylDisc
   id: VinylRiverdancer
-  name: "vinyl: Riverdancer"
-  description: "A slow pace funky electronic tune. By: Goonstation" #SL  Addition
+  name: "пластинка: Riverdancer"
+  description: "Медленная фанковая электронная композиция. Автор: Goonstation" #SL  Addition
   components:
   - type: Sprite
     state: default
@@ -847,8 +847,8 @@
 - type: entity
   parent: BaseVinylDisc
   id: VinylSpaceGardener
-  name: "vinyl: Space Gardener"
-  description: "A slow pace electronic tune. By: tamakari" #SL  Addition
+  name: "пластинка: Space Gardener"
+  description: "Медленная электронная композиция. Автор: tamakari" #SL  Addition
   components:
   - type: Sprite
     state: default
@@ -863,8 +863,8 @@
 - type: entity
   parent: BaseVinylDisc
   id: VinylKeyLime
-  name: "vinyl: Key Lime"
-  description: "A slow pace calming tune. By: Goonstation" #SL  Addition
+  name: "пластинка: Key Lime"
+  description: "Медленная успокаивающая композиция. Автор: Goonstation" #SL  Addition
   components:
   - type: Sprite
     state: default
@@ -879,8 +879,8 @@
 - type: entity
   parent: BaseVinylAI
   id: VinylLayEggIsTrue
-  name: "vinyl: Lay Egg Is True"
-  description: "A face pace electronic tune. By: WyrdDoe" #SL  Addition
+  name: "пластинка: Lay Egg Is True"
+  description: "Быстрая электронная композиция. Автор: WyrdDoe" #SL  Addition
   components:
   - type: Vinyl
     song:
@@ -889,8 +889,8 @@
 - type: entity
   parent: BaseVinylDisc
   id: VinylMonkeyRiot
-  name: "vinyl: Monkey Riot"
-  description: "A fast pace high-energy electronic tune. By: WyrdDoe" #SL  Addition
+  name: "пластинка: Monkey Riot"
+  description: "Быстрая энергичная электронная композиция. Автор: WyrdDoe" #SL  Addition
   components:
   - type: Sprite
     state: default
@@ -905,8 +905,8 @@
 - type: entity
   parent: BaseVinylDisc
   id: VinylOhNoEvilStar
-  name: "vinyl: Oh No Evil Star"
-  description: "A slow pace calming tune. By: Goonstation" #SL  Addition
+  name: "пластинка: Oh No Evil Star"
+  description: "Медленная успокаивающая композиция. Автор: Goonstation" #SL  Addition
   components:
   - type: Sprite
     state: default
@@ -921,8 +921,8 @@
 - type: entity
   parent: BaseVinylDisc
   id: VinylRepose
-  name: "vinyl: Repose"
-  description: "A slow pace funky tune. By: aquariofury, Not Tom" #SL  Addition
+  name: "пластинка: Repose"
+  description: "Медленная фанковая композиция. Автор: aquariofury, Not Tom" #SL  Addition
   components:
   - type: Sprite
     state: default
@@ -937,8 +937,8 @@
 - type: entity
   parent: BaseVinylDisc
   id: VinylAdventureThree
-  name: "vinyl: Adventure 3"
-  description: "A fast pace adventurous tune. By: Goonstation" #SL  Addition
+  name: "пластинка: Adventure 3"
+  description: "Быстрая приключенческая композиция. Автор: Goonstation" #SL  Addition
   components:
   - type: Sprite
     state: default
@@ -953,8 +953,8 @@
 - type: entity
   parent: BaseVinylDisc
   id: VinylAdventureFour
-  name: "vinyl: Adventure 4"
-  description: "A fast pace adventurous tune. By: Goonstation" #SL  Addition
+  name: "пластинка: Adventure 4"
+  description: "Быстрая приключенческая композиция. Автор: Goonstation" #SL  Addition
   components:
   - type: Sprite
     state: default
@@ -969,8 +969,8 @@
 - type: entity
   parent: BaseVinylDisc
   id: VinylAdventureFive
-  name: "vinyl: Adventure 5"
-  description: "A fast pace adventurous tune. By: Goonstation" #SL  Addition
+  name: "пластинка: Adventure 5"
+  description: "Быстрая приключенческая композиция. Автор: Goonstation" #SL  Addition
   components:
   - type: Sprite
     state: default
@@ -985,8 +985,8 @@
 - type: entity
   parent: BaseVinylDisc
   id: VinylAtlas
-  name: "vinyl: Atlas"
-  description: "A slow pace calming tune. By: Goonstation" #SL  Addition
+  name: "пластинка: Atlas"
+  description: "Медленная успокаивающая композиция. Автор: Goonstation" #SL  Addition
   components:
   - type: Sprite
     state: default
@@ -1001,8 +1001,8 @@
 - type: entity
   parent: BaseVinylDisc
   id: VinylAtmosphere
-  name: "vinyl: Atmosphere"
-  description: "A slow pace calming tune. By: Goonstation" #SL  Addition
+  name: "пластинка: Atmosphere"
+  description: "Медленная успокаивающая композиция. Автор: Goonstation" #SL  Addition
   components:
   - type: Sprite
     state: default
@@ -1017,8 +1017,8 @@
 - type: entity
   parent: BaseVinylDisc
   id: VinylBanjoOne
-  name: "vinyl: Banjo 1"
-  description: "A slow pace calming tune. By: Goonstation" #SL  Addition
+  name: "пластинка: Banjo 1"
+  description: "Медленная успокаивающая композиция. Автор: Goonstation" #SL  Addition
   components:
   - type: Sprite
     state: default
@@ -1033,8 +1033,8 @@
 - type: entity
   parent: BaseVinylDisc
   id: VinylBiodome
-  name: "vinyl: Biodome"
-  description: "A slow pace eerie tune. By: aquariofury, Not Tom" #SL  Addition
+  name: "пластинка: Biodome"
+  description: "Медленная жутковатая композиция. Автор: aquariofury, Not Tom" #SL  Addition
   components:
   - type: Sprite
     state: default
@@ -1049,8 +1049,8 @@
 - type: entity
   parent: BaseVinylDisc
   id: VinylBlackWingInterface
-  name: "vinyl: Black Wing Interface"
-  description: "A slow pace electronic tune. By: Goonstation" #SL  Addition
+  name: "пластинка: Black Wing Interface"
+  description: "Медленная электронная композиция. Автор: Goonstation" #SL  Addition
   components:
   - type: Sprite
     state: default
@@ -1065,8 +1065,8 @@
 - type: entity
   parent: BaseVinylDisc
   id: VinylBumblebee
-  name: "vinyl: Bumblebee"
-  description: "A incredibly fast pace violin solo. By: Goonstation" #SL  Addition
+  name: "пластинка: Bumblebee"
+  description: "Невероятно быстрое соло на скрипке. Автор: Goonstation" #SL  Addition
   components:
   - type: Sprite
     state: default
@@ -1081,8 +1081,8 @@
 - type: entity
   parent: BaseVinylDisc
   id: VinylCloudSkyManGuy
-  name: "vinyl: Cloud Sky Man Guy"
-  description: "A upbeat electronic tune. By: Goonstation" #SL  Addition
+  name: "пластинка: Cloud Sky Man Guy"
+  description: "Бодрая электронная композиция. Автор: Goonstation" #SL  Addition
   components:
   - type: Sprite
     state: default
@@ -1097,8 +1097,8 @@
 - type: entity
   parent: BaseVinylTTD
   id: VinylJourney
-  name: "vinyl: Journey"
-  description: "A upbeat electronic tune. By: OpenTTD" #SL  Addition
+  name: "пластинка: Journey"
+  description: "Бодрая электронная композиция. Автор: OpenTTD" #SL  Addition
   components:
   - type: Vinyl
     song:
@@ -1107,8 +1107,8 @@
 - type: entity
   parent: BaseVinylForgotten
   id: VinylPeakAsshole
-  name: "forgotten vinyl"
-  description: "A song that we have all heard. Just not this bad... By: LuciferMkshelter" #SL  Addition
+  name: "забытая пластинка"
+  description: "Песня, которую мы все слышали. Просто не настолько плохую... Автор: LuciferMkshelter" #SL  Addition
   components:
   - type: Vinyl
     song:
@@ -1155,8 +1155,8 @@
 - type: entity
   parent: BaseVinylSlippery
   id: VinylButtris
-  name: "vinyl: Buttris"
-  description: "An iconic videogame song remixed by the clown. By: Goonstation" #SL  Addition
+  name: "пластинка: Buttris"
+  description: "Культовая песня из видеоигры, ремиксованная клоуном. Автор: Goonstation" #SL  Addition
   components:
   - type: Sprite
     layers:
@@ -1170,8 +1170,8 @@
 - type: entity
   parent: BaseVinylSlippery
   id: VinylWeAreNumberTwo
-  name: "vinyl: We Are Number Two"
-  description: "A recognisable song from a famous TV show, remixed by the clown. By: Goonstation" #SL  Addition
+  name: "пластинка: We Are Number Two"
+  description: "Узнаваемая песня из известного телешоу, ремиксованная клоуном. Автор: Goonstation" #SL  Addition
   components:
   - type: Sprite
     state: default
@@ -1186,8 +1186,8 @@
 - type: entity
   parent: BaseVinylSlippery
   id: VinylUguu
-  name: "vinyl: Uguu"
-  description: "Some will say this song doesn't contain music. Others... their masterpiece. By: Goonstation" #SL  Addition
+  name: "пластинка: Uguu"
+  description: "Кто-то скажет, что в этой песне нет музыки. Другие... их шедевр. Автор: Goonstation" #SL  Addition
   components:
   - type: Sprite
     state: default
@@ -1202,8 +1202,8 @@
 - type: entity
   parent: BaseVinylSlippery
   id: VinylPoo
-  name: "vinyl: Poo"
-  description: "Take a chance on... poo? By: Goonstation" #SL  Addition
+  name: "пластинка: Poo"
+  description: "Рискни и... какашка? Автор: Goonstation" #SL  Addition
   components:
   - type: Sprite
     state: default
@@ -1218,8 +1218,8 @@
 - type: entity
   parent: BaseVinylSlippery
   id: VinylDiscoPoo
-  name: "vinyl: Disco Poo"
-  description: "Some will say this song doesn't contain music. Others... their masterpiece. By: Goonstation" #SL  Addition
+  name: "пластинка: Disco Poo"
+  description: "Кто-то скажет, что в этой песне нет музыки. Другие... их шедевр. Автор: Goonstation" #SL  Addition
   components:
   - type: Sprite
     state: default
@@ -1234,8 +1234,8 @@
 - type: entity
   parent: BaseVinylSlippery
   id: VinylCoreOfPoo
-  name: "vinyl: Core Of Poo"
-  description: "Some will say this song doesn't contain music. Others... their masterpiece. By: Goonstation" #SL  Addition
+  name: "пластинка: Core Of Poo"
+  description: "Кто-то скажет, что в этой песне нет музыки. Другие... их шедевр. Автор: Goonstation" #SL  Addition
   components:
   - type: Sprite
     state: default
@@ -1250,8 +1250,8 @@
 - type: entity
   parent: BaseVinylSlippery
   id: VinylFartElise
-  name: "vinyl: Fart Elise"
-  description: "A classical piece remixed by the clown. By: Goonstation" #SL  Addition
+  name: "пластинка: Fart Elise"
+  description: "Классическое произведение, ремиксованное клоуном. Автор: Goonstation" #SL  Addition
   components:
   - type: Sprite
     state: default
@@ -1266,8 +1266,8 @@
 - type: entity
   parent: BaseVinylSlippery
   id: VinylHonkmas
-  name: "vinyl: Honkmas"
-  description: "A festive tune made by the clown. With love. By: Goonstation" #SL  Addition
+  name: "пластинка: Honkmas"
+  description: "Праздничная мелодия, созданная клоуном. С любовью. Автор: Goonstation" #SL  Addition
   components:
   - type: Sprite
     state: default
@@ -1282,8 +1282,8 @@
 - type: entity
   parent: BaseVinylSlippery
   id: VinylEggshell
-  name: "vinyl: Eggshell"
-  description: "Eggs. Eggs. Eggs. Eggs. Eggs. By: Goonstation" #SL  Addition
+  name: "пластинка: Eggshell"
+  description: "Яйца. Яйца. Яйца. Яйца. Яйца. Автор: Goonstation" #SL  Addition
   components:
   - type: Sprite
     state: default
@@ -1298,8 +1298,8 @@
 - type: entity
   parent: BaseVinylSlippery
   id: VinylWarriorsHonk
-  name: "vinyl: Warriors Honk"
-  description: "A fast pace electronic tune. By: Goonstation" #SL  Addition
+  name: "пластинка: Warriors Honk"
+  description: "Быстрая электронная композиция. Автор: Goonstation" #SL  Addition
   components:
   - type: Sprite
     layers:

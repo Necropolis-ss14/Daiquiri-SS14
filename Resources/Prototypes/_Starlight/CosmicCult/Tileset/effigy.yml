@@ -2,8 +2,8 @@
 - type: entity
   parent: BaseStructure
   id: CosmicEffigy
-  name: effigy of entropy
-  description: An abhorrent malign anomaly. Raw entropy oozes forth, betraying its instability.
+  name: чучело энтропии
+  description: Омерзительная злокачественная аномалия. Наружу сочится чистая энтропия, выдавая её нестабильность.
   components:
   - type: Sprite
     sprite: _Starlight/CosmicCult/Tileset/cosmiceffigy.rsi

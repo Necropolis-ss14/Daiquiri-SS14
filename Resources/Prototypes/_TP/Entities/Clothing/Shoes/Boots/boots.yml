@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: TP14ClothingShoesBootsDarkPerformer
-  name: dark performer's boots
-  description: With these, you could dance, and be a ninja in the night!
+  name: ботинки тёмного исполнителя
+  description: В них можно и танцевать, и быть ниндзя в ночи!
   components:
   - type: Sprite
     sprite: _TP/Clothing/Shoes/Boots/TP14darkperformer.rsi

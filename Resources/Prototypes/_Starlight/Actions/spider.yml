@@ -21,7 +21,7 @@
 
 - type: entity
   id: ProjectileWebball
-  name: webball
+  name: паутинный шар
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
   components:
@@ -61,8 +61,8 @@
 
 - type: entity
   id: ActionEvolve
-  name: Evolve
-  description: evolve into a new entity.
+  name: Эволюция
+  description: Эволюционировать в новую сущность.
   components:
   - type: Action
     useDelay: 3
@@ -210,8 +210,8 @@
 
 - type: entity
   id: ActionEntityWrap
-  name: Wrap
-  description: Wrap a target in web, immobilizing them.
+  name: Обернуть
+  description: Обернуть цель в паутину, обездвижив её.
   components:
   - type: Action
     useDelay: 3

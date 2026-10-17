@@ -4,8 +4,8 @@
 - type: entity
   parent: BaseStructure
   id: CosmicBorgChantry
-  name: vacuous chantry
-  description: Its surface churns with rampant malign light.
+  name: пустотная часовня
+  description: Её поверхность бурлит от необузданного злокачественного света.
   placement:
     mode: AlignTileAny
   components:

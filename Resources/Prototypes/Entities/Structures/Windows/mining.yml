@@ -1,6 +1,6 @@
 - type: entity
   id: MiningWindow
-  name: mining window
+  name: шахтёрское окно
   parent: [ WindowRCDResistant, BaseDeltaPressureReinforcedGlass ] # Starlight
   components:
   - type: Sprite

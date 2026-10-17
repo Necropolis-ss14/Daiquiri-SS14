@@ -37,7 +37,7 @@
 - type: entity
   parent: BaseMagazineLightRifle
   id: MagazineLightRifleBoxSP
-  name: "L6 SAW magazine box (.30 rifle SP)"
+  name: "короб с лентой для L6 SAW (.30 винтовка SP)"
   description: Короб с лентой на 100 патронов .30, для ручных пулемётов вроде L6. Подходит для кинетических боеприпасов общего назначения.
   components:
   - type: Tag
@@ -58,7 +58,7 @@
 - type: entity
   parent: BaseMagazineLightRifle
   id: MagazineLightRifleSP
-  name: "magazine (.30 rifle SP)"
+  name: "магазин (.30 винтовка SP)"
   description: Изогнутый двухрядный магазин на 30 патронов для боевых винтовок. Подходит для кинетических боеприпасов общего назначения.
   components:
   - type: BallisticAmmoProvider

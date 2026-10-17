@@ -17,7 +17,7 @@
 - type: entity
   parent: BaseBoardTabletop
   id: *ChessBoard
-  name: chessboard
+  name: шахматная доска
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

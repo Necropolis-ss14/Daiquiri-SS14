@@ -4,8 +4,8 @@
 - type: entity
   parent: [ SimpleMobBase, MobCombat, BaseSlicingRefinable ]
   id: BaseMobDinosaur
-  name: dinosaur
-  description: Dinos
+  name: динозавр
+  description: Дино
   abstract: true
   components:
   - type: Sprite

@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingBackpack
   id: ClothingBackpackTrunk
-  name: trunk
-  description: A large and heavy trunk for holding even more things.
+  name: сундук
+  description: Большой и тяжёлый сундук для хранения ещё большего количества вещей.
   abstract: true
   components:
   - type: Storage

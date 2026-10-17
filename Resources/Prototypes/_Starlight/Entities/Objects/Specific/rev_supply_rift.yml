@@ -1,7 +1,7 @@
 - type: entity
   id: RevSupplyRift
-  name: SKB armaments rift
-  description: (!) A shady rift that coughs up Soviet stuff. This exposes them, while also allowing them to use war equipment! If it's destroyed, commies won't be able to open another!
+  name: разлом вооружения СКБ
+  description: (!) Подозрительный разлом, изрыгающий советские штуки. Это раскрывает их, но также позволяет использовать военное снаряжение! Если разлом уничтожить, комми не смогут открыть новый!
   placement:
     mode: SnapgridCenter
   components:

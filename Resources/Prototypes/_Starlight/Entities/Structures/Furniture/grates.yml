@@ -1,8 +1,8 @@
 - type: entity
   id: GrateBase
   parent: BaseStructure
-  name: grate
-  description: "Very industrial."
+  name: решётка
+  description: "Очень индустриально."
   abstract: true
   components:
   - type: Sprite

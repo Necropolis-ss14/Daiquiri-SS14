@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: PlantAnalyzer
-  name: plant analyzer
-  description: A scanner used to evaluate a plant's various areas of growth, genetic traits and chemicals.
+  name: анализатор растений
+  description: Сканер для оценки различных параметров роста растения, генетических признаков и химического состава.
   components:
   - type: Sprite
     sprite: Objects/Specific/Hydroponics/plant_analyzer.rsi

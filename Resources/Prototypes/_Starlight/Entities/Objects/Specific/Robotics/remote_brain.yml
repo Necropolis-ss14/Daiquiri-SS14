@@ -1,8 +1,8 @@
 - type: entity
   parent: [BaseOrganBrain, BaseHumanOrgan]
   id: RemoteControlBrain
-  name: Remote Control Interface
-  description: A synthetic interface installed in place of a positronic brain, allowing a compatible robotic body to be controlled remotely.
+  name: интерфейс удалённого управления
+  description: Синтетический интерфейс, устанавливаемый вместо позитронного мозга, позволяющий удалённо управлять совместимым роботизированным телом.
   components:
   - type: Sprite
     sprite: Objects/Specific/Robotics/mmi.rsi

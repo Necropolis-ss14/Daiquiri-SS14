@@ -1,8 +1,8 @@
 - type: entity
-  name: kasane teto night bag
+  name: ночная сумка Kasane Teto
   parent: ClothingBackpackDuffel
   id: TP14BoxDarkPerformer
-  description: Darkness is this one's friend on the stage.
+  description: В темноте эта — друг на сцене.
   components:
   - type: EntityTableContainerFill
     containers:

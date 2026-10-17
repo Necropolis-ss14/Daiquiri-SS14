@@ -210,10 +210,10 @@
 
 # Rifle
 - type: entity
-  name: box of .20 rifle magazines
+  name: коробка магазинов (.20 винтовка)
   parent: BoxMagazine
   id: BoxMagazineRifleSP
-  description: A box full of .20 rifle magazines.
+  description: Коробка, полная магазинов .20 для винтовки.
   components:
   - type: Item
     size: Large

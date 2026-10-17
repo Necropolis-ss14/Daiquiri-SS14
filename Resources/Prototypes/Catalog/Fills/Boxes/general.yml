@@ -313,10 +313,10 @@
       - state: trashbag
 
 - type: entity
-  name: assistant encryption key box
+  name: коробка ключей шифрования ассистента
   parent: BoxCardboard
   id: BoxEncryptionKeyAssistant
-  description: A box of spare encryption keys.
+  description: Коробка запасных ключей шифрования.
   components:
   - type: EntityTableContainerFill
     containers:

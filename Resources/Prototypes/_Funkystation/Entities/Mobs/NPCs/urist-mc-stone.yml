@@ -1,8 +1,8 @@
 - type: entity
   parent: [ BaseMob, MobCombat ]
   id: UristMcStone
-  name: Firstborn
-  description: Recovered rubble has been radiometrically dated to be older than current estimates of the age of the universe. The seams and cracks lining its body are not due to natural erosion but instead show repeated patterns as if it were a language carved into the stone.
+  name: Перворождённый
+  description: Извлечённые обломки были радиометрически датированы возрастом, превышающим текущие оценки возраста Вселенной. Швы и трещины на его теле — не следствие естественной эрозии, а повторяющиеся узоры, будто язык, вырезанный в камне.
   components:
   - type: Sprite
     drawdepth: Mobs

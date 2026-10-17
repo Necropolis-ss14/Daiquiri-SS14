@@ -47,8 +47,8 @@
 - type: entity
   parent: CrateInternalsO2N2 # Starlight - sprite change
   id: CrateEmergencyInternals
-  name: internals crate
-  description: Master your life energy and control your breathing with three breath masks, three gas masks, three emergency EVA suits, three oxygen tanks, three nitrogen tanks, and 3 cooling units.
+  name: ящик аварийного снаряжения
+  description: Освойте свою жизненную энергию и контролируйте дыхание с тремя дыхательными масками, тремя противогазами, тремя аварийными костюмами EVA, тремя кислородными баллонами, тремя азотными баллонами и 3 охлаждающими блоками.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -70,8 +70,8 @@
 - type: entity
   parent: CrateInternalsO2N2 # Starlight - sprite change
   id: CrateEmergencyInternalsLarge
-  name: internals crate (large)
-  description: Master your life energy and control your breathing with six breath masks, six gas masks, six emergency EVA suits, six oxygen tanks, six nitrogen tanks, and six cooling units.
+  name: ящик аварийного снаряжения (большой)
+  description: Освойте свою жизненную энергию и контролируйте дыхание с шестью дыхательными масками, шестью противогазами, шестью аварийными костюмами EVA, шестью кислородными баллонами, шестью азотными баллонами и шестью охлаждающими блоками.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -93,8 +93,8 @@
 - type: entity
   parent: CrateInternals
   id: CrateNitrogenInternals
-  name: internals crate (nitrogen)
-  description: Contains two breath masks, two gas masks, and four nitrogen tanks. Intended for nitrogen-breathing species.
+  name: ящик аварийного снаряжения (азот)
+  description: Содержит две дыхательные маски, два противогаза и четыре азотных баллона. Предназначен для рас, дышащих азотом.
   components:
   - type: EntityTableContainerFill
     containers:

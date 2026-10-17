@@ -2,8 +2,8 @@
   parent: [ BaseMachinePowered, SmallConstructibleMachine ]
   id: TP14KitchenDeepFryer
   suffix: Service
-  name: deep fryer
-  description: Can be used to fry delicious food, or all of sci's gold. Directions on the side say to use corn oil only.
+  name: фритюрница
+  description: "Можно использовать, чтобы жарить вкусную еду или всё золото НИО. На боку написано: использовать только кукурузное масло."
   components:
   # Starlight start
   - type: ApcPowerReceiver
@@ -70,7 +70,7 @@
   parent: TP14KitchenDeepFryer
   id: TP14KitchenDeepFryerTabletop
   suffix: Service
-  name: table-top deep fryer
+  name: настольная фритюрница
   components:
 #removed the SolutionContainerManager from here because it was redundant as it gets it from the parent
   - type: Sprite

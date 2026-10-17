@@ -1,8 +1,8 @@
 - type: entity
-  name: BaseWeaponShotgun
+  name: базовое ружьё
   parent: BaseItem
   id: BaseWeaponShotgunAny # Starlight Edit: BaseWeaponShotgun -> BaseWeaponShotgunAny
-  description: A rooty tooty point and shooty.
+  description: Стреляющая фиговина.
   abstract: true
   components:
   # Starlight Start

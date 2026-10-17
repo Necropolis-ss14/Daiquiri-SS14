@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseWall
   id: WallCosmicCult
-  name: malign wall
-  description: A strange-looking wall. Staring at it for too long instills a sense of discomfort.
+  name: злокачественная стена
+  description: Странно выглядящая стена. Слишком долгий взгляд на неё внушает чувство дискомфорта.
   components:
   - type: CosmicCultExamine
     cultistText: cosmic-examine-text-forthecult
@@ -28,7 +28,7 @@
 - type: entity
   parent: WallCosmicCult
   id: WallCosmicCultTrimmed
-  name: malign wall
+  name: злокачественная стена
   suffix: Trimmed
   components:
   - type: Icon
@@ -53,8 +53,8 @@
 
 - type: entity
   id: WindowCosmicCult
-  name: malign pane
-  description: An odd-looking window. Something about it unnerves you.
+  name: злокачественное стекло
+  description: Странное на вид окно. Что-то в нём вас нервирует.
   parent: WindowRCDResistant
   components:
   - type: Sprite
@@ -97,7 +97,7 @@
 
 - type: entity
   id: WindowCosmicCultDark
-  name: malign pane
+  name: злокачественное стекло
   suffix: Tinted
   parent: WindowCosmicCult
   components:
@@ -112,9 +112,9 @@
 
 - type: entity
   parent: WallShuttleDiagonal
-  description: An odd-looking window. Something about it unnerves you.
+  description: Странное на вид окно. Что-то в нём вас нервирует.
   id: WindowCosmicCultDiagonal
-  name: malign pane
+  name: злокачественное стекло
   suffix: Diagonal
   placement:
     mode: SnapgridCenter
@@ -147,7 +147,7 @@
 - type: entity
   parent: WindowCosmicCultDiagonal
   id: WindowCosmicCultDiagonalDark
-  name: malign pane
+  name: злокачественное стекло
   suffix: Diagonal, Tinted
   placement:
     mode: SnapgridCenter

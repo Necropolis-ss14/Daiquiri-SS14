@@ -1,8 +1,8 @@
 - type: entity
   parent: SimpleMobBase
   id: MobZleeb
-  name: zleeb zlorp
-  description: A very small creature with a very important mission.
+  name: злиб злорп
+  description: Очень маленькое существо с очень важной миссией.
   components:
   - type: Sprite
     drawdepth: SmallMobs
@@ -84,8 +84,8 @@
 - type: entity
   parent: MechVim
   id: MechZleeb
-  name: zoop zib zob
-  description: A strange space faring ship. It looks only big enough for a small creature.
+  name: зуп зиб зоб
+  description: Странный космический корабль. Выглядит так, будто рассчитан лишь на маленькое существо.
   components:
   - type: Sprite
     drawdepth: Mobs

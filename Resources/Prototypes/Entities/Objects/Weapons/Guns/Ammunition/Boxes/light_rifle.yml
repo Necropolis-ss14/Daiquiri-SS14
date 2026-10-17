@@ -48,7 +48,7 @@
 - type: entity
   parent: BaseMagazineBoxLightRifle
   id: MagazineBoxLightRifleSP
-  name: ammunition box (.30 rifle SP)
+  name: коробка патронов (.30 винтовка SP)
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeLightRifleSP
@@ -68,7 +68,7 @@
 - type: entity
   parent: BaseMagazineBoxLightRifle
   id: MagazineBoxLightRifleHP
-  name: ammunition box (.30 rifle HP)
+  name: коробка патронов (.30 винтовка HP)
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeLightRifleHP
@@ -82,7 +82,7 @@
 - type: entity
   parent: BaseMagazineBoxLightRifle
   id: MagazineBoxLightRifleFMJ
-  name: ammunition box (.30 rifle FMJ)
+  name: коробка патронов (.30 винтовка FMJ)
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeLightRifleFMJ
@@ -97,7 +97,7 @@
 - type: entity
   parent: BaseMagazineBoxLightRifle
   id: MagazineBoxLightRifleAP
-  name: ammunition box (.30 rifle AP)
+  name: коробка патронов (.30 винтовка AP)
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeLightRifleAP

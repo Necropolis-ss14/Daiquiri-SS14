@@ -23,7 +23,7 @@
 - type: entity
   parent: BaseDelivery
   id: BasePackageDeliveryReward
-  name: package
+  name: посылка
   abstract: true
   components:
   - type: Sprite

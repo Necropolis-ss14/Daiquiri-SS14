@@ -2,8 +2,8 @@
 - type: entity
   parent: BaseItem
   id: BaseMagazine
-  name: magazine
-  description: A finely-printed magazine. Even in space, hard-boiled forms of media distribution like this can never fail you.
+  name: журнал
+  description: Качественно напечатанный журнал. Даже в космосе такие суровые формы распространения медиа никогда вас не подведут.
   abstract: true
   components:
   - type: Sprite

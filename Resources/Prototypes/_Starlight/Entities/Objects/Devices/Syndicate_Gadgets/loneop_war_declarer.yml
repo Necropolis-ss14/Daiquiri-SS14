@@ -1,8 +1,8 @@
 - type: entity
   parent: [BaseItem, BaseSyndicateContraband ]
   id: LoneopDeclarationOfWar
-  name: war declarator
-  description: Use to send a declaration of hostilities to the target. Such a brazen move will attract the attention of powerful benefactors within the Syndicate, who will supply you with a massive amount of bonus telecrystals. Must be used at start of mission, or your benefactors will lose interest.
+  name: объявитель войны
+  description: Используйте, чтобы отправить объявление о враждебности цели. Столь дерзкий шаг привлечёт внимание влиятельных покровителей в Синдикате, которые снабдят вас огромным количеством бонусных телекристаллов. Нужно использовать в начале миссии, иначе покровители потеряют интерес.
   components:
     - type: Sprite
       sprite: Objects/Devices/declaration_of_war.rsi
@@ -18,8 +18,8 @@
 - type: entity
   parent: [BaseItem, BaseSyndicateContraband ]
   id: LoneopDeclarationOfWarAnnouncementSpawner
-  name: used war declarator
-  description: Used up war declaration, you shouldnt be seeing this...
+  name: использованный объявитель войны
+  description: Использованное объявление войны, вы не должны это видеть...
   components:
     - type: Sprite
       sprite: Objects/Devices/declaration_of_war.rsi

@@ -1,8 +1,8 @@
 - type: entity
   id: CrateCerenkiteFuelRod
   parent: CrateEngineeringSecure
-  name: Fuel Rod Crate
-  description: 3 cerenkite fuel rods, for fuelling a nuclear reactor.
+  name: ящик топливных стержней
+  description: 3 топливных стержня из черенкита, для заправки ядерного реактора.
   components:
   - type: EntityTableContainerFill
     containers:

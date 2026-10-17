@@ -3284,8 +3284,8 @@
   abstract: true
   parent: [MobDogColdResistant, MobDogIdentity, SimpleMobBaseAntag, StripableInventoryBase] # Starlight, so they don't inherit antag immune
   id: MobCorgiBaseTemplate # Starlight, to let smart corgis roll antag but not other corgi types
-  name: corgi
-  description: Finally, a space corgi!
+  name: корги
+  description: Наконец-то космический корги!
   components:
   - type: Sprite
     drawdepth: Mobs

@@ -1,8 +1,8 @@
 - type: entity
-  name: ticket
+  name: квитанция
   parent: Paper
   id: FineTicket
-  description: 'A space-glue backed fining ticket. Once its stuck, it wont come off without being destroyed.'
+  description: 'Квитанция о штрафе с космическим клеем на обороте. Стоит приклеить — уже не отдерёшь, не уничтожив.'
   components:
   - type: Sprite
     layers:
@@ -40,8 +40,8 @@
 - type: entity
   id: TicketPad
   parent: BoxBase
-  name: ticket pad
-  description: A small folder of sticky-backed tickets. Fill out the receiver's name, crime, the issued fine, and then sign the ticket.
+  name: блок квитанций
+  description: Небольшая папка с квитанциями на клейкой основе. Впишите имя получателя, преступление, назначенный штраф и подпишите квитанцию.
   components:
   - type: Item
     size: Small

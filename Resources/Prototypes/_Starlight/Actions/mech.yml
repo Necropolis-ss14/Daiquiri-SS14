@@ -1,7 +1,7 @@
 - type: entity
   id: ActionMechActivateAirHorn
-  name: HOOOOOONNNNNNNKKKKK!!!
-  description: Spread joy to everyone in hearing distance.
+  name: БИИИИИИИИИП!!!
+  description: Разнести радость всем в пределах слышимости.
   components:
     - type: Action
       useDelay: 25

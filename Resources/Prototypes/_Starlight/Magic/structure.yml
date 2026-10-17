@@ -1,8 +1,8 @@
 - type: entity
   id: TowerOfBabel
   parent: BaseStructure
-  name: tower of babel
-  description: Me Grug. You?. <unintelligible>
+  name: вавилонская башня
+  description: Я Грук. Ты? <неразборчиво>
   components:
     - type: Sprite
       sprite: _Starlight/Structures/tower_of_babel.rsi

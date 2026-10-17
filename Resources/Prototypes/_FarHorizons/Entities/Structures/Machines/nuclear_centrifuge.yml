@@ -1,8 +1,8 @@
 - type: entity
   id: NuclearCentrifuge
   parent: [ BaseMachinePowered, ConstructibleMachine ]
-  name: nuclear centrifuge
-  description: A large machine that can be used to separate radioactive isotopes from spent fuel.
+  name: ядерная центрифуга
+  description: Большая машина, используемая для отделения радиоактивных изотопов из отработанного топлива.
   categories: [ DoNotMap ] # Starlight
   components:
   - type: Sprite

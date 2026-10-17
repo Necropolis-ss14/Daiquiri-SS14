@@ -1,6 +1,6 @@
 - type: entity
-  name: oil pack # Starlight, capitalization
-  description: Contains Oil. Pretty simple compared to other packs.
+  name: упаковка масла # Starlight, capitalization
+  description: Содержит масло. Довольно просто по сравнению с другими упаковками.
   parent: BaseHealingItem
   id: OilPack
   suffix: Full

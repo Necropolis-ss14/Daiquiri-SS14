@@ -27,7 +27,7 @@
 - type: entity
   parent: BaseMagazineBoxMagnum
   id: MagazineBoxMagnumSP
-  name: ammunition box (.45 magnum SP)
+  name: коробка патронов (.45 магнум SP)
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeMagnumSP
@@ -42,7 +42,7 @@
 - type: entity
   parent: BaseMagazineBoxMagnum
   id: MagazineBoxMagnumHP
-  name: ammunition box (.45 magnum HP)
+  name: коробка патронов (.45 магнум HP)
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeMagnumHP

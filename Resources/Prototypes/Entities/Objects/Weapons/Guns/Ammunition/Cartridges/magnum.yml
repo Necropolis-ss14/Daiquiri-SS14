@@ -20,8 +20,8 @@
 - type: entity
   parent: BaseCartridgeMagnum
   id: CartridgeMagnumSP
-  name: cartridge (.45 magnum SP)
-  description: Heavy magnum cartridge mostly used by revolvers. Standard kinetic ammunition is common and useful in most situations.
+  name: патрон (.45 магнум SP)
+  description: Тяжёлый патрон магнум, используемый в основном револьверами. Кинетические боеприпасы общего назначения распространены и полезны в большинстве ситуаций.
   components:
   - type: CartridgeAmmo
     proto: BulletMagnumTraceSP

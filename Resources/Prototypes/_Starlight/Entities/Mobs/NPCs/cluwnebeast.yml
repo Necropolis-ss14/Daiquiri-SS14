@@ -1,8 +1,8 @@
 - type: entity
-  name: cluwnebeast
+  name: клунезверь
   id: MobCluwneBeast
   parent: SimpleMobBase #starlight Nubody will not pass.
-  description: A cluwne beast, nightmare fuel, time to run!
+  description: Клунезверь, топливо для кошмаров, пора бежать!
   categories: [ Spawner ]
   components:
   - type: CombatMode

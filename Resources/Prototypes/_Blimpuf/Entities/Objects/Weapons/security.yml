@@ -1,9 +1,9 @@
 - type: entity
-  name: stun baton
+  name: шоковая дубинка
   parent: BaseItem
   id: BaseStunbaton
   abstract: true
-  description: A stun baton for incapacitating people with. Actively harming with this is considered bad tone.
+  description: Шоковая дубинка для обездвиживания людей. Наносить ею реальный вред считается дурным тоном.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/stunbaton.rsi

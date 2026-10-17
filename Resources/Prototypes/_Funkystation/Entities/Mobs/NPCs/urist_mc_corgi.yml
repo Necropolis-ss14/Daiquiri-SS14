@@ -2,8 +2,8 @@
 - type: entity
   parent: MobCorgiBase
   id: SparlightMobUristMcCorgi
-  name: Extradimensional Corgi
-  description: Now THIS is a rare sight to see!
+  name: внепространственный корги
+  description: Вот ЭТО редкое зрелище!
   components:
   - type: Sprite
     sprite: _Funkystation/Mobs/XenoArch/urist_mc_corgi.rsi

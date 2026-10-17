@@ -1,7 +1,7 @@
 - type: entity
   id: GlandEffectBase
   abstract: true
-  name: Abductor Gland Effect
+  name: эффект железы абдуктора
   components:
   - type: Sprite
     sprite: /Textures/Objects/Fun/goldbikehorn.rsi

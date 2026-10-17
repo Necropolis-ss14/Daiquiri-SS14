@@ -8,8 +8,8 @@
 - type: entity
   parent: [SolutionNormal, BaseItem]
   id: CosmicCenser
-  name: ardent censer
-  description: Cleanses and sanctifies the air around it.
+  name: пылкое кадило
+  description: Очищает и освящает воздух вокруг себя.
   components:
   - type: Item
     size: Normal

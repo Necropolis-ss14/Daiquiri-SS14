@@ -1,9 +1,9 @@
 - type: entity
   parent: ClothingBackpackDuffel
   id: DroneBag
-  name: Drone Storage Cube
+  name: куб хранения дрона
   suffix: Unremoveable
-  description: An internal pocket to hold your stuff. The space is limited.
+  description: Внутренний карман для ваших вещей. Места мало.
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Specific/Robotics/drone_storage_cube.rsi

@@ -2,8 +2,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHelmetMetalHydrogen
-  name: metal hydrogen helmet
-  description: A superb helmet made with the toughest and rarest materials available to man.
+  name: шлем из металлического водорода
+  description: Превосходный шлем, сделанный из самых прочных и редких материалов, доступных человеку.
   components:
   - type: Sprite
     sprite: _Funkystation/Clothing/Head/Helmets/metal_hydrogen_helmet.rsi

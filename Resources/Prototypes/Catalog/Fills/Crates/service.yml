@@ -1,8 +1,8 @@
 - type: entity
   parent: CratePlastic
   id: CrateServiceJanitorialSupplies
-  name: janitorial supplies crate
-  description: Fight back against dirt and grime with NanoTrasen's Janitorial Essentials(tm)! Contains three buckets, caution signs, and cleaner grenades. Also has a single mop, broom, spray cleaner, wire brush, rag, and trash bag. # SL
+  name: ящик уборочных принадлежностей
+  description: Дайте отпор грязи и копоти вместе с «Уборочным набором» от NanoTrasen (tm)! Содержит три ведра, предупреждающие знаки и чистящие гранаты. А также одну швабру, метлу, чистящий спрей, проволочную щётку, тряпку и мешок для мусора. # SL
   components:
   - type: EntityTableContainerFill
     containers:
@@ -29,8 +29,8 @@
 - type: entity
   parent: CratePlastic
   id: CrateServiceCleanerGrenades
-  name: bulk cleanades crate
-  description: Contains two boxes of cleaner grenades, for those deeply-entrenched stains.
+  name: ящик чистящих гранат оптом
+  description: Содержит две коробки чистящих гранат — для самых въедливых пятен.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -41,8 +41,8 @@
 - type: entity
   parent: CrateGenericSteel
   id: CrateServiceReplacementLights
-  name: replacement lights crate
-  description: May the light of Aether shine upon this station! Or at least, the light of twelve fluorescent light tubes and twelve incandescent light bulbs.
+  name: ящик сменных ламп
+  description: Да осветит Аэтер эту станцию! Или хотя бы свет двенадцати люминесцентных трубок и двенадцати ламп накаливания.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -54,8 +54,8 @@
 - type: entity
   parent: CrateGenericSteel
   id: CrateServiceColorfulLights
-  name: colorful lights crate
-  description: It's not a party until it's hard to see, a little disorienting, and your ears hurt. Contains twelve light tubes and twelve light bulbs in a variety of colors.
+  name: ящик цветных ламп
+  description: Вечеринка не вечеринка, пока плохо не видно, слегка не кружит голову и не болят уши. Содержит двенадцать трубок и двенадцать ламп разных цветов.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -67,8 +67,8 @@
 - type: entity
   parent: CrateGenericSteel
   id: CrateServiceHolidayLights
-  name: holiday lights crate
-  description: Deck the halls with these festive holiday lights! Contains twelve red light tubes and twelve green light tubes.
+  name: ящик праздничных ламп
+  description: Украсьте залы этими праздничными гирляндами! Содержит двенадцать красных и двенадцать зелёных ламповых трубок.
   components:
   - type: EntityTableContainerFill
     containers:
@@ -79,8 +79,8 @@
 - type: entity
   parent: CrateGenericSteel
   id: CrateMousetrapBoxes
-  name: mousetraps crate
-  description: Mousetraps, for when all of service is being haunted by an entire horde of rats. Use sparingly... or not.
+  name: ящик мышеловок
+  description: Мышеловки — на случай, когда весь сервис терроризирует целая орда крыс. Используйте умеренно... или нет.
   components:
   - type: EntityTableContainerFill
     containers:
