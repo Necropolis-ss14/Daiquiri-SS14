@@ -20,11 +20,6 @@ using Robust.Shared.Timing;
 
 namespace Content.Server._Starlight.Addiction;
 
-/// <summary>
-/// Handles addictions (dependencies): keeps track of how long every character has been without their
-/// dose and sends escalating chat messages until they take their reagent, take a cure or stay clean
-/// long enough for the addiction to go away on its own.
-/// </summary>
 [UsedImplicitly]
 public sealed partial class AddictionSystem : EntitySystem
 {
@@ -38,16 +33,10 @@ public sealed partial class AddictionSystem : EntitySystem
     [Dependency] private MovementSpeedModifierSystem _speed = default!;
     [Dependency] private IGameTiming _timing = default!;
 
-    /// <summary>
-    /// How often addictions are processed.
-    /// </summary>
     private static readonly TimeSpan UpdateInterval = TimeSpan.FromSeconds(1);
 
     private static readonly Color CureColor = Color.FromHex("#8fd6a0");
 
-    /// <summary>
-    /// Color of the addiction entries in the health analyzer.
-    /// </summary>
     private static readonly Color AnalyzerColor = Color.FromHex("#c02b2b");
 
     private TimeSpan _nextUpdate;
@@ -62,10 +51,6 @@ public sealed partial class AddictionSystem : EntitySystem
         SubscribeLocalEvent<AddictionComponent, RailroadingReagentMetabolizedEvent>(OnReagentMetabolized);
     }
 
-    /// <summary>
-    /// Remembers which reagents were metabolized since the last intake update. A reagent that is
-    /// broken down counts as having entered the body, even though it is already gone again.
-    /// </summary>
     private void OnReagentMetabolized(Entity<AddictionComponent> ent, ref RailroadingReagentMetabolizedEvent args)
     {
         var reagent = args.Reagent.Reagent.Prototype.Id;
@@ -73,9 +58,6 @@ public sealed partial class AddictionSystem : EntitySystem
             ent.Comp.MetabolizedReagents.GetValueOrDefault(reagent) + args.Reagent.Quantity;
     }
 
-    /// <summary>
-    /// Applies the movement speed penalty of the current withdrawal phases.
-    /// </summary>
     private void OnRefreshSpeed(Entity<AddictionComponent> ent, ref RefreshMovementSpeedModifiersEvent args)
     {
         foreach (var slowdown in ent.Comp.Slowdown.Values)
@@ -88,9 +70,6 @@ public sealed partial class AddictionSystem : EntitySystem
         }
     }
 
-    /// <summary>
-    /// Makes sure a penalty does not outlive the component that applied it.
-    /// </summary>
     private void OnShutdown(Entity<AddictionComponent> ent, ref ComponentShutdown args)
     {
         if (ent.Comp.Slowdown.Count == 0)
@@ -100,9 +79,6 @@ public sealed partial class AddictionSystem : EntitySystem
         _speed.RefreshMovementSpeedModifiers(ent.Owner);
     }
 
-    /// <summary>
-    /// Shows the addictions of the scanned patient in the health analyzer.
-    /// </summary>
     private void OnCollectAnalyzerData(Entity<AddictionComponent> patient, ref CollectHealthAnalyzerExtensionsEvent args)
     {
         foreach (var id in patient.Comp.Addictions)
@@ -137,10 +113,6 @@ public sealed partial class AddictionSystem : EntitySystem
         }
     }
 
-    /// <summary>
-    /// Makes sure every player controlled character that can absorb reagents is tracked, so that an
-    /// addiction can also appear on its own once enough of a reagent has been taken.
-    /// </summary>
     private void EnsureAddictionComponents()
     {
         foreach (var session in _players.Sessions)
@@ -152,9 +124,6 @@ public sealed partial class AddictionSystem : EntitySystem
         }
     }
 
-    /// <summary>
-    /// Adds an addiction to an entity, if it does not have it already.
-    /// </summary>
     public void AddAddiction(EntityUid uid, ProtoId<AddictionPrototype> addiction, AddictionComponent? component = null)
     {
         if (!Resolve(uid, ref component, false) || component.Addictions.Contains(addiction))
@@ -164,9 +133,6 @@ public sealed partial class AddictionSystem : EntitySystem
         component.LastDose[addiction] = _timing.CurTime;
     }
 
-    /// <summary>
-    /// Removes a single addiction from an entity.
-    /// </summary>
     public void RemoveAddiction(EntityUid uid, ProtoId<AddictionPrototype> addiction, bool notify = true, AddictionComponent? component = null)
     {
         if (!Resolve(uid, ref component, false) || !component.Addictions.Remove(addiction))
@@ -176,8 +142,6 @@ public sealed partial class AddictionSystem : EntitySystem
         component.NextMessage.Remove(addiction);
         component.LastStage.Remove(addiction);
         component.NextEmote.Remove(addiction);
-
-        // A cured character has to build up their intake from scratch.
         component.Intake.Remove(addiction);
         ClearSlowdown(uid, addiction, component);
 
@@ -187,9 +151,6 @@ public sealed partial class AddictionSystem : EntitySystem
         SendMessage(uid, Loc.GetString("addiction-cured-message", ("addiction", Loc.GetString(prototype.Name))), CureColor);
     }
 
-    /// <summary>
-    /// Removes every addiction of an entity, e.g. when a cure reagent is used.
-    /// </summary>
     public void CureAll(EntityUid uid, AddictionComponent? component = null)
     {
         if (!Resolve(uid, ref component, false))
@@ -205,13 +166,11 @@ public sealed partial class AddictionSystem : EntitySystem
     {
         var blood = GetBloodstream(ent.Owner);
 
-        // Reagents that have just been absorbed can make the character dependent on them.
         AccumulateIntake(ent, blood);
 
         if (ent.Comp.Addictions.Count == 0)
             return;
 
-        // Backwards, because curing removes entries from the list.
         for (var i = ent.Comp.Addictions.Count - 1; i >= 0; i--)
         {
             var id = ent.Comp.Addictions[i];
@@ -223,14 +182,12 @@ public sealed partial class AddictionSystem : EntitySystem
                 continue;
             }
 
-            // Cure reagents remove the addiction outright.
             if (ContainsAnyReagent(blood, addiction.Cures))
             {
                 RemoveAddiction(ent.Owner, id, component: ent.Comp);
                 continue;
             }
 
-            // The character took their dose: the withdrawal starts over.
             if (ContainsAnyReagent(blood, addiction.Reagents))
             {
                 ent.Comp.LastDose[id] = now;
@@ -243,14 +200,12 @@ public sealed partial class AddictionSystem : EntitySystem
 
             if (!ent.Comp.LastDose.TryGetValue(id, out var lastDose))
             {
-                // First time we see this addiction: start counting from now.
                 ent.Comp.LastDose[id] = now;
                 continue;
             }
 
             var elapsed = now - lastDose;
 
-            // Nobody can stay clean forever.
             if (addiction.CureTime > TimeSpan.Zero && elapsed >= addiction.CureTime)
             {
                 RemoveAddiction(ent.Owner, id, component: ent.Comp);
@@ -260,7 +215,6 @@ public sealed partial class AddictionSystem : EntitySystem
             var stage = GetStage(addiction, elapsed, s => s.Messages.Count > 0);
             if (stage != null)
             {
-                // A new phase of the withdrawal begins: let the character know right away.
                 if (!ent.Comp.LastStage.TryGetValue(id, out var lastStage) || lastStage != stage.After)
                 {
                     ent.Comp.LastStage[id] = stage.After;
@@ -274,18 +228,11 @@ public sealed partial class AddictionSystem : EntitySystem
                 }
             }
 
-            // Phases may also force an emote, for example a smoker who has not had a cigarette.
             ProcessEmote(ent, id, addiction, elapsed, now);
-
-            // Bad withdrawal can also weigh the character down.
             ProcessSlowdown(ent, id, addiction, elapsed);
         }
     }
 
-    /// <summary>
-    /// Applies the movement speed penalty of the most advanced phase that has one, and removes it
-    /// again once no phase asks for it anymore.
-    /// </summary>
     private void ProcessSlowdown(Entity<AddictionComponent> ent, ProtoId<AddictionPrototype> id, AddictionPrototype addiction, TimeSpan elapsed)
     {
         var slowdown = GetStage(addiction, elapsed, s => s.Slowdown > 0f)?.Slowdown ?? 0f;
@@ -303,19 +250,12 @@ public sealed partial class AddictionSystem : EntitySystem
         _speed.RefreshMovementSpeedModifiers(ent.Owner);
     }
 
-    /// <summary>
-    /// Drops the movement speed penalty of a single addiction, if it had one.
-    /// </summary>
     private void ClearSlowdown(EntityUid uid, ProtoId<AddictionPrototype> id, AddictionComponent component)
     {
         if (component.Slowdown.Remove(id))
             _speed.RefreshMovementSpeedModifiers(uid);
     }
 
-    /// <summary>
-    /// Adds every reagent that has just entered the bloodstream to the intake of the addictions it
-    /// belongs to. Once enough has been absorbed in total the addiction appears on its own.
-    /// </summary>
     private void AccumulateIntake(Entity<AddictionComponent> ent, Solution? blood)
     {
         if (blood == null)
@@ -324,7 +264,6 @@ public sealed partial class AddictionSystem : EntitySystem
             return;
         }
 
-        // Measured once per update, because one reagent may belong to several addictions.
         Dictionary<string, FixedPoint2>? absorbed = null;
 
         foreach (var addiction in _prototypes.EnumeratePrototypes<AddictionPrototype>())
@@ -341,9 +280,6 @@ public sealed partial class AddictionSystem : EntitySystem
                 if (!absorbed.TryGetValue(reagent.Id, out var delta))
                 {
                     var amount = GetReagentAmount(blood, reagent.Id);
-
-                    // What is still in the blood plus what the body has already broken down is
-                    // exactly what has entered the body since the last time we looked.
                     var metabolized = ent.Comp.MetabolizedReagents.GetValueOrDefault(reagent.Id);
                     ent.Comp.MetabolizedReagents[reagent.Id] = FixedPoint2.Zero;
 
@@ -370,17 +306,12 @@ public sealed partial class AddictionSystem : EntitySystem
         }
     }
 
-    /// <summary>
-    /// Forces the character to perform the emote of the most advanced phase that defines one, for
-    /// example coughing once the withdrawal of a smoking addiction goes on for long enough.
-    /// </summary>
     private void ProcessEmote(Entity<AddictionComponent> ent, ProtoId<AddictionPrototype> id, AddictionPrototype addiction, TimeSpan elapsed, TimeSpan now)
     {
         var stage = GetStage(addiction, elapsed, s => s.Emote != null);
 
         if (stage?.Emote is not { } emote)
         {
-            // No phase forces an emote right now, so the next one can start right away.
             ent.Comp.NextEmote.Remove(id);
             return;
         }
@@ -394,15 +325,9 @@ public sealed partial class AddictionSystem : EntitySystem
         if (_mobState.IsDead(ent.Owner) || !_players.TryGetSessionByEntity(ent.Owner, out _))
             return;
 
-        if (!_chatSystem.TryEmoteWithChat(ent.Owner, emote.Id))
-            return;
+        _chatSystem.TryEmoteWithChat(ent.Owner, emote.Id);
     }
 
-    /// <summary>
-    /// The most advanced phase whose "after" time has passed and that satisfies the predicate.
-    /// Phases are looked up separately for messages, emotes and movement penalties, so one phase
-    /// can carry only some of them without silencing the others.
-    /// </summary>
     private static AddictionStage? GetStage(AddictionPrototype addiction, TimeSpan elapsed, Func<AddictionStage, bool> predicate)
     {
         AddictionStage? current = null;
@@ -457,9 +382,6 @@ public sealed partial class AddictionSystem : EntitySystem
         return solution;
     }
 
-    /// <summary>
-    /// Sends a private message to the character. Only player controlled, living characters are nagged.
-    /// </summary>
     private void SendMessage(EntityUid uid, string message, Color color)
     {
         if (_mobState.IsDead(uid))

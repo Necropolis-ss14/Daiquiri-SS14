@@ -1,4 +1,3 @@
-# Addiction names (used by the cure message)
 addiction-alcohol-name = alcohol addiction
 addiction-nicotine-name = nicotine addiction
 addiction-narcotics-name = narcotics addiction
@@ -6,9 +5,6 @@ addiction-narcotics-name = narcotics addiction
 addiction-cured-message = The craving fades: { $addiction } no longer has a hold on you.
 addiction-gained-message = Your body has grown used to it: you have developed { $addiction }.
 
-# Withdrawal phases: 1 is the beginning, 4 is the worst. The texts are picked by the addiction prototypes.
-
-## Alcohol
 addiction-alcohol-1-1 = Your throat is dry. A drink would go down nicely right about now.
 addiction-alcohol-1-2 = Your thoughts keep drifting back to the bottle.
 addiction-alcohol-1-3 = A strange urge to drink something stronger.
@@ -38,7 +34,6 @@ addiction-alcohol-4-5 = You are shaking, your vision swims, and only one thought
 addiction-alcohol-4-6 = IT FEELS LIKE YOU WILL NOT SURVIVE WITHOUT A DRINK. DRINK.
 addiction-alcohol-4-7 = Your whole body demands alcohol. You no longer remember why you resisted.
 
-## Nicotine
 addiction-nicotine-1-1 = You want a smoke. Just to hold a cigarette again.
 addiction-nicotine-1-2 = Your fingers keep reaching for a pack that is not there.
 addiction-nicotine-1-3 = Somewhere at the back of your mind there is a thought about a cigarette.
@@ -68,7 +63,6 @@ addiction-nicotine-4-5 = Your hands are shaking, your vision is darkening, and y
 addiction-nicotine-4-6 = Nothing matters. Only a drag. Only the smoke.
 addiction-nicotine-4-7 = You are ready to set anything on fire just to breathe in smoke.
 
-## Narcotics
 addiction-narcotics-1-1 = A strange urge to feel that high again.
 addiction-narcotics-1-2 = You keep remembering what it feels like to be high.
 addiction-narcotics-1-3 = Your thoughts keep returning to a dose.

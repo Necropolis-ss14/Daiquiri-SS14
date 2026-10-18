@@ -44,5 +44,5 @@
   id: Addictions
   name: trait-category-addictions
   priority: 25
-  maxTraits: 1 # Одновременно можно выбрать только одну зависимость
-  accentColor: "#c02b2b" # Dark red
+  maxTraits: 1
+  accentColor: "#c02b2b"

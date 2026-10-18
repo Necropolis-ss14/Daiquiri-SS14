@@ -489,7 +489,6 @@ public sealed partial class HealthAnalyzerSystem : EntitySystem
             damageable.GetTotal(),
             groupedInjuries,
             reagents,
-            // Starlight-edit: printable health reports include the same conditions as the window.
             uiState.Extensions?.Abnormalities is { } abnormalities
                 ? new List<HealthAnalyzerAbnormalityData>(abnormalities)
                 : new List<HealthAnalyzerAbnormalityData>());
@@ -548,8 +547,6 @@ public sealed partial class HealthAnalyzerSystem : EntitySystem
         message.PushNewline();
         message.PushNewline();
 
-        // Starlight-edit: printable health reports list the conditions shown in the window,
-        // addictions among them.
         message.AddMarkupOrThrow($"[head=2][bold]{Loc.GetString("health-analyzer-report-section-abnormalities")}[/bold][/head]");
         message.PushNewline();
 
