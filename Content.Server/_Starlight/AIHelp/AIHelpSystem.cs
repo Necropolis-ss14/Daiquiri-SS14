@@ -1,4 +1,5 @@
 using System.Diagnostics;
+using System.Linq;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Net.Http.Json;
@@ -39,6 +40,17 @@ public sealed partial class AIHelpSystem : SharedAIHelpSystem
 
     private readonly Dictionary<NetUserId, List<AIHelpChatMessage>> _history = new();
     private ISawmill _sawmill = default!;
+
+    private const int AdminLogLimit = 200;
+    private const int AdminLogReplyPreview = 4000;
+
+    private readonly List<AIHelpRequestLogEntry> _log = new();
+
+    private readonly Dictionary<int, CancellationTokenSource> _pendingRequests = new();
+
+    private readonly HashSet<NetUserId> _muted = new();
+
+    private int _nextLogId = 1;
 
     private HttpClient? _http;
     private readonly SemaphoreSlim _tokenLock = new(1, 1);
@@ -218,7 +230,20 @@ public sealed partial class AIHelpSystem : SharedAIHelpSystem
             text = text[..maxLength];
         }
 
-        _ = RespondAsync(session, text, apiKey);
+        if (_muted.Contains(session.UserId))
+        {
+            var blocked = AddLogEntry(session, text, AIHelpRequestStatus.Blocked);
+            blocked.Reply = Loc.GetString("ai-help-admin-muted");
+            SendError(session, "ai-help-admin-muted");
+            BroadcastAdminLog();
+            _sawmill.Info($"[AIHelp] {session.Name}: доступ к ИИ закрыт администратором — запрос отклонён.");
+            return;
+        }
+
+        var entry = AddLogEntry(session, text, AIHelpRequestStatus.Pending);
+        BroadcastAdminLog();
+
+        _ = RespondAsync(session, text, apiKey, entry);
     }
 
     protected override void OnAIHelpReset(AIHelpResetMessage message, EntitySessionEventArgs eventArgs)
@@ -231,9 +256,113 @@ public sealed partial class AIHelpSystem : SharedAIHelpSystem
             IsError = true
         }, session.Channel);
 
-    private async Task RespondAsync(ICommonSession session, string userText, string apiKey)
+    protected override void OnAIHelpAdminLogRequest(AIHelpAdminLogRequestMessage message, EntitySessionEventArgs eventArgs)
+    {
+        var session = eventArgs.SenderSession;
+        if (!CanOversee(session))
+        {
+            _sawmill.Warning($"[AIHelp] {session.Name}: запрос журнала ИИ без флага Adminhelp — отклонено.");
+            return;
+        }
+
+        RaiseNetworkEvent(BuildAdminLogMessage(), session.Channel);
+    }
+
+    protected override void OnAIHelpAdminCancelRequest(AIHelpAdminCancelRequestMessage message, EntitySessionEventArgs eventArgs)
+    {
+        var session = eventArgs.SenderSession;
+        if (!CanOversee(session))
+            return;
+
+        if (!_pendingRequests.TryGetValue(message.EntryId, out var cts))
+            return;
+
+        var entry = _log.FirstOrDefault(e => e.Id == message.EntryId);
+        if (entry != null)
+            entry.Status = AIHelpRequestStatus.Cancelled;
+
+        cts.Cancel();
+        _sawmill.Info($"[AIHelp] {session.Name}: прервал запрос #{message.EntryId}.");
+        BroadcastAdminLog();
+    }
+
+    protected override void OnAIHelpAdminResetRequest(AIHelpAdminResetRequestMessage message, EntitySessionEventArgs eventArgs)
+    {
+        var session = eventArgs.SenderSession;
+        if (!CanOversee(session))
+            return;
+
+        _history.Remove(message.UserId);
+        _sawmill.Info($"[AIHelp] {session.Name}: сбросил контекст ИИ игрока {message.UserId}.");
+    }
+
+    protected override void OnAIHelpAdminMuteRequest(AIHelpAdminMuteRequestMessage message, EntitySessionEventArgs eventArgs)
+    {
+        var session = eventArgs.SenderSession;
+        if (!CanOversee(session))
+            return;
+
+        if (message.Muted)
+            _muted.Add(message.UserId);
+        else
+            _muted.Remove(message.UserId);
+
+        foreach (var entry in _log.Where(e => e.UserId == message.UserId))
+            entry.Muted = message.Muted;
+
+        _sawmill.Info($"[AIHelp] {session.Name}: {(message.Muted ? "закрыл" : "открыл")} доступ к ИИ игроку {message.UserId}.");
+        BroadcastAdminLog();
+    }
+
+    private bool CanOversee(ICommonSession session)
+        => _adminManager.GetAdminData(session)?.HasFlag(AdminFlags.Adminhelp) ?? false;
+
+    private AIHelpRequestLogEntry AddLogEntry(ICommonSession session, string text, AIHelpRequestStatus status)
+    {
+        var entry = new AIHelpRequestLogEntry
+        {
+            Id = _nextLogId++,
+            UserId = session.UserId,
+            PlayerName = session.Name,
+            Time = DateTime.Now.ToString("HH:mm:ss"),
+            Text = text,
+            Status = status,
+            Muted = _muted.Contains(session.UserId),
+        };
+
+        _log.Add(entry);
+        if (_log.Count > AdminLogLimit)
+            _log.RemoveAt(0);
+
+        return entry;
+    }
+
+    private AIHelpAdminLogMessage BuildAdminLogMessage()
+        => new()
+        {
+            Entries = new List<AIHelpRequestLogEntry>(_log),
+            Muted = _muted.ToList(),
+        };
+
+    private void BroadcastAdminLog()
+    {
+        var payload = BuildAdminLogMessage();
+        foreach (var session in _playerManager.Sessions)
+        {
+            if (!CanOversee(session))
+                continue;
+
+            RaiseNetworkEvent(payload, session.Channel);
+        }
+    }
+
+    private async Task RespondAsync(ICommonSession session, string userText, string apiKey, AIHelpRequestLogEntry entry)
     {
         var channel = session.Channel;
+
+        var timeout = _config.GetCVar(StarlightCCVars.AIHelpTimeoutSeconds);
+        using var cts = new CancellationTokenSource(TimeSpan.FromSeconds(Math.Max(1, timeout)));
+        _pendingRequests[entry.Id] = cts;
 
         var history = GetHistory(session.UserId);
         history.Add(new AIHelpChatMessage { Role = "user", Content = userText });
@@ -256,7 +385,6 @@ public sealed partial class AIHelpSystem : SharedAIHelpSystem
             var model = _config.GetCVar(StarlightCCVars.AIHelpModel);
             var maxTokens = _config.GetCVar(StarlightCCVars.AIHelpMaxTokens);
             var temperature = _config.GetCVar(StarlightCCVars.AIHelpTemperature);
-            var timeout = _config.GetCVar(StarlightCCVars.AIHelpTimeoutSeconds);
             var systemPrompt = _config.GetCVar(StarlightCCVars.AIHelpSystemPrompt);
 
             var messages = new List<AIHelpChatMessage>();
@@ -277,8 +405,6 @@ public sealed partial class AIHelpSystem : SharedAIHelpSystem
                 _sawmill.Debug($"[AIHelp] {session.Name}: system ({systemPrompt.Length} симв.): {Short(systemPrompt, 300)}");
             foreach (var m in messages)
                 _sawmill.Debug($"[AIHelp] {session.Name}: → {m.Role}: {Short(m.Content, 400)}");
-
-            using var cts = new CancellationTokenSource(TimeSpan.FromSeconds(timeout));
 
             var bearer = apiKey;
             if (IsGigaChat())
@@ -335,6 +461,7 @@ public sealed partial class AIHelpSystem : SharedAIHelpSystem
                     }
                     else
                     {
+                        entry.Tokens = parsed?.Usage?.TotalTokens ?? 0;
                         _sawmill.Info($"[AIHelp] {session.Name}: ответ модели {parsed?.Model ?? model}{FormatUsage(parsed?.Usage)}, {reply.Length} симв.: {Short(reply, 500)}");
                     }
                 }
@@ -343,8 +470,16 @@ public sealed partial class AIHelpSystem : SharedAIHelpSystem
         catch (OperationCanceledException)
         {
             isError = true;
-            reply = Loc.GetString("ai-help-timeout");
-            _sawmill.Warning($"[AIHelp] {session.Name}: таймаут через {watch.ElapsedMilliseconds} мс (aihelp.timeout_seconds).");
+            if (entry.Status == AIHelpRequestStatus.Cancelled)
+            {
+                reply = Loc.GetString("ai-help-admin-cancelled");
+                _sawmill.Info($"[AIHelp] {session.Name}: запрос #{entry.Id} прерван администратором через {watch.ElapsedMilliseconds} мс.");
+            }
+            else
+            {
+                reply = Loc.GetString("ai-help-timeout");
+                _sawmill.Warning($"[AIHelp] {session.Name}: таймаут через {watch.ElapsedMilliseconds} мс (aihelp.timeout_seconds).");
+            }
         }
         catch (Exception e)
         {
@@ -367,6 +502,12 @@ public sealed partial class AIHelpSystem : SharedAIHelpSystem
         }
 
         _sawmill.Info($"[AIHelp] {session.Name}: готово за {watch.ElapsedMilliseconds} мс — {(isError ? $"ОШИБКА: {Short(reply, 200)}" : $"ответ {reply.Length} симв.")}");
+
+        _pendingRequests.Remove(entry.Id);
+        if (entry.Status != AIHelpRequestStatus.Cancelled)
+            entry.Status = isError ? AIHelpRequestStatus.Failed : AIHelpRequestStatus.Answered;
+        entry.Reply = reply.Length > AdminLogReplyPreview ? reply[..AdminLogReplyPreview] : reply;
+        BroadcastAdminLog();
 
         RaiseNetworkEvent(new AIHelpResponseMessage
         {
