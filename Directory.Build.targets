@@ -26,7 +26,7 @@
       vulnerability GHSA-wmxv-xphr-5c9g, and NuGet fails restore on NU1902.
       No fixed 3.x exists (only 4.x with breaking API changes), so suppress until
       upstream bumps the pin. TODO: drop after engine update. -->
-    <NoWarn>$(NoWarn);NU1902</NoWarn>
+    <NoWarn>$(NoWarn);NU1902;NU1900</NoWarn>
   </PropertyGroup>
 
 </Project>
