@@ -62,6 +62,11 @@ public sealed partial class ViewportUIController : UIController
         Viewport.UpdateCfg();
     }
 
+    /// <summary>
+    ///     Calculates the viewport width (in tiles) so that the rendered world matches the aspect
+    ///     ratio of the game window when vertical fit is enabled. That way the world fills the whole
+    ///     screen instead of being letterboxed with black bars (for example on 16:9 monitors).
+    /// </summary>
     private int GetVerticalFitWidth(int min, int max)
     {
         var pixelSize = Viewport?.PixelSize ?? Vector2i.Zero;
@@ -70,8 +75,10 @@ public sealed partial class ViewportUIController : UIController
             return max;
         }
 
+        // Cap the view so that ultra-wide monitors do not get an absurd field of view.
         var aspect = Math.Clamp((float) pixelSize.X / pixelSize.Y, min / (float) ViewportHeight, 21f / 9f);
 
+        // Always round up so the world slightly overflows the window instead of leaving a gap.
         return Math.Max(max, (int) MathF.Ceiling(ViewportHeight * aspect));
     }
 
@@ -86,6 +93,7 @@ public sealed partial class ViewportUIController : UIController
         Viewport.Viewport.HorizontalExpand = true;
         Viewport.Viewport.VerticalExpand = true;
 
+        // Keep the viewport aspect ratio in sync with the window when it gets resized.
         Viewport.OnResized -= OnViewportResized;
         Viewport.OnResized += OnViewportResized;
 
