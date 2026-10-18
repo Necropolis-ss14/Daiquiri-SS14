@@ -150631,7 +150631,7 @@ entities:
       - type: Signature
         stampedName: PubliclyExecutedPig
         stampedColor: '#333333FF'
-        font: /Fonts/_Starlight/Signature.ttf
+        font: /Fonts/_Starlight/MarckScript-Regular.ttf
       content: pls dont steal
 - proto: PaperAcquisitionSlipService
   entities:
