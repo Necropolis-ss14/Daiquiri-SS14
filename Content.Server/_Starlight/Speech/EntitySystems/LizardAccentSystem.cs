@@ -1,11 +1,17 @@
 using System.Text.RegularExpressions;
 using Content.Server.Speech.Components;
 using Content.Shared.Speech;
+using Robust.Shared.Random;
 
 namespace Content.Server._Starlight.Speech.EntitySystems;
 
 public sealed partial class LizardAccentSystem : EntitySystem
 {
+    [Dependency] private IRobustRandom _random = default!;
+
+    [GeneratedRegex("[сСзЗшШчЧ]+")]
+    private static partial Regex RegexCyrillicHiss();
+
     [GeneratedRegex("s+")]
     private static partial Regex RegexLowerS();
 
@@ -39,5 +45,23 @@ public sealed partial class LizardAccentSystem : EntitySystem
         args.Message.Text = RegexLowerEndX().Replace(args.Message.Text, "ecks$1");
         // eckS
         args.Message.Text = RegexUpperEndX().Replace(args.Message.Text, "ECKS$1");
+
+        args.Message.Text = RegexCyrillicHiss().Replace(args.Message.Text, CyrillicHiss);
+    }
+
+    private string CyrillicHiss(Match match)
+    {
+        var letter = char.ToLowerInvariant(match.Value[0]);
+        var hiss = letter switch
+        {
+            'с' or 'з' => 'с',
+            'ш' => 'ш',
+            _ => 'щ',
+        };
+
+        if (char.IsUpper(match.Value[0]))
+            hiss = char.ToUpperInvariant(hiss);
+
+        return new string(hiss, _random.Next(2, 4));
     }
 }

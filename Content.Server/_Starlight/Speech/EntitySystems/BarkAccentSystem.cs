@@ -11,7 +11,7 @@ public sealed partial class BarkAccentSystem : EntitySystem
     [Dependency] private IRobustRandom _random = default!;
 
     private static readonly IReadOnlyList<string> _barks = new List<string>{
-        " Woof!", " WOOF", " wof-wof"
+        " Гав!", " ГАВ", " вуф-вуф"
     }.AsReadOnly();
 
     private static readonly IReadOnlyDictionary<string, string> _specialWords = new Dictionary<string, string>()
@@ -20,6 +20,10 @@ public sealed partial class BarkAccentSystem : EntitySystem
         { "Ah", "Arf" },
         { "oh", "oof" },
         { "Oh", "Oof" },
+        { "га", "гаф" },
+        { "Га", "Гаф" },
+        { "угу", "вуф" },
+        { "Угу", "Вуф" },
     };
 
     public override void Initialize()
@@ -38,9 +42,11 @@ public sealed partial class BarkAccentSystem : EntitySystem
 
         message.Text = message.Text.Replace("!", _random.Pick(_barks))
             .Replace("l", "r")
-            .Replace("L", "R");
+            .Replace("L", "R")
+            .Replace("л", "р")
+            .Replace("Л", "Р");
 
-        message.Tts = (message.Tts ?? message.Text).Replace("!", " Woof!");
+        message.Tts = (message.Tts ?? message.Text).Replace("!", " Гав!");
 
         return message;
     }

@@ -19,6 +19,12 @@ public sealed class OwOAccentSystem : EntitySystem
         { "now", "meow" },
         { "look", "lookee" },
         { "little", "lil" },
+        { "ты", "ти" },
+        { "привет", "мяу" },
+        { "еда", "нямка" },
+        { "пожалуйста", "позязя" },
+        { "люблю", "мур" },
+        { "милый", "няшный" },
     };
 
     public override void Initialize()
@@ -36,7 +42,9 @@ public sealed class OwOAccentSystem : EntitySystem
         }
         message.Text = message.Text
             .Replace("r", "w").Replace("R", "W")
-            .Replace("l", "w").Replace("L", "W");
+            .Replace("l", "w").Replace("L", "W")
+            .Replace("р", "в").Replace("Р", "В")
+            .Replace("л", "в").Replace("Л", "В");
 
         return message;
     }
