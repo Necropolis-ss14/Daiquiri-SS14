@@ -11,7 +11,7 @@
             <CheckBox Name="GlassCheckBox" Access="Public" Text="{Loc 'ui-options-glass-theme'}" />
             <BoxContainer Name="GlassOptions" Access="Public" Orientation="Vertical" SeparationOverride="8" Visible="False">
                 <CheckBox Name="TransparencyCheckBox" Access="Public" Text="{Loc 'ui-options-glass-transparency-enable'}" />
-                <ui:OptionSlider Name="TransparencySlider" Access="Public" Title="{Loc 'ui-options-glass-transparency'}" />
+                <sui:OptionSlider Name="TransparencySlider" Access="Public" Title="{Loc 'ui-options-glass-transparency'}" />
                 <CheckBox Name="AccentCheckBox" Access="Public" Text="{Loc 'ui-options-glass-accent'}" />
                 <ui:OptionColorSlider Name="AccentSlider" Access="Public" Title="{Loc 'ui-options-glass-accent-color'}" />
             </BoxContainer>
