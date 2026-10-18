@@ -26,6 +26,11 @@ public sealed partial class GrowlingAccentSystem : EntitySystem
         message = RegexR().Replace(message, _random.Pick(new List<string> { "RR", "RRR" })
 );
 
+        message = RegexCyrillicR().Replace(message, _random.Pick(new List<string> { "рр", "ррр" })
+);
+        message = RegexCyrillicUpperR().Replace(message, _random.Pick(new List<string> { "РР", "РРР" })
+);
+
         args.Message.Text = message;
     }
 
@@ -33,4 +38,8 @@ public sealed partial class GrowlingAccentSystem : EntitySystem
     private static partial Regex Regexr();
     [GeneratedRegex("R+")]
     private static partial Regex RegexR();
+    [GeneratedRegex("р+")]
+    private static partial Regex RegexCyrillicR();
+    [GeneratedRegex("Р+")]
+    private static partial Regex RegexCyrillicUpperR();
 }

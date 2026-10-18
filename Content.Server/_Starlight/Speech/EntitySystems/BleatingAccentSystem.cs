@@ -6,7 +6,7 @@ namespace Content.Server._Starlight.Speech.EntitySystems;
 
 public sealed partial class BleatingAccentSystem : EntitySystem
 {
-    [GeneratedRegex("([mbdlpwhrkcnytfo])([aiu])", RegexOptions.IgnoreCase)]
+    [GeneratedRegex("([mbdlpwhrkcnytfoбвгджзйклмнпрстфхцчшщ])([aiuаоуыэияюеё])", RegexOptions.IgnoreCase)]
     private static partial Regex BleatRegex();
 
     public override void Initialize()
