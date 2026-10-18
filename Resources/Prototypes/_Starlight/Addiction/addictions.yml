@@ -1,0 +1,201 @@
+# Зависимости персонажа.
+#
+# Коротко о полях:
+#   reagents  - реагенты, которые считаются дозой. Пока хотя бы один из них есть в крови,
+#               зависимость удовлетворена, а отсчёт ломки сбрасывается.
+#   cures     - реагенты, которые мгновенно снимают зависимость (например Антизавин).
+#   cureTime  - сколько можно продержаться без дозы, прежде чем зависимость пройдёт сама.
+#   threshold - сколько всего единиц реагентов нужно впитать, чтобы зависимость появилась сама.
+#               Считается накопительно по всему реагенты, который попал в организм, поэтому
+#               достаточно выкурить/выпить/принять дозу суммарно (даже если метаболизм тут же
+#               выводит реагент). 0 или меньше - выключено, тогда зависимость можно получить
+#               только из прототипов (черты персонажа, компоненты существ и т.п.).
+#   stages    - фазы ломки по возрастанию after (время с последней дозы). В активной фазе раз в
+#               interval персонажу приходит случайное сообщение из messages, поэтому поздние фазы
+#               и агрессивнее, и чаще. color - цвет сообщений этой фазы в чате. У фазы можно также
+#               задать emote (например Cough) и emoteInterval - тогда персонаж будет вынужден
+#               совершать эту эмоцию. Фаза может состоять из одной эмоции, без messages.
+#               slowdown - замедление персонажа в долях (0.1 = на 10% медленнее). Действует самая
+#               поздняя фаза с замедлением и снимается, как только персонаж примет дозу.
+
+- type: addiction
+  id: AlcoholAddiction
+  name: addiction-alcohol-name
+  reagents:
+  - Ethanol
+  cures:
+  - Antizavin
+  cureTime: 40m
+  threshold: 100
+  stages:
+  - after: 5m
+    interval: 120s
+    color: "#d0b16a"
+    messages:
+    - addiction-alcohol-1-1
+    - addiction-alcohol-1-2
+    - addiction-alcohol-1-3
+    - addiction-alcohol-1-4
+    - addiction-alcohol-1-5
+    - addiction-alcohol-1-6
+    - addiction-alcohol-1-7
+  - after: 15m
+    interval: 75s
+    color: "#d99b3a"
+    messages:
+    - addiction-alcohol-2-1
+    - addiction-alcohol-2-2
+    - addiction-alcohol-2-3
+    - addiction-alcohol-2-4
+    - addiction-alcohol-2-5
+    - addiction-alcohol-2-6
+    - addiction-alcohol-2-7
+  # Двадцать минут без дозы - персонаж двигается на 10% медленнее.
+  - after: 20m
+    slowdown: 0.1
+  - after: 25m
+    interval: 45s
+    color: "#cf6a35"
+    messages:
+    - addiction-alcohol-3-1
+    - addiction-alcohol-3-2
+    - addiction-alcohol-3-3
+    - addiction-alcohol-3-4
+    - addiction-alcohol-3-5
+    - addiction-alcohol-3-6
+    - addiction-alcohol-3-7
+  - after: 35m
+    interval: 25s
+    color: "#c02b2b"
+    messages:
+    - addiction-alcohol-4-1
+    - addiction-alcohol-4-2
+    - addiction-alcohol-4-3
+    - addiction-alcohol-4-4
+    - addiction-alcohol-4-5
+    - addiction-alcohol-4-6
+    - addiction-alcohol-4-7
+
+- type: addiction
+  id: NicotineAddiction
+  name: addiction-nicotine-name
+  reagents:
+  - Nicotine
+  cures:
+  - Antizavin
+  cureTime: 40m
+  # Сигарета отдаёт всего по 0.1 никотина за раз, поэтому порог намеренно низкий.
+  threshold: 10
+  stages:
+  - after: 5m
+    interval: 120s
+    color: "#a9b06a"
+    messages:
+    - addiction-nicotine-1-1
+    - addiction-nicotine-1-2
+    - addiction-nicotine-1-3
+    - addiction-nicotine-1-4
+    - addiction-nicotine-1-5
+    - addiction-nicotine-1-6
+    - addiction-nicotine-1-7
+  # Десять минут без сигареты - и персонаж начинает покашливать.
+  - after: 10m
+    emote: Cough
+    emoteInterval: 40s
+  - after: 15m
+    interval: 75s
+    color: "#9aa83a"
+    messages:
+    - addiction-nicotine-2-1
+    - addiction-nicotine-2-2
+    - addiction-nicotine-2-3
+    - addiction-nicotine-2-4
+    - addiction-nicotine-2-5
+    - addiction-nicotine-2-6
+    - addiction-nicotine-2-7
+  # Двадцать минут без дозы - персонаж двигается на 10% медленнее.
+  - after: 20m
+    slowdown: 0.1
+  - after: 25m
+    interval: 45s
+    color: "#b07a35"
+    messages:
+    - addiction-nicotine-3-1
+    - addiction-nicotine-3-2
+    - addiction-nicotine-3-3
+    - addiction-nicotine-3-4
+    - addiction-nicotine-3-5
+    - addiction-nicotine-3-6
+    - addiction-nicotine-3-7
+  - after: 35m
+    interval: 25s
+    color: "#c02b2b"
+    messages:
+    - addiction-nicotine-4-1
+    - addiction-nicotine-4-2
+    - addiction-nicotine-4-3
+    - addiction-nicotine-4-4
+    - addiction-nicotine-4-5
+    - addiction-nicotine-4-6
+    - addiction-nicotine-4-7
+
+- type: addiction
+  id: NarcoticsAddiction
+  name: addiction-narcotics-name
+  reagents:
+  - SpaceDrugs
+  - Desoxyephedrine
+  - THC
+  - Happiness
+  cures:
+  - Antizavin
+  cureTime: 40m
+  threshold: 100
+  stages:
+  - after: 5m
+    interval: 120s
+    color: "#b78ce0"
+    messages:
+    - addiction-narcotics-1-1
+    - addiction-narcotics-1-2
+    - addiction-narcotics-1-3
+    - addiction-narcotics-1-4
+    - addiction-narcotics-1-5
+    - addiction-narcotics-1-6
+    - addiction-narcotics-1-7
+  - after: 15m
+    interval: 75s
+    color: "#9a63d8"
+    messages:
+    - addiction-narcotics-2-1
+    - addiction-narcotics-2-2
+    - addiction-narcotics-2-3
+    - addiction-narcotics-2-4
+    - addiction-narcotics-2-5
+    - addiction-narcotics-2-6
+    - addiction-narcotics-2-7
+  # Двадцать минут без дозы - персонаж двигается на 10% медленнее.
+  - after: 20m
+    slowdown: 0.1
+  - after: 25m
+    interval: 45s
+    color: "#7d3fd0"
+    messages:
+    - addiction-narcotics-3-1
+    - addiction-narcotics-3-2
+    - addiction-narcotics-3-3
+    - addiction-narcotics-3-4
+    - addiction-narcotics-3-5
+    - addiction-narcotics-3-6
+    - addiction-narcotics-3-7
+  - after: 35m
+    interval: 25s
+    color: "#c02b2b"
+    messages:
+    - addiction-narcotics-4-1
+    - addiction-narcotics-4-2
+    - addiction-narcotics-4-3
+    - addiction-narcotics-4-4
+    - addiction-narcotics-4-5
+    - addiction-narcotics-4-6
+    - addiction-narcotics-4-7

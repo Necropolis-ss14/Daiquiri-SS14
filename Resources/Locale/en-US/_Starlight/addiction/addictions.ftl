@@ -1,0 +1,99 @@
+# Addiction names (used by the cure message)
+addiction-alcohol-name = alcohol addiction
+addiction-nicotine-name = nicotine addiction
+addiction-narcotics-name = narcotics addiction
+
+addiction-cured-message = The craving fades: { $addiction } no longer has a hold on you.
+addiction-gained-message = Your body has grown used to it: you have developed { $addiction }.
+
+# Withdrawal phases: 1 is the beginning, 4 is the worst. The texts are picked by the addiction prototypes.
+
+## Alcohol
+addiction-alcohol-1-1 = Your throat is dry. A drink would go down nicely right about now.
+addiction-alcohol-1-2 = Your thoughts keep drifting back to the bottle.
+addiction-alcohol-1-3 = A strange urge to drink something stronger.
+addiction-alcohol-1-4 = The taste of a drink comes back to you on its own.
+addiction-alcohol-1-5 = You catch yourself thinking that a glass would not hurt.
+addiction-alcohol-1-6 = Your hands keep drifting towards anything you could drink.
+addiction-alcohol-1-7 = Your throat is dry, and water is just not what you need right now.
+addiction-alcohol-2-1 = Your hands are visibly shaking. A drink would help.
+addiction-alcohol-2-2 = Maybe slip off to the bar? Just one shot.
+addiction-alcohol-2-3 = You catch yourself scanning the room for a bottle.
+addiction-alcohol-2-4 = It is hard to concentrate: there is only the thought of a drink in your head.
+addiction-alcohol-2-5 = Your fingers are trembling and you do not even notice looking for a bottle again.
+addiction-alcohol-2-6 = The argument with yourself about "one shot changes nothing" is already lost.
+addiction-alcohol-2-7 = Your stomach turns at the mere sight of a bottle in someone else's hands.
+addiction-alcohol-3-1 = YOU NEED A DRINK. Right now.
+addiction-alcohol-3-2 = You cannot think about anything but alcohol. Find a bottle.
+addiction-alcohol-3-3 = The shakes are getting worse. Only a drink will calm them.
+addiction-alcohol-3-4 = DRINK. IMMEDIATELY. EVERYTHING ELSE CAN WAIT.
+addiction-alcohol-3-5 = You would drink anything at all, as long as it burns your throat.
+addiction-alcohol-3-6 = Your hands are shaking so badly you can barely hold anything.
+addiction-alcohol-3-7 = Every minute without a drink feels like an hour.
+addiction-alcohol-4-1 = DRINK. DRINK. DRINK. NOW.
+addiction-alcohol-4-2 = You can barely think straight. Your throat burns and your whole body craves alcohol.
+addiction-alcohol-4-3 = Only one thought is left in your head: FIND THE BOTTLE.
+addiction-alcohol-4-4 = ALCOHOL. BOTTLE. FAST.
+addiction-alcohol-4-5 = You are shaking, your vision swims, and only one thought is left — a drink.
+addiction-alcohol-4-6 = IT FEELS LIKE YOU WILL NOT SURVIVE WITHOUT A DRINK. DRINK.
+addiction-alcohol-4-7 = Your whole body demands alcohol. You no longer remember why you resisted.
+
+## Nicotine
+addiction-nicotine-1-1 = You want a smoke. Just to hold a cigarette again.
+addiction-nicotine-1-2 = Your fingers keep reaching for a pack that is not there.
+addiction-nicotine-1-3 = Somewhere at the back of your mind there is a thought about a cigarette.
+addiction-nicotine-1-4 = The smell of smoke feels familiar and tempting.
+addiction-nicotine-1-5 = You notice that you are listening in on every conversation about a smoke break.
+addiction-nicotine-1-6 = It would be nice to step outside for some air. With a cigarette.
+addiction-nicotine-1-7 = It feels like something is missing from your pocket.
+addiction-nicotine-2-1 = A short while without a smoke and you are already on edge.
+addiction-nicotine-2-2 = You nervously look around for someone who is smoking.
+addiction-nicotine-2-3 = Your breathing is uneven. One long drag would fix that.
+addiction-nicotine-2-4 = Even the people you usually tolerate are getting on your nerves.
+addiction-nicotine-2-5 = You check your pockets for a pack without thinking.
+addiction-nicotine-2-6 = Your cough is getting drier and the thought of a cigarette more insistent.
+addiction-nicotine-2-7 = It is getting harder and harder to sit still without a smoke break.
+addiction-nicotine-3-1 = YOU NEED A CIGARETTE. Now.
+addiction-nicotine-3-2 = You cannot focus — there is nothing but smoke in your head.
+addiction-nicotine-3-3 = You are ready to beg for a cigarette from anyone who walks by.
+addiction-nicotine-3-4 = CIGARETTE. NOW. EVEN A STUB.
+addiction-nicotine-3-5 = Your fingers tremble and you barely listen to what people tell you.
+addiction-nicotine-3-6 = You would give anything for a single drag.
+addiction-nicotine-3-7 = Your chest tightens and every breath reminds you of the smoke you are missing.
+addiction-nicotine-4-1 = NICOTINE. RIGHT NOW.
+addiction-nicotine-4-2 = Your whole body is twisting. One drag and it would stop.
+addiction-nicotine-4-3 = You are losing control. YOU NEED SMOKE.
+addiction-nicotine-4-4 = YOU CANNOT BREATHE WITHOUT SMOKE. FIND A CIGARETTE.
+addiction-nicotine-4-5 = Your hands are shaking, your vision is darkening, and you are looking for even a single stub.
+addiction-nicotine-4-6 = Nothing matters. Only a drag. Only the smoke.
+addiction-nicotine-4-7 = You are ready to set anything on fire just to breathe in smoke.
+
+## Narcotics
+addiction-narcotics-1-1 = A strange urge to feel that high again.
+addiction-narcotics-1-2 = You keep remembering what it feels like to be high.
+addiction-narcotics-1-3 = Your thoughts keep returning to a dose.
+addiction-narcotics-1-4 = The world seems a little greyer without a dose.
+addiction-narcotics-1-5 = You keep catching yourself remembering the last high.
+addiction-narcotics-1-6 = Something inside keeps insisting: it would be good to do it again.
+addiction-narcotics-1-7 = You look for familiar sensations in ordinary things.
+addiction-narcotics-2-1 = The world looks dull. Without a dose nothing feels right.
+addiction-narcotics-2-2 = You cannot sit still and keep scratching yourself.
+addiction-narcotics-2-3 = You just want to shut reality out for a while.
+addiction-narcotics-2-4 = Everything around you is irritating and you cannot figure out why.
+addiction-narcotics-2-5 = You keep coming back to the thought of where to get more.
+addiction-narcotics-2-6 = Your hands are shaking and your mouth is constantly dry.
+addiction-narcotics-2-7 = It is getting harder to pretend that everything is fine.
+addiction-narcotics-3-1 = YOU NEED A DOSE. Right now.
+addiction-narcotics-3-2 = You would do anything to get some.
+addiction-narcotics-3-3 = Everything inside burns. You will not make it without a dose.
+addiction-narcotics-3-4 = A DOSE. NOW. ANY.
+addiction-narcotics-3-5 = You no longer remember why you quit in the first place.
+addiction-narcotics-3-6 = Your body is twisting so badly you can barely stand.
+addiction-narcotics-3-7 = You would give anything for a dose.
+addiction-narcotics-4-1 = DOSE. GIVE. DOSE. GIVE.
+addiction-narcotics-4-2 = You have almost lost yourself. Only the craving is left.
+addiction-narcotics-4-3 = FIND A DOSE. ANYTHING. NOW.
+addiction-narcotics-4-4 = DOSE. DOSE. DOSE. IMMEDIATELY.
+addiction-narcotics-4-5 = You are not a person anymore — just the craving looking for a dose.
+addiction-narcotics-4-6 = Your whole body is cramping. Anywhere. Any way. FIND IT.
+addiction-narcotics-4-7 = You will not stop until you get at least a little.

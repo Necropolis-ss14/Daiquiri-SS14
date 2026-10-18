@@ -26,3 +26,6 @@ reagent-name-respirazone = respirazone
 reagent-desc-respirazone = Used in the treatment of severe respiratory distress and blood loss. Unlike conventional oxygenation medicines, it is compatible with a wide variety of species.
 
 reagent-desc-polypyrylium-oligomers-sl = A purple mixture of short polyelectrolyte chains not easily synthesized in the laboratory. Heals airloss and brute damage. Stops bleeding over time.
+
+reagent-name-antizavin = antizavin
+reagent-desc-antizavin = A cloudy violet liquid that suppresses chemical dependency. A single dose completely removes any addiction.

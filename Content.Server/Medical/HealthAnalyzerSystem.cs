@@ -488,7 +488,11 @@ public sealed partial class HealthAnalyzerSystem : EntitySystem
             uiState.BloodLevel,
             damageable.GetTotal(),
             groupedInjuries,
-            reagents);
+            reagents,
+            // Starlight-edit: printable health reports include the same conditions as the window.
+            uiState.Extensions?.Abnormalities is { } abnormalities
+                ? new List<HealthAnalyzerAbnormalityData>(abnormalities)
+                : new List<HealthAnalyzerAbnormalityData>());
     }
 
     private HealthAnalyzerDamageGroupSnapshot? BuildDamageGroupSnapshot(
@@ -542,6 +546,27 @@ public sealed partial class HealthAnalyzerSystem : EntitySystem
         message.PushNewline();
         message.AddMarkupOrThrow(Loc.GetString("health-analyzer-report-summary-total-damage", ("damage", snapshot.TotalDamage)));
         message.PushNewline();
+        message.PushNewline();
+
+        // Starlight-edit: printable health reports list the conditions shown in the window,
+        // addictions among them.
+        message.AddMarkupOrThrow($"[head=2][bold]{Loc.GetString("health-analyzer-report-section-abnormalities")}[/bold][/head]");
+        message.PushNewline();
+
+        if (snapshot.Abnormalities.Count == 0)
+        {
+            message.AddMarkupOrThrow(Loc.GetString("health-analyzer-report-no-abnormalities"));
+            message.PushNewline();
+        }
+        else
+        {
+            foreach (var abnormality in snapshot.Abnormalities.OrderBy(a => a.Description))
+            {
+                message.AddMarkupOrThrow(HealthAnalyzerFormatting.WrapMarkupWithColor($"- {abnormality.Description}", abnormality.Color));
+                message.PushNewline();
+            }
+        }
+
         message.PushNewline();
 
         message.AddMarkupOrThrow($"[head=2][bold]{Loc.GetString("health-analyzer-report-section-injuries")}[/bold][/head]");
@@ -620,7 +645,8 @@ public sealed partial class HealthAnalyzerSystem : EntitySystem
         float BloodLevel,
         FixedPoint2 TotalDamage,
         List<HealthAnalyzerDamageGroupSnapshot> DamageGroups,
-        List<HealthAnalyzerReagentSnapshot> Reagents);
+        List<HealthAnalyzerReagentSnapshot> Reagents,
+        List<HealthAnalyzerAbnormalityData> Abnormalities);
 
     private sealed record HealthAnalyzerDamageGroupSnapshot(
         string Name,
