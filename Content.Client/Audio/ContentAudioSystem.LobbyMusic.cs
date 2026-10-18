@@ -394,10 +394,9 @@ public sealed partial class ContentAudioSystem
     public void ClearQueue()
     {
         EnsureQueueState();
-        var all = new List<string>(_localAddedTracks);
-        if (_lobbyPlaylist != null)
-            all.AddRange(_lobbyPlaylist);
+        var all = LocalPool().ToList();
         _localAddedTracks.Clear();
+        _localOrder = null;
         foreach (var track in all)
         {
             var containers = _proto.EnumeratePrototypes<LobbyPlaylistPrototype>()
@@ -437,10 +436,11 @@ public sealed partial class ContentAudioSystem
             SaveQueueState();
             return;
         }
-        var server = new HashSet<string>(_lobbyPlaylist);
+        var baseTracks = BasePoolTracks();
+        var server = new HashSet<string>(baseTracks);
         var order = _localOrder ?? new List<string>();
         var kept = order.Where(t => server.Contains(t) && !IsLocallyExcluded(t)).ToList();
-        kept.AddRange(_lobbyPlaylist.Where(t => !kept.Contains(t) && !IsLocallyExcluded(t)));
+        kept.AddRange(baseTracks.Where(t => !kept.Contains(t) && !IsLocallyExcluded(t)));
         _localOrder = kept;
         SaveQueueState();
     }
@@ -505,6 +505,30 @@ public sealed partial class ContentAudioSystem
     }
 
     /// <summary>
+    /// Server pool plus every track whose checkbox is on in at least one playlist.
+    /// </summary>
+    private List<string> BasePoolTracks()
+    {
+        var tracks = new List<string>();
+        if (_lobbyPlaylist is not { Length: > 0 })
+            return tracks;
+
+        tracks.AddRange(_lobbyPlaylist);
+        foreach (var playlist in _proto.EnumeratePrototypes<LobbyPlaylistPrototype>())
+        {
+            foreach (var track in playlist.Tracks)
+            {
+                var path = track.ToString();
+                if (tracks.Contains(path) || !IsTrackIncluded(playlist.ID, path))
+                    continue;
+
+                tracks.Add(path);
+            }
+        }
+        return tracks;
+    }
+
+    /// <summary>
     /// Server pool minus locally excluded tracks, in the persisted local order.
     /// A track plays while at least one playlist containing it still includes it.
     /// </summary>
@@ -513,7 +537,7 @@ public sealed partial class ContentAudioSystem
         EnsureQueueState();
         if (_lobbyPlaylist is not { Length: > 0 } && _localAddedTracks.Count == 0)
             return [];
-        var server = _lobbyPlaylist ?? [];
+        var server = BasePoolTracks();
         List<string> ordered;
         if (_localOrder != null)
         {
@@ -535,6 +559,11 @@ public sealed partial class ContentAudioSystem
             ordered = server.Where(t => !IsLocallyExcluded(t)).ToList();
         }
         // Daiquiri
+        foreach (var t in server)
+        {
+            if (!ordered.Contains(t) && !IsLocallyExcluded(t))
+                ordered.Add(t);
+        }
         foreach (var t in _localAddedTracks)
         {
             if (!ordered.Contains(t) && !IsLocallyExcluded(t))
