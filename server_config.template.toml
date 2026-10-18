@@ -1,0 +1,80 @@
+# Шаблон server_config.toml для боевого сервера LightLine.
+# Скопируй рядом с Content.Server.exe (папка с сервером) и правь под себя.
+# Секреты (aihelp.api_key) в репозиторий не коммить.
+
+[log]
+path = "logs"
+format = "log_%(date)s-%(time)s.txt"
+level = 1
+enabled = true
+
+[net]
+tickrate = 30
+port = 1212
+bindto = "::,0.0.0.0"
+max_connections = 256
+# upnp = true
+
+[status]
+enabled = true
+# bind = "*:1212"
+# connectaddress = "udp://localhost:1212"
+
+[game]
+hostname = "LightLine"
+
+[console]
+# Админ-права для подключений с этой же машины.
+loginlocal = true
+
+[hub]
+# true — сервер появится в публичном списке.
+advertise = false
+tags = ""
+server_url = ""
+hub_urls = "https://hub.spacestation14.com/"
+
+[auth]
+# 0 = не обязательна, 1 = обязательна, 2 = выключена.
+# mode = 1
+# allowlocal = true
+
+[aihelp]
+# Окно «Помощь ИИ» в интерфейсе помощи (рядом с Admin/Mentor Help).
+enabled = true
+auth_type = "bearer"
+api_url = "https://api.cloudflare.com/client/v4/accounts/ACCOUNT_ID/ai/v1/chat/completions"
+api_key = "CLOUDFLARE_API_TOKEN"
+model = "@cf/meta/llama-3.3-70b-instruct-fp8-fast"
+allow_invalid_cert = false
+max_tokens = 1024
+temperature = 0.7
+history_length = 10
+timeout_seconds = 30
+max_message_length = 500
+rate_limit_period = 5
+rate_limit_count = 5
+# ACCOUNT_ID — из панели Cloudflare, токен — с правом Workers AI.
+# Если api_url или model пустые, игроку уходит ai-help-not-configured.
+
+# Другие провайдеры (раскомментируй нужный блок вместо Cloudflare):
+#
+# GigaChat (нужен корневой CA Минцифры):
+# auth_type = "gigachat"
+# api_url = "https://api.giga.chat/v1/chat/completions"
+# api_key = "КЛЮЧ_АВТОРИЗАЦИИ"
+# model = "GigaChat-3-Ultra"
+# allow_invalid_cert = true
+# oauth_url = "https://ngw.devices.sberbank.ru:9443/api/v2/oauth"
+# oauth_scope = "GIGACHAT_API_PERS"
+#
+# Z.ai GLM:
+# auth_type = "bearer"
+# api_url = "https://api.z.ai/api/paas/v4/chat/completions"
+# api_key = "КЛЮЧ"
+# model = "glm-5.3"
+#
+# Ollama (локально, без интернета):
+# api_url = "http://127.0.0.1:11434/v1/chat/completions"
+# api_key = "ollama"
+# model = "qwen2.5:7b"
