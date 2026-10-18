@@ -16,4 +16,4 @@ self-backpack-category-spy-description =
     Включает: пистолет с глушителем, жучок-камеру,
     имплант-хранилище и проектор-хамелеон.
 
-self-toolbox-name = Припасы С.Е.Л.Ф.
+self-toolbox-name = Припасы Ф.О.К.

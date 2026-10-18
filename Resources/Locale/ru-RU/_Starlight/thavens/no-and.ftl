@@ -16,7 +16,7 @@ thaven-mood-disapprove-of-drugs-desc = Вы презираете изменяю�
 thaven-mood-excessively-disorganized-name = Чрезмерная чистота ведёт к болезням
 thaven-mood-excessively-disorganized-desc = Это неестественно. Вы должны держать окружение как можно более грязным и неорганизованным.
 
-thaven-mood-detest-silicons-name = Силиконовые ниже вас
+thaven-mood-detest-silicons-name = Киборги ниже вас
 thaven-mood-detest-silicons-desc = Говорить с ними унизительно, и этого следует избегать любой ценой.
 
 thaven-mood-dinner-floor-name = Этикет ужина

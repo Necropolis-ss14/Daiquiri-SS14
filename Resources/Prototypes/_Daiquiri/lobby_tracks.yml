@@ -118,11 +118,6 @@
   id: /Audio/_Daiquiri/Lobby/test_nox_lux.ogg
   title: NOX LUX
 
-
-- type: lobbyTrack
-  id: /Audio/_Daiquiri/Lobby/test_judos.ogg
-  title: Judos
-
 - type: lobbyTrack
   id: /Audio/_Daiquiri/Lobby/test_ifyouwerehere.ogg
   title: If You Were Here

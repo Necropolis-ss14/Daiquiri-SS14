@@ -70,5 +70,5 @@ highlights-medical-doctor = Врач, доктор, "док", медбей, ме
 highlights-medical-intern = Интерн, медбей, медицина, "мед"
 highlights-research-assistant = Научный ассистент, наука, "НИО", "РнД"
 highlights-service-worker = Сервисный работник, сервис, "серв"
-highlights-cyborg = Киборг, силикон, борг, робототехника, "робот"
-highlights-station-ai = Станционный ИИ, силикон, "ИИ"
+highlights-cyborg = Киборг, борг, робототехника, "робот"
+highlights-station-ai = Станционный ИИ, "ИИ"

@@ -57,7 +57,9 @@ namespace Content.Client.UserInterface.Controls
 
             if (stretch)
             {
-                var snapFactor = CalcSnappingFactor();
+                // Vertical fit already scales the viewport to fill the window, so snapping to an
+                // integer scale would only shrink the world back down and bring back black bars.
+                var snapFactor = verticalFit ? null : CalcSnappingFactor();
                 if (snapFactor == null)
                 {
                     // Did not find a snap, enable stretching.

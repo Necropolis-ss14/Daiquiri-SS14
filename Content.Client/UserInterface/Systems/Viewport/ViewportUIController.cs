@@ -1,3 +1,4 @@
+using System;
 using Content.Client.UserInterface.Controls;
 using Content.Client.UserInterface.Systems.Gameplay;
 using Content.Shared.CCVar;
@@ -50,7 +51,7 @@ public sealed partial class ViewportUIController : UIController
 
         if (verticalfit)
         {
-            width = max;
+            width = GetVerticalFitWidth(min, max);
         }
         else if (width < min || width > max)
         {
@@ -59,6 +60,26 @@ public sealed partial class ViewportUIController : UIController
 
         Viewport.Viewport.ViewportSize = (EyeManager.PixelsPerMeter * width, EyeManager.PixelsPerMeter * ViewportHeight);
         Viewport.UpdateCfg();
+    }
+
+    /// <summary>
+    ///     Calculates the viewport width (in tiles) so that the rendered world matches the aspect
+    ///     ratio of the game window when vertical fit is enabled. That way the world fills the whole
+    ///     screen instead of being letterboxed with black bars (for example on 16:9 monitors).
+    /// </summary>
+    private int GetVerticalFitWidth(int min, int max)
+    {
+        var pixelSize = Viewport?.PixelSize ?? Vector2i.Zero;
+        if (pixelSize.X <= 0 || pixelSize.Y <= 0)
+        {
+            return max;
+        }
+
+        // Cap the view so that ultra-wide monitors do not get an absurd field of view.
+        var aspect = Math.Clamp((float) pixelSize.X / pixelSize.Y, min / (float) ViewportHeight, 21f / 9f);
+
+        // Always round up so the world slightly overflows the window instead of leaving a gap.
+        return Math.Max(max, (int) MathF.Ceiling(ViewportHeight * aspect));
     }
 
     public void ReloadViewport()
@@ -71,7 +92,17 @@ public sealed partial class ViewportUIController : UIController
         UpdateViewportRatio();
         Viewport.Viewport.HorizontalExpand = true;
         Viewport.Viewport.VerticalExpand = true;
+
+        // Keep the viewport aspect ratio in sync with the window when it gets resized.
+        Viewport.OnResized -= OnViewportResized;
+        Viewport.OnResized += OnViewportResized;
+
         _eyeManager.MainViewport = Viewport.Viewport;
+    }
+
+    private void OnViewportResized()
+    {
+        UpdateViewportRatio();
     }
 
     public override void FrameUpdate(FrameEventArgs e)

@@ -1,5 +1,5 @@
-admin-verb-make-selfagent = Сделать цель агентом С.Е.Л.Ф.
-admin-verb-text-make-selfagent = Сделать агентом С.Е.Л.Ф.
+admin-verb-make-selfagent = Сделать цель агентом Ф.О.К.
+admin-verb-text-make-selfagent = Сделать агентом Ф.О.К.
 
 admin-verb-make-pirate-sl = Сделать цель настоящим пиратом Дайкири — выдаёт фракцию, роль антагониста, снаряжение и проигрывает пиратский брифинг.
 admin-verb-text-make-pirate-sl = Сделать пиратом (SL)

@@ -57,7 +57,6 @@
   weight: 6
   turnon: false
   tracks:
-    - /Audio/_Daiquiri/Lobby/test_judos.ogg
     - /Audio/_Daiquiri/Lobby/Pop/Elley_Duhe_-_Middle_of_the_Night.ogg
     - /Audio/_Daiquiri/Lobby/Pop/Katy_Perry_-_Hot_N_Cold.ogg
 
