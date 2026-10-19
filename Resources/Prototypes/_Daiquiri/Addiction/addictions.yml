@@ -144,7 +144,6 @@
   name: addiction-narcotics-name
   reagents:
   - SpaceDrugs
-  - Pax
   cures:
   - Antizavin
   cureTime: 40m
@@ -202,7 +201,6 @@
   id: StimulantsAddiction
   name: addiction-stimulants-name
   reagents:
-  - Impedrezene
   - Ephedrine
   - Desoxyephedrine
   cures:
@@ -237,6 +235,120 @@
   - after: 25m
     interval: 45s
     color: "#2fae83"
+    messages:
+    - addiction-narcotics-3-1
+    - addiction-narcotics-3-2
+    - addiction-narcotics-3-3
+    - addiction-narcotics-3-4
+    - addiction-narcotics-3-5
+    - addiction-narcotics-3-6
+    - addiction-narcotics-3-7
+  - after: 35m
+    interval: 25s
+    color: "#c02b2b"
+    messages:
+    - addiction-narcotics-4-1
+    - addiction-narcotics-4-2
+    - addiction-narcotics-4-3
+    - addiction-narcotics-4-4
+    - addiction-narcotics-4-5
+    - addiction-narcotics-4-6
+    - addiction-narcotics-4-7
+
+- type: addiction
+  id: PaxAddiction
+  name: addiction-pax-name
+  reagents:
+  - Pax
+  cures:
+  - Antizavin
+  cureTime: 40m
+  threshold: 100
+  stages:
+  - after: 5m
+    interval: 120s
+    color: "#8fb3e0"
+    messages:
+    - addiction-narcotics-1-1
+    - addiction-narcotics-1-2
+    - addiction-narcotics-1-3
+    - addiction-narcotics-1-4
+    - addiction-narcotics-1-5
+    - addiction-narcotics-1-6
+    - addiction-narcotics-1-7
+  - after: 15m
+    interval: 75s
+    color: "#6f9ad6"
+    messages:
+    - addiction-narcotics-2-1
+    - addiction-narcotics-2-2
+    - addiction-narcotics-2-3
+    - addiction-narcotics-2-4
+    - addiction-narcotics-2-5
+    - addiction-narcotics-2-6
+    - addiction-narcotics-2-7
+  - after: 20m
+    slowdown: 0.1
+  - after: 25m
+    interval: 45s
+    color: "#4f7fc9"
+    messages:
+    - addiction-narcotics-3-1
+    - addiction-narcotics-3-2
+    - addiction-narcotics-3-3
+    - addiction-narcotics-3-4
+    - addiction-narcotics-3-5
+    - addiction-narcotics-3-6
+    - addiction-narcotics-3-7
+  - after: 35m
+    interval: 25s
+    color: "#c02b2b"
+    messages:
+    - addiction-narcotics-4-1
+    - addiction-narcotics-4-2
+    - addiction-narcotics-4-3
+    - addiction-narcotics-4-4
+    - addiction-narcotics-4-5
+    - addiction-narcotics-4-6
+    - addiction-narcotics-4-7
+
+- type: addiction
+  id: ImpedrezeneAddiction
+  name: addiction-impedrezene-name
+  reagents:
+  - Impedrezene
+  cures:
+  - Antizavin
+  cureTime: 40m
+  threshold: 100
+  stages:
+  - after: 5m
+    interval: 120s
+    color: "#c9a0e0"
+    messages:
+    - addiction-narcotics-1-1
+    - addiction-narcotics-1-2
+    - addiction-narcotics-1-3
+    - addiction-narcotics-1-4
+    - addiction-narcotics-1-5
+    - addiction-narcotics-1-6
+    - addiction-narcotics-1-7
+  - after: 15m
+    interval: 75s
+    color: "#b57fd6"
+    messages:
+    - addiction-narcotics-2-1
+    - addiction-narcotics-2-2
+    - addiction-narcotics-2-3
+    - addiction-narcotics-2-4
+    - addiction-narcotics-2-5
+    - addiction-narcotics-2-6
+    - addiction-narcotics-2-7
+  - after: 20m
+    slowdown: 0.1
+  - after: 25m
+    interval: 45s
+    color: "#9f5fc9"
     messages:
     - addiction-narcotics-3-1
     - addiction-narcotics-3-2

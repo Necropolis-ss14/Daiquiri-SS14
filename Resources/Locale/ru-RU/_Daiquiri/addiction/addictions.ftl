@@ -3,6 +3,8 @@ addiction-alcohol-name = алкогольная зависимость
 addiction-nicotine-name = никотиновая зависимость
 addiction-narcotics-name = наркотическая зависимость
 addiction-stimulants-name = стимуляторная зависимость
+addiction-pax-name = зависимость от Пакса
+addiction-impedrezene-name = зависимость от Импедрезина
 
 addiction-cured-message = Тяга отпускает: { $addiction } больше не властна над вами.
 addiction-gained-message = Организм привыкает: у вас появилась { $addiction }.

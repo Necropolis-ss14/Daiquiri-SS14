@@ -3,6 +3,8 @@ addiction-alcohol-name = alcohol addiction
 addiction-nicotine-name = nicotine addiction
 addiction-narcotics-name = narcotics addiction
 addiction-stimulants-name = stimulant addiction
+addiction-pax-name = Pax addiction
+addiction-impedrezene-name = impedrezene addiction
 
 addiction-cured-message = The craving fades: { $addiction } no longer has a hold on you.
 addiction-gained-message = Your body has grown used to it: you have developed { $addiction }.
