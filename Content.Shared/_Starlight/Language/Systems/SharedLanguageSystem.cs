@@ -61,6 +61,9 @@ public abstract partial class SharedLanguageSystem : EntitySystem
 
     public void CallLanguagesUpdate(EntityUid uid)
     {
+        if (TerminatingOrDeleted(uid))
+            return;
+
         var comp = EnsureComp<LanguageSpeakerUpdateComponent>(uid);
         comp.TargetTick = _gameTiming.CurTick.Value + 1;
     }
