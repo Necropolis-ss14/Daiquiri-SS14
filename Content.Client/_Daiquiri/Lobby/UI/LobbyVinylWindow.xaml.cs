@@ -32,6 +32,7 @@ public sealed partial class LobbyVinylWindow : DefaultWindow
         IoCManager.InjectDependencies(this);
 
         VinylGrid.Columns = 4;
+        Resizable = false;
     }
 
     protected override void EnteredTree()

@@ -1,5 +1,5 @@
 lobby-vinyl-window-title = Records
-lobby-vinyl-window-hint = Pick a record for the lobby. Some are unlocked by playtime on the server, some by achievements.
+lobby-vinyl-window-hint = Pick a record for the lobby.
 ui-lobby-vinyl-button-tooltip = Records
 
 lobby-vinyl-classic = Classic

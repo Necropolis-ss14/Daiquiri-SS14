@@ -1,5 +1,5 @@
 lobby-vinyl-window-title = Пластинки
-lobby-vinyl-window-hint = Выбери пластинку для лобби. Часть открывается за наигранное на сервере время, часть — за ачивки.
+lobby-vinyl-window-hint = Выбери пластинку для лобби.
 ui-lobby-vinyl-button-tooltip = Пластинки
 
 lobby-vinyl-classic = Классика
