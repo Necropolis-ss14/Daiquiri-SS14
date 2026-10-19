@@ -26,7 +26,7 @@
   cures:
   - Antizavin
   cureTime: 40m
-  threshold: 100
+  threshold: 50
   stages:
   - after: 5m
     interval: 120s
