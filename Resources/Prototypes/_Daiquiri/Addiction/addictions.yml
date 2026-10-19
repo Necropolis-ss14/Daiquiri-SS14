@@ -269,48 +269,48 @@
     interval: 120s
     color: "#8fb3e0"
     messages:
-    - addiction-narcotics-1-1
-    - addiction-narcotics-1-2
-    - addiction-narcotics-1-3
-    - addiction-narcotics-1-4
-    - addiction-narcotics-1-5
-    - addiction-narcotics-1-6
-    - addiction-narcotics-1-7
+    - addiction-pax-1-1
+    - addiction-pax-1-2
+    - addiction-pax-1-3
+    - addiction-pax-1-4
+    - addiction-pax-1-5
+    - addiction-pax-1-6
+    - addiction-pax-1-7
   - after: 15m
     interval: 75s
     color: "#6f9ad6"
     messages:
-    - addiction-narcotics-2-1
-    - addiction-narcotics-2-2
-    - addiction-narcotics-2-3
-    - addiction-narcotics-2-4
-    - addiction-narcotics-2-5
-    - addiction-narcotics-2-6
-    - addiction-narcotics-2-7
+    - addiction-pax-2-1
+    - addiction-pax-2-2
+    - addiction-pax-2-3
+    - addiction-pax-2-4
+    - addiction-pax-2-5
+    - addiction-pax-2-6
+    - addiction-pax-2-7
   - after: 20m
     slowdown: 0.1
   - after: 25m
     interval: 45s
     color: "#4f7fc9"
     messages:
-    - addiction-narcotics-3-1
-    - addiction-narcotics-3-2
-    - addiction-narcotics-3-3
-    - addiction-narcotics-3-4
-    - addiction-narcotics-3-5
-    - addiction-narcotics-3-6
-    - addiction-narcotics-3-7
+    - addiction-pax-3-1
+    - addiction-pax-3-2
+    - addiction-pax-3-3
+    - addiction-pax-3-4
+    - addiction-pax-3-5
+    - addiction-pax-3-6
+    - addiction-pax-3-7
   - after: 35m
     interval: 25s
     color: "#c02b2b"
     messages:
-    - addiction-narcotics-4-1
-    - addiction-narcotics-4-2
-    - addiction-narcotics-4-3
-    - addiction-narcotics-4-4
-    - addiction-narcotics-4-5
-    - addiction-narcotics-4-6
-    - addiction-narcotics-4-7
+    - addiction-pax-4-1
+    - addiction-pax-4-2
+    - addiction-pax-4-3
+    - addiction-pax-4-4
+    - addiction-pax-4-5
+    - addiction-pax-4-6
+    - addiction-pax-4-7
 
 - type: addiction
   id: ImpedrezeneAddiction
@@ -326,45 +326,45 @@
     interval: 120s
     color: "#c9a0e0"
     messages:
-    - addiction-narcotics-1-1
-    - addiction-narcotics-1-2
-    - addiction-narcotics-1-3
-    - addiction-narcotics-1-4
-    - addiction-narcotics-1-5
-    - addiction-narcotics-1-6
-    - addiction-narcotics-1-7
+    - addiction-impedrezene-1-1
+    - addiction-impedrezene-1-2
+    - addiction-impedrezene-1-3
+    - addiction-impedrezene-1-4
+    - addiction-impedrezene-1-5
+    - addiction-impedrezene-1-6
+    - addiction-impedrezene-1-7
   - after: 15m
     interval: 75s
     color: "#b57fd6"
     messages:
-    - addiction-narcotics-2-1
-    - addiction-narcotics-2-2
-    - addiction-narcotics-2-3
-    - addiction-narcotics-2-4
-    - addiction-narcotics-2-5
-    - addiction-narcotics-2-6
-    - addiction-narcotics-2-7
+    - addiction-impedrezene-2-1
+    - addiction-impedrezene-2-2
+    - addiction-impedrezene-2-3
+    - addiction-impedrezene-2-4
+    - addiction-impedrezene-2-5
+    - addiction-impedrezene-2-6
+    - addiction-impedrezene-2-7
   - after: 20m
     slowdown: 0.1
   - after: 25m
     interval: 45s
     color: "#9f5fc9"
     messages:
-    - addiction-narcotics-3-1
-    - addiction-narcotics-3-2
-    - addiction-narcotics-3-3
-    - addiction-narcotics-3-4
-    - addiction-narcotics-3-5
-    - addiction-narcotics-3-6
-    - addiction-narcotics-3-7
+    - addiction-impedrezene-3-1
+    - addiction-impedrezene-3-2
+    - addiction-impedrezene-3-3
+    - addiction-impedrezene-3-4
+    - addiction-impedrezene-3-5
+    - addiction-impedrezene-3-6
+    - addiction-impedrezene-3-7
   - after: 35m
     interval: 25s
     color: "#c02b2b"
     messages:
-    - addiction-narcotics-4-1
-    - addiction-narcotics-4-2
-    - addiction-narcotics-4-3
-    - addiction-narcotics-4-4
-    - addiction-narcotics-4-5
-    - addiction-narcotics-4-6
-    - addiction-narcotics-4-7
+    - addiction-impedrezene-4-1
+    - addiction-impedrezene-4-2
+    - addiction-impedrezene-4-3
+    - addiction-impedrezene-4-4
+    - addiction-impedrezene-4-5
+    - addiction-impedrezene-4-6
+    - addiction-impedrezene-4-7
