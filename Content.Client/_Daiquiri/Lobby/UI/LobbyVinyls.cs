@@ -44,8 +44,14 @@ public static class LobbyVinyls
         return frames;
     }
 
-    public static bool IsUnlocked(LobbyVinylPrototype vinyl, IClientAchievementManager achievements, TimeSpan playtime)
+    public static bool IsUnlocked(LobbyVinylPrototype vinyl, IClientAchievementManager achievements, TimeSpan playtime, IClientVinylGrants grants)
     {
+        if (grants.IsGranted(vinyl.ID))
+            return true;
+
+        if (vinyl.GrantOnly)
+            return false;
+
         if (playtime < vinyl.RequiredPlaytime)
             return false;
 
@@ -57,6 +63,9 @@ public static class LobbyVinyls
 
     public static string? UnlockDescription(LobbyVinylPrototype vinyl, IPrototypeManager prototypes)
     {
+        if (vinyl.GrantOnly)
+            return Loc.GetString("lobby-vinyl-requires-grant");
+
         if (vinyl.RequiredAchievement is { } achievementId)
         {
             var achievement = prototypes.TryIndex(achievementId, out AchievementPrototype? achievementProto)

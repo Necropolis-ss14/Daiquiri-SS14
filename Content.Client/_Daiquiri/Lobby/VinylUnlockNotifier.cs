@@ -21,6 +21,7 @@ public sealed partial class VinylUnlockNotifier : EntitySystem
 {
     [Dependency] private IClientAchievementManager _achievements = default!;
     [Dependency] private JobRequirementsManager _playtime = default!;
+    [Dependency] private IClientVinylGrants _vinylGrants = default!;
     [Dependency] private IPrototypeManager _prototypes = default!;
     [Dependency] private IConfigurationManager _cfg = default!;
     [Dependency] private IUserInterfaceManager _ui = default!;
@@ -34,6 +35,7 @@ public sealed partial class VinylUnlockNotifier : EntitySystem
 
         _achievements.AchievementsUpdated += CheckUnlocks;
         _playtime.Updated += CheckUnlocks;
+        _vinylGrants.Updated += CheckUnlocks;
     }
 
     public override void Shutdown()
@@ -42,6 +44,7 @@ public sealed partial class VinylUnlockNotifier : EntitySystem
 
         _achievements.AchievementsUpdated -= CheckUnlocks;
         _playtime.Updated -= CheckUnlocks;
+        _vinylGrants.Updated -= CheckUnlocks;
     }
 
     private void CheckUnlocks()
@@ -59,10 +62,10 @@ public sealed partial class VinylUnlockNotifier : EntitySystem
 
         foreach (var vinyl in vinyls)
         {
-            if (vinyl.RequiredPlaytime <= TimeSpan.Zero && vinyl.RequiredAchievement == null)
+            if (vinyl.ID == LobbyVinyls.DefaultId)
                 continue;
 
-            if (announced.Contains(vinyl.ID) || !LobbyVinyls.IsUnlocked(vinyl, _achievements, playtime))
+            if (announced.Contains(vinyl.ID) || !LobbyVinyls.IsUnlocked(vinyl, _achievements, playtime, _vinylGrants))
                 continue;
 
             announced.Add(vinyl.ID);

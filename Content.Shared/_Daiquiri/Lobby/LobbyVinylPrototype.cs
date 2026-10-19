@@ -42,4 +42,11 @@ public sealed partial class LobbyVinylPrototype : IPrototype
     /// </summary>
     [DataField]
     public ProtoId<AchievementPrototype>? RequiredAchievement { get; private set; }
+
+    /// <summary>
+    /// Daiquiri
+    /// Record is only given out through the grantvinyl command.
+    /// </summary>
+    [DataField]
+    public bool GrantOnly { get; private set; }
 }

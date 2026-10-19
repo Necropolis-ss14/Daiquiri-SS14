@@ -88,6 +88,7 @@ namespace Content.Client.Entry
         [Dependency] private ISharedNullLinkPlayerRolesReqManager _sharedNullLinkPlayer = default!; //NullLink
         [Dependency] private PreWrittenDocumentManager _documentManager = default!; // Starlight
         [Dependency] private IClientAchievementManager _achievementManager = default!; // Starlight
+        [Dependency] private Content.Client._Daiquiri.Lobby.IClientVinylGrants _vinylGrants = default!; // Daiquiri
         [Dependency] private ClientFeedbackManager _feedbackManager = null!;
 
         public override void PreInit()
@@ -211,6 +212,7 @@ namespace Content.Client.Entry
             // NullLink end
 
             _achievementManager.Initialize(); // Starlight
+            _vinylGrants.Initialize(); // Daiquiri
 
             // Disable engine-default viewport since we use our own custom viewport control.
             _userInterfaceManager.MainViewport.Visible = false;

@@ -42,3 +42,9 @@
   name: lobby-vinyl-space
   sprite: /Textures/_Daiquiri/Interface/Vinyl/space
   requiredAchievement: theory_of_everything
+
+- type: lobbyVinyl
+  id: Bluespace
+  name: lobby-vinyl-bluespace
+  sprite: /Textures/_Daiquiri/Interface/Vinyl/bluespace
+  grantOnly: true

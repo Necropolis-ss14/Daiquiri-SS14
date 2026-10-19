@@ -25,6 +25,7 @@ public sealed partial class LobbyVinylWindow : DefaultWindow
     [Dependency] private IPrototypeManager _prototypes = default!;
     [Dependency] private IClientAchievementManager _achievements = default!;
     [Dependency] private JobRequirementsManager _playtime = default!;
+    [Dependency] private IClientVinylGrants _vinylGrants = default!;
 
     public LobbyVinylWindow()
     {
@@ -41,6 +42,7 @@ public sealed partial class LobbyVinylWindow : DefaultWindow
 
         _achievements.AchievementsUpdated += Rebuild;
         _playtime.Updated += Rebuild;
+        _vinylGrants.Updated += Rebuild;
         Rebuild();
     }
 
@@ -50,6 +52,7 @@ public sealed partial class LobbyVinylWindow : DefaultWindow
 
         _achievements.AchievementsUpdated -= Rebuild;
         _playtime.Updated -= Rebuild;
+        _vinylGrants.Updated -= Rebuild;
     }
 
     private void Rebuild()
@@ -69,13 +72,16 @@ public sealed partial class LobbyVinylWindow : DefaultWindow
 
         foreach (var vinyl in vinyls)
         {
-            var unlocked = LobbyVinyls.IsUnlocked(vinyl, _achievements, playtime);
+            var unlocked = LobbyVinyls.IsUnlocked(vinyl, _achievements, playtime, _vinylGrants);
             VinylGrid.AddChild(BuildCard(vinyl, unlocked, selected == vinyl.ID));
         }
     }
 
     private static int UnlockRank(LobbyVinylPrototype vinyl)
     {
+        if (vinyl.GrantOnly)
+            return 3;
+
         if (vinyl.RequiredAchievement != null)
             return 2;
 

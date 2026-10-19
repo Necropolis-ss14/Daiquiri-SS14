@@ -125,6 +125,7 @@ internal static class ServerContentIoC
         deps.Register<Content.Shared._Starlight.Playtime.IServerPlaytimeManager, Content.Server._Daiquiri.Playtime.ServerPlaytimeManager>();
         deps.Register<Content.Shared._Starlight.Admin.IServerAdminManager, Content.Server._Daiquiri.Admin.ServerAdminManager>();
         deps.Register<Content.Shared._Starlight.GhostTheme.IGhostThemeGrantManager, Content.Server._Daiquiri.GhostTheme.GhostThemeGrantManager>();        deps.Register<INullLinkEventBusManager, NullLinkEventBusManager>();
+        deps.Register<Content.Server._Daiquiri.Lobby.IVinylGrants, Content.Server._Daiquiri.Lobby.VinylGrantManager>(); // Daiquiri
         deps.Register<ISharedNullLinkPlayerRolesReqManager, PlayerRolesReqManager>();
         deps.Register<ISharedNullLinkPlayerResourcesManager, NullLinkPlayerResourcesManager>();
 
