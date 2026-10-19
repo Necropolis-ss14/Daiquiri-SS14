@@ -110,4 +110,7 @@ public sealed class DaiquiriCCVars
     /// </summary>
     public static readonly CVarDef<string> LobbyVinyl =
         CVarDef.Create("lobby.vinyl", "Classic", CVar.CLIENTONLY | CVar.ARCHIVE);
+
+    public static readonly CVarDef<string> LobbyVinylAnnounced =
+        CVarDef.Create("lobby.vinyl_announced", "", CVar.CLIENTONLY | CVar.ARCHIVE);
 }

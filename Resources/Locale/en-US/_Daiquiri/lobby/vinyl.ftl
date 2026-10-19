@@ -16,3 +16,5 @@ lobby-vinyl-status-locked = Locked
 
 lobby-vinyl-requires-playtime = Requires { $hours } h of playtime
 lobby-vinyl-requires-achievement = Requires the "{ $achievement }" achievement
+
+lobby-vinyl-unlocked-chat = New record unlocked: "{ $vinyl }"

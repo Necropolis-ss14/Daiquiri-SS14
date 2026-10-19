@@ -16,3 +16,5 @@ lobby-vinyl-status-locked = Закрыта
 
 lobby-vinyl-requires-playtime = Нужно { $hours } ч наигранного времени
 lobby-vinyl-requires-achievement = Нужна ачивка «{ $achievement }»
+
+lobby-vinyl-unlocked-chat = Открыта новая пластинка «{ $vinyl }»
