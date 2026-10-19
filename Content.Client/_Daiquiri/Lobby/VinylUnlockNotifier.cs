@@ -8,7 +8,10 @@ using Content.Shared._Daiquiri.CCVar;
 using Content.Shared._Daiquiri.Lobby;
 using Content.Shared.Chat;
 using Robust.Client.UserInterface;
+using Robust.Shared.Audio;
+using Robust.Shared.Audio.Systems;
 using Robust.Shared.Configuration;
+using Robust.Shared.Player;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Utility;
 
@@ -21,6 +24,9 @@ public sealed partial class VinylUnlockNotifier : EntitySystem
     [Dependency] private IPrototypeManager _prototypes = default!;
     [Dependency] private IConfigurationManager _cfg = default!;
     [Dependency] private IUserInterfaceManager _ui = default!;
+    [Dependency] private SharedAudioSystem _audio = default!;
+
+    private static readonly SoundPathSpecifier _unlockSound = new("/Audio/_Daiquiri/Lobby/vinyl_unlock.ogg");
 
     public override void Initialize()
     {
@@ -65,7 +71,10 @@ public sealed partial class VinylUnlockNotifier : EntitySystem
         }
 
         if (changed)
+        {
             _cfg.SetCVar(DaiquiriCCVars.LobbyVinylAnnounced, string.Join(',', announced));
+            _audio.PlayGlobal(_unlockSound, Filter.Local(), false, AudioParams.Default.WithVolume(-2f));
+        }
     }
 
     private void Announce(LobbyVinylPrototype vinyl)
