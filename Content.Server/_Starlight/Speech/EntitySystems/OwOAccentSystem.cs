@@ -1,3 +1,5 @@
+using System.Linq;
+using System.Text.RegularExpressions;
 using Content.Server.Speech.Components;
 using Content.Shared._Starlight.Speech;
 using Content.Shared.Speech;
@@ -27,6 +29,11 @@ public sealed class OwOAccentSystem : EntitySystem
         { "милый", "няшный" },
     };
 
+    private static readonly (Regex Regex, string Replacement)[] _specialWordRegexes =
+        _specialWords
+            .Select(kv => (new Regex(Regex.Escape(kv.Key), RegexOptions.IgnoreCase), kv.Value))
+            .ToArray();
+
     public override void Initialize()
     {
         SubscribeLocalEvent<OwOAccentComponent, AccentGetEvent>(OnAccent);
@@ -35,10 +42,10 @@ public sealed class OwOAccentSystem : EntitySystem
 
     public SpeechMessage Accentuate(SpeechMessage message)
     {
-        foreach (var (word, repl) in _specialWords)
+        foreach (var (regex, repl) in _specialWordRegexes)
         {
-            message.Text = message.Text.Replace(word, repl);
-            message.Tts = (message.Tts ?? message.Text).Replace(word, repl);
+            message.Text = regex.Replace(message.Text, m => PreserveCase(m.Value, repl));
+            message.Tts = regex.Replace(message.Tts ?? message.Text, m => PreserveCase(m.Value, repl));
         }
         message.Text = message.Text
             .Replace("r", "w").Replace("R", "W")
@@ -47,6 +54,17 @@ public sealed class OwOAccentSystem : EntitySystem
             .Replace("л", "в").Replace("Л", "В");
 
         return message;
+    }
+
+    private static string PreserveCase(string matched, string replacement)
+    {
+        if (!matched.Any(char.IsLower) && (matched.Length > 1 || replacement.Length == 1))
+            return replacement.ToUpperInvariant();
+
+        if (char.IsUpper(matched[0]))
+            return char.ToUpperInvariant(replacement[0]) + replacement[1..];
+
+        return replacement;
     }
 
     private void OnAccent(Entity<OwOAccentComponent> entity, ref AccentGetEvent args)
