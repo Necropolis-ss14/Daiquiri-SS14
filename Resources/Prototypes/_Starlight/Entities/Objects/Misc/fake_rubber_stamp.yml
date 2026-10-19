@@ -32,7 +32,7 @@
   categories: [ DoNotMap ]
   components:
     - type: Stamp
-      stampedName: "Captian"
+      stampedName: stamp-component-stamped-name-rubber-stamp-fake-captian
       stampedColor: "#3681bb"
       stampState: "paper_stamp-cap"
     - type: Sprite
@@ -43,14 +43,14 @@
   id: RubberStampCaptainFake1
   components:
     - type: Stamp
-      stampedName: "Captan"
+      stampedName: stamp-component-stamped-name-rubber-stamp-fake-captan
 
 - type: entity
   parent: RubberStampCaptainFake
   id: RubberStampCaptainFake2
   components:
     - type: Stamp
-      stampedName: "Captin"
+      stampedName: stamp-component-stamped-name-rubber-stamp-fake-captin
 
 - type: entity
   name: шуточная печать капитана
@@ -59,7 +59,7 @@
   description: Забавная резиновая печать для подделки важных документов. Будем надеяться, присматриваться не станут.
   components:
     - type: Stamp
-      stampedName: "Clown"
+      stampedName: stamp-component-stamped-name-rubber-stamp-fake-clown
 
 - type: entity
   name: поддельная печать священника
@@ -69,7 +69,7 @@
   categories: [ DoNotMap ]
   components:
     - type: Stamp
-      stampedName: "Chaqlain"
+      stampedName: stamp-component-stamped-name-rubber-stamp-fake-chaqlain
       stampedColor: "#d70601"
       stampState: "paper_stamp-chaplain"
     - type: Sprite
@@ -80,14 +80,14 @@
   id: RubberStampChaplainFake1
   components:
     - type: Stamp
-      stampedName: "Captain"
+      stampedName: stamp-component-stamped-name-rubber-stamp-fake-captain
 
 - type: entity
   parent: RubberStampChaplainFake
   id: RubberStampChaplainFake2
   components:
     - type: Stamp
-      stampedName: "Chaplan"
+      stampedName: stamp-component-stamped-name-rubber-stamp-fake-chaplan
 
 - type: entity
   name: шуточная печать священника
@@ -96,7 +96,7 @@
   description: Забавная резиновая печать для подделки важных документов. Будем надеяться, присматриваться не станут.
   components:
     - type: Stamp
-      stampedName: "Cultist"
+      stampedName: stamp-component-stamped-name-rubber-stamp-fake-cultist
 
 - type: entity
   name: поддельная печать адвоката
@@ -106,7 +106,7 @@
   categories: [ DoNotMap ]
   components:
     - type: Stamp
-      stampedName: "Lawer"
+      stampedName: stamp-component-stamped-name-rubber-stamp-fake-lawer
       stampedColor: "#496130"
       stampState: "paper_stamp-lawyer-sl"
     - type: Sprite
@@ -119,14 +119,14 @@
   id: RubberStampLawyerFake1
   components:
     - type: Stamp
-      stampedName: "Lawier"
+      stampedName: stamp-component-stamped-name-rubber-stamp-fake-lawier
 
 - type: entity
   parent: RubberStampLawyerFake
   id: RubberStampLawyerFake2
   components:
     - type: Stamp
-      stampedName: "Lawyr"
+      stampedName: stamp-component-stamped-name-rubber-stamp-fake-lawyr
 
 - type: entity
   name: шуточная печать адвоката
@@ -135,7 +135,7 @@
   description: Забавная резиновая печать для подделки важных документов. Будем надеяться, присматриваться не станут.
   components:
     - type: Stamp
-      stampedName: "Goodman"
+      stampedName: stamp-component-stamped-name-rubber-stamp-fake-goodman
 
 - type: entity
   name: поддельная печать клоуна
@@ -145,7 +145,7 @@
   categories: [ DoNotMap ]
   components:
     - type: Stamp
-      stampedName: "Cloun"
+      stampedName: stamp-component-stamped-name-rubber-stamp-fake-cloun
       stampedColor: "#ff33cc"
       stampState: "paper_stamp-clown"
     - type: Sprite
@@ -156,14 +156,14 @@
   id: RubberStampClownFake1
   components:
     - type: Stamp
-      stampedName: "Klown"
+      stampedName: stamp-component-stamped-name-rubber-stamp-fake-klown
 
 - type: entity
   parent: RubberStampClownFake
   id: RubberStampClownFake2
   components:
     - type: Stamp
-      stampedName: "Clawn"
+      stampedName: stamp-component-stamped-name-rubber-stamp-fake-clawn
 
 - type: entity
   name: шуточная печать клоуна
@@ -172,7 +172,7 @@
   description: Особо смешная резиновая печать для подделки важных документов.
   components:
     - type: Stamp
-      stampedName: "Captain"
+      stampedName: stamp-component-stamped-name-rubber-stamp-fake-captain
 
 - type: entity
   name: поддельная печать главного инженера
@@ -182,7 +182,7 @@
   categories: [ DoNotMap ]
   components:
     - type: Stamp
-      stampedName: "Chief Engimeer"
+      stampedName: stamp-component-stamped-name-rubber-stamp-fake-chief-engimeer
       stampedColor: "#c69b17"
       stampState: "paper_stamp-ce"
     - type: Sprite
@@ -193,14 +193,14 @@
   id: RubberStampCEFake1
   components:
     - type: Stamp
-      stampedName: "Chef Engineer"
+      stampedName: stamp-component-stamped-name-rubber-stamp-fake-chef-engineer
 
 - type: entity
   parent: RubberStampCEFake
   id: RubberStampCEFake2
   components:
     - type: Stamp
-      stampedName: "Cheif Engineer"
+      stampedName: stamp-component-stamped-name-rubber-stamp-fake-cheif-engineer
 
 - type: entity
   name: шуточная печать главного инженера
@@ -209,7 +209,7 @@
   description: Забавная резиновая печать для подделки важных документов.
   components:
     - type: Stamp
-      stampedName: "Chief Looser"
+      stampedName: stamp-component-stamped-name-rubber-stamp-fake-chief-looser
 
 - type: entity
   name: поддельная печать главного врача
@@ -219,7 +219,7 @@
   categories: [ DoNotMap ]
   components:
     - type: Stamp
-      stampedName: "Chiet Medical Officer"
+      stampedName: stamp-component-stamped-name-rubber-stamp-fake-chiet-medical-officer
       stampedColor: "#33ccff"
       stampState: "paper_stamp-cmo"
     - type: Sprite
@@ -230,14 +230,14 @@
   id: RubberStampCMOFake1
   components:
     - type: Stamp
-      stampedName: "Chief Medicol Officer"
+      stampedName: stamp-component-stamped-name-rubber-stamp-fake-chief-medicol-officer
 
 - type: entity
   parent: RubberStampCMOFake
   id: RubberStampCMOFake2
   components:
     - type: Stamp
-      stampedName: "Chief Medical Oficer"
+      stampedName: stamp-component-stamped-name-rubber-stamp-fake-chief-medical-oficer
 
 - type: entity
   name: шуточная печать главного врача
@@ -246,7 +246,7 @@
   description: Забавная резиновая печать для подделки важных документов.
   components:
     - type: Stamp
-      stampedName: "Chief Drug Dealer"
+      stampedName: stamp-component-stamped-name-rubber-stamp-fake-chief-drug-dealer
 
 - type: entity
   name: поддельная печать главы персонала
@@ -256,7 +256,7 @@
   categories: [ DoNotMap ]
   components:
     - type: Stamp
-      stampedName: "Head of Persons"
+      stampedName: stamp-component-stamped-name-rubber-stamp-fake-head-of-persons
       stampedColor: "#6ec0ea"
       stampState: "paper_stamp-hop"
     - type: Sprite
@@ -267,14 +267,14 @@
   id: RubberStampHopFake1
   components:
     - type: Stamp
-      stampedName: "Hed of Personnel"
+      stampedName: stamp-component-stamped-name-rubber-stamp-fake-hed-of-personnel
 
 - type: entity
   parent: RubberStampHopFake
   id: RubberStampHopFake2
   components:
     - type: Stamp
-      stampedName: "Head of Persommel"
+      stampedName: stamp-component-stamped-name-rubber-stamp-fake-head-of-persommel
 
 - type: entity
   name: шуточная печать главы персонала
@@ -283,7 +283,7 @@
   description: Забавная резиновая печать для подделки важных документов.
   components:
     - type: Stamp
-      stampedName: "Head of Tiders"
+      stampedName: stamp-component-stamped-name-rubber-stamp-fake-head-of-tiders
 
 - type: entity
   name: поддельная печать главы СБ
@@ -293,7 +293,7 @@
   categories: [ DoNotMap ]
   components:
     - type: Stamp
-      stampedName: "Head of Shecurity"
+      stampedName: stamp-component-stamped-name-rubber-stamp-fake-head-of-shecurity
       stampedColor: "#cc0000"
       stampState: "paper_stamp-hos"
     - type: Sprite
@@ -304,14 +304,14 @@
   id: RubberStampHosFake1
   components:
     - type: Stamp
-      stampedName: "Head of Securuty"
+      stampedName: stamp-component-stamped-name-rubber-stamp-fake-head-of-securuty
 
 - type: entity
   parent: RubberStampHosFake
   id: RubberStampHosFake2
   components:
     - type: Stamp
-      stampedName: "Head ot Security"
+      stampedName: stamp-component-stamped-name-rubber-stamp-fake-head-ot-security
 
 - type: entity
   name: шуточная печать главы СБ
@@ -320,7 +320,7 @@
   description: Забавная резиновая печать для подделки важных документов.
   components:
     - type: Stamp
-      stampedName: "Head of Shitcurity"
+      stampedName: stamp-component-stamped-name-rubber-stamp-fake-head-of-shitcurity
 
 #Mime is hard to come up with stuff for.
 - type: entity
@@ -331,7 +331,7 @@
   categories: [ DoNotMap ]
   components:
     - type: Stamp
-      stampedName: "Mine"
+      stampedName: stamp-component-stamped-name-rubber-stamp-fake-mine
       stampedColor: "#777777"
       stampState: "paper_stamp-mime"
     - type: Sprite
@@ -345,7 +345,7 @@
   categories: [ DoNotMap ]
   components:
     - type: Stamp
-      stampedName: "Quatermaster"
+      stampedName: stamp-component-stamped-name-rubber-stamp-fake-quatermaster
       stampedColor: "#a23e3e"
       stampState: "paper_stamp-qm"
     - type: Sprite
@@ -356,14 +356,14 @@
   id: RubberStampQmFake1
   components:
     - type: Stamp
-      stampedName: "Quartermister"
+      stampedName: stamp-component-stamped-name-rubber-stamp-fake-quartermister
 
 - type: entity
   parent: RubberStampQmFake
   id: RubberStampQmFake2
   components:
     - type: Stamp
-      stampedName: "Quirtermaster"
+      stampedName: stamp-component-stamped-name-rubber-stamp-fake-quirtermaster
 
 - type: entity
   name: шуточная печать квартирмейстера
@@ -372,7 +372,7 @@
   description: Забавная резиновая печать для подделки важных документов.
   components:
     - type: Stamp
-      stampedName: "Spesos Slave"
+      stampedName: stamp-component-stamped-name-rubber-stamp-fake-spesos-slave
 
 - type: entity
   name: поддельная печать научного руководителя
@@ -382,7 +382,7 @@
   categories: [ DoNotMap ]
   components:
     - type: Stamp
-      stampedName: "Rasaerch Director"
+      stampedName: stamp-component-stamped-name-rubber-stamp-fake-rasaerch-director
       stampedColor: "#1f66a0"
       stampState: "paper_stamp-rd"
     - type: Sprite
@@ -393,14 +393,14 @@
   id: RubberStampRdFake1
   components:
     - type: Stamp
-      stampedName: "Rerseach Director"
+      stampedName: stamp-component-stamped-name-rubber-stamp-fake-rerseach-director
 
 - type: entity
   parent: RubberStampRdFake
   id: RubberStampRdFake2
   components:
     - type: Stamp
-      stampedName: "Research Direcfor"
+      stampedName: stamp-component-stamped-name-rubber-stamp-fake-research-direcfor
 
 - type: entity
   name: шуточная печать научного руководителя
@@ -409,7 +409,7 @@
   description: Забавная резиновая печать для подделки важных документов.
   components:
     - type: Stamp
-      stampedName: "Mats Gobbler"
+      stampedName: stamp-component-stamped-name-rubber-stamp-fake-mats-gobbler
 
 #Lost steam around here. Need to come back to it to finish it. 8/31/2026
 - type: entity
@@ -419,7 +419,7 @@
   description: Резиновая печать для подделки важных документов. Будем надеяться, присматриваться не станут.
   components:
     - type: Stamp
-      stampedName: "Traitor"
+      stampedName: stamp-component-stamped-name-rubber-stamp-fake-traitor
       stampedColor: "#000000"
       stampState: "paper_stamp-trader"
     - type: Sprite
@@ -433,7 +433,7 @@
   categories: [ DoNotMap ]
   components:
     - type: Stamp
-      stampedName: "Warben"
+      stampedName: stamp-component-stamped-name-rubber-stamp-fake-warben
       stampedColor: "#5b0000"
       stampState: "paper_stamp-warden"
     - type: Sprite
@@ -473,7 +473,7 @@
   categories: [ DoNotMap ]
   components:
     - type: Stamp
-      stampedName: "Defective"
+      stampedName: stamp-component-stamped-name-rubber-stamp-fake-defective
       stampedColor: "#754d36"
       stampState: "paper_stamp-detective"
     - type: Sprite
@@ -487,7 +487,7 @@
   description: Резиновая печать для подделки важных документов. Будем надеяться, присматриваться не станут.
   components:
     - type: Stamp
-      stampedName: "Pschologist"
+      stampedName: stamp-component-stamped-name-rubber-stamp-fake-pschologist
       stampedColor: "#5B97BC"
       stampState: "paper_stamp-psychologist"
     - type: Sprite
@@ -501,7 +501,7 @@
   suffix: DO NOT MAP
   components:
     - type: Stamp
-      stampedName: "Magisrate"
+      stampedName: stamp-component-stamped-name-rubber-stamp-fake-magisrate
       stampedColor: "#FF5297"
       stampState: "paper_stamp-magistrate"
     - type: Sprite
@@ -516,7 +516,7 @@
   suffix: DO NOT MAP
   components:
     - type: Stamp
-      stampedName: "NamoTrasem Representative"
+      stampedName: stamp-component-stamped-name-rubber-stamp-fake-namotrasem-representative
       stampedColor: "#fcc032"
       stampState: "paper_stamp-ntrep"
     - type: Sprite
@@ -531,7 +531,7 @@
   suffix: DO NOT MAP
   components:
     - type: Stamp
-      stampedName: "Internal Attairs Agent"
+      stampedName: stamp-component-stamped-name-rubber-stamp-fake-internal-attairs-agent
       stampedColor: "#33CC33"
       stampState: "paper_stamp-ok"
     - type: Sprite
@@ -546,7 +546,7 @@
   suffix: DO NOT MAP
   components:
     - type: Stamp
-      stampedName: "Blushield Oficer"
+      stampedName: stamp-component-stamped-name-rubber-stamp-fake-blushield-oficer
       stampedColor: "#004281"
       stampState: "paper_stamp-bso"
     - type: Sprite
@@ -560,7 +560,7 @@
   description: Забавная резиновая печать для подделки важных документов.
   components:
     - type: Stamp
-      stampedName: "Blushit Officer"
+      stampedName: stamp-component-stamped-name-rubber-stamp-fake-blushit-officer
 
 
 - type: entity
@@ -571,7 +571,7 @@
   suffix: DO NOT MAP
   components:
     - type: Stamp
-      stampedName: "Brigdemedic"
+      stampedName: stamp-component-stamped-name-rubber-stamp-fake-brigdemedic
       stampedColor: "#ae2e33"
       stampState: "paper_stamp-brigmedic"
     - type: Sprite
@@ -586,7 +586,7 @@
   suffix: DO NOT MAP
   components:
     - type: Stamp
-      stampedName: "Salvige Lead"
+      stampedName: stamp-component-stamped-name-rubber-stamp-fake-salvige-lead
       stampedColor: "#846433"
       stampState: "paper_stamp-salvagelead"
     - type: Sprite
@@ -600,7 +600,7 @@
   description: Резиновая печать для подделки важных документов. Будем надеяться, присматриваться не станут.
   components:
     - type: Stamp
-      stampedName: "Reporfer"
+      stampedName: stamp-component-stamped-name-rubber-stamp-fake-reporfer
       stampedColor: "#4B75FF"
       stampState: "paper_stamp-psychologist"
     - type: Sprite

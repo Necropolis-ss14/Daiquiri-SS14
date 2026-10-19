@@ -54,7 +54,7 @@
       stampState: paper_stamp-centcom
       stampedBy:
         - stampedColor: "#006666"
-          stampedName: rr-nt-isd
+          stampedName: stamp-component-stamped-name-rr-nt-isd
   - type: RailroadFaxOnFailed
     addresses:
     - Captain's Office # PR #4706: Remove once fax protos are used everywhere
@@ -78,7 +78,7 @@
       stampState: paper_stamp-centcom
       stampedBy:
         - stampedColor: "#006620"
-          stampedName: rr-cc
+          stampedName: stamp-component-stamped-name-rr-cc
   - type: RailroadAssignRole
     role: RRMindRoleCriminal
   - type: RailroadModifyIdCard

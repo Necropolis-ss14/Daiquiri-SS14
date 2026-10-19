@@ -37,7 +37,7 @@
   suffix: DO NOT MAP
   components:
     - type: Stamp
-      stampedName: "Internal Affairs Agent"
+      stampedName: stamp-component-stamped-name-rubber-stamp-iaa
       stampedColor: "#33CC33"
       stampState: "paper_stamp-ok"
     - type: Sprite
@@ -68,7 +68,7 @@
   suffix: DO NOT MAP
   components:
     - type: Stamp
-      stampedName: "Brigmedic"
+      stampedName: stamp-component-stamped-name-rubber-stamp-brigmedic
       stampedColor: "#ae2e33"
       stampState: "paper_stamp-brigmedic"
     - type: Sprite
@@ -87,7 +87,7 @@
   suffix: DO NOT MAP
   components:
     - type: Stamp
-      stampedName: "Assistant Manager"
+      stampedName: stamp-component-stamped-name-rubber-stamp-assistant-manager
       stampedColor: "#51c053"
       stampState: "paper_stamp-assistantmanager"
     - type: Sprite
@@ -103,7 +103,7 @@
   suffix: DO NOT MAP
   components:
     - type: Stamp
-      stampedName: "Assistant"
+      stampedName: stamp-component-stamped-name-rubber-stamp-assistant
       stampedColor: "#61c732"
       stampState: "paper_stamp-assistant"
     - type: Sprite
@@ -523,7 +523,7 @@
   description: Резиновая печать для штамповки важных документов. Пиши все статьи!
   components:
     - type: Stamp
-      stampedName: Reporter
+      stampedName: stamp-component-stamped-name-rubber-stamp-reporter
       stampedColor: "#4B75FF"
       stampState: "paper_stamp-psychologist"
     - type: Sprite

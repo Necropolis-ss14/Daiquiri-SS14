@@ -333,7 +333,7 @@
       stampState: paper_stamp-syndicate
       stampedBy:
         - type: RubberStamp
-          stampedName: Syndicate High Command
+          stampedName: stamp-component-stamped-name-syndicate-high-command
           stampedColor: '#850000FF'
           font: /Fonts/NotoSans/NotoSans-Regular.ttf
 
