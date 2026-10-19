@@ -1,6 +1,6 @@
 using Content.Client.UserInterface.Systems.Bwoink;
 using Robust.Client.UserInterface.Controllers;
-using Content.Client._Starlight.AIHelp;
+using Content.Client._Daiquiri.AIHelp;
 using Content.Client._Starlight.MHelp.UI;
 using Content.Client.Stylesheets;
 

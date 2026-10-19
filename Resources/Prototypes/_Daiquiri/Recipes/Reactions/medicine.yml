@@ -1,0 +1,11 @@
+- type: reaction
+  id: Antizavin
+  reactants:
+    Bicaridine:
+      amount: 1
+    Diethylamine:
+      amount: 1
+    Omnizine:
+      amount: 1
+  products:
+    Antizavin: 3

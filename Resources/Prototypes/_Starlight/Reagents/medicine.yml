@@ -373,20 +373,3 @@
           type: [ Cyclorite ]
         reagent: Respirazone
         amount: -0.5
-
-- type: reagent
-  id: Antizavin
-  name: reagent-name-antizavin
-  group: Medicine
-  desc: reagent-desc-antizavin
-  physicalDesc: reagent-physical-desc-cloudy
-  flavor: medicine
-  color: "#6b3fa0"
-  metabolisms:
-    Bloodstream:
-      metabolismRate: 0.1
-      effects:
-      - !type:HealthChange
-        damage:
-          types:
-            Poison: -0.5

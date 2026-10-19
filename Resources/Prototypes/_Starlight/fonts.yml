@@ -1,10 +1,10 @@
 - type: font
   id: SignatureFont
-  path: /Fonts/_Starlight/MarckScript-Regular.ttf
+  path: /Fonts/_Daiquiri/MarckScript-Regular.ttf
 
 - type: font
   id: Lymphatic
-  path: /Fonts/_Starlight/Cormorant-Regular.ttf
+  path: /Fonts/_Daiquiri/Cormorant-Regular.ttf
 
 - type: font
   id: RubikBubbles
@@ -12,39 +12,39 @@
 
 - type: font
   id: Copperplate
-  path: /Fonts/_Starlight/PlayfairDisplaySC-Regular.ttf
+  path: /Fonts/_Daiquiri/PlayfairDisplaySC-Regular.ttf
 
 - type: font
   id: Mangat
-  path: /Fonts/_Starlight/BalsamiqSans-Regular.ttf
+  path: /Fonts/_Daiquiri/BalsamiqSans-Regular.ttf
 
 - type: font
   id: Scratch
-  path: /Fonts/_Starlight/RubikDistressed-Regular.ttf
+  path: /Fonts/_Daiquiri/RubikDistressed-Regular.ttf
 
 - type: font
   id: Octatrax
-  path: /Fonts/_Starlight/PressStart2P-Regular.ttf
+  path: /Fonts/_Daiquiri/PressStart2P-Regular.ttf
 
 - type: font
   id: Draconic
-  path: /Fonts/_Starlight/RubikMoonrocks-Regular.ttf
+  path: /Fonts/_Daiquiri/RubikMoonrocks-Regular.ttf
 
 - type: font
   id: MonasteryRaid
-  path: /Fonts/_Starlight/RubikGemstones-Regular.ttf
+  path: /Fonts/_Daiquiri/RubikGemstones-Regular.ttf
 
 - type: font
   id: Darktongue
-  path: /Fonts/_Starlight/RuslanDisplay-Regular.ttf
+  path: /Fonts/_Daiquiri/RuslanDisplay-Regular.ttf
 
 - type: font
   id: Lagomorphian
-  path: /Fonts/_Starlight/Jura-Regular.ttf
+  path: /Fonts/_Daiquiri/Jura-Regular.ttf
 
 - type: font
   id: Cosmic
-  path: /Fonts/_Starlight/RubikGlitch-Regular.ttf
+  path: /Fonts/_Daiquiri/RubikGlitch-Regular.ttf
 
 - type: font
   id: Squeakish
