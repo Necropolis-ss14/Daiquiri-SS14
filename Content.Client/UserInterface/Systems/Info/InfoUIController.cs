@@ -1,5 +1,7 @@
+using Content.Client.Administration.Managers;
 using Content.Client.Gameplay;
 using Content.Client.Info;
+using Content.Shared.Administration;
 using Content.Shared.Guidebook;
 using Content.Shared.Info;
 using Robust.Client.Console;
@@ -15,6 +17,7 @@ public sealed partial class InfoUIController : UIController, IOnStateExited<Game
     [Dependency] private IClientConsoleHost _consoleHost = default!;
     [Dependency] private INetManager _netManager = default!;
     [Dependency] private IPrototypeManager _prototype = default!;
+    [Dependency] private IClientAdminManager _adminManager = default!;
 
     private RulesPopup? _rulesPopup;
     private RulesAndInfoWindow? _infoWindow;
@@ -35,8 +38,14 @@ public sealed partial class InfoUIController : UIController, IOnStateExited<Game
         _consoleHost.RegisterCommand("fuckrules",
             "",
             "",
-            (_, _, _) =>
+            (shell, _, _) =>
         {
+            if (!_adminManager.HasFlag(AdminFlags.Admin))
+            {
+                shell.WriteError("Insufficient perms for command: fuckrules");
+                return;
+            }
+
             OnAcceptPressed(true);
         });
     }

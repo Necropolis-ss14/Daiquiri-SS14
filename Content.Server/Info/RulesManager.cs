@@ -1,6 +1,8 @@
 using System.Net;
 using Content.Server.Administration.Logs;
+using Content.Server.Administration.Managers;
 using Content.Server.Database;
+using Content.Shared.Administration;
 using Content.Shared.CCVar;
 using Content.Shared.Database;
 using Content.Shared.Info;
@@ -17,6 +19,7 @@ public sealed partial class RulesManager
     [Dependency] private IConfigurationManager _cfg = default!;
     [Dependency] private IAdminLogManager _adminLog = default!;
     [Dependency] private IPlayerManager _player = default!;
+    [Dependency] private IAdminManager _adminManager = default!;
 
     private static DateTime LastValidReadTime => DateTime.UtcNow - TimeSpan.FromDays(60);
 
@@ -48,7 +51,8 @@ public sealed partial class RulesManager
     {
         var date = DateTime.UtcNow;
         await _dbManager.SetLastReadRules(message.MsgChannel.UserId, date);
-        if (message.FuckRules && _player.TryGetSessionById(message.MsgChannel.UserId, out var session))
+        if (message.FuckRules && _player.TryGetSessionById(message.MsgChannel.UserId, out var session)
+            && _adminManager.HasAdminFlag(session, AdminFlags.Admin))
             _adminLog.Add(LogType.Connection, LogImpact.Extreme, $"Player {session} used the fuckrules command.");
     }
 }
