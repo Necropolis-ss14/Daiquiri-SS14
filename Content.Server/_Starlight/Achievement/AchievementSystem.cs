@@ -979,7 +979,10 @@ public sealed partial class AchievementSystem : EntitySystem
         }
 
         if (!_nullLinkPlayers.TryGetPlayerData(userId, out var playerData))
+        {
+            ScheduleAchievementHydrationRetry(userId);
             return;
+        }
 
         if (playerData.Session.Status == SessionStatus.Disconnected)
             return;
@@ -990,6 +993,11 @@ public sealed partial class AchievementSystem : EntitySystem
             return;
         }
 
+        ScheduleAchievementHydrationRetry(userId);
+    }
+
+    private void ScheduleAchievementHydrationRetry(Guid userId)
+    {
         Timer.Spawn(_achievementHydrationRetryDelay, () =>
         {
             if (!_playerManager.TryGetSessionById(new NetUserId(userId), out var retrySession))
