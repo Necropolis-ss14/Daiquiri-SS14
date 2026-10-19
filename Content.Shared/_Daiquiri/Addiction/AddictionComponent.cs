@@ -1,5 +1,6 @@
 using Content.Shared.FixedPoint;
 using Robust.Shared.Prototypes;
+using Robust.Shared.ViewVariables;
 
 namespace Content.Shared._Daiquiri.Addiction;
 
@@ -20,23 +21,27 @@ public sealed partial class AddictionComponent : Component
     /// <summary>
     /// When the entity last took a dose of each addiction.
     /// </summary>
-    public readonly Dictionary<ProtoId<AddictionPrototype>, TimeSpan> LastDose = new();
+    [ViewVariables(VVAccess.ReadWrite)]
+    public Dictionary<ProtoId<AddictionPrototype>, TimeSpan> LastDose = new();
 
     /// <summary>
     /// When the next withdrawal message is due for each addiction.
     /// </summary>
-    public readonly Dictionary<ProtoId<AddictionPrototype>, TimeSpan> NextMessage = new();
+    [ViewVariables(VVAccess.ReadWrite)]
+    public Dictionary<ProtoId<AddictionPrototype>, TimeSpan> NextMessage = new();
 
     /// <summary>
     /// Which withdrawal phase was active the last time the addiction was processed, so that a new
     /// phase can announce itself right away.
     /// </summary>
-    public readonly Dictionary<ProtoId<AddictionPrototype>, TimeSpan> LastStage = new();
+    [ViewVariables(VVAccess.ReadWrite)]
+    public Dictionary<ProtoId<AddictionPrototype>, TimeSpan> LastStage = new();
 
     /// <summary>
     /// When the next forced emote is due for each addiction.
     /// </summary>
-    public readonly Dictionary<ProtoId<AddictionPrototype>, TimeSpan> NextEmote = new();
+    [ViewVariables(VVAccess.ReadWrite)]
+    public Dictionary<ProtoId<AddictionPrototype>, TimeSpan> NextEmote = new();
 
     /// <summary>
     /// How much of each addiction's reagents has been absorbed in total, so that an addiction can
