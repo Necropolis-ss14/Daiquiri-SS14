@@ -8,6 +8,7 @@ ui-lobby-ready-up-button = Готовность
 ui-lobby-online-players-block = Текущие игроки
 ui-lobby-server-info-block = Информация
 ui-lobby-welcome = Добро пожаловать на { $name }
+ui-lobby-achievements-button = Достижения
 ui-lobby-ready-button-tooltip-no-possible-characters =
     У вас нет активных персонажей с должностями, соответствующими выбранным приоритетам должностей.
     Пожалуйста, убедитесь, что у вас есть хотя бы один активный персонаж с должностью на "Да"

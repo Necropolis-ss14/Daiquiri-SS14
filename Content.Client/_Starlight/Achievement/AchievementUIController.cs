@@ -1,4 +1,5 @@
 using Content.Client.Gameplay;
+using Content.Client.Lobby;
 using Content.Client.UserInterface.Controls;
 using Content.Client.UserInterface.Systems.MenuBar.Widgets;
 using JetBrains.Annotations;
@@ -16,7 +17,7 @@ using System.Numerics;
 namespace Content.Client._Starlight.Achievement;
 
 [UsedImplicitly]
-public sealed partial class AchievementUIController : UIController, IOnStateEntered<GameplayState>, IOnStateExited<GameplayState>
+public sealed partial class AchievementUIController : UIController, IOnStateEntered<GameplayState>, IOnStateExited<GameplayState>, IOnStateExited<LobbyState>
 {
     private const int NotificationDisplayDuration = 5000;
     private const float NotificationWidth = 460f;
@@ -34,17 +35,7 @@ public sealed partial class AchievementUIController : UIController, IOnStateEnte
 
     public void OnStateEntered(GameplayState state)
     {
-        _window = UIManager.CreateWindow<AchievementWindow>();
-
-        if (_achievementButton != null)
-        {
-            _window.OnClose += () => _achievementButton.Pressed = false;
-            _window.OnOpen += () =>
-            {
-                _achievementButton.Pressed = true;
-                _window.Populate(_protoManager, _achievements);
-            };
-        }
+        EnsureWindow();
 
         _achievements.AchievementUnlocked += OnAchievementUnlocked;
         _achievements.AchievementsUpdated += OnAchievementsUpdated;
@@ -55,11 +46,55 @@ public sealed partial class AchievementUIController : UIController, IOnStateEnte
         _achievements.AchievementUnlocked -= OnAchievementUnlocked;
         _achievements.AchievementsUpdated -= OnAchievementsUpdated;
 
-        _window?.Close();
-        _window = null;
+        CloseWindow();
 
         _notification?.Orphan();
         _notification = null;
+    }
+
+    public void OnStateExited(LobbyState state)
+        => CloseWindow();
+
+    public void ToggleWindow()
+    {
+        var window = EnsureWindow();
+
+        if (window.IsOpen)
+        {
+            window.Close();
+            return;
+        }
+
+        window.Populate(_protoManager, _achievements);
+        window.OpenCentered();
+    }
+
+    private AchievementWindow EnsureWindow()
+    {
+        if (_window is { Disposed: false })
+            return _window;
+
+        _window = UIManager.CreateWindow<AchievementWindow>();
+        _window.OnClose += () =>
+        {
+            if (_achievementButton != null)
+                _achievementButton.Pressed = false;
+        };
+        _window.OnOpen += () =>
+        {
+            if (_achievementButton != null)
+                _achievementButton.Pressed = true;
+
+            _window?.Populate(_protoManager, _achievements);
+        };
+
+        return _window;
+    }
+
+    private void CloseWindow()
+    {
+        _window?.Close();
+        _window = null;
     }
 
     public void LoadButton()
@@ -69,15 +104,7 @@ public sealed partial class AchievementUIController : UIController, IOnStateEnte
         => _achievementButton?.OnPressed -= OnButtonPressed;
 
     private void OnButtonPressed(BaseButton.ButtonEventArgs obj)
-    {
-        if (_window == null)
-            return;
-
-        if (_window.IsOpen)
-            _window.Close();
-        else
-            _window.OpenCentered();
-    }
+        => ToggleWindow();
 
     private void OnAchievementsUpdated()
     {

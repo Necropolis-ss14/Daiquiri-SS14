@@ -51,6 +51,7 @@ ai-help-timeout = ИИ не ответил вовремя. Попробуйте 
 ai-help-admin-muted = доступ к ИИ закрыт администратором.
 ai-help-admin-cancelled = запрос отменён администратором.
 ai-help-admin-title = Запросы к ИИ
+ai-help-admin-open-log = Журнал ИИ
 ai-help-admin-refresh = Обновить
 ai-help-admin-cancel = Прервать запрос
 ai-help-admin-clear-context = Сбросить контекст

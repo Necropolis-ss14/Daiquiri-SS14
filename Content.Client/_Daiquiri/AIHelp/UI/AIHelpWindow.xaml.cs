@@ -15,6 +15,7 @@ public sealed partial class AIHelpWindow : DefaultWindow
 
     public event Action<string> OnMessageSend = delegate { };
     public event Action OnClear = delegate { };
+    public event Action OnOpenAdminLog = delegate { };
 
     public AIHelpWindow()
     {
@@ -24,7 +25,11 @@ public sealed partial class AIHelpWindow : DefaultWindow
 
         Conversation.OnMessageSubmitted += text => OnMessageSend.Invoke(text);
         ClearButton.OnPressed += _ => OnClear.Invoke();
+        AdminLogButton.OnPressed += _ => OnOpenAdminLog.Invoke();
     }
+
+    public void SetAdmin(bool isAdmin)
+        => AdminLogButton.Visible = isAdmin;
 
     public void AddMessage(string text, bool isUser, bool isError = false)
     {

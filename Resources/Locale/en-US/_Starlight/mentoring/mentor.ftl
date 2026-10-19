@@ -54,6 +54,7 @@ ai-help-timeout = the AI did not answer in time. Try again later.
 ai-help-admin-muted = the AI is blocked for you by an admin.
 ai-help-admin-cancelled = the request was cancelled by an admin.
 ai-help-admin-title = AI requests
+ai-help-admin-open-log = AI log
 ai-help-admin-refresh = Refresh
 ai-help-admin-cancel = Cancel request
 ai-help-admin-clear-context = Clear context

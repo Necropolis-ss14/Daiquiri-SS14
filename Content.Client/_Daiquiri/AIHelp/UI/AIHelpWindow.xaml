@@ -6,6 +6,9 @@
     <BoxContainer Orientation="Vertical" VerticalExpand="True">
         <RichTextLabel Text="{Loc 'ai-help-hint'}" Margin="0 0 0 6" />
         <sc:ConversationView Name="Conversation" VerticalExpand="True" />
-        <Button Name="ClearButton" Access="Public" Text="{Loc 'ai-help-clear'}" HorizontalAlignment="Left" Margin="0 6 0 0" />
+        <BoxContainer Orientation="Horizontal" SeparationOverride="6" Margin="0 6 0 0">
+            <Button Name="ClearButton" Access="Public" Text="{Loc 'ai-help-clear'}" />
+            <Button Name="AdminLogButton" Access="Public" Visible="False" Text="{Loc 'ai-help-admin-open-log'}" />
+        </BoxContainer>
     </BoxContainer>
 </controls:AIHelpWindow>

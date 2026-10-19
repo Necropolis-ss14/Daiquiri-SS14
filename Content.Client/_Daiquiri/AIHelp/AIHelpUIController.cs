@@ -92,6 +92,9 @@ public sealed partial class AIHelpUIController : UIController, IOnSystemChanged<
             return;
 
         _window = new AIHelpWindow();
+        _window.SetAdmin(_playerManager.LocalSession is { } session
+                         && _admin.HasAdminFlag(session, AdminFlags.Adminhelp));
+        _window.OnOpenAdminLog += ToggleAdminWindow;
         _window.OnMessageSend += text =>
         {
             if (string.IsNullOrWhiteSpace(text))
