@@ -2,6 +2,7 @@ using Robust.Shared.Configuration;
 
 namespace Content.Shared._Daiquiri.CCVar;
 
+[CVarDefs]
 public sealed class DaiquiriCCVars
 {
     /// <summary>
