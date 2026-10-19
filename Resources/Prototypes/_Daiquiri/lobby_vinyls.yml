@@ -1,0 +1,44 @@
+# Daiquiri
+# Lobby records (пластинки). Пластинка — это визуал винила в лобби.
+# Открывается за наигранное время или за ачивку.
+
+- type: lobbyVinyl
+  id: Classic
+  name: lobby-vinyl-classic
+  sprite: /Textures/_Daiquiri/Interface/Vinyl/classic
+
+- type: lobbyVinyl
+  id: Aurora
+  name: lobby-vinyl-aurora
+  sprite: /Textures/_Daiquiri/Interface/Vinyl/aurora
+  requiredPlaytime: 18000 # 5 часов
+
+- type: lobbyVinyl
+  id: Sun
+  name: lobby-vinyl-sun
+  sprite: /Textures/_Daiquiri/Interface/Vinyl/sun
+  requiredPlaytime: 54000 # 15 часов
+
+- type: lobbyVinyl
+  id: Snow
+  name: lobby-vinyl-snow
+  sprite: /Textures/_Daiquiri/Interface/Vinyl/snow
+  requiredPlaytime: 108000 # 30 часов
+
+- type: lobbyVinyl
+  id: Ocean
+  name: lobby-vinyl-ocean
+  sprite: /Textures/_Daiquiri/Interface/Vinyl/ocean
+  requiredPlaytime: 216000 # 60 часов
+
+- type: lobbyVinyl
+  id: Daiquiri
+  name: lobby-vinyl-daiquiri
+  sprite: /Textures/_Daiquiri/Interface/Vinyl/daiquiri
+  requiredAchievement: first_spawn
+
+- type: lobbyVinyl
+  id: Space
+  name: lobby-vinyl-space
+  sprite: /Textures/_Daiquiri/Interface/Vinyl/space
+  requiredAchievement: theory_of_everything

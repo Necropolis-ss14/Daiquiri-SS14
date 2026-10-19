@@ -103,4 +103,11 @@ public sealed class DaiquiriCCVars
 
     public static readonly CVarDef<int> AIHelpRateLimitCount =
         CVarDef.Create("aihelp.rate_limit_count", 5, CVar.SERVERONLY);
+
+    /// <summary>
+    /// Daiquiri
+    /// Выбранная пластинка в лобби.
+    /// </summary>
+    public static readonly CVarDef<string> LobbyVinyl =
+        CVarDef.Create("lobby.vinyl", "Classic", CVar.CLIENTONLY | CVar.ARCHIVE);
 }

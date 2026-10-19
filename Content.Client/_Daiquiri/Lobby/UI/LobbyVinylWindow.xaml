@@ -1,0 +1,13 @@
+<ui:LobbyVinylWindow
+    xmlns="https://spacestation14.io"
+    xmlns:ui="clr-namespace:Content.Client._Daiquiri.Lobby.UI"
+    Title="{Loc 'lobby-vinyl-window-title'}"
+    MinSize="640 400"
+    SetSize="760 560">
+    <BoxContainer Orientation="Vertical" Margin="8 8 8 8" SeparationOverride="8">
+        <Label Text="{Loc 'lobby-vinyl-window-hint'}" />
+        <ScrollContainer VerticalExpand="True" HScrollEnabled="False">
+            <GridContainer Name="VinylGrid" Columns="4" HorizontalExpand="True" HSeparationOverride="8" VSeparationOverride="8" />
+        </ScrollContainer>
+    </BoxContainer>
+</ui:LobbyVinylWindow>

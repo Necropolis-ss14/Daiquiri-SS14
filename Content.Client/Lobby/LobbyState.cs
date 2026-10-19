@@ -12,6 +12,8 @@ using Content.Client.UserInterface.Systems.Chat;
 using Content.Client.Voting;
 using Content.Shared.CCVar;
 using Content.Shared.GameTicking.Prototypes;
+using Content.Shared._Daiquiri.CCVar; // Daiquiri
+using Content.Shared._Daiquiri.Lobby; // Daiquiri
 using Content.Shared._Starlight.CCVar; // Daiquiri
 using Robust.Client;
 using Robust.Client.Console;
@@ -53,6 +55,7 @@ namespace Content.Client.Lobby
         private ClientGameTicker _gameTicker = default!;
         private ContentAudioSystem _contentAudioSystem = default!;
         private LobbyMusicQueueWindow? _queueWindow;
+        private LobbyVinylWindow? _vinylWindow;
         private bool _cardSpriteInit;
 
         protected override Type? LinkedScreenType { get; } = typeof(LobbyGui);
@@ -99,6 +102,8 @@ namespace Content.Client.Lobby
             Lobby.MusicSwitcher.PrevButton.OnPressed += OnMusicPrevPressed;
             Lobby.MusicSwitcher.NextButton.OnPressed += OnMusicNextPressed;
             Lobby.MusicSwitcher.QueueButton.OnPressed += OnMusicQueuePressed;
+            Lobby.VinylButton.OnPressed += OnVinylPressed;
+            _cfg.OnValueChanged(DaiquiriCCVars.LobbyVinyl, OnLobbyVinylChanged, true);
             Lobby.CharacterPreview.PrioritiesUpdated += UpdateReadyAllowed;
             Lobby.ReadyButton.OnPressed += OnReadyPressed;
             Lobby.ReadyButton.OnToggled += OnReadyToggled;
@@ -158,6 +163,8 @@ namespace Content.Client.Lobby
             Lobby!.MusicSwitcher.PrevButton.OnPressed -= OnMusicPrevPressed;
             Lobby!.MusicSwitcher.NextButton.OnPressed -= OnMusicNextPressed;
             Lobby!.MusicSwitcher.QueueButton.OnPressed -= OnMusicQueuePressed;
+            Lobby!.VinylButton.OnPressed -= OnVinylPressed;
+            _cfg.UnsubValueChanged(DaiquiriCCVars.LobbyVinyl, OnLobbyVinylChanged);
             Lobby!.ReadyButton.OnPressed -= OnReadyPressed;
             Lobby!.ReadyButton.OnToggled -= OnReadyToggled;
 
@@ -474,6 +481,39 @@ namespace Content.Client.Lobby
             }
             _queueWindow = _userInterfaceManager.CreateWindow<LobbyMusicQueueWindow>();
             _queueWindow.OpenCentered();
+        }
+
+        private void OnVinylPressed(BaseButton.ButtonEventArgs args)
+        {
+            // Daiquiri
+            if (_vinylWindow is { Disposed: false } existing)
+            {
+                if (existing.IsOpen)
+                {
+                    existing.Close();
+                    return;
+                }
+            }
+            _vinylWindow = _userInterfaceManager.CreateWindow<LobbyVinylWindow>();
+            _vinylWindow.OpenCentered();
+        }
+
+        private void OnLobbyVinylChanged(string vinyl)
+        {
+            UpdateVinylIcon();
+        }
+
+        private void UpdateVinylIcon()
+        {
+            if (Lobby == null)
+                return;
+
+            var id = _cfg.GetCVar(DaiquiriCCVars.LobbyVinyl);
+            if (!_protoMan.TryIndex<LobbyVinylPrototype>(id, out var vinyl)
+                && !_protoMan.TryIndex<LobbyVinylPrototype>(LobbyVinyls.DefaultId, out vinyl))
+                return;
+
+            Lobby.VinylButton.TexturePath = LobbyVinyls.Icon(vinyl);
         }
 
         private void UpdateLobbyBackground()
