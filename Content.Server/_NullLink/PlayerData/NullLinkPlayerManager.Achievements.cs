@@ -15,6 +15,7 @@ public sealed partial class NullLinkPlayerManager : INullLinkPlayerManager
             // Daiquiri
             if (LocalAchievementsEnabled())
             {
+                ApplyStoredLocalAchievements(userId);
                 MarkAchievementCacheHydrated(userId);
                 return TryGetCachedAchievements(userId, out var localAchievements) ? localAchievements : [];
             }
@@ -81,6 +82,7 @@ public sealed partial class NullLinkPlayerManager : INullLinkPlayerManager
             if (LocalAchievementsEnabled())
             {
                 SetCachedAchievementUnlocked(userId, achievementId, characterName);
+                PersistLocalAchievements(userId);
                 return true;
             }
 
@@ -115,6 +117,7 @@ public sealed partial class NullLinkPlayerManager : INullLinkPlayerManager
             if (LocalAchievementsEnabled())
             {
                 SetCachedAchievementLocked(userId, achievementId);
+                PersistLocalAchievements(userId);
                 return true;
             }
 

@@ -117,6 +117,7 @@ public sealed partial class NullLinkPlayerManager : INullLinkPlayerManager, IAch
             case SessionStatus.InGame:
                 break;
             case SessionStatus.Disconnected:
+                PersistLocalAchievements(e.Session.UserId);
                 if (_actors.TryGetServerGrain(out var serverGrain2))
                     serverGrain2.PlayerDisconnected(e.Session.UserId)
                         .FireAndForget(err => _sawmill.Error($"PlayerDisconnected dispatch failed: {err}"));

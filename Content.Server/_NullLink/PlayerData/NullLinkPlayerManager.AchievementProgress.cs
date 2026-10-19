@@ -24,7 +24,9 @@ public sealed partial class NullLinkPlayerManager : INullLinkPlayerManager
         if (!_playerById.TryGetValue(userId, out var playerData))
             return 0;
 
-        return playerData.AchievementProgress.AddOrUpdate(key, amount, (_, existing) => existing + amount);
+        var value = playerData.AchievementProgress.AddOrUpdate(key, amount, (_, existing) => existing + amount);
+        PersistLocalAchievements(userId);
+        return value;
     }
 
     public void ResetAchievementProgress(Guid userId, string? key = null)
@@ -35,10 +37,12 @@ public sealed partial class NullLinkPlayerManager : INullLinkPlayerManager
         if (string.IsNullOrEmpty(key))
         {
             playerData.AchievementProgress.Clear();
+            PersistLocalAchievements(userId);
             return;
         }
 
         playerData.AchievementProgress.TryRemove(key, out _);
+        PersistLocalAchievements(userId);
     }
 
     private bool TryGetCachedProgress(Guid userId, out Dictionary<string, double> progress)
