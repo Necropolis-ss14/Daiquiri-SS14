@@ -91,21 +91,25 @@
                     <!-- Gold line
                     <controls:HLine StyleClasses="highlight" Thickness="2" /> STARLIGHT-->
                     <!-- Daiquiri -->
-                    <PanelContainer Name="ButtonsCard" Access="Public" StyleClasses="BackgroundPanel" HorizontalAlignment="Right">
-                        <BoxContainer Orientation="Horizontal" MinSize="0 40" HorizontalAlignment="Right" Margin="4">
-                            <!-- Daiquiri -->
-                            <TextureButton Name="VinylButton" Access="Public" Margin="0 0 4 0"
+                    <BoxContainer Orientation="Horizontal" HorizontalAlignment="Right" SeparationOverride="4">
+                        <!-- Daiquiri -->
+                        <PanelContainer Name="VinylCard" Access="Public" StyleClasses="BackgroundPanel">
+                            <TextureButton Name="VinylButton" Access="Public" Margin="6 4"
                                            TexturePath="/Textures/_Daiquiri/Interface/Vinyl/classic_icon.png"
                                            VerticalAlignment="Center" HorizontalAlignment="Center"
                                            ToolTip="{Loc 'ui-lobby-vinyl-button-tooltip'}" />
-                            <Button Name="AHelpButton" Access="Public" Text="{Loc 'ui-lobby-ahelp-button'}"
-                                    StyleClasses="ButtonBig" />
-                            <vote:VoteCallMenuButton Name="CallVoteButton" StyleClasses="ButtonBig" />
-                            <Button Name="OptionsButton" Access="Public" StyleClasses="ButtonBig"
-                                    Text="{Loc 'ui-lobby-options-button'}" />
-                            <Button Name="LeaveButton" Access="Public" Text="{Loc 'ui-lobby-leave-button'}" StyleClasses="ButtonBig" />
-                        </BoxContainer>
-                    </PanelContainer>
+                        </PanelContainer>
+                        <PanelContainer Name="ButtonsCard" Access="Public" StyleClasses="BackgroundPanel">
+                            <BoxContainer Orientation="Horizontal" MinSize="0 40" HorizontalAlignment="Right" Margin="4">
+                                <Button Name="AHelpButton" Access="Public" Text="{Loc 'ui-lobby-ahelp-button'}"
+                                        StyleClasses="ButtonBig" />
+                                <vote:VoteCallMenuButton Name="CallVoteButton" StyleClasses="ButtonBig" />
+                                <Button Name="OptionsButton" Access="Public" StyleClasses="ButtonBig"
+                                        Text="{Loc 'ui-lobby-options-button'}" />
+                                <Button Name="LeaveButton" Access="Public" Text="{Loc 'ui-lobby-leave-button'}" StyleClasses="ButtonBig" />
+                            </BoxContainer>
+                        </PanelContainer>
+                    </BoxContainer>
                     <!-- Daiquiri -->
                     <BoxContainer Name="CharacterRow" Access="Public" Orientation="Horizontal" HorizontalExpand="True" HorizontalAlignment="Stretch" SeparationOverride="4">
                         <!-- Daiquiri -->

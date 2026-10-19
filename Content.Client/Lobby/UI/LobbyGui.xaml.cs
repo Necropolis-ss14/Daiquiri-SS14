@@ -68,7 +68,7 @@ namespace Content.Client.Lobby.UI
             _panelTargets.Clear();
             foreach (var panel in new[]
                      {
-                         LeftSideTop, SongPanel, ButtonsCard, CharacterCard,
+                         LeftSideTop, SongPanel, VinylCard, ButtonsCard, CharacterCard,
                          ServerInfoCard, JobsCard, ChatCard,
                      })
             {
@@ -97,7 +97,7 @@ namespace Content.Client.Lobby.UI
 
             foreach (var panel in new[]
                      {
-                         LeftSideTop, SongPanel, ButtonsCard, CharacterCard,
+                         LeftSideTop, SongPanel, VinylCard, ButtonsCard, CharacterCard,
                          ServerInfoCard, JobsCard, ChatCard,
                      })
             {
