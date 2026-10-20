@@ -1,3 +1,4 @@
+using System.Globalization;
 using System.Linq;
 using Content.IntegrationTests.Fixtures;
 using Content.IntegrationTests.Fixtures.Attributes;
@@ -9,6 +10,7 @@ using Content.Shared.Chemistry.Reagent;
 using Content.Shared.Roles;
 using Content.Shared.Verbs;
 using Robust.Shared.GameObjects;
+using Robust.Shared.Localization;
 using Robust.Shared.Maths;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Utility;
@@ -220,35 +222,47 @@ public sealed class ContrabandTest : GameTest
 
         await client.WaitAssertion(() =>
         {
-            var contraband = systemManager.GetEntitySystem<ContrabandSystem>();
+            var loc = client.ResolveDependency<ILocalizationManager>();
+            var oldCulture = loc.DefaultCulture;
+            loc.SetCulture(new CultureInfo("en-US"));
 
-            var itemClassification = contraband.GetClassificationMessage("Tier1", null, ContrabandItemType.Item);
-            var reagentClassification = contraband.GetClassificationMessage(
-                "Tier2",
-                "Magical",
-                ContrabandItemType.Reagent);
-            var itemAuthorization = contraband.GetAuthorizationMessage(
-                ["Security"],
-                ["Detective"],
-                ContrabandItemType.Item);
-            var prescriptionAuthorization = contraband.GetAuthorizationMessage(
-                [],
-                [],
-                ContrabandItemType.Reagent,
-                true);
+            try
+            {
+                var contraband = systemManager.GetEntitySystem<ContrabandSystem>();
 
-            Assert.That(itemClassification, Does.Contain("restricted tier 1 contraband"));
-            Assert.That(itemClassification, Does.Contain("piece"));
-            Assert.That(itemClassification, Does.Not.Contain("reagent"));
+                var itemClassification = contraband.GetClassificationMessage("Tier1", null, ContrabandItemType.Item);
+                var reagentClassification = contraband.GetClassificationMessage(
+                    "Tier2",
+                    "Magical",
+                    ContrabandItemType.Reagent);
+                var itemAuthorization = contraband.GetAuthorizationMessage(
+                    ["Security"],
+                    ["Detective"],
+                    ContrabandItemType.Item);
+                var prescriptionAuthorization = contraband.GetAuthorizationMessage(
+                    [],
+                    [],
+                    ContrabandItemType.Reagent,
+                    true);
 
-            Assert.That(reagentClassification, Does.Contain("heavily regulated tier 2 magical contraband reagent"));
+                Assert.That(itemClassification, Does.Contain("restricted tier 1 contraband"));
+                Assert.That(itemClassification, Does.Contain("piece"));
+                Assert.That(itemClassification, Does.Not.Contain("reagent"));
 
-            Assert.That(itemAuthorization, Does.Contain("This item is restricted"));
-            Assert.That(itemAuthorization, Does.Contain("Security"));
-            Assert.That(itemAuthorization, Does.Contain("Detective"));
+                Assert.That(reagentClassification, Does.Contain("heavily regulated tier 2 magical contraband reagent"));
 
-            Assert.That(prescriptionAuthorization, Does.Contain("This reagent is restricted"));
-            Assert.That(prescriptionAuthorization, Does.Contain("patients with a valid prescription"));
+                Assert.That(itemAuthorization, Does.Contain("This item is restricted"));
+                Assert.That(itemAuthorization, Does.Contain("Security"));
+                Assert.That(itemAuthorization, Does.Contain("Detective"));
+
+                Assert.That(prescriptionAuthorization, Does.Contain("This reagent is restricted"));
+                Assert.That(prescriptionAuthorization, Does.Contain("patients with a valid prescription"));
+            }
+            finally
+            {
+                if (oldCulture != null)
+                    loc.SetCulture(oldCulture);
+            }
         });
     }
 
@@ -329,13 +343,16 @@ public sealed class ContrabandTest : GameTest
             extraCategories: []);
         entMan.EventBus.RaiseLocalEvent(target, ev);
 
-        Assert.That(ev.Verbs.Count(verb => verb.Text == "Legality"), Is.EqualTo(1));
-        return ev.Verbs.Single(verb => verb.Text == "Legality");
+        var verbText = Loc.GetString("contraband-examinable-verb-text");
+        Assert.That(ev.Verbs.Count(verb => verb.Text == verbText), Is.EqualTo(1));
+        return ev.Verbs.Single(verb => verb.Text == verbText);
     }
 
     private static void AssertClearance(ExamineVerb verb, bool authorized)
     {
-        var expectedText = authorized ? "in the clear" : "avoid visibly carrying";
+        var expectedText = authorized
+            ? Loc.GetString("contraband-examine-text-in-the-clear")
+            : Loc.GetString("contraband-examine-text-avoid-carrying-around");
         var expectedIcon = authorized
             ? "/Textures/Interface/VerbIcons/unlock-green.svg.192dpi.png"
             : "/Textures/Interface/VerbIcons/lock-red.svg.192dpi.png";
