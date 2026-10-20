@@ -16,15 +16,15 @@ public sealed class TTSTests
     public void TestCleanTextPreservesApostrophes()
     {
         // Contractions
-        Assert.That(TTSSystem.CleanText("I'm here"), Is.EqualTo("I'm here"));
-        Assert.That(TTSSystem.CleanText("I'll do it"), Is.EqualTo("I'll do it"));
-        Assert.That(TTSSystem.CleanText("don't stop"), Is.EqualTo("don't stop"));
-        Assert.That(TTSSystem.CleanText("won't stop"), Is.EqualTo("won't stop"));
+        Assert.That(TTSSystem.CleanText("I'm here"), Is.EqualTo("и'м хере"));
+        Assert.That(TTSSystem.CleanText("I'll do it"), Is.EqualTo("и'лл до ит"));
+        Assert.That(TTSSystem.CleanText("don't stop"), Is.EqualTo("дон'т стоп"));
+        Assert.That(TTSSystem.CleanText("won't stop"), Is.EqualTo("вон'т стоп"));
 
         // Accent ending/beginning and plural apostrophes
-        Assert.That(TTSSystem.CleanText("thinkin'"), Is.EqualTo("thinkin'"));
-        Assert.That(TTSSystem.CleanText("'ello"), Is.EqualTo("'ello"));
-        Assert.That(TTSSystem.CleanText("Chris' coat"), Is.EqualTo("Chris' coat"));
+        Assert.That(TTSSystem.CleanText("thinkin'"), Is.EqualTo("тинкин'"));
+        Assert.That(TTSSystem.CleanText("'ello"), Is.EqualTo("'елло"));
+        Assert.That(TTSSystem.CleanText("Chris' coat"), Is.EqualTo("чрис' cоат"));
     }
 
     /// <summary>
@@ -34,11 +34,11 @@ public sealed class TTSTests
     public void TestCleanTextNormalizesSmartQuotes()
     {
         // Smart quote normalization
-        Assert.That(TTSSystem.CleanText("I’m here"), Is.EqualTo("I'm here"));
-        Assert.That(TTSSystem.CleanText("I’ll do it"), Is.EqualTo("I'll do it"));
-        Assert.That(TTSSystem.CleanText("don’t stop"), Is.EqualTo("don't stop"));
-        Assert.That(TTSSystem.CleanText("‘ello"), Is.EqualTo("'ello"));
-        Assert.That(TTSSystem.CleanText("Chris’ coat"), Is.EqualTo("Chris' coat"));
+        Assert.That(TTSSystem.CleanText("I’m here"), Is.EqualTo("и'м хере"));
+        Assert.That(TTSSystem.CleanText("I’ll do it"), Is.EqualTo("и'лл до ит"));
+        Assert.That(TTSSystem.CleanText("don’t stop"), Is.EqualTo("дон'т стоп"));
+        Assert.That(TTSSystem.CleanText("‘ello"), Is.EqualTo("'елло"));
+        Assert.That(TTSSystem.CleanText("Chris’ coat"), Is.EqualTo("чрис' cоат"));
     }
 
     /// <summary>
@@ -48,7 +48,7 @@ public sealed class TTSTests
     public void TestCleanTextStripsInvalidCharacters()
     {
         // Standard stripping behavior
-        Assert.That(TTSSystem.CleanText("[color=red]Hello[/color] world!"), Is.EqualTo("Hello world!"));
-        Assert.That(TTSSystem.CleanText("Hello @#$% world!"), Is.EqualTo("Hello  world!"));
+        Assert.That(TTSSystem.CleanText("[color=red]Hello[/color] world!"), Is.EqualTo("хелло ворлд!"));
+        Assert.That(TTSSystem.CleanText("Hello @#$% world!"), Is.EqualTo("хелло  ворлд!"));
     }
 }
