@@ -319,7 +319,7 @@ namespace Content.Server.Voting.Managers
                 //if its secret, never add it
                 if (!(secretPreset != null && pickedPreset.ID == secretPreset.ID))
                 {
-                    _presetCooldown.Add(pickedPreset.ID, pickedPreset.VoteCooldown);
+                    _presetCooldown[pickedPreset.ID] = pickedPreset.VoteCooldown;
                     _adminLogger.Add(LogType.Vote, LogImpact.Medium, $"Preset {pickedPreset.ID} added to cooldown for {pickedPreset.VoteCooldown} votes.");
                 }
                 //starlight end

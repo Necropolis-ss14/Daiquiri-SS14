@@ -252,7 +252,7 @@ namespace Content.Server.Voting.Managers
             if (!CheckVoterEligibility(player, v.VoterEligibility, v.PlayerFilter)) // Starlight edit
             {
                 msg.VoteActive = false;
-                player.Channel.SendMessage(msg);
+                SendToPlayer(player, msg);
                 return;
             }
 
@@ -295,7 +295,18 @@ namespace Content.Server.Voting.Managers
                 msg.Options[i] = (msg.DisplayVotes ? (ushort) entry.Votes : (ushort) 0, entry.Text);
             }
 
-            player.Channel.SendMessage(msg);
+            SendToPlayer(player, msg);
+        }
+
+        private static void SendToPlayer(ICommonSession player, NetMessage msg)
+        {
+            try
+            {
+                player.Channel.SendMessage(msg);
+            }
+            catch (NotImplementedException)
+            {
+            }
         }
 
         private void DirtyCanCallVoteAll()
@@ -325,7 +336,13 @@ namespace Content.Server.Voting.Managers
                 msg.VotesUnavailable = votesUnavailable.ToArray();
             }
 
-            _netManager.ServerSendMessage(msg, player.Channel);
+            try
+            {
+                _netManager.ServerSendMessage(msg, player.Channel);
+            }
+            catch (NotImplementedException)
+            {
+            }
         }
 
         private bool CanCallVote(
