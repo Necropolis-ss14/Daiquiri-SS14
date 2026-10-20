@@ -137,4 +137,10 @@ public sealed partial class SpeechOverrideInfo
     /// </remarks>
     [DataField]
     public Dictionary<InGameICChatType, LocId> MessageWrapOverrides = new();
+
+    /// <summary>
+    ///     Word replacements applied to messages spoken in this language.
+    /// </summary>
+    [DataField]
+    public Dictionary<string, string> WordReplacements = new();
 }

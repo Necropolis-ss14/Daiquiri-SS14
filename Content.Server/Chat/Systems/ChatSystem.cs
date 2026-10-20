@@ -989,7 +989,7 @@ public sealed partial class ChatSystem : SharedChatSystem
         var ev = new TransformSpeechEvent(sender, message);
         RaiseLocalEvent(sender, ev, true);
 
-        return ev.Message;// Starlight
+        return _language.ApplyReplacements(ev.Message, language); // Starlight
     }
 
     public bool CheckIgnoreSpeechBlocker(EntityUid sender, bool ignoreBlocker)

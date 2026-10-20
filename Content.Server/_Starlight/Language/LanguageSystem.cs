@@ -1,10 +1,12 @@
 using System.Linq;
+using System.Text.RegularExpressions;
 using Content.Server.Radio;
 using Content.Server.Radio.EntitySystems;
 using Content.Shared._Starlight.Language;
 using Content.Shared._Starlight.Language.Components;
 using Content.Shared._Starlight.Language.Events;
 using Content.Shared._Starlight.Language.Systems;
+using Content.Shared._Starlight.Speech;
 using Content.Shared.ActionBlocker;
 using Content.Shared.Chat;
 using Content.Shared.Radio;
@@ -87,4 +89,32 @@ public sealed partial class LanguageSystem : SharedLanguageSystem
     }
 
     #endregion
+
+    public SpeechMessage ApplyReplacements(SpeechMessage message, LanguagePrototype language)
+    {
+        var replacements = language.Speech.WordReplacements;
+        if (replacements.Count == 0)
+            return message;
+
+        foreach (var (word, replacement) in replacements)
+        {
+            var regex = new Regex($@"(?<![\w']){Regex.Escape(word)}(?![\w'])", RegexOptions.IgnoreCase);
+            message.Text = regex.Replace(message.Text, match => PreserveCase(match.Value, replacement));
+            if (message.Tts != null)
+                message.Tts = regex.Replace(message.Tts, match => PreserveCase(match.Value, replacement));
+        }
+
+        return message;
+    }
+
+    private static string PreserveCase(string matched, string replacement)
+    {
+        if (!matched.Any(char.IsLower) && (matched.Length > 1 || replacement.Length == 1))
+            return replacement.ToUpperInvariant();
+
+        if (char.IsUpper(matched[0]))
+            return char.ToUpperInvariant(replacement[0]) + replacement[1..];
+
+        return replacement;
+    }
 }

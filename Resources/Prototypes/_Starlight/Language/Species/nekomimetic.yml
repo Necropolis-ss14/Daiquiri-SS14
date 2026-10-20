@@ -5,6 +5,13 @@
   speech:
     color: "#df57aaee"
     fontId: Mangat
+    wordReplacements:
+      ты: ти
+      привет: мяу
+      еда: нямка
+      пожалуйста: позязя
+      люблю: мур
+      милый: няшный
   obfuscation:
     !type:SyllableObfuscation
     minSyllables: 1
