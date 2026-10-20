@@ -16,7 +16,7 @@ public interface IClientVinylGrants
 /// Daiquiri
 /// Выданные игроку пластинки, приходят с сервера.
 /// </summary>
-public sealed class ClientVinylGrants : IClientVinylGrants
+public sealed partial class ClientVinylGrants : IClientVinylGrants
 {
     [Dependency] private IClientNetManager _netMgr = default!;
 
