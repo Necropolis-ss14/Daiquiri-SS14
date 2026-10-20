@@ -98,6 +98,7 @@ public sealed partial class ContentAudioSystem
         switch (args.NewState)
         {
             case LobbyState:
+                StopAllAudio();
                 StartLobbyMusic();
                 break;
             default:

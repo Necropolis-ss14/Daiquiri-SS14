@@ -43,6 +43,22 @@ public sealed partial class ContentAudioSystem : SharedContentAudioSystem
         SubscribeNetworkEvent<RoundRestartCleanupEvent>(OnRoundCleanup);
     }
 
+    private void StopAllAudio()
+    {
+        var query = AllEntityQuery<AudioComponent>();
+
+        while (query.MoveNext(out var uid, out var comp))
+        {
+            if (IsClientSide(uid))
+            {
+                QueueDel(uid);
+                continue;
+            }
+
+            Audio.SetGain(uid, 0f, comp);
+        }
+    }
+
     private void OnRoundCleanup(RoundRestartCleanupEvent ev)
     {
         _fadingOut.Clear();
