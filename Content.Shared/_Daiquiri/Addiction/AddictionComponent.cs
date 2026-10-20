@@ -1,5 +1,7 @@
+using System.Linq;
 using Content.Shared.FixedPoint;
 using Robust.Shared.Prototypes;
+using Robust.Shared.Timing;
 using Robust.Shared.ViewVariables;
 
 namespace Content.Shared._Daiquiri.Addiction;
@@ -42,6 +44,31 @@ public sealed partial class AddictionComponent : Component
     /// </summary>
     [ViewVariables(VVAccess.ReadWrite)]
     public Dictionary<ProtoId<AddictionPrototype>, TimeSpan> NextEmote = new();
+
+    [ViewVariables(VVAccess.ReadWrite)]
+    public TimeSpan TimeSinceLastDose
+    {
+        get
+        {
+            if (LastDose.Count == 0)
+                return TimeSpan.Zero;
+
+            var now = IoCManager.Resolve<IGameTiming>().CurTime;
+            return now - LastDose.Values.Min();
+        }
+        set
+        {
+            var now = IoCManager.Resolve<IGameTiming>().CurTime;
+            foreach (var id in Addictions)
+            {
+                LastDose[id] = now - value;
+            }
+
+            NextMessage.Clear();
+            LastStage.Clear();
+            NextEmote.Clear();
+        }
+    }
 
     /// <summary>
     /// How much of each addiction's reagents has been absorbed in total, so that an addiction can
