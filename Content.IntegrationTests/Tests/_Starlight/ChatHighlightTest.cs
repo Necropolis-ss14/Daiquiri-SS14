@@ -1,6 +1,7 @@
 #nullable enable
 using System.Collections.Generic;
 using System.Reflection;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using Content.Client.CharacterInfo;
 using Content.Client.UserInterface.Systems.Chat;
@@ -10,6 +11,7 @@ using Content.Shared.CCVar;
 using NUnit.Framework;
 using Robust.Client.UserInterface;
 using Robust.Shared.Configuration;
+using Robust.Shared.Localization;
 
 namespace Content.IntegrationTests.Tests._Starlight;
 
@@ -17,6 +19,15 @@ public sealed class ChatHighlightTest : GameTest
 {
     [SidedDependency(Side.Client)] private readonly IConfigurationManager _configManager = null!;
     [SidedDependency(Side.Client)] private readonly IUserInterfaceManager _uiManager = null!;
+
+    private (string Job, string ShortJob) GetCaptainHighlights()
+    {
+        var loc = Pair.Client.ResolveDependency<ILocalizationManager>();
+        var parts = loc.GetString("highlights-captain").Split(", ");
+        var job = Regex.Escape(parts[0]);
+        var shortJob = $"(?<!\\w){Regex.Escape(parts[1].Trim('"'))}(?!\\w)";
+        return (job, shortJob);
+    }
 
     private void InvokeOnCharacterUpdated(ChatUIController chatController, CharacterInfoSystem.CharacterData characterData)
     {
@@ -80,14 +91,15 @@ public sealed class ChatHighlightTest : GameTest
         );
         Assert.That(highlightsField, Is.Not.Null);
         var activeHighlights = (List<string>)highlightsField.GetValue(chatController)!;
+        var (jobHighlight, shortJobHighlight) = GetCaptainHighlights();
 
         // Check that custom and auto highlights are loaded
         // Custom:
         Assert.That(activeHighlights, Contains.Item("ling"));
         Assert.That(activeHighlights, Contains.Item("rev"));
         // Auto:
-        Assert.That(activeHighlights, Contains.Item("Captain"));
-        Assert.That(activeHighlights, Contains.Item("(?<!\\w)Cap(?!\\w)")); // "Cap" becomes regex-escaped and word-bounded
+        Assert.That(activeHighlights, Contains.Item(jobHighlight));
+        Assert.That(activeHighlights, Contains.Item(shortJobHighlight)); // "Cap" becomes regex-escaped and word-bounded
         Assert.That(activeHighlights, Contains.Item(@"(?<=(?<=^.?OOC:.*:.*)|(?<=,.*"".*)|(?<=\n.*))(?<!\w)John\ Doe(?!\w)"));
         Assert.That(activeHighlights, Contains.Item(@"(?<=(?<=^.?OOC:.*:.*)|(?<=,.*"".*)|(?<=\n.*))(?<!\w)John(?!\w)"));
         Assert.That(activeHighlights, Contains.Item(@"(?<=(?<=^.?OOC:.*:.*)|(?<=,.*"".*)|(?<=\n.*))(?<!\w)Doe(?!\w)"));
@@ -98,8 +110,8 @@ public sealed class ChatHighlightTest : GameTest
         activeHighlights = (List<string>)highlightsField.GetValue(chatController)!;
         Assert.That(activeHighlights, Contains.Item("ling"));
         Assert.That(activeHighlights, Contains.Item("rev"));
-        Assert.That(activeHighlights, Is.Not.Contains("Captain"));
-        Assert.That(activeHighlights, Is.Not.Contains("(?<!\\w)Cap(?!\\w)"));
+        Assert.That(activeHighlights, Is.Not.Contains(jobHighlight));
+        Assert.That(activeHighlights, Is.Not.Contains(shortJobHighlight));
     }
 
     [Test]
@@ -150,10 +162,11 @@ public sealed class ChatHighlightTest : GameTest
 
         // - Active highlights list must now merge both custom and auto-filled ones
         activeHighlights = (List<string>)highlightsField.GetValue(chatController)!;
+        var (jobHighlight, shortJobHighlight) = GetCaptainHighlights();
         Assert.That(activeHighlights, Contains.Item("ling"));
         Assert.That(activeHighlights, Contains.Item("rev"));
-        Assert.That(activeHighlights, Contains.Item("Captain"));
-        Assert.That(activeHighlights, Contains.Item("(?<!\\w)Cap(?!\\w)"));
+        Assert.That(activeHighlights, Contains.Item(jobHighlight));
+        Assert.That(activeHighlights, Contains.Item(shortJobHighlight));
         Assert.That(activeHighlights, Contains.Item(@"(?<=(?<=^.?OOC:.*:.*)|(?<=,.*"".*)|(?<=\n.*))(?<!\w)John\ Doe(?!\w)"));
         Assert.That(activeHighlights, Contains.Item(@"(?<=(?<=^.?OOC:.*:.*)|(?<=,.*"".*)|(?<=\n.*))(?<!\w)John(?!\w)"));
         Assert.That(activeHighlights, Contains.Item(@"(?<=(?<=^.?OOC:.*:.*)|(?<=,.*"".*)|(?<=\n.*))(?<!\w)Doe(?!\w)"));

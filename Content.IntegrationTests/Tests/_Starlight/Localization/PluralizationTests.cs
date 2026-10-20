@@ -1,3 +1,4 @@
+using System.Globalization;
 using Content.IntegrationTests.Fixtures;
 using Robust.Shared.Localization;
 
@@ -16,9 +17,19 @@ public sealed class PluralizationTests : GameTest
         var server = pair.Server;
 
         var locMan = server.ResolveDependency<ILocalizationManager>();
+        var oldCulture = locMan.DefaultCulture;
+        locMan.SetCulture(new CultureInfo("en-US"));
 
-        var result = locMan.GetString("objectives-round-end-result", ("count", count), ("agent", antag));
+        try
+        {
+            var result = locMan.GetString("objectives-round-end-result", ("count", count), ("agent", antag));
 
-        Assert.That(result, Is.EqualTo(expected));
+            Assert.That(result, Is.EqualTo(expected));
+        }
+        finally
+        {
+            if (oldCulture != null)
+                locMan.SetCulture(oldCulture);
+        }
     }
 }
