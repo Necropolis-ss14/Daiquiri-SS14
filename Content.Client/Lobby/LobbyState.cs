@@ -440,11 +440,11 @@ namespace Content.Client.Lobby
 
             // Daiquiri
             var lobbyStream = lobbySongResource.AudioStream;
-            var title = _protoMan.TryIndex<LobbyTrackPrototype>(filename, out var trackProto)
-                ? trackProto.Title
-                : string.IsNullOrEmpty(lobbyStream.Title)
+            var title = _protoMan.EnumeratePrototypes<LobbyTrackPrototype>()
+                .FirstOrDefault(track => track.Path.ToString() == filename)?.Title
+                ?? (string.IsNullOrEmpty(lobbyStream.Title)
                     ? Loc.GetString("lobby-state-song-unknown-title")
-                    : lobbyStream.Title;
+                    : lobbyStream.Title);
 
             var artist = string.IsNullOrEmpty(lobbyStream.Artist)
                 ? Loc.GetString("lobby-state-song-unknown-artist")

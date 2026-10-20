@@ -1,258 +1,322 @@
 - type: lobbyTrack
-  id: /Audio/Lobby/thunderdome.ogg
+  id: Lobby_thunderdome
+  path: /Audio/Lobby/thunderdome.ogg
   title: Thunderdome
 
 - type: lobbyTrack
-  id: /Audio/Lobby/space_asshole.ogg
+  id: Lobby_space_asshole
+  path: /Audio/Lobby/space_asshole.ogg
   title: Space Asshole
 
 - type: lobbyTrack
-  id: /Audio/Lobby/endless_space.ogg
+  id: Lobby_endless_space
+  path: /Audio/Lobby/endless_space.ogg
   title: Endless Space
 
 - type: lobbyTrack
-  id: /Audio/Lobby/singuloose.ogg
+  id: Lobby_singuloose
+  path: /Audio/Lobby/singuloose.ogg
   title: Singuloose
 
 - type: lobbyTrack
-  id: /Audio/Lobby/comet_haley.ogg
+  id: Lobby_comet_haley
+  path: /Audio/Lobby/comet_haley.ogg
   title: Comet Haley
 
 - type: lobbyTrack
-  id: /Audio/Lobby/title2.ogg
+  id: Lobby_title2
+  path: /Audio/Lobby/title2.ogg
   title: Title 2
 
 - type: lobbyTrack
-  id: /Audio/Lobby/title3.ogg
+  id: Lobby_title3
+  path: /Audio/Lobby/title3.ogg
   title: Title 3
 
 - type: lobbyTrack
-  id: /Audio/Lobby/mod.flip-flap.ogg
+  id: Lobby_mod_flip-flap
+  path: /Audio/Lobby/mod.flip-flap.ogg
   title: Flip-Flap
 
 - type: lobbyTrack
-  id: /Audio/Lobby/Spac_Stac.ogg
+  id: Lobby_Spac_Stac
+  path: /Audio/Lobby/Spac_Stac.ogg
   title: Spac Stac
 
 - type: lobbyTrack
-  id: /Audio/Lobby/pwmur.ogg
+  id: Lobby_pwmur
+  path: /Audio/Lobby/pwmur.ogg
   title: PWMUR
 
 - type: lobbyTrack
-  id: /Audio/Lobby/lasers_rip_apart_the_bulkhead.ogg
+  id: Lobby_lasers_rip_apart_the_bulkhead
+  path: /Audio/Lobby/lasers_rip_apart_the_bulkhead.ogg
   title: Lasers Rip Apart the Bulkhead
 
 - type: lobbyTrack
-  id: /Audio/Lobby/every_light_is_blinking_at_once.ogg
+  id: Lobby_every_light_is_blinking_at_once
+  path: /Audio/Lobby/every_light_is_blinking_at_once.ogg
   title: Every Light is Blinking at Once
 
 - type: lobbyTrack
-  id: /Audio/Lobby/atomicamnesiammx.ogg
+  id: Lobby_atomicamnesiammx
+  path: /Audio/Lobby/atomicamnesiammx.ogg
   title: Atomic Amnesia MMX
 
 - type: lobbyTrack
-  id: /Audio/Lobby/skubstep.ogg
+  id: Lobby_skubstep
+  path: /Audio/Lobby/skubstep.ogg
   title: Skubstep
 
 - type: lobbyTrack
-  id: /Audio/_Starlight/Lobby/cosmonaut.ogg
+  id: _Starlight_Lobby_cosmonaut
+  path: /Audio/_Starlight/Lobby/cosmonaut.ogg
   title: Cosmonaut
 
 - type: lobbyTrack
-  id: /Audio/_Starlight/Lobby/breacher.ogg
+  id: _Starlight_Lobby_breacher
+  path: /Audio/_Starlight/Lobby/breacher.ogg
   title: Breacher
 
 - type: lobbyTrack
-  id: /Audio/_Starlight/Lobby/Resistance.ogg
+  id: _Starlight_Lobby_Resistance
+  path: /Audio/_Starlight/Lobby/Resistance.ogg
   title: Resistance
 
 - type: lobbyTrack
-  id: /Audio/_Starlight/Lobby/echoes-in-the-deep.ogg
+  id: _Starlight_Lobby_echoes-in-the-deep
+  path: /Audio/_Starlight/Lobby/echoes-in-the-deep.ogg
   title: Echoes in the Deep
 
 - type: lobbyTrack
-  id: /Audio/_Starlight/Lobby/timefracture.ogg
+  id: _Starlight_Lobby_timefracture
+  path: /Audio/_Starlight/Lobby/timefracture.ogg
   title: Timefracture
 
 - type: lobbyTrack
-  id: /Audio/_Starlight/Lobby/762_treastise.ogg
+  id: _Starlight_Lobby_762_treastise
+  path: /Audio/_Starlight/Lobby/762_treastise.ogg
   title: 762 Treastise
 
 - type: lobbyTrack
-  id: /Audio/_Starlight/Lobby/hull_rupture.ogg
+  id: _Starlight_Lobby_hull_rupture
+  path: /Audio/_Starlight/Lobby/hull_rupture.ogg
   title: Hull Rupture
 
 - type: lobbyTrack
-  id: /Audio/_Starlight/Lobby/aggravated_assault_by_melcom_.ogg
+  id: _Starlight_Lobby_aggravated_assault_by_melcom_
+  path: /Audio/_Starlight/Lobby/aggravated_assault_by_melcom_.ogg
   title: Aggravated Assault by Melcom
 
 - type: lobbyTrack
-  id: /Audio/_Starlight/Lobby/Unity.ogg
+  id: _Starlight_Lobby_Unity
+  path: /Audio/_Starlight/Lobby/Unity.ogg
   title: Unity
 
 - type: lobbyTrack
-  id: /Audio/_Starlight/Lobby/Bluespace.ogg
+  id: _Starlight_Lobby_Bluespace
+  path: /Audio/_Starlight/Lobby/Bluespace.ogg
   title: Bluespace
 
 - type: lobbyTrack
-  id: /Audio/_Starlight/Lobby/thestation.ogg
+  id: _Starlight_Lobby_thestation
+  path: /Audio/_Starlight/Lobby/thestation.ogg
   title: The Station
 
 - type: lobbyTrack
-  id: /Audio/_Starlight/Lobby/RedefiningLines.ogg
+  id: _Starlight_Lobby_RedefiningLines
+  path: /Audio/_Starlight/Lobby/RedefiningLines.ogg
   title: Redefining Lines
 
 - type: lobbyTrack
-  id: /Audio/_Starlight/Lobby/HOME_Burn_Chamber_Starlight.ogg
+  id: _Starlight_Lobby_HOME_Burn_Chamber_Starlight
+  path: /Audio/_Starlight/Lobby/HOME_Burn_Chamber_Starlight.ogg
   title: "HOME: Burn Chamber"
 
 - type: lobbyTrack
-  id: /Audio/_Starlight/Lobby/stenchOfWhiskey.ogg
+  id: _Starlight_Lobby_stenchOfWhiskey
+  path: /Audio/_Starlight/Lobby/stenchOfWhiskey.ogg
   title: Stench of Whiskey
 
 - type: lobbyTrack
-  id: /Audio/_Starlight/Lobby/Null_Scar_Gaze.ogg
+  id: _Starlight_Lobby_Null_Scar_Gaze
+  path: /Audio/_Starlight/Lobby/Null_Scar_Gaze.ogg
   title: Null Scar Gaze
 
 - type: lobbyTrack
-  id: /Audio/_Daiquiri/Lobby/test_nox_lux.ogg
+  id: _Daiquiri_Lobby_test_nox_lux
+  path: /Audio/_Daiquiri/Lobby/test_nox_lux.ogg
   title: NOX LUX
 
 - type: lobbyTrack
-  id: /Audio/_Daiquiri/Lobby/test_ifyouwerehere.ogg
+  id: _Daiquiri_Lobby_test_ifyouwerehere
+  path: /Audio/_Daiquiri/Lobby/test_ifyouwerehere.ogg
   title: If You Were Here
 
 - type: lobbyTrack
-  id: /Audio/_Daiquiri/Lobby/test_alone.ogg
+  id: _Daiquiri_Lobby_test_alone
+  path: /Audio/_Daiquiri/Lobby/test_alone.ogg
   title: Alone
 
 - type: lobbyTrack
-  id: /Audio/_Daiquiri/Lobby/Jpop/Ado_-_Useewa.ogg
+  id: _Daiquiri_Lobby_Jpop_Ado_-_Useewa
+  path: /Audio/_Daiquiri/Lobby/Jpop/Ado_-_Useewa.ogg
   title: Ado - Useewa
 
 - type: lobbyTrack
-  id: /Audio/_Daiquiri/Lobby/Jpop/Aimer_with_chelly_(EGOIST)_-_ninelie.ogg
+  id: _Daiquiri_Lobby_Jpop_Aimer_with_chelly__EGOIST__-_ninelie
+  path: /Audio/_Daiquiri/Lobby/Jpop/Aimer_with_chelly_(EGOIST)_-_ninelie.ogg
   title: Aimer with chelly (EGOIST) - ninelie
 
 - type: lobbyTrack
-  id: /Audio/_Daiquiri/Lobby/Jpop/Alive_-ClariS.ogg
+  id: _Daiquiri_Lobby_Jpop_Alive_-ClariS
+  path: /Audio/_Daiquiri/Lobby/Jpop/Alive_-ClariS.ogg
   title: Alive - ClariS
 
 - type: lobbyTrack
-  id: /Audio/_Daiquiri/Lobby/Jpop/Crossing_field_-_Lisa.ogg
+  id: _Daiquiri_Lobby_Jpop_Crossing_field_-_Lisa
+  path: /Audio/_Daiquiri/Lobby/Jpop/Crossing_field_-_Lisa.ogg
   title: Crossing field - Lisa
 
 - type: lobbyTrack
-  id: /Audio/_Daiquiri/Lobby/Jpop/Koko_de_ikiteru_-_jon-YAKITORY.ogg
+  id: _Daiquiri_Lobby_Jpop_Koko_de_ikiteru_-_jon-YAKITORY
+  path: /Audio/_Daiquiri/Lobby/Jpop/Koko_de_ikiteru_-_jon-YAKITORY.ogg
   title: Koko de ikiteru - jon-YAKITORY
 
 - type: lobbyTrack
-  id: /Audio/_Daiquiri/Lobby/Kpop/A2O_-_Neon.ogg
+  id: _Daiquiri_Lobby_Kpop_A2O_-_Neon
+  path: /Audio/_Daiquiri/Lobby/Kpop/A2O_-_Neon.ogg
   title: A2O - Neon
 
 - type: lobbyTrack
-  id: /Audio/_Daiquiri/Lobby/Kpop/BTS_-_Butter.ogg
+  id: _Daiquiri_Lobby_Kpop_BTS_-_Butter
+  path: /Audio/_Daiquiri/Lobby/Kpop/BTS_-_Butter.ogg
   title: BTS - Butter
 
 - type: lobbyTrack
-  id: /Audio/_Daiquiri/Lobby/Kpop/BTS_-_Dynamite.ogg
+  id: _Daiquiri_Lobby_Kpop_BTS_-_Dynamite
+  path: /Audio/_Daiquiri/Lobby/Kpop/BTS_-_Dynamite.ogg
   title: BTS - Dynamite
 
 - type: lobbyTrack
-  id: /Audio/_Daiquiri/Lobby/Kpop/Stray_Kids_-_Stray_Kids.ogg
+  id: _Daiquiri_Lobby_Kpop_Stray_Kids_-_Stray_Kids
+  path: /Audio/_Daiquiri/Lobby/Kpop/Stray_Kids_-_Stray_Kids.ogg
   title: Stray Kids - Stray Kids
 
 - type: lobbyTrack
-  id: /Audio/_Daiquiri/Lobby/Pop/Elley_Duhe_-_Middle_of_the_Night.ogg
+  id: _Daiquiri_Lobby_Pop_Elley_Duhe_-_Middle_of_the_Night
+  path: /Audio/_Daiquiri/Lobby/Pop/Elley_Duhe_-_Middle_of_the_Night.ogg
   title: Elley Duhe - Middle of the Night
 
 - type: lobbyTrack
-  id: /Audio/_Daiquiri/Lobby/Pop/Katy_Perry_-_Hot_N_Cold.ogg
+  id: _Daiquiri_Lobby_Pop_Katy_Perry_-_Hot_N_Cold
+  path: /Audio/_Daiquiri/Lobby/Pop/Katy_Perry_-_Hot_N_Cold.ogg
   title: Katy Perry - Hot N Cold
 
 - type: lobbyTrack
-  id: /Audio/_Daiquiri/Lobby/Videogames/08_Sciel_(Music_Box).ogg
+  id: _Daiquiri_Lobby_Videogames_08_Sciel__Music_Box_
+  path: /Audio/_Daiquiri/Lobby/Videogames/08_Sciel_(Music_Box).ogg
   title: Sciel (Music Box)
 
 - type: lobbyTrack
-  id: /Audio/_Daiquiri/Lobby/Videogames/13_Spring_Meadows_-_Eveil.ogg
+  id: _Daiquiri_Lobby_Videogames_13_Spring_Meadows_-_Eveil
+  path: /Audio/_Daiquiri/Lobby/Videogames/13_Spring_Meadows_-_Eveil.ogg
   title: Spring Meadows - Eveil
 
 - type: lobbyTrack
-  id: /Audio/_Daiquiri/Lobby/Videogames/23_Clair-Obscur.ogg
+  id: _Daiquiri_Lobby_Videogames_23_Clair-Obscur
+  path: /Audio/_Daiquiri/Lobby/Videogames/23_Clair-Obscur.ogg
   title: Clair-Obscur
 
 - type: lobbyTrack
-  id: /Audio/_Daiquiri/Lobby/Videogames/62_The_Reacher_-_Vers_le_Sommet.ogg
+  id: _Daiquiri_Lobby_Videogames_62_The_Reacher_-_Vers_le_Sommet
+  path: /Audio/_Daiquiri/Lobby/Videogames/62_The_Reacher_-_Vers_le_Sommet.ogg
   title: The Reacher - Vers le Sommet
 
 - type: lobbyTrack
-  id: /Audio/_Daiquiri/Lobby/Videogames/Keiichi_Okabe_NieR_Automata_-_Weight_of_the_World.ogg
+  id: _Daiquiri_Lobby_Videogames_Keiichi_Okabe_NieR_Automata_-_Weight_of_the_World
+  path: /Audio/_Daiquiri/Lobby/Videogames/Keiichi_Okabe_NieR_Automata_-_Weight_of_the_World.ogg
   title: Weight of the World
 
 - type: lobbyTrack
-  id: /Audio/_Daiquiri/Lobby/Videogames/Terraria_Calamity_Mod_-_The_Devourer_of_Gods.ogg
+  id: _Daiquiri_Lobby_Videogames_Terraria_Calamity_Mod_-_The_Devourer_of_Gods
+  path: /Audio/_Daiquiri/Lobby/Videogames/Terraria_Calamity_Mod_-_The_Devourer_of_Gods.ogg
   title: Terraria Calamity Mod - The Devourer of Gods
 
 - type: lobbyTrack
-  id: /Audio/_Daiquiri/Lobby/Videogames/The_Rebel_Path_-_CD_Project_Red.ogg
+  id: _Daiquiri_Lobby_Videogames_The_Rebel_Path_-_CD_Project_Red
+  path: /Audio/_Daiquiri/Lobby/Videogames/The_Rebel_Path_-_CD_Project_Red.ogg
   title: The Rebel Path - CD Project Red
 
 - type: lobbyTrack
-  id: /Audio/_Daiquiri/Lobby/Videogames/V_-_CD_Project_Red.ogg
+  id: _Daiquiri_Lobby_Videogames_V_-_CD_Project_Red
+  path: /Audio/_Daiquiri/Lobby/Videogames/V_-_CD_Project_Red.ogg
   title: V - CD Project Red
 
 - type: lobbyTrack
-  id: /Audio/_Daiquiri/Lobby/Rock/174_-_The_Rolling_Stones_-_Paint_It_Black_1966.ogg
+  id: _Daiquiri_Lobby_Rock_174_-_The_Rolling_Stones_-_Paint_It_Black_1966
+  path: /Audio/_Daiquiri/Lobby/Rock/174_-_The_Rolling_Stones_-_Paint_It_Black_1966.ogg
   title: The Rolling Stones - Paint It Black (1966)
 
 - type: lobbyTrack
-  id: /Audio/Lobby/absconditus.ogg
+  id: Lobby_absconditus
+  path: /Audio/Lobby/absconditus.ogg
   title: Absconditus
 
 - type: lobbyTrack
-  id: /Audio/Lobby/the_wizard.ogg
+  id: Lobby_the_wizard
+  path: /Audio/Lobby/the_wizard.ogg
   title: The Wizard
 
 - type: lobbyTrack
-  id: /Audio/Corvax/Lobby/service.ogg
+  id: Corvax_Lobby_service
+  path: /Audio/Corvax/Lobby/service.ogg
   title: Service
 
 - type: lobbyTrack
-  id: /Audio/Corvax/Lobby/nodecision.ogg
+  id: Corvax_Lobby_nodecision
+  path: /Audio/Corvax/Lobby/nodecision.ogg
   title: No Decision
 
 - type: lobbyTrack
-  id: /Audio/_Adventure/Lobby/Codebrain.ogg
+  id: _Adventure_Lobby_Codebrain
+  path: /Audio/_Adventure/Lobby/Codebrain.ogg
   title: Codebrain
 
 - type: lobbyTrack
-  id: /Audio/_Adventure/Lobby/Downtown.ogg
+  id: _Adventure_Lobby_Downtown
+  path: /Audio/_Adventure/Lobby/Downtown.ogg
   title: Downtown
 
 
 - type: lobbyTrack
-  id: /Audio/_Adventure/Lobby/Exploring.ogg
+  id: _Adventure_Lobby_Exploring
+  path: /Audio/_Adventure/Lobby/Exploring.ogg
   title: Exploring
 
 
 - type: lobbyTrack
-  id: /Audio/_Adventure/Lobby/Metropolis.ogg
+  id: _Adventure_Lobby_Metropolis
+  path: /Audio/_Adventure/Lobby/Metropolis.ogg
   title: Metropolis
 
 - type: lobbyTrack
-  id: /Audio/_Adventure/Lobby/PhoronLeak.ogg
+  id: _Adventure_Lobby_PhoronLeak
+  path: /Audio/_Adventure/Lobby/PhoronLeak.ogg
   title: Phoron Leak
 
 - type: lobbyTrack
-  id: /Audio/_Adventure/Lobby/Phoronindustry.ogg
+  id: _Adventure_Lobby_Phoronindustry
+  path: /Audio/_Adventure/Lobby/Phoronindustry.ogg
   title: Phoron Industry
 
 - type: lobbyTrack
-  id: /Audio/_Adventure/Lobby/Runner_in_motion.ogg
+  id: _Adventure_Lobby_Runner_in_motion
+  path: /Audio/_Adventure/Lobby/Runner_in_motion.ogg
   title: Runner in Motion
 
 
 - type: lobbyTrack
-  id: /Audio/_Starlight/Lobby/Liberation.ogg
+  id: _Starlight_Lobby_Liberation
+  path: /Audio/_Starlight/Lobby/Liberation.ogg
   title: Liberation

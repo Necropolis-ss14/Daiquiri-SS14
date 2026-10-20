@@ -272,8 +272,8 @@ public sealed partial class LobbyMusicQueueWindow : DefaultWindow
 
     private string TrackDisplayName(string filename)
     {
-        if (_prototypeManager.TryIndex<LobbyTrackPrototype>(filename, out var proto))
-            return proto.Title;
-        return filename;
+        var proto = _prototypeManager.EnumeratePrototypes<LobbyTrackPrototype>()
+            .FirstOrDefault(track => track.Path.ToString() == filename);
+        return proto?.Title ?? filename;
     }
 }
