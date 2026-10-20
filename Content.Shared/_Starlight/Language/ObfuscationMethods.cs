@@ -40,11 +40,19 @@ public sealed partial class RandomObfuscation : ObfuscationMethod
     internal override void Obfuscate(StringBuilder builder, string message, SharedLanguageSystem context)
     {
         const string Chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+        const string CyrillicChars = "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ";
         message = message.ToUpper();
+
+        var hash = message.GetHashCode();
 
         for (int i = 0; i < Chars.Length; i++)
         {
-            message = message.Replace(Chars[i], Chars[context.PseudoRandomNumber(message.GetHashCode() + i, 0, Chars.Length - 1)]);
+            message = message.Replace(Chars[i], Chars[context.PseudoRandomNumber(hash + i, 0, Chars.Length - 1)]);
+        }
+
+        for (int i = 0; i < CyrillicChars.Length; i++)
+        {
+            message = message.Replace(CyrillicChars[i], Chars[context.PseudoRandomNumber(hash + Chars.Length + i, 0, Chars.Length - 1)]);
         }
 
         builder.Append(message);
