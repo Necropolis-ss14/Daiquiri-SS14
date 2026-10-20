@@ -1,3 +1,5 @@
+using System;
+using System.Collections.Generic;
 using Content.Server.Administration; // Daiquiri
 using Content.Server._Daiquiri.Lobby;
 using Content.Shared._Daiquiri.Lobby;
@@ -21,23 +23,24 @@ public sealed partial class GrantVinylCommand : LocalizedCommands
     {
         return args.Length switch
         {
-            1 => CompletionResult.FromHintOptions(CompletionHelper.SessionNames(true, _player), "username"),
+            1 => CompletionResult.FromHintOptions(UsernameOptions(), "username"),
             2 => CompletionResult.FromHintOptions(CompletionHelper.PrototypeIDs<LobbyVinylPrototype>(), "vinylId"),
             _ => CompletionResult.Empty,
         };
+    }
+
+    private IEnumerable<CompletionOption> UsernameOptions()
+    {
+        yield return new CompletionOption("all");
+        foreach (var option in CompletionHelper.SessionNames(true, _player))
+            yield return option;
     }
 
     public override void Execute(IConsoleShell shell, string argStr, string[] args)
     {
         if (args.Length < 2)
         {
-            shell.WriteLine("Usage: grantvinyl <username> <vinylId> - give a record to the player.");
-            return;
-        }
-
-        if (!_player.TryGetSessionByUsername(args[0], out var session))
-        {
-            shell.WriteError($"No player found with username '{args[0]}'.");
+            shell.WriteLine("Usage: grantvinyl <username|all> <vinylId> - give a record to the player.");
             return;
         }
 
@@ -47,7 +50,28 @@ public sealed partial class GrantVinylCommand : LocalizedCommands
             return;
         }
 
-        _systems.GetEntitySystem<VinylGrantSystem>().Grant(session, args[1]);
+        var grants = _systems.GetEntitySystem<VinylGrantSystem>();
+
+        if (args[0].Equals("all", StringComparison.OrdinalIgnoreCase))
+        {
+            var count = 0;
+            foreach (var connected in _player.Sessions)
+            {
+                grants.Grant(connected, args[1]);
+                count++;
+            }
+
+            shell.WriteLine($"Record '{args[1]}' granted to {count} players.");
+            return;
+        }
+
+        if (!_player.TryGetSessionByUsername(args[0], out var session))
+        {
+            shell.WriteError($"No player found with username '{args[0]}'.");
+            return;
+        }
+
+        grants.Grant(session, args[1]);
         shell.WriteLine($"Record '{args[1]}' granted to {args[0]}.");
     }
 }
