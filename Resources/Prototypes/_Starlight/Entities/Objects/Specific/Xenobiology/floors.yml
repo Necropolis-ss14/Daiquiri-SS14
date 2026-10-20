@@ -78,7 +78,7 @@
 - type: stack
   parent: BaseTileStack
   id: FloorTileBluespace
-  name: стопка блюспейс-плиток
+  name: stack-bluespace-tile
   spawn: FloorTileItemBluespace
 
 - type: entity
@@ -177,7 +177,7 @@
 - type: stack
   parent: BaseTileStack
   id: FloorTileSepiaXenobiology
-  name: стопка сепия-плиток ксенобиологии
+  name: stack-sepia-xenobiology-tile
   spawn: FloorTileItemSepiaXenobiology
 
 - type: entity
