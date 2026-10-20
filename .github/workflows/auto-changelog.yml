@@ -61,31 +61,33 @@ jobs:
             });
             if (pr.data.length === 0) {
               console.log("No PR found for this branch. Skipping changelog update.");
-              return "";
+              core.setOutput("found", "false");
+              return null;
             }
             console.log(`PR Number: ${pr.data[0].number}`);
+            core.setOutput("found", "true");
             return pr.data[0].number;
 
       #re checkout
       - name: Re-checkout repository
-        if: steps.get_pr.outputs.result != ''
+        if: steps.get_pr.outputs.found == 'true'
         uses: actions/checkout@v3
         with:
           ref: ${{ github.ref }}
 
       - name: Set up Python
-        if: steps.get_pr.outputs.result != ''
+        if: steps.get_pr.outputs.found == 'true'
         uses: actions/setup-python@v2
         with:
           python-version: '3.x'
 
       - name: Install Dependencies
-        if: steps.get_pr.outputs.result != ''
+        if: steps.get_pr.outputs.found == 'true'
         run: |
           pip install pyyaml PyGithub
 
       - name: Parse PR and Update Changelog
-        if: steps.get_pr.outputs.result != ''
+        if: steps.get_pr.outputs.found == 'true'
         env:
           CHANGELOG_FILE_PATH: 'Resources/Changelog/ChangelogStarlight.yml'
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -96,17 +98,17 @@ jobs:
           echo "Script exited with code $?"
 
       - name: Display changelog after update
-        if: steps.get_pr.outputs.result != ''
+        if: steps.get_pr.outputs.found == 'true'
         run: |
           cat "Resources/Changelog/ChangelogStarlight.yml"
 
       - name: Git status before commit
-        if: steps.get_pr.outputs.result != ''
+        if: steps.get_pr.outputs.found == 'true'
         run: |
           git status
 
       - name: Commit and push changes
-        if: steps.get_pr.outputs.result != ''
+        if: steps.get_pr.outputs.found == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"

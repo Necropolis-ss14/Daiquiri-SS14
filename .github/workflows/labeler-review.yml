@@ -47,6 +47,8 @@ jobs:
     needs: collect_reviews
     if: needs.collect_reviews.outputs.approved != '[]'
     runs-on: ubuntu-latest
+    outputs:
+      approved_by_team: ${{ steps.mark.outputs.approved_by_team }}
     strategy:
       matrix:
         user: ${{ fromJSON(needs.collect_reviews.outputs.approved) }}
@@ -59,12 +61,13 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.LABELER_PAT }}
 
       - name: Mark if approved by team
+        id: mark
         if: steps.membership.outputs.isTeamMember == 'true'
-        run: echo "approved_by_team=true" >> $GITHUB_ENV
+        run: echo "approved_by_team=true" >> $GITHUB_OUTPUT
 
   add_label_approved:
     needs: check_approved
-    if: env.approved_by_team == 'true'
+    if: needs.check_approved.outputs.approved_by_team == 'true'
     runs-on: ubuntu-latest
     permissions:
       pull-requests: write
@@ -77,6 +80,8 @@ jobs:
     needs: collect_reviews
     if: needs.collect_reviews.outputs.changes_requested != '[]'
     runs-on: ubuntu-latest
+    outputs:
+      changes_by_team: ${{ steps.mark.outputs.changes_by_team }}
     strategy:
       matrix:
         user: ${{ fromJSON(needs.collect_reviews.outputs.changes_requested) }}
@@ -89,12 +94,13 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.LABELER_PAT }}
 
       - name: Mark if changes requested by team
+        id: mark
         if: steps.membership.outputs.isTeamMember == 'true'
-        run: echo "changes_by_team=true" >> $GITHUB_ENV
+        run: echo "changes_by_team=true" >> $GITHUB_OUTPUT
 
   add_label_changes:
     needs: check_changes_requested
-    if: env.changes_by_team == 'true'
+    if: needs.check_changes_requested.outputs.changes_by_team == 'true'
     runs-on: ubuntu-latest
     permissions:
       pull-requests: write
