@@ -27,11 +27,13 @@
                             <BoxContainer Orientation="Vertical" HorizontalAlignment="Center" MaxWidth="800">
                                 <Label Name="ServerName" Access="Public" StyleClasses="LabelHeadingBigger" VAlign="Center"
                                        HorizontalExpand="True" HorizontalAlignment="Center" Text="{Loc 'ui-lobby-welcome'}" />
-                                <Button Name="AchievementsButton" Access="Public" Text="{Loc 'ui-lobby-achievements-button'}"
-                                        HorizontalAlignment="Center" Margin="0 4 0 4" />
                                 <controls:HLine Color="{x:Static style:StyleNano.NanoGold}" Thickness="2" />
-                                <info:LinkBanner Name="LinkBanner" VerticalExpand="false" HorizontalAlignment="Center"
-                                                 Margin="3 3 3 3" />
+                                <BoxContainer Orientation="Horizontal" HorizontalAlignment="Center" SeparationOverride="4">
+                                    <Button Name="AchievementsButton" Access="Public" Text="{Loc 'ui-lobby-achievements-button'}"
+                                            Margin="0 4 0 4" />
+                                    <info:LinkBanner Name="LinkBanner" VerticalExpand="false" HorizontalAlignment="Center"
+                                                     Margin="3 3 3 3" />
+                                </BoxContainer>
                                 <controls:StripeBack>
                                     <BoxContainer Orientation="Horizontal" SeparationOverride="6" Margin="3 3 3 3">
                                         <cc:UICommandButton Command="observe" Name="ObserveButton" Access="Public"
