@@ -4,10 +4,10 @@ language-Universal-name = Универсальный
 language-Universal-description = Что ты такое?
 
 language-GalacticCommon-name = Галактический общий
-language-GalacticCommon-description = Общегалактический язык, созданный для межвидового общения. Его знает каждый спейсер!
+language-GalacticCommon-description = Общегалактический язык, созданный для межвидового общения. Его знает каждый утилизатор!
 
 language-Sign-name = Галактический жестовый
-language-Sign-description = Жестовый язык, commonly используемый глухими или немыми. Особенно популярен у спейсеров благодаря практичности в безвоздушной среде.
+language-Sign-description = Жестовый язык, commonly используемый глухими или немыми. Особенно популярен у утилизаторов благодаря практичности в безвоздушной среде.
 
 language-SolCommon-name = Сол общий
 language-SolCommon-description = Искусственный язык, разработанный Транс-Солнечной Федерацией для простоты и лаконичного общения.

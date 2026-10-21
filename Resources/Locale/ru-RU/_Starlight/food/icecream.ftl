@@ -1,5 +1,5 @@
 ent-FoodVanillaIceCream = ванильное мороженое
-ent-FoodVanillaIceCream-desc = Порция ванильного мороженого, знакомая каждому спейсеру.
+ent-FoodVanillaIceCream-desc = Порция ванильного мороженого, знакомая каждому утилизатору.
 ent-FoodChocolateIceCream = шоколадное мороженое
 ent-FoodChocolateIceCream-desc = Порция насыщенного шоколада с тёмной шоколадной крошкой и палочкой корицы.
 ent-FoodStrawberryIceCream = клубничное мороженое

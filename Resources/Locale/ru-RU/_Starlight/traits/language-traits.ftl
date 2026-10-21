@@ -10,7 +10,7 @@ trait-language-xenosocialized-name = Ксеносоциализированны�
 trait-language-xenosocialized-desc = Вы выросли, не выучив язык, который обычно использует ваш вид.
 
 trait-language-signlanguage-name = Язык жестов
-trait-language-signlanguage-desc = Язык жестов, обычно используемый глухими или немыми. Особенно популярен у спейсеров из-за практичности в безвоздушных средах.
+trait-language-signlanguage-desc = Язык жестов, обычно используемый глухими или немыми. Особенно популярен у утилизаторов из-за практичности в безвоздушных средах.
 
 trait-language-bubblish-name = Бульбский
 trait-language-bubblish-desc = Вы научились общаться на бульбском, языке слаймов, на котором говорят с помощью бульков и хлопков.
