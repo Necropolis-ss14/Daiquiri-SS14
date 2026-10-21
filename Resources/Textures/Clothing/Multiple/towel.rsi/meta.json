@@ -10,12 +10,12 @@
     {
       "name": "icon"
     },
-	{
-	  "name": "iconstripe"
-	},
-	{
-	  "name": "NTmono"
-	},
+    {
+      "name": "iconstripe"
+    },
+    {
+      "name": "NTmono"
+    },
     {
       "name": "equipped-INNERCLOTHING",
       "directions": 4
@@ -24,7 +24,7 @@
       "name": "equipped-BELT",
       "directions": 4
     },
-	{
+    {
       "name": "equipped-HELMET",
       "directions": 4
     },

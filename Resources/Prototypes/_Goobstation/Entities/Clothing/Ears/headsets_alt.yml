@@ -10,6 +10,7 @@
       - EncryptionKeyCommon
       - EncryptionKeyService
   - type: Sprite
+    state: icon_alt
     sprite: _Goobstation/Clothing/Ears/Headsets/radiohost.rsi
   - type: Clothing
     sprite: _Goobstation/Clothing/Ears/Headsets/radiohost.rsi

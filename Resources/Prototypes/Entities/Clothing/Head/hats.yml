@@ -142,9 +142,9 @@
   description: A beret with the cargo department's insignia.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hats/beret_qm.rsi
+    sprite: _Goobstation/Clothing/Head/Hats/beret_qm.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hats/beret_qm.rsi
+    sprite: _Goobstation/Clothing/Head/Hats/beret_qm.rsi
   - type: Tag
     tags:
     - PetWearable
@@ -539,9 +539,9 @@
   description: A strange-looking red hat that most certainly belongs to a powerful magic-user.
   components:
   - type: Sprite
-    sprite: _Starlight/Clothing/Head/Hats/wizard_red.rsi # Starlight resprited
+    sprite: Clothing/Head/Hats/redwizard.rsi # Starlight resprited
   - type: Clothing
-    sprite: _Starlight/Clothing/Head/Hats/wizard_red.rsi # Starlight resprited
+    sprite: Clothing/Head/Hats/redwizard.rsi
   - type: Tag
     tags:
     - PetWearable
@@ -825,9 +825,9 @@
   description: A strange-looking blue hat that most certainly belongs to a powerful magic-user.
   components:
   - type: Sprite
-    sprite: _Starlight/Clothing/Head/Hats/wizard_blue.rsi # Starlight resprited
+    sprite: Clothing/Head/Hats/wizardhat.rsi # Starlight resprited
   - type: Clothing
-    sprite: _Starlight/Clothing/Head/Hats/wizard_blue.rsi # Starlight resprited
+    sprite: Clothing/Head/Hats/wizardhat.rsi
   - type: Tag
     tags:
     - PetWearable

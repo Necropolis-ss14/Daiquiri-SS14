@@ -10,50 +10,50 @@
     {
       "name": "icon"
     },
-	{
+    {
       "name": "icon-light",
-	  "delays": [
+      "delays": [
         [
           0.1,
           0.1,
           0.1,
           0.1
         ]
-	  ]
+      ]
     },
     {
       "name": "off-equipped-HELMET",
       "directions": 4
     },
-	{
+    {
       "name": "on-equipped-HELMET",
       "directions": 4,
-	  "delays": [
+      "delays": [
         [
           0.1,
           0.1,
           0.1,
           0.1
         ],
-		[
+        [
           0.1,
           0.1,
           0.1,
           0.1
         ],
-		[
+        [
           0.1,
           0.1,
           0.1,
           0.1
         ],
-		[
+        [
           0.1,
           0.1,
           0.1,
           0.1
         ]
-	  ]
+      ]
     },
     {
       "name": "off-equipped-HELMET-vox",

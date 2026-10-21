@@ -72,9 +72,9 @@
   description: Полумаска, закрывающая рот и нос, но не глаза.
   components:
   - type: Sprite
-    sprite: _Starlight/Clothing/Mask/gashalf.rsi
+    sprite: _Goobstation/Clothing/Mask/gashalf.rsi
   - type: Clothing
-    sprite: _Starlight/Clothing/Mask/gashalf.rsi
+    sprite: _Goobstation/Clothing/Mask/gashalf.rsi
   - type: BreathMask
   - type: IngestionBlocker
   - type: HideLayerClothing

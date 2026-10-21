@@ -392,9 +392,9 @@
   description: Хороший репортёр остаётся скептиком на всю жизнь.
   components:
   - type: Sprite
-    sprite: _Starlight/Clothing/Uniforms/Jumpskirt/reporter.rsi
+    sprite: _Goobstation/Clothing/Uniforms/Jumpskirt/Civilian/reporter_dress.rsi
   - type: Clothing
-    sprite: _Starlight/Clothing/Uniforms/Jumpskirt/reporter.rsi
+    sprite: _Goobstation/Clothing/Uniforms/Jumpskirt/Civilian/reporter_dress.rsi
 
 - type: entity
   parent: ClothingUniformSkirtBase

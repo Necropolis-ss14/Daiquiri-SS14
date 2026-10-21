@@ -9,6 +9,7 @@
       - EncryptionKeyCentCom
       - EncryptionKeyStationMaster
   - type: Sprite
+    state: icon_alt
     sprite: Clothing/Ears/Headsets/centcom.rsi
   - type: Clothing
     sprite: Clothing/Ears/Headsets/centcom.rsi
@@ -168,9 +169,10 @@
       key_slots:
       - EncryptionKeyGorlex
   - type: Sprite
-    sprite: Clothing/Ears/Headsets/syndicate.rsi
+    state: icon_alt
+    sprite: Clothing/Ears/Headsets/base.rsi
   - type: Clothing
-    sprite: Clothing/Ears/Headsets/syndicate.rsi
+    sprite: Clothing/Ears/Headsets/base.rsi
   - type: RadioChime
     sound:
       path: /Audio/_Starlight/Effects/Radio/marauder_commander.ogg

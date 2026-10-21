@@ -16,9 +16,9 @@
   description: A terribly ragged and frayed grey jumpsuit. It looks like it hasn't been washed in over a decade.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/ancient.rsi
+    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/color/color.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/ancient.rsi
+    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/color/ancient.rsi
 
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase]
@@ -28,7 +28,7 @@
   components:
   - type: RollUpSleeves
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/bartender.rsi
+    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/Civilian/bartender.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -64,9 +64,9 @@
   components:
   - type: RollUpSleeves
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/captain.rsi
+    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/Civilian/captain.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/captain.rsi
+    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/Civilian/captain.rsi
 
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase]
@@ -76,7 +76,7 @@
   components:
   - type: RollUpSleeves
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/cargotech.rsi
+    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/Cargo/cargotech.rsi
 
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase]
@@ -86,7 +86,9 @@
   components:
   - type: RollUpSleeves
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/salvage.rsi
+    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/Cargo/salvage.rsi
+  - type: Clothing
+    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/Cargo/salvage.rsi
 
 - type: entity
   parent: [ClothingUniformBase, BaseCommandContraband, ClothingUniformFoldableBase]
@@ -95,7 +97,7 @@
   description: It's a high visibility jumpsuit given to those engineers insane enough to achieve the rank of Chief Engineer.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/ce.rsi
+    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/Engineering/ce.rsi
 
 - type: entity
   parent: [ClothingUniformBase, BaseCommandContraband]
@@ -159,9 +161,9 @@
   description: Can't cook without this.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/chef.rsi
+    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/Civilian/chef.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/chef.rsi
+    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/Civilian/chef.rsi
 
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase]
@@ -171,7 +173,7 @@
   components:
   - type: RollUpSleeves
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/chemistry.rsi
+    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/Medical/chemistry.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -180,9 +182,9 @@
   description: It's made of a special fiber that gives special protection against biohazards. It has a virologist rank stripe on it.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/virology.rsi
+    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/Medical/virology.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/virology.rsi
+    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/Medical/virology.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -191,9 +193,9 @@
   description: It's made of a special fiber that gives special protection against biohazards. It has a geneticist rank stripe on it.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/genetics.rsi
+    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/Medical/genetics.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/genetics.rsi
+    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/Medical/genetics.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -257,7 +259,7 @@
   components:
   - type: RollUpSleeves
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/cmo.rsi
+    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/Medical/cmo.rsi
 
 - type: entity
   parent: [ClothingUniformBase, BaseCommandContraband]
@@ -277,9 +279,9 @@
   description: Someone who wears this means business.
   components:
     - type: Sprite
-      sprite: Clothing/Uniforms/Jumpsuit/detective.rsi
+      sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/Security/detective.rsi
     - type: Clothing
-      sprite: Clothing/Uniforms/Jumpsuit/detective.rsi
+      sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/Security/detective.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -288,9 +290,9 @@
   description: A hard-boiled private investigator's grey suit, complete with tie clip.
   components:
     - type: Sprite
-      sprite: Clothing/Uniforms/Jumpsuit/detective_grey.rsi
+      sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/Security/detective_grey.rsi
     - type: Clothing
-      sprite: Clothing/Uniforms/Jumpsuit/detective_grey.rsi
+      sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/Security/detective_grey.rsi
 
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase]
@@ -300,7 +302,7 @@
   components:
   - type: RollUpSleeves
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/engineering.rsi
+    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/Engineering/engineering.rsi
 
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase]
@@ -309,7 +311,7 @@
   description: Woven in a grungy, warm orange. Lets others around you know that you really mean business when it comes to work.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/engineering_hazard.rsi
+    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/Engineering/engineering_hazard.rsi
 
 - type: entity
   parent: [ClothingUniformBase, BaseCommandContraband, ClothingUniformFoldableBase]
@@ -319,7 +321,7 @@
   components:
   - type: RollUpSleeves
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/hop.rsi
+    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/Civilian/hop.rsi
 
 - type: entity
   parent: [ClothingUniformBase, BaseCommandContraband]
@@ -329,9 +331,9 @@
   components:
   - type: RollUpSleeves
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/hos.rsi
+    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/Security/hos.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/hos.rsi
+    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/Security/hos.rsi
   - type: Item
     inhandVisuals:
       left:
@@ -352,9 +354,9 @@
   description: It's a turtleneck worn by those strong and disciplined enough to achieve the position of Head of Security.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/hos_alt.rsi
+    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/Security/hos_alt.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/hos_alt.rsi
+    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/Security/hos_alt.rsi
 
 - type: entity
   parent: [ClothingUniformBase, BaseCommandContraband]
@@ -363,9 +365,9 @@
   description: A blue jumpsuit of Head of Security.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/hos_blue.rsi
+    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/Security/hos_blue.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/hos_blue.rsi
+    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/Security/hos_blue.rsi
 
 - type: entity
   parent: [ClothingUniformBase, BaseCommandContraband]
@@ -374,9 +376,9 @@
   description: A grey jumpsuit of Head of Security, which make him look somewhat like a assistant.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/hos_grey.rsi
+    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/Security/hos_grey.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/hos_grey.rsi
+    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/Security/hos_grey.rsi
 
 - type: entity
   parent: [ClothingUniformBase, BaseCommandContraband]
@@ -407,7 +409,7 @@
   description: Has a strong earthy smell to it. Hopefully it's merely dirty as opposed to soiled.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/hydro.rsi
+    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/Civilian/hydro.rsi
 
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase]
@@ -417,7 +419,7 @@
   components:
   - type: RollUpSleeves
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/janitor.rsi
+    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/Civilian/janitor.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -426,9 +428,9 @@
   description: Traditional chinese clothing.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/kimono.rsi
+    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/Civilian/kimono.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/kimono.rsi
+    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/Civilian/kimono.rsi
 
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase]
@@ -438,7 +440,7 @@
   components:
   - type: RollUpSleeves
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/medical.rsi
+    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/Medical/medical.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -447,9 +449,9 @@
   description: ...
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/mime.rsi
+    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/Civilian/mime.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/mime.rsi
+    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/Civilian/mime.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -459,9 +461,9 @@
   components:
   - type: RollUpSleeves
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/paramedic.rsi
+    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/Medical/paramedic.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/paramedic.rsi
+    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/Medical/paramedic.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -487,7 +489,7 @@
   components:
   - type: RollUpSleeves
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/color.rsi
+    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/color/prisoner.rsi
     layers:
     - state: icon
       color: "#ff8300"
@@ -503,7 +505,7 @@
         color: "#ff8300"
       - state: prisoner-inhand-right
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/color.rsi
+    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/color/prisoner.rsi
     clothingVisuals:
       jumpsuit:
       - state: equipped-INNERCLOTHING
@@ -528,9 +530,9 @@
   components:
   - type: RollUpSleeves
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/qm.rsi
+    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/Cargo/qm.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/qm.rsi
+    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/Cargo/qm.rsi
 
 - type: entity
   parent: [ClothingUniformBase, BaseCommandContraband]
@@ -539,9 +541,9 @@
   description: A sharp turtleneck made for the hardy work environment of supply.
   components:
     - type: Sprite
-      sprite: Clothing/Uniforms/Jumpsuit/qmturtle.rsi
+      sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/Cargo/qmturtle.rsi
     - type: Clothing
-      sprite: Clothing/Uniforms/Jumpsuit/qmturtle.rsi
+      sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/Cargo/qmturtle.rsi
 
 - type: entity
   parent: [ClothingUniformBase, BaseCommandContraband]
@@ -561,9 +563,9 @@
   description: It's a turtleneck worn by those with the know-how to achieve the position of Research Director. Its fabric provides minor protection from biological contaminants.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/rnd.rsi
+    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/RND/rnd.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/rnd.rsi
+    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/RND/rnd.rsi
 
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase]
@@ -573,7 +575,7 @@
   components:
   - type: RollUpSleeves
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/scientist.rsi
+    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/RND/scientist.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -593,7 +595,7 @@
   description: It's a slimming black with reinforced seams; great for industrial work.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/roboticist.rsi
+    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/RND/roboticist.rsi
 
 - type: entity
   parent: [ClothingUniformBase, BaseSecurityContraband, ClothingUniformFoldableBase]
@@ -603,7 +605,7 @@
   components:
   - type: RollUpSleeves
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/security.rsi
+    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/Security/security.rsi
   - type: Item
     inhandVisuals:
       left:
@@ -616,6 +618,8 @@
         color: "#C12D30"
         sprite: Clothing/Uniforms/Jumpsuit/color.rsi
       - state: overlay-inhand-right
+  - type: Clothing
+    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/Security/security.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -635,9 +639,9 @@
   description: A tactical relic of years past before NanoTrasen decided it was cheaper to dye the suits red instead of washing out the blood. # SL
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/security_grey.rsi
+    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/Security/security_grey.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/security_grey.rsi
+    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/Security/security_grey.rsi
 
 - type: entity
   parent: [ClothingUniformBase, BaseSecurityContraband]
@@ -657,9 +661,9 @@
   description: A formal security suit for officers complete with NanoTrasen belt buckle. # SL
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/warden.rsi
+    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/Security/warden.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/warden.rsi
+    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/Security/warden.rsi
   - type: Item
     inhandVisuals:
       left:
@@ -845,9 +849,9 @@
   description: Uniform for elite syndicate operatives performing tactical operations in deep space.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/operative.rsi
+    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/Syndicate/operative.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/operative.rsi
+    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/Syndicate/operative.rsi
   - type: StaticPrice
     price: 500
 
@@ -873,9 +877,9 @@
   description: Clothing for real mercenaries who have gone through fire, water and the jungle of planets flooded with dangerous monsters or targets for which a reward has been assigned.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/mercenary.rsi
+    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/Syndicate/mercenary.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/mercenary.rsi
+    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/Syndicate/mercenary.rsi
 
 - type: entity
   parent: UnsensoredClothingUniformBase
@@ -896,7 +900,7 @@
   components:
   - type: RollUpSleeves
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/atmos.rsi
+    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/Engineering/atmos.rsi
 
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase]
@@ -914,9 +918,9 @@
   description: I don't lose things. I place things in locations which later elude me.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/psychologist.rsi
+    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/Medical/psychologist.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/psychologist.rsi
+    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/Medical/psychologist.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -1178,9 +1182,9 @@
   description: A sign of skill and prestige within the engineering department.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/senior_engineer.rsi
+    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/Engineering/senior_engineer.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/senior_engineer.rsi
+    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/Engineering/senior_engineer.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -1189,9 +1193,9 @@
   description: A sign of skill and prestige within the science department.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/senior_researcher.rsi
+    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/RND/senior_researcher.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/senior_researcher.rsi
+    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/RND/senior_researcher.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -1200,9 +1204,9 @@
   description: A sign of skill and prestige within the medical department.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/senior_physician.rsi
+    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/Medical/senior_physician.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/senior_physician.rsi
+    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/Medical/senior_physician.rsi
 
 - type: entity
   parent: [ClothingUniformBase, BaseSecurityContraband]
@@ -1211,9 +1215,9 @@
   description: A sign of skill and prestige within the security department.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/senior_officer.rsi
+    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/Security/senior_officer.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/senior_officer.rsi
+    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/Security/senior_officer.rsi
 
 - type: entity
   parent: [ClothingUniformBase, BaseSlicingRefinable]

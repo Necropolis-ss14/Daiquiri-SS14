@@ -1,7 +1,7 @@
 {
   "version": 1,
   "license": "CC-BY-SA-3.0",
-  "copyright": "Made by IProduceWidgets, fix digi sprites by DreamlyJack",
+  "copyright": "Made by IProduceWidgets Synth states from Afterlight.; Made by IProduceWidgets Synth states from Afterlight.; Made by IProduceWidgets, fix digi sprites by DreamlyJack",
   "size": {
     "x": 32,
     "y": 32
@@ -15,15 +15,19 @@
       "directions": 4
     },
     {
-      "name": "equipped-FEET-reptilian",
-      "directions": 4
-    },
-    {
       "name": "inhand-left",
       "directions": 4
     },
     {
       "name": "inhand-right",
+      "directions": 4
+    },
+    {
+      "name": "equipped-FEET-synth",
+      "directions": 4
+    },
+    {
+      "name": "equipped-FEET-reptilian",
       "directions": 4
     }
   ]

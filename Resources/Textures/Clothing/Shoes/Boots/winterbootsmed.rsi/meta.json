@@ -11,10 +11,6 @@
       "name": "icon"
     },
     {
-      "name": "equipped-FEET-reptilian",
-      "directions": 4
-    },
-    {
       "name": "equipped-FEET",
       "directions": 4
     },
@@ -24,6 +20,10 @@
     },
     {
       "name": "inhand-right",
+      "directions": 4
+    },
+    {
+      "name": "equipped-FEET-reptilian",
       "directions": 4
     }
   ]

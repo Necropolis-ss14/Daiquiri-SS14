@@ -212,9 +212,9 @@
   description: A bizarre gem-encrusted blue robe that radiates magical energies.
   components:
   - type: Sprite
-    sprite: _Starlight/Clothing/OuterClothing/Misc/wizard_blue.rsi # Starlight resprited
+    sprite: Clothing/OuterClothing/Misc/wizard.rsi # Starlight resprited
   - type: Clothing
-    sprite: _Starlight/Clothing/OuterClothing/Misc/wizard_blue.rsi # Starlight resprited
+    sprite: Clothing/OuterClothing/Misc/wizard.rsi
   - type: Tag
     tags:
     - CorgiWearable
@@ -227,9 +227,9 @@
   description: A bizarre gem-encrusted red robe that radiates magical energies. # Starlight, description fix
   components:
   - type: Sprite
-    sprite: _Starlight/Clothing/OuterClothing/Misc/wizard_red.rsi # Starlight resprited
+    sprite: Clothing/OuterClothing/Misc/redwizard.rsi # Starlight resprited
   - type: Clothing
-    sprite: _Starlight/Clothing/OuterClothing/Misc/wizard_red.rsi # Starlight resprited
+    sprite: Clothing/OuterClothing/Misc/redwizard.rsi
   - type: Tag
     tags:
     - CorgiWearable

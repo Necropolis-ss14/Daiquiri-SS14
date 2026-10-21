@@ -532,10 +532,10 @@
   description: "Cold plasteel knuckle dusters, makes your punches hit much harder."
   components:
   - type: Sprite
-    sprite: Clothing/Hands/Gloves/KnuckleDusters/knuckleduster.rsi
+    sprite: _Goobstation/Clothing/Hands/Gloves/knuckleduster.rsi
     state: knuckleduster
   - type: Clothing
-    sprite: Clothing/Hands/Gloves/KnuckleDusters/knuckleduster.rsi
+    sprite: _Goobstation/Clothing/Hands/Gloves/knuckleduster.rsi
   - type: Fiber
     fiberColor: fibers-silver
   - type: MeleeWeapon
@@ -564,10 +564,10 @@
   description: "Brass knuckle dusters, just like how they used to make em and still hit just as hard."
   components:
   - type: Sprite
-    sprite: Clothing/Hands/Gloves/KnuckleDusters/brassknuckleduster.rsi
+    sprite: _Goobstation/Clothing/Hands/Gloves/knuckleduster.rsi
     state: brassknuckleduster
   - type: Clothing
-    sprite: Clothing/Hands/Gloves/KnuckleDusters/brassknuckleduster.rsi
+    sprite: _Goobstation/Clothing/Hands/Gloves/knuckleduster.rsi
   - type: Construction
     graph: ClothingHandsKnuckleDustersBrass
     node: icon
@@ -583,10 +583,10 @@
   description: "24karat gold infused with plasteel and branded with the NanoTrasen logo. A true symbol of the Quartermaster's might." # SL
   components:
   - type: Sprite
-    sprite: Clothing/Hands/Gloves/KnuckleDusters/goldenknuckleduster.rsi
+    sprite: _Goobstation/Clothing/Hands/Gloves/knuckleduster.rsi
     state: goldenknuckleduster
   - type: Clothing
-    sprite: Clothing/Hands/Gloves/KnuckleDusters/goldenknuckleduster.rsi
+    sprite: _Goobstation/Clothing/Hands/Gloves/knuckleduster.rsi
   - type: Fiber
     fiberColor: fibers-gold
   - type: MeleeWeapon
@@ -616,10 +616,10 @@
   description: "Plastitanium knuckle dusters branded with the blood-red S. A real man beats someone to death with these."
   components:
   - type: Sprite
-    sprite: Clothing/Hands/Gloves/KnuckleDusters/syndicateknuckleduster.rsi
+    sprite: _Goobstation/Clothing/Hands/Gloves/knuckleduster.rsi
     state: syndicateknuckleduster
   - type: Clothing
-    sprite: Clothing/Hands/Gloves/KnuckleDusters/syndicateknuckleduster.rsi
+    sprite: _Goobstation/Clothing/Hands/Gloves/knuckleduster.rsi
   - type: MeleeWeapon
     attackRate: 1.5
     damage:
@@ -714,10 +714,10 @@
   description: "Blessed by the Gods to break all those who don't obey."
   components:
   - type: Sprite
-    sprite: Clothing/Hands/Gloves/KnuckleDusters/goldenknuckleduster.rsi
+    sprite: _Goobstation/Clothing/Hands/Gloves/knuckleduster.rsi
     state: goldenknuckleduster
   - type: Clothing
-    sprite: Clothing/Hands/Gloves/KnuckleDusters/goldenknuckleduster.rsi
+    sprite: _Goobstation/Clothing/Hands/Gloves/knuckleduster.rsi
   - type: Fiber
     fiberColor: fibers-gold
   - type: MeleeWeapon

@@ -245,11 +245,13 @@
     state: "icon"
     sprite: Clothing/Shoes/Specific/large_clown.rsi
   - type: Clothing
-    sprite: Clothing/Shoes/Specific/large_clown.rsi
     clothingVisuals:
       shoes:
       - state: equipped-FEET
         offset: "0, -0.02"
+      - state: equipped-FEET-reptilian
+        offset: "0, -0.02"
+    sprite: Clothing/Shoes/Specific/large_clown.rsi
   - type: Item
     size: Small
     sprite: Clothing/Shoes/Specific/large_clown.rsi
@@ -266,11 +268,13 @@
   - type: Sprite
     sprite: Clothing/Shoes/Specific/skates.rsi
   - type: Clothing
-    sprite: Clothing/Shoes/Specific/skates.rsi
     clothingVisuals:
       shoes:
       - state: equipped-FEET
         offset: "0, -0.04"
+      - state: equipped-FEET-reptilian
+        offset: "0, -0.04"
+    sprite: Clothing/Shoes/Specific/skates.rsi
   - type: Item
     sprite: Clothing/Shoes/Specific/skates.rsi
   - type: ClothingSpeedModifier

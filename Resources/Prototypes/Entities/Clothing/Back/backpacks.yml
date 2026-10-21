@@ -184,7 +184,7 @@
   description: A robust backpack for stealing cargo's loot.
   components:
     - type: Sprite
-      sprite: Clothing/Back/Backpacks/cargo.rsi
+      sprite: _Goobstation/Clothing/Back/Backpacks/cargo.rsi
 
 - type: entity
   parent: ClothingBackpack
@@ -282,7 +282,7 @@
   - type: ExplosionResistance #SL
     damageCoefficient: 0.1 #SL
   - type: Sprite #SL
-    sprite: _Starlight/Clothing/Back/Backpacks/ntnc_bag.rsi #SL
+    sprite: Clothing/Back/Backpacks/ertsec.rsi #SL
   - type: Storage
     maxItemSize: Huge #SL
     grid: #SL

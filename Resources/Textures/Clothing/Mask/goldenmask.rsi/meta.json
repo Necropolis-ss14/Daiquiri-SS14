@@ -1,7 +1,7 @@
 {
   "version": 1,
   "license": "CC-BY-SA-3.0",
-  "copyright": "Taken from tgstation at commit https://github.com/vgstation-coders/vgstation13/blob/HEAD/icons/obj/clothing/masks.dmi. Vox edits by EmoGarbage404 (Github), Reptilian edits by TiniestShark (Github)",
+  "copyright": "Taken from tgstation at commit https://github.com/vgstation-coders/vgstation13/blob/HEAD/icons/obj/clothing/masks.dmi. Vox and Reptilian edits by EmoGarbage404 (Github), equipped-MASK-feroxi by RedTerror Synth states from Afterlight.; Taken from tgstation at commit https://github.com/vgstation-coders/vgstation13/blob/HEAD/icons/obj/clothing/masks.dmi. Vox and Reptilian edits by EmoGarbage404 (Github), equipped-MASK-feroxi by RedTerror Synth states from Afterlight.; Taken from tgstation at commit https://github.com/vgstation-coders/vgstation13/blob/HEAD/icons/obj/clothing/masks.dmi. Vox edits by EmoGarbage404 (Github), Reptilian edits by TiniestShark (Github)",
   "size": {
     "x": 32,
     "y": 32
@@ -28,15 +28,27 @@
       "directions": 4
     },
     {
-      "name": "equipped-MASK-reptilian",
-      "directions": 4
-    },
-    {
       "name": "inhand-left",
       "directions": 4
     },
     {
       "name": "inhand-right",
+      "directions": 4
+    },
+    {
+      "name": "equipped-MASK-vulpkanin",
+      "directions": 4
+    },
+    {
+      "name": "equipped-MASK-feroxi",
+      "directions": 4
+    },
+    {
+      "name": "equipped-MASK-synth",
+      "directions": 4
+    },
+    {
+      "name": "equipped-MASK-reptilian",
       "directions": 4
     }
   ]

@@ -1,7 +1,7 @@
 {
   "version": 1,
   "license": "CC0-1.0",
-  "copyright": "Created by EmoGarbage404. Vox states made by Flareguy, modified from magboots.rsi, fix digi sprites by DreamlyJack, Resprited by Xaunto",
+  "copyright": "Created by EmoGarbage404. Vox states made by Flareguy, modified from magboots.rsi; Created by EmoGarbage404. Vox states made by Flareguy, modified from magboots.rsi; Created by EmoGarbage404. Vox states made by Flareguy, modified from magboots.rsi, fix digi sprites by DreamlyJack, Resprited by Xaunto",
   "size": {
     "x": 32,
     "y": 32
@@ -24,14 +24,6 @@
       "directions": 4
     },
     {
-      "name": "equipped-FEET-reptilian",
-      "directions": 4
-    },
-    {
-      "name": "on-equipped-FEET-reptilian",
-      "directions": 4
-    },
-    {
       "name": "icon"
     },
     {
@@ -51,6 +43,14 @@
     },
     {
       "name": "on-inhand-right",
+      "directions": 4
+    },
+    {
+      "name": "equipped-FEET-reptilian",
+      "directions": 4
+    },
+    {
+      "name": "on-equipped-FEET-reptilian",
       "directions": 4
     }
   ]
