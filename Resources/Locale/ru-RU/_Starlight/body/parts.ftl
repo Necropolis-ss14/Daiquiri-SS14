@@ -88,6 +88,17 @@ ent-LeftLegFelionoid = левая нога фелионоида
 ent-RightLegFelionoid = правая нога фелионоида
 ent-LeftFootFelionoid = левая стопа фелионоида
 ent-RightFootFelionoid = правая стопа фелионоида
+ent-PartFelinid = часть тела фелинида
+ent-TorsoFelinid = туловище фелинида
+ent-HeadFelinid = голова фелинида
+ent-LeftArmFelinid = левая рука фелинида
+ent-RightArmFelinid = правая рука фелинида
+ent-LeftHandFelinid = левая кисть фелинида
+ent-RightHandFelinid = правая кисть фелинида
+ent-LeftLegFelinid = левая нога фелинида
+ent-RightLegFelinid = правая нога фелинида
+ent-LeftFootFelinid = левая стопа фелинида
+ent-RightFootFelinid = правая стопа фелинида
 # Body/Parts/lagomorph.yml
 ent-PartLagomorph = часть тела лагоморфа
 ent-TorsoLagomorph = туловище лагоморфа

@@ -5,6 +5,7 @@ species-name-doll = Кукла
 species-custom-name-doll = Существо из плоти
 species-name-elf = Айелит
 species-name-felionoid = Фелионоид
+species-name-felinid = Фелинид
 species-name-lagomorph = Лагоморф
 species-name-resomi = Резоми
 species-name-shadekin = Шейдкин

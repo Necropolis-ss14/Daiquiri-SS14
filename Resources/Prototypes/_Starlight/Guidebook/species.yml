@@ -19,6 +19,11 @@
   text: "/ServerInfo/_Starlight/Guidebook/Mobs/Felionoid.xml"
 
 - type: guideEntry
+  id: Felinid
+  name: species-name-felinid
+  text: "/ServerInfo/Guidebook/Mobs/Felinid.xml"
+
+- type: guideEntry
   id: Cyclorite
   name: species-name-cyclorite
   text: "/ServerInfo/_Starlight/Guidebook/Mobs/Cyclorite.xml"

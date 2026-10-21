@@ -5,6 +5,7 @@ species-name-doll = Doll
 species-custom-name-doll = Creature of Flesh
 species-name-elf = Aielith
 species-name-felionoid = Felionoid
+species-name-felinid = Felinid
 species-name-lagomorph = Lagomorph
 species-name-resomi = Resomi
 species-name-shadekin = Shadekin

@@ -15,6 +15,11 @@ chat-speech-verb-felionoid-1 = мурчит
 chat-speech-verb-felionoid-2 = мяукает
 chat-speech-verb-felionoid-3 = шипит
 chat-speech-verb-felionoid-4 = воет
+chat-speech-verb-name-felinid = Фелинид
+chat-speech-verb-felinid-1 = мяукает
+chat-speech-verb-felinid-2 = мурчит
+chat-speech-verb-felinid-3 = шипит
+chat-speech-verb-felinid-4 = воет
 chat-speech-verb-name-vulpkanin = Вульпканин
 
 chat-speech-verb-suffix-pause = ...

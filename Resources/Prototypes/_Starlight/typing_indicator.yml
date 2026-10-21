@@ -31,3 +31,10 @@
   spritePath: /Textures/_Starlight/Effects/speech.rsi
   typingState: sawian0
   idleState: sawian3
+
+- type: typingIndicator
+  id: felinid
+  spritePath: /Textures/_DV/Effects/speech.rsi
+  typingState: felinid0
+  idleState: felinid0
+  offset: 0, 0.2

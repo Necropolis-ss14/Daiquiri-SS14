@@ -53,6 +53,13 @@
     Poison: 1.5
 
 - type: damageModifierSet
+  id: Felinid
+  coefficients:
+    Blunt: 1.15
+    Slash: 1.15
+    Piercing: 1.15
+
+- type: damageModifierSet
   id: DragonResistances
   coefficients:
     Piercing: 0.3

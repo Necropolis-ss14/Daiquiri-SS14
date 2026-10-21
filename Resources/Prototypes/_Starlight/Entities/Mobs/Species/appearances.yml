@@ -83,6 +83,16 @@
 
 - type: entity
   parent: [BaseSpeciesDummy, BaseInventoryFemaleJumpsuit]
+  id: AppearanceFelinid
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: HumanoidAppearance
+    species: Felinid
+  - type: Body
+    prototype: Felinid
+
+- type: entity
+  parent: [BaseSpeciesDummy, BaseInventoryFemaleJumpsuit]
   id: AppearanceGingerbread
   categories: [ HideSpawnMenu ]
   components:

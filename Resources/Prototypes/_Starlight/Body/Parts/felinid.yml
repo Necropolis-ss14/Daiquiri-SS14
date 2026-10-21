@@ -1,0 +1,95 @@
+- type: entity
+  id: PartFelinid
+  parent: PartHuman
+  name: ent-PartFelinid
+  abstract: true
+
+- type: entity
+  id: TorsoFelinid
+  parent: [PartFelinid, BaseTorso]
+  name: ent-TorsoFelinid
+  components:
+  - type: Sprite
+    sprite: Mobs/Species/Human/parts.rsi
+    state: "torso_m"
+
+- type: entity
+  id: HeadFelinid
+  parent: [PartFelinid, BaseHead]
+  name: ent-HeadFelinid
+  components:
+  - type: Sprite
+    sprite: Mobs/Species/Human/parts.rsi
+    state: "head_m"
+
+- type: entity
+  id: LeftArmFelinid
+  parent: [PartFelinid, BaseLeftArm]
+  name: ent-LeftArmFelinid
+  components:
+  - type: Sprite
+    sprite: Mobs/Species/Human/parts.rsi
+    state: "l_arm"
+
+- type: entity
+  id: RightArmFelinid
+  parent: [PartFelinid, BaseRightArm]
+  name: ent-RightArmFelinid
+  components:
+  - type: Sprite
+    sprite: Mobs/Species/Human/parts.rsi
+    state: "r_arm"
+
+- type: entity
+  id: LeftHandFelinid
+  parent: [PartFelinid, BaseLeftHand]
+  name: ent-LeftHandFelinid
+  components:
+  - type: Sprite
+    sprite: Mobs/Species/Human/parts.rsi
+    state: "l_hand"
+
+- type: entity
+  id: RightHandFelinid
+  parent: [PartFelinid, BaseRightHand]
+  name: ent-RightHandFelinid
+  components:
+  - type: Sprite
+    sprite: Mobs/Species/Human/parts.rsi
+    state: "r_hand"
+
+- type: entity
+  id: LeftLegFelinid
+  parent: [PartFelinid, BaseLeftLeg]
+  name: ent-LeftLegFelinid
+  components:
+  - type: Sprite
+    sprite: Mobs/Species/Human/parts.rsi
+    state: "l_leg"
+
+- type: entity
+  id: RightLegFelinid
+  parent: [PartFelinid, BaseRightLeg]
+  name: ent-RightLegFelinid
+  components:
+  - type: Sprite
+    sprite: Mobs/Species/Human/parts.rsi
+    state: "r_leg"
+
+- type: entity
+  id: LeftFootFelinid
+  parent: [PartFelinid, BaseLeftFoot]
+  name: ent-LeftFootFelinid
+  components:
+  - type: Sprite
+    sprite: Mobs/Species/Human/parts.rsi
+    state: "l_foot"
+
+- type: entity
+  id: RightFootFelinid
+  parent: [PartFelinid, BaseRightFoot]
+  name: ent-RightFootFelinid
+  components:
+  - type: Sprite
+    sprite: Mobs/Species/Human/parts.rsi
+    state: "r_foot"

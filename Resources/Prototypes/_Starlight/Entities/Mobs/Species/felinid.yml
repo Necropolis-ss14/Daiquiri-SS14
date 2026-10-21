@@ -1,0 +1,68 @@
+- type: entity
+  parent: [BaseMobSpeciesOrganic, BaseSpeciesPickupableLarge, BaseInventoryFemaleJumpsuit]
+  id: BaseMobFelinid
+  name: Urist McFelinid
+  abstract: true
+  components:
+  - type: LanguageKnowledge
+    speaks:
+    - GalacticCommon
+    - Nekomimetic
+    understands:
+    - GalacticCommon
+    - Nekomimetic
+    - Cat
+  - type: Speech
+    speechSounds: Alto
+    speechVerb: Felinid
+  - type: Vocal
+    wilhelm: /Audio/_Starlight/Voice/Felionoid/cat_scream1.ogg
+    sounds:
+      Male: MaleFelionoid
+      Female: FemaleFelionoid
+      Unsexed: MaleFelionoid
+  - type: Absorbable
+  - type: Hunger
+  - type: Thirst
+  - type: Icon
+    sprite: Mobs/Species/Human/parts.rsi
+    state: full
+  - type: Body
+    prototype: Felinid
+    requiredLegs: 2
+  - type: HumanoidAppearance
+    species: Felinid
+    hideLayersOnEquip:
+    - Hair
+    - Snout
+  - type: Damageable
+    damageModifierSet: Felinid
+  - type: MeleeWeapon
+    soundHit:
+      collection: Punch
+    animation: WeaponArcClaw
+    damage:
+      types:
+        Slash: 4
+        Piercing: 1
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeCircle
+          radius: 0.35
+        density: 140
+        restitution: 0.0
+        mask:
+        - MobMask
+        layer:
+        - MobLayer
+  - type: Stamina
+    baseCritThreshold: 75
+    animationThreshold: 40
+  - type: DamageOnHighSpeedImpact
+    damage:
+      types:
+        Blunt: 1
+  - type: TypingIndicator
+    proto: felinid

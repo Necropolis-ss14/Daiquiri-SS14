@@ -88,6 +88,17 @@ ent-LeftLegFelionoid = left felionoid leg
 ent-RightLegFelionoid = right felionoid leg
 ent-LeftFootFelionoid = left felionoid foot
 ent-RightFootFelionoid = right felionoid foot
+ent-PartFelinid = felinid body part
+ent-TorsoFelinid = felinid torso
+ent-HeadFelinid = felinid head
+ent-LeftArmFelinid = left felinid arm
+ent-RightArmFelinid = right felinid arm
+ent-LeftHandFelinid = left felinid hand
+ent-RightHandFelinid = right felinid hand
+ent-LeftLegFelinid = left felinid leg
+ent-RightLegFelinid = right felinid leg
+ent-LeftFootFelinid = left felinid foot
+ent-RightFootFelinid = right felinid foot
 # Body/Parts/lagomorph.yml
 ent-PartLagomorph = lagomorph body part
 ent-TorsoLagomorph = lagomorph torso
