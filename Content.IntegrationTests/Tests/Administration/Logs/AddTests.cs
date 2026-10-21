@@ -293,6 +293,7 @@ public sealed class PreRoundAddTests : GameTest
 
         await server.WaitPost(() =>
         {
+            sGamerTicker.SetGamePreset("Extended");
             sGamerTicker.StartRound(true);
         });
 
