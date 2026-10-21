@@ -53,6 +53,11 @@ public sealed class ForceMapTest : GameTest
         var consoleHost = server.ResolveDependency<IConsoleHost>();
         var gameMapMan = server.ResolveDependency<IGameMapManager>();
 
+        await server.WaitPost(() =>
+        {
+            configManager.SetCVar(CCVars.GameMap, DefaultMapName);
+        });
+
         await server.WaitAssertion(() =>
         {
             // Make sure we're set to the default map
