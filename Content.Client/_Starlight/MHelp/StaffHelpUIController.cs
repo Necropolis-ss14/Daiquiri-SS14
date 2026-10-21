@@ -3,6 +3,8 @@ using Robust.Client.UserInterface.Controllers;
 using Content.Client._Daiquiri.AIHelp;
 using Content.Client._Starlight.MHelp.UI;
 using Content.Client.Stylesheets;
+using Content.Shared._Daiquiri.CCVar;
+using Robust.Shared.Configuration;
 
 namespace Content.Client._Starlight.MHelp;
 
@@ -11,6 +13,7 @@ public sealed partial class StaffHelpUIController : UIController
     [Dependency] private AHelpUIController _aHelp = default!;
     [Dependency] private MHelpUIController _mHelp = default!;
     [Dependency] private AIHelpUIController _aiHelp = default!;
+    [Dependency] private IConfigurationManager _cfg = default!;
 
     private StaffHelpWindow? _staffHelpWindow;
 
@@ -24,6 +27,13 @@ public sealed partial class StaffHelpUIController : UIController
 
         SetAHelpButtonPressed(true);
         _staffHelpWindow = new StaffHelpWindow();
+
+        if (!_cfg.GetCVar(DaiquiriCCVars.AIHelpEnabled))
+        {
+            _staffHelpWindow.AIHelpHint.Visible = false;
+            _staffHelpWindow.AIHelpButton.Visible = false;
+        }
+
         _staffHelpWindow.OnClose += () =>
         {
             _staffHelpWindow = null;

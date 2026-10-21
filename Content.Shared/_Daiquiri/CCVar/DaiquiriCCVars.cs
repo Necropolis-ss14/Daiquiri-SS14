@@ -9,7 +9,7 @@ public sealed class DaiquiriCCVars
     ///     Whether the AI help window is available on this server.
     /// </summary>
     public static readonly CVarDef<bool> AIHelpEnabled =
-        CVarDef.Create("aihelp.enabled", true, CVar.SERVERONLY);
+        CVarDef.Create("aihelp.enabled", true, CVar.SERVER | CVar.REPLICATED);
 
     /// <summary>
     ///     OpenAI-compatible chat completions endpoint.

@@ -7,7 +7,7 @@
         <Button Name="AdminHelpButton" Access="Public" Text="{Loc 'staff-help-admin'}" StyleClasses="OpenBoth" />
         <RichTextLabel Text="{Loc 'staff-help-mentor-hint'}" Margin="0 20 0 0" />
         <Button Name="MentorHelpButton" Access="Public" Text="{Loc 'staff-help-mentor'}" StyleClasses="OpenBoth" />
-        <RichTextLabel Text="{Loc 'staff-help-ai-hint'}" Margin="0 20 0 0" />
+        <RichTextLabel Name="AIHelpHint" Access="Public" Text="{Loc 'staff-help-ai-hint'}" Margin="0 20 0 0" />
         <Button Name="AIHelpButton" Access="Public" Text="{Loc 'staff-help-ai'}" StyleClasses="OpenBoth" />
     </BoxContainer>
 </controls:StaffHelpWindow>
