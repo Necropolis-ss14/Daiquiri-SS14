@@ -36,6 +36,7 @@
   suffix: AI
   description: Видный представитель кобольдов с неограниченным доступом ко всему, что она не хочет есть.
   components:
+  - type: AntagTarget
   - type: LanguageKnowledge
     speaks:
     - Ancestor
@@ -94,6 +95,7 @@
   suffix: AI
   description: Бесчестная обезьяна, которой нельзя доверять. Настоящий завсегдатай камер.
   components:
+  - type: AntagTarget
   - type: LanguageKnowledge
     speaks:
     - Ancestor

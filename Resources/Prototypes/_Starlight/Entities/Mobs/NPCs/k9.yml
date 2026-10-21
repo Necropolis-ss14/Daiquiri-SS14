@@ -4,6 +4,7 @@
   name: К9 безопасности
   description: A dog trained for station security work.
   components:
+  - type: AntagTarget
   - type: RemoveFlavorText
   - type: Sprite
     drawdepth: Mobs
