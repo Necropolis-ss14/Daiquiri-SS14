@@ -29,7 +29,7 @@
   id: Ocean
   name: lobby-vinyl-ocean
   sprite: /Textures/_Daiquiri/Interface/Vinyl/ocean
-  requiredPlaytime: 216000 # 60 часов
+  requiredPlaytime: 3600 # 1 час
 
 - type: lobbyVinyl
   id: Daiquiri
