@@ -133,6 +133,31 @@ achievement-rodentia-rex-description = Будучи Крысиным Корол�
 achievement-the-robust-salvagers-name = Крепкие утилизаторы
 achievement-the-robust-salvagers-description = Будучи утилизатором, убейте ядерного оперативника.
 
+achievement-elite-contractor-name = Элитный подрядчик
+achievement-elite-contractor-description = Наберите как минимум 15 очков сложности за предателя за один раунд.
+
+achievement-phantom-thief-name = Призрачный вор
+achievement-phantom-thief-description = Наберите как минимум 10 очков сложности за вора за один раунд.
+
+achievement-first-kindred-name = Первый сородич
+achievement-first-kindred-description = Наберите как минимум 10 очков сложности за вампира за один раунд.
+
+achievement-enemy-unknown-name = Враг неизвестен
+achievement-enemy-unknown-description = Наберите как минимум 10 очков сложности за генокрада за один раунд.
+
+achievement-theory-of-objectivity-name = Теория объективности
+achievement-theory-of-objectivity-description = Получите достижения «Элитный подрядчик», «Призрачный вор», «Первый сородич» и «Враг неизвестен».
+
+achievement-category-milestones = Вехи
+achievement-category-onboarding = Обучение
+achievement-category-special = Особые
+achievement-category-vampire = Вампир
+achievement-category-traitor = Предатель
+achievement-category-thief = Вор
+achievement-category-changeling = Генокрад
+achievement-category-revolutionary = Революционер
+achievement-category-nukeops = Ядерный оперативник
+
 achievement-window-title = Отслеживайте свои вехи, скрытые трофеи и долгосрочный прогресс
 achievement-window-categories = Категории
 achievement-window-category-all = Все достижения
