@@ -14,6 +14,7 @@ using Content.Shared._Starlight.Antags.Vampires.Components;
 using Content.Shared._Starlight.Antags.Vampires.Components.Classes;
 using Content.Server._Starlight.GameTicking.Rules;
 using Content.Server._Starlight.GameTicking.Rules.Components;
+using Content.Shared.CCVar;
 
 namespace Content.IntegrationTests.Tests._Starlight.Antags;
 [TestFixture]
@@ -37,6 +38,7 @@ public sealed class VampireRuleTest : GameTest
 
         var server = pair.Server;
         var client = pair.Client;
+        server.CfgMan.SetCVar(CCVars.GameRoleTimers, false);
         var entMan = server.EntMan;
         var protoMan = server.ProtoMan;
         var compFact = server.ResolveDependency<IComponentFactory>();
