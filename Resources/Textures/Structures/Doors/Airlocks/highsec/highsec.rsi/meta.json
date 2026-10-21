@@ -1,7 +1,7 @@
 {
   "version": 1,
   "license": "CC-BY-SA-3.0",
-  "copyright": "by borkroman",
+  "copyright": "Taken from TauCetiClassic at commit https://github.com/TauCetiStation/TauCetiClassic/commit/fd5cfd76acdf5bda9e46413c11006a6e825d51a9",
   "size": {
     "x": 32,
     "y": 32
@@ -11,10 +11,10 @@
       "name": "assembly"
     },
     {
-      "name": "open_unlit"
+      "name": "bolted_unlit"
     },
     {
-      "name": "bolted_unlit"
+      "name": "bolted_open_unlit"
     },
     {
       "name": "closed"
@@ -23,26 +23,38 @@
       "name": "closed_unlit"
     },
     {
+      "name": "open_unlit"
+    },
+    {
       "name": "closing",
       "delays": [
         [
           0.1,
           0.1,
-          0.07,
-          0.07,
-          0.07,
-          0.2
+          0.1,
+          0.1,
+          0.1,
+          0.1
         ]
       ]
     },
     {
-      "name": "closing_unlit"
+      "name": "closing_unlit",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
     },
     {
       "name": "deny_unlit",
       "delays": [
         [
-          0.1,
           0.1,
           0.1,
           0.1,
@@ -60,15 +72,28 @@
         [
           0.1,
           0.1,
-          0.07,
-          0.07,
-          0.07,
-          0.2
+          0.1,
+          0.1,
+          0.1,
+          0.1
         ]
       ]
     },
     {
-      "name": "opening_unlit"
+      "name": "opening_unlit",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "panel_closed"
     },
     {
       "name": "panel_closing",
@@ -76,10 +101,10 @@
         [
           0.1,
           0.1,
-          0.07,
-          0.07,
-          0.07,
-          0.2
+          0.1,
+          0.1,
+          0.1,
+          0.1
         ]
       ]
     },
@@ -92,10 +117,10 @@
         [
           0.1,
           0.1,
-          0.07,
-          0.07,
-          0.07,
-          0.2
+          0.1,
+          0.1,
+          0.1,
+          0.1
         ]
       ]
     },
@@ -121,7 +146,8 @@
           0.1,
           0.1,
           0.1,
-          0.1
+          0.1,
+          1.7
         ]
       ]
     },
@@ -162,6 +188,9 @@
           1.2
         ]
       ]
+    },
+    {
+      "name": "emergency_open_unlit"
     }
   ]
 }
