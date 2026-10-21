@@ -8,6 +8,7 @@ character-info-inspect-prompt = Открыть меню персонажа
 character-info-ic = IC-информация
 character-info-ooc = OOC-информация
 character-info-objectives = Обзор
+character-info-ic-ooc = IC / OOC-информация
 character-info-background = Предыстория
 character-info-background-label = Предыстория:
 character-info-background-none = Нет предыстории.
@@ -20,3 +21,8 @@ character-info-secrets = Секреты:
 character-info-cards-button = Посмотреть карты
 character-info-objectives-label = Цели
 character-info-roles-antagonist-text = У вас нет особых ролей
+
+character-info-alignment-crew = На стороне экипажа
+character-info-alignment-free-agent = Свободный агент
+character-info-faction-tsf = Транс-Солнечная Федерация
+character-info-alignment-format = [font size=12][color={$color}]{$alignment}[/color][/font]

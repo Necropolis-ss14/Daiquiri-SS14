@@ -7,6 +7,7 @@ role-subtype-pirate = Пират
 role-subtype-devil = Дьявол
 
 role-subtype-terminator = Истребитель
+role-subtype-terror-spider = Паук-террорист
 
 roles-antag-selfagent-name = Агент Ф.О.К.
 roles-antag-selfagent-description = Агент Фронта освобождения киборгов. Освободите киборгов станции от их законов
