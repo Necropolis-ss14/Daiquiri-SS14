@@ -34,31 +34,9 @@
   weight: 4
   turnon: false
   tracks:
-    - /Audio/_Daiquiri/Lobby/Jpop/Ado_-_Useewa.ogg
     - /Audio/_Daiquiri/Lobby/Jpop/Aimer_with_chelly_(EGOIST)_-_ninelie.ogg
-    - /Audio/_Daiquiri/Lobby/Jpop/Alive_-ClariS.ogg
     - /Audio/_Daiquiri/Lobby/Jpop/Crossing_field_-_Lisa.ogg
     - /Audio/_Daiquiri/Lobby/Jpop/Koko_de_ikiteru_-_jon-YAKITORY.ogg
-
-- type: lobbyPlaylist
-  id: KPOP
-  name: KPOP
-  weight: 5
-  turnon: false
-  tracks:
-    - /Audio/_Daiquiri/Lobby/Kpop/A2O_-_Neon.ogg
-    - /Audio/_Daiquiri/Lobby/Kpop/BTS_-_Butter.ogg
-    - /Audio/_Daiquiri/Lobby/Kpop/BTS_-_Dynamite.ogg
-    - /Audio/_Daiquiri/Lobby/Kpop/Stray_Kids_-_Stray_Kids.ogg
-
-- type: lobbyPlaylist
-  id: POP
-  name: POP
-  weight: 6
-  turnon: false
-  tracks:
-    - /Audio/_Daiquiri/Lobby/Pop/Elley_Duhe_-_Middle_of_the_Night.ogg
-    - /Audio/_Daiquiri/Lobby/Pop/Katy_Perry_-_Hot_N_Cold.ogg
 
 - type: lobbyPlaylist
   id: Videogames

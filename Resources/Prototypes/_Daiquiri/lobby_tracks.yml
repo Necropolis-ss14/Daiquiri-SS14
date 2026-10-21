@@ -159,19 +159,9 @@
   title: Alone
 
 - type: lobbyTrack
-  id: _Daiquiri_Lobby_Jpop_Ado_-_Useewa
-  path: /Audio/_Daiquiri/Lobby/Jpop/Ado_-_Useewa.ogg
-  title: Ado - Useewa
-
-- type: lobbyTrack
   id: _Daiquiri_Lobby_Jpop_Aimer_with_chelly__EGOIST__-_ninelie
   path: /Audio/_Daiquiri/Lobby/Jpop/Aimer_with_chelly_(EGOIST)_-_ninelie.ogg
   title: Aimer with chelly (EGOIST) - ninelie
-
-- type: lobbyTrack
-  id: _Daiquiri_Lobby_Jpop_Alive_-ClariS
-  path: /Audio/_Daiquiri/Lobby/Jpop/Alive_-ClariS.ogg
-  title: Alive - ClariS
 
 - type: lobbyTrack
   id: _Daiquiri_Lobby_Jpop_Crossing_field_-_Lisa
@@ -182,36 +172,6 @@
   id: _Daiquiri_Lobby_Jpop_Koko_de_ikiteru_-_jon-YAKITORY
   path: /Audio/_Daiquiri/Lobby/Jpop/Koko_de_ikiteru_-_jon-YAKITORY.ogg
   title: Koko de ikiteru - jon-YAKITORY
-
-- type: lobbyTrack
-  id: _Daiquiri_Lobby_Kpop_A2O_-_Neon
-  path: /Audio/_Daiquiri/Lobby/Kpop/A2O_-_Neon.ogg
-  title: A2O - Neon
-
-- type: lobbyTrack
-  id: _Daiquiri_Lobby_Kpop_BTS_-_Butter
-  path: /Audio/_Daiquiri/Lobby/Kpop/BTS_-_Butter.ogg
-  title: BTS - Butter
-
-- type: lobbyTrack
-  id: _Daiquiri_Lobby_Kpop_BTS_-_Dynamite
-  path: /Audio/_Daiquiri/Lobby/Kpop/BTS_-_Dynamite.ogg
-  title: BTS - Dynamite
-
-- type: lobbyTrack
-  id: _Daiquiri_Lobby_Kpop_Stray_Kids_-_Stray_Kids
-  path: /Audio/_Daiquiri/Lobby/Kpop/Stray_Kids_-_Stray_Kids.ogg
-  title: Stray Kids - Stray Kids
-
-- type: lobbyTrack
-  id: _Daiquiri_Lobby_Pop_Elley_Duhe_-_Middle_of_the_Night
-  path: /Audio/_Daiquiri/Lobby/Pop/Elley_Duhe_-_Middle_of_the_Night.ogg
-  title: Elley Duhe - Middle of the Night
-
-- type: lobbyTrack
-  id: _Daiquiri_Lobby_Pop_Katy_Perry_-_Hot_N_Cold
-  path: /Audio/_Daiquiri/Lobby/Pop/Katy_Perry_-_Hot_N_Cold.ogg
-  title: Katy Perry - Hot N Cold
 
 - type: lobbyTrack
   id: _Daiquiri_Lobby_Videogames_08_Sciel__Music_Box_
