@@ -5,8 +5,8 @@ ent-BrainImplantCommsExpedition = экспедиционный радиоимп�
 ent-BrainImplantCommsExpedition-desc = Удобный имплант для утилизатора современной эпохи.
 ent-BrainImplantComms = встроенный радиоимплант
 ent-BrainImplantComms-desc = Гарнитура прямо у вас в мозгу!
-ent-BrainImplantNexus = аплинк Нексуса
-ent-BrainImplantNexus-desc = Странный кусок технологий авали... Даёт доступ к Нексусу!
+ent-BrainImplantNexus = сеть Нексуса
+ent-BrainImplantNexus-desc = Странный кусок технологий авали... Даёт доступ к сети Нексуса!
 ent-BrainImplantExpiScan = имплант-меданализатор
 ent-BrainImplantExpiScan-desc = Имплант, выводящий показатели вашего текущего физического здоровья.
 # Body/Implants/eye.yml
