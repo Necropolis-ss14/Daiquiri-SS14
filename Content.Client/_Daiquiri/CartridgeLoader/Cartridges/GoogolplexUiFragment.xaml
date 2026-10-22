@@ -1,8 +1,8 @@
 <cartridges:GoogolplexUiFragment xmlns:cartridges="clr-namespace:Content.Client._Daiquiri.CartridgeLoader.Cartridges"
-                                 xmlns="https://spacestation14.io"
-                                 Orientation="Vertical"
-                                 HorizontalExpand="True"
-                                 VerticalExpand="True">
+                                  xmlns="https://spacestation14.io"
+                                  Orientation="Vertical"
+                                  HorizontalExpand="True"
+                                  VerticalExpand="True">
     <PanelContainer Name="Background" HorizontalExpand="True" VerticalExpand="True">
         <BoxContainer Orientation="Vertical" HorizontalExpand="True" VerticalExpand="True" SeparationOverride="0">
             <Control VerticalExpand="True"/>
@@ -23,10 +23,20 @@
                             MinHeight="38"
                             MaxHeight="38"
                             Margin="0 24 0 0">
-                <LineEdit Name="SearchBox"
-                          HorizontalExpand="True"
-                          VerticalExpand="True"
-                          Margin="12 0"/>
+                <BoxContainer Orientation="Horizontal" HorizontalExpand="True" VerticalExpand="True">
+                    <LineEdit Name="SearchBox"
+                              HorizontalExpand="True"
+                              VerticalExpand="True"
+                              Margin="12 0 0 0"/>
+                    <TextureButton Name="SearchButton"
+                                   MinWidth="32"
+                                   MinHeight="32"
+                                   MaxWidth="32"
+                                   MaxHeight="32"
+                                   Margin="4 0 8 0"
+                                   VerticalAlignment="Center"
+                                   MouseFilter="Stop"/>
+                </BoxContainer>
             </PanelContainer>
 
             <BoxContainer Name="Tabs"
@@ -39,6 +49,45 @@
             </BoxContainer>
 
             <Control VerticalExpand="True"/>
+
+            <BoxContainer Name="ResultsPage" Access="Public" Orientation="Vertical" HorizontalExpand="True" VerticalExpand="True" Visible="False" MouseFilter="Stop">
+                <BoxContainer Name="ResultsHeader" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="24 24 0 0">
+                    <TextureRect Name="ResultsIcon" MinWidth="32" MinHeight="32" MaxWidth="32" MaxHeight="32" Stretch="KeepAspectCentered" VerticalAlignment="Center"/>
+                    <BoxContainer Name="ResultsInfo" Orientation="Vertical" VerticalAlignment="Center" Margin="8 0 0 0">
+                        <Label Name="ResultsDomainLabel" VerticalAlignment="Center"/>
+                        <Button Name="ResultsTitleButton" MouseFilter="Stop">
+                            <Label Name="ResultsTitle" VerticalAlignment="Center"/>
+                        </Button>
+                    </BoxContainer>
+                </BoxContainer>
+                <Label Name="ResultsDescription" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="24 16 24 0" MaxWidth="500"/>
+                <TextureRect Name="ProgressBackground" HorizontalAlignment="Left" MinWidth="300" MinHeight="16" MaxHeight="16" Stretch="KeepAspectCentered" Margin="24 24 0 0"/>
+                <ProgressBar Name="SearchProgress" HorizontalExpand="True" MinHeight="16" MaxHeight="16" Margin="60 8 60 8"/>
+                <Button Name="BackButton" MinWidth="80" MinHeight="26" MaxWidth="80" MaxHeight="26" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="24 32 0 24" MouseFilter="Stop">
+                    <Label Text="Назад" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                </Button>
+            </BoxContainer>
+
+            <BoxContainer Name="StarWayPage" Access="Public" Orientation="Vertical" HorizontalExpand="True" VerticalExpand="True" Visible="False" MouseFilter="Stop">
+                <BoxContainer Name="StarWayHeader" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="24 32 0 0">
+                    <TextureRect Name="StarWayIcon" MinWidth="32" MinHeight="32" MaxWidth="32" MaxHeight="32" Stretch="KeepAspectCentered" VerticalAlignment="Center"/>
+                    <BoxContainer Name="StarWayInfo" Orientation="Vertical" VerticalAlignment="Center" Margin="8 0 0 0">
+                        <Label Name="StarWayDomainLabel" VerticalAlignment="Center"/>
+                        <Label Name="StarWayTitle" VerticalAlignment="Center"/>
+                    </BoxContainer>
+                </BoxContainer>
+                <TextureRect Name="StarWayBanner" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="24 16 0 0" MinWidth="300" MinHeight="120" MaxWidth="500" MaxHeight="120" Stretch="KeepAspectCentered"/>
+                <Button Name="StarWayBackButton" MinWidth="80" MinHeight="26" MaxWidth="80" MaxHeight="26" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="24 24 0 24" MouseFilter="Stop">
+                    <Label Text="Назад" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                </Button>
+            </BoxContainer>
+
+            <PanelContainer Name="ForumPage" Access="Public" HorizontalExpand="True" VerticalExpand="True" Visible="False" MouseFilter="Stop">
+                <TextureRect Name="ForumBanner" HorizontalExpand="True" VerticalExpand="True" Stretch="KeepAspectCentered"/>
+                <Button Name="ForumBackButton" MinWidth="80" MinHeight="26" MaxWidth="80" MaxHeight="26" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="24 24 0 24" MouseFilter="Stop">
+                    <Label Text="Назад" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                </Button>
+            </PanelContainer>
         </BoxContainer>
     </PanelContainer>
 </cartridges:GoogolplexUiFragment>
