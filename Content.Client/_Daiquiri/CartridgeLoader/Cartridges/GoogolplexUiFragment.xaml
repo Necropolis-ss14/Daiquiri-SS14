@@ -1,0 +1,44 @@
+<cartridges:GoogolplexUiFragment xmlns:cartridges="clr-namespace:Content.Client._Daiquiri.CartridgeLoader.Cartridges"
+                                 xmlns="https://spacestation14.io"
+                                 Orientation="Vertical"
+                                 HorizontalExpand="True"
+                                 VerticalExpand="True">
+    <PanelContainer Name="Background" HorizontalExpand="True" VerticalExpand="True">
+        <BoxContainer Orientation="Vertical" HorizontalExpand="True" VerticalExpand="True" SeparationOverride="0">
+            <Control VerticalExpand="True"/>
+
+            <TextureRect Name="Wordmark"
+                         HorizontalExpand="True"
+                         HorizontalAlignment="Center"
+                         MaxWidth="371"
+                         MinHeight="71"
+                         MaxHeight="71"
+                         Stretch="KeepAspectCentered"/>
+
+            <PanelContainer Name="SearchPanel"
+                            HorizontalExpand="True"
+                            HorizontalAlignment="Center"
+                            MinWidth="372"
+                            MaxWidth="372"
+                            MinHeight="38"
+                            MaxHeight="38"
+                            Margin="0 24 0 0">
+                <LineEdit Name="SearchBox"
+                          HorizontalExpand="True"
+                          VerticalExpand="True"
+                          Margin="12 0"/>
+            </PanelContainer>
+
+            <BoxContainer Name="Tabs"
+                          Orientation="Horizontal"
+                          HorizontalAlignment="Center"
+                          Margin="0 3 0 0">
+                <TextureButton Name="SitesButton" MinWidth="124" MinHeight="26" MaxWidth="124" MaxHeight="26"/>
+                <TextureButton Name="NewsButton" MinWidth="124" MinHeight="26" MaxWidth="124" MaxHeight="26"/>
+                <TextureButton Name="GoodsButton" MinWidth="124" MinHeight="26" MaxWidth="124" MaxHeight="26"/>
+            </BoxContainer>
+
+            <Control VerticalExpand="True"/>
+        </BoxContainer>
+    </PanelContainer>
+</cartridges:GoogolplexUiFragment>

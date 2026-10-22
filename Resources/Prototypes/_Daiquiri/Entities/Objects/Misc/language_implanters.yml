@@ -1,0 +1,293 @@
+- type: entity
+  id: BaseLanguageImplanter
+  parent: BaseImplantOnlyImplanter
+  name: language-implanter-base-name
+  description: language-implanter-base-desc
+  abstract: true
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Implanter
+    dissolveOnUse: true
+    implantTime: 3
+
+# Vox Pidgin
+- type: entity
+  id: LanguageImplanterVoxPidgin
+  parent: BaseLanguageImplanter
+  name: language-implanter-voxpidgin-name
+  description: language-implanter-voxpidgin-desc
+  components:
+  - type: Implanter
+    implant: LanguageImplantVoxPidgin
+
+# Thaveyan
+- type: entity
+  id: LanguageImplanterThaveyan
+  parent: BaseLanguageImplanter
+  name: language-implanter-thaveyan-name
+  description: language-implanter-thaveyan-desc
+  components:
+  - type: Implanter
+    implant: LanguageImplantThaveyan
+
+# Terrum
+- type: entity
+  id: LanguageImplanterTerrum
+  parent: BaseLanguageImplanter
+  name: language-implanter-terrum-name
+  description: language-implanter-terrum-desc
+  components:
+  - type: Implanter
+    implant: LanguageImplantTerrum
+
+# Sylvan
+- type: entity
+  id: LanguageImplanterSylvan
+  parent: BaseLanguageImplanter
+  name: language-implanter-sylvan-name
+  description: language-implanter-sylvan-desc
+  components:
+  - type: Implanter
+    implant: LanguageImplantSylvan
+
+# Squeakish
+- type: entity
+  id: LanguageImplanterSqueakish
+  parent: BaseLanguageImplanter
+  name: language-implanter-squeakish-name
+  description: language-implanter-squeakish-desc
+  components:
+  - type: Implanter
+    implant: LanguageImplantSqueakish
+
+# Nekomimetic
+- type: entity
+  id: LanguageImplanterNekomimetic
+  parent: BaseLanguageImplanter
+  name: language-implanter-nekomimetic-name
+  description: language-implanter-nekomimetic-desc
+  components:
+  - type: Implanter
+    implant: LanguageImplantNekomimetic
+
+# Moffic
+- type: entity
+  id: LanguageImplanterMoffic
+  parent: BaseLanguageImplanter
+  name: language-implanter-moffic-name
+  description: language-implanter-moffic-desc
+  components:
+  - type: Implanter
+    implant: LanguageImplantMoffic
+
+# Marish
+- type: entity
+  id: LanguageImplanterMarish
+  parent: BaseLanguageImplanter
+  name: language-implanter-marish-name
+  description: language-implanter-marish-desc
+  components:
+  - type: Implanter
+    implant: LanguageImplantMarish
+
+# Lagomorphian
+- type: entity
+  id: LanguageImplanterLagomorphian
+  parent: BaseLanguageImplanter
+  name: language-implanter-lagomorphian-name
+  description: language-implanter-lagomorphian-desc
+  components:
+  - type: Implanter
+    implant: LanguageImplantLagomorphian
+
+# Grumbakul
+- type: entity
+  id: LanguageImplanterGrumbakul
+  parent: BaseLanguageImplanter
+  name: language-implanter-grumbakul-name
+  description: language-implanter-grumbakul-desc
+  components:
+  - type: Implanter
+    implant: LanguageImplantGrumbakul
+
+# Felyaic
+- type: entity
+  id: LanguageImplanterFelyaic
+  parent: BaseLanguageImplanter
+  name: language-implanter-felyaic-name
+  description: language-implanter-felyaic-desc
+  components:
+  - type: Implanter
+    implant: LanguageImplantFelyaic
+
+# Draconic
+- type: entity
+  id: LanguageImplanterDraconic
+  parent: BaseLanguageImplanter
+  name: language-implanter-draconic-name
+  description: language-implanter-draconic-desc
+  components:
+  - type: Implanter
+    implant: LanguageImplantDraconic
+
+# Chittin
+- type: entity
+  id: LanguageImplanterChittin
+  parent: BaseLanguageImplanter
+  name: language-implanter-chittin-name
+  description: language-implanter-chittin-desc
+  components:
+  - type: Implanter
+    implant: LanguageImplantChittin
+
+# Canilunzt
+- type: entity
+  id: LanguageImplanterCanilunzt
+  parent: BaseLanguageImplanter
+  name: language-implanter-canilunzt-name
+  description: language-implanter-canilunzt-desc
+  components:
+  - type: Implanter
+    implant: LanguageImplantCanilunzt
+
+# Bubblish
+- type: entity
+  id: LanguageImplanterBubblish
+  parent: BaseLanguageImplanter
+  name: language-implanter-bubblish-name
+  description: language-implanter-bubblish-desc
+  components:
+  - type: Implanter
+    implant: LanguageImplantBubblish
+
+# Aielic
+- type: entity
+  id: LanguageImplanterAielic
+  parent: BaseLanguageImplanter
+  name: language-implanter-aielic-name
+  description: language-implanter-aielic-desc
+  components:
+  - type: Implanter
+    implant: LanguageImplantAielic
+
+- type: entity
+  id: BaseLanguageImplant
+  parent: BaseSubdermalImplant
+  components:
+  - type: Sprite
+    sprite: _Starlight/Objects/Specific/Medical/implants.rsi
+    state: brain_implant_translator
+  - type: LanguageImplant
+    language: GalacticCommon
+
+- type: entity
+  id: LanguageImplantVoxPidgin
+  parent: BaseLanguageImplant
+  components:
+  - type: LanguageImplant
+    language: VoxPidgin
+
+- type: entity
+  id: LanguageImplantThaveyan
+  parent: BaseLanguageImplant
+  components:
+  - type: LanguageImplant
+    language: Thaveyan
+
+- type: entity
+  id: LanguageImplantTerrum
+  parent: BaseLanguageImplant
+  components:
+  - type: LanguageImplant
+    language: Terrum
+
+- type: entity
+  id: LanguageImplantSylvan
+  parent: BaseLanguageImplant
+  components:
+  - type: LanguageImplant
+    language: Sylvan
+
+- type: entity
+  id: LanguageImplantSqueakish
+  parent: BaseLanguageImplant
+  components:
+  - type: LanguageImplant
+    language: Squeakish
+
+- type: entity
+  id: LanguageImplantNekomimetic
+  parent: BaseLanguageImplant
+  components:
+  - type: LanguageImplant
+    language: Nekomimetic
+
+- type: entity
+  id: LanguageImplantMoffic
+  parent: BaseLanguageImplant
+  components:
+  - type: LanguageImplant
+    language: Moffic
+
+- type: entity
+  id: LanguageImplantMarish
+  parent: BaseLanguageImplant
+  components:
+  - type: LanguageImplant
+    language: Marish
+
+- type: entity
+  id: LanguageImplantLagomorphian
+  parent: BaseLanguageImplant
+  components:
+  - type: LanguageImplant
+    language: Lagomorphian
+
+- type: entity
+  id: LanguageImplantGrumbakul
+  parent: BaseLanguageImplant
+  components:
+  - type: LanguageImplant
+    language: Grumbakul
+
+- type: entity
+  id: LanguageImplantFelyaic
+  parent: BaseLanguageImplant
+  components:
+  - type: LanguageImplant
+    language: Felyaic
+
+- type: entity
+  id: LanguageImplantDraconic
+  parent: BaseLanguageImplant
+  components:
+  - type: LanguageImplant
+    language: Draconic
+
+- type: entity
+  id: LanguageImplantChittin
+  parent: BaseLanguageImplant
+  components:
+  - type: LanguageImplant
+    language: Chittin
+
+- type: entity
+  id: LanguageImplantCanilunzt
+  parent: BaseLanguageImplant
+  components:
+  - type: LanguageImplant
+    language: Canilunzt
+
+- type: entity
+  id: LanguageImplantBubblish
+  parent: BaseLanguageImplant
+  components:
+  - type: LanguageImplant
+    language: Bubblish
+
+- type: entity
+  id: LanguageImplantAielic
+  parent: BaseLanguageImplant
+  components:
+  - type: LanguageImplant
+    language: Aielic

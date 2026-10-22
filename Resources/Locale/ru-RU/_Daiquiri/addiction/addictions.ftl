@@ -9,6 +9,11 @@ addiction-impedrezene-name = зависимость от Импедрезина
 addiction-cured-message = Тяга отпускает: { $addiction } больше не властна над вами.
 addiction-gained-message = Организм привыкает: у вас появилась { $addiction }.
 
+# Сообщения о замедлении и тряске (без названия реагента)
+addiction-slowdown-message = Вы чувствуете, как ваше тело тяжелеет.
+addiction-slowdown-ended-message = Тяжесть в теле проходит.
+addiction-tremor-message = Ваши руки начинают дрожать.
+
 # Фазы ломки: 1 - начало, 4 - самая тяжёлая. Тексты берутся из прототипов зависимостей.
 
 ## Алкоголь

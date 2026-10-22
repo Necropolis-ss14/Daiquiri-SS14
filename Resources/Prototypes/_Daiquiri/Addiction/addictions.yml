@@ -50,9 +50,13 @@
     - addiction-alcohol-2-5
     - addiction-alcohol-2-6
     - addiction-alcohol-2-7
-  # Двадцать минут без дозы - персонаж двигается на 10% медленнее.
+  # Пятнадцать минут без дозы - начинается тряска рук.
+  - after: 15m
+    tremor: true
+    tremorInterval: 30s
+  # Двадцать минут без дозы - персонаж двигается на 20% медленнее.
   - after: 20m
-    slowdown: 0.1
+    slowdown: 0.2
   - after: 25m
     interval: 45s
     color: "#cf6a35"
@@ -102,6 +106,10 @@
   - after: 10m
     emote: Cough
     emoteInterval: 40s
+  # Пятнадцать минут без сигареты - начинается тряска рук.
+  - after: 15m
+    tremor: true
+    tremorInterval: 30s
   - after: 15m
     interval: 75s
     color: "#9aa83a"
@@ -113,9 +121,9 @@
     - addiction-nicotine-2-5
     - addiction-nicotine-2-6
     - addiction-nicotine-2-7
-  # Двадцать минут без дозы - персонаж двигается на 10% медленнее.
+  # Двадцать минут без дозы - персонаж двигается на 20% медленнее.
   - after: 20m
-    slowdown: 0.1
+    slowdown: 0.2
   - after: 25m
     interval: 45s
     color: "#b07a35"
@@ -171,9 +179,13 @@
     - addiction-narcotics-2-5
     - addiction-narcotics-2-6
     - addiction-narcotics-2-7
-  # Двадцать минут без дозы - персонаж двигается на 10% медленнее.
+  # Пятнадцать минут без дозы - начинается тряска рук.
+  - after: 15m
+    tremor: true
+    tremorInterval: 30s
+  # Двадцать минут без дозы - персонаж двигается на 20% медленнее.
   - after: 20m
-    slowdown: 0.1
+    slowdown: 0.2
   - after: 25m
     interval: 45s
     color: "#7d3fd0"
@@ -230,8 +242,13 @@
     - addiction-narcotics-2-5
     - addiction-narcotics-2-6
     - addiction-narcotics-2-7
+  # Пятнадцать минут без дозы - начинается тряска рук.
+  - after: 15m
+    tremor: true
+    tremorInterval: 30s
+  # Двадцать минут без дозы - персонаж двигается на 20% медленнее.
   - after: 20m
-    slowdown: 0.1
+    slowdown: 0.2
   - after: 25m
     interval: 45s
     color: "#2fae83"
@@ -287,8 +304,13 @@
     - addiction-pax-2-5
     - addiction-pax-2-6
     - addiction-pax-2-7
+  # Пятнадцать минут без дозы - начинается тряска рук.
+  - after: 15m
+    tremor: true
+    tremorInterval: 30s
+  # Двадцать минут без дозы - персонаж двигается на 20% медленнее.
   - after: 20m
-    slowdown: 0.1
+    slowdown: 0.2
   - after: 25m
     interval: 45s
     color: "#4f7fc9"
@@ -344,8 +366,13 @@
     - addiction-impedrezene-2-5
     - addiction-impedrezene-2-6
     - addiction-impedrezene-2-7
+  # Пятнадцать минут без дозы - начинается тряска рук.
+  - after: 15m
+    tremor: true
+    tremorInterval: 30s
+  # Двадцать минут без дозы - персонаж двигается на 20% медленнее.
   - after: 20m
-    slowdown: 0.1
+    slowdown: 0.2
   - after: 25m
     interval: 45s
     color: "#9f5fc9"

@@ -1,0 +1,16 @@
+- type: entity
+  parent: BaseItem
+  id: GoogolplexCartridge
+  name: googolplex-cartridge-name
+  description: googolplex-cartridge-desc
+  components:
+  - type: Sprite
+    sprite: _Daiquiri/Objects/Devices/cartridge.rsi
+    state: cart-internet
+  - type: UIFragment
+    ui: !type:GoogolplexUi
+  - type: Cartridge
+    programName: googolplex-program-name
+    icon:
+      sprite: _Daiquiri/Interface/Misc/program_icons.rsi
+      state: googolplex

@@ -10,6 +10,8 @@ using Content.Shared.Chemistry.Components;
 using Content.Shared.Chemistry.EntitySystems;
 using Content.Shared.Chemistry.Reagent;
 using Content.Shared.FixedPoint;
+using Content.Shared.Humanoid;
+using Content.Shared.Humanoid.Prototypes;
 using Content.Shared.Mobs.Systems;
 using Content.Shared.Movement.Systems;
 using JetBrains.Annotations;
@@ -50,6 +52,11 @@ public sealed partial class AddictionSystem : EntitySystem
     /// </summary>
     private static readonly Color AnalyzerColor = Color.FromHex("#c02b2b");
 
+    /// <summary>
+    /// Color for slowdown message.
+    /// </summary>
+    private static readonly Color SlowdownColor = Color.FromHex("#c02b2b");
+
     private TimeSpan _nextUpdate;
 
     public override void Initialize()
@@ -60,6 +67,7 @@ public sealed partial class AddictionSystem : EntitySystem
         SubscribeLocalEvent<AddictionComponent, ComponentShutdown>(OnShutdown);
         SubscribeLocalEvent<AddictionComponent, CollectHealthAnalyzerExtensionsEvent>(OnCollectAnalyzerData);
         SubscribeLocalEvent<AddictionComponent, RailroadingReagentMetabolizedEvent>(OnReagentMetabolized);
+        SubscribeLocalEvent<AddictionComponent, MapInitEvent>(OnMapInit);
     }
 
     /// <summary>
@@ -78,12 +86,19 @@ public sealed partial class AddictionSystem : EntitySystem
     /// </summary>
     private void OnRefreshSpeed(Entity<AddictionComponent> ent, ref RefreshMovementSpeedModifiersEvent args)
     {
+        // Sum all slowdowns (additive), clamp to max 90% slowdown
+        var totalSlowdown = 0f;
         foreach (var slowdown in ent.Comp.Slowdown.Values)
         {
-            if (slowdown <= 0f)
-                continue;
+            if (slowdown > 0f)
+                totalSlowdown += slowdown;
+        }
 
-            var factor = 1f - Math.Clamp(slowdown, 0f, 0.9f);
+        totalSlowdown = Math.Clamp(totalSlowdown, 0f, 0.9f);
+
+        if (totalSlowdown > 0f)
+        {
+            var factor = 1f - totalSlowdown;
             args.ModifySpeed(factor, factor);
         }
     }
@@ -149,6 +164,43 @@ public sealed partial class AddictionSystem : EntitySystem
                 continue;
 
             EnsureComp<AddictionComponent>(uid);
+        }
+    }
+
+    /// <summary>
+    /// Sends initial addiction messages when a round starts or character enters the map.
+    /// </summary>
+    private void OnMapInit(Entity<AddictionComponent> ent, ref MapInitEvent args)
+    {
+        var now = _timing.CurTime;
+
+        foreach (var id in ent.Comp.Addictions)
+        {
+            if (!_prototypes.TryIndex(id, out var addiction))
+                continue;
+
+            // Force immediate message on round start/map entry
+            ent.Comp.NextMessage.Remove(id);
+            ent.Comp.LastStage.Remove(id);
+            ent.Comp.NextEmote.Remove(id);
+
+            var elapsed = TimeSpan.Zero;
+            if (ent.Comp.LastDose.TryGetValue(id, out var lastDose))
+            {
+                elapsed = now - lastDose;
+            }
+
+            var stage = GetStage(addiction, elapsed, s => s.Messages.Count > 0);
+            if (stage != null)
+            {
+                ent.Comp.LastStage[id] = stage.After;
+                ent.Comp.NextMessage[id] = now + stage.Interval;
+                // Don't send message here - wait for first Update tick when player has session
+                // SendMessage(ent.Owner, Loc.GetString(_random.Pick(stage.Messages)), stage.Color);
+            }
+
+            ProcessEmote(ent, id, addiction, elapsed, now);
+            ProcessSlowdown(ent, id, addiction, elapsed);
         }
     }
 
@@ -279,28 +331,46 @@ public sealed partial class AddictionSystem : EntitySystem
 
             // Bad withdrawal can also weigh the character down.
             ProcessSlowdown(ent, id, addiction, elapsed);
+
+            // Bad withdrawal can also cause tremor (shaking).
+            ProcessTremor(ent, id, addiction, elapsed, now);
         }
     }
 
     /// <summary>
     /// Applies the movement speed penalty of the most advanced phase that has one, and removes it
-    /// again once no phase asks for it anymore.
+    /// again once no phase asks for it anymore. Also sends a message when slowdown starts/ends.
     /// </summary>
     private void ProcessSlowdown(Entity<AddictionComponent> ent, ProtoId<AddictionPrototype> id, AddictionPrototype addiction, TimeSpan elapsed)
     {
-        var slowdown = GetStage(addiction, elapsed, s => s.Slowdown > 0f)?.Slowdown ?? 0f;
+        var slowdownStage = GetStage(addiction, elapsed, s => s.Slowdown > 0f);
+        var slowdown = slowdownStage?.Slowdown ?? 0f;
 
-        if (MathHelper.CloseTo(ent.Comp.Slowdown.GetValueOrDefault(id), slowdown))
+        var hadSlowdown = ent.Comp.Slowdown.TryGetValue(id, out var oldSlowdown) && oldSlowdown > 0f;
+        var hasSlowdown = slowdown > 0f;
+
+        if (MathHelper.CloseTo(oldSlowdown, slowdown))
             return;
 
-        if (slowdown <= 0f)
+        if (!hasSlowdown)
         {
-            ClearSlowdown(ent.Owner, id, ent.Comp);
+            if (hadSlowdown)
+            {
+                ClearSlowdown(ent.Owner, id, ent.Comp);
+                // Send message when slowdown ends
+                SendMessage(ent.Owner, Loc.GetString("addiction-slowdown-ended-message"), CureColor);
+            }
             return;
         }
 
         ent.Comp.Slowdown[id] = slowdown;
         _speed.RefreshMovementSpeedModifiers(ent.Owner);
+
+        // Send message when slowdown starts (only once when it first appears)
+        if (!hadSlowdown && slowdownStage != null)
+        {
+            SendMessage(ent.Owner, Loc.GetString("addiction-slowdown-message"), SlowdownColor);
+        }
     }
 
     /// <summary>
@@ -310,6 +380,54 @@ public sealed partial class AddictionSystem : EntitySystem
     {
         if (component.Slowdown.Remove(id))
             _speed.RefreshMovementSpeedModifiers(uid);
+    }
+
+    /// <summary>
+    /// Clears the tremor state for a single addiction.
+    /// </summary>
+    private void ClearTremor(EntityUid uid, ProtoId<AddictionPrototype> id, AddictionComponent component)
+    {
+        component.Tremor.Remove(id);
+        component.NextTremor.Remove(id);
+    }
+
+    /// <summary>
+    /// Forces the character to perform a tremor (shaking) emote when withdrawal gets bad enough.
+    /// The most advanced phase with Tremor=true wins.
+    /// </summary>
+    private void ProcessTremor(Entity<AddictionComponent> ent, ProtoId<AddictionPrototype> id, AddictionPrototype addiction, TimeSpan elapsed, TimeSpan now)
+    {
+        var stage = GetStage(addiction, elapsed, s => s.Tremor);
+
+        if (stage == null)
+        {
+            // No phase forces tremor right now.
+            ClearTremor(ent.Owner, id, ent.Comp);
+            return;
+        }
+
+        var hasTremor = ent.Comp.Tremor.GetValueOrDefault(id);
+
+        if (!hasTremor)
+        {
+            // Tremor starts - send message
+            ent.Comp.Tremor[id] = true;
+            SendMessage(ent.Owner, Loc.GetString("addiction-tremor-message"), SlowdownColor);
+        }
+
+        if (ent.Comp.NextTremor.TryGetValue(id, out var next) && now < next)
+            return;
+
+        var interval = stage.TremorInterval > TimeSpan.Zero ? stage.TremorInterval : stage.Interval;
+        ent.Comp.NextTremor[id] = now + interval;
+
+        if (_mobState.IsDead(ent.Owner) || !_players.TryGetSessionByEntity(ent.Owner, out _))
+            return;
+
+        // Use configured tremor emote or default "Shiver"
+        var tremorEmote = stage.TremorEmote ?? "Shiver";
+        if (!_chatSystem.TryEmoteWithChat(ent.Owner, tremorEmote.Id))
+            return;
     }
 
     /// <summary>
@@ -348,6 +466,9 @@ public sealed partial class AddictionSystem : EntitySystem
                     ent.Comp.MetabolizedReagents[reagent.Id] = FixedPoint2.Zero;
 
                     delta = amount - ent.Comp.LastSeenReagents.GetValueOrDefault(reagent.Id) + metabolized;
+                    // Intake should never decrease - only track positive absorption
+                    if (delta < FixedPoint2.Zero)
+                        delta = FixedPoint2.Zero;
                     ent.Comp.LastSeenReagents[reagent.Id] = amount;
                     absorbed[reagent.Id] = delta;
                 }
@@ -381,6 +502,15 @@ public sealed partial class AddictionSystem : EntitySystem
         if (stage?.Emote is not { } emote)
         {
             // No phase forces an emote right now, so the next one can start right away.
+            ent.Comp.NextEmote.Remove(id);
+            return;
+        }
+
+        // Felinids don't cough - skip emote for them
+        if (TryComp<HumanoidAppearanceComponent>(ent.Owner, out var humanoid) &&
+            _prototypes.TryIndex(humanoid.Species, out SpeciesPrototype? species) &&
+            species.ID == "Felinid")
+        {
             ent.Comp.NextEmote.Remove(id);
             return;
         }

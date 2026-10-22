@@ -45,28 +45,25 @@ public sealed partial class AddictionComponent : Component
     [ViewVariables(VVAccess.ReadWrite)]
     public Dictionary<ProtoId<AddictionPrototype>, TimeSpan> NextEmote = new();
 
+    /// <summary>
+    /// Time since last dose for each addiction, formatted for ViewVariables.
+    /// </summary>
     [ViewVariables(VVAccess.ReadWrite)]
-    public TimeSpan TimeSinceLastDose
+    public string TimeSinceLastDosePerAddiction
     {
         get
         {
             if (LastDose.Count == 0)
-                return TimeSpan.Zero;
+                return "None";
 
             var now = IoCManager.Resolve<IGameTiming>().CurTime;
-            return now - LastDose.Values.Min();
-        }
-        set
-        {
-            var now = IoCManager.Resolve<IGameTiming>().CurTime;
-            foreach (var id in Addictions)
+            var sb = new System.Text.StringBuilder();
+            foreach (var (id, lastDose) in LastDose)
             {
-                LastDose[id] = now - value;
+                var elapsed = now - lastDose;
+                sb.Append($"{id}: {elapsed:g}; ");
             }
-
-            NextMessage.Clear();
-            LastStage.Clear();
-            NextEmote.Clear();
+            return sb.ToString();
         }
     }
 
@@ -81,6 +78,17 @@ public sealed partial class AddictionComponent : Component
     /// normal speed. Kept so that the penalty is only refreshed when it actually changes.
     /// </summary>
     public readonly Dictionary<ProtoId<AddictionPrototype>, float> Slowdown = new();
+
+    /// <summary>
+    /// Whether tremor (shaking) is currently active for each addiction.
+    /// </summary>
+    public readonly Dictionary<ProtoId<AddictionPrototype>, bool> Tremor = new();
+
+    /// <summary>
+    /// When the next forced tremor emote is due for each addiction.
+    /// </summary>
+    [ViewVariables(VVAccess.ReadWrite)]
+    public Dictionary<ProtoId<AddictionPrototype>, TimeSpan> NextTremor = new();
 
     /// <summary>
     /// Amount of every tracked reagent that was last seen in the bloodstream. The difference to the

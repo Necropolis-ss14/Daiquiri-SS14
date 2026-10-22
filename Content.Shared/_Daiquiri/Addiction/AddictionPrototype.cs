@@ -112,6 +112,26 @@ public sealed partial class AddictionStage
     public float Slowdown;
 
     /// <summary>
+    /// Whether this phase forces a tremor (shaking) emote on the character. The most advanced phase
+    /// that has a tremor wins, and the tremor stays until the character takes their dose again.
+    /// </summary>
+    [DataField]
+    public bool Tremor;
+
+    /// <summary>
+    /// Emote to perform for tremor. If null, uses "Shiver" as default.
+    /// </summary>
+    [DataField]
+    public ProtoId<EmotePrototype>? TremorEmote;
+
+    /// <summary>
+    /// How often <see cref="Tremor"/> is performed while this phase is active.
+    /// Zero means the phase's <see cref="Interval"/> is used.
+    /// </summary>
+    [DataField]
+    public TimeSpan TremorInterval = TimeSpan.Zero;
+
+    /// <summary>
     /// Chat color of the messages of this phase.
     /// </summary>
     [DataField]

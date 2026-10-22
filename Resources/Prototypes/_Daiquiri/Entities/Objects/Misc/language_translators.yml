@@ -1,0 +1,194 @@
+- type: entity
+  id: BaseLanguageTranslator
+  parent: BaseItem
+  name: language-translator-base-name
+  description: language-translator-base-desc
+  components:
+  - type: Sprite
+    sprite: _Daiquiri/Objects/Devices/translator.rsi
+    state: icon
+  - type: HandheldTranslator
+    spoken:
+    - GalacticCommon
+    understood:
+    - GalacticCommon
+    requires:
+    - GalacticCommon
+  - type: Item
+    size: Small
+
+# Vox Pidgin -> GalacticCommon
+- type: entity
+  id: LanguageTranslatorVoxPidgin
+  parent: BaseLanguageTranslator
+  name: language-translator-voxpidgin-name
+  description: language-translator-voxpidgin-desc
+  components:
+  - type: HandheldTranslator
+    requires:
+    - VoxPidgin
+
+# Thaveyan -> GalacticCommon
+- type: entity
+  id: LanguageTranslatorThaveyan
+  parent: BaseLanguageTranslator
+  name: language-translator-thaveyan-name
+  description: language-translator-thaveyan-desc
+  components:
+  - type: HandheldTranslator
+    requires:
+    - Thaveyan
+
+# Terrum -> GalacticCommon
+- type: entity
+  id: LanguageTranslatorTerrum
+  parent: BaseLanguageTranslator
+  name: language-translator-terrum-name
+  description: language-translator-terrum-desc
+  components:
+  - type: HandheldTranslator
+    requires:
+    - Terrum
+
+# Sylvan -> GalacticCommon
+- type: entity
+  id: LanguageTranslatorSylvan
+  parent: BaseLanguageTranslator
+  name: language-translator-sylvan-name
+  description: language-translator-sylvan-desc
+  components:
+  - type: HandheldTranslator
+    requires:
+    - Sylvan
+
+# Squeakish -> GalacticCommon
+- type: entity
+  id: LanguageTranslatorSqueakish
+  parent: BaseLanguageTranslator
+  name: language-translator-squeakish-name
+  description: language-translator-squeakish-desc
+  components:
+  - type: HandheldTranslator
+    requires:
+    - Squeakish
+
+# Nekomimetic -> GalacticCommon
+- type: entity
+  id: LanguageTranslatorNekomimetic
+  parent: BaseLanguageTranslator
+  name: language-translator-nekomimetic-name
+  description: language-translator-nekomimetic-desc
+  components:
+  - type: HandheldTranslator
+    requires:
+    - Nekomimetic
+
+# Moffic -> GalacticCommon
+- type: entity
+  id: LanguageTranslatorMoffic
+  parent: BaseLanguageTranslator
+  name: language-translator-moffic-name
+  description: language-translator-moffic-desc
+  components:
+  - type: HandheldTranslator
+    requires:
+    - Moffic
+
+# Marish -> GalacticCommon
+- type: entity
+  id: LanguageTranslatorMarish
+  parent: BaseLanguageTranslator
+  name: language-translator-marish-name
+  description: language-translator-marish-desc
+  components:
+  - type: HandheldTranslator
+    requires:
+    - Marish
+
+# Lagomorphian -> GalacticCommon
+- type: entity
+  id: LanguageTranslatorLagomorphian
+  parent: BaseLanguageTranslator
+  name: language-translator-lagomorphian-name
+  description: language-translator-lagomorphian-desc
+  components:
+  - type: HandheldTranslator
+    requires:
+    - Lagomorphian
+
+# Grumbakul -> GalacticCommon
+- type: entity
+  id: LanguageTranslatorGrumbakul
+  parent: BaseLanguageTranslator
+  name: language-translator-grumbakul-name
+  description: language-translator-grumbakul-desc
+  components:
+  - type: HandheldTranslator
+    requires:
+    - Grumbakul
+
+# Felyaic -> GalacticCommon
+- type: entity
+  id: LanguageTranslatorFelyaic
+  parent: BaseLanguageTranslator
+  name: language-translator-felyaic-name
+  description: language-translator-felyaic-desc
+  components:
+  - type: HandheldTranslator
+    requires:
+    - Felyaic
+
+# Draconic -> GalacticCommon
+- type: entity
+  id: LanguageTranslatorDraconic
+  parent: BaseLanguageTranslator
+  name: language-translator-draconic-name
+  description: language-translator-draconic-desc
+  components:
+  - type: HandheldTranslator
+    requires:
+    - Draconic
+
+# Chittin -> GalacticCommon
+- type: entity
+  id: LanguageTranslatorChittin
+  parent: BaseLanguageTranslator
+  name: language-translator-chittin-name
+  description: language-translator-chittin-desc
+  components:
+  - type: HandheldTranslator
+    requires:
+    - Chittin
+
+# Canilunzt -> GalacticCommon
+- type: entity
+  id: LanguageTranslatorCanilunzt
+  parent: BaseLanguageTranslator
+  name: language-translator-canilunzt-name
+  description: language-translator-canilunzt-desc
+  components:
+  - type: HandheldTranslator
+    requires:
+    - Canilunzt
+
+# Bubblish -> GalacticCommon
+- type: entity
+  id: LanguageTranslatorBubblish
+  parent: BaseLanguageTranslator
+  name: language-translator-bubblish-name
+  description: language-translator-bubblish-desc
+  components:
+  - type: HandheldTranslator
+    requires:
+    - Bubblish
+
+# Aielic -> GalacticCommon
+- type: entity
+  id: LanguageTranslatorAielic
+  parent: BaseLanguageTranslator
+  name: language-translator-aielic-name
+  description: language-translator-aielic-desc
+  components:
+  - type: HandheldTranslator
+    requires:
+    - Aielic

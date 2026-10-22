@@ -9,6 +9,11 @@ addiction-impedrezene-name = impedrezene addiction
 addiction-cured-message = The craving fades: { $addiction } no longer has a hold on you.
 addiction-gained-message = Your body has grown used to it: you have developed { $addiction }.
 
+# Slowdown and tremor messages (without reagent name)
+addiction-slowdown-message = You feel your body growing heavy.
+addiction-slowdown-ended-message = The heaviness in your body fades.
+addiction-tremor-message = Your hands begin to shake.
+
 # Withdrawal phases: 1 is the beginning, 4 is the worst. The texts are picked by the addiction prototypes.
 
 ## Alcohol
