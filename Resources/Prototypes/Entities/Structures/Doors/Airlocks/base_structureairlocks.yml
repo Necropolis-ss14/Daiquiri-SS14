@@ -1,4 +1,4 @@
-﻿- type: entity
+- type: entity
   id: Airlock
   parent: [ BaseStructure, BaseStructureDissolvable ] # Starlight-edit
   name: airlock
@@ -91,6 +91,7 @@
     fuel: 5
     time: 3
   - type: Airlock
+    openUnlitVisible: true # CorvaxGoob-Resprite-Airlocks (ported from Goob Station: light strip glows on idle doors)
   - type: NavMapDoor
   - type: DoorBolt
   - type: Appearance

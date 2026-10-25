@@ -98,6 +98,7 @@ public sealed partial class AirlockSystem : SharedAirlockSystem
                 ||  state == DoorState.Opening
                 ||  state == DoorState.Denying
                 || (state == DoorState.Open && comp.OpenUnlitVisible)
+                || (state == DoorState.Closed && comp.OpenUnlitVisible) // Goob: light strip glows on idle closed doors
                 || (_appearanceSystem.TryGetData<bool>(uid, DoorVisuals.ClosedLights, out var closedLights, args.Component) && closedLights))
                     && !boltedVisible && !emergencyLightsVisible;
         }
@@ -117,16 +118,9 @@ public sealed partial class AirlockSystem : SharedAirlockSystem
             );
         }
 
-        switch (state)
-        {
-            case DoorState.Open:
-                _sprite.LayerSetRsiState((uid, args.Sprite), DoorVisualLayers.BaseUnlit, comp.ClosingSpriteState);
-                _sprite.LayerSetAnimationTime((uid, args.Sprite), DoorVisualLayers.BaseUnlit, 0);
-                break;
-            case DoorState.Closed:
-                _sprite.LayerSetRsiState((uid, args.Sprite), DoorVisualLayers.BaseUnlit, comp.OpeningSpriteState);
-                _sprite.LayerSetAnimationTime((uid, args.Sprite), DoorVisualLayers.BaseUnlit, 0);
-                break;
-        }
+        // The BaseUnlit rsi state itself is driven by DoorSystem through
+        // OpenSpriteStates/ClosedSpriteStates (populated in OnComponentStartup when
+        // OpenUnlitVisible is on). Setting it here as well fights the running
+        // open/close animations and makes the light flicker.
     }
 }
