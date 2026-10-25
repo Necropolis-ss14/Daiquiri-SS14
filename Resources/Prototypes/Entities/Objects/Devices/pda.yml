@@ -1036,6 +1036,7 @@
   - type: CartridgeLoader
     uiKey: enum.PdaUiKey.Key
     notificationsEnabled: false
+    diskSpace: 20 # Daiquiri: enough slots for every preinstalled admin program
     preinstalled:
       - CrewManifestCartridge
       - NotekeeperCartridge
@@ -1047,6 +1048,7 @@
       - MedTekCartridge
       - AstroNavCartridge
       - NanoChatCartridge # CD
+      - GoogolplexCartridge # Daiquiri: always installed in the admin PDA
   - type: Tag #  Ignore Chameleon tags
     tags:
     - DoorBumpOpener

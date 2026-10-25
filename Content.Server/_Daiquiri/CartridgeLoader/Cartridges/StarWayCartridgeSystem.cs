@@ -178,11 +178,10 @@ public sealed partial class StarWayCartridgeSystem : EntitySystem
                 _adminLogger.Add(LogType.Action, LogImpact.Low,
                     $"{ToPrettyString(args.Actor)} posted to StarWay/{message.BoardCode}/{node.Id}: '{message.Text}'");
 
-                // Admins see every post with the real account name in admin chat, and the
-                // same info is mirrored to Discord when a webhook is configured.
+                // Both names: the player's nick and the name the post was written under.
                 _chat.SendAdminAnnouncement(
-                    $"[StarWay /{message.BoardCode.ToLowerInvariant()}/] {session.Name}: {newPost.Text}");
-                SendForumWebhook(session.Name, message.BoardCode, node.Title, newPost.Text);
+                    $"[StarWay /{message.BoardCode.ToLowerInvariant()}/] {session.Name} (автор: {newPost.Author}): {newPost.Text}");
+                SendForumWebhook(session.Name, newPost.Author, message.BoardCode, node.Title, newPost.Text);
 
                 BroadcastThread(message.BoardCode, root, node.Id);
                 SaveForum();
@@ -299,7 +298,7 @@ public sealed partial class StarWayCartridgeSystem : EntitySystem
         }
     }
 
-    private async void SendForumWebhook(string author, string board, string threadTitle, string text)
+    private async void SendForumWebhook(string player, string author, string board, string threadTitle, string text)
     {
         if (string.IsNullOrWhiteSpace(_webhookUrl))
             return;
@@ -313,7 +312,7 @@ public sealed partial class StarWayCartridgeSystem : EntitySystem
             var payload = new WebhookPayload
             {
                 Username = "StarWay",
-                Content = $"**{author}** · /{board.ToLowerInvariant()}/ {threadTitle}\n{text}",
+                Content = $"**{player}** (автор: {author}) · /{board.ToLowerInvariant()}/ {threadTitle}\n{text}",
             };
 
             await _discord.CreateMessage(webhookData.Value.ToIdentifier(), payload);
