@@ -1,6 +1,9 @@
 using Content.Client._Starlight.Time; // Starlight
 using Content.Client.GameTicking.Managers;
+using Content.Client.Resources;
 using Content.Shared.PDA;
+using Robust.Client.ResourceManagement;
+using Robust.Shared.Log;
 using Robust.Shared.Utility;
 using Content.Shared._Starlight.Time; // Starlight-edit
 using Content.Shared.CartridgeLoader;
@@ -20,6 +23,8 @@ namespace Content.Client.PDA
         [Dependency] private IClipboardManager _clipboard = null!;
         [Dependency] private IGameTiming _gameTiming = default!;
         [Dependency] private IEntitySystemManager _entitySystem = default!;
+        [Dependency] private IResourceCache _resourceCache = default!;
+        private static readonly ISawmill Sawmill = Logger.GetSawmill("pda");
         private readonly ClientGameTicker _gameTicker;
 
         public const int HomeView = 0;
@@ -58,6 +63,31 @@ namespace Content.Client.PDA
             EjectIdButton.IconTexture = new SpriteSpecifier.Texture(new("/Textures/Interface/eject.png"));
             EjectPaiButton.IconTexture = new SpriteSpecifier.Texture(new("/Textures/Interface/pai.png"));
             ProgramCloseButton.IconTexture = new SpriteSpecifier.Texture(new("/Textures/Interface/Nano/cross.svg.png"));
+
+            // StarWay: the address bar replaces the program title while a cartridge opts in.
+            ProgramAddressBar.Stylesheet = new Stylesheet(new[]
+            {
+                new StyleRule(
+                    new SelectorElement(typeof(LineEdit), null, null, null),
+                    new StyleProperty[]
+                    {
+                        new StyleProperty("font", _resourceCache.GetFont("/Fonts/NotoSans/NotoSans-Regular.ttf", 10)),
+                        new StyleProperty("font-color", Color.White),
+                        new StyleProperty("cursor-color", Color.White),
+                        new StyleProperty("selection-color", Color.FromHex("#3D5AFE")),
+                        new StyleProperty("stylebox", new StyleBoxFlat
+                        {
+                            BackgroundColor = Color.FromHex("#202023"),
+                            BorderColor = Color.FromHex("#5A5A5A"),
+                            BorderThickness = new Thickness(0, 0, 0, 2),
+                            ContentMarginLeftOverride = 6,
+                            ContentMarginRightOverride = 6,
+                            ContentMarginTopOverride = 3,
+                            ContentMarginBottomOverride = 3,
+                        }),
+                    }),
+            });
+            ProgramAddressBar.OnTextEntered += _ => ProgramAddressEntered?.Invoke(ProgramAddressBar.Text ?? "");
 
 
             HomeButton.OnPressed += _ => ToHomeScreen();
@@ -304,12 +334,48 @@ namespace Content.Client.PDA
         }
 
         /// <summary>
+        /// Raised when the user presses Enter in the cartridge address bar.
+        /// </summary>
+        public event Action<string>? ProgramAddressEntered;
+
+        private string? _programAddress;
+
+        /// <summary>
+        /// Turns the program-title slot into an editable address bar showing <paramref name="url"/>.
+        /// Pass null to restore the ordinary program title.
+        /// </summary>
+        public void SetProgramAddressBar(string? url)
+        {
+            _programAddress = string.IsNullOrEmpty(url) ? null : url;
+            ApplyProgramAddress();
+        }
+
+        private void ApplyProgramAddress()
+        {
+            Sawmill.Info($"Address apply: view={_currentView}, addr='{_programAddress}', text='{ProgramAddressBar.Text}', visible={ProgramAddressBar.Visible}");
+
+            if (_currentView != ProgramContentView || string.IsNullOrEmpty(_programAddress))
+            {
+                ProgramAddressBar.Visible = false;
+                return;
+            }
+
+            ProgramTitle.Visible = false;
+            ProgramAddressBar.Visible = true;
+
+            if (ProgramAddressBar.Text != _programAddress)
+                ProgramAddressBar.Text = _programAddress;
+        }
+
+        /// <summary>
         /// Hides the program title and close button.
         /// </summary>
         public void HideProgramHeader()
         {
             ProgramTitle.IsCurrent = false;
             ProgramTitle.Visible = false;
+            _programAddress = null;
+            ProgramAddressBar.Visible = false;
             ProgramCloseButton.Visible = false;
             ProgramListButton.Visible = true;
             SettingsButton.Visible = true;
@@ -346,6 +412,9 @@ namespace Content.Client.PDA
             ViewContainer.GetChild(_currentView).Visible = false;
             ViewContainer.GetChild(view).Visible = true;
             _currentView = view;
+
+            // The cartridge address bar only belongs to the program content view.
+            ApplyProgramAddress();
         }
 
         private static BoxContainer CreateProgramListRow()

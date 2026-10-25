@@ -1,4 +1,4 @@
-﻿using Robust.Shared.Configuration;
+using Robust.Shared.Configuration;
 
 namespace Content.Shared.CCVar;
 
@@ -107,6 +107,12 @@ public sealed partial class CCVars
     /// </summary>
     public static readonly CVarDef<string> DiscordNewsWebhookEmbedColor =
         CVarDef.Create("discord.news_webhook_embed_color", Color.LawnGreen.ToHex(), CVar.SERVERONLY);
+
+    /// <summary>
+    ///     URL of the Discord webhook which will relay StarWay forum posts. If left empty, disables the webhook.
+    /// </summary>
+    public static readonly CVarDef<string> DiscordStarWayWebhook =
+        CVarDef.Create("discord.starway_webhook", string.Empty, CVar.SERVERONLY | CVar.CONFIDENTIAL);
 
     /// <summary>
     ///     Whether or not articles should be sent mid-round instead of all at once at the round's end

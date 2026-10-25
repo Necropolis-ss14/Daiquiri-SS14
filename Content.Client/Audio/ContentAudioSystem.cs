@@ -45,10 +45,19 @@ public sealed partial class ContentAudioSystem : SharedContentAudioSystem
 
     private void StopAllAudio()
     {
+        // Lobby music and the round-restart jingle are client-side streams that have to survive
+        // the transition back into the lobby. Otherwise the music entity is queued for deletion
+        // while _lobbySoundtrackInfo still points at it, so StartLobbyMusic() skips restarting it.
+        var lobbyMusic = _lobbySoundtrackInfo?.MusicStreamEntityUid;
+        var restartAudio = _lobbyRoundRestartAudioStream;
+
         var query = AllEntityQuery<AudioComponent>();
 
         while (query.MoveNext(out var uid, out var comp))
         {
+            if (uid == lobbyMusic || uid == restartAudio)
+                continue;
+
             if (IsClientSide(uid))
             {
                 QueueDel(uid);

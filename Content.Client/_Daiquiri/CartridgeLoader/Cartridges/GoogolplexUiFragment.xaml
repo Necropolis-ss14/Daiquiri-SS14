@@ -4,90 +4,388 @@
                                   HorizontalExpand="True"
                                   VerticalExpand="True">
     <PanelContainer Name="Background" HorizontalExpand="True" VerticalExpand="True">
-        <BoxContainer Orientation="Vertical" HorizontalExpand="True" VerticalExpand="True" SeparationOverride="0">
-            <Control VerticalExpand="True"/>
-
-            <TextureRect Name="Wordmark"
-                         HorizontalExpand="True"
-                         HorizontalAlignment="Center"
-                         MaxWidth="371"
-                         MinHeight="71"
-                         MaxHeight="71"
-                         Stretch="KeepAspectCentered"/>
-
-            <PanelContainer Name="SearchPanel"
-                            HorizontalExpand="True"
-                            HorizontalAlignment="Center"
-                            MinWidth="372"
-                            MaxWidth="372"
-                            MinHeight="38"
-                            MaxHeight="38"
-                            Margin="0 24 0 0">
-                <BoxContainer Orientation="Horizontal" HorizontalExpand="True" VerticalExpand="True">
-                    <LineEdit Name="SearchBox"
-                              HorizontalExpand="True"
-                              VerticalExpand="True"
-                              Margin="12 0 0 0"/>
-                    <TextureButton Name="SearchButton"
-                                   MinWidth="32"
-                                   MinHeight="32"
-                                   MaxWidth="32"
-                                   MaxHeight="32"
-                                   Margin="4 0 8 0"
-                                   VerticalAlignment="Center"
+        <LayoutContainer HorizontalExpand="True" VerticalExpand="True">
+            <BoxContainer Name="MainContent"
+                          Orientation="Vertical"
+                          HorizontalExpand="True"
+                          VerticalExpand="True"
+                          SeparationOverride="0"
+                          LayoutContainer.AnchorLeft="0"
+                          LayoutContainer.AnchorTop="0"
+                          LayoutContainer.AnchorRight="1"
+                          LayoutContainer.AnchorBottom="1">
+                <BoxContainer Orientation="Horizontal" HorizontalExpand="True" Margin="0 6 10 0">
+                    <Control HorizontalExpand="True"/>
+                    <TextureButton Name="ThemeButton"
+                                   Access="Public"
+                                   MinWidth="24"
+                                   MinHeight="24"
+                                   MaxWidth="24"
+                                   MaxHeight="24"
                                    MouseFilter="Stop"/>
                 </BoxContainer>
+
+                <Control Name="TopSpacer" VerticalExpand="True"/>
+
+                <TextureRect Name="Wordmark"
+                             HorizontalExpand="True"
+                             HorizontalAlignment="Center"
+                             MaxWidth="371"
+                             MinHeight="71"
+                             MaxHeight="71"
+                             Stretch="KeepAspectCentered"/>
+
+                <PanelContainer Name="SearchPanel"
+                                HorizontalExpand="True"
+                                HorizontalAlignment="Center"
+                                MinWidth="372"
+                                MaxWidth="372"
+                                MinHeight="38"
+                                MaxHeight="38"
+                                Margin="0 24 0 0">
+                    <BoxContainer Orientation="Horizontal" HorizontalExpand="True" VerticalExpand="True">
+                        <LineEdit Name="SearchBox"
+                                  HorizontalExpand="True"
+                                  VerticalExpand="True"
+                                  Margin="12 0 0 0"/>
+                        <TextureButton Name="SearchButton"
+                                       MinWidth="32"
+                                       MinHeight="32"
+                                       MaxWidth="32"
+                                       MaxHeight="32"
+                                       Margin="4 0 8 0"
+                                       VerticalAlignment="Center"
+                                       MouseFilter="Stop"/>
+                    </BoxContainer>
+                </PanelContainer>
+
+                <BoxContainer Name="Tabs"
+                              Orientation="Horizontal"
+                              HorizontalAlignment="Center"
+                              Margin="0 3 0 0">
+                    <TextureButton Name="SitesButton" MinWidth="124" MinHeight="26" MaxWidth="124" MaxHeight="26"/>
+                    <TextureButton Name="NewsButton" MinWidth="124" MinHeight="26" MaxWidth="124" MaxHeight="26"/>
+                    <TextureButton Name="GoodsButton" MinWidth="124" MinHeight="26" MaxWidth="124" MaxHeight="26"/>
+                </BoxContainer>
+
+                <Control Name="BottomSpacer" VerticalExpand="True"/>
+
+                <BoxContainer Name="ResultsPage" Access="Public" Orientation="Vertical" HorizontalExpand="True" VerticalExpand="True" Visible="False" MouseFilter="Stop">
+                    <TextureButton Name="BackButton"
+                                   Access="Public"
+                                   HorizontalAlignment="Left"
+                                   MinWidth="24"
+                                   MinHeight="24"
+                                   MaxWidth="24"
+                                   MaxHeight="24"
+                                   Margin="24 10 0 6"
+                                   MouseFilter="Stop"/>
+                    <BoxContainer Name="ResultsList" Orientation="Vertical" HorizontalAlignment="Left" HorizontalExpand="True" Margin="24 4 24 0" SeparationOverride="16"/>
+                    <Control VerticalExpand="True"/>
+                </BoxContainer>
+            </BoxContainer>
+
+            <PanelContainer Name="StarWayPage"
+                            Access="Public"
+                            Visible="False"
+                            MouseFilter="Stop"
+                            LayoutContainer.AnchorLeft="0"
+                            LayoutContainer.AnchorTop="0"
+                            LayoutContainer.AnchorRight="1"
+                            LayoutContainer.AnchorBottom="1">
+                <LayoutContainer>
+                    <BoxContainer Orientation="Vertical"
+                                  HorizontalExpand="True"
+                                  VerticalExpand="True"
+                                  SeparationOverride="0"
+                                  LayoutContainer.AnchorLeft="0"
+                                  LayoutContainer.AnchorTop="0"
+                                  LayoutContainer.AnchorRight="1"
+                                  LayoutContainer.AnchorBottom="1">
+                        <TextureRect Name="StarWayLogo"
+                                     HorizontalExpand="True"
+                                     HorizontalAlignment="Center"
+                                     MinWidth="0"
+                                     MaxWidth="300"
+                                     MinHeight="75"
+                                     MaxHeight="75"
+                                     Margin="0 16 0 0"
+                                     Stretch="KeepAspectCentered"/>
+                        <ScrollContainer Name="StarWayScroll"
+                                         HorizontalExpand="True"
+                                         VerticalExpand="True"
+                                         HScrollEnabled="False"
+                                         Margin="24 4 24 12">
+                            <BoxContainer Name="StarWayContent"
+                                          Orientation="Vertical"
+                                          HorizontalExpand="True"
+                                          SeparationOverride="0"/>
+                        </ScrollContainer>
+                        <PanelContainer Name="StarWaySubthreadPanel"
+                                        Access="Public"
+                                        Visible="False"
+                                        HorizontalExpand="True"
+                                        Margin="12 0 12 0"
+                                        MouseFilter="Stop">
+                            <BoxContainer Orientation="Vertical"
+                                          HorizontalExpand="True"
+                                          SeparationOverride="6"
+                                          Margin="6">
+                                <Label Name="StarWaySubthreadLabel"
+                                       Access="Public"
+                                       Text="Новый подтред"
+                                       HorizontalAlignment="Left"/>
+                                <LineEdit Name="StarWaySubthreadTitle"
+                                          Access="Public"
+                                          HorizontalExpand="True"
+                                          MinHeight="26"
+                                          MaxHeight="26"/>
+                                <BoxContainer Orientation="Horizontal"
+                                              HorizontalExpand="True"
+                                              SeparationOverride="6">
+                                    <Button Name="StarWaySubthreadCreate"
+                                            Access="Public"
+                                            HorizontalExpand="True"
+                                            MinHeight="26"
+                                            MaxHeight="26"
+                                            Text="Создать"
+                                            MouseFilter="Stop"/>
+                                    <Button Name="StarWaySubthreadCancel"
+                                            Access="Public"
+                                            MinWidth="96"
+                                            MinHeight="26"
+                                            MaxWidth="96"
+                                            MaxHeight="26"
+                                            Text="Отмена"
+                                            MouseFilter="Stop"/>
+                                </BoxContainer>
+                                <Label Name="StarWaySubthreadStatus"
+                                       Access="Public"
+                                       Visible="False"
+                                       HorizontalAlignment="Left"
+                                       Margin="2 0 0 0"/>
+                            </BoxContainer>
+                        </PanelContainer>
+                        <PanelContainer Name="StarWayComposer"
+                                        Access="Public"
+                                        Visible="False"
+                                        HorizontalExpand="True"
+                                        Margin="12 0 12 10"
+                                        MouseFilter="Stop">
+                            <BoxContainer Orientation="Vertical"
+                                          HorizontalExpand="True"
+                                          SeparationOverride="6"
+                                          Margin="6">
+                                <BoxContainer Orientation="Horizontal"
+                                              HorizontalExpand="True"
+                                              SeparationOverride="6">
+                                    <LineEdit Name="StarWayMessageInput"
+                                              Access="Public"
+                                              HorizontalExpand="True"
+                                              MinHeight="30"
+                                              MaxHeight="30"/>
+                                    <Button Name="StarWayEmojiButton"
+                                            Access="Public"
+                                            MinWidth="34"
+                                            MinHeight="30"
+                                            MaxWidth="34"
+                                            MaxHeight="30"
+                                            Text="🙂"
+                                            MouseFilter="Stop"/>
+                                </BoxContainer>
+                                <GridContainer Name="StarWayEmojiPicker"
+                                               Access="Public"
+                                               Visible="False"
+                                               Columns="8"
+                                               HSeparationOverride="2"
+                                               VSeparationOverride="2"/>
+                                <BoxContainer Orientation="Horizontal"
+                                              HorizontalExpand="True"
+                                              SeparationOverride="6">
+                                    <CheckBox Name="StarWayAnonymousCheck"
+                                              Access="Public"
+                                              Text="Аноним"
+                                              VerticalAlignment="Center"
+                                              MouseFilter="Stop"/>
+                                    <Control Name="StarWayNameSpacer"
+                                             HorizontalExpand="True"
+                                             Visible="True"/>
+                                    <LineEdit Name="StarWayNameInput"
+                                              Access="Public"
+                                              HorizontalExpand="True"
+                                              MinHeight="26"
+                                              MaxHeight="26"
+                                              Visible="False"/>
+                                </BoxContainer>
+                                <Button Name="StarWaySendButton"
+                                        Access="Public"
+                                        HorizontalExpand="True"
+                                        MinHeight="26"
+                                        MaxHeight="26"
+                                        Text="Отправить"
+                                        MouseFilter="Stop"/>
+                                <Label Name="StarWayCooldownLabel"
+                                       Access="Public"
+                                       Visible="False"
+                                       HorizontalAlignment="Left"
+                                       Margin="2 0 0 0"/>
+                            </BoxContainer>
+                        </PanelContainer>
+                    </BoxContainer>
+                    <TextureButton Name="StarWayBackButton"
+                                   MinWidth="24"
+                                   MinHeight="24"
+                                   MaxWidth="24"
+                                   MaxHeight="24"
+                                   MouseFilter="Stop"
+                                   LayoutContainer.AnchorLeft="0"
+                                   LayoutContainer.AnchorTop="0"
+                                   LayoutContainer.AnchorRight="0"
+                                   LayoutContainer.AnchorBottom="0"
+                                   LayoutContainer.MarginLeft="8"
+                                   LayoutContainer.MarginTop="8"
+                                   LayoutContainer.MarginRight="32"
+                                   LayoutContainer.MarginBottom="32"/>
+                </LayoutContainer>
             </PanelContainer>
 
-            <BoxContainer Name="Tabs"
-                          Orientation="Horizontal"
-                          HorizontalAlignment="Center"
-                          Margin="0 3 0 0">
-                <TextureButton Name="SitesButton" MinWidth="124" MinHeight="26" MaxWidth="124" MaxHeight="26"/>
-                <TextureButton Name="NewsButton" MinWidth="124" MinHeight="26" MaxWidth="124" MaxHeight="26"/>
-                <TextureButton Name="GoodsButton" MinWidth="124" MinHeight="26" MaxWidth="124" MaxHeight="26"/>
-            </BoxContainer>
-
-            <Control VerticalExpand="True"/>
-
-            <BoxContainer Name="ResultsPage" Access="Public" Orientation="Vertical" HorizontalExpand="True" VerticalExpand="True" Visible="False" MouseFilter="Stop">
-                <BoxContainer Name="ResultsHeader" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="24 24 0 0">
-                    <TextureRect Name="ResultsIcon" MinWidth="32" MinHeight="32" MaxWidth="32" MaxHeight="32" Stretch="KeepAspectCentered" VerticalAlignment="Center"/>
-                    <BoxContainer Name="ResultsInfo" Orientation="Vertical" VerticalAlignment="Center" Margin="8 0 0 0">
-                        <Label Name="ResultsDomainLabel" VerticalAlignment="Center"/>
-                        <Button Name="ResultsTitleButton" MouseFilter="Stop">
-                            <Label Name="ResultsTitle" VerticalAlignment="Center"/>
-                        </Button>
+            <PanelContainer Name="SitesPage"
+                            Access="Public"
+                            Visible="False"
+                            MouseFilter="Stop"
+                            LayoutContainer.AnchorLeft="0"
+                            LayoutContainer.AnchorTop="0"
+                            LayoutContainer.AnchorRight="1"
+                            LayoutContainer.AnchorBottom="1">
+                <LayoutContainer>
+                    <BoxContainer Orientation="Vertical"
+                                  HorizontalExpand="True"
+                                  VerticalExpand="True"
+                                  SeparationOverride="0"
+                                  LayoutContainer.AnchorLeft="0"
+                                  LayoutContainer.AnchorTop="0"
+                                  LayoutContainer.AnchorRight="1"
+                                  LayoutContainer.AnchorBottom="1">
+                        <Label Name="SitesTitle"
+                               Access="Public"
+                               Text="Сайты"
+                               Margin="44 14 0 12"
+                               HorizontalAlignment="Left"/>
+                        <ScrollContainer Name="SitesScroll"
+                                         HorizontalExpand="True"
+                                         VerticalExpand="True"
+                                         HScrollEnabled="False"
+                                         Margin="24 0 24 12">
+                            <BoxContainer Name="SitesContent"
+                                          Orientation="Vertical"
+                                          HorizontalExpand="True"
+                                          SeparationOverride="18"/>
+                        </ScrollContainer>
                     </BoxContainer>
-                </BoxContainer>
-                <Label Name="ResultsDescription" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="24 16 24 0" MaxWidth="500"/>
-                <TextureRect Name="ProgressBackground" HorizontalAlignment="Left" MinWidth="300" MinHeight="16" MaxHeight="16" Stretch="KeepAspectCentered" Margin="24 24 0 0"/>
-                <ProgressBar Name="SearchProgress" HorizontalExpand="True" MinHeight="16" MaxHeight="16" Margin="60 8 60 8"/>
-                <Button Name="BackButton" MinWidth="80" MinHeight="26" MaxWidth="80" MaxHeight="26" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="24 32 0 24" MouseFilter="Stop">
-                    <Label Text="Назад" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                </Button>
-            </BoxContainer>
-
-            <BoxContainer Name="StarWayPage" Access="Public" Orientation="Vertical" HorizontalExpand="True" VerticalExpand="True" Visible="False" MouseFilter="Stop">
-                <BoxContainer Name="StarWayHeader" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="24 32 0 0">
-                    <TextureRect Name="StarWayIcon" MinWidth="32" MinHeight="32" MaxWidth="32" MaxHeight="32" Stretch="KeepAspectCentered" VerticalAlignment="Center"/>
-                    <BoxContainer Name="StarWayInfo" Orientation="Vertical" VerticalAlignment="Center" Margin="8 0 0 0">
-                        <Label Name="StarWayDomainLabel" VerticalAlignment="Center"/>
-                        <Label Name="StarWayTitle" VerticalAlignment="Center"/>
-                    </BoxContainer>
-                </BoxContainer>
-                <TextureRect Name="StarWayBanner" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="24 16 0 0" MinWidth="300" MinHeight="120" MaxWidth="500" MaxHeight="120" Stretch="KeepAspectCentered"/>
-                <Button Name="StarWayBackButton" MinWidth="80" MinHeight="26" MaxWidth="80" MaxHeight="26" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="24 24 0 24" MouseFilter="Stop">
-                    <Label Text="Назад" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                </Button>
-            </BoxContainer>
-
-            <PanelContainer Name="ForumPage" Access="Public" HorizontalExpand="True" VerticalExpand="True" Visible="False" MouseFilter="Stop">
-                <TextureRect Name="ForumBanner" HorizontalExpand="True" VerticalExpand="True" Stretch="KeepAspectCentered"/>
-                <Button Name="ForumBackButton" MinWidth="80" MinHeight="26" MaxWidth="80" MaxHeight="26" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="24 24 0 24" MouseFilter="Stop">
-                    <Label Text="Назад" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                </Button>
+                    <TextureButton Name="SitesBackButton"
+                                   MinWidth="24"
+                                   MinHeight="24"
+                                   MaxWidth="24"
+                                   MaxHeight="24"
+                                   MouseFilter="Stop"
+                                   LayoutContainer.AnchorLeft="0"
+                                   LayoutContainer.AnchorTop="0"
+                                   LayoutContainer.AnchorRight="0"
+                                   LayoutContainer.AnchorBottom="0"
+                                   LayoutContainer.MarginLeft="8"
+                                   LayoutContainer.MarginTop="8"
+                                   LayoutContainer.MarginRight="32"
+                                   LayoutContainer.MarginBottom="32"/>
+                </LayoutContainer>
             </PanelContainer>
-        </BoxContainer>
+
+            <PanelContainer Name="ErrorPage"
+                            Access="Public"
+                            Visible="False"
+                            MouseFilter="Stop"
+                            LayoutContainer.AnchorLeft="0"
+                            LayoutContainer.AnchorTop="0"
+                            LayoutContainer.AnchorRight="1"
+                            LayoutContainer.AnchorBottom="1">
+                <BoxContainer Orientation="Vertical"
+                              HorizontalExpand="True"
+                              VerticalExpand="True"
+                              LayoutContainer.AnchorLeft="0"
+                              LayoutContainer.AnchorTop="0"
+                              LayoutContainer.AnchorRight="1"
+                              LayoutContainer.AnchorBottom="1">
+                    <Control VerticalExpand="True"/>
+                    <Label Name="ErrorCodeLabel" Access="Public" Text="404" Align="Center" HorizontalExpand="True"/>
+                    <Label Name="ErrorMessageLabel" Access="Public" Text="Сайт не найден" Align="Center" HorizontalExpand="True" Margin="0 6 0 0"/>
+                    <Label Name="ErrorUrlLabel" Access="Public" Align="Center" HorizontalExpand="True" Margin="0 6 0 0"/>
+                    <BoxContainer Orientation="Horizontal" HorizontalAlignment="Center" Margin="0 16 0 0">
+                        <Button Name="ErrorHomeButton" Access="Public" Text="На главную" MouseFilter="Stop"/>
+                    </BoxContainer>
+                    <Control VerticalExpand="True"/>
+                </BoxContainer>
+            </PanelContainer>
+
+            <BoxContainer Name="SearchLoadingOverlay"
+                          Access="Public"
+                          Visible="False"
+                          Orientation="Vertical"
+                          HorizontalExpand="True"
+                          VerticalExpand="True"
+                          MouseFilter="Ignore"
+                          LayoutContainer.AnchorLeft="0"
+                          LayoutContainer.AnchorTop="0"
+                          LayoutContainer.AnchorRight="1"
+                          LayoutContainer.AnchorBottom="1">
+                <Control VerticalExpand="True"/>
+                <Label Name="SearchLoadingLabel"
+                       Access="Public"
+                       Text="Поиск."
+                       Align="Center"
+                       HorizontalExpand="True"/>
+                <Control VerticalExpand="True"/>
+            </BoxContainer>
+
+            <PanelContainer Name="TransitionOverlay"
+                            Access="Public"
+                            Visible="False"
+                            MouseFilter="Stop"
+                            LayoutContainer.AnchorLeft="0"
+                            LayoutContainer.AnchorTop="0"
+                            LayoutContainer.AnchorRight="1"
+                            LayoutContainer.AnchorBottom="1">
+                <LayoutContainer>
+                    <BoxContainer Orientation="Vertical"
+                                  HorizontalExpand="True"
+                                  VerticalExpand="True"
+                                  LayoutContainer.AnchorLeft="0"
+                                  LayoutContainer.AnchorTop="0"
+                                  LayoutContainer.AnchorRight="1"
+                                  LayoutContainer.AnchorBottom="1">
+                        <Control VerticalExpand="True"/>
+                        <PanelContainer Name="TransitionBox" HorizontalAlignment="Center">
+                            <Label Name="TransitionLabel"
+                                   Access="Public"
+                                   Text="Переход."
+                                   Margin="20 10"/>
+                        </PanelContainer>
+                        <Control VerticalExpand="True"/>
+                    </BoxContainer>
+                </LayoutContainer>
+            </PanelContainer>
+
+            <ProgressBar Name="SearchProgress"
+                         HorizontalExpand="True"
+                         Visible="False"
+                         MinHeight="6"
+                         MaxHeight="6"
+                         LayoutContainer.AnchorLeft="0"
+                         LayoutContainer.AnchorTop="0"
+                         LayoutContainer.AnchorRight="1"
+                         LayoutContainer.AnchorBottom="0"
+                         LayoutContainer.MarginLeft="0"
+                         LayoutContainer.MarginTop="0"
+                         LayoutContainer.MarginRight="0"
+                         LayoutContainer.MarginBottom="6"/>
+        </LayoutContainer>
     </PanelContainer>
 </cartridges:GoogolplexUiFragment>

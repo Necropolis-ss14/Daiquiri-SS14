@@ -22,6 +22,12 @@ public sealed partial class PryingComponent : Component
     public bool Force;
 
     /// <summary>
+    /// Goobstation - Whether the tool can instantly pry unpowered, unbolted doors.
+    /// </summary>
+    [DataField]
+    public bool InstaPry = true;
+
+    /// <summary>
     /// Modifier on the prying time.
     /// Lower values result in more time.
     /// </summary>
@@ -138,11 +144,13 @@ public readonly record struct UserPriedDoorEvent(EntityUid Door, bool Opened)
 public record struct GetPryTimeModifierEvent
 {
     public readonly EntityUid User;
+    public readonly bool InstaPry; // Goobstation
     public float PryTimeModifier = 1.0f;
     public TimeSpan BaseTime = TimeSpan.FromSeconds(5);
 
-    public GetPryTimeModifierEvent(EntityUid user)
+    public GetPryTimeModifierEvent(EntityUid user, bool instaPry) // Goobstation - add instaPry
     {
         User = user;
+        InstaPry = instaPry;
     }
 }

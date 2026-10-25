@@ -14,6 +14,7 @@ using Content.Shared.Humanoid;
 using Content.Shared.Humanoid.Prototypes;
 using Content.Shared.Mobs.Systems;
 using Content.Shared.Movement.Systems;
+using Content.Shared.Rejuvenate;
 using JetBrains.Annotations;
 using Robust.Server.Player;
 using Robust.Shared.Prototypes;
@@ -68,6 +69,15 @@ public sealed partial class AddictionSystem : EntitySystem
         SubscribeLocalEvent<AddictionComponent, CollectHealthAnalyzerExtensionsEvent>(OnCollectAnalyzerData);
         SubscribeLocalEvent<AddictionComponent, RailroadingReagentMetabolizedEvent>(OnReagentMetabolized);
         SubscribeLocalEvent<AddictionComponent, MapInitEvent>(OnMapInit);
+        SubscribeLocalEvent<AddictionComponent, RejuvenateEvent>(OnRejuvenate);
+    }
+
+    /// <summary>
+    /// Admin rejuvenate is a full debug heal, so it also removes every addiction/dependency.
+    /// </summary>
+    private void OnRejuvenate(Entity<AddictionComponent> ent, ref RejuvenateEvent args)
+    {
+        CureAll(ent.Owner, ent.Comp);
     }
 
     /// <summary>

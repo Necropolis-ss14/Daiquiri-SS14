@@ -1,6 +1,8 @@
 using Content.Shared.Doors.Systems;
+using Content.Shared.Tools;
 using Robust.Shared.Audio;
 using Robust.Shared.GameStates;
+using Robust.Shared.Prototypes;
 
 namespace Content.Shared.Doors.Components;
 
@@ -47,4 +49,16 @@ public sealed partial class DoorBoltComponent : Component
     /// </summary>
     [DataField, AutoNetworkedField]
     public bool Powered;
+
+    /// <summary>
+    /// Goobstation - Tool quality used to manually bolt/unbolt an unpowered door.
+    /// </summary>
+    [DataField]
+    public ProtoId<ToolQualityPrototype> UnboltToolQuality = "Anchoring";
+
+    /// <summary>
+    /// Goobstation - How long it takes to manually bolt/unbolt an unpowered door.
+    /// </summary>
+    [DataField]
+    public TimeSpan ManualUnboltTime = TimeSpan.FromSeconds(10);
 }

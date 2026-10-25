@@ -15,6 +15,19 @@ namespace Content.Client.PDA
         [ViewVariables]
         private PdaMenu? _menu;
 
+        /// <summary>
+        /// Raised when the user presses Enter in the cartridge address bar in the PDA header.
+        /// </summary>
+        public event Action<string>? ProgramAddressEntered;
+
+        /// <summary>
+        /// Lets the active cartridge replace the program title with an editable address bar.
+        /// </summary>
+        public void SetProgramAddressBar(string? url)
+        {
+            _menu?.SetProgramAddressBar(url);
+        }
+
         public PdaBoundUserInterface(EntityUid owner, Enum uiKey) : base(owner, uiKey)
         {
             _pdaSystem = EntMan.System<PdaSystem>();
@@ -31,6 +44,8 @@ namespace Content.Client.PDA
         private void CreateMenu()
         {
             _menu = this.CreateWindowCenteredLeft<PdaMenu>();
+
+            _menu.ProgramAddressEntered += text => ProgramAddressEntered?.Invoke(text);
 
             _menu.FlashLightToggleButton.OnToggled += _ =>
             {

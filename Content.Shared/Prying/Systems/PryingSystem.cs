@@ -169,7 +169,8 @@ public sealed partial class PryingSystem : EntitySystem
 
     private bool StartPry(EntityUid target, EntityUid user, EntityUid? tool, float toolModifier, [NotNullWhen(true)] out DoAfterId? id)
     {
-        var modEv = new GetPryTimeModifierEvent(user);
+        var instaPry = TryComp(tool, out PryingComponent? prying) && prying.InstaPry; // Goobstation
+        var modEv = new GetPryTimeModifierEvent(user, instaPry);
 
         RaiseLocalEvent(target, ref modEv);
         var doAfterArgs = new DoAfterArgs(EntityManager, user, modEv.BaseTime * modEv.PryTimeModifier / toolModifier, new DoorPryDoAfterEvent(), target, target, tool)

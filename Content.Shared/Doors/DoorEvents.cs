@@ -1,4 +1,6 @@
+using Content.Shared.DoAfter;
 using Content.Shared.Doors.Components;
+using Robust.Shared.Serialization;
 
 namespace Content.Shared.Doors
 {
@@ -82,4 +84,10 @@ namespace Content.Shared.Doors
     public sealed class BeforeDoorAutoCloseEvent : CancellableEntityEventArgs
     {
     }
+
+    /// <summary>
+    /// Goobstation - Event for manually bolting an unpowered door with a tool.
+    /// </summary>
+    [Serializable, NetSerializable]
+    public sealed partial class ManualBoltingDoAfterEvent : SimpleDoAfterEvent;
 }

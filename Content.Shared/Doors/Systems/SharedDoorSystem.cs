@@ -4,6 +4,7 @@ using Content.Shared.Access.Systems;
 using Content.Shared.Administration.Logs;
 using Content.Shared.Damage.Systems;
 using Content.Shared.Database;
+using Content.Shared.DoAfter;
 using Content.Shared.Doors.Components;
 using Content.Shared.Emag.Systems;
 using Content.Shared.Interaction;
@@ -14,7 +15,9 @@ using Content.Shared.Prying.Components;
 using Content.Shared.Prying.Systems;
 using Content.Shared.Stunnable;
 using Content.Shared.Tag;
+using Content.Shared.Tools.Components;
 using Content.Shared.Tools.Systems;
+using Content.Shared.Wires;
 using Robust.Shared.Audio;
 using Robust.Shared.Physics.Components;
 using Robust.Shared.Physics.Events;
@@ -46,6 +49,9 @@ public abstract partial class SharedDoorSystem : EntitySystem
     [Dependency] protected SharedPopupSystem Popup = default!;
     [Dependency] private SharedMapSystem _mapSystem = default!;
     [Dependency] private SharedPowerReceiverSystem _powerReceiver = default!;
+    [Dependency] private SharedToolSystem _toolsSystem = default!;
+    [Dependency] private SharedDoAfterSystem _doAfterSystem = default!;
+    [Dependency] private SharedWiresSystem _sharedWiresSystem = default!;
 
     public static readonly ProtoId<TagPrototype> DoorBumpTag = "DoorBumpOpener";
 

@@ -163,11 +163,11 @@ public sealed partial class ContentAudioSystem
         {
             // Daiquiri
             _lobbyPausePosition = clamped;
-            _lobbyPauseStarted = _timing.CurTime;
+            _lobbyPauseStarted = _timing.RealTime;
         }
         _lobbySoundtrackInfo = _lobbySoundtrackInfo with
         {
-            NextTrackOn = _timing.CurTime + TimeSpan.FromSeconds(Math.Max(0.0, length - clamped))
+            NextTrackOn = _timing.RealTime + TimeSpan.FromSeconds(Math.Max(0.0, length - clamped))
         };
     }
 
@@ -195,7 +195,7 @@ public sealed partial class ContentAudioSystem
             {
                 // Dead audio device: keep pause state, stream gets rebuilt on resume.
             }
-            _lobbyPauseStarted = _timing.CurTime;
+            _lobbyPauseStarted = _timing.RealTime;
         }
         else
         {
@@ -727,13 +727,39 @@ public sealed partial class ContentAudioSystem
     }
 
     /// <summary>
+    /// Returns true if the current lobby soundtrack stream still exists and is playing.
+    /// A paused soundtrack is considered alive, since it can be resumed.
+    /// </summary>
+    private bool IsLobbySoundtrackAlive()
+    {
+        if (_lobbySoundtrackInfo == null)
+            return false;
+
+        if (LobbyMusicPaused)
+            return true;
+
+        return TryComp(_lobbySoundtrackInfo.MusicStreamEntityUid, out AudioComponent? comp) && comp.Playing;
+    }
+
+    /// <summary>
     /// Re-starts playing lobby music from playlist, last sent from server. if there is currently none - does nothing.
     /// </summary>
     private void StartLobbyMusic()
     {
-        if (_lobbySoundtrackInfo != null || !_configManager.GetCVar(CCVars.LobbyMusicEnabled))
+        if (!_configManager.GetCVar(CCVars.LobbyMusicEnabled)
+            || _state.CurrentState is not LobbyState)
         {
             return;
+        }
+
+        if (_lobbySoundtrackInfo != null)
+        {
+            if (IsLobbySoundtrackAlive())
+                return;
+
+            // The stream was stopped or cleaned up (e.g. by a state transition) while the
+            // soundtrack info survived. Drop the stale info so a new stream can be started.
+            EndLobbyMusic();
         }
 
         // Daiquiri
@@ -752,13 +778,22 @@ public sealed partial class ContentAudioSystem
     /// <param name="playlist">Array of soundtrack filenames for lobby playlist.</param>
     private void StartLobbyMusic(string[] playlist)
     {
-        if (_lobbySoundtrackInfo != null || !_configManager.GetCVar(CCVars.LobbyMusicEnabled))
+        if (!_configManager.GetCVar(CCVars.LobbyMusicEnabled)
+            || _state.CurrentState is not LobbyState)
             return;
 
         _lobbyPlaylist = playlist;
         if (_lobbyPlaylist.Length == 0)
         {
             return;
+        }
+
+        if (_lobbySoundtrackInfo != null)
+        {
+            if (IsLobbySoundtrackAlive())
+                return;
+
+            EndLobbyMusic();
         }
 
         PlaySoundtrack(playlist[0]);
@@ -785,7 +820,7 @@ public sealed partial class ContentAudioSystem
             return;
         }
 
-        var nextTrackOn = _timing.CurTime + audio.AudioStream.Length;
+        var nextTrackOn = _timing.RealTime + audio.AudioStream.Length;
         _lobbySoundtrackInfo = new LobbySoundtrackInfo(soundtrackFilename, nextTrackOn, playResult.Value.Entity);
         _lobbyPauseStarted = null;
         LobbyTrackLengthSeconds = (float) audio.AudioStream.Length.TotalSeconds;
@@ -856,7 +891,7 @@ public sealed partial class ContentAudioSystem
         {
             // Daiquiri
             // back; live ones (e.g. forced click-play) keep playing.
-            var done = _timing.CurTime >= _lobbySoundtrackInfo.NextTrackOn;
+            var done = _timing.RealTime >= _lobbySoundtrackInfo.NextTrackOn;
             if (!done
                 && (TryComp(_lobbySoundtrackInfo.MusicStreamEntityUid, out AudioComponent? aliveComp) && aliveComp.Playing))
             {
@@ -866,12 +901,12 @@ public sealed partial class ContentAudioSystem
             return;
         }
 
-        var finished = _timing.CurTime >= _lobbySoundtrackInfo.NextTrackOn;
+        var finished = _timing.RealTime >= _lobbySoundtrackInfo.NextTrackOn;
         if (!finished
             && (!TryComp(_lobbySoundtrackInfo.MusicStreamEntityUid, out AudioComponent? comp) || !comp.Playing))
         {
             // Daiquiri
-            if (_lobbySoundtrackInfo.NextTrackOn - _timing.CurTime <= TimeSpan.FromSeconds(5))
+            if (_lobbySoundtrackInfo.NextTrackOn - _timing.RealTime <= TimeSpan.FromSeconds(5))
             {
                 var loopSoundtrackFilename = GetNextSoundtrackFromPlaylist(_lobbySoundtrackInfo.Filename, pool);
                 EndLobbyMusic();
@@ -880,7 +915,7 @@ public sealed partial class ContentAudioSystem
             }
             _sawmill.Debug("Lobby stream died mid-track, pausing instead of advancing.");
             if (LobbyTrackLengthSeconds is { } deadLength)
-                _lobbyPausePosition = Math.Clamp(deadLength - (float) (_lobbySoundtrackInfo.NextTrackOn - _timing.CurTime).TotalSeconds, 0f, deadLength);
+                _lobbyPausePosition = Math.Clamp(deadLength - (float) (_lobbySoundtrackInfo.NextTrackOn - _timing.RealTime).TotalSeconds, 0f, deadLength);
             SetLobbyMusicPaused(true);
             return;
         }
@@ -909,7 +944,7 @@ public sealed partial class ContentAudioSystem
 
     /// <summary> Container for lobby soundtrack information. </summary>
     /// <param name="Filename">Soundtrack filename.</param>
-    /// <param name="NextTrackOn">Time (based on <see cref="IGameTiming.CurTime"/>) when this track is going to finish playing and next track have to be started.</param>
+    /// <param name="NextTrackOn">Time (based on <see cref="IGameTiming.RealTime"/>) when this track is going to finish playing and next track have to be started.</param>
     /// <param name="MusicStreamEntityUid">
     /// EntityUid of launched soundtrack (from <see cref="SharedAudioSystem.PlayGlobal(string,Robust.Shared.Player.Filter,bool,System.Nullable{Robust.Shared.Audio.AudioParams})"/>).
     /// </param>

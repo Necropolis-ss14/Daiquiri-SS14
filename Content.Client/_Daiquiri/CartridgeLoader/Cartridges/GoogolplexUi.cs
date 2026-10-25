@@ -1,4 +1,6 @@
 using Content.Client.UserInterface.Fragments;
+using Content.Shared.CartridgeLoader;
+using Content.Shared.CartridgeLoader.Cartridges;
 using Robust.Client.UserInterface;
 
 namespace Content.Client._Daiquiri.CartridgeLoader.Cartridges;
@@ -6,6 +8,7 @@ namespace Content.Client._Daiquiri.CartridgeLoader.Cartridges;
 public sealed partial class GoogolplexUi : UIFragment
 {
     private GoogolplexUiFragment? _fragment;
+    private BoundUserInterface? _boundUi;
 
     public override Control GetUIFragmentRoot()
     {
@@ -14,10 +17,35 @@ public sealed partial class GoogolplexUi : UIFragment
 
     public override void Setup(BoundUserInterface userInterface, EntityUid? fragmentOwner)
     {
+        _boundUi = userInterface;
         _fragment = new GoogolplexUiFragment();
+        _fragment.SetBoundUi(userInterface);
     }
 
     public override void UpdateState(BoundUserInterfaceState state)
     {
+        if (_fragment == null)
+            return;
+
+        switch (state)
+        {
+            case StarWayUiState starWayState:
+                _fragment.OnStarWayStateReceived(starWayState);
+                break;
+            case StarWayThreadIndexState indexState:
+                _fragment.OnThreadIndexReceived(indexState);
+                break;
+        }
+    }
+
+    /// <summary>
+    /// Called by the fragment to send a cartridge message to the server.
+    /// </summary>
+    public void SendCartridgeMessage(CartridgeMessageEvent message)
+    {
+        if (_boundUi != null)
+        {
+            _boundUi.SendMessage(new CartridgeUiMessage(message));
+        }
     }
 }
