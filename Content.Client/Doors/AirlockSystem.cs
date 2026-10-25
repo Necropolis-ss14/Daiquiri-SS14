@@ -122,5 +122,28 @@ public sealed partial class AirlockSystem : SharedAirlockSystem
         // OpenSpriteStates/ClosedSpriteStates (populated in OnComponentStartup when
         // OpenUnlitVisible is on). Setting it here as well fights the running
         // open/close animations and makes the light flicker.
+        
+        // GoobStation: Explicitly set RSI state for BaseUnlit layer to ensure correct visuals
+        if (comp.OpenUnlitVisible)
+        {
+            switch (state)
+            {
+                case DoorState.Open:
+                    _sprite.LayerSetRsiState((uid, args.Sprite), DoorVisualLayers.BaseUnlit, comp.OpenSpriteState);
+                    break;
+                case DoorState.Closed:
+                    _sprite.LayerSetRsiState((uid, args.Sprite), DoorVisualLayers.BaseUnlit, comp.ClosedSpriteState);
+                    break;
+                case DoorState.Opening:
+                    _sprite.LayerSetRsiState((uid, args.Sprite), DoorVisualLayers.BaseUnlit, comp.OpeningSpriteState);
+                    break;
+                case DoorState.Closing:
+                    _sprite.LayerSetRsiState((uid, args.Sprite), DoorVisualLayers.BaseUnlit, comp.ClosingSpriteState);
+                    break;
+                case DoorState.Denying:
+                    _sprite.LayerSetRsiState((uid, args.Sprite), DoorVisualLayers.BaseUnlit, comp.DenySpriteState);
+                    break;
+            }
+        }
     }
 }

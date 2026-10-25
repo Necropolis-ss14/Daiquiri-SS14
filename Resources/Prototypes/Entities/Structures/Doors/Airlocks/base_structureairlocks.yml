@@ -94,6 +94,8 @@
     openUnlitVisible: true # CorvaxGoob-Resprite-Airlocks (ported from Goob Station: light strip glows on idle doors)
   - type: NavMapDoor
   - type: DoorBolt
+    unboltToolQuality: "Anchoring"
+    manualUnboltTime: 10
   - type: Appearance
   - type: GenericVisualizer
     visuals:

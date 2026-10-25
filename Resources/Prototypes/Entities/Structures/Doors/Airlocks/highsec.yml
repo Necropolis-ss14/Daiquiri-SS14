@@ -79,6 +79,7 @@
     fuel: 10
     time: 10
   - type: Airlock
+    openUnlitVisible: true
   - type: NavMapDoor
   - type: DoorBolt
   - type: AccessReader
@@ -124,6 +125,21 @@
       behaviors:
       - !type:DoActsBehavior
         acts: ["Destruction"]
+    - trigger: !type:DamageTrigger
+        damage: 1450
+      behaviors:
+      - !type:SpawnEntitiesBehavior
+        spawn:
+          SheetPlasteel1:
+            min: 1
+            max: 2
+      - !type:PlaySoundBehavior
+        sound:
+          collection: MetalSlam
+      - !type:ChangeConstructionNodeBehavior
+        node: assembly
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
   - type: Construction
     graph: Airlock
     node: highSecDoor
@@ -133,3 +149,9 @@
       # This tag is used to nagivate the Airlock construction graph. It's needed because this construction graph is shared between Airlock, AirlockGlass, and HighSecDoor
       - DoorRemoteWhitelist
       # This tag is used by door remotes to allow or not a door remote to normally be able to interact with a door
+  - type: PryUnpowered
+  - type: Penetratable
+    penetrateDamage: 200
+    damagePenalty: 0.4
+  - type: WeldingSparksAnimation
+    startingOffset: 0, 0.5
