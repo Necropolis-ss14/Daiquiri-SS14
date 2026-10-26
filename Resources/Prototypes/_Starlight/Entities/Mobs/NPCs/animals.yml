@@ -198,7 +198,7 @@
 
 # Snouse, moved here since we inherit snail instead
 - type: entity
-  parent: MobSnail # Starlight Edit: Removed BaseMobMothroach
+  parent: [MobSnail, BaseSlicingRefinable] # Starlight Edit: Removed BaseMobMothroach
   id: MobSnouse
   name: сноус
   description: Разработан Interdyne как одна из многих попыток обуздать вечную проблему вредителей на аграрных мирах. Сноус — трансгенный организм, призванный внедряться в существующие популяции грызунов. Эти особи были выпущены в фермерских поселениях вместе со снотами в надежде, что они передадут гены улиток, лишив будущие поколения вредителей возможности сбегать из ловушек. К сожалению, попытка оказалась тщетной, так как прочные панцири сделали их устойчивыми к обычным мышеловкам. После этого Interdyne перешла к следующей попытке — мяулу.

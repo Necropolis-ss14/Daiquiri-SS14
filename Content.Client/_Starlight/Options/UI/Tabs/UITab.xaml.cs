@@ -88,6 +88,11 @@ public sealed partial class UITab : Control
         Control.AddOption(new OptionBarLayoutCVar(Control, _cfg, StarlightCCVars.MenuBarLayout, MenuBarLayoutEditor));
         Control.AddOptionPercentSlider(CCVars.ChatWindowOpacity, ChatWindowOpacitySlider);
         Control.AddOptionPercentSlider(StarlightCCVars.LobbyOpacity, LobbyOpacitySlider, 0.5f);
+        Control.AddOptionDropDown(StarlightCCVars.LobbyReadyOnTop, DropDownLobbyReadyPosition,
+        [
+            new(false, Loc.GetString("ui-options-lobby-ready-position-bottom")),
+            new(true, Loc.GetString("ui-options-lobby-ready-position-top")),
+        ]);
 
         var backgrounds = new List<OptionDropDownCVar<string>.ValueOption>
         {
