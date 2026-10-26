@@ -4,6 +4,7 @@ using Content.Shared.Doors.Systems;
 using Content.Shared.Power;
 using Robust.Client.Animations;
 using Robust.Client.GameObjects;
+using Robust.Client.Graphics;
 
 namespace Content.Client.Doors;
 
@@ -27,8 +28,12 @@ public sealed partial class AirlockSystem : SharedAirlockSystem
 
         if (comp.OpenUnlitVisible) // Otherwise there are flashes of the fallback sprite between clicking on the door and the door closing animation starting.
         {
-            door.OpenSpriteStates.Add((DoorVisualLayers.BaseUnlit, comp.OpenSpriteState));
-            door.ClosedSpriteStates.Add((DoorVisualLayers.BaseUnlit, comp.ClosedSpriteState));
+            // Not every airlock RSI has an open_unlit state (e.g. the custom Starlight glass airlocks).
+            // Only register the unlit states that actually exist so DoorSystem doesn't spam errors.
+            if (HasUnlitState(uid, comp.OpenSpriteState))
+                door.OpenSpriteStates.Add((DoorVisualLayers.BaseUnlit, comp.OpenSpriteState));
+            if (HasUnlitState(uid, comp.ClosedSpriteState))
+                door.ClosedSpriteStates.Add((DoorVisualLayers.BaseUnlit, comp.ClosedSpriteState));
         }
 
         ((Animation)door.OpeningAnimation).AnimationTracks.Add(new AnimationTrackSpriteFlick()
@@ -118,32 +123,36 @@ public sealed partial class AirlockSystem : SharedAirlockSystem
             );
         }
 
-        // The BaseUnlit rsi state itself is driven by DoorSystem through
-        // OpenSpriteStates/ClosedSpriteStates (populated in OnComponentStartup when
-        // OpenUnlitVisible is on). Setting it here as well fights the running
-        // open/close animations and makes the light flicker.
-        
-        // GoobStation: Explicitly set RSI state for BaseUnlit layer to ensure correct visuals
+        // GoobStation: Explicitly set the BaseUnlit state so idle open/closed doors show the correct light strip.
+        // Some custom RSIs (e.g. Starlight glass airlocks) lack open_unlit; hide the layer instead of spamming errors.
         if (comp.OpenUnlitVisible)
         {
-            switch (state)
+            var unlitState = state switch
             {
-                case DoorState.Open:
-                    _sprite.LayerSetRsiState((uid, args.Sprite), DoorVisualLayers.BaseUnlit, comp.OpenSpriteState);
-                    break;
-                case DoorState.Closed:
-                    _sprite.LayerSetRsiState((uid, args.Sprite), DoorVisualLayers.BaseUnlit, comp.ClosedSpriteState);
-                    break;
-                case DoorState.Opening:
-                    _sprite.LayerSetRsiState((uid, args.Sprite), DoorVisualLayers.BaseUnlit, comp.OpeningSpriteState);
-                    break;
-                case DoorState.Closing:
-                    _sprite.LayerSetRsiState((uid, args.Sprite), DoorVisualLayers.BaseUnlit, comp.ClosingSpriteState);
-                    break;
-                case DoorState.Denying:
-                    _sprite.LayerSetRsiState((uid, args.Sprite), DoorVisualLayers.BaseUnlit, comp.DenySpriteState);
-                    break;
+                DoorState.Open => comp.OpenSpriteState,
+                DoorState.Closed => comp.ClosedSpriteState,
+                DoorState.Opening => comp.OpeningSpriteState,
+                DoorState.Closing => comp.ClosingSpriteState,
+                DoorState.Denying => comp.DenySpriteState,
+                _ => null,
+            };
+
+            if (unlitState != null)
+            {
+                if (HasUnlitState(uid, unlitState))
+                    _sprite.LayerSetRsiState((uid, args.Sprite), DoorVisualLayers.BaseUnlit, unlitState);
+                else
+                    _sprite.LayerSetVisible((uid, args.Sprite), DoorVisualLayers.BaseUnlit, false);
             }
         }
+    }
+
+    private bool HasUnlitState(EntityUid uid, string state)
+    {
+        if (!TryComp<SpriteComponent>(uid, out var sprite))
+            return false;
+
+        return _sprite.LayerGetEffectiveRsi((uid, sprite), DoorVisualLayers.BaseUnlit, RSI.StateId.Invalid) is { } rsi
+               && rsi.TryGetState(state, out _);
     }
 }

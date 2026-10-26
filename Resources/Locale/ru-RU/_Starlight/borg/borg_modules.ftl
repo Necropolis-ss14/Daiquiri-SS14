@@ -19,3 +19,7 @@ borg-slot-pkaupgrade-empty = Улучшения ПКУ
 borg-slot-goliath-empty = Пластины голиафа
 borg-slot-rollerbeds-empty = Мешки для тел и каталки
 borg-slot-music-media-empty = Винил и диски
+
+borg-slot-animbox-empty = Кубы и коробки животных
+borg-slot-meat-empty = Мясо
+borg-slot-organs-strict-empty = Органы

@@ -178,3 +178,25 @@ ui-options-sight-heat-indicator = Показывать нагрев пушки
 ui-options-sight-jam-indicator = Показывать клин
 ui-options-tts-label = Синтез речи
 ui-options-tts-volume = Громкость ТТС:
+
+ui-options-lobby-ready-position = Кнопка готовности
+ui-options-lobby-ready-position-bottom = Под чатом
+ui-options-lobby-ready-position-top = Над чатом
+
+ui-options-admin-ahelp-label = Админ-помощь
+ui-options-bar-placement-auto = Авто
+ui-options-bar-placement-hidden = Скрыто
+ui-options-bar-placement-menu = В меню
+ui-options-bar-placement-pinned = Закреплено
+ui-options-lobby-background = Фон лобби
+ui-options-lobby-background-server = Выбор сервера
+ui-options-lobby-job-columns = Перетаскивание приоритетов должностей в лобби
+ui-options-lobby-job-columns-tooltip = Показывает старые колонки приоритетов должностей под информацией о раунде, рядом с окном приоритетов должностей.
+ui-options-lobby-label = Лобби
+ui-options-lobby-opacity = Прозрачность панели
+ui-options-menu-bar-key-hints = Подсказки клавиш
+ui-options-menu-bar-key-hints-always = Всегда
+ui-options-menu-bar-key-hints-hold = При удержании Alt
+ui-options-menu-bar-key-hints-never = Никогда
+ui-options-menu-bar-label = Верхняя панель меню
+ui-options-viewport-label = Область просмотра

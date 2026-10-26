@@ -80,8 +80,17 @@
                                    MaxHeight="24"
                                    Margin="24 10 0 6"
                                    MouseFilter="Stop"/>
-                    <BoxContainer Name="ResultsList" Orientation="Vertical" HorizontalAlignment="Left" HorizontalExpand="True" Margin="24 4 24 0" SeparationOverride="16"/>
-                    <Control VerticalExpand="True"/>
+                    <ScrollContainer Name="ResultsScroll"
+                                     HorizontalExpand="True"
+                                     VerticalExpand="True"
+                                     HScrollEnabled="False"
+                                     Margin="24 4 24 0">
+                        <BoxContainer Name="ResultsList"
+                                      Orientation="Vertical"
+                                      HorizontalAlignment="Left"
+                                      HorizontalExpand="True"
+                                      SeparationOverride="16"/>
+                    </ScrollContainer>
                 </BoxContainer>
             </BoxContainer>
 

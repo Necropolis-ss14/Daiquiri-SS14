@@ -232,3 +232,7 @@ guide-entry-sl-science-sop-roboticist = Робототехник
 guide-entry-sl-science-sop-scientist = Учёный
 guide-entry-sl-science-sop-staff-intro = Процедуры персонала
 guide-entry-sl-security-sop-k9 = Кинолог
+
+guide-entry-combustion-turbine = Турбина сгорания
+
+guide-entry-sl-security-sop-permitacquisition-examples = Примеры разрешений

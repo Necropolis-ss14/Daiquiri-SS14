@@ -1,14 +1,20 @@
+using System;
+using System.Linq;
 using Content.Client.GameTicking.Managers;
 using Content.Client.Lobby;
 using Content.Shared.Audio.Events;
 using Content.Shared.CCVar;
 using Content.Shared.GameTicking;
+using Content.Shared.GameTicking.Prototypes;
+using Content.Shared._Starlight.CCVar;
 using Robust.Client;
 using Robust.Client.ResourceManagement;
 using Robust.Client.State;
 using Robust.Shared.Audio;
+using Robust.Shared.Audio.Components;
 using Robust.Shared.Audio.Systems;
 using Robust.Shared.Player;
+using Robust.Shared.Prototypes;
 using Robust.Shared.Timing;
 using Robust.Shared.Utility;
 
@@ -75,8 +81,13 @@ public sealed partial class ContentAudioSystem
 
         SubscribeNetworkEvent<LobbyMusicStopEvent>(OnLobbySongStopped);
         SubscribeNetworkEvent<LobbyPlaylistChangedEvent>(OnLobbySongChanged);
-        SubscribeNetworkEvent<RoundEndCancelMessageEvent>(OnRoundEndCancelMessage); // Starlight
+        SubscribeNetworkEvent<RoundEndCancelMessageEvent>(OnRoundEndCancelMessage); // Daiquiri
     }
+
+    /// <summary>
+    /// Fired when the lobby playlist changes (track membership, shuffle, etc).
+    /// </summary>
+    public event Action? LobbyPlaylistChanged;
 
     private void OnLobbySongStopped(LobbyMusicStopEvent ev)
     {
@@ -88,22 +99,588 @@ public sealed partial class ContentAudioSystem
         switch (args.NewState)
         {
             case LobbyState:
+                StopAllAudio();
                 StartLobbyMusic();
                 break;
             default:
-                // Starlight begin
+                // Daiquiri
                 if (!_postRoundMusic)
                     EndLobbyMusic();
-                // Starlight end
                 break;
         }
     }
 
     private void OnLeave(object? sender, PlayerEventArgs args)
     {
-        _postRoundMusic = false; // Starlight
+        _postRoundMusic = false; // Daiquiri
         EndLobbyMusic();
     }
+
+    #region Starlight
+
+    /// <summary>
+    /// Whether lobby music is currently paused.
+    /// </summary>
+    public bool LobbyMusicPaused => _lobbyPauseStarted != null;
+    private TimeSpan? _lobbyPauseStarted;
+    private float _lobbyPausePosition;
+
+    /// <summary>
+    /// Current track length in seconds, if any.
+    /// </summary>
+    public float? LobbyTrackLengthSeconds { get; private set; }
+
+    /// <summary>
+    /// Current playback position in seconds, if any. Never throws (dead audio device safe).
+    /// </summary>
+    public float? LobbyTrackPositionSeconds
+    {
+        get
+        {
+            if (_lobbySoundtrackInfo == null)
+                return null;
+            try
+            {
+                if (!TryComp(_lobbySoundtrackInfo.MusicStreamEntityUid, out AudioComponent? comp))
+                    return null;
+                return comp.PlaybackPosition;
+            }
+            catch
+            {
+                return null;
+            }
+        }
+    }
+
+    /// <summary>
+    /// Seek the current lobby track, keeping autoplay timing intact.
+    /// </summary>
+    public void SeekLobbyTrack(float seconds)
+    {
+        if (_lobbySoundtrackInfo == null || LobbyTrackLengthSeconds is not { } length)
+            return;
+
+        var clamped = Math.Clamp(seconds, 0f, length);
+        if (TryComp(_lobbySoundtrackInfo.MusicStreamEntityUid, out AudioComponent? comp))
+            comp.PlaybackPosition = clamped;
+        if (LobbyMusicPaused)
+        {
+            // Daiquiri
+            _lobbyPausePosition = clamped;
+            _lobbyPauseStarted = _timing.RealTime;
+        }
+        _lobbySoundtrackInfo = _lobbySoundtrackInfo with
+        {
+            NextTrackOn = _timing.RealTime + TimeSpan.FromSeconds(Math.Max(0.0, length - clamped))
+        };
+    }
+
+    /// <summary>
+    /// Pause or resume the current lobby track, keeping autoplay timing intact.
+    /// </summary>
+    public void SetLobbyMusicPaused(bool paused)
+    {
+        if (_lobbySoundtrackInfo == null)
+            return;
+        if (paused == LobbyMusicPaused)
+            return;
+
+        if (paused)
+        {
+            try
+            {
+                if (TryComp(_lobbySoundtrackInfo.MusicStreamEntityUid, out AudioComponent? pauseComp))
+                {
+                    _lobbyPausePosition = pauseComp.PlaybackPosition;
+                    pauseComp.Pause();
+                }
+            }
+            catch
+            {
+                // Dead audio device: keep pause state, stream gets rebuilt on resume.
+            }
+            _lobbyPauseStarted = _timing.RealTime;
+        }
+        else
+        {
+            // Daiquiri
+            // entity: a long-paused source can be evicted from memory (OS pressure,
+            // device sleep, driver cleanup) and StartPlaying won't revive it.
+            _lobbyPauseStarted = null;
+            var file = _lobbySoundtrackInfo.Filename;
+            var pos = _lobbyPausePosition;
+            try
+            {
+                EndLobbyMusicSilent();
+                PlaySoundtrack(file);
+                if (_lobbySoundtrackInfo != null)
+                {
+                    SeekLobbyTrack(pos);
+                    return;
+                }
+                _sawmill.Warning("Lobby resume failed: stream did not start.");
+            }
+            catch (Exception e)
+            {
+                _sawmill.Error($"Lobby resume failed: {e}");
+                _lobbySoundtrackInfo = null;
+                LobbyTrackLengthSeconds = null;
+            }
+            // Resume failed: tell the UI the music is stopped so the button state
+            // resets and the user can restart via skip/track select.
+            _lobbySoundtrackChanged?.Invoke(new LobbySoundtrackChangedEvent());
+        }
+    }
+
+    /// <summary>
+    /// Stops the current stream without firing change events or clearing pause position.
+    /// </summary>
+    private void EndLobbyMusicSilent()
+    {
+        if (_lobbySoundtrackInfo == null)
+            return;
+        _audio.Stop(_lobbySoundtrackInfo.MusicStreamEntityUid);
+        _lobbySoundtrackInfo = null;
+        LobbyTrackLengthSeconds = null;
+    }
+
+    /// <summary>
+    /// Whether there is a lobby playlist available to skip through.
+    /// </summary>
+    public bool HasLobbyPlaylist => _lobbyPlaylist is { Length: > 0 };
+
+    /// <summary>
+    /// Current lobby playlist filenames, LOCAL view: server order minus tracks
+    /// this player excluded. Never leaves this client.
+    /// </summary>
+    public IReadOnlyList<string>? LobbyPlaylistTracks => LocalPool() is { Length: > 0 } pool ? pool : null;
+
+    /// <summary>
+    /// Currently playing lobby track filename, if any.
+    /// </summary>
+    public string? CurrentLobbyTrack => _lobbySoundtrackInfo?.Filename;
+
+    /// <summary>
+    /// Daiquiri
+    /// </summary>
+    private readonly Dictionary<string, HashSet<string>> _localRemovedTracks = new();
+
+    /// <summary>
+    /// Daiquiri
+    /// </summary>
+    private readonly HashSet<string> _localRemovedGlobal = new();
+
+    private bool _queueStateLoaded;
+    private readonly HashSet<string> _touchedPlaylists = new();
+
+    /// <summary>
+    /// Daiquiri
+    /// playlist). Appended to the local pool; never sent to server.
+    /// </summary>
+    private readonly List<string> _localAddedTracks = new();
+
+    /// <summary>
+    /// Daiquiri
+    /// </summary>
+    private List<string>? _localOrder;
+
+    /// <summary>
+    /// Daiquiri
+    /// the player never touched. Runs once, lazily.
+    /// </summary>
+    private void EnsureQueueState()
+    {
+        if (_queueStateLoaded)
+            return;
+        _queueStateLoaded = true;
+        LoadQueueState();
+        foreach (var playlist in _proto.EnumeratePrototypes<LobbyPlaylistPrototype>())
+        {
+            if (playlist.TurnOn)
+                continue;
+            if (_touchedPlaylists.Contains(playlist.ID))
+                continue;
+            if (_localRemovedTracks.ContainsKey(playlist.ID))
+                continue;
+            _localRemovedTracks[playlist.ID] =
+                new HashSet<string>(playlist.Tracks.Select(t => t.ToString()));
+        }
+    }
+
+    private void LoadQueueState()
+    {
+        // Daiquiri
+        foreach (var entry in _configManager.GetCVar(StarlightCCVars.LobbyQueueRemoved)
+                     .Split(';', StringSplitOptions.RemoveEmptyEntries))
+        {
+            var parts = entry.Split('|', 2);
+            if (parts.Length != 2)
+                continue;
+            if (parts[0] == "*")
+            {
+                _localRemovedGlobal.Add(parts[1]);
+                continue;
+            }
+            if (!_localRemovedTracks.TryGetValue(parts[0], out var set))
+            {
+                set = new HashSet<string>();
+                _localRemovedTracks[parts[0]] = set;
+            }
+            set.Add(parts[1]);
+        }
+        foreach (var playlist in _configManager.GetCVar(StarlightCCVars.LobbyQueueTouched)
+                     .Split(';', StringSplitOptions.RemoveEmptyEntries))
+        {
+            _touchedPlaylists.Add(playlist);
+        }
+        foreach (var track in _configManager.GetCVar(StarlightCCVars.LobbyQueueAdded)
+                     .Split(';', StringSplitOptions.RemoveEmptyEntries))
+        {
+            if (!_localAddedTracks.Contains(track))
+                _localAddedTracks.Add(track);
+        }
+        var savedOrder = _configManager.GetCVar(StarlightCCVars.LobbyQueueOrder)
+            .Split(';', StringSplitOptions.RemoveEmptyEntries).ToList();
+        if (savedOrder.Count > 0)
+            _localOrder = savedOrder;
+    }
+
+    private void SaveQueueState()
+    {
+        var removed = string.Join(';', _localRemovedTracks
+            .SelectMany(kv => kv.Value.Select(t => $"{kv.Key}|{t}"))
+            .Concat(_localRemovedGlobal.Select(t => $"*|{t}")));
+        _configManager.SetCVar(StarlightCCVars.LobbyQueueRemoved, removed);
+        _configManager.SetCVar(StarlightCCVars.LobbyQueueTouched, string.Join(';', _touchedPlaylists));
+        _configManager.SetCVar(StarlightCCVars.LobbyQueueAdded, string.Join(';', _localAddedTracks));
+        _configManager.SetCVar(StarlightCCVars.LobbyQueueOrder, string.Join(';', _localOrder ?? new List<string>()));
+        // Daiquiri
+        _configManager.SaveToFile();
+    }
+
+    /// <summary>
+    /// Add or remove a track from a lobby playlist. Local only: affects just this player's pool.
+    /// </summary>
+    public void SetTrackMembership(string playlistId, string trackPath, bool add)
+    {
+        EnsureQueueState();
+        if (add)
+        {
+            // Daiquiri
+            // in several playlists whose untouched turnon:false sets would veto it.
+            foreach (var set in _localRemovedTracks.Values)
+                set.Remove(trackPath);
+            _localRemovedGlobal.Remove(trackPath);
+            if ((_lobbyPlaylist == null || !_lobbyPlaylist.Contains(trackPath))
+                && !_localAddedTracks.Contains(trackPath))
+                _localAddedTracks.Add(trackPath);
+        }
+        else
+        {
+            if (!_localRemovedTracks.TryGetValue(playlistId, out var set))
+            {
+                set = new HashSet<string>();
+                _localRemovedTracks[playlistId] = set;
+            }
+            set.Add(trackPath);
+            _localAddedTracks.Remove(trackPath);
+        }
+        _touchedPlaylists.Add(playlistId);
+        ReconcileOrder();
+        PauseIfPoolEmpty();
+        LobbyPlaylistChanged?.Invoke();
+    }
+
+    /// <summary>
+    /// Daiquiri
+    /// </summary>
+    public void ClearQueue()
+    {
+        EnsureQueueState();
+        var all = LocalPool().ToList();
+        _localAddedTracks.Clear();
+        _localOrder = null;
+        foreach (var track in all)
+        {
+            var containers = _proto.EnumeratePrototypes<LobbyPlaylistPrototype>()
+                .Where(p => p.Tracks.Any(t => t.ToString() == track))
+                .Select(p => p.ID)
+                .ToList();
+            if (containers.Count == 0)
+            {
+                _localRemovedGlobal.Add(track);
+                continue;
+            }
+            foreach (var id in containers)
+            {
+                if (!_localRemovedTracks.TryGetValue(id, out var set))
+                {
+                    set = new HashSet<string>();
+                    _localRemovedTracks[id] = set;
+                }
+                set.Add(track);
+                _touchedPlaylists.Add(id);
+            }
+        }
+        SaveQueueState();
+        PauseIfPoolEmpty();
+        LobbyPlaylistChanged?.Invoke();
+    }
+
+    /// <summary>
+    /// Daiquiri
+    /// Keeps the saved order stable, drops gone tracks, appends fresh ones.
+    /// </summary>
+    private void ReconcileOrder()
+    {
+        EnsureQueueState();
+        if (_lobbyPlaylist is not { Length: > 0 })
+        {
+            SaveQueueState();
+            return;
+        }
+        var baseTracks = BasePoolTracks();
+        var server = new HashSet<string>(baseTracks);
+        var order = _localOrder ?? new List<string>();
+        var kept = order.Where(t => server.Contains(t) && !IsLocallyExcluded(t)).ToList();
+        kept.AddRange(baseTracks.Where(t => !kept.Contains(t) && !IsLocallyExcluded(t)));
+        _localOrder = kept;
+        SaveQueueState();
+    }
+
+    /// <summary>
+    /// Include or exclude ALL tracks of a playlist. Local only.
+    /// </summary>
+    public void SetPlaylistAll(string playlistId, bool include)
+    {
+        EnsureQueueState();
+        if (include)
+        {
+            _localRemovedTracks.Remove(playlistId);
+            // Daiquiri
+            // so selecting them all must re-add them explicitly (same as a single checkbox).
+            if (_proto.TryIndex<LobbyPlaylistPrototype>(playlistId, out var proto))
+            {
+                foreach (var t in proto.Tracks.Select(t => t.ToString()))
+                {
+                    if ((_lobbyPlaylist == null || !_lobbyPlaylist.Contains(t))
+                        && !_localAddedTracks.Contains(t))
+                        _localAddedTracks.Add(t);
+                }
+            }
+        }
+        else
+        {
+            if (!_proto.TryIndex<LobbyPlaylistPrototype>(playlistId, out var proto))
+                return;
+            var tracks = proto.Tracks.Select(t => t.ToString()).ToList();
+            _localRemovedTracks[playlistId] = new HashSet<string>(tracks);
+            foreach (var t in tracks)
+                _localAddedTracks.Remove(t);
+        }
+        _touchedPlaylists.Add(playlistId);
+        ReconcileOrder();
+        PauseIfPoolEmpty();
+        LobbyPlaylistChanged?.Invoke();
+    }
+
+    /// <summary>
+    /// Whether a track counts as included in a playlist for this player.
+    /// </summary>
+    public bool IsTrackIncluded(string playlistId, string trackPath)
+    {
+        EnsureQueueState();
+        if (_localRemovedTracks.TryGetValue(playlistId, out var removed) && removed.Contains(trackPath))
+            return false;
+        return _proto.TryIndex<LobbyPlaylistPrototype>(playlistId, out var proto)
+            && proto.Tracks.Any(t => t.ToString() == trackPath);
+    }
+
+    /// <summary>
+    /// Daiquiri
+    /// </summary>
+    private void PauseIfPoolEmpty()
+    {
+        if (LocalPool() is { Length: > 0 })
+            return;
+        if (_lobbySoundtrackInfo != null && !LobbyMusicPaused)
+            SetLobbyMusicPaused(true);
+    }
+
+    /// <summary>
+    /// Server pool plus every track whose checkbox is on in at least one playlist.
+    /// </summary>
+    private List<string> BasePoolTracks()
+    {
+        var tracks = new List<string>();
+        if (_lobbyPlaylist is not { Length: > 0 })
+            return tracks;
+
+        tracks.AddRange(_lobbyPlaylist);
+        foreach (var playlist in _proto.EnumeratePrototypes<LobbyPlaylistPrototype>())
+        {
+            foreach (var track in playlist.Tracks)
+            {
+                var path = track.ToString();
+                if (tracks.Contains(path) || !IsTrackIncluded(playlist.ID, path))
+                    continue;
+
+                tracks.Add(path);
+            }
+        }
+        return tracks;
+    }
+
+    /// <summary>
+    /// Server pool minus locally excluded tracks, in the persisted local order.
+    /// A track plays while at least one playlist containing it still includes it.
+    /// </summary>
+    private string[] LocalPool()
+    {
+        EnsureQueueState();
+        if (_lobbyPlaylist is not { Length: > 0 } && _localAddedTracks.Count == 0)
+            return [];
+        var server = BasePoolTracks();
+        List<string> ordered;
+        if (_localOrder != null)
+        {
+            ordered = _localOrder
+                .Where(t => server.Contains(t) && !IsLocallyExcluded(t))
+                .ToList();
+            if (ordered.Count == 0)
+            {
+                var live = server.Where(t => !IsLocallyExcluded(t)).ToList();
+                if (live.Count > 0)
+                {
+                    _localOrder = null;
+                    ordered = live;
+                }
+            }
+        }
+        else
+        {
+            ordered = server.Where(t => !IsLocallyExcluded(t)).ToList();
+        }
+        // Daiquiri
+        foreach (var t in server)
+        {
+            if (!ordered.Contains(t) && !IsLocallyExcluded(t))
+                ordered.Add(t);
+        }
+        foreach (var t in _localAddedTracks)
+        {
+            if (!ordered.Contains(t) && !IsLocallyExcluded(t))
+                ordered.Add(t);
+        }
+        return ordered.ToArray();
+    }
+
+    private bool IsLocallyExcluded(string track)
+    {
+        // Daiquiri
+        if (_localRemovedGlobal.Contains(track))
+            return true;
+        var containers = _proto.EnumeratePrototypes<LobbyPlaylistPrototype>()
+            .Where(p => p.Tracks.Any(t => t.ToString() == track))
+            .Select(p => p.ID)
+            .ToList();
+        if (containers.Count == 0)
+            return false;
+        return containers.All(id =>
+            _localRemovedTracks.TryGetValue(id, out var removed) && removed.Contains(track));
+    }
+
+    /// <summary>
+    /// Manually switch to a specific lobby track by filename.
+    /// </summary>
+    public void PlayLobbyTrack(string filename)
+    {
+        var pool = LocalPool();
+        if (pool is not { Length: > 0 }
+            || Array.IndexOf(pool, filename) < 0
+            || !_configManager.GetCVar(CCVars.LobbyMusicEnabled)
+            || _state.CurrentState is not LobbyState)
+        {
+            return;
+        }
+
+        EndLobbyMusic();
+        PlaySoundtrack(filename);
+    }
+
+    /// <summary>
+    /// Play a lobby track even if it is not in the current server pool
+    /// (used when a click auto-adds the track: the pool updates async).
+    /// </summary>
+    public void PlayLobbyTrackForced(string filename)
+    {
+        if (!_configManager.GetCVar(CCVars.LobbyMusicEnabled)
+            || _state.CurrentState is not LobbyState)
+        {
+            return;
+        }
+
+        EndLobbyMusic();
+        PlaySoundtrack(filename);
+    }
+
+    /// <summary>
+    /// Manually switch to the next lobby track. Wraps around at the end.
+    /// </summary>
+    public void PlayNextLobbyTrack()
+    {
+        SkipLobbyTrack(1);
+    }
+
+    /// <summary>
+    /// Manually switch to the previous lobby track. Wraps around at the start.
+    /// </summary>
+    public void PlayPreviousLobbyTrack()
+    {
+        SkipLobbyTrack(-1);
+    }
+
+    private void SkipLobbyTrack(int direction)
+    {
+        var pool = ActivePool() is { Length: > 0 } active ? active : LocalPool();
+        if (pool is not { Length: > 0 }
+            || !_configManager.GetCVar(CCVars.LobbyMusicEnabled)
+            || _state.CurrentState is not LobbyState)
+        {
+            return;
+        }
+
+        var current = _lobbySoundtrackInfo?.Filename;
+        var index = current == null ? -1 : Array.IndexOf(pool, current);
+        var nextIndex = (index + direction + pool.Length) % pool.Length;
+
+        PlayLobbyTrack(pool[nextIndex]);
+    }
+
+    /// <summary>
+    /// Daiquiri
+    /// </summary>
+    private string? _activePlaylistId;
+
+    public void SetActivePlaylist(string? playlistId)
+    {
+        _activePlaylistId = playlistId;
+    }
+
+    private string[]? ActivePool()
+    {
+        if (_activePlaylistId == null)
+            return null;
+        if (!_proto.TryIndex<LobbyPlaylistPrototype>(_activePlaylistId, out var proto))
+            return null;
+        var included = proto.Tracks
+            .Select(t => t.ToString())
+            .Where(t => IsTrackIncluded(_activePlaylistId, t))
+            .ToArray();
+        return included.Length > 0 ? included : null;
+    }
+
+    #endregion
 
     private void LobbyMusicVolumeCVarChanged(float volume)
     {
@@ -131,20 +708,40 @@ public sealed partial class ContentAudioSystem
     private void OnLobbySongChanged(LobbyPlaylistChangedEvent playlistChangedEvent)
     {
         var playlist = playlistChangedEvent.Playlist;
-        _postRoundMusic = playlistChangedEvent.PostRound; // Starlight
+        _postRoundMusic = playlistChangedEvent.PostRound; // Daiquiri
+        var current = _lobbySoundtrackInfo?.Filename;
 
-        //playlist is already playing, no need to restart it
-        if (_lobbySoundtrackInfo != null
-            && !IsLobbyMusicExisting(_lobbySoundtrackInfo) // Starlight
+        // Daiquiri
+        if (current != null
             && _lobbyPlaylist != null
             && _lobbyPlaylist.SequenceEqual(playlist)
-           )
+            && playlist.Contains(current))
         {
+            LobbyPlaylistChanged?.Invoke();
             return;
         }
 
+        _lobbyPlaylist = playlist;
+        // Daiquiri
+        ReconcileOrder();
         EndLobbyMusic();
-        StartLobbyMusic(playlistChangedEvent.Playlist);
+        StartLobbyMusic(playlist);
+        LobbyPlaylistChanged?.Invoke();
+    }
+
+    /// <summary>
+    /// Returns true if the current lobby soundtrack stream still exists and is playing.
+    /// A paused soundtrack is considered alive, since it can be resumed.
+    /// </summary>
+    private bool IsLobbySoundtrackAlive()
+    {
+        if (_lobbySoundtrackInfo == null)
+            return false;
+
+        if (LobbyMusicPaused)
+            return true;
+
+        return TryComp(_lobbySoundtrackInfo.MusicStreamEntityUid, out AudioComponent? comp) && comp.Playing;
     }
 
     /// <summary>
@@ -152,12 +749,30 @@ public sealed partial class ContentAudioSystem
     /// </summary>
     private void StartLobbyMusic()
     {
-        if (_lobbyPlaylist == null || _lobbyPlaylist.Length == 0)
+        if (!_configManager.GetCVar(CCVars.LobbyMusicEnabled)
+            || _state.CurrentState is not LobbyState)
         {
             return;
         }
 
-        StartLobbyMusic(_lobbyPlaylist);
+        if (_lobbySoundtrackInfo != null)
+        {
+            if (IsLobbySoundtrackAlive())
+                return;
+
+            // The stream was stopped or cleaned up (e.g. by a state transition) while the
+            // soundtrack info survived. Drop the stale info so a new stream can be started.
+            EndLobbyMusic();
+        }
+
+        // Daiquiri
+        var pool = LocalPool();
+        if (pool.Length == 0)
+        {
+            return;
+        }
+
+        PlaySoundtrack(pool[0]);
     }
 
     /// <summary>
@@ -166,18 +781,22 @@ public sealed partial class ContentAudioSystem
     /// <param name="playlist">Array of soundtrack filenames for lobby playlist.</param>
     private void StartLobbyMusic(string[] playlist)
     {
-        // Starlight begin
-        if (_lobbySoundtrackInfo != null && IsLobbyMusicExisting(_lobbySoundtrackInfo))
-            EndLobbyMusic();
-        // Starlight end
-
-        if (_lobbySoundtrackInfo != null || !_configManager.GetCVar(CCVars.LobbyMusicEnabled))
+        if (!_configManager.GetCVar(CCVars.LobbyMusicEnabled)
+            || _state.CurrentState is not LobbyState)
             return;
 
         _lobbyPlaylist = playlist;
         if (_lobbyPlaylist.Length == 0)
         {
             return;
+        }
+
+        if (_lobbySoundtrackInfo != null)
+        {
+            if (IsLobbySoundtrackAlive())
+                return;
+
+            EndLobbyMusic();
         }
 
         PlaySoundtrack(playlist[0]);
@@ -204,8 +823,10 @@ public sealed partial class ContentAudioSystem
             return;
         }
 
-        var nextTrackOn = _timing.CurTime + audio.AudioStream.Length;
+        var nextTrackOn = _timing.RealTime + audio.AudioStream.Length;
         _lobbySoundtrackInfo = new LobbySoundtrackInfo(soundtrackFilename, nextTrackOn, playResult.Value.Entity);
+        _lobbyPauseStarted = null;
+        LobbyTrackLengthSeconds = (float) audio.AudioStream.Length.TotalSeconds;
 
         var lobbySongChangedEvent = new LobbySoundtrackChangedEvent(soundtrackFilename);
         _lobbySoundtrackChanged?.Invoke(lobbySongChangedEvent);
@@ -220,6 +841,8 @@ public sealed partial class ContentAudioSystem
 
         _audio.Stop(_lobbySoundtrackInfo.MusicStreamEntityUid);
         _lobbySoundtrackInfo = null;
+        _lobbyPauseStarted = null;
+        LobbyTrackLengthSeconds = null;
         var lobbySongChangedEvent = new LobbySoundtrackChangedEvent();
         _lobbySoundtrackChanged?.Invoke(lobbySongChangedEvent);
     }
@@ -254,16 +877,60 @@ public sealed partial class ContentAudioSystem
 
     private void UpdateLobbyMusic()
     {
-        if (
-            _lobbySoundtrackInfo != null
-            && (_timing.CurTime >= _lobbySoundtrackInfo.NextTrackOn
-                || IsLobbyMusicExisting(_lobbySoundtrackInfo)) // Starlight
-            && _lobbyPlaylist?.Length > 0
-            )
+        if (_lobbySoundtrackInfo == null)
         {
-            var nextSoundtrackFilename = GetNextSoundtrackFromPlaylist(_lobbySoundtrackInfo.Filename, _lobbyPlaylist);
-            PlaySoundtrack(nextSoundtrackFilename);
+            return;
         }
+
+        // Daiquiri
+        if (LobbyMusicPaused)
+        {
+            return;
+        }
+
+        // Daiquiri
+        var pool = ActivePool() is { Length: > 0 } active ? active : LocalPool();
+        if (pool is not { Length: > 0 })
+        {
+            // Daiquiri
+            // back; live ones (e.g. forced click-play) keep playing.
+            var done = _timing.RealTime >= _lobbySoundtrackInfo.NextTrackOn;
+            if (!done
+                && (TryComp(_lobbySoundtrackInfo.MusicStreamEntityUid, out AudioComponent? aliveComp) && aliveComp.Playing))
+            {
+                return;
+            }
+            EndLobbyMusic();
+            return;
+        }
+
+        var finished = _timing.RealTime >= _lobbySoundtrackInfo.NextTrackOn;
+        if (!finished
+            && (!TryComp(_lobbySoundtrackInfo.MusicStreamEntityUid, out AudioComponent? comp) || !comp.Playing))
+        {
+            // Daiquiri
+            if (_lobbySoundtrackInfo.NextTrackOn - _timing.RealTime <= TimeSpan.FromSeconds(5))
+            {
+                var loopSoundtrackFilename = GetNextSoundtrackFromPlaylist(_lobbySoundtrackInfo.Filename, pool);
+                EndLobbyMusic();
+                PlaySoundtrack(loopSoundtrackFilename);
+                return;
+            }
+            _sawmill.Debug("Lobby stream died mid-track, pausing instead of advancing.");
+            if (LobbyTrackLengthSeconds is { } deadLength)
+                _lobbyPausePosition = Math.Clamp(deadLength - (float) (_lobbySoundtrackInfo.NextTrackOn - _timing.RealTime).TotalSeconds, 0f, deadLength);
+            SetLobbyMusicPaused(true);
+            return;
+        }
+
+        if (!finished)
+        {
+            return;
+        }
+
+        var nextSoundtrackFilename = GetNextSoundtrackFromPlaylist(_lobbySoundtrackInfo.Filename, pool);
+        EndLobbyMusic();
+        PlaySoundtrack(nextSoundtrackFilename);
     }
 
     private static string GetNextSoundtrackFromPlaylist(string currentSoundtrackFilename, string[] playlist)
@@ -280,7 +947,7 @@ public sealed partial class ContentAudioSystem
 
     /// <summary> Container for lobby soundtrack information. </summary>
     /// <param name="Filename">Soundtrack filename.</param>
-    /// <param name="NextTrackOn">Time (based on <see cref="IGameTiming.CurTime"/>) when this track is going to finish playing and next track have to be started.</param>
+    /// <param name="NextTrackOn">Time (based on <see cref="IGameTiming.RealTime"/>) when this track is going to finish playing and next track have to be started.</param>
     /// <param name="MusicStreamEntityUid">
     /// EntityUid of launched soundtrack (from <see cref="SharedAudioSystem.PlayGlobal(string,Robust.Shared.Player.Filter,bool,System.Nullable{Robust.Shared.Audio.AudioParams})"/>).
     /// </param>

@@ -15,6 +15,7 @@ using Robust.Shared.Maths;
 using Robust.Shared.Timing;
 using Robust.Shared.Utility;
 using System.Collections.Generic;
+using System.Numerics;
 using System.Threading;
 using System.Threading.Tasks;
 
@@ -630,6 +631,10 @@ public sealed partial class GoogolplexUiFragment : BoxContainer
         SitesPage.Visible = false;
         ErrorPage.Visible = false;
         ResultsPage.Visible = true;
+        // Clear the previous results immediately; otherwise the old list stays visible
+        // behind the "Поиск..." overlay until the new search finishes.
+        ResultsList.RemoveAllChildren();
+        ResultsScroll.SetScrollValue(Vector2.Zero);
 
         SetAddress($"googolplex.nt/search/{query}");
 

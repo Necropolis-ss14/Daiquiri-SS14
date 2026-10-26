@@ -150,3 +150,10 @@ loadout-group-NanotrasenCareerTrainer-eyewear = Очки карьерного т
 
 # Security
 loadout-group-warden-neck = Шея смотрителя
+
+loadout-group-k9-collar = Ошейник К9
+loadout-group-atmospheric-technician-id = ID атмосферного техника
+
+loadout-group-salvage-medic-id = ID спасателя-медика
+loadout-group-salvage-medic-jumpsuit = комбинезон спасателя-медика
+loadout-group-salvage-medic-mantle = мантия спасателя-медика

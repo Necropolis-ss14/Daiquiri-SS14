@@ -12,3 +12,5 @@ rattle-on-trigger-medtak-gold-dead = [color= #FFD700]Золотой клиент
 
 rattle-on-trigger-medtak-team-critical = [color= #FFFFFF]Персонал МедТак {$user}[/color] показатели критические, требуется немедленная помощь {$position}.
 rattle-on-trigger-medtak-team-dead = [color= #FFFFFF]Персонал МедТак {$user}[/color] погиб {$position}.
+
+rattle-on-trigger-job-unknown = Неизвестно

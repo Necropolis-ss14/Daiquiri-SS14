@@ -42,3 +42,6 @@ signal-port-description-disabled = Испускается, когда устро
 
 signal-port-name-turret-controller-sync-sender = Синхронизация
 signal-port-description-turret-controller-sync-sender = Передаёт настройки вооружения и авторизации этой панели управления турелями на другую панель.
+
+signal-port-name-combustion-turbine-console-sender = Консоль турбины сгорания
+signal-port-description-combustion-turbine-console-sender = Управляет турбиной сгорания. Подключите её к компрессору или турбине.

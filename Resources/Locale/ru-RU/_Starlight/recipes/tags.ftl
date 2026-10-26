@@ -15,3 +15,5 @@ construction-graph-tag-cheap-sunglasses = Дешёвые солнцезащит�
 
 construction-graph-tag-remote-signaller = базовый дистанционный сигнализатор
 construction-graph-tag-remote-signaller-adv = продвинутый дистанционный сигнализатор
+
+drone-construction-guide-string = Вставьте левую и правую кибернетические руки в корпус дрона.
