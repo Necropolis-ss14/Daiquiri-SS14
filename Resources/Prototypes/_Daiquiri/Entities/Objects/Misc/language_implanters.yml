@@ -173,6 +173,7 @@
 - type: entity
   id: BaseLanguageImplant
   parent: BaseSubdermalImplant
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Specific/Medical/implants.rsi
@@ -183,6 +184,7 @@
 - type: entity
   id: LanguageImplantVoxPidgin
   parent: BaseLanguageImplant
+  categories: [ HideSpawnMenu ]
   components:
   - type: LanguageImplant
     language: VoxPidgin
@@ -190,6 +192,7 @@
 - type: entity
   id: LanguageImplantThaveyan
   parent: BaseLanguageImplant
+  categories: [ HideSpawnMenu ]
   components:
   - type: LanguageImplant
     language: Thaveyan
@@ -197,6 +200,7 @@
 - type: entity
   id: LanguageImplantTerrum
   parent: BaseLanguageImplant
+  categories: [ HideSpawnMenu ]
   components:
   - type: LanguageImplant
     language: Terrum
@@ -204,6 +208,7 @@
 - type: entity
   id: LanguageImplantSylvan
   parent: BaseLanguageImplant
+  categories: [ HideSpawnMenu ]
   components:
   - type: LanguageImplant
     language: Sylvan
@@ -211,6 +216,7 @@
 - type: entity
   id: LanguageImplantSqueakish
   parent: BaseLanguageImplant
+  categories: [ HideSpawnMenu ]
   components:
   - type: LanguageImplant
     language: Squeakish
@@ -218,6 +224,7 @@
 - type: entity
   id: LanguageImplantNekomimetic
   parent: BaseLanguageImplant
+  categories: [ HideSpawnMenu ]
   components:
   - type: LanguageImplant
     language: Nekomimetic
@@ -225,6 +232,7 @@
 - type: entity
   id: LanguageImplantMoffic
   parent: BaseLanguageImplant
+  categories: [ HideSpawnMenu ]
   components:
   - type: LanguageImplant
     language: Moffic
@@ -232,6 +240,7 @@
 - type: entity
   id: LanguageImplantMarish
   parent: BaseLanguageImplant
+  categories: [ HideSpawnMenu ]
   components:
   - type: LanguageImplant
     language: Marish
@@ -239,6 +248,7 @@
 - type: entity
   id: LanguageImplantLagomorphian
   parent: BaseLanguageImplant
+  categories: [ HideSpawnMenu ]
   components:
   - type: LanguageImplant
     language: Lagomorphian
@@ -246,6 +256,7 @@
 - type: entity
   id: LanguageImplantGrumbakul
   parent: BaseLanguageImplant
+  categories: [ HideSpawnMenu ]
   components:
   - type: LanguageImplant
     language: Grumbakul
@@ -253,6 +264,7 @@
 - type: entity
   id: LanguageImplantFelyaic
   parent: BaseLanguageImplant
+  categories: [ HideSpawnMenu ]
   components:
   - type: LanguageImplant
     language: Felyaic
@@ -260,6 +272,7 @@
 - type: entity
   id: LanguageImplantDraconic
   parent: BaseLanguageImplant
+  categories: [ HideSpawnMenu ]
   components:
   - type: LanguageImplant
     language: Draconic
@@ -267,6 +280,7 @@
 - type: entity
   id: LanguageImplantChittin
   parent: BaseLanguageImplant
+  categories: [ HideSpawnMenu ]
   components:
   - type: LanguageImplant
     language: Chittin
@@ -274,6 +288,7 @@
 - type: entity
   id: LanguageImplantCanilunzt
   parent: BaseLanguageImplant
+  categories: [ HideSpawnMenu ]
   components:
   - type: LanguageImplant
     language: Canilunzt
@@ -281,6 +296,7 @@
 - type: entity
   id: LanguageImplantBubblish
   parent: BaseLanguageImplant
+  categories: [ HideSpawnMenu ]
   components:
   - type: LanguageImplant
     language: Bubblish
@@ -288,6 +304,475 @@
 - type: entity
   id: LanguageImplantAielic
   parent: BaseLanguageImplant
+  categories: [ HideSpawnMenu ]
   components:
   - type: LanguageImplant
     language: Aielic
+
+# Ancestor
+- type: entity
+  id: LanguageImplanterAncestor
+  parent: BaseLanguageImplanter
+  name: language-implanter-ancestor-name
+  description: language-implanter-ancestor-desc
+  components:
+  - type: Implanter
+    implant: LanguageImplantAncestor
+
+- type: entity
+  id: LanguageImplantAncestor
+  parent: BaseLanguageImplant
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: LanguageImplant
+    language: Ancestor
+
+# Bat
+- type: entity
+  id: LanguageImplanterBat
+  parent: BaseLanguageImplanter
+  name: language-implanter-bat-name
+  description: language-implanter-bat-desc
+  components:
+  - type: Implanter
+    implant: LanguageImplantBat
+
+- type: entity
+  id: LanguageImplantBat
+  parent: BaseLanguageImplant
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: LanguageImplant
+    language: Bat
+
+# Carptongue
+- type: entity
+  id: LanguageImplanterCarptongue
+  parent: BaseLanguageImplanter
+  name: language-implanter-carptongue-name
+  description: language-implanter-carptongue-desc
+  components:
+  - type: Implanter
+    implant: LanguageImplantCarptongue
+
+- type: entity
+  id: LanguageImplantCarptongue
+  parent: BaseLanguageImplant
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: LanguageImplant
+    language: Carptongue
+
+# Cat
+- type: entity
+  id: LanguageImplanterCat
+  parent: BaseLanguageImplanter
+  name: language-implanter-cat-name
+  description: language-implanter-cat-desc
+  components:
+  - type: Implanter
+    implant: LanguageImplantCat
+
+- type: entity
+  id: LanguageImplantCat
+  parent: BaseLanguageImplant
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: LanguageImplant
+    language: Cat
+
+# Cat (Feral)
+- type: entity
+  id: LanguageImplanterCatFeral
+  parent: BaseLanguageImplanter
+  name: language-implanter-catferal-name
+  description: language-implanter-catferal-desc
+  components:
+  - type: Implanter
+    implant: LanguageImplantCatFeral
+
+- type: entity
+  id: LanguageImplantCatFeral
+  parent: BaseLanguageImplant
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: LanguageImplant
+    language: CatFeral
+
+# Chicken
+- type: entity
+  id: LanguageImplanterChicken
+  parent: BaseLanguageImplanter
+  name: language-implanter-chicken-name
+  description: language-implanter-chicken-desc
+  components:
+  - type: Implanter
+    implant: LanguageImplantChicken
+
+- type: entity
+  id: LanguageImplantChicken
+  parent: BaseLanguageImplant
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: LanguageImplant
+    language: Chicken
+
+# Classical
+- type: entity
+  id: LanguageImplanterClassical
+  parent: BaseLanguageImplanter
+  name: language-implanter-classical-name
+  description: language-implanter-classical-desc
+  components:
+  - type: Implanter
+    implant: LanguageImplantClassical
+
+- type: entity
+  id: LanguageImplantClassical
+  parent: BaseLanguageImplant
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: LanguageImplant
+    language: Classical
+
+# Classical Sign Language
+- type: entity
+  id: LanguageImplanterClassicalSign
+  parent: BaseLanguageImplanter
+  name: language-implanter-classicalsign-name
+  description: language-implanter-classicalsign-desc
+  components:
+  - type: Implanter
+    implant: LanguageImplantClassicalSign
+
+- type: entity
+  id: LanguageImplantClassicalSign
+  parent: BaseLanguageImplant
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: LanguageImplant
+    language: ClassicalSign
+
+# CodeSpeak
+- type: entity
+  id: LanguageImplanterCodeSpeak
+  parent: BaseLanguageImplanter
+  name: language-implanter-codespeak-name
+  description: language-implanter-codespeak-desc
+  components:
+  - type: Implanter
+    implant: LanguageImplantCodeSpeak
+
+- type: entity
+  id: LanguageImplantCodeSpeak
+  parent: BaseLanguageImplant
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: LanguageImplant
+    language: CodeSpeak
+
+# Cygni Standard
+- type: entity
+  id: LanguageImplanterCygniStandard
+  parent: BaseLanguageImplanter
+  name: language-implanter-cygnistandard-name
+  description: language-implanter-cygnistandard-desc
+  components:
+  - type: Implanter
+    implant: LanguageImplantCygniStandard
+
+- type: entity
+  id: LanguageImplantCygniStandard
+  parent: BaseLanguageImplant
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: LanguageImplant
+    language: CygniStandard
+
+# Darktongue
+- type: entity
+  id: LanguageImplanterDarktongue
+  parent: BaseLanguageImplanter
+  name: language-implanter-darktongue-name
+  description: language-implanter-darktongue-desc
+  components:
+  - type: Implanter
+    implant: LanguageImplantDarktongue
+
+- type: entity
+  id: LanguageImplantDarktongue
+  parent: BaseLanguageImplant
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: LanguageImplant
+    language: Darktongue
+
+# Dog
+- type: entity
+  id: LanguageImplanterDog
+  parent: BaseLanguageImplanter
+  name: language-implanter-dog-name
+  description: language-implanter-dog-desc
+  components:
+  - type: Implanter
+    implant: LanguageImplantDog
+
+- type: entity
+  id: LanguageImplantDog
+  parent: BaseLanguageImplant
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: LanguageImplant
+    language: Dog
+
+# Dog (Feral)
+- type: entity
+  id: LanguageImplanterDogFeral
+  parent: BaseLanguageImplanter
+  name: language-implanter-dogferal-name
+  description: language-implanter-dogferal-desc
+  components:
+  - type: Implanter
+    implant: LanguageImplantDogFeral
+
+- type: entity
+  id: LanguageImplantDogFeral
+  parent: BaseLanguageImplant
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: LanguageImplant
+    language: DogFeral
+
+# Duck
+- type: entity
+  id: LanguageImplanterDuck
+  parent: BaseLanguageImplanter
+  name: language-implanter-duck-name
+  description: language-implanter-duck-desc
+  components:
+  - type: Implanter
+    implant: LanguageImplantDuck
+
+- type: entity
+  id: LanguageImplantDuck
+  parent: BaseLanguageImplant
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: LanguageImplant
+    language: Duck
+
+# Fox
+- type: entity
+  id: LanguageImplanterFox
+  parent: BaseLanguageImplanter
+  name: language-implanter-fox-name
+  description: language-implanter-fox-desc
+  components:
+  - type: Implanter
+    implant: LanguageImplantFox
+
+- type: entity
+  id: LanguageImplantFox
+  parent: BaseLanguageImplant
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: LanguageImplant
+    language: Fox
+
+# Encoded Audio Language
+- type: entity
+  id: LanguageImplanterMachine
+  parent: BaseLanguageImplanter
+  name: language-implanter-machine-name
+  description: language-implanter-machine-desc
+  components:
+  - type: Implanter
+    implant: LanguageImplantMachine
+
+- type: entity
+  id: LanguageImplantMachine
+  parent: BaseLanguageImplant
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: LanguageImplant
+    language: Machine
+
+# Mothroach
+- type: entity
+  id: LanguageImplanterMothroach
+  parent: BaseLanguageImplanter
+  name: language-implanter-mothroach-name
+  description: language-implanter-mothroach-desc
+  components:
+  - type: Implanter
+    implant: LanguageImplantMothroach
+
+- type: entity
+  id: LanguageImplantMothroach
+  parent: BaseLanguageImplant
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: LanguageImplant
+    language: Mothroach
+
+# Mouse
+- type: entity
+  id: LanguageImplanterMouse
+  parent: BaseLanguageImplanter
+  name: language-implanter-mouse-name
+  description: language-implanter-mouse-desc
+  components:
+  - type: Implanter
+    implant: LanguageImplantMouse
+
+- type: entity
+  id: LanguageImplantMouse
+  parent: BaseLanguageImplant
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: LanguageImplant
+    language: Mouse
+
+# Penguin
+- type: entity
+  id: LanguageImplanterPenguin
+  parent: BaseLanguageImplanter
+  name: language-implanter-penguin-name
+  description: language-implanter-penguin-desc
+  components:
+  - type: Implanter
+    implant: LanguageImplantPenguin
+
+- type: entity
+  id: LanguageImplantPenguin
+  parent: BaseLanguageImplant
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: LanguageImplant
+    language: Penguin
+
+# Pig
+- type: entity
+  id: LanguageImplanterPig
+  parent: BaseLanguageImplanter
+  name: language-implanter-pig-name
+  description: language-implanter-pig-desc
+  components:
+  - type: Implanter
+    implant: LanguageImplantPig
+
+- type: entity
+  id: LanguageImplantPig
+  parent: BaseLanguageImplant
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: LanguageImplant
+    language: Pig
+
+# Scratch
+- type: entity
+  id: LanguageImplanterScratch
+  parent: BaseLanguageImplanter
+  name: language-implanter-scratch-name
+  description: language-implanter-scratch-desc
+  components:
+  - type: Implanter
+    implant: LanguageImplantScratch
+
+- type: entity
+  id: LanguageImplantScratch
+  parent: BaseLanguageImplant
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: LanguageImplant
+    language: Scratch
+
+# Scurret Sign
+- type: entity
+  id: LanguageImplanterScurretSign
+  parent: BaseLanguageImplanter
+  name: language-implanter-scurretsign-name
+  description: language-implanter-scurretsign-desc
+  components:
+  - type: Implanter
+    implant: LanguageImplantScurretSign
+
+- type: entity
+  id: LanguageImplantScurretSign
+  parent: BaseLanguageImplant
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: LanguageImplant
+    language: ScurretSign
+
+# Galactic Sign Language
+- type: entity
+  id: LanguageImplanterSign
+  parent: BaseLanguageImplanter
+  name: language-implanter-sign-name
+  description: language-implanter-sign-desc
+  components:
+  - type: Implanter
+    implant: LanguageImplantSign
+
+- type: entity
+  id: LanguageImplantSign
+  parent: BaseLanguageImplant
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: LanguageImplant
+    language: Sign
+
+# Sol Common
+- type: entity
+  id: LanguageImplanterSolCommon
+  parent: BaseLanguageImplanter
+  name: language-implanter-solcommon-name
+  description: language-implanter-solcommon-desc
+  components:
+  - type: Implanter
+    implant: LanguageImplantSolCommon
+
+- type: entity
+  id: LanguageImplantSolCommon
+  parent: BaseLanguageImplant
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: LanguageImplant
+    language: SolCommon
+
+# Xeno
+- type: entity
+  id: LanguageImplanterXeno
+  parent: BaseLanguageImplanter
+  name: language-implanter-xeno-name
+  description: language-implanter-xeno-desc
+  components:
+  - type: Implanter
+    implant: LanguageImplantXeno
+
+- type: entity
+  id: LanguageImplantXeno
+  parent: BaseLanguageImplant
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: LanguageImplant
+    language: Xeno
+
+# Zombie
+- type: entity
+  id: LanguageImplanterZombie
+  parent: BaseLanguageImplanter
+  name: language-implanter-zombie-name
+  description: language-implanter-zombie-desc
+  components:
+  - type: Implanter
+    implant: LanguageImplantZombie
+
+- type: entity
+  id: LanguageImplantZombie
+  parent: BaseLanguageImplant
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: LanguageImplant
+    language: Zombie

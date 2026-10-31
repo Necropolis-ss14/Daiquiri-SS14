@@ -113,4 +113,25 @@ public sealed class DaiquiriCCVars
 
     public static readonly CVarDef<string> LobbyVinylAnnounced =
         CVarDef.Create("lobby.vinyl_announced", "", CVar.CLIENTONLY | CVar.ARCHIVE);
+
+    /// <summary>
+    /// Lichess OAuth public client id. Lichess accepts unregistered public clients and
+    /// only requires a unique id; no client secret is used (PKCE).
+    /// </summary>
+    public static readonly CVarDef<string> ChessLichessClientId =
+        CVarDef.Create("chess.lichess_client_id", "lightline-chess-nt", CVar.SERVERONLY);
+
+    /// <summary>
+    /// Space separated Lichess OAuth scopes. board:play is enough for the Board API;
+    /// challenge:write is needed for bullet/blitz open challenges and direct challenges.
+    /// Changing this value requires players to unlink and link their account again.
+    /// </summary>
+    public static readonly CVarDef<string> ChessLichessScope =
+        CVarDef.Create("chess.lichess_scope", "board:play challenge:write", CVar.SERVERONLY);
+
+    /// <summary>
+    /// How long a Lichess OAuth attempt remains valid, in seconds.
+    /// </summary>
+    public static readonly CVarDef<float> ChessLichessLinkTimeoutSeconds =
+        CVarDef.Create("chess.lichess_link_timeout_seconds", 600f, CVar.SERVERONLY);
 }

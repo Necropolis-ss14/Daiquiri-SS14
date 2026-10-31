@@ -1,12 +1,17 @@
 - type: entity
   id: BaseLanguageTranslator
-  parent: BaseItem
+  parent: Translator
   name: language-translator-base-name
   description: language-translator-base-desc
   components:
   - type: Sprite
     sprite: _Daiquiri/Objects/Devices/translator.rsi
-    state: icon
+    layers:
+    - state: icon
+    - state: translator
+      shader: unshaded
+      visible: false
+      map: ["translator"]
   - type: HandheldTranslator
     spoken:
     - GalacticCommon
@@ -192,3 +197,289 @@
   - type: HandheldTranslator
     requires:
     - Aielic
+
+# Ancestor -> Galactic Common
+- type: entity
+  id: LanguageTranslatorAncestor
+  parent: BaseLanguageTranslator
+  name: language-translator-ancestor-name
+  description: language-translator-ancestor-desc
+  components:
+  - type: HandheldTranslator
+    requires:
+    - Ancestor
+
+# Bat -> Galactic Common
+- type: entity
+  id: LanguageTranslatorBat
+  parent: BaseLanguageTranslator
+  name: language-translator-bat-name
+  description: language-translator-bat-desc
+  components:
+  - type: HandheldTranslator
+    requires:
+    - Bat
+
+# Carptongue -> Galactic Common
+- type: entity
+  id: LanguageTranslatorCarptongue
+  parent: BaseLanguageTranslator
+  name: language-translator-carptongue-name
+  description: language-translator-carptongue-desc
+  components:
+  - type: HandheldTranslator
+    requires:
+    - Carptongue
+
+# Cat -> Galactic Common
+- type: entity
+  id: LanguageTranslatorCat
+  parent: BaseLanguageTranslator
+  name: language-translator-cat-name
+  description: language-translator-cat-desc
+  components:
+  - type: HandheldTranslator
+    requires:
+    - Cat
+
+# Cat (Feral) -> Galactic Common
+- type: entity
+  id: LanguageTranslatorCatFeral
+  parent: BaseLanguageTranslator
+  name: language-translator-catferal-name
+  description: language-translator-catferal-desc
+  components:
+  - type: HandheldTranslator
+    requires:
+    - CatFeral
+
+# Chicken -> Galactic Common
+- type: entity
+  id: LanguageTranslatorChicken
+  parent: BaseLanguageTranslator
+  name: language-translator-chicken-name
+  description: language-translator-chicken-desc
+  components:
+  - type: HandheldTranslator
+    requires:
+    - Chicken
+
+# Classical -> Galactic Common
+- type: entity
+  id: LanguageTranslatorClassical
+  parent: BaseLanguageTranslator
+  name: language-translator-classical-name
+  description: language-translator-classical-desc
+  components:
+  - type: HandheldTranslator
+    requires:
+    - Classical
+
+# Classical Sign Language -> Galactic Common
+- type: entity
+  id: LanguageTranslatorClassicalSign
+  parent: BaseLanguageTranslator
+  name: language-translator-classicalsign-name
+  description: language-translator-classicalsign-desc
+  components:
+  - type: HandheldTranslator
+    requires:
+    - ClassicalSign
+
+# CodeSpeak -> Galactic Common
+- type: entity
+  id: LanguageTranslatorCodeSpeak
+  parent: BaseLanguageTranslator
+  name: language-translator-codespeak-name
+  description: language-translator-codespeak-desc
+  components:
+  - type: HandheldTranslator
+    requires:
+    - CodeSpeak
+
+# Cygni Standard -> Galactic Common
+- type: entity
+  id: LanguageTranslatorCygniStandard
+  parent: BaseLanguageTranslator
+  name: language-translator-cygnistandard-name
+  description: language-translator-cygnistandard-desc
+  components:
+  - type: HandheldTranslator
+    requires:
+    - CygniStandard
+
+# Darktongue -> Galactic Common
+- type: entity
+  id: LanguageTranslatorDarktongue
+  parent: BaseLanguageTranslator
+  name: language-translator-darktongue-name
+  description: language-translator-darktongue-desc
+  components:
+  - type: HandheldTranslator
+    requires:
+    - Darktongue
+
+# Dog -> Galactic Common
+- type: entity
+  id: LanguageTranslatorDog
+  parent: BaseLanguageTranslator
+  name: language-translator-dog-name
+  description: language-translator-dog-desc
+  components:
+  - type: HandheldTranslator
+    requires:
+    - Dog
+
+# Dog (Feral) -> Galactic Common
+- type: entity
+  id: LanguageTranslatorDogFeral
+  parent: BaseLanguageTranslator
+  name: language-translator-dogferal-name
+  description: language-translator-dogferal-desc
+  components:
+  - type: HandheldTranslator
+    requires:
+    - DogFeral
+
+# Duck -> Galactic Common
+- type: entity
+  id: LanguageTranslatorDuck
+  parent: BaseLanguageTranslator
+  name: language-translator-duck-name
+  description: language-translator-duck-desc
+  components:
+  - type: HandheldTranslator
+    requires:
+    - Duck
+
+# Fox -> Galactic Common
+- type: entity
+  id: LanguageTranslatorFox
+  parent: BaseLanguageTranslator
+  name: language-translator-fox-name
+  description: language-translator-fox-desc
+  components:
+  - type: HandheldTranslator
+    requires:
+    - Fox
+
+# Encoded Audio Language -> Galactic Common
+- type: entity
+  id: LanguageTranslatorMachine
+  parent: BaseLanguageTranslator
+  name: language-translator-machine-name
+  description: language-translator-machine-desc
+  components:
+  - type: HandheldTranslator
+    requires:
+    - Machine
+
+# Mothroach -> Galactic Common
+- type: entity
+  id: LanguageTranslatorMothroach
+  parent: BaseLanguageTranslator
+  name: language-translator-mothroach-name
+  description: language-translator-mothroach-desc
+  components:
+  - type: HandheldTranslator
+    requires:
+    - Mothroach
+
+# Mouse -> Galactic Common
+- type: entity
+  id: LanguageTranslatorMouse
+  parent: BaseLanguageTranslator
+  name: language-translator-mouse-name
+  description: language-translator-mouse-desc
+  components:
+  - type: HandheldTranslator
+    requires:
+    - Mouse
+
+# Penguin -> Galactic Common
+- type: entity
+  id: LanguageTranslatorPenguin
+  parent: BaseLanguageTranslator
+  name: language-translator-penguin-name
+  description: language-translator-penguin-desc
+  components:
+  - type: HandheldTranslator
+    requires:
+    - Penguin
+
+# Pig -> Galactic Common
+- type: entity
+  id: LanguageTranslatorPig
+  parent: BaseLanguageTranslator
+  name: language-translator-pig-name
+  description: language-translator-pig-desc
+  components:
+  - type: HandheldTranslator
+    requires:
+    - Pig
+
+# Scratch -> Galactic Common
+- type: entity
+  id: LanguageTranslatorScratch
+  parent: BaseLanguageTranslator
+  name: language-translator-scratch-name
+  description: language-translator-scratch-desc
+  components:
+  - type: HandheldTranslator
+    requires:
+    - Scratch
+
+# Scurret Sign -> Galactic Common
+- type: entity
+  id: LanguageTranslatorScurretSign
+  parent: BaseLanguageTranslator
+  name: language-translator-scurretsign-name
+  description: language-translator-scurretsign-desc
+  components:
+  - type: HandheldTranslator
+    requires:
+    - ScurretSign
+
+# Galactic Sign Language -> Galactic Common
+- type: entity
+  id: LanguageTranslatorSign
+  parent: BaseLanguageTranslator
+  name: language-translator-sign-name
+  description: language-translator-sign-desc
+  components:
+  - type: HandheldTranslator
+    requires:
+    - Sign
+
+# Sol Common -> Galactic Common
+- type: entity
+  id: LanguageTranslatorSolCommon
+  parent: BaseLanguageTranslator
+  name: language-translator-solcommon-name
+  description: language-translator-solcommon-desc
+  components:
+  - type: HandheldTranslator
+    requires:
+    - SolCommon
+
+# Xeno -> Galactic Common
+- type: entity
+  id: LanguageTranslatorXeno
+  parent: BaseLanguageTranslator
+  name: language-translator-xeno-name
+  description: language-translator-xeno-desc
+  components:
+  - type: HandheldTranslator
+    requires:
+    - Xeno
+
+# Zombie -> Galactic Common
+- type: entity
+  id: LanguageTranslatorZombie
+  parent: BaseLanguageTranslator
+  name: language-translator-zombie-name
+  description: language-translator-zombie-desc
+  components:
+  - type: HandheldTranslator
+    requires:
+    - Zombie
