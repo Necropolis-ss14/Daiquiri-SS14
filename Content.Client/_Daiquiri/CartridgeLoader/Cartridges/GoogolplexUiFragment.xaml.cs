@@ -21,7 +21,6 @@ using Robust.Shared.Timing;
 using Robust.Shared.Maths;
 using Robust.Shared.Map;
 using Robust.Shared.Input;
-using Robust.Shared.Timing;
 using Robust.Shared.Utility;
 using System.Collections.Generic;
 using System.Numerics;
