@@ -1,12 +1,7 @@
 - type: entity
   id: ActionCosmicSiphon
-<<<<<<< HEAD
   name: Вытянуть энтропию
-  description: Silently siphon entropy from your target, dealing some damage in the process.
-=======
-  name: Siphon Entropy
-  description: Silently siphon entropy from your target. Entropy you collect can be deposited into the Monument to empower it and allow you to unlock new Influences.
->>>>>>> upstream/starlight-dev
+  description: "Беззвучно выкачайте энтропию из цели. Собранную энтропию можно внести в Монумент, чтобы усилить его и открыть новые Влияния."
   components:
   - type: Action
     useDelay: 50
@@ -198,16 +193,11 @@
 
 - type: entity
   id: ActionCosmicFragmentation
-<<<<<<< HEAD
   name: Нулевая фрагментация
-  description: Transfer your malign empowerment into a digital system, such as an AI Upload Console, Cyborg or IPC, corrupting it in the process. Doing so will expend your empowerment.
-=======
-  name: Null Fragmentation
   description: |-
-    Transfer your malign empowerment into a digital system, such as an AI Upload Console, Cyborg or IPC, corrupting it in the process. Doing so will expend your empowerment.
+    Перенесите своё злокачественное усиление в цифровую систему, например в консоль загрузки ИИ, киборга или КПБ, повредив её в процессе. Это израсходует ваше усиление.
 
-    If used on a silicon or IPC, this will reveal the existence of the cult, as well as the general location this ability was used, to the station.
->>>>>>> upstream/starlight-dev
+    При использовании на силиконе или КПБ это раскроет существование культа, а также примерное место применения способности, всей станции.
   components:
   - type: ConfirmableAction
     popup: cosmicability-fragmentation-confirm

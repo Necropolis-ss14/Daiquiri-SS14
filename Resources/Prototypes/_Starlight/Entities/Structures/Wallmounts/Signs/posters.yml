@@ -61,8 +61,8 @@
 - type: entity
   parent: PosterBase
   id: PosterLegitNeverTooDead
-  name: "Never Too Dead!"
-  description: "A poster encouraging the medical team to never give up, despite all odds. 18,000 cold is no match for 20 assistants with burn automenders!"
+  name: "Никогда не слишком мёртв!"
+  description: "Плакат, призывающий медиков никогда не сдаваться, вопреки всему. 18 000 холода — не преграда для 20 ассистентов с автомендерами ожогов!"
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Wallmounts/posters/never-too-dead.rsi

@@ -127,8 +127,8 @@
 - type: entity
   parent: ReinforcementRadio
   id: ReinforcementRadioSyndicateBombroach
-  name: bombroach reinforcement radio
-  description: Calls in a faithfully trained bombroach with a picobomb to assist you.
+  name: "радио подкрепления бомбожуков"
+  description: "Вызывает верно обученного бомбожука с пикобомбой на помощь."
   components:
   - type: GhostRole
     important: true

@@ -1,8 +1,8 @@
 - type: entity
   id: StationRadioServer
-  name: radio server
+  name: "радиосервер"
   parent: [ BaseMachinePowered, ConstructibleMachine ]
-  description: A rack of servers that puts the radio show on air, music and the host's microphone alike.
+  description: "Стойка серверов, выводящая радиопередачу в эфир — и музыку, и микрофон ведущего."
   components:
   - type: Appearance
   - type: Sprite
@@ -67,8 +67,8 @@
 - type: entity
   id: StationRadioRig
   parent: [ BaseMachinePowered, ConstructibleMachine ]
-  name: radio rig
-  description: A desk with everything you need to run the radio show, and a record shelf that plays on a loop.
+  name: "радиоустановка"
+  description: "Стол со всем необходимым для ведения радиопередачи и полка с пластинками, играющими по кругу."
   components:
   - type: Appearance
   - type: Sprite

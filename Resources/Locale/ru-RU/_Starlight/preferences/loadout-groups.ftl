@@ -157,3 +157,8 @@ loadout-group-atmospheric-technician-id = ID атмосферного техни
 loadout-group-salvage-medic-id = ID спасателя-медика
 loadout-group-salvage-medic-jumpsuit = комбинезон спасателя-медика
 loadout-group-salvage-medic-mantle = мантия спасателя-медика
+
+loadout-group-gunnery-sergeant-head = Голова сержанта
+loadout-group-gunnery-sergeant-jumpsuit = Комбинезон сержанта
+loadout-group-gunnery-sergeant-outerclothing = Верхняя одежда сержанта
+loadout-group-gunnery-sergeant-neck = Шея сержанта

@@ -1,8 +1,8 @@
 - type: entity
   id: StationRadioMixer
-  name: radio mixer
+  name: "радиомикшер"
   parent: [ BaseMachinePowered, SmallConstructibleMachine ]
-  description: A mixing desk for the station radio. Sets how loud each deck, the host's voice and the whole broadcast are.
+  description: "Микшерный пульт для станционного радио. Задаёт громкость каждой деки, голоса ведущего и всей трансляции."
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Machines/StationRadio/mixer.rsi

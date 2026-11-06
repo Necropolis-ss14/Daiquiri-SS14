@@ -79,8 +79,8 @@
 - type: entity
   parent: BaseFlag
   id: PluralFlag
-  name: plural flag
-  description: Make more than one!
+  name: "флаг «Плюрал»"
+  description: "Сделайте больше одного!"
   components:
     - type: Sprite
       sprite: _Starlight/Structures/Wallmounts/flags/pluralflag.rsi/

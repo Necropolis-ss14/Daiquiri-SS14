@@ -1,8 +1,8 @@
 - type: entity
   id: CDPlayer
-  name: radio CD player
+  name: "радио-CD-плеер"
   parent: [ BaseMachinePowered, SmallConstructibleMachine ]
-  description: A compact disc deck for adverts and announcements. Plays over whatever the vinyl player broadcasts.
+  description: "Дека для компакт-дисков с рекламой и объявлениями. Играет поверх того, что транслирует виниловый проигрыватель."
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Machines/StationRadio/cdplayer.rsi

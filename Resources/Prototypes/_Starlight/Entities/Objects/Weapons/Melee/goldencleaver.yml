@@ -1,8 +1,8 @@
 - type: entity
   parent: ButchCleaver
   id: ButchCleaverGold
-  name: golden butcher's cleaver
-  description: A gold-plated butcher's cleaver given as a token of appreciation for years of service. Its edge is made of plasteel for an extra-sharp cut.
+  name: "золотой мясницкий тесак"
+  description: "Позолоченный мясницкий тесак, вручаемый в знак признательности за годы службы. Лезвие из пластали для особо острой резки."
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Melee/cleaver_gold.rsi/

@@ -22,7 +22,7 @@
 - type: entity
   parent: [BaseBloodBoundObjective, BaseTargetObjective]
   id: BloodBoundStealHeartObjective
-  description: We need to get this person's heart.
+  description: "Нам нужно сердце этого человека."
   components:
   - type: Objective
     hidden: true
@@ -66,8 +66,8 @@
 - type: entity
   parent: [BaseBloodBoundObjective, BaseTargetObjective]
   id: BloodBoundAssistObjective
-  name: Help your blood bound.
-  description: Assist your blood bound in completing all of their objectives no matter the cost.
+  name: "Помогите своему кровному брату."
+  description: "Помогайте своему кровному брату выполнить все его цели, чего бы это ни стоило."
   components:
   - type: Objective
     difficulty: 0 # never given randomly anyways
@@ -84,30 +84,30 @@
 - type: entity
   parent: [BaseBloodBoundObjective, EscapeShuttleObjective]
   id: BloodBoundEscapeShuttleObjective
-  description: We must escape unbound, or it will all be for naught.
+  description: "Мы должны вырваться свободными, иначе всё будет напрасно."
 
 # kill
 
 - type: entity
   parent: [BaseBloodBoundObjective, KillRandomPersonObjective]
   id: BloodBoundKillRandomPersonObjective
-  description: We need to make sure this person doesn't make it back to CentComm, dead or alive.
+  description: "Нужно проследить, чтобы этот человек не добрался до Центрального командования — ни живым, ни мёртвым."
 
 - type: entity
   parent: [BaseBloodBoundObjective, KillRandomHeadObjective]
   id: BloodBoundKillRandomHeadObjective
-  description: We need to make sure this person doesn't make it back to CentComm, dead or alive.
+  description: "Нужно проследить, чтобы этот человек не добрался до Центрального командования — ни живым, ни мёртвым."
 
 # lesson
 - type: entity
   parent: [BaseBloodBoundObjective, TeachRandomPersonObjective]
   id: BloodBoundTeachRandomPersonObjective
-  description: We need to make sure this person dies at least once this shift.
+  description: "Нужно проследить, чтобы этот человек умер хотя бы раз за смену."
 
 - type: entity
   parent: [BaseBloodBoundObjective, TeachRandomHeadObjective]
   id: BloodBoundTeachRandomHeadObjective
-  description: We need to make sure this person dies at least once this shift.
+  description: "Нужно проследить, чтобы этот человек умер хотя бы раз за смену."
 
 # steal
 
@@ -242,35 +242,35 @@
 - type: entity
   parent: [BaseBloodBoundObjective, BaseStoryObjective]
   id: BloodBoundCookSentientsObjective
-  name: Make food using sentient beings.
-  description: We need to make food using sentient beings.
+  name: "Приготовьте еду из разумных существ."
+  description: "Нам нужно приготовить еду из разумных существ."
 
 - type: entity
   parent: [BaseBloodBoundObjective, BaseStoryObjective]
   id: BloodBoundReplaceHeadObjective
-  name: Take the place of a head of staff.
-  description: We need to take the place of a head of staff.
+  name: "Займите место главы отдела."
+  description: "Нам нужно занять место главы отдела."
 
 - type: entity
   parent: [BaseBloodBoundObjective, BaseStoryObjective]
   id: BloodBoundConvertFollowersObjective
-  name: Convert people to the Children of Nar'Sie.
-  description: We need to spread the faith and bring new followers into the Children of Nar'Sie.
+  name: "Обращайте людей в Детей Нар'Си."
+  description: "Нам нужно распространять веру и приводить новых последователей к Детям Нар'Си."
 
 - type: entity
   parent: [BaseBloodBoundObjective, HarassObjective]
   id: BloodBoundHarassObjective
-  description: We need to harass and inconvenience this department without causing direct bodily harm.
+  description: "Нам нужно досаждать этому отделу и создавать неудобства, не нанося прямого физического вреда."
 
 - type: entity
   parent: [BaseBloodBoundObjective, TrashRoomObjective]
   id: BloodBoundTrashRoomObjective
-  description: We need to trash this room. Make sure it doesn't pass a health inspection.
+  description: "Нам нужно разгромить эту комнату. Проследите, чтобы она не прошла санитарную проверку."
 
 - type: entity
   parent: [BaseBloodBoundObjective, ClaimLocationObjective]
   id: BloodBoundClaimLocationObjective
-  description: Establish this room as a base for the Children of Nar'Sie.
+  description: "Сделайте эту комнату базой Детей Нар'Си."
   components:
   - type: LocationObjective
     title: objective-condition-blood-bound-claim-room
@@ -278,10 +278,10 @@
 - type: entity
   parent: [BaseBloodBoundObjective, RobDepartmentObjective]
   id: BloodBoundRobDepartmentObjective
-  description: We need to get this department's valuables.
+  description: "Нам нужно заполучить ценности этого отдела."
 
 - type: entity
   parent: [BaseBloodBoundObjective, CallingCardObjective]
   id: BloodBoundCallingCardObjective
-  name: Leave a calling card at the scene of our crimes.
-  description: We need to leave a calling card at the scene of our crimes.
+  name: "Оставьте визитную карточку на месте наших преступлений."
+  description: "Нам нужно оставить визитную карточку на месте наших преступлений."

@@ -80,8 +80,8 @@
 - type: entity
   id: CrateArmoryVerdict
   parent: [ CrateWeaponSecure, BaseSecurityContraband ]
-  name: verdict weapon crate
-  description: A crate with two heavy rifle.
+  name: "ящик с оружием «Вердикт»"
+  description: "Ящик с двумя тяжёлыми винтовками."
   components:
   - type: EntityTableContainerFill
     containers:

@@ -1,7 +1,7 @@
 - type: entity
   parent: BaseMindRoleAntag
   id: MindRoleBloodBound
-  name: Blood Bound Role
+  name: "Роль кровных уз"
   components:
   - type: BloodBoundRole
   - type: RoleBriefing

@@ -76,8 +76,8 @@
 - type: entity
   parent: CrateGenericSteel
   id: CrateRadioHostADs
-  name: ads crate
-  description: A crate with 6 different advertisement CDs to add to your collection, each in its case.
+  name: "ящик с рекламой"
+  description: "Ящик с 6 разными рекламными CD для вашей коллекции, каждый в своём футляре."
   components:
   - type: UniqueDiscFill
     table: RandomCDDisc

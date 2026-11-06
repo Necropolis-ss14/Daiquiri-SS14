@@ -2,7 +2,7 @@
   parent: BaseAction
   id: ActionToggleDome
   name: Переключить энергокупол
-  description: Turn the energy barrier on or off.
+  description: "Включить или выключить энергетический барьер."
   categories: [ HideSpawnMenu ]
   components:
   - type: Action
@@ -18,8 +18,8 @@
 - type: entity
   parent: [BaseSuicideAction, BaseImplantAction]
   id: ActionActivatePicoBomb
-  name: Activate Picobomb
-  description: Activates your internal picobomb, completely destroying you and your equipment
+  name: "Активировать пикобомбу"
+  description: "Активирует вашу внутреннюю пикобомбу, полностью уничтожая вас и ваше снаряжение"
   components:
   - type: Action
     itemIconStyle: BigAction

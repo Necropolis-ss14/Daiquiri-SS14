@@ -291,9 +291,9 @@
 - type: entity
   parent: MolotovBottleEmpty
   id: MolotovBottleBurntOut
-  name: Molotov with burnt wick
+  name: "коктейль Молотова с прогоревшим фитилём"
   suffix: fuel
-  description: The wick has burned away, replace the cloth and try again
+  description: "Фитиль прогорел — замените ткань и попробуйте снова"
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Grenades/molotov.rsi

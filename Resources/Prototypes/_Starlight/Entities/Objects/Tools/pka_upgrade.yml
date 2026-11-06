@@ -1,8 +1,8 @@
 - type: entity
   id: PKAUpgradeDamageExp
   parent: BasePKAUpgrade
-  name: Experimental PKA modkit (damage)
-  description: An experimental modkit, sharpens projectiles into spikes before launching, at the cost of fire rate.
+  name: "экспериментальный модуль ПКУ (урон)"
+  description: "Экспериментальный модуль: затачивает снаряды в шипы перед выстрелом, снижая скорострельность."
   components:
   - type: Sprite
     layers:
@@ -26,8 +26,8 @@
 - type: entity
   id: PKAUpgradeRangeExp
   parent: BasePKAUpgrade
-  name: Experimental PKA modkit (range)
-  description: An experimental modkit, dramatically increases the speed of the projectile, at the cost of its structural damage.
+  name: "экспериментальный модуль ПКУ (дальность)"
+  description: "Экспериментальный модуль: значительно повышает скорость снаряда, снижая его структурный урон."
   components:
   - type: Sprite
     layers:
@@ -51,8 +51,8 @@
 - type: entity
   id: PKAUpgradeFireRateExp
   parent: BasePKAUpgrade
-  name: Experimental PKA modkit (fire rate)
-  description: An experimental modkit, dramatically increases firerate, at the cost of damage and projectile speed.
+  name: "экспериментальный модуль ПКУ (скорострельность)"
+  description: "Экспериментальный модуль: значительно повышает скорострельность, снижая урон и скорость снаряда."
   components:
   - type: Sprite
     layers:

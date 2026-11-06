@@ -650,8 +650,8 @@
 - type: entity
   parent: [ ClothingNeckBase ]
   id: ClothingNeckCloakGunnerySergeant
-  name: gunnery sergeant's cloak
-  description: A cloak that has seen many battles, and beatings.
+  name: "плащ сержанта-инструктора"
+  description: "Плащ, повидавший немало битв и побоев."
   components:
   - type: Sprite
     sprite:  _Starlight/Clothing/Neck/Cloaks/gunnery_sergeant.rsi
@@ -661,8 +661,8 @@
 - type: entity
   parent: [ ClothingNeckBase ]
   id: ClothingNeckMantleGunnerySergeant
-  name: gunnery sergeant's mantle
-  description: A mantle for those whose job it is to get the cadets out of the walls.
+  name: "мантия сержанта-инструктора"
+  description: "Мантия для тех, чья работа — вытаскивать курсантов из стен."
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Neck/Cloaks/gunnery_sergeant_mantle.rsi
@@ -694,8 +694,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckCloakPlural
-  name: altered cloak
-  description: Cloak for those who prefer a whole Fleet of Theseus
+  name: "изменённый плащ"
+  description: "Плащ для тех, кто предпочитает целый «Флот Тесея»."
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Neck/Cloaks/plural.rsi/

@@ -236,3 +236,8 @@ guide-entry-sl-security-sop-k9 = Кинолог
 guide-entry-combustion-turbine = Турбина сгорания
 
 guide-entry-sl-security-sop-permitacquisition-examples = Примеры разрешений
+
+guide-entry-sl-security-sop-gunnerysergeant = Сержант-инструктор
+guide-entry-religious-freedom = Свобода вероисповедания
+guide-entry-silicon-clause = Оговорка о синтетиках
+guide-entry-carnival-treaty = Карнавальный договор

@@ -2,8 +2,8 @@
 - type: entity
   parent: [BaseItem, StorePresetUplink]
   id: HiddenUplinkRadioScience
-  name: anomaly scanner
-  description: A hand-held scanner built to collect information on various anomalous objects.
+  name: "сканер аномалий"
+  description: "Ручной сканер для сбора информации о различных аномальных объектах."
   suffix: Uplink
   components:
   - type: Sprite

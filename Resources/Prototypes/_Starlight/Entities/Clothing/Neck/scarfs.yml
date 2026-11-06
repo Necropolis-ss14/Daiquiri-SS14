@@ -100,8 +100,8 @@
 - type: entity
   parent: ClothingScarfBase
   id: ClothingNeckScarfStripedPlural
-  name: striped plural scarf
-  description: A stylish striped plural scarf. The perfect winter accessory for those with a keen fashion sense, and those who can't handle a cold breeze on their necks.
+  name: "полосатый шарф «Плюрал»"
+  description: "Стильный полосатый шарф «Плюрал». Идеальный зимний аксессуар для тех, у кого тонкое чувство стиля, и для тех, кто не переносит холодный ветер на шее."
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Neck/Scarfs/plural.rsi

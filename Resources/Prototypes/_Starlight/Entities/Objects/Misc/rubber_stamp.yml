@@ -80,7 +80,7 @@
 
 # Gunnery Sergeant stamp
 - type: entity
-  name: gunnery sergeant's rubber stamp
+  name: "печать сержанта-инструктора"
   parent: RubberStampBase
   id: RubberStampGunnerySergeant
   suffix: DO NOT MAP

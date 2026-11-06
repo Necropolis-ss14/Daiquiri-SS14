@@ -450,3 +450,6 @@ ui-options-admin-strip-overlay-title = Оверлей обыска
 ui-options-admin-strip-overlay-setting = Показывать админ-вид обыска по умолчанию
 ui-options-accessability-header-visuals = Визуал
 ui-options-accessability-header-content = Контент
+
+ui-options-chat-preview = Показывать пузыри предпросмотра чата при вводе
+ui-options-preview-bubble-background-opacity = Непрозрачность фона пузыря предпросмотра

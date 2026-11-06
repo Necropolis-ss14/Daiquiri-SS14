@@ -519,3 +519,6 @@ guidebook-search-keywords-rulesl14 = Правило 14 — Правила неп
 guidebook-search-keywords-rulesl15 = Правило 15 — Разделение персонажа и игрока; разделение IC и OOC; отделение персонажа от игрока; утечка информации
 guidebook-search-keywords-rulesl16 = Правило 16 — Гриферство в конце раунда; EORG; гриферство после конца раунда; гриферство на завершении раунда
 guidebook-search-keywords-metashield = метащиты; метащит; защищённые личности
+
+guidebook-sidebar-collapse = Свернуть боковую панель
+guidebook-sidebar-expand = Развернуть боковую панель

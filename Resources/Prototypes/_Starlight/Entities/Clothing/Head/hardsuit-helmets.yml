@@ -1363,8 +1363,8 @@
 - type: entity
   parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase, ClothingHeadLightParamsAdvanced ]
   id: ClothingHeadHelmetHardsuitSergeant
-  name: sergeant hardsuit helmet
-  description: Armored hardsuit helmet of smooth design.
+  name: "шлем скафандра сержанта"
+  description: "Бронированный шлем скафандра с гладким дизайном."
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/Head/Hardsuits/sergeant.rsi

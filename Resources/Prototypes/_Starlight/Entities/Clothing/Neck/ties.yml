@@ -77,8 +77,8 @@
 - type: entity
   parent: ClothingNeckBaseHamster
   id: ClothingNeckTieRetro
-  name: retro tie
-  description: Why do we all have to wear these ridiculous ties?
+  name: "ретро-галстук"
+  description: "Почему мы все обязаны носить эти нелепые галстуки?"
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Neck/Ties/retrotie.rsi

@@ -46,7 +46,7 @@
 - type: entity
   id: LockerGunnerySergeant
   parent: LockerBaseSecure
-  name: gunnery sergeant's locker
+  name: "шкафчик сержанта-инструктора"
   components:
   - type: Appearance
   - type: Sprite

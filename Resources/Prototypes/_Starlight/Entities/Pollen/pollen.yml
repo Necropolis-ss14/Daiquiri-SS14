@@ -23,8 +23,8 @@
 
 - type: entity
   id: PollenSporeCloudEmitter
-  name: spore cloud
-  description: An invisible pollen spore emitter.
+  name: "облако спор"
+  description: "Невидимый излучатель пыльцевых спор."
   components:
   - type: SmokeOnTrigger
     duration: 30
@@ -41,8 +41,8 @@
 
 - type: entity
   id: PollenAdvancedPollenCloud
-  name: floral wisp
-  description: A cluster of potent pollen drifting on the air.
+  name: "цветочный огонёк"
+  description: "Сгусток сильнодействующей пыльцы, парящий в воздухе."
   components:
   - type: Sprite
     sprite: _Starlight/Pollen/advanced_pollen.rsi

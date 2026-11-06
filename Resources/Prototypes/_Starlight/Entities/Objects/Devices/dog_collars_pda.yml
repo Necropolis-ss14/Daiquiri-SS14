@@ -558,7 +558,7 @@
 - type: entity
   parent: [ DogCollarMixin, XenoborgiClearPDA ]
   id: XenoborgiClearCollarPDA
-  name: xenoborgi clear collar
+  name: "прозрачный ошейник ксеноборга"
   components:
   - type: Appearance
     appearanceDataInit:
@@ -592,7 +592,7 @@
 - type: entity
   parent: [DogCollarMixin, CluwnePDA]
   id: CluwneCollarPDA
-  name: cluwne collar
+  name: "ошейник клуня"
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Devices/dog_collars.rsi
@@ -623,7 +623,7 @@
 - type: entity
   parent: [DogCollarMixin, ChameleonPDA]
   id: ChameleonCollarPDA
-  name: assistant collar
+  name: "ошейник ассистента"
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Devices/dog_collars.rsi
@@ -654,7 +654,7 @@
 - type: entity
   parent: [DogCollarMixin, ChameleonAgentPDA]
   id: ChameleonAgentCollarPDA
-  name: chameleon agent collar
+  name: "ошейник агента-хамелеона"
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Devices/dog_collars.rsi
@@ -685,7 +685,7 @@
 - type: entity
   parent: [DogCollarMixin, SecurityPDA]
   id: K9CollarPDA
-  name: K9 collar
+  name: "ошейник K9"
   components:
   - type: Pda
     id: K9IDCard
@@ -717,7 +717,7 @@
 - type: entity
   parent: [DogCollarMixin, SeniorOfficerPDA]
   id: K9CollarSeniorPDA
-  name: senior K9 collar
+  name: "ошейник старшего K9"
   components:
   - type: Pda
     id: SeniorK9IDCard
@@ -751,7 +751,7 @@
 - type: entity
   parent: [DogCollarMixin, MedTakPDASecurity]
   id: MedTakPDASecurityCollarPDA
-  name: MedTak security collar
+  name: "ошейник безопасности MedTak"
   components:
   - type: Pda
     id: MedTakIDCardSecurity

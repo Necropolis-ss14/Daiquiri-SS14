@@ -306,7 +306,7 @@
 - type: entity
   parent: [ IDCardStandard, BaseSecurityContraband ]
   id: GunnerySergeantIDCard
-  name: gunnery sergeant ID card
+  name: "ID-карта сержанта-инструктора"
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Misc/id_cards.rsi
@@ -327,7 +327,7 @@
 - type: entity
   parent: [ IDCardStandard, BaseSecurityContraband ]
   id: K9IDCard
-  name: K9 ID card
+  name: "ID-карта K9"
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Misc/id_cards.rsi
@@ -348,7 +348,7 @@
 - type: entity
   parent: K9IDCard
   id: SeniorK9IDCard
-  name: senior K9 ID card
+  name: "ID-карта старшего K9"
 
 - type: entity
   parent: IDCardStandard
@@ -367,7 +367,7 @@
       state: Botanist
   - type: PresetIdCard
     job: Botanist
-    name: Kiki
+    name: "Кики"
   - type: Tag # Ignore Chameleon tags
     tags:
     - DoorBumpOpener
@@ -400,7 +400,7 @@
   name: ID-карта Стир Стира
   components:
   - type: PresetIdCard
-    name: Stir Stir
+    name: "Стир-Стир"
 
 - type: entity
   parent: IDCardStandard
@@ -1133,7 +1133,7 @@
 - type: entity
   parent: IDCardStandard
   id: EmotionalSupportScurretIDCard
-  name: emotional support scurret ID card
+  name: "ID-карта скоррета эмоциональной поддержки"
   components:
     - type: Sprite
       sprite: _Starlight/Objects/Misc/id_cards.rsi

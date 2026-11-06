@@ -497,7 +497,7 @@
   name: verdict
   parent: [ BaseContrabandTier3, BaseWeaponRifle, BaseSecurityContraband ] # Blimpuf
   id: WeaponRifleVerdict
-  description: "A compact heavy rifle, its distinctive gunshot serves as a sign the law has already made its decision.\nChambered in .45 magnum."
+  description: "Компактная тяжёлая винтовка; её характерный выстрел — знак того, что закон уже вынес решение.\nПод патрон .45 Magnum."
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Weapons/Guns/Rifles/verdict.rsi

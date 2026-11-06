@@ -3,7 +3,7 @@
   name: поддельная общая печать
   parent: [BaseItem, BaseSyndicateContraband]
   id: RubberStampBaseFake
-  description: A rubber stamp for forging important documents. Hopefully they don't look too closely.
+  description: "Резиновая печать для подделки важных документов. Будем надеяться, присматриваться не станут."
   abstract: true
   components:
   - type: Stamp
@@ -579,13 +579,10 @@
       state: stamp-brigmedic
 
 - type: entity
-<<<<<<< HEAD
-  name: поддельная печать старшего утилизатора
-=======
-  name: fake gunnery sergeant's rubber stamp
   parent: RubberStampBaseFake
   id: RubberStampGunnerySergeantFake
-  description: A rubber stamp for forging important documents. Hopefully they don't look too closely.
+  name: поддельная печать сержанта-инструктора
+  description: Резиновая печать для подделки важных документов. Будем надеяться, присматриваться не станут.
   suffix: DO NOT MAP
   components:
     - type: Stamp
@@ -597,8 +594,7 @@
       state: stamp-gunnerysergeant
 
 - type: entity
-  name: fake salvage lead's rubber stamp
->>>>>>> upstream/starlight-dev
+  name: поддельная печать старшего утилизатора
   parent: RubberStampBaseFake
   id: RubberStampSalvageLeadFake
   description: Резиновая печать для подделки важных документов. Будем надеяться, присматриваться не станут.

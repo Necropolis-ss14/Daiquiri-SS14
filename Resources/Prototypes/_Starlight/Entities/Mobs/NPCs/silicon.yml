@@ -2,8 +2,8 @@
 - type: entity
   parent: [ BaseSimpleMob, MobCombat, MobRobotic ]
   id: MobPurrfusHostile
-  name: Corrupted Purrfus
-  description: A corrupted chassis, irrecoverable.
+  name: "повреждённый Пуррфус"
+  description: "Повреждённый корпус, восстановлению не подлежит."
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -103,7 +103,7 @@
 - type: entity
   parent: MobPurrfusHostile
   id: MobDerelictSiliconHostile
-  name: Corrupted Cyborg
+  name: "повреждённый киборг"
   components:
   - type: Sprite
     sprite: Mobs/Silicon/Chassis/derelict.rsi
@@ -124,7 +124,7 @@
 - type: entity
   parent: MobPurrfusHostile
   id: MobDerelictEngineerHostile
-  name: Corrupted Engineer
+  name: "повреждённый инженер"
   components:
   - type: Sprite
     sprite: Mobs/Silicon/Chassis/engineer.rsi #Starlight
@@ -159,7 +159,7 @@
 - type: entity
   parent: MobPurrfusHostile
   id: MobDerelictJanitorHostile
-  name: Corrupted Janitor
+  name: "повреждённый уборщик"
   components:
   - type: Sprite
     sprite: Mobs/Silicon/Chassis/janitor.rsi #Starlight

@@ -127,7 +127,7 @@
 
 - type: !PartialOnly entity
   id: BorgModuleSyndicateWeapon
-  description: A simple weapon module that comes with an Echis and energy dagger.
+  description: "Простой оружейный модуль с «Эхисом» и энергетическим кинжалом."
 
 - type: !PartialOnly entity
   id: BorgModuleL6C
@@ -188,8 +188,8 @@
 
 - type: !PartialOnly entity
   id: XenoborgModuleHypo
-  name: hypo xenoborg module
-  description: Module with self-refilling hypos.
+  name: "гипо-модуль ксеноборга"
+  description: "Модуль с самозаправляющимися гипоспреями."
   components:
   - type: ItemBorgModule
     hands:

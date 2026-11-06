@@ -167,7 +167,7 @@
   parent: MobGiantSpider
   id: MobGiantSpiderPassive
   suffix: Passive, Ghost Role
-  description: It seems a little more docile than the others. Maybe still keep your fingers clear.
+  description: "Кажется, он немного спокойнее остальных. Но пальцы всё же лучше держать подальше."
   components:
     - type: OptionsVisualizer
       visuals:
@@ -397,7 +397,7 @@
   name: bombroach
   id: MobBombroach
   parent: MobMothroach
-  description: Is it wearing a bomb?
+  description: "Неужели на нём бомба?"
   components:
   - type: LanguageKnowledge
     speaks:

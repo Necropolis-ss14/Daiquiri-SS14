@@ -314,7 +314,7 @@
   parent: [BaseThiefObjective, BaseLivingObjective]
   id: EscapeMasterThiefObjective
   name: стань величайшим вором и укради всё, что считаешь ценным.
-  description: Just make sure to get out alive and free.
+  description: "Только обязательно выберитесь живым и свободным."
   components:
   - type: Objective
     difficulty: 0
@@ -338,7 +338,7 @@
 - type: entity
   parent: [BaseThiefObjective, BaseDepartmentStoryObjective]
   id: RobDepartmentObjective
-  description: This department has some nice goodies, its time to make them your own.
+  description: "В этом отделе есть кое-что интересное — пора присвоить это себе."
   components:
   - type: DepartmentObjective
     title: objective-condition-rob-department

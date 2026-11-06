@@ -401,8 +401,8 @@
 - type: entity
   parent: ClothingEyesGlassesChemical
   id: ClothingEyesGlassesJamjarChemist
-  name: chemical jamjar glasses
-  description: For the chemist who needs particularly large glasses. Rumoured to exist because of someone extremely skilled at chemistry.
+  name: "химические очки-банки"
+  description: "Для химика, которому нужны особенно большие очки. Говорят, они появились благодаря кому-то чрезвычайно умелому в химии."
   components:
     - type: Sprite
       sprite: _Starlight/Clothing/Eyes/Glasses/jamjarchemist.rsi

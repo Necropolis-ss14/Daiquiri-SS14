@@ -173,7 +173,7 @@
   parent: MicroBombImplant
   id: TerminatorMicroBombImplant
   name: terminator micro bomb implant
-  description: This implant detonates the user upon activation or upon death.
+  description: "Этот имплант взрывает носителя при активации или смерти."
   categories: [ HideSpawnMenu ]
   components:
   - type: Explosive
@@ -186,8 +186,8 @@
 - type: entity
   parent: BaseSubdermalImplant
   id: PicoBombImplant
-  name: pico-bomb implant
-  description: This implant detonates the user upon activation or upon death.
+  name: "имплант пикобомбы"
+  description: "Этот имплант взрывает носителя при активации или смерти."
   categories: [ HideSpawnMenu ]
   components:
   - type: SubdermalImplant
@@ -353,8 +353,8 @@
 - type: entity
   parent: BaseSubdermalImplant
   id: PollenDistressImplant
-  name: floral distress pollen
-  description: An organic communication implant that transmits distress signals through the Diona spore hivemind.
+  name: "цветочная пыльца бедствия"
+  description: "Органический коммуникационный имплант, передающий сигналы бедствия через споро-улей дион."
   categories: [HideSpawnMenu]
   components:
     - type: SubdermalImplant

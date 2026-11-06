@@ -1,7 +1,7 @@
 - type: entity
   id: ActionBloodBoundConvert
-  name: Convert
-  description: Convert a crewmember to your blood oath.
+  name: "Превратить"
+  description: "Обратите члена экипажа в вашу кровавую клятву."
   components:
   - type: Action
     icon:
@@ -20,8 +20,8 @@
 
 - type: entity
   id: ActionBloodBoundCheckConvert
-  name: Check If Convertible
-  description: Check if a crewmember is susceptible to conversion.
+  name: "Проверить возможность обращения"
+  description: "Проверить, поддаётся ли член экипажа обращению."
   components:
   - type: Action
     icon: Interface/VerbIcons/vv.svg.192dpi.png # eye icon

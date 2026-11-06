@@ -2,7 +2,7 @@
   parent: MobCorgiBase
   id: MobK9
   name: К9 безопасности
-  description: A dog trained for station security work.
+  description: "Собака, обученная для работы в службе безопасности станции."
   components:
   - type: AntagTarget
   - type: RemoveFlavorText

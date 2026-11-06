@@ -248,7 +248,7 @@
 - type: entity
   id: SpawnPointGunnerySergeant
   parent: SpawnPointJobBase
-  name: gunnery sergeant
+  name: "сержант-инструктор"
   components:
   - type: SpawnPoint
     job_id: GunnerySergeant

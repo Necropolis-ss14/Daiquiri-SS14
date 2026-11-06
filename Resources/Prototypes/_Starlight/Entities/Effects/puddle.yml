@@ -4,7 +4,7 @@
   name: footprint
   id: Footprint
   save: false
-  description: Huh? Whose footprints are these?
+  description: "А? Чьи это следы?"
   placement:
     mode: SnapgridCenter
   components:

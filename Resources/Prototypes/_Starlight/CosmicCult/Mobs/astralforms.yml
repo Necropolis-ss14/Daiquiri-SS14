@@ -69,8 +69,8 @@
   parent: [ BaseSimpleMob ]
   id: MobCosmicAstralAscendedBase
   abstract: true
-  name: astral ascended
-  description: Transcendant, ascendant.
+  name: "астральный возвышенный"
+  description: "Трансцендентный, возвышенный."
   components:
   - type: MovementSpeedModifier
     baseWalkSpeed: 6

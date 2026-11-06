@@ -1,8 +1,8 @@
 - type: entity
   id: BroadcastRecorder
-  name: radio recorder
+  name: "радиомагнитофон"
   parent: [ BaseMachinePowered, SmallConstructibleMachine ]
-  description: A cassette deck that records everything on air, music and voices alike, and plays it back exactly as it went.
+  description: "Кассетная дека, записывающая всё в эфире — музыку и голоса — и воспроизводящая это в точности как было."
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Machines/StationRadio/broadcast_recorder.rsi
@@ -105,15 +105,15 @@
 
 - type: entity
   id: BroadcastRecorderChannel
-  name: radio recorder channel
-  description: One channel of a broadcast tape being played back.
+  name: "канал радиомагнитофона"
+  description: "Один канал воспроизводимой эфирной кассеты."
   categories: [ HideSpawnMenu ]
 
 - type: entity
   parent: BaseItem
   id: BroadcastTape
-  name: broadcast tape
-  description: A long-play cassette for a radio recorder. Holds half an hour of radio, music and voices included.
+  name: "эфирная кассета"
+  description: "Кассета долгого воспроизведения для радиомагнитофона. Вмещает полчаса радио, включая музыку и голоса."
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Devices/cassette_tapes.rsi

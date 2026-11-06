@@ -230,8 +230,8 @@
 - type: entity
   parent: BaseItem
   id: CDCase
-  name: CD case
-  description: A clear plastic jewel case for a compact disc. The cover insert matches the disc inside.
+  name: "футляр для CD"
+  description: "Прозрачный пластиковый футляр для компакт-диска. Обложка соответствует диску внутри."
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Fun/RadioHost/covers.rsi

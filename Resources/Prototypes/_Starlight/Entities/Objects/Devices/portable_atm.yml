@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: PortableATM
-  name: Portable ATM
-  description: Hostage negotiations have never been easier!
+  name: "Портативный банкомат"
+  description: "Переговоры о заложниках ещё никогда не были такими простыми!"
   components:
     - type: Sprite
       sprite: _Starlight/Objects/Economy/portable_atm.rsi

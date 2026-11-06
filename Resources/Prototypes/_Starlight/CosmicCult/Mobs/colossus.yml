@@ -296,7 +296,7 @@
   categories: [ HideSpawnMenu ]
   id: MobCosmicColossusLone
   suffix: MidRoundAntag
-  description: An ancient monstrosity of malign plating and dendritic infestation.
+  description: "Древнее чудовище из злокачественных пластин и дендритного заражения."
   components:
   - type: RandomMetadata
     nameSegments:

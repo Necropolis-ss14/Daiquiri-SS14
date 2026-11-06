@@ -1499,8 +1499,8 @@
 - type: entity
   parent: ClothingOuterHardsuitSecurity
   id: ClothingOuterHardsuitSergeant
-  name: gunnery sergeant hardsuit
-  description: A special suit to lead your squad into hazardous environments. High tech and efficient, a perfect embodiment of corporate security.
+  name: "скафандр сержанта-инструктора"
+  description: "Особый костюм для ведения отряда в опасные условия. Высокотехнологичный и эффективный — идеальное воплощение корпоративной безопасности."
   components:
   - type: Sprite
     sprite: _Starlight/Clothing/OuterClothing/Hardsuits/sergeant.rsi

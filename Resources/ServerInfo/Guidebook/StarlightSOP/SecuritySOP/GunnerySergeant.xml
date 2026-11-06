@@ -1,10 +1,10 @@
 <Document>
-# Gunnery Sergeant
+# Сержант-инструктор
 
-<GuideEntityEmbed Entity="ToyFigurineSecurity" Caption="Gunnery Sergeant"/>
+<GuideEntityEmbed Entity="ToyFigurineSecurity" Caption="Сержант-инструктор"/>
 
 ### §1.
-Standard [color=#00a933]Code Green[/color] equipment is:
+Стандартное снаряжение при [color=#00a933]Зелёном коде[/color]:
 
 <Box>
 	<GuideEntityEmbed Entity="WeaponDisabler"/>
@@ -18,7 +18,7 @@ Standard [color=#00a933]Code Green[/color] equipment is:
 </Box>
 <Box>
 	<GuideEntityEmbed Entity="CombatKnife"/>
-	in
+	в
 	<GuideEntityEmbed Entity="ClothingShoesBootsJack"/>
 </Box>
 <Box>
@@ -27,39 +27,39 @@ Standard [color=#00a933]Code Green[/color] equipment is:
 </Box>
 <Box>
 	<GuideEntityEmbed Entity="Handcuffs"/>
-	or
+	или
 	<GuideEntityEmbed Entity="Zipties"/>
 </Box>
 
-### §2 Leader of Security's Policing Wing
+### §2 Руководитель полицейского крыла Службы безопасности
 - 1.\n
-The Gunnery Sergeant is responsible for organizing and coordinating the regular policing duties of Security, including but not limited to:\n\n
+Сержант-инструктор отвечает за организацию и координацию обычных полицейских обязанностей Службы безопасности, включая, но не ограничиваясь:\n\n
 1.1\n
-[bold]Patrolling[/bold] - Ensuring adequate Security presence across the station.\n\n
+[bold]Патрулирование[/bold] — обеспечение достаточного присутствия Службы безопасности по всей станции.\n\n
 1.2\n
-[bold]Investigation[/bold] - Ensuring that reported crimes are followed up on in a timely manner.\n\n
+[bold]Расследование[/bold] — обеспечение своевременной проверки сообщений о преступлениях.\n\n
 1.3\n
-[bold]Enforcement[/bold] - Ensuring that criminals are dealt with swiftly and in accordance with SOP and Corporate Law.\n
+[bold]Правоприменение[/bold] — обеспечение быстрого и соответствующего СОП и Корпоративному закону рассмотрения преступников.\n
 - 2.\n
-The Gunnery Sergeant is responsible for organizing, equipping and leading squads to combat hostiles on the station.\n
+Сержант-инструктор отвечает за организацию, оснащение и руководство отрядами для борьбы с враждебными силами на станции.\n
 - 3.\n
-The Gunnery Sergeant is responsible for the education and allocation of cadets.\n
+Сержант-инструктор отвечает за обучение и распределение курсантов.\n
 - 4.\n
-The Gunnery Sergeant is responsible for taking over Security in the absence of its Head.\n
+Сержант-инструктор отвечает за руководство Службой безопасности в отсутствие её главы.\n
 - 5.\n
-The Gunnery Sergeant is cleared for sentencing on par with a Security Officer.
+Сержант-инструктор имеет право выносить приговоры наравне с офицером Службы безопасности.
 
-### §3 Security Quartermaster
+### §3 Квартирмейстер Службы безопасности
 - 1.\n
-The Gunnery Sergeant is responsible for ensuring that security officers are equipped in a manner befitting the threat level.\n\n
+Сержант-инструктор отвечает за то, чтобы офицеры Службы безопасности были оснащены сообразно уровню угрозы.\n\n
 1.1\n
-To this end, the Gunnery Sergeant is cleared to file and approve permits for the issuing of armory equipment on [color=#2a6099]Code Blue[/color].\n\n
+С этой целью сержант-инструктор имеет право оформлять и одобрять разрешения на выдачу снаряжения оружейной при [color=#2a6099]Синем коде[/color].\n\n
 1.2\n
-The Gunnery Sergeant may hand out armory equipment freely on [color=#ff0000]Code Red[/color].\n
+Сержант-инструктор может свободно выдавать снаряжение оружейной при [color=#ff0000]Красном коде[/color].\n
 - 2.\n
-The Gunnery Sergeant is responsible for ensuring that the armory is accessible when mandated by alert SOP.\n
+Сержант-инструктор отвечает за доступность оружейной, когда это предписано СОП по уровням тревоги.\n
 - 3.\n
-The Gunnery Sergeant is responsible for ensuring that equipment loaned during raised alerts is eventually returned to the armory.\n
+Сержант-инструктор отвечает за то, чтобы снаряжение, выданное на время повышенных уровней тревоги, в итоге возвращалось в оружейную.\n
 - 4.\n
-The Gunnery Sergeant is responsible for the proper storage of contraband seized by Security Officers, via use of their armory access.
+Сержант-инструктор отвечает за надлежащее хранение контрабанды, изъятой офицерами Службы безопасности, используя свой доступ к оружейной.
 </Document>

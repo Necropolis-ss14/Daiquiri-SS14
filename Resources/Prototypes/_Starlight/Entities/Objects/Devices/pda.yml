@@ -2,7 +2,7 @@
   parent: BasePDA
   id: RoboticistPDA
   name: КПК роботиста
-  description: Covered in dirt and oil. The screen is covered in something sticky.
+  description: "Покрыт грязью и маслом. Экран заляпан чем-то липким."
   components:
   - type: Pda
     id: RoboticistIDCard
@@ -176,7 +176,7 @@
 - type: entity
   parent: BaseSecurityPDA
   id: GunnerySergeantPDA
-  name: gunnery sergeant PDA
+  name: "КПК сержанта-инструктора"
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Devices/pda.rsi
@@ -1103,8 +1103,8 @@
 - type: entity
   parent: BasePDA
   id: SeniorAtmosPDA
-  name: senior atmos PDA
-  description: Smells like the glory of pressurised annihilation, and the stench of steel reduced to slag.
+  name: "КПК старшего атмосферного техника"
+  description: "Пахнет славой сжатого уничтожения и вонью стали, обращённой в шлак."
   components:
   - type: Sprite
     sprite: _Starlight/Objects/Devices/pda.rsi

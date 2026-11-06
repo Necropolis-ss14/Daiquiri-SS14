@@ -200,3 +200,17 @@ ui-options-menu-bar-key-hints-hold = При удержании Alt
 ui-options-menu-bar-key-hints-never = Никогда
 ui-options-menu-bar-label = Верхняя панель меню
 ui-options-viewport-label = Область просмотра
+
+ui-options-function-hotbar-remove = Убрать с панели быстрого доступа
+ui-options-classic-styling = Классический стиль
+ui-options-style-secondary-accent = Дополнительный акцентный цвет
+ui-options-admin-tools = Настройки инструментов администрации
+ui-options-admin-space-map-label = Путь к арене администратора
+ui-options-admin-space-map-tooltip =
+    Путь к .yml-файлу карты, которую вы хотите загрузить как арену администратора.
+    Если оставить пустым, будет использована карта по умолчанию.
+    Сначала проверяются пользовательские данные сервера, затем данные контента.
+ui-options-admin-space-map-init-label = Инициализировать арену администратора
+ui-options-admin-space-map-init-tooltip =
+ui-options-admin-sounds-volume = Звуки администрации:
+ui-options-show-tippy = Показывать Типпи

@@ -7,8 +7,8 @@
 - type: !PartialOnly entity
   parent: ClearPDA
   id: ScurretPDA
-  name: scurret PDA
-  description: A temporary PDA granted to scurret temps. Doesn't do much. Wawa!
+  name: "КПК скоррета"
+  description: "Временный КПК, выдаваемый скорретам-временщикам. Много не умеет. Вава!"
   components:
     - !Remove
       type: Pda
