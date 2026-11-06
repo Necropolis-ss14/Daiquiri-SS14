@@ -48,6 +48,7 @@
       price: 150
 
 - type: entity
+<<<<<<< HEAD
   id: WeaponPistolMk58Nonlethal
   parent: WeaponPistolMk58 # Blimpuf
   suffix: Non-lethal
@@ -73,6 +74,9 @@
 
 - type: entity
   name: Н1984
+=======
+  name: N1984
+>>>>>>> upstream/starlight-dev
   parent: [ BaseContrabandTier3, WeaponPistolN1984, BaseSecurityContraband ] # Blimpuf
   id: WeaponPistolN1984Nonlethal
   suffix: Non-lethal
@@ -257,6 +261,7 @@
       stealGroup: BSOWeapon
 
 - type: entity
+<<<<<<< HEAD
   name: сп-8ар
   parent: [ BaseContrabandTier3, WeaponPistolDP, BaseSecurityContraband ] # Blimpuf
   id: WeaponPistolSP8AR
@@ -277,6 +282,9 @@
 
 - type: entity
   name: АПС Стечкина
+=======
+  name: stechkin APS
+>>>>>>> upstream/starlight-dev
   parent: [WeaponPistolMk58, BaseSovietContraband]
   id: WeaponPistolStechkinAPS
   description: Качественный пистолет для элиты СНКВД и высших чинов. Наполовину пистолет, наполовину последний аргумент. Под патроны .40.

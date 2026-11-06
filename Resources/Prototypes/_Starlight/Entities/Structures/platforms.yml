@@ -2,7 +2,7 @@
   abstract: true
   id: CMPlatformBase
   name: platform
-  description: A raised surface. Wait, thats illegal!
+  description: A raised surface. Wait, that's illegal!
   components:
   - type: Transform
     anchored: true

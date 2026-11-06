@@ -49,6 +49,7 @@
         - id: EmergencyMedipen
         - id: Flare
         - id: FoodSnackBloodBrick
+        - id: DrinkWaterBottleFull
   - type: Sprite
     layers:
     - state: internals
@@ -467,6 +468,7 @@
         - id: EmergencyMedipen
         - id: Flare
         - id: FoodSnackBloodBrick
+        - id: DrinkWaterBottleFull
   - type: Sprite
     layers:
     - state: internals

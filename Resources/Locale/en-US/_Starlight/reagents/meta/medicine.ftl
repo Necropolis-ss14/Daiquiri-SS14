@@ -35,3 +35,9 @@ reagent-desc-polypyrylium-oligomers-sl = A purple mixture of short polyelectroly
 
 reagent-name-antizavin = antizavin
 reagent-desc-antizavin = A cloudy violet liquid that suppresses chemical dependency. A single dose completely removes any addiction.
+
+reagent-name-phytovitalin = phytovitalin
+reagent-desc-phytovitalin = A complex compound, unique in origin to a select few Dionas, and an extraordinarily versatile botanical compound. It seems to be moving.
+
+reagent-name-mycophylin = mycophylin
+reagent-desc-mycophylin = A strange fungal compound produced by Diona biology. What the body makes of it seems to depend entirely on what the body is made of.
