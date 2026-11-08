@@ -241,3 +241,5 @@ guide-entry-sl-security-sop-gunnerysergeant = Сержант-инструкто�
 guide-entry-religious-freedom = Свобода вероисповедания
 guide-entry-silicon-clause = Оговорка о синтетиках
 guide-entry-carnival-treaty = Карнавальный договор
+
+guide-entry-sl-security-sop-induced-mutiny = Подстрекательство к мятежу

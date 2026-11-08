@@ -45,3 +45,13 @@ signal-port-description-turret-controller-sync-sender = Передаёт нас�
 
 signal-port-name-combustion-turbine-console-sender = Консоль турбины сгорания
 signal-port-description-combustion-turbine-console-sender = Управляет турбиной сгорания. Подключите её к компрессору или турбине.
+
+signal-port-name-airlock-cycler-inlets = Входы
+signal-port-name-airlock-cycler-outlets = Выходы
+signal-port-name-airlock-cycler-side-a = Сторона А
+signal-port-name-airlock-cycler-side-b = Сторона Б
+signal-port-name-airlock-cycler-side-c = Сторона В
+signal-port-name-airlock-cycler-side-d = Сторона Г
+signal-port-description-airlock-cycler-inlets = Воздушные вентиляторы, заполняющие камеру.
+signal-port-description-airlock-cycler-outlets = Вентиляторы, скрубберы или насосы, опустошающие камеру. Небольшая камера может использовать один вентилятор на обоих портах.
+signal-port-description-airlock-cycler-side = Подключите здесь двери и кнопки цикла одной из сторон камеры.

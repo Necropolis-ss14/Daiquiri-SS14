@@ -522,3 +522,5 @@ guidebook-search-keywords-metashield = метащиты; метащит; защ�
 
 guidebook-sidebar-collapse = Свернуть боковую панель
 guidebook-sidebar-expand = Развернуть боковую панель
+
+guidebook-search-keywords-security-sop-induced-mutiny = подстрекательство к мятежу; мятеж; подтверждённая революция; революция

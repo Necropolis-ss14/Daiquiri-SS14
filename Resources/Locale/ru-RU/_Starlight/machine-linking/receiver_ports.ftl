@@ -27,3 +27,12 @@ signal-port-description-turret-controller-sync-receiver = Обмениваетс
 
 signal-port-name-combustion-turbine-console-receiver = Турбина сгорания
 signal-port-description-combustion-turbine-console-receiver = Получает команды от консоли управления турбиной сгорания.
+
+signal-port-name-airlock-cycler-button = Контроллер шлюза
+signal-port-name-airlock-cycler-device = Контроллер шлюза
+signal-port-name-airlock-cycler-door = Контроллер шлюза
+signal-port-name-state = Состояние
+signal-port-description-airlock-cycler-button = Просит контроллер шлюза запустить цикл в сторону этой кнопки.
+signal-port-description-airlock-cycler-device = Позволяет контроллеру шлюза заполнять или опустошать камеру через этот вентилятор, скруббер или насос.
+signal-port-description-airlock-cycler-door = Позволяет контроллеру шлюза запирать, закрывать и открывать эту дверь.
+signal-port-description-state = Состояние, которому должно соответствовать устройство.
