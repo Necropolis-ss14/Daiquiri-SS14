@@ -17,10 +17,6 @@ using Robust.Shared.Timing;
 namespace Content.Client._Daiquiri.Options.UI;
 
 /// <summary>
-/// The newcomer introduction. A full-screen overlay with an animated space backdrop and a
-/// card centred on the screen, which fades in as it rises into place. It walks a first-time
-/// player through the greeting, the server rules and the interface theme, in that order,
-/// with the option of stepping back to the previous page.
 /// </summary>
 [GenerateTypedNameReferences]
 public sealed partial class GlassThemePrompt : Control
@@ -29,20 +25,13 @@ public sealed partial class GlassThemePrompt : Control
     [Dependency] private IStateManager _stateManager = default!;
     [Dependency] private IPrototypeManager _prototype = default!;
 
-    // Card geometry in virtual pixels. Both are clamped to the screen.
     private const float CardWidth = 1080f;
     private const float CardHeight = 560f;
     private const float ScreenMargin = 32f;
     private const float SlideDuration = 0.45f;
 
-    /// <summary>
-    /// How far off its resting place the card starts when a page flies in, in virtual pixels.
-    /// </summary>
     private const float SlideInDistance = 340f;
 
-    /// <summary>
-    /// Sentinel for "the server has not told us the read time yet".
-    /// </summary>
     private const float RulesWaitUnknown = -1f;
 
     private InfoUIController? _info;
@@ -53,10 +42,6 @@ public sealed partial class GlassThemePrompt : Control
     private bool _rulesShown;
     private bool _rulesAccepted;
 
-    /// <summary>
-    /// The side the current page flies in from. Every page has its own, so stepping through
-    /// the walkthrough never repeats the same direction.
-    /// </summary>
     private enum EnterSide : byte
     {
         Bottom,
@@ -66,10 +51,6 @@ public sealed partial class GlassThemePrompt : Control
 
     private EnterSide _enterSide = EnterSide.Bottom;
 
-    /// <summary>
-    /// Adds the newcomer overlay to the window root, covering the whole screen. It removes
-    /// itself once the player is done or once they leave the round.
-    /// </summary>
     public static GlassThemePrompt Open(IUserInterfaceManager ui)
     {
         var prompt = new GlassThemePrompt();
@@ -83,7 +64,6 @@ public sealed partial class GlassThemePrompt : Control
         RobustXamlLoader.Load(this);
         IoCManager.InjectDependencies(this);
 
-        // The overlay belongs to the session that opened it.
         _stateManager.OnStateChanged += OnStateChanged;
 
         SetBodyText(WelcomeLine1, Loc.GetString("ui-newcomer-welcome-1"));
@@ -116,8 +96,6 @@ public sealed partial class GlassThemePrompt : Control
             _cfg.SetCVar(StarlightCCVars.StyleAccent, AccentPicker.Selected.ToHex());
         };
 
-        // The secondary accent is the colour the interface uses next to the main one, so
-        // both can be picked before ever opening the options window.
         SecondaryAccentPicker.SetTitle("ui-options-style-secondary-accent");
         SecondaryAccentPicker.SetUseCustom(_cfg.GetCVar(StarlightCCVars.StyleCustomSecondaryAccent));
         if (Color.TryFromHex(_cfg.GetCVar(StarlightCCVars.StyleSecondaryAccent), out var secondaryAccent))
@@ -129,8 +107,6 @@ public sealed partial class GlassThemePrompt : Control
             _cfg.SetCVar(StarlightCCVars.StyleSecondaryAccent, SecondaryAccentPicker.Selected.ToHex());
         };
 
-        // The rules are shown inside this window, so the standalone rules popup has to
-        // stay out of the way (see InfoUIController.ClaimRulesForNewcomer).
         _info = UserInterfaceManager.GetUIController<InfoUIController>();
         _info.ClaimRulesForNewcomer();
     }
@@ -144,11 +120,6 @@ public sealed partial class GlassThemePrompt : Control
         StartEntrance(EnterSide.Bottom);
     }
 
-    /// <summary>
-    /// The rules page is always part of the walkthrough. Players who do not have to
-    /// accept the rules (localhost, or anyone who read them recently) still get to see
-    /// them - only the accept gate is skipped for them.
-    /// </summary>
     private void ShowRulesPage()
     {
         WelcomePage.Visible = false;
@@ -160,19 +131,12 @@ public sealed partial class GlassThemePrompt : Control
         RefreshRulesIntro();
     }
 
-    /// <summary>
-    /// The intro line depends on whether the player has to accept the rules, and the
-    /// server's answer can land after the page is already open, so it is refreshed from
-    /// the frame loop as well.
-    /// </summary>
     private void RefreshRulesIntro()
     {
         var text = Loc.GetString(RulesOptional
             ? "ui-newcomer-rules-line-optional"
             : "ui-newcomer-rules-line");
 
-        // A rich text label does not hand back the string it was given, so the text that is
-        // currently shown is remembered instead of being read back from the control.
         if (_rulesIntroText == text)
             return;
 
@@ -180,20 +144,12 @@ public sealed partial class GlassThemePrompt : Control
         SetBodyText(RulesIntro, text);
     }
 
-    /// <summary>
-    /// Restarts the entrance animation, with the card flying in from the given side.
-    /// </summary>
     private void StartEntrance(EnterSide side)
     {
         _enterSide = side;
         _slide = 0f;
     }
 
-    /// <summary>
-    /// Plain labels do not wrap, which used to push long lines out of the card, so the body
-    /// copy uses a rich text label. That control does not follow the label style colour, so
-    /// the colour the plain labels use is handed to it explicitly.
-    /// </summary>
     private static void SetBodyText(RichTextLabel label, string text)
     {
         var color = label.TryGetStyleProperty<Color>(Label.StylePropertyFontColor, out var styleColor)
@@ -203,14 +159,8 @@ public sealed partial class GlassThemePrompt : Control
         label.SetMessage(text, color);
     }
 
-    /// <summary>
-    /// True once the server has told us the player does not have to accept the rules.
-    /// </summary>
     private bool RulesOptional => _info is { RulesInfoReceived: true, RulesRequired: false };
 
-    /// <summary>
-    /// The rules stay hidden behind a button: the player has to ask for them first.
-    /// </summary>
     private void RevealRules()
     {
         if (_rulesShown)
@@ -228,8 +178,6 @@ public sealed partial class GlassThemePrompt : Control
             return;
         }
 
-        // The server decides how long the rules have to stay on screen. If that message
-        // has not arrived yet, the button stays locked until it does.
         _rulesWait = _info is { RulesInfoReceived: true } ? _info.RulesWaitTime : RulesWaitUnknown;
         UpdateRulesWaitLabel();
     }
@@ -245,10 +193,6 @@ public sealed partial class GlassThemePrompt : Control
         ShowThemePage();
     }
 
-    /// <summary>
-    /// Enables the last button of the rules page, relabelling it when there is nothing
-    /// to accept.
-    /// </summary>
     private void UnlockRulesAccept()
     {
         _rulesWait = 0f;
@@ -270,9 +214,6 @@ public sealed partial class GlassThemePrompt : Control
     {
         _cfg.SetCVar(StarlightCCVars.UIGlassThemeSeen, true);
 
-        // Picking the frosted theme is only half of the choice: open its tuning window so
-        // the newcomer can shape it before the round starts instead of hunting for it in
-        // the options later.
         if (IsLiquidGlassTheme())
             UserInterfaceManager.CreateWindow<LiquidGlassSettingsWindow>().OpenCentered();
 
@@ -352,11 +293,6 @@ public sealed partial class GlassThemePrompt : Control
             : Loc.GetString("ui-newcomer-rules-wait", ("time", MathF.Ceiling(_rulesWait)));
     }
 
-    /// <summary>
-    /// Keeps the card centred on the screen and gives it an ease-out entrance: it flies in
-    /// from the current page's side while fading in. The card is centred by its alignment,
-    /// so the animation only has to supply the offset, which is what the margins carry.
-    /// </summary>
     private void ArrangeCard()
     {
         var width = MathF.Min(CardWidth, MathF.Max(480f, Size.X - ScreenMargin * 2f));
@@ -372,7 +308,6 @@ public sealed partial class GlassThemePrompt : Control
 
         _entrance = progress;
 
-        // A margin shifts a centred control by half of it, hence the doubling.
         var distance = (1f - progress) * SlideInDistance * 2f;
         var margin = _enterSide switch
         {

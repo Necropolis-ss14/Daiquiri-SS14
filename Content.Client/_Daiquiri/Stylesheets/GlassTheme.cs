@@ -12,16 +12,9 @@ using Robust.Shared.Maths;
 namespace Content.Client._Daiquiri.Stylesheets;
 
 /// <summary>
-/// Builds a "liquid glass" variant of a stylesheet by replacing opaque
-/// <see cref="StyleBoxFlat"/> panels with <see cref="LiquidGlassStyleBox"/>, which draws
-/// a frosted, rounded backdrop sampled from the world viewport.
 /// </summary>
 public static class GlassTheme
 {
-    /// <summary>
-    /// Settings for the shader-backed Liquid Glass theme. Values are cached when the
-    /// glass stylesheet is rebuilt, so drawing never touches the configuration manager.
-    /// </summary>
     public sealed record LiquidGlassParams(
         bool Enabled,
         float BlurPixels,
@@ -34,9 +27,6 @@ public static class GlassTheme
         int Quality,
         bool Animate);
 
-    /// <summary>
-    /// Reads the Liquid Glass CVars into a cached snapshot.
-    /// </summary>
     public static LiquidGlassParams ReadLiquidParams(IConfigurationManager cfg)
     {
         var enabled = cfg.GetCVar(StarlightCCVars.UILiquidGlassEnabled);
@@ -75,14 +65,9 @@ public static class GlassTheme
         LiquidGlassParams pars,
         ref int count)
     {
-        // With the backdrop effect disabled the theme stays fully opaque, so the
-        // stylesheet is used as is.
         if (!pars.Enabled)
             return rule;
 
-        // Buttons skip the small-box flat fallback: they are small by nature, but a
-        // frosted pill is exactly the look the Liquid Glass theme is going for.
-        // Segmented buttons are excluded because their boxes are meant to touch.
         var isButton = rule.Selector is SelectorElement element
             && element.ElementType is { } elementType
             && (typeof(BaseButton).IsAssignableFrom(elementType)
@@ -119,9 +104,6 @@ public static class GlassTheme
     }
 
     /// <summary>
-    /// <c>OpenLeft</c>/<c>OpenRight</c>/<c>OpenBoth</c> buttons are drawn edge to edge so
-    /// a row of them reads as one bar. Rounding each one into a pill would break that,
-    /// so they keep the regular small-box fallback.
     /// </summary>
     private static bool IsSegmentedButton(SelectorElement element)
     {
@@ -150,8 +132,6 @@ public static class GlassTheme
         if (property.Value is not StyleBoxFlat box)
             return property;
 
-        // Only panels that originally had an opaque fill become glass. Dividers,
-        // transparent boxes and already-translucent elements keep their look.
         if (box.BackgroundColor.A < 0.99f)
             return property;
 

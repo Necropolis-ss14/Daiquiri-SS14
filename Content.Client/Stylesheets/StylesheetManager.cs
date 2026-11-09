@@ -50,13 +50,10 @@ namespace Content.Client.Stylesheets
 
         private int _glassBuildId;
 
-        // True while the selected style theme asks for the shader-backed Liquid Glass look.
         private bool _liquidGlassThemeActive;
 
         private Stylesheet RebuildGlass(out int glassified)
         {
-            // Only the LiquidGlass style theme has a glass variant now; every other
-            // theme keeps the plain stylesheet.
             if (!_liquidGlassThemeActive)
             {
                 glassified = 0;
@@ -67,10 +64,6 @@ namespace Content.Client.Stylesheets
         }
 
         /// <summary>
-        /// The original Daiquiri "translucency (beta)" look (translucent panels, a
-        /// transparency slider and an accent tint) was replaced by the Liquid Glass
-        /// style theme. Clear the opt-ins so players who had them enabled before the
-        /// update do not keep settings that no longer exist.
         /// </summary>
         private void DisableLegacyGlassSettings()
         {
@@ -135,7 +128,6 @@ namespace Content.Client.Stylesheets
             SheetGlassNanotrasen = RebuildGlass(out var glassified);
             sawmill.Debug($"Glass theme variant: {glassified} panels glassified.");
 
-            // Liquid Glass settings also rebuild the glass sheet live (debounced).
             _cfg.OnValueChanged(StarlightCCVars.UILiquidGlassEnabled, _ => RequestGlassRebuild());
             _cfg.OnValueChanged(StarlightCCVars.UILiquidGlassBlur, _ => RequestGlassRebuild());
             _cfg.OnValueChanged(StarlightCCVars.UILiquidGlassRefraction, _ => RequestGlassRebuild());

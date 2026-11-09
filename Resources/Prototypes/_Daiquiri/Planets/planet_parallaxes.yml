@@ -1,5 +1,3 @@
-# Surface strips shown on the planet cards of the flight console. They are only decoration;
-# the planet itself is generated from its biome template when a disk is printed.
 
 - type: parallax
   id: DaiquiriTaipanSurface

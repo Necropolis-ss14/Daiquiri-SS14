@@ -36,8 +36,6 @@ planet-weather-lavaland-end = Шторм заканчивается
 planet-weather-novonihon-start = Над НовоНихоном собираются тучи
 planet-weather-novonihon-end = Тучи над НовоНихоном расходятся
 
-# Each of Novo Nihon's four skies with a voice of its own: the planet picks one at random, and it
-# is the weather itself that announces itself, not the planet.
 planet-weather-drizzle-start = Над НовоНихоном срывается мелкая морось
 planet-weather-drizzle-end = Морось прекратилась
 planet-weather-rain-start = Над НовоНихоном начинается дождь

@@ -39,8 +39,6 @@ public sealed partial class MiscTab : Control
         Control.AddOptionCheckBox(CCVars.StaticStorageUI, StaticStorageUI);
         // Starlight-start
         Control.AddOptionCheckBox(StarlightCCVars.AutoPunctuate, AutoPunctuate);
-        // Daiquiri-edit: the old translucency/accent options were removed with the
-        // LiquidGlass style theme that replaced them.
         Control.AddOptionCheckBox(StarlightCCVars.TippyClientEnabled, ShowTippyCheckBox);
         Control.AddOptionCheckBox(StarlightCCVars.WieldBeforeRack, WieldBeforeRack);
         Control.AddOptionCheckBox(StarlightCCVars.ForceTestersTab, ForceTestersTab);

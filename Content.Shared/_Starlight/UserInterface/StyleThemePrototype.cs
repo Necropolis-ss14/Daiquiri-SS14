@@ -15,9 +15,7 @@ public sealed partial class StyleThemePrototype : IPrototype
     [DataField(required: true)]
     public LocId Name;
 
-    /// <summary>
     /// Sort order in the options menu.
-    /// </summary>
     [DataField]
     public int Order;
 
@@ -138,8 +136,6 @@ public sealed partial class StyleThemePrototype : IPrototype
     public bool RawColors;
 
     /// <summary>
-    /// When true, flat panels are rendered with the shader-backed Liquid Glass backdrop
-    /// (blur, refraction, rounded corners and rim lighting) instead of plain translucent boxes.
     /// </summary>
     [DataField]
     public bool LiquidGlass;

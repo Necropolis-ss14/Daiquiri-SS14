@@ -84,8 +84,6 @@ public sealed partial class UITab : Control
         ThemePicker.OnPicked += SyncClassicDecorCheckbox;
         OpenLiquidGlassButton.OnPressed += _ =>
             UserInterfaceManager.CreateWindow<LiquidGlassSettingsWindow>().OpenCentered();
-        // The settings only affect the Liquid Glass theme, so the button stays hidden
-        // until that theme is actually selected.
         UpdateLiquidGlassButton();
         Control.AddOption(new OptionAccentCVar(Control, _cfg, AccentPicker));
         Control.AddOption(new OptionCustomAccentCVar(Control, _cfg, AccentPicker));
@@ -193,9 +191,6 @@ public sealed partial class UITab : Control
     protected override void EnteredTree()
     {
         base.EnteredTree();
-        // The theme may have changed while this tab was out of the tree (the options
-        // window is closed between uses), so re-read it instead of trusting the
-        // visibility the button had when we left.
         UpdateLiquidGlassButton();
         _cfg.OnValueChanged(StarlightCCVars.StyleTheme, OnStyleThemeChanged);
         _cfg.OnValueChanged(StarlightCCVars.RangedSight, OnSightCVarChanged);

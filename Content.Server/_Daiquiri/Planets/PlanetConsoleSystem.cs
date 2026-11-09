@@ -8,11 +8,14 @@ using Content.Server.Shuttles.Systems;
 using Content.Server.Station.Systems;
 using Content.Shared._Daiquiri.Planets;
 using Content.Shared.Atmos;
+using Content.Shared.Cargo.Components;
 using Content.Shared.Light.Components;
 using Content.Shared.Parallax.Biomes;
 using Content.Shared.Jittering;
 using Content.Shared.Popups;
 using Content.Shared.Shuttles.Components;
+using Content.Shared.Shuttles.Events;
+using Content.Shared.Station.Components;
 using Robust.Server.GameObjects;
 using Robust.Shared.Audio;
 using Robust.Shared.Audio.Systems;
@@ -23,10 +26,6 @@ using Robust.Shared.Timing;
 
 namespace Content.Server._Daiquiri.Planets;
 
-/// <summary>
-/// Charts a course to a planet and jumps the grid the console is bolted to there. Only works off a
-/// station: the console refuses to send the station itself anywhere.
-/// </summary>
 public sealed partial class PlanetConsoleSystem : EntitySystem
 {
     [Dependency] private IGameTiming _timing = default!;
@@ -43,9 +42,6 @@ public sealed partial class PlanetConsoleSystem : EntitySystem
     [Dependency] private SharedPopupSystem _popup = default!;
     [Dependency] private PlanetWeatherSystem _planetWeather = default!;
 
-    /// <summary>
-    /// Work log the console calls out while it charts a course, one line per step.
-    /// </summary>
     private static readonly LocId[] PrintSteps =
     {
         "planet-console-step-routing",
@@ -56,10 +52,6 @@ public sealed partial class PlanetConsoleSystem : EntitySystem
         "planet-console-step-recording",
     };
 
-    /// <summary>
-    /// How hard the console rattles while it works. The engine caps the visible offset, so this is
-    /// about as rough as a shake gets.
-    /// </summary>
     private const float PrintShakeAmplitude = 80f;
     private const float PrintShakeFrequency = 8f;
 
@@ -69,6 +61,51 @@ public sealed partial class PlanetConsoleSystem : EntitySystem
 
         SubscribeLocalEvent<PlanetConsoleComponent, BoundUIOpenedEvent>(OnUiOpened);
         SubscribeLocalEvent<PlanetConsoleComponent, PlanetConsolePrintMessage>(OnPrintMessage);
+
+        SubscribeLocalEvent<ShuttleConsoleComponent, ShuttleConsoleSurfaceReturnMessage>(OnSurfaceReturn);
+    }
+
+    private void OnSurfaceReturn(Entity<ShuttleConsoleComponent> ent, ref ShuttleConsoleSurfaceReturnMessage args)
+    {
+        if (!TryComp<PilotComponent>(args.Actor, out var pilot) || pilot.Console != ent.Owner)
+            return;
+
+        if (Transform(ent.Owner).GridUid is not { } shuttleUid
+            || Transform(ent.Owner).MapUid is not { } mapUid
+            || !HasComp<PlanetMapComponent>(mapUid)
+            || !TryComp<ShuttleComponent>(shuttleUid, out var shuttle)
+            || HasComp<FTLComponent>(shuttleUid)
+            || !_shuttle.CanFTL(shuttleUid, out _))
+        {
+            return;
+        }
+
+        if (_station.GetOwningStation(shuttleUid) is not { } stationUid
+            || !TryComp<StationDataComponent>(stationUid, out var stationData))
+        {
+            Log.Warning($"No station owns {ToPrettyString(shuttleUid)}, so it cannot return from {ToPrettyString(mapUid)}.");
+            return;
+        }
+
+        EntityUid? targetGrid = null;
+        foreach (var member in stationData.Grids)
+        {
+            if (!HasComp<TradeStationComponent>(member))
+                continue;
+
+            targetGrid = member;
+            break;
+        }
+
+        targetGrid ??= _station.GetLargestGrid((stationUid, stationData));
+
+        if (targetGrid is not { } target)
+        {
+            Log.Warning($"No station grid found for {ToPrettyString(shuttleUid)} returning to {ToPrettyString(stationUid)}.");
+            return;
+        }
+
+        _shuttle.FTLToDock(shuttleUid, shuttle, target);
     }
 
     private void OnUiOpened(Entity<PlanetConsoleComponent> ent, ref BoundUIOpenedEvent args)
@@ -81,7 +118,6 @@ public sealed partial class PlanetConsoleSystem : EntitySystem
         if (ent.Comp.Printing != null)
             return;
 
-        // A console on a station would take the whole station with it, so it never starts.
         if (GetBlockReason(ent.Owner) is { } blocked)
         {
             _popup.PopupEntity(Loc.GetString(blocked), ent.Owner);
@@ -89,8 +125,6 @@ public sealed partial class PlanetConsoleSystem : EntitySystem
             return;
         }
 
-        // The recharge lives on the grid, not on the console, so rebuilding the console does not
-        // reset it.
         if (Transform(ent.Owner).GridUid is not { } gridUid || GetCooldown(gridUid) > TimeSpan.Zero)
             return;
 
@@ -104,8 +138,6 @@ public sealed partial class PlanetConsoleSystem : EntitySystem
         ent.Comp.PrintEnd = _timing.CurTime + ent.Comp.PrintTime;
         _audio.PlayPvs(ent.Comp.PrintSound, ent);
 
-        // The console rattles for the whole thing, humming like a generator and calling out what
-        // it is doing as it goes.
         _jitter.AddJitter(ent.Owner, PrintShakeAmplitude, PrintShakeFrequency);
         ent.Comp.PrintStream = _audio.PlayPvs(
             ent.Comp.PrintLoopSound,
@@ -123,9 +155,6 @@ public sealed partial class PlanetConsoleSystem : EntitySystem
         UpdateUi(ent);
     }
 
-    /// <summary>
-    /// Ends the shake and sends the grid on its way, once the full course has been plotted.
-    /// </summary>
     private void FinishPrint(EntityUid uid)
     {
         if (TerminatingOrDeleted(uid) || !TryComp<PlanetConsoleComponent>(uid, out var comp))
@@ -152,8 +181,6 @@ public sealed partial class PlanetConsoleSystem : EntitySystem
 
             if (_shuttle.FTLToCoordinates(gridUid, shuttle, new EntityCoordinates(mapUid, arrival), Angle.Zero))
             {
-                // The recharge component is server-only, so it is never dirtied for the network -
-                // doing that trips a debug assert. Its data field is saved with the grid instead.
                 var cooldown = EnsureComp<PlanetJumpCooldownComponent>(gridUid);
                 cooldown.NextJump = _timing.CurTime + comp.Cooldown;
             }
@@ -162,9 +189,6 @@ public sealed partial class PlanetConsoleSystem : EntitySystem
         UpdateUi((uid, comp));
     }
 
-    /// <summary>
-    /// Calls out one step of the course, unless it was already over when the timer fired.
-    /// </summary>
     private void PopupStep(EntityUid uid, LocId message)
     {
         if (TerminatingOrDeleted(uid) || !TryComp<PlanetConsoleComponent>(uid, out var comp) || comp.Printing == null)
@@ -173,16 +197,8 @@ public sealed partial class PlanetConsoleSystem : EntitySystem
         _popup.PopupEntity(Loc.GetString(message), uid);
     }
 
-    /// <summary>
-    /// Distance between two shuttles sent to the same planet, so they do not land inside each
-    /// other.
-    /// </summary>
     private const float ArrivalSpacing = 48f;
 
-    /// <summary>
-    /// The planet's map, generating it the first time it is asked for. A second course charted to
-    /// the same planet flies to the world that is already out there instead of making a new one.
-    /// </summary>
     private EntityUid GetOrCreatePlanet(PlanetDestinationPrototype planet, string name, out Vector2 arrival)
     {
         arrival = Vector2.Zero;
@@ -194,8 +210,6 @@ public sealed partial class PlanetConsoleSystem : EntitySystem
             if (existing.Planet != planet.ID || TerminatingOrDeleted(mapUid))
                 continue;
 
-            // Each new shuttle is put a little further along so it does not FTL into the one
-            // that got here first.
             arrival = new Vector2(existing.Arrivals * ArrivalSpacing, 0f);
             existing.Arrivals++;
             return mapUid;
@@ -204,10 +218,6 @@ public sealed partial class PlanetConsoleSystem : EntitySystem
         return CreatePlanet(planet, name);
     }
 
-    /// <summary>
-    /// Generates the planet's map: it is created uninitialised so everything the planet needs can
-    /// be attached first, and initialised last, which also leaves it unpaused and ready to fly to.
-    /// </summary>
     private EntityUid CreatePlanet(PlanetDestinationPrototype planet, string name)
     {
         var mapUid = _map.CreateMap(out var mapId, runMapInit: false);
@@ -221,17 +231,12 @@ public sealed partial class PlanetConsoleSystem : EntitySystem
 
         _biome.EnsurePlanet(mapUid, _prototype.Index(planet.Biome), mapLight: planet.MapLight);
 
-        // A planet day is ten minutes. EnsurePlanet hands the map the default half-hour cycle, so
-        // the shadow of the sun across the ground is shortened here before anyone can set foot on
-        // it.
         if (TryComp<SunShadowCycleComponent>(mapUid, out var sunShadow))
         {
             sunShadow.Duration = TimeSpan.FromMinutes(10);
             Dirty(mapUid, sunShadow);
         }
 
-        // Ore and creatures are seeded the way the salvage expeditions do it: marker layers that
-        // the biome system reads as it generates the chunks around whoever is on the planet.
         if (TryComp<BiomeComponent>(mapUid, out var biome))
         {
             foreach (var marker in planet.OreMarkers)
@@ -239,16 +244,12 @@ public sealed partial class PlanetConsoleSystem : EntitySystem
                 _biome.AddMarkerLayer(mapUid, biome, marker.Id);
             }
 
-            // Every marker is its own layer, each with its own spawn rules - ore replaces the
-            // biome's rock, creatures are put down on the open ground.
             foreach (var marker in planet.MobMarkers)
             {
                 _biome.AddMarkerLayer(mapUid, biome, marker.Id);
             }
         }
 
-        // EnsurePlanet leaves a breathable room-temperature atmosphere behind, which is wrong for
-        // anything that is not a mild planet, so it is replaced with the one from the prototype.
         var moles = new float[Atmospherics.AdjustedNumberOfGases];
         foreach (var (gas, count) in planet.Atmosphere)
         {
@@ -259,38 +260,32 @@ public sealed partial class PlanetConsoleSystem : EntitySystem
 
         _map.InitializeMap(mapId);
 
-        // The planet remembers what it is, so the next course charted to it finds it instead of
-        // generating another one.
         var planetMap = EnsureComp<PlanetMapComponent>(mapUid);
         planetMap.Planet = planet.ID;
         planetMap.Arrivals = 1;
 
-        // The planet gets its storms once it is up and running.
         _planetWeather.StartTracking(mapUid, planet);
         return mapUid;
     }
 
-    /// <summary>
-    /// Why the console cannot jump right now, or null when it can. The console has to be mounted on
-    /// a shuttle, never on a station.
-    /// </summary>
     private LocId? GetBlockReason(EntityUid uid)
     {
         if (Transform(uid).GridUid is not { } gridUid)
             return "planet-console-blocked-no-grid";
 
-        if (_station.GetOwningStation(gridUid) != null)
-            return "planet-console-blocked-station";
-
+        // The cargo, salvage and salvage specialist shuttles are station members like the station's
+        // own floor is, so belonging to a station says nothing about whether a grid can fly. What
+        // tells a shuttle apart is the shuttle component.
         if (!HasComp<ShuttleComponent>(gridUid))
-            return "planet-console-blocked-not-shuttle";
+        {
+            return _station.GetOwningStation(gridUid) != null
+                ? "planet-console-blocked-station"
+                : "planet-console-blocked-not-shuttle";
+        }
 
         return null;
     }
 
-    /// <summary>
-    /// Time left before the grid may jump again. Stored on the grid so a rebuilt console keeps it.
-    /// </summary>
     private TimeSpan GetCooldown(EntityUid gridUid)
     {
         if (!TryComp<PlanetJumpCooldownComponent>(gridUid, out var cooldown))

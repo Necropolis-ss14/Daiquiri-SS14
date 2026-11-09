@@ -33,10 +33,6 @@ namespace Content.Client.Viewport
 
         public int CurrentRenderScale => _curRenderScale;
 
-        /// <summary>
-        ///     The internal Clyde viewport, if it has been created.
-        ///     Used by UI effects that sample the world render target as a backdrop.
-        /// </summary>
         public IClydeViewport? ClydeViewport => _viewport;
 
         /// <summary>

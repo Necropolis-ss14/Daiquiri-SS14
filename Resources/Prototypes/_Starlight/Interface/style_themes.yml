@@ -386,14 +386,6 @@
   positive: "#7FA84A"
   negative: "#C9503A"
 
-# iPhone-style frosted glass theme. Flat panels are replaced at runtime with a
-# shader that blurs the world backdrop, refracts the edges and draws a rim light.
-#
-# Everything except `liquidGlass` mirrors NanoTrasen so the glass keeps the classic
-# station look. classicDecor stays off on purpose: classic decor paints panels with
-# StyleBoxTexture/ChamferedBox, and the glass shader can only replace StyleBoxFlat.
-# The window/header textures are still declared, so turning on Classic decor in the
-# options gives the NanoTrasen frames back on top of the frosted panels.
 - type: styleTheme
   id: LiquidGlass
   name: style-theme-liquid-glass

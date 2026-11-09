@@ -36,8 +36,6 @@ planet-weather-lavaland-end = The storm is ending
 planet-weather-novonihon-start = Clouds are gathering over Novo-Nihon
 planet-weather-novonihon-end = The clouds over Novo-Nihon are breaking up
 
-# Each of Novo Nihon's four skies with a voice of its own: the planet picks one at random, and it
-# is the weather itself that announces itself, not the planet.
 planet-weather-drizzle-start = A fine drizzle starts over Novo-Nihon
 planet-weather-drizzle-end = The drizzle has stopped
 planet-weather-rain-start = Rain begins to fall over Novo-Nihon

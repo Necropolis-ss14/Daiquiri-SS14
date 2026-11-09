@@ -1,8 +1,4 @@
-# The Soviet bear in two coats: one bleached white for the snow planet, one left as it is for the
-# grasslands, where a plain brown bear is all anyone expects to meet. Both are copies of the same
-# animal, temper included.
 
-# Both named and described in the locale files, the way the rest of the folder does it.
 - type: entity
   parent: MobBearSoviet
   id: MobBearWhite

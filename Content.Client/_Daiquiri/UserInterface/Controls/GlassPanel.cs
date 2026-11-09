@@ -12,9 +12,6 @@ using Robust.Shared.Prototypes;
 namespace Content.Client._Daiquiri.UserInterface.Controls;
 
 /// <summary>
-/// PanelContainer for hardcoded panel colours. While the Liquid Glass style theme is
-/// active the background is drawn with the same frosted shader as the stylesheet panels;
-/// otherwise it stays the plain opaque <see cref="GlassColor"/>. Updates live on CVar change.
 /// Use in place of hardcoded PanelOverride boxes in XAML.
 /// </summary>
 [Virtual]
@@ -29,9 +26,7 @@ public partial class GlassPanel : PanelContainer
     private Action<int>? _onGlassInt;
     private bool _hooked;
 
-    /// <summary>
     /// Base (opaque) background color, settable from XAML.
-    /// </summary>
     public Color GlassColor
     {
         get => _glassColor;
@@ -67,17 +62,11 @@ public partial class GlassPanel : PanelContainer
     }
 
     /// <summary>
-    /// Panels are regularly taken out of the tree and put back (the character editor is
-    /// detached when the lobby unloads or pops out, the store window closes and reopens).
-    /// A panel that is out of the tree cannot see CVar changes, so re-hook and re-evaluate
-    /// on the way back in - otherwise it keeps whatever background it had when it left.
     /// </summary>
     protected override void EnteredTree()
     {
         base.EnteredTree();
         Hook();
-        // Hook() is a no-op when we are already subscribed, so re-read the theme here:
-        // it may have changed while we were out of the tree.
         UpdateBox();
     }
 
@@ -102,13 +91,10 @@ public partial class GlassPanel : PanelContainer
 
         _hooked = true;
 
-        // Daiquiri
         _cfg.OnValueChanged(StarlightCCVars.StyleTheme, _onGlassString!, true);
         _cfg.OnValueChanged(StarlightCCVars.StyleAccent, _onGlassString!);
         _cfg.OnValueChanged(StarlightCCVars.StyleCustomAccent, _onGlassBool!);
 
-        // The frosted box is built from these, so it has to follow the sliders in the
-        // Liquid Glass settings window like the stylesheet panels do.
         _cfg.OnValueChanged(StarlightCCVars.UILiquidGlassEnabled, _onGlassBool!);
         _cfg.OnValueChanged(StarlightCCVars.UILiquidGlassBlur, _onGlassInt!);
         _cfg.OnValueChanged(StarlightCCVars.UILiquidGlassRefraction, _onGlassInt!);
@@ -149,9 +135,6 @@ public partial class GlassPanel : PanelContainer
         if (_cfg == null!)
             return;
 
-        // While the Liquid Glass theme is active, hardcoded opaque panels get the same
-        // frosted backdrop as the stylesheet ones. Already translucent colours (barely
-        // visible separators and the like) keep their look.
         var pars = GlassTheme.ReadLiquidParams(_cfg);
         var useGlass = pars.Enabled && _glassColor.A >= 0.99f && IsLiquidGlassTheme();
 

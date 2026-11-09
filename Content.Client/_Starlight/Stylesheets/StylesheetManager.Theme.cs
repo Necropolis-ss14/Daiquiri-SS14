@@ -132,8 +132,6 @@ public sealed partial class StylesheetManager
         SheetNanotrasen = sheet.Stylesheet;
         RebuildHudSheet();
 
-        // Daiquiri: only the Liquid Glass theme has a shader sheet; every other theme
-        // uses the plain one.
         SheetGlassNanotrasen = RebuildGlass(out _);
         _userInterfaceManager.Stylesheet = _liquidGlassThemeActive ? SheetGlassNanotrasen : SheetNanotrasen;
     }

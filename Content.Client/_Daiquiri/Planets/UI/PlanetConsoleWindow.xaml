@@ -4,9 +4,6 @@
                       Title="{Loc 'planet-console-window-title'}"
                       Resizable="False"
                       SetSize="1250 580">
-    <!-- Solid space behind the whole console. The window panel of the interface theme is
-         translucent, so without this the station would show through the console; the parallax is
-         opaque and fills the contents on its own. -->
     <parallax:ParallaxControl Name="Space" Access="Public"
                               ParallaxPrototype="FastSpace"
                               SpeedX="12" SpeedY="4"
@@ -14,9 +11,6 @@
 
     <BoxContainer Orientation="Vertical" Margin="10" SeparationOverride="8">
         <BoxContainer Orientation="Horizontal" SeparationOverride="10">
-            <!-- The console body with the planet screen layered over it, so the icon reads as a
-                 working console. Both textures are set in code from RSI states, raw PNG paths
-                 inside an RSI are not allowed. -->
             <Control SetSize="32 32" VerticalAlignment="Center">
                 <TextureRect Name="HeaderIcon" Access="Public"
                              Stretch="KeepAspectCentered"
@@ -31,10 +25,6 @@
 
         <controls:HLine Color="#2E4A55" Thickness="2" />
 
-        <!-- The row is fixed at three cards wide and centred in whatever the console gives it, so the
-             space left over is split evenly between the two sides. Aligned to the left instead - the
-             default - all of it would collect under the right edge of the window and the row would
-             read as lopsided. -->
         <ScrollContainer Name="PlanetScroll" Access="Public"
                          HorizontalExpand="True" VerticalExpand="True"
                          HScrollEnabled="True" VScrollEnabled="False">

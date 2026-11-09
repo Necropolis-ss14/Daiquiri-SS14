@@ -9,17 +9,11 @@ using Robust.Shared.Utility;
 
 namespace Content.Client._Daiquiri.Planets.UI;
 
-/// <summary>
-/// The flight console. A wall of planet cards, one of which prints the coordinates disk that
-/// sends a shuttle to a freshly generated planet.
-/// </summary>
 [GenerateTypedNameReferences]
 public sealed partial class PlanetConsoleWindow : FancyWindow
 {
     [Dependency] private IPrototypeManager _prototype = default!;
 
-    // Entity systems are not in IoC the way managers are, so a window has to ask the system
-    // manager for them; a [Dependency] on SpriteSystem here fails when the window is constructed.
     [Dependency] private IEntitySystemManager _sysMan = default!;
 
     private static readonly ResPath HeaderIconRsi = new("/Textures/Structures/Machines/computers.rsi");
@@ -29,9 +23,6 @@ public sealed partial class PlanetConsoleWindow : FancyWindow
     private static readonly Color SubtitleColor = Color.FromHex("#9FB0BB");
     private static readonly Color BlockedColor = Color.FromHex("#FF7A7A");
 
-    /// <summary>
-    /// Raised when the player asks for a disk to be printed.
-    /// </summary>
     public event Action<string>? OnPrint;
 
     private readonly List<PlanetCard> _cards = new();
@@ -49,15 +40,9 @@ public sealed partial class PlanetConsoleWindow : FancyWindow
         RobustXamlLoader.Load(this);
         IoCManager.InjectDependencies(this);
 
-        // The RSI state is pulled through the sprite system instead of pointing the texture path at
-        // a raw PNG inside the RSI, which the engine warns about and which would show the screen
-        // layer rather than the console itself.
         var sprites = _sysMan.GetEntitySystem<SpriteSystem>();
         HeaderIcon.Texture = sprites.Frame0(new SpriteSpecifier.Rsi(HeaderIconRsi, "computer"));
 
-        // The console sprite is drawn in two layers in game: the body from the vanilla computer
-        // sheet and the animated planet screen from ours. The icon does the same, otherwise it
-        // shows a console with a blank screen.
         HeaderScreen.Texture = sprites.Frame0(new SpriteSpecifier.Rsi(HeaderScreenRsi, "planet"));
 
         HeaderSubtitle.SetMessage(Loc.GetString("planet-console-window-subtitle"), SubtitleColor);
@@ -71,8 +56,6 @@ public sealed partial class PlanetConsoleWindow : FancyWindow
     {
         SyncCards(state.Planets);
 
-        // The print just finished, so the status row keeps saying so for a moment instead of
-        // snapping straight back to the idle line.
         if (_printing != string.Empty && state.Printing == string.Empty)
             _printedFlash = PrintedFlashTime;
 
@@ -105,8 +88,6 @@ public sealed partial class PlanetConsoleWindow : FancyWindow
             changed = true;
         }
 
-        // The server only says how much is left, so both countdowns are carried on locally
-        // between updates.
         if (_printing != string.Empty)
         {
             if (_remaining > 0f)
@@ -120,8 +101,6 @@ public sealed partial class PlanetConsoleWindow : FancyWindow
             _cooldown = MathF.Max(0f, _cooldown - args.DeltaSeconds);
             changed = true;
 
-            // Once the recharge runs out the cards become usable again without waiting for the
-            // server to say so.
             if (_cooldown <= 0f)
                 UnblockCards();
         }
@@ -132,7 +111,6 @@ public sealed partial class PlanetConsoleWindow : FancyWindow
 
     private void UnblockCards()
     {
-        // A console bolted to a station stays locked out no matter how long the recharge is.
         if (_blockReason != string.Empty)
             return;
 
@@ -206,8 +184,6 @@ public sealed partial class PlanetConsoleWindow : FancyWindow
             StatusLabel.FontColorOverride = null;
             StatusLabel.Text = Loc.GetString("planet-console-status-cooldown", ("time", FormatTime(_cooldown)));
 
-            // The bar fills up as the console recharges, which reads better than a countdown on
-            // its own for something that takes twenty-five minutes.
             PrintProgress.Visible = true;
             PrintProgress.Value = _cooldownDuration <= 0f
                 ? 0f

@@ -1,10 +1,3 @@
-# Planet storms: the vanilla heavy weather under names of our own, so a planet can point at them
-# without depending on the vanilla prototypes staying as they are.
-#
-# The damage does not live here. The Starlight weather effect pipeline is not ticked by anything,
-# so the storms hurt the exposed themselves - see PlanetWeatherSystem, which applies one point of
-# cold on Taipan and one point of heat on Lavaland per second. Novo Nihon's weather is harmless,
-# its lightning aside.
 
 - type: entity
   parent: WeatherSnowfallHeavy
@@ -16,13 +9,6 @@
   id: WeatherPlanetAshfall
   name: heavy ashfall
 
-# Novo Nihon's skies: the only planet so far that gets more than one kind of weather, picked from
-# at random each time the sky turns. They are vanilla rain under tints of our own, and none of
-# them hurts anyone - the planet's weather damage is set to zero.
-#
-# Each one says its own line when it arrives and when it leaves, so a drizzle and a thunderstorm do
-# not sound the same. A weather with nothing to say falls back to the planet's own wording, which
-# is why Taipan and Lavaland need none of this.
 - type: entity
   parent: WeatherRain
   id: WeatherPlanetDrizzle
@@ -81,9 +67,6 @@
     startMessage: planet-weather-storm-start
     endMessage: planet-weather-storm-end
 
-# The bolt the storm drops now and then. Purple, harmless in itself and very short lived: its own
-# electrified component is switched off, and PlanetWeatherSystem does the shocking, so the bolt
-# only ever hurts whatever it actually came down on and never anything that bumps into it.
 - type: entity
   parent: BaseLightning
   id: DaiquiriPurpleLightning

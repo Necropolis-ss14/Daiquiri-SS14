@@ -10,7 +10,6 @@
                 <PanelContainer StyleClasses="InsetPanel" Margin="0 0 0 12">
                     <BoxContainer Orientation="Vertical" Margin="10 6" SeparationOverride="4">
                         <CheckBox Name="AutoPunctuate" Text="{Loc 'ui-options-auto-punctuate'}" />
-                        <!-- Daiquiri-edit: the old translucency/accent options were replaced by the LiquidGlass style theme in the UI tab. -->
                         <CheckBox Name="WieldBeforeRack" Text="{Loc 'ui-options-wield-before-rack'}" ToolTip="{Loc 'ui-options-wield-before-rack-tooltip'}" />
                     </BoxContainer>
                 </PanelContainer>

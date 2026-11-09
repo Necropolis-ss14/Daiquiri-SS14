@@ -11,10 +11,6 @@ using Robust.Shared.Maths;
 
 namespace Content.Client._Daiquiri.Options.UI;
 
-/// <summary>
-/// Dedicated settings screen for the shader-backed Liquid Glass style theme.
-/// Every change is applied live; the options UI itself acts as the preview.
-/// </summary>
 [GenerateTypedNameReferences]
 public sealed partial class LiquidGlassSettingsWindow : DefaultWindow
 {

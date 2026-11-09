@@ -121,7 +121,6 @@
   kind: source
   path: "/Textures/Shaders/heatBlur.swsl"
 
-# Liquid Glass UI backdrop: frosted blur, edge refraction and rounded corners.
 - type: shader
   id: LiquidGlass
   kind: source

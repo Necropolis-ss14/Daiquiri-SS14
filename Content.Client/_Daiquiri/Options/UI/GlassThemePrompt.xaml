@@ -5,10 +5,8 @@
          VerticalExpand="True" HorizontalExpand="True"
          RectClipContent="True"
          MouseFilter="Stop">
-    <!-- Animated space behind the whole newcomer flow. -->
     <parallax:ParallaxControl Name="Space" Access="Public" SpeedX="14" SpeedY="3" />
 
-    <!-- Centred card: sized and faded in from the code-behind. -->
     <PanelContainer Name="Card" Access="Public" StyleClasses="windowPanel"
                     HorizontalAlignment="Center" VerticalAlignment="Center">
         <BoxContainer Orientation="Horizontal" Margin="18" SeparationOverride="18">
@@ -21,11 +19,8 @@
             <BoxContainer Orientation="Vertical" HorizontalExpand="True" VerticalExpand="True" SeparationOverride="10">
                 <Label Name="TitleLabel" Access="Public" StyleClasses="LabelHeading" />
 
-                <!-- 1. Greeting -->
                 <BoxContainer Name="WelcomePage" Access="Public" Orientation="Vertical"
                               HorizontalExpand="True" VerticalExpand="True" SeparationOverride="6">
-                    <!-- Rich text labels are the only ones that wrap, so the body copy uses
-                         them instead of plain labels, which would run out of the card. -->
                     <RichTextLabel Name="WelcomeLine1" Access="Public" />
                     <RichTextLabel Name="WelcomeLine2" Access="Public" />
                     <Control VerticalExpand="True" />
@@ -33,7 +28,6 @@
                             HorizontalAlignment="Right" />
                 </BoxContainer>
 
-                <!-- 2. Server rules -->
                 <BoxContainer Name="RulesPage" Access="Public" Orientation="Vertical"
                               HorizontalExpand="True" VerticalExpand="True" SeparationOverride="8"
                               Visible="False">
@@ -50,7 +44,6 @@
                     </BoxContainer>
                 </BoxContainer>
 
-                <!-- 3. Interface theme -->
                 <BoxContainer Name="ThemePage" Access="Public" Orientation="Vertical"
                               HorizontalExpand="True" VerticalExpand="True" SeparationOverride="8"
                               Visible="False">

@@ -19,7 +19,7 @@
           state: generic_panel_open
     - type: PlanetConsole
       printTime: 15
-      cooldown: 1200 # 20 minutes between jumps
+      cooldown: 1200
     - type: ActivatableUI
       key: enum.PlanetConsoleUiKey.Key
     - type: UserInterface
@@ -30,7 +30,6 @@
           type: WiresBoundUserInterface
     - type: Computer
       board: PlanetConsoleCircuitboard
-    # The standard computer light, tinted to match the console's cyan screen.
     - type: PointLight
       color: "#3FC9E8"
 

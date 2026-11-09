@@ -1,12 +1,3 @@
-// Liquid Glass UI backdrop.
-// Draws a rounded, frosted panel that samples the world viewport texture,
-// adds a soft gaussian blur, edge refraction and a thin specular rim.
-//
-// Per-panel data is passed through vertex attributes:
-//   UV  = 0..1 across the panel
-//   UV2 = viewport texture UV at each vertex
-// This keeps the shader instance shareable between controls without relying on
-// per-draw uniforms, and it avoids any screen-orientation assumptions.
 
 uniform sampler2D SCREEN_TEXTURE;
 
@@ -18,12 +9,8 @@ uniform highp float Opacity;
 uniform highp float Quality;
 uniform highp float Animate;
 
-// 1 when SCREEN_TEXTURE holds the world viewport, 0 when there is nothing to frost
-// (main menu, lobby). At 0 the panel uses the tint itself as its backdrop, so it
-// still gets rounded corners, the rim light and the sheen.
 uniform highp float BackdropAvailable;
 
-// rgb = tint colour, a = tint strength.
 uniform highp vec4 Tint;
 uniform highp vec4 EdgeTint;
 
@@ -49,14 +36,11 @@ highp vec2 sdRoundBoxNormal(highp vec2 p, highp vec2 halfSize, highp float radiu
     if (q.y > 0.0)
         return vec2(0.0, s.y);
 
-    // Flat interior: no surface normal, so no refraction or specular here.
     return vec2(0.0);
 }
 
 highp vec3 sampleBackdrop(highp vec2 uv, highp vec2 stepUv)
 {
-    // texture2D, not texture(): the engine header #defines texture2D -> texture on
-    // GL3/GLES3 and leaves it alone on GLES2, where texture() does not exist.
     highp vec2 clamped = clamp(uv, vec2(0.0), vec2(1.0));
     highp vec3 col = texture2D(SCREEN_TEXTURE, clamped).rgb * 0.16;
     highp float total = 0.16;
@@ -90,29 +74,20 @@ void fragment()
     highp vec2 uv = UV;
     highp vec2 screenUv = UV2;
 
-    // Panel size in physical pixels and viewport UV per physical pixel. Both are
-    // derived from screen-space derivatives, so they stay per-panel without
-    // needing per-draw uniforms.
-#ifdef HAS_DFDX
     highp vec2 panelSize = 1.0 / max(fwidth(uv), vec2(0.0001));
     highp vec2 uvPerPixel = fwidth(screenUv);
-#else
-    // Very old hardware without derivatives: approximate so the shader still compiles.
     highp vec2 panelSize = vec2(256.0);
     highp vec2 uvPerPixel = SCREEN_PIXEL_SIZE;
-#endif
 
     highp vec2 halfSize = panelSize * 0.5;
     highp float radius = min(CornerRadius, min(halfSize.x, halfSize.y));
     highp vec2 p = (uv - 0.5) * panelSize;
     highp float dist = sdRoundBox(p, halfSize, radius);
 
-    // One physical pixel of antialiasing around the rounded silhouette.
     highp float shape = 1.0 - smoothstep(-1.0, 1.0, dist);
     if (shape <= 0.001)
         discard;
 
-    // 1 at the border, fading to 0 towards the centre.
     highp float edge = 1.0 - smoothstep(0.0, max(2.0, radius * 0.35), -dist);
     highp vec2 normal = sdRoundBoxNormal(p, halfSize, radius);
 
@@ -121,22 +96,16 @@ void fragment()
 
     highp vec3 backdrop = sampleBackdrop(refractedUv, blurStep);
 
-    // Tint the frosted backdrop with the theme panel colour. The tint is stored in
-    // sRGB like every other UI colour, while the backdrop is already linear.
     highp vec3 tintLinear = zFromSrgb(vec4(Tint.rgb, 1.0)).rgb;
 
-    // Without a world viewport the tint is the only thing left to draw, which turns
-    // the panel into a flat piece of coloured glass instead of a frosted one.
     backdrop = mix(tintLinear, backdrop, clamp(BackdropAvailable, 0.0, 1.0));
 
     highp vec3 col = mix(backdrop, tintLinear, clamp(Tint.a, 0.0, 1.0));
 
-    // Thin bright rim.
     highp float rim = 1.0 - smoothstep(0.0, 1.6, abs(dist));
     highp vec3 edgeLinear = zFromSrgb(vec4(EdgeTint.rgb, 1.0)).rgb;
     col += edgeLinear * (rim * clamp(Highlight, 0.0, 1.0) * EdgeTint.a);
 
-    // Very subtle animated sheen across the pane.
     if (Animate > 0.5)
     {
         highp float sheen = sin((uv.x * 1.7 + uv.y * 0.8 + TIME * 0.35) * PI * 2.0) * 0.5 + 0.5;

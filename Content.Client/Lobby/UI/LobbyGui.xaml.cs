@@ -62,8 +62,6 @@ namespace Content.Client.Lobby.UI
         // Daiquiri
         Timer.Spawn(120, () => PollPanelHover());
         // Daiquiri
-        // The screen instance is created once and reused for every lobby visit, so a
-        // single subscription is enough and there is nothing to unsubscribe.
         _configurationManager.OnValueChanged(StarlightCCVars.StyleTheme, _ => ResetPanelFades());
         }
 

@@ -1,5 +1,3 @@
-# The gorilla again, in a white coat. Snow camouflage for the cold planet, and the same temper.
-# Named and described in the locale files, the way the rest of the folder does it.
 - type: entity
   parent: MobGorilla
   id: MobWhiteGorilla

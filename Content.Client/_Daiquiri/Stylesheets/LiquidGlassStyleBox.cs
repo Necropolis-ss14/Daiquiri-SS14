@@ -9,25 +9,10 @@ using Robust.Shared.Prototypes;
 
 namespace Content.Client._Daiquiri.Stylesheets;
 
-/// <summary>
-/// A <see cref="StyleBox"/> that draws a frosted "liquid glass" panel by sampling the
-/// world viewport texture through <c>liquid_glass.swsl</c>.
-/// </summary>
-/// <remarks>
-/// Only degenerate boxes (hairline dividers, zero-size rows) use the plain
-/// <see cref="StyleBoxFlat"/> fallback; everything else is frosted so no background
-/// stays opaque. Buttons are created with <c>forceShader</c> so they get the same
-/// rounded, iOS-like shape instead of the strip radius.
-/// </remarks>
 public sealed class LiquidGlassStyleBox : StyleBox
 {
-    // Physical pixels squared. Smaller boxes use the low-quality blur so repeated
-    // elements (list rows, inputs) stay cheap.
     private const float MinBlurArea = 16000f;
 
-    // Anything shorter than this on its small side counts as a strip: window headers,
-    // chat inputs, separators. They look wrong with the full panel radius, so they get
-    // a subtle rounding instead.
     private const float StripMaxDimension = 64f;
     private const float StripCornerFactor = 0.15f;
 
@@ -44,12 +29,8 @@ public sealed class LiquidGlassStyleBox : StyleBox
     private readonly int _quality;
     private readonly bool _animate;
 
-    // Buttons opt out of the small-box fallback and get a capsule-ish corner radius.
     private readonly bool _forceShader;
 
-    // Quad indices are constant; the vertex buffer is rewritten in place on every draw.
-    // Both live in fields rather than a stackalloc because explicit stackalloc is banned
-    // in content assemblies by the runtime type checker (localloc fails ILVerify).
     private static readonly ushort[] QuadIndices = { 0, 1, 2, 0, 2, 3 };
     private readonly DrawVertexUV2DColor[] _vertices = new DrawVertexUV2DColor[4];
 
@@ -93,7 +74,6 @@ public sealed class LiquidGlassStyleBox : StyleBox
 
     protected override void DoDraw(DrawingHandleScreen handle, UIBox2 box, float uiScale)
     {
-        // A box that cannot hold a visible silhouette is not worth shading at all.
         if (box.Width < 2f || box.Height < 2f)
         {
             _fallback.Draw(handle, box, uiScale);
@@ -102,8 +82,6 @@ public sealed class LiquidGlassStyleBox : StyleBox
 
         var hasBackdrop = TryGetBackdrop(out var viewport, out var texture);
 
-        // Every panel goes through the shader so none of them stay opaque. Small boxes
-        // only lower the blur quality below, where the difference is not visible.
         var shader = GetShader();
         if (shader == null)
         {
@@ -117,9 +95,6 @@ public sealed class LiquidGlassStyleBox : StyleBox
 
         if (hasBackdrop)
         {
-            // The style box is drawn in control-local physical pixels; the handle transform
-            // carries the control's absolute position on the window. Convert each vertex to
-            // viewport texture UV so the shader has no screen-orientation assumptions.
             transform = handle.GetTransform();
             if (!Matrix3x2.Invert(viewport.GetLocalToScreenMatrix(), out screenToViewport))
             {
@@ -136,8 +111,6 @@ public sealed class LiquidGlassStyleBox : StyleBox
         }
         else
         {
-            // Nothing to frost, so a plain white texture keeps the sampler bound; the
-            // shader swaps the sampled backdrop for the tint when BackdropAvailable is 0.
             texture = Texture.White;
         }
 
@@ -148,8 +121,6 @@ public sealed class LiquidGlassStyleBox : StyleBox
 
             var screen = Vector2.Transform(local, transform);
             var viewportLocal = Vector2.Transform(screen, screenToViewport);
-            // Viewport-local coordinates are top-left origin, but the render target
-            // texture is sampled bottom-up (see DrawTextureRectRegion), so flip V.
             return new Vector2(
                 viewportLocal.X / viewportSize.X,
                 1f - viewportLocal.Y / viewportSize.Y);
@@ -160,12 +131,8 @@ public sealed class LiquidGlassStyleBox : StyleBox
         var bottomRight = new Vector2(box.Right, box.Bottom);
         var bottomLeft = new Vector2(box.Left, box.Bottom);
 
-        // Keep this uniform stable per stylebox: the shader clamps the radius to the
-        // panel size itself, so batching multiple panels with one shader is safe.
         var cornerRadius = CornerRadiusFor(box, uiScale);
 
-        // Small surfaces are cheap by area, but they are also numerous (list rows,
-        // inputs), so they drop to the low-quality blur where it cannot be seen.
         var quality = box.Width * box.Height < MinBlurArea ? 0 : _quality;
 
         shader.SetParameter("SCREEN_TEXTURE", texture);
@@ -182,8 +149,6 @@ public sealed class LiquidGlassStyleBox : StyleBox
 
         handle.UseShader(shader);
 
-        // UV stays 0..1 across the panel; UV2 carries the viewport UV of each vertex.
-        // The vertex colour applies the current UI modulate (the raw overload ignores it).
         var vertexColor = Color.FromSrgb(Color.White * handle.Modulate);
         _vertices[0] = new DrawVertexUV2DColor(topLeft, new Vector2(0f, 0f), vertexColor) { UV2 = ToViewportUv(topLeft, new Vector2(0f, 0f)) };
         _vertices[1] = new DrawVertexUV2DColor(topRight, new Vector2(1f, 0f), vertexColor) { UV2 = ToViewportUv(topRight, new Vector2(1f, 0f)) };
@@ -203,18 +168,12 @@ public sealed class LiquidGlassStyleBox : StyleBox
         if (_forceShader)
             return MathF.Min(themeRadius, ButtonCornerRadius(box));
 
-        // Thin strips keep their shape instead of becoming pills.
         if (minSide < StripMaxDimension)
             return MathF.Min(themeRadius, minSide * StripCornerFactor);
 
         return themeRadius;
     }
 
-    /// <summary>
-    /// Corner radius for button boxes: wide buttons get iOS-like rounded ends (a little
-    /// less round than a full capsule), while near-square icon buttons keep
-    /// rounded-square corners instead of turning into circles.
-    /// </summary>
     private static float ButtonCornerRadius(UIBox2 box)
     {
         var minSide = MathF.Min(box.Width, box.Height);

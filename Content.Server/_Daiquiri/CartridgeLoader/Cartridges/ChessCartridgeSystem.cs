@@ -60,9 +60,6 @@ public sealed partial class ChessCartridgeSystem : EntitySystem
 
     private static readonly TimeSpan HttpTimeout = TimeSpan.FromSeconds(20);
 
-    /// <summary>
-    /// Extracts the remaining minutes out of Lichess' "Banned from playing ... for N minutes" message.
-    /// </summary>
     private static readonly Regex BanMinutesRegex =
         new(@"for\s+(\d+)\s+minutes", RegexOptions.IgnoreCase | RegexOptions.Compiled);
 

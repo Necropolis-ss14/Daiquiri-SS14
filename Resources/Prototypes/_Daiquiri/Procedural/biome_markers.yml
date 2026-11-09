@@ -1,6 +1,3 @@
-# Creatures seeded into generated planets through the biome marker layers, the same way the
-# salvage expeditions seed ore. Vanilla marker layers stay untouched, these are our own ids so the
-# group sizes can be tuned for a planet rather than for a salvage wreck.
 
 - type: biomeMarkerLayer
   id: DaiquiriGoliaths
