@@ -8,14 +8,11 @@ using Content.Server.Shuttles.Systems;
 using Content.Server.Station.Systems;
 using Content.Shared._Daiquiri.Planets;
 using Content.Shared.Atmos;
-using Content.Shared.Cargo.Components;
 using Content.Shared.Light.Components;
 using Content.Shared.Parallax.Biomes;
 using Content.Shared.Jittering;
 using Content.Shared.Popups;
 using Content.Shared.Shuttles.Components;
-using Content.Shared.Shuttles.Events;
-using Content.Shared.Station.Components;
 using Robust.Server.GameObjects;
 using Robust.Shared.Audio;
 using Robust.Shared.Audio.Systems;
@@ -61,51 +58,6 @@ public sealed partial class PlanetConsoleSystem : EntitySystem
 
         SubscribeLocalEvent<PlanetConsoleComponent, BoundUIOpenedEvent>(OnUiOpened);
         SubscribeLocalEvent<PlanetConsoleComponent, PlanetConsolePrintMessage>(OnPrintMessage);
-
-        SubscribeLocalEvent<ShuttleConsoleComponent, ShuttleConsoleSurfaceReturnMessage>(OnSurfaceReturn);
-    }
-
-    private void OnSurfaceReturn(Entity<ShuttleConsoleComponent> ent, ref ShuttleConsoleSurfaceReturnMessage args)
-    {
-        if (!TryComp<PilotComponent>(args.Actor, out var pilot) || pilot.Console != ent.Owner)
-            return;
-
-        if (Transform(ent.Owner).GridUid is not { } shuttleUid
-            || Transform(ent.Owner).MapUid is not { } mapUid
-            || !HasComp<PlanetMapComponent>(mapUid)
-            || !TryComp<ShuttleComponent>(shuttleUid, out var shuttle)
-            || HasComp<FTLComponent>(shuttleUid)
-            || !_shuttle.CanFTL(shuttleUid, out _))
-        {
-            return;
-        }
-
-        if (_station.GetOwningStation(shuttleUid) is not { } stationUid
-            || !TryComp<StationDataComponent>(stationUid, out var stationData))
-        {
-            Log.Warning($"No station owns {ToPrettyString(shuttleUid)}, so it cannot return from {ToPrettyString(mapUid)}.");
-            return;
-        }
-
-        EntityUid? targetGrid = null;
-        foreach (var member in stationData.Grids)
-        {
-            if (!HasComp<TradeStationComponent>(member))
-                continue;
-
-            targetGrid = member;
-            break;
-        }
-
-        targetGrid ??= _station.GetLargestGrid((stationUid, stationData));
-
-        if (targetGrid is not { } target)
-        {
-            Log.Warning($"No station grid found for {ToPrettyString(shuttleUid)} returning to {ToPrettyString(stationUid)}.");
-            return;
-        }
-
-        _shuttle.FTLToDock(shuttleUid, shuttle, target);
     }
 
     private void OnUiOpened(Entity<PlanetConsoleComponent> ent, ref BoundUIOpenedEvent args)
