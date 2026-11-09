@@ -5,7 +5,6 @@ using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Text;
 using System.Text.Json;
-using System.Text.RegularExpressions;
 using System.Threading;
 using System.Threading.Tasks;
 using Content.Shared.CartridgeLoader.Cartridges;
@@ -1153,7 +1152,7 @@ public sealed partial class ChessCartridgeSystem
 
         if (body.Contains("Banned from playing", StringComparison.OrdinalIgnoreCase))
         {
-            var match = Regex.Match(body, @"for\s+(\d+)\s+minutes", RegexOptions.IgnoreCase);
+            var match = BanMinutesRegex.Match(body);
             var minutes = match.Success ? match.Groups[1].Value : "?";
             return $"Lichess временно запретил игру на этом аккаунте (осталось ≈{minutes} мин). " +
                    "Это ограничение Lichess, а не chess.nt.";

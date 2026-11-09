@@ -13,6 +13,7 @@
                         <sui:StyleThemePicker Name="ThemePicker" />
                         <sui:AccentPicker Name="AccentPicker" />
                         <sui:AccentPicker Name="SecondaryAccentPicker" />
+                        <Button Name="OpenLiquidGlassButton" Text="{Loc 'ui-options-liquid-glass-open'}" />
                     </BoxContainer>
                 </PanelContainer>
 

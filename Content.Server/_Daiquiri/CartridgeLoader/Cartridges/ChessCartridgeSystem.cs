@@ -60,6 +60,12 @@ public sealed partial class ChessCartridgeSystem : EntitySystem
 
     private static readonly TimeSpan HttpTimeout = TimeSpan.FromSeconds(20);
 
+    /// <summary>
+    /// Extracts the remaining minutes out of Lichess' "Banned from playing ... for N minutes" message.
+    /// </summary>
+    private static readonly Regex BanMinutesRegex =
+        new(@"for\s+(\d+)\s+minutes", RegexOptions.IgnoreCase | RegexOptions.Compiled);
+
     private readonly HttpClient _http = new() { Timeout = HttpTimeout };
     private readonly Dictionary<string, PendingLink> _pending = new();
     private readonly Dictionary<Guid, LichessLinkRecord> _links = new();
@@ -361,7 +367,7 @@ public sealed partial class ChessCartridgeSystem : EntitySystem
     {
         if (body.Contains("Banned from playing", StringComparison.OrdinalIgnoreCase))
         {
-            var match = Regex.Match(body, @"for\s+(\d+)\s+minutes", RegexOptions.IgnoreCase);
+            var match = BanMinutesRegex.Match(body);
             var minutes = match.Success && int.TryParse(match.Groups[1].Value, out var parsed)
                 ? Math.Clamp(parsed, 1, 24 * 60)
                 : 60;

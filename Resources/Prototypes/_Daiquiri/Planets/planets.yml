@@ -1,0 +1,91 @@
+# Planets the flight console can chart a course to.
+#
+# These are deliberately thin for now: each one only says which existing biome template to
+# generate and how the surface reads. The biome templates stay untouched and shared with the
+# salvage expeditions; ore and wildlife are seeded over them through the biome marker layers.
+
+- type: planetDestination
+  id: PlanetTaipan
+  name: planet-taipan-name
+  description: planet-taipan-desc
+  biome: Snow
+  parallax: DaiquiriTaipanSurface
+  mapLight: "#A9C8DE"
+  temperature: -30
+  atmosphere:
+    Oxygen: 21.8
+    Nitrogen: 82.1
+  accent: "#8FDCFF"
+  weathers:
+  - WeatherPlanetSnowfall
+  weatherStartMessage: planet-weather-taipan-start
+  weatherEndMessage: planet-weather-taipan-end
+  weatherColor: "#7FD4FF"
+  weatherDamageType: Cold
+  weatherDamagePerSecond: 1
+  mobMarkers:
+  - WatchersIcewing
+  - DaiquiriWhiteGorillas
+  - DaiquiriWhiteBears
+  order: 10
+
+- type: planetDestination
+  id: PlanetLavaland
+  name: planet-lavaland-name
+  description: planet-lavaland-desc
+  biome: Lava
+  parallax: DaiquiriLavalandSurface
+  mapLight: "#A34931"
+  temperature: 118
+  atmosphere:
+    Oxygen: 5
+    Nitrogen: 60
+    CarbonDioxide: 35
+  accent: "#FF8A4C"
+  weathers:
+  - WeatherPlanetAshfall
+  weatherStartMessage: planet-weather-lavaland-start
+  weatherEndMessage: planet-weather-lavaland-end
+  weatherColor: "#FF6B4A"
+  weatherDamageType: Heat
+  weatherDamagePerSecond: 1
+  mobMarkers:
+  - WatchersMagmawing
+  - DaiquiriGoliaths
+  order: 20
+
+# The one planet so far that is worth walking around on: breathable air, a mild day, and the only
+# things that could hurt you are the ones with teeth. Its weather is picked at random out of four,
+# none of them hurts, and the storm drops the odd purple bolt out of the sky.
+- type: planetDestination
+  id: PlanetNovoNihon
+  name: planet-novonihon-name
+  description: planet-novonihon-desc
+  biome: Grasslands
+  parallax: DaiquiriNovoNihonSurface
+  mapLight: "#D9DCC0"
+  temperature: 14
+  atmosphere:
+    Oxygen: 21.8
+    Nitrogen: 82.1
+  accent: "#E8B4C8"
+  weathers:
+  - WeatherPlanetDrizzle
+  - WeatherPlanetRain
+  - WeatherPlanetDownpour
+  - WeatherPlanetStorm
+  weatherStartMessage: planet-weather-novonihon-start
+  weatherEndMessage: planet-weather-novonihon-end
+  weatherColor: "#C9B6F0"
+  weatherDamagePerSecond: 0
+  lightning: DaiquiriPurpleLightning
+  lightningDuring: WeatherPlanetStorm
+  lightningChancePerSecond: 0.005
+  lightningShockDamage: 20
+  mobMarkers:
+  - Pigs
+  - Chickens
+  - DaiquiriReindeerBucks
+  - DaiquiriReindeerDoes
+  - DaiquiriBrownBears
+  order: 30

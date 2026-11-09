@@ -1,8 +1,8 @@
 - type: entity
   id: BaseLanguageImplanter
   parent: BaseImplantOnlyImplanter
-  name: language-implanter-base-name
-  description: language-implanter-base-desc
+  name: language implanter
+  description: A disposable syringe designed to inject a language module.
   abstract: true
   categories: [ HideSpawnMenu ]
   components:
@@ -14,8 +14,8 @@
 - type: entity
   id: LanguageImplanterVoxPidgin
   parent: BaseLanguageImplanter
-  name: language-implanter-voxpidgin-name
-  description: language-implanter-voxpidgin-desc
+  name: Vox-Pidgin language implanter
+  description: Injects knowledge of Vox-Pidgin.
   components:
   - type: Implanter
     implant: LanguageImplantVoxPidgin
@@ -24,8 +24,8 @@
 - type: entity
   id: LanguageImplanterThaveyan
   parent: BaseLanguageImplanter
-  name: language-implanter-thaveyan-name
-  description: language-implanter-thaveyan-desc
+  name: Thaveyan language implanter
+  description: Injects knowledge of Thaveyan.
   components:
   - type: Implanter
     implant: LanguageImplantThaveyan
@@ -34,8 +34,8 @@
 - type: entity
   id: LanguageImplanterTerrum
   parent: BaseLanguageImplanter
-  name: language-implanter-terrum-name
-  description: language-implanter-terrum-desc
+  name: Terrum language implanter
+  description: Injects knowledge of Terrum.
   components:
   - type: Implanter
     implant: LanguageImplantTerrum
@@ -44,8 +44,8 @@
 - type: entity
   id: LanguageImplanterSylvan
   parent: BaseLanguageImplanter
-  name: language-implanter-sylvan-name
-  description: language-implanter-sylvan-desc
+  name: Sylvan language implanter
+  description: Injects knowledge of Sylvan.
   components:
   - type: Implanter
     implant: LanguageImplantSylvan
@@ -54,8 +54,8 @@
 - type: entity
   id: LanguageImplanterSqueakish
   parent: BaseLanguageImplanter
-  name: language-implanter-squeakish-name
-  description: language-implanter-squeakish-desc
+  name: Squeakish language implanter
+  description: Injects knowledge of Squeakish.
   components:
   - type: Implanter
     implant: LanguageImplantSqueakish
@@ -64,8 +64,8 @@
 - type: entity
   id: LanguageImplanterNekomimetic
   parent: BaseLanguageImplanter
-  name: language-implanter-nekomimetic-name
-  description: language-implanter-nekomimetic-desc
+  name: Nekomimetic language implanter
+  description: Injects knowledge of Nekomimetic.
   components:
   - type: Implanter
     implant: LanguageImplantNekomimetic
@@ -74,8 +74,8 @@
 - type: entity
   id: LanguageImplanterMoffic
   parent: BaseLanguageImplanter
-  name: language-implanter-moffic-name
-  description: language-implanter-moffic-desc
+  name: Moffic language implanter
+  description: Injects knowledge of Moffic.
   components:
   - type: Implanter
     implant: LanguageImplantMoffic
@@ -84,8 +84,8 @@
 - type: entity
   id: LanguageImplanterMarish
   parent: BaseLanguageImplanter
-  name: language-implanter-marish-name
-  description: language-implanter-marish-desc
+  name: Marish language implanter
+  description: Injects knowledge of Marish.
   components:
   - type: Implanter
     implant: LanguageImplantMarish
@@ -94,8 +94,8 @@
 - type: entity
   id: LanguageImplanterLagomorphian
   parent: BaseLanguageImplanter
-  name: language-implanter-lagomorphian-name
-  description: language-implanter-lagomorphian-desc
+  name: Laguine language implanter
+  description: Injects knowledge of Laguine.
   components:
   - type: Implanter
     implant: LanguageImplantLagomorphian
@@ -104,8 +104,8 @@
 - type: entity
   id: LanguageImplanterGrumbakul
   parent: BaseLanguageImplanter
-  name: language-implanter-grumbakul-name
-  description: language-implanter-grumbakul-desc
+  name: Grumbakul language implanter
+  description: Injects knowledge of Grumbakul.
   components:
   - type: Implanter
     implant: LanguageImplantGrumbakul
@@ -114,8 +114,8 @@
 - type: entity
   id: LanguageImplanterFelyaic
   parent: BaseLanguageImplanter
-  name: language-implanter-felyaic-name
-  description: language-implanter-felyaic-desc
+  name: Felyaic language implanter
+  description: Injects knowledge of Felyaic.
   components:
   - type: Implanter
     implant: LanguageImplantFelyaic
@@ -124,8 +124,8 @@
 - type: entity
   id: LanguageImplanterDraconic
   parent: BaseLanguageImplanter
-  name: language-implanter-draconic-name
-  description: language-implanter-draconic-desc
+  name: Draconic language implanter
+  description: Injects knowledge of Draconic.
   components:
   - type: Implanter
     implant: LanguageImplantDraconic
@@ -134,8 +134,8 @@
 - type: entity
   id: LanguageImplanterChittin
   parent: BaseLanguageImplanter
-  name: language-implanter-chittin-name
-  description: language-implanter-chittin-desc
+  name: Chittin language implanter
+  description: Injects knowledge of Chittin.
   components:
   - type: Implanter
     implant: LanguageImplantChittin
@@ -144,8 +144,8 @@
 - type: entity
   id: LanguageImplanterCanilunzt
   parent: BaseLanguageImplanter
-  name: language-implanter-canilunzt-name
-  description: language-implanter-canilunzt-desc
+  name: Canilunzt language implanter
+  description: Injects knowledge of Canilunzt.
   components:
   - type: Implanter
     implant: LanguageImplantCanilunzt
@@ -154,8 +154,8 @@
 - type: entity
   id: LanguageImplanterBubblish
   parent: BaseLanguageImplanter
-  name: language-implanter-bubblish-name
-  description: language-implanter-bubblish-desc
+  name: Bubblish language implanter
+  description: Injects knowledge of Bubblish.
   components:
   - type: Implanter
     implant: LanguageImplantBubblish
@@ -164,8 +164,8 @@
 - type: entity
   id: LanguageImplanterAielic
   parent: BaseLanguageImplanter
-  name: language-implanter-aielic-name
-  description: language-implanter-aielic-desc
+  name: Aielic language implanter
+  description: Injects knowledge of Aielic.
   components:
   - type: Implanter
     implant: LanguageImplantAielic
@@ -313,8 +313,8 @@
 - type: entity
   id: LanguageImplanterAncestor
   parent: BaseLanguageImplanter
-  name: language-implanter-ancestor-name
-  description: language-implanter-ancestor-desc
+  name: Ancestor language implanter
+  description: Injects knowledge of Ancestor.
   components:
   - type: Implanter
     implant: LanguageImplantAncestor
@@ -331,8 +331,8 @@
 - type: entity
   id: LanguageImplanterBat
   parent: BaseLanguageImplanter
-  name: language-implanter-bat-name
-  description: language-implanter-bat-desc
+  name: Bat language implanter
+  description: Injects knowledge of Bat.
   components:
   - type: Implanter
     implant: LanguageImplantBat
@@ -349,8 +349,8 @@
 - type: entity
   id: LanguageImplanterCarptongue
   parent: BaseLanguageImplanter
-  name: language-implanter-carptongue-name
-  description: language-implanter-carptongue-desc
+  name: Carptongue language implanter
+  description: Injects knowledge of Carptongue.
   components:
   - type: Implanter
     implant: LanguageImplantCarptongue
@@ -367,8 +367,8 @@
 - type: entity
   id: LanguageImplanterCat
   parent: BaseLanguageImplanter
-  name: language-implanter-cat-name
-  description: language-implanter-cat-desc
+  name: Cat language implanter
+  description: Injects knowledge of Cat.
   components:
   - type: Implanter
     implant: LanguageImplantCat
@@ -385,8 +385,8 @@
 - type: entity
   id: LanguageImplanterCatFeral
   parent: BaseLanguageImplanter
-  name: language-implanter-catferal-name
-  description: language-implanter-catferal-desc
+  name: Cat (Feral) language implanter
+  description: Injects knowledge of Cat (Feral).
   components:
   - type: Implanter
     implant: LanguageImplantCatFeral
@@ -403,8 +403,8 @@
 - type: entity
   id: LanguageImplanterChicken
   parent: BaseLanguageImplanter
-  name: language-implanter-chicken-name
-  description: language-implanter-chicken-desc
+  name: Chicken language implanter
+  description: Injects knowledge of Chicken.
   components:
   - type: Implanter
     implant: LanguageImplantChicken
@@ -421,8 +421,8 @@
 - type: entity
   id: LanguageImplanterClassical
   parent: BaseLanguageImplanter
-  name: language-implanter-classical-name
-  description: language-implanter-classical-desc
+  name: Classical language implanter
+  description: Injects knowledge of Classical.
   components:
   - type: Implanter
     implant: LanguageImplantClassical
@@ -439,8 +439,8 @@
 - type: entity
   id: LanguageImplanterClassicalSign
   parent: BaseLanguageImplanter
-  name: language-implanter-classicalsign-name
-  description: language-implanter-classicalsign-desc
+  name: Classical Sign Language language implanter
+  description: Injects knowledge of Classical Sign Language.
   components:
   - type: Implanter
     implant: LanguageImplantClassicalSign
@@ -457,8 +457,8 @@
 - type: entity
   id: LanguageImplanterCodeSpeak
   parent: BaseLanguageImplanter
-  name: language-implanter-codespeak-name
-  description: language-implanter-codespeak-desc
+  name: CodeSpeak language implanter
+  description: Injects knowledge of CodeSpeak.
   components:
   - type: Implanter
     implant: LanguageImplantCodeSpeak
@@ -475,8 +475,8 @@
 - type: entity
   id: LanguageImplanterCygniStandard
   parent: BaseLanguageImplanter
-  name: language-implanter-cygnistandard-name
-  description: language-implanter-cygnistandard-desc
+  name: Cygni Standard language implanter
+  description: Injects knowledge of Cygni Standard.
   components:
   - type: Implanter
     implant: LanguageImplantCygniStandard
@@ -493,8 +493,8 @@
 - type: entity
   id: LanguageImplanterDarktongue
   parent: BaseLanguageImplanter
-  name: language-implanter-darktongue-name
-  description: language-implanter-darktongue-desc
+  name: Darktongue language implanter
+  description: Injects knowledge of Darktongue.
   components:
   - type: Implanter
     implant: LanguageImplantDarktongue
@@ -511,8 +511,8 @@
 - type: entity
   id: LanguageImplanterDog
   parent: BaseLanguageImplanter
-  name: language-implanter-dog-name
-  description: language-implanter-dog-desc
+  name: Dog language implanter
+  description: Injects knowledge of Dog.
   components:
   - type: Implanter
     implant: LanguageImplantDog
@@ -529,8 +529,8 @@
 - type: entity
   id: LanguageImplanterDogFeral
   parent: BaseLanguageImplanter
-  name: language-implanter-dogferal-name
-  description: language-implanter-dogferal-desc
+  name: Dog (Feral) language implanter
+  description: Injects knowledge of Dog (Feral).
   components:
   - type: Implanter
     implant: LanguageImplantDogFeral
@@ -547,8 +547,8 @@
 - type: entity
   id: LanguageImplanterDuck
   parent: BaseLanguageImplanter
-  name: language-implanter-duck-name
-  description: language-implanter-duck-desc
+  name: Duck language implanter
+  description: Injects knowledge of Duck.
   components:
   - type: Implanter
     implant: LanguageImplantDuck
@@ -565,8 +565,8 @@
 - type: entity
   id: LanguageImplanterFox
   parent: BaseLanguageImplanter
-  name: language-implanter-fox-name
-  description: language-implanter-fox-desc
+  name: Fox language implanter
+  description: Injects knowledge of Fox.
   components:
   - type: Implanter
     implant: LanguageImplantFox
@@ -583,8 +583,8 @@
 - type: entity
   id: LanguageImplanterMachine
   parent: BaseLanguageImplanter
-  name: language-implanter-machine-name
-  description: language-implanter-machine-desc
+  name: Encoded Audio Language language implanter
+  description: Injects knowledge of Encoded Audio Language.
   components:
   - type: Implanter
     implant: LanguageImplantMachine
@@ -601,8 +601,8 @@
 - type: entity
   id: LanguageImplanterMothroach
   parent: BaseLanguageImplanter
-  name: language-implanter-mothroach-name
-  description: language-implanter-mothroach-desc
+  name: Mothroach language implanter
+  description: Injects knowledge of Mothroach.
   components:
   - type: Implanter
     implant: LanguageImplantMothroach
@@ -619,8 +619,8 @@
 - type: entity
   id: LanguageImplanterMouse
   parent: BaseLanguageImplanter
-  name: language-implanter-mouse-name
-  description: language-implanter-mouse-desc
+  name: Mouse language implanter
+  description: Injects knowledge of Mouse.
   components:
   - type: Implanter
     implant: LanguageImplantMouse
@@ -637,8 +637,8 @@
 - type: entity
   id: LanguageImplanterPenguin
   parent: BaseLanguageImplanter
-  name: language-implanter-penguin-name
-  description: language-implanter-penguin-desc
+  name: Penguin language implanter
+  description: Injects knowledge of Penguin.
   components:
   - type: Implanter
     implant: LanguageImplantPenguin
@@ -655,8 +655,8 @@
 - type: entity
   id: LanguageImplanterPig
   parent: BaseLanguageImplanter
-  name: language-implanter-pig-name
-  description: language-implanter-pig-desc
+  name: Pig language implanter
+  description: Injects knowledge of Pig.
   components:
   - type: Implanter
     implant: LanguageImplantPig
@@ -673,8 +673,8 @@
 - type: entity
   id: LanguageImplanterScratch
   parent: BaseLanguageImplanter
-  name: language-implanter-scratch-name
-  description: language-implanter-scratch-desc
+  name: Scratch language implanter
+  description: Injects knowledge of Scratch.
   components:
   - type: Implanter
     implant: LanguageImplantScratch
@@ -691,8 +691,8 @@
 - type: entity
   id: LanguageImplanterScurretSign
   parent: BaseLanguageImplanter
-  name: language-implanter-scurretsign-name
-  description: language-implanter-scurretsign-desc
+  name: Scurret Sign language implanter
+  description: Injects knowledge of Scurret Sign.
   components:
   - type: Implanter
     implant: LanguageImplantScurretSign
@@ -709,8 +709,8 @@
 - type: entity
   id: LanguageImplanterSign
   parent: BaseLanguageImplanter
-  name: language-implanter-sign-name
-  description: language-implanter-sign-desc
+  name: Galactic Sign Language language implanter
+  description: Injects knowledge of Galactic Sign Language.
   components:
   - type: Implanter
     implant: LanguageImplantSign
@@ -727,8 +727,8 @@
 - type: entity
   id: LanguageImplanterSolCommon
   parent: BaseLanguageImplanter
-  name: language-implanter-solcommon-name
-  description: language-implanter-solcommon-desc
+  name: Sol Common language implanter
+  description: Injects knowledge of Sol Common.
   components:
   - type: Implanter
     implant: LanguageImplantSolCommon
@@ -745,8 +745,8 @@
 - type: entity
   id: LanguageImplanterXeno
   parent: BaseLanguageImplanter
-  name: language-implanter-xeno-name
-  description: language-implanter-xeno-desc
+  name: Xeno language implanter
+  description: Injects knowledge of Xeno.
   components:
   - type: Implanter
     implant: LanguageImplantXeno
@@ -763,8 +763,8 @@
 - type: entity
   id: LanguageImplanterZombie
   parent: BaseLanguageImplanter
-  name: language-implanter-zombie-name
-  description: language-implanter-zombie-desc
+  name: Zombie language implanter
+  description: Injects knowledge of Zombie.
   components:
   - type: Implanter
     implant: LanguageImplantZombie

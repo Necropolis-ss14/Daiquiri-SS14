@@ -99,9 +99,10 @@ public sealed partial class ContentAudioSystem
         switch (args.NewState)
         {
             case LobbyState:
+                var resume = CaptureLobbyResume();
                 _postRoundMusic = false;
                 StopAllAudio();
-                StartLobbyMusic();
+                StartLobbyMusic(resume);
                 break;
             default:
                 // Daiquiri
@@ -727,12 +728,11 @@ public sealed partial class ContentAudioSystem
         _postRoundMusic = playlistChangedEvent.PostRound; // Daiquiri
         var current = _lobbySoundtrackInfo?.Filename;
 
-        // Daiquiri
         if (current != null
-            && _lobbyPlaylist != null
-            && _lobbyPlaylist.SequenceEqual(playlist)
-            && playlist.Contains(current))
+            && (playlist.Contains(current) || _localAddedTracks.Contains(current)))
         {
+            _lobbyPlaylist = playlist;
+            ReconcileOrder();
             LobbyPlaylistChanged?.Invoke();
             return;
         }
@@ -743,6 +743,27 @@ public sealed partial class ContentAudioSystem
         EndLobbyMusic();
         StartLobbyMusic(playlist);
         LobbyPlaylistChanged?.Invoke();
+    }
+
+    private (string Track, float Position)? CaptureLobbyResume()
+    {
+        if (_lobbySoundtrackInfo == null || LobbyMusicPaused)
+            return null;
+
+        try
+        {
+            if (!TryComp(_lobbySoundtrackInfo.MusicStreamEntityUid, out AudioComponent? comp)
+                || !comp.Playing)
+            {
+                return null;
+            }
+
+            return (_lobbySoundtrackInfo.Filename, comp.PlaybackPosition);
+        }
+        catch
+        {
+            return null;
+        }
     }
 
     /// <summary>
@@ -776,7 +797,7 @@ public sealed partial class ContentAudioSystem
     /// <summary>
     /// Re-starts playing lobby music from playlist, last sent from server. if there is currently none - does nothing.
     /// </summary>
-    private void StartLobbyMusic()
+    private void StartLobbyMusic((string Track, float Position)? resume = null)
     {
         if (!_configManager.GetCVar(CCVars.LobbyMusicEnabled)
             || _state.CurrentState is not LobbyState)
@@ -801,7 +822,11 @@ public sealed partial class ContentAudioSystem
             return;
         }
 
-        PlaySoundtrack(GetResumeTrack(pool));
+        var track = GetResumeTrack(pool);
+        PlaySoundtrack(track);
+
+        if (resume is { } previous && previous.Track == track)
+            SeekLobbyTrack(previous.Position);
     }
 
     /// <summary>

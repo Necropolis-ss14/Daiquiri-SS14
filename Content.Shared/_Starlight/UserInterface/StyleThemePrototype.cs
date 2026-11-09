@@ -138,6 +138,13 @@ public sealed partial class StyleThemePrototype : IPrototype
     public bool RawColors;
 
     /// <summary>
+    /// When true, flat panels are rendered with the shader-backed Liquid Glass backdrop
+    /// (blur, refraction, rounded corners and rim lighting) instead of plain translucent boxes.
+    /// </summary>
+    [DataField]
+    public bool LiquidGlass;
+
+    /// <summary>
     /// Secondary accent color, for pressed and selected buttons.
     /// If secondaryAccent is not specified, falls back to Accent.
     /// </summary>

@@ -1,4 +1,5 @@
 using System.Linq;
+using Content.Client._Daiquiri.Options.UI;
 using Content.Client.Options.UI;
 using Content.Client.UserInterface.Screens;
 using Content.Client.UserInterface.Systems.MenuBar.Widgets;
@@ -81,6 +82,11 @@ public sealed partial class UITab : Control
             _cfg.SetCVar(StarlightCCVars.StyleClassicDecorExplicit, true);
         };
         ThemePicker.OnPicked += SyncClassicDecorCheckbox;
+        OpenLiquidGlassButton.OnPressed += _ =>
+            UserInterfaceManager.CreateWindow<LiquidGlassSettingsWindow>().OpenCentered();
+        // The settings only affect the Liquid Glass theme, so the button stays hidden
+        // until that theme is actually selected.
+        UpdateLiquidGlassButton();
         Control.AddOption(new OptionAccentCVar(Control, _cfg, AccentPicker));
         Control.AddOption(new OptionCustomAccentCVar(Control, _cfg, AccentPicker));
         Control.AddOption(new OptionAccentCVar(Control, _cfg, SecondaryAccentPicker, StarlightCCVars.StyleSecondaryAccent));
@@ -163,10 +169,19 @@ public sealed partial class UITab : Control
 
     private void OnStyleThemeChanged(string id)
     {
+        UpdateLiquidGlassButton();
+
         if (_decorStagedByUser || _cfg.GetCVar(StarlightCCVars.StyleClassicDecorExplicit))
             return;
 
         SetDecorFromTheme(id);
+    }
+
+    private void UpdateLiquidGlassButton()
+    {
+        var theme = _cfg.GetCVar(StarlightCCVars.StyleTheme);
+        OpenLiquidGlassButton.Visible = _prototypeManager.TryIndex<StyleThemePrototype>(theme, out var proto)
+            && proto.LiquidGlass;
     }
 
     private void SetDecorFromTheme(string id)
@@ -178,6 +193,10 @@ public sealed partial class UITab : Control
     protected override void EnteredTree()
     {
         base.EnteredTree();
+        // The theme may have changed while this tab was out of the tree (the options
+        // window is closed between uses), so re-read it instead of trusting the
+        // visibility the button had when we left.
+        UpdateLiquidGlassButton();
         _cfg.OnValueChanged(StarlightCCVars.StyleTheme, OnStyleThemeChanged);
         _cfg.OnValueChanged(StarlightCCVars.RangedSight, OnSightCVarChanged);
         _cfg.OnValueChanged(StarlightCCVars.MeleeSight, OnSightCVarChanged);

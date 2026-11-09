@@ -58,6 +58,8 @@ public sealed partial class StylesheetManager
 
     private object ResolveStyleTheme()
     {
+        _liquidGlassThemeActive = false;
+
         if (!_prototype.TryIndex<StyleThemePrototype>(_cfg.GetCVar(StarlightCCVars.StyleTheme), out var proto))
         {
             proto = _prototype.EnumeratePrototypes<StyleThemePrototype>().MinBy(p => p.Order);
@@ -67,6 +69,8 @@ public sealed partial class StylesheetManager
                 return new BaseStylesheet.NoConfig();
             }
         }
+
+        _liquidGlassThemeActive = proto.LiquidGlass;
 
         _hudStyleTheme = proto.Hud is { } hud && _prototype.TryIndex(hud, out var hudProto)
             ? new StyleTheme(hudProto, ResolveAccent(hudProto), ResolveSecondaryAccent(hudProto), ResolveClassicDecor())
@@ -126,10 +130,12 @@ public sealed partial class StylesheetManager
         var sheet = new NanotrasenStylesheet(ResolveStyleTheme(), this);
         Stylesheets[sheet.StylesheetName] = sheet.Stylesheet;
         SheetNanotrasen = sheet.Stylesheet;
-        _userInterfaceManager.Stylesheet = SheetNanotrasen;
         RebuildHudSheet();
-        // Daiquiri
-        RequestGlassRebuild();
+
+        // Daiquiri: only the Liquid Glass theme has a shader sheet; every other theme
+        // uses the plain one.
+        SheetGlassNanotrasen = RebuildGlass(out _);
+        _userInterfaceManager.Stylesheet = _liquidGlassThemeActive ? SheetGlassNanotrasen : SheetNanotrasen;
     }
 
     private void RebuildHudSheet()

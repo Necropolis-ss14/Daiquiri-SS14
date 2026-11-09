@@ -1,0 +1,24 @@
+# The flight console in a box. A console board put through a flatpacker makes the same thing, but
+# this one is handed out ready-made in the salvage lead's locker: the people who own a shuttle are
+# the ones who want a console bolted to it, and they have no reason to queue at research for a
+# board first.
+- type: entity
+  parent: BaseFlatpack
+  id: PlanetConsoleFlatpack
+  name: planet flight console flatpack
+  description: A flatpack for a planet flight console. Charts a course to another planet and jumps the shuttle it is bolted to over to it.
+  components:
+  - type: Flatpack
+    entity: ComputerPlanetConsole
+  # Listed out in full rather than inherited so the wrapping can be coloured by hand: a flatpack
+  # spawned straight into a locker never goes through the packing machine, so nothing ever tells it
+  # which department it came from. Supply brown, for the salvage team.
+  - type: Sprite
+    layers:
+    - state: base
+    - state: overlay
+      color: "#A46106"
+      map: ["enum.FlatpackVisualLayers.Overlay"]
+    - state: icon-default
+  - type: StaticPrice
+    price: 250

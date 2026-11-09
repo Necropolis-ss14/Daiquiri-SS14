@@ -48,19 +48,54 @@ namespace Content.Client.Stylesheets
             return Stylesheets.TryGetValue(name, out stylesheet);
         }
 
-        /// <summary>
-        /// Daiquiri
-        /// </summary>
-        public void SetGlassTheme(bool enabled)
-        {
-            _userInterfaceManager.Stylesheet = enabled ? SheetGlassNanotrasen : SheetNanotrasen;
-        }
-
         private int _glassBuildId;
+
+        // True while the selected style theme asks for the shader-backed Liquid Glass look.
+        private bool _liquidGlassThemeActive;
 
         private Stylesheet RebuildGlass(out int glassified)
         {
-            return GlassTheme.MakeGlass(SheetNanotrasen, GlassTheme.ReadParams(_cfg), out glassified);
+            // Only the LiquidGlass style theme has a glass variant now; every other
+            // theme keeps the plain stylesheet.
+            if (!_liquidGlassThemeActive)
+            {
+                glassified = 0;
+                return SheetNanotrasen;
+            }
+
+            return GlassTheme.MakeGlass(SheetNanotrasen, GlassTheme.ReadLiquidParams(_cfg), out glassified);
+        }
+
+        /// <summary>
+        /// The original Daiquiri "translucency (beta)" look (translucent panels, a
+        /// transparency slider and an accent tint) was replaced by the Liquid Glass
+        /// style theme. Clear the opt-ins so players who had them enabled before the
+        /// update do not keep settings that no longer exist.
+        /// </summary>
+        private void DisableLegacyGlassSettings()
+        {
+            var changed = false;
+
+            if (_cfg.GetCVar(StarlightCCVars.UIGlassTheme))
+            {
+                _cfg.SetCVar(StarlightCCVars.UIGlassTheme, false);
+                changed = true;
+            }
+
+            if (_cfg.GetCVar(StarlightCCVars.UIGlassTransparencyEnabled))
+            {
+                _cfg.SetCVar(StarlightCCVars.UIGlassTransparencyEnabled, false);
+                changed = true;
+            }
+
+            if (_cfg.GetCVar(StarlightCCVars.UIGlassAccentEnabled))
+            {
+                _cfg.SetCVar(StarlightCCVars.UIGlassAccentEnabled, false);
+                changed = true;
+            }
+
+            if (changed)
+                _cfg.SaveToFile();
         }
 
         private void RequestGlassRebuild()
@@ -71,7 +106,7 @@ namespace Content.Client.Stylesheets
                 if (id != _glassBuildId)
                     return;
                 SheetGlassNanotrasen = RebuildGlass(out _);
-                if (_cfg.GetCVar(StarlightCCVars.UIGlassTheme))
+                if (_liquidGlassThemeActive)
                     _userInterfaceManager.Stylesheet = SheetGlassNanotrasen;
             });
         }
@@ -95,16 +130,23 @@ namespace Content.Client.Stylesheets
             SheetSpace = new StyleSpace(_resCache).Stylesheet; // TODO: REMOVE (obsolete)
             Starlight = new StyleStarlight(_resCache).Stylesheet; //🌟Starlight🌟 TODO: REMOVE (obsolete)
             _userInterfaceManager.Stylesheet = SheetNanotrasen;
+            DisableLegacyGlassSettings();
             InitializeStyleTheme(); // Starlight
             SheetGlassNanotrasen = RebuildGlass(out var glassified);
             sawmill.Debug($"Glass theme variant: {glassified} panels glassified.");
-            // Applies the saved theme immediately and live-swaps on CVar change.
-            _cfg.OnValueChanged(StarlightCCVars.UIGlassTheme, SetGlassTheme, true);
-            // Transparency/accent sliders rebuild the glass sheet live (debounced).
-            _cfg.OnValueChanged(StarlightCCVars.UIGlassTransparency, _ => RequestGlassRebuild());
-            _cfg.OnValueChanged(StarlightCCVars.UIGlassTransparencyEnabled, _ => RequestGlassRebuild());
-            _cfg.OnValueChanged(StarlightCCVars.UIGlassAccentEnabled, _ => RequestGlassRebuild());
-            _cfg.OnValueChanged(StarlightCCVars.UIGlassAccent, _ => RequestGlassRebuild());
+
+            // Liquid Glass settings also rebuild the glass sheet live (debounced).
+            _cfg.OnValueChanged(StarlightCCVars.UILiquidGlassEnabled, _ => RequestGlassRebuild());
+            _cfg.OnValueChanged(StarlightCCVars.UILiquidGlassBlur, _ => RequestGlassRebuild());
+            _cfg.OnValueChanged(StarlightCCVars.UILiquidGlassRefraction, _ => RequestGlassRebuild());
+            _cfg.OnValueChanged(StarlightCCVars.UILiquidGlassHighlight, _ => RequestGlassRebuild());
+            _cfg.OnValueChanged(StarlightCCVars.UILiquidGlassOpacity, _ => RequestGlassRebuild());
+            _cfg.OnValueChanged(StarlightCCVars.UILiquidGlassTint, _ => RequestGlassRebuild());
+            _cfg.OnValueChanged(StarlightCCVars.UILiquidGlassTintEnabled, _ => RequestGlassRebuild());
+            _cfg.OnValueChanged(StarlightCCVars.UILiquidGlassTintColor, _ => RequestGlassRebuild());
+            _cfg.OnValueChanged(StarlightCCVars.UILiquidGlassCornerRadius, _ => RequestGlassRebuild());
+            _cfg.OnValueChanged(StarlightCCVars.UILiquidGlassQuality, _ => RequestGlassRebuild());
+            _cfg.OnValueChanged(StarlightCCVars.UILiquidGlassAnimate, _ => RequestGlassRebuild());
 
             // warn about unused sheetlets
             if (UnusedSheetlets.Count > 0)

@@ -8,6 +8,7 @@
     - id: ClothingNeckMantleDecoratedSalvager
     - id: ITGTrackerImplanter
     - id: SalvageTechFabFlatpack
+    - id: PlanetConsoleFlatpack # Daiquiri - the lead is the one with a shuttle to bolt it to
     - id: Multitool
 
 - type: entityTable

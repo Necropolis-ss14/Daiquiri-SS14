@@ -1,0 +1,39 @@
+# Creatures seeded into generated planets through the biome marker layers, the same way the
+# salvage expeditions seed ore. Vanilla marker layers stay untouched, these are our own ids so the
+# group sizes can be tuned for a planet rather than for a salvage wreck.
+
+- type: biomeMarkerLayer
+  id: DaiquiriGoliaths
+  prototype: MobGoliath
+  minGroupSize: 1
+  maxGroupSize: 2
+
+- type: biomeMarkerLayer
+  id: DaiquiriWhiteGorillas
+  prototype: MobWhiteGorilla
+  minGroupSize: 1
+  maxGroupSize: 2
+
+- type: biomeMarkerLayer
+  id: DaiquiriWhiteBears
+  prototype: MobBearWhite
+  minGroupSize: 1
+  maxGroupSize: 1
+
+- type: biomeMarkerLayer
+  id: DaiquiriBrownBears
+  prototype: MobBearBrown
+  minGroupSize: 1
+  maxGroupSize: 1
+
+- type: biomeMarkerLayer
+  id: DaiquiriReindeerBucks
+  prototype: MobReindeerBuck
+  minGroupSize: 1
+  maxGroupSize: 2
+
+- type: biomeMarkerLayer
+  id: DaiquiriReindeerDoes
+  prototype: MobReindeerDoe
+  minGroupSize: 2
+  maxGroupSize: 4
