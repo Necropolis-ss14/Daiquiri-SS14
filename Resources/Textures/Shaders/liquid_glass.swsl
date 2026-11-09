@@ -74,10 +74,13 @@ void fragment()
     highp vec2 uv = UV;
     highp vec2 screenUv = UV2;
 
+#ifdef HAS_DFDX
     highp vec2 panelSize = 1.0 / max(fwidth(uv), vec2(0.0001));
     highp vec2 uvPerPixel = fwidth(screenUv);
+#else
     highp vec2 panelSize = vec2(256.0);
     highp vec2 uvPerPixel = SCREEN_PIXEL_SIZE;
+#endif
 
     highp vec2 halfSize = panelSize * 0.5;
     highp float radius = min(CornerRadius, min(halfSize.x, halfSize.y));

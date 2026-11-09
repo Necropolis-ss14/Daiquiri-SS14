@@ -6,7 +6,7 @@
   biome: Snow
   parallax: DaiquiriTaipanSurface
   mapLight: "#A9C8DE"
-  temperature: -30
+  temperature: -60
   atmosphere:
     Oxygen: 21.8
     Nitrogen: 82.1

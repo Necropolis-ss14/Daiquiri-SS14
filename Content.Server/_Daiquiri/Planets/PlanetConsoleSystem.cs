@@ -13,6 +13,7 @@ using Content.Shared.Parallax.Biomes;
 using Content.Shared.Jittering;
 using Content.Shared.Popups;
 using Content.Shared.Shuttles.Components;
+using Content.Shared.Station.Components;
 using Robust.Server.GameObjects;
 using Robust.Shared.Audio;
 using Robust.Shared.Audio.Systems;
@@ -183,10 +184,10 @@ public sealed partial class PlanetConsoleSystem : EntitySystem
 
         _biome.EnsurePlanet(mapUid, _prototype.Index(planet.Biome), mapLight: planet.MapLight);
 
-        if (TryComp<SunShadowCycleComponent>(mapUid, out var sunShadow))
+        if (TryComp<LightCycleComponent>(mapUid, out var lightCycle))
         {
-            sunShadow.Duration = TimeSpan.FromMinutes(10);
-            Dirty(mapUid, sunShadow);
+            lightCycle.Duration = TimeSpan.FromMinutes(15);
+            Dirty(mapUid, lightCycle);
         }
 
         if (TryComp<BiomeComponent>(mapUid, out var biome))
@@ -225,15 +226,19 @@ public sealed partial class PlanetConsoleSystem : EntitySystem
         if (Transform(uid).GridUid is not { } gridUid)
             return "planet-console-blocked-no-grid";
 
-        // The cargo, salvage and salvage specialist shuttles are station members like the station's
-        // own floor is, so belonging to a station says nothing about whether a grid can fly. What
-        // tells a shuttle apart is the shuttle component.
-        if (!HasComp<ShuttleComponent>(gridUid))
+        if (_station.GetOwningStation(gridUid) is not { } stationUid
+            || !TryComp<StationDataComponent>(stationUid, out var stationData))
         {
-            return _station.GetOwningStation(gridUid) != null
-                ? "planet-console-blocked-station"
-                : "planet-console-blocked-not-shuttle";
+            return null;
         }
+
+        var mainGrids = stationData.MainGrids;
+
+        if (mainGrids.Contains(gridUid))
+            return "planet-console-blocked-station";
+
+        if (mainGrids.Count == 0 && _station.GetLargestGrid((stationUid, stationData)) == gridUid)
+            return "planet-console-blocked-station";
 
         return null;
     }
