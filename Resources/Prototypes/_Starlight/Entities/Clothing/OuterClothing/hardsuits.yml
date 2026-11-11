@@ -381,13 +381,6 @@
       damageCoefficient: 0.3
     - type: ZombificationResistance
       zombificationResistanceCoefficient: 0.50
-    - type: IdClothingBlocker
-      allowedAccesses:
-        - Security
-        - Armory
-        - HeadOfSecurity
-        - Captain
-        - Detective
     - type: Pierceable
       level: Metal
     - type: Armor
@@ -410,9 +403,6 @@
           pitch: 0.7
           variation: 0.025
     - type: HeldSpeedModifier
-    - type: Tag
-      tags:
-        - RequiredForLmgTag
     - type: ToggleableClothing
       clothingPrototype: ClothingHeadHelmetHardsuitSecurityExperimental
 

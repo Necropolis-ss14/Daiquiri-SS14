@@ -351,21 +351,14 @@
     mindShieldStatusIcon: ITGMindShieldIcon
 
 - type: entity
-  parent: BaseSubdermalImplant
+  parent: DeathRattleImplant
   id: PollenDistressImplant
   name: "цветочная пыльца бедствия"
   description: "Органический коммуникационный имплант, передающий сигналы бедствия через споро-улей дион."
   categories: [HideSpawnMenu]
   components:
-    - type: SubdermalImplant
-    - type: TriggerOnMobstateChange
-      mobState:
-        - Critical
-        - Dead
     - type: RattleOnTrigger
-      targetUser: true
       radioChannel:
         - SporeRadio
       messages:
-        Critical: pollen-alert-pollen-critical
         Dead: pollen-alert-pollen-dead
