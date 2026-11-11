@@ -3,7 +3,7 @@
                       xmlns:parallax="clr-namespace:Content.Client.Parallax"
                       Title="{Loc 'planet-console-window-title'}"
                       Resizable="False"
-                      SetSize="1250 580">
+                      SetSize="1250 790">
     <parallax:ParallaxControl Name="Space" Access="Public"
                               ParallaxPrototype="FastSpace"
                               SpeedX="12" SpeedY="4"

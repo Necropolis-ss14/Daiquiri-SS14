@@ -853,7 +853,7 @@
     access: [[ "Command" ]]
   - type: CommunicationsConsole
     title: comms-console-announcement-title-command # Starlight
-    sound: /Audio/_Starlight/Announcements/announce2.ogg #Starlight
+    sound: /Audio/_CorvaxGoob/Announcements/announce.ogg #Starlight
   - type: DeviceNetwork
     deviceNetId: Wireless
     transmitFrequencyId: ShuttleTimer
@@ -908,7 +908,7 @@
     canShuttle: false
     global: true #announce to everyone they're about to fuck shit up
     announceSentBy: false # The title already says who they are.
-    sound: /Audio/Announcements/war.ogg
+    sound: /Audio/_CorvaxGoob/Announcements/war3.ogg
   - type: SecureCommandTerminalConsole # SL
     enabled: false
   - type: Computer
@@ -944,7 +944,7 @@
     canShuttle: false
     global: true #announce to everyone they're about to fuck shit up
     announceSentBy: false
-    sound: /Audio/Announcements/war.ogg # SL - Revert this back to war sound
+    sound: /Audio/_CorvaxGoob/Announcements/war3.ogg # SL - Revert this back to war sound
   - type: SecureCommandTerminalConsole # SL
     enabled: false
   - type: Computer

@@ -1,3 +1,9 @@
+signal-port-name-toggleable-device-status = Статус
+signal-port-description-toggleable-device-status = Высокий, пока устройство включено; низкий, пока выключено.
+
+signal-port-name-toggleable-device-status-inverted = Инвертированный статус
+signal-port-description-toggleable-device-status-inverted = Низкий, пока устройство включено; высокий, пока выключено.
+
 signal-port-name-body-scanner-sender = Операционная консоль
 signal-port-description-body-scanner-sender = Получает информацию о пациенте только от операционного стола.
 

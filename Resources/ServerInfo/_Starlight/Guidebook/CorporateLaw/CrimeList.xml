@@ -341,7 +341,7 @@
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-      Violation of Bodily Autonomy
+      Нарушение телесной автономии
       </Box>
     </ColorBox>
     <ColorBox>
@@ -878,12 +878,12 @@
     </ColorBox>
     <ColorBox Color="#593a4e">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Violation of Bodily Autonomy
+        Нарушение телесной автономии
       </Box>
     </ColorBox>
     <ColorBox Color="#593a4e">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        To unlawfully implant, de-implant, take control of, or otherwise modify another person's body without their consent.\n\nThis does not apply to persons who do not own their own body, such as Silicons.
+        Незаконно имплантировать, деимплантировать, брать под контроль или иным образом изменять тело другого человека без его согласия.\n\nНе применяется к лицам, которые не владеют собственным телом, например к силиконам.
       </Box>
     </ColorBox>
     <ColorBox Color="#2e422e">

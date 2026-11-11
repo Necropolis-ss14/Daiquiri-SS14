@@ -24,6 +24,26 @@ ui-options-hitscan-prediction = Предсказывать собственны�
 ui-options-hitscan-prediction-tooltip = Пули отрисовываются в момент выстрела, не дожидаясь сервера.
     Попадания по-прежнему определяет сервер.
 
+ui-options-atmosphere-label = Освещение и атмосфера
+ui-options-light-tonemap = Мягкий свет
+ui-options-light-tonemap-tooltip = Сглаживает яркие пятна в местах пересечения источников света, чтобы спрайты не выцветали.
+ui-options-night-vision = Ночное зрение
+ui-options-night-vision-tooltip = Плохо освещённые области теряют цвет и становятся холодно-синими — так глаз видит в темноте.
+ui-options-vignette = Виньетка
+ui-options-vignette-tooltip = Затемняет края обзора.
+ui-options-bloom = Свечение
+ui-options-bloom-tooltip = Экраны, лампы и другие светящиеся объекты испускают свет вокруг себя, особенно в темноте. Снижает производительность.
+ui-options-film-grain = Зернистость плёнки
+ui-options-film-grain-tooltip = Накладывает лёгкую зернистость на изображение.
+ui-options-night-vision-strength = Сила ночного зрения
+ui-options-vignette-strength = Сила виньетки
+ui-options-bloom-strength = Сила свечения
+ui-options-bloom-threshold = Порог свечения
+ui-options-bloom-threshold-desc = Насколько пиксель должен быть ярче своего света, чтобы светиться. Чем ниже, тем больше объектов светится.
+ui-options-bloom-radius = Радиус свечения
+ui-options-bloom-radius-desc = Как далеко распространяется свечение.
+ui-options-film-grain-strength = Сила зернистости плёнки
+
 ## Accessibility
 
 ui-options-arachnophobia = Режим арахнофобии

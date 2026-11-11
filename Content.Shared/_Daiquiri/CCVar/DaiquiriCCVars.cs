@@ -154,4 +154,7 @@ public sealed class DaiquiriCCVars
     /// </summary>
     public static readonly CVarDef<float> ChessLichessLinkTimeoutSeconds =
         CVarDef.Create("chess.lichess_link_timeout_seconds", 600f, CVar.SERVERONLY);
+
+    public static readonly CVarDef<bool> PlanetDiscoverySoundEnabled =
+        CVarDef.Create("audio.planet_discovery_sound", true, CVar.ARCHIVE | CVar.CLIENTONLY);
 }

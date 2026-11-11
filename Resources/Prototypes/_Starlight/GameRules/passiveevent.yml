@@ -81,7 +81,7 @@
       startAnnouncementColor: Red
       startAnnouncement: station-event-solarflare-start-announcement
       startAudio:
-        path: /Audio/Misc/notice1.ogg
+        path: /Audio/_CorvaxGoob/Announcements/comms_blackout.ogg
       endAnnouncement: station-event-solarflare-end-announcement
       endAudio:
         path: /Audio/Announcements/announce.ogg

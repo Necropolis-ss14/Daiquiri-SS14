@@ -1,26 +1,26 @@
 using System.Linq;
-using Content.Client.Parallax;
-using Content.Client.Parallax.Data;
 using Content.Client.Stylesheets;
 using Content.Client.UserInterface.Controls;
 using Content.Shared._Daiquiri.Planets;
 using Content.Shared.Atmos;
+using Robust.Client.GameObjects;
 using Robust.Client.Graphics;
 using Robust.Client.UserInterface;
 using Robust.Client.UserInterface.Controls;
 using Robust.Shared.Maths;
-using Robust.Shared.Prototypes;
 
 namespace Content.Client._Daiquiri.Planets.UI;
 
 public sealed class PlanetCard : PanelContainer
 {
     public const float CardWidth = 380f;
-    public const float CardHeight = 340f;
+    public const float CardHeight = 588f;
 
-    private const float DescriptionMaxHeight = 72f;
+    /// Caps the description at five lines of the default 12 px UI font. The box clips instead of
+    /// growing, so the print button below it is never squeezed out of the card.
+    private const float DescriptionMaxHeight = 92f;
 
-    private const float BannerHeight = 92f;
+    private const float BannerHeight = 320f;
 
     private static readonly Color CardBackground = Color.FromHex("#141A21");
     private static readonly Color MutedText = Color.FromHex("#AEBAC4");
@@ -49,13 +49,9 @@ public sealed class PlanetCard : PanelContainer
 
     private Button _printButton = default!;
 
-    private ParallaxControl? _banner;
-
     public PlanetCard(PlanetDestinationPrototype planet)
     {
         PlanetId = planet.ID;
-
-        var prototype = IoCManager.Resolve<IPrototypeManager>();
 
         SetWidth = CardWidth;
         SetHeight = CardHeight;
@@ -73,8 +69,7 @@ public sealed class PlanetCard : PanelContainer
         };
 
         AddChild(root);
-        root.AddChild(MakeBanner(planet, prototype));
-        UpdateBannerScale();
+        root.AddChild(MakeBanner(planet));
         root.AddChild(new PanelContainer
         {
             SetHeight = 3f,
@@ -83,28 +78,7 @@ public sealed class PlanetCard : PanelContainer
         root.AddChild(MakeBody(planet));
     }
 
-    protected override void Resized()
-    {
-        base.Resized();
-        UpdateBannerScale();
-    }
-
-    private void UpdateBannerScale()
-    {
-        if (_banner == null)
-            return;
-
-        var width = Size.X > 0f ? Size.X : CardWidth;
-        var scale = 1920f / width;
-
-        if (MathHelper.CloseTo(_banner.ScaleX, scale))
-            return;
-
-        _banner.ScaleX = scale;
-        _banner.ScaleY = scale;
-    }
-
-    private Control MakeBanner(PlanetDestinationPrototype planet, IPrototypeManager prototype)
+    private static Control MakeBanner(PlanetDestinationPrototype planet)
     {
         var banner = new Control
         {
@@ -112,11 +86,15 @@ public sealed class PlanetCard : PanelContainer
             RectClipContent = true,
         };
 
-        var parallax = planet.Parallax;
-        if (parallax != null && prototype.HasIndex<ParallaxPrototype>(parallax))
+        if (planet.Banner != null)
         {
-            _banner = new ParallaxControl { ParallaxPrototype = parallax };
-            banner.AddChild(_banner);
+            var sprites = IoCManager.Resolve<IEntitySystemManager>().GetEntitySystem<SpriteSystem>();
+
+            banner.AddChild(new TextureRect
+            {
+                Texture = sprites.Frame0(planet.Banner),
+                Stretch = TextureRect.StretchMode.KeepAspectCovered,
+            });
         }
 
         banner.AddChild(new PanelContainer

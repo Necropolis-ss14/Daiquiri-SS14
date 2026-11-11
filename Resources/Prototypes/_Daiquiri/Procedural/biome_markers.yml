@@ -1,7 +1,7 @@
 
 - type: biomeMarkerLayer
   id: DaiquiriGoliaths
-  prototype: MobGoliath
+  prototype: MobDaiquiriGoliath
   minGroupSize: 1
   maxGroupSize: 2
 

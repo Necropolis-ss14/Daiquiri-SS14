@@ -1,9 +1,12 @@
 using System.Linq;
 using System.Numerics;
 using Content.Server.Atmos.EntitySystems;
+using Content.Server.GameTicking;
 using Content.Server.Jittering;
+using Content.Server.Light.EntitySystems;
 using Content.Server.Parallax;
 using Content.Server.Shuttles.Components;
+using Content.Server.Shuttles.Events;
 using Content.Server.Shuttles.Systems;
 using Content.Server.Station.Systems;
 using Content.Shared._Daiquiri.Planets;
@@ -19,6 +22,7 @@ using Robust.Shared.Audio;
 using Robust.Shared.Audio.Systems;
 using Robust.Shared.GameObjects;
 using Robust.Shared.Map;
+using Robust.Shared.Player;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Timing;
 
@@ -28,6 +32,8 @@ public sealed partial class PlanetConsoleSystem : EntitySystem
 {
     [Dependency] private IGameTiming _timing = default!;
     [Dependency] private IPrototypeManager _prototype = default!;
+    [Dependency] private GameTicker _gameTicker = default!;
+    [Dependency] private LightCycleSystem _lightCycle = default!;
     [Dependency] private AtmosphereSystem _atmos = default!;
     [Dependency] private BiomeSystem _biome = default!;
     [Dependency] private MetaDataSystem _metaData = default!;
@@ -59,6 +65,8 @@ public sealed partial class PlanetConsoleSystem : EntitySystem
 
         SubscribeLocalEvent<PlanetConsoleComponent, BoundUIOpenedEvent>(OnUiOpened);
         SubscribeLocalEvent<PlanetConsoleComponent, PlanetConsolePrintMessage>(OnPrintMessage);
+        SubscribeLocalEvent<PlanetJumpCooldownComponent, FTLCompletedEvent>(OnPlanetJumpCompleted);
+        SubscribeLocalEvent<ActorComponent, EntParentChangedMessage>(OnActorParentChanged);
     }
 
     private void OnUiOpened(Entity<PlanetConsoleComponent> ent, ref BoundUIOpenedEvent args)
@@ -142,6 +150,49 @@ public sealed partial class PlanetConsoleSystem : EntitySystem
         UpdateUi((uid, comp));
     }
 
+    /// <summary>
+    /// Daiquiri: whenever a shuttle arrives at a planet it is always daytime, and the cycle then
+    /// carries the planet towards dusk and night. The client evaluates the cycle from the round
+    /// time plus <see cref="LightCycleComponent.Offset"/>, so the offset is rebased on every arrival.
+    /// </summary>
+    private void OnPlanetJumpCompleted(Entity<PlanetJumpCooldownComponent> ent, ref FTLCompletedEvent args)
+    {
+        if (!HasComp<PlanetMapComponent>(args.MapUid)
+            || !TryComp<LightCycleComponent>(args.MapUid, out var lightCycle))
+        {
+            return;
+        }
+
+        // Half the cycle is the brightest point (midday) of the light curve.
+        var midday = lightCycle.Duration / 2 - _gameTicker.RoundDuration();
+        _lightCycle.SetOffset((args.MapUid, lightCycle), midday);
+    }
+
+    private void OnActorParentChanged(Entity<ActorComponent> ent, ref EntParentChangedMessage args)
+    {
+        if (ent.Comp.PlayerSession is not { } session)
+            return;
+
+        if (args.Transform.GridUid is not { } grid
+            || !TryComp<PlanetMapComponent>(grid, out var planetMap))
+        {
+            return;
+        }
+
+        if (!_prototype.TryIndex(planetMap.Planet, out var planet))
+            return;
+
+        var tracker = EnsureComp<PlanetDiscoveryTrackerComponent>(ent);
+        if (!tracker.Discovered.Add(planetMap.Planet))
+            return;
+
+        RaiseNetworkEvent(new PlanetDiscoveredEvent
+        {
+            Name = planet.Name,
+            Accent = planet.Accent,
+        }, Filter.SinglePlayer(session));
+    }
+
     private void PopupStep(EntityUid uid, LocId message)
     {
         if (TerminatingOrDeleted(uid) || !TryComp<PlanetConsoleComponent>(uid, out var comp) || comp.Printing == null)
@@ -187,6 +238,12 @@ public sealed partial class PlanetConsoleSystem : EntitySystem
         if (TryComp<LightCycleComponent>(mapUid, out var lightCycle))
         {
             lightCycle.Duration = TimeSpan.FromMinutes(15);
+            // Daiquiri: the phase is set on arrival instead of being randomised on map init.
+            lightCycle.InitialOffset = false;
+            // Daiquiri: the darkest color and the brightness floor come from the planet.
+            lightCycle.MinLevel = planet.CycleMinLevel;
+            lightCycle.MaxLevel = planet.CycleMaxLevel;
+            lightCycle.MinLightLevel = planet.CycleMinLightLevel;
             Dirty(mapUid, lightCycle);
         }
 

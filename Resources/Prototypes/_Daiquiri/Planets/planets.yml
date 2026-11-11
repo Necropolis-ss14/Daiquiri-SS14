@@ -5,7 +5,10 @@
   description: planet-taipan-desc
   biome: Snow
   parallax: DaiquiriTaipanSurface
-  mapLight: "#A9C8DE"
+  banner:
+    sprite: _Daiquiri/Planets/planet_banners.rsi
+    state: taipan
+  mapLight: "#9CC4E8"
   temperature: -60
   atmosphere:
     Oxygen: 21.8
@@ -30,7 +33,10 @@
   description: planet-lavaland-desc
   biome: Lava
   parallax: DaiquiriLavalandSurface
-  mapLight: "#A34931"
+  banner:
+    sprite: _Daiquiri/Planets/planet_banners.rsi
+    state: lavaland
+  mapLight: "#B35C2A"
   temperature: 118
   atmosphere:
     Oxygen: 5
@@ -55,8 +61,14 @@
   description: planet-novonihon-desc
   biome: Grasslands
   parallax: DaiquiriNovoNihonSurface
-  mapLight: "#D9DCC0"
-  temperature: 14
+  banner:
+    sprite: _Daiquiri/Planets/planet_banners.rsi
+    state: novonihon
+  mapLight: "#CCCCCC"
+  cycleMinLevel: "#19267FFF"
+  cycleMaxLevel: "#F5E77E"
+  cycleMinLightLevel: 0.35
+  temperature: 20
   atmosphere:
     Oxygen: 21.8
     Nitrogen: 82.1

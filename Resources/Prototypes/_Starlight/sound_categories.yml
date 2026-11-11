@@ -104,6 +104,7 @@
   paths:
   - /Audio/Announcements/
   - /Audio/_Starlight/Announcements/
+  - /Audio/_CorvaxGoob/Announcements/
   - /Audio/Misc/notice1.ogg
   - /Audio/Misc/notice2.ogg
   - /Audio/Misc/redalert.ogg

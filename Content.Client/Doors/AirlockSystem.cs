@@ -11,6 +11,7 @@ namespace Content.Client.Doors;
 public sealed partial class AirlockSystem : SharedAirlockSystem
 {
     [Dependency] private AppearanceSystem _appearanceSystem = default!;
+    [Dependency] private AnimationPlayerSystem _animationSystem = default!;
     [Dependency] private SpriteSystem _sprite = default!;
 
     public override void Initialize()
@@ -18,6 +19,7 @@ public sealed partial class AirlockSystem : SharedAirlockSystem
         base.Initialize();
         SubscribeLocalEvent<AirlockComponent, ComponentStartup>(OnComponentStartup);
         SubscribeLocalEvent<AirlockComponent, AppearanceChangeEvent>(OnAppearanceChange);
+        SubscribeLocalEvent<AirlockComponent, AnimationCompletedEvent>(OnAnimationCompleted);
     }
 
     private void OnComponentStartup(EntityUid uid, AirlockComponent comp, ComponentStartup args)
@@ -123,27 +125,56 @@ public sealed partial class AirlockSystem : SharedAirlockSystem
             );
         }
 
-        // GoobStation: Explicitly set the BaseUnlit state so idle open/closed doors show the correct light strip.
-        // Some custom RSIs (e.g. Starlight glass airlocks) lack open_unlit; hide the layer instead of spamming errors.
-        if (comp.OpenUnlitVisible)
+        // GoobStation: idle open/closed doors should show the correct light strip.
+        // While a door animation is running its tracks own the BaseUnlit layer and rewrite
+        // opening_unlit/closing_unlit every frame, so touching the state here would make the strip flicker.
+        // OnAnimationCompleted applies the idle state once the animation is actually done.
+        if (comp.OpenUnlitVisible
+            && !_animationSystem.HasRunningAnimation(uid, DoorComponent.OpenKey)
+            && !_animationSystem.HasRunningAnimation(uid, DoorComponent.CloseKey))
         {
-            var unlitState = state switch
-            {
-                DoorState.Open => comp.OpenSpriteState,
-                DoorState.Closed => comp.ClosedSpriteState,
-                DoorState.Opening => comp.OpeningSpriteState,
-                DoorState.Closing => comp.ClosingSpriteState,
-                DoorState.Denying => comp.DenySpriteState,
-                _ => null,
-            };
+            UpdateIdleUnlitState(uid, comp, args.Sprite, state);
+        }
+    }
 
-            if (unlitState != null)
-            {
-                if (HasUnlitState(uid, unlitState))
-                    _sprite.LayerSetRsiState((uid, args.Sprite), DoorVisualLayers.BaseUnlit, unlitState);
-                else
-                    _sprite.LayerSetVisible((uid, args.Sprite), DoorVisualLayers.BaseUnlit, false);
-            }
+    private void OnAnimationCompleted(EntityUid uid, AirlockComponent comp, ref AnimationCompletedEvent args)
+    {
+        if (!args.Finished || (args.Key != DoorComponent.OpenKey && args.Key != DoorComponent.CloseKey))
+            return;
+
+        if (!TryComp<SpriteComponent>(uid, out var sprite) || !TryComp<DoorComponent>(uid, out var door))
+            return;
+
+        UpdateIdleUnlitState(uid, comp, sprite, door.State);
+    }
+
+    /// <summary>
+    /// Sets the light strip to the idle state for the given door state, hiding the layer when the RSI has no
+    /// matching state (e.g. the custom Starlight glass airlocks have no <c>open_unlit</c>).
+    /// </summary>
+    private void UpdateIdleUnlitState(EntityUid uid, AirlockComponent comp, SpriteComponent sprite, DoorState state)
+    {
+        if (!comp.OpenUnlitVisible)
+            return;
+
+        var unlitState = state switch
+        {
+            DoorState.Open => comp.OpenSpriteState,
+            DoorState.Closed => comp.ClosedSpriteState,
+            _ => null,
+        };
+
+        if (unlitState == null)
+            return;
+
+        if (HasUnlitState(uid, unlitState))
+        {
+            _sprite.LayerSetRsiState((uid, sprite), DoorVisualLayers.BaseUnlit, unlitState);
+            _sprite.LayerSetAutoAnimated((uid, sprite), DoorVisualLayers.BaseUnlit, true);
+        }
+        else
+        {
+            _sprite.LayerSetVisible((uid, sprite), DoorVisualLayers.BaseUnlit, false);
         }
     }
 

@@ -601,7 +601,7 @@
       access: [[ "ChiefEngineer" ]]
     - type: CommunicationsConsole
       title: comms-console-announcement-title-eng
-      sound: /Audio/_Starlight/Announcements/announce2.ogg
+      sound: /Audio/_CorvaxGoob/Announcements/announce.ogg
       color: "#ff733c"
       settableAlertLevels:
         - green
@@ -643,7 +643,7 @@
       access: [[ "ChiefMedicalOfficer" ]]
     - type: CommunicationsConsole
       title: comms-console-announcement-title-med
-      sound: /Audio/_Starlight/Announcements/announce2.ogg
+      sound: /Audio/_CorvaxGoob/Announcements/announce.ogg
       color: "#57b8f0"
       settableAlertLevels: []
       canBroadcast: false
@@ -682,7 +682,7 @@
       access: [[ "ResearchDirector" ]]
     - type: CommunicationsConsole
       title: comms-console-announcement-title-sci
-      sound: /Audio/_Starlight/Announcements/announce2.ogg
+      sound: /Audio/_CorvaxGoob/Announcements/announce.ogg
       color: "#cd7ccd"
       settableAlertLevels: []
       canBroadcast: false
@@ -721,7 +721,7 @@
       access: [[ "HeadOfSecurity", "Armory" ]]
     - type: CommunicationsConsole
       title: comms-console-announcement-title-sec
-      sound: /Audio/_Starlight/Announcements/announce2.ogg
+      sound: /Audio/_CorvaxGoob/Announcements/announce.ogg
       color: "#ff4242"
       settableAlertLevels:
         - green
@@ -763,7 +763,7 @@
       access: [[ "HeadOfPersonnel" ]]
     - type: CommunicationsConsole
       title: comms-console-announcement-title-srv
-      sound: /Audio/_Starlight/Announcements/announce2.ogg
+      sound: /Audio/_CorvaxGoob/Announcements/announce.ogg
       color: "#539c00"
       settableAlertLevels: []
       canBroadcast: false
@@ -802,7 +802,7 @@
       access: [[ "Quartermaster" ]]
     - type: CommunicationsConsole
       title: comms-console-announcement-title-sup
-      sound: /Audio/_Starlight/Announcements/announce2.ogg
+      sound: /Audio/_CorvaxGoob/Announcements/announce.ogg
       color: "#b48b57"
       settableAlertLevels: []
       canBroadcast: false

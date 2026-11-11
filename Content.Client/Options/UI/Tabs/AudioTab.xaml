@@ -80,6 +80,7 @@
                         <sui:OptionSlider Name="SliderAdminSounds" Title="{Loc 'ui-options-admin-sounds-volume'}" /> <!-- Starlight -->
                         <CheckBox Name="AdminSoundsCheckBox" Text="{Loc 'ui-options-admin-sounds'}" Margin="0 8 0 0" />
                         <CheckBox Name="BwoinkSoundCheckBox" Text="{Loc 'ui-options-bwoink-sound'}" />
+                        <CheckBox Name="PlanetDiscoverySoundCheckBox" Text="{Loc 'ui-options-planet-discovery-sound'}" />
                     </BoxContainer>
                 </PanelContainer>
             </BoxContainer>
