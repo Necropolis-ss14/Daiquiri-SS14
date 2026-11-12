@@ -87,7 +87,7 @@
 
 - type: entity
   id: RecordMilkCrate
-  parent: BaseMilkCrate
+  parent: BaseRecordCrate
   name: ящик для пластинок
   description: Прочный пластиковый молочный ящик, приспособленный для хранения виниловых пластинок в конвертах. Больше ничего не вмещает.
   components:

@@ -21,12 +21,6 @@ public sealed partial class PlanetWeatherComponent : Component
     public EntProtoId? Lightning;
 
     [ViewVariables(VVAccess.ReadWrite)]
-    public EntProtoId LightningDuring = string.Empty;
-
-    [ViewVariables(VVAccess.ReadWrite)]
-    public float LightningChancePerSecond;
-
-    [ViewVariables(VVAccess.ReadWrite)]
     public float LightningShockDamage;
 
     [ViewVariables(VVAccess.ReadWrite)]

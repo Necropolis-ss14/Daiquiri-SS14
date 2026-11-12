@@ -57,8 +57,6 @@ public sealed partial class PlanetWeatherSystem : EntitySystem
         comp.DamageType = planet.WeatherDamageType;
         comp.DamagePerSecond = planet.WeatherDamagePerSecond;
         comp.Lightning = planet.Lightning;
-        comp.LightningDuring = planet.LightningDuring;
-        comp.LightningChancePerSecond = planet.LightningChancePerSecond;
         comp.LightningShockDamage = planet.LightningShockDamage;
         comp.Active = false;
         comp.StormEnd = TimeSpan.Zero;
@@ -140,11 +138,18 @@ public sealed partial class PlanetWeatherSystem : EntitySystem
 
     private void TryStrike(EntityUid mapUid, PlanetWeatherComponent comp, float frameTime)
     {
-        if (comp.Lightning is not { } bolt || comp.Current != comp.LightningDuring)
+        if (comp.Lightning is not { } bolt || comp.CurrentWeather is not { } weather)
             return;
 
-        if (comp.LightningChancePerSecond <= 0f ||
-            _random.NextFloat() > comp.LightningChancePerSecond * frameTime)
+        if (TerminatingOrDeleted(weather))
+            return;
+
+        if (!TryComp<PlanetWeatherLightningComponent>(weather, out var lightning))
+            return;
+
+        // A chance per second, rolled per frame, which is the same thing and needs no clock.
+        if (lightning.ChancePerSecond <= 0f ||
+            _random.NextFloat() > lightning.ChancePerSecond * frameTime)
         {
             return;
         }

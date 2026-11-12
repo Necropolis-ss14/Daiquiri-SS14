@@ -25,6 +25,8 @@
   - type: PlanetWeatherAnnouncement
     startMessage: planet-weather-drizzle-start
     endMessage: planet-weather-drizzle-end
+  - type: PlanetWeatherLightning
+    chancePerSecond: 0.005
 
 - type: entity
   parent: WeatherRain
@@ -37,6 +39,8 @@
   - type: PlanetWeatherAnnouncement
     startMessage: planet-weather-rain-start
     endMessage: planet-weather-rain-end
+  - type: PlanetWeatherLightning
+    chancePerSecond: 0.02
 
 - type: entity
   parent: WeatherRain
@@ -54,6 +58,8 @@
   - type: PlanetWeatherAnnouncement
     startMessage: planet-weather-downpour-start
     endMessage: planet-weather-downpour-end
+  - type: PlanetWeatherLightning
+    chancePerSecond: 0.05
 
 - type: entity
   parent: WeatherStorm
@@ -66,6 +72,8 @@
   - type: PlanetWeatherAnnouncement
     startMessage: planet-weather-storm-start
     endMessage: planet-weather-storm-end
+  - type: PlanetWeatherLightning
+    chancePerSecond: 0.1
 
 - type: entity
   parent: BaseLightning

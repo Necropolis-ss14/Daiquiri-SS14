@@ -29,6 +29,7 @@ job-name-salvagelead = Salvage Lead
 job-name-salvagemedic = Salvage Medic
 job-name-dutyofficer = Duty Officer
 job-name-gunnerysergeant = Gunnery Sergeant
+job-description-gunnerysergeant = Lead the security department's combat training and keep the crew safe.
 job-name-k9 = Security K9
 job-name-assistantmanager = Assistant Manager
 job-name-abductor = Abductor

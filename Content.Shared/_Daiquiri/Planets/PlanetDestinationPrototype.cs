@@ -88,12 +88,6 @@ public sealed partial class PlanetDestinationPrototype : IPrototype
     public EntProtoId? Lightning;
 
     [DataField]
-    public EntProtoId LightningDuring = string.Empty;
-
-    [DataField]
-    public float LightningChancePerSecond = 0.01f;
-
-    [DataField]
     public float LightningShockDamage = 15f;
 
     [DataField]

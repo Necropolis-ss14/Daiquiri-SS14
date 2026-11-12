@@ -83,8 +83,6 @@
   weatherColor: "#C9B6F0"
   weatherDamagePerSecond: 0
   lightning: DaiquiriPurpleLightning
-  lightningDuring: WeatherPlanetStorm
-  lightningChancePerSecond: 0.005
   lightningShockDamage: 20
   mobMarkers:
   - Pigs
