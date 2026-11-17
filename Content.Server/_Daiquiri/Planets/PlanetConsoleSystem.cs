@@ -10,7 +10,10 @@ using Content.Server.Shuttles.Events;
 using Content.Server.Shuttles.Systems;
 using Content.Server.Station.Systems;
 using Content.Shared._Daiquiri.Planets;
+using Content.Server._Lavaland.Procedural.Systems;
+using Content.Shared._Lavaland.Procedural.Prototypes;
 using Content.Shared.Atmos;
+using Content.Shared.Cargo.Components;
 using Content.Shared.Light.Components;
 using Content.Shared.Parallax.Biomes;
 using Content.Shared.Jittering;
@@ -45,6 +48,7 @@ public sealed partial class PlanetConsoleSystem : EntitySystem
     [Dependency] private JitteringSystem _jitter = default!;
     [Dependency] private SharedPopupSystem _popup = default!;
     [Dependency] private PlanetWeatherSystem _planetWeather = default!;
+    [Dependency] private LavalandSystem _lavaland = default!;
 
     private static readonly LocId[] PrintSteps =
     {
@@ -224,10 +228,46 @@ public sealed partial class PlanetConsoleSystem : EntitySystem
 
     private EntityUid CreatePlanet(PlanetDestinationPrototype planet, string name)
     {
+        if (planet.Lavaland != null)
+            return CreateLavalandPlanet(planet, planet.Lavaland.Value, name);
+
+        return CreateBiomePlanet(planet, name);
+    }
+
+    private EntityUid CreateLavalandPlanet(PlanetDestinationPrototype planet, ProtoId<LavalandMapPrototype> mapProto, string name)
+    {
+        _lavaland.EnsurePreloaderMap();
+
+        if (!_lavaland.SetupLavalandPlanet(mapProto, out var lavaland) || lavaland == null)
+        {
+            Log.Error($"Failed to set up lavaland planet {mapProto} for {planet.ID}.");
+            return CreateBiomePlanet(planet, name);
+        }
+
+        var mapUid = lavaland.Value.Owner;
+
+        var destination = EnsureComp<FTLDestinationComponent>(mapUid);
+        destination.Enabled = true;
+        destination.BeaconsOnly = true;
+        Dirty(mapUid, destination);
+
+        EnsureComp<FTLBeaconComponent>(mapUid);
+        _metaData.SetEntityName(mapUid, name);
+
+        var planetMap = EnsureComp<PlanetMapComponent>(mapUid);
+        planetMap.Planet = planet.ID;
+        planetMap.Arrivals = 1;
+
+        return mapUid;
+    }
+
+    private EntityUid CreateBiomePlanet(PlanetDestinationPrototype planet, string name)
+    {
         var mapUid = _map.CreateMap(out var mapId, runMapInit: false);
 
         var destination = EnsureComp<FTLDestinationComponent>(mapUid);
         destination.Enabled = true;
+        destination.BeaconsOnly = true;
         Dirty(mapUid, destination);
 
         EnsureComp<FTLBeaconComponent>(mapUid);
@@ -282,6 +322,9 @@ public sealed partial class PlanetConsoleSystem : EntitySystem
     {
         if (Transform(uid).GridUid is not { } gridUid)
             return "planet-console-blocked-no-grid";
+
+        if (HasComp<TradeStationComponent>(gridUid))
+            return "planet-console-blocked-trade-station";
 
         if (_station.GetOwningStation(gridUid) is not { } stationUid
             || !TryComp<StationDataComponent>(stationUid, out var stationData))

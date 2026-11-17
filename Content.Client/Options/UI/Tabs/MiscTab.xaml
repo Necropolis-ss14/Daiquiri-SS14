@@ -11,6 +11,7 @@
                     <BoxContainer Orientation="Vertical" Margin="10 6" SeparationOverride="4">
                         <CheckBox Name="AutoPunctuate" Text="{Loc 'ui-options-auto-punctuate'}" />
                         <CheckBox Name="WieldBeforeRack" Text="{Loc 'ui-options-wield-before-rack'}" ToolTip="{Loc 'ui-options-wield-before-rack-tooltip'}" />
+                        <CheckBox Name="LobbySnowCheckBox" Text="{Loc 'ui-options-lobby-snow'}" />
                     </BoxContainer>
                 </PanelContainer>
 

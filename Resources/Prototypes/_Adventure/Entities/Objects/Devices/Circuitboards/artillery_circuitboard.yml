@@ -1,0 +1,24 @@
+﻿- type: entity
+  parent: [ BaseItem, BaseCommandContraband ]
+  id: ArtilleryComputerCircuitboard
+  name: artillery console circuit board
+  description: A circuit board of navigation system for bluespace artillery.
+  components:
+    - type: Item
+      storedRotation: -90
+    - type: PhysicalComposition
+      materialComposition:
+        Glass: 230
+      chemicalComposition:
+        Silicon: 20
+    - type: Sprite
+      sprite: _Adventure/Structures/Machines/BSA.rsi
+      state: board
+    - type: StaticPrice
+      price: 1250
+    - type: Tag
+      tags:
+      - BoardBSA
+
+- type: Tag
+  id: BoardBSA

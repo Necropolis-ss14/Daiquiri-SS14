@@ -32,6 +32,7 @@
   name: planet-lavaland-name
   description: planet-lavaland-desc
   biome: Lava
+  lavaland: Lavaland
   parallax: DaiquiriLavalandSurface
   banner:
     sprite: _Daiquiri/Planets/planet_banners.rsi

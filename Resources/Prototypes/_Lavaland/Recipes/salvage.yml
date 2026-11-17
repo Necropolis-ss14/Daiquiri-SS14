@@ -1,0 +1,13 @@
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+- type: latheRecipe
+  id: PKAUpgradeSpace
+  result: PKAUpgradeSpace
+  categories:
+  - Weapons
+  completetime: 10
+  materials:
+    Steel: 2500
+    Gold: 1000
+    Silver: 500
+    Diamond: 100

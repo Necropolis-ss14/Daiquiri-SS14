@@ -190,4 +190,5 @@
                         Scale="0.5 0.5"/>
         </PanelContainer>
     </BoxContainer>
+    <daiquiri:LobbySnowOverlay HorizontalExpand="True" VerticalExpand="True" MouseFilter="Ignore" />
 </lobbyUi:LobbyGui>

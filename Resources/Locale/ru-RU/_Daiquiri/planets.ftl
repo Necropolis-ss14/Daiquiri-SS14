@@ -21,6 +21,7 @@ planet-console-hint-cooldown = Прыжок можно совершать лиш
 planet-console-blocked-no-grid = Консоль не установлена на шаттл.
 planet-console-blocked-station = Консоль привязана к станции — прыжок невозможен. Установите её на шаттл.
 planet-console-blocked-not-shuttle = Это не шаттл — прыжок невозможен.
+planet-console-blocked-trade-station = Консоль привязана к торговой станции — прыжок невозможен. Установите её на шаттл.
 
 planet-console-step-routing = Прокладка пути
 planet-console-step-calibration = Настройка

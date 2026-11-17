@@ -1,3 +1,4 @@
+using Content.Shared._Lavaland.Procedural.Prototypes;
 using Content.Shared.Atmos;
 using Content.Shared.Damage.Prototypes;
 using Content.Shared.Parallax.Biomes;
@@ -22,6 +23,9 @@ public sealed partial class PlanetDestinationPrototype : IPrototype
 
     [DataField(required: true)]
     public ProtoId<BiomeTemplatePrototype> Biome = string.Empty;
+
+    [DataField]
+    public ProtoId<LavalandMapPrototype>? Lavaland;
 
     [DataField]
     public string? Parallax;
