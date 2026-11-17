@@ -13,13 +13,14 @@ work of every upstream project it is built on is attributed.
 
 Daiquiri-SS14 is a community content pack for Space Station 14. It is a fork, and it
 redistributes and modifies code, prototypes, localization and assets that originate
-from three separate upstream projects:
+from four separate upstream projects:
 
 | # | Upstream project | Repository | Role |
 |---|---|---|---|
 | 1 | **Space Station 14** — Space Wizards Federation | <https://github.com/space-wizards/space-station-14> | Base game and engine content |
 | 2 | **Starlight** | <https://github.com/ss14Starlight/space-station-14> | The direct upstream fork this repository is derived from |
 | 3 | **Goob Station** | <https://github.com/Goob-Station/Goob-Station> | Content (Lavaland, xenomorphs, emotes, sprites, and more) ported into this fork |
+| 4 | **Adventure Space** (Adventure Space Nova) | <https://github.com/AdventureSpaceTeam/adventure_space_nova> | Bluespace artillery and related content ported into this fork |
 
 The original license of each upstream project continues to apply to the files that
 originate from it. Nothing in this repository claims ownership over, or relicenses
@@ -30,6 +31,10 @@ away, the rights of those projects and their contributors.
 The combined Daiquiri-SS14 distribution is released under the **GNU Affero General
 Public License, version 3.0 or later** (`AGPL-3.0-or-later`), because it includes
 copyleft code and content ported from Goob Station.
+
+Content (prototypes, maps, sprites, sounds, fonts, localization) is **not** relicensed
+under AGPL: it stays under CC BY-SA 3.0 (or the per-asset license) as stated by the
+project it originates from. Only `.cs` code follows the code license of its origin.
 
 The full text of the AGPL is available in [`LICENSES/AGPL-3.0-or-later.txt`](LICENSES/AGPL-3.0-or-later.txt).
 
@@ -49,15 +54,24 @@ If you reuse only a part of this repository, check the license of that part:
 
 | Path / area | Origin | License |
 |---|---|---|
-| `RobustToolbox/` (submodule) | Space Wizards Federation | MIT |
-| `Content.*/` (base folders without an `_`-prefix fork folder) | Space Station 14 (Space Wizards Federation) | MIT |
-| `Content.Shared/_Starlight`, `Content.Server/_Starlight`, `Content.Client/_Starlight` | Starlight | MIT; legacy Starlight license applies to 2024-11-04 … 2026-02-28 contributions (see section 3.2) |
-| `Resources/Prototypes/_Starlight`, `Resources/Locale/**/_Starlight`, `Resources/Textures/_Starlight`, `Resources/Audio/_Starlight`, `Resources/Maps/_Starlight`, other `_Starlight` folders | Starlight | Code: MIT; assets: CC BY-SA 3.0 (see section 4) |
-| `Content.*/_Goobstation`, `Resources/Prototypes/_Goobstation`, `Resources/Locale/**/_Goobstation`, `Resources/Textures/_Goobstation`, `Resources/Prototypes/_Starlight/Partials/_Goobstation` | Goob Station | AGPL-3.0-or-later (dual-licensed per-file where a `.license` file or SPDX header says otherwise) |
-| `Content.Shared/_Lavaland`, `Content.Server/_Lavaland`, `Content.Client/_Lavaland` | Goob Station (Lavaland) | AGPL-3.0-or-later |
-| `Resources/Prototypes/_Lavaland`, `Resources/Maps/_Lavaland`, `Resources/Locale/**/_Lavaland`, `Resources/Textures/_Lavaland`, `Resources/Audio/_Lavaland` | Goob Station (Lavaland) | Code: AGPL-3.0-or-later; assets: CC BY-SA 3.0 unless stated otherwise |
-| `Content.*/_Daiquiri`, `Resources/Prototypes/_Daiquiri`, `Resources/Locale/**/_Daiquiri`, `Resources/Textures/_Daiquiri`, `Resources/Audio/_Daiquiri`, `Resources/Fonts/_Daiquiri` | Daiquiri-SS14 (this fork) | AGPL-3.0-or-later, unless the file states otherwise or is derived from Goob Station / Starlight |
+| `RobustToolbox/` (submodule) | Space Wizards Federation | MIT (engine code) |
+| `Content.*/**/*.cs` (base folders without an `_`-prefix fork folder) | Space Station 14 (Space Wizards Federation) | MIT (code) |
+| `Content.Shared/_Starlight`, `Content.Server/_Starlight`, `Content.Client/_Starlight` | Starlight | MIT (code); legacy Starlight license applies to 2024-11-04 ... 2026-02-28 contributions (see section 3.2) |
+| `Content.*/_Goobstation`, `Content.*/_Lavaland` (C# files) | Goob Station | AGPL-3.0-or-later (code) |
+| `Content.*/_Adventure` (C# files) | Adventure Space | MIT (code) |
+| `Content.*/_Daiquiri` (C# files) | Daiquiri-SS14 (this fork) | AGPL-3.0-or-later (code) |
+| `Resources/**` (prototypes, maps, sprites, sounds, fonts, locale) | Space Station 14 (Space Wizards Federation) | **Content: CC BY-SA 3.0** (some CC BY-NC-SA 3.0); not MIT |
+| `Resources/**/_Starlight` (prototypes, maps, sprites, sounds, locale) | Starlight | **Content: CC BY-SA 3.0**; not MIT/AGPL |
+| `Resources/**/_Goobstation`, `Resources/**/_Lavaland` | Goob Station | Per-file: prototypes carrying `SPDX-License-Identifier: AGPL-3.0-or-later` are AGPL; media otherwise CC BY-SA 3.0 unless stated otherwise |
+| `Resources/**/_Adventure` | Adventure Space | Media: CC BY-SA 3.0 unless stated otherwise |
+| `Resources/**/_Daiquiri` | Daiquiri-SS14 (this fork) | Own prototypes: AGPL-3.0-or-later; own media: CC BY-SA 3.0, unless stated otherwise |
 | `Resources/Audio/_Starlight/Effects/Experiment/*.ogg`, `Resources/Audio/_Starlight/Voice/Experiment/*.ogg` | Orsoniks ("Cargo") | Custom "Cargo License" — see [`LICENSE-Sawians.md`](LICENSE-Sawians.md) |
+
+Code and content are licensed separately: `.cs` files follow the code license of their
+origin, while everything under `Resources/` (including YAML prototypes and maps) is
+**content** and follows CC BY-SA 3.0 or the per-file license. Content from Space
+Station 14 and Starlight is not relicensed under MIT/AGPL, and no file is claimed to be
+dual-licensed.
 
 `_Daiquiri` files that were ported from Goob Station (for example emotion, xenomorph
 and Lavaland-related content) are derivative of AGPL-3.0-or-later code and remain
@@ -110,6 +124,15 @@ Source: <https://github.com/Goob-Station/Goob-Station>
 Because this content is AGPL-licensed, if you run a modified version of Daiquiri-SS14
 as a network service you must offer the corresponding source code to your users, as
 described in section 13 of the AGPL.
+
+#### 3.4 Adventure Space
+
+Code ported from Adventure Space Nova (for example the bluespace artillery system) is
+licensed under the MIT License, reproduced in the upstream repository's `LICENSE.TXT`.
+Media assets from the same source follow CC BY-SA 3.0 unless their metadata says
+otherwise.
+
+Source: <https://github.com/AdventureSpaceTeam/adventure_space_nova>
 
 ### 4. Media assets
 
@@ -164,7 +187,7 @@ OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 указывается авторство всех upstream-проектов, на которых он основан.
 
 Daiquiri-SS14 — это контент-пак для Space Station 14 от сообщества. Это форк,
-который распространяет и изменяет код, прототипы, локализацию и ассеты трёх
+который распространяет и изменяет код, прототипы, локализацию и ассеты четырёх
 независимых upstream-проектов:
 
 | # | Upstream-проект | Репозиторий | Роль |
@@ -172,6 +195,7 @@ Daiquiri-SS14 — это контент-пак для Space Station 14 от со
 | 1 | **Space Station 14** — Space Wizards Federation | <https://github.com/space-wizards/space-station-14> | Базовая игра и контент движка |
 | 2 | **Starlight** | <https://github.com/ss14Starlight/space-station-14> | Прямой upstream-форк, от которого произведён этот репозиторий |
 | 3 | **Goob Station** | <https://github.com/Goob-Station/Goob-Station> | Контент (лаваленд, ксеноморфы, эмоции, спрайты и прочее), перенесённый в этот форк |
+| 4 | **Adventure Space** (Adventure Space Nova) | <https://github.com/AdventureSpaceTeam/adventure_space_nova> | Блюспейс-артиллерия и связанный контент, перенесённые в этот форк |
 
 Исходная лицензия каждого upstream-проекта продолжает действовать для файлов,
 которые из него происходят. Ничто в этом репозитории не претендует на права
@@ -201,19 +225,24 @@ Public License, версии 3.0 или новее** (`AGPL-3.0-or-later`), та
 
 | Путь / область | Происхождение | Лицензия |
 |---|---|---|
-| `RobustToolbox/` (сабмодуль) | Space Wizards Federation | MIT |
-| `Content.*/` (базовые каталоги без форк-каталога с префиксом `_`) | Space Station 14 (Space Wizards Federation) | MIT |
-| `Content.Shared/_Starlight`, `Content.Server/_Starlight`, `Content.Client/_Starlight` | Starlight | MIT; для вкладов 2024-11-04 … 2026-02-28 действует legacy-лицензия Starlight (см. раздел 3.2) |
-| `Resources/Prototypes/_Starlight`, `Resources/Locale/**/_Starlight`, `Resources/Textures/_Starlight`, `Resources/Audio/_Starlight`, `Resources/Maps/_Starlight` и прочие каталоги `_Starlight` | Starlight | Код: MIT; ассеты: CC BY-SA 3.0 (см. раздел 4) |
-| `Content.*/_Goobstation`, `Resources/Prototypes/_Goobstation`, `Resources/Locale/**/_Goobstation`, `Resources/Textures/_Goobstation`, `Resources/Prototypes/_Starlight/Partials/_Goobstation` | Goob Station | AGPL-3.0-or-later (двойное лицензирование на уровне файлов там, где об этом говорит файл `.license` или SPDX-заголовок) |
-| `Content.Shared/_Lavaland`, `Content.Server/_Lavaland`, `Content.Client/_Lavaland` | Goob Station (лаваленд) | AGPL-3.0-or-later |
-| `Resources/Prototypes/_Lavaland`, `Resources/Maps/_Lavaland`, `Resources/Locale/**/_Lavaland`, `Resources/Textures/_Lavaland`, `Resources/Audio/_Lavaland` | Goob Station (лаваленд) | Код: AGPL-3.0-or-later; ассеты: CC BY-SA 3.0, если не указано иное |
-| `Content.*/_Daiquiri`, `Resources/Prototypes/_Daiquiri`, `Resources/Locale/**/_Daiquiri`, `Resources/Textures/_Daiquiri`, `Resources/Audio/_Daiquiri`, `Resources/Fonts/_Daiquiri` | Daiquiri-SS14 (этот форк) | AGPL-3.0-or-later, если в файле не указано иное или файл не произведён от Goob Station / Starlight |
+| `RobustToolbox/` (сабмодуль) | Space Wizards Federation | MIT (код движка) |
+| `Content.*/**/*.cs` (базовые каталоги без форк-каталога с префиксом `_`) | Space Station 14 (Space Wizards Federation) | MIT (код) |
+| `Content.Shared/_Starlight`, `Content.Server/_Starlight`, `Content.Client/_Starlight` | Starlight | MIT (код); для вкладов 2024-11-04 ... 2026-02-28 действует legacy-лицензия Starlight (см. раздел 3.2) |
+| `Content.*/_Goobstation`, `Content.*/_Lavaland` (C#) | Goob Station | AGPL-3.0-or-later (код) |
+| `Content.*/_Adventure` (C#) | Adventure Space | MIT (код) |
+| `Content.*/_Daiquiri` (C#) | Daiquiri-SS14 (этот форк) | AGPL-3.0-or-later (код) |
+| `Resources/**` (прототипы, карты, спрайты, звуки, шрифты, локализация) | Space Station 14 (Space Wizards Federation) | **Контент: CC BY-SA 3.0** (часть — CC BY-NC-SA 3.0); не MIT |
+| `Resources/**/_Starlight` (прототипы, карты, спрайты, звуки, локализация) | Starlight | **Контент: CC BY-SA 3.0**; не MIT/AGPL |
+| `Resources/**/_Goobstation`, `Resources/**/_Lavaland` | Goob Station | По файлам: прототипы с `SPDX-License-Identifier: AGPL-3.0-or-later` — AGPL; медиа — CC BY-SA 3.0, если не указано иное |
+| `Resources/**/_Adventure` | Adventure Space | Медиа: CC BY-SA 3.0, если не указано иное |
+| `Resources/**/_Daiquiri` | Daiquiri-SS14 (этот форк) | Свои прототипы: AGPL-3.0-or-later; свои медиа: CC BY-SA 3.0, если не указано иное |
 | `Resources/Audio/_Starlight/Effects/Experiment/*.ogg`, `Resources/Audio/_Starlight/Voice/Experiment/*.ogg` | Orsoniks («Cargo») | Отдельная «Cargo License» — см. [`LICENSE-Sawians.md`](LICENSE-Sawians.md) |
 
-Файлы `_Daiquiri`, перенесённые из Goob Station (например, контент эмоций,
-ксеноморфов и лаваленда), являются производными от кода AGPL-3.0-or-later и
-остаются под AGPL-3.0-or-later.
+Код и контент лицензируются раздельно: файлы `.cs` следуют лицензии кода по
+происхождению, а всё в `Resources/` (включая YAML-прототипы и карты) является
+**контентом** и следует CC BY-SA 3.0 или лицензии конкретного файла. Контент Space
+Station 14 и Starlight не перелицензируется под MIT/AGPL, двойное лицензирование
+одного файла не заявляется.
 
 ### 3. Атрибуция
 
@@ -263,6 +292,15 @@ Starlight как источник: <https://github.com/ss14Starlight/space-stati
 Поскольку этот контент лицензирован под AGPL, если вы запускаете изменённую версию
 Daiquiri-SS14 как сетевой сервис, вы обязаны предоставить пользователям
 соответствующий исходный код, как описано в разделе 13 AGPL.
+
+#### 3.4 Adventure Space
+
+Код, перенесённый из Adventure Space Nova (например, система блюспейс-артиллерии),
+лицензирован под MIT License; текст лицензии воспроизведён в `LICENSE.TXT` upstream-
+репозитория. Медиа-ассеты из того же источника распространяются по CC BY-SA 3.0,
+если в их метаданных не указано иное.
+
+Источник: <https://github.com/AdventureSpaceTeam/adventure_space_nova>
 
 ### 4. Медиа-ассеты
 

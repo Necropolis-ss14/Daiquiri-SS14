@@ -95,13 +95,22 @@ runclientserver-Tools.bat
 
 | Путь | Источник | Лицензия |
 |---|---|---|
-| `RobustToolbox/` (сабмодуль) | Space Wizards Federation | MIT |
-| `Content.*/` (базовые каталоги) | Space Station 14 | MIT |
-| `Content.*/_Starlight`, `Resources/**/_Starlight` | Starlight | MIT + категория до 2026-02-28 |
-| `Content.*/_Goobstation`, `Resources/**/_Goobstation` | Goob Station | AGPL-3.0-or-later |
-| `Content.*/_Lavaland`, `Resources/**/_Lavaland` | Goob Station | AGPL-3.0-or-later |
-| `Content.*/_Adventure`, `Resources/**/_Adventure` | Adventure Space | MIT |
-| `Content.*/_Daiquiri`, `Resources/**/_Daiquiri` | Daiquiri-SS14 | AGPL-3.0-or-later |
+| `RobustToolbox/` (сабмодуль) | Space Wizards Federation | MIT (код движка) |
+| `Content.*/**/*.cs` — **код** SS14 | Space Station 14 | MIT |
+| `Content.*/_Starlight/**/*.cs` — **код** | Starlight | MIT; для вкладов 2024-11-04 — 2026-02-28 действует Starlight Fork License |
+| `Content.*/_Goobstation/**/*.cs`, `Content.*/_Lavaland/**/*.cs` — **код** | Goob Station | AGPL-3.0-or-later |
+| `Content.*/_Adventure/**/*.cs` — **код** | Adventure Space | MIT |
+| `Content.*/_Daiquiri/**/*.cs` — **код** | Daiquiri-SS14 | AGPL-3.0-or-later |
+| `Resources/**` — **контент** SS14/Starlight: прототипы, карты, спрайты, звуки, шрифты, локализация | Space Station 14 / Starlight | **CC BY-SA 3.0** (часть — CC BY-NC-SA 3.0), если в `meta.json`/`.license` не указано иное. **Не MIT и не AGPL.** |
+| `Resources/**/_Goobstation`, `Resources/**/_Lavaland` | Goob Station | Лицензия из SPDX-заголовка/`.license`: код-прототипы — AGPL-3.0-or-later, медиа — CC BY-SA 3.0, если не указано иное |
+| `Resources/**/_Adventure` | Adventure Space | Медиа — CC BY-SA 3.0, если не указано иное; код — MIT |
+| `Resources/**/_Daiquiri` | Daiquiri-SS14 | Свои медиа — CC BY-SA 3.0; свои прототипы — AGPL-3.0-or-later |
+
+> **Код и контент лицензируются раздельно.** Файлы `.cs` — MIT или AGPL по
+> происхождению. Контент в `Resources/` (включая YAML-прототипы, карты и спрайты)
+> лицензируется по CC BY-SA 3.0 (или иной лицензии, указанной в метаданных ассета).
+> Мы не перелицензируем контент Space Station 14/Starlight под MIT/AGPL и не
+> заявляем двойное лицензирование одного и того же файла.
 
 Полная карта лицензий и атрибуции — в [`LICENSE-Daiquiri.md`](LICENSE-Daiquiri.md).
 
@@ -121,11 +130,14 @@ runclientserver-Tools.bat
 ## ⚖️ Лицензия
 
 > [!IMPORTANT]
-> **Сводная лицензия.** Daiquiri-SS14 объединяет наработки трёх проектов —
-> **Space Station 14** (Space Wizards Federation), **Starlight** и **Goob Station**, —
-> каждая из которых распространяется по своей лицензии.
-> Полная карта лицензий и атрибуция — в [`LICENSE-Daiquiri.md`](LICENSE-Daiquiri.md).
-> Код и контент из Goob Station распространяются по **AGPL-3.0-or-later**.
+> **Код и контент лицензируются отдельно.** Daiquiri-SS14 — производная работа,
+> объединяющая наработки **Space Station 14** (Space Wizards Federation),
+> **Starlight**, **Goob Station** и **Adventure Space**. **Код** (файлы `.cs`) —
+> MIT у SS14/Starlight/Adventure и AGPL-3.0-or-later у Goob/Daiquiri. **Контент**
+> (`Resources/`: прототипы, карты, спрайты, звуки, шрифты, локализация) —
+> **CC BY-SA 3.0** (или иная, указанная в `meta.json`/`.license`), а не MIT/AGPL:
+> мы не перелицензируем контент upstream и не заявляем двойное лицензирование
+> одного файла. Полная карта и атрибуция — в [`LICENSE-Daiquiri.md`](LICENSE-Daiquiri.md).
 
 > [!NOTE]
 > **Идёт перелицензирование.** Лицензия Starlight (`LICENSE-Starlight.TXT`) действовала для
@@ -140,25 +152,36 @@ runclientserver-Tools.bat
 <summary><a href="#"><img src="https://img.shields.io/badge/licence-MIT-green?style=for-the-badge" alt="MIT license"></a></summary>
 
 > Часть файлов распространяется по [лицензии MIT](https://opensource.org/license/MIT) —
-> это код Space Wizards Federation и Starlight.
+> это код Space Wizards Federation, Starlight и Adventure Space. Оригинальные тексты
+> лицензий сохранены в [`LICENSE.TXT`](LICENSE.TXT) и [`LICENSE-Starlight.TXT`](LICENSE-Starlight.TXT).
+> MIT совместим с AGPL, поэтому такие файлы могут входить в состав AGPL-работы без
+> отзыва исходного разрешения.
 </details>
 
 <details>
 <summary><a href="#"><img src="https://img.shields.io/badge/licence-AGPL--3.0--or--later-1f6feb?style=for-the-badge" alt="AGPL license"></a></summary>
 
-> Код и прототипы, перенесённые из Goob Station, распространяются по
-> [GNU AGPL v3.0 или новее](LICENSES/AGPL-3.0-or-later.txt). Их заголовки содержат
-> `SPDX-License-Identifier: AGPL-3.0-or-later`.
+> Код, а также прототипы с заголовком `SPDX-License-Identifier: AGPL-3.0-or-later`,
+> перенесённые из Goob Station и Daiquiri-SS14, распространяются по
+> [GNU AGPL v3.0 или новее](LICENSES/AGPL-3.0-or-later.txt).
+> Медиа-ассеты Goob/Daiquiri без AGPL-заголовка лицензируются по CC BY-SA 3.0 (см. ниже).
+> При использовании модифицированной сборки как сетевого сервиса необходимо
+> предоставить пользователям соответствующий исходный код (раздел 13 AGPL).
 </details>
 
 <details>
 <summary><a href="#"><img src="https://img.shields.io/badge/licence-CC_3.0_BY--SA-lightblue?style=for-the-badge" alt="Creative Commons 3.0 BY-SA"></a></summary>
 
-> Медиа-ассеты (спрайты, звуки, шрифты) лицензируются отдельно: обычно
+> Контент лицензируется отдельно: **прототипы (YAML), карты, спрайты, звуки,
+> шрифты, локализация** — обычно
 > [Creative Commons 3.0 BY-SA](https://creativecommons.org/licenses/by-sa/3.0/),
-> если в метаданных ассета или его папке не указано иное. Часть ассетов
+> если в метаданных ассета/`.license` не указано иное. Часть ассетов
 > распространяется под некоммерческими лицензиями (например, CC BY-NC-SA) и должна
-> быть удалена при коммерческом использовании.
+> быть удалена при коммерческом использовании. Контент SS14/Starlight лицензирован
+> upstream именно под CC, поэтому для него не указываются MIT/AGPL.
+> Отдельные аудиоассеты Starlight (`.../Experiment/*.ogg`, автор Orsoniks)
+> распространяются по собственной «Cargo License» — см.
+> [`LICENSE-Sawians.md`](LICENSE-Sawians.md).
 </details>
 
 ---
