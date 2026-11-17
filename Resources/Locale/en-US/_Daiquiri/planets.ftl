@@ -21,6 +21,7 @@ planet-console-hint-cooldown = A jump can only be made once every 20 minutes.
 planet-console-blocked-no-grid = The console is not installed on a shuttle.
 planet-console-blocked-station = The console is bolted to a station — jumping is impossible. Mount it on a shuttle.
 planet-console-blocked-not-shuttle = This is not a shuttle — jumping is impossible.
+planet-console-blocked-trade-station = The console is bolted to a trade station — jumping is impossible. Mount it on a shuttle.
 
 planet-console-step-routing = Plotting the route
 planet-console-step-calibration = Calibrating

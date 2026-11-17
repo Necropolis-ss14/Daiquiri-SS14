@@ -1,0 +1,57 @@
+- type: entity
+  id: DaiquiriDropPodMarkerPing
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    sprite: _Daiquiri/Objects/Specific/DropPod/marker.rsi
+    state: marker_ping
+    drawdepth: FloorObjects
+  - type: TimedDespawn
+    lifetime: 1.75
+
+- type: entity
+  id: DaiquiriDropPodMarker
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    sprite: _Daiquiri/Objects/Specific/DropPod/marker.rsi
+    state: marker
+    drawdepth: FloorObjects
+  - type: TimedDespawn
+    lifetime: 2
+
+- type: entity
+  id: DaiquiriDropPodLanding
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    sprite: _Daiquiri/Objects/Specific/DropPod/landingpod.rsi
+    state: landing
+    offset: -1.7, 4.3
+    drawdepth: FloorObjects
+  - type: TimedDespawn
+    lifetime: 1.8
+
+- type: entity
+  id: DaiquiriDropPodLanded
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    sprite: _Daiquiri/Objects/Specific/DropPod/supplypod.rsi
+    state: landed
+    offset: 0, 0.25
+    drawdepth: FloorObjects
+  - type: TimedDespawn
+    lifetime: 6
+
+- type: entity
+  id: DaiquiriDropPodOpened
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    sprite: _Daiquiri/Objects/Specific/DropPod/supplypod.rsi
+    state: landed-opened
+    offset: 0, 0.25
+    drawdepth: FloorObjects
+  - type: TimedDespawn
+    lifetime: 20

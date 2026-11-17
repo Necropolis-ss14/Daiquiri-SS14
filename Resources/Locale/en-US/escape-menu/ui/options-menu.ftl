@@ -423,3 +423,4 @@ ui-options-admin-overlay-ghost-hide-distance = Ghost overlay hide range from mou
 ui-options-audio-device = Output device:
 ui-options-audio-device-default = Default device
 ui-options-audio-hrtf = Enable HRTF (spatial audio, requires restart)
+ui-options-lobby-snow = Snowfall in the lobby

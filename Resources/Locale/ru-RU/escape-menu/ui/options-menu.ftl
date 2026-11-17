@@ -456,3 +456,4 @@ ui-options-accessability-header-content = Контент
 
 ui-options-chat-preview = Показывать пузыри предпросмотра чата при вводе
 ui-options-preview-bubble-background-opacity = Непрозрачность фона пузыря предпросмотра
+ui-options-lobby-snow = Снегопад в лобби

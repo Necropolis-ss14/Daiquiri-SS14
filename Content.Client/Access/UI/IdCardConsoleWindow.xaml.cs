@@ -138,10 +138,41 @@ namespace Content.Client.Access.UI
 
         private void SetAllAccess(bool enabled)
         {
-            _pendingPressedAccessLevels.Clear(); // Starlight-edit
-            foreach (var button in _accessButtons.ButtonsList.Values)
-                if (!button.Disabled && button.Pressed != enabled)
-                    button.Pressed = enabled;
+            // Starlight-edit: Start - programmatic Pressed changes do not raise OnPressed,
+            // so the pending access list has to be updated here too.
+            if (enabled)
+            {
+                foreach (var id in _accessButtons.ButtonsList.Keys)
+                {
+                    if (_allowedAccessLevels.Contains(id))
+                        _pendingPressedAccessLevels.Add(id);
+                }
+
+                foreach (var groupId in _accessGroups.ButtonsList.Keys)
+                {
+                    if (!_prototypeManager.TryIndex(groupId, out AccessGroupPrototype? group))
+                        continue;
+
+                    foreach (var tag in group.Tags)
+                    {
+                        if (_allowedAccessLevels.Contains(tag))
+                            _pendingPressedAccessLevels.Add(tag);
+                    }
+                }
+            }
+            else
+            {
+                _pendingPressedAccessLevels.Clear();
+            }
+
+            foreach (var (id, button) in _accessButtons.ButtonsList)
+            {
+                if (button.Disabled)
+                    continue;
+
+                button.Pressed = _pendingPressedAccessLevels.Contains(id);
+            }
+            // Starlight-edit: End
         }
 
         private void SelectJobPreset(OptionButton.ItemSelectedEventArgs args)

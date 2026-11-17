@@ -1,0 +1,4 @@
+- type: lavalandMap
+  id: Lavaland
+  planet: LavalandPlanet
+  ruins: LavalandRuins

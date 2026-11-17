@@ -16,9 +16,9 @@ public sealed class PlanetCard : PanelContainer
     public const float CardWidth = 380f;
     public const float CardHeight = 588f;
 
-    /// Caps the description at five lines of the default 12 px UI font. The box clips instead of
-    /// growing, so the print button below it is never squeezed out of the card.
-    private const float DescriptionMaxHeight = 92f;
+    /// Caps the height of the description so the print button below it is never squeezed out of
+    /// the card. Longer descriptions scroll instead of being clipped.
+    private const float DescriptionMaxHeight = 124f;
 
     private const float BannerHeight = 320f;
 
@@ -129,12 +129,13 @@ public sealed class PlanetCard : PanelContainer
             Margin = new Thickness(12f, 8f, 12f, 10f),
         };
 
-        var descriptionBox = new Control
+        var descriptionBox = new ScrollContainer
         {
             VerticalExpand = true,
             MinHeight = 4f,
             MaxHeight = DescriptionMaxHeight,
-            RectClipContent = true,
+            HScrollEnabled = false,
+            VScrollEnabled = true,
         };
 
         if (!string.IsNullOrEmpty(planet.Description))

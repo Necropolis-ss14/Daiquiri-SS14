@@ -144,6 +144,12 @@ public sealed class DaiquiriCCVars
         CVarDef.Create("lobby.vinyl_announced", "", CVar.CLIENTONLY | CVar.ARCHIVE);
 
     /// <summary>
+    ///     Whether small snowflakes fall in the lobby.
+    /// </summary>
+    public static readonly CVarDef<bool> LobbySnowEnabled =
+        CVarDef.Create("lobby.snow_enabled", true, CVar.CLIENTONLY | CVar.ARCHIVE);
+
+    /// <summary>
     /// Lichess OAuth public client id. Lichess accepts unregistered public clients and
     /// only requires a unique id; no client secret is used (PKCE).
     /// </summary>

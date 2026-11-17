@@ -39,6 +39,7 @@ public sealed partial class MiscTab : Control
         Control.AddOptionCheckBox(CCVars.ChatFancyNameBackground, FancyNameBackgroundsCheckBox);
         Control.AddOptionCheckBox(CCVars.StaticStorageUI, StaticStorageUI);
         Control.AddOptionCheckBox(DaiquiriCCVars.LobbyVinylEnabled, LobbyVinylCheckBox);
+        Control.AddOptionCheckBox(DaiquiriCCVars.LobbySnowEnabled, LobbySnowCheckBox);
         // Starlight-start
         Control.AddOptionCheckBox(StarlightCCVars.AutoPunctuate, AutoPunctuate);
         Control.AddOptionCheckBox(StarlightCCVars.TippyClientEnabled, ShowTippyCheckBox);
