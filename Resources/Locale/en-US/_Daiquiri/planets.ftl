@@ -52,3 +52,6 @@ planet-lavaland-name = Lavaland
 planet-lavaland-desc = A cracked crust of lava and basalt. The air is thick with carbon dioxide and hot enough to cook in. Come in a suit, or do not come at all.
 planet-novonihon-name = Novo-Nihon
 planet-novonihon-desc = The homeland of an ancient people who built their houses out of paper and sharpened their katanas to a mirror shine. Only ruins in the grass are left of them.
+
+ent-PlanetConsoleFlatpack = planet flight console flatpack
+    .desc = A flatpack for a planet flight console. Charts a course to another planet and jumps the shuttle it is bolted to over to it.

@@ -24,7 +24,7 @@ public sealed partial class ShiverWhenColdSystem : EntitySystem
 
     private const float ColdScale = 0.33f;
     private static readonly TimeSpan ShiverInterval = TimeSpan.FromSeconds(10);
-    private static readonly TimeSpan ShiverDuration = TimeSpan.FromSeconds(1.5);
+    private static readonly TimeSpan ShiverDuration = TimeSpan.FromSeconds(3.5);
     private static readonly TimeSpan CheckInterval = TimeSpan.FromSeconds(1);
 
     private static readonly string[] ShiverMessages =
