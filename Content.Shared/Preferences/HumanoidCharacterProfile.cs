@@ -507,6 +507,13 @@ namespace Content.Shared.Preferences
             if (Gender != other.Gender) return false;
             if (Species != other.Species) return false;
             if (CustomSpecieName != other.CustomSpecieName) return false; // Starlight
+            if (PhysicalDescription != other.PhysicalDescription) return false; // Starlight
+            if (PersonalityDescription != other.PersonalityDescription) return false; // Starlight
+            if (Secrets != other.Secrets) return false; // Starlight
+            if (ExploitableInfo != other.ExploitableInfo) return false; // Starlight
+            if (PersonalNotes != other.PersonalNotes) return false; // Starlight
+            if (OOCNotes != other.OOCNotes) return false; // Starlight
+            if (SiliconVoice != other.SiliconVoice) return false; // Starlight
             if (!Cybernetics.SequenceEqual(other.Cybernetics)) return false; // Starlight
             if (SpawnPriority != other.SpawnPriority) return false;
             if (!_jobPreferences.SequenceEqual(other._jobPreferences)) return false;
@@ -540,6 +547,13 @@ namespace Content.Shared.Preferences
             if (Gender != other.Gender) throw new DebugAssertException($"Gender doesn't match expected '{Gender}' got '{other.Gender}'");;
             if (Species != other.Species) throw new DebugAssertException($"Species doesn't match expected '{Species.Id}' got '{other.Species.Id}'");;
             if (CustomSpecieName != other.CustomSpecieName) throw new DebugAssertException($"CustomSpecieName doesn't match expected '{CustomSpecieName}' got '{other.CustomSpecieName}'");
+            if (PhysicalDescription != other.PhysicalDescription) throw new DebugAssertException($"PhysicalDescription doesn't match expected '{PhysicalDescription}' got '{other.PhysicalDescription}'");
+            if (PersonalityDescription != other.PersonalityDescription) throw new DebugAssertException($"PersonalityDescription doesn't match expected '{PersonalityDescription}' got '{other.PersonalityDescription}'");
+            if (Secrets != other.Secrets) throw new DebugAssertException($"Secrets doesn't match expected '{Secrets}' got '{other.Secrets}'");
+            if (ExploitableInfo != other.ExploitableInfo) throw new DebugAssertException($"ExploitableInfo doesn't match expected '{ExploitableInfo}' got '{other.ExploitableInfo}'");
+            if (PersonalNotes != other.PersonalNotes) throw new DebugAssertException($"PersonalNotes doesn't match expected '{PersonalNotes}' got '{other.PersonalNotes}'");
+            if (OOCNotes != other.OOCNotes) throw new DebugAssertException($"OOCNotes doesn't match expected '{OOCNotes}' got '{other.OOCNotes}'");
+            if (SiliconVoice != other.SiliconVoice) throw new DebugAssertException($"SiliconVoice doesn't match expected '{SiliconVoice}' got '{other.SiliconVoice}'");
             if (!Cybernetics.SequenceEqual(other.Cybernetics)) throw new DebugAssertException($"Cybernetics doesn't match expected '{Cybernetics}' got '{other.Cybernetics}'");
             if (SpawnPriority != other.SpawnPriority) throw new DebugAssertException($"SpawnPriority doesn't match expected '{SpawnPriority}' got '{other.SpawnPriority}'");
             if (!_jobPreferences.SequenceEqual(other._jobPreferences)) throw new DebugAssertException($"_jobPreferences doesn't match expected '{_jobPreferences}' got '{other._jobPreferences}'");;
@@ -838,7 +852,13 @@ namespace Content.Shared.Preferences
             hashCode.Add(_traitPreferences);
             hashCode.Add(_loadouts);
             hashCode.Add(Name);
-            hashCode.Add(FlavorText);
+            hashCode.Add(PhysicalDescription); // Starlight
+            hashCode.Add(PersonalityDescription); // Starlight
+            hashCode.Add(Secrets); // Starlight
+            hashCode.Add(ExploitableInfo); // Starlight
+            hashCode.Add(PersonalNotes); // Starlight
+            hashCode.Add(OOCNotes); // Starlight
+            hashCode.Add(SiliconVoice); // Starlight
             hashCode.Add(Species);
             hashCode.Add(CustomSpecieName); // Starlight
             hashCode.Add(Age);

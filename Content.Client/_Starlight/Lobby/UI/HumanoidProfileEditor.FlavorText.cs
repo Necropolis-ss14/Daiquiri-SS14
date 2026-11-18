@@ -87,7 +87,7 @@ public sealed partial class HumanoidProfileEditor
             return;
 
         Profile = Profile.WithPhysicalDesc(Rope.Collapse(args.TextRope).Trim());
-        IsDirty = true;
+        SetDirty();
     }
 
     private void OnPersonalityDescChanged(TextEdit.TextEditEventArgs args)
@@ -96,7 +96,7 @@ public sealed partial class HumanoidProfileEditor
             return;
 
         Profile = Profile.WithPersonalityDesc(Rope.Collapse(args.TextRope).Trim());
-        IsDirty = true;
+        SetDirty();
     }
 
     private void OnExploitablesChanged(TextEdit.TextEditEventArgs args)
@@ -105,7 +105,7 @@ public sealed partial class HumanoidProfileEditor
             return;
 
         Profile = Profile.WithExploitable(Rope.Collapse(args.TextRope).Trim());
-        IsDirty = true;
+        SetDirty();
     }
 
     private void OnSecretsChanged(TextEdit.TextEditEventArgs args)
@@ -114,7 +114,7 @@ public sealed partial class HumanoidProfileEditor
             return;
 
         Profile = Profile.WithSecrets(Rope.Collapse(args.TextRope).Trim());
-        IsDirty = true;
+        SetDirty();
     }
 
     private void OnPersonalNotesChanged(TextEdit.TextEditEventArgs args)
@@ -123,7 +123,7 @@ public sealed partial class HumanoidProfileEditor
             return;
 
         Profile = Profile.WithPersonalNotes(Rope.Collapse(args.TextRope).Trim());
-        IsDirty = true;
+        SetDirty();
     }
 
     private void OnOOCNotesChanged(TextEdit.TextEditEventArgs args)
@@ -132,7 +132,7 @@ public sealed partial class HumanoidProfileEditor
             return;
 
         Profile = Profile.WithOOCNotes(Rope.Collapse(args.TextRope).Trim());
-        IsDirty = true;
+        SetDirty();
     }
 
     private void UpdateProfileRecords(PlayerProvidedCharacterRecords records)

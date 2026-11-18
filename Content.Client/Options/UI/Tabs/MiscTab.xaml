@@ -11,6 +11,7 @@
                     <BoxContainer Orientation="Vertical" Margin="10 6" SeparationOverride="4">
                         <CheckBox Name="AutoPunctuate" Text="{Loc 'ui-options-auto-punctuate'}" />
                         <CheckBox Name="WieldBeforeRack" Text="{Loc 'ui-options-wield-before-rack'}" ToolTip="{Loc 'ui-options-wield-before-rack-tooltip'}" />
+                        <CheckBox Name="LobbyVinylCheckBox" Text="{Loc 'ui-options-lobby-vinyl'}" />
                         <CheckBox Name="LobbySnowCheckBox" Text="{Loc 'ui-options-lobby-snow'}" />
                     </BoxContainer>
                 </PanelContainer>
@@ -46,13 +47,6 @@
                 <PanelContainer StyleClasses="InsetPanel" Margin="0 0 0 12">
                     <BoxContainer Orientation="Vertical" Margin="10 6" SeparationOverride="4">
                         <CheckBox Name="DiscordRich" Text="{Loc 'ui-options-discordrich'}" />
-                    </BoxContainer>
-                </PanelContainer>
-
-                <Label Text="{Loc 'ui-options-general-lobby'}" StyleClasses="LabelKeyText" Margin="0 0 0 4" />
-                <PanelContainer StyleClasses="InsetPanel" Margin="0 0 0 12">
-                    <BoxContainer Orientation="Vertical" Margin="10 6" SeparationOverride="4">
-                        <CheckBox Name="LobbyVinylCheckBox" Text="{Loc 'ui-options-lobby-vinyl'}" />
                     </BoxContainer>
                 </PanelContainer>
 

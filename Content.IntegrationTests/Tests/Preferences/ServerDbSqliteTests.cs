@@ -98,6 +98,36 @@ namespace Content.IntegrationTests.Tests.Preferences
         }
 
         [Test]
+        public async Task TestFlavorTextRoundTrip()
+        {
+            var pair = Pair;
+            var db = GetDb(pair.Server);
+            var username = NewUserId();
+
+            var originalProfile = CharlieCharlieson()
+                .WithPhysicalDesc("physical-text")
+                .WithPersonalityDesc("personality-text")
+                .WithSecrets("secrets-text")
+                .WithExploitable("exploitable-text")
+                .WithPersonalNotes("personal-notes-text")
+                .WithOOCNotes("ooc-notes-text");
+
+            await db.InitPrefsAsync(username, originalProfile);
+            var prefs = await db.GetPlayerPreferencesAsync(username);
+            var saved = prefs!.Characters[0];
+
+            Assert.Multiple(() =>
+            {
+                Assert.That(saved.PhysicalDescription, Is.EqualTo("physical-text"));
+                Assert.That(saved.PersonalityDescription, Is.EqualTo("personality-text"));
+                Assert.That(saved.Secrets, Is.EqualTo("secrets-text"));
+                Assert.That(saved.ExploitableInfo, Is.EqualTo("exploitable-text"));
+                Assert.That(saved.PersonalNotes, Is.EqualTo("personal-notes-text"));
+                Assert.That(saved.OOCNotes, Is.EqualTo("ooc-notes-text"));
+            });
+        }
+
+        [Test]
         public async Task TestDeleteCharacter()
         {
             var pair = Pair;

@@ -91,6 +91,11 @@ public sealed partial class ChatSanitizationManager : IChatSanitizationManager
         Entry("[':", "chatsan-tearfully-smiles"),
         Entry("('=", "chatsan-tearfully-smiles"),
         Entry("['=", "chatsan-tearfully-smiles"),
+        Entry("!", "chatsan-surprised"),
+        Attached(@"\){2,}", "chatsan-smiles"),
+        Attached(@"\({2,}", "chatsan-frowns"),
+        Entry(")", "chatsan-smiles"),
+        Entry("(", "chatsan-frowns"),
     ];
 
     [Dependency] private IConfigurationManager _configurationManager = default!;
@@ -162,5 +167,14 @@ public sealed partial class ChatSanitizationManager : IChatSanitizationManager
             RegexOptions.RightToLeft | RegexOptions.IgnoreCase | RegexOptions.Compiled);
 
         return (pattern, emoteKey);
+    }
+
+    private static (Regex regex, string emoteKey) Attached(string pattern, string emoteKey)
+    {
+        var regex = new Regex(
+            $@"{pattern}(?=\s|\p{{P}}|$)",
+            RegexOptions.RightToLeft | RegexOptions.IgnoreCase | RegexOptions.Compiled);
+
+        return (regex, emoteKey);
     }
 }

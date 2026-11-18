@@ -75,7 +75,7 @@ namespace Content.Client.Lobby.UI
             if (Disposed)
                 return;
 
-            MusicSwitcher.Visible = enabled;
+            MusicSwitcher.VinylVisible = enabled;
             VinylCard.Visible = enabled;
         }
 

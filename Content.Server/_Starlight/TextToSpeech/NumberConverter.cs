@@ -38,21 +38,38 @@ public static partial class NumberConverter
 
     public static string Convert(string numberStr)
     {
+        var original = numberStr;
         numberStr = numberStr.Replace(",", "");
 
         if (numberStr.Contains('.'))
         {
             var parts = numberStr.Split('.', 2);
-            var integerPart = string.IsNullOrEmpty(parts[0]) || parts[0] == "-"
-                ? "ноль"
-                : NumberToText(long.Parse(parts[0]));
+
+            if (!TryParseInteger(parts[0], out var integerPart))
+                return original;
 
             var decimalPart = DecimalToText(parts[1]);
 
-            return $"{integerPart} запятая {decimalPart}";
+            return decimalPart.Length == 0
+                ? integerPart
+                : $"{integerPart} запятая {decimalPart}";
         }
 
-        return NumberToText(long.Parse(numberStr));
+        return TryParseInteger(numberStr, out var text) ? text : original;
+    }
+
+    private static bool TryParseInteger(string value, out string text)
+    {
+        text = string.Empty;
+
+        if (string.IsNullOrEmpty(value) || value == "-")
+            return false;
+
+        if (!long.TryParse(value, out var number))
+            return false;
+
+        text = NumberToText(number);
+        return true;
     }
 
     private static string DecimalToText(string digits)
@@ -157,6 +174,6 @@ public static partial class NumberConverter
         return result.ToString();
     }
 
-    [GeneratedRegex(@"-?\d{1,3}(,\d{3})*(\.\d+)?|-?\d+(\.\d+)?")]
+    [GeneratedRegex(@"-?\d{1,3}(?:,\d{3})+(?:\.\d+)?|-?\d+(?:\.\d+)?")]
     public static partial Regex NumberPattern();
 }

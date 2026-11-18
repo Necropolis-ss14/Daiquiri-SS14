@@ -84,4 +84,52 @@ public sealed class ForcedPrototypeTest : GameTest
             await PoolManager.WaitUntil(server, () => ServerSlot().Name == name, maxTicks: 60);
         }
     }
+
+    [Test]
+    public async Task FlavorTextReachesServer()
+    {
+        var server = Pair.Server;
+        var client = Pair.Client;
+
+        var clientNet = client.ResolveDependency<IClientNetManager>();
+        var clientState = client.ResolveDependency<IStateManager>();
+        var clientPrefs = client.ResolveDependency<IClientPreferencesManager>();
+        var serverPrefs = server.ResolveDependency<IServerPreferencesManager>();
+
+        await Pair.RunTicksSync(1);
+        await PoolManager.WaitUntil(client, () => clientState.CurrentState is LobbyState, 600);
+
+        var user = clientNet.ServerChannel!.UserId;
+
+        await client.WaitPost(() =>
+        {
+            var profile = clientPrefs.Preferences!.Characters[0]
+                .WithPhysicalDesc("physical-text")
+                .WithPersonalityDesc("personality-text")
+                .WithSecrets("secrets-text")
+                .WithExploitable("exploitable-text")
+                .WithPersonalNotes("personal-notes-text")
+                .WithOOCNotes("ooc-notes-text");
+
+            clientPrefs.UpdateCharacter(profile, 0);
+        });
+
+        await PoolManager.WaitUntil(server,
+            () => serverPrefs.GetPreferences(user).Characters[0].OOCNotes == "ooc-notes-text",
+            maxTicks: 60);
+
+        await server.WaitAssertion(() =>
+        {
+            var saved = serverPrefs.GetPreferences(user).Characters[0];
+            Assert.Multiple(() =>
+            {
+                Assert.That(saved.PhysicalDescription, Is.EqualTo("physical-text"));
+                Assert.That(saved.PersonalityDescription, Is.EqualTo("personality-text"));
+                Assert.That(saved.Secrets, Is.EqualTo("secrets-text"));
+                Assert.That(saved.ExploitableInfo, Is.EqualTo("exploitable-text"));
+                Assert.That(saved.PersonalNotes, Is.EqualTo("personal-notes-text"));
+                Assert.That(saved.OOCNotes, Is.EqualTo("ooc-notes-text"));
+            });
+        });
+    }
 }

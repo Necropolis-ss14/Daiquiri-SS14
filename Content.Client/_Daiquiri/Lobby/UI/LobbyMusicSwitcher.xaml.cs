@@ -63,6 +63,16 @@ public sealed partial class LobbyMusicSwitcher : BoxContainer
         VinylRect.OnKeyBindDown += OnVinylInput;
     }
 
+    /// <summary>
+    /// Daiquiri
+    /// Toggles only the vinyl disc, keeping the music player controls visible.
+    /// </summary>
+    public bool VinylVisible
+    {
+        get => VinylRect.Visible;
+        set => VinylRect.Visible = value;
+    }
+
     protected override void EnteredTree()
     {
         base.EnteredTree();

@@ -71,8 +71,9 @@ namespace Content.Server.Speech.EntitySystems
             // All replaced words placed in the final message are placed here as dashes (___) with the same length.
             // The regex search goes through this buffer message, from which the already replaced words are crossed out,
             // ensuring that the replaced words cannot be replaced again.
+            var originalTts = msg.Tts ?? msg.Text;
             msg.Text = ApplyWordReplacements(msg.Text, false);
-            msg.Tts = ApplyWordReplacements(msg.Tts ?? msg.Text, true);
+            msg.Tts = ApplyWordReplacements(originalTts, true);
 
             return msg;
 
@@ -127,7 +128,11 @@ namespace Content.Server.Speech.EntitySystems
 
             if (!cache.TryGetValue(prototype.ID, out var replacements))
             {
-                replacements = GenerateCachedReplacements(isTts ? prototype.TTSWordReplacements : prototype.WordReplacements);
+                var source = isTts
+                    ? prototype.TTSWordReplacements ?? prototype.WordReplacements
+                    : prototype.WordReplacements;
+
+                replacements = GenerateCachedReplacements(source);
                 cache.Add(prototype.ID, replacements);
             }
 
@@ -154,6 +159,7 @@ namespace Content.Server.Speech.EntitySystems
         private void OnPrototypesReloaded(PrototypesReloadedEventArgs obj)
         {
             _cachedReplacements.Clear();
+            _cachedTTSReplacements.Clear();
         }
     }
 }
