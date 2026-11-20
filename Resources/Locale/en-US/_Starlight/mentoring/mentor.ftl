@@ -72,3 +72,6 @@ ai-help-admin-status-cancelled = cancelled
 ai-help-admin-status-blocked = blocked
 cmd-aihelp-log-desc = Opens the AI request oversight window.
 cmd-aihelp-log-help = Usage: aihelp_log
+
+mentor-discord-webhook-username = Mentor Help
+mentor-discord-webhook-footer = Mentor Help relay

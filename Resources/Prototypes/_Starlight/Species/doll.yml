@@ -1,7 +1,7 @@
 - type: species
   id: Doll
   name: species-name-doll
-  roundStart: true
+  roundStart: false
   prototype: MobDoll
   sprites: MobDollSprites
   markingLimits: MobDollMarkingLimits

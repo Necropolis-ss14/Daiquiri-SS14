@@ -41,7 +41,7 @@
     count: 1
   - type: NpcFactionMember
     factions:
-    - Lavafauna
+    - SimpleHostile
   - type: HTN
     rootTask:
       task: SimpleRangedHostileCompound
@@ -99,7 +99,7 @@
         acts: [ "Destruction" ]
   - type: NpcFactionMember
     factions:
-    - Lavafauna
+    - SimpleHostile
   - type: HTN
     rootTask:
       task: SimpleHostileCompound

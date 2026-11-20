@@ -59,6 +59,7 @@
       - Temperature
   - type: PlaceableSurface
   - type: Campfire
+    heatPower: 900
 
 - type: entity
   parent: BaseBonfire

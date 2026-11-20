@@ -69,3 +69,6 @@ ai-help-admin-status-cancelled = отменён
 ai-help-admin-status-blocked = запрещён
 cmd-aihelp-log-desc = Открывает окно надзора за запросами к ИИ.
 cmd-aihelp-log-help = Использование: aihelp_log
+
+mentor-discord-webhook-username = Менторхелп
+mentor-discord-webhook-footer = Релей менторхелпа
