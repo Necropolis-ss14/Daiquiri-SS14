@@ -1,0 +1,108 @@
+# Звуки взмахов крыльев для полёта гарпии.
+- type: soundCollection
+  id: WingFlaps
+  files:
+  - /Audio/_Starlight/Voice/Moth/moth_flapwings.ogg
+
+# Гарпия - речь (щебет).
+- type: speechSounds
+  id: Harpy
+  saySound:
+    path: /Audio/_DV/Voice/Harpy/chirp1.ogg
+  askSound:
+    path: /Audio/_DV/Voice/Harpy/chirp1.ogg
+  exclaimSound:
+    path: /Audio/_DV/Voice/Harpy/chirp1.ogg
+
+- type: speechVerb
+  id: Harpy
+  name: chat-speech-verb-name-harpy
+  speechVerbStrings:
+  - chat-speech-verb-harpy-1
+  - chat-speech-verb-harpy-2
+  - chat-speech-verb-harpy-3
+  - chat-speech-verb-harpy-4
+
+- type: emoteSounds
+  id: SoundsHarpyMale
+  params:
+    variation: 0.125
+  sounds:
+    Scream:
+      collection: MaleScreams
+    Laugh:
+      collection: MaleLaugh
+    Sneeze:
+      collection: MaleSneezes
+    Cough:
+      collection: MaleCoughs
+    Sigh:
+      collection: MaleSigh
+    Crying:
+      collection: MaleCry
+    Whistle:
+      collection: Whistles
+    Yawn:
+      collection: MaleYawn
+    Snore:
+      collection: Snores
+    Gasp:
+      collection: MaleGasp
+    DefaultDeathgasp:
+      collection: MaleDeathGasp
+    Chirp:
+      collection: ResomiChirp
+    Trill:
+      collection: FelionoidTrills
+    Wurble:
+      path: /Audio/_Starlight/Voice/Shadekin/wurble.ogg
+    Scree:
+      collection: ResomiScrees
+    Call:
+      collection: ResomiCalls
+    Squawk:
+      collection: ResomiSquawk
+    Flap:
+      path: /Audio/_Starlight/Voice/Moth/moth_flapwings.ogg
+
+- type: emoteSounds
+  id: SoundsHarpyFemale
+  params:
+    variation: 0.125
+  sounds:
+    Scream:
+      collection: FemaleScreams
+    Laugh:
+      collection: FemaleLaugh
+    Sneeze:
+      collection: FemaleSneezes
+    Cough:
+      collection: FemaleCoughs
+    Sigh:
+      collection: FemaleSigh
+    Crying:
+      collection: FemaleCry
+    Whistle:
+      collection: Whistles
+    Yawn:
+      collection: FemaleYawn
+    Snore:
+      collection: Snores
+    Gasp:
+      collection: FemaleGasp
+    DefaultDeathgasp:
+      collection: FemaleDeathGasp
+    Chirp:
+      collection: ResomiChirp
+    Trill:
+      collection: FelionoidTrills
+    Wurble:
+      path: /Audio/_Starlight/Voice/Shadekin/wurble.ogg
+    Scree:
+      collection: ResomiScrees
+    Call:
+      collection: ResomiCalls
+    Squawk:
+      collection: ResomiSquawk
+    Flap:
+      path: /Audio/_Starlight/Voice/Moth/moth_flapwings.ogg

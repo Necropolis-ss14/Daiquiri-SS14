@@ -1,0 +1,115 @@
+# TODO: Add descriptions (many)
+# TODO BODY: Part damage
+- type: entity
+  abstract: true
+  parent: [ BaseItem, BasePart ]
+  id: PartHarpy
+  name: часть тела гарпии
+  components:
+  - type: Sprite
+    sprite: _DV/Mobs/Species/Harpy/parts.rsi
+  - type: Extractable
+    juiceSolution:
+      reagents:
+      - ReagentId: Fat
+        Quantity: 3
+      - ReagentId: Blood
+        Quantity: 10
+
+- type: entity
+  parent: [ PartHarpy, BaseTorso ]
+  id: TorsoHarpy
+  name: туловище гарпии
+  components:
+  - type: Sprite
+    state: "torso_m"
+  - type: Extractable
+    juiceSolution:
+      reagents:
+      - ReagentId: Fat
+        Quantity: 10
+      - ReagentId: Blood
+        Quantity: 20
+
+- type: entity
+  parent: [ PartHarpy, BaseHead ]
+  id: HeadHarpy
+  name: голова гарпии
+  components:
+  - type: Sprite
+    state: "head_m"
+  - type: Extractable
+    juiceSolution:
+      reagents:
+      - ReagentId: Fat
+        Quantity: 5
+      - ReagentId: Blood
+        Quantity: 10
+
+- type: entity
+  parent: [ PartHarpy, BaseLeftArm ]
+  id: LeftArmHarpy
+  name: левая рука гарпии
+  components:
+  - type: Sprite
+    state: "l_arm"
+
+- type: entity
+  parent: [ PartHarpy, BaseRightArm ]
+  id: RightArmHarpy
+  name: правая рука гарпии
+  components:
+  - type: Sprite
+    state: "r_arm"
+
+- type: entity
+  parent: [ PartHarpy, BaseLeftHand ]
+  id: LeftHandHarpy
+  name: левая кисть гарпии
+  components:
+  - type: Sprite
+    state: "l_hand"
+
+- type: entity
+  parent: [ PartHarpy, BaseRightHand ]
+  id: RightHandHarpy
+  name: правая кисть гарпии
+  components:
+  - type: Sprite
+    state: "r_hand"
+
+- type: entity
+  parent: [ PartHarpy, BaseLeftLeg ]
+  id: LeftLegHarpy
+  name: левая нога гарпии
+  components:
+  - type: Sprite
+    state: "l_leg"
+  - type: MovementBodyPart
+    maxDensity: 100
+
+- type: entity
+  parent: [ PartHarpy, BaseRightLeg ]
+  id: RightLegHarpy
+  name: правая нога гарпии
+  components:
+  - type: Sprite
+    state: "r_leg"
+  - type: MovementBodyPart
+    maxDensity: 100
+
+- type: entity
+  parent: [ PartHarpy, BaseLeftFoot ]
+  id: LeftFootHarpy
+  name: левая стопа гарпии
+  components:
+  - type: Sprite
+    state: "l_foot"
+
+- type: entity
+  parent: [ PartHarpy, BaseRightFoot ]
+  id: RightFootHarpy
+  name: правая стопа гарпии
+  components:
+  - type: Sprite
+    state: "r_foot"

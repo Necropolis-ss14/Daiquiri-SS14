@@ -87,11 +87,13 @@ public sealed partial class LobbySnowOverlay : Control
         if (!_enabled || _flakes.Count == 0)
             return;
 
+        var uiScale = UIScale;
+
         foreach (var flake in _flakes)
         {
             var color = Color.White.WithAlpha(flake.Alpha);
-            var p = flake.Position;
-            var s = flake.Scale;
+            var p = flake.Position * uiScale;
+            var s = flake.Scale * uiScale;
 
             handle.DrawRect(new UIBox2(p.X - 1.5f * s, p.Y - 0.5f * s, p.X + 1.5f * s, p.Y + 0.5f * s), color);
             handle.DrawRect(new UIBox2(p.X - 0.5f * s, p.Y - 1.5f * s, p.X + 0.5f * s, p.Y + 1.5f * s), color);

@@ -83,6 +83,8 @@
     - id: ClothingHeadsetAltCommand
     - id: ClothingOuterArmorCaptainCarapace
     - id: BoxCaptainCircuitboards
+    - id: ArtilleryComputerCircuitboard
+    - id: BlueprintBSA
     - id: DoorRemoteCustom
     - id: MedalCase
     - id: NukeDisk

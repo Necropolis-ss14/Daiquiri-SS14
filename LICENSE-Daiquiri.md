@@ -73,9 +73,9 @@ origin, while everything under `Resources/` (including YAML prototypes and maps)
 Station 14 and Starlight is not relicensed under MIT/AGPL, and no file is claimed to be
 dual-licensed.
 
-`_Daiquiri` files that were ported from Goob Station (for example emotion, xenomorph
-and Lavaland-related content) are derivative of AGPL-3.0-or-later code and remain
-AGPL-3.0-or-later.
+`_Daiquiri` files that were ported from Goob Station (for example emotion, xenomorph,
+Harpy and Lavaland-related content) are derivative of AGPL-3.0-or-later code and
+remain AGPL-3.0-or-later.
 
 ### 3. Attribution notices
 
@@ -118,6 +118,12 @@ Starlight project as its source: <https://github.com/ss14Starlight/space-station
 All code and prototype content ported from Goob Station is licensed under the
 **GNU Affero General Public License, version 3.0 or later**. Ported files keep — or
 must keep — their `SPDX-License-Identifier: AGPL-3.0-or-later` header.
+
+Ported content includes the **Harpy** species — the race itself together with its
+flight, singing and syrinx (voice change) systems, prototypes and localization. The
+Harpy prototypes, code and sprites in this repository originate from Goob Station and
+its `_DV` (Delta-V) / `_EinsteinEngines` content trees, and are adapted here to the
+Starlight/Daiquiri systems.
 
 Source: <https://github.com/Goob-Station/Goob-Station>
 
@@ -286,6 +292,12 @@ Starlight как источник: <https://github.com/ss14Starlight/space-stati
 **GNU Affero General Public License, версии 3.0 или новее**. Перенесённые файлы
 сохраняют — и должны сохранять — заголовок
 `SPDX-License-Identifier: AGPL-3.0-or-later`.
+
+Среди перенесённого контента — раса **Гарпия**: сама раса, а также системы полёта,
+пения и сиринкса (смены голоса), её прототипы и локализация. Прототипы, код и
+спрайты гарпий в этом репозитории происходят из Goob Station и его деревьев
+контента `_DV` (Delta-V) / `_EinsteinEngines` и адаптированы здесь под системы
+Starlight/Daiquiri.
 
 Источник: <https://github.com/Goob-Station/Goob-Station>
 

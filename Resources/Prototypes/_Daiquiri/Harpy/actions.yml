@@ -1,0 +1,40 @@
+- type: entity
+  parent: BaseAction
+  id: ActionToggleFlight
+  name: Лететь
+  description: Взмахните крыльями и взлетите. Опровергните обвинения в том, что вы не умеете летать.
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Action
+    checkCanInteract: false
+    icon: { sprite: _EinsteinEngines/Interface/Actions/flight.rsi, state: flight_off }
+    iconOn: { sprite: _EinsteinEngines/Interface/Actions/flight.rsi, state: flight_on }
+  - type: InstantAction
+    event: !type:ToggleFlightEvent
+
+- type: entity
+  parent: BaseAction
+  id: ActionHarpyPlayMidi
+  name: Петь
+  description: Спойте от души! Нажмите ПКМ по себе, чтобы выбрать инструмент.
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Action
+    checkCanInteract: false
+    icon: _DV/Interface/Actions/harpy_sing.png
+  - type: InstantAction
+    event: !type:OpenUiActionEvent
+      key: enum.InstrumentUiKey.Key
+
+- type: entity
+  parent: BaseAction
+  id: ActionSyrinxChangeVoiceMask
+  name: Изменить голос
+  description: Измените голос, который слышат другие, на любой другой.
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Action
+    icon: _DV/Interface/Actions/harpy_syrinx.png
+    itemIconStyle: BigAction
+  - type: InstantAction
+    event: !type:VoiceMaskSetNameEvent

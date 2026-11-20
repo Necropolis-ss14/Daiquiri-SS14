@@ -19,7 +19,7 @@ public sealed partial class CampfireComponent : Component
     public float TargetTemperature = 293.15f;
 
     /// <summary>
-    /// How quickly nearby mobs are brought to the target temperature.
+    /// How many kelvin per second nearby mobs below the target temperature are warmed by.
     /// </summary>
     [DataField]
     public float WarmRate = 8f;

@@ -1,0 +1,84 @@
+species-name-harpy = Гарпия
+
+no-flight-while-restrained = Вы не можете летать, пока связаны.
+no-flight-while-zombified = Вы не можете летать, пока зомбированы.
+no-flight-while-lying = Вы не можете летать лёжа.
+no-sing-while-no-speak = Сейчас вы не можете петь.
+
+chat-speech-verb-name-harpy = Гарпия
+chat-speech-verb-harpy-1 = щебечет
+chat-speech-verb-harpy-2 = поёт
+chat-speech-verb-harpy-3 = каркает
+chat-speech-verb-harpy-4 = трелит
+
+marking-HarpyEarsDefault = Пучки перьев
+marking-HarpyEarsDefault-harpy_ears_default = Пучки
+marking-HarpyEarsLarge = Большие пучки перьев
+marking-HarpyEarsLarge-harpy_ears_large = Пучки
+
+marking-HarpyTailPhoenix = Обычный хвост
+marking-HarpyTailPhoenix-phoenix_tail = Хвост
+marking-HarpyTailRooster = Петушиный хвост
+marking-HarpyTailRooster-rooster_tail = Хвост
+marking-HarpyTailFinch = Хвост зяблика
+marking-HarpyTailFinch-finch_tail = Хвост
+marking-HarpyTailForkedHuescale = Раздвоенный хвост (цветной)
+marking-HarpyTailForkedHuescale-huescale_forked_tailfin = Хвост
+marking-HarpyTailForkedWhitescale = Раздвоенный хвост (белый)
+marking-HarpyTailForkedWhitescale-whitescale_forked_tailfin = Хвост
+marking-HarpyTailPeacock = Павлиний хвост
+marking-HarpyTailPeacock-peacock_tail_feathers = Перья
+marking-HarpyTailPeacock-peacock_tail_eyes = Глазки
+marking-HarpyTailHaven = Хвост «Хейвен» (белый)
+marking-HarpyTailHaven-haven_tone_1 = Внешние перья
+marking-HarpyTailHaven-haven_tone_2 = Внутренние перья
+marking-HarpyTailForkedLong = Длинный раздвоенный хвост (белый)
+marking-HarpyTailForkedLong-forked_long = Хвост
+marking-HarpyTailSwallow = Хвост ласточки (белый)
+
+marking-HarpyChestDefault = Оперение груди и бёдер
+marking-HarpyChestDefault-upper = Оперение груди
+marking-HarpyChestDefault-lower = Оперение бёдер
+
+marking-HarpyLegsDefault = Птичьи ноги
+marking-HarpyLegsDefault-thighs = Бёдра
+marking-HarpyFeetDefault = Птичьи лапы
+marking-HarpyFeetDefault-feet = Лапы
+marking-HarpyFeetDefault-talons = Когти
+
+marking-HarpyWingDefaultHuescale = Обычные крылья (цветные)
+marking-HarpyWingDefaultHuescale-huescale_harpy = Крылья
+marking-HarpyWingDefaultWhitescale = Обычные крылья (белые)
+marking-HarpyWingDefaultWhitescale-whitescale_harpy = Крылья
+marking-HarpyWingClassic = Классические крылья
+marking-HarpyWingClassic-classic_harpy = Крылья
+marking-HarpyWingFoldedHuescale = Сложенные крылья (цветные)
+marking-HarpyWingFoldedHuescale-huescale_harpy_folded = Крылья
+marking-HarpyWingFoldedWhitescale = Сложенные крылья (белые)
+marking-HarpyWingFoldedWhitescale-whitescale_harpy_folded = Крылья
+marking-HarpyWingOwlHuescale = Совиные крылья (цветные)
+marking-HarpyWingOwlHuescale-huescale_harpy_wing_owl = Крылья
+marking-HarpyWingOwlWhitescale = Совиные крылья (белые)
+marking-HarpyWingOwlWhitescale-whitescale_harpy_wing_owl = Крылья
+marking-HarpyWing2ToneClassic = Классические двухцветные крылья
+marking-HarpyWing2ToneClassic-harpy_2tone_1 = Верхняя половина
+marking-HarpyWing2ToneClassic-harpy_2tone_2 = Нижняя половина
+marking-HarpyWing3ToneClassic = Классические трёхцветные крылья
+marking-HarpyWing3ToneClassic-harpy_3tone_1 = Верхняя треть
+marking-HarpyWing3ToneClassic-harpy_3tone_2 = Средняя треть
+marking-HarpyWing3ToneClassic-harpy_3tone_3 = Нижняя треть
+marking-HarpyWingSpeckledClassic = Классические крапчатые крылья
+marking-HarpyWingSpeckledClassic-harpy_speckled_1 = Основа
+marking-HarpyWingSpeckledClassic-harpy_speckled_2 = Крапинки
+marking-HarpyWingUndertoneClassic = Классические крылья с подтоном
+marking-HarpyWingUndertoneClassic-harpy_undertone_1 = Спереди
+marking-HarpyWingUndertoneClassic-harpy_undertone_2 = Сзади
+marking-HarpyWingTipsClassic = Классические крылья с кончиками перьев
+marking-HarpyWingTipsClassic-harpy_wingtip_1 = Основа
+marking-HarpyWingTipsClassic-harpy_wingtip_2 = Кончики перьев
+marking-HarpyWingBat = Крылья летучей мыши (белые)
+marking-HarpyWingBat-bat_wings_tone_1 = Перепонки-конечности
+marking-HarpyWingBat-bat_wings_tone_2 = Перепонка
+marking-HarpyWingBionic = Простые бионические крылья (белые)
+marking-HarpyWingBionic-bionic_wings_tone_1 = Крылья
+marking-HarpyWingBionic-bionic_wings_tone_2 = Огни (без затенения)

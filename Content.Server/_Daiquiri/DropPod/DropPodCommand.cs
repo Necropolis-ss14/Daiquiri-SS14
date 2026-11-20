@@ -1,3 +1,4 @@
+using System;
 using System.Linq;
 using Content.Server.Administration;
 using Content.Shared.Administration;
@@ -55,7 +56,8 @@ public sealed partial class DropPodCommand : IConsoleCommand
         {
             1 => CompletionResult.FromHintOptions(
                 _proto.EnumeratePrototypes<EntityPrototype>()
-                    .Where(p => !p.Abstract)
+                    .Where(p => !p.Abstract && p.ID.StartsWith(args[0], StringComparison.OrdinalIgnoreCase))
+                    .Take(30)
                     .Select(p => p.ID)
                     .Order(),
                 Loc.GetString("droppod-completion-prototype")),

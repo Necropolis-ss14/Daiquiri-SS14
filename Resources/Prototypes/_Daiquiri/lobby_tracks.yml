@@ -280,3 +280,93 @@
   id: _Starlight_Lobby_Liberation
   path: /Audio/_Starlight/Lobby/Liberation.ogg
   title: Liberation
+
+- type: lobbyTrack
+  id: _Daiquiri_Lobby_NewYear_Jingle_Bells
+  path: /Audio/_Daiquiri/Lobby/NewYear/Jingle_Bells.ogg
+  title: Jingle Bells
+
+- type: lobbyTrack
+  id: _Daiquiri_Lobby_NewYear_Up_on_a_Housetop
+  path: /Audio/_Daiquiri/Lobby/NewYear/Up_on_a_Housetop.ogg
+  title: Up on a Housetop
+
+- type: lobbyTrack
+  id: _Daiquiri_Lobby_NewYear_Jingle_Bells_3
+  path: /Audio/_Daiquiri/Lobby/NewYear/Jingle_Bells_3.ogg
+  title: Jingle Bells 3
+
+- type: lobbyTrack
+  id: _Daiquiri_Lobby_NewYear_Oh_Christmas_Tree
+  path: /Audio/_Daiquiri/Lobby/NewYear/Oh_Christmas_Tree.ogg
+  title: Oh, Christmas Tree
+
+- type: lobbyTrack
+  id: _Daiquiri_Lobby_NewYear_Dance_of_the_Sugar_Plum_Fairies
+  path: /Audio/_Daiquiri/Lobby/NewYear/Dance_of_the_Sugar_Plum_Fairies.ogg
+  title: Dance of the Sugar Plum Fairies
+
+- type: lobbyTrack
+  id: _Daiquiri_Lobby_NewYear_Angels_We_Have_Heard_on_High
+  path: /Audio/_Daiquiri/Lobby/NewYear/Angels_We_Have_Heard_on_High.ogg
+  title: Angels We Have Heard on High
+
+- type: lobbyTrack
+  id: _Daiquiri_Lobby_NewYear_We_Wish_you_a_Merry_Christmas
+  path: /Audio/_Daiquiri/Lobby/NewYear/We_Wish_you_a_Merry_Christmas.ogg
+  title: We Wish you a Merry Christmas
+
+- type: lobbyTrack
+  id: _Daiquiri_Lobby_NewYear_Jesu_Joy_of_Man_s_Desiring
+  path: /Audio/_Daiquiri/Lobby/NewYear/Jesu_Joy_of_Man_s_Desiring.ogg
+  title: Jesu, Joy of Man's Desiring
+
+- type: lobbyTrack
+  id: _Daiquiri_Lobby_NewYear_It_Came_Upon_a_Midnight_Clear
+  path: /Audio/_Daiquiri/Lobby/NewYear/It_Came_Upon_a_Midnight_Clear.ogg
+  title: It Came Upon a Midnight Clear
+
+- type: lobbyTrack
+  id: _Daiquiri_Lobby_NewYear_Angels_We_Have_Heard_on_High_piano
+  path: /Audio/_Daiquiri/Lobby/NewYear/Angels_We_Have_Heard_on_High_piano.ogg
+  title: Angels We Have Heard on High (piano)
+
+- type: lobbyTrack
+  id: _Daiquiri_Lobby_NewYear_Oh_Holy_Night
+  path: /Audio/_Daiquiri/Lobby/NewYear/Oh_Holy_Night.ogg
+  title: Oh Holy Night
+
+- type: lobbyTrack
+  id: _Daiquiri_Lobby_NewYear_Oh_Little_Town_of_Bethlehem
+  path: /Audio/_Daiquiri/Lobby/NewYear/Oh_Little_Town_of_Bethlehem.ogg
+  title: Oh, Little Town of Bethlehem
+
+- type: lobbyTrack
+  id: _Daiquiri_Lobby_NewYear_Silent_Night
+  path: /Audio/_Daiquiri/Lobby/NewYear/Silent_Night.ogg
+  title: Silent Night
+
+- type: lobbyTrack
+  id: _Daiquiri_Lobby_NewYear_What_Child_is_This
+  path: /Audio/_Daiquiri/Lobby/NewYear/What_Child_is_This.ogg
+  title: What Child is This
+
+- type: lobbyTrack
+  id: _Daiquiri_Lobby_NewYear_Jingle_Bells_calm
+  path: /Audio/_Daiquiri/Lobby/NewYear/Jingle_Bells_calm.ogg
+  title: Jingle Bells (calm)
+
+- type: lobbyTrack
+  id: _Daiquiri_Lobby_NewYear_Deck_the_Halls_A
+  path: /Audio/_Daiquiri/Lobby/NewYear/Deck_the_Halls_A.ogg
+  title: Deck the Halls A
+
+- type: lobbyTrack
+  id: _Daiquiri_Lobby_NewYear_Wish_Background
+  path: /Audio/_Daiquiri/Lobby/NewYear/Wish_Background.ogg
+  title: Wish Background
+
+- type: lobbyTrack
+  id: _Daiquiri_Lobby_NewYear_Christmas_Rap
+  path: /Audio/_Daiquiri/Lobby/NewYear/Christmas_Rap.ogg
+  title: Christmas Rap

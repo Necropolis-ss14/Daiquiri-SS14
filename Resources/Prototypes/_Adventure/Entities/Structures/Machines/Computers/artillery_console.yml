@@ -11,6 +11,13 @@
       state: base
     - map: ["computerLayerScreen"]
       state: screen
+  - type: GenericVisualizer
+    visuals:
+      enum.EdgeConnectionVisuals.ConnectionMask:
+        computerLayerBody:
+          None: { state: base, sprite: _Adventure/Structures/Machines/BSA.rsi }
+  - type: EdgeConnection
+    connectionKey: other
   - type: ArtilleryConsole
   - type: ActivatableUI
     key: enum.ArtilleryConsoleUiKey.Key

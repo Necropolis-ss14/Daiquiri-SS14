@@ -1,0 +1,24 @@
+- type: entity
+  id: OrganHarpyLungs
+  parent: [BaseHumanOrgan, BaseOrganLungs]
+  name: лёгкие гарпии
+  description: Пара продвинутых птичьих лёгких. Постоянно прогоняют воздух через систему воздушных мешков.
+  components:
+  - type: Sprite
+    sprite: _DV/Mobs/Species/Harpy/organs.rsi
+    layers:
+    - state: lung-l
+    - state: lung-r
+  - type: Item
+    size: Small
+    heldPrefix: lungs
+  - type: Lung
+  - type: Metabolizer
+    updateInterval: 0.5
+    metabolizerTypes: [ Human ]
+    stages: [ Respiration ]
+  - type: SolutionManager
+    solutions:
+    - SolutionOrganNutriment
+    - SolutionOrganFoodMeat
+    - SolutionOrganLung

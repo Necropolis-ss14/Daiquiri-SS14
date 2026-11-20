@@ -55,6 +55,10 @@ construction-graph-tag-super-compact-ai-chip = a super-compact AI chip
 
 # other
 construction-graph-tag-light-bulb = light bulb
+construction-graph-tag-second-light-bulb = light bulb
+construction-graph-tag-third-light-bulb = light bulb
+construction-graph-tag-fourth-light-bulb = light bulb
+construction-graph-tag-fifth-light-bulb = light bulb
 construction-graph-tag-radio = radio
 construction-graph-tag-pipe = gas pipe
 construction-graph-tag-human-head = human head

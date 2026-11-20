@@ -19,6 +19,31 @@
     - /Audio/Lobby/skubstep.ogg
 
 - type: lobbyPlaylist
+  id: NewYear
+  name: Новый год
+  weight: 5
+  turnon: true
+  tracks:
+    - /Audio/_Daiquiri/Lobby/NewYear/Jingle_Bells.ogg
+    - /Audio/_Daiquiri/Lobby/NewYear/Up_on_a_Housetop.ogg
+    - /Audio/_Daiquiri/Lobby/NewYear/Jingle_Bells_3.ogg
+    - /Audio/_Daiquiri/Lobby/NewYear/Oh_Christmas_Tree.ogg
+    - /Audio/_Daiquiri/Lobby/NewYear/Dance_of_the_Sugar_Plum_Fairies.ogg
+    - /Audio/_Daiquiri/Lobby/NewYear/Angels_We_Have_Heard_on_High.ogg
+    - /Audio/_Daiquiri/Lobby/NewYear/We_Wish_you_a_Merry_Christmas.ogg
+    - /Audio/_Daiquiri/Lobby/NewYear/Jesu_Joy_of_Man_s_Desiring.ogg
+    - /Audio/_Daiquiri/Lobby/NewYear/It_Came_Upon_a_Midnight_Clear.ogg
+    - /Audio/_Daiquiri/Lobby/NewYear/Angels_We_Have_Heard_on_High_piano.ogg
+    - /Audio/_Daiquiri/Lobby/NewYear/Oh_Holy_Night.ogg
+    - /Audio/_Daiquiri/Lobby/NewYear/Oh_Little_Town_of_Bethlehem.ogg
+    - /Audio/_Daiquiri/Lobby/NewYear/Silent_Night.ogg
+    - /Audio/_Daiquiri/Lobby/NewYear/What_Child_is_This.ogg
+    - /Audio/_Daiquiri/Lobby/NewYear/Jingle_Bells_calm.ogg
+    - /Audio/_Daiquiri/Lobby/NewYear/Deck_the_Halls_A.ogg
+    - /Audio/_Daiquiri/Lobby/NewYear/Wish_Background.ogg
+    - /Audio/_Daiquiri/Lobby/NewYear/Christmas_Rap.ogg
+
+- type: lobbyPlaylist
   id: Other
   name: Другое
   weight: 9

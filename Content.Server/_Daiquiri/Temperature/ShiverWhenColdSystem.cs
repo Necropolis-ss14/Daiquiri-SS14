@@ -1,8 +1,11 @@
 using Content.Server.Body.Components;
 using Content.Server.Chat.Managers;
+using Content.Shared._FarHorizons.Silicons.IPC.Components;
 using Content.Shared.Chat;
 using Content.Shared.Humanoid;
 using Content.Shared.Jittering;
+using Content.Shared.Mobs.Systems;
+using Content.Shared.Speech.Components;
 using Content.Shared.StatusEffect;
 using Content.Shared.Temperature;
 using Content.Shared.Temperature.Components;
@@ -21,6 +24,7 @@ public sealed partial class ShiverWhenColdSystem : EntitySystem
     [Dependency] private IPlayerManager _player = default!;
     [Dependency] private IRobustRandom _random = default!;
     [Dependency] private SharedJitteringSystem _jittering = default!;
+    [Dependency] private MobStateSystem _mobState = default!;
 
     private const float ColdScale = 0.33f;
     private static readonly TimeSpan ShiverInterval = TimeSpan.FromSeconds(10);
@@ -66,6 +70,14 @@ public sealed partial class ShiverWhenColdSystem : EntitySystem
         var query = EntityQueryEnumerator<TemperatureDamageComponent, TemperatureComponent, HumanoidAppearanceComponent, StatusEffectsComponent>();
         while (query.MoveNext(out var uid, out var damage, out var temperature, out _, out var status))
         {
+            if (_mobState.IsDead(uid) ||
+                HasComp<IPCThermalRegulationComponent>(uid) ||
+                HasComp<DamagedSiliconAccentComponent>(uid))
+            {
+                _nextShiver.Remove(uid);
+                continue;
+            }
+
             if (!IsCold(uid, damage, temperature))
             {
                 _nextShiver.Remove(uid);

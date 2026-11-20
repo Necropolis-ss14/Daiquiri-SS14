@@ -27,7 +27,7 @@
 
         <ScrollContainer Name="PlanetScroll" Access="Public"
                          HorizontalExpand="True" VerticalExpand="True"
-                         HScrollEnabled="True" VScrollEnabled="False">
+                         HScrollEnabled="True" VScrollEnabled="True">
             <BoxContainer Name="PlanetList" Access="Public"
                           Orientation="Horizontal" SeparationOverride="12"
                           Align="Center" />

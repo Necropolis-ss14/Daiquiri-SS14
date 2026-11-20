@@ -1,10 +1,8 @@
 using System.Numerics;
-using Content.Server.Body.Components;
 using Content.Server.Temperature.Systems;
 using Content.Shared.Mobs.Components;
 using Content.Shared.Placeable;
 using Content.Shared.Temperature.Components;
-using Robust.Shared.Maths;
 
 namespace Content.Server._Daiquiri.Campfire;
 
@@ -46,14 +44,14 @@ public sealed partial class CampfireSystem : EntitySystem
                 if ((position - campfirePosition).LengthSquared() > campfire.Radius * campfire.Radius)
                     continue;
 
-                var factor = Math.Clamp(campfire.WarmRate * frameTime, 0f, 1f);
                 var target = campfire.TargetTemperature;
 
-                if (TryComp<ThermalRegulatorComponent>(uid, out var regulator))
-                    target = regulator.NormalBodyTemperature;
+                if (temperature.CurrentTemperature >= target)
+                    break;
 
-                temperature.CurrentTemperature =
-                    MathHelper.Lerp(temperature.CurrentTemperature, target, factor);
+                temperature.CurrentTemperature = Math.Min(
+                    target,
+                    temperature.CurrentTemperature + campfire.WarmRate * frameTime);
 
                 break;
             }

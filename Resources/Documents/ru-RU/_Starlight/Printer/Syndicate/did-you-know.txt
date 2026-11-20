@@ -8,7 +8,7 @@
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
     [color=#aaaaaa][bold][italic]НАЧАЛО ФАКСА[/italic][/bold][/color]
 
-⠀⠀⠀⠀⠀⠀⠀⠀⠀                                      [bold]А ВЫ ЗНАЛИ?[/bold]
+[bold]А ВЫ ЗНАЛИ?[/bold]
 
 Дата и время: [datetime]
 Составитель документа: [signature]

@@ -1,7 +1,9 @@
 using System.Numerics;
 using System.Text;
 using Robust.Client.Graphics;
+using Robust.Client.UserInterface;
 using Robust.Shared.Enums;
+using Robust.Shared.IoC;
 using Robust.Shared.Timing;
 
 namespace Content.Client._Daiquiri.Planets;
@@ -27,6 +29,7 @@ public sealed class PlanetDiscoveryOverlay : Overlay
 
     private readonly IGameTiming _timing;
     private readonly Font _font;
+    private readonly IUserInterfaceManager _ui;
     private readonly List<Vector2> _points = new(6);
 
     private string _name = string.Empty;
@@ -38,6 +41,7 @@ public sealed class PlanetDiscoveryOverlay : Overlay
     {
         _timing = timing;
         _font = font;
+        _ui = IoCManager.Resolve<IUserInterfaceManager>();
         ZIndex = 200;
     }
 
@@ -77,32 +81,34 @@ public sealed class PlanetDiscoveryOverlay : Overlay
         var bounds = args.ViewportBounds;
         var width = bounds.Right - bounds.Left;
         var height = bounds.Bottom - bounds.Top;
+        var uiScale = _ui.RootControl.UIScale;
 
         var name = Loc.GetString(_name);
-        var spacing = MaxLetterSpacing * (0.35f + 0.65f * reveal);
-        var textWidth = Measure(name, spacing);
-        var lineHeight = _font.GetLineHeight(FontScale);
+        var scale = FontScale * uiScale;
+        var spacing = MaxLetterSpacing * uiScale * (0.35f + 0.65f * reveal);
+        var textWidth = Measure(name, scale, spacing);
+        var lineHeight = _font.GetLineHeight(scale);
 
         var centerX = bounds.Left + width / 2f;
-        var centerY = bounds.Top + height * VerticalPosition + (1f - reveal) * 14f;
+        var centerY = bounds.Top + height * VerticalPosition + (1f - reveal) * 14f * uiScale;
 
         var frameAlpha = alpha * Smooth(Math.Clamp((time - 0.1f) / FadeInTime, 0f, 1f));
-        var halfWidth = MathF.Max(textWidth / 2f + 56f, 210f) * (0.82f + 0.18f * reveal);
-        var innerHalf = textWidth / 2f + 18f;
+        var halfWidth = MathF.Max(textWidth / 2f + 56f * uiScale, 210f * uiScale) * (0.82f + 0.18f * reveal);
+        var innerHalf = textWidth / 2f + 18f * uiScale;
 
-        DrawFrame(handle, centerX, centerY, halfWidth, innerHalf, frameAlpha);
+        DrawFrame(handle, centerX, centerY, halfWidth, innerHalf, frameAlpha, uiScale);
 
         var textPos = new Vector2(centerX - textWidth / 2f, centerY - lineHeight / 2f);
-        var shadowPos = textPos + new Vector2(0f, 4f);
+        var shadowPos = textPos + new Vector2(0f, 4f * uiScale);
 
-        DrawSpaced(handle, textPos, name, spacing, Color.Transparent,
-            new TextOutline(6f, _accent.WithAlpha(alpha * 0.3f)));
-        DrawSpaced(handle, shadowPos, name, spacing, ShadowColor.WithAlpha(alpha * 0.55f), null);
-        DrawSpaced(handle, textPos, name, spacing, TextColor.WithAlpha(alpha),
-            new TextOutline(3f, ShadowColor.WithAlpha(alpha * 0.95f)));
+        DrawSpaced(handle, textPos, name, scale, spacing, Color.Transparent,
+            new TextOutline(6f * uiScale, _accent.WithAlpha(alpha * 0.3f)));
+        DrawSpaced(handle, shadowPos, name, scale, spacing, ShadowColor.WithAlpha(alpha * 0.55f), null);
+        DrawSpaced(handle, textPos, name, scale, spacing, TextColor.WithAlpha(alpha),
+            new TextOutline(3f * uiScale, ShadowColor.WithAlpha(alpha * 0.95f)));
     }
 
-    private void DrawFrame(DrawingHandleScreen handle, float centerX, float centerY, float halfWidth, float innerHalf, float alpha)
+    private void DrawFrame(DrawingHandleScreen handle, float centerX, float centerY, float halfWidth, float innerHalf, float alpha, float uiScale)
     {
         if (alpha <= 0.001f)
             return;
@@ -111,43 +117,44 @@ public sealed class PlanetDiscoveryOverlay : Overlay
         var gem = _accent.WithAlpha(alpha);
         var gemEdge = ShadowColor.WithAlpha(alpha * 0.75f);
 
-        var topY = centerY - RuleGap;
-        var bottomY = centerY + RuleGap;
+        var gap = RuleGap * uiScale;
+        var topY = centerY - gap;
+        var bottomY = centerY + gap;
 
-        DrawHLine(handle, centerX - halfWidth, centerX + halfWidth, topY, line);
-        DrawHLine(handle, centerX - halfWidth, centerX + halfWidth, bottomY, line);
+        DrawHLine(handle, centerX - halfWidth, centerX + halfWidth, topY, line, uiScale);
+        DrawHLine(handle, centerX - halfWidth, centerX + halfWidth, bottomY, line, uiScale);
 
-        DrawDiamond(handle, new Vector2(centerX, topY), 8.5f, gem, gemEdge);
-        DrawDiamond(handle, new Vector2(centerX - halfWidth, topY), 6.5f, gem, gemEdge);
-        DrawDiamond(handle, new Vector2(centerX + halfWidth, topY), 6.5f, gem, gemEdge);
-        DrawDiamond(handle, new Vector2(centerX - halfWidth, bottomY), 5.5f, gem, gemEdge);
-        DrawDiamond(handle, new Vector2(centerX + halfWidth, bottomY), 5.5f, gem, gemEdge);
+        DrawDiamond(handle, new Vector2(centerX, topY), 8.5f * uiScale, gem, gemEdge);
+        DrawDiamond(handle, new Vector2(centerX - halfWidth, topY), 6.5f * uiScale, gem, gemEdge);
+        DrawDiamond(handle, new Vector2(centerX + halfWidth, topY), 6.5f * uiScale, gem, gemEdge);
+        DrawDiamond(handle, new Vector2(centerX - halfWidth, bottomY), 5.5f * uiScale, gem, gemEdge);
+        DrawDiamond(handle, new Vector2(centerX + halfWidth, bottomY), 5.5f * uiScale, gem, gemEdge);
 
-        DrawDiamond(handle, new Vector2(centerX - innerHalf, topY), 3.2f, gem, gemEdge);
-        DrawDiamond(handle, new Vector2(centerX + innerHalf, topY), 3.2f, gem, gemEdge);
-        DrawDiamond(handle, new Vector2(centerX - innerHalf, bottomY), 3.2f, gem, gemEdge);
-        DrawDiamond(handle, new Vector2(centerX + innerHalf, bottomY), 3.2f, gem, gemEdge);
+        DrawDiamond(handle, new Vector2(centerX - innerHalf, topY), 3.2f * uiScale, gem, gemEdge);
+        DrawDiamond(handle, new Vector2(centerX + innerHalf, topY), 3.2f * uiScale, gem, gemEdge);
+        DrawDiamond(handle, new Vector2(centerX - innerHalf, bottomY), 3.2f * uiScale, gem, gemEdge);
+        DrawDiamond(handle, new Vector2(centerX + innerHalf, bottomY), 3.2f * uiScale, gem, gemEdge);
     }
 
-    private void DrawSpaced(DrawingHandleScreen handle, Vector2 pos, string text, float spacing, Color fill, TextOutline? outline)
+    private void DrawSpaced(DrawingHandleScreen handle, Vector2 pos, string text, float scale, float spacing, Color fill, TextOutline? outline)
     {
         var x = pos.X;
 
         foreach (var rune in text.EnumerateRunes())
         {
-            handle.DrawString(_font, new Vector2(x, pos.Y), rune.ToString(), FontScale, fill, outline);
-            x += Advance(rune, FontScale) + spacing;
+            handle.DrawString(_font, new Vector2(x, pos.Y), rune.ToString(), scale, fill, outline);
+            x += Advance(rune, scale) + spacing;
         }
     }
 
-    private float Measure(string text, float spacing)
+    private float Measure(string text, float scale, float spacing)
     {
         var width = 0f;
         var count = 0;
 
         foreach (var rune in text.EnumerateRunes())
         {
-            width += Advance(rune, FontScale) + spacing;
+            width += Advance(rune, scale) + spacing;
             count++;
         }
 
@@ -157,9 +164,9 @@ public sealed class PlanetDiscoveryOverlay : Overlay
     private float Advance(Rune rune, float scale)
         => _font.GetCharMetrics(rune, scale)?.Advance ?? 0f;
 
-    private void DrawHLine(DrawingHandleScreen handle, float x0, float x1, float y, Color color)
+    private void DrawHLine(DrawingHandleScreen handle, float x0, float x1, float y, Color color, float uiScale)
     {
-        var half = RuleThickness / 2f;
+        var half = RuleThickness * uiScale / 2f;
 
         _points.Clear();
         _points.Add(new Vector2(x0, y - half));
