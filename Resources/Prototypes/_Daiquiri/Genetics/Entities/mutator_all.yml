@@ -1,0 +1,631 @@
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+- type: entity
+  parent: GeneticsMutator
+  id: MutationMutatorAcromegaly
+  suffix: Acromegaly
+  components:
+  - type: Mutator
+    mutations:
+    - MutationAcromegaly
+
+- type: entity
+  parent: GeneticsMutator
+  id: MutationMutatorAdrenalineRush
+  suffix: AdrenalineRush
+  components:
+  - type: Mutator
+    mutations:
+    - MutationAdrenalineRush
+
+- type: entity
+  parent: GeneticsMutator
+  id: MutationMutatorAntenna
+  suffix: Antenna
+  components:
+  - type: Mutator
+    mutations:
+    - MutationAntenna
+
+- type: entity
+  parent: GeneticsMutator
+  id: MutationMutatorAntiGlow
+  suffix: AntiGlow
+  components:
+  - type: Mutator
+    mutations:
+    - MutationAntiGlow
+
+- type: entity
+  parent: GeneticsMutator
+  id: MutationMutatorBlindness
+  suffix: Blindness
+  components:
+  - type: Mutator
+    mutations:
+    - MutationBlindness
+
+- type: entity
+  parent: GeneticsMutator
+  id: MutationMutatorChameleon
+  suffix: Chameleon
+  components:
+  - type: Mutator
+    mutations:
+    - MutationChameleon
+
+- type: entity
+  parent: GeneticsMutator
+  id: MutationMutatorChav
+  suffix: Chav
+  components:
+  - type: Mutator
+    mutations:
+    - MutationChav
+
+- type: entity
+  parent: GeneticsMutator
+  id: MutationMutatorChemSpike
+  suffix: ChemSpike
+  components:
+  - type: Mutator
+    mutations:
+    - MutationChemSpike
+
+- type: entity
+  parent: GeneticsMutator
+  id: MutationMutatorCindikinesis
+  suffix: Cindikinesis
+  components:
+  - type: Mutator
+    mutations:
+    - MutationCindikinesis
+
+- type: entity
+  parent: GeneticsMutator
+  id: MutationMutatorClever
+  suffix: Clever
+  components:
+  - type: Mutator
+    mutations:
+    - MutationClever
+
+- type: entity
+  parent: GeneticsMutator
+  id: MutationMutatorClumsiness
+  suffix: Clumsiness
+  components:
+  - type: Mutator
+    mutations:
+    - MutationClumsiness
+
+- type: entity
+  parent: GeneticsMutator
+  id: MutationMutatorColdAdaptation
+  suffix: ColdAdaptation
+  components:
+  - type: Mutator
+    mutations:
+    - MutationColdAdaptation
+
+- type: entity
+  parent: GeneticsMutator
+  id: MutationMutatorColdWeakness
+  suffix: ColdWeakness
+  components:
+  - type: Mutator
+    mutations:
+    - MutationColdWeakness
+
+- type: entity
+  parent: GeneticsMutator
+  id: MutationMutatorCough
+  suffix: Cough
+  components:
+  - type: Mutator
+    mutations:
+    - MutationCough
+
+- type: entity
+  parent: GeneticsMutator
+  id: MutationMutatorDevolutionArachnid
+  suffix: DevolutionArachnid
+  components:
+  - type: Mutator
+    mutations:
+    - MutationDevolutionArachnid
+
+- type: entity
+  parent: GeneticsMutator
+  id: MutationMutatorDevolutionElf
+  suffix: DevolutionElf
+  components:
+  - type: Mutator
+    mutations:
+    - MutationDevolutionElf
+
+- type: entity
+  parent: GeneticsMutator
+  id: MutationMutatorDevolutionFelinid
+  suffix: DevolutionFelinid
+  components:
+  - type: Mutator
+    mutations:
+    - MutationDevolutionFelinid
+
+- type: entity
+  parent: GeneticsMutator
+  id: MutationMutatorDevolutionFelionoid
+  suffix: DevolutionFelionoid
+  components:
+  - type: Mutator
+    mutations:
+    - MutationDevolutionFelionoid
+
+- type: entity
+  parent: GeneticsMutator
+  id: MutationMutatorDevolutionHarpy
+  suffix: DevolutionHarpy
+  components:
+  - type: Mutator
+    mutations:
+    - MutationDevolutionHarpy
+
+- type: entity
+  parent: GeneticsMutator
+  id: MutationMutatorDevolutionMoth
+  suffix: DevolutionMoth
+  components:
+  - type: Mutator
+    mutations:
+    - MutationDevolutionMoth
+
+- type: entity
+  parent: GeneticsMutator
+  id: MutationMutatorDevolutionReptilian
+  suffix: DevolutionReptilian
+  components:
+  - type: Mutator
+    mutations:
+    - MutationDevolutionReptilian
+
+- type: entity
+  parent: GeneticsMutator
+  id: MutationMutatorDevolutionResomi
+  suffix: DevolutionResomi
+  components:
+  - type: Mutator
+    mutations:
+    - MutationDevolutionResomi
+
+- type: entity
+  parent: GeneticsMutator
+  id: MutationMutatorDevolutionRodentia
+  suffix: DevolutionRodentia
+  components:
+  - type: Mutator
+    mutations:
+    - MutationDevolutionRodentia
+
+- type: entity
+  parent: GeneticsMutator
+  id: MutationMutatorDevolutionVox
+  suffix: DevolutionVox
+  components:
+  - type: Mutator
+    mutations:
+    - MutationDevolutionVox
+
+- type: entity
+  parent: GeneticsMutator
+  id: MutationMutatorDevolutionVulpkanin
+  suffix: DevolutionVulpkanin
+  components:
+  - type: Mutator
+    mutations:
+    - MutationDevolutionVulpkanin
+
+- type: entity
+  parent: GeneticsMutator
+  id: MutationMutatorDwarfism
+  suffix: Dwarfism
+  components:
+  - type: Mutator
+    mutations:
+    - MutationDwarfism
+
+- type: entity
+  parent: GeneticsMutator
+  id: MutationMutatorElvis
+  suffix: Elvis
+  components:
+  - type: Mutator
+    mutations:
+    - MutationElvis
+
+- type: entity
+  parent: GeneticsMutator
+  id: MutationMutatorEpilepsy
+  suffix: Epilepsy
+  components:
+  - type: Mutator
+    mutations:
+    - MutationEpilepsy
+
+- type: entity
+  parent: GeneticsMutator
+  id: MutationMutatorFarsight
+  suffix: Farsight
+  components:
+  - type: Mutator
+    mutations:
+    - MutationFarsight
+
+- type: entity
+  parent: GeneticsMutator
+  id: MutationMutatorFierySweat
+  suffix: FierySweat
+  components:
+  - type: Mutator
+    mutations:
+    - MutationFierySweat
+
+- type: entity
+  parent: GeneticsMutator
+  id: MutationMutatorGeladikinesis
+  suffix: Geladikinesis
+  components:
+  - type: Mutator
+    mutations:
+    - MutationGeladikinesis
+
+- type: entity
+  parent: GeneticsMutator
+  id: MutationMutatorGigantism
+  suffix: Gigantism
+  components:
+  - type: Mutator
+    mutations:
+    - MutationGigantism
+
+- type: entity
+  parent: GeneticsMutator
+  id: MutationMutatorGlowy
+  suffix: Glowy
+  components:
+  - type: Mutator
+    mutations:
+    - MutationGlowy
+
+- type: entity
+  parent: GeneticsMutator
+  id: MutationMutatorHeatAdaptation
+  suffix: HeatAdaptation
+  components:
+  - type: Mutator
+    mutations:
+    - MutationHeatAdaptation
+
+- type: entity
+  parent: GeneticsMutator
+  id: MutationMutatorHeatWeakness
+  suffix: HeatWeakness
+  components:
+  - type: Mutator
+    mutations:
+    - MutationHeatWeakness
+
+- type: entity
+  parent: GeneticsMutator
+  id: MutationMutatorHeckaciousLarincks
+  suffix: HeckaciousLarincks
+  components:
+  - type: Mutator
+    mutations:
+    - MutationHeckaciousLarincks
+
+- type: entity
+  parent: GeneticsMutator
+  id: MutationMutatorHulk
+  suffix: Hulk
+  components:
+  - type: Mutator
+    mutations:
+    - MutationHulk
+
+- type: entity
+  parent: GeneticsMutator
+  id: MutationMutatorHypermetabolicBlood
+  suffix: HypermetabolicBlood
+  components:
+  - type: Mutator
+    mutations:
+    - MutationHypermetabolicBlood
+
+- type: entity
+  parent: GeneticsMutator
+  id: MutationMutatorIlliterate
+  suffix: Illiterate
+  components:
+  - type: Mutator
+    mutations:
+    - MutationIlliterate
+
+- type: entity
+  parent: GeneticsMutator
+  id: MutationMutatorInexorable
+  suffix: Inexorable
+  components:
+  - type: Mutator
+    mutations:
+    - MutationInexorable
+
+- type: entity
+  parent: GeneticsMutator
+  id: MutationMutatorInsulated
+  suffix: Insulated
+  components:
+  - type: Mutator
+    mutations:
+    - MutationInsulated
+
+- type: entity
+  parent: GeneticsMutator
+  id: MutationMutatorLaserEyes
+  suffix: LaserEyes
+  components:
+  - type: Mutator
+    mutations:
+    - MutationLaserEyes
+
+- type: entity
+  parent: GeneticsMutator
+  id: MutationMutatorMedieval
+  suffix: Medieval
+  components:
+  - type: Mutator
+    mutations:
+    - MutationMedieval
+
+- type: entity
+  parent: GeneticsMutator
+  id: MutationMutatorMendingTouch
+  suffix: MendingTouch
+  components:
+  - type: Mutator
+    mutations:
+    - MutationMendingTouch
+
+- type: entity
+  parent: GeneticsMutator
+  id: MutationMutatorMindReader
+  suffix: MindReader
+  components:
+  - type: Mutator
+    mutations:
+    - MutationMindReader
+
+- type: entity
+  parent: GeneticsMutator
+  id: MutationMutatorMonkified
+  suffix: Monkified
+  components:
+  - type: Mutator
+    mutations:
+    - MutationMonkified
+
+- type: entity
+  parent: GeneticsMutator
+  id: MutationMutatorMute
+  suffix: Mute
+  components:
+  - type: Mutator
+    mutations:
+    - MutationMute
+
+- type: entity
+  parent: GeneticsMutator
+  id: MutationMutatorNearSightedness
+  suffix: NearSightedness
+  components:
+  - type: Mutator
+    mutations:
+    - MutationNearSightedness
+
+- type: entity
+  parent: GeneticsMutator
+  id: MutationMutatorNervousness
+  suffix: Nervousness
+  components:
+  - type: Mutator
+    mutations:
+    - MutationNervousness
+
+- type: entity
+  parent: GeneticsMutator
+  id: MutationMutatorOrk
+  suffix: Ork
+  components:
+  - type: Mutator
+    mutations:
+    - MutationOrk
+
+- type: entity
+  parent: GeneticsMutator
+  id: MutationMutatorParanoia
+  suffix: Paranoia
+  components:
+  - type: Mutator
+    mutations:
+    - MutationParanoia
+
+- type: entity
+  parent: GeneticsMutator
+  id: MutationMutatorPigLatin
+  suffix: PigLatin
+  components:
+  - type: Mutator
+    mutations:
+    - MutationPigLatin
+
+- type: entity
+  parent: GeneticsMutator
+  id: MutationMutatorPressureAdaptation
+  suffix: PressureAdaptation
+  components:
+  - type: Mutator
+    mutations:
+    - MutationPressureAdaptation
+
+- type: entity
+  parent: GeneticsMutator
+  id: MutationMutatorRadioactivity
+  suffix: Radioactivity
+  components:
+  - type: Mutator
+    mutations:
+    - MutationRadioactivity
+
+- type: entity
+  parent: GeneticsMutator
+  id: MutationMutatorRockAbsorber
+  suffix: RockAbsorber
+  components:
+  - type: Mutator
+    mutations:
+    - MutationRockAbsorber
+
+- type: entity
+  parent: GeneticsMutator
+  id: MutationMutatorRockEater
+  suffix: RockEater
+  components:
+  - type: Mutator
+    mutations:
+    - MutationRockEater
+
+- type: entity
+  parent: GeneticsMutator
+  id: MutationMutatorShockTouch
+  suffix: ShockTouch
+  components:
+  - type: Mutator
+    mutations:
+    - MutationShockTouch
+
+- type: entity
+  parent: GeneticsMutator
+  id: MutationMutatorSpatialInstability
+  suffix: SpatialInstability
+  components:
+  - type: Mutator
+    mutations:
+    - MutationSpatialInstability
+
+- type: entity
+  parent: GeneticsMutator
+  id: MutationMutatorStimmed
+  suffix: Stimmed
+  components:
+  - type: Mutator
+    mutations:
+    - MutationStimmed
+
+- type: entity
+  parent: GeneticsMutator
+  id: MutationMutatorStoner
+  suffix: Stoner
+  components:
+  - type: Mutator
+    mutations:
+    - MutationStoner
+
+- type: entity
+  parent: GeneticsMutator
+  id: MutationMutatorStrength
+  suffix: Strength
+  components:
+  - type: Mutator
+    mutations:
+    - MutationStrength
+
+- type: entity
+  parent: GeneticsMutator
+  id: MutationMutatorSwedish
+  suffix: Swedish
+  components:
+  - type: Mutator
+    mutations:
+    - MutationSwedish
+
+- type: entity
+  parent: GeneticsMutator
+  id: MutationMutatorTelepathy
+  suffix: Telepathy
+  components:
+  - type: Mutator
+    mutations:
+    - MutationTelepathy
+
+- type: entity
+  parent: GeneticsMutator
+  id: MutationMutatorThermalAdaptation
+  suffix: ThermalAdaptation
+  components:
+  - type: Mutator
+    mutations:
+    - MutationThermalAdaptation
+
+- type: entity
+  parent: GeneticsMutator
+  id: MutationMutatorThermalVision
+  suffix: ThermalVision
+  components:
+  - type: Mutator
+    mutations:
+    - MutationThermalVision
+
+- type: entity
+  parent: GeneticsMutator
+  id: MutationMutatorThermalWeakness
+  suffix: ThermalWeakness
+  components:
+  - type: Mutator
+    mutations:
+    - MutationThermalWeakness
+
+- type: entity
+  parent: GeneticsMutator
+  id: MutationMutatorTongueSpike
+  suffix: TongueSpike
+  components:
+  - type: Mutator
+    mutations:
+    - MutationTongueSpike
+
+- type: entity
+  parent: GeneticsMutator
+  id: MutationMutatorUnintelligible
+  suffix: Unintelligible
+  components:
+  - type: Mutator
+    mutations:
+    - MutationUnintelligible
+
+- type: entity
+  parent: GeneticsMutator
+  id: MutationMutatorUnstableDna
+  suffix: UnstableDna
+  components:
+  - type: Mutator
+    mutations:
+    - MutationUnstableDna
+
+- type: entity
+  parent: GeneticsMutator
+  id: MutationMutatorWebbingProduction
+  suffix: WebbingProduction
+  components:
+  - type: Mutator
+    mutations:
+    - MutationWebbingProduction

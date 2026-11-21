@@ -1,0 +1,184 @@
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+- type: polymorph
+  id: MutationMonkey
+  configuration:
+    entity: MobMonkey
+    transferName: true
+    stripNameModifier: false
+    componentsToTransfer: []
+    forced: true
+    revertOnCrit: false
+    revertOnDeath: false
+    revertOnDelete: false
+    inventory: Transfer
+    polymorphSound: /Audio/Animals/monkey_scream.ogg
+
+- type: polymorph
+  id: MutationHuman
+  configuration:
+    entity: MobHuman
+    transferName: false
+    stripNameModifier: false
+    forced: true
+    revertOnCrit: false
+    revertOnDeath: false
+    revertOnDelete: false
+    inventory: Transfer
+    polymorphSound: /Audio/Voice/Human/malescream_1.ogg
+
+- type: polymorph
+  id: MutationKobold
+  configuration:
+    entity: MobKobold
+    transferName: true
+    stripNameModifier: false
+    componentsToTransfer: []
+    forced: true
+    revertOnCrit: false
+    revertOnDeath: false
+    revertOnDelete: false
+    inventory: Transfer
+    polymorphSound: /Audio/Animals/monkey_scream.ogg
+
+- type: polymorph
+  id: MutationReptilian
+  configuration:
+    entity: MobReptilian
+    transferName: false
+    stripNameModifier: false
+    forced: true
+    revertOnCrit: false
+    revertOnDeath: false
+    revertOnDelete: false
+    inventory: Transfer
+    polymorphSound: /Audio/Voice/Reptilian/reptilian_scream.ogg
+
+- type: polymorph
+  id: MutationElf
+  configuration:
+    entity: MobElf
+    transferName: false
+    stripNameModifier: false
+    forced: true
+    revertOnCrit: false
+    revertOnDeath: false
+    revertOnDelete: false
+    inventory: Transfer
+
+- type: polymorph
+  id: MutationFelinid
+  configuration:
+    entity: MobFelinid
+    transferName: false
+    stripNameModifier: false
+    forced: true
+    revertOnCrit: false
+    revertOnDeath: false
+    revertOnDelete: false
+    inventory: Transfer
+
+- type: polymorph
+  id: MutationGiantSpider
+  configuration:
+    entity: MobGiantSpider
+    transferName: true
+    stripNameModifier: false
+    componentsToTransfer: []
+    forced: true
+    revertOnCrit: false
+    revertOnDeath: false
+    revertOnDelete: false
+    inventory: Drop
+
+- type: polymorph
+  id: MutationCat
+  configuration:
+    entity: MobCat
+    transferName: true
+    stripNameModifier: false
+    componentsToTransfer: []
+    forced: true
+    revertOnCrit: false
+    revertOnDeath: false
+    revertOnDelete: false
+    inventory: Drop
+
+- type: polymorph
+  id: MutationParrot
+  configuration:
+    entity: MobParrot
+    transferName: true
+    stripNameModifier: false
+    componentsToTransfer: []
+    forced: true
+    revertOnCrit: false
+    revertOnDeath: false
+    revertOnDelete: false
+    inventory: Drop
+
+- type: polymorph
+  id: MutationMothroach
+  configuration:
+    entity: MobMothroach
+    transferName: true
+    stripNameModifier: false
+    componentsToTransfer: []
+    forced: true
+    revertOnCrit: false
+    revertOnDeath: false
+    revertOnDelete: false
+    inventory: Drop
+
+- type: polymorph
+  id: MutationDuckMallard
+  configuration:
+    entity: MobDuckMallard
+    transferName: true
+    stripNameModifier: false
+    componentsToTransfer: []
+    forced: true
+    revertOnCrit: false
+    revertOnDeath: false
+    revertOnDelete: false
+    inventory: Drop
+
+- type: polymorph
+  id: MutationMouse
+  configuration:
+    entity: MobMouse
+    transferName: true
+    stripNameModifier: false
+    componentsToTransfer: []
+    forced: true
+    revertOnCrit: false
+    revertOnDeath: false
+    revertOnDelete: false
+    inventory: Drop
+    polymorphSound: /Audio/Animals/mouse_squeak.ogg
+
+- type: polymorph
+  id: MutationChicken
+  configuration:
+    entity: MobChicken
+    transferName: true
+    stripNameModifier: false
+    componentsToTransfer: []
+    forced: true
+    revertOnCrit: false
+    revertOnDeath: false
+    revertOnDelete: false
+    inventory: Drop
+
+- type: polymorph
+  id: MutationCorgi
+  configuration:
+    entity: MobCorgi
+    transferName: true
+    stripNameModifier: false
+    componentsToTransfer: []
+    forced: true
+    revertOnCrit: false
+    revertOnDeath: false
+    revertOnDelete: false
+    inventory: Drop

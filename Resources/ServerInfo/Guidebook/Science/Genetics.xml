@@ -1,0 +1,157 @@
+<Document>
+# Генетика
+
+Генетика позволяет читать и переписывать геном живых существ: находить мутации в чужой ДНК, выделять их последовательности оснований, записывать их на диски и прививать другим.
+
+## Оборудование
+
+<Box>
+<GuideEntityEmbed Entity="ComputerGeneticsConsole"/>
+<GuideEntityEmbed Entity="HandheldGeneticsScanner"/>
+<GuideEntityEmbed Entity="GeneticsDisk"/>
+</Box>
+
+- [bold]Генетический консоль[/bold] — рабочее место генетика. К нему нужно привязать медсканер через меню связывания устройств: тогда консоль будет видеть существо, лежащее внутри сканера.
+- [bold]Портативный сканер генома[/bold] — показывает все последовательности субъекта прямо на месте, без лаборатории.
+- [bold]Генетический диск[/bold] — хранит одну мутацию, записанную с консоли. Нужен для смешивания генов.
+
+## Как работать
+
+1. Положите субъекта в медсканер, привязанный к консоли.
+2. Нажмите [bold]«Сканировать!»[/bold] — консоль прочитает геном и покажет все его последовательности.
+3. Выберите мутацию и нажмите [bold]«Начать секвенирование»[/bold], чтобы определить её основания. Неизвестные основания можно угадать: ЛКМ ставит основание по кругу, ПКМ — в обратном порядке, Ctrl+ЛКМ сразу ставит X.
+4. Найденную мутацию можно записать на диск, напечатать в виде инъектора-мутатора или смешать с другой.
+
+Активатор активирует дремлющую мутацию без роста нестабильности, очиститель — удаляет и подавляет выбранный ген.
+
+[color=#a4885c]Следите за нестабильностью[/color]: чем больше мутаций вы привьёте субъекту, тем выше шанс, что его ДНК начнёт плавиться.
+
+## Смешивание генов
+
+Некоторые мутации можно смешать в новую: для этого нужна мутация, записанная на [bold]диске[/bold], и мутация, найденная в геноме субъекта. Выберите последовательность в консоли и нажмите [bold]«Совместить!»[/bold].
+
+<Table Columns="3">
+  <ColorBox>
+    <Box HorizontalAlignment="Center" VerticalAlignment="Center" Margin="2">
+      Мутация
+    </Box>
+  </ColorBox>
+  <ColorBox>
+    <Box HorizontalAlignment="Center" VerticalAlignment="Center" Margin="2">
+      Мутация
+    </Box>
+  </ColorBox>
+  <ColorBox>
+    <Box HorizontalAlignment="Center" VerticalAlignment="Center" Margin="2">
+      Результат
+    </Box>
+  </ColorBox>
+  <ColorBox Color="#1F3B26">
+    <Box HorizontalAlignment="Center" VerticalAlignment="Center" Margin="2">
+      Холодовая адаптация
+    </Box>
+  </ColorBox>
+  <ColorBox Color="#4A2A1B">
+    <Box HorizontalAlignment="Center" VerticalAlignment="Center" Margin="2">
+      Тепловая адаптация
+    </Box>
+  </ColorBox>
+  <ColorBox Color="#2A3B4A">
+    <Box HorizontalAlignment="Center" VerticalAlignment="Center" Margin="2">
+      Термоадаптация
+    </Box>
+  </ColorBox>
+  <ColorBox Color="#1F3B26">
+    <Box HorizontalAlignment="Center" VerticalAlignment="Center" Margin="2">
+      Антенна
+    </Box>
+  </ColorBox>
+  <ColorBox Color="#4A2A1B">
+    <Box HorizontalAlignment="Center" VerticalAlignment="Center" Margin="2">
+      Паранойя
+    </Box>
+  </ColorBox>
+  <ColorBox Color="#2A3B4A">
+    <Box HorizontalAlignment="Center" VerticalAlignment="Center" Margin="2">
+      Чтец разума
+    </Box>
+  </ColorBox>
+  <ColorBox Color="#1F3B26">
+    <Box HorizontalAlignment="Center" VerticalAlignment="Center" Margin="2">
+      Камнеед
+    </Box>
+  </ColorBox>
+  <ColorBox Color="#4A2A1B">
+    <Box HorizontalAlignment="Center" VerticalAlignment="Center" Margin="2">
+      Стоунер
+    </Box>
+  </ColorBox>
+  <ColorBox Color="#2A3B4A">
+    <Box HorizontalAlignment="Center" VerticalAlignment="Center" Margin="2">
+      Поглотитель камня
+    </Box>
+  </ColorBox>
+  <ColorBox Color="#1F3B26">
+    <Box HorizontalAlignment="Center" VerticalAlignment="Center" Margin="2">
+      Геладикинез
+    </Box>
+  </ColorBox>
+  <ColorBox Color="#4A2A1B">
+    <Box HorizontalAlignment="Center" VerticalAlignment="Center" Margin="2">
+      Огненный пот
+    </Box>
+  </ColorBox>
+  <ColorBox Color="#2A3B4A">
+    <Box HorizontalAlignment="Center" VerticalAlignment="Center" Margin="2">
+      Циндикинез
+    </Box>
+  </ColorBox>
+  <ColorBox Color="#1F3B26">
+    <Box HorizontalAlignment="Center" VerticalAlignment="Center" Margin="2">
+      Языковой шип
+    </Box>
+  </ColorBox>
+  <ColorBox Color="#4A2A1B">
+    <Box HorizontalAlignment="Center" VerticalAlignment="Center" Margin="2">
+      Стимуляция
+    </Box>
+  </ColorBox>
+  <ColorBox Color="#2A3B4A">
+    <Box HorizontalAlignment="Center" VerticalAlignment="Center" Margin="2">
+      Химический шип
+    </Box>
+  </ColorBox>
+  <ColorBox Color="#1F3B26">
+    <Box HorizontalAlignment="Center" VerticalAlignment="Center" Margin="2">
+      Изоляция
+    </Box>
+  </ColorBox>
+  <ColorBox Color="#4A2A1B">
+    <Box HorizontalAlignment="Center" VerticalAlignment="Center" Margin="2">
+      Радиоактивность
+    </Box>
+  </ColorBox>
+  <ColorBox Color="#2A3B4A">
+    <Box HorizontalAlignment="Center" VerticalAlignment="Center" Margin="2">
+      Электрошок
+    </Box>
+  </ColorBox>
+</Table>
+
+## Обратная эволюция
+
+Среди мутаций встречаются дремлющие гены обратной эволюции: они превращают гуманоида в его животного предка. Такой ген срабатывает только на подходящей расе, а снятие мутации возвращает прежний облик.
+
+- Арахнид — гигантский паук
+- Вокс — курица
+- Вульпканин — корги
+- Гарпия — попугай
+- Мотылёк — мотыльковый таракан
+- Резоми — утка
+- Рептилоид — кобольд
+- Родентия — мышь
+- Фелионид — кошка
+- Человек — обезьяна (обезьянизация) и эльф (эльфийское наследие)
+- Фелинид — кошачье наследие от человека
+
+</Document>

@@ -1,0 +1,346 @@
+ent-MutationAdrenalineRush = Прилив адреналина
+    .desc = Позволяет носителю по желанию запускать адреналиновый ответ организма.
+ent-ActionMutationAdrenaline = Адреналин!
+    .desc = Взбодрите себя, толкая организм к пределу возможностей!
+ent-MutationAntenna = Антенна
+    .desc = У поражённого вырастает антенна. Известно, что она позволяет пассивно получать доступ к общему радиоканалу.
+ent-MutationMindReader = Чтец разума
+    .desc = Поражённый может заглядывать в недавние воспоминания других.
+ent-ActionMutationMindRead = Чтение разума
+    .desc = Прочитайте разум цели.
+ent-MutationEpilepsy = Эпилепсия
+    .desc = Генетический дефект, время от времени вызывающий припадки.
+ent-MutationCough = Кашель
+    .desc = Хронический кашель.
+ent-MutationParanoia = Паранойя
+    .desc = Субъект легко пугается и может страдать от галлюцинаций.
+ent-MutationDwarfism = Карликовость
+    .desc = Мутация, которую считают причиной карликовости.
+ent-MutationAcromegaly = Акромегалия
+    .desc = Мутация, которую считают причиной акромегалии, или «необычно высокого роста».
+ent-MutationGigantism = Гигантизм
+    .desc = Клетки субъекта растягиваются, занимая больше пространства, из-за чего субъект кажется крупнее.
+ent-MutationClumsiness = Неуклюжесть
+    .desc = Геном, подавляющий некоторые функции мозга, из-за чего носитель кажется неуклюжим. Хонк!
+ent-MutationMonkified = Обезьянизация
+    .desc = Странный геном, который считают тем, что отличает обезьян от людей.
+ent-MutationGlowy = Свечение
+    .desc = Вы постоянно излучаете свет случайного цвета и интенсивности.
+ent-MutationAntiGlow = Антисвечение
+    .desc = Ваша кожа, похоже, притягивает и поглощает окружающий свет, создавая вокруг вас «темноту».
+ent-MutationStrength = Сила
+    .desc = Мышцы пользователя слегка увеличиваются. Часто встречается у боксёров высшего уровня.
+ent-MutationStimmed = Стимуляция
+    .desc = Химический баланс пользователя более устойчив. Известно, что эта мутация ускоряет метаболизм химических веществ.
+ent-MutationInsulated = Изоляция
+    .desc = Поражённый не проводит электричество.
+ent-MutationFierySweat = Огненный пот
+    .desc = Кожа пользователя случайно воспламеняется, но в целом гораздо более устойчива к ожогам.
+ent-MutationSpatialInstability = Пространственная нестабильность
+    .desc = Жертва мутации имеет очень слабую связь с пространственной реальностью и может быть перемещена. Часто вызывает сильную тошноту.
+ent-MutationHypermetabolicBlood = Гиперметаболическая кровь
+    .desc = Кровь субъекта гиперметаболическая, из-за чего она производится гораздо быстрее.
+ent-MutationRockEater = Камнеед
+    .desc = Организм субъекта способен переваривать камни и минералы.
+ent-MutationRockAbsorber = Поглотитель камня
+    .desc = Организм субъекта способен переваривать камни и минералы, перенимая их свойства.
+ent-MutationInexorable = Неумолимость
+    .desc = Ваше тело может преодолевать пределы обычной человеческой выносливости. Однако чрезмерное напряжение может серьёзно повредить вашему организму.
+ent-MutationChameleon = Хамелеон
+    .desc = Геном, из-за которого кожа носителя со временем становится прозрачной.
+ent-MutationFarsight = Дальнозоркость
+    .desc = Глаза субъекта способны видеть дальше обычного.
+ent-MutationRadioactivity = Радиоактивность
+    .desc = Нестабильная мутация, из-за которой носитель излучает смертельную бета-радиацию. Это влияет как на носителя, так и на окружение.
+ent-MutationTelepathy = Телепатия
+    .desc = Редкая мутация, позволяющая пользователю телепатически общаться с другими.
+ent-ActionMutationTelepathy = Телепатия
+    .desc = Передаёт сообщение цели телепатически.
+ent-MutationWebbingProduction = Производство паутины
+    .desc = Позволяет пользователю плести паутину и перемещаться по ней.
+ent-MutationColdWeakness = Холодовая слабость
+    .desc = Странная мутация, которая подрывает способность носителя повышать температуру тела. Холод становится намного опаснее.
+ent-MutationHeatWeakness = Тепловая слабость
+    .desc = Странная мутация, которая подрывает способность носителя понижать температуру тела. Жара становится намного опаснее.
+ent-MutationThermalWeakness = Отказ гомеостаза
+    .desc = Опасная для жизни мутация, почти полностью отключающая способность носителя контролировать температуру тела.
+ent-MutationClever = Сообразительность
+    .desc = Заставляет субъекта чувствовать себя чуть умнее. Наиболее эффективна у особей с низким уровнем интеллекта.
+ent-MutationColdAdaptation = Холодовая адаптация
+    .desc = Странная мутация, делающая носителя невосприимчивым к урону от сред с низкой температурой.
+ent-MutationHeatAdaptation = Тепловая адаптация
+    .desc = Странная мутация, делающая носителя невосприимчивым к урону от высоких температур, включая воспламенение, хотя огонь всё ещё прожигает одежду. Также, похоже, даёт носителю устойчивость к пепельным бурям.
+ent-MutationThermalAdaptation = Термоадаптация
+    .desc = Странная мутация, делающая носителя невосприимчивым к урону от сред как с низкой, так и с высокой температурой. Не защищает от сред с высоким или низким давлением.
+ent-MutationNearSightedness = Близорукость
+    .desc = У носителя этой мутации плохое зрение.
+ent-MutationBlindness = Слепота
+    .desc = Полностью ослепляет субъекта.
+ent-MutationThermalVision = Тепловое зрение
+    .desc = Пользователь этого генома может видеть уникальную тепловую сигнатуру человека.
+ent-MutationIlliterate = Неграмотность
+    .desc = Вызывает тяжёлую форму афазии, из-за которой невозможно читать или писать.
+ent-MutationLaserEyes = Лазерные глаза
+    .desc = Отражает сконцентрированный свет обратно из глаз.
+ent-MutationNervousness = Нервозность
+    .desc = Заставляет носителя заикаться.
+ent-MutationMute = Немота
+    .desc = Полностью подавляет речевой отдел мозга.
+ent-MutationUnintelligible = Нечленораздельная речь
+    .desc = Частично подавляет речевой центр мозга, сильно искажая речь.
+ent-MutationElvis = Элвис
+    .desc = Ужасающая мутация, названная в честь её «пациента-ноль».
+ent-MutationStoner = Стоунер
+    .desc = Распространённая мутация, сильно снижающая интеллект.
+ent-MutationShockTouch = Электрошок
+    .desc = Поражённый может пропускать избыточное электричество через руки, не бьёт себя током, что позволяет бить током других. В основном безобидно! В основном...
+ent-ActionMutationShockTouch = Электрошок
+    .desc = Направьте электричество в руку, чтобы бить током людей. В основном безобидно! В основном...
+ent-MutationMendingTouch = Исцеляющее касание
+    .desc = Поражённый может возложить руки на других, чтобы перенести часть их травм на себя.
+ent-MutationGeladikinesis = Геладикинез
+    .desc = Позволяет пользователю концентрировать влагу и силы холода в снег.
+ent-ActionMutationGeladikinesis = Создать снег
+    .desc = Концентрирует криокинетические силы для создания снега, полезного для строительства из снега.
+ent-MutationCindikinesis = Циндикинез
+    .desc = Позволяет пользователю концентрировать ближайшее тепло в кучу пепла. Вау. Очень интересно.
+ent-ActionMutationCindikinesis = Создать пепел
+    .desc = Концентрирует пирокинетические силы для создания пепла, полезного практически ни для чего.
+ent-MutationUnstableDna = Нестабильная ДНК
+    .desc = ???
+ent-MutationDevolutionArachnid = Обратная эволюция арахнида
+    .desc = Дремлющий геном, превращающий арахнида обратно в гигантского паука.
+ent-MutationDevolutionElf = Эльфийское наследие
+    .desc = Геном, превращающий человека в эльфа.
+ent-MutationDevolutionFelinid = Кошачье наследие
+    .desc = Геном, превращающий человека в фелинида.
+ent-MutationDevolutionFelionoid = Обратная эволюция фелионида
+    .desc = Дремлющий геном, превращающий фелионида обратно в кошку.
+ent-MutationDevolutionHarpy = Обратная эволюция гарпии
+    .desc = Дремлющий геном, превращающий гарпию обратно в попугая.
+ent-MutationDevolutionMoth = Обратная эволюция мотылька
+    .desc = Дремлющий геном, превращающий мотылька обратно в мотылькового таракана.
+ent-MutationDevolutionReptilian = Обратная эволюция рептилоида
+    .desc = Дремлющий геном, превращающий рептилоида обратно в кобольда.
+ent-MutationDevolutionResomi = Обратная эволюция резоми
+    .desc = Дремлющий геном, превращающий резоми обратно в утку.
+ent-MutationDevolutionRodentia = Обратная эволюция родентия
+    .desc = Дремлющий геном, превращающий родентия обратно в мышь.
+ent-MutationDevolutionVox = Обратная эволюция вокса
+    .desc = Дремлющий геном, превращающий вокса обратно в курицу.
+ent-MutationDevolutionVulpkanin = Обратная эволюция вульпканина
+    .desc = Дремлющий геном, превращающий вульпканина обратно в корги.
+ent-GeneticsDisk = генетический диск
+    .desc = Диск для хранения, способный закодировать одну мутацию для использования в генетическом консоли. Не подвергать микроволновому излучению.
+ent-GeneticsActivator = активатор
+    .desc = Одноразовый инъектор мутагена, способный активировать дремлющую мутацию без повышения нестабильности.
+ent-GeneticsCleanser = очиститель
+    .desc = Одноразовый инъектор мутагена, предназначенный для удаления и подавления определённого гена в организме.
+ent-GeneticsMutator = мутатор
+    .desc = Одноразовый инъектор мутагена, предназначенный для воспроизведения определённого гена по всему организму.
+ent-ComputerGeneticsConsole = генетический консоль
+    .desc = Отсюда можно исследовать тайны ДНК!
+ent-HandheldGeneticsScanner = портативный сканер генома
+    .desc = Комбинированное устройство для взятия проб ДНК и считывания, способное показать все последовательности субъекта вне лаборатории.
+ent-PaperGeneticsScanner = генетическая распечатка
+    .desc = Информация, напечатанная портативным сканером генома.
+ent-GeneticsConsoleCircuitboard = плата генетического компьютера
+    .desc = Печатная плата компьютера для генетического консоли.
+
+MutationAdrenalineRush-mutated = Вы чувствуете прилив сил!
+MutationAdrenalineRush-inject-popup = Вы чувствуете прилив сил! Пора ДЕЙСТВОВАТЬ!
+MutationAdrenalineRush-comedown-popup = Прилив адреналина сменяется приступом тошноты и глубоким чувством усталости в мышцах.
+
+MutationColdAdaptation-mutated = Ваше тело приятно холодит.
+MutationHeatAdaptation-mutated = Ваше тело бодряще согревается.
+MutationThermalAdaptation-mutated = Ваше тело ощущается приятно комнатной температуры.
+MutationColdWeakness-mutated = Ваша кожа покалывает.
+MutationHeatWeakness-mutated = Ваши потовые железы закрываются.
+MutationThermalWeakness-mutated = Ваше тело чувствует себя особенно болезненно.
+
+MutationAntenna-mutated = Вы чувствуете, как из вашего лба вырастает антенна.
+MutationAntenna-removed = Ваша антенна втягивается обратно.
+MutationMindReader-mutated = Вы слышите далёкие голоса на краю сознания.
+MutationMindReader-removed = Далёкие голоса затихают.
+MutationMindReader-popup-target-mindless = У {CAPITALIZE($target)} нет разума для чтения!
+MutationMindReader-popup-target-dead = {CAPITALIZE($target)} мёртв!
+MutationMindReader-popup-mind-protected =
+    Когда вы тянетесь к разуму {POSS-ADJ($target)}, вас останавливает мысленный блок.
+    Похоже, вас перехитрили.
+MutationMindReader-popup-self = Вы погружаетесь в свой разум... Ага, это ваш разум.
+MutationMindReader-popup-plunge = Вы погружаетесь в разум {POSS-ADJ($target)}...
+MutationMindReader-popup-alert = Вы чувствуете, как в ваш разум проникает нечто чужое.
+MutationMindReader-popup-messages = Вы улавливаете обрывки воспоминаний о прошлых разговорах {POSS-ADJ($target)}...
+MutationMindReader-popup-message-format = «{$message}»
+MutationMindReader-popup-combat-mode = Вы понимаете, что намерение {POSS-ADJ($target)} — {$combat ->
+    [true] навредить
+    *[false] помочь
+}...
+MutationMindReader-popup-true-identity = Вы раскрываете, что истинная личность {POSS-ADJ($target)} — {$name}!
+
+MutationEpilepsy-mutated = У вас болит голова.
+MutationCough-mutated = Вы начинаете кашлять.
+MutationParanoia-mutated = Вам кажется, что в вашем сознании эхом звучат крики...
+MutationParanoia-removed = Крики в вашем сознании затихают.
+MutationDwarfism-mutated = Всё вокруг, кажется, растёт...
+MutationAcromegaly-mutated = Вы чувствуете странное желание сражаться с маленькими людьми из рогаток. Или, может, поиграть в баскетбол.
+MutationGigantism-mutated = Всё вокруг, кажется, сжимается.
+MutationClumsiness-mutated = У вас кружится голова.
+MutationMonkified-mutated = Вы чувствуете себя необычайно похожим на обезьяну.
+MutationMonkified-removed = Вы чувствуете себя прежним.
+MutationGlowy-mutated = Ваша кожа начинает мягко светиться.
+MutationAntiGlow-mutated = Свет вокруг вас, кажется, исчезает.
+MutationStrength-mutated = Вы чувствуете себя сильнее.
+MutationStimmed-mutated = Вы чувствуете себя стимулированным.
+MutationInsulated-mutated = Ваши кончики пальцев немеют.
+MutationInsulated-removed = Чувствительность в кончиках пальцев возвращается.
+MutationFierySweat-mutated = Вам жарко.
+MutationFierySweat-removed = Вам гораздо прохладнее.
+MutationSpatialInstability-mutated = Пространство вокруг вас тошнотворно искривляется.
+MutationSpatialInstability-removed = Пространство вокруг вас приходит в норму.
+MutationHypermetabolicBlood-mutated = Вы чувствуете, как ускоряется сердцебиение.
+MutationHypermetabolicBlood-removed = Ваше сердцебиение замедляется обратно.
+MutationRockEater-mutated = Вы чувствуете тягу к камням.
+MutationRockEater-removed = Вам бы подошла обычная еда.
+MutationRockAbsorber-mutated = Вы чувствуете невероятную тягу к камням.
+MutationRockAbsorber-removed = Вам бы подошла обычная еда.
+MutationInexorable-mutated = Вы чувствуете себя неумолимым.
+MutationInexorable-removed = Вы внезапно чувствуете себя более человеком.
+MutationChameleon-mutated = Вы чувствуете единение с окружением.
+MutationChameleon-removed = Вы чувствуете себя странно выставленным напоказ.
+MutationFarsight-mutated = Вы чувствуете покалывание в глазах.
+MutationFarsight-removed = Ваши глаза чувствуют себя нормально.
+MutationRadioactivity-mutated = Вы чувствуете это в своих костях!
+
+MutationTelepathy-mutated = Вы слышите эхо своих мыслей в сознании.
+MutationTelepathy-removed = Вы больше не слышите эхо своего сознания.
+MutationTelepathy-popup-mindless = Вы не можете найти разум, на который можно повлиять...
+MutationTelepathy-message-wrap = [bold]Вы слышите голос в своей голове...[/bold] {$message}
+
+MutationWebbingProduction-mutated = Ваша кожа кажется паутинистой.
+
+MutationClever-mutated = Вы чувствуете себя немного умнее.
+
+MutationNearSightedness-mutated = Вы видите не очень хорошо.
+MutationBlindness-mutated = Вы, похоже, ничего не видите.
+MutationThermalVision-mutated = Вы видите, как тепло поднимается от вашей кожи...
+MutationThermalVision-removed = Вы больше не видите, как тепло поднимается от вашей кожи...
+MutationIlliterate-mutated = Вы чувствуете, что не можете читать или писать.
+MutationIlliterate-removed = Вы снова чувствуете, что можете читать и писать.
+MutationLaserEyes-mutated = Вы чувствуете, как за глазами нарастает давление.
+
+MutationNervousness-mutated = Вы нервничаете.
+MutationMute-mutated = Вы чувствуете, что совершенно не можете выразить себя.
+MutationMute-removed = Вы снова чувствуете, что можете свободно говорить.
+MutationUnintelligible-mutated = Вы, похоже, не можете сформулировать ни одной связной мысли!
+MutationUnintelligible-removed = Ваш разум кажется более ясным.
+MutationElvis-mutated = Вы чувствуете себя довольно хорошо, милашка.
+MutationElvis-removed = Вы чувствуете, что немного меньше разговоров было бы отлично.
+MutationStoner-mutated = Вы чувствуете... полное расслабление, чувак!
+MutationStoner-removed = Вы чувствуете, что лучше ощущаете время.
+
+MutationShockTouch-mutated = Вы чувствуете, как сила течёт через ваши руки.
+MutationShockTouch-removed = Энергия в ваших руках утихает.
+MutationMendingTouch-mutated = Ваша рука чувствует себя благословлённой!
+MutationMendingTouch-removed = Ваша рука снова чувствует себя обычной.
+
+MutationGeladikinesis-mutated = Ваша рука чувствует холод.
+MutationCindikinesis-mutated = Ваша рука чувствует тепло.
+
+MutationUnstableDna-mutated = Вы чувствуете себя странно.
+
+MutationDevolutionArachnid-mutated = Ваше тело изгибается, и хитин покрывает кожу...
+MutationDevolutionElf-mutated = Ваши уши удлиняются и заостряются...
+MutationDevolutionFelinid-mutated = Вы чувствуете внезапное желание сбросить вещи со стола...
+MutationDevolutionFelionoid-mutated = Вы уменьшаетесь и опускаетесь на четыре лапы...
+MutationDevolutionHarpy-mutated = Ваши руки превращаются в крылья...
+MutationDevolutionMoth-mutated = Ваше тело сжимается в крошечного таракана...
+MutationDevolutionReptilian-mutated = Ваше тело сжимается в кобольда...
+MutationDevolutionResomi-mutated = Вы крякаете...
+MutationDevolutionRodentia-mutated = Вы сжимаетесь в пищащий пушистый комок...
+MutationDevolutionVox-mutated = Вы кудахчете...
+MutationDevolutionVulpkanin-mutated = Вы опускаетесь на четыре лапы и лаете...
+
+ent-MutationTongueSpike = Языковой шип
+    .desc = Позволяет существу по желанию выстреливать языком как смертоносным оружием.
+ent-ActionMutationTongueSpike = Запустить шип
+    .desc = Выстрелите языком в направлении клика: он вонзится и будет наносить урон, пока его не извлекут.
+ent-MutationChemSpike = Химический шип
+    .desc = Позволяет существу по желанию выстреливать языком как биомассой, обеспечивая передачу химикатов на большую дистанцию.
+ent-ActionMutationChemSpike = Запустить химический шип
+    .desc = Выстрелите языком в направлении клика: он вонзится и будет наносить урон, пока его не извлекут. Пока шип в теле другого существа, вы можете передавать ему свои химикаты.
+ent-ActionMutationChemSpikeSend = Передать химикаты
+    .desc = Отправьте все свои реагенты тому, в кого вонзился химический шип. Одно применение.
+ent-TongueSpike = шип из биомассы
+    .desc = Затвердевшая биомасса, принявшая форму шипа. Очень острый!
+ent-TongueSpikeChem = химический шип
+    .desc = Затвердевшая биомасса, принявшая форму... чего-то.
+
+MutationTongueSpike-popup-no-organ = У вас нет языка, чтобы выстрелить им!
+MutationTongueSpike-popup-revert = {CAPITALIZE(THE($child))} трещит и изгибается, меняя форму!
+
+MutationChemSpike-target-set = Связь установлена, используйте действие «Передать химикаты»!
+MutationChemSpike-target-reset = Связь потеряна!
+
+ent-MutationHarpyWings = Крылья гарпии
+    .desc = Геном, превращающий мышцы рук в пару крыльев и позволяющий совершать короткие перелёты за счёт выносливости.
+
+MutationHarpyWings-mutated = Ваши лопатки чешутся, и из спины раскрывается пара крыльев.
+
+ent-GeneticistIDCard = ID-карта генетика
+ent-GeneticistPDA = КПК генетика
+    .desc = Слегка пахнет обезьяной.
+
+genetics-health-analyzer-mutation = Мутация: {$mutation}
+genetics-health-analyzer-dormant-mutation = Дремлющая мутация: {$mutation}
+
+ent-MutationReverter = откатыватель мутаций
+    .desc = Одноразовый инъектор, возвращающий геном субъекта к заводским настройкам его расы.
+
+ent-MutationHulk = Халк
+    .desc = Плохо изученный геном, из-за которого мышцы носителя раздуваются, речь нарушается, а кожа приобретает скверный оттенок.
+ent-MutationOrk = Орк
+    .desc = Мутация, вызванная смешением генов халка, которая серьёзно бьёт по речевым центрам мозга носителя.
+
+MutationHulk-mutated = Ваши мышцы раздуваются, а кожа зеленеет!
+MutationHulk-removed = Ваши мышцы возвращаются в норму.
+MutationOrk-mutated = Ваши мышцы раздуваются, а мысли становятся простыми!
+MutationOrk-removed = Ваши мышцы возвращаются в норму.
+
+hulk-unhulked = Вы чувствуете себя гораздо слабее.
+hulk-roar-1 = РРРАААААААА!
+hulk-roar-2 = ХНННННННННГХ!
+hulk-roar-3 = ГВАААААААРРРХ!
+hulk-roar-4 = ННННННННГГГГГХ!
+hulk-roar-5 = ААААААРРРГХ!
+
+ent-BoxGeneticsDisk = коробка генетических дисков
+    .desc = Коробка пустых генетических дисков.
+
+ent-MutationPressureAdaptation = Адаптация к давлению
+    .desc = Странная мутация, делающая носителя невосприимчивым к урону от высокого и низкого давления. Не защищает от температуры, включая холод космоса.
+
+MutationPressureAdaptation-mutated = Давление вокруг вас перестаёт вам мешать.
+MutationPressureAdaptation-removed = Вы снова ощущаете давление среды.
+
+ent-MutationSwedish = Шведский
+    .desc = Ужасная мутация из далёкого прошлого. Считалась искоренённой после инцидента 2037 года.
+ent-MutationChav = Чав
+    .desc = Мутация, заставляющая носителя говорить как выходец из самых сомнительных районов старой Англии.
+ent-MutationMedieval = Средневековый
+    .desc = Ужасная мутация из далёкого прошлого; считалось, что когда-то этот ген был обычным для всей Европы старого мира.
+ent-MutationPigLatin = Поросячья латынь
+    .desc = Историки говорят, что в 2020-х человечество говорило исключительно на этом мистическом языке.
+ent-MutationHeckaciousLarincks = Heckacious Larincks
+    .desc = duge what is WISH your words man...........
+
+MutationSwedish-mutated = Вы начинаете говорить странно.
+MutationSwedish-removed = Ваша речь возвращается в норму.
+MutationChav-mutated = Ваша речь становится совсем простонародной, брат.
+MutationChav-removed = Вы перестаёте говорить как чав.
+MutationMedieval-mutated = Ваш язык обращается к речи былых времён!
+MutationMedieval-removed = Ваша речь возвращается в настоящее.
+MutationPigLatin-mutated = Овы айтеиграйте о-о-о а-по-росячьи!
+MutationPigLatin-removed = Вы перестаёте говорить на поросячьей латыни.
+MutationHeckaciousLarincks-mutated = Чувак, что вообще с твоими словами, мужик.
+MutationHeckaciousLarincks-removed = Ваши слова возвращаются в норму.

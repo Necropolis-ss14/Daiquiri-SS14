@@ -217,3 +217,9 @@ loadout-group-reporter-head = Reporter head
 loadout-group-reporter-outerclothing = Reporter vest
 
 loadout-group-psychologist-jumpsuit = Psychologist jumpsuit
+
+loadout-group-geneticist-head = Geneticist head
+loadout-group-geneticist-jumpsuit = Geneticist jumpsuit
+loadout-group-geneticist-backpack = Geneticist backpack
+loadout-group-geneticist-outerclothing = Geneticist outer clothing
+loadout-group-geneticist-id = Geneticist ID

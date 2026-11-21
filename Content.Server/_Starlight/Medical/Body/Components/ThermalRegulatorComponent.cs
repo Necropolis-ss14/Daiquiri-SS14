@@ -1,11 +1,12 @@
 using Content.Server._Starlight.Medical.Body.Systems;
+using Content.Server._Daiquiri.Genetics.Abilities;
 using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom;
 
 // ReSharper disable once CheckNamespace
 namespace Content.Server.Body.Components;
 
 [RegisterComponent]
-[Access(typeof(ThermalRegulatorSystem))]
+[Access(typeof(ThermalRegulatorSystem), typeof(ThermalRegulatorMutationSystem))]
 public sealed partial class ThermalRegulatorComponent : Component
 {
     /// <summary>

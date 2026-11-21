@@ -1,0 +1,27 @@
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+- type: reagent
+  id: TiringSolution
+  group: Toxins
+  name: reagent-name-tiring-solution
+  desc: reagent-desc-tiring-solution
+  physicalDesc: reagent-physical-desc-cloudy
+  flavor: tiredness
+  color: "#000000"
+  metabolisms:
+    Bloodstream:
+      metabolismRate: 0.75
+      effects:
+      - !type:StaminaDamage
+        damage: 10
+      - !type:PopupMessage
+        type: Local
+        visualType: Small
+        probability: 0.16
+        messages:
+        - entity-effect-popup-tiredness
+
+- type: flavor
+  id: tiredness
+  flavorType: Complex
+  description: flavor-complex-tiredness

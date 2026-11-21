@@ -9,13 +9,14 @@
 [![Space Station 14](https://img.shields.io/badge/Space_Station_14-Space_Wizards-blue?style=for-the-badge)](https://github.com/space-wizards/space-station-14)
 [![Starlight](https://img.shields.io/badge/upstream-Starlight-8a2be2?style=for-the-badge)](https://github.com/ss14Starlight/space-station-14)
 [![Goob Station](https://img.shields.io/badge/content-Goob_Station-e8710a?style=for-the-badge)](https://github.com/Goob-Station/Goob-Station)
+[![Trauma Station](https://img.shields.io/badge/content-Trauma_Station-1f8ab2?style=for-the-badge)](https://github.com/Trauma-Station/Trauma-Station)
 [![.NET](https://img.shields.io/badge/.NET-10.0-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)](https://dotnet.microsoft.com/)
 [![License](https://img.shields.io/badge/license-AGPL--3.0--or--later-1f6feb?style=for-the-badge)](LICENSE-Daiquiri.md)
 [![Language](https://img.shields.io/badge/language-Russian-d52b1e?style=for-the-badge)](#)
 
 Русскоязычный контент-пак на базе Starlight: собственный перевод, ксеноморфы,
-антагонист «Инфицированный», контент из Goob Station и множество доработок
-повседневных механик.
+антагонист «Инфицированный», контент из Goob Station и Trauma Station, а также
+множество доработок повседневных механик.
 
 [**Возможности**](#-возможности) · [**В работе**](#-в-работе) · [**Сборка**](#-сборка-и-запуск) · [**Лицензии**](#-структура-и-лицензии) · [**Участие**](#-участие) · [**Лицензия**](#-лицензия)
 
@@ -100,10 +101,12 @@ runclientserver-Tools.bat
 | `Content.*/_Starlight/**/*.cs` — **код** | Starlight | MIT; для вкладов 2024-11-04 — 2026-02-28 действует Starlight Fork License |
 | `Content.*/_Goobstation/**/*.cs`, `Content.*/_Lavaland/**/*.cs` — **код** | Goob Station | AGPL-3.0-or-later |
 | `Content.*/_Adventure/**/*.cs` — **код** | Adventure Space | MIT |
+| `Content.*/_Daiquiri/Genetics/**/*.cs` — **код** | Trauma Station | AGPL-3.0-or-later |
 | `Content.*/_Daiquiri/**/*.cs` — **код** | Daiquiri-SS14 | AGPL-3.0-or-later |
 | `Resources/**` — **контент** SS14/Starlight: прототипы, карты, спрайты, звуки, шрифты, локализация | Space Station 14 / Starlight | **CC BY-SA 3.0** (часть — CC BY-NC-SA 3.0), если в `meta.json`/`.license` не указано иное. **Не MIT и не AGPL.** |
 | `Resources/**/_Goobstation`, `Resources/**/_Lavaland` | Goob Station | Лицензия из SPDX-заголовка/`.license`: код-прототипы — AGPL-3.0-or-later, медиа — CC BY-SA 3.0, если не указано иное |
 | `Resources/**/_Adventure` | Adventure Space | Медиа — CC BY-SA 3.0, если не указано иное; код — MIT |
+| `Resources/**/_Daiquiri/Genetics`, `Resources/**/_Trauma` | Trauma Station | Прототипы — AGPL-3.0-or-later там, где указано; медиа — CC BY-SA 3.0, если не указано иное (см. `meta.json` / `attributions.yml`) |
 | `Resources/**/_Daiquiri` | Daiquiri-SS14 | Свои медиа — CC BY-SA 3.0; свои прототипы — AGPL-3.0-or-later |
 
 > **Код и контент лицензируются раздельно.** Файлы `.cs` — MIT или AGPL по
@@ -132,8 +135,8 @@ runclientserver-Tools.bat
 > [!IMPORTANT]
 > **Код и контент лицензируются отдельно.** Daiquiri-SS14 — производная работа,
 > объединяющая наработки **Space Station 14** (Space Wizards Federation),
-> **Starlight**, **Goob Station** и **Adventure Space**. **Код** (файлы `.cs`) —
-> MIT у SS14/Starlight/Adventure и AGPL-3.0-or-later у Goob/Daiquiri. **Контент**
+> **Starlight**, **Goob Station**, **Adventure Space** и **Trauma Station**. **Код** (файлы `.cs`) —
+> MIT у SS14/Starlight/Adventure и AGPL-3.0-or-later у Goob/Trauma/Daiquiri. **Контент**
 > (`Resources/`: прототипы, карты, спрайты, звуки, шрифты, локализация) —
 > **CC BY-SA 3.0** (или иная, указанная в `meta.json`/`.license`), а не MIT/AGPL:
 > мы не перелицензируем контент upstream и не заявляем двойное лицензирование
@@ -162,9 +165,9 @@ runclientserver-Tools.bat
 <summary><a href="#"><img src="https://img.shields.io/badge/licence-AGPL--3.0--or--later-1f6feb?style=for-the-badge" alt="AGPL license"></a></summary>
 
 > Код, а также прототипы с заголовком `SPDX-License-Identifier: AGPL-3.0-or-later`,
-> перенесённые из Goob Station и Daiquiri-SS14, распространяются по
+> перенесённые из Goob Station, Trauma Station и Daiquiri-SS14, распространяются по
 > [GNU AGPL v3.0 или новее](LICENSES/AGPL-3.0-or-later.txt).
-> Медиа-ассеты Goob/Daiquiri без AGPL-заголовка лицензируются по CC BY-SA 3.0 (см. ниже).
+> Медиа-ассеты Goob/Trauma/Daiquiri без AGPL-заголовка лицензируются по CC BY-SA 3.0 (см. ниже).
 > При использовании модифицированной сборки как сетевого сервиса необходимо
 > предоставить пользователям соответствующий исходный код (раздел 13 AGPL).
 </details>
@@ -204,7 +207,8 @@ runclientserver-Tools.bat
 
 [Space Station 14](https://github.com/space-wizards/space-station-14) ·
 [Starlight](https://github.com/ss14Starlight/space-station-14) ·
-[Goob Station](https://github.com/Goob-Station/Goob-Station)
+[Goob Station](https://github.com/Goob-Station/Goob-Station) ·
+[Trauma Station](https://github.com/Trauma-Station/Trauma-Station)
 
 <sub>Документация движка: <a href="https://docs.spacestation14.io/">docs.spacestation14.io</a></sub>
 

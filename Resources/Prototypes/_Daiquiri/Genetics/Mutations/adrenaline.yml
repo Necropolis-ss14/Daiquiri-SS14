@@ -1,0 +1,39 @@
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+- type: entity
+  parent: BaseMutation
+  id: MutationAdrenalineRush
+  name: Adrenaline Rush
+  description: Allows the host to trigger their body's adrenaline response at will.
+  components:
+  - type: Mutation
+    instability: 25
+  - type: ActionMutation
+    action: ActionMutationAdrenaline
+
+- type: entity
+  parent: BaseMutationAction
+  id: ActionMutationAdrenaline
+  name: Adrenaline!
+  description: Energize yourself, pushing your body to its limits!
+  components:
+  - type: Sprite
+    sprite: _Trauma/Actions/mutations.rsi
+    layers:
+    - state: adrenaline
+  - type: Action
+    checkCanInteract: false
+    useDelay: 2m
+    itemIconStyle: BigAction
+  - type: InjectChemicalsAction
+    main:
+      reagents: [ Stimulants, Epinephrine ]
+      quantity: 5
+      popup: MutationAdrenalineRush-inject-popup
+    comedown:
+      reagents: [ TiringSolution ]
+      quantity: 7
+      popup: MutationAdrenalineRush-comedown-popup
+    comedownDelay: 25
+  - type: InstantAction
+    event: !type:InjectChemicalsActionEvent

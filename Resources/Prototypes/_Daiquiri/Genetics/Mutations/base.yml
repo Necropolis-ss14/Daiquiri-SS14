@@ -1,0 +1,56 @@
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+- type: entity
+  abstract: true
+  id: BaseMutation
+  components:
+  - type: Mutation
+
+- type: entity
+  abstract: true
+  parent: BaseMutation
+  id: BaseFreeMutation
+  components:
+  - type: Mutation
+    instability: 0
+
+- type: entity
+  abstract: true
+  parent: BaseMutation
+  id: BaseTriggerMutation
+  components:
+  - type: GenericTriggerCondition
+    condition: !type:MutatedNestedCondition
+      condition: !type:MobStateCondition
+        inverted: true
+        mobstate: Dead
+
+- type: entity
+  abstract: true
+  parent: BaseMutation
+  id: BaseLightMutation
+  components:
+  - type: PointLight
+    radius: 3
+    softness: 5
+    enabled: true
+
+- type: entity
+  abstract: true
+  parent: BaseAction
+  id: BaseMutationAction
+  components:
+  - type: Action
+    itemIconStyle: BigAction
+    raiseOnAction: true
+
+- type: entity
+  abstract: true
+  id: BaseConjureAction
+  components:
+  - type: ConjureAction
+  - type: Action
+    useDelay: 5
+    raiseOnAction: true
+  - type: InstantAction
+    event: !type:ConjureActionEvent

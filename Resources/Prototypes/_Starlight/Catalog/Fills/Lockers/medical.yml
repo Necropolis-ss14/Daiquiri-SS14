@@ -245,6 +245,8 @@
     - id: ClothingEyesHudMedical
     - id: ClothingBeltMedicalFilled
     - id: HandheldHealthAnalyzer
+    - id: BoxGeneticsDisk
+    - id: HandheldGeneticsScanner
     - id: PlushieLizardJobMedicaldoctor
       prob: 0.02
     - id: ChemistryBottleLaughter

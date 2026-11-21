@@ -2,6 +2,7 @@ using Content.Server.Administration.Logs;
 using Content.Server.Body.Components;
 using Content.Server.Temperature.Components;
 using Content.Shared._Starlight.CosmicCult.Components;
+using Content.Shared._Daiquiri.Genetics.Temperature;
 using Content.Shared.Alert;
 using Content.Shared.Damage.Components;
 using Content.Shared.Damage.Systems;
@@ -116,7 +117,7 @@ public sealed partial class TemperatureSystem
         var heatDamageThreshold = entity.Comp.ParentHeatDamageThreshold ?? entity.Comp.HeatDamageThreshold;
         var coldDamageThreshold = entity.Comp.ParentColdDamageThreshold ?? entity.Comp.ColdDamageThreshold;
 
-        if (temperature.CurrentTemperature >= heatDamageThreshold)
+        if (temperature.CurrentTemperature >= heatDamageThreshold && !HasComp<SpecialHighTempImmunityComponent>(entity.Owner))
         {
             if (!entity.Comp.TakingDamage)
             {
@@ -128,7 +129,7 @@ public sealed partial class TemperatureSystem
             var tempDamage = c / (1 + a * Math.Pow(Math.E, -heatK * diff)) - y;
             _damageable.TryChangeDamage(entity.Owner, entity.Comp.HeatDamage * tempDamage * deltaTime.TotalSeconds, ignoreResistances: true, interruptsDoAfters: false);
         }
-        else if (temperature.CurrentTemperature <= coldDamageThreshold)
+        else if (temperature.CurrentTemperature <= coldDamageThreshold && !HasComp<SpecialLowTempImmunityComponent>(entity.Owner))
         {
             if (!entity.Comp.TakingDamage)
             {

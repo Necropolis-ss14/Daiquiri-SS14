@@ -1,0 +1,62 @@
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+- type: entityEffect
+  id: MutationSeizure
+  effects:
+  - !type:PopupMessage
+    type: Pvs
+    visualType: LargeCaution
+    messages:
+    - entity-effect-popup-seizure
+  - !type:Jitter
+    amplitude: 20
+    time: 29
+  - !type:ModifyStatusEffect
+    effectProto: StatusEffectForcedSleeping
+    time: 20
+
+- type: entityEffect
+  id: MutationCough
+  effects:
+  - !type:Emote
+    emote: Cough
+    showInChat: true
+
+- type: entityEffect
+  id: MutationParanoia
+  effects:
+  - !type:Emote
+    emote: Scream
+    showInChat: true
+
+- type: entityEffect
+  id: MutationFierySweat
+  effects:
+  - !type:Flammable
+    multiplier: 2
+  - !type:Ignite
+
+- type: entityEffect
+  id: MutationElvisDance
+  effects:
+  - !type:PopupMessage
+    type: Pvs
+    visualType: Small
+    messages:
+    - MutationElvis-popup-dance-1
+    - MutationElvis-popup-dance-2
+    - MutationElvis-popup-dance-3
+    - MutationElvis-popup-dance-4
+    - MutationElvis-popup-dance-5
+    - MutationElvis-popup-dance-6
+    - MutationElvis-popup-dance-7
+    - MutationElvis-popup-dance-8
+    - MutationElvis-popup-dance-9
+    - MutationElvis-popup-dance-10
+    - MutationElvis-popup-move-1
+    - MutationElvis-popup-move-2
+    - MutationElvis-popup-move-3
+    - MutationElvis-popup-move-4
+    - MutationElvis-popup-move-5
+    - MutationElvis-popup-move-6
+    - MutationElvis-popup-move-7

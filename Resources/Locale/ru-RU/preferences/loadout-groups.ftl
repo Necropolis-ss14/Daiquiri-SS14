@@ -228,3 +228,9 @@ loadout-group-brigmedic-backpack = Бригмедик, рюкзак
 loadout-group-brigmedic-belt = Бригмедик, пояс
 loadout-group-brigmedic-outerclothing = Бригмедик, верхняя одежда
 loadout-group-brigmedic-eyewear = Бригмедик, очки
+
+loadout-group-geneticist-head = Генетик, голова
+loadout-group-geneticist-jumpsuit = Генетик, комбинезон
+loadout-group-geneticist-backpack = Генетик, рюкзак
+loadout-group-geneticist-outerclothing = Генетик, верхняя одежда
+loadout-group-geneticist-id = Генетик, ID

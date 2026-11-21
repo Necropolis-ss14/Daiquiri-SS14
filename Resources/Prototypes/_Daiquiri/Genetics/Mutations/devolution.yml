@@ -1,0 +1,135 @@
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+- type: entity
+  abstract: true
+  parent: BaseMutation
+  id: BaseMutationDevolution
+  components:
+  - type: Mutation
+    instability: -40
+    rarity: Common
+
+- type: entity
+  parent: BaseMutationDevolution
+  id: MutationDevolutionArachnid
+  name: Arachnid Devolution
+  description: A dormant genome that turns an arachnid back into a giant spider.
+  components:
+  - type: PolymorphMutation
+    prototypes:
+      Arachnid: MutationGiantSpider
+    fallback: MutationHuman
+
+- type: entity
+  parent: BaseMutationDevolution
+  id: MutationDevolutionElf
+  name: Elven Heritage
+  description: A genome that turns a human into an elf.
+  components:
+  - type: PolymorphMutation
+    prototypes:
+      Human: MutationElf
+    reverts:
+      Elf: MutationHuman
+    fallback: MutationHuman
+
+- type: entity
+  parent: BaseMutationDevolution
+  id: MutationDevolutionFelinid
+  name: Feline Heritage
+  description: A genome that turns a human into a felinid.
+  components:
+  - type: PolymorphMutation
+    prototypes:
+      Human: MutationFelinid
+    reverts:
+      Felinid: MutationHuman
+    fallback: MutationHuman
+
+- type: entity
+  parent: BaseMutationDevolution
+  id: MutationDevolutionFelionoid
+  name: Felionoid Devolution
+  description: A dormant genome that turns a felionoid back into a cat.
+  components:
+  - type: PolymorphMutation
+    prototypes:
+      Felionoid: MutationCat
+    fallback: MutationHuman
+
+- type: entity
+  parent: BaseMutationDevolution
+  id: MutationDevolutionHarpy
+  name: Harpy Devolution
+  description: A dormant genome that turns a harpy back into a parrot.
+  components:
+  - type: PolymorphMutation
+    prototypes:
+      Harpy: MutationParrot
+    fallback: MutationHuman
+
+- type: entity
+  parent: BaseMutationDevolution
+  id: MutationDevolutionMoth
+  name: Moth Devolution
+  description: A dormant genome that turns a moth back into a mothroach.
+  components:
+  - type: PolymorphMutation
+    prototypes:
+      Moth: MutationMothroach
+    fallback: MutationHuman
+
+- type: entity
+  parent: BaseMutationDevolution
+  id: MutationDevolutionReptilian
+  name: Reptilian Devolution
+  description: A dormant genome that turns a reptilian back into a kobold.
+  components:
+  - type: PolymorphMutation
+    prototypes:
+      Reptilian: MutationKobold
+    fallback: MutationHuman
+
+- type: entity
+  parent: BaseMutationDevolution
+  id: MutationDevolutionResomi
+  name: Resomi Devolution
+  description: A dormant genome that turns a resomi back into a duck.
+  components:
+  - type: PolymorphMutation
+    prototypes:
+      Resomi: MutationDuckMallard
+    fallback: MutationHuman
+
+- type: entity
+  parent: BaseMutationDevolution
+  id: MutationDevolutionRodentia
+  name: Rodentia Devolution
+  description: A dormant genome that turns a rodentia back into a mouse.
+  components:
+  - type: PolymorphMutation
+    prototypes:
+      Rodentia: MutationMouse
+    fallback: MutationHuman
+
+- type: entity
+  parent: BaseMutationDevolution
+  id: MutationDevolutionVox
+  name: Vox Devolution
+  description: A dormant genome that turns a vox back into a chicken.
+  components:
+  - type: PolymorphMutation
+    prototypes:
+      Vox: MutationChicken
+    fallback: MutationHuman
+
+- type: entity
+  parent: BaseMutationDevolution
+  id: MutationDevolutionVulpkanin
+  name: Vulpkanin Devolution
+  description: A dormant genome that turns a vulpkanin back into a corgi.
+  components:
+  - type: PolymorphMutation
+    prototypes:
+      Vulpkanin: MutationCorgi
+    fallback: MutationHuman

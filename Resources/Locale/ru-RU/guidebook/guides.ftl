@@ -211,3 +211,4 @@ guide-entry-vampire-hemomancer = Гемомант
 guide-entry-vampire-umbrae = Умбрэ
 guide-entry-vampire-dantalion = Данталион
 guide-entry-vampire-gargantua = Гаргантюа
+guide-entry-genetics = Генетика

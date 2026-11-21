@@ -6,6 +6,7 @@ using Content.Server.Damage.Components;
 using Content.Shared.ActionBlocker;
 using Content.Shared.Alert;
 using Content.Shared.Atmos;
+using Content.Shared._Daiquiri.Genetics.Flammability;
 using Content.Shared.Atmos.Components;
 using Content.Shared.Damage.Systems;
 using Content.Shared.Database;
@@ -345,6 +346,9 @@ namespace Content.Server.Atmos.EntitySystems
             EntityUid? ignitionSourceUser = null)
         {
             if (!Resolve(uid, ref flammable))
+                return;
+
+            if (HasComp<FireImmunityComponent>(uid))
                 return;
 
             if (flammable.AlwaysCombustible)

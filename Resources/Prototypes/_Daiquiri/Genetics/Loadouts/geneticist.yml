@@ -1,0 +1,102 @@
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+- type: roleLoadout
+  id: JobGeneticist
+  groups:
+  - GroupTankHarness
+  - GeneticistHead
+  - MedicalMask
+  - GeneticistJumpsuit
+  - MedicalGloves
+  - GeneticistBackpack
+  - GeneticistOuterClothing
+  - MedicalShoes
+  - GeneticistPDA
+  - MedicalEyewear
+  - SurvivalMedical
+  - Trinkets
+  - Scarves
+  - Pins
+  - Pens
+  - GroupSpeciesBreathToolMedical
+
+- type: loadoutGroup
+  id: GeneticistHead
+  name: loadout-group-geneticist-head
+  minLimit: 0
+  loadouts:
+  - GeneticistBeret
+
+- type: loadoutGroup
+  id: GeneticistJumpsuit
+  name: loadout-group-geneticist-jumpsuit
+  loadouts:
+  - GeneticistJumpsuit
+  - GeneticistJumpskirt
+
+- type: loadoutGroup
+  id: GeneticistBackpack
+  name: loadout-group-geneticist-backpack
+  loadouts:
+  - GeneticistBackpack
+  - GeneticistSatchel
+  - GeneticistDuffel
+
+- type: loadoutGroup
+  id: GeneticistOuterClothing
+  name: loadout-group-geneticist-outerclothing
+  minLimit: 0
+  loadouts:
+  - GeneticistLabCoat
+  - GeneticistLabCoatLong
+
+- type: loadoutGroup
+  id: GeneticistPDA
+  name: loadout-group-geneticist-id
+  loadouts:
+  - GeneticistPDA
+
+- type: loadout
+  id: GeneticistBeret
+  equipment:
+    head: ClothingHeadHatBeretRND
+
+- type: loadout
+  id: GeneticistJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitGenetics
+
+- type: loadout
+  id: GeneticistJumpskirt
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtGenetics
+
+- type: loadout
+  id: GeneticistBackpack
+  equipment:
+    back: ClothingBackpackGenetics
+
+- type: loadout
+  id: GeneticistSatchel
+  equipment:
+    back: ClothingBackpackSatchelGenetics
+
+- type: loadout
+  id: GeneticistDuffel
+  equipment:
+    back: ClothingBackpackDuffelGenetics
+
+- type: loadout
+  id: GeneticistLabCoat
+  equipment:
+    outerClothing: ClothingOuterCoatLabGene
+
+- type: loadout
+  id: GeneticistLabCoatLong
+  equipment:
+    outerClothing: ClothingOuterCoatLabGeneLong
+
+- type: loadout
+  id: GeneticistPDA
+  equipment:
+    id: GeneticistPDA

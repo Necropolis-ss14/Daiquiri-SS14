@@ -276,6 +276,7 @@
     - NullSpaceDrainer
     - ScienceBlueSpaceStatic
     - ChemistryStatic
+    - GeneticsStatic
     dynamicPacks:
     - StarlightAutolatheLootable
     - StarlightProtolatheLootable

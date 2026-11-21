@@ -74,6 +74,9 @@
   id: JobCBURN
 
 - type: playTimeTracker
+  id: JobGeneticist
+
+- type: playTimeTracker
   id: JobHeadOfPersonnel
 
 - type: playTimeTracker

@@ -1,5 +1,6 @@
 using Content.Shared._Starlight.Medical.Body.Prototypes;
 using Content.Shared._Starlight.Medical.Body.Systems;
+using Content.Shared._Daiquiri.Genetics.Abilities;
 using Content.Shared.Body.Components;
 using Content.Shared.FixedPoint;
 using Robust.Shared.GameStates;
@@ -12,7 +13,7 @@ namespace Content.Shared._Starlight.Medical.Body.Components;
 ///     Handles metabolizing various reagents with given effects.
 /// </summary>
 [RegisterComponent, NetworkedComponent]
-[AutoGenerateComponentState, AutoGenerateComponentPause, Access(typeof(MetabolizerSystem))]
+[AutoGenerateComponentState, AutoGenerateComponentPause, Access(typeof(MetabolizerSystem), typeof(MetabolismSpeedMutationSystem))]
 public sealed partial class MetabolizerComponent : Component
 {
     /// <summary>

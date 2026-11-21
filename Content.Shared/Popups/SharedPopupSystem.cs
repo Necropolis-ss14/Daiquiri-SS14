@@ -102,6 +102,27 @@ namespace Content.Shared.Popups
         public abstract void PopupEntity(string? message, EntityUid uid, Filter filter, bool recordReplay, PopupType type = PopupType.Small);
 
         /// <summary>
+        /// Variant of <see cref="PopupEntity(string?, EntityUid, PopupType)"/> that displays <paramref name="recipientMessage"/>
+        /// to the recipient and <paramref name="othersMessage"/> to everyone else in PVS range.
+        /// </summary>
+        public void PopupEntity(string? recipientMessage,
+            string? othersMessage,
+            EntityUid uid,
+            EntityUid? recipient,
+            PopupType type = PopupType.Small)
+        {
+            if (recipient.HasValue)
+            {
+                PopupEntity(othersMessage, uid, Filter.PvsExcept(recipient.Value), true, type);
+                PopupEntity(recipientMessage, uid, recipient.Value, type);
+            }
+            else
+            {
+                PopupEntity(othersMessage, uid, type);
+            }
+        }
+
+        /// <summary>
         /// Variant of <see cref="PopupCursor(string, EntityUid, PopupType)"/> that only runs on the client, outside of prediction.
         /// Useful for shared code that is always ran by both sides to avoid duplicate popups.
         /// </summary>

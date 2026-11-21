@@ -1,0 +1,12 @@
+- type: entity
+  parent: BaseMutation
+  id: MutationHarpyWings
+  name: Harpy Wings
+  description: A genome that turns the muscles of your arms into a pair of wings, allowing short bursts of flight at the cost of stamina.
+  components:
+  - type: Mutation
+    instability: 20
+    rarity: Rare
+  - type: ComponentMutation
+    added:
+    - type: Flight

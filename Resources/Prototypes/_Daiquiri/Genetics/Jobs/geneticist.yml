@@ -1,0 +1,37 @@
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+- type: job
+  id: Geneticist
+  name: job-name-geneticist
+  description: job-description-geneticist
+  playTimeTracker: JobGeneticist
+  requirements:
+  - !type:DepartmentTimeRequirement
+    department: Science
+    time: 1.5h
+  startingGear: GeneticistGear
+  icon: JobIconGeneticist
+  supervisors: job-supervisors-rd
+  displayWeight: 3
+  access:
+  - Research
+  - Medical
+  - Maintenance
+
+- type: startingGear
+  id: GeneticistGear
+  equipment:
+    ears: ClothingHeadsetScience
+    outerClothing: ClothingOuterCoatLabGene
+    pocket1: HandLabeler
+
+- type: chameleonOutfit
+  id: GeneticistChameleonOutfit
+  job: Geneticist
+  equipment:
+    head: ClothingHeadHatBeretRND
+    eyes: ClothingEyesGlasses
+    mask: ClothingMaskSterile
+    neck: ClothingNeckTieSci
+    outerClothing: ClothingOuterWinterGen
+    gloves: ClothingHandsGlovesLatex

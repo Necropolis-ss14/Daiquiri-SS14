@@ -110,6 +110,7 @@
   - Psychologist
   - Paramedic
   - Surgeon # Starlight-edit
+  - Geneticist
 
 - type: department
   id: Security
@@ -138,6 +139,7 @@
   - Scientist
   - ResearchAssistant
   - Roboticist
+  - Geneticist
 
 - type: department
   id: Silicon

@@ -148,7 +148,7 @@
   parent: JobIcon
   id: JobIconGeneticist
   icon:
-    sprite: *icon-rsi
+    sprite: _Daiquiri/Interface/JobIcons/geneticist.rsi
     state: Geneticist
   jobName: job-name-geneticist
   tags: # Starlight-edit: makes the icon visable on the player accessible ID card computer.

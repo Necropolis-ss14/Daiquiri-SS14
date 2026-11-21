@@ -308,7 +308,7 @@ internal sealed partial class ChatManager : IChatManager
         var playerTitle = "";
 
         if (_adminManager.GetAdminData(player)?.Title is { } adminTitle)
-            playerTitle = $"[{adminTitle}]";
+            playerTitle = $"\\[{adminTitle}\\]";
         else if (_playerRoles.TryGetPlayerData(player.UserId, out var playerData))
             playerTitle = playerData.Title ?? "";
 

@@ -1,0 +1,33 @@
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+- type: entity
+  parent: IDCardStandard
+  id: GeneticistIDCard
+  name: geneticist ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - state: stripe_top
+      color: "#a53aaa"
+    - state: stripe_bottom
+      color: "#652368"
+    - sprite: _Daiquiri/Interface/JobIcons/geneticist.rsi
+      offset: -0.09375, 0.0625
+      state: Geneticist
+  - type: PresetIdCard
+    job: Geneticist
+
+- type: entity
+  parent: SciencePDA
+  id: GeneticistPDA
+  name: geneticist PDA
+  description: It smells faintly of monkey.
+  components:
+  - type: Pda
+    id: GeneticistIDCard
+  - type: PdaBorderColor
+    borderColor: "#d7d7d0"
+    accentVColor: "#1f8c28"
+  - type: Icon
+    state: pda-science

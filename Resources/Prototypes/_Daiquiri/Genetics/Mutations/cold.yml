@@ -1,0 +1,28 @@
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+- type: entity
+  parent: BaseMutation
+  id: MutationGeladikinesis
+  name: Geladikinesis
+  description: Allows the user to concentrate moisture and sub-zero forces into snow.
+  components:
+  - type: Mutation
+    instability: 10
+    difficulty: 10
+  - type: ActionMutation
+    action: ActionMutationGeladikinesis
+
+- type: entity
+  parent: BaseConjureAction
+  id: ActionMutationGeladikinesis
+  name: Create Snow
+  description: Concentrates cryokinetic forces to create snow, useful for snow-like construction.
+  components:
+  - type: Sprite
+    sprite: Objects/Consumable/Food/frozen.rsi
+    layers:
+    - state: cone
+  - type: Action
+    itemIconStyle: BigAction
+  - type: ConjureAction
+    spawn: FoodFrozenSnowcone

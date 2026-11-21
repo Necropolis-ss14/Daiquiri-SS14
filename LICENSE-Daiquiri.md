@@ -13,7 +13,7 @@ work of every upstream project it is built on is attributed.
 
 Daiquiri-SS14 is a community content pack for Space Station 14. It is a fork, and it
 redistributes and modifies code, prototypes, localization and assets that originate
-from four separate upstream projects:
+from five separate upstream projects:
 
 | # | Upstream project | Repository | Role |
 |---|---|---|---|
@@ -21,6 +21,7 @@ from four separate upstream projects:
 | 2 | **Starlight** | <https://github.com/ss14Starlight/space-station-14> | The direct upstream fork this repository is derived from |
 | 3 | **Goob Station** | <https://github.com/Goob-Station/Goob-Station> | Content (Lavaland, xenomorphs, emotes, sprites, and more) ported into this fork |
 | 4 | **Adventure Space** (Adventure Space Nova) | <https://github.com/AdventureSpaceTeam/adventure_space_nova> | Bluespace artillery and related content ported into this fork |
+| 5 | **Trauma Station** | <https://github.com/Trauma-Station/Trauma-Station> | Genetics system (DNA scanner, sequencer, mutations) and related content ported into this fork |
 
 The original license of each upstream project continues to apply to the files that
 originate from it. Nothing in this repository claims ownership over, or relicenses
@@ -59,11 +60,14 @@ If you reuse only a part of this repository, check the license of that part:
 | `Content.Shared/_Starlight`, `Content.Server/_Starlight`, `Content.Client/_Starlight` | Starlight | MIT (code); legacy Starlight license applies to 2024-11-04 ... 2026-02-28 contributions (see section 3.2) |
 | `Content.*/_Goobstation`, `Content.*/_Lavaland` (C# files) | Goob Station | AGPL-3.0-or-later (code) |
 | `Content.*/_Adventure` (C# files) | Adventure Space | MIT (code) |
+| `Content.*/_Daiquiri/Genetics` (C# files) | Trauma Station | AGPL-3.0-or-later (code) |
 | `Content.*/_Daiquiri` (C# files) | Daiquiri-SS14 (this fork) | AGPL-3.0-or-later (code) |
 | `Resources/**` (prototypes, maps, sprites, sounds, fonts, locale) | Space Station 14 (Space Wizards Federation) | **Content: CC BY-SA 3.0** (some CC BY-NC-SA 3.0); not MIT |
 | `Resources/**/_Starlight` (prototypes, maps, sprites, sounds, locale) | Starlight | **Content: CC BY-SA 3.0**; not MIT/AGPL |
 | `Resources/**/_Goobstation`, `Resources/**/_Lavaland` | Goob Station | Per-file: prototypes carrying `SPDX-License-Identifier: AGPL-3.0-or-later` are AGPL; media otherwise CC BY-SA 3.0 unless stated otherwise |
 | `Resources/**/_Adventure` | Adventure Space | Media: CC BY-SA 3.0 unless stated otherwise |
+| `Resources/**/_Daiquiri/Genetics` | Trauma Station | Prototypes: AGPL-3.0-or-later where marked; media: CC BY-SA 3.0 unless stated otherwise |
+| `Resources/**/_Trauma` | Trauma Station | Media: CC BY-SA 3.0 unless stated otherwise (per-asset license in `meta.json` / `attributions.yml`) |
 | `Resources/**/_Daiquiri` | Daiquiri-SS14 (this fork) | Own prototypes: AGPL-3.0-or-later; own media: CC BY-SA 3.0, unless stated otherwise |
 | `Resources/Audio/_Starlight/Effects/Experiment/*.ogg`, `Resources/Audio/_Starlight/Voice/Experiment/*.ogg` | Orsoniks ("Cargo") | Custom "Cargo License" — see [`LICENSE-Sawians.md`](LICENSE-Sawians.md) |
 
@@ -76,6 +80,9 @@ dual-licensed.
 `_Daiquiri` files that were ported from Goob Station (for example emotion, xenomorph,
 Harpy and Lavaland-related content) are derivative of AGPL-3.0-or-later code and
 remain AGPL-3.0-or-later.
+
+`_Daiquiri/Genetics` files and prototypes ported from Trauma Station are derivative of
+AGPL-3.0-or-later code and remain AGPL-3.0-or-later.
 
 ### 3. Attribution notices
 
@@ -140,6 +147,25 @@ otherwise.
 
 Source: <https://github.com/AdventureSpaceTeam/adventure_space_nova>
 
+#### 3.5 Trauma Station
+
+The genetics subsystem (geneticist job, DNA scanner and console, genome sequencer,
+unique enzymes, mutation disks, mutator tools, printouts and the mutation content
+itself) was ported from **Trauma Station**. Ported code and prototypes are licensed
+under the **GNU Affero General Public License, version 3.0 or later**, and keep — or
+must keep — their `SPDX-License-Identifier: AGPL-3.0-or-later` header.
+
+Media assets copied from Trauma Station under `Resources/Textures/_Trauma` and
+`Resources/Audio/_Trauma` follow the license recorded in their `meta.json` /
+`attributions.yml` (usually **CC BY-SA 3.0**, credited there to the original authors,
+including /tg/station for the mutation action sprites and sounds).
+
+Source: <https://github.com/Trauma-Station/Trauma-Station>
+
+Because this content is AGPL-licensed, if you run a modified version of Daiquiri-SS14
+as a network service you must offer the corresponding source code to your users, as
+described in section 13 of the AGPL.
+
 ### 4. Media assets
 
 Media assets (sprites, sounds, fonts) are **not** covered by the code licenses above
@@ -153,6 +179,8 @@ and each asset follows the license recorded for it:
 - **Goob Station assets** are licensed under **CC BY-SA 3.0** unless stated otherwise
   (per-asset license and copyright are recorded in the asset metadata / `.license`
   files).
+- **Trauma Station assets** are licensed under **CC BY-SA 3.0** unless stated otherwise
+  (per-asset license and copyright are recorded in `meta.json` / `attributions.yml`).
 - **Daiquiri-SS14 original assets** are licensed under **CC BY-SA 3.0** unless stated
   otherwise.
 - The "Cargo" audio assets listed in [`LICENSE-Sawians.md`](LICENSE-Sawians.md) are
@@ -193,7 +221,7 @@ OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 указывается авторство всех upstream-проектов, на которых он основан.
 
 Daiquiri-SS14 — это контент-пак для Space Station 14 от сообщества. Это форк,
-который распространяет и изменяет код, прототипы, локализацию и ассеты четырёх
+который распространяет и изменяет код, прототипы, локализацию и ассеты пяти
 независимых upstream-проектов:
 
 | # | Upstream-проект | Репозиторий | Роль |
@@ -202,6 +230,7 @@ Daiquiri-SS14 — это контент-пак для Space Station 14 от со
 | 2 | **Starlight** | <https://github.com/ss14Starlight/space-station-14> | Прямой upstream-форк, от которого произведён этот репозиторий |
 | 3 | **Goob Station** | <https://github.com/Goob-Station/Goob-Station> | Контент (лаваленд, ксеноморфы, эмоции, спрайты и прочее), перенесённый в этот форк |
 | 4 | **Adventure Space** (Adventure Space Nova) | <https://github.com/AdventureSpaceTeam/adventure_space_nova> | Блюспейс-артиллерия и связанный контент, перенесённые в этот форк |
+| 5 | **Trauma Station** | <https://github.com/Trauma-Station/Trauma-Station> | Генетика (ДНК-сканер, секвенатор, мутации) и связанный контент, перенесённые в этот форк |
 
 Исходная лицензия каждого upstream-проекта продолжает действовать для файлов,
 которые из него происходят. Ничто в этом репозитории не претендует на права
@@ -236,11 +265,14 @@ Public License, версии 3.0 или новее** (`AGPL-3.0-or-later`), та
 | `Content.Shared/_Starlight`, `Content.Server/_Starlight`, `Content.Client/_Starlight` | Starlight | MIT (код); для вкладов 2024-11-04 ... 2026-02-28 действует legacy-лицензия Starlight (см. раздел 3.2) |
 | `Content.*/_Goobstation`, `Content.*/_Lavaland` (C#) | Goob Station | AGPL-3.0-or-later (код) |
 | `Content.*/_Adventure` (C#) | Adventure Space | MIT (код) |
+| `Content.*/_Daiquiri/Genetics` (C#) | Trauma Station | AGPL-3.0-or-later (код) |
 | `Content.*/_Daiquiri` (C#) | Daiquiri-SS14 (этот форк) | AGPL-3.0-or-later (код) |
 | `Resources/**` (прототипы, карты, спрайты, звуки, шрифты, локализация) | Space Station 14 (Space Wizards Federation) | **Контент: CC BY-SA 3.0** (часть — CC BY-NC-SA 3.0); не MIT |
 | `Resources/**/_Starlight` (прототипы, карты, спрайты, звуки, локализация) | Starlight | **Контент: CC BY-SA 3.0**; не MIT/AGPL |
 | `Resources/**/_Goobstation`, `Resources/**/_Lavaland` | Goob Station | По файлам: прототипы с `SPDX-License-Identifier: AGPL-3.0-or-later` — AGPL; медиа — CC BY-SA 3.0, если не указано иное |
 | `Resources/**/_Adventure` | Adventure Space | Медиа: CC BY-SA 3.0, если не указано иное |
+| `Resources/**/_Daiquiri/Genetics` | Trauma Station | Прототипы: AGPL-3.0-or-later там, где указано; медиа: CC BY-SA 3.0, если не указано иное |
+| `Resources/**/_Trauma` | Trauma Station | Медиа: CC BY-SA 3.0, если не указано иное (лицензия каждого ассета в `meta.json` / `attributions.yml`) |
 | `Resources/**/_Daiquiri` | Daiquiri-SS14 (этот форк) | Свои прототипы: AGPL-3.0-or-later; свои медиа: CC BY-SA 3.0, если не указано иное |
 | `Resources/Audio/_Starlight/Effects/Experiment/*.ogg`, `Resources/Audio/_Starlight/Voice/Experiment/*.ogg` | Orsoniks («Cargo») | Отдельная «Cargo License» — см. [`LICENSE-Sawians.md`](LICENSE-Sawians.md) |
 
@@ -314,6 +346,25 @@ Daiquiri-SS14 как сетевой сервис, вы обязаны предо
 
 Источник: <https://github.com/AdventureSpaceTeam/adventure_space_nova>
 
+#### 3.5 Trauma Station
+
+Подсистема генетики (профессия генетика, ДНК-сканер и консоль, секвенатор генома,
+уникальные ферменты, диски мутаций, инструменты-мутаторы, распечатки и сам контент
+мутаций) перенесена из **Trauma Station**. Перенесённый код и прототипы
+лицензированы под **GNU Affero General Public License, версии 3.0 или новее** и
+сохраняют — и должны сохранять — заголовок `SPDX-License-Identifier: AGPL-3.0-or-later`.
+
+Медиа-ассеты, скопированные из Trauma Station в `Resources/Textures/_Trauma` и
+`Resources/Audio/_Trauma`, следуют лицензии, указанной в их `meta.json` /
+`attributions.yml` (обычно **CC BY-SA 3.0**, с указанием исходных авторов, включая
+/tg/station для спрайтов и звуков действий мутаций).
+
+Источник: <https://github.com/Trauma-Station/Trauma-Station>
+
+Поскольку этот контент лицензирован под AGPL, если вы запускаете изменённую версию
+Daiquiri-SS14 как сетевой сервис, вы обязаны предоставить пользователям
+соответствующий исходный код, как описано в разделе 13 AGPL.
+
 ### 4. Медиа-ассеты
 
 Медиа-ассеты (спрайты, звуки, шрифты) **не** покрываются лицензиями кода выше;
@@ -327,6 +378,9 @@ Daiquiri-SS14 как сетевой сервис, вы обязаны предо
 - **Ассеты Goob Station** лицензированы под **CC BY-SA 3.0**, если не указано иное
   (лицензия и правообладатель каждого ассета указаны в метаданных ассета /
   файлах `.license`).
+- **Ассеты Trauma Station** лицензированы под **CC BY-SA 3.0**, если не указано иное
+  (лицензия и правообладатель каждого ассета указаны в `meta.json` /
+  `attributions.yml`).
 - **Оригинальные ассеты Daiquiri-SS14** лицензированы под **CC BY-SA 3.0**, если не
   указано иное.
 - Звуковые ассеты «Cargo», перечисленные в [`LICENSE-Sawians.md`](LICENSE-Sawians.md),

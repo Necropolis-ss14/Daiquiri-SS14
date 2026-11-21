@@ -1,0 +1,15 @@
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+- type: !PartialOnly entity
+  id: BaseSimpleMob
+  components:
+  - type: Mutatable
+
+- type: !PartialOnly entity
+  id: MobMonkey
+  components:
+  - type: Mutatable
+    defaultMutations:
+      MutationMonkified: 1.0
+    dormant:
+    - MutationMonkified
