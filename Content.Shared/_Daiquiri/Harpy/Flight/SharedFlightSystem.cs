@@ -1,11 +1,14 @@
-using Content.Shared._Daiquiri.Harpy;
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
+using Content.Shared._Daiquiri.Harpy.Flight.Events;
 using Content.Shared.Actions;
 using Content.Shared.Bed.Sleep;
 using Content.Shared.Climbing.Events;
 using Content.Shared.Cuffs.Components;
+using Content.Shared.Damage;
+using Content.Shared.Damage.Components;
 using Content.Shared.Damage.Events;
 using Content.Shared.Damage.Systems;
-using Content.Shared.Gravity;
 using Content.Shared.Hands.Components;
 using Content.Shared.Hands.EntitySystems;
 using Content.Shared.Interaction.Components;
@@ -21,24 +24,21 @@ using Robust.Shared.Audio.Systems;
 using Robust.Shared.Physics;
 using Robust.Shared.Physics.Systems;
 
-namespace Content.Server._Daiquiri.Harpy;
 
-/// <summary>
-///     Temporary weightless flight at the cost of stamina and hand usage.
-/// </summary>
-public sealed partial class HarpyFlightSystem : EntitySystem
+namespace Content.Shared._Daiquiri.Harpy.Flight;
+public abstract class SharedFlightSystem : EntitySystem
 {
-    [Dependency] private SharedActionsSystem _actionsSystem = default!;
-    [Dependency] private SharedVirtualItemSystem _virtualItem = default!;
-    [Dependency] private SharedStaminaSystem _staminaSystem = default!;
-    [Dependency] private SharedHandsSystem _hands = default!;
-    [Dependency] private MovementSpeedModifierSystem _movementSpeed = default!;
-    [Dependency] private SharedAudioSystem _audio = default!;
-    [Dependency] private SharedPopupSystem _popupSystem = default!;
-    [Dependency] private StandingStateSystem _standing = default!;
-    [Dependency] private SharedPhysicsSystem _physics = default!;
-    [Dependency] private DamageableSystem _damageable = default!;
-    [Dependency] private SharedGravitySystem _gravity = default!;
+    [Dependency] private readonly SharedActionsSystem _actionsSystem = default!;
+    [Dependency] private readonly SharedVirtualItemSystem _virtualItem = default!;
+    [Dependency] private readonly SharedStaminaSystem _staminaSystem = default!;
+    [Dependency] private readonly SharedHandsSystem _hands = default!;
+    [Dependency] private readonly MovementSpeedModifierSystem _movementSpeed = default!;
+    [Dependency] private readonly SharedAudioSystem _audio = default!;
+    [Dependency] private readonly SharedPopupSystem _popupSystem = default!;
+    [Dependency] private readonly StandingStateSystem _standing = default!;
+    [Dependency] private readonly SharedPhysicsSystem _physics = default!;
+    [Dependency] private readonly DamageableSystem _damageable = default!;
+    [Dependency] private readonly Content.Shared.Gravity.SharedGravitySystem _gravity = default!;
 
     public override void Initialize()
     {
@@ -79,7 +79,6 @@ public sealed partial class HarpyFlightSystem : EntitySystem
                 component.TimeUntilFlap = component.FlapInterval;
             }
 
-            _staminaSystem.TakeStaminaDamage(uid, component.StaminaDrainRate * frameTime, visual: false);
         }
     }
 
@@ -101,8 +100,9 @@ public sealed partial class HarpyFlightSystem : EntitySystem
         component.On = active;
         component.TimeUntilFlap = 0f;
         _actionsSystem.SetToggled(component.ToggleActionEntity, component.On);
+        RaiseLocalEvent(uid, new FlightEvent(uid, component.On, component.IsAnimated));
 
-        _gravity.RefreshWeightless(uid);
+        _gravity.RefreshWeightless(uid); // Force the gravity system to refresh
 
         _movementSpeed.RefreshWeightlessModifiers(uid);
         ToggleCollisionMasks(uid, component);
@@ -116,7 +116,8 @@ public sealed partial class HarpyFlightSystem : EntitySystem
 
     private void OnToggleFlight(EntityUid uid, FlightComponent component, ToggleFlightEvent args)
     {
-        if (!component.On && !CanFly(uid))
+        if (!component.On
+            && !CanFly(uid, component))
             return;
 
         ToggleActive(uid, !component.On, component);
@@ -132,51 +133,44 @@ public sealed partial class HarpyFlightSystem : EntitySystem
 
     private void DisableCollisionMasks(EntityUid uid, FlightComponent component)
     {
-        if (!component.ChangeCollisionMasks
-            || !TryComp(uid, out FixturesComponent? fixtureComponent))
+        if (!component.On)
             return;
 
-        foreach (var (key, fixture) in fixtureComponent.Fixtures)
+        if (TryComp(uid, out FixturesComponent? fixtureComponent))
         {
-            var newMask = (fixture.CollisionMask
-                & (int) ~CollisionGroup.HighImpassable
-                & (int) ~CollisionGroup.MidImpassable)
-                | (int) CollisionGroup.InteractImpassable;
+            foreach (var (key, fixture) in fixtureComponent.Fixtures)
+            {
+                var newMask = (fixture.CollisionMask
+                    & (int) ~CollisionGroup.HighImpassable
+                    & (int) ~CollisionGroup.MidImpassable)
+                    | (int) CollisionGroup.InteractImpassable;
 
-            if (fixture.CollisionMask == newMask)
-                continue;
+                if (fixture.CollisionMask == newMask)
+                    continue;
 
-            component.ChangedFixtures.Add((key, fixture.CollisionMask));
-            _physics.SetCollisionMask(uid,
-                key,
-                fixture,
-                newMask,
-                manager: fixtureComponent);
+                component.ChangedFixtures.Add((key, fixture.CollisionMask));
+                _physics.SetCollisionMask(uid,
+                    key,
+                    fixture,
+                    newMask,
+                    manager: fixtureComponent);
+            }
         }
+        return;
     }
 
     private void EnableCollisionMasks(EntityUid uid, FlightComponent component)
     {
-        if (!component.ChangeCollisionMasks)
+        if (component.On)
             return;
 
+        // Restore normal collision masks
         if (TryComp(uid, out FixturesComponent? fixtureComponent))
             foreach (var (key, originalMask) in component.ChangedFixtures)
                 if (fixtureComponent.Fixtures.TryGetValue(key, out var fixture))
-                    _physics.SetCollisionMask(uid, key, fixture, UndoFlightMask(fixture.CollisionMask, originalMask), fixtureComponent);
+                    _physics.SetCollisionMask(uid, key, fixture, originalMask, fixtureComponent);
 
         component.ChangedFixtures.Clear();
-    }
-
-    private static int UndoFlightMask(int currentMask, int originalMask)
-    {
-        var restored = currentMask
-            | (originalMask & (int) (CollisionGroup.HighImpassable | CollisionGroup.MidImpassable));
-
-        if ((originalMask & (int) CollisionGroup.InteractImpassable) == 0)
-            restored &= (int) ~CollisionGroup.InteractImpassable;
-
-        return restored;
     }
 
     private void UpdateHands(EntityUid uid, bool flying)
@@ -201,6 +195,7 @@ public sealed partial class HarpyFlightSystem : EntitySystem
                 continue;
             }
 
+            // Is this entity removable? (they might have handcuffs on)
             if (HasComp<UnremoveableComponent>(held) && held != uid)
                 continue;
 
@@ -229,7 +224,8 @@ public sealed partial class HarpyFlightSystem : EntitySystem
 
     private void OnBeforeStaminaDamage(EntityUid uid, FlightComponent component, ref BeforeStaminaDamageEvent args)
     {
-        if (!component.On || args.Value > 0)
+        if (!component.On
+            || args.Value > 0)
             return;
 
         args.Value *= component.StaminaRegenMultiplier;
@@ -239,7 +235,7 @@ public sealed partial class HarpyFlightSystem : EntitySystem
 
     #region Conditionals
 
-    private bool CanFly(EntityUid uid)
+    private bool CanFly(EntityUid uid, FlightComponent component)
     {
         var ev = new FlightAttemptEvent();
         RaiseLocalEvent(uid, ref ev);
@@ -273,18 +269,19 @@ public sealed partial class HarpyFlightSystem : EntitySystem
 
     #endregion
 
-    #region Misc Handlers
-    private void OnMobStateChangedEvent(EntityUid uid, FlightComponent component, ref MobStateChangedEvent args)
+    #region Misc.Handlers
+    private void OnMobStateChangedEvent(EntityUid uid, FlightComponent component, MobStateChangedEvent args)
     {
-        if (!component.On || args.NewMobState is not (MobState.Critical or MobState.Dead))
+        if (!component.On
+            || args.NewMobState is MobState.Critical or MobState.Dead)
             return;
 
         ToggleActive(args.Target, false, component, gracefulStop: false);
     }
-
     private void OnSleep(EntityUid uid, FlightComponent component, ref SleepStateChangedEvent args)
     {
-        if (!component.On || !args.FellAsleep)
+        if (!component.On
+            || !args.FellAsleep)
             return;
 
         ToggleActive(uid, false, component, gracefulStop: false);
@@ -296,6 +293,8 @@ public sealed partial class HarpyFlightSystem : EntitySystem
             return;
 
         ToggleActive(uid, false, component, gracefulStop: false);
+        // We need this crap because standingsys only raises shit on server lmao
+        RaiseNetworkEvent(new ToggleFlightVisualsEvent(GetNetEntity(uid), false, component.IsAnimated));
     }
 
     private void OnFlightDisablingEvent<T>(EntityUid uid, FlightComponent component, ref T args) where T : notnull
@@ -306,7 +305,7 @@ public sealed partial class HarpyFlightSystem : EntitySystem
         ToggleActive(uid, false, component, gracefulStop: false);
     }
 
-    private void OnAttemptClimb(EntityUid uid, FlightComponent component, ref AttemptClimbEvent args)
+    private void OnAttemptClimb(EntityUid uid, FlightComponent component, AttemptClimbEvent args)
     {
         if (!component.On)
             return;
@@ -316,3 +315,4 @@ public sealed partial class HarpyFlightSystem : EntitySystem
 
     #endregion
 }
+public sealed partial class ToggleFlightEvent : InstantActionEvent { }

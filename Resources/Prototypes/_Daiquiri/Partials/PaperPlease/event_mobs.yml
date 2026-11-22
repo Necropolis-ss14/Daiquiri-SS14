@@ -1,0 +1,86 @@
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+- type: !PartialOnly entity
+  id: PassportEventHumanWithPermit1
+  components:
+  - !Remove type: Bloodstream
+  - type: Body
+    prototype: PassportEventBody
+
+- type: !PartialOnly entity
+  id: PassportEventHumanNoPermit1
+  components:
+  - !Remove type: Bloodstream
+  - type: Body
+    prototype: PassportEventBody
+
+- type: !PartialOnly entity
+  id: PassportEventHumanWithPermit2
+  components:
+  - !Remove type: Bloodstream
+  - type: Body
+    prototype: PassportEventBody
+
+- type: !PartialOnly entity
+  id: PassportEventHumanNoPermit2
+  components:
+  - !Remove type: Bloodstream
+  - type: Body
+    prototype: PassportEventBody
+
+- type: !PartialOnly entity
+  id: PassportEventHumanWithPermit3
+  components:
+  - !Remove type: Bloodstream
+  - type: Body
+    prototype: PassportEventBody
+
+- type: !PartialOnly entity
+  id: PassportEventHumanNoPermit3
+  components:
+  - !Remove type: Bloodstream
+  - type: Body
+    prototype: PassportEventBody
+
+- type: !PartialOnly entity
+  id: PassportEventHumanWithPermit4
+  components:
+  - !Remove type: Bloodstream
+  - type: Body
+    prototype: PassportEventBody
+
+- type: !PartialOnly entity
+  id: PassportEventHumanNoPermit4
+  components:
+  - !Remove type: Bloodstream
+  - type: Body
+    prototype: PassportEventBody
+
+- type: !PartialOnly entity
+  id: PassportEventHumanWithPermit5
+  components:
+  - !Remove type: Bloodstream
+  - type: Body
+    prototype: PassportEventBody
+
+- type: !PartialOnly entity
+  id: PassportEventHumanNoPermit5
+  components:
+  - !Remove type: Bloodstream
+  - type: Body
+    prototype: PassportEventBody
+
+- type: !PartialOnly entity
+  id: PassportEventHumanWithPermit6
+  components:
+  - !Remove type: Bloodstream
+  - type: Body
+    prototype: PassportEventBody
+
+- type: !PartialOnly entity
+  id: PassportEventHumanNoPermit6
+  components:
+  - !Remove type: Bloodstream
+  - type: Body
+    prototype: PassportEventBody
+

@@ -22,7 +22,7 @@
   - type: DamageOtherOnHit
     damage:
       types:
-        Ballistic: 30
+        Piercing: 30
   - type: TriggerOnLand
   - type: EntityEffectOnTrigger
     effects:
@@ -39,5 +39,5 @@
   - type: DamageOtherOnHit
     damage:
       types:
-        Ballistic: 5
+        Piercing: 5
   - type: ChemTransferProjectile

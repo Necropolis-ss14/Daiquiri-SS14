@@ -16,6 +16,7 @@ using Content.Shared.Popups;
 using Content.Shared.Tag;
 using Content.Shared._Daiquiri.Genetics.Console;
 using Content.Shared._Daiquiri.Genetics.Mutations;
+using Robust.Shared.Network;
 using Robust.Shared.Timing;
 
 namespace Content.Shared._Daiquiri.Genetics.Tools;
@@ -28,6 +29,7 @@ public sealed partial class MutatorSystem : EntitySystem
     [Dependency] private SharedDoAfterSystem _doAfter = default!;
     [Dependency] private SharedPopupSystem _popup = default!;
     [Dependency] private TagSystem _tag = default!;
+    [Dependency] private INetManager _net = default!;
 
     private static readonly ProtoId<TagPrototype> TrashTag = "Trash";
 
@@ -104,6 +106,9 @@ public sealed partial class MutatorSystem : EntitySystem
         }))
             return;
 
+        if (!_net.IsServer)
+            return;
+
         var userName = Identity.Name(user, EntityManager);
         var you = Loc.GetString("mutator-mutating-you", ("user", userName), ("item", ent));
         var others = Loc.GetString("mutator-mutating-others", ("user", userName), ("target", targetName), ("item", ent));
@@ -141,9 +146,11 @@ public sealed partial class MutatorSystem : EntitySystem
             _mutation.AddMutations(body, ent.Comp.Mutations, user: args.User, predicted: true);
         }
 
-        // prevent reuse
-        ent.Comp.Spent = true;
-        ent.Comp.Mutations.Clear();
+        if (!ent.Comp.Reset)
+        {
+            ent.Comp.Spent = true;
+            ent.Comp.Mutations.Clear();
+        }
         Dirty(ent);
         UpdateAppearance(ent);
         // allow recycling in disposals
@@ -152,7 +159,10 @@ public sealed partial class MutatorSystem : EntitySystem
 
     private void UpdateAppearance(Entity<MutatorComponent> ent)
     {
-        _appearance.SetData(ent, MutatorVisuals.Spent, ent.Comp.Spent || ent.Comp.Mutations.Count == 0);
+        if (ent.Comp.Reset)
+            return;
+
+        _appearance.SetData(ent, MutatorVisuals.Spent, ent.Comp.Spent || (!ent.Comp.Reset && ent.Comp.Mutations.Count == 0));
     }
 
     #region Public API

@@ -1,0 +1,221 @@
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+- type: entity
+  id: AdvancedRetractor
+  components: []
+
+- type: entity
+  id: BarrelFire
+  components: []
+
+- type: entity
+  id: CardBoxSyndicate
+  components: []
+
+- type: entity
+  id: ClothingBackpackAbductor
+  components: []
+
+- type: entity
+  id: ClothingEyesNightVisionGoggles
+  components: []
+
+- type: entity
+  id: ClothingHeadHelmetBasicAlt
+  components: []
+
+- type: entity
+  id: DeadRatvar
+  components: []
+
+- type: entity
+  id: EnergyCautery
+  components: []
+
+- type: entity
+  id: EnergyScalpel
+  components: []
+
+- type: entity
+  id: FitnessWeightLifter
+  components: []
+
+- type: entity
+  id: FitnessWeightsBench1
+  components: []
+
+- type: entity
+  id: FoamThrongler
+  components: []
+
+- type: entity
+  id: FoamWonderprod
+  components: []
+
+- type: entity
+  id: MedicalBiofabricator
+  components: []
+
+- type: entity
+  id: MedicalCyberneticEyes
+  components: []
+
+- type: entity
+  id: MedicalStitches
+  components: []
+
+- type: entity
+  id: MedkitCombatBlueFilled
+  components: []
+
+- type: entity
+  id: NutrimentImplanter
+  components: []
+
+- type: entity
+  id: OrganXenomorphStomach
+  components: []
+
+- type: entity
+  id: PlushieLouie
+  components: []
+
+- type: entity
+  id: PosterLegitGoobFaded
+  components: []
+
+- type: entity
+  id: RMCContainerNovarisLeft
+  components: []
+
+- type: entity
+  id: RMCContainerNovarisMiddle
+  components: []
+
+- type: entity
+  id: RMCContainerNovarisRight
+  components: []
+
+- type: entity
+  id: RMCOverheadRoadsignAlt3
+  components: []
+
+- type: entity
+  id: RMCOverheadSignNeonBar
+  components: []
+
+- type: entity
+  id: RMCOverheadSignNeonCafe
+  components: []
+
+- type: entity
+  id: RandomChemistryBottleMedicalSpawner
+  components: []
+
+- type: entity
+  id: RandomChemistryBottleMedicalTier1Spawner
+  components: []
+
+- type: entity
+  id: RandomChemistryBottleMedicalTier2Spawner
+  components: []
+
+- type: entity
+  id: RandomChemistryBottleMedicalTier3Spawner
+  components: []
+
+- type: entity
+  id: ResinDoor
+  components: []
+
+- type: entity
+  id: ResinNest
+  components: []
+
+- type: entity
+  id: ResinWeed
+  components: []
+
+- type: entity
+  id: ResinWeedNode
+  components: []
+
+- type: entity
+  id: ShrapnelPayload
+  components: []
+
+- type: entity
+  id: SmokeImplanter
+  components: []
+
+- type: entity
+  id: SoapHomemadeBanana
+  components: []
+
+- type: entity
+  id: SpawnMobXenomorphDrone
+  components: []
+
+- type: entity
+  id: SpawnMobXenomorphPraetorian
+  components: []
+
+- type: entity
+  id: SpawnMobXenomorphQueen
+  components: []
+
+- type: entity
+  id: SpawnVehicleChairOfficeDark
+  components: []
+
+- type: entity
+  id: SpawnVehicleChairOfficeLight
+  components: []
+
+- type: entity
+  id: SyringeGun
+  components: []
+
+- type: entity
+  id: SyringePoisonLethalInjection
+  components: []
+
+- type: entity
+  id: ToyFigurineCosmicCultist
+  components: []
+
+- type: entity
+  id: UraniumChemistryVial
+  components: []
+
+- type: entity
+  id: VendingMachineSolsnack
+  components: []
+
+- type: entity
+  id: VulpkaninCube
+  components: []
+
+- type: entity
+  id: WallResin
+  components: []
+
+- type: entity
+  id: WallRockBasaltBSCrystal
+  components: []
+
+- type: entity
+  id: WeaponDisablerSyndicate
+  components: []
+
+- type: entity
+  id: WeaponRifleM90
+  components: []
+
+- type: entity
+  id: XenomorphEggBurst
+  components: []
+
+- type: entity
+  id: portableChemicalMixer
+  components: []

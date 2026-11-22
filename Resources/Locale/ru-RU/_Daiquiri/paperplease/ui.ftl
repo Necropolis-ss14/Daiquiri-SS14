@@ -1,0 +1,15 @@
+passport-ui-title = ПАСПОРТ
+passport-ui-type = МЕЖДУНАРОДНЫЙ ПАСПОРТ
+passport-ui-photo = ФОТО
+passport-ui-watermark = ★ ПОДПИСАНТСКАЯ КОНВЕНЦИЯ ★
+passport-ui-footer = Действителен на всей территории государств-подписавших конвенцию 3031 года.
+passport-ui-owner = ФИО: {$name}
+passport-ui-series = Серия и номер: {$series} {$number}
+passport-ui-city = Город выдачи: {$city}
+passport-ui-issued = Выдан в: {$year}
+passport-ui-expires = Годен до: {$year}
+passport-unknown-owner = Неизвестный
+passport-ui-stamp = ВЪЕЗД РАЗРЕШЁН
+passport-ui-signature = Роспись владельца: ________________
+passport-guide-stamp-note = 6. На действительном документе обязательны печать органа выдачи и роспись владельца; отсутствие печати или росписи — основание для отказа.
+passport-ui-signature-markup = Подпись владельца: [italic]✒ {$name}[/italic]

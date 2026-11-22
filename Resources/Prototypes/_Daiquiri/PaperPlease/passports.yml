@@ -1,0 +1,231 @@
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+- type: entityCategory
+  id: PapersPlease
+  name: Papers, please
+  suffix: PapersPlease
+  hideSpawnMenu: false
+
+- type: entity
+  abstract: true
+  parent: Paper
+  id: PassportBase
+  categories: [ PapersPlease ]
+  components:
+  - type: Passport
+  - type: ActivatableUI
+    key: enum.PassportUiKey.Key
+  - type: UserInterface
+    interfaces:
+      enum.PassportUiKey.Key:
+        type: PassportBoundUserInterface
+
+- type: entity
+  parent: PassportBase
+  id: PassportSSSPValid
+  name: паспорт (СССП)
+  suffix: PapersPlease
+  categories: [ PapersPlease ]
+  components:
+  - type: Passport
+    state: SSSP
+    forcedValid: true
+    forcedInvalid: false
+
+- type: entity
+  parent: PassportBase
+  id: PassportSSSPInvalid
+  name: паспорт (СССП)
+  suffix: PapersPlease
+  categories: [ PapersPlease ]
+  components:
+  - type: Passport
+    state: SSSP
+    forcedValid: false
+    forcedInvalid: true
+
+- type: entity
+  parent: PassportBase
+  id: PassportSolGovValid
+  name: паспорт (СолГов)
+  suffix: PapersPlease
+  categories: [ PapersPlease ]
+  components:
+  - type: Passport
+    state: SolGov
+    forcedValid: true
+    forcedInvalid: false
+
+- type: entity
+  parent: PassportBase
+  id: PassportSolGovInvalid
+  name: паспорт (СолГов)
+  suffix: PapersPlease
+  categories: [ PapersPlease ]
+  components:
+  - type: Passport
+    state: SolGov
+    forcedValid: false
+    forcedInvalid: true
+
+- type: entity
+  parent: PassportBase
+  id: PassportConfederationValid
+  name: паспорт (Конфедерация)
+  suffix: PapersPlease
+  categories: [ PapersPlease ]
+  components:
+  - type: Passport
+    state: Confederation
+    forcedValid: true
+    forcedInvalid: false
+
+- type: entity
+  parent: PassportBase
+  id: PassportConfederationInvalid
+  name: паспорт (Конфедерация)
+  suffix: PapersPlease
+  categories: [ PapersPlease ]
+  components:
+  - type: Passport
+    state: Confederation
+    forcedValid: false
+    forcedInvalid: true
+
+- type: entity
+  parent: PassportBase
+  id: PassportNovoNihonValid
+  name: паспорт (Ново-нихоновец)
+  suffix: PapersPlease
+  categories: [ PapersPlease ]
+  components:
+  - type: Passport
+    state: NovoNihon
+    forcedValid: true
+    forcedInvalid: false
+
+- type: entity
+  parent: PassportBase
+  id: PassportNovoNihonInvalid
+  name: паспорт (Ново-нихоновец)
+  suffix: PapersPlease
+  categories: [ PapersPlease ]
+  components:
+  - type: Passport
+    state: NovoNihon
+    forcedValid: false
+    forcedInvalid: true
+
+- type: entity
+  parent: PassportBase
+  id: PassportRaitoriaValid
+  name: паспорт (Райтория)
+  suffix: PapersPlease
+  categories: [ PapersPlease ]
+  components:
+  - type: Passport
+    state: Raitoria
+    forcedValid: true
+    forcedInvalid: false
+
+- type: entity
+  parent: PassportBase
+  id: PassportRaitoriaInvalid
+  name: паспорт (Райтория)
+  suffix: PapersPlease
+  categories: [ PapersPlease ]
+  components:
+  - type: Passport
+    state: Raitoria
+    forcedValid: false
+    forcedInvalid: true
+
+- type: entity
+  parent: PassportBase
+  id: PassportIndependentColoniesValid
+  name: паспорт (Союз независимых колоний)
+  suffix: PapersPlease
+  categories: [ PapersPlease ]
+  components:
+  - type: Passport
+    state: IndependentColonies
+    forcedValid: true
+    forcedInvalid: false
+
+- type: entity
+  parent: PassportBase
+  id: PassportIndependentColoniesInvalid
+  name: паспорт (Союз независимых колоний)
+  suffix: PapersPlease
+  categories: [ PapersPlease ]
+  components:
+  - type: Passport
+    state: IndependentColonies
+    forcedValid: false
+    forcedInvalid: true
+
+- type: entity
+  parent: MarkerBase
+  id: PassportRandomSpawner
+  name: спавнер паспорта (случайный, 50/50)
+  suffix: PapersPlease
+  categories: [ PapersPlease ]
+  components:
+  - type: Sprite
+    layers:
+    - state: green
+  - type: RandomSpawner
+    chance: 1
+    prototypes:
+    - PassportSSSPValid
+    - PassportSSSPInvalid
+    - PassportSolGovValid
+    - PassportSolGovInvalid
+    - PassportConfederationValid
+    - PassportConfederationInvalid
+    - PassportNovoNihonValid
+    - PassportNovoNihonInvalid
+    - PassportRaitoriaValid
+    - PassportRaitoriaInvalid
+    - PassportIndependentColoniesValid
+    - PassportIndependentColoniesInvalid
+
+- type: entity
+  parent: MarkerBase
+  id: PassportValidSpawner
+  name: спавнер паспорта (валидный)
+  suffix: PapersPlease
+  categories: [ PapersPlease ]
+  components:
+  - type: Sprite
+    layers:
+    - state: green
+  - type: RandomSpawner
+    chance: 1
+    prototypes:
+    - PassportSSSPValid
+    - PassportSolGovValid
+    - PassportConfederationValid
+    - PassportNovoNihonValid
+    - PassportRaitoriaValid
+    - PassportIndependentColoniesValid
+
+- type: entity
+  parent: MarkerBase
+  id: PassportInvalidSpawner
+  name: спавнер паспорта (невалидный)
+  suffix: PapersPlease
+  categories: [ PapersPlease ]
+  components:
+  - type: Sprite
+    layers:
+    - state: green
+  - type: RandomSpawner
+    chance: 1
+    prototypes:
+    - PassportSSSPInvalid
+    - PassportSolGovInvalid
+    - PassportConfederationInvalid
+    - PassportNovoNihonInvalid
+    - PassportRaitoriaInvalid
+    - PassportIndependentColoniesInvalid

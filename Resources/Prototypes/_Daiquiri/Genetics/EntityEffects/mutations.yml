@@ -1,0 +1,111 @@
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+- type: entityEffect
+  id: MutationAcidicFleshBubble
+  effects:
+  - !type:RelayMutated
+    effect: !type:PopupMessage
+      messages:
+      - entity-effect-popup-acidic-flesh-bubbles
+  - !type:StartUseDelay
+
+- type: entityEffect
+  id: MutationAcidicFleshPop
+  effects:
+  - !type:PopupMessage
+    type: Pvs
+    visualType: MediumCaution
+    messages:
+    - entity-effect-popup-acidic-flesh-pops
+  - !type:HealthChange
+    ignoreResistances: false # having lab coats etc help is decent for gameplay, doesnt make much sense though
+    useTargeting: false # picks a random limb instead of applying damage everywhere evenly
+    damage:
+      types:
+        Caustic: 15 # TODO: random scale
+  - !type:PlaySoundEffect
+    sound:
+      path: /Audio/_Trauma/Effects/sear.ogg
+    positional: false
+
+# Spastic
+
+- type: entityEffect
+  id: MutationSpasms
+  effects:
+  - !type:WeightedRandomEffect
+    children:
+    - effect: !type:NestedEffect
+        proto: SpasmMove
+    - effect: !type:NestedEffect
+        conditions:
+        - !type:HoldingItemCondition
+        proto: SpasmAttackSelf
+    - effect: !type:NestedEffect
+        proto: SpasmPunchSelf
+    - effect: !type:NestedEffect
+        proto: SpasmAttackOthers
+    - effect: !type:NestedEffect
+        conditions:
+        - !type:HoldingItemCondition
+        proto: SpasmThrow
+
+- type: entityEffect
+  id: SpasmMove
+  effects:
+  - !type:PopupMessage
+    messages:
+    - entity-effect-popup-spasm-leg
+  - !type:ThrowRandomly
+    speed: 1.5 # just a spasm
+  # TODO - this would be much better with proper tile movement key queue system
+
+- type: entityEffect
+  id: SpasmAttackSelf
+  effects:
+  - !type:PopupMessage
+    messages:
+    - entity-effect-popup-spasm-fingers
+  - !type:AttackSelf
+
+- type: entityEffect
+  id: SpasmPunchSelf
+  effects:
+  - !type:PopupMessage
+    messages:
+    - entity-effect-popup-spasm-arm
+  - !type:AttackSelf
+    useHeld: false
+
+- type: entityEffect
+  id: SpasmAttackOthers
+  effects:
+  - !type:PopupMessage
+    messages:
+    - entity-effect-popup-spasm-arm
+  - !type:AttackOthers
+  # TODO: attack in a random direction, using 7m range for a gun
+
+- type: entityEffect
+  id: SpasmThrow
+  effects:
+  - !type:PopupMessage
+    messages:
+    - entity-effect-popup-spasm-arm
+  - !type:DropRandomItem
+    effects:
+    - !type:ThrowRandomly
+
+# Two Left Feet
+
+- type: entityEffect
+  id: MutationFeetTrip
+  effects:
+  - !type:PopupMessage
+    visualType: SmallCaution
+    messages:
+    - entity-effect-popup-feet-trip
+  - !type:Knockdown
+    time: 3
+
+# H.A.R.S.

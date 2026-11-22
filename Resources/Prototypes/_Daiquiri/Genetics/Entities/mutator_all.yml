@@ -2,6 +2,15 @@
 
 - type: entity
   parent: GeneticsMutator
+  id: MutationMutatorAcidicFlesh
+  suffix: AcidicFlesh
+  components:
+  - type: Mutator
+    mutations:
+    - MutationAcidicFlesh
+
+- type: entity
+  parent: GeneticsMutator
   id: MutationMutatorAcromegaly
   suffix: Acromegaly
   components:
@@ -125,6 +134,15 @@
   - type: Mutator
     mutations:
     - MutationCough
+
+- type: entity
+  parent: GeneticsMutator
+  id: MutationMutatorDeafness
+  suffix: Deafness
+  components:
+  - type: Mutator
+    mutations:
+    - MutationDeafness
 
 - type: entity
   parent: GeneticsMutator
@@ -515,6 +533,15 @@
 
 - type: entity
   parent: GeneticsMutator
+  id: MutationMutatorSpastic
+  suffix: Spastic
+  components:
+  - type: Mutator
+    mutations:
+    - MutationSpastic
+
+- type: entity
+  parent: GeneticsMutator
   id: MutationMutatorSpatialInstability
   suffix: SpatialInstability
   components:
@@ -602,6 +629,15 @@
   - type: Mutator
     mutations:
     - MutationTongueSpike
+
+- type: entity
+  parent: GeneticsMutator
+  id: MutationMutatorTwoLeftFeet
+  suffix: TwoLeftFeet
+  components:
+  - type: Mutator
+    mutations:
+    - MutationTwoLeftFeet
 
 - type: entity
   parent: GeneticsMutator

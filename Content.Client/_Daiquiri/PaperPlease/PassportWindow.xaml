@@ -1,0 +1,36 @@
+<pp:PassportWindow xmlns="https://spacestation14.io"
+        xmlns:pp="clr-namespace:Content.Client._Daiquiri.PaperPlease"
+        Title="{Loc 'passport-ui-title'}"
+        MinSize="520 430"
+        SetSize="520 430">
+    <BoxContainer Orientation="Vertical" Margin="8" SeparationOverride="6">
+        <PanelContainer Name="HeaderPanel" MinHeight="54">
+            <BoxContainer Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <Label Name="StateLabel" HorizontalAlignment="Center" StyleClasses="LabelHeading" Margin="4"/>
+                <Label Name="TypeLabel" Text="{Loc 'passport-ui-type'}" ModulateSelfOverride="#000000AA" HorizontalAlignment="Center"/>
+            </BoxContainer>
+        </PanelContainer>
+        <PanelContainer Name="BodyPanel">
+            <BoxContainer Orientation="Horizontal" Margin="8" SeparationOverride="10">
+                <BoxContainer Orientation="Vertical" SeparationOverride="6">
+                    <PanelContainer Name="PhotoPanel" SetSize="104 128" MinSize="104 128">
+                        <BoxContainer Orientation="Vertical" Margin="2">
+                            <SpriteView Name="Photo" Scale="2.4 2.4" SetSize="100 100"/>
+                            <Label Name="PhotoCaption" Text="{Loc 'passport-ui-photo'}" HorizontalAlignment="Center" ModulateSelfOverride="#ffffff88"/>
+                        </BoxContainer>
+                    </PanelContainer>
+                </BoxContainer>
+                <BoxContainer Orientation="Vertical" SeparationOverride="5" HorizontalExpand="True">
+                    <Label Name="OwnerLabel"/>
+                    <Label Name="SeriesLabel"/>
+                    <Label Name="CityLabel"/>
+                    <Label Name="IssueLabel"/>
+                    <Label Name="ExpiryLabel"/>
+                    <RichTextLabel Name="SignatureLabel" HorizontalExpand="True" ModulateSelfOverride="#ffffffcc"/>
+                    <BoxContainer Name="StampsContainer" Orientation="Vertical" SeparationOverride="3"/>
+                </BoxContainer>
+            </BoxContainer>
+        </PanelContainer>
+        <RichTextLabel Name="FooterLabel" Text="{Loc 'passport-ui-footer'}" HorizontalAlignment="Center" HorizontalExpand="True" ModulateSelfOverride="#ffffff66"/>
+    </BoxContainer>
+</pp:PassportWindow>

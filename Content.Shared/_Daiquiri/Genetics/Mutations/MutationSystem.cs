@@ -12,6 +12,8 @@ using Content.Shared.Body.Systems;
 using Content.Shared.Damage.Components;
 using Content.Shared.Damage.Prototypes;
 using Content.Shared.Damage.Systems;
+using Content.Shared.Humanoid;
+using Content.Shared.Silicons.Borgs.Components;
 using Content.Shared.Forensics;
 using Content.Shared.Forensics.Components;
 using Content.Shared.GameTicking;
@@ -349,7 +351,19 @@ public sealed partial class MutationSystem : CommonMutationSystem
     /// <summary>
     /// Returns true if an entity has <see cref="MutatableComponent"/>.
     /// </summary>
-    public bool IsMutatable(EntityUid uid) => _mutatableQuery.HasComp(uid);
+    private static readonly HashSet<string> RoboticSpecies = new() { "IPC" };
+
+    public bool IsMutatable(EntityUid uid)
+        => _mutatableQuery.HasComp(uid) && !IsRobotic(uid);
+
+    private bool IsRobotic(EntityUid uid)
+    {
+        if (HasComp<BorgChassisComponent>(uid))
+            return true;
+
+        return TryComp<HumanoidAppearanceComponent>(uid, out var humanoid) &&
+               RoboticSpecies.Contains(humanoid.Species.Id);
+    }
 
     /// <summary>
     /// Returns true if an entity has a specific mutation active.

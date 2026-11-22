@@ -69,6 +69,9 @@ public abstract partial class SharedGravitySystem : EntitySystem
         if (entity.Comp2.BodyType is BodyType.Static or BodyType.Kinematic)
             return false;
 
+        if (TryComp<Content.Shared._Daiquiri.Harpy.Flight.FlightComponent>(entity, out var flying) && flying.On)
+            return true;
+
         // Check if something other than the grid or map is overriding our gravity
         var ev = new IsWeightlessEvent();
         RaiseLocalEvent(entity, ref ev);

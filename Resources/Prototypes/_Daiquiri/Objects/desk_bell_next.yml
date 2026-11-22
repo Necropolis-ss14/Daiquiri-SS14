@@ -1,0 +1,30 @@
+- type: entity
+  parent: DeskBell
+  id: DeskBellNext
+  name: настольный звонок
+  suffix: next
+  components:
+  - type: InteractionPopup
+    successChance: 1
+    interactSuccessSound:
+      path: /Audio/_Daiquiri/Effects/next.ogg
+      params:
+        volume: 3
+    onActivate: true
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/_Daiquiri/Effects/next.ogg
+      params:
+        volume: 3
+  - type: EmitSoundOnTrigger
+    sound:
+      path: /Audio/_Daiquiri/Effects/next.ogg
+      params:
+        volume: 3
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/_Daiquiri/Effects/next.ogg
+      params:
+        volume: 3
+  - type: UseDelay
+    delay: 20

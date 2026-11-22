@@ -291,3 +291,75 @@
     difficulty: 24
   - type: MobThresholdMutation
     removed: SoftCritical
+
+- type: entity
+  parent: BaseMutation
+  id: MutationDeafness
+  name: Deafness
+  description: The holder of this genome is completely deaf.
+  components:
+  - type: Mutation
+    instability: -40
+  - type: ComponentMutation
+    added:
+    - type: Deaf
+
+- type: entity
+  parent: BaseTriggerMutation
+  id: MutationSpastic
+  name: Spastic
+  description: Subject suffers from muscle spasms.
+  components:
+  - type: Mutation
+    instability: -30
+    difficulty: 16
+  - type: RandomTrigger
+    prob: 0.15
+  - type: EntityEffectOnTrigger
+    effects:
+    - !type:RelayMutated
+      effect: !type:NestedEffect
+        proto: MutationSpasms
+
+- type: entity
+  parent: BaseTriggerMutation
+  id: MutationTwoLeftFeet
+  name: Two Left Feet
+  description: A mutation that replaces the right foot with another left foot. Symptoms include kissing the floor when taking a step.
+  components:
+  - type: Mutation
+    instability: -30
+    difficulty: 16
+  - type: TriggerOnWalk
+  - type: EntityEffectOnTrigger
+    effects:
+    - !type:RelayMutated
+      probability: 0.03
+      effect: !type:NestedEffect
+        proto: MutationFeetTrip
+        conditions:
+        - !type:StandingCondition
+
+- type: entity
+  parent: BaseTriggerMutation
+  id: MutationAcidicFlesh
+  name: Acidic Flesh
+  description: Subject has acidic chemicals building up underneath the skin. This is often lethal.
+  components:
+  - type: Mutation
+    instability: -40
+    difficulty: 18
+  - type: RandomTrigger
+    prob: 0.13
+  - type: UseDelay
+    delay: 20
+  - type: EntityEffectOnTrigger
+    effects:
+    - !type:NestedEffect
+      proto: MutationAcidicFleshBubble
+      conditions:
+      - !type:UseDelayCondition
+    - !type:RelayMutated
+      effect: !type:NestedEffect
+        probability: 0.15
+        proto: MutationAcidicFleshPop

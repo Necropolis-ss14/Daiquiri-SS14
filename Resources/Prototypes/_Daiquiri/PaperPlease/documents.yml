@@ -1,0 +1,136 @@
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+- type: entity
+  parent: BaseItem
+  id: PassportGuideBook1
+  name: справочник паспортного контроля (издание 1)
+  suffix: PapersPlease
+  description: Свод правил въезда, издание 1.
+  components:
+  - type: Sprite
+    sprite: Objects/Misc/books.rsi
+    layers:
+    - state: paper
+    - state: cover_base
+      color: "#332d27"
+  - type: PassportGuide
+    version: 1
+  - type: ActivatableUI
+    key: enum.PassportGuideUiKey.Key
+  - type: UserInterface
+    interfaces:
+      enum.PassportGuideUiKey.Key:
+        type: PassportGuideBoundUserInterface
+  - type: Tag
+    tags:
+    - Book
+
+- type: entity
+  parent: BaseItem
+  id: PassportGuideBook2
+  name: справочник паспортного контроля (издание 2)
+  suffix: PapersPlease
+  description: Свод правил въезда, издание 2.
+  components:
+  - type: Sprite
+    sprite: Objects/Misc/books.rsi
+    layers:
+    - state: paper
+    - state: cover_base
+      color: "#332d27"
+  - type: PassportGuide
+    version: 2
+  - type: ActivatableUI
+    key: enum.PassportGuideUiKey.Key
+  - type: UserInterface
+    interfaces:
+      enum.PassportGuideUiKey.Key:
+        type: PassportGuideBoundUserInterface
+  - type: Tag
+    tags:
+    - Book
+
+- type: entity
+  parent: BaseItem
+  id: PassportGuideBook3
+  name: справочник паспортного контроля (издание 3)
+  suffix: PapersPlease
+  description: Свод правил въезда, издание 3.
+  components:
+  - type: Sprite
+    sprite: Objects/Misc/books.rsi
+    layers:
+    - state: paper
+    - state: cover_base
+      color: "#332d27"
+  - type: PassportGuide
+    version: 3
+  - type: ActivatableUI
+    key: enum.PassportGuideUiKey.Key
+  - type: UserInterface
+    interfaces:
+      enum.PassportGuideUiKey.Key:
+        type: PassportGuideBoundUserInterface
+  - type: Tag
+    tags:
+    - Book
+
+- type: entity
+  parent: MarkerBase
+  id: PassportGuideBookSpawner
+  name: спавнер справочника (случайное издание)
+  suffix: PapersPlease
+  categories: [ PapersPlease ]
+  components:
+  - type: Sprite
+    layers:
+    - state: green
+  - type: RandomSpawner
+    chance: 1
+    prototypes:
+    - PassportGuideBook1
+    - PassportGuideBook2
+    - PassportGuideBook3
+
+- type: entity
+  parent: Paper
+  id: NTEntryPermit
+  name: разрешение на въезд в НТ
+  suffix: PapersPlease
+  description: Разрешение на въезд на объекты NanoTrasen.
+  categories: [ PapersPlease ]
+  components:
+  - type: Paper
+    content: nt-entry-permit-valid
+  - type: NTEntryPermit
+    locId: nt-entry-permit-valid
+
+- type: entity
+  parent: Paper
+  id: NTEntryPermitInvalid
+  name: разрешение на въезд в НТ
+  suffix: PapersPlease
+  description: Разрешение на въезд на объекты NanoTrasen.
+  categories: [ PapersPlease ]
+  components:
+  - type: Paper
+    content: nt-entry-permit-invalid
+  - type: NTEntryPermit
+    locId: nt-entry-permit-invalid
+
+- type: entity
+  parent: MarkerBase
+  id: NTEntryPermitSpawner
+  name: спавнер разрешения на въезд
+  suffix: PapersPlease
+  categories: [ PapersPlease ]
+  components:
+  - type: Sprite
+    layers:
+    - state: green
+  - type: RandomSpawner
+    chance: 1
+    prototypes:
+    - NTEntryPermit
+    - NTEntryPermitInvalid
+

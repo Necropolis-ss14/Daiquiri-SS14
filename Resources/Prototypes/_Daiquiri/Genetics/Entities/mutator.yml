@@ -46,30 +46,12 @@
   description: A single-use injector that rolls a subject's genome back to the factory defaults of its species.
   components:
   - type: Sprite
-    sprite: Objects/Specific/Medical/medipen.rsi
+    sprite: _Starlight/Admeme/ETO/crackheadjetinjector.rsi
     layers:
-    - state: morphen
-      map: [ enum.MutatorVisuals.Layer ]
-  - type: GenericVisualizer
-    visuals:
-      enum.MutatorVisuals.Spent:
-        enum.MutatorVisuals.Layer:
-          True: { state: morphen_empty }
-          False: { state: morphen }
+    - state: jetinjector_base
+    - state: jetinjector_filled1
   - type: Item
-    inhandVisuals:
-      left:
-      - state: base-needle-inhand-left
-      - state: base-colorA-inhand-left
-        color: "#5bcaca"
-      - state: base-colorB-inhand-left
-        color: "#5bcaca"
-      right:
-      - state: base-needle-inhand-right
-      - state: base-colorA-inhand-right
-        color: "#5bcaca"
-      - state: base-colorB-inhand-right
-        color: "#5bcaca"
+    sprite: _Starlight/Admeme/ETO/crackheadjetinjector.rsi
   - type: Mutator
     reset: true
     injectTime: 15

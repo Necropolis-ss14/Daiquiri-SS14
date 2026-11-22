@@ -1,0 +1,17 @@
+<pp:PassportGuideWindow xmlns="https://spacestation14.io"
+        xmlns:pp="clr-namespace:Content.Client._Daiquiri.PaperPlease"
+        Title="{Loc 'guide-window-title'}"
+        MinSize="560 460"
+        SetSize="560 460">
+    <BoxContainer Orientation="Vertical" Margin="8" SeparationOverride="6">
+        <BoxContainer Orientation="Horizontal" SeparationOverride="4">
+            <Button Name="YearButton" Text="{Loc 'guide-tab-year-button'}"/>
+            <Button Name="ConventionButton" Text="{Loc 'guide-tab-convention-button'}"/>
+            <Button Name="StatesButton" Text="{Loc 'guide-tab-states-button'}"/>
+            <Button Name="RulesButton" Text="{Loc 'guide-tab-rules-button'}"/>
+        </BoxContainer>
+        <PanelContainer Name="ContentPanel" VerticalExpand="True" HorizontalExpand="True">
+            <RichTextLabel Name="Content" Margin="8" VerticalExpand="True" HorizontalExpand="True"/>
+        </PanelContainer>
+    </BoxContainer>
+</pp:PassportGuideWindow>

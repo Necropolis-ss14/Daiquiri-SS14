@@ -1,0 +1,326 @@
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+- type: entity
+  parent: PassportBase
+  id: PassportRandom
+  name: паспорт (случайный)
+  suffix: PapersPlease
+  description: Паспорт случайного государства.
+  categories: [ PapersPlease ]
+  components:
+  - type: Passport
+    randomState: true
+
+- type: startingGear
+  id: PassportEventGear1
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitColorGrey
+    shoes: ClothingShoesColorBlack
+
+- type: startingGear
+  id: PassportEventGear2
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitColorWhite
+    shoes: ClothingShoesColorBlack
+
+- type: startingGear
+  id: PassportEventGear3
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitColorBlack
+    shoes: ClothingShoesColorBlack
+
+- type: startingGear
+  id: PassportEventGear4
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitColorBlue
+    shoes: ClothingShoesColorBlack
+
+- type: startingGear
+  id: PassportEventGear5
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitColorYellow
+    shoes: ClothingShoesColorBlack
+
+- type: startingGear
+  id: PassportEventGear6
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitColorRed
+    shoes: ClothingShoesColorBlack
+
+- type: entity
+  parent: MobHuman
+  id: PassportEventHumanWithPermit1
+  name: Урист МакПаспорт
+  suffix: PapersPlease
+  categories: [ PapersPlease ]
+  components:
+  - type: RandomHumanoidAppearance
+  - type: RandomMetadata
+    nameSegments:
+    - NamesFirst
+    - NamesLast
+  - type: Loadout
+    prototypes:
+    - PassportEventGear1
+  - type: ContainerFill
+    containers:
+      pocket1:
+      - PassportRandom
+      pocket2:
+      - NTEntryPermit
+
+- type: entity
+  parent: MobHuman
+  id: PassportEventHumanWithPermit2
+  name: Урист МакПаспорт
+  suffix: PapersPlease
+  categories: [ PapersPlease ]
+  components:
+  - type: RandomHumanoidAppearance
+  - type: RandomMetadata
+    nameSegments:
+    - NamesFirst
+    - NamesLast
+  - type: Loadout
+    prototypes:
+    - PassportEventGear2
+  - type: ContainerFill
+    containers:
+      pocket1:
+      - PassportRandom
+      pocket2:
+      - NTEntryPermit
+
+- type: entity
+  parent: MobHuman
+  id: PassportEventHumanWithPermit3
+  name: Урист МакПаспорт
+  suffix: PapersPlease
+  categories: [ PapersPlease ]
+  components:
+  - type: RandomHumanoidAppearance
+  - type: RandomMetadata
+    nameSegments:
+    - NamesFirst
+    - NamesLast
+  - type: Loadout
+    prototypes:
+    - PassportEventGear3
+  - type: ContainerFill
+    containers:
+      pocket1:
+      - PassportRandom
+      pocket2:
+      - NTEntryPermit
+
+- type: entity
+  parent: MobHuman
+  id: PassportEventHumanWithPermit4
+  name: Урист МакПаспорт
+  suffix: PapersPlease
+  categories: [ PapersPlease ]
+  components:
+  - type: RandomHumanoidAppearance
+  - type: RandomMetadata
+    nameSegments:
+    - NamesFirst
+    - NamesLast
+  - type: Loadout
+    prototypes:
+    - PassportEventGear4
+  - type: ContainerFill
+    containers:
+      pocket1:
+      - PassportRandom
+      pocket2:
+      - NTEntryPermit
+
+- type: entity
+  parent: MobHuman
+  id: PassportEventHumanWithPermit5
+  name: Урист МакПаспорт
+  suffix: PapersPlease
+  categories: [ PapersPlease ]
+  components:
+  - type: RandomHumanoidAppearance
+  - type: RandomMetadata
+    nameSegments:
+    - NamesFirst
+    - NamesLast
+  - type: Loadout
+    prototypes:
+    - PassportEventGear5
+  - type: ContainerFill
+    containers:
+      pocket1:
+      - PassportRandom
+      pocket2:
+      - NTEntryPermit
+
+- type: entity
+  parent: MobHuman
+  id: PassportEventHumanWithPermit6
+  name: Урист МакПаспорт
+  suffix: PapersPlease
+  categories: [ PapersPlease ]
+  components:
+  - type: RandomHumanoidAppearance
+  - type: RandomMetadata
+    nameSegments:
+    - NamesFirst
+    - NamesLast
+  - type: Loadout
+    prototypes:
+    - PassportEventGear6
+  - type: ContainerFill
+    containers:
+      pocket1:
+      - PassportRandom
+      pocket2:
+      - NTEntryPermit
+
+- type: entity
+  parent: MobHuman
+  id: PassportEventHumanNoPermit1
+  name: Урист МакПаспорт
+  suffix: PapersPlease
+  categories: [ PapersPlease ]
+  components:
+  - type: RandomHumanoidAppearance
+  - type: RandomMetadata
+    nameSegments:
+    - NamesFirst
+    - NamesLast
+  - type: Loadout
+    prototypes:
+    - PassportEventGear1
+  - type: ContainerFill
+    containers:
+      pocket1:
+      - PassportRandom
+
+- type: entity
+  parent: MobHuman
+  id: PassportEventHumanNoPermit2
+  name: Урист МакПаспорт
+  suffix: PapersPlease
+  categories: [ PapersPlease ]
+  components:
+  - type: RandomHumanoidAppearance
+  - type: RandomMetadata
+    nameSegments:
+    - NamesFirst
+    - NamesLast
+  - type: Loadout
+    prototypes:
+    - PassportEventGear2
+  - type: ContainerFill
+    containers:
+      pocket1:
+      - PassportRandom
+
+- type: entity
+  parent: MobHuman
+  id: PassportEventHumanNoPermit3
+  name: Урист МакПаспорт
+  suffix: PapersPlease
+  categories: [ PapersPlease ]
+  components:
+  - type: RandomHumanoidAppearance
+  - type: RandomMetadata
+    nameSegments:
+    - NamesFirst
+    - NamesLast
+  - type: Loadout
+    prototypes:
+    - PassportEventGear3
+  - type: ContainerFill
+    containers:
+      pocket1:
+      - PassportRandom
+
+- type: entity
+  parent: MobHuman
+  id: PassportEventHumanNoPermit4
+  name: Урист МакПаспорт
+  suffix: PapersPlease
+  categories: [ PapersPlease ]
+  components:
+  - type: RandomHumanoidAppearance
+  - type: RandomMetadata
+    nameSegments:
+    - NamesFirst
+    - NamesLast
+  - type: Loadout
+    prototypes:
+    - PassportEventGear4
+  - type: ContainerFill
+    containers:
+      pocket1:
+      - PassportRandom
+
+- type: entity
+  parent: MobHuman
+  id: PassportEventHumanNoPermit5
+  name: Урист МакПаспорт
+  suffix: PapersPlease
+  categories: [ PapersPlease ]
+  components:
+  - type: RandomHumanoidAppearance
+  - type: RandomMetadata
+    nameSegments:
+    - NamesFirst
+    - NamesLast
+  - type: Loadout
+    prototypes:
+    - PassportEventGear5
+  - type: ContainerFill
+    containers:
+      pocket1:
+      - PassportRandom
+
+- type: entity
+  parent: MobHuman
+  id: PassportEventHumanNoPermit6
+  name: Урист МакПаспорт
+  suffix: PapersPlease
+  categories: [ PapersPlease ]
+  components:
+  - type: RandomHumanoidAppearance
+  - type: RandomMetadata
+    nameSegments:
+    - NamesFirst
+    - NamesLast
+  - type: Loadout
+    prototypes:
+    - PassportEventGear6
+  - type: ContainerFill
+    containers:
+      pocket1:
+      - PassportRandom
+
+- type: entity
+  parent: MarkerBase
+  id: PassportEventHumanSpawner
+  name: спавнер путешественника (Papers, please)
+  suffix: PapersPlease
+  categories: [ PapersPlease ]
+  components:
+  - type: Sprite
+    layers:
+    - state: green
+  - type: RandomSpawner
+    chance: 1
+    prototypes:
+    - PassportEventHumanWithPermit1
+    - PassportEventHumanNoPermit1
+    - PassportEventHumanWithPermit2
+    - PassportEventHumanNoPermit2
+    - PassportEventHumanWithPermit3
+    - PassportEventHumanNoPermit3
+    - PassportEventHumanWithPermit4
+    - PassportEventHumanNoPermit4
+    - PassportEventHumanWithPermit5
+    - PassportEventHumanNoPermit5
+    - PassportEventHumanWithPermit6
+    - PassportEventHumanNoPermit6

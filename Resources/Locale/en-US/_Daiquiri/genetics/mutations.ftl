@@ -251,3 +251,26 @@ MutationPigLatin-mutated = Uoyay artstay eakingspay igpay atinlay!
 MutationPigLatin-removed = You stop speaking pig latin.
 MutationHeckaciousLarincks-mutated = Bruh what is like your words man.
 MutationHeckaciousLarincks-removed = Your words return to normal.
+
+ent-MutationDeafness = Deafness
+
+MutationDeafness-mutated = The world goes silent.
+MutationDeafness-removed = Sound returns to you.
+
+ent-MutationSpastic = Spastic
+ent-MutationTwoLeftFeet = Two Left Feet
+ent-MutationAcidicFlesh = Acidic Flesh
+
+MutationSpastic-mutated = Your muscles start twitching.
+MutationSpastic-removed = Your muscles calm down.
+MutationTwoLeftFeet-mutated = Your right foot feels... left.
+MutationTwoLeftFeet-removed = Your feet feel normal again.
+MutationAcidicFlesh-mutated = Your skin starts to bubble.
+MutationAcidicFlesh-removed = Your skin stops bubbling.
+
+entity-effect-popup-acidic-flesh-bubbles = Your acid flesh bubbles...
+entity-effect-popup-acidic-flesh-pops = {$entity}'s skin bubbles and pops!
+entity-effect-popup-feet-trip = You trip over your own feet.
+entity-effect-popup-spasm-arm = Your arm spasms!
+entity-effect-popup-spasm-fingers = Your fingers spasm!
+entity-effect-popup-spasm-leg = Your leg spasms!

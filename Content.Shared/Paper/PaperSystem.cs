@@ -291,6 +291,7 @@ public sealed partial class PaperSystem : EntitySystem
         if (!entity.Comp.StampedBy.Contains(stampInfo))
         {
             entity.Comp.StampedBy.Add(stampInfo);
+            RaiseLocalEvent(entity, new PaperStampedEvent(entity, stampInfo));
 
             // Starlight-start: Clean unfilled form and signature tags when stamping to finalize the document
             var cleanedContent = CleanUnfilledTags(entity.Comp.Content);
