@@ -34,7 +34,7 @@ public sealed partial class PassportComponent : Component
     public string Number = string.Empty;
 
     [DataField, AutoNetworkedField]
-    public NetEntity? Owner;
+    public new NetEntity? Owner;
 
     [DataField, AutoNetworkedField]
     public bool Generated;

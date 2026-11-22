@@ -5,7 +5,7 @@ using Content.Shared._Daiquiri.Harpy.Flight;
 
 namespace Content.Server._Daiquiri.Harpy.Flight;
 
-public sealed class FlightSystem : SharedFlightSystem
+public sealed partial class FlightSystem : SharedFlightSystem
 {
     [Dependency] private SharedStaminaSystem _stamina = default!;
 

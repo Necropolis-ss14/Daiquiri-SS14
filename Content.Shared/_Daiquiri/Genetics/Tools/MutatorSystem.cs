@@ -16,7 +16,6 @@ using Content.Shared.Popups;
 using Content.Shared.Tag;
 using Content.Shared._Daiquiri.Genetics.Console;
 using Content.Shared._Daiquiri.Genetics.Mutations;
-using Robust.Shared.Network;
 using Robust.Shared.Timing;
 
 namespace Content.Shared._Daiquiri.Genetics.Tools;

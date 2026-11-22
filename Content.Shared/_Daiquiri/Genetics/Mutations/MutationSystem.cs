@@ -600,7 +600,7 @@ public sealed partial class MutationSystem : CommonMutationSystem
 
         var target = (body, comp);
         DirtyField(body, comp, nameof(MutatableComponent.Dormant));
-        if (TryComp<MetaDataComponent>(body, out var meta) && meta.EntityPrototype is {} proto &&
+        if (TryComp(body, out MetaDataComponent? meta) && meta.EntityPrototype is {} proto &&
             proto.TryComp<MutatableComponent>(Factory.CompName<MutatableComponent>(), out var defaults))
         {
             foreach (var id in defaults.Dormant)

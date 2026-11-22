@@ -10,7 +10,7 @@ public sealed partial class NTEntryPermitComponent : Component
     public string LocId = "nt-entry-permit-valid";
 
     [DataField]
-    public NetEntity? Owner;
+    public new NetEntity? Owner;
 
     [DataField]
     public bool Bound;
