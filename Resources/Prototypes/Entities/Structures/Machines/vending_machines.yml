@@ -452,6 +452,8 @@
     initialStockQuality: 0.33
   - type: Machine # Starlight-edit: Vending Machine boards
     board: VendingMachineCoffeeCircuitboard # Starlight-edit: Vending Machine boards
+  - type: Transform
+    noRot: false
   - type: DatasetVocalizer
     dataset: HotDrinksMachineAds
   - type: SpeakOnUIClosed

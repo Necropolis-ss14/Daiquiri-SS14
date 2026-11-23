@@ -12,7 +12,7 @@ entity-effect-popup-autotomy-failed = Вы больше не можете отб
 entity-effect-popup-tiredness = Вам стоит присесть и отдохнуть...
 entity-effect-popup-dna-meltdown = ДНК {CAPITALIZE($entity)} плавится!
 
-DNA melting = Плавление ДНК
+dna-melting = Плавление ДНК
 
 entity-effect-guidebook-scramble-dna =
     { $chance ->

@@ -12,7 +12,7 @@ entity-effect-popup-autotomy-failed = You can't shed any more limbs!
 entity-effect-popup-tiredness = You should sit down and take a rest...
 entity-effect-popup-dna-meltdown = {CAPITALIZE($entity)}'s DNA is melting!
 
-DNA melting = DNA melting
+dna-melting = DNA melting
 
 entity-effect-guidebook-scramble-dna =
     { $chance ->
