@@ -24,6 +24,9 @@
       Felionoid:
         knockback: 0.01 #half of what resomi take
         staminaMultiplier: 110
+      Felinid:
+        knockback: 0.01 #half of what resomi take
+        staminaMultiplier: 110
     # starlight start
   - type: MeleeWeapon
     wideAnimationRotation: 90

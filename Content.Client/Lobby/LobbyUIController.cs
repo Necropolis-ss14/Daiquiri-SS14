@@ -191,7 +191,6 @@ public sealed partial class LobbyUIController : UIController, IOnStateEntered<Lo
     private void RefreshLobbyPreview()
     {
         PreviewPanel?.Refresh();
-        (_stateManager.CurrentState as LobbyState)?.Lobby?.JobColumns.Refresh(); // Starlight-edit
     }
 
     private void RefreshEditors()

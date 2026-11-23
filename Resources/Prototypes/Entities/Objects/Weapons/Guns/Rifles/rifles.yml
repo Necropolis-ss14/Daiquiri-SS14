@@ -24,6 +24,9 @@
       Felionoid:
         knockback: 0.05 #half of what resomi take
         staminaMultiplier: 20
+      Felinid:
+        knockback: 0.05 #half of what resomi take
+        staminaMultiplier: 20
   - type: Sprite
   - type: Item
     size: Huge

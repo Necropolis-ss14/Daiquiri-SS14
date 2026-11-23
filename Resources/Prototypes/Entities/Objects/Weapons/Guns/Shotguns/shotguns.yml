@@ -25,6 +25,9 @@
       Felionoid:
         knockback: 1.5 #half of what resomi take
         staminaMultiplier: 30
+      Felinid:
+        knockback: 1.5 #half of what resomi take
+        staminaMultiplier: 30
   # Starlight End
   - type: Sprite
     layers:

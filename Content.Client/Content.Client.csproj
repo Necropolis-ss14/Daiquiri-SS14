@@ -36,7 +36,6 @@
   <!-- Daiquiri: these duplicate the fork's custom lobby UI / are orphaned after the upstream merge. -->
   <ItemGroup>
     <Compile Remove="_Starlight\Lobby\UI\LobbyGui.xaml.cs" />
-    <Compile Remove="_Starlight\Lobby\UI\JobPrioritiesWindow.xaml.cs" />
     <EmbeddedResource Remove="_Starlight\Lobby\UI\LobbyGui.xaml" />
     <AdditionalFiles Remove="_Starlight\Lobby\UI\LobbyGui.xaml" />
   </ItemGroup>

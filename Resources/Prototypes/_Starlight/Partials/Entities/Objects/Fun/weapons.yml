@@ -31,6 +31,8 @@
         knockback: 0
       Felionoid:
         knockback: 0
+      Felinid:
+        knockback: 0
   - type: FiringPinHolder
     supportedPins: [Makeshift]
   - type: ContainerFill

@@ -43,6 +43,9 @@
       Felionoid:
         knockback: 0.75 # half of what resomi take
         staminaMultiplier: 20
+      Felinid:
+        knockback: 0.75 # half of what resomi take
+        staminaMultiplier: 20
   - type: BallisticAmmoProvider
     proto: null
     capacity: 8

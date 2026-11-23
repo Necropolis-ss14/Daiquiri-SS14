@@ -327,6 +327,9 @@
   id: Felionoid
 
 - type: Tag
+  id: Felinid
+
+- type: Tag
   id: Experiment
 
 - type: Tag

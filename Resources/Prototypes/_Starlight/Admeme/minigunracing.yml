@@ -22,6 +22,9 @@
       Felionoid:
         knockback: 0.1
         staminaMultiplier: 0.0
+      Felinid:
+        knockback: 0.1
+        staminaMultiplier: 0.0
   - type: MultiHandedItem
   - type: HeldSpeedModifier
   - type: Gun

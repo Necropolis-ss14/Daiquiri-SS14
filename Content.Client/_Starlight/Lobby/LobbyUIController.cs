@@ -93,10 +93,6 @@ public sealed partial class LobbyUIController
 
         if (source != _jobPrioritiesWindow)
             _jobPrioritiesWindow?.Refresh();
-
-        var columns = (_stateManager.CurrentState as LobbyState)?.Lobby?.JobColumns;
-        if (source != columns)
-            columns?.Refresh();
     }
 
     /// <summary>

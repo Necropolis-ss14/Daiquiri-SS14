@@ -24,6 +24,9 @@
       Felionoid:
         knockback: 0.005 # half of what resomi take
         staminaMultiplier: 110
+      Felinid:
+        knockback: 0.005 # half of what resomi take
+        staminaMultiplier: 110
   - type: Sprite
   - type: Item
     size: Ginormous

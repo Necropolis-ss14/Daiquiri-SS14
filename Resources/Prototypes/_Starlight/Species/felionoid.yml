@@ -1,7 +1,7 @@
 - type: species
   id: Felionoid
   name: species-name-felionoid
-  roundStart: true
+  roundStart: false
   prototype: MobFelionoid
   sprites: MobFelionoidSprites
   markingLimits: MobFelionoidMarkingLimits

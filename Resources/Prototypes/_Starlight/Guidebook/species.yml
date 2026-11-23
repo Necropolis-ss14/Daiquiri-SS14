@@ -14,11 +14,6 @@
   text: "/ServerInfo/_Starlight/Guidebook/Mobs/Shadekin.xml"
 
 - type: guideEntry
-  id: Felionoid
-  name: species-name-felionoid
-  text: "/ServerInfo/_Starlight/Guidebook/Mobs/Felionoid.xml"
-
-- type: guideEntry
   id: Felinid
   name: species-name-felinid
   text: "/ServerInfo/Guidebook/Mobs/Felinid.xml"

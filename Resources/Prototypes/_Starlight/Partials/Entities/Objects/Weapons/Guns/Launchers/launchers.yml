@@ -15,6 +15,9 @@
       Felionoid:
         knockback: 5 # half of what resomi take
         staminaMultiplier: 18
+      Felinid:
+        knockback: 5 # half of what resomi take
+        staminaMultiplier: 18
   - type: RestrictByUserTag
     doestContain:
     - Abductor
@@ -65,6 +68,9 @@
       Felionoid:
         knockback: -2.5 # half of what resomi take
         staminaMultiplier: 20
+      Felinid:
+        knockback: -2.5 # half of what resomi take
+        staminaMultiplier: 20
 
 - type: !PartialOnly entity
   id: WeaponLauncherMultipleRocket
@@ -78,6 +84,9 @@
         knockback: 10
         staminaMultiplier: 18
       Felionoid:
+        knockback: 5 # half of what resomi take
+        staminaMultiplier: 18
+      Felinid:
         knockback: 5 # half of what resomi take
         staminaMultiplier: 18
 

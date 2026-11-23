@@ -428,6 +428,9 @@
       Felionoid:
         knockback: 0
         staminaMultiplier: 0
+      Felinid:
+        knockback: 0
+        staminaMultiplier: 0
   - type: Item
     size: Small
     shape:

@@ -24,6 +24,9 @@
       Felionoid:
         knockback: 2 #half of what resomi take
         staminaMultiplier: 25
+      Felinid:
+        knockback: 2 #half of what resomi take
+        staminaMultiplier: 25
     # starlight start
   - type: MeleeWeapon
     wideAnimationRotation: 90
@@ -95,6 +98,9 @@
         knockback: 2
         staminaMultiplier: 20
       Felionoid:
+        knockback: 1 # half of what resomi take
+        staminaMultiplier: 20
+      Felinid:
         knockback: 1 # half of what resomi take
         staminaMultiplier: 20
   - type: BallisticAmmoProvider # Starlight
