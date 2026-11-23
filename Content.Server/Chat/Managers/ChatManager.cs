@@ -308,24 +308,16 @@ internal sealed partial class ChatManager : IChatManager
         var playerName = FormattedMessage.EscapeText(player.Name); // Starlight
         var playerTitle = "";
 
+        _playerRoles.TryGetPlayerData(player.UserId, out var playerData);
+
         if (_adminManager.GetAdminData(player)?.Title is { } adminTitle)
             playerTitle = $"\\[{adminTitle}\\]";
-        else if (_playerRoles.TryGetPlayerData(player.UserId, out var playerData))
-        {
-            if (playerData.DonationTitle is { } donationTitle)
-            {
-                if (playerData.DonationColor is { } donationColor)
-                {
-                    playerTitle = $"[color={donationColor.ToHex()}]\\[{donationTitle}\\][/color]";
-                    if (!_adminManager.HasAdminFlag(player, AdminFlags.NameColor))
-                        nameColor = donationColor;
-                }
-                else
-                    playerTitle = $"\\[{donationTitle}\\]";
-            }
-            else
-                playerTitle = playerData.Title ?? "";
-        }
+        else
+            playerTitle = playerData?.Title ?? "";
+
+        if (playerData?.DonationColor is { } donationColor &&
+            !_adminManager.HasAdminFlag(player, AdminFlags.NameColor))
+            nameColor = donationColor;
 
         if (_adminManager.HasAdminFlag(player, AdminFlags.NameColor))
         {
