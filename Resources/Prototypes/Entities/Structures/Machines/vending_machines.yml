@@ -34,7 +34,7 @@
   - type: Physics
     bodyType: Static
   - type: Transform
-    noRot: true
+    noRot: false
   - type: Fixtures
     fixtures:
       fix1:
