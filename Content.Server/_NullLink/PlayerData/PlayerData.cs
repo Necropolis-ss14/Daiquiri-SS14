@@ -12,6 +12,7 @@ public sealed class PlayerData
     public string? Title { get; set; }
     public string? DonationTitle { get; set; }
     public Robust.Shared.Maths.Color? DonationColor { get; set; }
+    public bool DonationGreeted { get; set; }
     public required ICommonSession Session { get; init; }
     public ImmutableHashSet<ulong> Roles { get; set; } = [];
     public Dictionary<string, double> Resources { get; set; } = [];

@@ -4,6 +4,7 @@ using System.Linq;
 using Content.Server._NullLink.Core;
 using Content.Server._NullLink.Helpers;
 using Content.Server.Administration.Managers;
+using Content.Server.Chat.Managers;
 using Content.Server.Database;
 using Content.Server.Players.PlayTimeTracking;
 using Content.Shared._NullLink;
@@ -31,6 +32,7 @@ public sealed partial class NullLinkPlayerManager : INullLinkPlayerManager, IAch
     [Dependency] private ISharedNullLinkPlayerResourcesManager _playerResourcesManager = default!;
     [Dependency] private IServerDbManager _dbManager = default!;
     [Dependency] private IAdminManager _adminManager = default!;
+    [Dependency] private IChatManager _chat = default!;
     [Dependency] private ITaskManager _taskManager = default!;
     [Dependency] private INetConfigurationManager _netConfigManager = default!;
     [Dependency] private UserDbDataManager _userDb = default!;

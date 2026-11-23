@@ -1,12 +1,20 @@
+using Content.Server.Chat.Managers;
+using Content.Shared.Chat;
 using Content.Shared.NullLink.CCVar;
 using Robust.Shared.Configuration;
+using Robust.Shared.Enums;
 using Robust.Shared.Network;
+using Robust.Shared.Utility;
 
 namespace Content.Server._NullLink.PlayerData;
 
 public sealed partial class NullLinkPlayerManager
 {
     private sealed record DonationTier(string Title, ulong Role, Color? Color);
+
+    private static readonly Color DonationGreetingColor = Color.FromHex("#FFD54A");
+    private const string DonationGreetingText =
+        "Огромное спасибо за то что поддерживаете нас, мы будем и дальше старатся развивать сервер. Спасибо что вы с нами.";
 
     private static readonly CVarDef<string>[] DonationTierCvars =
     [
@@ -82,5 +90,25 @@ public sealed partial class NullLinkPlayerManager
             playerData.DonationColor = tier.Color;
             break;
         }
+
+        if (playerData.DonationTitle is not null || playerData.DonationColor is not null)
+            GreetDonator(playerData);
+    }
+
+    private void GreetDonator(PlayerData playerData)
+    {
+        if (playerData.DonationGreeted)
+            return;
+
+        var session = playerData.Session;
+        if (session.Status == SessionStatus.Disconnected)
+            return;
+
+        playerData.DonationGreeted = true;
+
+        var wrapped = Loc.GetString("chat-manager-server-wrap-message",
+            ("message", FormattedMessage.EscapeText(DonationGreetingText)));
+        _chat.ChatMessageToOne(ChatChannel.Server, DonationGreetingText, wrapped, default, false,
+            session.Channel, colorOverride: DonationGreetingColor, recordReplay: false);
     }
 }
