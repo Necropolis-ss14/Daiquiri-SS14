@@ -1,6 +1,5 @@
 ﻿using System.Collections.Immutable;
 using System.Threading.Tasks;
-using Content.Shared._Daiquiri.CCVar;
 using Content.Shared._NullLink;
 using Robust.Shared.Network;
 using Robust.Shared.Player;
@@ -12,7 +11,7 @@ public sealed partial class NullLinkPlayerManager : INullLinkPlayerManager
 {
     public ValueTask SyncRoles(PlayerRolesSyncEvent ev)
     {
-        if (!string.IsNullOrEmpty(_cfg.GetCVar(DiscordBridgeCCVars.Url)))
+        if (IsBridgeEnabled)
             return ValueTask.CompletedTask;
 
         if (!_playerById.TryGetValue(ev.Player, out var playerData))
@@ -58,7 +57,7 @@ public sealed partial class NullLinkPlayerManager : INullLinkPlayerManager
 
     public ValueTask UpdateRoles(RolesChangedEvent ev)
     {
-        if (!string.IsNullOrEmpty(_cfg.GetCVar(DiscordBridgeCCVars.Url)))
+        if (IsBridgeEnabled)
             return ValueTask.CompletedTask;
 
         if (!_playerById.TryGetValue(ev.Player, out var playerData))

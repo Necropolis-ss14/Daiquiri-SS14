@@ -668,7 +668,8 @@ public sealed partial class MutationSystem : CommonMutationSystem
             return;
 
         // add enough random dormant mutations so there will be enough sequences.
-        while (ent.Comp.Dormant.Count < ent.Comp.MaxDormant)
+        var limit = System.Math.Min(ent.Comp.MaxDormant, UnlockedMutations.Count);
+        while (ent.Comp.Dormant.Count < limit)
         {
             var picked = _random.Pick(UnlockedMutations);
             if (!ent.Comp.Dormant.Contains(picked))

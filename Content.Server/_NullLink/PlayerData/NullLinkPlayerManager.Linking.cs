@@ -10,6 +10,7 @@ public sealed partial class NullLinkPlayerManager
     private string? _discordKey;
     private string? _discordCallback;
     private string? _bridgeUrl;
+    private bool _bridgeEnabled;
     private string? _steamAuth;
     private string? _steamSecret;
     private string? _secret;
@@ -20,7 +21,9 @@ public sealed partial class NullLinkPlayerManager
         _discordCallback = _cfg.GetCVar(StarlightCCVars.DiscordCallback).Trim();
         _secret = _cfg.GetCVar(StarlightCCVars.Secret);
         _bridgeUrl = _cfg.GetCVar(DiscordBridgeCCVars.Url).Trim().TrimEnd('/');
+        _bridgeEnabled = _cfg.GetCVar(DiscordBridgeCCVars.Enabled);
         _cfg.OnValueChanged(DiscordBridgeCCVars.Url, value => _bridgeUrl = value.Trim().TrimEnd('/'));
+        _cfg.OnValueChanged(DiscordBridgeCCVars.Enabled, value => _bridgeEnabled = value);
         _steamAuth = _cfg.GetCVar(StarlightCCVars.SteamBaseUrl);
         _steamSecret = _cfg.GetCVar(StarlightCCVars.SteamSecret);
 
@@ -50,9 +53,11 @@ public sealed partial class NullLinkPlayerManager
         return $"https://discord.com/api/oauth2/authorize?client_id={_discordKey}&redirect_uri={Uri.EscapeDataString(_discordCallback)}&response_type=code&scope={_scope}&state={encodedState}";
     }
 
+    public bool IsBridgeEnabled => _bridgeEnabled && !string.IsNullOrEmpty(_bridgeUrl);
+
     public string GetBridgeDiscordAuthUrl(string customState)
     {
-        if (string.IsNullOrEmpty(_bridgeUrl) || string.IsNullOrEmpty(_secret))
+        if (!IsBridgeEnabled || string.IsNullOrEmpty(_secret))
             return "";
 
         var secretKeyBytes = Encoding.UTF8.GetBytes(_secret);

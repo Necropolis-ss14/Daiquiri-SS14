@@ -1,6 +1,5 @@
 using Content.Server._NullLink.Helpers;
 using Content.Server.EUI;
-using Content.Shared._Daiquiri.CCVar;
 using Robust.Shared.Enums;
 using Robust.Shared.Player;
 
@@ -22,7 +21,7 @@ public sealed partial class NullLinkPlayerManager
         if (string.IsNullOrEmpty(url))
             return;
 
-        if (!string.IsNullOrEmpty(_cfg.GetCVar(DiscordBridgeCCVars.Url)))
+        if (IsBridgeEnabled)
         {
             if (!IsDiscordLinked(session.UserId))
                 OpenDiscordPrompt(session, url);

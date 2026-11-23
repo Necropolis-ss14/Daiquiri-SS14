@@ -51,16 +51,22 @@ public sealed partial class PolymorphMutationSystem : EntitySystem
             return;
 
         var target = args.Target.Owner;
-        if (args.Resetting)
+        if (!Exists(target))
+            return;
+
+        if (args.Resetting && !HasComp<PolymorphedEntityComponent>(target))
+            return;
+
+        if (HasComp<PolymorphedEntityComponent>(target))
         {
-            if (Exists(target) && HasComp<PolymorphedEntityComponent>(target))
-                _polymorph.Revert(target);
+            _polymorph.Revert(target);
             return;
         }
 
         if (ent.Comp.Worked)
-            _polymorph.Revert(target);
-        else if (_humanoidQuery.TryComp(target, out var humanoid) && ent.Comp.Reverts.TryGetValue(humanoid.Species, out var revert))
+            return;
+
+        if (_humanoidQuery.TryComp(target, out var humanoid) && ent.Comp.Reverts.TryGetValue(humanoid.Species, out var revert))
             _polymorph.PolymorphEntity(target, revert);
         else if (ent.Comp.Fallback is {} fallback)
             _polymorph.PolymorphEntity(target, fallback);
