@@ -5,8 +5,7 @@
   configuration:
     entity: MobMonkey
     transferName: true
-    stripNameModifier: false
-    componentsToTransfer: []
+    allowRepeatedMorphs: true
     forced: true
     revertOnCrit: false
     revertOnDeath: false
@@ -18,8 +17,8 @@
   id: MutationHuman
   configuration:
     entity: MobHuman
-    transferName: false
-    stripNameModifier: false
+    transferName: true
+    allowRepeatedMorphs: true
     forced: true
     revertOnCrit: false
     revertOnDeath: false
@@ -32,8 +31,7 @@
   configuration:
     entity: MobKobold
     transferName: true
-    stripNameModifier: false
-    componentsToTransfer: []
+    allowRepeatedMorphs: true
     forced: true
     revertOnCrit: false
     revertOnDeath: false
@@ -45,8 +43,8 @@
   id: MutationReptilian
   configuration:
     entity: MobReptilian
-    transferName: false
-    stripNameModifier: false
+    transferName: true
+    allowRepeatedMorphs: true
     forced: true
     revertOnCrit: false
     revertOnDeath: false
@@ -58,8 +56,8 @@
   id: MutationElf
   configuration:
     entity: MobElf
-    transferName: false
-    stripNameModifier: false
+    transferName: true
+    allowRepeatedMorphs: true
     forced: true
     revertOnCrit: false
     revertOnDeath: false
@@ -70,8 +68,8 @@
   id: MutationFelinid
   configuration:
     entity: MobFelinid
-    transferName: false
-    stripNameModifier: false
+    transferName: true
+    allowRepeatedMorphs: true
     forced: true
     revertOnCrit: false
     revertOnDeath: false
@@ -83,8 +81,7 @@
   configuration:
     entity: MobGiantSpider
     transferName: true
-    stripNameModifier: false
-    componentsToTransfer: []
+    allowRepeatedMorphs: true
     forced: true
     revertOnCrit: false
     revertOnDeath: false
@@ -96,8 +93,7 @@
   configuration:
     entity: MobCat
     transferName: true
-    stripNameModifier: false
-    componentsToTransfer: []
+    allowRepeatedMorphs: true
     forced: true
     revertOnCrit: false
     revertOnDeath: false
@@ -109,8 +105,7 @@
   configuration:
     entity: MobParrot
     transferName: true
-    stripNameModifier: false
-    componentsToTransfer: []
+    allowRepeatedMorphs: true
     forced: true
     revertOnCrit: false
     revertOnDeath: false
@@ -122,8 +117,7 @@
   configuration:
     entity: MobMothroach
     transferName: true
-    stripNameModifier: false
-    componentsToTransfer: []
+    allowRepeatedMorphs: true
     forced: true
     revertOnCrit: false
     revertOnDeath: false
@@ -135,8 +129,7 @@
   configuration:
     entity: MobDuckMallard
     transferName: true
-    stripNameModifier: false
-    componentsToTransfer: []
+    allowRepeatedMorphs: true
     forced: true
     revertOnCrit: false
     revertOnDeath: false
@@ -148,8 +141,7 @@
   configuration:
     entity: MobMouse
     transferName: true
-    stripNameModifier: false
-    componentsToTransfer: []
+    allowRepeatedMorphs: true
     forced: true
     revertOnCrit: false
     revertOnDeath: false
@@ -162,8 +154,7 @@
   configuration:
     entity: MobChicken
     transferName: true
-    stripNameModifier: false
-    componentsToTransfer: []
+    allowRepeatedMorphs: true
     forced: true
     revertOnCrit: false
     revertOnDeath: false
@@ -175,8 +166,7 @@
   configuration:
     entity: MobCorgi
     transferName: true
-    stripNameModifier: false
-    componentsToTransfer: []
+    allowRepeatedMorphs: true
     forced: true
     revertOnCrit: false
     revertOnDeath: false

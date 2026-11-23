@@ -21,7 +21,7 @@
 - type: startingGear
   id: GeneticistGear
   equipment:
-    ears: ClothingHeadsetScience
+    ears: ClothingHeadsetMedicalScience
     outerClothing: ClothingOuterCoatLabGene
     pocket1: HandLabeler
 

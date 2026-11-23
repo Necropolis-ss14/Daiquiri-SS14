@@ -228,7 +228,7 @@
   id: LockerFillGeneticist
   table: !type:AllSelector
     children:
-    - id: ClothingHeadsetMedical
+    - id: ClothingHeadsetMedicalScience
     - id: ClothingUniformJumpsuitGenetics
     - id: ClothingUniformJumpskirtGenetics
     - !type:GroupSelector
