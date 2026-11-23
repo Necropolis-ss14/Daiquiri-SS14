@@ -388,12 +388,10 @@ public sealed partial class PlayTimeTrackingSystem : EntitySystem
         if (jobs is null)
             return true;
 
-        var playTimes = GetPlayTimesIfEnabled(player);
-
         foreach (var job in jobs)
         {
             var requirements = _roles.GetRoleRequirements(job);
-            if (!JobRequirements.TryRequirementsMet(requirements, player, playTimes, out _, EntityManager, _prototypes, null))
+            if (!JobRequirements.TryRequirementsMet(requirements, player, null, out _, EntityManager, _prototypes, null))
                 return false;
         }
 
@@ -411,12 +409,10 @@ public sealed partial class PlayTimeTrackingSystem : EntitySystem
         if (antags is null)
             return true;
 
-        var playTimes = GetPlayTimesIfEnabled(player);
-
         foreach (var antag in antags)
         {
             var requirements = _roles.GetRoleRequirements(antag);
-            if (!JobRequirements.TryRequirementsMet(requirements, player, playTimes, out _, EntityManager, _prototypes, null))
+            if (!JobRequirements.TryRequirementsMet(requirements, player, null, out _, EntityManager, _prototypes, null))
                 return false;
         }
 

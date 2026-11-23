@@ -188,7 +188,8 @@ public sealed partial class JobRequirementsManager : ISharedPlaytimeManager
         List<ProtoId<JobPrototype>>? jobs,
         List<ProtoId<AntagPrototype>>? antags,
         HumanoidCharacterProfile? profile,
-        out FormattedMessage reason) // Starlight: Always return reason
+        out FormattedMessage reason,
+        bool ignorePlaytime = false) // Starlight: Always return reason
     {
         reason = new FormattedMessage(); // Starlight
 
@@ -196,7 +197,7 @@ public sealed partial class JobRequirementsManager : ISharedPlaytimeManager
         {
             foreach (var proto in antags)
             {
-                if (!IsAllowed(_prototypes.Index(proto), profile, out reason))
+                if (!IsAllowed(_prototypes.Index(proto), profile, out reason, ignorePlaytime))
                     return false;
             }
         }
@@ -205,7 +206,7 @@ public sealed partial class JobRequirementsManager : ISharedPlaytimeManager
         {
             foreach (var proto in jobs)
             {
-                if (!IsAllowed(_prototypes.Index(proto), profile, out reason))
+                if (!IsAllowed(_prototypes.Index(proto), profile, out reason, ignorePlaytime))
                     return false;
             }
         }
@@ -219,7 +220,8 @@ public sealed partial class JobRequirementsManager : ISharedPlaytimeManager
     public bool IsAllowed(
         JobPrototype job,
         HumanoidCharacterProfile? profile,
-        out FormattedMessage reason) // Starlight: Always return reason
+        out FormattedMessage reason,
+        bool ignorePlaytime = false) // Starlight: Always return reason
     {
         // Check the player's bans
         if (_jobBans.Contains(job.ID))
@@ -238,7 +240,7 @@ public sealed partial class JobRequirementsManager : ISharedPlaytimeManager
 
         // Check other role requirements
         var reqs = _entManager.System<SharedRoleSystem>().GetRoleRequirements(job);
-        if (!CheckRoleRequirements(reqs, player, profile, out reason))
+        if (!CheckRoleRequirements(reqs, player, profile, out reason, ignorePlaytime))
             return false;
 
         return true;
@@ -250,7 +252,8 @@ public sealed partial class JobRequirementsManager : ISharedPlaytimeManager
     public bool IsAllowed(
         AntagPrototype antag,
         HumanoidCharacterProfile? profile,
-        out FormattedMessage reason) // Starlight: Always return reason
+        out FormattedMessage reason,
+        bool ignorePlaytime = false) // Starlight: Always return reason
     {
         // Check the player's bans
         if (_antagBans.Contains(antag.ID))
@@ -269,7 +272,7 @@ public sealed partial class JobRequirementsManager : ISharedPlaytimeManager
 
         // Check other role requirements
         var reqs = _entManager.System<SharedRoleSystem>().GetRoleRequirements(antag);
-        if (!CheckRoleRequirements(reqs, player, profile, out reason))
+        if (!CheckRoleRequirements(reqs, player, profile, out reason, ignorePlaytime))
             return false;
 
         return true;
@@ -284,7 +287,7 @@ public sealed partial class JobRequirementsManager : ISharedPlaytimeManager
     }
 
     // This must be private so code paths can't accidentally skip requirement overrides. Call this through IsAllowed()
-    private bool CheckRoleRequirements(HashSet<JobRequirement>? requirements, ICommonSession? player, HumanoidCharacterProfile? profile, out FormattedMessage reason) // Starlight: Always return reason
+    private bool CheckRoleRequirements(HashSet<JobRequirement>? requirements, ICommonSession? player, HumanoidCharacterProfile? profile, out FormattedMessage reason, bool ignorePlaytime = false) // Starlight: Always return reason
     {
         reason = new FormattedMessage(); // Starlight
 
@@ -294,7 +297,7 @@ public sealed partial class JobRequirementsManager : ISharedPlaytimeManager
         var success = true; // Starlight
         foreach (var requirement in requirements)
         {
-            if (!requirement.Check(_entManager, player, _prototypes, profile, _mergedRoles, out var checkDetails))
+            if (!requirement.Check(_entManager, player, _prototypes, profile, ignorePlaytime ? null : _mergedRoles, out var checkDetails))
                 success = false; // Starlight
 
             if (!reason.IsEmpty) // Starlight BEGIN

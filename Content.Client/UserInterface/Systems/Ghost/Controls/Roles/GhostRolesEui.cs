@@ -100,7 +100,7 @@ namespace Content.Client.UserInterface.Systems.Ghost.Controls.Roles
                     role.Name,
                     role.Description,
                     //  Check the prototypes for role requirements and bans
-                    requirementsManager.IsAllowed(role.RolePrototypes.Item1, role.RolePrototypes.Item2, null, out var reason),
+                    requirementsManager.IsAllowed(role.RolePrototypes.Item1, role.RolePrototypes.Item2, null, out var reason, ignorePlaytime: true),
                     reason));
 
             // Add a new entry for each role group
