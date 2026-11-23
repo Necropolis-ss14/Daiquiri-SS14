@@ -82,7 +82,7 @@ public record struct MutationAddedEvent(Entity<MutatableComponent> Target,
 [ByRefEvent]
 public record struct MutationRemovedEvent(Entity<MutatableComponent> Target,
     Entity<MutationComponent> Mutation, EntProtoId<MutationComponent> Id,
-    EntityUid? User, bool Automatic, bool Predicted);
+    EntityUid? User, bool Automatic, bool Predicted, bool Resetting = false);
 
 /// <summary>
 /// Rarity tier shown in the scanner UI.

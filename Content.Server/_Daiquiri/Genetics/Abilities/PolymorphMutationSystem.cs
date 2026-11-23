@@ -10,6 +10,7 @@ using Robust.Shared.Serialization;
 using Content.Shared.Humanoid;
 using Content.Shared._Daiquiri.Genetics.Abilities;
 using Content.Shared._Daiquiri.Genetics.Mutations;
+using Content.Server.Polymorph.Components;
 using Content.Server.Polymorph.Systems;
 
 namespace Content.Server._Daiquiri.Genetics.Abilities;
@@ -50,6 +51,13 @@ public sealed partial class PolymorphMutationSystem : EntitySystem
             return;
 
         var target = args.Target.Owner;
+        if (args.Resetting)
+        {
+            if (Exists(target) && HasComp<PolymorphedEntityComponent>(target))
+                _polymorph.Revert(target);
+            return;
+        }
+
         if (ent.Comp.Worked)
             _polymorph.Revert(target);
         else if (_humanoidQuery.TryComp(target, out var humanoid) && ent.Comp.Reverts.TryGetValue(humanoid.Species, out var revert))

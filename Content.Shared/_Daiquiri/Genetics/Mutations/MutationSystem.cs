@@ -1,5 +1,6 @@
 // SPDX-License-Identifier: AGPL-3.0-or-later
 
+using System.Linq;
 using System.Numerics;
 using Robust.Shared.GameStates;
 using Robust.Shared.Network;
@@ -170,7 +171,7 @@ public sealed partial class MutationSystem : CommonMutationSystem
     }
 
     private void MutationRemoved(Entity<MutatableComponent> ent, Entity<MutationComponent> mutation,
-        EntityUid? user, bool automatic, bool predicted)
+        EntityUid? user, bool automatic, bool predicted, bool resetting = false)
     {
         if (_container.TryGetContainer(ent, ent.Comp.ContainerId, out var container))
             _container.Remove(mutation.Owner, container);
@@ -181,7 +182,7 @@ public sealed partial class MutationSystem : CommonMutationSystem
         if (IsForeign(ent, id))
             AddInstability(ent, -mutation.Comp.Instability, automatic: automatic, predicted: predicted);
 
-        var ev = new MutationRemovedEvent(ent, mutation, id, user, automatic, predicted);
+        var ev = new MutationRemovedEvent(ent, mutation, id, user, automatic, predicted, resetting);
         RaiseLocalEvent(mutation, ref ev);
         RaiseLocalEvent(ent, ref ev);
 
@@ -554,15 +555,20 @@ public sealed partial class MutationSystem : CommonMutationSystem
     /// <summary>
     /// Removes all active and dormant mutations from a mob.
     /// </summary>
-    public void ClearMutations(Entity<MutatableComponent?> ent, EntityUid? user = null, bool automatic = false, bool predicted = false)
+    public void ClearMutations(Entity<MutatableComponent?> ent, EntityUid? user = null, bool automatic = false, bool predicted = false, bool resetting = false)
     {
         if (!_mutatableQuery.Resolve(ent, ref ent.Comp))
             return;
 
-        foreach (var mutation in ent.Comp.Mutations.Values)
+        foreach (var mutation in ent.Comp.Mutations.Values.ToList())
         {
-            if (_query.TryComp(mutation, out var mutationComp))
-                MutationRemoved((ent, ent.Comp), (mutation, mutationComp), user, automatic, predicted);
+            if (!Exists(mutation))
+                continue;
+
+            if (!_query.TryComp(mutation, out var mutationComp))
+                continue;
+
+            MutationRemoved((ent, ent.Comp), (mutation, mutationComp), user, automatic, predicted, resetting);
             PredictedQueueDel(mutation);
         }
         ent.Comp.Mutations.Clear();
@@ -581,19 +587,24 @@ public sealed partial class MutationSystem : CommonMutationSystem
             return;
 
         var original = ent.Owner;
-        _resetting = true;
-        ClearMutations(ent, user, predicted: predicted);
-
         var body = original;
-        if (!Exists(body) && _resetTargets.Remove(original, out var restored) && Exists(restored))
+        _resetting = true;
+        try
         {
-            body = restored;
-            if (TryComp<MutatableComponent>(body, out var moved))
-                ClearMutations((body, moved), user, predicted: predicted);
-        }
+            ClearMutations(ent, user, predicted: predicted, resetting: true);
 
-        _resetting = false;
-        _resetTargets.Clear();
+            if (!Exists(body) && _resetTargets.Remove(original, out var restored) && Exists(restored))
+            {
+                body = restored;
+                if (TryComp<MutatableComponent>(body, out var moved))
+                    ClearMutations((body, moved), user, predicted: predicted, resetting: true);
+            }
+        }
+        finally
+        {
+            _resetting = false;
+            _resetTargets.Clear();
+        }
 
         if (!TryComp<MutatableComponent>(body, out var comp))
             return;
