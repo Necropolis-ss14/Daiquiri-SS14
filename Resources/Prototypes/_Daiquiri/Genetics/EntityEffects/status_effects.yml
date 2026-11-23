@@ -3,3 +3,71 @@
 - type: entity
   parent: StatusEffectMuted
   id: StatusEffectMutedMutation
+
+- type: entity
+  parent: MobStatusEffectDebuff
+  id: DnaMeltingStatusEffect
+  name: DNA melting
+  components:
+  - type: StatusEffectEffectsApply
+    effectsOnRemoval:
+    - !type:NestedEffect
+      conditions:
+      - !type:DnaUnstableCondition
+      proto: SomethingHorrible
+    - !type:ScrambleDna
+
+- type: entityEffect
+  id: SomethingHorrible
+  effects:
+  - !type:PopupMessage
+    type: Pvs
+    visualType: LargeCaution
+    messages:
+    - entity-effect-popup-dna-meltdown
+  - !type:WeightedRandomEffect
+    children:
+    - weight: 3
+      effect: !type:NestedEffect
+        proto: SomethingHorribleNonLethal
+    - weight: 7
+      effect: !type:NestedEffect
+        proto: SomethingHorribleLethal
+
+- type: entityEffect
+  id: SomethingHorribleNonLethal
+  effects:
+  - !type:WeightedRandomEffect
+    children:
+    - weight: 3
+      effect: !type:Polymorph
+        prototype: Monkey
+    - weight: 2
+      effect: !type:Polymorph
+        prototype: Mouse
+    - weight: 2
+      effect: !type:Polymorph
+        prototype: Chicken
+    - weight: 3
+      effect: !type:HealthChange
+        damage:
+          types:
+            Caustic: 20
+
+- type: entityEffect
+  id: SomethingHorribleLethal
+  effects:
+  - !type:WeightedRandomEffect
+    children:
+    - weight: 3
+      effect: !type:HealthChange
+        damage:
+          types:
+            Caustic: 200
+    - weight: 2
+      effect: !type:HealthChange
+        damage:
+          types:
+            Caustic: 120
+            Shock: 80
+

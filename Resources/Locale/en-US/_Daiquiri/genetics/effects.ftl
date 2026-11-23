@@ -10,6 +10,17 @@ entity-effect-guidebook-revert-polymorph =
 entity-effect-popup-seizure = {CAPITALIZE($entity)} starts having a seizure!
 entity-effect-popup-autotomy-failed = You can't shed any more limbs!
 entity-effect-popup-tiredness = You should sit down and take a rest...
+entity-effect-popup-dna-meltdown = {CAPITALIZE($entity)}'s DNA is melting!
+
+DNA melting = DNA melting
+
+entity-effect-guidebook-scramble-dna =
+    { $chance ->
+        [1] Scrambles
+        *[other] scramble
+    } the target's mutations
+
+entity-condition-guidebook-dna-unstable = the target's DNA instability has reached its limit
 
 MutationElvis-popup-dance-1 = {$entity} busts out some swinging moves!
 MutationElvis-popup-dance-2 = {$entity} busts out some fancy moves!

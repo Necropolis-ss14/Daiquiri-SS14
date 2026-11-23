@@ -25,6 +25,14 @@ public sealed partial class DnaScrambleOnTriggerSystem : XOnTriggerSystem<DnaScr
 
         args.Handled = true;
 
+        Scramble(target, humanoid);
+    }
+
+    public void Scramble(EntityUid target, HumanoidAppearanceComponent? humanoid = null)
+    {
+        if (!Resolve(target, ref humanoid, false))
+            return;
+
         // Randomness will mispredict
         // and LoadProfile causes a debug assert on the client at the moment.
         if (_net.IsClient)
