@@ -247,7 +247,7 @@ namespace Content.Server.Connection
                     properties["delay"] = _cfg.GetCVar(CCVars.GameServerFullReconnectDelay);
 
                 //NullLink discord link
-                properties["discord"] = _nullLinkPlayerManager.GetDiscordAuthUrl(e.UserId.ToString());
+                properties["discord"] = _nullLinkPlayerManager.GetActiveDiscordAuthUrl(e.UserId.ToString());
 
                 e.Deny(new NetDenyReason(msg, properties));
             }

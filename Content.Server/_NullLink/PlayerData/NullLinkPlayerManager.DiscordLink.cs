@@ -1,5 +1,6 @@
 using Content.Server._NullLink.Helpers;
 using Content.Server.EUI;
+using Content.Shared._Daiquiri.CCVar;
 using Robust.Shared.Enums;
 using Robust.Shared.Player;
 
@@ -14,12 +15,21 @@ public sealed partial class NullLinkPlayerManager
     // ask the cluster for the live link state and nudge the player if no discord is tied to the account
     private void CheckDiscordLink(ICommonSession session)
     {
-        if (_discordPromptOpen.Contains(session)
-            || !_actors.TryGetServerGrain(out var serverGrain))
+        if (_discordPromptOpen.Contains(session))
             return;
 
-        var url = GetDiscordAuthUrl(session.UserId.ToString());
+        var url = GetActiveDiscordAuthUrl(session.UserId.ToString());
         if (string.IsNullOrEmpty(url))
+            return;
+
+        if (!string.IsNullOrEmpty(_cfg.GetCVar(DiscordBridgeCCVars.Url)))
+        {
+            if (!IsDiscordLinked(session.UserId))
+                OpenDiscordPrompt(session, url);
+            return;
+        }
+
+        if (!_actors.TryGetServerGrain(out var serverGrain))
             return;
 
         serverGrain.GetPlayerDiscordId(session.UserId)

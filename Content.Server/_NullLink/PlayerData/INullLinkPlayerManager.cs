@@ -1,5 +1,6 @@
 ﻿using System.Diagnostics.CodeAnalysis;
 using System.Threading.Tasks;
+using Robust.Shared.Network;
 using Robust.Shared.Player;
 using Starlight.NullLink;
 using Starlight.NullLink.Event;
@@ -10,11 +11,14 @@ public interface INullLinkPlayerManager
     IEnumerable<ICommonSession> Mentors { get; }
 
     string GetDiscordAuthUrl(string customState);
+    string GetActiveDiscordAuthUrl(string customState);
     string GetSteamAuthUrl(string customState);
     void Initialize();
     void Shutdown();
     ValueTask SyncPlayTime(PlayerServerPlayTimesSyncEvent playTimesSync);
     ValueTask SyncRoles(PlayerRolesSyncEvent ev);
+    ValueTask SetBridgeRoles(NetUserId player, ulong discordId, IEnumerable<ulong> roles);
+    bool IsDiscordLinked(Guid userId);
     ValueTask SyncResources(PlayerResourcesSyncEvent ev);
     bool TryGetPlayerData(Guid userId, [NotNullWhen(true)] out PlayerData? playerData);
     ValueTask UpdateRoles(RolesChangedEvent ev);

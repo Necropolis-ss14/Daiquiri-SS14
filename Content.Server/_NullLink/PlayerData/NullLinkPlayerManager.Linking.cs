@@ -1,5 +1,6 @@
 ﻿using System.Security.Cryptography;
 using System.Text;
+using Content.Shared._Daiquiri.CCVar;
 using Content.Shared._Starlight.CCVar;
 
 namespace Content.Server._NullLink.PlayerData;
@@ -8,6 +9,7 @@ public sealed partial class NullLinkPlayerManager
     private const string _scope = "identify+guilds+guilds.members.read";
     private string? _discordKey;
     private string? _discordCallback;
+    private string? _bridgeUrl;
     private string? _steamAuth;
     private string? _steamSecret;
     private string? _secret;
@@ -17,6 +19,8 @@ public sealed partial class NullLinkPlayerManager
         _discordKey = _cfg.GetCVar(StarlightCCVars.DiscordKey).Trim();
         _discordCallback = _cfg.GetCVar(StarlightCCVars.DiscordCallback).Trim();
         _secret = _cfg.GetCVar(StarlightCCVars.Secret);
+        _bridgeUrl = _cfg.GetCVar(DiscordBridgeCCVars.Url).Trim().TrimEnd('/');
+        _cfg.OnValueChanged(DiscordBridgeCCVars.Url, value => _bridgeUrl = value.Trim().TrimEnd('/'));
         _steamAuth = _cfg.GetCVar(StarlightCCVars.SteamBaseUrl);
         _steamSecret = _cfg.GetCVar(StarlightCCVars.SteamSecret);
 
@@ -44,6 +48,24 @@ public sealed partial class NullLinkPlayerManager
         var encodedState = Uri.EscapeDataString(state);
 
         return $"https://discord.com/api/oauth2/authorize?client_id={_discordKey}&redirect_uri={Uri.EscapeDataString(_discordCallback)}&response_type=code&scope={_scope}&state={encodedState}";
+    }
+
+    public string GetBridgeDiscordAuthUrl(string customState)
+    {
+        if (string.IsNullOrEmpty(_bridgeUrl) || string.IsNullOrEmpty(_secret))
+            return "";
+
+        var secretKeyBytes = Encoding.UTF8.GetBytes(_secret);
+        using var hmac = new HMACSHA256(secretKeyBytes);
+        var hashBytes = hmac.ComputeHash(Encoding.UTF8.GetBytes(customState));
+        var state = $"{customState}.{BitConverter.ToString(hashBytes).Replace("-", "").ToLower()}";
+        return $"{_bridgeUrl}/link?state={Uri.EscapeDataString(state)}";
+    }
+
+    public string GetActiveDiscordAuthUrl(string customState)
+    {
+        var bridge = GetBridgeDiscordAuthUrl(customState);
+        return string.IsNullOrEmpty(bridge) ? GetDiscordAuthUrl(customState) : bridge;
     }
 
     public string GetSteamAuthUrl(string customState)
