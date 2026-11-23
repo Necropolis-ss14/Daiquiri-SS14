@@ -1,6 +1,6 @@
 - type: entity
   parent:
-    [BaseNanoTrasenContraband, ClothingOuterVestWeb]
+    [BaseNanoTrasenContraband, ClothingOuterVestWeb, ClothingOuterBaseWinter]
   id: ClothingOuterVestWebNTNCEnsign
   name: панцирь энсина морпехов NanoTrasen
   description: "Бронированный панцирь для лучших из лучших флота: защита и стиль."
@@ -11,10 +11,10 @@
       sprite: _Starlight/Admeme/Clothing/OuterClothing/Vests/ntnc-ensign.rsi
 
 - type: entity
-  parent: [ BaseNanoTrasenContraband, ClothingOuterArmorBase ] # Blimpuf
+  parent: [ BaseNanoTrasenContraband, ClothingOuterArmorBase, ClothingOuterBaseWinter ] # Blimpuf
   id: ClothingOuterVestNTNC
   name: жилет морпеха NanoTrasen
-  description: Куда лучше стандартного жилета охраны. Не потеряй, нового не выдадут.
+  description: Улучшенный и модифицированный жилет, разработанный для морпехов NT. Имеет дополнительные крепления для бронепластин и прочих навесок.
   components:
     - type: Sprite
       sprite: _Starlight/Admeme/Clothing/OuterClothing/Vests/ntnc_vest.rsi
@@ -27,8 +27,8 @@
         coefficients:
           Blunt: 0.5
           Slash: 0.5
-          Piercing: 0.4
           Heat: 0.7
+          Piercing: 0.4
           Caustic: 0.75
     - type: ExplosionResistance
       damageCoefficient: 0.60

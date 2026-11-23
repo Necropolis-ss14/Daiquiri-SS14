@@ -172,10 +172,10 @@
     sprite: _Starlight/Clothing/Shoes/Boots/ratvar_boots.rsi
 
 - type: entity
-  parent: ClothingShoesBaseUnprotected
+  parent: ClothingShoesBase
   id: ClothingShoesPawBoots
   name: ботинки для лап
-  description: Специальные ботинки для лап фелиноидов, тонкие подошвы не защищают от острых предметов.
+  description: Специальные ботинки, созданные для лап фелионоидов.
   components:
     - type: Clothing
       sprite: _Starlight/Clothing/Shoes/Boots/pawboots.rsi

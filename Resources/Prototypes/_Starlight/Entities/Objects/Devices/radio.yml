@@ -1,7 +1,7 @@
 - type: entity
   name: радио экспедиции
   description: Удобная экспедиционная рация.
-  parent: [ RadioHandheld, BaseSalvageContraband, BaseMiningContraband ]
+  parent: [ RadioHandheld, BaseSalvageContraband ]
   id: RadioHandheldExpedition
   components:
   - type: TelecomExempt

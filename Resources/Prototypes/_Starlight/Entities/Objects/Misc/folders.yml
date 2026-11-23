@@ -307,18 +307,84 @@
         JobIdentityConsole-privilegedId: !type:ContainerSlot
         JobIdentityConsole-targetId: !type:ContainerSlot
 
+# Salvage Lead Digi-Board
 - type: entity
-  parent: [BoxFolderClipboardEmpty]
   id: BoxFolderClipboardSalvageLead
-  name: планшет старшего утилизатора
-  description: Словно склеено скотчем обратно. Покрыто космической пылью.
+  parent: [BoxFolderClipboard, BaseSalvageContraband]
+  name: цифровой планшет утилизатора
+  description: Прочный электрический планшет, созданный выдерживать любые суровые условия и сохранять документы в идеальном состоянии. Содержит портативную доску заданий утилизаторов и принтер.
   components:
-  - type: EntityTableContainerFill
-    containers:
-      storagebase: !type:AllSelector
-        children:
-        - id: PrintedDocumentSalvageLeadReport
-          amount: 7
+    - type: Sprite
+      sprite: _Starlight/Objects/Misc/itg_clipboard.rsi
+      layers:
+        - state: itg_clipboard
+        - state: itg_clipboard_paper
+          map: ["itg_clipboard_paper"]
+          visible: false
+        - state: itg_clipboard_over
+    - type: ItemSlots
+      slots:
+        pen_slot:
+          name: clipboard-slot-component-slot-name-pen
+          whitelist:
+            tags:
+            - Write
+          insertOnInteract: true
+    - type: Item
+      sprite: _Starlight/Objects/Misc/itg_clipboard.rsi
+      size: Normal
+      inhandVisuals:
+        left:
+        - state: itgboard-inhand-left
+        right:
+        - state: itgboard-inhand-right
+    - type: Clothing
+      slots:
+      - belt
+    - type: Storage
+      maxItemSize: Small
+      grid:
+      - 0,0,4,3
+      quickInsert: true
+    - type: EntityTableContainerFill
+      containers:
+        storagebase: !type:AllSelector
+          children:
+          - id: PaperITG
+            amount: 10
+    - type: SalvageJobBoardConsole
+    - type: ActivatableUI
+      key: enum.SalvageJobBoardUiKey.Key
+    - type: UserInterface
+      interfaces:
+        enum.WiresUiKey.Key:
+          type: WiresBoundUserInterface
+        enum.StorageUiKey.Key:
+          type: StorageBoundUserInterface
+        enum.SalvageJobBoardUiKey.Key:
+          type: SalvageJobBoardBoundUserInterface
+    - type: ItemMapper
+      mapLayers:
+        itg_clipboard_paper:
+          whitelist:
+            tags:
+            - Document
+    - type: MeleeWeapon
+      damage:
+        types:
+          Blunt: 10
+    - type: LandAtCursor
+    - type: DamageOtherOnHit
+      damage:
+        types:
+          Blunt: 8
+    - type: Tag
+      tags:
+      - Folder
+    - type: ContainerContainer
+      containers:
+        storagebase: !type:Container
+        pen_slot: !type:ContainerSlot
 
 - type: entity
   parent: [BoxFolderRedEmpty, BoxFolderFillProductOrder]

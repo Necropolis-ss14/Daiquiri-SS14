@@ -57,11 +57,13 @@
       state: soviet_label
 
 - type: entity
-  parent: [ EncryptionKey, BaseCargoContraband ]
+  parent: [ EncryptionKey, BaseSalvageContraband ]
   id: EncryptionKeyExpedition
   name: ключ шифрования экспедиции
   description: Ключ шифрования, используемый отважными исследователями.
   components:
+  - type: Contraband # Blimpuf
+    tier: Tier3
   - type: EncryptionKey
     channels:
     - Expedition

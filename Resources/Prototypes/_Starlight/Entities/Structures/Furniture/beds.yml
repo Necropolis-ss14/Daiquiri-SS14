@@ -4,6 +4,7 @@
   name: лежанка для питомца
   description: Уютная лежанка для питомцев. Питомца можно даже пристегнуть — на случай отключения гравитации.
   components:
+  - type: PetBedSleepPose
   - type: HealOnBuckle
     damage:
       types:
@@ -27,6 +28,7 @@
   - type: Strap
     position: Stand
     rotation: 0
+    buckleOffset: "0,-0.15"
     needsHands: false
   - type: Damageable
     damageModifierSet: Inflatable
