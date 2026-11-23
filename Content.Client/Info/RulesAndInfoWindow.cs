@@ -1,4 +1,5 @@
 using System.Numerics;
+using Content.Client._NullLink;
 using Content.Client.UserInterface.Systems.EscapeMenu;
 using Robust.Client.UserInterface;
 using Robust.Client.UserInterface.Controls;
@@ -50,6 +51,34 @@ namespace Content.Client.Info
             AddSection(tutorialList, Loc.GetString("ui-info-header-sandbox"), "Sandbox.txt", true);
 
             infoControlSection.ControlsButton.OnPressed += _ => UserInterfaceManager.GetUIController<OptionsUIController>().OpenWindow();
+
+            var discordSection = new BoxContainer
+            {
+                Orientation = BoxContainer.LayoutOrientation.Vertical,
+            };
+            discordSection.AddChild(new Label
+            {
+                Text = Loc.GetString("nulllink-discord-link-title"),
+                StyleClasses = { "LabelHeading" },
+            });
+            var discordRow = new BoxContainer
+            {
+                Orientation = BoxContainer.LayoutOrientation.Horizontal,
+                SeparationOverride = 5,
+                HorizontalExpand = true,
+            };
+            var discordText = new RichTextLabel { HorizontalExpand = true };
+            discordText.SetMessage(Loc.GetString("nulllink-discord-link-text"));
+            discordRow.AddChild(discordText);
+            var discordButton = new Button
+            {
+                Text = Loc.GetString("server-info-connect-discord-button"),
+                Visible = DiscordLink.IsAvailable,
+            };
+            discordButton.OnPressed += _ => DiscordLink.Open();
+            discordRow.AddChild(discordButton);
+            discordSection.AddChild(discordRow);
+            tutorialList.InfoContainer.AddChild(discordSection);
         }
 
         private static void AddSection(Info info, Control control)

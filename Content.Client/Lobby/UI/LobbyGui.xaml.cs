@@ -1,9 +1,11 @@
 using System;
 using System.Collections.Generic;
 using System.Numerics;
+using Content.Client.Administration.Managers;
 using Content.Client.Message;
 using Content.Client.UserInterface.Systems.EscapeMenu;
 using Content.Client.UserInterface.Systems.Guidebook;
+using Content.Client._NullLink;
 using Content.Client._Starlight.Achievement;
 using Content.Shared._Starlight.CCVar;
 using Content.Shared._Daiquiri.CCVar;
@@ -26,6 +28,8 @@ namespace Content.Client.Lobby.UI
         [Dependency] private IClientConsoleHost _consoleHost = default!;
         [Dependency] private IConfigurationManager _configurationManager = default!;
         [Dependency] private IPrototypeManager _prototypeManager = default!;
+
+        private readonly INullLinkPlayerRolesManager _playerRoles = IoCManager.Resolve<INullLinkPlayerRolesManager>();
 
         private string _serverName = string.Empty;
 
@@ -51,6 +55,9 @@ namespace Content.Client.Lobby.UI
             OptionsButton.OnPressed += _ => UserInterfaceManager.GetUIController<OptionsUIController>().ToggleWindow();
             AchievementsButton.OnPressed += _ => UserInterfaceManager.GetUIController<AchievementUIController>().ToggleWindow();
             GuidebookButton.OnPressed += _ => UserInterfaceManager.GetUIController<GuidebookUIController>().ToggleGuidebook();
+            DiscordLinkButton.OnPressed += _ => DiscordLink.Open();
+            _playerRoles.PlayerRolesChanged += UpdateDiscordLinkButton;
+            UpdateDiscordLinkButton();
 
             _configurationManager.OnValueChanged(DaiquiriCCVars.LobbyVinylEnabled, OnVinylEnabledChanged, true);
 
@@ -68,6 +75,12 @@ namespace Content.Client.Lobby.UI
         Timer.Spawn(120, () => PollPanelHover());
         // Daiquiri
         _configurationManager.OnValueChanged(StarlightCCVars.StyleTheme, _ => ResetPanelFades());
+        }
+
+        private void UpdateDiscordLinkButton()
+        {
+            if (!DiscordLinkButton.Disposed)
+                DiscordLinkButton.Visible = DiscordLink.IsAvailable;
         }
 
         private void OnVinylEnabledChanged(bool enabled)

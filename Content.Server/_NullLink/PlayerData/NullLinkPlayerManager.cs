@@ -63,6 +63,8 @@ public sealed partial class NullLinkPlayerManager : INullLinkPlayerManager, IAch
         _cfg.OnValueChanged(NullLinkCCVars.Project, UpdateProject, true);
         _cfg.OnValueChanged(NullLinkCCVars.Server, UpdateServer, true);
         _cfg.OnValueChanged(NullLinkCCVars.ResourcesEnabled, UpdateResources, true);
+        foreach (var cvar in DonationTierCvars)
+            _cfg.OnValueChanged(cvar, UpdateDonationTiers, true);
 
         _actors.OnConnected += OnNullLinkConnected;
     }

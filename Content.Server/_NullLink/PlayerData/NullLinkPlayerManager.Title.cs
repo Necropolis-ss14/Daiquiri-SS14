@@ -23,6 +23,8 @@ public sealed partial class NullLinkPlayerManager : INullLinkPlayerManager
 
     private void RebuildTitle(ICommonSession player, PlayerData playerData)
     {
+        RebuildDonation(playerData);
+
         if (_builder == null)
             return;
 

@@ -33,6 +33,8 @@
                                             VerticalAlignment="Center" />
                                     <Button Name="AchievementsButton" Access="Public" Text="{Loc 'ui-lobby-achievements-button'}"
                                             VerticalAlignment="Center" />
+                                    <Button Name="DiscordLinkButton" Access="Public" Text="{Loc 'server-info-connect-discord-button'}"
+                                            VerticalAlignment="Center" />
                                     <info:LinkBanner Name="LinkBanner" VerticalExpand="false" VerticalAlignment="Center" />
                                 </BoxContainer>
                                 <controls:StripeBack>

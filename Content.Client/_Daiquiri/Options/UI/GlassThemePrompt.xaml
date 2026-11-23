@@ -23,6 +23,8 @@
                               HorizontalExpand="True" VerticalExpand="True" SeparationOverride="6">
                     <RichTextLabel Name="WelcomeLine1" Access="Public" />
                     <RichTextLabel Name="WelcomeLine2" Access="Public" />
+                    <Button Name="DiscordLinkButton" Access="Public" Text="{Loc 'server-info-connect-discord-button'}"
+                            HorizontalAlignment="Left" />
                     <Control VerticalExpand="True" />
                     <Button Name="WelcomeNext" Access="Public" Text="{Loc 'ui-newcomer-next'}"
                             HorizontalAlignment="Right" />
