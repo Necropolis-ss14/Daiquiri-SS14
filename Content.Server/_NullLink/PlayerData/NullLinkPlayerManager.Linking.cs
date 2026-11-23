@@ -27,6 +27,8 @@ public sealed partial class NullLinkPlayerManager
         _steamAuth = _cfg.GetCVar(StarlightCCVars.SteamBaseUrl);
         _steamSecret = _cfg.GetCVar(StarlightCCVars.SteamSecret);
 
+        _sawmill.Info($"Discord link config: bridgeEnabled={_bridgeEnabled}, bridgeUrl='{_bridgeUrl}', secretEmpty={string.IsNullOrEmpty(_secret)}, callback='{_discordCallback}'");
+
         if (!string.IsNullOrEmpty(_discordCallback)
             && (!Uri.TryCreate(_discordCallback, UriKind.Absolute, out var uri)
                 || uri.Scheme != Uri.UriSchemeHttp && uri.Scheme != Uri.UriSchemeHttps))
