@@ -10,9 +10,6 @@ using Robust.Shared.Serialization.Manager.Attributes;
 namespace Content.Shared._Lavaland.Compat;
 
 [RegisterComponent, NetworkedComponent]
-public sealed partial class TileMovementComponent : Component;
-
-[RegisterComponent, NetworkedComponent]
 public sealed partial class FlipOnHitComponent : Component;
 
 [RegisterComponent, NetworkedComponent]

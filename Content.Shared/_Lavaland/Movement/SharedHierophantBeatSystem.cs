@@ -1,3 +1,4 @@
+using Content.Shared._vg.TileMovement;
 using Content.Shared.Alert;
 using Content.Shared.Movement.Systems;
 using Robust.Shared.Prototypes;
@@ -19,11 +20,13 @@ public sealed partial class HierophantBeatSystem : EntitySystem
 
     private void OnStartup(EntityUid uid, HierophantBeatComponent component, ref ComponentStartup args)
     {
+        EnsureComp<TileMovementComponent>(uid);
         _alertsSystem.ShowAlert(uid, component.HierophantBeatAlertId);
     }
 
     private void OnRemove(EntityUid uid, HierophantBeatComponent component, ref ComponentRemove args)
     {
+        RemComp<TileMovementComponent>(uid);
         _alertsSystem.ClearAlert(uid, component.HierophantBeatAlertId);
     }
 
