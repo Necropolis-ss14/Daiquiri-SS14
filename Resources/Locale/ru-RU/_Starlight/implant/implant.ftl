@@ -15,3 +15,4 @@ roles-antag-mind-controlled-name = Под контролем разума
 roles-antag-mind-controlled-objective = Подчиняйтесь приказам вашего куратора.
 
 fragile-implant-extraction = Хрупкий имплант рассыпается при извлечении...
+injection-port-examine = {CAPITALIZE(SUBJECT($target))} {CONJUGATE-HAVE($target)} установленный [color=#9dc6cf]порт для инъекций[/color], который ускоряет введение препаратов.

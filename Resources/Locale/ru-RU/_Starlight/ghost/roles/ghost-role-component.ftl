@@ -163,3 +163,4 @@ ghost-role-information-drone-name = Дрон-техник
 ghost-role-information-bombroach-name = Бомбожук
 ghost-role-information-bombroach-description = Вы — верный обученный вредитель оперативников Синдиката с пикобомбой. Служите хозяину до смерти!
 ghost-role-information-bombroach-rules = Вы — [color={role-type-team-antagonist-color}][bold]{role-type-team-antagonist-name}[/bold][/color] вместе с агентом, вызвавшим вас.
+ghost-role-information-survivor-rules = Вы — [color={role-type-survivor-aligned-colour}][bold]{role-type-survivor-aligned-name}[/bold][/color], и ваша цель — выжить любой ценой. Вы не должны атаковать, красть или иным образом вредить другим, если это не необходимо для выживания.

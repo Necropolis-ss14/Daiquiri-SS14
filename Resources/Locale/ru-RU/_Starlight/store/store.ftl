@@ -18,3 +18,4 @@ store-listing-last-purchased = { $desc } Последний покупатель
 store-listing-out-of-stock = { $name } (нет в наличии)
 store-view-grid = Сетка
 store-view-list = Список
+store-preset-name-xeno = Древние штаммы

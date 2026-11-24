@@ -156,7 +156,7 @@ public sealed partial class CyberneticsPicker : Control
     {
         var card = new ContainerButton
         {
-            SetSize = new System.Numerics.Vector2(installed ? 72 : 104, installed ? 72 : 104),
+            SetSize = new System.Numerics.Vector2(installed ? 72 : 116, installed ? 72 : 116),
             ToolTip = Loc.GetString("cybernetics-cost", ("name", part.Name), ("cost", CalculateCost(part))),
             StyleClasses = { "MarkingCard" },
         };
@@ -178,7 +178,22 @@ public sealed partial class CyberneticsPicker : Control
             },
         };
         if (!installed)
-            content.AddChild(new Label { Text = part.Name, ClipText = true, HorizontalAlignment = HAlignment.Center, Margin = new Thickness(4, 0) });
+            content.AddChild(new BoxContainer
+            {
+                Orientation = BoxContainer.LayoutOrientation.Horizontal,
+                HorizontalExpand = true,
+                Children =
+                {
+                    new Label
+                    {
+                        Text = part.Name,
+                        ClipText = true,
+                        HorizontalExpand = true,
+                        Align = Label.AlignMode.Center,
+                        Margin = new Thickness(4, 0),
+                    },
+                },
+            });
         card.AddChild(content);
         return card;
     }

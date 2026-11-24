@@ -33,3 +33,5 @@ alerts-cards-name = [color=lightblue]Доступен выбор[/color]
 alerts-cards-desc = Вы [color=lightblue]стоите перед выбором[/color]. Нажмите на оповещение, чтобы открыть меню персонажа и увидеть доступные пути.
 alerts-tracking-scent-name = Отслеживание запаха
 alerts-tracking-scent-desc = Вы активно идёте по запаховому следу. Вы не сможете удерживать его вечно.
+alerts-tiredness-name = Усталость
+alerts-tiredness-desc = Вы всё сильнее устаёте. Слишком долгий отдых без сна сделает вас вялым.

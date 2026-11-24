@@ -126,7 +126,9 @@ public sealed partial class RoundStatisticsSystem : EntitySystem
             " ",
             RenderTemplate(message, args));
 
-        _sawmill.Warning(record);
+        // Statistics are records, not warnings. INFO is still forwarded to Loki at the
+        // default log level, so dashboards keep working without polluting WARN.
+        _sawmill.Info(record);
 
         if (_records.Count < MaxRetainedRecords)
             _records.Add(record);

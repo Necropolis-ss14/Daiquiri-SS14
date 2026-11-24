@@ -169,6 +169,8 @@ namespace Content.Client.Entry
             _configManager.SetCVar("interface.resolutionAutoScaleLowerCutoffX", 520);
             _configManager.SetCVar("interface.resolutionAutoScaleLowerCutoffY", 240);
             _configManager.SetCVar("interface.resolutionAutoScaleMinimum", 0.5f);
+            if (_configManager.GetCVar(CVars.DisplayUIScale) == 0f)
+                _configManager.SetCVar(CVars.DisplayUIScale, 1f);
         }
 
         public override void PostInit()

@@ -13,8 +13,8 @@ namespace Content.Client._Starlight.Lobby.UI;
 /// </summary>
 public sealed class SpeciesPicker : ScrollContainer
 {
-    private const float CardWidth = 112;
-    private const float CardHeight = 132;
+    private const float CardWidth = 122;
+    private const float CardHeight = 140;
 
     private readonly WrapContainer _cards = new()
     {
@@ -89,7 +89,21 @@ public sealed class SpeciesPicker : ScrollContainer
             Children =
             {
                 view,
-                new Label { Text = name, ClipText = true, HorizontalAlignment = HAlignment.Center },
+                new BoxContainer
+                {
+                    Orientation = BoxContainer.LayoutOrientation.Horizontal,
+                    HorizontalExpand = true,
+                    Children =
+                    {
+                        new Label
+                        {
+                            Text = name,
+                            ClipText = true,
+                            HorizontalExpand = true,
+                            Align = Label.AlignMode.Center,
+                        },
+                    },
+                },
             },
         });
 

@@ -14,12 +14,12 @@
     <!--  Left side  -->
     <BoxContainer Margin="8" HorizontalExpand="True" Orientation="Vertical" SeparationOverride="8">
         <!--  Name and profile actions, one row  -->
-        <BoxContainer Orientation="Horizontal" SeparationOverride="6">
+        <BoxContainer Orientation="Horizontal" SeparationOverride="4">
             <Label Text="{Loc 'humanoid-profile-editor-name-label'}" VAlign="Center" />
-            <LineEdit Name="NameEdit" HorizontalExpand="True" MinWidth="180" />
+            <LineEdit Name="NameEdit" HorizontalExpand="True" MinWidth="140" />
             <Button Name="NameRandomize" Text="{Loc 'humanoid-profile-editor-name-random-button'}" />
             <Label Name="NameRulesHint" Text="(?)" StyleClasses="LabelSubText" VAlign="Center" MouseFilter="Stop" />
-            <Control MinWidth="12" />
+            <Control MinWidth="6" />
             <Button Name="SaveButton" Text="{Loc 'humanoid-profile-editor-save-button'}" />
             <Button Name="ResetButton" Disabled="True" Text="{Loc 'humanoid-profile-editor-reset-button'}" />
             <sc:DropdownButton Name="MoreButton" Text="•••" />
@@ -46,43 +46,44 @@
             <starlightHumanoid:CyberneticsPicker Name="Cybernetics" />
         </ScrollContainer>
         <TabContainer Name="TabContainer" VerticalExpand="True">
-            <ScrollContainer VerticalExpand="True" HScrollEnabled="False">
+            <ui1:BodyTab Name="BodyTab" />
+            <ScrollContainer Name="AppearanceTab" VerticalExpand="True" HScrollEnabled="False">
                 <BoxContainer Orientation="Vertical" Margin="10" SeparationOverride="6">
-                    <BoxContainer Name="CCustomSpecieName" Orientation="Horizontal" SeparationOverride="8">
+                    <BoxContainer Name="CCustomSpecieName" Orientation="Horizontal" SeparationOverride="8" MinHeight="28">
                         <Label Text="{Loc 'humanoid-profile-editor-customspeciename-label'}" SetWidth="190" VAlign="Center" ClipText="True" />
                         <LineEdit Name="CCustomSpecieNameEdit" MinWidth="200" />
                     </BoxContainer>
-                    <BoxContainer Orientation="Horizontal" SeparationOverride="8">
+                    <BoxContainer Orientation="Horizontal" SeparationOverride="8" MinHeight="28">
                         <Label Text="{Loc 'humanoid-profile-editor-age-label'}" SetWidth="190" VAlign="Center" ClipText="True" />
                         <LineEdit Name="AgeEdit" MinWidth="80" />
                     </BoxContainer>
-                    <BoxContainer Orientation="Horizontal" SeparationOverride="8">
+                    <BoxContainer Orientation="Horizontal" SeparationOverride="8" MinHeight="28">
                         <Label Text="{Loc 'humanoid-profile-editor-sex-label'}" SetWidth="190" VAlign="Center" ClipText="True" />
-                        <sc:SegmentedButtons Name="SexButton" />
+                        <sc:SegmentedButtons Name="SexButton" MinWidth="300" />
                     </BoxContainer>
-                    <BoxContainer Orientation="Horizontal" SeparationOverride="8">
+                    <BoxContainer Orientation="Horizontal" SeparationOverride="8" MinHeight="28">
                         <Label Text="{Loc 'humanoid-profile-editor-pronouns-label'}" SetWidth="190" VAlign="Center" ClipText="True" />
-                        <sc:SegmentedButtons Name="PronounsButton" />
+                        <sc:SegmentedButtons Name="PronounsButton" MinWidth="330" />
                     </BoxContainer>
-                    <BoxContainer Orientation="Horizontal" SeparationOverride="8">
+                    <BoxContainer Orientation="Horizontal" SeparationOverride="8" MinHeight="28">
                         <Label Text="{Loc 'humanoid-profile-editor-spawn-priority-label'}" SetWidth="190" VAlign="Center" ClipText="True" />
-                        <sc:SegmentedButtons Name="SpawnPriorityButton" />
+                        <sc:SegmentedButtons Name="SpawnPriorityButton" MinWidth="330" />
                     </BoxContainer>
-                    <BoxContainer Name="CSpeciesLoadout" Orientation="Horizontal" SeparationOverride="8">
+                    <BoxContainer Name="CSpeciesLoadout" Orientation="Horizontal" SeparationOverride="8" MinHeight="28">
                         <Label Text="{Loc 'humanoid-profile-editor-species-loadout'}" SetWidth="190" VAlign="Center" ClipText="True" />
                         <Button Name="SpeciesLoadout" Text="{Loc 'humanoid-profile-editor-species-loadout-select'}" />
                     </BoxContainer>
                     <PanelContainer StyleClasses="LowDivider" Margin="0 4" />
                     <BoxContainer Name="SizeSlot" Orientation="Vertical">
                     <BoxContainer Name="SizeRows" Orientation="Vertical" SeparationOverride="4">
-                    <BoxContainer Orientation="Horizontal" SeparationOverride="8">
+                    <BoxContainer Orientation="Horizontal" SeparationOverride="8" MinHeight="26">
                         <Label Name="HeightLabel" Text="{Loc 'humanoid-profile-editor-height'}" SetWidth="190" VAlign="Center" ClipText="True" />
                         <Slider Name="HeightSlider" HorizontalExpand="True" MaxValue="1.5" MinValue="0.5" Value="1" />
                         <LineEdit Name="HeightEdit" SetWidth="56" />
                         <Label Text="{Loc 'humanoid-profile-editor-height-unit'}" StyleClasses="LabelSubText" VAlign="Center" SetWidth="24" />
                         <Button Name="HeightResetButton" Text="{Loc 'humanoid-profile-editor-slider-reset'}" />
                     </BoxContainer>
-                    <BoxContainer Orientation="Horizontal" SeparationOverride="8">
+                    <BoxContainer Orientation="Horizontal" SeparationOverride="8" MinHeight="26">
                         <Label Name="WeightLabel" Text="{Loc 'humanoid-profile-editor-weight'}" SetWidth="190" VAlign="Center" ClipText="True" />
                         <Slider Name="WidthSlider" HorizontalExpand="True" MaxValue="1.5" MinValue="0.5" Value="1" />
                         <LineEdit Name="WeightEdit" SetWidth="56" />
@@ -94,7 +95,7 @@
                 </BoxContainer>
             </ScrollContainer>
             <!--  Jobs, laid out like the antags and traits tabs  -->
-            <BoxContainer Orientation="Vertical" Margin="0 4 0 0">
+            <BoxContainer Name="JobsTab" Orientation="Vertical" Margin="0 4 0 0">
                 <PanelContainer StyleClasses="TraitsHeaderPanel" Margin="0 0 0 8">
                     <BoxContainer Orientation="Horizontal" Margin="12 10">
                         <Label Text="{Loc 'humanoid-profile-editor-jobs-tab'}" StyleClasses="TraitsTitleLabel" />
@@ -128,8 +129,6 @@
                 </BoxContainer>-->
             <traits:TraitsTab Name="Traits" />
             <!--  Starlight - End  -->
-            <!--  Starlight: markings, hair, skin and eyes, part by part  -->
-            <ui1:BodyTab Name="BodyTab" />
             <!--  Starlight: text-to-speech voices, picked in place instead of in a window  -->
             <BoxContainer Name="VoiceTab" Orientation="Vertical" Margin="0 4 0 0">
                 <PanelContainer StyleClasses="TraitsHeaderPanel" Margin="0 0 0 8">

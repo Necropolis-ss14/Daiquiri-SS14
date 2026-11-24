@@ -29,8 +29,8 @@ namespace Content.Client._Starlight.Lobby.UI;
 /// </remarks>
 public sealed class LoadoutTab : BoxContainer
 {
-    private const float CardWidth = 104;
-    private const float CardHeight = 118;
+    private const float CardWidth = 116;
+    private const float CardHeight = 126;
 
     private readonly IPrototypeManager _prototypes;
     private readonly IEntityManager _entities;
@@ -206,7 +206,7 @@ public sealed class LoadoutTab : BoxContainer
                 {
                     HScrollEnabled = false,
                     VerticalExpand = true,
-                    SetWidth = 230,
+                    SetWidth = 300,
                     Children = { _tree },
                 },
                 _empty,
@@ -461,7 +461,7 @@ public sealed class LoadoutTab : BoxContainer
             }
 
             var shownName = folder.Items[shown].Name;
-            folder.Name.Text = count > 0 ? $"{shownName} ({count})" : shownName;
+            folder.Name.Text = FitName(count > 0 ? $"{shownName} ({count})" : shownName);
             if (count > 0)
                 folder.Card.AddStyleClass(MarkingCard.StyleClassPicked);
             else
@@ -489,7 +489,7 @@ public sealed class LoadoutTab : BoxContainer
                 Pressed = group.ID == _group,
                 HorizontalExpand = true,
                 ClipText = true,
-                StyleClasses = { StyleClass.ButtonSmall },
+                ToolTip = count > 0 ? $"{name} ({count})" : name,
             };
             button.Label.Align = Label.AlignMode.Left;
             var id = group.ID;
@@ -574,6 +574,24 @@ public sealed class LoadoutTab : BoxContainer
         return card;
     }
 
+    private static string FitName(string name)
+    {
+        if (name.Length <= 16)
+            return name;
+
+        var middle = name.Length / 2;
+        var split = -1;
+        for (var i = 0; i < name.Length; i++)
+        {
+            if (name[i] != ' ')
+                continue;
+            if (split < 0 || Math.Abs(i - middle) < Math.Abs(split - middle))
+                split = i;
+        }
+
+        return split < 0 ? name : string.Concat(name.AsSpan(0, split), "\n", name.AsSpan(split + 1));
+    }
+
     private Control CardContent(LoadoutPrototype proto, string name, LoadoutSystem loadoutSystem, out Label label, out EntityPrototypeView view)
     {
         view = new EntityPrototypeView
@@ -584,13 +602,28 @@ public sealed class LoadoutTab : BoxContainer
         };
         view.SetPrototype(proto.DummyEntity ?? loadoutSystem.GetFirstOrNull(proto));
 
-        label = new Label { Text = name, ClipText = true, HorizontalAlignment = HAlignment.Center };
+        label = new Label
+        {
+            Text = FitName(name),
+            ClipText = true,
+            HorizontalExpand = true,
+            Align = Label.AlignMode.Center,
+        };
         return new BoxContainer
         {
             Orientation = LayoutOrientation.Vertical,
             Margin = new Thickness(4),
             SeparationOverride = 2,
-            Children = { view, label },
+            Children =
+            {
+                view,
+                new BoxContainer
+                {
+                    Orientation = LayoutOrientation.Horizontal,
+                    HorizontalExpand = true,
+                    Children = { label },
+                },
+            },
         };
     }
 

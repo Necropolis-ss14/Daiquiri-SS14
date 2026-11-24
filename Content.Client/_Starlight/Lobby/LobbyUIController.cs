@@ -44,8 +44,8 @@ public sealed partial class LobbyUIController
         var window = new CharacterSetupWindow(characterGui, RequestCloseCharacterSetup)
         {
             Title = Loc.GetString("ghost-gui-character-editor-button"),
-            SetSize = new Vector2(1200, 720),
-            MinSize = new Vector2(960, 560),
+            SetSize = new Vector2(1280, 760),
+            MinSize = new Vector2(1200, 680),
         };
 
         window.Contents.AddChild(characterGui);

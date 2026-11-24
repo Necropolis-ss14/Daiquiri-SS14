@@ -1518,6 +1518,9 @@ public sealed class StyleStarlight : StyleBase
             Element<Button>().Class("ButtonColorGreen").Pseudo(ContainerButton.StylePseudoClassHover)
                 .Prop(Control.StylePropertyModulateSelf, ButtonColorGoodHovered),
 
+            Element<Button>().Class("ButtonColorGreen").Pseudo(ContainerButton.StylePseudoClassDisabled)
+                .Prop(Control.StylePropertyModulateSelf, ButtonColorGoodDefault),
+
             // Accept button (merge with green button?) ---
             Element<Button>().Class("ButtonAccept")
                 .Prop(Control.StylePropertyModulateSelf, ButtonColorGoodDefault),

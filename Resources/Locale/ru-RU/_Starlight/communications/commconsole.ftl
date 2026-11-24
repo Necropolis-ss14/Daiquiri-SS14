@@ -10,3 +10,5 @@ comms-console-announcement-title-sup = Снабжение
 comms-console-announcement-title-law = Юридическая служба
 
 comms-console-menu-shuttle-button-disabled = { $text } (недоступно)
+comms-console-announcement-title-medtak = МедТэк
+comms-console-announcement-title-news = Срочные новости

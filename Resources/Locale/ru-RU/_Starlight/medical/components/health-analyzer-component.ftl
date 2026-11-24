@@ -4,3 +4,4 @@ starlight-health-analyzer-abnormality-foreign-bodies = [bold]Инородные 
 starlight-health-analyzer-abnormality-implants = Обнаружены импланты
 starlight-health-analyzer-abnormality-sleeping = Спит
 starlight-health-analyzer-abnormality-unconscious = [bold]Без сознания[/bold]
+health-analyzer-window-entity-soft-critical-text = Предкритическое

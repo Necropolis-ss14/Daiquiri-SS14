@@ -1,1 +1,9 @@
 research-technology-combustion-turbines = Турбины сгорания
+research-technology-modular-hud-frames = Модульные HUD-оправы
+research-technology-modular-hud-modules-arsenal-t1 = Модули охранного HUD
+research-technology-modular-hud-modules-arsenal-t2 = Продвинутые модули охранного HUD
+research-technology-modular-hud-modules-civilian-t1 = Базовые гражданские модули HUD
+research-technology-modular-hud-modules-civilian-t2 = Продвинутые гражданские модули HUD
+research-technology-modular-hud-modules-industrial-t1 = Базовые промышленные модули HUD
+research-technology-modular-hud-modules-industrial-t2 = Продвинутые промышленные модули HUD
+research-technology-modular-hud-modules-medical-t2 = Медицинские модули HUD

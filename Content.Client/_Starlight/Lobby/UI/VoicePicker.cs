@@ -88,7 +88,7 @@ public sealed class VoicePicker : BoxContainer
         _tagScroll = new ScrollContainer
         {
             HScrollEnabled = false,
-            SetHeight = 64,
+            SetHeight = 96,
             Children = { _tagFilter },
         };
         AddChild(_tagScroll);
@@ -172,7 +172,6 @@ public sealed class VoicePicker : BoxContainer
             {
                 Text = tag.ToDisplayName(IoCManager.Resolve<ILocalizationManager>()),
                 ToggleMode = true,
-                StyleClasses = { StyleClass.ButtonSmall },
             };
             button.OnPressed += _ =>
             {

@@ -53,3 +53,5 @@ chat-emote-msg-blink = моргает
 
 emote-menu-bound = Эмоция {$emote} привязана к быстрому действию
 emote-menu-already-bound = Эмоция {$emote} отвязана от быстрых действий
+chat-emote-name-drool = Пускает слюни
+chat-emote-msg-drool = пускает слюни.

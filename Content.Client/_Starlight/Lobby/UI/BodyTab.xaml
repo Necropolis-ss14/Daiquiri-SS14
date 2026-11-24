@@ -4,7 +4,7 @@
             VerticalExpand="True">
     <BoxContainer Orientation="Horizontal" SeparationOverride="8" Margin="8">
         <!-- The body: a big clickable preview, the part tree, then the colors of the picked part -->
-        <PanelContainer StyleClasses="InsetPanel" SetWidth="340">
+        <PanelContainer StyleClasses="InsetPanel" SetWidth="440">
             <ScrollContainer HScrollEnabled="False" VerticalExpand="True" ReserveScrollbarSpace="True">
                 <BoxContainer Orientation="Vertical" Margin="8" SeparationOverride="8">
                     <ui:BodyPreviewControl Name="BodyPreview" />

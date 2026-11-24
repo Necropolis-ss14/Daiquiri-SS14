@@ -23,7 +23,7 @@
             <BoxContainer Orientation="Horizontal" VerticalExpand="True" SeparationOverride="0">
 
                 <!-- This box holds all the character pickers and job priority button, the left side of the window  -->
-                <BoxContainer Name="CharacterPickerPanel" Access="Public" SetWidth="340" Margin="5 0 5 0" Orientation="Vertical">
+                <BoxContainer Name="CharacterPickerPanel" Access="Public" SetWidth="380" Margin="5 0 5 0" Orientation="Vertical">
 
                     <!-- This is the box where we stuff the character picker buttons into -->
                     <ScrollContainer HorizontalExpand="True" VerticalExpand="True" HScrollEnabled="False" Margin="0 5 0 0">

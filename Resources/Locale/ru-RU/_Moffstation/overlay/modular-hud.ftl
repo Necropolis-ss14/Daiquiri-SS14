@@ -1,0 +1,42 @@
+﻿modular-hud-requirement-full-coverage = Требуется оптика, полностью закрывающая глаза
+modularhud-examine-capacity = Вмещает { $capacity ->
+  [1] [bold]один[/bold] модуль
+  *[other] [bold]{ $capacity }[/bold] модулей
+} всего.
+modularhud-examine-module-item = - [bold]{$module}[/bold]
+modularhud-examine-modules-header = Содержит:
+modularhud-examine-no-modules = Модулей нет.
+modularhud-premade-chemistry = Химический анализ
+modularhud-premade-command = Командование
+modularhud-premade-diagnostic = Диагностика
+modularhud-premade-engineering = Инженерия
+modularhud-premade-medSec = МедБез
+modularhud-premade-medchem = «Валькирия» МедХим
+modularhud-premade-medical = Медицина
+modularhud-premade-noir = Нуар-тех
+modularhud-premade-security = Безопасность
+modularhud-premade-thirst = Пиво
+modularhud-verb-insert-module = Вставить модуль
+modularhud-verb-insert-module-error-fails-requirements = Этот { $module } несовместим с { THE($hud) }.
+modularhud-verb-insert-module-error-slots-full = { CAPITALIZE(THE($hud)) } {CONJUGATE-BE($hud)} заполнен.
+modularhud-verb-insert-module-message = Вставляет { THE($module) } в { THE($hud) }.
+modularhud-verb-remove-modules = Извлечь модули
+modularhud-verb-remove-modules-error-missing-tool-quality = Для этого нужен инструмент, способный {$quality}.
+modularhud-verb-remove-modules-error-no-modules-to-remove = { CAPITALIZE(THE($hud)) } уже пуст.
+modularhud-verb-remove-modules-message = Извлекает модули из { THE($hud) }.
+moff-loadout-admin-hud = админский HUD
+moff-loadout-admin-sunglasses = админские очки
+moff-loadout-beer-hud = пивной HUD
+moff-loadout-beer-patch = пивная нашлёпка
+moff-loadout-chemistry-goggles = очки химического анализа
+moff-loadout-diagnostic-hud = диагностический HUD
+moff-loadout-diagnostic-patch = диагностическая нашлёпка
+moff-loadout-engineering-glasses = инженерные солнечные очки
+moff-loadout-engineering-goggles = инженерные очки
+moff-loadout-medical-glasses = медицинские солнечные очки
+moff-loadout-medical-hud = медицинский HUD
+moff-loadout-medical-patch = медицинская нашлёпка
+moff-loadout-noir-sunglasses = нуар-тех солнечные очки
+moff-loadout-security-hud = охранный HUD
+moff-loadout-security-patch = охранная нашлёпка
+moff-loadout-security-sunglasses = охранные солнечные очки

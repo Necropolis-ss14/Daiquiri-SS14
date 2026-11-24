@@ -12,6 +12,7 @@ public sealed partial class NullLinkPlayerRolesManager : INullLinkPlayerRolesMan
     [Dependency] private ILogManager _logManager = default!;
 
     private ImmutableHashSet<ulong> _roles = [];
+    private bool _discordLinked;
     private string? _discordLink;
     private string? _steamLink;
     private ISawmill _sawmill = default!;
@@ -27,12 +28,15 @@ public sealed partial class NullLinkPlayerRolesManager : INullLinkPlayerRolesMan
     private void Update(MsgUpdatePlayerRoles message)
     {
         _roles = message.Roles;
+        _discordLinked = message.DiscordLinked;
         _discordLink = message.DiscordLink;
         _steamLink = message.SteamLink;
 
         _sawmill.Info("Updated player roles");
         PlayerRolesChanged?.Invoke();
     }
+
+    public bool IsDiscordLinked => _discordLinked;
 
     public string? GetDiscordLink()
         => _discordLink;

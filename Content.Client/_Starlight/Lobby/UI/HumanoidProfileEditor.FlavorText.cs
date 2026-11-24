@@ -16,9 +16,9 @@ public sealed partial class HumanoidProfileEditor
 
     private void SetupTabs()
     {
-        TabContainer.SetTabTitle(0, Loc.GetString("humanoid-profile-editor-appearance-tab"));
-        TabContainer.SetTabTitle(1, Loc.GetString("humanoid-profile-editor-jobs-tab"));
-        // Starlight: the rest by control, so adding a tab doesn't shift the titles
+        TabContainer.SetTabTitle(BodyTab, Loc.GetString("humanoid-profile-editor-body-tab"));
+        TabContainer.SetTabTitle(AppearanceTab, Loc.GetString("humanoid-profile-editor-appearance-tab"));
+        TabContainer.SetTabTitle(JobsTab, Loc.GetString("humanoid-profile-editor-jobs-tab"));
         TabContainer.SetTabTitle(LoadoutTab, Loc.GetString("loadout-tab-title"));
         TabContainer.SetTabTitle(Antags, Loc.GetString("humanoid-profile-editor-antags-tab"));
         TabContainer.SetTabTitle(Traits, Loc.GetString("humanoid-profile-editor-traits-tab"));

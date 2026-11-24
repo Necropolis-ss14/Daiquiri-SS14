@@ -17,3 +17,9 @@ rattle-on-trigger-medtak-team-critical = [color= #FFFFFF]Персонал Мед
 rattle-on-trigger-medtak-team-dead = [color= #FFFFFF]Персонал МедТак {$user}[/color] погиб {$position}.
 
 rattle-on-trigger-job-unknown = Неизвестно
+rattle-on-trigger-soft-critical-message = {$user} ({$job}) получил критические ранения, требуется помощь {$position}.
+rattle-on-trigger-medtak-bronze-soft-critical = [color= #b47516]Бронзовый клиент {$user} ({$job})[/color] получил критические ранения, требуется помощь {$position}.
+rattle-on-trigger-medtak-silver-soft-critical = [color= #b2cede]Серебряный клиент {$user} ({$job})[/color] получил критические ранения, требуется помощь {$position}.
+rattle-on-trigger-medtak-gold-soft-critical = [color= #FFD700]Золотой клиент {$user} ({$job})[/color] получил критические ранения, требуется помощь {$position}.
+rattle-on-trigger-medtak-platinum-soft-critical = [color= #AFCFE6]Платиновый клиент {$user} ({$job})[/color] получил критические ранения, требуется помощь {$position}.
+rattle-on-trigger-medtak-team-soft-critical = [color= #FFFFFF]Персонал МедТэк {$user} ({$job})[/color] получил критические ранения, требуется помощь {$position}.

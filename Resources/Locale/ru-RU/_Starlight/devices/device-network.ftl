@@ -9,3 +9,5 @@ device-address-prefix-gas-mixer = ГСМ-
 device-address-prefix-gas-mixer-molar = ГСММ-
 
 device-address-prefix-air-siphon = ASP-
+device-frequency-prototype-name-medtak = МедТэк
+device-frequency-prototype-name-medtak-operators = Операторы МедТэк

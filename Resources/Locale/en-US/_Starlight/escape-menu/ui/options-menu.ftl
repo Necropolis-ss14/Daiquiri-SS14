@@ -4,6 +4,7 @@ ui-options-function-latch-struggle = Struggle (while latched)
 ui-options-function-hotbar-remove = Remove from hotbar
 ui-escape-connect-discord = Link Discord
 server-info-connect-discord-button = Link Discord
+server-info-discord-linked-button = Discord linked
 ui-escape-connect-steam = Link Steam
 server-info-connect-steam-button = Link Steam
 

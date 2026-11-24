@@ -162,3 +162,4 @@ loadout-group-gunnery-sergeant-head = Голова сержанта
 loadout-group-gunnery-sergeant-jumpsuit = Комбинезон сержанта
 loadout-group-gunnery-sergeant-outerclothing = Верхняя одежда сержанта
 loadout-group-gunnery-sergeant-neck = Шея сержанта
+loadout-group-bartender-eyewear = Очки бармена

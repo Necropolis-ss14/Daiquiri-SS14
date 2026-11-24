@@ -3,3 +3,5 @@ ooc-notes-text-placeholder = Публичные внеперсонажные (OO
 character-info-ooc-header = Внеперсонажная информация:
 character-info-ooc-notes = OOC-заметки:
 character-info-personal-notes = Личные заметки:
+character-info-ooc-hint = Заметки о вас как об игроке, а не о персонаже.
+character-info-length = Символов: {$count}

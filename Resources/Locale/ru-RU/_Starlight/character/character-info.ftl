@@ -26,3 +26,4 @@ character-info-alignment-crew = На стороне экипажа
 character-info-alignment-free-agent = Свободный агент
 character-info-faction-tsf = Транс-Солнечная Федерация
 character-info-alignment-format = [font size=12][color={$color}]{$alignment}[/color][/font]
+character-info-ic-hint = Что другие могут узнать о вашем персонаже за раунд.

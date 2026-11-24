@@ -120,7 +120,7 @@ public sealed partial class GlassThemePrompt : Control
     private void UpdateDiscordLinkButton()
     {
         if (!DiscordLinkButton.Disposed)
-            DiscordLinkButton.Visible = DiscordLink.IsAvailable;
+            DiscordLink.UpdateButton(DiscordLinkButton);
     }
 
     private void ShowWelcomePage()

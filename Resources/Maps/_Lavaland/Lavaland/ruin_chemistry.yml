@@ -265,7 +265,6 @@ entities:
     - type: GasTileOverlay
     - type: RadiationGridResistance
     - type: ImplicitRoof
-    - type: FTLDrive
 - proto: AirlockHatch
   entities:
   - uid: 2

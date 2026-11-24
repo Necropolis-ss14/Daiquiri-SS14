@@ -88,3 +88,5 @@ ghost-theme-ian-cute-desc= Чистый пёс.
 ghost-theme-skeleton-desc= Скелет.
 ghost-theme-sheet-desc= Милая простыня.
 ghost-theme-cat-desc= Милый маленький кот.
+ghost-theme-architect-theme-desc = Думаю, мне здесь нравится.
+ghost-theme-architect-theme-name = Архитектор

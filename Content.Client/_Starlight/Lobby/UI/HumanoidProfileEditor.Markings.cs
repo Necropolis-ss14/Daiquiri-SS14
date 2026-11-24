@@ -33,6 +33,9 @@ public sealed partial class HumanoidProfileEditor
         BodyTab.AddSection(Loc.GetString("humanoid-profile-editor-cybernetics-tab"), CyberneticsSection);
         BodyTab.ShowSection(SpeciesSection);
 
+        PreviewPanel.Visible = !BodyTabVisible;
+        MoveSizeRows();
+
         TabContainer.OnTabChanged += _ =>
         {
             PreviewPanel.Visible = !BodyTabVisible;

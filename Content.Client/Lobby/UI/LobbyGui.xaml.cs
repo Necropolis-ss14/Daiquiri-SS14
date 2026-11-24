@@ -80,7 +80,7 @@ namespace Content.Client.Lobby.UI
         private void UpdateDiscordLinkButton()
         {
             if (!DiscordLinkButton.Disposed)
-                DiscordLinkButton.Visible = DiscordLink.IsAvailable;
+                DiscordLink.UpdateButton(DiscordLinkButton);
         }
 
         private void OnVinylEnabledChanged(bool enabled)

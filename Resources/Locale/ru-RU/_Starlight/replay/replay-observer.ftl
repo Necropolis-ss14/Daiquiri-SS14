@@ -19,3 +19,14 @@ replay-observer-solutions-none = В нём нет растворов.
 
 replay-observer-weather-off = Погодные эффекты скрыты.
 replay-observer-weather-on = Погодные эффекты показаны.
+cmd-replay_goto-desc = Перематывает реплей на время раунда, отсчитываемое от начала раунда.
+cmd-replay_goto-help = Использование: {$command} <ч:мм:сс | мм:сс | секунды>
+replay-observer-faction-icons-off = Иконки фракций отключены.
+replay-observer-faction-icons-on = Иконки фракций включены.
+replay-observer-jump-button = Перейти
+replay-observer-jump-done = Переход к времени раунда {$time}.
+replay-observer-jump-invalid = Неверное время раунда: {$time}. Используйте ч:мм:сс, мм:сс или секунды.
+replay-observer-jump-not-replay = Реплей не воспроизводится.
+replay-observer-jump-placeholder = 1:23:45
+replay-observer-jump-tooltip = Перейти к времени раунда, например 1:23:45 или 23:45.
+replay-observer-round-time = Время раунда: {$current} / {$end}

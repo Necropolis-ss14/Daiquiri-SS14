@@ -37,7 +37,7 @@ public sealed class NoteField : PanelContainer
         HorizontalExpand = true;
         StyleClasses.Add("TraitsEntryPanel");
 
-        _title = new Label { StyleClasses = { "TraitsEntryNameLabel" }, HorizontalExpand = true };
+        _title = new Label { StyleClasses = { "TraitsEntryNameLabel" }, HorizontalExpand = true, ClipText = true };
         _count = new Label { StyleClasses = { StyleClass.LabelSubText } };
         Input = new TextEdit { MinHeight = 110, HorizontalExpand = true, VerticalExpand = true };
         Input.OnTextChanged += _ => UpdateCount();

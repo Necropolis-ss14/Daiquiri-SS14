@@ -1,5 +1,6 @@
 using System.Numerics;
 using Content.Client._NullLink;
+using Content.Client.Administration.Managers;
 using Content.Client.UserInterface.Systems.EscapeMenu;
 using Robust.Client.UserInterface;
 using Robust.Client.UserInterface.Controls;
@@ -12,9 +13,14 @@ namespace Content.Client.Info
     {
         [Dependency] private IResourceManager _resourceManager = default!;
 
+        private readonly INullLinkPlayerRolesManager _playerRoles = IoCManager.Resolve<INullLinkPlayerRolesManager>();
+        private Button? _discordButton;
+
         public RulesAndInfoWindow()
         {
             IoCManager.InjectDependencies(this);
+
+            _playerRoles.PlayerRolesChanged += UpdateDiscordLinkButton;
 
             Title = Loc.GetString("ui-info-title");
 
@@ -70,15 +76,27 @@ namespace Content.Client.Info
             var discordText = new RichTextLabel { HorizontalExpand = true };
             discordText.SetMessage(Loc.GetString("nulllink-discord-link-text"));
             discordRow.AddChild(discordText);
-            var discordButton = new Button
-            {
-                Text = Loc.GetString("server-info-connect-discord-button"),
-                Visible = DiscordLink.IsAvailable,
-            };
+            var discordButton = new Button();
+            DiscordLink.UpdateButton(discordButton);
             discordButton.OnPressed += _ => DiscordLink.Open();
+            _discordButton = discordButton;
             discordRow.AddChild(discordButton);
             discordSection.AddChild(discordRow);
             tutorialList.InfoContainer.AddChild(discordSection);
+        }
+
+        private void UpdateDiscordLinkButton()
+        {
+            if (_discordButton != null && !Disposed)
+                DiscordLink.UpdateButton(_discordButton);
+        }
+
+        protected override void Dispose(bool disposing)
+        {
+            base.Dispose(disposing);
+
+            if (disposing)
+                _playerRoles.PlayerRolesChanged -= UpdateDiscordLinkButton;
         }
 
         private static void AddSection(Info info, Control control)

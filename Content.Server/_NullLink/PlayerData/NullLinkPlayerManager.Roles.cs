@@ -75,10 +75,14 @@ public sealed partial class NullLinkPlayerManager : INullLinkPlayerManager
     }
 
     private void SendPlayerRoles(ICommonSession session, ImmutableHashSet<ulong> roles)
-    => _netMgr.ServerSendMessage(new MsgUpdatePlayerRoles
     {
-        Roles = roles,
-        DiscordLink = GetActiveDiscordAuthUrl(session.UserId.ToString()),
-        SteamLink = GetSteamAuthUrl(session.UserId.ToString()),
-    }, session.Channel);
+        _playerById.TryGetValue(session.UserId, out var playerData);
+        _netMgr.ServerSendMessage(new MsgUpdatePlayerRoles
+        {
+            Roles = roles,
+            DiscordLink = GetActiveDiscordAuthUrl(session.UserId.ToString()),
+            SteamLink = GetSteamAuthUrl(session.UserId.ToString()),
+            DiscordLinked = playerData?.DiscordId != 0,
+        }, session.Channel);
+    }
 }

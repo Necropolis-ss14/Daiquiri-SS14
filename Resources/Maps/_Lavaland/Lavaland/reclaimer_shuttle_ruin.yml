@@ -534,7 +534,6 @@ entities:
     - type: GasTileOverlay
     - type: GridPathfinding
     - type: ImplicitRoof
-    - type: FTLDrive
 - proto: AirCanister
   entities:
   - uid: 2

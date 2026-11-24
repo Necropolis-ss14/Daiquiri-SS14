@@ -37,3 +37,6 @@ ghost-important-role = [bold]Идёт поиск кандидатов на ро�
 ghost-gui-aghost-toggle-ghost-visibility-popup-on = Невидим для не-администраторов.
 ghost-gui-aghost-toggle-ghost-visibility-popup-off = Видим для не-администраторов.
 ghost-gui-toggle-lighting-manager-popup-half-bright = Полуяркий режим.
+ghost-own-sprite-always-visible = Ваш призрак настроен как всегда видимый и не может быть скрыт.
+ghost-own-sprite-hidden = Ваш призрак скрыт.
+ghost-own-sprite-shown = Ваш призрак виден.

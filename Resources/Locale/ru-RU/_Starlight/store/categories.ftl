@@ -53,3 +53,4 @@ store-category-ussp-implants = Импланты
 store-category-ussp-shuttle = Шаттлы
 store-category-ussp-war = Война
 store-category-ussp-wearables = Носимое
+store-category-evolutions-standard = Стандартные эволюции

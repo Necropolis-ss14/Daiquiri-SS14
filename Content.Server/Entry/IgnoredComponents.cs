@@ -26,7 +26,8 @@ namespace Content.Server.Entry
             "OptionsVisualizer",
             "AnomalyScannerScreen",
             "MultipartMachineGhost",
-            "SpriteQuality" // Starlight
+            "SpriteQuality", // Starlight
+            "FTLDrive" // Legacy Lavaland ruin data; no FTL component exists in this fork
         };
     }
 }

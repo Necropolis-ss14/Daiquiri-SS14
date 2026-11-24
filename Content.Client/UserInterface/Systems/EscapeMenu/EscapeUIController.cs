@@ -1,3 +1,4 @@
+using Content.Client._NullLink;
 using Content.Client._Starlight.Managers;
 using Content.Client._Starlight.UserInterface.Systems.PinWindow;
 using Content.Client.Administration.Managers;
@@ -23,6 +24,7 @@ public sealed partial class EscapeUIController : UIController, IOnStateEntered<G
 {
     [Dependency] private IClientConsoleHost _console = default!;
     [Dependency] private IClientPlayerRolesManager _player = default!;
+    [Dependency] private INullLinkPlayerRolesManager _nullLinkRoles = default!;
     [Dependency] private IUriOpener _uri = default!;
     [Dependency] private IConfigurationManager _cfg = default!;
     [Dependency] private ChangelogUIController _changelog = default!;
@@ -115,6 +117,10 @@ public sealed partial class EscapeUIController : UIController, IOnStateEntered<G
             _guidebook.ToggleGuidebook();
         };
 
+        _escapeWindow.DiscordLinkButton.OnPressed += _ => DiscordLink.Open();
+        _nullLinkRoles.PlayerRolesChanged += UpdateDiscordLinkButton;
+        UpdateDiscordLinkButton();
+
         // Hide wiki button if we don't have a link for it.
         _escapeWindow.WikiButton.Visible = _cfg.GetCVar(CCVars.InfoLinksWiki) != "";
 
@@ -126,6 +132,8 @@ public sealed partial class EscapeUIController : UIController, IOnStateEntered<G
 
     public void OnStateExited(GameplayState state)
     {
+        _nullLinkRoles.PlayerRolesChanged -= UpdateDiscordLinkButton;
+
         if (_escapeWindow != null)
         {
             _escapeWindow.Dispose();
@@ -133,6 +141,12 @@ public sealed partial class EscapeUIController : UIController, IOnStateEntered<G
         }
 
         CommandBinds.Unregister<EscapeUIController>();
+    }
+
+    private void UpdateDiscordLinkButton()
+    {
+        if (_escapeWindow != null && !_escapeWindow.Disposed)
+            DiscordLink.UpdateButton(_escapeWindow.DiscordLinkButton);
     }
 
     private void EscapeButtonOnOnPressed(ButtonEventArgs obj)

@@ -162,3 +162,7 @@ language-Penguin-description = Кар!
 
 language-Spore-name = Споры
 language-Spore-description = Общение посредством грибковых спор.
+language-Xenocongress-name = Конгресс Ксен'Кара
+language-Xenocongress-description = Коллективные голоса народа Ксен'Кара, слышимые только отправителю и его избранной Королеве.
+language-Xenoqueen-name = Слова Королевы
+language-Xenoqueen-description = Мысленный голос избранного Гласа Королевы, слышимый всем особям местного улья.

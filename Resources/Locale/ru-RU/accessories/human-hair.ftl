@@ -610,3 +610,5 @@ marking-HumanHairTerminal = Терминал
 marking-HumanHairTerminal-terminal = Основной
 marking-HumanHairTerminal-terminal_highlight = Кончики
 marking-HumanHairTerminal-terminal_headband = Повязка на голову
+marking-HumanHairOverTheShoulderBraid = Коса через плечо
+marking-HumanHairOverTheShoulderBraidAlt = Коса через плечо (альт.)

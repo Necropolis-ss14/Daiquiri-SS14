@@ -22,3 +22,5 @@ food-sequence-cotton-burger-content-plushie-sea-pancake = сиропный
 food-sequence-cotton-burger-content-plushie-seal = тюлений
 food-sequence-cotton-burger-content-plushie-dumbo-octopus = такояки
 food-sequence-cotton-burger-content-plushie-sea-sheep = лиственный
+food-sequence-cotton-burger-content-plushie-flox = флокс
+food-sequence-cotton-burger-content-plushie-eeeplet = электрический

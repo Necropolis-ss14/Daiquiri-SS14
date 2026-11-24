@@ -267,3 +267,7 @@ command-description-jobs-makeunlimited =
     Делает слот работы безлимитным.
 command-description-jobs-makelimited =
     Делает слот работы лимитным. Позволяет сбросить до 0 или до того, каким было бы мидраунд-значение.
+command-description-vv-append =
+    Добавить значение в коллекцию по пути через VV (просмотр переменных).
+command-description-vv-rmat =
+    Удалить элемент по указанному индексу из коллекции по пути через VV (просмотр переменных).

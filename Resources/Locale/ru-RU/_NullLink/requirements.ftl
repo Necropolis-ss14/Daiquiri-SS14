@@ -26,3 +26,4 @@ roles-req-developer = Разработчик
 
 triesteport-main = TRIESTEPORT
 overall = общее
+roles-req-staff-mapper = Штатный маппер

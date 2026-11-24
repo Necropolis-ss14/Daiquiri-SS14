@@ -14,6 +14,9 @@ port = 1212
 bindto = "::,0.0.0.0"
 max_connections = 256
 # upnp = true
+# Client entity messages are stamped with the client tick, so a 1-3 tick lag is normal.
+# Keep the log clean; set to true temporarily when diagnosing entity desync.
+log_late_msg = false
 
 [status]
 enabled = true

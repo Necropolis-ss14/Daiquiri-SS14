@@ -11,11 +11,13 @@ public sealed class MsgUpdatePlayerRoles : NetMessage
     public ImmutableHashSet<ulong> Roles = [];
     public string? DiscordLink;
     public string? SteamLink;
+    public bool DiscordLinked;
 
     public override void ReadFromBuffer(NetIncomingMessage buffer, IRobustSerializer serializer)
     {
         DiscordLink = buffer.ReadString();
         SteamLink = buffer.ReadString();
+        DiscordLinked = buffer.ReadBoolean();
 
         var length = buffer.ReadVariableInt32();
         var roles = new HashSet<ulong>(length);
@@ -29,6 +31,7 @@ public sealed class MsgUpdatePlayerRoles : NetMessage
     {
         buffer.Write(DiscordLink);
         buffer.Write(SteamLink);
+        buffer.Write(DiscordLinked);
 
         buffer.WriteVariableInt32(Roles.Count);
         foreach (var role in Roles)
