@@ -168,15 +168,13 @@ public static class Program
 
         lock (Pending)
         {
-            if (Pending.TryGetValue(guid, out var created))
+            if (Pending.Count > 10000)
             {
-                if (DateTime.UtcNow - created >= TimeSpan.FromMinutes(15))
-                    return null;
+                var cutoff = DateTime.UtcNow - TimeSpan.FromHours(1);
+                foreach (var key in Pending.Where(x => x.Value < cutoff).Select(x => x.Key).ToList())
+                    Pending.Remove(key);
             }
-            else
-            {
-                Pending[guid] = DateTime.UtcNow;
-            }
+            Pending[guid] = DateTime.UtcNow;
         }
 
         return guid;
