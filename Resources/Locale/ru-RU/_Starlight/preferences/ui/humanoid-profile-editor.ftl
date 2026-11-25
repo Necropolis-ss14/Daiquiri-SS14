@@ -70,7 +70,7 @@ tts-tag-soft = Мягкий
 tts-tag-squalky = Визгливый
 
 humanoid-profile-editor-species-loadout-select = Выбрать снаряжение вида
-humanoid-profile-editor-body-tab = Раса
+humanoid-profile-editor-body-tab = Тело
 humanoid-profile-editor-height = Рост
 humanoid-profile-editor-height-unit = см
 humanoid-profile-editor-weight = Вес

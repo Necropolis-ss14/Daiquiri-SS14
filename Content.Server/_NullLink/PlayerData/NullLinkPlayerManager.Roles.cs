@@ -19,6 +19,13 @@ public sealed partial class NullLinkPlayerManager : INullLinkPlayerManager
         playerData.SyncRoles(ev);
         playerData.DiscordId = ev.DiscordId;
 
+        if (ev.DiscordId != 0)
+        {
+            var linkedSession = _playerManager.GetSessionById(new NetUserId(ev.Player));
+            if (linkedSession is not null)
+                CloseDiscordPrompt(linkedSession);
+        }
+
         MentorCheck(ev.Player, playerData);
         AdminCheck(ev.Player, playerData);
 
@@ -45,7 +52,7 @@ public sealed partial class NullLinkPlayerManager : INullLinkPlayerManager
         {
             var session = _playerManager.GetSessionById(player);
             if (session is not null)
-                OnDiscordPromptClosed(session);
+                CloseDiscordPrompt(session);
         }
 
         SendPlayerRoles(playerData.Session, playerData.Roles);

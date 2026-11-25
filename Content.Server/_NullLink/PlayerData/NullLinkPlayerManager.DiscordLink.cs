@@ -9,12 +9,12 @@ public sealed partial class NullLinkPlayerManager
 {
     [Dependency] private EuiManager _euiManager = default!;
 
-    private readonly HashSet<ICommonSession> _discordPromptOpen = [];
+    private readonly Dictionary<ICommonSession, DiscordLinkEui> _discordPromptOpen = [];
 
     // ask the cluster for the live link state and nudge the player if no discord is tied to the account
     private void CheckDiscordLink(ICommonSession session)
     {
-        if (_discordPromptOpen.Contains(session))
+        if (_discordPromptOpen.ContainsKey(session))
             return;
 
         var url = GetActiveDiscordAuthUrl(session.UserId.ToString());
@@ -42,14 +42,21 @@ public sealed partial class NullLinkPlayerManager
 
     private void OpenDiscordPrompt(ICommonSession session, string url)
     {
-        if (session.Status == SessionStatus.Disconnected || !_discordPromptOpen.Add(session))
+        if (session.Status == SessionStatus.Disconnected || _discordPromptOpen.ContainsKey(session))
             return;
 
         var eui = new DiscordLinkEui(this, url);
+        _discordPromptOpen[session] = eui;
         _euiManager.OpenEui(eui, session);
         eui.StateDirty();
     }
 
     internal void OnDiscordPromptClosed(ICommonSession session)
         => _discordPromptOpen.Remove(session);
+
+    internal void CloseDiscordPrompt(ICommonSession session)
+    {
+        if (_discordPromptOpen.Remove(session, out var eui))
+            _euiManager.CloseEui(eui);
+    }
 }
