@@ -1,6 +1,8 @@
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
 using Content.Shared.Storage;
 using Robust.Shared.Network;
-using Robust.Shared.Prototypes;
+using Robust.Shared.Serialization.TypeSerializers.Implementations.Generic;
 
 namespace Content.Server.Holiday.Christmas;
 
@@ -18,24 +20,24 @@ public sealed partial class LimitedItemGiverComponent : Component
     /// <summary>
     /// Selects what entities can be given out by the giver.
     /// </summary>
-    [DataField(required: true)]
+    [DataField("spawnEntries", required: true)]
     public List<EntitySpawnEntry> SpawnEntries = default!;
 
     /// <summary>
     /// The (localized) message shown upon receiving something.
     /// </summary>
-    [DataField(required: true)]
-    public LocId ReceivedPopup = default!;
+    [DataField("receivedPopup", required: true)]
+    public string ReceivedPopup = default!;
 
     /// <summary>
     /// The (localized) message shown upon being denied.
     /// </summary>
-    [DataField(required: true)]
-    public LocId DeniedPopup = default!;
+    [DataField("deniedPopup", required: true)]
+    public string DeniedPopup = default!;
 
     /// <summary>
     /// The holiday required for this giver to work, if any.
     /// </summary>
-    [DataField]
-    public ProtoId<HolidayPrototype>? RequiredHoliday;
+    [DataField("requiredHoliday"), ViewVariables(VVAccess.ReadWrite)]
+    public string? RequiredHoliday = null;
 }

@@ -1,4 +1,6 @@
-﻿using Content.Server.Hands.Systems;
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
+using Content.Server.Hands.Systems;
 using Content.Server.Popups;
 using Content.Shared.Interaction;
 using Content.Shared.Storage;
@@ -11,9 +13,9 @@ namespace Content.Server.Holiday.Christmas;
 /// </summary>
 public sealed partial class LimitedItemGiverSystem : EntitySystem
 {
-    [Dependency] private HandsSystem _hands = default!;
-    [Dependency] private HolidaySystem _holiday = default!;
-    [Dependency] private PopupSystem _popup = default!;
+    [Dependency] private readonly HandsSystem _hands = default!;
+    [Dependency] private readonly HolidaySystem _holiday = default!;
+    [Dependency] private readonly PopupSystem _popup = default!;
     /// <inheritdoc/>
     public override void Initialize()
     {
