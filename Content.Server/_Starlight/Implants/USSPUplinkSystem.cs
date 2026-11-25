@@ -1,6 +1,7 @@
 using Content.Shared.Revolutionary.Components;
 using Content.Server.Store.Systems;
 using Content.Shared.Implants;
+using Content.Shared.Implants.Components;
 using Content.Shared.Store.Components;
 using Content.Shared.FixedPoint;
 using Content.Server.Popups;
@@ -28,6 +29,8 @@ public sealed partial class USSPUplinkSystem : EntitySystem
         base.Initialize();
         SubscribeLocalEvent<StoreBuyFinishedEvent>(OnStoreBuyFinished);
         SubscribeLocalEvent<USSPUplinkImplantComponent, ImplantImplantedEvent>(OnImplantImplanted);
+        SubscribeLocalEvent<USSPUplinkImplantComponent, OpenUplinkImplantEvent>(OnUplinkOpen,
+            before: new[] { typeof(StoreSystem) });
         SubscribeLocalEvent<RemoteStoreComponent, AfterActivatableUIOpenEvent>(OnRemoteUiOpen);
         SubscribeLocalEvent<RoundEndSystemChangedEvent>(OnRoundEnd);
     }
@@ -126,6 +129,15 @@ public sealed partial class USSPUplinkSystem : EntitySystem
         var conversions = storeComp.Balance.GetValueOrDefault("Conversion", FixedPoint2.Zero);
         _popup.PopupEntity(Loc.GetString("ussp-uplink-implanted", ("telebonds", telebonds), ("converted", 0), ("conversions", conversions)),
             args.Implanted, args.Implanted, PopupType.Medium);
+    }
+
+    private void OnUplinkOpen(Entity<USSPUplinkImplantComponent> ent, ref OpenUplinkImplantEvent args)
+    {
+        if (!TryComp<RemoteStoreComponent>(ent.Owner, out var remote))
+            return;
+
+        if (remote.Store == null)
+            TryBindRevolutionaryStore((ent.Owner, remote), args.Performer);
     }
 
     /// <summary>

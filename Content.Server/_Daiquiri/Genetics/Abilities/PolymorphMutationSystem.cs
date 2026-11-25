@@ -8,6 +8,7 @@ using Robust.Shared.Utility;
 using Robust.Shared.Serialization;
 
 using Content.Shared.Humanoid;
+using Content.Shared.Polymorph;
 using Content.Shared._Daiquiri.Genetics.Abilities;
 using Content.Shared._Daiquiri.Genetics.Mutations;
 using Content.Server.Polymorph.Components;
@@ -35,9 +36,21 @@ public sealed partial class PolymorphMutationSystem : EntitySystem
             return;
 
         var target = args.Target.Owner;
-        if (!_humanoidQuery.TryComp(target, out var humanoid) ||
-            !ent.Comp.Prototypes.TryGetValue(humanoid.Species, out var proto))
-            return; // people/monkeys/kobolds only!
+        ProtoId<PolymorphPrototype> proto;
+
+        if (_humanoidQuery.TryComp(target, out var humanoid) &&
+            ent.Comp.Prototypes.TryGetValue(humanoid.Species, out var mapped))
+        {
+            proto = mapped;
+        }
+        else
+        {
+            using var enumerator = ent.Comp.Prototypes.Values.GetEnumerator();
+            if (!enumerator.MoveNext())
+                return;
+
+            proto = enumerator.Current;
+        }
 
         if (_polymorph.PolymorphEntity(target, proto) == null)
             return;
