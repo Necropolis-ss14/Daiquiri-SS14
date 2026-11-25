@@ -12,10 +12,10 @@ namespace Content.Shared._Daiquiri.Xeno.FaceHugger;
 
 public sealed partial class FaceHuggerSystem : EntitySystem
 {
-    [Dependency] private readonly InventorySystem _inventory = default!;
-    [Dependency] private readonly StatusEffectsSystem _status = default!;
-    [Dependency] private readonly SharedStunSystem _stun = default!;
-    [Dependency] private readonly SleepingSystem _sleeping = default!;
+    [Dependency] private InventorySystem _inventory = default!;
+    [Dependency] private StatusEffectsSystem _status = default!;
+    [Dependency] private SharedStunSystem _stun = default!;
+    [Dependency] private SleepingSystem _sleeping = default!;
 
     public override void Initialize()
     {

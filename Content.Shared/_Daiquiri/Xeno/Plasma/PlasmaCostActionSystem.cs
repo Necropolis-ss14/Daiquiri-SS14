@@ -5,7 +5,7 @@ namespace Content.Shared._Daiquiri.Xeno.Plasma;
 
 public sealed partial class PlasmaCostActionSystem : EntitySystem
 {
-    [Dependency] private readonly SharedPlasmaSystem _plasma = default!;
+    [Dependency] private SharedPlasmaSystem _plasma = default!;
 
     public override void Initialize()
     {

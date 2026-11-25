@@ -6,7 +6,7 @@ namespace Content.Shared._Daiquiri.Genetics.Hulk;
 
 public sealed partial class HulkPushSystem : EntitySystem
 {
-    [Dependency] private readonly ThrowingSystem _throwing = default!;
+    [Dependency] private ThrowingSystem _throwing = default!;
 
     public override void Initialize()
     {
