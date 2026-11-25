@@ -25,9 +25,17 @@ public static class DiscordLink
         button.Text = Loc.GetString(linked ? "server-info-discord-linked-button" : "server-info-connect-discord-button");
 
         if (linked)
+        {
+            button.ModulateSelfOverride = StyleNano.ButtonColorGoodDefault;
             button.AddStyleClass(StyleNano.StyleClassButtonColorGreen);
+            button.RemoveStyleClass(StyleNano.StyleClassButtonColorRed);
+        }
         else
+        {
+            button.ModulateSelfOverride = StyleNano.ButtonColorDefaultRed;
+            button.AddStyleClass(StyleNano.StyleClassButtonColorRed);
             button.RemoveStyleClass(StyleNano.StyleClassButtonColorGreen);
+        }
     }
 
     private static string? GetLink()
