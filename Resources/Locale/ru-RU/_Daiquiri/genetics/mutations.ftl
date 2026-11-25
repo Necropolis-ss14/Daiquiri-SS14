@@ -600,6 +600,9 @@ ent-MutationMutatorUnstableDna = мутатор
 ent-MutationMutatorWebbingProduction = мутатор
     .desc = Одноразовый инъектор мутагена, содержащий готовую мутацию.
     .suffix = Производство паутины
+ent-MutationMutatorHarpyWings = мутатор
+    .desc = Одноразовый инъектор мутагена, содержащий готовую мутацию.
+    .suffix = Крылья гарпии
 
 ent-ComputerGeneticsConsoleEmpty = генетический консоль
     .desc = Отсюда можно исследовать тайны ДНК!

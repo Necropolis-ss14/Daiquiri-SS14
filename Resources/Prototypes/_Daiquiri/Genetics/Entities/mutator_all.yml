@@ -665,3 +665,12 @@
   - type: Mutator
     mutations:
     - MutationWebbingProduction
+
+- type: entity
+  parent: GeneticsMutator
+  id: MutationMutatorHarpyWings
+  suffix: HarpyWings
+  components:
+  - type: Mutator
+    mutations:
+    - MutationHarpyWings
