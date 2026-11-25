@@ -251,6 +251,8 @@
   parent: BaseMobAlien
   id: MobAlienPraetorian
   components:
+  - type: Climbing
+    canClimb: false
   - type: Sprite
     drawdepth: Mobs
     sprite: _Daiquiri/Xeno/Mobs/Aliens/alienpraetorian.rsi
@@ -317,6 +319,8 @@
   parent: BaseMobAlien
   id: MobAlienQueen
   components:
+  - type: Climbing
+    canClimb: false
   - type: Tag
     tags:
     - FootstepSound
@@ -356,7 +360,7 @@
       fix1:
         shape:
           !type:PhysShapeCircle
-          radius: 0.64
+          radius: 0.45
         density: 1500
         mask:
         - MobMask

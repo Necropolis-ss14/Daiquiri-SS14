@@ -73170,11 +73170,6 @@ entities:
     - type: Transform
       parent: 2
       pos: 25.5,40.5
-  - uid: 11618
-    components:
-    - type: Transform
-      parent: 2
-      pos: -56.5,-25.5
   - uid: 11619
     components:
     - type: Transform

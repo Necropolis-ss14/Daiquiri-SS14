@@ -5,6 +5,7 @@
   parent: [SimpleSpaceMobBase, BaseSlicingRefinable ] #Starlight
   description: They mostly come at night. Mostly.
   components:
+  - type: XenomorphShoveTracker
   # Starlight-start: Languages
   - type: LanguageSpeaker
   - type: LanguageKnowledge
@@ -20,6 +21,7 @@
   - type: ThermalVision
   - type: Insulated
   - type: CombatMode
+    canDisarm: true
   - type: InputMover
   - type: MobMover
   - type: HTN
@@ -85,7 +87,7 @@
       - ReagentId: FluorosulfuricAcid
         Quantity: 1300
   - type: MeleeWeapon
-    altDisarm: false
+    altDisarm: true
     angle: 0
     soundHit:
      collection: AlienClaw
@@ -145,6 +147,8 @@
   parent: MobXeno
   id: MobXenoPraetorian
   components:
+  - type: Climbing
+    canClimb: false
   - type: Sprite
     drawdepth: Mobs
     sprite: Mobs/Aliens/Xenos/praetorian.rsi
@@ -215,6 +219,8 @@
   parent: MobXeno
   id: MobXenoQueen
   components:
+  - type: Climbing
+    canClimb: false
   # Starlight-start: Languages
   - type: LanguageSpeaker
   - type: LanguageKnowledge
@@ -506,8 +512,13 @@
   parent: [SimpleSpaceMobBase, BaseSlicingRefinable ] #Starlight
   id: MobXenoLonePraetorianNoGhost
   components:
+  - type: Xeno
+  - type: XenomorphShoveTracker
+  - type: Climbing
+    canClimb: false
   - type: Insulated
   - type: CombatMode
+    canDisarm: true
   - type: InputMover
   - type: MobMover
   - type: HTN
@@ -540,7 +551,7 @@
       - ReagentId: FluorosulfuricAcid
         Quantity: 600
   - type: MeleeWeapon
-    altDisarm: false
+    altDisarm: true
     angle: 0
     soundHit:
      collection: AlienClaw

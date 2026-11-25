@@ -30718,11 +30718,6 @@ entities:
     - type: Transform
       parent: 2
       pos: 21.5,33.5
-  - uid: 5214
-    components:
-    - type: Transform
-      parent: 2
-      pos: 21.5,33.5
   - uid: 5215
     components:
     - type: Transform
