@@ -141,6 +141,6 @@
       sprite: _Starlight/Mobs/Customization/GhostThemes/ghosts.rsi
       state: ghost-architect
   requirements:
-  - !type:DiscordRolesRequirement
-    requirement: StaffMapperReq
+  - !type:AdminFlagRequirement
+    flag: Adminhelp
   category: Staff
