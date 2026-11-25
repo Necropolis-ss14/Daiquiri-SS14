@@ -73,134 +73,138 @@
     graph: ChairSL
     node: chairOfficeSleek
 
-#Comfy Chair Gray (Basic/Default)
+#region Comfy Chair
 - type: entity
   name: удобное кресло
-  suffix: Gray
-  id: ComfyChair
+  id: BaseComfyChair
   parent: ChairBase
-  description: Выглядит удобно.
+  abstract: true
+  description: Выглядит удобно. Поставьте несколько рядом — получится диван.
   components:
   - type: Sprite
     sprite: _Starlight/Structures/Furniture/Chairs/comfy_chair.rsi
-    layers:
-    - state: base
-      color: "#767e82"
     noRot: true
   - type: Icon
     sprite: _Starlight/Structures/Furniture/Chairs/comfy_chair.rsi
-    state: base
+    state: comfy_0
+  - type: IconSmooth
+    mode: Linear
+    base: comfy_
+    linearCorners: true
+
+- type: entity
+  suffix: Gray
+  id: ComfyChair
+  parent: BaseComfyChair
+  components:
+  - type: Sprite
+    layers:
+    - state: comfy_0
+      color: "#767e82"
+  - type: IconSmooth
+    key: ComfyChair
   - type: Construction
     graph: Seat
     node: chairComfy
 
-#Comfy Chair White
 - type: entity
-  name: удобное кресло
   suffix: White
   id: ComfyChairWhite
-  parent: ChairBase
-  description: Выглядит удобно.
+  parent: BaseComfyChair
   components:
   - type: Sprite
-    sprite: _Starlight/Structures/Furniture/Chairs/comfy_chair.rsi
     layers:
-    - state: base
+    - state: comfy_0
       color: "#ebebeb"
-    noRot: true
-  - type: Icon
-    sprite: _Starlight/Structures/Furniture/Chairs/comfy_chair.rsi
-    state: base
+  - type: IconSmooth
+    key: ComfyChairWhite
   - type: Construction
     graph: ChairSL
     node: chairComfyWhite
 
-#Comfy Chair Blue
 - type: entity
-  name: удобное кресло
   suffix: Blue
   id: ComfyChairBlue
-  parent: ChairBase
-  description: Выглядит удобно.
+  parent: BaseComfyChair
   components:
   - type: Sprite
-    sprite: _Starlight/Structures/Furniture/Chairs/comfy_chair.rsi
     layers:
-    - state: base
+    - state: comfy_0
       color: "#334e6d"
-    noRot: true
-  - type: Icon
-    sprite: _Starlight/Structures/Furniture/Chairs/comfy_chair.rsi
-    state: base
+  - type: IconSmooth
+    key: ComfyChairBlue
   - type: Construction
     graph: ChairSL
     node: chairComfyBlue
 
-#Comfy Chair Red
 - type: entity
-  name: удобное кресло
   suffix: Red
   id: ComfyChairRed
-  parent: ChairBase
-  description: Выглядит удобно.
+  parent: BaseComfyChair
   components:
   - type: Sprite
-    sprite: _Starlight/Structures/Furniture/Chairs/comfy_chair.rsi
     layers:
-    - state: base
+    - state: comfy_0
       color: "#8c4141"
-    noRot: true
-  - type: Icon
-    sprite: _Starlight/Structures/Furniture/Chairs/comfy_chair.rsi
-    state: base
+  - type: IconSmooth
+    key: ComfyChairRed
   - type: Construction
     graph: ChairSL
     node: chairComfyRed
 
-#Comfy Chair Green
 - type: entity
-  name: удобное кресло
   suffix: Green
   id: ComfyChairGreen
-  parent: ChairBase
-  description: Выглядит удобно.
+  parent: BaseComfyChair
   components:
   - type: Sprite
-    sprite: _Starlight/Structures/Furniture/Chairs/comfy_chair.rsi
     layers:
-    - state: base
+    - state: comfy_0
       color: "#3c9950"
-    noRot: true
-  - type: Icon
-    sprite: _Starlight/Structures/Furniture/Chairs/comfy_chair.rsi
-    state: base
+  - type: IconSmooth
+    key: ComfyChairGreen
   - type: Construction
     graph: ChairSL
     node: chairComfyGreen
 
-#Comfy Chair Brown
 - type: entity
-  name: удобное кресло
   suffix: Brown
   id: ComfyChairBrown
-  parent: ChairBase
-  description: Выглядит удобно.
+  parent: BaseComfyChair
   components:
   - type: Sprite
-    sprite: _Starlight/Structures/Furniture/Chairs/comfy_chair.rsi
     layers:
-    - state: base
+    - state: comfy_0
       color: "#6e594f"
-    noRot: true
-  - type: Icon
-    sprite: _Starlight/Structures/Furniture/Chairs/comfy_chair.rsi
-    state: base
+  - type: IconSmooth
+    key: ComfyChairBrown
   - type: Construction
     graph: ChairSL
     node: chairComfyBrown
 
 - type: entity
-  name: кресло из карпа
+  suffix: Xeno
+  id: ComfyChairXeno
+  parent: BaseComfyChair
+  components:
+  - type: Sprite
+    sprite: _Starlight/Structures/Furniture/Chairs/comfy_chair_xeno.rsi
+    noRot: true
+    layers:
+    - state: comfy_0
+  - type: Icon
+    sprite: _Starlight/Structures/Furniture/Chairs/comfy_chair_xeno.rsi
+    state: comfy_0
+  - type: IconSmooth
+    key: ComfyChairXeno
+  - type: Construction
+    graph: ChairSL
+    node: chairComfyXeno
+
+#endregion
+
+- type: entity
+  name: carp chair
   id: ChairCarp
   parent: SeatBase
   description: "Роскошный стул: множество фиолетовых чешуек отражают свет самым приятным образом."
