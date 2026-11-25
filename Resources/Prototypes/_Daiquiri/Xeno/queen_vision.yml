@@ -1,0 +1,40 @@
+- type: entity
+  parent: BaseAction
+  id: ActionXenoQueenHiveVision
+  name: Глаз улья
+  description: Спавнит фиолетовое око у королевы и показывает список всех живых ксеноморфов. Выберите ксеноморфа, чтобы смотреть его глазами. Повторное нажатие выходит из режима.
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Action
+    checkCanInteract: false
+    icon: { sprite: Interface/Actions/actions_borg.rsi, state: xenoborg-eye-module }
+  - type: InstantAction
+    event: !type:XenoQueenHiveVisionEvent
+
+- type: entity
+  parent:
+  - Incorporeal
+  - BaseMob
+  id: XenoQueenEye
+  name: Око улья
+  description: Фиолетовое око, через которое королева смотрит на улей.
+  categories: [ HideSpawnMenu ]
+  suffix: DO NOT MAP
+  components:
+  - type: NoFTL
+  - type: Eye
+    pvsScale: 1.5
+  - type: StationAiOverlay
+    allowCrossGrid: true
+  - type: Visibility
+    layer: 32768
+  - type: Sprite
+    sprite: _Starlight/Mobs/Net/net_eye.rsi
+    color: "#8A2BE2"
+    layers:
+    - map: [ "base" ]
+      state: enemy
+      shader: unshaded
+  - type: Tag
+    tags:
+    - CantInteract

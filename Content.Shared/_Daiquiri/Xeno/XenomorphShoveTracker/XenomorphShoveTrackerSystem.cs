@@ -6,7 +6,7 @@ using Robust.Shared.Timing;
 
 namespace Content.Shared._Daiquiri.Xeno.XenomorphShoveTracker;
 
-public sealed class XenomorphShoveTrackerSystem : EntitySystem
+public sealed partial class XenomorphShoveTrackerSystem : EntitySystem
 {
     [Dependency] private readonly IGameTiming _timing = default!;
     [Dependency] private readonly SharedStunSystem _stun = default!;

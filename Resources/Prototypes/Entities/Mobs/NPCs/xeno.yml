@@ -219,6 +219,14 @@
   parent: MobXeno
   id: MobXenoQueen
   components:
+  - type: Actions
+  - type: ActionGrant
+    actions:
+    - ActionXenoQueenHiveVision
+  - type: UserInterface
+    interfaces:
+      enum.XenoQueenHiveUiKey.Key:
+        type: XenoQueenHiveBoundUserInterface
   - type: Climbing
     canClimb: false
   # Starlight-start: Languages

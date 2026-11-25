@@ -12,7 +12,7 @@
       - state: alienegg
   - type: TimedSpawner
     prototypes:
-    - AlienEggOpenSliderSpawn
+    - MobAlienFaceHugger
     intervalSeconds: 180
     minimumEntitiesSpawned: 1
     maximumEntitiesSpawned: 1
@@ -34,7 +34,7 @@
           FoodMeatAlian:
             min: 1
             max: 2
-          MobAlienSlider:
+          MobAlienFaceHugger:
             min: 1
             max: 1
       - !type:DoActsBehavior
@@ -140,3 +140,40 @@
     damage:
       types:
         Blunt: 1
+
+- type: entity
+  parent: Clothing
+  id: MobAlienFaceHugger
+  name: лицехват
+  description: Прилипает к лицу, обездвиживает и готовит тело для нового овоморфа.
+  components:
+  - type: Sprite
+    sprite: _White/Mobs/Aliens/Xenomorphs/facehugger.rsi
+    layers:
+    - state: facehugger
+  - type: Item
+    size: Small
+  - type: Clothing
+    sprite: _White/Mobs/Aliens/Xenomorphs/facehugger.rsi
+    slots: [mask]
+  - type: StepTrigger
+    intersectRatio: 0.2
+    requiredTriggeredSpeed: 0.0
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeCircle
+          radius: 0.2
+        density: 10
+  - type: FaceHugger
+    slot: mask
+    spawnPrototype: MobAlienSlider
+  - type: VentCrawler
+  - type: IntrinsicRadioReceiver
+  - type: IntrinsicRadioTransmitter
+    channels:
+    - Alian
+  - type: ActiveRadio
+    channels:
+    - Alian

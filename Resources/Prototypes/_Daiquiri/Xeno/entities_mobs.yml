@@ -319,6 +319,14 @@
   parent: BaseMobAlien
   id: MobAlienQueen
   components:
+  - type: Actions
+  - type: ActionGrant
+    actions:
+    - ActionXenoQueenHiveVision
+  - type: UserInterface
+    interfaces:
+      enum.XenoQueenHiveUiKey.Key:
+        type: XenoQueenHiveBoundUserInterface
   - type: Climbing
     canClimb: false
   - type: Tag
@@ -452,6 +460,7 @@
   parent: BaseMobAlien
   id: MobAlienSlider
   components:
+  - type: VentCrawler
   - type: Access
     tags:
     - AlienAccess
