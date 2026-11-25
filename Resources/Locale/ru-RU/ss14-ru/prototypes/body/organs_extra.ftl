@@ -1,0 +1,40 @@
+ent-BaseOrganBrain = мозг
+ent-BaseOrganEyes = глаза
+ent-BaseOrganTongue = язык
+ent-BaseOrganAppendix = аппендикс
+ent-BaseOrganEars = уши
+ent-BaseOrganLungs = лёгкие
+ent-BaseOrganHeart = сердце
+ent-BaseOrganStomach = желудок
+ent-BaseOrganLiver = печень
+ent-BaseOrganKidneys = почки
+
+ent-OrganXenoBrain = ксеноморфский мозг
+ent-OrganXenoEyes = ксеноморфские глаза
+ent-OrganXenoTongue = ксеноморфский язык
+ent-OrganXenoAppendix = ксеноморфский аппендикс
+ent-OrganXenoEars = ксеноморфские уши
+ent-OrganXenoLungs = ксеноморфские лёгкие
+ent-OrganXenoHeart = ксеноморфское сердце
+ent-OrganXenoStomach = ксеноморфский желудок
+ent-OrganXenoLiver = ксеноморфская печень
+ent-OrganXenoKidneys = ксеноморфские почки
+
+ent-OrganNeoArachnidTongue = язык арахнида
+ent-OrganNeoAvaliTongue = язык авали
+ent-OrganNeoFelionoidTongue = язык феллиноида
+ent-OrganNeoVulpkaninTongue = язык вульпканина
+ent-OrganNeoCycloriteTongue = язык циклорита
+ent-OrganNeoDionaTongue = язык дионы
+ent-OrganNeoLagomorphTongue = язык лагоморфа
+ent-OrganNeoMothTongue = язык моты
+ent-OrganNeoReptilianTongue = язык рептилиана
+ent-OrganNeoResomiTongue = язык ресоми
+ent-OrganNeoKinTongue = язык шейдкина
+ent-OrganNeoVoxTongue = язык воркса
+
+ent-OrganHarpyLungs = лёгкие гарпии
+ent-OrganHumanBrainInfected = заражённый мозг
+ent-OrganXenomorphStomach = желудок ксеноморфа
+ent-OrganTreePlants = растение
+ent-OrganTreeSeeds = семена
