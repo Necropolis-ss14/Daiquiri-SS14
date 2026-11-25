@@ -5,6 +5,7 @@
   parent: [SimpleSpaceMobBase, BaseSlicingRefinable ] #Starlight
   description: They mostly come at night. Mostly.
   components:
+  - type: PlasmaVessel
   - type: XenomorphShoveTracker
   # Starlight-start: Languages
   - type: LanguageSpeaker
@@ -182,6 +183,10 @@
   parent: MobXeno
   id: MobXenoDrone
   components:
+  - type: Actions
+  - type: ActionGrant
+    actions:
+    - ActionXenoBuildResinNest
   - type: Sprite
     drawdepth: Mobs
     sprite: Mobs/Aliens/Xenos/drone.rsi

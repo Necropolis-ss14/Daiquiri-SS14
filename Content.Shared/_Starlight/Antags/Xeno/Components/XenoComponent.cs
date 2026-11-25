@@ -8,5 +8,5 @@ namespace Content.Shared._Starlight.Antags.Xeno.Components;
 [RegisterComponent]
 public sealed partial class XenoComponent : Component
 {
-
+    public bool OnWeed;
 }

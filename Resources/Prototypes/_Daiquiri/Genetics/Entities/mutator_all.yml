@@ -674,3 +674,30 @@
   - type: Mutator
     mutations:
     - MutationHarpyWings
+
+- type: entity
+  parent: GeneticsMutator
+  id: MutationMutatorAutotomy
+  suffix: Autotomy
+  components:
+  - type: Mutator
+    mutations:
+    - MutationAutotomy
+
+- type: entity
+  parent: GeneticsMutator
+  id: MutationMutatorDogNose
+  suffix: DogNose
+  components:
+  - type: Mutator
+    mutations:
+    - MutationDogNose
+
+- type: entity
+  parent: GeneticsMutator
+  id: MutationMutatorFireBreath
+  suffix: FireBreath
+  components:
+  - type: Mutator
+    mutations:
+    - MutationFireBreath

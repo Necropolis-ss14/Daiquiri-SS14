@@ -198,11 +198,19 @@
 
 - type: entity
   id: ResinWeed
-  components: []
+  components:
+  - type: PlasmaGainModifier
+  - type: PlaceableSurface
+    isPlaceable: true
+    placeCentered: true
 
 - type: entity
   id: ResinWeedNode
-  components: []
+  components:
+  - type: PlasmaGainModifier
+  - type: PlaceableSurface
+    isPlaceable: true
+    placeCentered: true
 
 - type: entity
   id: ShrapnelPayload

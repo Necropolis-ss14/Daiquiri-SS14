@@ -603,6 +603,22 @@ ent-MutationMutatorWebbingProduction = мутатор
 ent-MutationMutatorHarpyWings = мутатор
     .desc = Одноразовый инъектор мутагена, содержащий готовую мутацию.
     .suffix = Крылья гарпии
+ent-MutationMutatorAutotomy = мутатор
+    .desc = Одноразовый инъектор мутагена, содержащий готовую мутацию.
+    .suffix = Отторжение конечности
+ent-MutationMutatorDogNose = мутатор
+    .desc = Одноразовый инъектор мутагена, содержащий готовую мутацию.
+    .suffix = Собачий нос
+ent-MutationMutatorFireBreath = мутатор
+    .desc = Одноразовый инъектор мутагена, содержащий готовую мутацию.
+    .suffix = Огненное дыхание
+
+ent-MutationAutotomy = Отторжение конечности
+    .desc = Позволяет добровольно отделить случайную конечность.
+ent-MutationDogNose = Собачий нос
+    .desc = Ваше обоняние сравнимо с собачьим.
+ent-MutationFireBreath = Огненное дыхание
+    .desc = Древняя мутация, дающая ящерицам огненное дыхание.
 
 ent-ComputerGeneticsConsoleEmpty = генетический консоль
     .desc = Отсюда можно исследовать тайны ДНК!

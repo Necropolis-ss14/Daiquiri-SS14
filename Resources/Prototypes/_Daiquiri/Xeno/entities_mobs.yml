@@ -181,6 +181,9 @@
   parent: BaseMobAlien
   id: MobAlienSolder
   components:
+  - type: ActionGrant
+    actions:
+    - ActionXenoBuildResinNest
   - type: Sericulture
     action: ActionSpawnAlienMembran
     productionLength: 8

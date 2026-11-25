@@ -1,0 +1,18 @@
+- type: entity
+  parent: BaseAction
+  id: ActionXenoBuildResinNest
+  name: Построить смоляное гнездо
+  description: Выделяет прочную смолу и создаёт гнездо для пленника.
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Action
+    icon: { sprite: _White/Structures/Furniture/resin_nest.rsi, state: full }
+    itemIconStyle: BigAction
+    useDelay: 1
+  - type: TargetAction
+    range: 2
+  - type: WorldTargetAction
+    event: !type:SpawnEntityActionEvent
+      spawn: ResinNest
+  - type: PlasmaCostAction
+    plasmaCost: 50

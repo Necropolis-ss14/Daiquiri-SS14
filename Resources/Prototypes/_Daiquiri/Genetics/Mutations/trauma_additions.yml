@@ -1,0 +1,53 @@
+- type: entity
+  parent: BaseAction
+  id: ActionMutationAutotomy
+  name: Отторжение конечности
+  description: Позволяет добровольно отделить случайную конечность.
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Action
+    icon: { sprite: Objects/Specific/Medical/medipen.rsi, state: medipen }
+    itemIconStyle: BigAction
+  - type: InstantAction
+    event: !type:AutotomyActionEvent
+
+- type: entity
+  parent: BaseMutation
+  id: MutationAutotomy
+  name: Autotomy
+  description: Allows a creature to voluntary discard a random appendage.
+  components:
+  - type: Mutation
+    instability: 10
+  - type: ComponentMutation
+    added:
+    - type: AutotomyMutation
+  - type: ActionMutation
+    action: ActionMutationAutotomy
+
+- type: entity
+  parent: BaseMutation
+  id: MutationDogNose
+  name: Transcendent Olfaction
+  description: Your sense of smell is comparable to that of a canine.
+  components:
+  - type: Mutation
+    instability: 25
+    difficulty: 12
+    rarity: Rare
+  - type: ComponentMutation
+    added:
+    - type: Smeller
+
+- type: entity
+  parent: BaseMutation
+  id: MutationFireBreath
+  name: Fire Breath
+  description: An ancient mutation that gives lizards breath of fire.
+  components:
+  - type: Mutation
+    instability: 25
+    difficulty: 12
+    rarity: Rare
+  - type: ActionMutation
+    action: ActionReptilianFireBreath

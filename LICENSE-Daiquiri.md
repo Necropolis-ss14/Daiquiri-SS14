@@ -61,10 +61,11 @@ If you reuse only a part of this repository, check the license of that part:
 | `Content.*/_Goobstation`, `Content.*/_Lavaland` (C# files) | Goob Station | AGPL-3.0-or-later (code) |
 | `Content.*/_Adventure` (C# files) | Adventure Space | MIT (code) |
 | `Content.*/_Daiquiri/Genetics` (C# files) | Trauma Station | AGPL-3.0-or-later (code) |
+| `Content.*/_Daiquiri/Xeno/Plasma`, `Content.*/_Daiquiri/Xeno/ResinNest` (C# files) | Goob Station | AGPL-3.0-or-later (code) |
 | `Content.*/_Daiquiri` (C# files) | Daiquiri-SS14 (this fork) | AGPL-3.0-or-later (code) |
 | `Resources/**` (prototypes, maps, sprites, sounds, fonts, locale) | Space Station 14 (Space Wizards Federation) | **Content: CC BY-SA 3.0** (some CC BY-NC-SA 3.0); not MIT |
 | `Resources/**/_Starlight` (prototypes, maps, sprites, sounds, locale) | Starlight | **Content: CC BY-SA 3.0**; not MIT/AGPL |
-| `Resources/**/_Goobstation`, `Resources/**/_Lavaland` | Goob Station | Per-file: prototypes carrying `SPDX-License-Identifier: AGPL-3.0-or-later` are AGPL; media otherwise CC BY-SA 3.0 unless stated otherwise |
+| `Resources/**/_Goobstation`, `Resources/**/_Lavaland`, `Resources/**/_CorvaxGoob` | Goob Station (CorvaxGoob content) | Per-file: prototypes carrying `SPDX-License-Identifier: AGPL-3.0-or-later` are AGPL; media otherwise CC BY-SA 3.0 unless stated otherwise |
 | `Resources/**/_Adventure` | Adventure Space | Media: CC BY-SA 3.0 unless stated otherwise |
 | `Resources/**/_Daiquiri/Genetics` | Trauma Station | Prototypes: AGPL-3.0-or-later where marked; media: CC BY-SA 3.0 unless stated otherwise |
 | `Resources/**/_Trauma` | Trauma Station | Media: CC BY-SA 3.0 unless stated otherwise (per-asset license in `meta.json` / `attributions.yml`) |
@@ -266,10 +267,11 @@ Public License, версии 3.0 или новее** (`AGPL-3.0-or-later`), та
 | `Content.*/_Goobstation`, `Content.*/_Lavaland` (C#) | Goob Station | AGPL-3.0-or-later (код) |
 | `Content.*/_Adventure` (C#) | Adventure Space | MIT (код) |
 | `Content.*/_Daiquiri/Genetics` (C#) | Trauma Station | AGPL-3.0-or-later (код) |
+| `Content.*/_Daiquiri/Xeno/Plasma`, `Content.*/_Daiquiri/Xeno/ResinNest` (C#) | Goob Station | AGPL-3.0-or-later (код) |
 | `Content.*/_Daiquiri` (C#) | Daiquiri-SS14 (этот форк) | AGPL-3.0-or-later (код) |
 | `Resources/**` (прототипы, карты, спрайты, звуки, шрифты, локализация) | Space Station 14 (Space Wizards Federation) | **Контент: CC BY-SA 3.0** (часть — CC BY-NC-SA 3.0); не MIT |
 | `Resources/**/_Starlight` (прототипы, карты, спрайты, звуки, локализация) | Starlight | **Контент: CC BY-SA 3.0**; не MIT/AGPL |
-| `Resources/**/_Goobstation`, `Resources/**/_Lavaland` | Goob Station | По файлам: прототипы с `SPDX-License-Identifier: AGPL-3.0-or-later` — AGPL; медиа — CC BY-SA 3.0, если не указано иное |
+| `Resources/**/_Goobstation`, `Resources/**/_Lavaland`, `Resources/**/_CorvaxGoob` | Goob Station (контент CorvaxGoob) | По файлам: прототипы с `SPDX-License-Identifier: AGPL-3.0-or-later` — AGPL; медиа — CC BY-SA 3.0, если не указано иное |
 | `Resources/**/_Adventure` | Adventure Space | Медиа: CC BY-SA 3.0, если не указано иное |
 | `Resources/**/_Daiquiri/Genetics` | Trauma Station | Прототипы: AGPL-3.0-or-later там, где указано; медиа: CC BY-SA 3.0, если не указано иное |
 | `Resources/**/_Trauma` | Trauma Station | Медиа: CC BY-SA 3.0, если не указано иное (лицензия каждого ассета в `meta.json` / `attributions.yml`) |
