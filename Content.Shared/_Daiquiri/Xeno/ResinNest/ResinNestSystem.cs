@@ -6,8 +6,8 @@ namespace Content.Shared._Daiquiri.Xeno.ResinNest;
 
 public sealed partial class ResinNestSystem : EntitySystem
 {
-    [Dependency] private readonly StatusEffectsSystem _status = default!;
-    [Dependency] private readonly SleepingSystem _sleeping = default!;
+    [Dependency] private StatusEffectsSystem _status = default!;
+    [Dependency] private SleepingSystem _sleeping = default!;
 
     public override void Initialize()
     {

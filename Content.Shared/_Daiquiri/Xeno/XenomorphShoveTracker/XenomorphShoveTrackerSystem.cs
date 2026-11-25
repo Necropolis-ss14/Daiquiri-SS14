@@ -8,8 +8,8 @@ namespace Content.Shared._Daiquiri.Xeno.XenomorphShoveTracker;
 
 public sealed partial class XenomorphShoveTrackerSystem : EntitySystem
 {
-    [Dependency] private readonly IGameTiming _timing = default!;
-    [Dependency] private readonly SharedStunSystem _stun = default!;
+    [Dependency] private IGameTiming _timing = default!;
+    [Dependency] private SharedStunSystem _stun = default!;
 
     public override void Initialize()
     {

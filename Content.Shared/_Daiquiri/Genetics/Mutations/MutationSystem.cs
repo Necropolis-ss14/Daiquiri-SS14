@@ -22,6 +22,7 @@ using Content.Shared.Interaction.Components;
 using Content.Shared.Mobs.Systems;
 using Content.Shared.Polymorph;
 using Content.Shared.Popups;
+using Content.Shared.Sprite;
 using Content.Shared.StatusEffectNew;
 using Content.Shared.Trigger.Systems;
 using Content.Shared._Daiquiri.Genetics.Mutations;
@@ -39,6 +40,7 @@ public sealed partial class MutationSystem : CommonMutationSystem
     [Dependency] private MobStateSystem _mob = default!;
     [Dependency] private SharedContainerSystem _container = default!;
     [Dependency] private SharedPopupSystem _popup = default!;
+    [Dependency] private SharedScaleVisualsSystem _scaleVisuals = default!;
     [Dependency] private StatusEffectsSystem _status = default!;
     [Dependency] private EntityQuery<ActionComponent> _actionQuery = default!;
     [Dependency] private EntityQuery<DnaComponent> _dnaQuery = default!;
@@ -588,6 +590,9 @@ public sealed partial class MutationSystem : CommonMutationSystem
 
         var original = ent.Owner;
         var body = original;
+        var savedScale = TryComp<ScaleVisualsComponent>(original, out var scaleVisuals)
+            ? scaleVisuals.Scale
+            : (Vector2?) null;
         _resetting = true;
         try
         {
@@ -632,6 +637,9 @@ public sealed partial class MutationSystem : CommonMutationSystem
 
         AddRandomDormant(target);
         RemoveConflictingMutations(target);
+
+        if (savedScale is { } scale && Exists(body))
+            _scaleVisuals.SetSpriteScale(body, scale);
     }
 
     /// <summary>

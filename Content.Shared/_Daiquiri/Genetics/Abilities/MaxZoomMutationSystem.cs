@@ -1,12 +1,3 @@
-// SPDX-License-Identifier: AGPL-3.0-or-later
-
-using System.Numerics;
-using Robust.Shared.GameStates;
-using Robust.Shared.Network;
-using Robust.Shared.Prototypes;
-using Robust.Shared.Utility;
-using Robust.Shared.Serialization;
-
 using Content.Shared.Movement.Components;
 using Content.Shared.Movement.Systems;
 using Content.Shared._Daiquiri.Genetics.Mutations;
@@ -31,7 +22,9 @@ public sealed partial class MaxZoomMutationSystem : EntitySystem
         if (!_query.TryComp(args.Target, out var eye))
             return;
 
-        _eye.SetMaxZoom(args.Target, eye.MaxZoom * ent.Comp.Modifier, eye);
+        var maxZoom = eye.MaxZoom * ent.Comp.Modifier;
+        _eye.SetMaxZoom(args.Target, maxZoom, eye);
+        _eye.SetZoom(args.Target, maxZoom, eye: eye);
     }
 
     private void OnRemoved(Entity<MaxZoomMutationComponent> ent, ref MutationRemovedEvent args)
@@ -39,6 +32,8 @@ public sealed partial class MaxZoomMutationSystem : EntitySystem
         if (!_query.TryComp(args.Target, out var eye))
             return;
 
-        _eye.SetMaxZoom(args.Target, eye.MaxZoom / ent.Comp.Modifier, eye);
+        var maxZoom = eye.MaxZoom / ent.Comp.Modifier;
+        _eye.SetMaxZoom(args.Target, maxZoom, eye);
+        _eye.SetZoom(args.Target, maxZoom, eye: eye);
     }
 }
