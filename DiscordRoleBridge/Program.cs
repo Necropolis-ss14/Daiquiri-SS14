@@ -20,6 +20,7 @@ public static class Program
 
     private static Config _cfg = default!;
     private static HttpClient _http = default!;
+    private static string? _statusMessageId;
 
     public static async Task Main(string[] args)
     {
@@ -32,6 +33,9 @@ public static class Program
         listener.Prefixes.Add(_cfg.Listen);
         listener.Start();
         Console.WriteLine($"DiscordRoleBridge listening on {_cfg.Listen}");
+
+        if (_cfg.Status.Enabled)
+            _ = Task.Run(StatusLoopAsync);
 
         while (true)
         {
@@ -394,6 +398,181 @@ public static class Program
         return doc.RootElement.Clone();
     }
 
+    private static async Task StatusLoopAsync()
+    {
+        var status = _cfg.Status;
+        if (string.IsNullOrWhiteSpace(_cfg.Discord.BotToken) || string.IsNullOrWhiteSpace(status.ChannelId))
+        {
+            Console.WriteLine("Online status: disabled (Discord.BotToken or Status.ChannelId is not set)");
+            return;
+        }
+
+        _statusMessageId = status.MessageId;
+        if (string.IsNullOrWhiteSpace(_statusMessageId))
+            _statusMessageId = LoadStatusMessageId();
+
+        var interval = TimeSpan.FromSeconds(Math.Max(10, status.UpdateSeconds));
+        Console.WriteLine($"Online status: polling {status.ServerStatusUrl} every {interval.TotalSeconds:0} s");
+
+        while (true)
+        {
+            try
+            {
+                var data = await FetchServerStatusAsync(status.ServerStatusUrl);
+                if (data is { } online)
+                {
+                    var payload = BuildStatusPayload(online, status);
+                    if (string.IsNullOrWhiteSpace(_statusMessageId))
+                    {
+                        _statusMessageId = await CreateStatusMessageAsync(status.ChannelId, payload);
+                        SaveStatusMessageId(_statusMessageId);
+                    }
+                    else if (!await EditStatusMessageAsync(status.ChannelId, _statusMessageId, payload))
+                    {
+                        _statusMessageId = await CreateStatusMessageAsync(status.ChannelId, payload);
+                        SaveStatusMessageId(_statusMessageId);
+                    }
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine($"Online status update failed: {e.Message}");
+            }
+
+            await Task.Delay(interval);
+        }
+    }
+
+    private static async Task<ServerOnline?> FetchServerStatusAsync(string url)
+    {
+        using var response = await _http.GetAsync(url);
+        if (!response.IsSuccessStatusCode)
+            return null;
+
+        var json = await response.Content.ReadAsStringAsync();
+        using var doc = JsonDocument.Parse(json);
+        var root = doc.RootElement;
+
+        var name = root.TryGetProperty("name", out var nameProp) ? nameProp.GetString() : null;
+        var players = root.TryGetProperty("players", out var playersProp) && playersProp.TryGetInt32(out var count)
+            ? count
+            : 0;
+
+        return new ServerOnline(string.IsNullOrWhiteSpace(name) ? null : name, players);
+    }
+
+    private static object BuildStatusPayload(ServerOnline online, StatusConfig status)
+    {
+        var name = string.IsNullOrWhiteSpace(status.ServerName) ? online.Name ?? "SS14" : status.ServerName;
+        var players = status.MaxPlayers > 0
+            ? $"**{online.Players}** / {status.MaxPlayers}"
+            : $"**{online.Players}**";
+
+        return new
+        {
+            content = (string?) null,
+            embeds = new[]
+            {
+                new
+                {
+                    title = name,
+                    url = string.IsNullOrWhiteSpace(status.InviteUrl) ? null : status.InviteUrl,
+                    description = $"🟢 Онлайн: {players}",
+                    color = online.Players > 0 ? 0x57F287 : 0x95A5A6,
+                    timestamp = DateTime.UtcNow.ToString("o"),
+                    footer = new { text = "Обновляется автоматически" }
+                }
+            },
+            allowed_mentions = new { parse = Array.Empty<string>() }
+        };
+    }
+
+    private static async Task<string?> CreateStatusMessageAsync(string channelId, object payload)
+    {
+        using var request = new HttpRequestMessage(HttpMethod.Post,
+            $"https://discord.com/api/v10/channels/{channelId}/messages");
+        request.Headers.TryAddWithoutValidation("Authorization", "Bot " + _cfg.Discord.BotToken);
+        request.Content = JsonContent(payload);
+
+        using var response = await _http.SendAsync(request);
+        if (!response.IsSuccessStatusCode)
+        {
+            Console.WriteLine($"Online status: create message failed ({(int) response.StatusCode}): " +
+                              await response.Content.ReadAsStringAsync());
+            return null;
+        }
+
+        var json = await response.Content.ReadAsStringAsync();
+        using var doc = JsonDocument.Parse(json);
+        return doc.RootElement.TryGetProperty("id", out var id) ? id.GetString() : null;
+    }
+
+    private static async Task<bool> EditStatusMessageAsync(string channelId, string messageId, object payload)
+    {
+        using var request = new HttpRequestMessage(HttpMethod.Patch,
+            $"https://discord.com/api/v10/channels/{channelId}/messages/{messageId}");
+        request.Headers.TryAddWithoutValidation("Authorization", "Bot " + _cfg.Discord.BotToken);
+        request.Content = JsonContent(payload);
+
+        using var response = await _http.SendAsync(request);
+        if (response.IsSuccessStatusCode)
+            return true;
+
+        if ((int) response.StatusCode == 429)
+        {
+            var json = await response.Content.ReadAsStringAsync();
+            using var doc = JsonDocument.Parse(json);
+            var retry = doc.RootElement.TryGetProperty("retry_after", out var retryProp)
+                ? retryProp.GetDouble()
+                : 1;
+            await Task.Delay(TimeSpan.FromSeconds(Math.Clamp(retry, 1, 60)));
+            return true;
+        }
+
+        if ((int) response.StatusCode == 404)
+            return false;
+
+        Console.WriteLine($"Online status: edit message failed ({(int) response.StatusCode}): " +
+                          await response.Content.ReadAsStringAsync());
+        return true;
+    }
+
+    private static StringContent JsonContent(object payload)
+        => new(JsonSerializer.Serialize(payload, JsonOptions), Encoding.UTF8, "application/json");
+
+    private static string? LoadStatusMessageId()
+    {
+        try
+        {
+            if (!File.Exists(_cfg.Status.StatePath))
+                return null;
+
+            var json = File.ReadAllText(_cfg.Status.StatePath);
+            using var doc = JsonDocument.Parse(json);
+            return doc.RootElement.TryGetProperty("messageId", out var id) ? id.GetString() : null;
+        }
+        catch
+        {
+            return null;
+        }
+    }
+
+    private static void SaveStatusMessageId(string? messageId)
+    {
+        if (string.IsNullOrWhiteSpace(messageId))
+            return;
+
+        try
+        {
+            File.WriteAllText(_cfg.Status.StatePath,
+                JsonSerializer.Serialize(new { messageId }, JsonOptions));
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine($"Online status: failed to save state: {e.Message}");
+        }
+    }
+
     private static bool FixedTimeEqualsString(string? a, string? b)
     {
         if (string.IsNullOrEmpty(a) || string.IsNullOrEmpty(b))
@@ -442,6 +621,7 @@ public sealed class Config
     public string DataPath { get; set; } = "bridge-data.json";
     public int RoleTtlMinutes { get; set; } = 5;
     public DiscordConfig Discord { get; set; } = new();
+    public StatusConfig Status { get; set; } = new();
 }
 
 public sealed class DiscordConfig
@@ -449,7 +629,23 @@ public sealed class DiscordConfig
     public string ClientId { get; set; } = "";
     public string ClientSecret { get; set; } = "";
     public string GuildId { get; set; } = "";
+    public string BotToken { get; set; } = "";
 }
+
+public sealed class StatusConfig
+{
+    public bool Enabled { get; set; }
+    public string ServerStatusUrl { get; set; } = "http://127.0.0.1:1212/status";
+    public string ChannelId { get; set; } = "";
+    public string MessageId { get; set; } = "";
+    public int UpdateSeconds { get; set; } = 30;
+    public int MaxPlayers { get; set; }
+    public string ServerName { get; set; } = "";
+    public string InviteUrl { get; set; } = "";
+    public string StatePath { get; set; } = "online-status.json";
+}
+
+public readonly record struct ServerOnline(string? Name, int Players);
 
 public sealed class LinkEntry
 {

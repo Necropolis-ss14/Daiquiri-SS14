@@ -8,6 +8,8 @@
 2. На странице жмёт «Привязать Discord» — его кидает в Discord OAuth2.
 3. После подтверждения сервис получает Discord ID и список ролей участника и сохраняет связку с GUID игрока.
 4. Игровой сервер раз в несколько минут запрашивает роли по GUID и подставляет их в систему доната.
+5. Опционально: сервис раз в N секунд читает `/status` игрового сервера и обновляет сообщение
+   с онлайном в Discord (см. раздел «Онлайн в Discord»).
 
 ## Настройка Discord
 
@@ -44,6 +46,40 @@ secret = "СЮДА_ТОТ_ЖЕ_СЕКРЕТ_ЧТО_И_SharedSecret"
 ```
 
 `discord.secret` используется для подписи state — он должен совпадать с `SharedSecret` в `appsettings.json`.
+
+## Онлайн в Discord
+
+Сервис может держать в Discord сообщение с текущим онлайном и сам его редактировать.
+
+1. Создать бота: Discord Developer Portal → **Bot** → **Add Bot**, скопировать **Bot Token**.
+2. Пригласить бота на сервер с правом **Send Messages** (и **Read Message History** для канала).
+3. Узнать ID канала (включить Developer Mode → ПКМ по каналу → Copy Channel ID).
+4. В `appsettings.json` заполнить:
+
+```json
+"Discord": {
+  "BotToken": "ТОКЕН_БОТА"
+},
+"Status": {
+  "Enabled": true,
+  "ServerStatusUrl": "http://127.0.0.1:1212/status",
+  "ChannelId": "ID_КАНАЛА",
+  "MessageId": "",
+  "UpdateSeconds": 30,
+  "MaxPlayers": 0,
+  "ServerName": "Daiquiri-SS14",
+  "InviteUrl": "",
+  "StatePath": "online-status.json"
+}
+```
+
+- `ServerStatusUrl` — HTTP-порт игрового сервера (`http.port` в `server_config.toml`) + `/status`.
+- `MessageId` можно оставить пустым: при первом запуске сервис отправит новое сообщение
+  и сохранит его ID в `online-status.json`, чтобы после перезапуска продолжать редактировать его же.
+- `UpdateSeconds` — период обновления, минимум 10 секунд. `MaxPlayers: 0` — не показывать лимит.
+- При удалении сообщения сервис автоматически создаст новое.
+
+Если `Enabled: false` или не задан `BotToken`/`ChannelId`, функция выключена и сервис работает как раньше.
 
 ## API
 
