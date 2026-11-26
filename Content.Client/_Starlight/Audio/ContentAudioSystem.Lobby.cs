@@ -14,6 +14,8 @@ public sealed partial class ContentAudioSystem
 
     private bool _postRoundMusic;
 
+    private bool _joinedGame;
+
     private bool IsLobbyMusicExisting(LobbySoundtrackInfo info)
     {
         if (TerminatingOrDeleted(info.MusicStreamEntityUid)

@@ -82,6 +82,14 @@ public sealed partial class ContentAudioSystem
         SubscribeNetworkEvent<LobbyMusicStopEvent>(OnLobbySongStopped);
         SubscribeNetworkEvent<LobbyPlaylistChangedEvent>(OnLobbySongChanged);
         SubscribeNetworkEvent<RoundEndCancelMessageEvent>(OnRoundEndCancelMessage); // Daiquiri
+        SubscribeNetworkEvent<TickerJoinGameEvent>(OnJoinedGame);
+    }
+
+    private void OnJoinedGame(TickerJoinGameEvent ev)
+    {
+        _joinedGame = true;
+        _postRoundMusic = false;
+        EndLobbyMusic();
     }
 
     /// <summary>
@@ -101,12 +109,13 @@ public sealed partial class ContentAudioSystem
             case LobbyState:
                 var resume = CaptureLobbyResume();
                 _postRoundMusic = false;
+                _joinedGame = false;
                 StopAllAudio();
                 StartLobbyMusic(resume);
                 break;
             default:
                 // Daiquiri
-                if (!_postRoundMusic)
+                if (!_postRoundMusic || _joinedGame)
                     EndLobbyMusic();
                 break;
         }
@@ -115,6 +124,7 @@ public sealed partial class ContentAudioSystem
     private void OnLeave(object? sender, PlayerEventArgs args)
     {
         _postRoundMusic = false; // Daiquiri
+        _joinedGame = false;
         EndLobbyMusic();
         _configManager.SaveToFile();
     }
@@ -942,6 +952,12 @@ public sealed partial class ContentAudioSystem
 
     private void UpdateLobbyMusic()
     {
+        if (_joinedGame && !_postRoundMusic)
+        {
+            EndLobbyMusic();
+            return;
+        }
+
         if (_lobbySoundtrackInfo == null)
         {
             return;
