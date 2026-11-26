@@ -1,3 +1,4 @@
+using Content.Server._Daiquiri.DiscordStatus;
 using Content.Server._NullLink.Core;
 using Content.Server._NullLink.EventBus;
 using Content.Server._NullLink.PlayerData;
@@ -103,6 +104,7 @@ namespace Content.Server.Entry
         [Dependency] private INullLinkPlayerManager _nullLinkPlayerManager = default!;
 #endregion Nulllink
         [Dependency] private ServerFeedbackManager _feedbackManager = null!;
+        private DiscordOnlineStatusSystem _discordOnlineStatus = default!;
 
         public override void PreInit()
         {
@@ -159,6 +161,7 @@ namespace Content.Server.Entry
             _watchlistWebhookManager.Initialize();
             _job.Initialize();
             _rateLimit.Initialize();
+            _discordOnlineStatus = _entSys.GetEntitySystem<DiscordOnlineStatusSystem>();
 
             //🌟Starlight🌟 start
             _ttsClient.Initialize();
@@ -236,6 +239,8 @@ namespace Content.Server.Entry
 
         protected override void Dispose(bool disposing)
         {
+            _discordOnlineStatus?.MarkOffline();
+
             var dest = _cfg.GetCVar(CCVars.DestinationFile);
             if (!string.IsNullOrEmpty(dest))
             {

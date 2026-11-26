@@ -9,8 +9,14 @@ public struct WebhookEmbed
     [JsonPropertyName("title")]
     public string Title { get; set; } = "";
 
+    [JsonPropertyName("url")]
+    public string? Url { get; set; }
+
     [JsonPropertyName("description")]
     public string Description { get; set; } = "";
+
+    [JsonPropertyName("timestamp")]
+    public DateTimeOffset? Timestamp { get; set; }
 
     [JsonPropertyName("color")]
     public int Color { get; set; } = 0;

@@ -127,4 +127,35 @@ public sealed partial class CCVars
     public static readonly CVarDef<bool> DiscordNewsWebhookSendDuringRound =
         CVarDef.Create("discord.news_webhook_send_during_round", false, CVar.SERVERONLY);
 
+    /// <summary>
+    ///     URL of a Discord webhook used to keep an online player count message up to date.
+    ///     If empty, the online status message is disabled.
+    /// </summary>
+    public static readonly CVarDef<string> DiscordOnlineWebhook =
+        CVarDef.Create("discord.online_webhook", string.Empty, CVar.SERVERONLY | CVar.CONFIDENTIAL);
+
+    /// <summary>
+    ///     How often, in seconds, the online status message is refreshed.
+    /// </summary>
+    public static readonly CVarDef<float> DiscordOnlineUpdateSeconds =
+        CVarDef.Create("discord.online_update_seconds", 30f, CVar.SERVERONLY);
+
+    /// <summary>
+    ///     Title shown in the online status embed. Falls back to the server hostname.
+    /// </summary>
+    public static readonly CVarDef<string> DiscordOnlineServerName =
+        CVarDef.Create("discord.online_server_name", string.Empty, CVar.SERVERONLY);
+
+    /// <summary>
+    ///     Maximum player count shown after the online count. Zero hides the limit.
+    /// </summary>
+    public static readonly CVarDef<int> DiscordOnlineMaxPlayers =
+        CVarDef.Create("discord.online_max_players", 0, CVar.SERVERONLY);
+
+    /// <summary>
+    ///     Optional invite URL shown as the embed title link.
+    /// </summary>
+    public static readonly CVarDef<string> DiscordOnlineInvite =
+        CVarDef.Create("discord.online_invite", string.Empty, CVar.SERVERONLY);
+
 }
