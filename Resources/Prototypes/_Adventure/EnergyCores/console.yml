@@ -1,0 +1,92 @@
+- type: sourcePort
+  id: EnergyCoreSender
+  name: energy-core-port-console
+  description: energy-core-port-desc
+  defaultLinks: [ EnergyCoreReceiver ]
+
+- type: sinkPort
+  id: EnergyCoreReceiver
+  name: energy-core-port-core
+  description: energy-core-port-desc
+
+- type: entity
+  parent: BaseComputerCircuitboard
+  id: EnergyCoreCircuitboard
+  name: консоль контроля энерго-ядра
+  description: Консольная плата для консоли контроля энерго-ядра.
+  components:
+    - type: Sprite
+      state: cpu_engineering
+    - type: ComputerBoard
+      prototype: ComputerEnergyCoreControl
+
+- type: latheRecipe
+  parent: BaseGoldCircuitboardRecipe
+  id: EnergyCoreCircuitboard
+  result: EnergyCoreCircuitboard
+
+- type: entity
+  parent: BaseComputer
+  id: ComputerEnergyCoreControl
+  name: консоль контроля энерго-ядра
+  description: Консоль для контроля и мониторинга работы энерго-ядра.
+  components:
+  - type: Sprite
+    sprite: _Adventure/EnergyCores/computers.rsi
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer
+    - map: ["computerLayerKeyboard"]
+      state: generic_keyboard
+    - map: ["computerLayerScreen"]
+      state: core-screen
+    - map: ["computerLayerKeys"]
+      state: generic_keys
+    - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      state: generic_panel_open
+  - type: DeviceList
+  - type: DeviceNetwork
+    deviceNetId: Wired
+  - type: DeviceLinkSource
+    range: 10
+    ports:
+      - EnergyCoreSender
+  - type: ApcPowerReceiver
+    powerLoad: 1000
+  - type: Computer
+    board: EnergyCoreCircuitboard
+  - type: PointLight
+    radius: 1.5
+    energy: 1.6
+    color: "#b53ca1"
+  - type: ActivatableUI
+    key: enum.EnergyCoreConsoleUiKey.Key
+  - type: UserInterface
+    interfaces:
+      enum.EnergyCoreConsoleUiKey.Key:
+        type: ComputerEnergyCoreControlBoundUserInterface
+      enum.WiresUiKey.Key:
+        type: WiresBoundUserInterface
+  - type: EnergyCoreConsole
+
+- type: technology
+  id: EnergyCores
+  name: research-technology-energy-cores
+  icon:
+    sprite: _Adventure/EnergyCores/mini_core-yellow.rsi
+    state: icon
+  discipline: Industrial
+  tier: 2
+  cost: 10000
+  recipeUnlocks:
+  - EnergyCoreCircuitboard
+  - EnergyCoreHM
+  - EnergyCoreRnD
+  radioChannels:
+  - Engineering
+
+
+- type: guideEntry
+  id: EnergyCoresGuide
+  name: guide-entry-energy-cores
+  text: "/Prototypes/_Adventure/EnergyCores/EnergyCoresGB.xml"

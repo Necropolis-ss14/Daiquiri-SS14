@@ -67,6 +67,7 @@ public sealed partial class ContentAudioSystem : SharedContentAudioSystem
     private void OnRoundCleanup(RoundRestartCleanupEvent ev)
     {
         SilenceAudio();
+        SetPostRoundPlaylist();
     }
 
     private void OnProtoReload(PrototypesReloadedEventArgs obj)
@@ -105,13 +106,33 @@ public sealed partial class ContentAudioSystem : SharedContentAudioSystem
             // Reset the flag and custom track
             _useCustomPlaylist = false;
             _customFirstTrack = null;
+
+            RaiseNetworkEvent(new LobbyPlaylistChangedEvent(_lobbyPlaylist, true)); // Starlight
+        }
+        else
+        {
+            SetPostRoundPlaylist();
+        }
+    }
+
+    private void SetPostRoundPlaylist()
+    {
+        const string playlistId = "NewYear";
+
+        if (_prototypeManager.TryIndex<LobbyPlaylistPrototype>(playlistId, out var playlist)
+            && playlist.TurnOn
+            && playlist.Tracks.Count > 0)
+        {
+            var tracks = playlist.Tracks.Select(x => x.ToString()).ToList();
+            _robustRandom.Shuffle(tracks);
+            _lobbyPlaylist = tracks.ToArray();
         }
         else
         {
             _lobbyPlaylist = ShuffleLobbyPlaylist();
         }
 
-        RaiseNetworkEvent(new LobbyPlaylistChangedEvent(_lobbyPlaylist, true)); // Starlight
+        RaiseNetworkEvent(new LobbyPlaylistChangedEvent(_lobbyPlaylist, true));
     }
 
     #region Starlight

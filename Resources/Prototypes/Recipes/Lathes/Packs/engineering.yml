@@ -83,6 +83,7 @@
 - type: latheRecipePack
   id: EngineeringBoards
   recipes:
+  - EnergyCoreCircuitboard
   - ThermomachineFreezerMachineCircuitBoard
   - HellfireFreezerMachineCircuitBoard
   - PortableScrubberMachineCircuitBoard

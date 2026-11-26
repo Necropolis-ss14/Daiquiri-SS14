@@ -10,6 +10,7 @@ research-technology-advanced-powercells = Advanced Powercells
 research-technology-mechanical-compression = Mechanical Compression
 research-technology-compact-power = Compact Power
 research-technology-industrial-engineering = Industrial Engineering
+research-technology-energy-cores = Energy Cores
 research-technology-power-generation = Power Generation
 research-technology-atmospheric-tech = Atmospherics
 research-technology-shuttlecraft = Shuttlecraft

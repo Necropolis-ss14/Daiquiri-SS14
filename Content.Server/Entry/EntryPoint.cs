@@ -161,7 +161,6 @@ namespace Content.Server.Entry
             _watchlistWebhookManager.Initialize();
             _job.Initialize();
             _rateLimit.Initialize();
-            _discordOnlineStatus = _entSys.GetEntitySystem<DiscordOnlineStatusSystem>();
 
             //🌟Starlight🌟 start
             _ttsClient.Initialize();
@@ -174,6 +173,8 @@ namespace Content.Server.Entry
         public override void PostInit()
         {
             base.PostInit();
+
+            _discordOnlineStatus = _entSys.GetEntitySystem<DiscordOnlineStatusSystem>();
 
             _chatSan.Initialize();
             _chat.Initialize();

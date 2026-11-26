@@ -19,8 +19,8 @@ from five separate upstream projects:
 |---|---|---|---|
 | 1 | **Space Station 14** — Space Wizards Federation | <https://github.com/space-wizards/space-station-14> | Base game and engine content |
 | 2 | **Starlight** | <https://github.com/ss14Starlight/space-station-14> | The direct upstream fork this repository is derived from |
-| 3 | **Goob Station** | <https://github.com/Goob-Station/Goob-Station> | Content (Lavaland, xenomorphs, emotes, sprites, and more) ported into this fork |
-| 4 | **Adventure Space** (Adventure Space Nova) | <https://github.com/AdventureSpaceTeam/adventure_space_nova> | Bluespace artillery and related content ported into this fork |
+| 3 | **Goob Station** | <https://github.com/Goob-Station/Goob-Station> | Content (Lavaland, xenomorphs, emotes, sprites, ERT/death squad/CBURN suit sprites and ID card sprites, and more) ported into this fork |
+| 4 | **Adventure Space** (Adventure Space Nova) | <https://github.com/AdventureSpaceTeam/adventure_space_nova> | Bluespace artillery, energy cores and related content ported into this fork |
 | 5 | **Trauma Station** | <https://github.com/Trauma-Station/Trauma-Station> | Genetics system (DNA scanner, sequencer, mutations) and related content ported into this fork |
 
 The original license of each upstream project continues to apply to the files that
@@ -141,8 +141,8 @@ described in section 13 of the AGPL.
 
 #### 3.4 Adventure Space
 
-Code ported from Adventure Space Nova (for example the bluespace artillery system) is
-licensed under the MIT License, reproduced in the upstream repository's `LICENSE.TXT`.
+Code ported from Adventure Space Nova (for example the bluespace artillery and energy
+core systems) is licensed under the MIT License, reproduced in the upstream repository's `LICENSE.TXT`.
 Media assets from the same source follow CC BY-SA 3.0 unless their metadata says
 otherwise.
 
@@ -229,8 +229,8 @@ Daiquiri-SS14 — это контент-пак для Space Station 14 от со
 |---|---|---|---|
 | 1 | **Space Station 14** — Space Wizards Federation | <https://github.com/space-wizards/space-station-14> | Базовая игра и контент движка |
 | 2 | **Starlight** | <https://github.com/ss14Starlight/space-station-14> | Прямой upstream-форк, от которого произведён этот репозиторий |
-| 3 | **Goob Station** | <https://github.com/Goob-Station/Goob-Station> | Контент (лаваленд, ксеноморфы, эмоции, спрайты и прочее), перенесённый в этот форк |
-| 4 | **Adventure Space** (Adventure Space Nova) | <https://github.com/AdventureSpaceTeam/adventure_space_nova> | Блюспейс-артиллерия и связанный контент, перенесённые в этот форк |
+| 3 | **Goob Station** | <https://github.com/Goob-Station/Goob-Station> | Контент (лаваленд, ксеноморфы, эмоции, спрайты ОБР/эскадрона смерти/РХБЗЗ, спрайты ID-карт и прочее), перенесённый в этот форк |
+| 4 | **Adventure Space** (Adventure Space Nova) | <https://github.com/AdventureSpaceTeam/adventure_space_nova> | Блюспейс-артиллерия, энергоядра и связанный контент, перенесённые в этот форк |
 | 5 | **Trauma Station** | <https://github.com/Trauma-Station/Trauma-Station> | Генетика (ДНК-сканер, секвенатор, мутации) и связанный контент, перенесённые в этот форк |
 
 Исходная лицензия каждого upstream-проекта продолжает действовать для файлов,
@@ -341,8 +341,8 @@ Daiquiri-SS14 как сетевой сервис, вы обязаны предо
 
 #### 3.4 Adventure Space
 
-Код, перенесённый из Adventure Space Nova (например, система блюспейс-артиллерии),
-лицензирован под MIT License; текст лицензии воспроизведён в `LICENSE.TXT` upstream-
+Код, перенесённый из Adventure Space Nova (например, системы блюспейс-артиллерии и
+энергоядер), лицензирован под MIT License; текст лицензии воспроизведён в `LICENSE.TXT` upstream-
 репозитория. Медиа-ассеты из того же источника распространяются по CC BY-SA 3.0,
 если в их метаданных не указано иное.
 

@@ -1,5 +1,6 @@
 guide-entry-ss14 = Станции и смены
 guide-entry-engineering = Инженерное дело
+guide-entry-energy-cores = Энергоядра и с чем их есть
 guide-entry-construction = Строительство
 guide-entry-expandingrepairingstation = Расширение и починка станции
 guide-entry-airlock-security = Улучшение шлюзов

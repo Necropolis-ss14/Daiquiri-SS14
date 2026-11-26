@@ -1,5 +1,6 @@
 guide-entry-ss14 = Station and Shifts
 guide-entry-engineering = Engineering
+guide-entry-energy-cores = Energy Cores and How to Use Them
 guide-entry-construction = Construction
 guide-entry-expandingrepairingstation = Expanding and Repairing Stations
 guide-entry-airlock-security = Airlock Upgrades

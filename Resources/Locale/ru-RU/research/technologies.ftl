@@ -10,6 +10,7 @@ research-technology-advanced-powercells = Продвинутые батареи
 research-technology-mechanical-compression = Механическое уплотнение
 research-technology-compact-power = Компактная энергогенерация
 research-technology-industrial-engineering = Промышленная инженерия
+research-technology-energy-cores = Энергетические ядра
 research-technology-power-generation = Генерация электроэнергии
 research-technology-atmospheric-tech = Атмосферные технологии
 research-technology-shuttlecraft = Шаттлостроение

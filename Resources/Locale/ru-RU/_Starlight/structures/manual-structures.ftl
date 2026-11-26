@@ -1,5 +1,5 @@
 ent-APCAdvancedFrame = каркас продвинутого ЛКП
-ent-APCITG = ЛКП ITG
+ent-APCITG = ЛКП МТГ
 ent-AbductorAlienPad = инопланетная платформа
 ent-AbductorConsole = консоль похитителей
 ent-AbductorHumanObservationConsole = консоль наблюдения за людьми
