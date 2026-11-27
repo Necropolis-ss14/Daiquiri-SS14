@@ -219,6 +219,36 @@
   title: The Rolling Stones - Paint It Black (1966)
 
 - type: lobbyTrack
+  id: _Daiquiri_Lobby_Rock_The_Animal_-_the_house_of_the_rising_sun
+  path: /Audio/_Daiquiri/Lobby/Rock/The_Animal_-_the_house_of_the_rising_sun.ogg
+  title: The house of the Rising Sun
+
+- type: lobbyTrack
+  id: _Daiquiri_Lobby_Rock_Royal_Blood_-_Boilermaker
+  path: /Audio/_Daiquiri/Lobby/Rock/Royal_Blood_-_Boilermaker.ogg
+  title: Boilermaker
+
+- type: lobbyTrack
+  id: _Daiquiri_Lobby_Rock_David_Bowie_-_The_Man_Who_Sold_The_World
+  path: /Audio/_Daiquiri/Lobby/Rock/David_Bowie_-_The_Man_Who_Sold_The_World.ogg
+  title: The Man Who Sold The World
+
+- type: lobbyTrack
+  id: _Daiquiri_Lobby_Rock_Arctic_Monkeys_-_Crying_Lightning
+  path: /Audio/_Daiquiri/Lobby/Rock/Arctic_Monkeys_-_Crying_Lightning.ogg
+  title: Crying Lightning
+
+- type: lobbyTrack
+  id: _Daiquiri_Lobby_Rock_Muse_-_Psycho
+  path: /Audio/_Daiquiri/Lobby/Rock/Muse_-_Psycho.ogg
+  title: Psycho
+
+- type: lobbyTrack
+  id: _Daiquiri_Lobby_Rock_Europe_-_Final_Countdown
+  path: /Audio/_Daiquiri/Lobby/Rock/Europe_-_Final_Countdown.ogg
+  title: Final Countdown
+
+- type: lobbyTrack
   id: Lobby_absconditus
   path: /Audio/Lobby/absconditus.ogg
   title: Absconditus

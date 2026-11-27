@@ -85,6 +85,12 @@
   turnon: false
   tracks:
     - /Audio/_Daiquiri/Lobby/Rock/174_-_The_Rolling_Stones_-_Paint_It_Black_1966.ogg
+    - /Audio/_Daiquiri/Lobby/Rock/The_Animal_-_the_house_of_the_rising_sun.ogg
+    - /Audio/_Daiquiri/Lobby/Rock/Royal_Blood_-_Boilermaker.ogg
+    - /Audio/_Daiquiri/Lobby/Rock/David_Bowie_-_The_Man_Who_Sold_The_World.ogg
+    - /Audio/_Daiquiri/Lobby/Rock/Arctic_Monkeys_-_Crying_Lightning.ogg
+    - /Audio/_Daiquiri/Lobby/Rock/Muse_-_Psycho.ogg
+    - /Audio/_Daiquiri/Lobby/Rock/Europe_-_Final_Countdown.ogg
 
 - type: lobbyPlaylist
   id: Corvax
