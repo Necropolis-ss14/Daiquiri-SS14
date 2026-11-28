@@ -1,0 +1,3 @@
+services:
+  ss14-server:
+    mem_limit: 8g
