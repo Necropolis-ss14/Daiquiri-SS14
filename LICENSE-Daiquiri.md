@@ -70,6 +70,7 @@ If you reuse only a part of this repository, check the license of that part:
 | `Resources/**/_Daiquiri/Genetics` | Trauma Station | Prototypes: AGPL-3.0-or-later where marked; media: CC BY-SA 3.0 unless stated otherwise |
 | `Resources/**/_Trauma` | Trauma Station | Media: CC BY-SA 3.0 unless stated otherwise (per-asset license in `meta.json` / `attributions.yml`) |
 | `Resources/**/_Daiquiri` | Daiquiri-SS14 (this fork) | Own prototypes: AGPL-3.0-or-later; own media: CC BY-SA 3.0, unless stated otherwise |
+| `Resources/Maps/_Daiquiri/Eclipsestation`, `Resources/Maps/_Daiquiri/Relict*` and `Resources/Prototypes/_Daiquiri/Maps` | Server-provided Eclipse Station and Relict map content | Per-file license as stated by the original authors; CC BY-SA 3.0 unless stated otherwise |
 | `Resources/Audio/_Starlight/Effects/Experiment/*.ogg`, `Resources/Audio/_Starlight/Voice/Experiment/*.ogg` | Orsoniks ("Cargo") | Custom "Cargo License" — see [`LICENSE-Sawians.md`](LICENSE-Sawians.md) |
 
 Code and content are licensed separately: `.cs` files follow the code license of their
@@ -276,6 +277,7 @@ Public License, версии 3.0 или новее** (`AGPL-3.0-or-later`), та
 | `Resources/**/_Daiquiri/Genetics` | Trauma Station | Прототипы: AGPL-3.0-or-later там, где указано; медиа: CC BY-SA 3.0, если не указано иное |
 | `Resources/**/_Trauma` | Trauma Station | Медиа: CC BY-SA 3.0, если не указано иное (лицензия каждого ассета в `meta.json` / `attributions.yml`) |
 | `Resources/**/_Daiquiri` | Daiquiri-SS14 (этот форк) | Свои прототипы: AGPL-3.0-or-later; свои медиа: CC BY-SA 3.0, если не указано иное |
+| `Resources/Maps/_Daiquiri/Eclipsestation`, `Resources/Maps/_Daiquiri/Relict*` и `Resources/Prototypes/_Daiquiri/Maps` | Карты Eclipse Station и Relict, предоставленные сервером | Лицензия каждого файла по указанию авторов; CC BY-SA 3.0, если не указано иное |
 | `Resources/Audio/_Starlight/Effects/Experiment/*.ogg`, `Resources/Audio/_Starlight/Voice/Experiment/*.ogg` | Orsoniks («Cargo») | Отдельная «Cargo License» — см. [`LICENSE-Sawians.md`](LICENSE-Sawians.md) |
 
 Код и контент лицензируются раздельно: файлы `.cs` следуют лицензии кода по

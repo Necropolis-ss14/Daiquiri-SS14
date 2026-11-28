@@ -1,0 +1,84 @@
+- type: gameMap
+  id: RaidGoEclipse # айди прототипа вашей карты
+  mapName: 'Eclipse Station' # название карты
+  mapPath: /Maps/_Daiquiri/Eclipsestation/eclipse_station.yml # путь до файла карты
+  minPlayers: 1 # минимальное количество игроков для появления карты в голосовании
+  maxPlayers: 100 # максимально количество игроков для карты
+  stations:
+    eclipse: # айди карты, которое вы прописывали в BecomeStationComponent
+      stationProto: StandardNanotrasenStation
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: '{0} Эклипса {1}' # шаблон для названия станции в раунде
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: 'RGO' # префикс автора для карты
+        - type: StationEmergencyShuttle
+          emergencyShuttlePath: /Maps/Shuttles/emergency.yml # путь до шаттла эвакуации, который будет использоваться на этой карте
+        - type: StationJobs
+          availableJobs:
+            # service
+            HeadOfPersonnel: [ 1, 1 ] # первая цифра - количество раундстарт мест для данной роли, вторая цифра - количество мест для позднего присоединения.
+            Passenger: [ -1, -1 ]
+            ServiceWorker: [ 1, 1 ]
+            Bartender: [ 1, 1 ]
+            Botanist: [ 2, 2 ]
+            Boxer: [ 0, 0 ]
+            Chef: [ 2, 2 ]
+            Clown: [ 1, 1 ]
+            Janitor: [ 1, 1 ]
+            Mime: [ 1, 1 ]
+            Chaplain: [ 1, 1 ]
+            Librarian: [ 1, 1 ]
+            Musician: [ 1, 1 ]
+            Reporter: [ 0, 0 ]
+            # command
+            Captain: [ 1, 1 ]
+            IAA: [ 1, 1 ]
+            # engineering
+            ChiefEngineer: [ 1, 1 ]
+            AtmosphericTechnician: [ 2, 2 ]
+            StationEngineer: [ 2, 2 ]
+            TechnicalAssistant: [ 2, 2 ]
+            # medical
+            ChiefMedicalOfficer: [ 1, 1 ]
+            Paramedic: [ 1, 1 ]
+            Chemist: [ 1, 1 ]
+            MedicalDoctor: [ 2, 2 ]
+            MedicalIntern: [ 1, 1 ]
+            Psychologist: [ 0, 0 ]
+            # science
+            ResearchDirector: [ 1, 1 ]
+            Scientist: [ 2, 2 ]
+            ResearchAssistant: [ 1, 1 ]
+            Borg: [ 1, 1 ]
+            # security
+            HeadOfSecurity: [ 1, 1 ]
+            Warden: [ 1, 1 ]
+            Detective: [ 1, 1 ]
+            SecurityOfficer: [ 4, 4 ]
+            SecurityCadet: [ 2, 2 ]
+            # cargo
+            Quartermaster: [ 1, 1 ]
+            SalvageSpecialist: [ 3, 3 ]
+            CargoTechnician: [ 2, 2 ]
+            BlueShield: [ 1, 1 ]
+            Brigmedic: [ 1, 1 ]
+            StationAi: [ 1, 1 ]
+            # Our roles
+            MailTech: [ 2, 2 ]
+            GunnerySergeant: [ 1, 1 ]
+            DutyOfficer: [ 1, 1 ]
+            Performer: [ 2, 2 ]
+            Magistrate: [ 1, 1 ]
+            Roboticist: [ 2, 2 ]
+            K9: [ 1, 1 ]
+            NanotrasenCareerTrainer: [ 1, 2 ]
+            RadioHost: [ 1, 1 ]
+            Geneticist: [ 1, 1 ]
+            MiningSpecialist: [ 3, 3 ]
+            SalvageLead: [ 1, 1 ]
+            Surgeon: [ 1, 2 ]
+            NanoTrasenRepresentative: [ 1, 1 ]
+            AssistantManager: [ 1, 1 ]
+            SalvageMedic: [ 1, 1 ]
